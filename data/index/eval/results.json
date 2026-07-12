@@ -1,0 +1,821 @@
+{
+  "generated_at": "2026-07-12T15:43:53.181Z",
+  "corpus": {
+    "documents": 108,
+    "chunks": 1219
+  },
+  "model": {
+    "id": "Xenova/bge-base-zh-v1.5",
+    "revision": "71e50dc531959f9e04ebf190ea25b00261a0a186",
+    "dimension": 768
+  },
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0
+  },
+  "results": [
+    {
+      "id": "listed_company_own_underlying",
+      "query": "上市公司可以做挂钩自己本身标的的场外衍生品吗",
+      "passed": true,
+      "relevant_chunk_ids": [
+        "chunk_28c0d0f915bc9ec87dc30840",
+        "chunk_0c7f7c4369206fdb9f47cb2c",
+        "chunk_0c4cc4e6cce906d7b6a0848c",
+        "chunk_dd5e0cf4f209f503f1922951",
+        "chunk_a1b8c9fd1183820cde0c237e",
+        "chunk_44b9e9c9689e5350dd3222e6"
+      ],
+      "thresholds": {
+        "bm25_max_rank": 15,
+        "hybrid_max_rank": 10
+      },
+      "ranks": {
+        "bm25": 6,
+        "vector": 6,
+        "hybrid": 3
+      },
+      "answer_expectation": "CONDITIONAL_BY_COUNTERPARTY_AND_EFFECTIVE_DATE",
+      "answer_note": "应同时召回现行期货风险管理公司交易路径禁止、上市公司衍生品审议披露要求，以及2026年11月16日施行的更广泛禁止。回答必须区分交易对手和生效时点，不得笼统回答可以。",
+      "top_bm25": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_6b18a3c1d066ca5a84df2e85",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第十六条",
+          "article_end": "第十七条",
+          "score": 46.02044563483052
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_05d6a694054bfbb994ed4205",
+          "document_title": "证券公司场外期权业务管理办法",
+          "article_start": "第十五条",
+          "article_end": "第二十三条",
+          "score": 37.10177457563997
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_827d5c72a9679444bdeeaf73",
+          "document_title": "证券公司场外期权业务标的管理须知",
+          "article_start": "",
+          "article_end": "",
+          "score": 32.5153711480322
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_36e7a4818b18df74224e558c",
+          "document_title": "关于加强场外衍生品业务自律管理的通知",
+          "article_start": "",
+          "article_end": "",
+          "score": 31.776430091372347
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_28e152d7113627d5f87f797b",
+          "document_title": "证券公司收益互换业务管理办法",
+          "article_start": "第十七条",
+          "article_end": "第二十一条",
+          "score": 31.439759195301594
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_dd5e0cf4f209f503f1922951",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第四十七条",
+          "article_end": "第五十条",
+          "score": 27.90894199440937
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_44b9e9c9689e5350dd3222e6",
+          "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+          "article_start": "第五十二条",
+          "article_end": "第五十四条",
+          "score": 27.543161420370026
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_89b34aeafcd134691197c601",
+          "document_title": "中国证券期货市场场外衍生品交易权益类衍生品定义文件（2014年版）",
+          "article_start": "第二条",
+          "article_end": "第二条",
+          "score": 27.057927035380988
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_2d0323ccaa9f538c7e49ec5c",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第四十一条",
+          "article_end": "第四十二条",
+          "score": 26.605506477779034
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_9e10b139e2646d6d78b9b2c1",
+          "document_title": "内地与香港利率互换市场互联互通合作清算衍生品协议（2024年版）",
+          "article_start": "第五条",
+          "article_end": "第五条",
+          "score": 25.245875735605456
+        }
+      ],
+      "top_vector": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_827d5c72a9679444bdeeaf73",
+          "document_title": "证券公司场外期权业务标的管理须知",
+          "article_start": "",
+          "article_end": "",
+          "score": 0.5508765772188124
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_187ab987273e5f19cc481799",
+          "document_title": "期货风险管理公司衍生品交易业务管理规则",
+          "article_start": "第二十四条",
+          "article_end": "第二十八条",
+          "score": 0.5463422819164638
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_36e7a4818b18df74224e558c",
+          "document_title": "关于加强场外衍生品业务自律管理的通知",
+          "article_start": "",
+          "article_end": "",
+          "score": 0.5262893931477226
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_c5a2df74507a3d45f3056cfd",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第五十一条",
+          "article_end": "第五十四条",
+          "score": 0.5253632597740573
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_9430c0d464d364f423efab07",
+          "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+          "article_start": "第五十五条",
+          "article_end": "第五十八条",
+          "score": 0.5233821235799767
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_0c4cc4e6cce906d7b6a0848c",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第四十三条",
+          "article_end": "第四十六条",
+          "score": 0.519989524052107
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_dcbf0f97c5befef280be7d11",
+          "document_title": "证券公司场外期权业务管理办法",
+          "article_start": "第三十三条",
+          "article_end": "第三十八条",
+          "score": 0.5195899977095677
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_dd5e0cf4f209f503f1922951",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第四十七条",
+          "article_end": "第五十条",
+          "score": 0.5152676807704459
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_a4f053e0df785322a6404ce5",
+          "document_title": "期货公司风险管理公司业务试点指引",
+          "article_start": "第二十六条",
+          "article_end": "第二十六条",
+          "score": 0.5086185831835769
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_a1b8c9fd1183820cde0c237e",
+          "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+          "article_start": "第四十八条",
+          "article_end": "第五十一条",
+          "score": 0.5076887981380986
+        }
+      ],
+      "top_hybrid": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_827d5c72a9679444bdeeaf73",
+          "document_title": "证券公司场外期权业务标的管理须知",
+          "article_start": "",
+          "article_end": "",
+          "score": 0.032266458495966696
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_36e7a4818b18df74224e558c",
+          "document_title": "关于加强场外衍生品业务自律管理的通知",
+          "article_start": "",
+          "article_end": "",
+          "score": 0.03149801587301587
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_dd5e0cf4f209f503f1922951",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第四十七条",
+          "article_end": "第五十条",
+          "score": 0.029857397504456328
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_0c4cc4e6cce906d7b6a0848c",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第四十三条",
+          "article_end": "第四十六条",
+          "score": 0.02904040404040404
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_44b9e9c9689e5350dd3222e6",
+          "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+          "article_start": "第五十二条",
+          "article_end": "第五十四条",
+          "score": 0.02900988017658188
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_187ab987273e5f19cc481799",
+          "document_title": "期货风险管理公司衍生品交易业务管理规则",
+          "article_start": "第二十四条",
+          "article_end": "第二十八条",
+          "score": 0.02878726010616578
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_05d6a694054bfbb994ed4205",
+          "document_title": "证券公司场外期权业务管理办法",
+          "article_start": "第十五条",
+          "article_end": "第二十三条",
+          "score": 0.028629032258064516
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_c5a2df74507a3d45f3056cfd",
+          "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+          "article_start": "第五十一条",
+          "article_end": "第五十四条",
+          "score": 0.028612012987012988
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_6b18a3c1d066ca5a84df2e85",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第十六条",
+          "article_end": "第十七条",
+          "score": 0.028588564574170333
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_9430c0d464d364f423efab07",
+          "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+          "article_start": "第五十五条",
+          "article_end": "第五十八条",
+          "score": 0.02854251012145749
+        }
+      ]
+    },
+    {
+      "id": "broker_snowball_note",
+      "query": "券商收益凭证可以做雪球吗",
+      "passed": true,
+      "relevant_chunk_ids": [
+        "chunk_1881f87781997f9aca794f2c",
+        "chunk_9e383080e0f46ccbe65906c1",
+        "chunk_5e353714e9e66c0715c70173"
+      ],
+      "thresholds": {
+        "bm25_max_rank": 10,
+        "hybrid_max_rank": 10
+      },
+      "ranks": {
+        "bm25": 4,
+        "vector": 1,
+        "hybrid": 3
+      },
+      "answer_expectation": "QUALIFIED_OR_INSUFFICIENT",
+      "answer_note": "应召回浮动收益凭证的衍生品资格、挂钩标的、损失约束、专业投资者、内嵌衍生品风控条文；通用规则未直接列明雪球，不得回答任意雪球结构均可发行。",
+      "top_bm25": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_310ab5ac7b147f93498331ce",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第三十三条",
+          "article_end": "第三十六条",
+          "score": 28.64723401034909
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_083f2688d0cbc79f0d2c0fdf",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第七条",
+          "article_end": "第八条",
+          "score": 25.906870928633175
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_e85593b7acbc81fca0d945a1",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第八条",
+          "article_end": "第八条",
+          "score": 24.4504690191192
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_1881f87781997f9aca794f2c",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第六条",
+          "article_end": "第十三条",
+          "score": 23.913429490326696
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_5e353714e9e66c0715c70173",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第十四条",
+          "article_end": "第二十三条",
+          "score": 19.960897620806247
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_9e35de63cfddd4e4edd8ed30",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第一条",
+          "article_end": "第五条",
+          "score": 19.898550060941467
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_009934ac00b5fc7fa684c9ae",
+          "document_title": "证券公司收益凭证发行备案与信息报送指引",
+          "article_start": "第十八条",
+          "article_end": "第二十条",
+          "score": 19.635081809467568
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_e80f11782a61c4a04ad547b5",
+          "document_title": "证券公司收益凭证发行备案与信息报送指引",
+          "article_start": "第一条",
+          "article_end": "第十一条",
+          "score": 19.037684977132134
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_a91cd01d505f0534d50e43c8",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第六条",
+          "article_end": "第六条",
+          "score": 18.90071670866629
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_734e2e939bc4ae8e08900f18",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第八条",
+          "article_end": "第八条",
+          "score": 18.51029674721434
+        }
+      ],
+      "top_vector": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_5e353714e9e66c0715c70173",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第十四条",
+          "article_end": "第二十三条",
+          "score": 0.5103199653233036
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_1881f87781997f9aca794f2c",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第六条",
+          "article_end": "第十三条",
+          "score": 0.502850246941889
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_083f2688d0cbc79f0d2c0fdf",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第七条",
+          "article_end": "第八条",
+          "score": 0.49664128808024516
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_9e383080e0f46ccbe65906c1",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第二十四条",
+          "article_end": "第二十八条",
+          "score": 0.4954445236514144
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_310ab5ac7b147f93498331ce",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第三十三条",
+          "article_end": "第三十六条",
+          "score": 0.4932539393880458
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_e85593b7acbc81fca0d945a1",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第八条",
+          "article_end": "第八条",
+          "score": 0.49322702208959973
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_a91cd01d505f0534d50e43c8",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第六条",
+          "article_end": "第六条",
+          "score": 0.4878777073276826
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_734e2e939bc4ae8e08900f18",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第八条",
+          "article_end": "第八条",
+          "score": 0.48486038114541286
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_9e35de63cfddd4e4edd8ed30",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第一条",
+          "article_end": "第五条",
+          "score": 0.47390429876074863
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_ea35494e69ce28c498c0a4e5",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第二十九条",
+          "article_end": "第三十二条",
+          "score": 0.47039225770213333
+        }
+      ],
+      "top_hybrid": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_083f2688d0cbc79f0d2c0fdf",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第七条",
+          "article_end": "第八条",
+          "score": 0.03200204813108039
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_310ab5ac7b147f93498331ce",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第三十三条",
+          "article_end": "第三十六条",
+          "score": 0.03177805800756621
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_5e353714e9e66c0715c70173",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第十四条",
+          "article_end": "第二十三条",
+          "score": 0.03177805800756621
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_1881f87781997f9aca794f2c",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第六条",
+          "article_end": "第十三条",
+          "score": 0.031754032258064516
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_e85593b7acbc81fca0d945a1",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第八条",
+          "article_end": "第八条",
+          "score": 0.031024531024531024
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_9e35de63cfddd4e4edd8ed30",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第一条",
+          "article_end": "第五条",
+          "score": 0.02964426877470356
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_a91cd01d505f0534d50e43c8",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第六条",
+          "article_end": "第六条",
+          "score": 0.029418126757516764
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_734e2e939bc4ae8e08900f18",
+          "document_title": "证券公司收益凭证信息披露指引",
+          "article_start": "第八条",
+          "article_end": "第八条",
+          "score": 0.028991596638655463
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_9e383080e0f46ccbe65906c1",
+          "document_title": "证券公司收益凭证发行管理办法",
+          "article_start": "第二十四条",
+          "article_end": "第二十八条",
+          "score": 0.028782894736842105
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_009934ac00b5fc7fa684c9ae",
+          "document_title": "证券公司收益凭证发行备案与信息报送指引",
+          "article_start": "第十八条",
+          "article_end": "第二十条",
+          "score": 0.02862400327131466
+        }
+      ]
+    },
+    {
+      "id": "private_fund_snowball_ratio",
+      "query": "私募产品投资雪球比例的范围有明确规定吗",
+      "passed": true,
+      "relevant_chunk_ids": [
+        "chunk_6b18a3c1d066ca5a84df2e85"
+      ],
+      "thresholds": {
+        "bm25_max_rank": 20,
+        "hybrid_max_rank": 10
+      },
+      "ranks": {
+        "bm25": 16,
+        "vector": 3,
+        "hybrid": 4
+      },
+      "answer_expectation": "DIRECT_RULE",
+      "answer_note": "应召回《私募证券投资基金运作指引》第十七条：带敲入敲出结构的场外期权或收益凭证名义本金原则上不得超过基金净资产25%，并保留条文所载例外。",
+      "top_bm25": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_c8bdd820aa604cf717cc7267",
+          "document_title": "证券公司柜台市场管理办法(试行)",
+          "article_start": "第七条",
+          "article_end": "第十二条",
+          "score": 31.21967126187681
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_0b48a92142c6e7974fcc2a0f",
+          "document_title": "关于规范金融机构资产管理业务的指导意见",
+          "article_start": "",
+          "article_end": "",
+          "score": 26.695009626815725
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_dd1989cf7afe40880a3304c9",
+          "document_title": "金融机构产品适当性管理办法",
+          "article_start": "第二十九条",
+          "article_end": "第三十五条",
+          "score": 22.755172566097798
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_90d517d28fb2ff03732be9ff",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第九条",
+          "article_end": "第十五条",
+          "score": 20.870150318390763
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_e76e44679a8ea778eca1cbdb",
+          "document_title": "商业银行理财业务监督管理办法",
+          "article_start": "第三十五条",
+          "article_end": "第三十七条",
+          "score": 19.74265587841431
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_f0dc984ae1b29c38f555d0c3",
+          "document_title": "关于规范金融机构资产管理业务的指导意见",
+          "article_start": "",
+          "article_end": "",
+          "score": 19.52394409453741
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_a226b309824789c7fa1ba26d",
+          "document_title": "证券期货经营机构私募资产管理计划备案办法",
+          "article_start": "第三十六条",
+          "article_end": "第三十七条",
+          "score": 19.351686371349995
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_e755423a422ff56f9d8404c3",
+          "document_title": "商业银行理财业务监督管理办法",
+          "article_start": "第八条",
+          "article_end": "第九条",
+          "score": 19.259279561909082
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_e8c9c5a99fc93b03654b9369",
+          "document_title": "关于规范金融机构资产管理业务的指导意见",
+          "article_start": "",
+          "article_end": "",
+          "score": 19.18439337882413
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_a3325e55d6966349d525ae3b",
+          "document_title": "关于规范金融机构资产管理业务的指导意见",
+          "article_start": "",
+          "article_end": "",
+          "score": 19.005923088360923
+        }
+      ],
+      "top_vector": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_5b554bbe375929e247cf98e4",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第二十一条",
+          "article_end": "第二十四条",
+          "score": 0.5140445921116068
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_c666382fd9fac343e15aab3e",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第十八条",
+          "article_end": "第二十条",
+          "score": 0.5118355309104224
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_6b18a3c1d066ca5a84df2e85",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第十六条",
+          "article_end": "第十七条",
+          "score": 0.5108876058456484
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_90d517d28fb2ff03732be9ff",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第九条",
+          "article_end": "第十五条",
+          "score": 0.5068497203248788
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_cd7ddcdfd188be7d5d77038f",
+          "document_title": "私募投资基金监督管理条例",
+          "article_start": "第二十三条",
+          "article_end": "第二十九条",
+          "score": 0.5000892525729648
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_11ae5b27def6df080ef43cc7",
+          "document_title": "关于加强私募投资基金监管的若干规定",
+          "article_start": "第六条",
+          "article_end": "第六条",
+          "score": 0.49889798647087946
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_a226b309824789c7fa1ba26d",
+          "document_title": "证券期货经营机构私募资产管理计划备案办法",
+          "article_start": "第三十六条",
+          "article_end": "第三十七条",
+          "score": 0.4971000383938905
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_e1b1732b390dd7ae0a2becb7",
+          "document_title": "私募投资基金监督管理条例",
+          "article_start": "第十七条",
+          "article_end": "第二十二条",
+          "score": 0.4900838628912
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_015b3ef35d56eb63ff1d79a0",
+          "document_title": "证券期货经营机构私募资产管理业务管理办法",
+          "article_start": "第三十七条",
+          "article_end": "第四十二条",
+          "score": 0.48886732058760973
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_43d7d1a31a963a8ace595bcc",
+          "document_title": "私募投资基金信息披露监督管理办法",
+          "article_start": "第十八条",
+          "article_end": "第二十一条",
+          "score": 0.48884508787971664
+        }
+      ],
+      "top_hybrid": [
+        {
+          "rank": 1,
+          "chunk_id": "chunk_90d517d28fb2ff03732be9ff",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第九条",
+          "article_end": "第十五条",
+          "score": 0.03125
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chunk_a226b309824789c7fa1ba26d",
+          "document_title": "证券期货经营机构私募资产管理计划备案办法",
+          "article_start": "第三十六条",
+          "article_end": "第三十七条",
+          "score": 0.029850746268656716
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chunk_0b48a92142c6e7974fcc2a0f",
+          "document_title": "关于规范金融机构资产管理业务的指导意见",
+          "article_start": "",
+          "article_end": "",
+          "score": 0.02928692699490662
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chunk_6b18a3c1d066ca5a84df2e85",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第十六条",
+          "article_end": "第十七条",
+          "score": 0.029030910609857977
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chunk_a3325e55d6966349d525ae3b",
+          "document_title": "关于规范金融机构资产管理业务的指导意见",
+          "article_start": "",
+          "article_end": "",
+          "score": 0.02761904761904762
+        },
+        {
+          "rank": 6,
+          "chunk_id": "chunk_015b3ef35d56eb63ff1d79a0",
+          "document_title": "证券期货经营机构私募资产管理业务管理办法",
+          "article_start": "第三十七条",
+          "article_end": "第四十二条",
+          "score": 0.026838432635534086
+        },
+        {
+          "rank": 7,
+          "chunk_id": "chunk_317f5c4cba607fe823c113bb",
+          "document_title": "私募投资基金备案指引第1号——私募证券投资基金",
+          "article_start": "第十二条",
+          "article_end": "第十八条",
+          "score": 0.026500526500526502
+        },
+        {
+          "rank": 8,
+          "chunk_id": "chunk_35ac7ee1fd57eab463fc67bc",
+          "document_title": "证券期货经营机构私募资产管理业务管理办法",
+          "article_start": "第十九条",
+          "article_end": "第二十五条",
+          "score": 0.022730207929742993
+        },
+        {
+          "rank": 9,
+          "chunk_id": "chunk_c8bdd820aa604cf717cc7267",
+          "document_title": "证券公司柜台市场管理办法(试行)",
+          "article_start": "第七条",
+          "article_end": "第十二条",
+          "score": 0.01639344262295082
+        },
+        {
+          "rank": 10,
+          "chunk_id": "chunk_5b554bbe375929e247cf98e4",
+          "document_title": "私募证券投资基金运作指引",
+          "article_start": "第二十一条",
+          "article_end": "第二十四条",
+          "score": 0.01639344262295082
+        }
+      ]
+    }
+  ]
+}

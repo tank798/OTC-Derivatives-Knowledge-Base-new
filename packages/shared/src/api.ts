@@ -43,8 +43,7 @@ export type ComplianceQueryResponseData = {
     missingInfo: string[];
     manualReviewNote: string;
     retrievalTrace?: {
-      evidenceHits: number;
-      clauseHits: number;
+      chunkHits: number;
       documentHits: number;
       strategy: string;
     };

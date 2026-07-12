@@ -375,7 +375,10 @@ async function main() {
     })),
   };
   writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n", "utf8");
-  writeFileSync(resolve(INDEX_DIR, "eval/README.md"), "# 检索评测集\n\n第九步建立人工标注评测集，本目录暂不参与索引构建。\n", "utf8");
+  const evalReadme = resolve(INDEX_DIR, "eval/README.md");
+  if (!existsSync(evalReadme)) {
+    writeFileSync(evalReadme, "# 检索评测集\n\n运行 `node scripts/evaluate_retrieval.mjs` 生成评测结果。\n", "utf8");
+  }
   console.log(JSON.stringify({
     documents: documents.length,
     chunks: corpus.length,

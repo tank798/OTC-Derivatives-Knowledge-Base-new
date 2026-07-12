@@ -66,8 +66,7 @@ export const complianceAnswerSchema = z.object({
   confidenceReason: z.string().optional().default(""),
   retrievalTrace: z
     .object({
-      evidenceHits: z.number(),
-      clauseHits: z.number(),
+      chunkHits: z.number(),
       documentHits: z.number(),
       strategy: z.string(),
     })

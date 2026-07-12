@@ -87,8 +87,8 @@ export function ComplianceAnswerCard({ data }: Props) {
       ...(answer.retrievalTrace
         ? [
             `检索信息: 策略 ${answer.retrievalTrace.strategy} · ` +
-              `证据 ${answer.retrievalTrace.evidenceHits} 条 · ` +
-              `条款 ${answer.retrievalTrace.clauseHits} 条`,
+              `Chunk ${answer.retrievalTrace.chunkHits} 条 · ` +
+              `法规 ${answer.retrievalTrace.documentHits} 份`,
           ]
         : []),
     ].join("\n");
@@ -281,10 +281,9 @@ export function ComplianceAnswerCard({ data }: Props) {
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             检索策略: {answer.retrievalTrace.strategy}
           </span>
-          <span>证据 {answer.retrievalTrace.evidenceHits} 条</span>
-          <span>条款 {answer.retrievalTrace.clauseHits} 条</span>
+          <span>Chunk {answer.retrievalTrace.chunkHits} 条</span>
           {answer.retrievalTrace.documentHits > 0 && (
-            <span>文档 {answer.retrievalTrace.documentHits} 条</span>
+            <span>法规 {answer.retrievalTrace.documentHits} 份</span>
           )}
         </div>
       )}

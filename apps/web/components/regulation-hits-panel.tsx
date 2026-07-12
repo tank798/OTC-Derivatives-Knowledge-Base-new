@@ -64,9 +64,8 @@ export function RegulationHitsPanel({ hits }: { hits: Hit[] }) {
     return sorted;
   }, [hits, searchQuery, sortKey]);
 
-  const evidenceCount = hits.filter((h) => h.source === "evidence").length;
-  const clauseCount = hits.filter((h) => h.source === "clause").length;
-  const docCount = hits.filter((h) => h.source === "document").length;
+  const contextCount = hits.filter((h) => h.retrievalMethods.includes("context")).length;
+  const primaryCount = hits.length - contextCount;
 
   if (hits.length === 0) {
     return (
@@ -187,9 +186,8 @@ export function RegulationHitsPanel({ hits }: { hits: Hit[] }) {
 
           {/* Counts */}
           <div className="mt-2 flex gap-3 text-2xs text-ink-tertiary">
-            <span>⭐ 证据 {evidenceCount}</span>
-            <span>📄 条款 {clauseCount}</span>
-            {docCount > 0 && <span>📋 文档 {docCount}</span>}
+            <span>🔎 检索命中 {primaryCount}</span>
+            <span>🧩 补充上下文 {contextCount}</span>
           </div>
         </div>
       )}
@@ -197,9 +195,8 @@ export function RegulationHitsPanel({ hits }: { hits: Hit[] }) {
       {/* Counts (always visible when filters hidden) */}
       {!showFilters && (
         <div className="flex gap-3 px-4 py-2 text-2xs text-ink-tertiary">
-          <span>⭐ {evidenceCount}</span>
-          <span>📄 {clauseCount}</span>
-          {docCount > 0 && <span>📋 {docCount}</span>}
+          <span>🔎 {primaryCount}</span>
+          <span>🧩 {contextCount}</span>
         </div>
       )}
 
@@ -223,7 +220,7 @@ export function RegulationHitsPanel({ hits }: { hits: Hit[] }) {
               >
                 {/* Source icon */}
                 <span className="mt-0.5 shrink-0 text-xs">
-                  {hit.source === "evidence" ? "⭐" : hit.source === "clause" ? "📄" : "📋"}
+                  {hit.retrievalMethods.includes("context") ? "🧩" : "📄"}
                 </span>
 
                 {/* Content */}

@@ -19,9 +19,9 @@ const HAS_INDEX = existsSync(MANIFEST_PATH);
 test("检索语料与manifest数量一致且不含占位清单", { skip: !HAS_INDEX && "尚未基于108份正式法规重建索引" }, () => {
   const { corpus, manifest } = loadIndexArtifacts();
   assert.equal(manifest.corpus.document_count, 108);
-  assert.ok(corpus.length > 0);
+  assert.equal(corpus.length, 1219);
   assert.equal(new Set(corpus.map((row) => row.chunk_id)).size, corpus.length);
-  assert.equal(new Set(corpus.map((row) => row.document_id)).size, 110);
+  assert.equal(new Set(corpus.map((row) => row.document_id)).size, 108);
   assert.ok(corpus.every((row) => !row.file_name.includes("监管缺口文件粘贴总清单")));
   assert.ok(corpus.every((row) => existsSync(resolveProjectPath(row.local_file_path))));
   assert.equal(manifest.source.path, "data/processed/chunks/jsonl/all_chunks.jsonl");

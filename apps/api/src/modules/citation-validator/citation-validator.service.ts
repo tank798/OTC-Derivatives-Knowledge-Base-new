@@ -5,6 +5,32 @@ const STRONG_CLAIM = /可以|不可以|必须|应当|不得|禁止|仅限|需要
 const CURRENT_STATUS = /现行有效|有效|effective/i;
 const INVALID_STATUS = /废止|失效|repealed|invalid/i;
 
+function directEvidenceIssue(answer: ComplianceAnswer, analysis: QueryAnalysis, hits: RetrievalHit[]): string {
+  const query = analysis.normalizedQuery;
+  const texts = hits.map((hit) => hit.text.replace(/\s+/g, ""));
+  const asksOwnUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(query);
+  if (asksOwnUnderlying) {
+    const direct = texts.some((text) => /(自身|本公司|其发行的股票).{0,24}(场外衍生品|场外期权|挂钩标的|合约标的|衍生品交易)|(场外衍生品|场外期权|挂钩标的|合约标的|衍生品交易).{0,24}(自身|本公司|其发行的股票)/.test(text));
+    if (!direct) return "未检索到上市公司以本公司股票为场外衍生品挂钩标的的直接规定";
+    const hasCurrentCounterpartyBan = hits.some((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text));
+    const hasFutureGeneralBan = hits.some((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")));
+    if (/可以|可做|有条件可做/.test(answer.conclusion)) {
+      if (hasCurrentCounterpartyBan && !/期货风险管理公司|交易对手/.test(answer.conclusion)) {
+        return "可行性结论未限定现行规则已禁止的期货风险管理公司交易路径";
+      }
+      if (hasFutureGeneralBan && !/尚未施行|未生效|生效|未来/.test(answer.conclusion)) {
+        return "可行性结论未区分已公布尚未施行的更广泛禁止规则及其生效时点";
+      }
+    }
+  }
+  const asksVoucherSnowball = /收益凭证.*雪球|雪球.*收益凭证/.test(query);
+  if (asksVoucherSnowball) {
+    const direct = hits.some((hit) => hit.title.includes("证券公司收益凭证发行管理办法") && /(雪球|敲入|敲出)/.test(hit.text));
+    if (!direct) return "收益凭证通用发行规则未直接列明雪球结构，不足以对具体产品作无条件的可行性结论";
+  }
+  return "";
+}
+
 @Injectable()
 export class CitationValidatorService {
   validate(answer: ComplianceAnswer, hits: RetrievalHit[], analysis: QueryAnalysis): ComplianceAnswer {
@@ -28,7 +54,7 @@ export class CitationValidatorService {
         title: hit.title,
         publisher: hit.publisher,
         url: hit.url,
-        articleNo: hit.articleNo,
+        articleNo: hit.articleEnd && hit.articleEnd !== hit.articleNo ? `${hit.articleNo}至${hit.articleEnd}` : hit.articleNo,
         excerpt: hit.excerpt || hit.text.slice(0, 500),
         status: hit.status,
       }];
@@ -38,6 +64,8 @@ export class CitationValidatorService {
     if (analysis.asksValidity && validBasis.some((basis) => !CURRENT_STATUS.test(basis.status))) {
       issues.push("效力问题缺少可靠的现行有效状态元数据");
     }
+    const directIssue = directEvidenceIssue(answer, analysis, hits);
+    if (directIssue && STRONG_CLAIM.test(answer.conclusion)) issues.push(directIssue);
 
     if (issues.length) {
       return {

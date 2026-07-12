@@ -96,7 +96,14 @@ export async function queryCompliance(
 export async function checkHealth(): Promise<{
   status: string;
   indexReady: boolean;
-  stats: { evidences: number; clauses: number };
+  stats: {
+    documents: number;
+    chunks: number;
+    bm25Ready: boolean;
+    vectorsReady: boolean;
+    embeddingModelCached: boolean;
+    legacyClausesEnabled: boolean;
+  };
 }> {
   const resp = await fetchWithTimeout(`${API_BASE}/compliance/health`, {
     cache: "no-store",
@@ -110,7 +117,14 @@ export async function checkHealth(): Promise<{
   const json = (await resp.json()) as ApiResponse<{
     status: string;
     indexReady: boolean;
-    stats: { evidences: number; clauses: number };
+    stats: {
+      documents: number;
+      chunks: number;
+      bm25Ready: boolean;
+      vectorsReady: boolean;
+      embeddingModelCached: boolean;
+      legacyClausesEnabled: boolean;
+    };
   }>;
 
   if (!json.success) {
@@ -118,6 +132,9 @@ export async function checkHealth(): Promise<{
       json.error?.message ?? "获取服务状态失败",
       json.error?.code
     );
+  }
+  if (!Number.isFinite(json.data.stats.documents) || !Number.isFinite(json.data.stats.chunks)) {
+    throw new ApiError("后端索引契约不匹配：期望新 Chunk 索引的 documents/chunks 统计", "INDEX_CONTRACT_MISMATCH");
   }
   return json.data;
 }

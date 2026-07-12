@@ -12,8 +12,8 @@ type Props = {
 };
 
 type HealthStats = {
-  evidences: number;
-  clauses: number;
+  documents: number;
+  chunks: number;
   loading: boolean;
   error: boolean;
 };
@@ -32,8 +32,8 @@ export function Sidebar({ questions, onSelect, messages, onNewQuery }: Props) {
 
   // Health stats
   const [healthStats, setHealthStats] = useState<HealthStats>({
-    evidences: 0,
-    clauses: 0,
+    documents: 0,
+    chunks: 0,
     loading: true,
     error: false,
   });
@@ -63,8 +63,8 @@ export function Sidebar({ questions, onSelect, messages, onNewQuery }: Props) {
     try {
       const data = await checkHealth();
       setHealthStats({
-        evidences: data.stats.evidences,
-        clauses: data.stats.clauses,
+        documents: data.stats.documents,
+        chunks: data.stats.chunks,
         loading: false,
         error: false,
       });
@@ -218,8 +218,8 @@ export function Sidebar({ questions, onSelect, messages, onNewQuery }: Props) {
           </div>
           {!healthStats.loading && !healthStats.error && (
             <div className="flex gap-3 text-2xs text-white/30">
-              <span>{healthStats.evidences} 证据</span>
-              <span>{healthStats.clauses} 条款</span>
+              <span>{healthStats.documents} 法规</span>
+              <span>{healthStats.chunks} Chunk</span>
             </div>
           )}
         </div>

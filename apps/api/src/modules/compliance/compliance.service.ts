@@ -63,7 +63,9 @@ export class ComplianceService {
 2. 区分【明确规定】【基于法规的推导】【需结合具体业务判断】【证据不足】。
 3. status为空或unknown时，不得断言法规现行有效；废止/失效文件不得作为现行依据。
 4. 证据不足时，结论必须包含“根据当前知识库检索结果，暂时无法形成确定结论。”
-5. 仅输出JSON，不得输出Markdown代码围栏。格式：
+5. 已公布但尚未施行的文件只能用于说明未来规则及生效时点，不得当作当前已生效依据。
+6. 不得把同一条中不同款、项针对不同产品或交易的条件交叉套用。
+7. 仅输出JSON，不得输出Markdown代码围栏。格式：
 {"conclusion":"...","conclusionLabel":"可做|不可做|有条件可做|需人工合规复核","regulatoryBasis":[{"evidenceId":"chunk_...","requirement":"该证据直接支持的结论"}],"restrictions":["..."],"missingInfo":["..."],"manualReviewNote":"..."}
 
 用户问题：${query}
@@ -118,8 +120,7 @@ ${this.contextBuilder.build(hits)}`;
   private retrievalTrace(hits: RetrievalHit[]) {
     const hasVector = hits.some((hit) => hit.retrievalMethods.includes("vector"));
     return {
-      evidenceHits: hits.length,
-      clauseHits: hits.length,
+      chunkHits: hits.length,
       documentHits: new Set(hits.map((hit) => hit.documentId)).size,
       strategy: hasVector ? "query-analysis + BM25 + BGE + equal-weight RRF" : "query-analysis + BM25 (vector model unavailable)",
     };

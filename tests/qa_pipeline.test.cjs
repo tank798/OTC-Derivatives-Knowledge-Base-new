@@ -1,4 +1,5 @@
 const assert = require("node:assert/strict");
+const { readFileSync } = require("node:fs");
 const test = require("node:test");
 require("reflect-metadata");
 
@@ -30,7 +31,7 @@ function answer(overrides = {}) {
     productStructure: { underlyingAsset: "", productType: "场外期权", transactionStructure: "", counterparty: "证券公司", investorType: "", isCrossBorder: false, riskPoints: [], missingInfo: [] },
     regulatoryBasis: [{ evidenceId: "chunk_1", title: "伪造标题", publisher: "", url: "https://fake", articleNo: "第一百条", excerpt: "", requirement: "应满足交易商要求", status: "" }],
     restrictions: [], missingInfo: [], manualReviewNote: "", confidenceScore: "medium", confidenceReason: "",
-    retrievalTrace: { evidenceHits: 1, clauseHits: 1, documentHits: 1, strategy: "hybrid" },
+    retrievalTrace: { chunkHits: 1, documentHits: 1, strategy: "hybrid" },
     ...overrides,
   };
 }
@@ -42,6 +43,29 @@ test("问题规范化会识别雪球并进行受控扩展", () => {
   assert.ok(result.keywords.includes("自动赎回"));
   assert.ok(result.topics.includes("投资者适当性"));
   assert.ok(result.topics.includes("备案与报告"));
+});
+
+test("Web代理固定连接新API的IPv4地址，避免命中旧IPv6后端", () => {
+  const route = readFileSync("apps/web/app/api/proxy/[...path]/route.ts", "utf8");
+  assert.match(route, /http:\/\/127\.0\.0\.1:4000\/api/);
+  assert.doesNotMatch(route, /http:\/\/localhost:4000\/api/);
+});
+
+test("三个首版评测问题能识别主体、产品和投资比例主题", () => {
+  const listedCompany = analyzer.analyze("上市公司可以做挂钩自己本身标的的场外衍生品吗");
+  assert.ok(listedCompany.subjects.includes("上市公司"));
+  assert.ok(listedCompany.topics.includes("准入"));
+  assert.ok(listedCompany.keywords.includes("本公司股票"));
+
+  const voucher = analyzer.analyze("券商收益凭证可以做雪球吗");
+  assert.ok(voucher.subjects.includes("证券公司"));
+  assert.ok(voucher.productTypes.includes("收益凭证"));
+  assert.ok(voucher.productTypes.includes("雪球"));
+
+  const privateProduct = analyzer.analyze("私募产品投资雪球比例的范围有明确规定吗");
+  assert.ok(privateProduct.subjects.includes("私募产品"));
+  assert.ok(privateProduct.topics.includes("投资比例"));
+  assert.ok(privateProduct.keywords.includes("私募证券投资基金"));
 });
 
 test("引用校验使用检索元数据覆盖模型自造标题、条款和URL", () => {
@@ -69,6 +93,66 @@ test("效力状态未知时不得断言法规现行有效", () => {
 test("没有URL时引用校验不会生成虚假URL", () => {
   const checked = validator.validate(answer(), [hit({ url: "" })], analyzer.analyze("场外期权交易商要求是什么？"));
   assert.equal(checked.regulatoryBasis[0].url, "");
+});
+
+test("上市公司自身股票挂钩问题缺少直接条文时拒绝强结论", () => {
+  const query = analyzer.analyze("上市公司可以做挂钩自己本身标的的场外衍生品吗");
+  const generalRule = hit({
+    title: "上海证券交易所上市公司自律监管指引第5号——交易与关联交易",
+    text: "上市公司拟开展场外衍生品交易的，应当评估交易必要性和交易对手信用风险。",
+  });
+  const checked = validator.validate(answer({ conclusion: "上市公司可以以本公司股票为标的开展场外衍生品交易。" }), [generalRule], query);
+  assert.equal(checked.citationValidation.passed, false);
+  assert.match(checked.conclusion, /证据不足/);
+});
+
+test("上市公司自身股票问题必须区分交易对手禁止和未来生效规则", () => {
+  const query = analyzer.analyze("上市公司可以做挂钩自己本身标的的场外衍生品吗");
+  const currentRule = hit({
+    id: "chunk_current",
+    chunkId: "chunk_current",
+    title: "期货风险管理公司衍生品交易业务管理规则",
+    text: "期货风险管理公司不得与上市公司开展以本公司股票为标的的衍生品交易。",
+  });
+  const futureRule = hit({
+    id: "chunk_future",
+    chunkId: "chunk_future",
+    title: "衍生品交易监督管理办法（试行）",
+    status: "已公布、尚未施行",
+    text: "上市公司不得达成以其发行的股票为合约标的物的衍生品交易。",
+  });
+  const draft = answer({
+    conclusion: "上市公司可以开展该类场外衍生品交易。",
+    regulatoryBasis: [{ evidenceId: "chunk_current", title: "", publisher: "", url: "", articleNo: "", excerpt: "", requirement: "存在特定交易路径禁止", status: "" }],
+  });
+  const checked = validator.validate(draft, [currentRule, futureRule], query);
+  assert.equal(checked.citationValidation.passed, false);
+  assert.match(checked.confidenceReason, /交易路径|生效时点/);
+});
+
+test("收益凭证通用规则未直接列明雪球时拒绝无条件可做结论", () => {
+  const query = analyzer.analyze("券商收益凭证可以做雪球吗");
+  const generalRule = hit({
+    title: "证券公司收益凭证发行管理办法",
+    text: "证券公司发行浮动收益凭证，应当具有相应衍生品交易业务资格。",
+  });
+  const checked = validator.validate(answer({ conclusion: "证券公司可以无条件发行雪球收益凭证。" }), [generalRule], query);
+  assert.equal(checked.citationValidation.passed, false);
+  assert.match(checked.conclusion, /证据不足/);
+});
+
+test("私募证券基金雪球25%直接条文可通过引用校验", () => {
+  const query = analyzer.analyze("私募产品投资雪球比例的范围有明确规定吗");
+  const directRule = hit({
+    title: "私募证券投资基金运作指引",
+    articleNo: "第十七条",
+    text: "参与带敲入和敲出结构的场外期权或者收益凭证（如雪球结构衍生品）的合约名义本金不得超过基金净资产的25%。",
+  });
+  const checked = validator.validate(answer({
+    conclusion: "【明确规定】原则上合约名义本金不得超过基金净资产的25%。",
+    regulatoryBasis: [{ evidenceId: "chunk_1", title: "", publisher: "", url: "", articleNo: "", excerpt: "", requirement: "原则上不超过25%", status: "" }],
+  }), [directRule], query);
+  assert.equal(checked.citationValidation.passed, true);
 });
 
 test("端到端服务共用规范化、检索、上下文、回答和引用校验链路", async () => {
