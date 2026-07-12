@@ -1,0 +1,21 @@
+{
+  "name": "otc-derivatives-knowledge-base",
+  "version": "2.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.7.1",
+  "scripts": {
+    "dev:web": "corepack pnpm --filter web dev",
+    "dev:api": "corepack pnpm --filter api start:dev",
+    "download:retrieval-model": "bash scripts/download_embedding_model.sh",
+    "build:retrieval": "corepack pnpm download:retrieval-model && node scripts/build_retrieval_index.mjs --with-vectors",
+    "search:hybrid": "node scripts/hybrid_search.mjs",
+    "test:retrieval": "node --test scripts/retrieval/*.test.mjs",
+    "test:qa": "corepack pnpm --filter api build && NODE_PATH=apps/api/node_modules node --test tests/*.test.cjs",
+    "test": "corepack pnpm test:retrieval && corepack pnpm test:qa && corepack pnpm -r lint",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^3.7.6"
+  }
+}
