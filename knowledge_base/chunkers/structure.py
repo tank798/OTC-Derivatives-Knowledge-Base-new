@@ -1,0 +1,162 @@
+from __future__ import annotations
+
+import re
+
+from models import Node, ParsedDocument, SourceBlock
+from utils.text import clean_text
+
+CN_NUM = r"[一二三四五六七八九十百千万零〇两\d]+"
+PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    ("part", re.compile(rf"^(第\s*{CN_NUM}\s*[编篇部分])(?:\s+|$)(.*)$")),
+    ("chapter", re.compile(rf"^(第\s*{CN_NUM}\s*章)(?:\s+|$)(.*)$")),
+    ("section", re.compile(rf"^(第\s*{CN_NUM}\s*节)(?:\s+|$)(.*)$")),
+    ("article", re.compile(rf"^(第\s*{CN_NUM}\s*条)(?:\s+|$)?(.*)$")),
+    ("paragraph", re.compile(rf"^(第\s*{CN_NUM}\s*款)(?:\s+|$)?(.*)$")),
+    ("item", re.compile(r"^([（(][一二三四五六七八九十百\d]+[）)])\s*(.*)$")),
+    ("subitem", re.compile(r"^((?:\d+|[一二三四五六七八九十]+)[.．、])\s*(.*)$")),
+    ("subitem", re.compile(r"^([①-⑳])\s*(.*)$")),
+    ("attachment", re.compile(r"^((?:附件|附录)(?:\s*\d+)?(?:[::：]\s*)?.{0,80})$")),
+]
+RANK = {"document": 0, "part": 1, "chapter": 2, "section": 3, "article": 4, "paragraph": 5, "item": 6, "subitem": 7, "attachment": 2, "table": 8, "text": 8}
+
+
+def normalize_marker(value: str) -> str:
+    return re.sub(r"\s+", "", value)
+
+
+def classify_block(block: SourceBlock) -> tuple[str, str, str]:
+    text = clean_text(block.text)
+    if block.source_kind == "table":
+        return "table", "表格", text
+    if re.search(r"\.{4,}|[…·]{6,}", text):
+        return "text", "", text
+    if block.source_kind == "sheet":
+        return "part", text, ""
+    for kind, pattern in PATTERNS:
+        match = pattern.match(text)
+        if match:
+            if kind == "attachment":
+                return kind, match.group(1), ""
+            marker = normalize_marker(match.group(1))
+            remainder = clean_text(match.group(2))
+            if kind in {"part", "chapter", "section"}:
+                return kind, clean_text(marker + (" " + remainder if remainder else "")), ""
+            return kind, marker, remainder
+    style = block.style.lower()
+    if "heading 1" in style or "标题 1" in style:
+        return "part", text, ""
+    if "heading 2" in style or "标题 2" in style:
+        return "chapter", text, ""
+    if "heading 3" in style or "标题 3" in style:
+        return "section", text, ""
+    return "text", "", text
+
+
+def build_tree(document: ParsedDocument) -> Node:
+    root = Node("document", title=document.metadata.get("document_title", ""))
+    stack: list[Node] = [root]
+    for block in document.blocks:
+        kind, title, own_text = classify_block(block)
+        if kind == "text":
+            node = Node(kind, own_text=own_text, block_ids=[block.block_id])
+            stack[-1].add_child(node)
+            continue
+        if kind == "article":
+            current_article = next((item for item in reversed(stack) if item.kind == "article"), None)
+            current_ordinal = article_ordinal(current_article.title) if current_article else None
+            new_ordinal = article_ordinal(title)
+            if current_article and current_ordinal is not None and new_ordinal is not None and new_ordinal < current_ordinal:
+                current_article.add_child(Node("text", own_text=clean_text(title + (" " + own_text if own_text else "")), block_ids=[block.block_id]))
+                continue
+        node = Node(kind, title=title, own_text=own_text, block_ids=[block.block_id])
+        rank = RANK[kind]
+        while len(stack) > 1 and RANK[stack[-1].kind] >= rank:
+            stack.pop()
+        stack[-1].add_child(node)
+        if kind not in {"table"}:
+            stack.append(node)
+    return root
+
+
+def hierarchy_for(node: Node) -> dict[str, str]:
+    result = {"part_title": "", "chapter_title": "", "section_title": "", "article_title": "", "paragraph_title": "", "attachment_name": ""}
+    current: Node | None = node
+    while current:
+        if current.kind == "part" and not result["part_title"]:
+            result["part_title"] = current.title
+        elif current.kind == "chapter" and not result["chapter_title"]:
+            result["chapter_title"] = current.title
+        elif current.kind == "section" and not result["section_title"]:
+            result["section_title"] = current.title
+        elif current.kind == "article" and not result["article_title"]:
+            result["article_title"] = current.title
+        elif current.kind in {"paragraph", "item", "subitem"} and not result["paragraph_title"]:
+            result["paragraph_title"] = current.title
+        elif current.kind == "attachment" and not result["attachment_name"]:
+            result["attachment_name"] = current.title
+        current = current.parent
+    return result
+
+
+def render_node(node: Node) -> str:
+    parts = [node.title, node.own_text]
+    parts.extend(render_node(child) for child in node.children)
+    return "\n".join(part for part in parts if part).strip()
+
+
+def descendant_articles(node: Node) -> list[str]:
+    result: list[str] = []
+    if node.kind == "article" and node.title:
+        result.append(node.title)
+    for child in node.children:
+        result.extend(descendant_articles(child))
+    return result
+
+
+def article_ordinal(value: str) -> int | None:
+    match = re.fullmatch(r"第([一二三四五六七八九十百千零〇两\d]+)条", value)
+    if not match:
+        return None
+    raw = match.group(1)
+    if raw.isdigit():
+        return int(raw)
+    digits = {"零": 0, "〇": 0, "一": 1, "二": 2, "两": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+    units = {"十": 10, "百": 100, "千": 1000}
+    total = number = 0
+    for char in raw:
+        if char in digits:
+            number = digits[char]
+        elif char in units:
+            total += (number or 1) * units[char]
+            number = 0
+        else:
+            return None
+    return total + number
+
+
+def monotonic_articles(node: Node) -> list[str]:
+    result: list[str] = []
+    last: int | None = None
+    for value in descendant_articles(node):
+        ordinal = article_ordinal(value)
+        if ordinal is None or last is None or ordinal >= last:
+            result.append(value)
+            if ordinal is not None:
+                last = ordinal
+    return result
+
+
+def containing_article(node: Node) -> str:
+    current: Node | None = node
+    while current:
+        if current.kind == "article":
+            return current.title
+        current = current.parent
+    return ""
+
+
+def descendant_block_ids(node: Node) -> list[str]:
+    result = list(node.block_ids)
+    for child in node.children:
+        result.extend(descendant_block_ids(child))
+    return result
