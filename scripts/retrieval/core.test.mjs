@@ -1,0 +1,90 @@
+import assert from "node:assert/strict";
+import { existsSync, statSync } from "node:fs";
+import test from "node:test";
+import {
+  MODEL_DIMENSION,
+  VECTOR_PATH,
+  assembleEvidence,
+  loadIndexArtifacts,
+  loadVectorMatrix,
+  reciprocalRankFusion,
+  resolveProjectPath,
+  searchBm25,
+  tokenize,
+} from "./core.mjs";
+
+test("检索语料与manifest数量一致且不含占位清单", () => {
+  const { corpus, manifest } = loadIndexArtifacts();
+  assert.equal(manifest.corpus.document_count, 176);
+  assert.equal(corpus.length, 1828);
+  assert.equal(new Set(corpus.map((row) => row.chunk_id)).size, corpus.length);
+  assert.equal(new Set(corpus.map((row) => row.document_id)).size, 176);
+  assert.ok(corpus.every((row) => !row.file_name.includes("监管缺口文件粘贴总清单")));
+  assert.ok(corpus.every((row) => existsSync(resolveProjectPath(row.local_file_path))));
+  assert.equal(manifest.source.path, "data/processed/chunks/all_chunks.jsonl");
+  assert.equal(manifest.source.legacy_clauses_enabled, false);
+});
+
+test("向量文件与Chunk行号严格对应", () => {
+  const { corpus, vectorMetadata } = loadIndexArtifacts();
+  assert.equal(vectorMetadata.dimension, MODEL_DIMENSION);
+  assert.equal(vectorMetadata.chunk_count, corpus.length);
+  assert.deepEqual(vectorMetadata.row_chunk_ids, corpus.map((row) => row.chunk_id));
+  assert.equal(statSync(VECTOR_PATH).size, corpus.length * MODEL_DIMENSION * 4);
+  const matrix = loadVectorMatrix(VECTOR_PATH, corpus.length, MODEL_DIMENSION);
+  for (let row = 0; row < corpus.length; row += 1) {
+    let squaredNorm = 0;
+    for (let column = 0; column < MODEL_DIMENSION; column += 1) {
+      const value = matrix[row * MODEL_DIMENSION + column];
+      assert.ok(Number.isFinite(value));
+      squaredNorm += value * value;
+    }
+    assert.ok(Math.abs(Math.sqrt(squaredNorm) - 1) < 1e-4);
+  }
+});
+
+test("中文BM25包含专业词且不使用字段权重", () => {
+  const { corpus, bm25, manifest } = loadIndexArtifacts();
+  assert.ok(tokenize("非集中清算衍生品交易保证金").includes("term:非集中清算"));
+  assert.equal(manifest.bm25.field_weighting, "none");
+  const hits = searchBm25("非集中清算衍生品交易保证金", corpus, bm25, 10);
+  const titles = hits.map((hit) => corpus[hit.index].document_title);
+  assert.ok(titles.some((title) => title.includes("非集中清算衍生品交易保证金")));
+});
+
+test("输入准确法规名称能够召回对应法规", () => {
+  const { corpus, bm25 } = loadIndexArtifacts();
+  const title = "证券公司场外期权业务管理办法";
+  const hits = searchBm25(title, corpus, bm25, 10);
+  assert.ok(hits.some((hit) => corpus[hit.index].document_title === title));
+});
+
+test("输入文号能够召回对应法规", () => {
+  const { corpus, bm25 } = loadIndexArtifacts();
+  const hits = searchBm25("主席令第一一一号", corpus, bm25, 10);
+  assert.ok(hits.some((hit) => corpus[hit.index].document_title === "中华人民共和国期货和衍生品法"));
+});
+
+test("RRF对BM25和向量使用相同公式", () => {
+  const fused = reciprocalRankFusion(
+    [{ chunk_id: "a", index: 0, rank: 1, bm25: 10 }, { chunk_id: "b", index: 1, rank: 2, bm25: 9 }],
+    [{ chunk_id: "b", index: 1, rank: 1, vector: 0.8 }, { chunk_id: "a", index: 0, rank: 2, vector: 0.7 }],
+    { k: 60, limit: 2 },
+  );
+  assert.equal(fused.length, 2);
+  assert.equal(fused[0].rrf, fused[1].rrf);
+  assert.equal(fused[0].bm25_rank, 1);
+  assert.equal(fused[0].vector_rank, 2);
+});
+
+test("证据整理去除完全重复正文", () => {
+  const corpus = [
+    { chunk_id: "a", document_id: "d", chunk_index: 1, text: "相同正文", document_title: "甲", local_file_path: "a", official_url: "" },
+    { chunk_id: "b", document_id: "d", chunk_index: 2, text: "相同 正文", document_title: "甲", local_file_path: "a", official_url: "" },
+  ];
+  const evidence = assembleEvidence([
+    { chunk_id: "a", index: 0, rank: 1, rrf: 1 },
+    { chunk_id: "b", index: 1, rank: 2, rrf: 0.5 },
+  ], corpus, { limit: 2 });
+  assert.equal(evidence.length, 1);
+});
