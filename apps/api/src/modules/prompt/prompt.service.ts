@@ -1,0 +1,52 @@
+import { Injectable } from "@nestjs/common";
+import { existsSync, readFileSync } from "fs";
+import { resolve } from "path";
+import { promptManifest } from "@otc/prompts";
+
+@Injectable()
+export class PromptService {
+  private readonly cache = new Map<string, string>();
+  private readonly promptsDir: string;
+
+  constructor() {
+    const repoRoot = this.findRepoRoot();
+    this.promptsDir = resolve(repoRoot, "packages/prompts");
+  }
+
+  getComplianceAgentPrompt(): string {
+    return this.loadPrompt(promptManifest.agent.compliance);
+  }
+
+  private loadPrompt(relativePath: string): string {
+    const cached = this.cache.get(relativePath);
+    if (cached) return cached;
+
+    const fullPath = resolve(this.promptsDir, relativePath);
+    try {
+      const content = readFileSync(fullPath, "utf-8");
+      this.cache.set(relativePath, content);
+      return content;
+    } catch {
+      console.error(`[PromptService] Failed to load prompt: ${fullPath}`);
+      return "";
+    }
+  }
+
+  private findRepoRoot(): string {
+    const candidates = [process.cwd(), __dirname];
+
+    for (const start of candidates) {
+      let dir = start;
+      for (let i = 0; i < 12; i++) {
+        const promptPath = resolve(dir, "packages/prompts", promptManifest.agent.compliance);
+        if (existsSync(promptPath)) return dir;
+
+        const parent = resolve(dir, "..");
+        if (parent === dir) break;
+        dir = parent;
+      }
+    }
+
+    throw new Error("Cannot find repo root: packages/prompts not found");
+  }
+}

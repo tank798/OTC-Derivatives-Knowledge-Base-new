@@ -4,6 +4,11 @@ node_modules/
 .pnpm-store/
 .next/
 dist/
+packages/*/src/*.js
+packages/*/src/*.js.map
+packages/*/src/*.d.ts
+packages/*/src/*.d.ts.map
+packages/*/dist/
 *.tsbuildinfo
 __pycache__/
 *.py[cod]
