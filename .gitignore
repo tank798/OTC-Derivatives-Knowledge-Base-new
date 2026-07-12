@@ -1,5 +1,6 @@
 .DS_Store
 Thumbs.db
+~$*
 node_modules/
 .pnpm-store/
 .next/
@@ -14,6 +15,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .cache/
+.playwright-cli/
 .env
 .env.*
 !.env.example
@@ -22,7 +24,14 @@ logs/
 tmp/
 temp/
 outputs/url_update_conflicts.csv
+outputs/*.docx
+outputs/*.xlsx
 data/processed/chunks/.incremental_state.json
 data/processed/chunks/.semantic_cache.json
-data/processed/chunks/jsonl/
+data/processed/chunks/jsonl/*
+!data/processed/chunks/jsonl/all_chunks.jsonl
 data/processed/chunks/markdown/
+data/processed/documents/all_documents.jsonl
+data/processed/chunk_review/
+data/processed/chunk_review_viewer/chunk_review_data.json
+data/processed/chunk_review_viewer/viewer_validation.json

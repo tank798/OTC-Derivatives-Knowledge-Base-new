@@ -11,6 +11,9 @@ PAGE_NUMBER_RE = re.compile(
     r"[IVXLCDM]{1,8}|第\s*\d+\s*页(?:\s*共\s*\d+\s*页)?)$",
     re.I,
 )
+TOC_FIELD_RE = re.compile(r"^(?:TOC\s+\\|\"?_Toc\d+\"?)", re.I)
+STRUCTURE_HEADING_RE = re.compile(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节](?:\s+.{0,80})?$")
+ARTICLE_HEADING_RE = re.compile(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条")
 
 # PDF中的Symbol字体经常被提取到U+F000私有区。这里按Adobe Symbol
 # 编码还原常见运算符和可伸缩括号组件，避免把乱码静默写入知识库。
@@ -80,11 +83,40 @@ def is_page_number(line: str) -> bool:
     return bool(PAGE_NUMBER_RE.fullmatch(clean_text(line)))
 
 
+def is_toc_field(line: str) -> bool:
+    return bool(TOC_FIELD_RE.match(clean_text(line)))
+
+
+def strip_repeated_front_structure(blocks):
+    """Remove a front TOC made of headings repeated before the real first article."""
+    limit = min(len(blocks), 80)
+    values = [compact(block.text) for block in blocks[:limit]]
+    for start in range(min(20, limit)):
+        raw = clean_text(blocks[start].text)
+        if not STRUCTURE_HEADING_RE.match(raw):
+            continue
+        duplicate = next((index for index in range(start + 2, limit) if values[index] == values[start]), None)
+        if duplicate is None:
+            continue
+        # A real TOC contains structural headings but not article bodies.  Repeated
+        # chapter names also occur naturally in the body, so never delete a range
+        # once an article marker has appeared inside it.
+        if any(ARTICLE_HEADING_RE.match(clean_text(blocks[index].text)) for index in range(start, duplicate)):
+            continue
+        front_headings = sum(bool(STRUCTURE_HEADING_RE.match(clean_text(blocks[index].text))) for index in range(start, duplicate))
+        following = [clean_text(block.text) for block in blocks[duplicate + 1:min(duplicate + 8, len(blocks))]]
+        if front_headings >= 2 and any(ARTICLE_HEADING_RE.match(value) for value in following):
+            return blocks[:start] + blocks[duplicate:], duplicate - start
+    return blocks, 0
+
+
 def markdown_table(rows: list[list[str]]) -> str:
     if not rows:
         return ""
     width = max(len(row) for row in rows)
     normalized = [[clean_text(cell).replace("|", "\\|").replace("\n", "<br>") for cell in row] + [""] * (width - len(row)) for row in rows]
+    if not any(compact(cell) for row in normalized for cell in row):
+        return ""
     header = normalized[0]
     result = ["| " + " | ".join(header) + " |", "| " + " | ".join(["---"] * width) + " |"]
     result.extend("| " + " | ".join(row) + " |" for row in normalized[1:])

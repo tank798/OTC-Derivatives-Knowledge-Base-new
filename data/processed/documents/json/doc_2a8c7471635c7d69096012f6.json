@@ -1,0 +1,906 @@
+{
+  "document_id": "doc_2a8c7471635c7d69096012f6",
+  "file_name": "全国银行间同业拆借中心标准利率互换交易规则.doc",
+  "file_path": "data/raw/监管文件/全国银行间同业拆借中心标准利率互换交易规则.doc",
+  "source_type": "doc",
+  "file_sha256": "9c73f7ad37311cbc0904ec1bc4581690773af496d95079b16c54f3af29b21ff8",
+  "content_sha256": "6f26c1913b38912e3d2d767357b04f715c1e75786a9a4df1313eb76d688e3187",
+  "metadata": {
+    "document_title": "全国银行间同业拆借中心标准利率互换交易规则",
+    "issuing_authority": "中国外汇交易中心",
+    "document_number": "中汇交发〔2023〕326号",
+    "publication_date": "2023-11-24",
+    "effective_date": "2023-11-24",
+    "validity_status": "现行有效",
+    "version": "",
+    "document_title_source": "authoritative_catalog",
+    "official_url": "https://www.chinamoney.com.cn/chinese/bbyspscllhh/20231124/2779727.html",
+    "catalog_group": "中国外汇交易中心",
+    "catalog_index": 96,
+    "local_file_path": "data/raw/监管文件/全国银行间同业拆借中心标准利率互换交易规则.doc",
+    "source_status": "local_original_verified",
+    "legacy_document_id": "doc_source_9c73f7ad37311cbc0904"
+  },
+  "warnings": [
+    "旧DOC经LibreOffice直接只读导出文本，原文件未修改"
+  ],
+  "extraction_status": "success",
+  "normalized_text": "关于发布《全国银行间同业拆借中心\n\n标准利率互换交易规则》的通知\n\n中汇交发〔2023〕326号\n\n银行间市场成员:\n\n为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。\n\n特此通知。\n\n附件:1.全国银行间同业拆借中心标准利率互换交易规则\n\n2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单\n\n全国银行间同业拆借中心\n\n2023年11月24日\n\n附件1\n\n全国银行间同业拆借中心\n\n标准利率互换交易规则\n\n第一章 总 则\n\n第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。\n\n第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。\n\n第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。\n\n第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。\n\n第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。\n\n第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。\n\n第二章 合约要素定义\n\n第七条 合约要素\n\n标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。\n\n第八条 合约相关日期\n\n合约月份:用以确定合约到期的年份和月份。\n\n合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。\n\n到期结算日:合约到期后,交易双方结算日期,简称D日。\n\n最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。\n\n新合约上市日:前一合约最后交易日的下一个营业日,即D日。\n\n第九条 合约相关利率及金额\n\n每日结算利率:用于每日盯市估值的参考利率。\n\n挂牌基准利率:新合约上市日合约的理论价值。\n\n到期结算利率:合约到期用于到期结算的利率。\n\n累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。\n\n第三章 合 约\n\n第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。\n\n第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。\n\n第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。\n\n第十三条 合约每日结算利率按以下方法确定:\n\n(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;\n\n(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;\n\n(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;\n\n(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。\n\n第十四条 标准利率互换采用现金结算方式。\n\n第四章 业务流程\n\n第十五条 入市管理\n\n参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。\n\n已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。\n\n第十六条 交易时间\n\n每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。\n\n第十七条 报价\n\n合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。\n\n第十八条 交易\n\n参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。\n\n第十九条 限额管理\n\n交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。\n\n第二十条 合约持仓\n\n交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。\n\n第二十一条 组织报价\n\n同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。\n\n第五章 风险管理\n\n第二十二条 涨跌幅管理\n\n交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。\n\n第二十三条 头寸报告\n\n参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。\n\n第六章 附 则\n\n第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。\n\n第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。\n\n第二十六条 本规则由同业拆借中心负责解释和修订。\n\n第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。\n\n附件2\n\n全国银行间同业拆借中心 银行间市场清算所股份有限公司\n\n标准利率互换申请单\n\n申请机构全称 (本币交易系统交易账户名称)\n\n申请机构简称\n\n综合清算会员全称\n\n综合清算会员账号\n\n(7位)\n\n一、业务主管领导及联系方式\n\n姓名 部门及职务\n\n办公室电话 传真\n\n联系地址 电子邮箱\n\n二、业务交易人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 本币交易员\n\n资格证书编号\n\n联系地址 电子邮箱\n\n三、业务清算人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 电子邮箱\n\n• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》\n\n• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险\n\n• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统\n\n• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》\n\n非清算会员\n\n经办人姓名 非清算会员\n\n经办人联系电话\n\n以下内容由综合清算会员填写:\n\n四、额度申请\n\n清算限额\n\n日间容忍度\n\n生效日期 (选填,以实际收到原件为准)\n\n五、账户及扣款提款路径\n\n1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。\n\n2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。\n\n综合清算会员\n\n经办人姓名 综合清算会员\n\n经办人联系电话\n\n说明:\n\n1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;\n\n2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);\n\n3.申请单一式两份,分别发送交易中心和上海清算所;\n\n4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;\n\n5.咨询电话(电子邮箱)\n\n交易中心:\n\n贺田子 021-38585725;hetianzi@chinamoney.com.cn\n\n陆夏冰 021-38585321;luxiabing@chinamoney.com.cn\n\n闫 慧 021-38585302;yanhui@chinamoney.com.cn\n\n上海清算所:\n\n业务申请:李昕 021-23198860;lixin@shclearing.com.cn\n\n业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn\n\n风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn\n\n6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。\n\n申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)\n\n日期: 日期:",
+  "blocks": [
+    {
+      "block_id": "b00001",
+      "text": "关于发布《全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00002",
+      "text": "标准利率互换交易规则》的通知",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00003",
+      "text": "中汇交发〔2023〕326号",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00004",
+      "text": "银行间市场成员:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00005",
+      "text": "为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00006",
+      "text": "特此通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00007",
+      "text": "附件:1.全国银行间同业拆借中心标准利率互换交易规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00008",
+      "text": "2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00009",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00010",
+      "text": "2023年11月24日",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00011",
+      "text": "附件1",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00012",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00013",
+      "text": "标准利率互换交易规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00014",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00015",
+      "text": "第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00016",
+      "text": "第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00017",
+      "text": "第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00018",
+      "text": "第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00019",
+      "text": "第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00020",
+      "text": "第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00021",
+      "text": "第二章 合约要素定义",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00022",
+      "text": "第七条 合约要素",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00023",
+      "text": "标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00024",
+      "text": "第八条 合约相关日期",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00025",
+      "text": "合约月份:用以确定合约到期的年份和月份。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00026",
+      "text": "合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00027",
+      "text": "到期结算日:合约到期后,交易双方结算日期,简称D日。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00028",
+      "text": "最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00029",
+      "text": "新合约上市日:前一合约最后交易日的下一个营业日,即D日。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00030",
+      "text": "第九条 合约相关利率及金额",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00031",
+      "text": "每日结算利率:用于每日盯市估值的参考利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00032",
+      "text": "挂牌基准利率:新合约上市日合约的理论价值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00033",
+      "text": "到期结算利率:合约到期用于到期结算的利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00034",
+      "text": "累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00035",
+      "text": "第三章 合 约",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00036",
+      "text": "第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00037",
+      "text": "第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00038",
+      "text": "第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00039",
+      "text": "第十三条 合约每日结算利率按以下方法确定:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00040",
+      "text": "(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00041",
+      "text": "(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00042",
+      "text": "(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00043",
+      "text": "(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00044",
+      "text": "第十四条 标准利率互换采用现金结算方式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00045",
+      "text": "第四章 业务流程",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00046",
+      "text": "第十五条 入市管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00047",
+      "text": "参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00048",
+      "text": "已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00049",
+      "text": "第十六条 交易时间",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00050",
+      "text": "每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00051",
+      "text": "第十七条 报价",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00052",
+      "text": "合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00053",
+      "text": "第十八条 交易",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00054",
+      "text": "参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00055",
+      "text": "第十九条 限额管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00056",
+      "text": "交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00057",
+      "text": "第二十条 合约持仓",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00058",
+      "text": "交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00059",
+      "text": "第二十一条 组织报价",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00060",
+      "text": "同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00061",
+      "text": "第五章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00062",
+      "text": "第二十二条 涨跌幅管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00063",
+      "text": "交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00064",
+      "text": "第二十三条 头寸报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00065",
+      "text": "参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00066",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00067",
+      "text": "第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00068",
+      "text": "第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00069",
+      "text": "第二十六条 本规则由同业拆借中心负责解释和修订。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00070",
+      "text": "第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00071",
+      "text": "附件2",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00072",
+      "text": "全国银行间同业拆借中心 银行间市场清算所股份有限公司",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00073",
+      "text": "标准利率互换申请单",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00074",
+      "text": "申请机构全称 (本币交易系统交易账户名称)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00075",
+      "text": "申请机构简称",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00076",
+      "text": "综合清算会员全称",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00077",
+      "text": "综合清算会员账号",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00078",
+      "text": "(7位)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00079",
+      "text": "一、业务主管领导及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00080",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00081",
+      "text": "办公室电话 传真",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00082",
+      "text": "联系地址 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00083",
+      "text": "二、业务交易人员及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00084",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00085",
+      "text": "办公室电话 本币交易员",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00086",
+      "text": "资格证书编号",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00087",
+      "text": "联系地址 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00088",
+      "text": "三、业务清算人员及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00089",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00090",
+      "text": "办公室电话 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00091",
+      "text": "• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00092",
+      "text": "• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00093",
+      "text": "• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00094",
+      "text": "• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00095",
+      "text": "非清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00096",
+      "text": "经办人姓名 非清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00097",
+      "text": "经办人联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00098",
+      "text": "以下内容由综合清算会员填写:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00099",
+      "text": "四、额度申请",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00100",
+      "text": "清算限额",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00101",
+      "text": "日间容忍度",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00102",
+      "text": "生效日期 (选填,以实际收到原件为准)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00103",
+      "text": "五、账户及扣款提款路径",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00104",
+      "text": "1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00105",
+      "text": "2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00106",
+      "text": "综合清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00107",
+      "text": "经办人姓名 综合清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00108",
+      "text": "经办人联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00109",
+      "text": "说明:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00110",
+      "text": "1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00111",
+      "text": "2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00112",
+      "text": "3.申请单一式两份,分别发送交易中心和上海清算所;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00113",
+      "text": "4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00114",
+      "text": "5.咨询电话(电子邮箱)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00115",
+      "text": "交易中心:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00116",
+      "text": "贺田子 021-38585725;hetianzi@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00117",
+      "text": "陆夏冰 021-38585321;luxiabing@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00118",
+      "text": "闫 慧 021-38585302;yanhui@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00119",
+      "text": "上海清算所:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00120",
+      "text": "业务申请:李昕 021-23198860;lixin@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00121",
+      "text": "业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00122",
+      "text": "风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00123",
+      "text": "6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00124",
+      "text": "申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00125",
+      "text": "日期: 日期:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0
+    }
+  ]
+}

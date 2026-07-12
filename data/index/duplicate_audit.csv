@@ -1,6 +1,0 @@
-audit_level,fingerprint,count,status,members
-summary,files,176,checked,
-summary,chunks,1828,checked,
-summary,blocking_duplicate_groups,0,passed,
-summary,review_duplicate_groups,0,passed,
-summary,intentional_overlap_groups,0,recorded,

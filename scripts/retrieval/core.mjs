@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 export const ROOT = resolve(import.meta.dirname, "../..");
-export const SOURCE_CHUNKS = resolve(ROOT, "data/processed/chunks/all_chunks.jsonl");
+export const SOURCE_CHUNKS = resolve(ROOT, "data/processed/chunks/jsonl/all_chunks.jsonl");
 export const INDEX_DIR = resolve(ROOT, "data/index");
 export const CORPUS_PATH = resolve(INDEX_DIR, "corpus.jsonl");
 export const METADATA_PATH = resolve(INDEX_DIR, "document_metadata.jsonl");

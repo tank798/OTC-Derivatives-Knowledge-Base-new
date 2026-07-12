@@ -11,11 +11,88 @@ from utils.text import body_char_count, clean_text, compact
 
 SENTENCE_RE = re.compile(r"(?<=[。！？；])")
 SECONDARY_RE = re.compile(r"(?<=[，：,;:])")
+ENUMERATION_INTRO_RE = re.compile(r"(?:如下|下列|包括|条件|材料|方法|情形|事项|款项|内容)[^。！？；;]{0,40}[：:]\s*$")
+ENUMERATION_TAIL_RE = re.compile(r"(?:^|[。！？\n])([^。！？\n]{1,200}(?:如下|下列|包括|条件|材料|方法|情形|事项|款项|内容)[^。！？；;]{0,40}[：:]\s*)$")
+ENUMERATION_CONTEXT_RE = re.compile(r"(?:^|[。！？\n])([^。！？\n]{0,180}?(?:如下|下列|包括|条件|材料|方法|情形|事项|款项|内容)[^。！？；;]{0,40}[：:])")
+LIST_CONTINUATION_RE = re.compile(r"^(?:[（(][一二三四五六七八九十百\d]+[）)]|\d+[.、．])")
+MID_SENTENCE_CONTINUATION_RE = re.compile(r"^(?:包括|以及|且|并且|并|或|其中|即|亦即|但|但是|除非|否则)")
+PAREN_MARKER_RE = re.compile(r"[（(]([一二三四五六七八九十百\d]+)[）)]")
+TERM_HEADING_RE = re.compile(r"(?m)^(\d+[.．]\s*(?:\n\s*)?\d+\s+[^\n]{2,220})")
 
 
-def make_unit(node: Node, text: str | None = None, oversized_reason: str = "") -> Unit:
+def marker_ordinal(value: str) -> int | None:
+    if value.isdigit():
+        return int(value)
+    digits = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+    if value in digits:
+        return digits[value]
+    if value == "十":
+        return 10
+    if value.startswith("十") and value[1:] in digits:
+        return 10 + digits[value[1:]]
+    if value.endswith("十") and value[:-1] in digits:
+        return digits[value[:-1]] * 10
+    if "十" in value:
+        left, right = value.split("十", 1)
+        if left in digits and right in digits:
+            return digits[left] * 10 + digits[right]
+    return None
+
+
+def continues_numbered_list(previous_text: str, current_text: str) -> bool:
+    current_match = PAREN_MARKER_RE.match(current_text.lstrip())
+    if not current_match:
+        return False
+    current_number = marker_ordinal(current_match.group(1))
+    if current_number is None:
+        return False
+    previous_matches = list(PAREN_MARKER_RE.finditer(previous_text[-1200:]))
+    if not previous_matches:
+        return current_number == 1 and bool(ENUMERATION_CONTEXT_RE.search(previous_text))
+    previous_number = marker_ordinal(previous_matches[-1].group(1))
+    return previous_number is not None and current_number == previous_number + 1
+
+
+def parent_context_from_previous(previous_text: str, current_text: str = "") -> str:
+    """Return compact parent context for a list/mid-sentence continuation."""
+    leading_marker = PAREN_MARKER_RE.match(current_text.lstrip())
+    if leading_marker and not leading_marker.group(1).isdigit():
+        top_level_matches = list(re.finditer(
+            r"(?m)^([一二三四五六七八九十百]+、)\s*(?:\n\s*)?([^\n]{1,100})?",
+            previous_text,
+        ))
+        if top_level_matches:
+            marker, title = top_level_matches[-1].group(1), clean_text(top_level_matches[-1].group(2) or "")
+            return clean_text(marker + (" " + title if title else ""))
+    if leading_marker and leading_marker.group(1).isdigit():
+        term_matches = list(TERM_HEADING_RE.finditer(previous_text))
+        if term_matches:
+            value = clean_text(term_matches[-1].group(1))
+            boundary = re.search(r"[。；;]", value)
+            return clean_text(value[:boundary.end()] if boundary else value[:220])
+    intro_matches = list(ENUMERATION_CONTEXT_RE.finditer(previous_text))
+    if intro_matches:
+        return clean_text(intro_matches[-1].group(1))
+    term_matches = list(TERM_HEADING_RE.finditer(previous_text))
+    if term_matches:
+        value = clean_text(term_matches[-1].group(1))
+        # The definition label and first sentence are enough to identify the parent;
+        # do not duplicate a full long definition in every continuation chunk.
+        boundary = re.search(r"[。；;]", value)
+        return clean_text(value[:boundary.end()] if boundary else value[:220])
+    lines = [clean_text(line) for line in previous_text.splitlines() if clean_text(line)]
+    for line_index in range(len(lines) - 1, -1, -1):
+        line = lines[line_index]
+        if re.match(r"^(?:第.+条|第.+章|第.+节|[一二三四五六七八九十百]+、|\d+[.．]\s*\d+)", line):
+            if re.fullmatch(r"[一二三四五六七八九十百]+、", line) and line_index + 1 < len(lines):
+                return clean_text(line + " " + lines[line_index + 1])[:220]
+            return line[:220]
+    return clean_text(previous_text[-180:])
+
+
+def make_unit(node: Node, text: str | None = None, oversized_reason: str = "", *, include_descendant_articles: bool = True) -> Unit:
     body = clean_text(text if text is not None else render_node(node))
-    articles = monotonic_articles(node)
+    articles = monotonic_articles(node) if include_descendant_articles else []
     article_context = containing_article(node)
     hierarchy = hierarchy_for(node)
     return Unit(
@@ -40,6 +117,11 @@ def split_complete_sentences(node: Node, text: str) -> list[Unit]:
     result: list[Unit] = []
     current: list[str] = []
     for sentence in sentences:
+        if current and ENUMERATION_INTRO_RE.search(sentence):
+            current_text = "".join(current)
+            result.append(make_unit(node, current_text, "单个完整句子或字段行超过上限" if body_char_count(current_text) > config.MAX_CHARS else ""))
+            current = [sentence]
+            continue
         candidate = "".join(current + [sentence])
         if current and body_char_count(candidate) > config.MAX_CHARS:
             current_text = "".join(current)
@@ -88,7 +170,7 @@ def split_node(node: Node) -> list[Unit]:
     if node.own_text:
         own = clean_text("\n".join(part for part in (node.title, node.own_text) if part))
         if body_char_count(own) <= config.MAX_CHARS:
-            child_units.append(make_unit(node, own))
+            child_units.append(make_unit(node, own, include_descendant_articles=False))
         else:
             child_units.extend(split_complete_sentences(node, own))
     for child in node.children:
@@ -102,7 +184,11 @@ def split_node(node: Node) -> list[Unit]:
 
 def compatible_hierarchy(left: Unit, right: Unit) -> bool:
     for key in ("part_title", "chapter_title", "section_title", "attachment_name"):
-        if left.hierarchy.get(key) and right.hierarchy.get(key) and left.hierarchy[key] != right.hierarchy[key]:
+        left_value = left.hierarchy.get(key, "")
+        right_value = right.hierarchy.get(key, "")
+        if key in {"part_title", "attachment_name"} and left_value != right_value:
+            return False
+        if left_value and right_value and left_value != right_value:
             return False
     return True
 
@@ -138,13 +224,32 @@ def combine_units(units: list[Unit], forced_breaks: set[int] | None = None) -> l
         semantic_break = config.ENABLE_SEMANTIC_CHUNKING and clear_topic_change(current[-1].body_text, unit.body_text)
         hierarchy_break = not compatible_hierarchy(current[-1], unit)
         exceeds = body_char_count(candidate_text) > config.MAX_CHARS
-        if unit_index in forced_breaks or exceeds or hierarchy_break or (semantic_break and body_char_count(current_text) >= config.TARGET_MIN_CHARS):
+        carry_text = current[-1].body_text + "\n" + unit.body_text if current else ""
+        if exceeds and len(current) > 1 and ENUMERATION_INTRO_RE.search(current[-1].body_text) and body_char_count(carry_text) <= config.MAX_CHARS:
+            chunks.append(draft(current[:-1]))
+            current = [current[-1], unit]
+        elif unit_index in forced_breaks or exceeds or hierarchy_break or (semantic_break and body_char_count(current_text) >= config.TARGET_MIN_CHARS):
             chunks.append(draft(current))
             current = [unit]
         else:
             current.append(unit)
     if current:
         chunks.append(draft(current))
+    # 显式分部/附件边界必须与前文断开，但标题本身不能成为无正文Chunk。
+    # 若标题与其后第一个正文块可完整容纳，则向后合并。
+    index = 0
+    while index + 1 < len(chunks):
+        heading = chunks[index]
+        following = chunks[index + 1]
+        heading_text = "\n".join(unit.body_text for unit in heading.units)
+        merged = "\n".join(unit.body_text for unit in heading.units + following.units)
+        structural_only = bool(heading.units) and all(unit.kind in {"part", "chapter", "section", "attachment"} for unit in heading.units)
+        if structural_only and body_char_count(heading_text) < config.MIN_CHARS and body_char_count(merged) <= config.MAX_CHARS and compatible_hierarchy(heading.units[-1], following.units[0]):
+            following.units = heading.units + following.units
+            following.hierarchy = merged_hierarchy(following.units)
+            chunks.pop(index)
+        else:
+            index += 1
     # 合并无独立检索价值的过短尾块。
     index = 1
     while index < len(chunks):
@@ -167,8 +272,26 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
         current = chunks[index]
         previous = chunks[index - 1]
         current_text = "\n".join(unit.body_text for unit in current.units)
+        previous_text = "\n".join(unit.body_text for unit in previous.units)
         first_sequence = current.units[0].sequence_index if current.units else -1
-        if not (depends_on_previous(current_text) or first_sequence in llm_overlaps) or not previous.units:
+        same_article = bool(
+            previous.units and current.units
+            and previous.units[-1].article_start
+            and previous.units[-1].article_start == current.units[0].article_start
+        )
+        numbered_continuation = continues_numbered_list(previous_text, current_text)
+        sentence_continuation = bool(
+            re.search(r"[,，:]\s*$", previous_text)
+            and MID_SENTENCE_CONTINUATION_RE.match(current_text.lstrip())
+        )
+        enumeration_continuation = bool(
+            ENUMERATION_INTRO_RE.search(previous_text)
+            or numbered_continuation
+            or sentence_continuation
+            or (same_article and LIST_CONTINUATION_RE.search(current_text.lstrip()) and re.search(r"[；;]\s*$", previous_text))
+        )
+        dependency = depends_on_previous(current_text)
+        if not (dependency or enumeration_continuation or first_sequence in llm_overlaps) or not previous.units:
             continue
         candidates = [unit for unit in previous.units[-config.MAX_OVERLAP_ARTICLES:] if unit.kind in {"article", "paragraph", "item", "subitem", "text"}]
         if not candidates:
@@ -184,6 +307,64 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
             current.units = selected + current.units
             current.is_overlapping = True
             current.overlap_source_index = index - 1
+        elif enumeration_continuation or dependency:
+            match = ENUMERATION_TAIL_RE.search(previous_text)
+            if match:
+                tail = clean_text(match.group(1))
+            else:
+                matches = list(ENUMERATION_CONTEXT_RE.finditer(previous_text))
+                tail = clean_text(matches[-1].group(1)) if matches else parent_context_from_previous(previous_text, current_text)
+            if tail and body_char_count(tail + "\n" + current_text) <= config.MAX_CHARS:
+                source = previous.units[-1]
+                current.units.insert(0, Unit(
+                    body_text=tail,
+                    kind="text",
+                    hierarchy=dict(source.hierarchy),
+                    article_start=source.article_start,
+                    article_end=source.article_end,
+                    attachment_name=source.attachment_name,
+                    block_ids=[],
+                    sequence_index=source.sequence_index,
+                ))
+                current.is_overlapping = True
+                current.overlap_source_index = index - 1
+            elif tail:
+                # 当前正文已接近上限时，将最短引导语作为检索上下文而非
+                # 正文字符计数的一部分，仍保留可追溯的重叠来源。
+                current.context_only_prefix = tail
+                current.is_overlapping = True
+                current.overlap_source_index = index - 1
+
+        # Whole-unit overlap can still repeat only a terse list item. Add the
+        # parent definition/article or enumeration introduction as retrieval-only
+        # context so the new Chunk never begins with an unexplained “(二)/(2)”.
+        if current.is_overlapping and (LIST_CONTINUATION_RE.search(current_text.lstrip()) or sentence_continuation):
+            parent_context = parent_context_from_previous(previous_text, current_text)
+            if parent_context and compact(parent_context) not in compact(current_text[:320]):
+                prefixes = [value for value in (current.context_only_prefix, parent_context) if value]
+                current.context_only_prefix = "\n".join(dict.fromkeys(prefixes))
+
+
+def coalesce_structural_units(document: ParsedDocument, units: list[Unit]) -> list[Unit]:
+    if len(units) > 1 and compact(units[0].body_text) == compact(document.metadata.get("document_title", "")):
+        units[1].block_ids = list(dict.fromkeys(units[0].block_ids + units[1].block_ids))
+        units = units[1:]
+    result: list[Unit] = []
+    index = 0
+    while index < len(units):
+        current = units[index]
+        following = units[index + 1] if index + 1 < len(units) else None
+        if (
+            following and current.kind == "part" and following.kind == "part"
+            and body_char_count(current.body_text) < 20
+            and compact(current.body_text) in compact(following.body_text)
+        ):
+            following.block_ids = list(dict.fromkeys(current.block_ids + following.block_ids))
+            index += 1
+            continue
+        result.append(current)
+        index += 1
+    return result
 
 
 def context_prefix(document: ParsedDocument, hierarchy: dict[str, str], body: str) -> str:
@@ -203,6 +384,7 @@ def chunk_document(document: ParsedDocument, semantic_cache_path=None) -> tuple[
     units: list[Unit] = []
     for child in root.children:
         units.extend(split_node(child))
+    units = coalesce_structural_units(document, units)
     for index, unit in enumerate(units):
         unit.sequence_index = index
     llm_breaks: set[int] = set()
@@ -216,6 +398,7 @@ def chunk_document(document: ParsedDocument, semantic_cache_path=None) -> tuple[
     for chunk in chunks:
         body = "\n".join(unit.body_text for unit in chunk.units)
         prefix = context_prefix(document, chunk.hierarchy, body)
-        text = body if not prefix or body.startswith(prefix) else prefix + "\n" + body
+        retrieval_body = "\n".join(value for value in (chunk.context_only_prefix, body) if value)
+        text = retrieval_body if not prefix or retrieval_body.startswith(prefix) else prefix + "\n" + retrieval_body
         rendered.append({"body": body, "text": text})
     return chunks, rendered, llm_warnings

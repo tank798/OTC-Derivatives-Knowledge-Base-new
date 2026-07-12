@@ -1,6 +1,6 @@
 # 中国金融监管法规切分程序
 
-本程序只读扫描项目内的 `data/raw/regulations`，不修改、删除或覆盖原文件。结果统一写入 `data/processed/chunks`。
+本程序只读扫描项目内唯一原件目录 `data/raw/监管文件`，不修改、删除或覆盖原文件。结构化正文写入 `data/processed/documents`，检索 Chunk 写入 `data/processed/chunks`。
 
 ## 切分逻辑
 
@@ -14,7 +14,14 @@
 
 ## 支持格式
 
-`.docx`、`.doc`、`.pdf`、`.xlsx`、`.txt`、`.md`、`.html`。旧 `.doc` 优先在临时目录通过 LibreOffice 转换，失败时使用清理域代码后的 `textutil` 结果，原文件不变。扫描型 PDF 不会输出乱码，而是进入 OCR/人工复核清单。
+`.docx`、`.doc`、`.pdf`、`.xlsx`、`.txt`、`.md`、`.html`。旧 `.doc` 优先在临时目录通过 LibreOffice 转换，失败时使用清理域代码后的 `textutil` 结果，原文件不变。扫描型 PDF 优先读取 `data/raw/official_text_cache/<同名文件>.html` 中已核验的官方网页正文；没有官方缓存时才调用本机 OCR。缓存来源和回退情况会写入结构化文档及切分报告，不会伪装成 PDF 文本层。
+
+## 稳定ID与增量构建
+
+- `document_id` 由法规正式名称、文号、发文机关和版本生成，不依赖文件路径、扩展名或正文哈希。
+- `chunk_id` 由稳定文档ID、章/节/条定位和正文哈希生成，不依赖本次顺序号。
+- `data/processed/build_manifest.json` 分别记录原件哈希、正文哈希、元数据哈希、解析器版本、切分器版本和每份文件的产物路径。
+- 原件未变时复用结构化正文；正文及切分器未变时复用 Chunk；只修改 URL 等元数据时仅刷新 Chunk 元数据。
 
 ## 运行
 
@@ -39,15 +46,37 @@ python3 knowledge_base/main.py --force --file "期货和衍生品法"
 ## 测试
 
 ```bash
-python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s knowledge_base/tests -v
 ```
+
+## Chunk全量复核
+
+在构建完成后，逐个 Chunk 核对源块、结构、元数据、原件路径、PDF页覆盖、DOCX smartTag、噪声、长度、重复正文和列举承接：
+
+```bash
+python3 knowledge_base/review_chunks.py
+```
+
+复核结果写入 `data/processed/chunk_review`；脚本只读原件，不修改 `data/raw/监管文件`。
+
+最终独立复核的脚本与产物位于 `data/processed/chunk_review_independent/`，对外发布以该目录中的 `coverage.json`、`issues.md` 和 `final_report.md` 为准。
 
 ## 输出
 
 - `data/processed/chunks/jsonl/*.jsonl`
-- `data/processed/chunks/all_chunks.jsonl`
+- `data/processed/chunks/jsonl/all_chunks.jsonl`
+- `data/processed/documents/json/*.json`
+- `data/processed/documents/all_documents.jsonl`
+- `data/processed/build_manifest.json`
 - `data/processed/chunks/markdown/*.md`
 - `data/processed/chunks/chunk_index.csv`
+- `data/processed/chunks/Chunk质量问题.csv`
 - `data/processed/chunks/切分报告.md`
 - `data/processed/chunks/自动校验结果.json`
 - `data/processed/chunks/文件扫描清单.csv`
+- `data/processed/chunk_review/chunk_review.jsonl`
+- `data/processed/chunk_review/chunk_review.csv`
+- `data/processed/chunk_review/document_review_summary.csv`
+- `data/processed/chunk_review/review_coverage.json`
+- `data/processed/chunk_review/chunk_issues.md`
+- `data/processed/chunk_review/final_chunk_review_report.md`

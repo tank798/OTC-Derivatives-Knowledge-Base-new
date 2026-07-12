@@ -61,6 +61,7 @@ class ChunkDraft:
     overlap_source_index: int | None = None
     is_oversized: bool = False
     oversized_reason: str = ""
+    context_only_prefix: str = ""
 
 
 @dataclass

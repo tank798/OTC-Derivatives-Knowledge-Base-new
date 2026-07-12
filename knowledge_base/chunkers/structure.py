@@ -17,14 +17,30 @@ PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("subitem", re.compile(r"^([①-⑳])\s*(.*)$")),
     ("attachment", re.compile(r"^((?:附件|附录)(?:\s*\d+)?(?:[::：]\s*)?.{0,80})$")),
 ]
-RANK = {"document": 0, "part": 1, "chapter": 2, "section": 3, "article": 4, "paragraph": 5, "item": 6, "subitem": 7, "attachment": 2, "table": 8, "text": 8}
+RANK = {"document": 0, "part": 1, "attachment": 1, "chapter": 2, "section": 3, "article": 4, "paragraph": 5, "item": 6, "subitem": 7, "table": 8, "text": 8}
+STANDALONE_PART_RE = re.compile(
+    r"^(?:补充协议|特别条款|专用条款|[^。；;：:]{2,80}(?:实施细则|管理办法|业务指引|备案指引|补充协议|特别条款|专用条款|操作细则|交易规则))$"
+)
+EMBEDDED_PART_RE = re.compile(r"^(.{2,120}?(?:补充协议|特别条款|专用条款))((?:本|为|鉴于).+)$")
 
 
 def normalize_marker(value: str) -> str:
     return re.sub(r"\s+", "", value)
 
 
-def classify_block(block: SourceBlock) -> tuple[str, str, str]:
+def is_standalone_part_heading(value: str) -> bool:
+    return bool(STANDALONE_PART_RE.fullmatch(clean_text(value)))
+
+
+def is_official_footnote_heading(value: str) -> bool:
+    return bool(re.match(r"^修订注\d+[：:]", clean_text(value)))
+
+
+def is_embedded_part_heading(value: str) -> bool:
+    return bool(EMBEDDED_PART_RE.fullmatch(clean_text(value)))
+
+
+def classify_block(block: SourceBlock, *, allow_standalone_part: bool = True) -> tuple[str, str, str]:
     text = clean_text(block.text)
     if block.source_kind == "table":
         return "table", "表格", text
@@ -32,6 +48,14 @@ def classify_block(block: SourceBlock) -> tuple[str, str, str]:
         return "text", "", text
     if block.source_kind == "sheet":
         return "part", text, ""
+    embedded_part = EMBEDDED_PART_RE.fullmatch(text)
+    if embedded_part:
+        return "part", clean_text(embedded_part.group(1)), clean_text(embedded_part.group(2))
+    if allow_standalone_part and is_standalone_part_heading(text):
+        return "part", text, ""
+    footnote = re.match(r"^(修订注\d+)[：:]\s*(.*)$", text)
+    if footnote:
+        return "attachment", footnote.group(1), clean_text(footnote.group(2))
     for kind, pattern in PATTERNS:
         match = pattern.match(text)
         if match:
@@ -55,8 +79,9 @@ def classify_block(block: SourceBlock) -> tuple[str, str, str]:
 def build_tree(document: ParsedDocument) -> Node:
     root = Node("document", title=document.metadata.get("document_title", ""))
     stack: list[Node] = [root]
+    standalone_part_count = sum(is_standalone_part_heading(block.text) for block in document.blocks)
     for block in document.blocks:
-        kind, title, own_text = classify_block(block)
+        kind, title, own_text = classify_block(block, allow_standalone_part=standalone_part_count >= 2)
         if kind == "text":
             node = Node(kind, own_text=own_text, block_ids=[block.block_id])
             stack[-1].add_child(node)

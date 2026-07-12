@@ -14,14 +14,13 @@ CSV_FIELDS = [
     "document_number", "publication_date", "effective_date", "validity_status", "version",
     "part_title", "chapter_title", "section_title", "article_start", "article_end",
     "paragraph_range", "attachment_name", "chunk_index", "character_count", "is_overlapping",
-    "overlap_source_chunk_id", "is_oversized", "oversized_reason", "source_type", "text_preview",
+    "overlap_source_chunk_id", "is_oversized", "oversized_reason", "source_type", "official_url", "text_preview",
 ]
 
 
-def export_file(output_dir: Path, source_path: Path, chunks: list[dict[str, Any]]) -> tuple[str, str]:
-    stem = safe_stem(source_path)
-    jsonl_rel = f"jsonl/{stem}.jsonl"
-    markdown_rel = f"markdown/{stem}.md"
+def export_file(output_dir: Path, document_id: str, source_path: Path, chunks: list[dict[str, Any]]) -> tuple[str, str]:
+    jsonl_rel = f"jsonl/{document_id}.jsonl"
+    markdown_rel = f"markdown/{document_id}.md"
     jsonl_path = output_dir / jsonl_rel
     markdown_path = output_dir / markdown_rel
     jsonl_path.parent.mkdir(parents=True, exist_ok=True)
@@ -62,6 +61,11 @@ def export_all(output_dir: Path, chunks: list[dict[str, Any]], summaries: list[d
             output["text_preview"] = row.get("text", "")[:200].replace("\n", " ")
             writer.writerow(output)
     (output_dir / "自动校验结果.json").write_text(json.dumps(validation, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    issue_fields = ["severity", "check", "file_name", "document_id", "chunk_id", "detail"]
+    with (output_dir / "Chunk质量问题.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=issue_fields)
+        writer.writeheader()
+        writer.writerows({field: issue.get(field, "") for field in issue_fields} for issue in validation.get("issues", []))
     with (output_dir / "文件扫描清单.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=["file_name", "file_path", "suffix", "size_bytes", "selected", "reason"])
         writer.writeheader()
@@ -91,6 +95,9 @@ def export_all(output_dir: Path, chunks: list[dict[str, Any]], summaries: list[d
         "完整逐文件清单见 `文件扫描清单.csv`。`.DS_Store`、Word/Office 临时锁文件和不支持的扩展名不进入正文切分。", "",
         "## 自动验收", "",
         f"- 总体结果：{'通过' if validation.get('passed') else '需要复核'}",
+        f"- Critical：{validation.get('severity_counts', {}).get('critical', 0)}",
+        f"- Major：{validation.get('severity_counts', {}).get('major', 0)}",
+        f"- Minor：{validation.get('severity_counts', {}).get('minor', 0)}",
     ]
     lines.extend(f"- {name}：{'通过' if passed else '未通过'}" for name, passed in validation.get("checks", {}).items())
     lines.extend([
@@ -120,4 +127,20 @@ def export_all(output_dir: Path, chunks: list[dict[str, Any]], summaries: list[d
     lines.extend(f"- {row['file_name']}：{row['reason']}" for row in failures) if failures else lines.append("无。")
     lines.extend(["", "## 需要人工复核的解析提示", ""])
     lines.extend(f"- {row['file_name']}：{'；'.join(row.get('warnings', []))}" for row in warnings) if warnings else lines.append("无。")
+    lines.extend(["", "## Chunk质量问题", ""])
+    if validation.get("issues"):
+        lines.extend(["| 级别 | 检查项 | 文件 | Chunk | 说明 |", "|---|---|---|---|---|"])
+        for issue in validation["issues"]:
+            lines.append(f"| {issue.get('severity', '')} | {issue.get('check', '')} | {issue.get('file_name', '')} | {issue.get('chunk_id', '')} | {issue.get('detail', '')} |")
+    else:
+        lines.append("无。")
     (output_dir / "切分报告.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def export_structured_documents(output_dir: Path, documents: list[dict[str, Any]]) -> None:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with (output_dir / "all_documents.jsonl").open("w", encoding="utf-8") as handle:
+        for row in sorted(documents, key=lambda item: item["document_id"]):
+            compact_row = {key: value for key, value in row.items() if key != "blocks"}
+            compact_row["block_count"] = len(row.get("blocks", []))
+            handle.write(json.dumps(compact_row, ensure_ascii=False, sort_keys=True) + "\n")

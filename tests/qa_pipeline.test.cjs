@@ -18,7 +18,7 @@ function hit(overrides = {}) {
     articleNo: "第十条", articleEnd: "", chapterTitle: "第二章", documentNumber: "中证协发〔2025〕1号",
     text: "证券公司开展场外期权业务，应当符合交易商管理要求。", excerpt: "证券公司开展场外期权业务，应当符合交易商管理要求。",
     score: 1, authorityLevel: "", status: "现行有效", verificationStatus: "metadata",
-    matchReason: "bm25 + vector + rrf", retrievalMethods: ["bm25", "vector", "rrf"], localFilePath: "data/raw/regulations/test.pdf",
+    matchReason: "bm25 + vector + rrf", retrievalMethods: ["bm25", "vector", "rrf"], localFilePath: "data/raw/监管文件/test.pdf",
     ...overrides,
   };
 }

@@ -334,7 +334,7 @@ async function main() {
     version: 1,
     generated_at: new Date().toISOString(),
     source: {
-      path: "data/processed/chunks/all_chunks.jsonl",
+      path: "data/processed/chunks/jsonl/all_chunks.jsonl",
       sha256: sha256File(SOURCE_CHUNKS),
       unique_body_source: true,
       legacy_clauses_enabled: false,

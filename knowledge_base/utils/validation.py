@@ -9,6 +9,12 @@ from utils.text import compact
 
 CN_DIGITS = {"零": 0, "〇": 0, "一": 1, "二": 2, "两": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
 CN_UNITS = {"十": 10, "百": 100, "千": 1000, "万": 10000}
+TOC_HEADING_RE = re.compile(r"(?im)^\s*(?:目录|目次|contents)\s*$")
+TOC_ENTRY_RE = re.compile(r"(?m)^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|[一二三四五六七八九十百]+[、.]|\d+[、.]).{0,100}(?:\.{2,}|[…·]{2,})\s*\d{1,4}\s*$")
+HEADING_ONLY_RE = re.compile(r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节](?:\s+.{0,60})?|附件(?:\s*\d+)?(?:[:：].{0,60})?)$")
+ITEM_START_RE = re.compile(r"^[（(][一二三四五六七八九十百\d]+[）)]|^\d+[.、．]")
+WORD_FIELD_RE = re.compile(r"\b(?:HYPERLINK|PAGEREF|NUMPAGES|FORMTEXT|TOC\s+\\o)\b|MERGEFORMAT", re.I)
+ENUMERATION_INTRO_RE = re.compile(r"(?:如下|下列|包括|条件|材料|方法|情形|事项|内容)[：:]\s*$")
 
 
 def chinese_number(value: str) -> int | None:
@@ -38,60 +44,145 @@ def article_number(value: str) -> int | None:
 
 def validate_outputs(rows: list[dict[str, Any]], summaries: list[dict[str, Any]], max_chars: int) -> dict[str, Any]:
     issues: list[dict[str, str]] = []
+
+    def add(severity: str, check: str, detail: str, row: dict[str, Any] | None = None) -> None:
+        issues.append({
+            "severity": severity,
+            "check": check,
+            "detail": detail,
+            "chunk_id": row.get("chunk_id", "") if row else "",
+            "document_id": row.get("document_id", "") if row else "",
+            "file_name": row.get("file_name", "") if row else "",
+        })
+
     ids = [row["chunk_id"] for row in rows]
     duplicate_ids = [value for value, count in Counter(ids).items() if count > 1]
-    if duplicate_ids:
-        issues.append({"check": "chunk_id_unique", "detail": f"重复ID：{duplicate_ids[:10]}"})
+    for value in duplicate_ids[:20]:
+        add("critical", "chunk_id_unique", f"重复ID：{value}")
+
     by_document: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    normalized_bodies: dict[str, dict[str, list[dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
     for row in rows:
         by_document[row["document_id"]].append(row)
+        body = row.get("body_text") or row.get("text", "")
+        body_compact = compact(body)
+        if not body_compact:
+            add("critical", "empty_chunk", "Chunk正文为空", row)
+            continue
+        normalized_bodies[row["document_id"]][body_compact].append(row)
         if row["character_count"] > max_chars and not row["is_oversized"]:
-            issues.append({"check": "character_limit", "detail": row["chunk_id"]})
-        if row["document_title"] and compact(row["document_title"]) not in compact(row["text"][:500]):
-            issues.append({"check": "title_context", "detail": row["chunk_id"]})
+            add("critical", "character_limit", f"{row['character_count']}字符且未标记超限", row)
+        elif row["character_count"] > max_chars:
+            add("minor", "marked_oversized", f"{row['character_count']}字符：{row.get('oversized_reason', '')}", row)
+        if row["document_title"] and compact(row["document_title"]) not in compact(row["text"][:600]):
+            add("major", "title_context", "检索文本开头缺少法规标题上下文", row)
         if any(0xE000 <= ord(char) <= 0xF8FF for char in row["text"]):
-            issues.append({"check": "private_use_formula_character", "detail": row["chunk_id"]})
-        if re.search(r"\b(?:HYPERLINK|PAGEREF|NUMPAGES|FORMTEXT)\b|MERGEFORMAT", row["text"], re.I):
-            issues.append({"check": "word_field_code", "detail": row["chunk_id"]})
+            add("critical", "private_use_formula_character", "仍包含Unicode私有区字符", row)
+        if "[未映射公式符号U+" in row["text"]:
+            add("major", "unmapped_formula_character", "存在未映射公式字符，需要人工核对", row)
+        if WORD_FIELD_RE.search(row["text"]):
+            add("critical", "word_field_code", "包含Word域代码", row)
+        toc_entries = len(TOC_ENTRY_RE.findall(body))
+        if TOC_HEADING_RE.search(body) or toc_entries >= 2:
+            add("critical", "table_of_contents_residue", f"疑似目录残留（目录条目{toc_entries}）", row)
+        nonempty_lines = [line.strip() for line in body.splitlines() if line.strip()]
+        if nonempty_lines and all(HEADING_ONLY_RE.fullmatch(line) for line in nonempty_lines):
+            add("major", "heading_only_chunk", "Chunk只有章节/附件标题，没有可检索正文", row)
+        if row["character_count"] < 80 and not row.get("article_start") and not row.get("attachment_name"):
+            add("minor", "very_short_chunk", f"正文仅{row['character_count']}字符且没有条款定位", row)
+        if ITEM_START_RE.search(body.lstrip()) and not row.get("article_start") and not row.get("is_overlapping"):
+            add("minor", "orphan_list_item", "以款项编号开头且没有条号；检索文本仍保留法规标题和章节上下文", row)
+        page_lines = [line for line in nonempty_lines if re.fullmatch(r"(?:[-—–]\s*)?\d{1,4}(?:\s*[-—–])?", line)]
+        if page_lines:
+            add("major", "page_number_residue", "存在孤立页码：" + "、".join(page_lines[:5]), row)
+
+    for document_id, body_map in normalized_bodies.items():
+        for body, duplicates in body_map.items():
+            unique_non_overlap = [row for row in duplicates if not row.get("is_overlapping")]
+            if len(body) >= 50 and len(unique_non_overlap) > 1:
+                add("major", "duplicate_chunk_body", f"同一文件存在{len(unique_non_overlap)}个相同正文Chunk", unique_non_overlap[0])
+
     row_by_id = {row["chunk_id"]: row for row in rows}
     for document_id, document_rows in by_document.items():
+        document_rows.sort(key=lambda row: row["chunk_index"])
         paths = {row["file_path"] for row in document_rows}
         if len(paths) != 1:
-            issues.append({"check": "file_isolation", "detail": document_id})
+            add("critical", "file_isolation", "同一document_id对应多个文件路径", document_rows[0])
         indices = [row["chunk_index"] for row in document_rows]
         if indices != list(range(1, len(document_rows) + 1)):
-            issues.append({"check": "chunk_order", "detail": document_id})
+            add("critical", "chunk_order", f"Chunk序号不连续：{indices[:20]}", document_rows[0])
         previous_article: int | None = None
-        previous_attachment = ""
-        for row in document_rows:
+        previous_sequence_scope: tuple[str, str] = ("", "")
+        article_sequences: list[list[tuple[int, int, dict[str, Any]]]] = []
+        for position, row in enumerate(document_rows):
             if row["is_overlapping"]:
                 source = row_by_id.get(row["overlap_source_chunk_id"])
                 if not source or source["document_id"] != document_id or source["chunk_index"] >= row["chunk_index"]:
-                    issues.append({"check": "overlap_trace", "detail": row["chunk_id"]})
+                    add("major", "overlap_trace", "重叠来源不存在或顺序错误", row)
+            body = row.get("body_text") or row.get("text", "")
+            if ENUMERATION_INTRO_RE.search(body) and not row.get("is_overlapping"):
+                following = document_rows[position + 1] if position + 1 < len(document_rows) else None
+                bridged = bool(following and following.get("is_overlapping") and following.get("overlap_source_chunk_id") == row.get("chunk_id"))
+                if not bridged:
+                    add("major", "incomplete_enumeration", "正文以冒号结束，且下一Chunk未携带该引导语", row)
+            if re.search(r"[；;]\s*$", body) and row.get("article_start") and row.get("article_end") == row.get("article_start"):
+                following = document_rows[position + 1] if position + 1 < len(document_rows) else None
+                bridged = bool(following and following.get("is_overlapping") and following.get("overlap_source_chunk_id") == row.get("chunk_id"))
+                if not bridged:
+                    add("minor", "possible_split_enumeration", "同一条款Chunk以分号结束，且下一Chunk未携带列举上下文", row)
             start = article_number(row["article_start"])
             end = article_number(row["article_end"])
-            if row.get("attachment_name") != previous_attachment:
+            sequence_scope = (row.get("attachment_name", ""), row.get("part_title", ""))
+            if sequence_scope != previous_sequence_scope:
                 previous_article = None
-                previous_attachment = row.get("attachment_name", "")
+                previous_sequence_scope = sequence_scope
             if start is not None and end is not None and start > end:
-                issues.append({"check": "article_range", "detail": row["chunk_id"]})
+                add("major", "article_range", "条款起止范围倒置", row)
+            if start is not None:
+                range_end = end if end is not None else start
+                if not article_sequences or (article_sequences[-1] and start < article_sequences[-1][-1][0]):
+                    article_sequences.append([])
+                article_sequences[-1].append((start, range_end, row))
             if start is not None and not row["is_overlapping"]:
                 if previous_article is not None and start < previous_article:
-                    issues.append({"check": "article_order", "detail": row["chunk_id"]})
+                    add("major", "article_order", "条款顺序倒退", row)
                 previous_article = end if end is not None else start
-    review_coverage = [row["file_name"] for row in summaries if row.get("coverage_status") != "pass" and row.get("status") == "success"]
-    if review_coverage:
-        issues.append({"check": "source_block_coverage", "detail": "；".join(review_coverage[:20])})
-    checks = {
-        "chunk_id_unique": not duplicate_ids,
-        "character_limit_or_marked_oversized": not any(issue["check"] == "character_limit" for issue in issues),
-        "file_isolation": not any(issue["check"] == "file_isolation" for issue in issues),
-        "chunk_order": not any(issue["check"] == "chunk_order" for issue in issues),
-        "article_order": not any(issue["check"] in {"article_range", "article_order"} for issue in issues),
-        "title_context": not any(issue["check"] == "title_context" for issue in issues),
-        "overlap_trace": not any(issue["check"] == "overlap_trace" for issue in issues),
-        "source_block_coverage": not review_coverage,
-        "no_private_use_formula_characters": not any(issue["check"] == "private_use_formula_character" for issue in issues),
-        "no_word_field_codes": not any(issue["check"] == "word_field_code" for issue in issues),
+
+        # Long regulations normally begin at Article 1.  This catches scanned or
+        # partially parsed files that otherwise look structurally valid.
+        for article_ranges in article_sequences:
+            if len(article_ranges) < 10:
+                continue
+            first_number, first_end, first_row = article_ranges[0]
+            if first_number > 2:
+                add("major", "article_start_gap", f"正文首个识别条款为第{first_number}条，疑似缺失前部正文", first_row)
+            previous_end = first_end
+            for number, range_end, row in article_ranges[1:]:
+                if number > previous_end + 1:
+                    add("major", "article_sequence_gap", f"条款从第{previous_end}条跳至第{number}条，疑似解析缺失", row)
+                previous_end = max(previous_end, range_end)
+
+    for summary in summaries:
+        if summary.get("coverage_status") != "pass" and summary.get("status") == "success":
+            add("major", "source_block_coverage", f"{summary.get('file_name')}存在未覆盖源文本块")
+        if summary.get("status") == "success" and not summary.get("chunk_count"):
+            add("critical", "empty_document_output", f"{summary.get('file_name')}解析成功但没有Chunk")
+
+    severity_counts = Counter(issue["severity"] for issue in issues)
+    checks = {}
+    for name in sorted({issue["check"] for issue in issues} | {
+        "chunk_id_unique", "character_limit", "empty_chunk", "file_isolation", "chunk_order",
+        "article_order", "title_context", "overlap_trace", "source_block_coverage",
+        "private_use_formula_character", "word_field_code", "table_of_contents_residue",
+        "heading_only_chunk", "duplicate_chunk_body",
+        "article_start_gap", "article_sequence_gap",
+    }):
+        checks[name] = not any(issue["check"] == name and issue["severity"] in {"critical", "major"} for issue in issues)
+    passed = severity_counts["critical"] == 0 and severity_counts["major"] == 0
+    return {
+        "passed": passed,
+        "checks": checks,
+        "issue_count": len(issues),
+        "severity_counts": dict(severity_counts),
+        "issues": issues,
     }
-    return {"passed": all(checks.values()), "checks": checks, "issue_count": len(issues), "issues": issues}

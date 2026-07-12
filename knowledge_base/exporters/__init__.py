@@ -1,4 +1,3 @@
-from .writers import export_all, export_file
+from .writers import export_all, export_file, export_structured_documents
 
-__all__ = ["export_all", "export_file"]
-
+__all__ = ["export_all", "export_file", "export_structured_documents"]

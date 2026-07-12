@@ -1,0 +1,365 @@
+{
+  "document_id": "doc_c690621bbbf5d83d3ea90053",
+  "file_name": "关于加强场外衍生品业务自律管理的通知.docx",
+  "file_path": "data/raw/监管文件/关于加强场外衍生品业务自律管理的通知.docx",
+  "source_type": "docx",
+  "file_sha256": "900084e084b82bdf54b0eaa9f6033e288a75224e06754c5289f58a8c03e4b17a",
+  "content_sha256": "389cf240c2fb2d55eb51ccfbc3adc801485cf3351d61e78cf1ed5da0d2a9ba2d",
+  "metadata": {
+    "document_title": "关于加强场外衍生品业务自律管理的通知",
+    "issuing_authority": "中国证券业协会",
+    "document_number": "中证协发〔2017〕123号",
+    "publication_date": "2017-05-22",
+    "effective_date": "",
+    "validity_status": "现行有效",
+    "version": "",
+    "document_title_source": "authoritative_catalog",
+    "official_url": "https://fg.amac.org.cn/governmentrules_3854/zcgz_zlgz/zlgz_gmjj/zlgz_gmjj_tzjy/201912/t20191222_24287.html",
+    "catalog_group": "中国证券业协会",
+    "catalog_index": 49,
+    "local_file_path": "data/raw/监管文件/关于加强场外衍生品业务自律管理的通知.docx",
+    "source_status": "local_original_verified",
+    "legacy_document_id": "doc_source_900084e084b82bdf54b0"
+  },
+  "warnings": [],
+  "extraction_status": "success",
+  "normalized_text": "中证协发〔2017〕123号\n\n各参与场外衍生品交易的证券公司、基金管理公司及其子公司:\n\n为贯彻落实中国证监会《关于进一步规范证券基金经营机构参与场外衍生品交易的通知》(证监办发〔2016〕81号)的相关要求,加强场外衍生品业务自律管理,有效防范和控制风险,现将有关事项通知如下:\n\n一、完善场外衍生品业务备案及数据报送\n\n(一)报送主体\n\n各证券公司、基金管理公司及其子公司(以下简称“证券基金经营机构”)开展场外衍生品交易的,应当按照《场外证券业务备案管理办法》(中证协发〔2015〕164号)要求,向我会备案并报送相关数据。报送主体分为备案机构和参与机构,其中备案机构是指经有关监管机构或自律组织的批准、备案或认可的可从事场外衍生品交易的证券基金经营机构,其他机构为参与机构。场外衍生品交易双方至少一方应为备案机构。\n\n(二)报送业务范围\n\n证券基金经营机构直接参与或作为产品管理人参与SAC、NAFMII、ISDA等主协议项下的场外衍生品交易。\n\n(三)报送路径\n\n证券基金经营机构应将场外衍生品业务相关数据报送至场外证券业务报告系统的场外衍生品报告模块。场外证券业务报告系统登录地址:http://rpt.interotc.com。未注册账户的证券基金经营机构应填写相关信息注册账户。\n\n(四)报送内容\n\n1.持续报告:备案机构及参与机构应于签订主协议、补充协议或交易确认书5个工作日内报送相关交易信息。\n\n2.定期报告:备案机构应于每月10日前报送上一月场外衍生品业务开展规模等总体信息,应于每个季度结束后15个工作日内报送公司合规部门的审查意见以及业务开展合规情况说明,应于每年4月30日前报送上一年场外证券业务年度报告。每季度的定期报告应包括对场外衍生品业务的交易对手方、交易结构、保证金比例及使用、产品关联性等合规方面内容。年度报告应包括场外衍生品交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理等总体情况。\n\n3.重大事项报告:场外衍生品交易合约存续期间发生违约事件、提前终止事件、重大业务风险、重大业务损失、影响业务持续开展等情况的,备案机构应于事件发生后3个工作日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。\n\n各证券基金经营机构应于本通知下发日起三个月内完成历史场外衍生品交易的报送工作。\n\n二、加强场外衍生品业务合规管理和风险控制\n\n(一)证券基金经营机构应保证报送数据真实性、准确性、完整性并对其负责。\n\n(二)各证券基金经营机构应依法、合规参与场外衍生品交易,备案机构应充分了解交易对手方参与场外衍生品交易的真实目的,不得有以下行为:\n\n1.为交易对手方提供融资或者变相融资服务;\n\n2.收取明显超过履约保障需要的保证金;\n\n3.依照交易对手方指令使用保证金;\n\n4.为非标资产规避监管行为提供服务或便利;\n\n5.中国证监会禁止的其他行为。\n\n(三)备案机构应建立健全场外衍生品交易的合规管理、内部控制和风险管理机制。主协议、补充协议、履约保障协议、交易确认书等相关合同和重要文件应当经公司合规审核,并留档备查。\n\n三、强化场外衍生品业务自律管理措施\n\n(一)证券基金经营机构参与场外衍生品交易未按要求报送数据或涉嫌违反自律规则的,我会将视情节轻重约谈业务主管或主要负责人,并要求限期整改。证券基金经营机构按期整改后应向我会提交整改报告。\n\n(二)证券基金经营机构参与场外衍生品交易涉嫌违反自律规则的,我会将视情节轻重按照《中国证券业协会自律管理措施和纪律处分实施办法》采取相关自律惩戒措施。\n\n(三)证券基金经营机构参与场外衍生品交易涉嫌违反法律法规、监管规定或存在重大风险隐患的,我会将移交证券基金经营机构住所地证监局依法查处。\n\n(四)我会根据《场外证券业务备案管理办法》(中证协发〔2015〕164号)建立场外衍生品业务黑名单制度,将严重违规的证券基金经营机构及其相关人员列入黑名单。黑名单在协会网站公布并按规定记入诚信系统。列入黑名单期间不受理相关机构的备案,相关机构不得新开展场外衍生品业务。\n\n四、其他场外证券业务\n\n证券基金经营机构参与其他场外证券业务的,参照本通知要求,按照场外证券业务备案相关规定做好备案及数据报送工作,并加强场外证券业务的合规管理和风险控制。\n\n五、联系人\n\n(一)备案相关问题联系人\n\n场外衍生品业务:金银花,电话:010-66575997,邮箱:jinyh@sac.net.cn\n\n(二)数据报送相关问题联系人\n\n1.场外衍生品业务:梁景美,电话:010-83897845,邮箱:liangjm@sac.net.cn\n\n2.非公开发行公司债券:赵文雯,电话:010-83897932,邮箱:zhaoww@sac.net.cn\n\n3.收益凭证:李雅琪,电话:010-83897925,邮箱:liyq@sac.net.cn\n\n4.场外证券销售业务及证券公司登记、托管和结算:赵智松,电话:010-83897840,邮箱:zhaozs@sac.net.cn\n\n(三)技术相关问题联系人\n\n何京嗣,电话:010-83897917,邮箱:hejs@sac.net.cn\n\n附件:1.场外衍生品报告内容与格式模板\n\n2.非公开发行公司债券备案内容与格式模板\n\n3.收益凭证报告内容与格式模板\n\n4.场外证券销售业务报告内容与格式模板\n\n5.证券公司登记、托管和结算报告内容与格式模板\n\n中国证券业协会\n\n2017年5月22日",
+  "blocks": [
+    {
+      "block_id": "b00001",
+      "text": "中证协发〔2017〕123号",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00002",
+      "text": "各参与场外衍生品交易的证券公司、基金管理公司及其子公司:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00003",
+      "text": "为贯彻落实中国证监会《关于进一步规范证券基金经营机构参与场外衍生品交易的通知》(证监办发〔2016〕81号)的相关要求,加强场外衍生品业务自律管理,有效防范和控制风险,现将有关事项通知如下:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00004",
+      "text": "一、完善场外衍生品业务备案及数据报送",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00005",
+      "text": "(一)报送主体",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00006",
+      "text": "各证券公司、基金管理公司及其子公司(以下简称“证券基金经营机构”)开展场外衍生品交易的,应当按照《场外证券业务备案管理办法》(中证协发〔2015〕164号)要求,向我会备案并报送相关数据。报送主体分为备案机构和参与机构,其中备案机构是指经有关监管机构或自律组织的批准、备案或认可的可从事场外衍生品交易的证券基金经营机构,其他机构为参与机构。场外衍生品交易双方至少一方应为备案机构。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00007",
+      "text": "(二)报送业务范围",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00008",
+      "text": "证券基金经营机构直接参与或作为产品管理人参与SAC、NAFMII、ISDA等主协议项下的场外衍生品交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00009",
+      "text": "(三)报送路径",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00010",
+      "text": "证券基金经营机构应将场外衍生品业务相关数据报送至场外证券业务报告系统的场外衍生品报告模块。场外证券业务报告系统登录地址:http://rpt.interotc.com。未注册账户的证券基金经营机构应填写相关信息注册账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00011",
+      "text": "(四)报送内容",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00012",
+      "text": "1.持续报告:备案机构及参与机构应于签订主协议、补充协议或交易确认书5个工作日内报送相关交易信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00013",
+      "text": "2.定期报告:备案机构应于每月10日前报送上一月场外衍生品业务开展规模等总体信息,应于每个季度结束后15个工作日内报送公司合规部门的审查意见以及业务开展合规情况说明,应于每年4月30日前报送上一年场外证券业务年度报告。每季度的定期报告应包括对场外衍生品业务的交易对手方、交易结构、保证金比例及使用、产品关联性等合规方面内容。年度报告应包括场外衍生品交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理等总体情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00014",
+      "text": "3.重大事项报告:场外衍生品交易合约存续期间发生违约事件、提前终止事件、重大业务风险、重大业务损失、影响业务持续开展等情况的,备案机构应于事件发生后3个工作日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00015",
+      "text": "各证券基金经营机构应于本通知下发日起三个月内完成历史场外衍生品交易的报送工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00016",
+      "text": "二、加强场外衍生品业务合规管理和风险控制",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00017",
+      "text": "(一)证券基金经营机构应保证报送数据真实性、准确性、完整性并对其负责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00018",
+      "text": "(二)各证券基金经营机构应依法、合规参与场外衍生品交易,备案机构应充分了解交易对手方参与场外衍生品交易的真实目的,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00019",
+      "text": "1.为交易对手方提供融资或者变相融资服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00020",
+      "text": "2.收取明显超过履约保障需要的保证金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00021",
+      "text": "3.依照交易对手方指令使用保证金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00022",
+      "text": "4.为非标资产规避监管行为提供服务或便利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00023",
+      "text": "5.中国证监会禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00024",
+      "text": "(三)备案机构应建立健全场外衍生品交易的合规管理、内部控制和风险管理机制。主协议、补充协议、履约保障协议、交易确认书等相关合同和重要文件应当经公司合规审核,并留档备查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00025",
+      "text": "三、强化场外衍生品业务自律管理措施",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00026",
+      "text": "(一)证券基金经营机构参与场外衍生品交易未按要求报送数据或涉嫌违反自律规则的,我会将视情节轻重约谈业务主管或主要负责人,并要求限期整改。证券基金经营机构按期整改后应向我会提交整改报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00027",
+      "text": "(二)证券基金经营机构参与场外衍生品交易涉嫌违反自律规则的,我会将视情节轻重按照《中国证券业协会自律管理措施和纪律处分实施办法》采取相关自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00028",
+      "text": "(三)证券基金经营机构参与场外衍生品交易涉嫌违反法律法规、监管规定或存在重大风险隐患的,我会将移交证券基金经营机构住所地证监局依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00029",
+      "text": "(四)我会根据《场外证券业务备案管理办法》(中证协发〔2015〕164号)建立场外衍生品业务黑名单制度,将严重违规的证券基金经营机构及其相关人员列入黑名单。黑名单在协会网站公布并按规定记入诚信系统。列入黑名单期间不受理相关机构的备案,相关机构不得新开展场外衍生品业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00030",
+      "text": "四、其他场外证券业务",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00031",
+      "text": "证券基金经营机构参与其他场外证券业务的,参照本通知要求,按照场外证券业务备案相关规定做好备案及数据报送工作,并加强场外证券业务的合规管理和风险控制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00032",
+      "text": "五、联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00033",
+      "text": "(一)备案相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00034",
+      "text": "场外衍生品业务:金银花,电话:010-66575997,邮箱:jinyh@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00035",
+      "text": "(二)数据报送相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00036",
+      "text": "1.场外衍生品业务:梁景美,电话:010-83897845,邮箱:liangjm@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00037",
+      "text": "2.非公开发行公司债券:赵文雯,电话:010-83897932,邮箱:zhaoww@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00038",
+      "text": "3.收益凭证:李雅琪,电话:010-83897925,邮箱:liyq@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00039",
+      "text": "4.场外证券销售业务及证券公司登记、托管和结算:赵智松,电话:010-83897840,邮箱:zhaozs@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00040",
+      "text": "(三)技术相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00041",
+      "text": "何京嗣,电话:010-83897917,邮箱:hejs@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00042",
+      "text": "附件:1.场外衍生品报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00043",
+      "text": "2.非公开发行公司债券备案内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00044",
+      "text": "3.收益凭证报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00045",
+      "text": "4.场外证券销售业务报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00046",
+      "text": "5.证券公司登记、托管和结算报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00047",
+      "text": "中国证券业协会",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    },
+    {
+      "block_id": "b00048",
+      "text": "2017年5月22日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "page": 0
+    }
+  ]
+}
