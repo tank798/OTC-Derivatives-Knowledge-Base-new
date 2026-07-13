@@ -1,6 +1,7 @@
 import unittest
 
 from knowledge_base.build_chunk_review_viewer import (
+    HTML,
     first_issuing_authority,
     navigation_authority,
     public_data,
@@ -34,7 +35,8 @@ class ChunkReviewViewerTests(unittest.TestCase):
     def test_public_viewer_uses_actual_file_extensions_and_preserves_totals(self):
         data = public_data()
         self.assertEqual(data["summary"]["documents"], 108)
-        self.assertEqual(data["summary"]["chunks"], 1221)
+        self.assertEqual(data["summary"]["chunks"], sum(len(document["chunks"]) for document in data["documents"]))
+        self.assertGreater(data["summary"]["chunks"], 0)
         self.assertEqual(data["documents"][0]["navigation_authority"], "中国证券监督管理委员会")
         self.assertEqual(data["documents"][0]["document_title"], "公开募集证券投资基金投资信用衍生品指引")
         self.assertTrue(all(chunk["character_count"] > 0 for document in data["documents"] for chunk in document["chunks"]))
@@ -45,6 +47,14 @@ class ChunkReviewViewerTests(unittest.TestCase):
                 for document in data["documents"]
             )
         )
+
+    def test_generated_viewer_keeps_removed_process_counts_out_of_ui(self):
+        self.assertNotIn('class="summary"', HTML)
+        self.assertNotIn('id="authority-count"', HTML)
+        self.assertNotIn("getElementById('authority-count')", HTML)
+        self.assertNotIn("countText=", HTML)
+        self.assertNotIn("显示 ${chunks.length}", HTML)
+        self.assertNotIn("定位链接", HTML)
 
 
 if __name__ == "__main__":

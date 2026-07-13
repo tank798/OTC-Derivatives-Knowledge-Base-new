@@ -56,7 +56,18 @@ function evaluateCase(testCase, result) {
   for (const required of testCase.required_citation_titles ?? []) {
     if (!citedTitles.some((title) => title.includes(required))) issues.push(`最终答案未引用《${required}》`);
   }
-  const evaluatedText = answer.conclusion + "\n" + answer.restrictions.join("\n");
+  for (const alternatives of testCase.required_citation_title_groups ?? []) {
+    if (!alternatives.some((required) => citedTitles.some((title) => title.includes(required)))) {
+      issues.push(`最终答案未引用以下任一等价依据：${alternatives.map((title) => `《${title}》`).join("、")}`);
+    }
+  }
+  const evaluatedText = [
+    answer.directAnswer,
+    answer.conclusion,
+    ...answer.restrictions,
+    ...(answer.scope?.conditions ?? []),
+    ...answer.missingInfo,
+  ].join("\n");
   for (const pattern of testCase.required_answer_patterns ?? []) {
     if (!new RegExp(pattern).test(evaluatedText)) issues.push(`最终答案缺少必要内容：/${pattern}/`);
   }

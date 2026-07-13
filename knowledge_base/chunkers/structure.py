@@ -44,7 +44,7 @@ def is_embedded_part_heading(value: str) -> bool:
 def classify_block(block: SourceBlock, *, allow_standalone_part: bool = True) -> tuple[str, str, str]:
     text = clean_text(block.text)
     if block.source_kind == "table":
-        return "table", "表格", text
+        return "table", "", text
     if re.search(r"\.{4,}|[…·]{6,}", text):
         return "text", "", text
     if block.source_kind == "sheet":
@@ -144,8 +144,9 @@ def hierarchy_for(node: Node) -> dict[str, str]:
 
 
 def render_node(node: Node) -> str:
-    if node.kind == "subitem" and re.fullmatch(r"\d+(?:\.\d+)+", node.title) and node.own_text:
-        parts = [f"{node.title} {node.own_text}"]
+    if node.kind in {"paragraph", "item", "subitem"} and node.title and node.own_text:
+        separator = " " if node.kind == "paragraph" or re.fullmatch(r"\d+(?:\.\d+)+", node.title) else ""
+        parts = [f"{node.title}{separator}{node.own_text}"]
     else:
         parts = [node.title, node.own_text]
     parts.extend(render_node(child) for child in node.children)

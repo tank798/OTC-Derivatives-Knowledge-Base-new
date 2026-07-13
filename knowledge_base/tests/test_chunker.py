@@ -33,6 +33,29 @@ class ChunkerTests(unittest.TestCase):
         self.assertIn("1.1 权益类衍生品交易", body)
         self.assertNotIn("1.\n1 权益类衍生品交易", body)
 
+    def test_list_markers_and_titles_stay_on_the_same_line(self):
+        doc = document([
+            "一、一般风险事项",
+            "(一) 提示客户应当充分了解风险。",
+            "(二) 提示客户应当了解业务规则。",
+        ])
+        _, rendered, _ = chunk_document(doc)
+        body = "\n".join(item["body"] for item in rendered)
+        self.assertIn("一、一般风险事项", body)
+        self.assertIn("(一)提示客户", body)
+        self.assertNotIn("一、\n一般风险事项", body)
+        self.assertNotIn("(一)\n提示客户", body)
+
+    def test_markdown_table_keeps_rows_and_does_not_add_duplicate_label(self):
+        doc = ParsedDocument(
+            Path("表格.pdf"), "pdf",
+            [SourceBlock("| 项目 | 比例 |\n| --- | --- |\n| 净资本 | 100% |", source_kind="table", block_id="b1")],
+            {"document_title": "表格附件"},
+        )
+        _, rendered, _ = chunk_document(doc)
+        self.assertIn("| 净资本 | 100% |", rendered[0]["body"])
+        self.assertFalse(rendered[0]["body"].startswith("表格\n"))
+
     def test_front_declaration_is_separate_from_first_article(self):
         doc = document([
             "声明",

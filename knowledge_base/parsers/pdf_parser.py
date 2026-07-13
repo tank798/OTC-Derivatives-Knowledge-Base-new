@@ -20,6 +20,12 @@ TOC_ENTRY_RE = re.compile(
     r"[一二三四五六七八九十百]+[、.]|\d+[、.]|附件|附录).*?(?:\.{2,}|[…·]{2,}|\s)(?:\d\s*){1,4}$"
 )
 TOC_GENERIC_ENTRY_RE = re.compile(r"^.+(?:\.{2,}|[…·]{2,})\s*(?:(?:\d\s*){1,4}|[IVXLCDM]+)$", re.I)
+PDF_STRUCTURE_START_RE = re.compile(
+    r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|"
+    r"[（(][一二三四五六七八九十\d]+[）)]|\d+(?:\.\d+){1,4}\s+[一-鿿]|\d+[．.、]|"
+    r"附件|附录|声\s*明|前言|目录|目次)"
+)
+PDF_TERMINAL_RE = re.compile(r"[。！？!?]】?$")
 
 
 def ocr_pdf_pages(path: Path) -> list[list[str]]:
@@ -78,7 +84,7 @@ def remove_toc_entries(lines: list[str]) -> tuple[list[str], int]:
 def join_pdf_lines(lines: list[str]) -> list[str]:
     result: list[str] = []
     current = ""
-    structural = re.compile(r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|[（(][一二三四五六七八九十\d]+[）)]|\d+(?:\.\d+){0,4}\s+[一-鿿]|\d+[．.、])")
+    structural = re.compile(r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|[（(][一二三四五六七八九十\d]+[）)]|\d+(?:\.\d+){1,4}\s+[一-鿿]|\d+[．.、])")
     for raw in lines:
         line = clean_text(raw)
         if not line or is_page_number(line):
@@ -98,18 +104,155 @@ def join_pdf_lines(lines: list[str]) -> list[str]:
     return result
 
 
+def normalize_pdf_table_cell(value: str) -> str:
+    """Collapse visual line wrapping inside one extracted PDF table cell.
+
+    pdfplumber keeps the line breaks produced by a narrow column.  Those
+    breaks are page-layout artifacts, not semantic paragraphs, and otherwise
+    become ``<br>`` inside Markdown (for example ``债<br>券``).  Chinese text
+    is joined directly; adjacent Latin letters or digits retain one space.
+    """
+    lines = [clean_text(line) for line in clean_text(value).splitlines() if clean_text(line)]
+    if not lines:
+        return ""
+    result = lines[0]
+    for line in lines[1:]:
+        separator = " " if re.search(r"[A-Za-z0-9]$", result) and re.match(r"^[A-Za-z0-9]", line) else ""
+        result += separator + line
+    return clean_text(result)
+
+
+def normalize_semantic_table(rows: list[list[str | None]]) -> list[list[str]]:
+    """Return a real multi-column table without all-empty rows or columns.
+
+    PDF layout engines often draw a three-column box around a prose note.  In
+    those boxes only the middle column contains text; treating them as tables
+    creates artificial columns and duplicates prose.  A semantic table must
+    retain at least two columns containing actual values after empty-column
+    removal.
+    """
+    cleaned = [[normalize_pdf_table_cell(cell or "") for cell in row] for row in rows]
+    cleaned = [row for row in cleaned if any(compact(cell) for cell in row)]
+    if len(cleaned) < 2:
+        return []
+    width = max(len(row) for row in cleaned)
+    padded = [row + [""] * (width - len(row)) for row in cleaned]
+    active_columns = [index for index in range(width) if any(compact(row[index]) for row in padded)]
+    if len(active_columns) < 2:
+        return []
+    result = [[row[index] for index in active_columns] for row in padded]
+    if sum(bool(compact(cell)) for row in result for cell in row) < 4:
+        return []
+    return result
+
+
+def split_semantic_table_content(rows: list[list[str]]) -> list[tuple[str, object]]:
+    """Separate prose notes from genuine multi-column rows in one PDF box.
+
+    Some PDFs put a long explanatory note, a displayed equation and more
+    prose inside one bordered area. pdfplumber reports the whole area as one
+    table. Keeping the single-cell prose as table rows creates extremely wide
+    Markdown and oversized chunks, so retain only the multi-column portion as
+    a table and emit prose portions as ordinary text in their original order.
+    """
+    segments: list[tuple[str, object]] = []
+    table_rows: list[list[str]] = []
+    prose_lines: list[str] = []
+    mode = "table"
+
+    def flush_table() -> None:
+        nonlocal table_rows
+        if table_rows:
+            segments.append(("table", table_rows))
+            table_rows = []
+
+    def flush_prose() -> None:
+        nonlocal prose_lines
+        if prose_lines:
+            physical_lines = [line for value in prose_lines for line in value.splitlines()]
+            paragraphs = join_pdf_lines(physical_lines)
+            segments.append(("text", "\n".join(paragraphs)))
+            prose_lines = []
+
+    for row in rows:
+        values = [cell for cell in row if compact(cell)]
+        single_value = values[0] if len(values) == 1 else ""
+        starts_note = bool(re.match(r"^(?:注|说明|备注)\s*[:：]", single_value))
+        looks_like_prose = (
+            len(values) == 1
+            and len(compact(single_value)) >= 24
+            and bool(re.search(r"[,;:，。；：！？]", single_value))
+        )
+
+        if mode == "prose":
+            if len(values) >= 2:
+                flush_prose()
+                mode = "table"
+                table_rows.append(row)
+            else:
+                prose_lines.append(single_value)
+            continue
+
+        if starts_note or looks_like_prose:
+            flush_table()
+            mode = "prose"
+            prose_lines.append(single_value)
+        else:
+            table_rows.append(row)
+
+    flush_table() if mode == "table" else flush_prose()
+    return [(kind, value) for kind, value in segments if value]
+
+
+def merge_cross_page_paragraphs(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
+    """Join artificial PDF page breaks that split one paragraph or word.
+
+    A continuation is merged only across adjacent pages, only for paragraph
+    blocks, and never when the next page begins with a legal/list structure.
+    Sentence-ending punctuation is a safe paragraph boundary.  Commas,
+    semicolons and colons may legitimately occur at page breaks and therefore
+    do not block a merge when the next line is plain continuation text.
+    """
+    if not blocks:
+        return blocks, 0
+    result: list[SourceBlock] = []
+    merged = 0
+    for block in blocks:
+        if result:
+            previous = result[-1]
+            adjacent_pages = previous.page > 0 and block.page == previous.page + 1
+            plain_paragraphs = previous.source_kind == block.source_kind == "paragraph"
+            continuation = not PDF_TERMINAL_RE.search(previous.text.rstrip()) and not PDF_STRUCTURE_START_RE.match(block.text.lstrip())
+            if adjacent_pages and plain_paragraphs and continuation:
+                separator = " " if re.search(r"[A-Za-z0-9]$", previous.text) and re.match(r"^[A-Za-z0-9]", block.text) else ""
+                previous.text = clean_text(previous.text + separator + block.text)
+                merged += 1
+                continue
+        result.append(block)
+    return result, merged
+
+
 def parse_pdf(path: Path) -> ParsedDocument:
     warnings: list[str] = []
     pages_lines: list[list[str]] = []
-    page_tables: list[list[list[list[str | None]]]] = []
+    page_tables: list[list[tuple[tuple[float, float, float, float], list[tuple[str, object]]]]] = []
+    page_line_records: list[list[dict]] = []
     with pdfplumber.open(path) as pdf:
         for page in pdf.pages:
             text = page.extract_text(x_tolerance=2, y_tolerance=3) or ""
             pages_lines.append(text.splitlines())
             try:
-                page_tables.append(page.extract_tables() or [])
+                records = page.extract_text_lines(x_tolerance=2, y_tolerance=3, return_chars=False)
+                page_line_records.append(records)
+                semantic_tables = []
+                for table in page.find_tables():
+                    rows = normalize_semantic_table(table.extract())
+                    if rows:
+                        semantic_tables.append((table.bbox, split_semantic_table_content(rows)))
+                page_tables.append(semantic_tables)
             except Exception:
                 page_tables.append([])
+                page_line_records.append([])
     extracted_chars = len(compact("\n".join(line for lines in pages_lines for line in lines)))
     sparse_threshold = max(120, len(pages_lines) * 40)
     if extracted_chars < sparse_threshold:
@@ -122,6 +265,7 @@ def parse_pdf(path: Path) -> ParsedDocument:
         if ocr_chars > extracted_chars * 3 and ocr_chars >= sparse_threshold:
             pages_lines = ocr_pages
             page_tables = [[] for _ in pages_lines]
+            page_line_records = [[] for _ in pages_lines]
             warnings.append(f"原PDF文本层过少（{extracted_chars}字符），已使用本机OCR提取{ocr_chars}字符")
         else:
             return ParsedDocument(path, "pdf", [], {}, [f"PDF共{len(pages_lines)}页但仅提取{extracted_chars}字符，OCR未获得可靠正文，需要人工复核"], "needs_ocr")
@@ -136,28 +280,60 @@ def parse_pdf(path: Path) -> ParsedDocument:
     blocks: list[SourceBlock] = []
     sequence = 0
     for page_no, lines in enumerate(pages_lines, start=1):
-        margin_filtered = [line for line in lines if compact(line) not in repeated and not is_page_number(line)]
-        filtered, removed_toc = remove_toc_entries(margin_filtered)
-        if removed_toc:
-            warnings.append(f"第{page_no}页过滤{removed_toc}行目录条目")
-        for paragraph in join_pdf_lines(filtered):
-            sequence += 1
-            blocks.append(SourceBlock(paragraph, page=page_no, block_id=f"b{sequence:05d}"))
-        # 表格文字通常已在页面文本中；只在页面文本未覆盖主要单元格时追加结构化表格。
-        page_compact = compact("\n".join(filtered))
-        for table_index, table in enumerate(page_tables[page_no - 1], start=1):
-            rows = [[clean_text(cell or "") for cell in row] for row in table]
-            cells = [compact(cell) for row in rows for cell in row if compact(cell)]
-            coverage = sum(cell in page_compact for cell in cells) / max(len(cells), 1)
-            if cells and coverage < 0.65:
+        tables = sorted(page_tables[page_no - 1], key=lambda item: item[0][1])
+        records = page_line_records[page_no - 1]
+        if tables and records:
+            cursor = float("-inf")
+            segments: list[tuple[float, str, object]] = []
+            for table_index, (bbox, content_segments) in enumerate(tables, start=1):
+                top, bottom = bbox[1], bbox[3]
+                segment_lines = [
+                    record["text"] for record in records
+                    if cursor <= (record["top"] + record["bottom"]) / 2 < top
+                ]
+                segments.append((cursor, "text", segment_lines))
+                for content_index, (content_kind, content) in enumerate(content_segments):
+                    segments.append((top + content_index / 1000, content_kind, (table_index, content)))
+                cursor = max(cursor, bottom)
+            segments.append((cursor, "text", [
+                record["text"] for record in records
+                if (record["top"] + record["bottom"]) / 2 >= cursor
+            ]))
+        else:
+            segments = [(0, "text", lines)]
+
+        for _, kind, payload in segments:
+            if kind == "table":
+                table_index, rows = payload
+                value = markdown_table(rows)
+                if value:
+                    sequence += 1
+                    blocks.append(SourceBlock(value, style="Table", source_kind="table", page=page_no, block_id=f"b{sequence:05d}"))
+                    warnings.append(f"第{page_no}页第{table_index}个多列表格按原行列转为Markdown")
+                continue
+            if isinstance(payload, tuple):
+                table_index, value = payload
+                if value:
+                    sequence += 1
+                    blocks.append(SourceBlock(value, page=page_no, block_id=f"b{sequence:05d}"))
+                    warnings.append(f"第{page_no}页第{table_index}个表格中的说明文本已与行列分离")
+                continue
+            margin_filtered = [line for line in payload if compact(line) not in repeated and not is_page_number(line)]
+            filtered, removed_toc = remove_toc_entries(margin_filtered)
+            if removed_toc:
+                warnings.append(f"第{page_no}页过滤{removed_toc}行目录条目")
+            for paragraph in join_pdf_lines(filtered):
                 sequence += 1
-                blocks.append(SourceBlock("表格\n" + markdown_table(rows), style="Table", source_kind="table", page=page_no, block_id=f"b{sequence:05d}"))
-                warnings.append(f"第{page_no}页第{table_index}个表格以Markdown补入")
-    blocks, removed_front_structure = strip_repeated_front_structure(blocks)
-    if removed_front_structure:
-        warnings.append(f"已过滤{removed_front_structure}个PDF前置目录标题")
+                blocks.append(SourceBlock(paragraph, page=page_no, block_id=f"b{sequence:05d}"))
+
     verified_formula_count = apply_verified_formula_overrides(path, blocks)
     if verified_formula_count:
         warnings.append(f"按原PDF二维排版核对并线性化{verified_formula_count}处公式")
+    blocks, merged_page_breaks = merge_cross_page_paragraphs(blocks)
+    if merged_page_breaks:
+        warnings.append(f"已合并{merged_page_breaks}处PDF跨页句子或词语断行")
+    blocks, removed_front_structure = strip_repeated_front_structure(blocks)
+    if removed_front_structure:
+        warnings.append(f"已过滤{removed_front_structure}个PDF前置目录标题")
     metadata = infer_metadata(blocks, path)
     return ParsedDocument(path, "pdf", blocks, metadata, warnings)

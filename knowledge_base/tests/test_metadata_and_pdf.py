@@ -12,7 +12,7 @@ from docx.text.paragraph import Paragraph
 from parsers.docx_parser import paragraph_xml_text, strip_front_page_metadata, strip_word_toc
 from parsers.legacy_doc_parser import _blocks_from_plain_text
 from parsers.text_parser import _OfficialBodyHTML
-from parsers.pdf_parser import remove_toc_entries
+from parsers.pdf_parser import merge_cross_page_paragraphs, normalize_pdf_table_cell, normalize_semantic_table, remove_toc_entries, split_semantic_table_content
 from parsers.pdf_formula_overrides import apply_verified_formula_overrides
 from utils.metadata import infer_metadata
 from utils.text import clean_text, is_page_number
@@ -51,6 +51,60 @@ class MetadataAndPdfTests(unittest.TestCase):
         filtered, removed = remove_toc_entries(lines)
         self.assertEqual(removed, 4)
         self.assertEqual(filtered, ["正文"])
+
+    def test_cross_page_sentence_and_word_are_joined(self):
+        blocks = [
+            SourceBlock("第五条 并至少每", page=1, block_id="b1"),
+            SourceBlock("季度将管理情况书面报告。", page=2, block_id="b2"),
+            SourceBlock("第六条 新条文。", page=2, block_id="b3"),
+        ]
+        merged, count = merge_cross_page_paragraphs(blocks)
+        self.assertEqual(count, 1)
+        self.assertEqual(merged[0].text, "第五条 并至少每季度将管理情况书面报告。")
+        self.assertEqual(merged[1].text, "第六条 新条文。")
+
+    def test_cross_page_numeric_continuation_is_not_mistaken_for_heading(self):
+        blocks = [
+            SourceBlock("家庭金融资产不低于", page=1, block_id="b1"),
+            SourceBlock("500 万元,或者近 3 年本人年均收入不低于 40 万元;", page=2, block_id="b2"),
+        ]
+        merged, count = merge_cross_page_paragraphs(blocks)
+        self.assertEqual(count, 1)
+        self.assertIn("不低于500 万元", merged[0].text)
+
+    def test_cross_page_join_stops_at_new_legal_structure(self):
+        blocks = [
+            SourceBlock("前一页末尾无句号", page=1, block_id="b1"),
+            SourceBlock("（二）新的分项。", page=2, block_id="b2"),
+        ]
+        merged, count = merge_cross_page_paragraphs(blocks)
+        self.assertEqual(count, 0)
+        self.assertEqual(len(merged), 2)
+
+    def test_pdf_semantic_table_requires_two_nonempty_columns(self):
+        note_box = [["", "注：这是一行说明", ""], ["", "继续说明", ""]]
+        self.assertEqual(normalize_semantic_table(note_box), [])
+        table = [["项目", "", "比例"], ["净资本", "", "100%"]]
+        self.assertEqual(normalize_semantic_table(table), [["项目", "比例"], ["净资本", "100%"]])
+
+    def test_pdf_table_cell_visual_wraps_are_collapsed(self):
+        self.assertEqual(normalize_pdf_table_cell("债\n券、票据"), "债券、票据")
+        self.assertEqual(normalize_pdf_table_cell("Net-to-\nGross Ratio"), "Net-to-Gross Ratio")
+        self.assertEqual(normalize_pdf_table_cell("未来 30\n日现金流出"), "未来 30日现金流出")
+
+    def test_semantic_table_separates_note_rows_and_preserves_order(self):
+        rows = [
+            ["注：这是表格前的较长说明文字，不应被当作表格单元格。", "", ""],
+            ["说明的续行内容。", "", ""],
+            ["受让方风险敞口", "=", "市场价值"],
+            ["数值", "+", "独立金额"],
+            ["由此可见，后续的较长解释文字也不是表格的数据行。", "", ""],
+        ]
+        segments = split_semantic_table_content(rows)
+        self.assertEqual([kind for kind, _ in segments], ["text", "table", "text"])
+        self.assertIn("说明的续行内容", segments[0][1])
+        self.assertEqual(len(segments[1][1]), 2)
+        self.assertIn("后续的较长解释", segments[2][1])
 
     def test_word_toc_is_removed_before_repeated_first_chapter(self):
         blocks = [

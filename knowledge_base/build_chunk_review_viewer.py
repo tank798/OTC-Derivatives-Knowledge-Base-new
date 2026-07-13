@@ -181,7 +181,6 @@ button,input,select{font:inherit}button,a{outline-offset:3px;touch-action:manipu
 .shell{display:grid;grid-template-columns:350px minmax(0,1fr);min-height:100vh}
 .sidebar{position:sticky;top:0;height:100vh;background:var(--sidebar-bg);border-right:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}
 .brand{padding:24px 20px 16px;border-bottom:1px solid var(--line)}.brand h1{font-family:var(--reading);font-size:21px;line-height:1.38;font-weight:700;color:var(--navy-2);margin:0;letter-spacing:.015em}
-.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:16px 14px 14px}.summary div{min-width:0;padding:10px 8px;background:#fff;border:1px solid var(--line);border-radius:9px;text-align:center}.summary b{display:block;color:var(--navy-2);font-size:17px;line-height:1.2;font-variant-numeric:tabular-nums}.summary span{display:block;margin-top:4px;font-size:9px;color:#6b7280;white-space:nowrap}
 .doc-list{overflow:auto;flex:1;padding:10px 10px 20px;border-top:1px solid var(--line-soft);scrollbar-width:none}.authority-group+.authority-group{margin-top:5px}
 .authority-button{display:flex;align-items:center;width:100%;gap:8px;border:0;background:transparent;color:var(--navy-2);padding:9px;border-radius:8px;cursor:pointer;text-align:left}.authority-button:hover,.authority-button.active{background:#f0eee8}.authority-button.active{color:var(--seal)}
 .authority-arrow{width:12px;color:#7b8490;font-size:10px;transition:transform .16s;flex:0 0 auto}.authority-group.open .authority-arrow{transform:rotate(90deg)}.authority-name{font-size:12px;line-height:1.45;font-weight:700;flex:1;min-width:0}.authority-count{font-size:9px;line-height:1.35;color:#7b8490;white-space:nowrap;text-align:right}
@@ -189,7 +188,7 @@ button,input,select{font:inherit}button,a{outline-offset:3px;touch-action:manipu
 .main{min-width:0}.topbar{display:none}.mobile-toggle{display:none;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:7px 10px;cursor:pointer}
 .workspace{max-width:1180px;margin:0 auto;padding:28px 42px 80px}.filters-panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:17px 18px;box-shadow:0 7px 24px rgba(22,32,47,.05)}.filters{display:grid;grid-template-columns:minmax(250px,1.55fr) repeat(3,minmax(140px,.72fr));gap:10px}.field{min-width:0}.field label{display:block;font-size:10px;color:#7f7568;letter-spacing:.08em;margin:0 0 5px}.field input,.field select{width:100%;height:40px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);padding:0 11px;font-size:12px}
 .content{padding-top:22px}.document-hero{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:28px 30px 24px;box-shadow:var(--shadow);overflow:hidden}.document-hero::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--seal)}
-.result-line{display:flex;align-items:center;gap:8px;color:var(--jade);font-size:11px;font-weight:700;letter-spacing:.08em;margin-bottom:12px}.result-line::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--jade);box-shadow:0 0 0 4px var(--jade-soft)}.document-hero h2{font-family:var(--reading);font-size:27px;line-height:1.38;margin:0;letter-spacing:.015em}.file-name{font-size:11px;color:var(--ink-soft);margin:8px 0 0}
+.document-hero h2{font-family:var(--reading);font-size:27px;line-height:1.38;margin:0;letter-spacing:.015em}.file-name{font-size:11px;color:var(--ink-soft);margin:8px 0 0}
 .meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 24px;margin:22px 0 0;padding-top:18px;border-top:1px solid var(--line-soft)}.meta div{min-width:0}.meta dt{font-size:10px;color:#7f7568;letter-spacing:.1em;margin-bottom:4px}.meta dd{font-size:12px;line-height:1.5;margin:0;word-break:break-word}.meta a{color:var(--seal);text-decoration:none;border-bottom:1px solid rgba(164,55,42,.25)}
 .section-bar{margin:34px 2px 14px}.section-bar h3{font-family:var(--reading);font-size:20px;margin:0}.chunk-list{display:grid;gap:10px}
 .chunk-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(22,32,47,.045);animation:rise .25s ease both;scroll-margin-top:80px}.chunk-card.open{border-color:#cfc5b7}@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -207,7 +206,6 @@ button,input,select{font:inherit}button,a{outline-offset:3px;touch-action:manipu
 <div class="shell">
   <aside class="sidebar" id="sidebar">
     <div class="brand"><h1>中国场外衍生品<br>法规知识库</h1></div>
-    <div class="summary"><div><b id="authority-count">—</b><span>发文主体</span></div><div><b id="document-count">—</b><span>法规数量</span></div><div><b id="chunk-count">—</b><span>Chunk数量</span></div></div>
     <nav class="doc-list" id="doc-list" aria-label="发文主体与法规目录"></nav>
   </aside>
   <main class="main" id="main-content">
@@ -270,14 +268,6 @@ function filteredDocs(){return docs.filter(doc=>baseFiltersMatch(doc)&&matchingC
 function syncUrl(){const url=new URL(location.href);Object.entries(controls).forEach(([key,control])=>control.value?url.searchParams.set(key,control.value):url.searchParams.delete(key));history.replaceState(null,'',url)}
 function fillSelect(control,values){values.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value;control.appendChild(option)})}
 
-function renderSummary(visible){
-  const authorities=new Set(visible.map(doc=>doc.navigation_authority));
-  const chunks=visible.reduce((sum,doc)=>sum+matchingChunks(doc).length,0);
-  document.getElementById('authority-count').textContent=authorities.size;
-  document.getElementById('document-count').textContent=visible.length;
-  document.getElementById('chunk-count').textContent=chunks;
-}
-
 function renderDocList(visible){
   const grouped=new Map();
   visible.forEach(doc=>{const authority=doc.navigation_authority;if(!grouped.has(authority))grouped.set(authority,[]);grouped.get(authority).push(doc)});
@@ -308,8 +298,7 @@ function renderMain(visible){
     const panelId='panel-'+chunk.chunk_id;
     return `<article class="chunk-card ${open?'open':''}" id="${esc(chunk.chunk_id)}" data-chunk-card="${esc(chunk.chunk_id)}" style="animation-delay:${Math.min(index*15,150)}ms"><header class="chunk-head" data-toggle-chunk="${esc(chunk.chunk_id)}" role="button" tabindex="0" aria-expanded="${open?'true':'false'}" aria-controls="${esc(panelId)}"><div class="chunk-identity"><span class="chunk-number">Chunk ${chunk.chunk_index}</span><span class="chunk-length">${formatCount(chunk.character_count)} 字</span><span class="tags">${tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</span></div><div class="chunk-tools"><div class="chunk-actions"><button class="icon-button" data-copy="${esc(chunk.chunk_id)}">复制正文</button></div><span class="chunk-arrow" aria-hidden="true">▶</span></div></header><div class="chunk-collapse" id="${esc(panelId)}" ${open?'':'hidden'}><div class="chunk-body">${highlightStructure(chunk.body_text,query)}</div></div></article>`;
   }).join('');
-  const countText=`显示 ${chunks.length} / ${doc.chunk_count} 个 Chunk`;
-  document.getElementById('content').innerHTML=`<section class="document-hero"><div class="result-line">${countText}</div><h2>${esc(doc.document_title)}</h2><p class="file-name">${esc(doc.file_name)}</p><dl class="meta">${meta}</dl></section><div class="section-bar"><h3>法规正文切片</h3></div><section class="chunk-list">${cards||'<div class="empty">当前法规中没有匹配的正文</div>'}</section>`;
+  document.getElementById('content').innerHTML=`<section class="document-hero"><h2>${esc(doc.document_title)}</h2><p class="file-name">${esc(doc.file_name)}</p><dl class="meta">${meta}</dl></section><div class="section-bar"><h3>法规正文切片</h3></div><section class="chunk-list">${cards||'<div class="empty">当前法规中没有匹配的正文</div>'}</section>`;
 }
 
 function renderAll(){
@@ -319,7 +308,7 @@ function renderAll(){
     expandedAuthority=activeDocId?docMap.get(activeDocId).navigation_authority:null;
     openChunkId=null;
   }
-  renderSummary(visible);renderDocList(visible);renderMain(visible);syncUrl();
+  renderDocList(visible);renderMain(visible);syncUrl();
 }
 function setOpenChunk(id,{scroll=false}={}){
   openChunkId=openChunkId===id?null:id;

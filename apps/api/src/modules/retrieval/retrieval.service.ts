@@ -68,6 +68,7 @@ export class RetrievalService implements OnModuleInit {
       subQuestion: analysis.legalIssue,
       subjects: analysis.subjects,
       productTypes: analysis.productTypes,
+      counterparties: [],
       timeScope: analysis.timeRange,
       requiredEvidence: analysis.topics,
       topK: limit,
@@ -76,9 +77,7 @@ export class RetrievalService implements OnModuleInit {
 
   async hybridSearch(input: HybridSearchInput): Promise<RetrievalHit[]> {
     if (!this.isReady) throw new Error("知识库索引尚未加载完成");
-    const scopedTerms = [...input.subjects, ...input.productTypes].join(" ");
-    const keywordQueries = input.queries.map((query) => `${scopedTerms} ${query}`.trim());
-    const semanticQueries = input.queries.map((query) => `${scopedTerms} ${input.subQuestion} ${query}`.trim());
+    const { keywordQueries, semanticQueries } = this.buildChannelQueries(input);
     const bm25Hits = this.mergeChannel(keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, 30)), "bm25");
 
     let vectorHits: RankedHit[] = [];
@@ -135,14 +134,52 @@ export class RetrievalService implements OnModuleInit {
   }
 
   private mergeChannel(lists: RankedHit[][], field: "bm25" | "vector") {
-    const best = new Map<string, RankedHit>();
-    for (const list of lists) {
-      for (const hit of list) {
-        const current = best.get(hit.chunk_id);
-        if (!current || hit.rank < current.rank) best.set(hit.chunk_id, hit);
+    const queues = lists.map((list) => [...list]);
+    const seen = new Set<string>();
+    const balanced: RankedHit[] = [];
+
+    // Scores from different queries are not comparable. Interleave their
+    // ranked lists so a direct-rule query issued later cannot be crowded out
+    // by several broad queries with larger raw BM25/cosine values.
+    while (balanced.length < 30 && queues.some((queue) => queue.length)) {
+      for (const queue of queues) {
+        while (queue.length) {
+          const hit = queue.shift()!;
+          if (seen.has(hit.chunk_id)) continue;
+          seen.add(hit.chunk_id);
+          balanced.push(hit);
+          break;
+        }
+        if (balanced.length >= 30) break;
       }
     }
-    return [...best.values()].sort((a, b) => a.rank - b.rank || (b[field] ?? 0) - (a[field] ?? 0)).slice(0, 30).map((hit, index) => ({ ...hit, rank: index + 1 }));
+    return balanced.map((hit, index) => ({ ...hit, rank: index + 1 }));
+  }
+
+  private expandScopeTerms(terms: string[]) {
+    const expanded = new Set(terms.filter(Boolean));
+    for (const term of expanded) {
+      if (/期货公司.*风险管理.*(?:子公司|公司)/.test(term)) {
+        expanded.add("期货风险管理公司");
+        expanded.add("风险管理公司");
+      }
+    }
+    return [...expanded];
+  }
+
+  private buildChannelQueries(input: HybridSearchInput) {
+    const scopedTerms = this.expandScopeTerms([
+      ...input.subjects,
+      ...input.productTypes,
+      ...input.counterparties,
+    ]).join(" ");
+    const scopedQuery = `${scopedTerms} ${input.subQuestion}`.trim();
+    const keywordQueries = [...new Set([...input.queries, scopedQuery].filter(Boolean))];
+    const semanticQueries = [...new Set([
+      ...input.queries.map((query) => `${input.subQuestion} ${query}`.trim()),
+      scopedQuery,
+    ].filter(Boolean))];
+    return { keywordQueries, semanticQueries };
   }
 
   private prependExactMatches(query: string, fused: FusedHit[]) {

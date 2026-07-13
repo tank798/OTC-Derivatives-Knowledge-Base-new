@@ -6,53 +6,15 @@ const CURRENT_STATUS = /现行有效|有效|effective/i;
 const INVALID_STATUS = /废止|失效|repealed|invalid/i;
 const FUTURE_STATUS = /尚未施行|未生效|将于.{0,20}施行|future/i;
 
-function directEvidenceIssue(answer: ComplianceAnswer, analysis: QueryAnalysis, hits: RetrievalHit[]): string {
-  const query = analysis.originalQuery.normalize("NFKC").replace(/\s+/g, "");
-  const answerText = [
-    answer.conclusion,
-    answer.scope?.subject,
-    answer.scope?.product,
-    answer.scope?.counterparty,
-    answer.scope?.time,
-    ...(answer.scope?.conditions ?? []),
-    ...answer.restrictions,
-  ].filter(Boolean).join("\n");
-  const texts = hits.map((hit) => hit.text.replace(/\s+/g, ""));
-  const asksOwnUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(query);
-  if (asksOwnUnderlying) {
-    const direct = texts.some((text) => /(自身|本公司|其发行的股票).{0,24}(场外衍生品|场外期权|挂钩标的|合约标的|衍生品交易)|(场外衍生品|场外期权|挂钩标的|合约标的|衍生品交易).{0,24}(自身|本公司|其发行的股票)/.test(text));
-    if (!direct) return "未检索到上市公司以本公司股票为场外衍生品挂钩标的的直接规定";
-    const hasCurrentCounterpartyBan = hits.some((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text));
-    const hasFutureGeneralBan = hits.some((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")));
-    if (/可以|可做|有条件可做/.test(answerText)) {
-      if (hasCurrentCounterpartyBan && !/期货风险管理公司|交易对手/.test(answerText)) {
-        return "可行性结论未限定现行规则已禁止的期货风险管理公司交易路径";
-      }
-      if (hasFutureGeneralBan && !/尚未施行|未生效|生效|未来/.test(answerText)) {
-        return "可行性结论未区分已公布尚未施行的更广泛禁止规则及其生效时点";
-      }
-    }
-  }
-  const asksVoucherSnowball = /收益凭证.*雪球|雪球.*收益凭证/.test(query);
-  if (asksVoucherSnowball) {
-    const direct = hits.some((hit) => hit.title.includes("证券公司收益凭证发行管理办法") && /(雪球|敲入|敲出)/.test(hit.text));
-    if (!direct) return "收益凭证通用发行规则未直接列明雪球结构，不足以对具体产品作无条件的可行性结论";
-  }
-  const asksPrivateSnowballRatio = /(私募产品|私募基金).*(雪球).*(比例|范围)|(比例|范围).*(私募产品|私募基金).*雪球/.test(query);
-  if (asksPrivateSnowballRatio && /(?:集合)?资产管理计划|私募资管计划/.test(answerText)) {
-    const directSameRegimeRule = hits.some((hit) =>
-      /资产管理计划/.test(hit.title)
-      && /(?:场外期权|收益凭证|雪球)/.test(hit.text)
-      && /(?:25\s*%|百分之二十五)/.test(hit.text)
-    );
-    if (!directSameRegimeRule) return "集合或私募资产管理计划的雪球比例结论缺少同一监管制度内同时明确产品范围和比例的直接条文，不得将私募证券投资基金的‘同一资产’口径跨制度套用";
-  }
-  return "";
-}
-
 @Injectable()
 export class CitationValidatorService {
-  validate(answer: ComplianceAnswer, hits: RetrievalHit[], analysis: QueryAnalysis): ComplianceAnswer {
+  validate(
+    answer: ComplianceAnswer,
+    hits: RetrievalHit[],
+    analysis: QueryAnalysis,
+    evidenceLevel?: "DIRECT" | "INFERRED" | "INSUFFICIENT",
+    assessmentReason = "",
+  ): ComplianceAnswer {
     const evidence = new Map(hits.map((hit) => [hit.id, hit]));
     const issues: string[] = [];
     const validBasisRaw = answer.regulatoryBasis.flatMap((basis) => {
@@ -82,7 +44,7 @@ export class CitationValidatorService {
         answer.scope?.time || "",
         ...answer.restrictions,
       ].join("\n"))) {
-        issues.push(`《${hit.title}》尚未施行，回答未明确将其限定为未来规则`);
+        issues.push(`证据 ${basis.evidenceId}《${hit.title}》尚未施行，回答未明确将其限定为未来规则`);
       }
       return [{
         ...basis,
@@ -96,39 +58,41 @@ export class CitationValidatorService {
       }];
     });
     const validBasis = [...validBasisRaw.reduce((grouped, basis) => {
-      const current = grouped.get(basis.evidenceId);
+      const key = `${basis.evidenceId}\u0000${basis.quoteExact}`;
+      const current = grouped.get(key);
       if (!current) {
-        grouped.set(basis.evidenceId, basis);
+        grouped.set(key, basis);
       } else if (basis.requirement && !current.requirement.includes(basis.requirement)) {
-        grouped.set(basis.evidenceId, { ...current, requirement: `${current.requirement}；${basis.requirement}` });
+        grouped.set(key, { ...current, requirement: `${current.requirement}；${basis.requirement}` });
       }
       return grouped;
     }, new Map<string, (typeof validBasisRaw)[number]>()).values()];
 
-    const ownUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(analysis.normalizedQuery);
-    const currentBan = ownUnderlying
-      ? hits.find((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text))
-      : undefined;
-    const futureBan = ownUnderlying
-      ? hits.find((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")))
-      : undefined;
-    const citedIds = new Set(validBasis.map((basis) => basis.evidenceId));
-    // The prompt requires an unqualified "可以吗" question to start with
-    // "否，不能笼统认定可以" when an important current path is
-    // directly prohibited.  Models occasionally express that exact substance
-    // but drift to the enum ``不能确认``.  Normalize only when both the
-    // current and future prohibitions are retrieved and cited, and the prose
-    // itself already makes the qualified negative conclusion.
-    if (
-      answer.directAnswer === "不能确认" && currentBan && futureBan
-      && citedIds.has(currentBan.id) && citedIds.has(futureBan.id)
-      && /(?:不能笼统(?:确认|认定).{0,8}可以|不能确认.{0,28}(?:可以|合规路径)|实际(?:上|操作)?难以|无法达成|缺少合法交易对手)/.test(answer.conclusion)
-    ) {
-      answer = { ...answer, directAnswer: "否", conclusionLabel: "不可做" };
+    // A short, non-quantitative exception can be copied deterministically from
+    // the already verified quote. This avoids an extra model repair while
+    // preserving the source wording. Quantitative exceptions still require a
+    // complete model explanation and the stricter checks below.
+    const answerBeforeException = [answer.conclusion, ...answer.restrictions, ...(answer.scope?.conditions ?? [])].join("\n");
+    const copiedExceptions = validBasis.flatMap((basis) => {
+      if (basis.supportRole === "BOUNDARY_ONLY") return [];
+      const quote = basis.quoteExact || basis.excerpt;
+      if (!/除外|豁免|但书|另有规定/.test(quote) || /除外|例外|豁免|但书/.test(answerBeforeException)) return [];
+      if (/\d+(?:\.\d+)?\s*(?:%|万(?:元)?|亿元|元|个月|年|日|倍)/.test(quote)) return [];
+      const sentence = quote.split(/(?<=[。；])/).find((part) => /除外|豁免|但书|另有规定/.test(part))?.trim();
+      return sentence ? [`原文例外：${sentence}`] : [];
+    });
+    if (copiedExceptions.length) {
+      answer = { ...answer, restrictions: [...new Set([...answer.restrictions, ...copiedExceptions])] };
     }
 
     const makesBinaryDecision = answer.directAnswer === "是" || answer.directAnswer === "否";
+    if (makesBinaryDecision && evidenceLevel && evidenceLevel !== "DIRECT") {
+      issues.push(`证据充分性仅为 ${evidenceLevel}，不得生成“是/否”的确定性结论`);
+    }
     if ((makesBinaryDecision || STRONG_CLAIM.test(answer.conclusion)) && validBasis.length === 0) issues.push("确定性结论没有对应的有效检索证据");
+    if (makesBinaryDecision && validBasis.length > 0 && validBasis.every((basis) => basis.supportRole === "BOUNDARY_ONLY")) {
+      issues.push("确定性结论不能仅由说明法规边界的旁证支持");
+    }
     if (answer.directAnswer === "不能确认" && answer.conclusionLabel !== "需人工合规复核") {
       issues.push("直接回答为不能确认时，结论标签必须为需人工合规复核");
     }
@@ -142,20 +106,44 @@ export class CitationValidatorService {
       ...answer.restrictions,
       ...(answer.scope?.conditions ?? []),
     ].join("\n");
+    if (/尚未施行|未生效|未来规则|生效后/.test(assessmentReason)) {
+      const relevantFutureHit = hits.find((hit) => FUTURE_STATUS.test(hit.status));
+      const citedFutureRule = validBasis.some((basis) => FUTURE_STATUS.test(basis.status));
+      if (relevantFutureHit && !citedFutureRule) {
+        const exceptionReminder = /除外|豁免|但书|另有规定/.test(relevantFutureHit.text)
+          ? "；该证据还包含例外或但书，引用时必须在同一次修订中一并完整说明"
+          : "";
+        issues.push(`证据 ${relevantFutureHit.id}《${relevantFutureHit.title}》已被证据判断识别为相关未来规则，最终回答必须引用并区分其尚未施行的效力状态${exceptionReminder}`);
+      }
+    }
     if (/无例外|没有例外|不存在例外|一律不设例外/.test(fullAnswerText)) {
       const exceptionBasis = validBasis.find((basis) => /除外|另有规定|但书|豁免/.test(basis.quoteExact || basis.excerpt));
       if (exceptionBasis) {
         issues.push(`证据 ${exceptionBasis.evidenceId} 的原文包含除外或另有规定，回答不得表述为无例外`);
       }
     }
-    const directIssue = directEvidenceIssue(answer, analysis, hits);
-    if (directIssue && makesBinaryDecision) issues.push(directIssue);
-
-    if (ownUnderlying && answer.directAnswer === "否") {
-      if (currentBan && !citedIds.has(currentBan.id)) issues.push("否定结论未引用现行期货风险管理公司交易路径禁止条文");
-      if (futureBan && !citedIds.has(futureBan.id)) issues.push("否定结论未引用并区分已公布尚未施行的更广泛禁止条文");
+    for (const basis of validBasis) {
+      const quote = basis.quoteExact || basis.excerpt;
+      if (!/除外|豁免|但书|另有规定/.test(quote)) continue;
+      // BOUNDARY_ONLY 只用于说明“现有条文规定到哪里为止”，并不作为
+      // 许可、禁止或比例结论的直接依据。把其中另一主体的例外强塞进
+      // 当前问题，会制造跨制度噪声；其逐字引文仍保留以便用户核验。
+      if (basis.supportRole === "BOUNDARY_ONLY") continue;
+      if ((makesBinaryDecision || STRONG_CLAIM.test(answer.conclusion)) && !/除外|例外|豁免|但书/.test(fullAnswerText)) {
+        issues.push(`证据 ${basis.evidenceId} 包含例外或豁免条件，回答不得遗漏`);
+        continue;
+      }
+      const quantitativeConditions = [...new Set(
+        quote.normalize("NFKC").match(/\d+(?:\.\d+)?\s*(?:%|万(?:元)?|亿元|元|个月|年|日|倍)/g) ?? [],
+      )];
+      const normalizedAnswer = fullAnswerText.normalize("NFKC").replace(/\s+/g, "");
+      const missingConditions = quantitativeConditions.filter((condition) =>
+        !normalizedAnswer.includes(condition.replace(/\s+/g, "")),
+      );
+      if (missingConditions.length && /条件.*(?:除外|例外|豁免)|(?:除外|例外|豁免).*条件/.test(fullAnswerText)) {
+        issues.push(`证据 ${basis.evidenceId} 的量化例外条件未完整说明: ${missingConditions.join("、")}`);
+      }
     }
-
     if (issues.length) {
       return {
         ...answer,

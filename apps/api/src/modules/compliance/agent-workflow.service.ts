@@ -22,6 +22,7 @@ const MAX_RETRIEVAL_ROUNDS = 2;
 const MAX_REPAIRS = 1;
 const MAX_REVIEWS = 2;
 const MAX_TRANSITIONS = 24;
+const MAX_CONTEXT_CHUNKS = 10;
 
 const reviewStringSchema = z.preprocess((value) => {
   if (typeof value === "string") return value;
@@ -62,6 +63,7 @@ const modelAnswerSchema = z.object({
   }),
   regulatoryBasis: z.array(z.object({
     evidenceId: z.string().min(1), quoteExact: z.string().min(1), supports: z.string().min(1),
+    supportRole: z.enum(["DIRECT_RULE", "BOUNDARY_ONLY", "FUTURE_RULE"]).default("DIRECT_RULE"),
   })).default([]),
   restrictions: z.array(z.string()).default([]),
   missingInfo: z.array(z.string()).default([]),
@@ -187,8 +189,15 @@ export class AgentWorkflowService {
         return;
       case "VERIFY_DETERMINISTICALLY": {
         if (!ctx.draft) { this.degrade(ctx, "候选回答不存在"); return; }
+        ctx.draft = this.alignDecisionToEvidenceLevel(ctx.draft, ctx.assessment);
         ctx.draft = this.snapQuotesToOriginal(ctx.draft, ctx.hits);
-        ctx.answer = this.validator.validate(ctx.draft, ctx.hits, ctx.analysis);
+        ctx.answer = this.validator.validate(
+          ctx.draft,
+          ctx.hits,
+          ctx.analysis,
+          ctx.assessment?.evidenceLevel,
+          ctx.assessment?.reasonSummary,
+        );
         const passed = ctx.answer.citationValidation?.passed === true;
         this.record(ctx, "VERIFY_DETERMINISTICALLY", passed ? "evidence_id、逐字引文、元数据和效力校验通过" : `校验失败: ${ctx.answer.citationValidation?.issues.join("；")}`);
         if (passed) ctx.state = "REVIEW_ANSWER";
@@ -231,7 +240,7 @@ export class AgentWorkflowService {
       const raw = await this.callLlm(ctx, this.prompts.getPlannerPrompt(), [
         "<dynamic_context>", "mode: PLAN", `current_date: ${new Date().toISOString().slice(0, 10)}`,
         `user_query: ${ctx.query}`, "remaining_retrieval_rounds: 2", "</dynamic_context>",
-      ].join("\n"));
+      ].join("\n"), "fast");
       return this.augmentPlanWithRuleFallback(
         retrievalPlanSchema.parse(this.parseJson(raw)),
         ctx.fallbackAnalysis,
@@ -251,6 +260,7 @@ export class AgentWorkflowService {
         subQuestion: sub.question,
         subjects: ctx.plan.subjects,
         productTypes: ctx.plan.productTypes,
+        counterparties: ctx.plan.counterparties,
         timeScope: ctx.plan.timeScope,
         requiredEvidence: sub.requiredEvidence,
         topK: 12,
@@ -258,7 +268,7 @@ export class AgentWorkflowService {
       if (result.ok) roundHits.push(...result.hits);
       else this.record(ctx, ctx.retrievalRounds === 1 ? "RETRIEVE" : "RETRIEVE_AGAIN", result.error, ctx.retrievalRounds, this.searchTool.name);
     }
-    ctx.hits = this.mergeEvidence(ctx.hits, roundHits, 20);
+    ctx.hits = this.mergeEvidence(ctx.hits, roundHits, MAX_CONTEXT_CHUNKS);
     this.record(ctx, ctx.retrievalRounds === 1 ? "RETRIEVE" : "RETRIEVE_AGAIN", `工具返回并去重后 ${ctx.hits.length} 条最终证据`, ctx.retrievalRounds, this.searchTool.name);
   }
 
@@ -273,15 +283,10 @@ export class AgentWorkflowService {
         `used_queries: ${JSON.stringify(ctx.plan?.subQuestions.flatMap((sub) => sub.queries) ?? [])}`,
         "<evidence_context>", this.contextBuilder.build(ctx.hits), "</evidence_context>", "</dynamic_context>",
       ].join("\n"));
-      return this.applyEvidenceSafety(
-        evidenceAssessmentSchema.parse(this.parseJson(raw)),
-        ctx,
-      );
-    } catch {
-      return this.applyEvidenceSafety(
-        this.fallbackAssessment(ctx, "证据判断模型输出无效，安全降级为证据不足"),
-        ctx,
-      );
+      return this.normalizeAssessment(evidenceAssessmentSchema.parse(this.parseJson(raw)));
+    } catch (error) {
+      const detail = error instanceof Error ? error.message : "未知格式错误";
+      return this.fallbackAssessment(ctx, `证据判断模型输出无效，安全降级为证据不足：${detail}`);
     }
   }
 
@@ -310,7 +315,7 @@ export class AgentWorkflowService {
       regulatoryBasis: modelAnswer.regulatoryBasis.map((basis) => ({
         evidenceId: basis.evidenceId, title: "", publisher: "", url: "", articleNo: "",
         excerpt: basis.quoteExact, quoteExact: basis.quoteExact,
-        requirement: basis.supports, status: "",
+        requirement: basis.supports, supportRole: basis.supportRole, status: "",
       })),
       restrictions: modelAnswer.restrictions,
       missingInfo: modelAnswer.missingInfo,
@@ -322,6 +327,31 @@ export class AgentWorkflowService {
     };
   }
 
+  private alignDecisionToEvidenceLevel(answer: ComplianceAnswer, assessment: EvidenceAssessment | null): ComplianceAnswer {
+    const binary = answer.directAnswer === "是" || answer.directAnswer === "否";
+    if (!binary || !assessment || assessment.evidenceLevel === "DIRECT") return answer;
+    return {
+      ...answer,
+      directAnswer: "不能确认",
+      conclusionLevel: "证据不足",
+      conclusion: "现有证据只规定了一般条件或局部范围，未直接规定用户询问的具体事项，因此不能确认。",
+      conclusionLabel: "需人工合规复核",
+      scope: { ...answer.scope, conditions: [] },
+      regulatoryBasis: answer.regulatoryBasis.map((basis) => ({
+        ...basis,
+        supportRole: basis.supportRole === "FUTURE_RULE" ? "FUTURE_RULE" : "BOUNDARY_ONLY",
+      })),
+      restrictions: [],
+      missingInfo: [...new Set([
+        ...answer.missingInfo,
+        ...assessment.missingEvidenceTypes,
+        "缺少能够直接支持确定性许可或禁止结论的现行规则",
+      ])],
+      confidenceScore: "low",
+      confidenceReason: `证据等级为 ${assessment.evidenceLevel}，系统已保守降级为不能确认。`,
+    };
+  }
+
   private buildRepairContext(ctx: WorkflowContext): string[] {
     const request = ctx.repairRequest!;
     const issueText = request.instructions.join("\n");
@@ -330,25 +360,10 @@ export class AgentWorkflowService {
       const hit = ctx.hits.find((item) => item.id === id);
       return hit ? [`evidenceId: ${id}\nexact_raw_chunk_start\n${hit.text}\nexact_raw_chunk_end`] : [];
     });
-    const mandatory = /收益凭证通用发行规则未直接列明雪球结构/.test(issueText)
-      ? [
-          "mandatory_direct_answer: 不能确认",
-          "mandatory_conclusion_level: 证据不足",
-          "mandatory_explanation: 必须明确说明现有通用规则未直接列明或许可雪球结构，不得由一般条件推导明确可以。",
-          "mandatory_scope_rule: 《私募证券投资基金运作指引》规范投资者侧，不能作为证券公司发行雪球收益凭证的许可依据。修订时应从 regulatoryBasis 删除该文件；如必须提及，只能说明投资规则曾提到该类产品，不能推导发行许可。",
-        ]
-      : [];
-    const crossRegimeMandatory = /不得将私募证券投资基金的‘同一资产’口径跨制度套用/.test(issueText)
-      ? [
-          "mandatory_cross_regime_rule: 删除集合资产管理计划或私募资管计划的雪球 25% 结论及其相关依据。只保留《私募证券投资基金运作指引》对私募证券投资基金的明确 25% 规则与例外；其他私募产品类型应列为尚不能确认的范围。",
-        ]
-      : [];
     return [
       `previous_answer: ${JSON.stringify(ctx.draft)}`,
       `repair_source: ${request.source}`,
       `repair_instructions: ${JSON.stringify(request.instructions)}`,
-      ...mandatory,
-      ...crossRegimeMandatory,
       "repair_rule_1: 只使用同一批证据，不得补造法规或引文。",
       "repair_rule_2: quoteExact 必须从 exact_raw_chunk_start 与 exact_raw_chunk_end 之间逐字连续复制；不能确保时必须删除该 regulatoryBasis，不得改写。",
       ...(exactSources.length ? ["<exact_copy_sources>", ...exactSources, "</exact_copy_sources>"] : []),
@@ -360,6 +375,7 @@ export class AgentWorkflowService {
       const raw = await this.callLlm(ctx, this.prompts.getReviewerPrompt(), [
         "<dynamic_context>", `user_query: ${ctx.query}`,
         `candidate_answer: ${JSON.stringify(ctx.answer)}`,
+        `evidence_assessment: ${JSON.stringify(ctx.assessment)}`,
         `deterministic_validation: ${JSON.stringify(ctx.answer?.citationValidation)}`,
         "<evidence_context>", this.contextBuilder.build(ctx.hits, { includeQuoteCandidates: true }), "</evidence_context>", "</dynamic_context>",
       ].join("\n"));
@@ -414,6 +430,12 @@ export class AgentWorkflowService {
   }
 
   private augmentPlanWithRuleFallback(plan: RetrievalPlan, fallback: QueryAnalysis): RetrievalPlan {
+    const validityQuery = plan.timeScope
+      ? `${plan.normalizedQuery} 现行有效 生效 施行 尚未施行`
+      : "";
+    const counterpartyQueries = plan.counterparties.slice(0, 3).map((counterparty) =>
+      `${counterparty} ${plan.normalizedQuery}`,
+    );
     const safetyQueries = [
       ...fallback.semanticQueries,
       fallback.keywords.filter((term) => term.length >= 4).join(" "),
@@ -422,7 +444,7 @@ export class AgentWorkflowService {
       ...plan,
       subQuestions: plan.subQuestions.map((sub, index) => index === 0 ? {
         ...sub,
-        queries: [...new Set([...sub.queries, ...safetyQueries])].slice(0, 8),
+        queries: [...new Set([validityQuery, ...counterpartyQueries, ...sub.queries, ...safetyQueries].filter(Boolean))].slice(0, 8),
         formalTerms: [...new Set([...sub.formalTerms, ...fallback.keywords])].slice(0, 16),
       } : sub),
     };
@@ -439,26 +461,15 @@ export class AgentWorkflowService {
     };
   }
 
-  private applyEvidenceSafety(assessment: EvidenceAssessment, ctx: WorkflowContext): EvidenceAssessment {
-    const asksOwnUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(ctx.query);
-    if (!asksOwnUnderlying) return assessment;
-    const currentCounterpartyLimits = ctx.hits.filter((hit) =>
-      /(?:期货)?风险管理公司不得与上市公司|证券公司不得违规与上市公司/.test(hit.text.replace(/\s+/g, ""))
-    );
-    const futureGeneralBan = ctx.hits.find((hit) =>
-      /尚未施行|未生效/.test(hit.status)
-      && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, ""))
-    );
-    if (!currentCounterpartyLimits.length || !futureGeneralBan) return assessment;
+  private normalizeAssessment(value: EvidenceAssessment): EvidenceAssessment {
+    const inferredReason = /未(?:明确)?(?:禁止|规定|提及)|未发现|间接|推断|据此可推|一般(?:性)?(?:框架|条件|要求)|若.{0,40}则.{0,16}(?:可|允许)|如果.{0,40}则.{0,16}(?:可|允许)|满足.{0,30}(?:可|允许)/.test(value.reasonSummary);
+    if (value.evidenceLevel !== "DIRECT" || !inferredReason) return value;
     return {
-      sufficient: true,
-      answerability: "NO",
-      evidenceLevel: "DIRECT",
-      supportedSubQuestions: ["现行交易对手限制", "已公布尚未施行的未来一般禁止"],
-      missingSubQuestions: ["其他现行交易对手路径是否可行"],
-      missingEvidenceTypes: ["其他现行交对手的直接规则"],
-      followUpQueries: [],
-      reasonSummary: "对未限定范围的‘可以吗’，不能笼统认定可以：现行证据已明确禁止证券公司或期货风险管理公司等重要交易对手路径，但不得据此声称所有现行交易对手均被禁止；已公布尚未施行的未来规则则将从上市公司端一般性禁止此类交易。",
+      ...value,
+      sufficient: false,
+      answerability: "UNCERTAIN",
+      evidenceLevel: "INFERRED",
+      reasonSummary: `${value.reasonSummary}（程序根据理由中的间接推断标志，将证据等级从 DIRECT 校正为 INFERRED）`,
     };
   }
 
@@ -612,9 +623,11 @@ export class AgentWorkflowService {
     ctx.state = "FINALIZE";
   }
 
-  private async callLlm(ctx: WorkflowContext, system: string, user: string) {
+  private async callLlm(ctx: WorkflowContext, system: string, user: string, tier: "default" | "fast" = "default") {
     ctx.llmCalls += 1;
-    return this.llm.chat(system, user, 120000);
+    return this.llm.chat(system, user, 120000, tier === "fast"
+      ? { tier: "fast", thinking: "disabled" }
+      : { tier: "default" });
   }
 
   private parseJson(raw: string): unknown {

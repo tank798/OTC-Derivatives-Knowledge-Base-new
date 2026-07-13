@@ -9,6 +9,11 @@ export type LlmChatMessage =
     }> }
   | { role: "tool"; tool_call_id: string; content: string };
 
+export type LlmChatOptions = {
+  tier?: "default" | "fast";
+  thinking?: "enabled" | "disabled";
+};
+
 const RETRYABLE_HTTP_STATUS = new Set([429, 500, 502, 503, 504, 529]);
 const MAX_CHAT_ATTEMPTS = 3;
 
@@ -17,11 +22,13 @@ export class LlmService {
   private readonly apiKey: string | null;
   private readonly baseURL: string;
   private readonly model: string;
+  private readonly fastModel: string;
 
   constructor(private readonly configService: ConfigService) {
     this.apiKey = this.configService.get<string>("LLM_API_KEY") ?? null;
     this.baseURL = (this.configService.get<string>("LLM_BASE_URL") ?? "https://api.deepseek.com").replace(/\/$/, "");
     this.model = this.configService.get<string>("LLM_MODEL") ?? "deepseek-v4-pro";
+    this.fastModel = this.configService.get<string>("LLM_FAST_MODEL") ?? "deepseek-v4-flash";
   }
 
   get isConfigured(): boolean {
@@ -32,18 +39,26 @@ export class LlmService {
     return this.model;
   }
 
+  get fastModelName(): string {
+    return this.fastModel;
+  }
+
   /** Simple chat completion (non-streaming), returns text content. */
   async chat(
     systemPrompt: string,
     userPrompt: string,
-    timeoutMs = 120000
+    timeoutMs = 120000,
+    options: LlmChatOptions = {},
   ): Promise<string> {
     if (!this.apiKey) throw new Error("LLM_API_KEY is not configured");
 
+    const selectedModel = options.tier === "fast" ? this.fastModel : this.model;
+
     const body = {
-      model: this.model,
+      model: selectedModel,
       temperature: 0.2,
       stream: false,
+      ...(options.thinking ? { thinking: { type: options.thinking } } : {}),
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },

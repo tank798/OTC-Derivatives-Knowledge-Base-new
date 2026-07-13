@@ -82,20 +82,33 @@ export const hybridSearchInputSchema = z.object({
   subQuestion: z.string().min(1),
   subjects: z.array(z.string()).max(12).default([]),
   productTypes: z.array(z.string()).max(12).default([]),
+  counterparties: z.array(z.string()).max(12).default([]),
   timeScope: z.string().default(""),
   requiredEvidence: z.array(z.string()).max(12).default([]),
   topK: z.number().int().min(4).max(20).default(12),
 });
 export type HybridSearchInput = z.infer<typeof hybridSearchInputSchema>;
 
+const assessmentTextSchema = z.preprocess((value) => {
+  if (typeof value === "string") return value;
+  if (value && typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    for (const key of ["question", "type", "description", "reason", "query", "name"]) {
+      if (typeof record[key] === "string") return record[key];
+    }
+    return JSON.stringify(value);
+  }
+  return String(value ?? "");
+}, z.string());
+
 export const evidenceAssessmentSchema = z.object({
   sufficient: z.boolean(),
   answerability: z.enum(["YES", "NO", "UNCERTAIN"]),
   evidenceLevel: z.enum(["DIRECT", "INFERRED", "INSUFFICIENT"]),
-  supportedSubQuestions: z.array(z.string()).default([]),
-  missingSubQuestions: z.array(z.string()).default([]),
-  missingEvidenceTypes: z.array(z.string()).default([]),
-  followUpQueries: z.array(z.string()).max(12).default([]),
+  supportedSubQuestions: z.array(assessmentTextSchema).default([]),
+  missingSubQuestions: z.array(assessmentTextSchema).default([]),
+  missingEvidenceTypes: z.array(assessmentTextSchema).default([]),
+  followUpQueries: z.array(assessmentTextSchema).max(12).default([]),
   reasonSummary: z.string().min(1),
 });
 export type EvidenceAssessment = z.infer<typeof evidenceAssessmentSchema>;
@@ -156,6 +169,7 @@ export const complianceAnswerSchema = z.object({
       articleNo: z.string().optional().default(""),
       excerpt: z.string(),
       requirement: z.string(),
+      supportRole: z.enum(["DIRECT_RULE", "BOUNDARY_ONLY", "FUTURE_RULE"]).optional().default("DIRECT_RULE"),
       quoteExact: z.string().optional().default(""),
       status: z.string().optional().default(""),
     })
