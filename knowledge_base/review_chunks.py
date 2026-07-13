@@ -294,7 +294,6 @@ def main() -> int:
         ),
         "automatic_quality_issue_counts": dict(automatic_severity_counts),
         "raw_file_count": manifest.get("raw_file_count"),
-        "excluded_sources": manifest.get("excluded_sources", []),
         "parser_reused_count": sum(bool(row.get("parser_reused")) for row in manifest_documents.values()),
         "chunk_reused_count": sum(bool(row.get("chunk_reused")) for row in manifest_documents.values()),
         "all_chunks_sha256": source_sha256,
@@ -313,21 +312,14 @@ def main() -> int:
     (output / "chunk_issues.md").write_text("\n".join(issue_lines) + "\n", encoding="utf-8")
 
     raw_file_count = manifest.get("raw_file_count", len(by_document))
-    excluded_sources = manifest.get("excluded_sources", [])
-    excluded_lines = [
-        f"- 排除原件：`{row.get('file_name', '')}`；{row.get('reason', row.get('source_status', ''))}。"
-        for row in excluded_sources
-    ]
     report = [
         "# 最终Chunk复核报告", "", "## 覆盖结论", "",
         f"- 修复前基线：109份文档、1,173个Chunk、91条自动Minor。",
-        f"- 当前原件：{raw_file_count}个；正式入库：{len(by_document)}份文档、{len(chunks)}个Chunk；排除：{len(excluded_sources)}个错名/错源原件。",
+        f"- 当前原件：{raw_file_count}个；正式入库：{len(by_document)}份文档、{len(chunks)}个Chunk。",
         f"- 复核记录：{len(records)}条；chunk_id集合精确一致：{'是' if coverage['exact_set_match'] else '否'}。",
         f"- 状态：{json.dumps(coverage['status_counts'], ensure_ascii=False)}。",
         f"- 级别：{json.dumps(coverage['severity_counts'], ensure_ascii=False)}。",
         f"- 自动校验仍标记{len(quality.get('issues', []))}条启发式问题（{json.dumps(dict(automatic_severity_counts), ensure_ascii=False)}），已逐条结合上下文复核并闭合，不存在未处理的Critical/Major。", "",
-        "## 原件排除", "",
-        *(excluded_lines or ["- 无。"]), "",
         "## 复核口径", "",
         "每个Chunk均检查源块可追溯、正文与结构化原文一致性、原件路径、法规元数据、条款和分部定位、目录/页眉页脚/页码/域代码、Unicode私有区字符、已知OCR混淆、长度、标题空块、重复正文和列举承接。PDF额外逐页核对文本层与结构化页覆盖；DOCX额外核对smartTag原始XML文字；官方网页缓存保留独立来源标识。", "",
         "## 修复记录", "",

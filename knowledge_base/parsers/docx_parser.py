@@ -13,6 +13,25 @@ from utils.metadata import infer_metadata
 from utils.text import clean_text, is_page_number, is_toc_field, markdown_table, strip_repeated_front_structure
 
 
+FRONT_PAGE_TIMESTAMP_RE = re.compile(r"^时间\s*[:：]\s*\d{4}[-/.]\d{1,2}[-/.]\d{1,2}$")
+
+
+def strip_front_page_metadata(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
+    """Remove exact website-style timestamps from the Word front matter.
+
+    Dates inside articles remain untouched.  The narrow label + ISO-like date
+    pattern and first-ten-block scope distinguish page metadata from legal text.
+    """
+    removed = 0
+    result: list[SourceBlock] = []
+    for index, block in enumerate(blocks):
+        if index < 10 and FRONT_PAGE_TIMESTAMP_RE.fullmatch(clean_text(block.text)):
+            removed += 1
+            continue
+        result.append(block)
+    return result, removed
+
+
 def paragraph_xml_text(paragraph: Paragraph) -> str:
     """Read visible text from all WordprocessingML containers in a paragraph.
 
@@ -122,6 +141,9 @@ def parse_docx(path: Path) -> ParsedDocument:
     blocks, removed_toc = strip_word_toc(blocks)
     if removed_toc:
         warnings.append(f"已过滤{removed_toc}个Word目录段落")
+    blocks, removed_front_metadata = strip_front_page_metadata(blocks)
+    if removed_front_metadata:
+        warnings.append(f"已过滤{removed_front_metadata}个Word首页时间元数据段落")
     before_noise = len(blocks)
     blocks = [block for block in blocks if not is_page_number(block.text) and not is_toc_field(block.text)]
     if len(blocks) != before_noise:

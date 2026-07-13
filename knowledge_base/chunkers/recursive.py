@@ -346,6 +346,22 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
 
 
 def coalesce_structural_units(document: ParsedDocument, units: list[Unit]) -> list[Unit]:
+    # Legacy Word files sometimes split the cover title across two paragraphs,
+    # e.g. ``…商品衍生品定义文件`` + ``(2015年版)``.  When those
+    # consecutive units reconstruct the authoritative document title and are
+    # immediately followed by a declaration, keep their source trace on the
+    # declaration instead of emitting a title-only chunk.
+    for width in range(min(3, len(units) - 1), 1, -1):
+        following = units[width] if width < len(units) else None
+        reconstructed = "".join(unit.body_text for unit in units[:width])
+        if (
+            following and following.kind == "part" and following.hierarchy.get("part_title") in {"声明", "前言"}
+            and compact(reconstructed) == compact(document.metadata.get("document_title", ""))
+        ):
+            leading_ids = [block_id for unit in units[:width] for block_id in unit.block_ids]
+            following.block_ids = list(dict.fromkeys(leading_ids + following.block_ids))
+            units = units[width:]
+            break
     if len(units) > 1 and compact(units[0].body_text) == compact(document.metadata.get("document_title", "")):
         units[1].block_ids = list(dict.fromkeys(units[0].block_ids + units[1].block_ids))
         units = units[1:]

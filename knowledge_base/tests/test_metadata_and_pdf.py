@@ -9,7 +9,7 @@ from models import SourceBlock
 from docx import Document
 from docx.oxml import OxmlElement
 from docx.text.paragraph import Paragraph
-from parsers.docx_parser import paragraph_xml_text, strip_word_toc
+from parsers.docx_parser import paragraph_xml_text, strip_front_page_metadata, strip_word_toc
 from parsers.legacy_doc_parser import _blocks_from_plain_text
 from parsers.text_parser import _OfficialBodyHTML
 from parsers.pdf_parser import remove_toc_entries
@@ -19,6 +19,17 @@ from utils.text import clean_text, is_page_number
 
 
 class MetadataAndPdfTests(unittest.TestCase):
+    def test_front_page_timestamp_is_removed_but_article_date_is_kept(self):
+        blocks = [
+            SourceBlock("测试定义文件", block_id="b1"),
+            SourceBlock("时间:2014-08-22", block_id="b2"),
+            SourceBlock("声明", block_id="b3"),
+            SourceBlock("第一条 自2026-11-16起施行。", block_id="b4"),
+        ]
+        filtered, removed = strip_front_page_metadata(blocks)
+        self.assertEqual(removed, 1)
+        self.assertEqual([block.block_id for block in filtered], ["b1", "b3", "b4"])
+
     def test_quoted_legal_basis_is_not_document_title(self):
         blocks = [SourceBlock("第一条 根据《中华人民共和国证券法》制定本办法。", block_id="b1")]
         metadata = infer_metadata(blocks, Path("证券公司操作风险管理指引.docx"))
@@ -78,6 +89,12 @@ class MetadataAndPdfTests(unittest.TestCase):
     def test_symbol_private_use_characters_are_normalized(self):
         self.assertEqual(clean_text("A\uf03dB\uf02bC\uf0b4D"), "A=B+C×D")
         self.assertNotIn("\uf03d", clean_text("A\uf03dB"))
+
+    def test_wrapped_decimal_is_repaired_without_joining_list_items(self):
+        self.assertEqual(clean_text("1.\n1 权益类衍生品交易"), "1.1 权益类衍生品交易")
+        self.assertEqual(clean_text("5.\n625%—6.25%"), "5.625%—6.25%")
+        self.assertEqual(clean_text("7.\n2.1交易条款"), "7.2.1交易条款")
+        self.assertEqual(clean_text("1.\n2. 第二项"), "1.\n2. 第二项")
 
     def test_docx_smart_tag_text_is_not_dropped(self):
         document = Document()

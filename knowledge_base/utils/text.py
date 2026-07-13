@@ -14,6 +14,10 @@ PAGE_NUMBER_RE = re.compile(
 TOC_FIELD_RE = re.compile(r"^(?:TOC\s+\\|\"?_Toc\d+\"?)", re.I)
 STRUCTURE_HEADING_RE = re.compile(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节](?:\s+.{0,80})?$")
 ARTICLE_HEADING_RE = re.compile(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条")
+WRAPPED_DECIMAL_RE = re.compile(
+    r"(?<!\d)(\d{1,3})[.．]\s*\n\s*(\d{1,3})"
+    r"(?=[一-鿿A-Za-z【、%]|[.．]\d|\s+[一-鿿A-Za-z【])"
+)
 
 # PDF中的Symbol字体经常被提取到U+F000私有区。这里按Adobe Symbol
 # 编码还原常见运算符和可伸缩括号组件，避免把乱码静默写入知识库。
@@ -47,6 +51,10 @@ def clean_text(value: str) -> str:
     value = value.replace("\r\n", "\n").replace("\r", "\n")
     value = BAD_CONTROL_RE.sub("", value)
     value = re.sub(r"FORM(?:TEXT|CHECKBOX|DROPDOWN)", "", value, flags=re.I)
+    # PDF and legacy Word layout extraction can wrap a decimal/term number at
+    # the dot (``1.\n1 术语``, ``5.\n625%`` or ``7.\n2.1``).  The guarded
+    # lookahead deliberately does not join ordinary ``1.\n2. 第二项`` lists.
+    value = WRAPPED_DECIMAL_RE.sub(r"\1.\2", value)
     value = re.sub(r"[ \t\u3000]+", " ", value)
     value = re.sub(r"\n[ \t]+", "\n", value)
     value = re.sub(r"\n{3,}", "\n\n", value)

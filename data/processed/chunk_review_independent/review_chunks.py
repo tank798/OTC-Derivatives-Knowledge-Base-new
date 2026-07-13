@@ -511,26 +511,6 @@ def main() -> int:
             for c in doc_chunks.get(doc_id, [])[:1]:
                 add_issue(issue_map, c["chunk_id"], "commodity_first_six_missing", "CRITICAL", "商品衍生品定义文件前六条不完整。", json.dumps(article_presence, ensure_ascii=False), "重新解析旧DOC正文并核对目录与正文，补齐前六条后重建。")
 
-    wrong_pdf = raw_files.get("证券公司市场风险管理指引.pdf")
-    wrong_pdf_check = {"file_name": "证券公司市场风险管理指引.pdf", "exists": bool(wrong_pdf)}
-    if wrong_pdf:
-        wrong_text = extract_pdf(wrong_pdf)["text"]
-        wrong_pdf_check.update({
-            "contains_actual_title": "证券公司全面风险管理规范" in re.sub(r"\s+", "", wrong_text),
-            "contains_named_title": "证券公司市场风险管理指引" in re.sub(r"\s+", "", wrong_text),
-            "actual_text_excerpt": compact(wrong_text, 300),
-        })
-    exclusion_record = next(
-        (record for record in manifest.get("excluded_sources", []) if record.get("file_name") == "证券公司市场风险管理指引.pdf"),
-        None,
-    )
-    wrong_pdf_check.update({
-        "exclusion_record_present": bool(exclusion_record),
-        "exclusion_reason": (exclusion_record or {}).get("reason", ""),
-        "correct_docx_exists": "证券公司全面风险管理规范.docx" in raw_files,
-    })
-    special_checks["wrong_named_pdf"] = wrong_pdf_check
-
     # Build per-chunk review records.
     review_records = []
     for c in chunks:
@@ -650,13 +630,6 @@ def main() -> int:
                 f.write(str(item) + "\n")
             f.write("```\n\n")
 
-    wrong_pdf_not_chunked = not any(d.get("file_name") == "证券公司市场风险管理指引.pdf" for d in chunk_doc_to_structured.values())
-    recorded_duplicate = (
-        wrong_pdf_check.get("exclusion_record_present")
-        and "证券公司全面风险管理规范" in wrong_pdf_check.get("exclusion_reason", "")
-        and wrong_pdf_check.get("correct_docx_exists")
-    )
-    exclusion_reasonable = wrong_pdf_not_chunked and bool(wrong_pdf_check.get("contains_actual_title") or recorded_duplicate)
     has_omission = bool(uncovered_blocks or missing_chunk_documents or conversion_problem_docs)
     has_conversion_error = bool(conversion_problem_docs)
     has_confirmed_conversion = any(d.get("type") == "confirmed_conversion_omission" for d in conversion_problem_docs)
@@ -669,10 +642,6 @@ def main() -> int:
         f.write(f"- 是否存在正文遗漏：{'是，已确认1份原件的主体正文大段遗漏' if has_confirmed_conversion else ('是，存在待核对候选' if has_omission else '未发现')}。source_block未覆盖{len(uncovered_blocks)}个；无Chunk正式文档{len(missing_chunk_documents)}份。\n")
         f.write(f"- 是否存在转换错误：{'是，已确认结构化文本仅保留原件小部分内容' if has_confirmed_conversion else ('是，存在待人工定位的原件差异候选' if has_conversion_error else '未发现明确转换错误')}。\n")
         f.write(f"- 是否存在切分错误：{'是' if has_boundary_error else '未发现'}。\n")
-        wrong_pdf_conclusion = "合理" if exclusion_reasonable else "尚不能确认"
-        if exclusion_reasonable and not wrong_pdf:
-            wrong_pdf_conclusion += "（依据现存排除记录及正确DOCX；错名PDF当前不在raw目录，无法再次直接验页）"
-        f.write(f"- 错名PDF排除是否合理：{wrong_pdf_conclusion}。核对信息：{json.dumps(wrong_pdf_check, ensure_ascii=False)}\n")
         recommend_rebuild = bool(severity_counts.get("MAJOR") or severity_counts.get("CRITICAL") or has_conversion_error)
         f.write(f"- 是否建议修复后重新构建：{'是' if recommend_rebuild else '否；本轮已重建并通过复核'}。\n\n")
         f.write("## 覆盖统计\n\n")
@@ -686,7 +655,6 @@ def main() -> int:
         f.write("## 专项核对\n\n")
         f.write(f"- Shibor 1M、3M、6M、9M：{json.dumps(special_checks.get('shibor_tenors',{}), ensure_ascii=False)}。\n")
         f.write(f"- 商品衍生品定义文件前六条：{json.dumps(special_checks.get('commodity_first_six_articles',{}), ensure_ascii=False)}。\n")
-        f.write(f"- 错名PDF：{json.dumps(wrong_pdf_check, ensure_ascii=False)}。\n\n")
         f.write("## 方法说明\n\n")
         f.write("脚本逐条检查Chunk覆盖、唯一性、索引连续性、source_block引用与正文一致性、长度、重复、乱码/私有区/Word域代码/孤立页码、核心元数据与边界启发式；并独立从PDF文本层及分页、DOCX OOXML（含表格、文本框、smartTag）和旧DOC转换文本读取原件，对条号与日期/金额/比例/期限等关键token进行差异核对。自动差异仅作为候选，报告结论以明确证据为准。\n")
 

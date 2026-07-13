@@ -6,6 +6,7 @@ from models import Node, ParsedDocument, SourceBlock
 from utils.text import clean_text
 
 CN_NUM = r"[一二三四五六七八九十百千万零〇两\d]+"
+DOTTED_TERM_RE = re.compile(r"^(\d+[.．]\d+(?:[.．]\d+)*)(?:\s+|(?=[一-鿿A-Za-z【]))(.+)$")
 PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("part", re.compile(rf"^(第\s*{CN_NUM}\s*[编篇部分])(?:\s+|$)(.*)$")),
     ("chapter", re.compile(rf"^(第\s*{CN_NUM}\s*章)(?:\s+|$)(.*)$")),
@@ -48,6 +49,19 @@ def classify_block(block: SourceBlock, *, allow_standalone_part: bool = True) ->
         return "text", "", text
     if block.source_kind == "sheet":
         return "part", text, ""
+    # Definition documents use decimal term numbers such as ``1.1`` and
+    # ``2.3.1``.  This must run before the generic ``1.`` list matcher;
+    # otherwise ``1.1 权益类衍生品交易`` is parsed as marker ``1.`` plus
+    # body ``1 ...`` and later rendered as the artificial line break ``1.\n1``.
+    dotted_term = DOTTED_TERM_RE.fullmatch(text)
+    if dotted_term:
+        return "subitem", dotted_term.group(1).replace("．", "."), clean_text(dotted_term.group(2))
+    # A front-matter declaration has substantive provenance/use information,
+    # but it is not part of the first legal article.  Treat it as its own
+    # structural part so the chunker keeps it with its following declaration
+    # text and breaks before Article 1.
+    if normalize_marker(text) in {"声明", "前言"}:
+        return "part", normalize_marker(text), ""
     embedded_part = EMBEDDED_PART_RE.fullmatch(text)
     if embedded_part:
         return "part", clean_text(embedded_part.group(1)), clean_text(embedded_part.group(2))
@@ -82,6 +96,12 @@ def build_tree(document: ParsedDocument) -> Node:
     standalone_part_count = sum(is_standalone_part_heading(block.text) for block in document.blocks)
     for block in document.blocks:
         kind, title, own_text = classify_block(block, allow_standalone_part=standalone_part_count >= 2)
+        # Front matter ends when the operative articles begin.  Without this
+        # explicit reset, the normal hierarchy would make Article 1 a child of
+        # the preceding ``声明/前言`` part and merge both into one chunk.
+        if kind == "article" and any(item.kind == "part" and item.title in {"声明", "前言"} for item in stack):
+            while len(stack) > 1:
+                stack.pop()
         if kind == "text":
             node = Node(kind, own_text=own_text, block_ids=[block.block_id])
             stack[-1].add_child(node)
@@ -124,7 +144,10 @@ def hierarchy_for(node: Node) -> dict[str, str]:
 
 
 def render_node(node: Node) -> str:
-    parts = [node.title, node.own_text]
+    if node.kind == "subitem" and re.fullmatch(r"\d+(?:\.\d+)+", node.title) and node.own_text:
+        parts = [f"{node.title} {node.own_text}"]
+    else:
+        parts = [node.title, node.own_text]
     parts.extend(render_node(child) for child in node.children)
     return "\n".join(part for part in parts if part).strip()
 

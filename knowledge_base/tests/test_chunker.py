@@ -22,6 +22,52 @@ class ChunkerTests(unittest.TestCase):
     def setUp(self) -> None:
         config.ENABLE_LLM_SEMANTIC_REVIEW = False
 
+    def test_decimal_term_number_stays_on_one_line(self):
+        doc = document([
+            "第一条 通用定义",
+            "1.1 权益类衍生品交易",
+            "指交易双方约定的权益类衍生品交易。",
+        ])
+        _, rendered, _ = chunk_document(doc)
+        body = "\n".join(item["body"] for item in rendered)
+        self.assertIn("1.1 权益类衍生品交易", body)
+        self.assertNotIn("1.\n1 权益类衍生品交易", body)
+
+    def test_front_declaration_is_separate_from_first_article(self):
+        doc = document([
+            "声明",
+            "本定义文件旨在提供术语释义。" * 20,
+            "第一条 通用定义",
+            "1.1 权益类衍生品交易",
+            "指交易双方约定的交易。",
+        ])
+        _, rendered, _ = chunk_document(doc)
+        self.assertGreaterEqual(len(rendered), 2)
+        declaration = next(item["body"] for item in rendered if "声明" in item["body"])
+        article = next(item["body"] for item in rendered if "第一条" in item["body"])
+        self.assertNotIn("第一条", declaration)
+        self.assertNotIn("声明", article)
+
+    def test_split_cover_title_is_absorbed_into_declaration_trace(self):
+        doc = ParsedDocument(
+            Path("商品定义.doc"),
+            "doc",
+            [
+                SourceBlock("商品衍生品定义文件", block_id="b1"),
+                SourceBlock("(2015年版)", block_id="b2"),
+                SourceBlock("声 明", block_id="b3"),
+                SourceBlock("本文件提供商品衍生品术语释义。" * 20, block_id="b4"),
+                SourceBlock("第一条 通用定义", block_id="b5"),
+                SourceBlock("1.1商品衍生品交易", block_id="b6"),
+                SourceBlock("指交易双方约定的交易。", block_id="b7"),
+            ],
+            {"document_title": "商品衍生品定义文件(2015年版)"},
+        )
+        chunks, rendered, _ = chunk_document(doc)
+        self.assertFalse(any(item["body"].startswith("商品衍生品定义文件") for item in rendered))
+        declaration_index = next(index for index, item in enumerate(rendered) if item["body"].startswith("声明"))
+        self.assertTrue({"b1", "b2", "b3", "b4"}.issubset(set(chunks[declaration_index].units[0].block_ids)))
+
     def test_standalone_subdocument_title_resets_article_sequence(self):
         doc = ParsedDocument(
             Path("三个细则.docx"),

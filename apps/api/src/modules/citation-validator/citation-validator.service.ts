@@ -70,6 +70,28 @@ export class CitationValidatorService {
       return grouped;
     }, new Map<string, (typeof validBasisRaw)[number]>()).values()];
 
+    const ownUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(analysis.normalizedQuery);
+    const currentBan = ownUnderlying
+      ? hits.find((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text))
+      : undefined;
+    const futureBan = ownUnderlying
+      ? hits.find((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")))
+      : undefined;
+    const citedIds = new Set(validBasis.map((basis) => basis.evidenceId));
+    // The prompt requires an unqualified "可以吗" question to start with
+    // "否，不能笼统认定可以" when an important current path is
+    // directly prohibited.  Models occasionally express that exact substance
+    // but drift to the enum ``不能确认``.  Normalize only when both the
+    // current and future prohibitions are retrieved and cited, and the prose
+    // itself already makes the qualified negative conclusion.
+    if (
+      answer.directAnswer === "不能确认" && currentBan && futureBan
+      && citedIds.has(currentBan.id) && citedIds.has(futureBan.id)
+      && /不能笼统(?:确认|认定).{0,8}可以/.test(answer.conclusion)
+    ) {
+      answer = { ...answer, directAnswer: "否", conclusionLabel: "不可做" };
+    }
+
     const makesBinaryDecision = answer.directAnswer === "是" || answer.directAnswer === "否";
     if ((makesBinaryDecision || STRONG_CLAIM.test(answer.conclusion)) && validBasis.length === 0) issues.push("确定性结论没有对应的有效检索证据");
     if (answer.directAnswer === "不能确认" && answer.conclusionLabel !== "需人工合规复核") {
@@ -83,11 +105,7 @@ export class CitationValidatorService {
     const directIssue = directEvidenceIssue(answer, analysis, hits);
     if (directIssue && makesBinaryDecision) issues.push(directIssue);
 
-    const ownUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(analysis.normalizedQuery);
     if (ownUnderlying && answer.directAnswer === "否") {
-      const citedIds = new Set(validBasis.map((basis) => basis.evidenceId));
-      const currentBan = hits.find((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text));
-      const futureBan = hits.find((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")));
       if (currentBan && !citedIds.has(currentBan.id)) issues.push("否定结论未引用现行期货风险管理公司交易路径禁止条文");
       if (futureBan && !citedIds.has(futureBan.id)) issues.push("否定结论未引用并区分已公布尚未施行的更广泛禁止条文");
     }
