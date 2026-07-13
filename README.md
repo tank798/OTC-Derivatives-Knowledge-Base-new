@@ -8,8 +8,8 @@
 - 108 份结构化正文，位于 `data/processed/documents/json/`。
 - 1,219 个已完成独立复核的 Chunk，位于 `data/processed/chunks/jsonl/all_chunks.jsonl`。
 - Chunk 复核记录为 1,219/1,219，当前 MINOR、MAJOR、CRITICAL 均为 0。
-- BM25 和本地 BGE 向量索引已基于 1,219 个新 Chunk 重建，索引清单记录 108 份法规、50,468 个 BM25 词项和 1,219 个 768 维向量。
-- 首版 3 道人工标注评测题的 BM25/向量/等权 RRF 检索评测为 3/3 通过。
+- BM25 和本地 BGE 向量索引已基于 1,219 个新 Chunk 重建，索引清单记录 108 份法规、50,500 个 BM25 词项和 1,219 个 768 维向量。
+- 首版 3 道真实问题均通过与正式产品完全相同的 DeepSeek Pro 端到端问答评测（3/3）。
 
 ## 目录
 
@@ -65,7 +65,7 @@ pnpm download:retrieval-model
 
 模型下载到 `.cache/huggingface/`，不会提交 Git。
 
-## 检索评测
+## 端到端问答评测
 
 当前评测集位于 `data/index/eval/queries.jsonl`，包含：
 
@@ -74,10 +74,10 @@ pnpm download:retrieval-model
 - 私募产品投资雪球的比例限制。
 
 ```bash
-pnpm eval:retrieval
+pnpm eval:qa
 ```
 
-评测同时检查相关 Chunk 排名和回答行为期望。对交易对手范围、文件生效时点或具体产品结构缺少直接证据的情形，引用校验层会拒绝无条件强结论。
+评测直接调用正式 `ComplianceService`，完整经过问题分析、混合检索、上下文组装、DeepSeek 回答和引用校验，不预置所谓“人工相关 Chunk”。模型从实际进入上下文的 Chunk 中自行选择引用；评测检查最终判断、必要法规、关键限定及官网链接。
 
 ## 官网 URL
 
@@ -114,6 +114,7 @@ API：
  -> 证据上下文组装
  -> LLM 结构化回答
  -> 引用与效力校验
+ -> 校验失败时使用同一批证据修订一次
  -> 最终输出
 ```
 
@@ -126,7 +127,7 @@ pnpm test
 python -m pytest knowledge_base/tests
 ```
 
-Node 测试覆盖索引一致性、中文 BM25、向量行号、RRF、Chunk 去重、雪球扩展、幻觉引用拒绝、效力未知降级、URL 防伪造和端到端服务链路。
+Node 测试覆盖索引一致性、中文 BM25、向量行号、RRF、Chunk 去重、雪球扩展、幻觉引用拒绝、效力未知降级、URL 防伪造、重复引用合并和引用失败修订。
 
 ## 限制
 

@@ -23,14 +23,25 @@ def _blocks_from_plain_text(text: str) -> tuple[list[SourceBlock], list[str]]:
     removed_toc = 0
     toc_marker = next((index for index, value in enumerate(paragraphs[:30]) if compact(value) in {"目录", "目次"}), None)
     if toc_marker is not None:
-        body_start = next((
-            index for index in range(toc_marker + 1, len(paragraphs))
-            if re.match(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条", paragraphs[index])
-            and not re.search(r"\s\d{1,4}\s*$", paragraphs[index])
-        ), None)
-        if body_start is not None:
-            removed_toc = body_start - toc_marker
-            paragraphs = paragraphs[:toc_marker] + paragraphs[body_start:]
+        # 旧 DOC 的目录与正文之间可能有签约前言。目录条目通常以页码
+        # 结尾，因此只删除目录标题和连续目录条目，不能把第一个正文
+        # “第X条”之前的全部内容一并裁掉。
+        toc_end = toc_marker
+        for index in range(toc_marker + 1, min(len(paragraphs), toc_marker + 80)):
+            value = paragraphs[index]
+            article_toc = bool(
+                re.match(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条", value)
+                and re.search(r"\s\d{1,4}\s*$", value)
+            )
+            dotted_toc = bool(re.search(r"(?:\.{2,}|[…·]{2,})\s*\d{1,4}\s*$", value))
+            if article_toc or dotted_toc or is_toc_field(value):
+                toc_end = index
+                continue
+            if toc_end > toc_marker:
+                break
+        if toc_end > toc_marker:
+            removed_toc = toc_end - toc_marker + 1
+            paragraphs = paragraphs[:toc_marker] + paragraphs[toc_end + 1:]
     blocks = [SourceBlock(value, block_id=f"b{index:05d}") for index, value in enumerate(paragraphs, start=1)]
     blocks, removed_front_structure = strip_repeated_front_structure(blocks)
     warnings: list[str] = []

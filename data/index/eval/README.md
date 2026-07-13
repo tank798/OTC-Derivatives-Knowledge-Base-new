@@ -1,16 +1,16 @@
-# 检索评测集
+# 端到端问答评测集
 
-`queries.jsonl` 是当前的人工标注评测集。每条记录包含用户原问、相关 Chunk、BM25/混合检索最大可接受排名和回答行为期望。
+这里的三个问题走与正式产品完全相同的链路：问题分析、混合检索、上下文组装、DeepSeek 回答和引用校验。
 
-运行：
+`queries.jsonl` 不预置 Chunk ID。模型从本次实际检索上下文中自行选择引用，评测器只检查最终判断、必要法规、关键限定和官网链接。
+
+配置 `LLM_API_KEY`、`LLM_MODEL=deepseek-v4-pro` 后运行：
 
 ```bash
-pnpm eval:retrieval
+pnpm eval:qa
 ```
 
 产物：
 
-- `results.json`：机器可读的逐题排名和总体统计。
-- `results.md`：人工检查用的简表。
-
-检索评测检查 BM25、向量和等权 RRF。回答行为期望由 `tests/qa_pipeline.test.cjs` 中的引用校验测试执行，防止“召回了相关文件”被误当成“已有直接规定”。
+- `results.json`：完整保存问题分析、实际模型上下文、最终回答、模型选择的引用和校验结果。
+- `results.md`：按“先直接回答、后法规依据及官网链接”的格式生成简表。

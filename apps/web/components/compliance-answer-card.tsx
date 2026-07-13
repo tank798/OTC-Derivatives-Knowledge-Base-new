@@ -50,6 +50,7 @@ export function ComplianceAnswerCard({ data }: Props) {
   // ── Copy handler ──
   const handleCopy = async () => {
     const text = [
+      `直接回答: ${answer.directAnswer}`,
       `结论: ${answer.conclusion}（${answer.conclusionLabel}）`,
       "",
       "── 产品结构识别 ──",
@@ -66,7 +67,7 @@ export function ComplianceAnswerCard({ data }: Props) {
       ...answer.regulatoryBasis.map(
         (b, i) =>
           `${i + 1}. 《${b.title}》` +
-          (b.articleNo ? ` 第${b.articleNo}条` : "") +
+          (b.articleNo ? ` ${b.articleNo}` : "") +
           `\n   ${b.excerpt}` +
           (b.url ? `\n   ${b.url}` : "")
       ),
@@ -122,6 +123,7 @@ export function ComplianceAnswerCard({ data }: Props) {
               </span>
             </div>
             <p className="mt-2 text-base font-semibold leading-7 text-ink">
+              <span className="mr-2 text-lg">{answer.directAnswer}</span>
               {answer.conclusion}
             </p>
           </div>
@@ -332,7 +334,7 @@ function RegulatoryBasisCard({
             <span className="text-xs text-ink-tertiary">{basis.publisher}</span>
             {basis.articleNo && (
               <span className="rounded bg-accent/10 px-1.5 py-0.5 text-2xs font-medium text-accent">
-                第{basis.articleNo}条
+                {basis.articleNo}
               </span>
             )}
           </div>

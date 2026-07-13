@@ -13,6 +13,7 @@ import config
 from models import ParsedDocument, SourceBlock
 from utils.metadata import infer_metadata
 from utils.text import clean_text, compact, is_page_number, markdown_table, strip_repeated_front_structure
+from parsers.pdf_formula_overrides import apply_verified_formula_overrides
 
 TOC_ENTRY_RE = re.compile(
     r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|"
@@ -155,5 +156,8 @@ def parse_pdf(path: Path) -> ParsedDocument:
     blocks, removed_front_structure = strip_repeated_front_structure(blocks)
     if removed_front_structure:
         warnings.append(f"已过滤{removed_front_structure}个PDF前置目录标题")
+    verified_formula_count = apply_verified_formula_overrides(path, blocks)
+    if verified_formula_count:
+        warnings.append(f"按原PDF二维排版核对并线性化{verified_formula_count}处公式")
     metadata = infer_metadata(blocks, path)
     return ParsedDocument(path, "pdf", blocks, metadata, warnings)

@@ -31,9 +31,9 @@ DEEPSEEK_MODEL = "deepseek-chat"
 LLM_BATCH_UNITS = 30
 
 SUPPORTED_SUFFIXES = {".doc", ".docx", ".pdf", ".txt", ".md", ".html", ".htm", ".xlsx"}
-PARSER_VERSION = "2.1.0"
+PARSER_VERSION = "2.2.1-verified-pdf-formulas"
 DOCX_PARSER_VERSION = "2.3.0-smarttag-text+toc-style-scope"
-LEGACY_DOC_PARSER_VERSION = "2.2.0-direct-text"
+LEGACY_DOC_PARSER_VERSION = "2.3.0-direct-text-preserve-preface"
 OFFICIAL_HTML_PARSER_VERSION = "2.2.0-footnote-structure"
 CHUNKER_BASE_VERSION = "3.1.2-parent-context-overlap+structural-coalesce+attachment-parent"
 CHUNKER_MULTIPART_VERSION = "3.1.2-parent-context-overlap+structural-coalesce+attachment-parent+multipart-reset"

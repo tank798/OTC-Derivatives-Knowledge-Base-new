@@ -44,6 +44,7 @@ export type RetrievalHit = z.infer<typeof retrievalHitSchema>;
 
 // ────────── 合规回答 ──────────
 export const complianceAnswerSchema = z.object({
+  directAnswer: z.enum(["是", "否", "不能确认"]),
   conclusion: z.string(),
   conclusionLabel: z.enum(["可做", "不可做", "有条件可做", "需人工合规复核"]),
   productStructure: productStructureSchema,

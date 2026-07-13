@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T14:38:16.338565+00:00",
+  "generated_at": "2026-07-13T01:47:02.417150+00:00",
   "chunk_total": 1219,
   "unique_chunk_id_count": 1219,
   "review_record_count": 1219,
@@ -54,7 +54,7 @@
     ]
   ],
   "high_duplicate_pairs": [],
-  "overlap_chunk_count": 192,
+  "overlap_chunk_count": 191,
   "overlap_audits": [
     {
       "chunk_id": "chunk_c670944ca84061964696b100",
@@ -353,20 +353,20 @@
       "shared_ratio": 0.0519
     },
     {
-      "chunk_id": "chunk_db840c6521e663c00de35c3c",
-      "source_chunk_id": "chunk_f304d0d5bfc9f2fd28874238",
+      "chunk_id": "chunk_028e36c6508974311585fe9a",
+      "source_chunk_id": "chunk_a1b555cc34a55dcf5dfb997a",
       "valid_source": true,
-      "longest_shared_characters": 64,
+      "longest_shared_characters": 13,
       "retrieval_only_context_characters": 30,
-      "shared_ratio": 0.0603
+      "shared_ratio": 0.0123
     },
     {
-      "chunk_id": "chunk_3bfabad765b6692a5311b196",
-      "source_chunk_id": "chunk_db840c6521e663c00de35c3c",
+      "chunk_id": "chunk_04705f8ff72bb12a658b2036",
+      "source_chunk_id": "chunk_028e36c6508974311585fe9a",
       "valid_source": true,
-      "longest_shared_characters": 103,
+      "longest_shared_characters": 71,
       "retrieval_only_context_characters": 22,
-      "shared_ratio": 0.1758
+      "shared_ratio": 0.1081
     },
     {
       "chunk_id": "chunk_63427991d1a18f5411aa3f28",
@@ -433,7 +433,7 @@
       "shared_ratio": 0.0474
     },
     {
-      "chunk_id": "chunk_4eaf5fc3c5aff62cfd19d8e8",
+      "chunk_id": "chunk_574201e1c49bbc8296d8f36a",
       "source_chunk_id": "chunk_56119645ba0b639c02fcb77c",
       "valid_source": true,
       "longest_shared_characters": 24,
@@ -442,11 +442,11 @@
     },
     {
       "chunk_id": "chunk_8894cea00dca2e74b027a728",
-      "source_chunk_id": "chunk_4eaf5fc3c5aff62cfd19d8e8",
+      "source_chunk_id": "chunk_574201e1c49bbc8296d8f36a",
       "valid_source": true,
       "longest_shared_characters": 39,
       "retrieval_only_context_characters": 39,
-      "shared_ratio": 0.0396
+      "shared_ratio": 0.039
     },
     {
       "chunk_id": "chunk_988eb73357d4cbd21ad61cb8",
@@ -1521,44 +1521,36 @@
       "shared_ratio": 0.3986
     },
     {
-      "chunk_id": "chunk_5b6d1baa9c63f80f061793d1",
+      "chunk_id": "chunk_86b77ec90156350519a997a9",
       "source_chunk_id": "chunk_dd84f4c19ba8c72b23d360cc",
       "valid_source": true,
       "longest_shared_characters": 64,
-      "retrieval_only_context_characters": 2,
-      "shared_ratio": 0.2155
+      "retrieval_only_context_characters": 3,
+      "shared_ratio": 0.0769
     },
     {
-      "chunk_id": "chunk_af868dd3c6ba68878855e84f",
-      "source_chunk_id": "chunk_5b6d1baa9c63f80f061793d1",
+      "chunk_id": "chunk_173bf9ccf2c823ed00d1d5d7",
+      "source_chunk_id": "chunk_c437fc4626307a5bfd9e68b8",
       "valid_source": true,
-      "longest_shared_characters": 64,
-      "retrieval_only_context_characters": 151,
-      "shared_ratio": 0.2155
+      "longest_shared_characters": 98,
+      "retrieval_only_context_characters": 15,
+      "shared_ratio": 0.1378
     },
     {
-      "chunk_id": "chunk_606ad791adfb851f5ecedb63",
-      "source_chunk_id": "chunk_af868dd3c6ba68878855e84f",
+      "chunk_id": "chunk_1efeb25489cd60e28e39d5af",
+      "source_chunk_id": "chunk_173bf9ccf2c823ed00d1d5d7",
       "valid_source": true,
-      "longest_shared_characters": 64,
-      "retrieval_only_context_characters": 10,
-      "shared_ratio": 0.1096
-    },
-    {
-      "chunk_id": "chunk_4a1c0229983ddd934ab79f15",
-      "source_chunk_id": "chunk_606ad791adfb851f5ecedb63",
-      "valid_source": true,
-      "longest_shared_characters": 31,
+      "longest_shared_characters": 100,
       "retrieval_only_context_characters": 14,
-      "shared_ratio": 0.0531
+      "shared_ratio": 0.1406
     },
     {
-      "chunk_id": "chunk_a4445922f08990a9905ee1d0",
-      "source_chunk_id": "chunk_4a1c0229983ddd934ab79f15",
+      "chunk_id": "chunk_3886cc882ef30625587a984b",
+      "source_chunk_id": "chunk_1efeb25489cd60e28e39d5af",
       "valid_source": true,
-      "longest_shared_characters": 55,
-      "retrieval_only_context_characters": 55,
-      "shared_ratio": 0.0633
+      "longest_shared_characters": 52,
+      "retrieval_only_context_characters": 41,
+      "shared_ratio": 0.103
     },
     {
       "chunk_id": "chunk_ae36d4dfe7466d3608519a05",
@@ -1931,8 +1923,8 @@
       "source_type": "doc",
       "method": "textutil",
       "raw_character_count": 12956,
-      "structured_character_count": 12052,
-      "sequence_coverage": 0.930225,
+      "structured_character_count": 12185,
+      "sequence_coverage": 0.940491,
       "missing_article_labels": [],
       "missing_critical_tokens": [],
       "blank_text_pages": [],
@@ -1943,7 +1935,7 @@
       "source_type": "pdf",
       "method": "pdftotext_layout",
       "raw_character_count": 9477,
-      "structured_character_count": 8378,
+      "structured_character_count": 8393,
       "sequence_coverage": 0.881292,
       "missing_article_labels": [],
       "missing_critical_tokens": [],
@@ -3164,8 +3156,8 @@
       "source_type": "pdf",
       "method": "pdftotext_layout",
       "raw_character_count": 4046,
-      "structured_character_count": 4243,
-      "sequence_coverage": 0.957489,
+      "structured_character_count": 4349,
+      "sequence_coverage": 0.931784,
       "missing_article_labels": [],
       "missing_critical_tokens": [],
       "blank_text_pages": [],

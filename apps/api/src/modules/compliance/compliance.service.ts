@@ -35,7 +35,17 @@ export class ComplianceService {
     const draft = this.llm.isConfigured
       ? await this.generateEvidenceBoundAnswer(query, analysis, structure, hits)
       : this.insufficientAnswer(structure, hits, "未配置LLM_API_KEY，系统只完成了检索，未调用回答模型");
-    const answer = this.citationValidator.validate(draft, hits, analysis);
+    let answer = this.citationValidator.validate(draft, hits, analysis);
+    if (this.llm.isConfigured && answer.citationValidation?.passed === false) {
+      const repairedDraft = await this.generateEvidenceBoundAnswer(
+        query,
+        analysis,
+        structure,
+        hits,
+        { previousDraft: draft, validationIssues: answer.citationValidation.issues },
+      );
+      answer = this.citationValidator.validate(repairedDraft, hits, analysis);
+    }
     return { answer, hits, queryAnalysis: analysis };
   }
 
@@ -54,7 +64,13 @@ export class ComplianceService {
     }
   }
 
-  private async generateEvidenceBoundAnswer(query: string, analysis: QueryAnalysis, structure: ProductStructure, hits: RetrievalHit[]): Promise<ComplianceAnswer> {
+  private async generateEvidenceBoundAnswer(
+    query: string,
+    analysis: QueryAnalysis,
+    structure: ProductStructure,
+    hits: RetrievalHit[],
+    repair?: { previousDraft: ComplianceAnswer; validationIssues: string[] },
+  ): Promise<ComplianceAnswer> {
     if (!hits.length) return this.insufficientAnswer(structure, hits, "未检索到直接相关的法规片段");
     const prompt = `你是中国场外衍生品法规问答助手。你只能依据下面的“本次检索证据”回答，禁止使用模型记忆补充法规、文号、条款或URL。
 
@@ -65,18 +81,30 @@ export class ComplianceService {
 4. 证据不足时，结论必须包含“根据当前知识库检索结果，暂时无法形成确定结论。”
 5. 已公布但尚未施行的文件只能用于说明未来规则及生效时点，不得当作当前已生效依据。
 6. 不得把同一条中不同款、项针对不同产品或交易的条件交叉套用。
-7. 仅输出JSON，不得输出Markdown代码围栏。格式：
-{"conclusion":"...","conclusionLabel":"可做|不可做|有条件可做|需人工合规复核","regulatoryBasis":[{"evidenceId":"chunk_...","requirement":"该证据直接支持的结论"}],"restrictions":["..."],"missingInfo":["..."],"manualReviewNote":"..."}
+7. 在 conclusion 或 restrictions 中提到的每一份法规，都必须在 regulatoryBasis 中选择对应 evidence_id；不得只在文字里提到而不引用。
+8. 对“可以吗”这类未限定范围的问题：如果证据显示至少一条重要现行交易路径被明确禁止，directAnswer 应填“否”，含义是“不能笼统认定可以”，随后必须说明禁止范围；不得据此扩大成所有主体、所有时间一律禁止。
+9. 仅输出JSON，不得输出Markdown代码围栏。格式：
+{"directAnswer":"是|否|不能确认","conclusion":"...","conclusionLabel":"可做|不可做|有条件可做|需人工合规复核","regulatoryBasis":[{"evidenceId":"chunk_...","requirement":"该证据直接支持的结论"}],"restrictions":["..."],"missingInfo":["..."],"manualReviewNote":"..."}
+
+回答顺序要求：
+- 先给 directAnswer。问题能够由直接条文明确回答时，只能填“是”或“否”；证据不足以作二元判断时填“不能确认”。
+- conclusion 紧接 directAnswer 解释判断，不得先铺陈背景，也不要重复“是、否、不能确认”本身。例如 directAnswer 为“否”时，conclusion 写“不能笼统认定可以……”。
+- 然后再列 regulatoryBasis。模型只选择 evidence_id；法规标题、条款、效力状态和官网URL由系统按证据回填。
 
 用户问题：${query}
 问题分析：${JSON.stringify(analysis)}
+${repair ? `上一次回答未通过系统引用校验。请依据同一批证据修订，不得机械服从错误反馈，也不得新增证据中不存在的事实。\n上一次回答：${JSON.stringify(repair.previousDraft)}\n校验问题：${repair.validationIssues.join("；")}\n修订要求：若缺少直接授权条文，应将 directAnswer 改为“不能确认”并明确说明证据边界；若遗漏已经在证据中的必要法规，应在核对原文后补选其 evidence_id；所有提及的法规都必须正式引用。` : ""}
 本次检索证据：
 ${this.contextBuilder.build(hits)}`;
     const raw = await this.llm.chat(this.promptService.getComplianceAgentPrompt(), prompt, 120000);
     const parsed = this.parseJson(raw);
     const basis = Array.isArray(parsed.regulatoryBasis) ? parsed.regulatoryBasis : [];
     return {
-      conclusion: String(parsed.conclusion || "【证据不足】根据当前知识库检索结果，暂时无法形成确定结论。"),
+      directAnswer: ["是", "否", "不能确认"].includes(parsed.directAnswer) ? parsed.directAnswer : "不能确认",
+      conclusion: this.stripRepeatedDecision(
+        String(parsed.conclusion || "【证据不足】根据当前知识库检索结果，暂时无法形成确定结论。"),
+        ["是", "否", "不能确认"].includes(parsed.directAnswer) ? parsed.directAnswer : "不能确认",
+      ),
       conclusionLabel: ["可做", "不可做", "有条件可做", "需人工合规复核"].includes(parsed.conclusionLabel) ? parsed.conclusionLabel : "需人工合规复核",
       productStructure: structure,
       regulatoryBasis: basis.map((item: any) => ({ evidenceId: String(item.evidenceId || ""), title: "", publisher: "", url: "", articleNo: "", excerpt: "", requirement: String(item.requirement || ""), status: "" })),
@@ -91,6 +119,7 @@ ${this.contextBuilder.build(hits)}`;
 
   private insufficientAnswer(structure: ProductStructure, hits: RetrievalHit[], reason: string): ComplianceAnswer {
     return {
+      directAnswer: "不能确认",
       conclusion: "【证据不足】根据当前知识库检索结果，暂时无法形成确定结论。",
       conclusionLabel: "需人工合规复核",
       productStructure: structure,
@@ -132,5 +161,9 @@ ${this.contextBuilder.build(hits)}`;
     const end = cleaned.lastIndexOf("}");
     if (start < 0 || end < start) throw new Error("回答模型未返回合法JSON");
     return JSON.parse(cleaned.slice(start, end + 1));
+  }
+
+  private stripRepeatedDecision(conclusion: string, directAnswer: string) {
+    return conclusion.replace(new RegExp(`^${directAnswer}[，,。；;：:\\s]+`), "").trim();
   }
 }

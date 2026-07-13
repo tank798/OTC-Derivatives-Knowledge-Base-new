@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generated_at": "2026-07-12T15:16:25.428Z",
+  "generated_at": "2026-07-13T01:34:31.648Z",
   "source": {
     "path": "data/processed/chunks/jsonl/all_chunks.jsonl",
-    "sha256": "4d18096111496ab786c1bee783766a49196c7c604c3a36a78c0c38a7d4825246",
+    "sha256": "ef33e58b83a46fcd2c4b0b1e0dbd9ed94088dc6c07520f9badabc4f4a4260cf4",
     "unique_body_source": true,
     "legacy_clauses_enabled": false
   },
   "corpus": {
     "path": "data/index/corpus.jsonl",
-    "sha256": "0c61be0cd97ace6a04d5a2f125107e0080fadd497fa44a470a7c79616f034aaa",
+    "sha256": "a408ac5dc2deecbbd37465077ff3aaa4eff58dfbd6ba547116b9d0563d5cda3f",
     "document_count": 108,
     "chunk_count": 1219,
     "official_url_count": 108
   },
   "bm25": {
     "path": "data/index/bm25/index.json",
-    "sha256": "80136702bba74b13849ce5b1b4172144e06e579c1ccf0e3b5737fe67cd827593",
+    "sha256": "e92616fde64cf2e075a8f47dbbf168a8d5a700e17b588f98632fa551fa419ab5",
     "tokenizer": "nfkc+cjk_bigram+otc_domain_terms",
     "field_weighting": "none",
     "k1": 1.5,
     "b": 0.75,
-    "vocabulary_size": 50468
+    "vocabulary_size": 50500
   },
   "vectors": {
     "path": "data/index/vectors.f32",
     "metadata_path": "data/index/vector_metadata.json",
-    "sha256": "077efb1b362721057abd3577235908004cb8501e7e1d5a7533a21969a5da15c5",
+    "sha256": "e1d60928082cb79cdff0d80d3831f8f91672c51a4592218f32eacf0c28f0edc5",
     "model_id": "Xenova/bge-base-zh-v1.5",
     "model_revision": "71e50dc531959f9e04ebf190ea25b00261a0a186",
     "model_dtype": "q8",
@@ -45,5 +45,5 @@
     "review_duplicate_groups": 0,
     "intentional_overlap_groups": 0
   },
-  "build_fingerprint": "3b0a5e5af971dea52544c552538cc412ebea443322995aba95814744f7dcbe77"
+  "build_fingerprint": "350c218473d91742b026ae12c87085b4f0ae66ee8d4237393c8b3a3071cdf37e"
 }

@@ -7,6 +7,7 @@ const INVALID_STATUS = /废止|失效|repealed|invalid/i;
 
 function directEvidenceIssue(answer: ComplianceAnswer, analysis: QueryAnalysis, hits: RetrievalHit[]): string {
   const query = analysis.normalizedQuery;
+  const answerText = [answer.conclusion, ...answer.restrictions].join("\n");
   const texts = hits.map((hit) => hit.text.replace(/\s+/g, ""));
   const asksOwnUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(query);
   if (asksOwnUnderlying) {
@@ -14,11 +15,11 @@ function directEvidenceIssue(answer: ComplianceAnswer, analysis: QueryAnalysis, 
     if (!direct) return "未检索到上市公司以本公司股票为场外衍生品挂钩标的的直接规定";
     const hasCurrentCounterpartyBan = hits.some((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text));
     const hasFutureGeneralBan = hits.some((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")));
-    if (/可以|可做|有条件可做/.test(answer.conclusion)) {
-      if (hasCurrentCounterpartyBan && !/期货风险管理公司|交易对手/.test(answer.conclusion)) {
+    if (/可以|可做|有条件可做/.test(answerText)) {
+      if (hasCurrentCounterpartyBan && !/期货风险管理公司|交易对手/.test(answerText)) {
         return "可行性结论未限定现行规则已禁止的期货风险管理公司交易路径";
       }
-      if (hasFutureGeneralBan && !/尚未施行|未生效|生效|未来/.test(answer.conclusion)) {
+      if (hasFutureGeneralBan && !/尚未施行|未生效|生效|未来/.test(answerText)) {
         return "可行性结论未区分已公布尚未施行的更广泛禁止规则及其生效时点";
       }
     }
@@ -36,7 +37,7 @@ export class CitationValidatorService {
   validate(answer: ComplianceAnswer, hits: RetrievalHit[], analysis: QueryAnalysis): ComplianceAnswer {
     const evidence = new Map(hits.map((hit) => [hit.id, hit]));
     const issues: string[] = [];
-    const validBasis = answer.regulatoryBasis.flatMap((basis) => {
+    const validBasisRaw = answer.regulatoryBasis.flatMap((basis) => {
       const hit = evidence.get(basis.evidenceId);
       if (!hit) {
         issues.push(`引用的证据ID不存在于本次检索结果: ${basis.evidenceId}`);
@@ -59,17 +60,42 @@ export class CitationValidatorService {
         status: hit.status,
       }];
     });
+    const validBasis = [...validBasisRaw.reduce((grouped, basis) => {
+      const current = grouped.get(basis.evidenceId);
+      if (!current) {
+        grouped.set(basis.evidenceId, basis);
+      } else if (basis.requirement && !current.requirement.includes(basis.requirement)) {
+        grouped.set(basis.evidenceId, { ...current, requirement: `${current.requirement}；${basis.requirement}` });
+      }
+      return grouped;
+    }, new Map<string, (typeof validBasisRaw)[number]>()).values()];
 
-    if (STRONG_CLAIM.test(answer.conclusion) && validBasis.length === 0) issues.push("强结论没有对应的有效检索证据");
+    const makesBinaryDecision = answer.directAnswer === "是" || answer.directAnswer === "否";
+    if ((makesBinaryDecision || STRONG_CLAIM.test(answer.conclusion)) && validBasis.length === 0) issues.push("确定性结论没有对应的有效检索证据");
+    if (answer.directAnswer === "不能确认" && answer.conclusionLabel !== "需人工合规复核") {
+      issues.push("直接回答为不能确认时，结论标签必须为需人工合规复核");
+    }
+    if (answer.directAnswer === "是" && answer.conclusionLabel === "不可做") issues.push("直接回答与结论标签相互矛盾");
+    if (answer.directAnswer === "否" && answer.conclusionLabel === "可做") issues.push("直接回答与结论标签相互矛盾");
     if (analysis.asksValidity && validBasis.some((basis) => !CURRENT_STATUS.test(basis.status))) {
       issues.push("效力问题缺少可靠的现行有效状态元数据");
     }
     const directIssue = directEvidenceIssue(answer, analysis, hits);
-    if (directIssue && STRONG_CLAIM.test(answer.conclusion)) issues.push(directIssue);
+    if (directIssue && makesBinaryDecision) issues.push(directIssue);
+
+    const ownUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(analysis.normalizedQuery);
+    if (ownUnderlying && answer.directAnswer === "否") {
+      const citedIds = new Set(validBasis.map((basis) => basis.evidenceId));
+      const currentBan = hits.find((hit) => /(?:期货)?风险管理公司不得与上市公司/.test(hit.text));
+      const futureBan = hits.find((hit) => /尚未施行|未生效/.test(hit.status) && /上市公司.*不得达成.*其发行的股票/.test(hit.text.replace(/\s+/g, "")));
+      if (currentBan && !citedIds.has(currentBan.id)) issues.push("否定结论未引用现行期货风险管理公司交易路径禁止条文");
+      if (futureBan && !citedIds.has(futureBan.id)) issues.push("否定结论未引用并区分已公布尚未施行的更广泛禁止条文");
+    }
 
     if (issues.length) {
       return {
         ...answer,
+        directAnswer: "不能确认",
         conclusion: "【证据不足】根据当前知识库检索结果，暂时无法形成确定结论。",
         conclusionLabel: "需人工合规复核",
         regulatoryBasis: validBasis,

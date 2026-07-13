@@ -13,6 +13,7 @@ from parsers.docx_parser import paragraph_xml_text, strip_word_toc
 from parsers.legacy_doc_parser import _blocks_from_plain_text
 from parsers.text_parser import _OfficialBodyHTML
 from parsers.pdf_parser import remove_toc_entries
+from parsers.pdf_formula_overrides import apply_verified_formula_overrides
 from utils.metadata import infer_metadata
 from utils.text import clean_text, is_page_number
 
@@ -97,6 +98,45 @@ class MetadataAndPdfTests(unittest.TestCase):
         values = [block.text for block in blocks]
         self.assertEqual(values, ["测试定义文件", "第一条 通用定义", "正文", "第二条 日期定义", "正文二"])
         self.assertTrue(any("目录" in warning for warning in warnings))
+
+    def test_legacy_doc_toc_cleanup_preserves_preface_before_first_article(self):
+        text = """主协议\n目录\n第一条 协议构成 1\n第二条 支付义务 2\n为明确交易双方的权利和义务，双方签署本主协议。\n第一条 协议构成\n正文"""
+        blocks, _ = _blocks_from_plain_text(text)
+        self.assertEqual(
+            [block.text for block in blocks],
+            ["主协议", "为明确交易双方的权利和义务,双方签署本主协议。", "第一条 协议构成", "正文"],
+        )
+
+    def test_rate_definition_fraction_is_restored_from_verified_pdf_layout(self):
+        blocks = [SourceBlock(
+            "贴现因子适用如下公式:λ =1 + ( r ×N / D )其中,λ 是贴现因子。",
+            page=16,
+            block_id="b1",
+        )]
+        changed = apply_verified_formula_overrides(Path("中国银行间市场利率衍生产品交易定义文件（2022年版）.pdf"), blocks)
+        self.assertEqual(changed, 1)
+        self.assertIn("λ = 1 / [1 + (r × N / D)]", blocks[0].text)
+
+    def test_credit_valuation_formula_preserves_fraction_and_exponent_order(self):
+        blocks = [SourceBlock(
+            "(一)基于违约率的方法估值公式如下:*ln(1-D)乱码其中:V为估值。",
+            page=6,
+            block_id="b1",
+        )]
+        changed = apply_verified_formula_overrides(Path("证券投资基金投资信用衍生品估值指引(试行).pdf"), blocks)
+        self.assertEqual(changed, 1)
+        self.assertIn("exp((d / TY) × ln(1 - D))", blocks[0].text)
+        self.assertIn("/ [1 + r_d × (d / TY)]", blocks[0].text)
+
+    def test_credit_default_probability_preserves_complement_event(self):
+        blocks = [SourceBlock(
+            "考虑 CRMW 风险下年化违约概率 D = P AB,且 P AB = P A| B ×P B。",
+            page=10,
+            block_id="b1",
+        )]
+        changed = apply_verified_formula_overrides(Path("证券投资基金投资信用衍生品估值指引(试行).pdf"), blocks)
+        self.assertEqual(changed, 1)
+        self.assertIn("P(A∩B̄) = P(A|B̄) × P(B̄)", blocks[0].text)
 
     def test_official_html_footnote_marker_is_structured(self):
         parser = _OfficialBodyHTML()

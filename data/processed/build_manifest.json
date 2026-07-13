@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-12T14:37:57.805054+00:00",
-  "parser_version": "2.1.0",
+  "generated_at": "2026-07-13T01:27:20.585779+00:00",
+  "parser_version": "2.2.1-verified-pdf-formulas",
   "chunker_version": "3.1.2-parent-context-overlap+structural-coalesce+attachment-parent+embedded-part+official-footnote",
   "semantic_profile": "local_rules",
   "input_dir": "data/raw/监管文件",
@@ -878,9 +878,9 @@
       "file_name": "中国证券期货市场衍生品交易主协议.doc",
       "file_sha256": "3f7ab4e757656b036f59f5116a98f59da97339ec64d479e2c5d540e2c80c639e",
       "auxiliary_source_sha256": "",
-      "content_sha256": "764389c8abc18ca125e225903a7717fbd4e5d2802cb70f29801da21e22e8b3e1",
+      "content_sha256": "ec922f4d067ddde16b86e9eae66d750f09021237d59c8ca6ac9eccc600fa180d",
       "metadata_sha256": "db27a5dfacc21acae369f378b6756ad5295c7d057f07a20b518bfd4517f650f6",
-      "parser_version": "2.1.0:2.2.0-direct-text",
+      "parser_version": "2.2.0-verified-pdf-formulas:2.3.0-direct-text-preserve-preface",
       "chunker_version": "3.1.2-parent-context-overlap+structural-coalesce+attachment-parent+multipart-reset",
       "semantic_profile": "local_rules",
       "parser_reused": false,
@@ -888,9 +888,9 @@
       "structured_json": "documents/json/doc_d875c3ce729703dba2da25c7.json",
       "chunk_jsonl": "chunks/jsonl/doc_d875c3ce729703dba2da25c7.jsonl",
       "chunk_ids": [
-        "chunk_f304d0d5bfc9f2fd28874238",
-        "chunk_db840c6521e663c00de35c3c",
-        "chunk_3bfabad765b6692a5311b196",
+        "chunk_a1b555cc34a55dcf5dfb997a",
+        "chunk_028e36c6508974311585fe9a",
+        "chunk_04705f8ff72bb12a658b2036",
         "chunk_3c0a124bfe055e14740aa4e6",
         "chunk_23d20673c06223789f86d763",
         "chunk_eb6c6e8528f26ac6ec3f6a27",
@@ -910,14 +910,14 @@
         "source_type": "doc",
         "status": "success",
         "chunk_count": 14,
-        "source_character_count": 13452,
-        "unique_chunk_character_count": 9014,
+        "source_character_count": 13651,
+        "unique_chunk_character_count": 9026,
         "has_structure": true,
         "coverage_status": "pass",
         "missing_block_ids": [],
         "warnings": [
           "旧DOC经LibreOffice直接只读导出文本，原文件未修改",
-          "已过滤16个旧DOC目录段落"
+          "已过滤15个旧DOC目录段落"
         ],
         "jsonl": "jsonl/doc_d875c3ce729703dba2da25c7.jsonl",
         "markdown": "markdown/doc_d875c3ce729703dba2da25c7.md"
@@ -929,9 +929,9 @@
       "file_name": "中国银行间市场利率衍生产品交易定义文件（2022年版）.pdf",
       "file_sha256": "c759c5efb00d25fdd96ed29731f6c38baa627c28eaa5763abb4e15e9ea387b30",
       "auxiliary_source_sha256": "",
-      "content_sha256": "316bbe63d3dd0f375edcce4fb7c9bb0c1744699bebe8751a5cfd32087108a385",
+      "content_sha256": "67a1ac7f97edb1a921fa46ff7f2473da92cdc35b24bce54fc086623ff0923e74",
       "metadata_sha256": "c6f5e4924998f1fba2ac735e00ee48b41354bd75dbf6cb9a7eabe838da947cf1",
-      "parser_version": "2.1.0",
+      "parser_version": "2.2.0-verified-pdf-formulas",
       "chunker_version": "3.1.2-parent-context-overlap+structural-coalesce+attachment-parent",
       "semantic_profile": "local_rules",
       "parser_reused": false,
@@ -945,7 +945,7 @@
         "chunk_e02aa08d4c5ae318b3c1e419",
         "chunk_c0ddca4cb652f323bb4b3765",
         "chunk_56119645ba0b639c02fcb77c",
-        "chunk_4eaf5fc3c5aff62cfd19d8e8",
+        "chunk_574201e1c49bbc8296d8f36a",
         "chunk_8894cea00dca2e74b027a728",
         "chunk_988eb73357d4cbd21ad61cb8"
       ],
@@ -956,7 +956,7 @@
         "source_type": "pdf",
         "status": "success",
         "chunk_count": 9,
-        "source_character_count": 9291,
+        "source_character_count": 9313,
         "unique_chunk_character_count": 1186,
         "has_structure": false,
         "coverage_status": "pass",
@@ -966,7 +966,8 @@
           "已去除1类跨页重复页眉或页脚",
           "第3页过滤30行目录条目",
           "第4页过滤30行目录条目",
-          "第5页过滤15行目录条目"
+          "第5页过滤15行目录条目",
+          "按原PDF二维排版核对并线性化1处公式"
         ],
         "jsonl": "jsonl/doc_d6958eb9b47a1e2db646abd2.jsonl",
         "markdown": "markdown/doc_d6958eb9b47a1e2db646abd2.md"
@@ -4550,9 +4551,9 @@
       "file_name": "证券投资基金投资信用衍生品估值指引(试行).pdf",
       "file_sha256": "7b5a8efe57d198998dfef857f23136cfd3f1ba2891ef2941a7325afd03087216",
       "auxiliary_source_sha256": "",
-      "content_sha256": "11fef575772771f40689f4db0151a727211e82a88d7606287b378d0b11913a32",
+      "content_sha256": "fef3598fd6efa34a034e77a019f3875f902866dbab64722a1c0ef8442c66cc68",
       "metadata_sha256": "35f27358e454f466e03201731232cfd21484abd6d2fc1efdf4fc9919abadfe3b",
-      "parser_version": "2.1.0",
+      "parser_version": "2.2.1-verified-pdf-formulas",
       "chunker_version": "3.1.2-parent-context-overlap+structural-coalesce+attachment-parent",
       "semantic_profile": "local_rules",
       "parser_reused": false,
@@ -4561,11 +4562,11 @@
       "chunk_jsonl": "chunks/jsonl/doc_951c7d3b2fbdc5570069c2a8.jsonl",
       "chunk_ids": [
         "chunk_dd84f4c19ba8c72b23d360cc",
-        "chunk_5b6d1baa9c63f80f061793d1",
-        "chunk_af868dd3c6ba68878855e84f",
-        "chunk_606ad791adfb851f5ecedb63",
-        "chunk_4a1c0229983ddd934ab79f15",
-        "chunk_a4445922f08990a9905ee1d0"
+        "chunk_86b77ec90156350519a997a9",
+        "chunk_c437fc4626307a5bfd9e68b8",
+        "chunk_173bf9ccf2c823ed00d1d5d7",
+        "chunk_1efeb25489cd60e28e39d5af",
+        "chunk_3886cc882ef30625587a984b"
       ],
       "summary": {
         "document_id": "doc_951c7d3b2fbdc5570069c2a8",
@@ -4574,15 +4575,16 @@
         "source_type": "pdf",
         "status": "success",
         "chunk_count": 6,
-        "source_character_count": 5147,
-        "unique_chunk_character_count": 978,
+        "source_character_count": 5530,
+        "unique_chunk_character_count": 2023,
         "has_structure": false,
         "coverage_status": "pass",
         "missing_block_ids": [],
         "warnings": [
           "按Adobe Symbol编码规范化244个PDF公式字符",
           "第1页过滤5行目录条目",
-          "第4页第1个表格以Markdown补入"
+          "第4页第1个表格以Markdown补入",
+          "按原PDF二维排版核对并线性化8处公式"
         ],
         "jsonl": "jsonl/doc_951c7d3b2fbdc5570069c2a8.jsonl",
         "markdown": "markdown/doc_951c7d3b2fbdc5570069c2a8.md"

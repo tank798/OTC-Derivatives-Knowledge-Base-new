@@ -1,108 +1,123 @@
 #!/usr/bin/env node
 
-import { mkdirSync, writeFileSync } from "node:fs";
-import { resolve } from "node:path";
-import { env, pipeline } from "@huggingface/transformers";
-import {
-  MODEL_CACHE,
-  MODEL_DTYPE,
-  MODEL_ID,
-  QUERY_INSTRUCTION,
-  ROOT,
-  VECTOR_PATH,
-  loadIndexArtifacts,
-  loadVectorMatrix,
-  readJsonl,
-  reciprocalRankFusion,
-  searchBm25,
-  searchVectors,
-} from "./retrieval/core.mjs";
+import { createRequire } from "node:module";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const EVAL_DIR = resolve(ROOT, "data/index/eval");
 const QUERY_PATH = resolve(EVAL_DIR, "queries.jsonl");
+const apiRequire = createRequire(resolve(ROOT, "apps/api/package.json"));
 
-function firstRelevantRank(hits, relevantIds) {
-  const relevant = new Set(relevantIds);
-  const hit = hits.find((row) => relevant.has(row.chunk_id));
-  return hit?.rank ?? null;
+const { ConfigService } = apiRequire("@nestjs/config");
+const { QueryAnalysisService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/query-analysis/query-analysis.service.js"));
+const { RetrievalService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/retrieval/retrieval.service.js"));
+const { ContextBuilderService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/context-builder/context-builder.service.js"));
+const { CitationValidatorService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/citation-validator/citation-validator.service.js"));
+const { PromptService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/prompt/prompt.service.js"));
+const { LlmService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/llm/llm.service.js"));
+const { ComplianceService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/compliance/compliance.service.js"));
+
+function readJsonl(path) {
+  return readFileSync(path, "utf8").split(/\r?\n/).filter(Boolean).map((line) => JSON.parse(line));
 }
 
-function summarizeHits(hits, corpus, limit = 10) {
-  return hits.slice(0, limit).map((hit) => ({
-    rank: hit.rank,
-    chunk_id: hit.chunk_id,
-    document_title: corpus[hit.index].document_title,
-    article_start: corpus[hit.index].article_start,
-    article_end: corpus[hit.index].article_end,
-    score: hit.rrf ?? hit.bm25 ?? hit.vector ?? 0,
-  }));
+function evaluateCase(testCase, result) {
+  const answer = result.answer;
+  const issues = [];
+  if (answer.directAnswer !== testCase.expected_direct_answer) {
+    issues.push(`直接回答应为“${testCase.expected_direct_answer}”，实际为“${answer.directAnswer}”`);
+  }
+  if (!answer.citationValidation?.passed) {
+    issues.push(`引用校验未通过：${answer.citationValidation?.issues?.join("；") || "未知原因"}`);
+  }
+  const citedTitles = answer.regulatoryBasis.map((basis) => basis.title);
+  for (const required of testCase.required_citation_titles ?? []) {
+    if (!citedTitles.some((title) => title.includes(required))) issues.push(`最终答案未引用《${required}》`);
+  }
+  const evaluatedText = answer.conclusion + "\n" + answer.restrictions.join("\n");
+  for (const pattern of testCase.required_answer_patterns ?? []) {
+    if (!new RegExp(pattern).test(evaluatedText)) issues.push(`最终答案缺少必要内容：/${pattern}/`);
+  }
+  for (const pattern of testCase.forbidden_answer_patterns ?? []) {
+    if (new RegExp(pattern).test(answer.conclusion)) issues.push(`最终答案出现禁止表述：/${pattern}/`);
+  }
+  const missingUrls = answer.regulatoryBasis.filter((basis) => !/^https?:\/\//.test(basis.url));
+  if (missingUrls.length) issues.push(`有${missingUrls.length}条最终法规依据缺少官网链接`);
+  return { passed: issues.length === 0, issues };
+}
+
+function withoutRepeatedDecision(answer) {
+  return answer.conclusion.replace(new RegExp(`^${answer.directAnswer}[，,。；;：:\\s]+`), "").trim();
 }
 
 async function main() {
   const cases = readJsonl(QUERY_PATH);
   if (!cases.length) throw new Error("评测集为空");
-  const { corpus, manifest, bm25, vectorMetadata } = loadIndexArtifacts();
-  const vectors = loadVectorMatrix(VECTOR_PATH, corpus.length, vectorMetadata.dimension);
+  if (!process.env.LLM_API_KEY) throw new Error("端到端评测必须配置 LLM_API_KEY，不能退化为只检索评测");
 
-  env.cacheDir = MODEL_CACHE;
-  env.allowRemoteModels = false;
-  env.allowLocalModels = true;
-  const extractor = await pipeline("feature-extraction", MODEL_ID, {
-    dtype: MODEL_DTYPE,
-    cache_dir: MODEL_CACHE,
-    local_files_only: true,
-  });
+  const analyzer = new QueryAnalysisService();
+  const retrieval = new RetrievalService();
+  await retrieval.onModuleInit();
+  const contextBuilder = new ContextBuilderService();
+  const validator = new CitationValidatorService();
+  const llm = new LlmService(new ConfigService(process.env));
+  const service = new ComplianceService(llm, retrieval, analyzer, contextBuilder, validator, new PromptService());
 
   const results = [];
-  for (const item of cases) {
-    const bm25Hits = searchBm25(item.query, corpus, bm25, manifest.fusion.bm25_top_k);
-    const embedded = await extractor(`${QUERY_INSTRUCTION}${item.query}`, { pooling: "cls", normalize: true });
-    if (embedded.dims.length !== 2 || embedded.dims[1] !== vectorMetadata.dimension) {
-      throw new Error(`查询向量维度异常: ${item.id}`);
-    }
-    const vectorHits = searchVectors(Float32Array.from(embedded.data), vectors, corpus, vectorMetadata.dimension, manifest.fusion.vector_top_k);
-    const hybridHits = reciprocalRankFusion(bm25Hits, vectorHits, { k: manifest.fusion.rrf_k, limit: manifest.fusion.fused_top_k });
-    const bm25Rank = firstRelevantRank(bm25Hits, item.relevant_chunk_ids);
-    const vectorRank = firstRelevantRank(vectorHits, item.relevant_chunk_ids);
-    const hybridRank = firstRelevantRank(hybridHits, item.relevant_chunk_ids);
-    const passed = Boolean(
-      bm25Rank && bm25Rank <= item.bm25_max_rank
-      && hybridRank && hybridRank <= item.hybrid_max_rank
-    );
+  for (const testCase of cases) {
+    const response = await service.answer(testCase.query);
+    const evaluation = evaluateCase(testCase, response);
     results.push({
-      id: item.id,
-      query: item.query,
-      passed,
-      relevant_chunk_ids: item.relevant_chunk_ids,
-      thresholds: { bm25_max_rank: item.bm25_max_rank, hybrid_max_rank: item.hybrid_max_rank },
-      ranks: { bm25: bm25Rank, vector: vectorRank, hybrid: hybridRank },
-      answer_expectation: item.answer_expectation,
-      answer_note: item.answer_note,
-      top_bm25: summarizeHits(bm25Hits, corpus),
-      top_vector: summarizeHits(vectorHits, corpus),
-      top_hybrid: summarizeHits(hybridHits, corpus),
+      id: testCase.id,
+      query: testCase.query,
+      passed: evaluation.passed,
+      issues: evaluation.issues,
+      expected_direct_answer: testCase.expected_direct_answer,
+      answer: response.answer,
+      query_analysis: response.queryAnalysis,
+      model_context: response.hits.map((hit, index) => ({
+        context_order: index + 1,
+        chunk_id: hit.chunkId,
+        title: hit.title,
+        article: hit.articleEnd && hit.articleEnd !== hit.articleNo ? `${hit.articleNo}至${hit.articleEnd}` : hit.articleNo,
+        official_url: hit.url,
+        retrieval_methods: hit.retrievalMethods,
+      })),
     });
   }
-  await extractor.dispose?.();
 
   const passedCount = results.filter((row) => row.passed).length;
   const output = {
     generated_at: new Date().toISOString(),
-    corpus: { documents: manifest.corpus.document_count, chunks: manifest.corpus.chunk_count },
-    model: { id: vectorMetadata.model_id, revision: vectorMetadata.model_revision, dimension: vectorMetadata.dimension },
+    evaluation_type: "production_end_to_end_qa",
+    pipeline: "QueryAnalysisService → RetrievalService → ContextBuilderService → LLM → CitationValidatorService",
+    model: llm.modelName,
+    corpus: retrieval.stats,
     summary: { total: results.length, passed: passedCount, failed: results.length - passedCount },
     results,
   };
   mkdirSync(EVAL_DIR, { recursive: true });
   writeFileSync(resolve(EVAL_DIR, "results.json"), JSON.stringify(output, null, 2) + "\n", "utf8");
   const lines = [
-    "# 检索评测结果", "",
+    "# 端到端问答评测结果", "",
+    `- 链路：${output.pipeline}`,
+    `- 模型：${output.model}`,
     `- 语料：${output.corpus.documents} 份法规 / ${output.corpus.chunks} 个 Chunk`,
     `- 结果：${passedCount}/${results.length} 通过`, "",
-    "| 问题 | BM25最佳相关排名 | 向量最佳相关排名 | RRF最佳相关排名 | 结果 | 回答期望 |",
-    "|---|---:|---:|---:|---|---|",
-    ...results.map((row) => `| ${row.query} | ${row.ranks.bm25 ?? "-"} | ${row.ranks.vector ?? "-"} | ${row.ranks.hybrid ?? "-"} | ${row.passed ? "PASS" : "FAIL"} | ${row.answer_expectation} |`),
+    "| 问题 | 直接回答 | 最终引用 | 引用校验 | 结果 |",
+    "|---|---|---|---|---|",
+    ...results.map((row) => `| ${row.query} | ${row.answer.directAnswer} | ${row.answer.regulatoryBasis.map((basis) => `《${basis.title}》`).join("、") || "无"} | ${row.answer.citationValidation?.passed ? "PASS" : "FAIL"} | ${row.passed ? "PASS" : "FAIL"} |`),
     "",
+    ...results.flatMap((row) => [
+      `## ${row.query}`, "",
+      `**${row.answer.directAnswer}。** ${withoutRepeatedDecision(row.answer)}`, "",
+      "依据：", "",
+      ...(row.answer.regulatoryBasis.length ? row.answer.regulatoryBasis.map((basis) => `- [《${basis.title}》${basis.articleNo ? `（${basis.articleNo}）` : ""}](${basis.url})：${basis.requirement}`) : ["- 无"]),
+      "",
+      ...(row.issues.length ? ["问题：", "", ...row.issues.map((issue) => `- ${issue}`), ""] : []),
+    ]),
   ];
   writeFileSync(resolve(EVAL_DIR, "results.md"), lines.join("\n"), "utf8");
   console.log(JSON.stringify(output.summary, null, 2));

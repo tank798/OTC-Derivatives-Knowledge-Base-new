@@ -17,6 +17,7 @@ export type ComplianceQueryRequest = {
 export type ComplianceQueryResponseData = {
   queryAnalysis: import("./schemas").QueryAnalysis;
   answer: {
+    directAnswer: "是" | "否" | "不能确认";
     conclusion: string;
     conclusionLabel: "可做" | "不可做" | "有条件可做" | "需人工合规复核";
     productStructure: {

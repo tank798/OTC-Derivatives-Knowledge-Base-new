@@ -54,7 +54,7 @@ def export_all(output_dir: Path, chunks: list[dict[str, Any]], summaries: list[d
         for row in chunks:
             handle.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
     with (output_dir / "chunk_index.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
+        writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS, lineterminator="\n")
         writer.writeheader()
         for row in chunks:
             output = {key: row.get(key, "") for key in CSV_FIELDS}
@@ -63,11 +63,11 @@ def export_all(output_dir: Path, chunks: list[dict[str, Any]], summaries: list[d
     (output_dir / "自动校验结果.json").write_text(json.dumps(validation, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     issue_fields = ["severity", "check", "file_name", "document_id", "chunk_id", "detail"]
     with (output_dir / "Chunk质量问题.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=issue_fields)
+        writer = csv.DictWriter(handle, fieldnames=issue_fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows({field: issue.get(field, "") for field in issue_fields} for issue in validation.get("issues", []))
     with (output_dir / "文件扫描清单.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["file_name", "file_path", "suffix", "size_bytes", "selected", "reason"])
+        writer = csv.DictWriter(handle, fieldnames=["file_name", "file_path", "suffix", "size_bytes", "selected", "reason"], lineterminator="\n")
         writer.writeheader()
         writer.writerows(inventory)
     counts = [int(row.get("character_count", 0)) for row in chunks]
