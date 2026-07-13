@@ -62,7 +62,6 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
                     key={`${basis.evidenceId}-${index}`}
                     basis={basis}
                     chunkText={sourceHit?.text ?? basis.quoteExact}
-                    fullChunkAvailable={Boolean(sourceHit)}
                     index={index}
                     expanded={expandedIndex === index}
                     onToggle={() => setExpandedIndex((current) => current === index ? null : index)}
@@ -88,14 +87,12 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
 function SourceCard({
   basis,
   chunkText,
-  fullChunkAvailable,
   index,
   expanded,
   onToggle,
 }: {
   basis: AgentRegulatoryBasis;
   chunkText: string;
-  fullChunkAvailable: boolean;
   index: number;
   expanded: boolean;
   onToggle: () => void;
@@ -125,9 +122,6 @@ function SourceCard({
               {basis.status && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{basis.status}</span>}
             </div>
           )}
-          <p className="mb-2 text-[10px] font-medium tracking-[0.06em] text-[#999993]">
-            {fullChunkAvailable ? "完整 Chunk" : "引用原文（历史记录未保存完整 Chunk）"}
-          </p>
           <div className="whitespace-pre-wrap text-[12px] leading-6 text-[#4d4d48]">{chunkText}</div>
           {basis.url && (
             <a

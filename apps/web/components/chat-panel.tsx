@@ -85,19 +85,17 @@ export function ChatPanel({
             <span className="h-1.5 w-1.5 rounded-full bg-[#68a86b]" />
             法规库已连接
           </div>
-          <button
-            type="button"
-            onClick={onToggleSources}
-            className={`flex h-8 w-8 items-center justify-center rounded-lg border transition-colors ${
-              sourcesOpen
-                ? "border-[#d1d1cc] bg-[#ebebe7] text-[#343430]"
-                : "border-transparent text-[#74746e] hover:bg-[#ecece8] hover:text-[#343430]"
-            }`}
-            aria-label={sourcesOpen ? "隐藏法规依据" : "显示法规依据"}
-            title={sourcesOpen ? "隐藏法规依据" : "显示法规依据"}
-          >
-            <SourcesPanelToggleIcon open={sourcesOpen} />
-          </button>
+          {!sourcesOpen && (
+            <button
+              type="button"
+              onClick={onToggleSources}
+              className="flex h-8 w-8 items-center justify-center rounded-lg border border-transparent text-[#74746e] transition-colors hover:bg-[#ecece8] hover:text-[#343430]"
+              aria-label="显示法规依据"
+              title="显示法规依据"
+            >
+              <SourcesPanelToggleIcon />
+            </button>
+          )}
         </div>
       </header>
 
@@ -264,12 +262,12 @@ function SidebarIcon() {
   );
 }
 
-function SourcesPanelToggleIcon({ open }: { open: boolean }) {
+function SourcesPanelToggleIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
       <rect x="3" y="4" width="14" height="12" rx="2" stroke="currentColor" strokeWidth="1.35" />
       <path d="M12.5 4v12" stroke="currentColor" strokeWidth="1.35" />
-      <path d={open ? "m8.5 7-2.5 3 2.5 3" : "m6.5 7 2.5 3-2.5 3"} stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="m6.5 7 2.5 3-2.5 3" stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
