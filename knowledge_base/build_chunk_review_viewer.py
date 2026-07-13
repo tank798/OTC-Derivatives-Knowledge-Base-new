@@ -28,6 +28,11 @@ HISTORICAL_AUTHORITY_MAP = {
     "中国银保监会办公厅": "国家金融监督管理总局",
 }
 
+NAVIGATION_AUTHORITY_MAP = {
+    **HISTORICAL_AUTHORITY_MAP,
+    "中国人民银行办公厅": "中国人民银行",
+}
+
 NAVIGATION_AUTHORITY_PRIORITY = [
     "中国证券监督管理委员会",
     "中国证券投资基金业协会",
@@ -65,7 +70,7 @@ def navigation_authority(value: str) -> str:
     first = first_issuing_authority(value)
     clean = re.sub(r"[（(]经.+[）)]$", "", first).strip()
     clean = clean.removesuffix("（历史机构）").removesuffix("(历史机构)").strip()
-    return HISTORICAL_AUTHORITY_MAP.get(clean, clean or "其他监管机构")
+    return NAVIGATION_AUTHORITY_MAP.get(clean, clean or "其他监管机构")
 
 
 def validity_category(value: str) -> str:

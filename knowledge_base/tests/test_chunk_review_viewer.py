@@ -17,7 +17,7 @@ class ChunkReviewViewerTests(unittest.TestCase):
         )
         self.assertEqual(
             navigation_authority("中国人民银行办公厅（经人民银行、银保监会、证监会共同研究）"),
-            "中国人民银行办公厅",
+            "中国人民银行",
         )
 
     def test_historical_bank_insurance_authorities_map_to_nfra(self):
