@@ -1,6 +1,9 @@
-# Chunk 复核结果浏览器
+# 法规目录与 Chunk 查看器
 
-`chunk_review.html` 是中国场外衍生品法规知识库的独立、只读复核结果页面。页面内嵌 108 份正式法规和 1221 个 Chunk，可直接在浏览器中打开，无需后端服务。
+本目录包含两个可直接在浏览器中打开的静态页面，无需后端服务：
+
+- `regulation_catalog.html`：基于当前 108 份正式法规生成的监管文件总目录；
+- `chunk_review.html`：内嵌 108 份法规和 1,221 个 Chunk 的切分查看页面。
 
 ## 页面内容
 
@@ -16,7 +19,8 @@
 在完成结构化文本、Chunk 和独立复核后运行：
 
 ```bash
+python3 knowledge_base/build_regulation_catalog_viewer.py
 python3 knowledge_base/build_chunk_review_viewer.py
 ```
 
-生成器会从 `all_chunks.jsonl` 和独立复核结果中取数，只将展示所需字段写入最终 HTML。
+总目录生成器从 `data/index/document_metadata.jsonl` 取数；Chunk 查看器从 `all_chunks.jsonl` 和独立复核结果取数。两者都只将展示所需字段写入最终 HTML。
