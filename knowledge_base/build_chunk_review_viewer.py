@@ -28,6 +28,16 @@ HISTORICAL_AUTHORITY_MAP = {
     "中国银保监会办公厅": "国家金融监督管理总局",
 }
 
+NAVIGATION_AUTHORITY_PRIORITY = [
+    "中国证券监督管理委员会",
+    "中国证券投资基金业协会",
+    "中国证券业协会",
+    "上海证券交易所",
+    "深圳证券交易所",
+    "中国期货业协会",
+    "国家金融监督管理总局",
+]
+
 
 def read_jsonl(path: Path) -> list[dict]:
     with path.open("r", encoding="utf-8") as handle:
@@ -117,14 +127,25 @@ def public_data() -> dict:
         document["chunks"].sort(key=lambda item: item["chunk_index"])
         document["chunk_count"] = len(document["chunks"])
 
-    authorities = {document["navigation_authority"] for document in documents.values()}
+    document_list = list(documents.values())
+    priority_position = {
+        authority: index for index, authority in enumerate(NAVIGATION_AUTHORITY_PRIORITY)
+    }
+    document_list.sort(
+        key=lambda document: (
+            0 if document["navigation_authority"] in priority_position else 1,
+            priority_position.get(document["navigation_authority"], len(priority_position)),
+            document["document_title"] if document["navigation_authority"] in priority_position else "",
+        )
+    )
+    authorities = {document["navigation_authority"] for document in document_list}
     return {
         "summary": {
             "documents": len(documents),
             "authorities": len(authorities),
             "chunks": len(chunks),
         },
-        "documents": list(documents.values()),
+        "documents": document_list,
     }
 
 
@@ -278,7 +299,7 @@ function renderMain(visible){
     const tags=[articleLabel(chunk),chunk.chapter_title,chunk.section_title,chunk.part_title,chunk.attachment_name].filter(Boolean);
     const open=chunk.chunk_id===openChunkId;
     const panelId='panel-'+chunk.chunk_id;
-    return `<article class="chunk-card ${open?'open':''}" id="${esc(chunk.chunk_id)}" data-chunk-card="${esc(chunk.chunk_id)}" style="animation-delay:${Math.min(index*15,150)}ms"><header class="chunk-head" data-toggle-chunk="${esc(chunk.chunk_id)}" role="button" tabindex="0" aria-expanded="${open?'true':'false'}" aria-controls="${esc(panelId)}"><div class="chunk-identity"><span class="chunk-number">Chunk ${chunk.chunk_index}</span><span class="tags">${tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</span></div><div class="chunk-tools"><div class="chunk-actions"><button class="icon-button" data-copy="${esc(chunk.chunk_id)}">复制正文</button><button class="icon-button" data-link="${esc(chunk.chunk_id)}">定位链接</button></div><span class="chunk-arrow" aria-hidden="true">▶</span></div></header><div class="chunk-collapse" id="${esc(panelId)}" ${open?'':'hidden'}><div class="chunk-body">${highlightStructure(chunk.body_text,query)}</div></div></article>`;
+    return `<article class="chunk-card ${open?'open':''}" id="${esc(chunk.chunk_id)}" data-chunk-card="${esc(chunk.chunk_id)}" style="animation-delay:${Math.min(index*15,150)}ms"><header class="chunk-head" data-toggle-chunk="${esc(chunk.chunk_id)}" role="button" tabindex="0" aria-expanded="${open?'true':'false'}" aria-controls="${esc(panelId)}"><div class="chunk-identity"><span class="chunk-number">Chunk ${chunk.chunk_index}</span><span class="tags">${tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</span></div><div class="chunk-tools"><div class="chunk-actions"><button class="icon-button" data-copy="${esc(chunk.chunk_id)}">复制正文</button></div><span class="chunk-arrow" aria-hidden="true">▶</span></div></header><div class="chunk-collapse" id="${esc(panelId)}" ${open?'':'hidden'}><div class="chunk-body">${highlightStructure(chunk.body_text,query)}</div></div></article>`;
   }).join('');
   const countText=`显示 ${chunks.length} / ${doc.chunk_count} 个 Chunk`;
   document.getElementById('content').innerHTML=`<section class="document-hero"><div class="result-line">${countText}</div><h2>${esc(doc.document_title)}</h2><p class="file-name">${esc(doc.file_name)}</p><dl class="meta">${meta}</dl></section><div class="section-bar"><h3>法规正文切片</h3></div><section class="chunk-list">${cards||'<div class="empty">当前法规中没有匹配的正文</div>'}</section>`;
@@ -318,7 +339,6 @@ document.getElementById('doc-list').addEventListener('click',event=>{
 });
 document.getElementById('content').addEventListener('click',event=>{
   const copy=event.target.closest('[data-copy]');if(copy){event.stopPropagation();const chunk=docMap.get(activeDocId)?.chunks.find(item=>item.chunk_id===copy.dataset.copy);if(chunk)copyText(chunk.body_text,'正文已复制');return}
-  const link=event.target.closest('[data-link]');if(link){event.stopPropagation();const url=location.href.split('#')[0]+'#'+link.dataset.link;copyText(url,'定位链接已复制');history.replaceState(null,'','#'+link.dataset.link);return}
   const toggle=event.target.closest('[data-toggle-chunk]');if(toggle)setOpenChunk(toggle.dataset.toggleChunk,{scroll:true});
 });
 document.getElementById('content').addEventListener('keydown',event=>{const toggle=event.target.closest('[data-toggle-chunk]');if(toggle&&(event.key==='Enter'||event.key===' ')){event.preventDefault();setOpenChunk(toggle.dataset.toggleChunk,{scroll:true})}});
@@ -331,6 +351,11 @@ function openHash(){
   if(hash.startsWith('chunk_'))requestAnimationFrame(()=>document.getElementById(hash)?.scrollIntoView({block:'start'}));
 }
 window.addEventListener('popstate',openHash);
+window.addEventListener('pageshow',()=>{
+  if(!location.hash&&defaultDoc&&activeDocId!==defaultDoc.document_id){
+    activeDocId=defaultDoc.document_id;expandedAuthority=defaultDoc.navigation_authority;openChunkId=null;renderAll();
+  }
+});
 openHash();renderAll();
 </script>
 </body>
