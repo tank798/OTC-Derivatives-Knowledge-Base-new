@@ -37,6 +37,7 @@ class ChunkReviewViewerTests(unittest.TestCase):
         self.assertEqual(data["summary"]["chunks"], 1221)
         self.assertEqual(data["documents"][0]["navigation_authority"], "中国证券监督管理委员会")
         self.assertEqual(data["documents"][0]["document_title"], "公开募集证券投资基金投资信用衍生品指引")
+        self.assertTrue(all(chunk["character_count"] > 0 for document in data["documents"] for chunk in document["chunks"]))
         self.assertEqual({document["source_type"] for document in data["documents"]}, {"DOC", "DOCX", "PDF"})
         self.assertTrue(
             any(
