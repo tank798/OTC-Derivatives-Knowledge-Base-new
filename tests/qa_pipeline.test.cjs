@@ -7,6 +7,7 @@ require("reflect-metadata");
 const { QueryAnalysisService } = require("../apps/api/dist/apps/api/src/modules/query-analysis/query-analysis.service.js");
 const { CitationValidatorService } = require("../apps/api/dist/apps/api/src/modules/citation-validator/citation-validator.service.js");
 const { ContextBuilderService } = require("../apps/api/dist/apps/api/src/modules/context-builder/context-builder.service.js");
+const { LlmService } = require("../apps/api/dist/apps/api/src/modules/llm/llm.service.js");
 const { AgentWorkflowService } = require("../apps/api/dist/apps/api/src/modules/compliance/agent-workflow.service.js");
 const { HybridRegulationSearchTool } = require("../apps/api/dist/apps/api/src/modules/compliance/hybrid-regulation-search.tool.js");
 const { ComplianceService } = require("../apps/api/dist/apps/api/src/modules/compliance/compliance.service.js");
@@ -94,7 +95,8 @@ function makeHarness(options = {}) {
     name: "hybrid_regulation_search",
     execute: async (input) => {
       toolInputs.push(input);
-      return { ok: true, tool: "hybrid_regulation_search", input, hits: toolHitRounds.shift() ?? [hit()] };
+      const hits = (toolHitRounds.shift() ?? [hit()]).map((item) => ({ ...item, subQuestion: input.subQuestion }));
+      return { ok: true, tool: "hybrid_regulation_search", input, hits };
     },
   };
   const prompts = { getPlannerPrompt: () => "PLANNER", getAnswerPrompt: () => "ANSWER", getReviewerPrompt: () => "REVIEWER" };
@@ -132,6 +134,34 @@ test("混合检索工具拒绝越界参数且不会调用底层检索", async ()
   assert.match(result.error, /参数无效/);
 });
 
+test("DeepSeek 瞬时过载会有限重试且保持原模型", async () => {
+  const originalFetch = global.fetch;
+  const requests = [];
+  global.fetch = async (_url, options) => {
+    requests.push(JSON.parse(options.body));
+    if (requests.length === 1) {
+      return new Response(JSON.stringify({ error: { message: "overloaded" } }), {
+        status: 503,
+        headers: { "content-type": "application/json", "retry-after": "0.001" },
+      });
+    }
+    return new Response(JSON.stringify({ choices: [{ message: { content: "ok" } }] }), {
+      status: 200,
+      headers: { "content-type": "application/json" },
+    });
+  };
+  try {
+    const llm = new LlmService({
+      get: (key) => ({ LLM_API_KEY: "test-only-key", LLM_MODEL: "deepseek-v4-pro", LLM_BASE_URL: "https://example.test" })[key],
+    });
+    assert.equal(await llm.chat("system", "user", 1000), "ok");
+    assert.equal(requests.length, 2);
+    assert.ok(requests.every((request) => request.model === "deepseek-v4-pro"));
+  } finally {
+    global.fetch = originalFetch;
+  }
+});
+
 test("直接回答携带简短解释时安全归一为是否枚举", async () => {
   const harness = makeHarness({ answers: [modelAnswer({ directAnswer: "否，不能笼统认定可以", conclusion: "不能笼统认定可以开展。" })] });
   const result = await harness.service.answer("证券公司可以开展场外期权吗", { debug: true });
@@ -151,6 +181,23 @@ test("第一轮证据不足会触发第二轮检索", async () => {
   assert.equal(result.agentTrace.retrievalRounds, 2);
   assert.equal(harness.toolInputs.length, 2);
   assert.deepEqual(harness.toolInputs[1].queries, ["场外期权 例外 豁免"]);
+});
+
+test("多子问题证据按子问题均衡保留，后置直接规则不会被前一批挤出", async () => {
+  const first = Array.from({ length: 12 }, (_, index) => hit({ id: `chunk_a${index}`, chunkId: `chunk_a${index}`, score: 1 - index / 100 }));
+  const second = Array.from({ length: 12 }, (_, index) => hit({ id: `chunk_b${index}`, chunkId: `chunk_b${index}`, score: 1 - index / 100 }));
+  first[0] = hit();
+  const twoSubQuestions = plan({
+    subQuestions: [
+      { ...plan().subQuestions[0], id: "sq1", question: "一般规则" },
+      { ...plan().subQuestions[0], id: "sq2", question: "直接禁止规则", queries: ["直接禁止规则"] },
+    ],
+  });
+  const harness = makeHarness({ plans: [twoSubQuestions], hitRounds: [first, second] });
+  const result = await harness.service.answer("证券公司可以开展场外期权吗", { debug: true });
+  const secondQuestionHits = result.hits.filter((item) => item.subQuestion === "直接禁止规则");
+  assert.ok(secondQuestionHits.length >= 8);
+  assert.ok(result.hits.some((item) => item.id === "chunk_b0"));
 });
 
 test("证据持续不足时最多检索两轮", async () => {
@@ -207,6 +254,18 @@ test("尚未施行规则不能被写成当前规则", () => {
   const checked = validator.validate(draft({ conclusion: "当前可以开展。", scope: { ...draft().scope, time: "当前" } }), [future], analyzer.analyze("当前可以开展吗"));
   assert.equal(checked.citationValidation.passed, false);
   assert.match(checked.citationValidation.issues.join("\n"), /尚未施行/);
+});
+
+test("法规原文存在除外条款时，回答不得声称无例外", () => {
+  const exceptionText = "上市公司不得达成相关衍生品交易,法律、行政法规、中国证监会另有规定的除外。";
+  const futureHit = hit({ text: exceptionText, excerpt: exceptionText, status: "已公布、尚未施行" });
+  const checked = validator.validate(draft({
+    conclusion: "该规则未来生效后适用。",
+    restrictions: ["届时将无例外整体禁止。"],
+    regulatoryBasis: [{ ...draft().regulatoryBasis[0], excerpt: exceptionText, quoteExact: exceptionText }],
+  }), [futureHit], analyzer.analyze("上市公司场外衍生品未来是否有效"));
+  assert.equal(checked.citationValidation.passed, false);
+  assert.match(checked.citationValidation.issues.join("\n"), /不得表述为无例外/);
 });
 
 test("自身股票问题已引用现行交易对手禁止和未来一般禁止时，实质否定归一为否", () => {

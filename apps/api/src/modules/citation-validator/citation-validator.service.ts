@@ -137,6 +137,17 @@ export class CitationValidatorService {
     if (analysis.asksValidity && validBasis.some((basis) => !CURRENT_STATUS.test(basis.status))) {
       issues.push("效力问题缺少可靠的现行有效状态元数据");
     }
+    const fullAnswerText = [
+      answer.conclusion,
+      ...answer.restrictions,
+      ...(answer.scope?.conditions ?? []),
+    ].join("\n");
+    if (/无例外|没有例外|不存在例外|一律不设例外/.test(fullAnswerText)) {
+      const exceptionBasis = validBasis.find((basis) => /除外|另有规定|但书|豁免/.test(basis.quoteExact || basis.excerpt));
+      if (exceptionBasis) {
+        issues.push(`证据 ${exceptionBasis.evidenceId} 的原文包含除外或另有规定，回答不得表述为无例外`);
+      }
+    }
     const directIssue = directEvidenceIssue(answer, analysis, hits);
     if (directIssue && makesBinaryDecision) issues.push(directIssue);
 

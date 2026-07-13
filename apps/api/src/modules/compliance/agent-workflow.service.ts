@@ -497,9 +497,29 @@ export class AgentWorkflowService {
       if (!current || hit.score > current.score) merged.set(hit.id, hit);
       else if (hit.subQuestion && !current.subQuestion.includes(hit.subQuestion)) current.subQuestion = `${current.subQuestion}；${hit.subQuestion}`;
     }
-    return [...merged.values()]
-      .sort((a, b) => Number(a.isSupplementalContext) - Number(b.isSupplementalContext) || b.score - a.score)
-      .slice(0, limit);
+    const ranked = [...merged.values()]
+      .sort((a, b) => Number(a.isSupplementalContext) - Number(b.isSupplementalContext) || b.score - a.score);
+
+    // Scores are normalized inside each sub-question search and therefore are
+    // not globally comparable.  Round-robin the per-sub-question queues so an
+    // earlier broad sub-question cannot crowd a later direct-rule query out of
+    // the bounded final context.
+    const queues = new Map<string, RetrievalHit[]>();
+    for (const hit of ranked) {
+      const key = hit.subQuestion.split("；")[0] || "_unassigned";
+      const queue = queues.get(key) ?? [];
+      queue.push(hit);
+      queues.set(key, queue);
+    }
+    const balanced: RetrievalHit[] = [];
+    while (balanced.length < limit && [...queues.values()].some((queue) => queue.length)) {
+      for (const queue of queues.values()) {
+        const hit = queue.shift();
+        if (hit) balanced.push(hit);
+        if (balanced.length >= limit) break;
+      }
+    }
+    return balanced;
   }
 
   /**
