@@ -81,22 +81,10 @@ export function ConversationSidebar({
           mobileOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex h-14 shrink-0 items-center justify-between px-3.5">
+        <div className="flex h-14 shrink-0 items-center px-3.5">
           <p className="truncate px-2 text-[15px] font-semibold tracking-[-0.01em] text-[#2b2b28]">
             场外衍生品法规助手
           </p>
-          <button
-            type="button"
-            onClick={() => {
-              onNewConversation();
-              onCloseMobile();
-            }}
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[#62625d] transition-colors hover:bg-[#dfdfdb] hover:text-[#242421]"
-            aria-label="新建对话"
-            title="新建对话"
-          >
-            <NewChatIcon />
-          </button>
         </div>
 
         <div className="px-3 pb-2">
