@@ -15,10 +15,8 @@ type Props = {
   onKeyDown: (event: React.KeyboardEvent) => void;
   inputRef: RefObject<HTMLTextAreaElement | null>;
   scrollRef: RefObject<HTMLDivElement | null>;
-  conversationTitle: string;
   sourcesOpen: boolean;
   selectedSourceMessageId: string | null;
-  onNewConversation: () => void;
   onOpenSidebar: () => void;
   onToggleSources: () => void;
   onSelectSources: (messageId: string) => void;
@@ -40,10 +38,8 @@ export function ChatPanel({
   onKeyDown,
   inputRef,
   scrollRef,
-  conversationTitle,
   sourcesOpen,
   selectedSourceMessageId,
-  onNewConversation,
   onOpenSidebar,
   onToggleSources,
   onSelectSources,
@@ -61,10 +57,20 @@ export function ChatPanel({
 
   const showWelcome = messages.length === 0;
 
+  const fillExampleQuestion = (question: string) => {
+    setInput(question);
+    window.requestAnimationFrame(() => {
+      if (!inputRef.current) return;
+      inputRef.current.focus();
+      inputRef.current.style.height = "auto";
+      inputRef.current.style.height = `${Math.min(inputRef.current.scrollHeight, 144)}px`;
+    });
+  };
+
   return (
     <div className="relative flex h-full w-full flex-col">
       <header className="flex h-14 shrink-0 items-center justify-between border-b border-transparent px-3 sm:px-5">
-        <div className="flex min-w-0 items-center gap-1.5">
+        <div className="flex min-w-0 items-center">
           <button
             type="button"
             onClick={onOpenSidebar}
@@ -73,21 +79,9 @@ export function ChatPanel({
           >
             <SidebarIcon />
           </button>
-          <h1 className="max-w-[42vw] truncate px-1.5 text-[13px] font-semibold tracking-[-0.01em] text-[#2d2d29] sm:max-w-[360px]">
-            {conversationTitle || "新对话"}
-          </h1>
-          <button
-            type="button"
-            onClick={onNewConversation}
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[#6c6c66] transition-colors hover:bg-[#ecece8] hover:text-[#282825]"
-            aria-label="新建对话"
-            title="新建对话"
-          >
-            <PlusIcon />
-          </button>
         </div>
         <div className="flex items-center gap-1.5">
-          <div className="hidden items-center gap-2 px-2 text-[10px] text-[#979791] sm:flex">
+          <div className="hidden items-center gap-2 px-2 text-[11px] text-[#979791] sm:flex">
             <span className="h-1.5 w-1.5 rounded-full bg-[#68a86b]" />
             法规库已连接
           </div>
@@ -127,8 +121,9 @@ export function ChatPanel({
               {EXAMPLE_TAGS.map((question) => (
                 <button
                   key={question}
-                  onClick={() => onSubmit(question)}
-                  className="rounded-full bg-[#ededeb] px-3.5 py-2 text-left text-[12px] leading-5 text-[#666660] transition-colors hover:bg-[#e2e2df] hover:text-[#292926]"
+                  type="button"
+                  onClick={() => fillExampleQuestion(question)}
+                  className="rounded-full bg-[#ededeb] px-3.5 py-2 text-left text-[13px] leading-5 text-[#666660] transition-colors hover:bg-[#e2e2df] hover:text-[#292926]"
                 >
                   {question}
                 </button>
@@ -145,7 +140,7 @@ export function ChatPanel({
               if (message.role === "user") {
                 return (
                   <div key={message.id} className="flex animate-fade-in justify-end">
-                    <div className="max-w-[82%] rounded-[22px] bg-[#e9e9e7] px-5 py-3 text-[14px] leading-7 text-[#292926]">
+                    <div className="max-w-[82%] rounded-[22px] bg-[#e9e9e7] px-5 py-3 text-[15px] leading-7 text-[#292926]">
                       {message.text}
                     </div>
                   </div>
@@ -176,7 +171,7 @@ export function ChatPanel({
                       onShowSources={() => onSelectSources(message.id)}
                     />
                   ) : (
-                    <div className="max-w-[700px] whitespace-pre-wrap text-[14px] leading-7 text-[#343431]">
+                    <div className="max-w-[700px] whitespace-pre-wrap text-[15px] leading-7 text-[#343431]">
                       {message.text}
                     </div>
                   )}
@@ -198,7 +193,7 @@ export function ChatPanel({
               inputRef={inputRef}
               loading={loading}
             />
-            <p className="mt-2 text-center text-[10px] text-[#aaa9a3]">回答仅供参考，请核验重要信息。</p>
+            <p className="mt-2 text-center text-[11px] text-[#aaa9a3]">回答仅供参考，请核验重要信息。</p>
           </div>
         </div>
       )}
@@ -236,7 +231,7 @@ function Composer({ input, setInput, onKeyDown, onSubmit, inputRef, loading }: C
         onKeyDown={onKeyDown}
         placeholder="输入你的问题"
         rows={1}
-        className="max-h-36 min-h-[36px] flex-1 resize-none overflow-y-auto bg-transparent px-1 py-1.5 text-[15px] leading-6 text-[#242421] outline-none placeholder:text-[#9d9d98]"
+        className="max-h-36 min-h-[36px] flex-1 resize-none overflow-y-auto bg-transparent px-1 py-1.5 text-[16px] leading-6 text-[#242421] outline-none placeholder:text-[#9d9d98]"
         disabled={loading}
       />
       <button
@@ -256,14 +251,6 @@ function ArrowUpIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
       <path d="M10 15V5m0 0L6 9m4-4 4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function PlusIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-      <path d="M10 4v12M4 10h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 }

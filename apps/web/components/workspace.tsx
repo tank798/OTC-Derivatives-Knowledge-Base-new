@@ -316,10 +316,8 @@ export function Workspace() {
                 onKeyDown={handleKeyDown}
                 inputRef={inputRef}
                 scrollRef={scrollRef}
-                conversationTitle={activeConversation.title}
                 sourcesOpen={sourcesOpen}
                 selectedSourceMessageId={selectedSourceMessageId}
-                onNewConversation={handleNewConversation}
                 onOpenSidebar={() => setMobileSidebarOpen(true)}
                 onToggleSources={handleToggleSources}
                 onSelectSources={(messageId) => {

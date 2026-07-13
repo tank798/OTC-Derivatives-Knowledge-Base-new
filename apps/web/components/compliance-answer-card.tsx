@@ -46,8 +46,8 @@ export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: P
       <section className="border-b border-[#deded9] pb-6">
         <div className="flex items-start justify-between gap-5">
           <div className="min-w-0">
-            <p className="text-[16px] font-semibold leading-8 tracking-[-0.01em] text-[#242421]">{answer.conclusion}</p>
-            <p className="mt-3 whitespace-pre-wrap text-[14px] leading-7 text-[#4c4c47]">
+            <p className="text-[17px] font-semibold leading-8 tracking-[-0.01em] text-[#242421]">{answer.conclusion}</p>
+            <p className="mt-3 whitespace-pre-wrap text-[15px] leading-7 text-[#4c4c47]">
               <span className="font-medium text-[#343431]">分析如下：</span>
               {answer.reasoningSummary}
             </p>
@@ -57,7 +57,7 @@ export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: P
               <button
                 type="button"
                 onClick={onShowSources}
-                className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-[11px] transition-colors ${
+                className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-[12px] transition-colors ${
                   sourcesSelected
                     ? "border-[#c8c8c2] bg-[#ecece8] text-[#373733]"
                     : "border-[#d8d8d2] bg-white text-[#686863] hover:bg-[#f0f0ed] hover:text-[#292926]"
@@ -70,7 +70,7 @@ export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: P
             <button
               type="button"
               onClick={copyAnswer}
-              className="rounded-full border border-[#d8d8d2] bg-white px-3 py-1.5 text-[11px] text-[#686863] transition-colors hover:bg-[#f0f0ed] hover:text-[#292926]"
+              className="rounded-full border border-[#d8d8d2] bg-white px-3 py-1.5 text-[12px] text-[#686863] transition-colors hover:bg-[#f0f0ed] hover:text-[#292926]"
             >
               {copied ? "已复制" : "复制"}
             </button>
@@ -81,7 +81,7 @@ export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: P
       {answer.missingInformation.length > 0 && (
         <section className="border-b border-[#deded9] py-6">
           <SectionHeading>当前仍缺少</SectionHeading>
-          <ul className="mt-3 list-disc space-y-1.5 pl-5 text-[13px] leading-6 text-[#65655f]">
+          <ul className="mt-3 list-disc space-y-1.5 pl-5 text-[14px] leading-6 text-[#65655f]">
             {answer.missingInformation.map((item, index) => <li key={`${item}-${index}`}>{item}</li>)}
           </ul>
         </section>
@@ -90,7 +90,7 @@ export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: P
       {answer.manualReviewNote && (
         <section className="py-6">
           <SectionHeading>复核提示</SectionHeading>
-          <p className="mt-3 whitespace-pre-wrap text-[13px] leading-6 text-[#65655f]">{answer.manualReviewNote}</p>
+          <p className="mt-3 whitespace-pre-wrap text-[14px] leading-6 text-[#65655f]">{answer.manualReviewNote}</p>
         </section>
       )}
     </article>
@@ -98,7 +98,7 @@ export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: P
 }
 
 function SectionHeading({ children }: { children: React.ReactNode }) {
-  return <h3 className="text-[11px] font-medium tracking-[0.08em] text-[#8f8f89]">{children}</h3>;
+  return <h3 className="text-[12px] font-medium tracking-[0.08em] text-[#8f8f89]">{children}</h3>;
 }
 
 function SourcesPanelIcon() {

@@ -82,7 +82,7 @@ export function ConversationSidebar({
         }`}
       >
         <div className="flex h-14 shrink-0 items-center justify-between px-3.5">
-          <p className="truncate px-2 text-[14px] font-semibold tracking-[-0.01em] text-[#2b2b28]">
+          <p className="truncate px-2 text-[15px] font-semibold tracking-[-0.01em] text-[#2b2b28]">
             场外衍生品法规助手
           </p>
           <button
@@ -106,14 +106,14 @@ export function ConversationSidebar({
               onNewConversation();
               onCloseMobile();
             }}
-            className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-left text-[13px] font-medium text-[#373733] transition-colors hover:bg-[#e2e2de]"
+            className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-left text-[14px] font-medium text-[#373733] transition-colors hover:bg-[#e2e2de]"
           >
             <NewChatIcon />
             新对话
           </button>
         </div>
 
-        <div className="px-5 pb-2 pt-3 text-[10px] font-medium tracking-[0.08em] text-[#969690]">最近</div>
+        <div className="px-5 pb-2 pt-3 text-[11px] font-medium tracking-[0.08em] text-[#969690]">最近</div>
 
         <nav className="scrollbar-hidden flex-1 overflow-y-auto px-2.5 pb-4" aria-label="历史对话">
           <div className="space-y-1">
@@ -137,10 +137,10 @@ export function ConversationSidebar({
                     }}
                     className="w-full px-3 py-2.5 pr-10 text-left"
                   >
-                    <span className={`block truncate text-[12px] leading-5 ${active ? "font-medium text-[#292926]" : "text-[#555550]"}`}>
+                    <span className={`block truncate text-[13px] leading-5 ${active ? "font-medium text-[#292926]" : "text-[#555550]"}`}>
                       {conversation.title}
                     </span>
-                    <span className="mt-0.5 flex items-center gap-1.5 text-[9px] text-[#a0a09a]">
+                    <span className="mt-0.5 flex items-center gap-1.5 text-[10px] text-[#a0a09a]">
                       {running && <span className="agent-step-dot h-1.5 w-1.5 rounded-full bg-[#4b4b47]" />}
                       {running ? "正在回答" : formatConversationTime(conversation.updatedAt)}
                     </span>
@@ -163,9 +163,6 @@ export function ConversationSidebar({
           </div>
         </nav>
 
-        <div className="border-t border-[#dbdbd7] px-5 py-3 text-[10px] leading-4 text-[#9b9b95]">
-          历史对话保存在当前浏览器
-        </div>
       </aside>
 
       {contextMenu && (
@@ -183,7 +180,7 @@ export function ConversationSidebar({
               setPendingDeleteId(contextMenu.id);
               setContextMenu(null);
             }}
-            className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-[12px] text-[#a13f37] transition-colors hover:bg-[#fff1ef] disabled:cursor-not-allowed disabled:text-[#b9b9b3] disabled:hover:bg-transparent"
+            className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-[13px] text-[#a13f37] transition-colors hover:bg-[#fff1ef] disabled:cursor-not-allowed disabled:text-[#b9b9b3] disabled:hover:bg-transparent"
           >
             <TrashIcon />
             {contextMenu.id === loadingConversationId ? "回答中不可删除" : "删除对话"}
@@ -194,14 +191,14 @@ export function ConversationSidebar({
       {pendingConversation && (
         <div className="fixed inset-0 z-[80] flex items-center justify-center bg-black/20 px-5 backdrop-blur-[1px]">
           <div className="w-full max-w-[390px] rounded-2xl border border-[#deded9] bg-[#fbfbfa] p-5 shadow-[0_24px_70px_rgba(28,28,24,0.2)]">
-            <h2 className="text-[15px] font-semibold text-[#292926]">删除这条对话？</h2>
-            <p className="mt-2 line-clamp-2 text-[12px] leading-6 text-[#72726c]">{pendingConversation.title}</p>
-            <p className="mt-1 text-[11px] leading-5 text-[#9a9a94]">删除后无法恢复，但不会修改法规知识库和运行日志。</p>
+            <h2 className="text-[16px] font-semibold text-[#292926]">删除这条对话？</h2>
+            <p className="mt-2 line-clamp-2 text-[13px] leading-6 text-[#72726c]">{pendingConversation.title}</p>
+            <p className="mt-1 text-[12px] leading-5 text-[#9a9a94]">删除后无法恢复，但不会修改法规知识库和运行日志。</p>
             <div className="mt-5 flex justify-end gap-2">
               <button
                 type="button"
                 onClick={() => setPendingDeleteId(null)}
-                className="rounded-full border border-[#d8d8d2] px-4 py-2 text-[12px] text-[#555550] transition-colors hover:bg-[#eeeeeb]"
+                className="rounded-full border border-[#d8d8d2] px-4 py-2 text-[13px] text-[#555550] transition-colors hover:bg-[#eeeeeb]"
               >
                 取消
               </button>
@@ -211,7 +208,7 @@ export function ConversationSidebar({
                   onDeleteConversation(pendingConversation.id);
                   setPendingDeleteId(null);
                 }}
-                className="rounded-full bg-[#b64c42] px-4 py-2 text-[12px] font-medium text-white transition-colors hover:bg-[#9f4037]"
+                className="rounded-full bg-[#b64c42] px-4 py-2 text-[13px] font-medium text-white transition-colors hover:bg-[#9f4037]"
               >
                 删除
               </button>

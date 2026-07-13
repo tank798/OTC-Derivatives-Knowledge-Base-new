@@ -33,7 +33,7 @@ export function ThinkingBubble({ progress = [], active }: Props) {
   if (!active && !progress.length) return null;
 
   return (
-    <div className="mb-3 w-full animate-fade-in text-[13px] text-[#6f6f6b]">
+    <div className="mb-3 w-full animate-fade-in text-[14px] text-[#6f6f6b]">
       <button
         type="button"
         onClick={() => setExpanded((value) => !value)}
@@ -67,7 +67,7 @@ export function ThinkingBubble({ progress = [], active }: Props) {
                 <span className={step.status === "running" ? "font-medium text-[#282825]" : "text-[#85857f]"}>
                   {step.label}
                 </span>
-                {step.detail && <span className="shrink-0 text-[11px] text-[#aaa9a2]">{step.detail}</span>}
+                {step.detail && <span className="shrink-0 text-[12px] text-[#aaa9a2]">{step.detail}</span>}
               </div>
             ))}
           </div>

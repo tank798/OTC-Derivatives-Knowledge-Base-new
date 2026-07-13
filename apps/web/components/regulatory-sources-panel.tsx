@@ -34,10 +34,10 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
       >
         <header className="flex h-14 shrink-0 items-center justify-between border-b border-[#e4e4df] px-4">
           <div className="min-w-0">
-            <h2 className="text-[13px] font-semibold text-[#2d2d29]">法规依据</h2>
-            <p className="mt-0.5 text-[9px] text-[#9a9a94]">
-              {answer?.regulatoryBasis.length ? `${answer.regulatoryBasis.length} 条已引用法规` : "等待当前回答引用法规"}
-            </p>
+            <h2 className="text-[14px] font-semibold text-[#2d2d29]">法规依据</h2>
+            {!!answer?.regulatoryBasis.length && (
+              <p className="mt-0.5 text-[10px] text-[#9a9a94]">{answer.regulatoryBasis.length} 条已引用法规</p>
+            )}
           </div>
           <button
             type="button"
@@ -68,8 +68,8 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#deded9] bg-white text-[#898983]">
                 <SourcesIcon />
               </div>
-              <p className="mt-4 text-[12px] font-medium text-[#5e5e58]">当前没有法规依据</p>
-              <p className="mt-1.5 text-[10px] leading-5 text-[#9b9b95]">完成法规问答后，模型实际引用的条文会集中显示在这里。</p>
+              <p className="mt-4 text-[13px] font-medium text-[#5e5e58]">当前没有法规依据</p>
+              <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">完成法规问答后，模型实际引用的条文会集中显示在这里。</p>
             </div>
           )}
         </div>
@@ -96,10 +96,10 @@ function SourceCard({
         onClick={onToggle}
         className="flex w-full items-start gap-3 px-3.5 py-3.5 text-left transition-colors hover:bg-[#fafaf8]"
       >
-        <span className="mt-0.5 flex h-5 min-w-5 items-center justify-center rounded-md bg-[#eeeeeb] text-[9px] font-medium text-[#6e6e68]">{index + 1}</span>
+        <span className="mt-0.5 flex h-5 min-w-5 items-center justify-center rounded-md bg-[#eeeeeb] text-[10px] font-medium text-[#6e6e68]">{index + 1}</span>
         <span className="min-w-0 flex-1">
-          <span className="block text-[12px] font-medium leading-5 text-[#30302d]">《{basis.title}》</span>
-          <span className="mt-1 block truncate text-[9px] text-[#969690]">
+          <span className="block text-[13px] font-medium leading-5 text-[#30302d]">《{basis.title}》</span>
+          <span className="mt-1 block truncate text-[10px] text-[#969690]">
             {[basis.articleNo, basis.documentNumber].filter(Boolean).join(" · ") || basis.publisher}
           </span>
         </span>
@@ -110,19 +110,19 @@ function SourceCard({
         <div className="border-t border-[#ecece8] px-3.5 pb-4 pt-3">
           {(basis.publisher || basis.status) && (
             <div className="mb-3 flex flex-wrap gap-1.5">
-              {basis.publisher && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[9px] text-[#72726c]">{basis.publisher}</span>}
-              {basis.status && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[9px] text-[#72726c]">{basis.status}</span>}
+              {basis.publisher && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{basis.publisher}</span>}
+              {basis.status && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{basis.status}</span>}
             </div>
           )}
-          <p className="mb-1.5 text-[9px] font-medium tracking-[0.06em] text-[#999993]">原文</p>
-          <blockquote className="whitespace-pre-wrap border-l-2 border-[#c9c9c3] pl-3 text-[11px] leading-6 text-[#575752]">{basis.quoteExact}</blockquote>
-          <p className="mt-3 text-[11px] leading-5 text-[#3f3f3a]">{basis.explanation}</p>
+          <p className="mb-1.5 text-[10px] font-medium tracking-[0.06em] text-[#999993]">原文</p>
+          <blockquote className="whitespace-pre-wrap border-l-2 border-[#c9c9c3] pl-3 text-[12px] leading-6 text-[#575752]">{basis.quoteExact}</blockquote>
+          <p className="mt-3 text-[12px] leading-5 text-[#3f3f3a]">{basis.explanation}</p>
           {basis.url && (
             <a
               href={basis.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-3 inline-flex items-center gap-1 text-[10px] font-medium text-[#4d6482] transition-colors hover:text-[#2d496e] hover:underline"
+              className="mt-3 inline-flex items-center gap-1 text-[11px] font-medium text-[#4d6482] transition-colors hover:text-[#2d496e] hover:underline"
             >
               查看官网原文 <span aria-hidden="true">↗</span>
             </a>
