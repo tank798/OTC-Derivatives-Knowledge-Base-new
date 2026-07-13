@@ -18,6 +18,8 @@ const { CitationValidatorService } = apiRequire(resolve(ROOT, "apps/api/dist/app
 const { PromptService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/prompt/prompt.service.js"));
 const { LlmService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/llm/llm.service.js"));
 const { ComplianceService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/compliance/compliance.service.js"));
+const { AgentWorkflowService } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/compliance/agent-workflow.service.js"));
+const { HybridRegulationSearchTool } = apiRequire(resolve(ROOT, "apps/api/dist/apps/api/src/modules/compliance/hybrid-regulation-search.tool.js"));
 
 function readJsonl(path) {
   return readFileSync(path, "utf8").split(/\r?\n/).filter(Boolean).map((line) => JSON.parse(line));
@@ -31,6 +33,24 @@ function evaluateCase(testCase, result) {
   }
   if (!answer.citationValidation?.passed) {
     issues.push(`引用校验未通过：${answer.citationValidation?.issues?.join("；") || "未知原因"}`);
+  }
+  if (!answer.reviewValidation?.passed) issues.push("独立审查模型未通过回答");
+  if (!result.agentTrace || result.agentTrace.retrievalRounds > 2 || result.agentTrace.repairCount > 1 || result.agentTrace.reviewCount > 2) {
+    issues.push("受控智能体次数记录缺失或超过上限");
+  }
+  const hitMap = new Map(result.hits.map((hit) => [hit.id, hit]));
+  for (const basis of answer.regulatoryBasis) {
+    const evidence = hitMap.get(basis.evidenceId);
+    if (!evidence) issues.push(`最终引用 ${basis.evidenceId} 不在实际检索结果中`);
+    else {
+      if (!evidence.text.includes(basis.quoteExact || basis.excerpt)) issues.push(`引文不是 ${basis.evidenceId} 的连续逐字原文`);
+      if (basis.url !== evidence.url) issues.push(`《${basis.title}》的链接不是正式元数据 URL`);
+    }
+  }
+  if (/雪球/.test(testCase.query)) {
+    const planText = JSON.stringify(result.retrievalPlan ?? {});
+    if (!/敲入/.test(planText) || !/敲出/.test(planText)) issues.push("雪球检索计划未包含敲入、敲出正式术语");
+    if (!/场外期权|收益凭证/.test(planText)) issues.push("雪球检索计划未结合问题中的法规产品术语");
   }
   const citedTitles = answer.regulatoryBasis.map((basis) => basis.title);
   for (const required of testCase.required_citation_titles ?? []) {
@@ -63,11 +83,14 @@ async function main() {
   const contextBuilder = new ContextBuilderService();
   const validator = new CitationValidatorService();
   const llm = new LlmService(new ConfigService(process.env));
-  const service = new ComplianceService(llm, retrieval, analyzer, contextBuilder, validator, new PromptService());
+  const prompts = new PromptService();
+  const searchTool = new HybridRegulationSearchTool(retrieval);
+  const workflow = new AgentWorkflowService(llm, analyzer, contextBuilder, validator, prompts, searchTool);
+  const service = new ComplianceService(workflow);
 
   const results = [];
   for (const testCase of cases) {
-    const response = await service.answer(testCase.query);
+    const response = await service.answer(testCase.query, { debug: true });
     const evaluation = evaluateCase(testCase, response);
     results.push({
       id: testCase.id,
@@ -77,6 +100,10 @@ async function main() {
       expected_direct_answer: testCase.expected_direct_answer,
       answer: response.answer,
       query_analysis: response.queryAnalysis,
+      retrieval_plan: response.retrievalPlan,
+      evidence_assessment: response.evidenceAssessment,
+      review_result: response.reviewResult,
+      agent_trace: response.agentTrace,
       model_context: response.hits.map((hit, index) => ({
         context_order: index + 1,
         chunk_id: hit.chunkId,
@@ -92,7 +119,7 @@ async function main() {
   const output = {
     generated_at: new Date().toISOString(),
     evaluation_type: "production_end_to_end_qa",
-    pipeline: "QueryAnalysisService → RetrievalService → ContextBuilderService → LLM → CitationValidatorService",
+    pipeline: "AgentWorkflowService → planner LLM → hybrid_regulation_search → evidence assessment LLM → answer LLM → deterministic validation → independent reviewer LLM",
     model: llm.modelName,
     corpus: retrieval.stats,
     summary: { total: results.length, passed: passedCount, failed: results.length - passedCount },
@@ -106,13 +133,14 @@ async function main() {
     `- 模型：${output.model}`,
     `- 语料：${output.corpus.documents} 份法规 / ${output.corpus.chunks} 个 Chunk`,
     `- 结果：${passedCount}/${results.length} 通过`, "",
-    "| 问题 | 直接回答 | 最终引用 | 引用校验 | 结果 |",
-    "|---|---|---|---|---|",
-    ...results.map((row) => `| ${row.query} | ${row.answer.directAnswer} | ${row.answer.regulatoryBasis.map((basis) => `《${basis.title}》`).join("、") || "无"} | ${row.answer.citationValidation?.passed ? "PASS" : "FAIL"} | ${row.passed ? "PASS" : "FAIL"} |`),
+    "| 问题 | 直接回答 | 检索轮次 | LLM调用 | 程序校验 | 独立审查 | 结果 |",
+    "|---|---|---:|---:|---|---|---|",
+    ...results.map((row) => `| ${row.query} | ${row.answer.directAnswer} | ${row.agent_trace.retrievalRounds} | ${row.agent_trace.llmCalls} | ${row.answer.citationValidation?.passed ? "PASS" : "FAIL"} | ${row.answer.reviewValidation?.passed ? "PASS" : "FAIL"} | ${row.passed ? "PASS" : "FAIL"} |`),
     "",
     ...results.flatMap((row) => [
       `## ${row.query}`, "",
       `**${row.answer.directAnswer}。** ${withoutRepeatedDecision(row.answer)}`, "",
+      `检索轮次：${row.agent_trace.retrievalRounds}；模型调用：${row.agent_trace.llmCalls}；独立审查：${row.answer.reviewValidation?.verdict ?? "未完成"}。`, "",
       "依据：", "",
       ...(row.answer.regulatoryBasis.length ? row.answer.regulatoryBasis.map((basis) => `- [《${basis.title}》${basis.articleNo ? `（${basis.articleNo}）` : ""}](${basis.url})：${basis.requirement}`) : ["- 无"]),
       "",

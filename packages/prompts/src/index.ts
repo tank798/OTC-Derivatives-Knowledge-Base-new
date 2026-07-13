@@ -1,6 +1,8 @@
 export const promptManifest = {
   agent: {
-    compliance: "agent/compliance-agent.md",
+    planner: "agent/retrieval-planner.md",
+    answer: "agent/evidence-answer.md",
+    reviewer: "agent/answer-reviewer.md",
   },
 } as const;
 

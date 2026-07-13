@@ -6,7 +6,6 @@ import { queryCompliance } from "../lib/api";
 import { Sidebar } from "./sidebar";
 import { ChatPanel } from "./chat-panel";
 import { ProductStructurePanel } from "./product-structure-panel";
-import { RegulationHitsPanel } from "./regulation-hits-panel";
 import clsx from "clsx";
 
 // ── Chat Message Type ──
@@ -269,9 +268,7 @@ export function Workspace() {
                   </svg>
                   查看产品画像
                 </button>
-                <span className="text-2xs text-ink-tertiary">
-                  {latestAssistant?.data?.hits.length ?? 0} 条命中法规
-                </span>
+                <span className="text-2xs text-ink-tertiary">只展示最终采用的法规依据</span>
               </div>
             )}
 
@@ -301,7 +298,6 @@ export function Workspace() {
               conclusion={latestAssistant.data.answer.conclusion}
               conclusionLabel={latestAssistant.data.answer.conclusionLabel}
             />
-            <RegulationHitsPanel hits={latestAssistant.data.hits} />
           </div>
         </aside>
       ) : (
@@ -330,7 +326,7 @@ export function Workspace() {
               <br />
               这里将展示产品画像
               <br />
-              和命中法规详情
+              和回答适用范围
             </p>
           </div>
         </aside>
@@ -355,7 +351,7 @@ export function Workspace() {
             )}
           >
             <div className="sticky top-0 z-10 flex items-center justify-between border-b border-slate-200 bg-surface px-5 py-3">
-              <h3 className="text-sm font-semibold text-ink">产品画像与法规</h3>
+              <h3 className="text-sm font-semibold text-ink">产品画像与适用范围</h3>
               <button
                 onClick={() => setIsMobilePanelOpen(false)}
                 className="rounded-lg p-1.5 text-ink-tertiary transition-base hover:bg-slate-100"
@@ -381,7 +377,6 @@ export function Workspace() {
                 conclusion={latestAssistant.data.answer.conclusion}
                 conclusionLabel={latestAssistant.data.answer.conclusionLabel}
               />
-              <RegulationHitsPanel hits={latestAssistant.data.hits} />
             </div>
           </div>
         </>

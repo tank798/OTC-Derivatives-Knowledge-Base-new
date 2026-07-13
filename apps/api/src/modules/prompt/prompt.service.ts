@@ -13,9 +13,9 @@ export class PromptService {
     this.promptsDir = resolve(repoRoot, "packages/prompts");
   }
 
-  getComplianceAgentPrompt(): string {
-    return this.loadPrompt(promptManifest.agent.compliance);
-  }
+  getPlannerPrompt(): string { return this.loadPrompt(promptManifest.agent.planner); }
+  getAnswerPrompt(): string { return this.loadPrompt(promptManifest.agent.answer); }
+  getReviewerPrompt(): string { return this.loadPrompt(promptManifest.agent.reviewer); }
 
   private loadPrompt(relativePath: string): string {
     const cached = this.cache.get(relativePath);
@@ -38,7 +38,7 @@ export class PromptService {
     for (const start of candidates) {
       let dir = start;
       for (let i = 0; i < 12; i++) {
-        const promptPath = resolve(dir, "packages/prompts", promptManifest.agent.compliance);
+        const promptPath = resolve(dir, "packages/prompts", promptManifest.agent.planner);
         if (existsSync(promptPath)) return dir;
 
         const parent = resolve(dir, "..");

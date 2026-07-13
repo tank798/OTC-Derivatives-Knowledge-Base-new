@@ -13,7 +13,7 @@ export class ComplianceController {
   ) {}
 
   @Post("query")
-  async query(@Body() body: { query: string }) {
+  async query(@Body() body: { query: string; debug?: boolean }) {
     if (!body.query?.trim()) {
       return fail("请输入问题");
     }
@@ -23,7 +23,7 @@ export class ComplianceController {
     }
 
     try {
-      const result = await this.compliance.answer(body.query.trim());
+      const result = await this.compliance.answer(body.query.trim(), { debug: body.debug === true });
       return ok(result);
     } catch (err) {
       const message = err instanceof Error ? err.message : "合规查询失败";

@@ -4,10 +4,19 @@ import type { ComplianceAnswer, QueryAnalysis, RetrievalHit } from "@otc/shared"
 const STRONG_CLAIM = /可以|不可以|必须|应当|不得|禁止|仅限|需要备案|需要报告|适用于|不适用于|已废止|仍然有效|已被替代/;
 const CURRENT_STATUS = /现行有效|有效|effective/i;
 const INVALID_STATUS = /废止|失效|repealed|invalid/i;
+const FUTURE_STATUS = /尚未施行|未生效|将于.{0,20}施行|future/i;
 
 function directEvidenceIssue(answer: ComplianceAnswer, analysis: QueryAnalysis, hits: RetrievalHit[]): string {
-  const query = analysis.normalizedQuery;
-  const answerText = [answer.conclusion, ...answer.restrictions].join("\n");
+  const query = analysis.originalQuery.normalize("NFKC").replace(/\s+/g, "");
+  const answerText = [
+    answer.conclusion,
+    answer.scope?.subject,
+    answer.scope?.product,
+    answer.scope?.counterparty,
+    answer.scope?.time,
+    ...(answer.scope?.conditions ?? []),
+    ...answer.restrictions,
+  ].filter(Boolean).join("\n");
   const texts = hits.map((hit) => hit.text.replace(/\s+/g, ""));
   const asksOwnUnderlying = /(自己|自身|本身|本公司).{0,10}(标的|股票)/.test(query);
   if (asksOwnUnderlying) {
@@ -29,6 +38,15 @@ function directEvidenceIssue(answer: ComplianceAnswer, analysis: QueryAnalysis, 
     const direct = hits.some((hit) => hit.title.includes("证券公司收益凭证发行管理办法") && /(雪球|敲入|敲出)/.test(hit.text));
     if (!direct) return "收益凭证通用发行规则未直接列明雪球结构，不足以对具体产品作无条件的可行性结论";
   }
+  const asksPrivateSnowballRatio = /(私募产品|私募基金).*(雪球).*(比例|范围)|(比例|范围).*(私募产品|私募基金).*雪球/.test(query);
+  if (asksPrivateSnowballRatio && /(?:集合)?资产管理计划|私募资管计划/.test(answerText)) {
+    const directSameRegimeRule = hits.some((hit) =>
+      /资产管理计划/.test(hit.title)
+      && /(?:场外期权|收益凭证|雪球)/.test(hit.text)
+      && /(?:25\s*%|百分之二十五)/.test(hit.text)
+    );
+    if (!directSameRegimeRule) return "集合或私募资产管理计划的雪球比例结论缺少同一监管制度内同时明确产品范围和比例的直接条文，不得将私募证券投资基金的‘同一资产’口径跨制度套用";
+  }
   return "";
 }
 
@@ -43,6 +61,15 @@ export class CitationValidatorService {
         issues.push(`引用的证据ID不存在于本次检索结果: ${basis.evidenceId}`);
         return [];
       }
+      const quoteExact = basis.quoteExact || basis.excerpt;
+      if (!quoteExact) {
+        issues.push(`证据 ${basis.evidenceId} 缺少逐字原文 quoteExact`);
+        return [];
+      }
+      if (!hit.text.includes(quoteExact)) {
+        issues.push(`证据 ${basis.evidenceId} 的 quoteExact 不是对应 Chunk 中的连续逐字原文`);
+        return [];
+      }
       if (analysis.asksValidity && (!hit.status || hit.status === "unknown")) {
         issues.push(`《${hit.title}》效力状态未知，不能据此断言现行有效`);
       }
@@ -50,13 +77,21 @@ export class CitationValidatorService {
         issues.push(`《${hit.title}》状态为${hit.status}，不能作为现行依据`);
         return [];
       }
+      if (FUTURE_STATUS.test(hit.status) && !/尚未施行|未生效|未来|生效后/.test([
+        answer.conclusion,
+        answer.scope?.time || "",
+        ...answer.restrictions,
+      ].join("\n"))) {
+        issues.push(`《${hit.title}》尚未施行，回答未明确将其限定为未来规则`);
+      }
       return [{
         ...basis,
         title: hit.title,
         publisher: hit.publisher,
         url: hit.url,
         articleNo: hit.articleEnd && hit.articleEnd !== hit.articleNo ? `${hit.articleNo}至${hit.articleEnd}` : hit.articleNo,
-        excerpt: hit.excerpt || hit.text.slice(0, 500),
+        excerpt: quoteExact,
+        quoteExact,
         status: hit.status,
       }];
     });
@@ -87,7 +122,7 @@ export class CitationValidatorService {
     if (
       answer.directAnswer === "不能确认" && currentBan && futureBan
       && citedIds.has(currentBan.id) && citedIds.has(futureBan.id)
-      && /不能笼统(?:确认|认定).{0,8}可以/.test(answer.conclusion)
+      && /(?:不能笼统(?:确认|认定).{0,8}可以|不能确认.{0,28}(?:可以|合规路径)|实际(?:上|操作)?难以|无法达成|缺少合法交易对手)/.test(answer.conclusion)
     ) {
       answer = { ...answer, directAnswer: "否", conclusionLabel: "不可做" };
     }

@@ -2,7 +2,7 @@ import { Injectable, OnModuleInit } from "@nestjs/common";
 import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
-import type { QueryAnalysis, RetrievalHit } from "@otc/shared";
+import type { HybridSearchInput, QueryAnalysis, RetrievalHit } from "@otc/shared";
 
 type CoreModule = {
   MODEL_CACHE: string;
@@ -63,9 +63,22 @@ export class RetrievalService implements OnModuleInit {
   }
 
   async search(analysis: QueryAnalysis, limit = 14): Promise<RetrievalHit[]> {
+    return this.hybridSearch({
+      queries: [...analysis.subQuestions, analysis.keywords.join(" ")].filter(Boolean),
+      subQuestion: analysis.legalIssue,
+      subjects: analysis.subjects,
+      productTypes: analysis.productTypes,
+      timeScope: analysis.timeRange,
+      requiredEvidence: analysis.topics,
+      topK: limit,
+    });
+  }
+
+  async hybridSearch(input: HybridSearchInput): Promise<RetrievalHit[]> {
     if (!this.isReady) throw new Error("知识库索引尚未加载完成");
-    const keywordQueries = [...analysis.subQuestions, analysis.keywords.join(" ")].filter(Boolean);
-    const semanticQueries = analysis.semanticQueries.length ? analysis.semanticQueries : [analysis.normalizedQuery];
+    const scopedTerms = [...input.subjects, ...input.productTypes].join(" ");
+    const keywordQueries = input.queries.map((query) => `${scopedTerms} ${query}`.trim());
+    const semanticQueries = input.queries.map((query) => `${scopedTerms} ${input.subQuestion} ${query}`.trim());
     const bm25Hits = this.mergeChannel(keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, 30)), "bm25");
 
     let vectorHits: RankedHit[] = [];
@@ -81,9 +94,10 @@ export class RetrievalService implements OnModuleInit {
     }
 
     let fused = this.core.reciprocalRankFusion(bm25Hits, vectorHits, { k: 60, limit: 30 });
-    fused = this.prependExactMatches(analysis.normalizedQuery, fused);
-    const evidence = this.core.assembleEvidence(fused, this.corpus, { limit, maxWithContext: limit });
+    fused = this.prependExactMatches(input.queries.join(" "), fused);
+    const evidence = this.core.assembleEvidence(fused, this.corpus, { limit: input.topK, maxWithContext: input.topK });
     const maxRrf = Math.max(...fused.map((hit) => hit.rrf), 1 / 61);
+    const rrfRanks = new Map(fused.map((hit, index) => [hit.chunk_id, index + 1]));
 
     return evidence.map((row: any) => {
       const retrieval = row.retrieval as FusedHit | null;
@@ -111,6 +125,11 @@ export class RetrievalService implements OnModuleInit {
         matchReason: methods.join(" + "),
         retrievalMethods: methods,
         localFilePath: row.local_file_path || "",
+        bm25Rank: retrieval?.bm25_rank ?? null,
+        vectorRank: retrieval?.vector_rank ?? null,
+        rrfRank: retrieval ? (rrfRanks.get(row.chunk_id) ?? null) : null,
+        isSupplementalContext: !retrieval,
+        subQuestion: input.subQuestion,
       } satisfies RetrievalHit;
     });
   }

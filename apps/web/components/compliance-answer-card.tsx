@@ -52,6 +52,7 @@ export function ComplianceAnswerCard({ data }: Props) {
     const text = [
       `直接回答: ${answer.directAnswer}`,
       `结论: ${answer.conclusion}（${answer.conclusionLabel}）`,
+      `结论层级: ${answer.conclusionLevel}`,
       "",
       "── 产品结构识别 ──",
       `标的资产: ${answer.productStructure.underlyingAsset || "未识别"}`,
@@ -85,13 +86,6 @@ export function ComplianceAnswerCard({ data }: Props) {
       ...(answer.manualReviewNote
         ? [`── 人工复核提示 ──`, answer.manualReviewNote, ""]
         : []),
-      ...(answer.retrievalTrace
-        ? [
-            `检索信息: 策略 ${answer.retrievalTrace.strategy} · ` +
-              `Chunk ${answer.retrievalTrace.chunkHits} 条 · ` +
-              `法规 ${answer.retrievalTrace.documentHits} 份`,
-          ]
-        : []),
     ].join("\n");
 
     try {
@@ -121,6 +115,9 @@ export function ComplianceAnswerCard({ data }: Props) {
               <span className={clsx("text-2xs font-medium", confidence.class)}>
                 {confidence.label}
               </span>
+              <span className="rounded bg-white/60 px-2 py-0.5 text-2xs text-ink-secondary">
+                {answer.conclusionLevel}
+              </span>
             </div>
             <p className="mt-2 text-base font-semibold leading-7 text-ink">
               <span className="mr-2 text-lg">{answer.directAnswer}</span>
@@ -144,6 +141,22 @@ export function ComplianceAnswerCard({ data }: Props) {
             )}
           </button>
         </div>
+      </div>
+
+      {/* ── Applicable scope ── */}
+      <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+        <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-ink-tertiary">适用范围</h3>
+        <div className="grid grid-cols-2 gap-2 text-xs">
+          <Field label="主体" value={answer.scope.subject} />
+          <Field label="产品" value={answer.scope.product} />
+          <Field label="交易对手" value={answer.scope.counterparty} />
+          <Field label="时间" value={answer.scope.time} />
+        </div>
+        {answer.scope.conditions.length > 0 && (
+          <ul className="mt-3 list-disc space-y-1 border-t border-slate-100 pt-3 pl-5 text-xs leading-6 text-ink-secondary">
+            {answer.scope.conditions.map((condition) => <li key={condition}>{condition}</li>)}
+          </ul>
+        )}
       </div>
 
       {/* ── Product Structure ── */}
@@ -276,19 +289,6 @@ export function ComplianceAnswerCard({ data }: Props) {
         </div>
       )}
 
-      {/* ── Retrieval Trace ── */}
-      {answer.retrievalTrace && (
-        <div className="flex items-center gap-3 text-2xs text-ink-tertiary">
-          <span className="flex items-center gap-1">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            检索策略: {answer.retrievalTrace.strategy}
-          </span>
-          <span>Chunk {answer.retrievalTrace.chunkHits} 条</span>
-          {answer.retrievalTrace.documentHits > 0 && (
-            <span>法规 {answer.retrievalTrace.documentHits} 份</span>
-          )}
-        </div>
-      )}
     </div>
   );
 }
@@ -342,8 +342,9 @@ function RegulatoryBasisCard({
         <span className="shrink-0 text-2xs text-ink-tertiary">#{index + 1}</span>
       </div>
 
-      {/* Excerpt / full text */}
+      {/* Exact source quote */}
       <div className="mt-2">
+        <p className="mb-1 text-2xs font-semibold text-ink-tertiary">法规原文（逐字引用）</p>
         <p className="text-xs leading-6 text-ink-secondary">{displayText}</p>
         {isLong && (
           <button
@@ -357,10 +358,13 @@ function RegulatoryBasisCard({
 
       {/* Requirement */}
       {basis.requirement && (
-        <p className="mt-2 rounded-md bg-white px-2.5 py-1.5 text-xs font-medium leading-6 text-ink shadow-sm">
-          {basis.requirement}
-        </p>
+        <div className="mt-2 rounded-md bg-white px-2.5 py-1.5 shadow-sm">
+          <p className="text-2xs font-semibold text-ink-tertiary">该条文支持的结论</p>
+          <p className="mt-0.5 text-xs font-medium leading-6 text-ink">{basis.requirement}</p>
+        </div>
       )}
+
+      {basis.status && <p className="mt-1.5 text-2xs text-ink-tertiary">效力状态：{basis.status}</p>}
 
       {/* Link */}
       {basis.url && (
