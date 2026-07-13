@@ -494,7 +494,7 @@ export class RegulatoryAgentService {
       instruction: round < MAX_SEARCHES
         ? "请阅读证据并自主判断：若足够就提交回答；若确有关键缺口，可再检索一个更准确的完整问题。"
         : "已达检索上限。请合并利用下列证据提交回答；证据不足时如实说明。",
-      evidenceContext: this.contextBuilder.build(session.activeHits, { includeQuoteCandidates: true }),
+      evidenceContext: this.contextBuilder.build(session.activeHits),
     });
 
     this.logger.write(session.runId, session.id, "hybrid_search", {

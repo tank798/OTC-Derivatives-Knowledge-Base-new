@@ -1,16 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { AgentRegulatoryAnswer, AgentRegulatoryBasis } from "@otc/shared";
+import type { AgentRegulatoryAnswer, AgentRegulatoryBasis, RetrievalHit } from "@otc/shared";
 
 type Props = {
   open: boolean;
   answer?: AgentRegulatoryAnswer;
+  hits: RetrievalHit[];
   onClose: () => void;
 };
 
-export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
+export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
+  const hitByEvidenceId = new Map(hits.map((hit) => [hit.id, hit]));
 
   useEffect(() => {
     setExpandedIndex(answer?.regulatoryBasis.length ? 0 : null);
@@ -53,15 +55,20 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
         <div className="scrollbar-hidden flex-1 overflow-y-auto px-3 py-4">
           {answer?.regulatoryBasis.length ? (
             <div className="space-y-2.5">
-              {answer.regulatoryBasis.map((basis, index) => (
-                <SourceCard
-                  key={`${basis.evidenceId}-${index}`}
-                  basis={basis}
-                  index={index}
-                  expanded={expandedIndex === index}
-                  onToggle={() => setExpandedIndex((current) => current === index ? null : index)}
-                />
-              ))}
+              {answer.regulatoryBasis.map((basis, index) => {
+                const sourceHit = hitByEvidenceId.get(basis.evidenceId);
+                return (
+                  <SourceCard
+                    key={`${basis.evidenceId}-${index}`}
+                    basis={basis}
+                    chunkText={sourceHit?.text ?? basis.quoteExact}
+                    fullChunkAvailable={Boolean(sourceHit)}
+                    index={index}
+                    expanded={expandedIndex === index}
+                    onToggle={() => setExpandedIndex((current) => current === index ? null : index)}
+                  />
+                );
+              })}
             </div>
           ) : (
             <div className="flex min-h-[55vh] flex-col items-center justify-center px-8 text-center">
@@ -80,11 +87,15 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
 
 function SourceCard({
   basis,
+  chunkText,
+  fullChunkAvailable,
   index,
   expanded,
   onToggle,
 }: {
   basis: AgentRegulatoryBasis;
+  chunkText: string;
+  fullChunkAvailable: boolean;
   index: number;
   expanded: boolean;
   onToggle: () => void;
@@ -114,9 +125,10 @@ function SourceCard({
               {basis.status && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{basis.status}</span>}
             </div>
           )}
-          <p className="mb-1.5 text-[10px] font-medium tracking-[0.06em] text-[#999993]">原文</p>
-          <blockquote className="whitespace-pre-wrap border-l-2 border-[#c9c9c3] pl-3 text-[12px] leading-6 text-[#575752]">{basis.quoteExact}</blockquote>
-          <p className="mt-3 text-[12px] leading-5 text-[#3f3f3a]">{basis.explanation}</p>
+          <p className="mb-2 text-[10px] font-medium tracking-[0.06em] text-[#999993]">
+            {fullChunkAvailable ? "完整 Chunk" : "引用原文（历史记录未保存完整 Chunk）"}
+          </p>
+          <div className="whitespace-pre-wrap text-[12px] leading-6 text-[#4d4d48]">{chunkText}</div>
           {basis.url && (
             <a
               href={basis.url}

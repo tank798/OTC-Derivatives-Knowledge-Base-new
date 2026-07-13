@@ -76,6 +76,7 @@ export function Workspace() {
   const messages = activeConversation?.messages ?? [];
   const selectedSourceMessage = messages.find((message) => message.id === selectedSourceMessageId);
   const selectedAnswer = selectedSourceMessage?.data?.answer;
+  const selectedSourceHits = selectedSourceMessage?.data?.hits ?? [];
   const requestRunning = loadingConversationId !== null;
 
   useEffect(() => {
@@ -329,6 +330,7 @@ export function Workspace() {
             <RegulatorySourcesPanel
               open={sourcesOpen}
               answer={selectedAnswer}
+              hits={selectedSourceHits}
               onClose={() => setSourcesOpen(false)}
             />
           </div>
@@ -370,7 +372,11 @@ function findLatestAnswerMessageId(messages: ChatMessage[]) {
 
 function compactResponse(data: ComplianceQueryResponseData): ComplianceQueryResponseData {
   const { trace: _trace, ...withoutTrace } = data;
-  return { ...withoutTrace, hits: [] };
+  const citedEvidenceIds = new Set(data.answer?.regulatoryBasis.map((basis) => basis.evidenceId) ?? []);
+  return {
+    ...withoutTrace,
+    hits: data.hits.filter((hit) => citedEvidenceIds.has(hit.id)),
+  };
 }
 
 function persistConversations(conversations: ChatConversation[]) {
