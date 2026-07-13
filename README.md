@@ -6,8 +6,8 @@
 
 - 108 份正式监管原件，位于 `data/raw/监管文件/`。
 - 108 份结构化正文，位于 `data/processed/documents/json/`。
-- 1,221 个已完成独立复核的 Chunk，位于 `data/processed/chunks/jsonl/all_chunks.jsonl`。
-- Chunk 复核记录为 1,221/1,221，当前 MINOR、MAJOR、CRITICAL 均为 0。
+- 1,221 个正式 Chunk，位于 `data/processed/chunks/jsonl/all_chunks.jsonl`。
+- Chunk 已完成全量复核，压缩结论见 `docs/chunk_review_final_report.md`。
 - BM25 和本地 BGE 向量索引已基于 1,221 个新 Chunk 重建，索引清单记录 108 份法规、50,667 个 BM25 词项和 1,221 个 768 维向量。
 - 首版 3 道真实问题均通过与正式产品完全相同的 DeepSeek Pro 端到端问答评测（3/3）。
 
@@ -22,7 +22,6 @@ knowledge_base/             文档解析、清洗、结构化切分
 data/raw/监管文件/          唯一法规原件目录
 data/processed/chunks/      最终 Chunk
 data/processed/documents/   结构化法规正文
-data/processed/chunk_review_independent/  Chunk 独立复核结果
 data/metadata/              法规元数据源
 data/index/                 BM25、向量和检索语料
 scripts/                    索引、检索、URL 同步维护脚本

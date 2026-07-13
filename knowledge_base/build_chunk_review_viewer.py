@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the standalone, public-safe Chunk review result viewer."""
+"""Build the standalone, public-safe Chunk viewer from the canonical corpus."""
 
 from __future__ import annotations
 
@@ -10,8 +10,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHUNKS_PATH = ROOT / "data/processed/chunks/jsonl/all_chunks.jsonl"
-REVIEW_PATH = ROOT / "data/processed/chunk_review_independent/chunk_review.jsonl"
-COVERAGE_PATH = ROOT / "data/processed/chunk_review_independent/coverage.json"
 OUTPUT_PATH = ROOT / "data/processed/chunk_review_viewer/chunk_review.html"
 
 
@@ -22,19 +20,10 @@ def read_jsonl(path: Path) -> list[dict]:
 
 def public_data() -> dict:
     chunks = read_jsonl(CHUNKS_PATH)
-    reviews = {row["chunk_id"]: row for row in read_jsonl(REVIEW_PATH)}
-    coverage = json.loads(COVERAGE_PATH.read_text(encoding="utf-8"))
     documents: OrderedDict[str, dict] = OrderedDict()
     chunk_ids = [chunk["chunk_id"] for chunk in chunks]
     if len(chunk_ids) != len(set(chunk_ids)):
         raise ValueError("all_chunks.jsonl contains duplicate chunk_id values")
-    missing_reviews = set(chunk_ids) - set(reviews)
-    extra_reviews = set(reviews) - set(chunk_ids)
-    if missing_reviews or extra_reviews:
-        raise ValueError(
-            f"review coverage mismatch: missing={len(missing_reviews)}, extra={len(extra_reviews)}"
-        )
-
     for chunk in chunks:
         document_id = chunk["document_id"]
         document = documents.setdefault(
@@ -52,7 +41,6 @@ def public_data() -> dict:
                 "chunks": [],
             },
         )
-        review = reviews[chunk["chunk_id"]]
         document["chunks"].append(
             {
                 "chunk_id": chunk["chunk_id"],
@@ -64,24 +52,17 @@ def public_data() -> dict:
                 "section_title": chunk.get("section_title", ""),
                 "part_title": chunk.get("part_title", ""),
                 "attachment_name": chunk.get("attachment_name", ""),
-                "status": review["status"],
             }
         )
 
     for document in documents.values():
         document["chunks"].sort(key=lambda item: item["chunk_index"])
         document["chunk_count"] = len(document["chunks"])
-        document["review_status"] = (
-            "PASS" if all(chunk["status"] == "PASS" for chunk in document["chunks"]) else "ISSUE"
-        )
 
     return {
         "summary": {
             "documents": len(documents),
             "chunks": len(chunks),
-            "reviewed": coverage.get("review_record_count", len(reviews)),
-            "pass": coverage.get("PASS", 0),
-            "issues": sum(coverage.get(level, 0) for level in ("MINOR", "MAJOR", "CRITICAL")),
         },
         "documents": list(documents.values()),
     }
@@ -92,9 +73,9 @@ HTML = r'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="中国场外衍生品法规知识库 Chunk 复核结果浏览器">
+<meta name="description" content="中国场外衍生品法规知识库 Chunk 切分查看器">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2310233f'/%3E%3Cpath d='M18 44h28M32 13v31M20 20h24M20 20l-8 15h16L20 20zm24 0-8 15h16L44 20z' fill='none' stroke='%23d6aa5a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<title>中国场外衍生品法规知识库 · Chunk 复核结果</title>
+<title>中国场外衍生品法规知识库 · Chunk 切分查看</title>
 <style>
 :root{
   --ink:#152238;--ink-soft:#536074;--paper:#fffdf8;--canvas:#f3f0e9;
@@ -260,7 +241,7 @@ function renderMain(){
     const tags=[articleLabel(chunk),chunk.chapter_title,chunk.section_title,chunk.part_title,chunk.attachment_name].filter(Boolean);
     return `<article class="chunk-card" id="${esc(chunk.chunk_id)}" style="animation-delay:${Math.min(index*18,180)}ms"><header class="chunk-head"><div class="chunk-identity"><span class="chunk-number">Chunk ${chunk.chunk_index}</span><span class="tags">${tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</span></div><div class="chunk-actions"><button class="icon-button" data-copy="${esc(chunk.chunk_id)}">复制正文</button><button class="icon-button" data-link="${esc(chunk.chunk_id)}">定位链接</button></div></header><div class="chunk-body">${highlightStructure(chunk.body_text,bodyQuery)}</div></article>`;
   }).join('');
-  const resultLabel=doc.review_status==='PASS'?'独立复核通过':'复核发现问题';
+  const resultLabel=`${doc.chunk_count} 个 Chunk`;
   document.getElementById('content').innerHTML=`<section class="document-hero"><div class="result-line">${resultLabel}</div><h2>${esc(doc.document_title)}</h2><p class="file-name">${esc(doc.file_name)}</p><dl class="meta">${meta}</dl></section><div class="section-bar"><h3>法规正文切片</h3><p>显示 ${chunks.length} / ${doc.chunk_count} 个 Chunk</p></div><section class="chunk-list">${cards||'<div class="empty">当前法规中没有匹配的正文</div>'}</section>`;
 }
 
@@ -308,8 +289,6 @@ def main() -> None:
                 "output": str(OUTPUT_PATH.relative_to(ROOT)),
                 "documents": data["summary"]["documents"],
                 "chunks": data["summary"]["chunks"],
-                "reviewed": data["summary"]["reviewed"],
-                "issues": data["summary"]["issues"],
             },
             ensure_ascii=False,
         )

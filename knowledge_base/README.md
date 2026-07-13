@@ -14,7 +14,7 @@
 
 ## 支持格式
 
-`.docx`、`.doc`、`.pdf`、`.xlsx`、`.txt`、`.md`、`.html`。旧 `.doc` 优先在临时目录通过 LibreOffice 转换，失败时使用清理域代码后的 `textutil` 结果，原文件不变。扫描型 PDF 优先读取 `data/raw/official_text_cache/<同名文件>.html` 中已核验的官方网页正文；没有官方缓存时才调用本机 OCR。缓存来源和回退情况会写入结构化文档及切分报告，不会伪装成 PDF 文本层。
+`.docx`、`.doc`、`.pdf`、`.xlsx`、`.txt`、`.md`、`.html`。旧 `.doc` 优先在临时目录通过 LibreOffice 转换，失败时使用清理域代码后的 `textutil` 结果，原文件不变。扫描型 PDF 优先读取 `data/raw/official_text_cache/<同名文件>.html` 中已核验的官方网页正文；没有官方缓存时才调用本机 OCR。缓存来源和回退情况会写入结构化文档及本地诊断报告，不会伪装成 PDF 文本层。
 
 ## 稳定ID与增量构建
 
@@ -59,24 +59,12 @@ python3 knowledge_base/review_chunks.py
 
 复核结果写入 `data/processed/chunk_review`；脚本只读原件，不修改 `data/raw/监管文件`。
 
-最终独立复核的脚本与产物位于 `data/processed/chunk_review_independent/`，对外发布以该目录中的 `coverage.json`、`issues.md` 和 `final_report.md` 为准。
+已完成的全量复核只保留压缩结论 `docs/chunk_review_final_report.md`。逐 Chunk 记录、覆盖明细和中间 CSV 不进入仓库。
 
-## 输出
+## 正式输出
 
-- `data/processed/chunks/jsonl/*.jsonl`
 - `data/processed/chunks/jsonl/all_chunks.jsonl`
 - `data/processed/documents/json/*.json`
-- `data/processed/documents/all_documents.jsonl`
 - `data/processed/build_manifest.json`
-- `data/processed/chunks/markdown/*.md`
-- `data/processed/chunks/chunk_index.csv`
-- `data/processed/chunks/Chunk质量问题.csv`
-- `data/processed/chunks/切分报告.md`
-- `data/processed/chunks/自动校验结果.json`
-- `data/processed/chunks/文件扫描清单.csv`
-- `data/processed/chunk_review/chunk_review.jsonl`
-- `data/processed/chunk_review/chunk_review.csv`
-- `data/processed/chunk_review/document_review_summary.csv`
-- `data/processed/chunk_review/review_coverage.json`
-- `data/processed/chunk_review/chunk_issues.md`
-- `data/processed/chunk_review/final_chunk_review_report.md`
+
+逐文档 JSONL、Markdown、CSV 索引、扫描清单、质量诊断和全量复核明细仍可由脚本在本地生成，但不提交 Git。
