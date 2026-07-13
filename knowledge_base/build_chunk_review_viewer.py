@@ -99,6 +99,7 @@ HTML = r'''<!doctype html>
 :root{
   --ink:#152238;--ink-soft:#536074;--paper:#fffdf8;--canvas:#f3f0e9;
   --navy:#10233f;--navy-2:#1a3558;--line:#dcd6ca;--line-soft:#ebe6dc;
+  --sidebar-bg:#faf9f6;
   --seal:#a4372a;--seal-soft:#f8ebe7;--jade:#2d6a58;--jade-soft:#e7f1ed;
   --gold:#a97828;--shadow:0 14px 40px rgba(22,32,47,.08);
   --ui:"Avenir Next","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
@@ -112,28 +113,29 @@ button,input{font:inherit}
 button,a{outline-offset:3px}
 :focus-visible{outline:2px solid var(--seal)}
 .shell{display:grid;grid-template-columns:350px minmax(0,1fr);min-height:100vh}
-.sidebar{position:sticky;top:0;height:100vh;background:var(--navy);color:#f5f1e8;display:flex;flex-direction:column;overflow:hidden}
-.brand{padding:28px 24px 20px;border-bottom:1px solid rgba(255,255,255,.1)}
-.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#c9bfae;margin:0 0 10px}
-.brand h1{font-family:var(--reading);font-size:22px;line-height:1.35;font-weight:700;margin:0;letter-spacing:.02em}
-.brand p{font-size:12px;line-height:1.65;color:#aeb9c8;margin:10px 0 0}
-.quality{margin:18px 20px 14px;padding:14px 15px;background:rgba(255,255,255,.065);border:1px solid rgba(255,255,255,.1);border-radius:12px}
-.quality-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.quality strong{font-size:18px;color:#fff}
-.quality .stamp{color:#d9f0e7;background:rgba(45,106,88,.45);border:1px solid rgba(170,222,202,.28);border-radius:999px;padding:4px 9px;font-size:11px}
-.quality p{margin:8px 0 0;color:#aeb9c8;font-size:11px;line-height:1.55}
-.summary{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 20px 16px}
-.summary div{padding:10px 11px;border-top:1px solid rgba(255,255,255,.12)}
-.summary b{display:block;color:#fff;font-size:17px}.summary span{font-size:10px;color:#98a6b8;letter-spacing:.08em}
-.search-wrap{padding:0 20px 14px}
-.search{width:100%;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.07);color:#fff;border-radius:9px;padding:10px 12px;font-size:12px}
-.search::placeholder{color:#8392a7}
-.doc-list{overflow:auto;flex:1;padding:0 10px 20px;scrollbar-width:thin}
-.doc-button{display:block;width:100%;text-align:left;border:0;border-left:3px solid transparent;background:transparent;color:#dae1ea;padding:11px 13px 11px 14px;cursor:pointer;border-radius:0 9px 9px 0;transition:background .16s,border-color .16s}
-.doc-button:hover{background:rgba(255,255,255,.055)}
-.doc-button.active{background:rgba(255,255,255,.1);border-left-color:#d6aa5a}
-.doc-title{font-family:var(--reading);font-size:13px;line-height:1.48;font-weight:700}
-.doc-sub{display:flex;justify-content:space-between;gap:10px;margin-top:5px;color:#93a1b3;font-size:10px}
+.sidebar{position:sticky;top:0;height:100vh;background:var(--sidebar-bg);color:var(--ink);border-right:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}
+.brand{padding:24px 20px 16px;border-bottom:1px solid var(--line)}
+.brand h1{font-family:var(--reading);font-size:21px;line-height:1.38;font-weight:700;color:var(--navy-2);margin:0;letter-spacing:.015em}
+.summary{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:16px 20px 14px}
+.summary div{padding:11px 12px;background:#fff;border:1px solid var(--line);border-radius:9px}
+.summary b{display:block;color:var(--navy-2);font-size:18px;line-height:1.2}.summary span{display:block;margin-top:4px;font-size:10px;color:#6b7280;letter-spacing:.03em}
+.search-wrap{padding:0 20px 14px;border-bottom:1px solid var(--line-soft)}
+.search{width:100%;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:9px;padding:10px 12px;font-size:12px}
+.search::placeholder{color:#8a9099}
+.doc-list{overflow:auto;flex:1;padding:10px 10px 20px;scrollbar-width:thin}
+.authority-group+ .authority-group{margin-top:5px}
+.authority-button{display:flex;align-items:center;width:100%;gap:8px;border:0;background:transparent;color:var(--navy-2);padding:9px 9px;border-radius:8px;cursor:pointer;text-align:left}
+.authority-button:hover{background:#f0eee8}
+.authority-arrow{width:12px;color:#7b8490;font-size:10px;transition:transform .16s;flex:0 0 auto}.authority-group.open .authority-arrow{transform:rotate(90deg)}
+.authority-name{font-size:12px;line-height:1.45;font-weight:700;flex:1;min-width:0}
+.authority-count{font-size:10px;color:#7b8490;white-space:nowrap}
+.authority-docs{padding-left:12px}
+.doc-button{display:flex;width:100%;align-items:flex-start;gap:8px;text-align:left;border:0;border-left:3px solid transparent;background:transparent;color:var(--ink);padding:9px 9px 9px 12px;cursor:pointer;border-radius:0 8px 8px 0;transition:background .16s,border-color .16s}
+.doc-button:hover{background:#f0eee8}
+.doc-button.active{background:#eef2f4;border-left-color:var(--seal)}
+.doc-title{font-family:var(--reading);font-size:12px;line-height:1.5;font-weight:600;flex:1;min-width:0}.doc-button.active .doc-title{font-weight:700;color:var(--navy-2)}
+.doc-count{font-size:9px;line-height:1.5;color:#7b8490;white-space:nowrap;padding-top:1px}
+.show-all{display:block;width:calc(100% - 12px);margin:3px 0 5px 12px;padding:6px 9px;border:0;background:transparent;color:var(--seal);font-size:10px;text-align:left;cursor:pointer;border-radius:6px}.show-all:hover{background:var(--seal-soft)}
 .main{min-width:0}
 .topbar{position:sticky;top:0;z-index:10;height:64px;background:rgba(243,240,233,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:16px;padding:0 34px}
 .mobile-toggle{display:none;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:7px 10px;cursor:pointer}
@@ -157,7 +159,6 @@ button,a{outline-offset:3px}
 .chunk-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:13px 18px;background:#faf7f1;border-bottom:1px solid var(--line-soft)}
 .chunk-identity{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
 .chunk-number{font-family:var(--reading);font-weight:700;color:var(--seal)}
-.chunk-id{font-family:var(--mono);font-size:10px;color:#746b61}
 .tags{display:flex;gap:5px;flex-wrap:wrap}
 .tag{font-size:10px;color:var(--navy-2);background:#e9eef3;border-radius:999px;padding:3px 7px}
 .chunk-actions{display:flex;gap:6px;flex-shrink:0}
@@ -169,18 +170,17 @@ button,a{outline-offset:3px}
 .empty{padding:70px 24px;text-align:center;background:var(--paper);border:1px dashed var(--line);border-radius:14px;color:var(--ink-soft)}
 .toast{position:fixed;right:24px;bottom:24px;background:var(--navy);color:#fff;padding:10px 14px;border-radius:9px;font-size:11px;opacity:0;transform:translateY(8px);pointer-events:none;transition:.2s}.toast.show{opacity:1;transform:none}
 @media(max-width:900px){.shell{grid-template-columns:300px minmax(0,1fr)}.content{padding:28px 24px 70px}.meta{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:700px){.shell{display:block}.sidebar{position:fixed;z-index:30;left:0;top:0;width:min(88vw,350px);transform:translateX(-105%);transition:transform .22s;box-shadow:20px 0 60px rgba(0,0,0,.24)}body.sidebar-open .sidebar{transform:none}.mobile-toggle{display:inline-block}.topbar{padding:0 14px;height:58px}.breadcrumb{display:none}.chunk-search{width:auto;flex:1}.content{padding:20px 14px 60px}.document-hero{padding:23px 20px}.document-hero h2{font-size:22px}.meta{grid-template-columns:1fr}.chunk-head{align-items:center}.chunk-id{display:none}.chunk-body{padding:18px;font-size:14px}.section-bar{align-items:flex-start;flex-direction:column;gap:4px}}
+@media(max-width:700px){.shell{display:block}.sidebar{position:fixed;z-index:30;left:0;top:0;width:min(88vw,350px);transform:translateX(-105%);transition:transform .22s;box-shadow:20px 0 60px rgba(0,0,0,.18)}body.sidebar-open .sidebar{transform:none}.mobile-toggle{display:inline-block}.topbar{padding:0 14px;height:58px}.breadcrumb{display:none}.chunk-search{width:auto;flex:1}.content{padding:20px 14px 60px}.document-hero{padding:23px 20px}.document-hero h2{font-size:22px}.meta{grid-template-columns:1fr}.chunk-head{align-items:center}.chunk-body{padding:18px;font-size:14px}.section-bar{align-items:flex-start;flex-direction:column;gap:4px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
 <div class="shell">
   <aside class="sidebar" id="sidebar">
-    <div class="brand"><p class="eyebrow">Regulatory Knowledge Base</p><h1>中国场外衍生品<br>法规知识库</h1><p>结构化法规与 Chunk 复核结果浏览器</p></div>
-    <div class="quality"><div class="quality-head"><strong id="reviewed-count">—</strong><span class="stamp" id="review-stamp">—</span></div><p id="review-summary">正在读取复核结果。</p></div>
-    <div class="summary"><div><b id="document-count">—</b><span>正式法规</span></div><div><b id="chunk-count">—</b><span>CHUNKS</span></div></div>
-    <div class="search-wrap"><input class="search" id="doc-search" type="search" placeholder="搜索法规、文号或机关" aria-label="搜索法规"></div>
-    <nav class="doc-list" id="doc-list" aria-label="法规列表"></nav>
+    <div class="brand"><h1>中国场外衍生品<br>法规知识库</h1></div>
+    <div class="summary"><div><b id="document-count">—</b><span>法规数量</span></div><div><b id="chunk-count">—</b><span>Chunks数量</span></div></div>
+    <div class="search-wrap"><input class="search" id="doc-search" type="search" placeholder="搜索法规、章节或条文" aria-label="搜索法规、章节或条文"></div>
+    <nav class="doc-list" id="doc-list" aria-label="按发文主体分组的法规目录"></nav>
   </aside>
   <main class="main">
     <header class="topbar"><button class="mobile-toggle" id="mobile-toggle" aria-label="打开法规列表">目录</button><div class="breadcrumb">法规知识库 / Chunk 复核结果</div><input class="chunk-search" id="chunk-search" type="search" placeholder="在当前法规正文中搜索" aria-label="搜索当前法规正文"></header>
@@ -195,6 +195,9 @@ const docs=DATA.documents;
 const docMap=new Map(docs.map(doc=>[doc.document_id,doc]));
 let activeDocId=docs.length?docs[0].document_id:null;
 let bodyQuery='';
+const authorityOf=doc=>(doc.issuing_authority||'').trim()||'其他监管机构';
+const expandedAuthorities=new Set(activeDocId?[authorityOf(docMap.get(activeDocId))]:[]);
+const expandedDocGroups=new Set();
 
 const esc=value=>String(value??'').replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
 const normalize=value=>String(value??'').toLowerCase();
@@ -212,18 +215,30 @@ function highlightStructure(text,query=''){
 }
 
 function renderSummary(){
-  document.getElementById('reviewed-count').textContent=DATA.summary.reviewed+'/'+DATA.summary.chunks;
   document.getElementById('document-count').textContent=DATA.summary.documents;
   document.getElementById('chunk-count').textContent=DATA.summary.chunks;
-  const passed=DATA.summary.reviewed===DATA.summary.chunks&&DATA.summary.issues===0&&DATA.summary.pass===DATA.summary.chunks;
-  document.getElementById('review-stamp').textContent=passed?'复核通过':'存在问题';
-  document.getElementById('review-summary').textContent=passed?'全部 Chunk 已完成独立复核，未发现正文遗漏、转换错误或切分错误。':`已复核 ${DATA.summary.reviewed} 个 Chunk，其中 ${DATA.summary.issues} 个需要关注。`;
 }
 
 function renderDocList(){
   const query=normalize(document.getElementById('doc-search').value);
-  const visible=docs.filter(doc=>normalize([doc.document_title,doc.document_number,doc.issuing_authority,doc.file_name].join(' ')).includes(query));
-  document.getElementById('doc-list').innerHTML=visible.length?visible.map(doc=>`<button class="doc-button ${doc.document_id===activeDocId?'active':''}" data-doc="${esc(doc.document_id)}"><span class="doc-title">${esc(doc.document_title)}</span><span class="doc-sub"><span>${esc(doc.issuing_authority||'发文机关未载')}</span><span>${doc.chunk_count} Chunk</span></span></button>`).join(''):'<div class="empty">没有匹配的法规</div>';
+  const matches=doc=>!query||normalize([
+    doc.document_title,doc.document_number,doc.issuing_authority,doc.file_name,
+    ...doc.chunks.flatMap(chunk=>[chunk.body_text,articleLabel(chunk),chunk.chapter_title,chunk.section_title,chunk.part_title,chunk.attachment_name])
+  ].join(' ')).includes(query);
+  const grouped=new Map();
+  docs.filter(matches).forEach(doc=>{const authority=authorityOf(doc);if(!grouped.has(authority))grouped.set(authority,[]);grouped.get(authority).push(doc)});
+  const html=[...grouped].map(([authority,groupDocs])=>{
+    const open=query||expandedAuthorities.has(authority);
+    let visibleDocs=groupDocs;
+    if(!query&&!expandedDocGroups.has(authority)&&groupDocs.length>6){
+      visibleDocs=groupDocs.slice(0,6);
+      const active=groupDocs.find(doc=>doc.document_id===activeDocId);
+      if(active&&!visibleDocs.includes(active))visibleDocs=[...groupDocs.slice(0,5),active];
+    }
+    const docsHtml=open?`<div class="authority-docs">${visibleDocs.map(doc=>`<button class="doc-button ${doc.document_id===activeDocId?'active':''}" data-doc="${esc(doc.document_id)}"><span class="doc-title">${esc(doc.document_title)}</span><span class="doc-count">${doc.chunk_count}chunks</span></button>`).join('')}${!query&&groupDocs.length>6?`<button class="show-all" data-show-all="${esc(authority)}">${expandedDocGroups.has(authority)?'收起多余条目':`查看全部${groupDocs.length}项`}</button>`:''}</div>`:'';
+    return `<section class="authority-group ${open?'open':''}"><button class="authority-button" data-authority="${esc(authority)}" aria-expanded="${open?'true':'false'}"><span class="authority-arrow" aria-hidden="true">▶</span><span class="authority-name">${esc(authority)}</span><span class="authority-count">${groupDocs.length}部法规</span></button>${docsHtml}</section>`;
+  }).join('');
+  document.getElementById('doc-list').innerHTML=html||'<div class="empty">没有匹配的法规</div>';
 }
 
 function metaItem(label,value,html=false){return value?`<div><dt>${label}</dt><dd>${html?value:esc(value)}</dd></div>`:''}
@@ -231,7 +246,7 @@ function metaItem(label,value,html=false){return value?`<div><dt>${label}</dt><d
 function renderMain(){
   const doc=docMap.get(activeDocId);if(!doc){document.getElementById('content').innerHTML='<div class="empty">暂无法规数据</div>';return}
   const query=normalize(bodyQuery);
-  const chunks=doc.chunks.filter(chunk=>!query||normalize([chunk.chunk_id,chunk.body_text,articleLabel(chunk),chunk.chapter_title,chunk.section_title].join(' ')).includes(query));
+  const chunks=doc.chunks.filter(chunk=>!query||normalize([chunk.body_text,articleLabel(chunk),chunk.chapter_title,chunk.section_title,chunk.part_title,chunk.attachment_name].join(' ')).includes(query));
   const official=doc.official_url?`<a href="${esc(doc.official_url)}" target="_blank" rel="noopener noreferrer">查看官方原文</a>`:'';
   const meta=[
     metaItem('文号',doc.document_number),metaItem('发文机关',doc.issuing_authority),metaItem('效力状态',doc.validity_status),
@@ -239,27 +254,31 @@ function renderMain(){
   ].join('');
   const cards=chunks.map((chunk,index)=>{
     const tags=[articleLabel(chunk),chunk.chapter_title,chunk.section_title,chunk.part_title,chunk.attachment_name].filter(Boolean);
-    return `<article class="chunk-card" id="${esc(chunk.chunk_id)}" style="animation-delay:${Math.min(index*18,180)}ms"><header class="chunk-head"><div class="chunk-identity"><span class="chunk-number">Chunk ${chunk.chunk_index}</span><code class="chunk-id">${esc(chunk.chunk_id)}</code><span class="tags">${tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</span></div><div class="chunk-actions"><button class="icon-button" data-copy="${esc(chunk.chunk_id)}">复制正文</button><button class="icon-button" data-link="${esc(chunk.chunk_id)}">定位链接</button></div></header><div class="chunk-body">${highlightStructure(chunk.body_text,bodyQuery)}</div></article>`;
+    return `<article class="chunk-card" id="${esc(chunk.chunk_id)}" style="animation-delay:${Math.min(index*18,180)}ms"><header class="chunk-head"><div class="chunk-identity"><span class="chunk-number">Chunk ${chunk.chunk_index}</span><span class="tags">${tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</span></div><div class="chunk-actions"><button class="icon-button" data-copy="${esc(chunk.chunk_id)}">复制正文</button><button class="icon-button" data-link="${esc(chunk.chunk_id)}">定位链接</button></div></header><div class="chunk-body">${highlightStructure(chunk.body_text,bodyQuery)}</div></article>`;
   }).join('');
   const resultLabel=doc.review_status==='PASS'?'独立复核通过':'复核发现问题';
   document.getElementById('content').innerHTML=`<section class="document-hero"><div class="result-line">${resultLabel}</div><h2>${esc(doc.document_title)}</h2><p class="file-name">${esc(doc.file_name)}</p><dl class="meta">${meta}</dl></section><div class="section-bar"><h3>法规正文切片</h3><p>显示 ${chunks.length} / ${doc.chunk_count} 个 Chunk</p></div><section class="chunk-list">${cards||'<div class="empty">当前法规中没有匹配的正文</div>'}</section>`;
 }
 
-function selectDoc(id){if(!docMap.has(id))return;activeDocId=id;bodyQuery='';document.getElementById('chunk-search').value='';renderDocList();renderMain();document.body.classList.remove('sidebar-open');history.replaceState(null,'','#'+id)}
+function selectDoc(id){if(!docMap.has(id))return;activeDocId=id;expandedAuthorities.add(authorityOf(docMap.get(id)));bodyQuery='';document.getElementById('chunk-search').value='';renderDocList();renderMain();document.body.classList.remove('sidebar-open');history.replaceState(null,'','#'+id)}
 function showToast(message){const toast=document.getElementById('toast');toast.textContent=message;toast.classList.add('show');clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>toast.classList.remove('show'),1500)}
 async function copyText(text,message){try{await navigator.clipboard.writeText(text)}catch(error){const area=document.createElement('textarea');area.value=text;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove()}showToast(message)}
 
 document.getElementById('doc-search').addEventListener('input',renderDocList);
 document.getElementById('chunk-search').addEventListener('input',event=>{bodyQuery=event.target.value.trim();renderMain()});
 document.getElementById('mobile-toggle').addEventListener('click',()=>document.body.classList.toggle('sidebar-open'));
-document.getElementById('doc-list').addEventListener('click',event=>{const button=event.target.closest('[data-doc]');if(button)selectDoc(button.dataset.doc)});
+document.getElementById('doc-list').addEventListener('click',event=>{
+  const docButton=event.target.closest('[data-doc]');if(docButton){selectDoc(docButton.dataset.doc);return}
+  const groupButton=event.target.closest('[data-authority]');if(groupButton){const authority=groupButton.dataset.authority;expandedAuthorities.has(authority)?expandedAuthorities.delete(authority):expandedAuthorities.add(authority);renderDocList();return}
+  const showAll=event.target.closest('[data-show-all]');if(showAll){const authority=showAll.dataset.showAll;expandedDocGroups.has(authority)?expandedDocGroups.delete(authority):expandedDocGroups.add(authority);expandedAuthorities.add(authority);renderDocList()}
+});
 document.getElementById('content').addEventListener('click',event=>{
   const copy=event.target.closest('[data-copy]');if(copy){const doc=docMap.get(activeDocId);const chunk=doc.chunks.find(item=>item.chunk_id===copy.dataset.copy);if(chunk)copyText(chunk.body_text,'正文已复制');return}
   const link=event.target.closest('[data-link]');if(link){const url=location.href.split('#')[0]+'#'+link.dataset.link;copyText(url,'定位链接已复制');history.replaceState(null,'','#'+link.dataset.link)}
 });
 document.addEventListener('keydown',event=>{if(event.key==='/'&&document.activeElement.tagName!=='INPUT'){event.preventDefault();document.getElementById('chunk-search').focus()}});
 
-function openHash(){const hash=decodeURIComponent(location.hash.slice(1));if(!hash)return;const doc=docs.find(item=>item.document_id===hash||item.chunks.some(chunk=>chunk.chunk_id===hash));if(!doc)return;activeDocId=doc.document_id;renderDocList();renderMain();if(hash.startsWith('chunk_'))requestAnimationFrame(()=>document.getElementById(hash)?.scrollIntoView({block:'center'}))}
+function openHash(){const hash=decodeURIComponent(location.hash.slice(1));if(!hash)return;const doc=docs.find(item=>item.document_id===hash||item.chunks.some(chunk=>chunk.chunk_id===hash));if(!doc)return;activeDocId=doc.document_id;expandedAuthorities.add(authorityOf(doc));renderDocList();renderMain();if(hash.startsWith('chunk_'))requestAnimationFrame(()=>document.getElementById(hash)?.scrollIntoView({block:'center'}))}
 renderSummary();renderDocList();renderMain();openHash();
 </script>
 </body>
