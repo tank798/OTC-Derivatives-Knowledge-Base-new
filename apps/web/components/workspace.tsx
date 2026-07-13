@@ -1,54 +1,32 @@
 "use client";
 
-import { useState, useRef, useEffect, useCallback, Component } from "react";
+import { Component, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ComplianceQueryResponseData } from "@otc/shared";
-import { queryCompliance } from "../lib/api";
-import { Sidebar } from "./sidebar";
+import { queryComplianceStream } from "../lib/api";
 import { ChatPanel } from "./chat-panel";
-import { ProductStructurePanel } from "./product-structure-panel";
-import clsx from "clsx";
+import type { ChatConversation, ChatMessage } from "./chat-types";
+import { ConversationSidebar } from "./conversation-sidebar";
+import { RegulatorySourcesPanel } from "./regulatory-sources-panel";
 
-// ── Chat Message Type ──
-export type ChatMessage = {
-  id: string;
-  role: "user" | "assistant";
-  text: string;
-  status?: "loading" | "done" | "error";
-  data?: ComplianceQueryResponseData;
-};
+const CONVERSATION_STORAGE_KEY = "otc-regulatory-chat-history-v1";
+const MAX_STORED_CONVERSATIONS = 50;
 
-const EXAMPLE_QUESTIONS = [
-  "证券公司做收益互换需要关注哪些监管要求？",
-  "场外期权能否面向普通个人投资者销售？",
-  "期货公司开展衍生品交易需要给客户做风险揭示吗？",
-  "一个挂钩股票指数的收益凭证产品需要看哪些规则？",
-  "私募基金能否投资证券公司收益凭证？",
-  "跨境收益互换涉及哪些外汇管理要求？",
-  "结构化票据的销售适用性要求有哪些？",
-  "信用保护工具的合格对手方有哪些要求？",
-];
-
-// ── Skeleton Loading ──
 function LoadingSkeleton() {
   return (
     <div className="mx-auto flex h-full max-w-[820px] flex-col items-center justify-center py-16 animate-fade-in">
       <div className="flex flex-col items-center gap-4">
-        <div className="h-12 w-12 animate-pulse rounded-full bg-slate-200" />
-        <div className="h-6 w-64 animate-pulse rounded bg-slate-200" />
-        <div className="h-4 w-80 animate-pulse rounded bg-slate-100" />
+        <div className="h-12 w-12 animate-pulse rounded-full bg-[#e4e4e0]" />
+        <div className="h-6 w-64 animate-pulse rounded bg-[#e4e4e0]" />
+        <div className="h-4 w-80 animate-pulse rounded bg-[#eeeeeb]" />
       </div>
     </div>
   );
 }
 
-// ── Error Boundary ──
 type ErrorBoundaryProps = { children: React.ReactNode };
 type ErrorBoundaryState = { hasError: boolean; error?: Error };
 
-export class WorkspaceErrorBoundary extends Component<
-  ErrorBoundaryProps,
-  ErrorBoundaryState
-> {
+export class WorkspaceErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   constructor(props: ErrorBoundaryProps) {
     super(props);
     this.state = { hasError: false };
@@ -59,223 +37,278 @@ export class WorkspaceErrorBoundary extends Component<
   }
 
   render() {
-    if (this.state.hasError) {
-      return (
-        <div className="flex h-screen items-center justify-center bg-surface">
-          <div className="mx-auto max-w-md text-center">
-            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-danger/10">
-              <svg
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="text-danger"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <circle cx="12" cy="12" r="10" />
-                <line x1="15" y1="9" x2="9" y2="15" />
-                <line x1="9" y1="9" x2="15" y2="15" />
-              </svg>
-            </div>
-            <h2 className="text-lg font-bold text-ink">应用出现异常</h2>
-            <p className="mt-1 text-sm text-ink-secondary">
-              请尝试刷新页面或联系管理员
-            </p>
-            <p className="mt-3 text-xs text-ink-tertiary">
-              {this.state.error?.message}
-            </p>
-            <button
-              onClick={() => {
-                this.setState({ hasError: false, error: undefined });
-                window.location.reload();
-              }}
-              className="mt-6 rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-base hover:bg-accent/90"
-            >
-              刷新页面
-            </button>
-          </div>
+    if (!this.state.hasError) return this.props.children;
+    return (
+      <div className="flex h-screen items-center justify-center bg-[#f7f7f5]">
+        <div className="mx-auto max-w-md text-center">
+          <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#fff0ee] text-[#ad493f]">!</div>
+          <h2 className="text-lg font-bold text-[#2d2d29]">应用出现异常</h2>
+          <p className="mt-1 text-sm text-[#696963]">请尝试刷新页面</p>
+          <p className="mt-3 text-xs text-[#969690]">{this.state.error?.message}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="mt-6 rounded-full bg-[#292926] px-5 py-2.5 text-sm font-medium text-white hover:bg-black"
+          >
+            刷新页面
+          </button>
         </div>
-      );
-    }
-    return this.props.children;
+      </div>
+    );
   }
 }
 
-// ── Main Workspace ──
 export function Workspace() {
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [latestData, setLatestData] = useState<ComplianceQueryResponseData | null>(null);
+  const [conversations, setConversations] = useState<ChatConversation[]>([]);
+  const [activeConversationId, setActiveConversationId] = useState("");
+  const [loadingConversationId, setLoadingConversationId] = useState<string | null>(null);
+  const [selectedSourceMessageId, setSelectedSourceMessageId] = useState<string | null>(null);
+  const [sourcesOpen, setSourcesOpen] = useState(false);
+  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const [input, setInput] = useState("");
-  const [showDetailPanel, setShowDetailPanel] = useState(false);
   const [isInitializing, setIsInitializing] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
-  // Simulate initial loading
+  const activeConversation = useMemo(
+    () => conversations.find((conversation) => conversation.id === activeConversationId),
+    [activeConversationId, conversations],
+  );
+  const messages = activeConversation?.messages ?? [];
+  const selectedSourceMessage = messages.find((message) => message.id === selectedSourceMessageId);
+  const selectedAnswer = selectedSourceMessage?.data?.answer;
+  const requestRunning = loadingConversationId !== null;
+
   useEffect(() => {
-    const timer = setTimeout(() => setIsInitializing(false), 600);
-    return () => clearTimeout(timer);
+    const loaded = loadConversations();
+    const initialConversations = loaded.length ? loaded : [createConversation()];
+    const initialActive = [...initialConversations].sort((left, right) => right.updatedAt - left.updatedAt)[0];
+    setConversations(initialConversations);
+    setActiveConversationId(initialActive.id);
+    const latestAnswerId = findLatestAnswerMessageId(initialActive.messages);
+    setSelectedSourceMessageId(latestAnswerId);
+    setSourcesOpen(Boolean(latestAnswerId));
+    setIsInitializing(false);
   }, []);
 
-  // Focus input on mount
   useEffect(() => {
-    inputRef.current?.focus();
+    if (isInitializing || !conversations.length) return;
+    persistConversations(conversations);
+  }, [conversations, isInitializing]);
+
+  useEffect(() => {
+    if (!isInitializing) inputRef.current?.focus();
+  }, [activeConversationId, isInitializing]);
+
+  const updateConversation = useCallback((
+    conversationId: string,
+    updater: (conversation: ChatConversation) => ChatConversation,
+  ) => {
+    setConversations((previous) => previous.map((conversation) => (
+      conversation.id === conversationId ? updater(conversation) : conversation
+    )));
   }, []);
 
-  // Handle submit
-  const handleSubmit = useCallback(
-    async (text: string) => {
-      const query = text.trim();
-      if (!query || loading) return;
+  const handleSubmit = useCallback(async (text: string, sessionOverride?: string | null) => {
+    const message = text.trim();
+    const conversation = conversations.find((item) => item.id === activeConversationId);
+    if (!message || requestRunning || !conversation) return;
 
-      const userMsg: ChatMessage = {
-        id: `u-${Date.now()}`,
-        role: "user",
-        text: query,
-        status: "done",
-      };
-      const assistantMsg: ChatMessage = {
-        id: `a-${Date.now()}`,
-        role: "assistant",
-        text: "",
-        status: "loading",
-      };
+    const conversationId = conversation.id;
+    const activeSessionId = sessionOverride === undefined ? conversation.sessionId : sessionOverride;
+    const timestamp = Date.now();
+    const userMsg: ChatMessage = { id: `u-${timestamp}-${makeId()}`, role: "user", text: message, status: "done" };
+    const assistantMsg: ChatMessage = { id: `a-${timestamp}-${makeId()}`, role: "assistant", text: "", status: "loading" };
 
-      setMessages((prev) => [...prev, userMsg, assistantMsg]);
-      setInput("");
-      setLoading(true);
-
-      try {
-        const data = await queryCompliance(query);
-        setLatestData(data);
-        setMessages((prev) =>
-          prev.map((m) =>
-            m.id === assistantMsg.id
-              ? { ...m, text: data.answer.conclusion, status: "done", data }
-              : m
-          )
-        );
-        setShowDetailPanel(true);
-      } catch (err) {
-        const errMsg =
-          err instanceof Error ? err.message : "查询失败，请稍后重试";
-        setMessages((prev) =>
-          prev.map((m) =>
-            m.id === assistantMsg.id
-              ? { ...m, text: errMsg, status: "error" }
-              : m
-          )
-        );
-      } finally {
-        setLoading(false);
-      }
-    },
-    [loading]
-  );
-
-  // Retry handler
-  const handleRetry = useCallback(
-    (text: string) => {
-      // Remove the last error message, then re-submit
-      setMessages((prev) => {
-        const lastTwo = prev.slice(-2);
-        if (
-          lastTwo.length === 2 &&
-          lastTwo[0].role === "user" &&
-          lastTwo[1].role === "assistant" &&
-          lastTwo[1].status === "error"
-        ) {
-          return prev.slice(0, -2);
-        }
-        return prev;
-      });
-      // Small delay to let state settle
-      setTimeout(() => handleSubmit(text), 50);
-    },
-    [handleSubmit]
-  );
-
-  // Keyboard handler
-  const handleKeyDown = useCallback(
-    (e: React.KeyboardEvent) => {
-      if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) {
-        e.preventDefault();
-        handleSubmit(input);
-      }
-    },
-    [handleSubmit, input]
-  );
-
-  // New query
-  const handleNewQuery = useCallback(() => {
+    updateConversation(conversationId, (current) => ({
+      ...current,
+      title: current.messages.some((item) => item.role === "user") ? current.title : titleFromMessage(message),
+      updatedAt: timestamp,
+      messages: [...current.messages, userMsg, assistantMsg],
+    }));
     setInput("");
-    inputRef.current?.focus();
-  }, []);
+    setLoadingConversationId(conversationId);
 
-  // Find latest assistant message with data
-  const latestAssistant = [...messages].reverse().find((m) => m.role === "assistant");
-  const showPanels = latestAssistant?.data != null;
+    let streamError = "";
+    let receivedMessage = false;
 
-  // Responsive detail drawer
-  const [isMobilePanelOpen, setIsMobilePanelOpen] = useState(false);
+    const consumeStream = async (sessionId?: string) => {
+      streamError = "";
+      receivedMessage = false;
+      await queryComplianceStream(message, (event) => {
+        if (event.type === "progress") {
+          updateConversation(conversationId, (current) => ({
+            ...current,
+            messages: current.messages.map((item) => {
+              if (item.id !== assistantMsg.id) return item;
+              const progress = [...(item.progress ?? [])];
+              const existingIndex = progress.findIndex((step) => step.id === event.data.id);
+              if (existingIndex >= 0) progress[existingIndex] = event.data;
+              else progress.push(event.data);
+              return { ...item, progress };
+            }),
+          }));
+          return;
+        }
 
-  const toggleMobilePanel = () => setIsMobilePanelOpen(!isMobilePanelOpen);
+        if (event.type === "message") {
+          receivedMessage = true;
+          const displayData = event.data.answer ? compactResponse(event.data) : undefined;
+          updateConversation(conversationId, (current) => ({
+            ...current,
+            sessionId: event.data.sessionId,
+            updatedAt: Date.now(),
+            messages: current.messages.map((item) => item.id === assistantMsg.id
+              ? {
+                  ...item,
+                  text: event.data.message,
+                  status: "done",
+                  ...(displayData ? { data: displayData } : {}),
+                }
+              : item),
+          }));
+          if (event.data.answer) {
+            setSelectedSourceMessageId(assistantMsg.id);
+            setSourcesOpen(event.data.answer.regulatoryBasis.length > 0);
+          }
+          return;
+        }
+
+        if (event.type === "error") {
+          streamError = event.message;
+          updateConversation(conversationId, (current) => ({
+            ...current,
+            messages: current.messages.map((item) => item.id === assistantMsg.id
+              ? { ...item, text: event.message, status: "error" }
+              : item),
+          }));
+        }
+      }, { sessionId });
+    };
+
+    try {
+      await consumeStream(activeSessionId ?? undefined);
+
+      if (activeSessionId && streamError.includes("对话已失效")) {
+        updateConversation(conversationId, (current) => ({
+          ...current,
+          sessionId: null,
+          messages: current.messages.map((item) => item.id === assistantMsg.id
+            ? { ...item, text: "", status: "loading", progress: [] }
+            : item),
+        }));
+        await consumeStream(undefined);
+      }
+
+      if (!receivedMessage && !streamError) {
+        throw new Error("响应流已结束，但没有收到 Agent 回答");
+      }
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : "查询失败，请稍后重试";
+      updateConversation(conversationId, (current) => ({
+        ...current,
+        messages: current.messages.map((item) => item.id === assistantMsg.id
+          ? { ...item, text: errorMessage, status: "error" }
+          : item),
+      }));
+    } finally {
+      setLoadingConversationId(null);
+    }
+  }, [activeConversationId, conversations, requestRunning, updateConversation]);
+
+  const handleRetry = useCallback((text: string) => {
+    const conversationId = activeConversationId;
+    updateConversation(conversationId, (current) => {
+      const tail = current.messages.slice(-2);
+      const messagesWithoutError = tail.length === 2 && tail[0].role === "user" && tail[1].status === "error"
+        ? current.messages.slice(0, -2)
+        : current.messages;
+      return { ...current, messages: messagesWithoutError };
+    });
+    window.setTimeout(() => void handleSubmit(text), 50);
+  }, [activeConversationId, handleSubmit, updateConversation]);
+
+  const handleKeyDown = useCallback((event: React.KeyboardEvent) => {
+    if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
+      event.preventDefault();
+      void handleSubmit(input);
+    }
+  }, [handleSubmit, input]);
+
+  const handleNewConversation = useCallback(() => {
+    if (activeConversation?.messages.length === 0) {
+      setInput("");
+      setSourcesOpen(false);
+      inputRef.current?.focus();
+      return;
+    }
+    const conversation = createConversation();
+    setConversations((previous) => [conversation, ...previous]);
+    setActiveConversationId(conversation.id);
+    setSelectedSourceMessageId(null);
+    setSourcesOpen(false);
+    setInput("");
+  }, [activeConversation]);
+
+  const handleSelectConversation = useCallback((conversationId: string) => {
+    const conversation = conversations.find((item) => item.id === conversationId);
+    if (!conversation) return;
+    setActiveConversationId(conversationId);
+    setSelectedSourceMessageId(findLatestAnswerMessageId(conversation.messages));
+    setInput("");
+    updateConversation(conversationId, (current) => ({ ...current, updatedAt: Date.now() }));
+  }, [conversations, updateConversation]);
+
+  const handleDeleteConversation = useCallback((conversationId: string) => {
+    if (conversationId === loadingConversationId) return;
+    const remaining = conversations.filter((conversation) => conversation.id !== conversationId);
+    if (!remaining.length) {
+      const replacement = createConversation();
+      setConversations([replacement]);
+      setActiveConversationId(replacement.id);
+      setSelectedSourceMessageId(null);
+      setSourcesOpen(false);
+      return;
+    }
+    setConversations(remaining);
+    if (conversationId === activeConversationId) {
+      const nextConversation = [...remaining].sort((left, right) => right.updatedAt - left.updatedAt)[0];
+      setActiveConversationId(nextConversation.id);
+      setSelectedSourceMessageId(findLatestAnswerMessageId(nextConversation.messages));
+      setSourcesOpen(Boolean(findLatestAnswerMessageId(nextConversation.messages)));
+    }
+  }, [activeConversationId, conversations, loadingConversationId]);
+
+  const handleToggleSources = useCallback(() => {
+    setSourcesOpen((current) => {
+      if (!current && !selectedSourceMessageId) {
+        setSelectedSourceMessageId(findLatestAnswerMessageId(messages));
+      }
+      return !current;
+    });
+  }, [messages, selectedSourceMessageId]);
 
   return (
-    <div className="flex h-screen overflow-hidden bg-surface">
-      {/* Sidebar */}
-      <Sidebar
-        questions={EXAMPLE_QUESTIONS}
-        onSelect={(q) => {
-          setInput(q);
-          handleSubmit(q);
-        }}
-        messages={messages}
-        onNewQuery={handleNewQuery}
+    <div className="flex h-screen overflow-hidden bg-[#f7f7f5]">
+      <ConversationSidebar
+        conversations={conversations}
+        activeConversationId={activeConversationId}
+        loadingConversationId={loadingConversationId}
+        mobileOpen={mobileSidebarOpen}
+        onCloseMobile={() => setMobileSidebarOpen(false)}
+        onNewConversation={handleNewConversation}
+        onSelectConversation={handleSelectConversation}
+        onDeleteConversation={handleDeleteConversation}
       />
 
-      {/* Center Chat */}
-      <div className="flex min-w-0 flex-1 flex-col">
-        {isInitializing ? (
+      <main className="flex min-w-0 flex-1 flex-col">
+        {isInitializing || !activeConversation ? (
           <LoadingSkeleton />
         ) : (
-          <>
-            {/* Detail panel toggle (mobile) */}
-            {showPanels && (
-              <div className="flex items-center justify-between border-b border-slate-200 bg-white px-4 py-2 md:hidden">
-                <button
-                  onClick={toggleMobilePanel}
-                  className="flex items-center gap-1.5 rounded-lg border border-slate-200 px-3 py-1.5 text-xs text-ink-secondary transition-base hover:bg-slate-50"
-                >
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <rect x="3" y="3" width="7" height="7" />
-                    <rect x="14" y="3" width="7" height="7" />
-                    <rect x="14" y="14" width="7" height="7" />
-                    <rect x="3" y="14" width="7" height="7" />
-                  </svg>
-                  查看产品画像
-                </button>
-                <span className="text-2xs text-ink-tertiary">只展示最终采用的法规依据</span>
-              </div>
-            )}
-
-            <div className="flex-1 overflow-hidden">
+          <div className="flex min-h-0 flex-1">
+            <section className="min-w-0 flex-1">
               <ChatPanel
                 messages={messages}
-                loading={loading}
+                loading={requestRunning}
                 onSubmit={handleSubmit}
                 onRetry={handleRetry}
                 input={input}
@@ -283,105 +316,130 @@ export function Workspace() {
                 onKeyDown={handleKeyDown}
                 inputRef={inputRef}
                 scrollRef={scrollRef}
+                conversationTitle={activeConversation.title}
+                sourcesOpen={sourcesOpen}
+                selectedSourceMessageId={selectedSourceMessageId}
+                onNewConversation={handleNewConversation}
+                onOpenSidebar={() => setMobileSidebarOpen(true)}
+                onToggleSources={handleToggleSources}
+                onSelectSources={(messageId) => {
+                  setSelectedSourceMessageId(messageId);
+                  setSourcesOpen(true);
+                }}
               />
-            </div>
-          </>
+            </section>
+            <RegulatorySourcesPanel
+              open={sourcesOpen}
+              answer={selectedAnswer}
+              onClose={() => setSourcesOpen(false)}
+            />
+          </div>
         )}
-      </div>
-
-      {/* Right Detail Panel (Desktop) */}
-      {showPanels && latestAssistant?.data ? (
-        <aside className="hidden w-96 shrink-0 overflow-y-auto border-l border-slate-200 bg-surface scrollbar-thin xl:block">
-          <div className="space-y-4 p-4">
-            <ProductStructurePanel
-              structure={latestAssistant.data.answer.productStructure}
-              conclusion={latestAssistant.data.answer.conclusion}
-              conclusionLabel={latestAssistant.data.answer.conclusionLabel}
-            />
-          </div>
-        </aside>
-      ) : (
-        <aside className="hidden w-96 shrink-0 border-l border-slate-200 bg-surface xl:flex xl:flex-col xl:items-center xl:justify-center">
-          <div className="px-8 text-center">
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="text-ink-tertiary"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <rect x="3" y="3" width="7" height="7" />
-                <rect x="14" y="3" width="7" height="7" />
-                <rect x="14" y="14" width="7" height="7" />
-                <rect x="3" y="14" width="7" height="7" />
-              </svg>
-            </div>
-            <p className="text-sm text-ink-tertiary">
-              提交合规问题后
-              <br />
-              这里将展示产品画像
-              <br />
-              和回答适用范围
-            </p>
-          </div>
-        </aside>
-      )}
-
-      {/* Mobile Detail Panel (slide-over overlay) */}
-      {showPanels && latestAssistant?.data && (
-        <>
-          {/* Overlay */}
-          {isMobilePanelOpen && (
-            <div
-              className="fixed inset-0 z-40 bg-black/30 backdrop-blur-sm xl:hidden"
-              onClick={() => setIsMobilePanelOpen(false)}
-            />
-          )}
-
-          {/* Drawer */}
-          <div
-            className={clsx(
-              "fixed bottom-0 left-0 right-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl bg-surface shadow-floating transition-transform duration-300 ease-out xl:hidden scrollbar-thin",
-              isMobilePanelOpen ? "translate-y-0" : "translate-y-full"
-            )}
-          >
-            <div className="sticky top-0 z-10 flex items-center justify-between border-b border-slate-200 bg-surface px-5 py-3">
-              <h3 className="text-sm font-semibold text-ink">产品画像与适用范围</h3>
-              <button
-                onClick={() => setIsMobilePanelOpen(false)}
-                className="rounded-lg p-1.5 text-ink-tertiary transition-base hover:bg-slate-100"
-              >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </button>
-            </div>
-            <div className="space-y-4 p-4 pb-8">
-              <ProductStructurePanel
-                structure={latestAssistant.data.answer.productStructure}
-                conclusion={latestAssistant.data.answer.conclusion}
-                conclusionLabel={latestAssistant.data.answer.conclusionLabel}
-              />
-            </div>
-          </div>
-        </>
-      )}
-
+      </main>
     </div>
   );
+}
+
+function createConversation(): ChatConversation {
+  const now = Date.now();
+  return {
+    id: `conversation-${now}-${makeId()}`,
+    title: "新对话",
+    createdAt: now,
+    updatedAt: now,
+    sessionId: null,
+    messages: [],
+  };
+}
+
+function makeId() {
+  return typeof crypto !== "undefined" && "randomUUID" in crypto
+    ? crypto.randomUUID().slice(0, 8)
+    : Math.random().toString(36).slice(2, 10);
+}
+
+function titleFromMessage(message: string) {
+  const normalized = message.replace(/\s+/g, " ").trim();
+  return normalized.length > 28 ? `${normalized.slice(0, 28)}…` : normalized;
+}
+
+function findLatestAnswerMessageId(messages: ChatMessage[]) {
+  for (let index = messages.length - 1; index >= 0; index -= 1) {
+    if (messages[index].data?.answer) return messages[index].id;
+  }
+  return null;
+}
+
+function compactResponse(data: ComplianceQueryResponseData): ComplianceQueryResponseData {
+  const { trace: _trace, ...withoutTrace } = data;
+  return { ...withoutTrace, hits: [] };
+}
+
+function persistConversations(conversations: ChatConversation[]) {
+  try {
+    const serializable = [...conversations]
+      .sort((left, right) => right.updatedAt - left.updatedAt)
+      .slice(0, MAX_STORED_CONVERSATIONS)
+      .map((conversation) => ({
+        ...conversation,
+        messages: conversation.messages.map(({ progress: _progress, ...message }) => (
+          message.status === "loading"
+            ? { ...message, status: "error" as const, text: "回答在页面关闭前中断，请重新发送。" }
+            : message
+        )),
+      }));
+    window.localStorage.setItem(CONVERSATION_STORAGE_KEY, JSON.stringify(serializable));
+  } catch (error) {
+    console.warn("无法保存历史对话", error);
+  }
+}
+
+function loadConversations(): ChatConversation[] {
+  try {
+    const raw = window.localStorage.getItem(CONVERSATION_STORAGE_KEY);
+    if (!raw) return [];
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map(normalizeConversation).filter((item): item is ChatConversation => Boolean(item));
+  } catch {
+    return [];
+  }
+}
+
+function normalizeConversation(value: unknown): ChatConversation | null {
+  if (!value || typeof value !== "object") return null;
+  const record = value as Record<string, unknown>;
+  if (typeof record.id !== "string" || !Array.isArray(record.messages)) return null;
+  const messages = record.messages.map(normalizeMessage).filter((item): item is ChatMessage => Boolean(item));
+  const createdAt = typeof record.createdAt === "number" ? record.createdAt : Date.now();
+  return {
+    id: record.id,
+    title: typeof record.title === "string" && record.title.trim() ? record.title : "新对话",
+    createdAt,
+    updatedAt: typeof record.updatedAt === "number" ? record.updatedAt : createdAt,
+    sessionId: typeof record.sessionId === "string" ? record.sessionId : null,
+    messages,
+  };
+}
+
+function normalizeMessage(value: unknown): ChatMessage | null {
+  if (!value || typeof value !== "object") return null;
+  const record = value as Record<string, unknown>;
+  if (
+    typeof record.id !== "string"
+    || (record.role !== "user" && record.role !== "assistant")
+    || typeof record.text !== "string"
+  ) return null;
+  const status = record.status === "loading" || record.status === "done" || record.status === "error"
+    ? record.status
+    : undefined;
+  return {
+    id: record.id,
+    role: record.role,
+    text: record.text,
+    ...(status ? { status } : {}),
+    ...(record.data && typeof record.data === "object"
+      ? { data: record.data as ComplianceQueryResponseData }
+      : {}),
+  };
 }

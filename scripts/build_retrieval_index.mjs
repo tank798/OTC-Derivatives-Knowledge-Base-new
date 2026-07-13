@@ -377,7 +377,7 @@ async function main() {
   writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n", "utf8");
   const evalReadme = resolve(INDEX_DIR, "eval/README.md");
   if (!existsSync(evalReadme)) {
-    writeFileSync(evalReadme, "# 检索评测集\n\n运行 `node scripts/evaluate_retrieval.mjs` 生成评测结果。\n", "utf8");
+    writeFileSync(evalReadme, "# 手动问答核验\n\n启动本地 API 和前端，在聊天页面使用 `queries.jsonl` 中的示例问题进行真实对话测试。\n", "utf8");
   }
   console.log(JSON.stringify({
     documents: documents.length,

@@ -2,384 +2,110 @@
 
 import { useState } from "react";
 import type { ComplianceQueryResponseData } from "@otc/shared";
-import clsx from "clsx";
 
-// ── Conclusion color mapping ──
-const CONCLUSION_CLASSES: Record<string, { banner: string; badge: string; label: string }> = {
-  "可做": {
-    banner: "border-success/30 bg-success/5",
-    badge: "bg-success text-white",
-    label: "合规结论",
-  },
-  "不可做": {
-    banner: "border-danger/30 bg-danger/5",
-    badge: "bg-danger text-white",
-    label: "合规结论",
-  },
-  "有条件可做": {
-    banner: "border-warning/30 bg-warning/5",
-    badge: "bg-warning text-white",
-    label: "合规结论",
-  },
-  "需人工合规复核": {
-    banner: "border-warning/30 bg-warning/5",
-    badge: "bg-warning/15 text-warning-700 border border-warning/30",
-    label: "需复核",
-  },
-};
-
-const CONFIDENCE_MAP: Record<string, { label: string; class: string }> = {
-  "可做": { label: "高置信度", class: "text-success" },
-  "不可做": { label: "高置信度", class: "text-success" },
-  "有条件可做": { label: "中置信度", class: "text-warning" },
-  "需人工合规复核": { label: "低置信度 — 建议人工复核", class: "text-warning" },
-};
-
-// ── Props ──
 type Props = {
   data: ComplianceQueryResponseData;
+  sourcesSelected: boolean;
+  onShowSources: () => void;
 };
 
-export function ComplianceAnswerCard({ data }: Props) {
-  const { answer } = data;
+export function ComplianceAnswerCard({ data, sourcesSelected, onShowSources }: Props) {
+  const answer = data.answer;
   const [copied, setCopied] = useState(false);
+  if (!answer) return null;
 
-  const colors = CONCLUSION_CLASSES[answer.conclusionLabel] ?? CONCLUSION_CLASSES["需人工合规复核"];
-  const confidence = CONFIDENCE_MAP[answer.conclusionLabel] ?? CONFIDENCE_MAP["需人工合规复核"];
-
-  // ── Copy handler ──
-  const handleCopy = async () => {
+  const copyAnswer = async () => {
     const text = [
-      `直接回答: ${answer.directAnswer}`,
-      `结论: ${answer.conclusion}（${answer.conclusionLabel}）`,
-      `结论层级: ${answer.conclusionLevel}`,
+      answer.conclusion,
       "",
-      "── 产品结构识别 ──",
-      `标的资产: ${answer.productStructure.underlyingAsset || "未识别"}`,
-      `产品类型: ${answer.productStructure.productType || "未识别"}`,
-      `交易结构: ${answer.productStructure.transactionStructure || "未识别"}`,
-      `交易对手方: ${answer.productStructure.counterparty || "未识别"}`,
-      `投资者类型: ${answer.productStructure.investorType || "未识别"}`,
-      `是否跨境: ${answer.productStructure.isCrossBorder ? "是" : "否"}`,
-      ...answer.productStructure.riskPoints.map((r) => `风险点: ${r}`),
-      ...answer.productStructure.missingInfo.map((m) => `待补充: ${m}`),
+      `分析如下：${answer.reasoningSummary}`,
       "",
-      "── 法规依据 ──",
-      ...answer.regulatoryBasis.map(
-        (b, i) =>
-          `${i + 1}. 《${b.title}》` +
-          (b.articleNo ? ` ${b.articleNo}` : "") +
-          `\n   ${b.excerpt}` +
-          (b.url ? `\n   ${b.url}` : "")
-      ),
-      "",
-      "── 限制条件 ──",
-      ...answer.restrictions.map((r, i) => `${i + 1}. ${r}`),
-      "",
-      ...(answer.missingInfo.length > 0
-        ? [
-            "── 待补充信息 ──",
-            ...answer.missingInfo.map((m) => `- ${m}`),
-            "",
-          ]
-        : []),
-      ...(answer.manualReviewNote
-        ? [`── 人工复核提示 ──`, answer.manualReviewNote, ""]
-        : []),
+      "法规依据",
+      ...answer.regulatoryBasis.map((basis, index) => [
+        `${index + 1}. 《${basis.title}》${basis.articleNo ? ` ${basis.articleNo}` : ""}`,
+        basis.documentNumber || "",
+        `原文：${basis.quoteExact}`,
+        `说明：${basis.explanation}`,
+        basis.url || "",
+      ].filter(Boolean).join("\n")),
+      ...(answer.missingInformation.length ? ["", "当前仍缺少", ...answer.missingInformation.map((item) => `- ${item}`)] : []),
+      ...(answer.manualReviewNote ? ["", "复核提示", answer.manualReviewNote] : []),
     ].join("\n");
 
     try {
       await navigator.clipboard.writeText(text);
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      window.setTimeout(() => setCopied(false), 1600);
     } catch {
-      // Clipboard API not available
+      // Clipboard can be unavailable in local non-secure contexts.
     }
   };
 
   return (
-    <div className="w-full max-w-[85%] animate-slide-up space-y-4">
-      {/* ── Conclusion Banner ── */}
-      <div
-        className={clsx(
-          "rounded-xl border p-4",
-          colors.banner
-        )}
-      >
-        <div className="flex items-start justify-between gap-3">
-          <div className="min-w-0 flex-1">
-            <div className="flex items-center gap-2">
-              <span className={clsx("rounded-md px-2 py-0.5 text-xs font-bold", colors.badge)}>
-                {answer.conclusionLabel}
-              </span>
-              <span className={clsx("text-2xs font-medium", confidence.class)}>
-                {confidence.label}
-              </span>
-              <span className="rounded bg-white/60 px-2 py-0.5 text-2xs text-ink-secondary">
-                {answer.conclusionLevel}
-              </span>
-            </div>
-            <p className="mt-2 text-base font-semibold leading-7 text-ink">
-              <span className="mr-2 text-lg">{answer.directAnswer}</span>
-              {answer.conclusion}
+    <article className="w-full max-w-[740px] animate-slide-up text-[#30302d]">
+      <section className="border-b border-[#deded9] pb-6">
+        <div className="flex items-start justify-between gap-5">
+          <div className="min-w-0">
+            <p className="text-[16px] font-semibold leading-8 tracking-[-0.01em] text-[#242421]">{answer.conclusion}</p>
+            <p className="mt-3 whitespace-pre-wrap text-[14px] leading-7 text-[#4c4c47]">
+              <span className="font-medium text-[#343431]">分析如下：</span>
+              {answer.reasoningSummary}
             </p>
           </div>
-          <button
-            onClick={handleCopy}
-            className="no-print shrink-0 rounded-lg border border-white/50 bg-white/60 px-3 py-1.5 text-2xs text-ink-secondary transition-base hover:bg-white"
-          >
-            {copied ? (
-              <span className="flex items-center gap-1">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-success"><polyline points="20 6 9 17 4 12" /></svg>
-                已复制
-              </span>
-            ) : (
-              <span className="flex items-center gap-1">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-                复制
-              </span>
+          <div className="flex shrink-0 items-center gap-1.5">
+            {answer.regulatoryBasis.length > 0 && (
+              <button
+                type="button"
+                onClick={onShowSources}
+                className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-[11px] transition-colors ${
+                  sourcesSelected
+                    ? "border-[#c8c8c2] bg-[#ecece8] text-[#373733]"
+                    : "border-[#d8d8d2] bg-white text-[#686863] hover:bg-[#f0f0ed] hover:text-[#292926]"
+                }`}
+              >
+                <SourcesPanelIcon />
+                法规依据 {answer.regulatoryBasis.length}
+              </button>
             )}
-          </button>
-        </div>
-      </div>
-
-      {/* ── Applicable scope ── */}
-      <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-        <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-ink-tertiary">适用范围</h3>
-        <div className="grid grid-cols-2 gap-2 text-xs">
-          <Field label="主体" value={answer.scope.subject} />
-          <Field label="产品" value={answer.scope.product} />
-          <Field label="交易对手" value={answer.scope.counterparty} />
-          <Field label="时间" value={answer.scope.time} />
-        </div>
-        {answer.scope.conditions.length > 0 && (
-          <ul className="mt-3 list-disc space-y-1 border-t border-slate-100 pt-3 pl-5 text-xs leading-6 text-ink-secondary">
-            {answer.scope.conditions.map((condition) => <li key={condition}>{condition}</li>)}
-          </ul>
-        )}
-      </div>
-
-      {/* ── Product Structure ── */}
-      <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-        <h3 className="mb-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-ink-tertiary">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" />
-          </svg>
-          产品结构识别
-        </h3>
-        <div className="grid grid-cols-2 gap-x-6 gap-y-2.5 text-sm">
-          <Field label="标的资产" value={answer.productStructure.underlyingAsset} />
-          <Field label="产品类型" value={answer.productStructure.productType} />
-          <Field label="交易结构" value={answer.productStructure.transactionStructure} />
-          <Field label="交易对手方" value={answer.productStructure.counterparty} />
-          <Field label="投资者类型" value={answer.productStructure.investorType} />
-          <div className="flex items-center justify-between rounded-md bg-slate-50 px-3 py-1.5">
-            <span className="text-xs text-ink-tertiary">是否跨境</span>
-            <span
-              className={clsx(
-                "text-xs font-medium",
-                answer.productStructure.isCrossBorder
-                  ? "text-warning"
-                  : "text-ink-secondary"
-              )}
+            <button
+              type="button"
+              onClick={copyAnswer}
+              className="rounded-full border border-[#d8d8d2] bg-white px-3 py-1.5 text-[11px] text-[#686863] transition-colors hover:bg-[#f0f0ed] hover:text-[#292926]"
             >
-              {answer.productStructure.isCrossBorder ? "是 — 需关注外汇管理要求" : "否"}
-            </span>
+              {copied ? "已复制" : "复制"}
+            </button>
           </div>
         </div>
+      </section>
 
-        {/* Risk points */}
-        {answer.productStructure.riskPoints.length > 0 && (
-          <div className="mt-3 border-t border-slate-100 pt-3">
-            <div className="flex flex-wrap gap-1.5">
-              {answer.productStructure.riskPoints.map((r) => (
-                <span
-                  key={r}
-                  className="rounded-md bg-danger/8 px-2 py-0.5 text-xs font-medium text-danger"
-                >
-                  ⚠ {r}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Missing info */}
-        {answer.productStructure.missingInfo.length > 0 && (
-          <div className="mt-3 rounded-lg border border-warning/20 bg-warning/5 px-3 py-2">
-            <p className="text-xs font-medium text-warning">待补充信息</p>
-            <ul className="mt-1 list-disc pl-4 text-xs text-warning/80">
-              {answer.productStructure.missingInfo.map((m) => (
-                <li key={m}>{m}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </div>
-
-      {/* ── Regulatory Basis ── */}
-      {answer.regulatoryBasis.length > 0 && (
-        <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-          <h3 className="mb-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-ink-tertiary">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
-            </svg>
-            法规依据（{answer.regulatoryBasis.length} 条）
-          </h3>
-          <div className="space-y-3">
-            {answer.regulatoryBasis.map((basis, i) => (
-              <RegulatoryBasisCard key={i} basis={basis} index={i} />
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* ── Restrictions ── */}
-      {answer.restrictions.length > 0 && (
-        <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-          <h3 className="mb-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-ink-tertiary">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="12" cy="12" r="10" /><line x1="4.93" y1="4.93" x2="19.07" y2="19.07" />
-            </svg>
-            限制条件
-          </h3>
-          <ol className="space-y-2">
-            {answer.restrictions.map((r, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-ink-secondary">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded bg-slate-100 text-2xs font-medium text-ink-tertiary">
-                  {i + 1}
-                </span>
-                <span className="leading-6">{r}</span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      )}
-
-      {/* ── Missing Info ── */}
-      {answer.missingInfo.length > 0 && (
-        <div className="rounded-xl border border-warning/20 bg-warning/5 p-4">
-          <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-warning">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
-            </svg>
-            待补充信息
-          </h3>
-          <ul className="space-y-1">
-            {answer.missingInfo.map((m, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm leading-6 text-warning/80">
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-warning/40" />
-                {m}
-              </li>
-            ))}
+      {answer.missingInformation.length > 0 && (
+        <section className="border-b border-[#deded9] py-6">
+          <SectionHeading>当前仍缺少</SectionHeading>
+          <ul className="mt-3 list-disc space-y-1.5 pl-5 text-[13px] leading-6 text-[#65655f]">
+            {answer.missingInformation.map((item, index) => <li key={`${item}-${index}`}>{item}</li>)}
           </ul>
-        </div>
+        </section>
       )}
 
-      {/* ── Manual Review Note ── */}
       {answer.manualReviewNote && (
-        <div className="rounded-xl border border-warning/30 bg-warning/5 p-4">
-          <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-warning">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" /><line x1="12" y1="9" x2="12" y2="13" /><line x1="12" y1="17" x2="12.01" y2="17" />
-            </svg>
-            人工复核提示
-          </h3>
-          <p className="text-sm leading-6 text-warning/80">{answer.manualReviewNote}</p>
-        </div>
+        <section className="py-6">
+          <SectionHeading>复核提示</SectionHeading>
+          <p className="mt-3 whitespace-pre-wrap text-[13px] leading-6 text-[#65655f]">{answer.manualReviewNote}</p>
+        </section>
       )}
-
-    </div>
+    </article>
   );
 }
 
-// ── Field sub-component ──
-function Field({ label, value }: { label: string; value?: string }) {
-  const missing = !value || value === "";
-  return (
-    <div className="flex items-center justify-between rounded-md bg-slate-50 px-3 py-1.5">
-      <span className="text-xs text-ink-tertiary">{label}</span>
-      <span
-        className={clsx(
-          "text-xs font-medium",
-          missing ? "text-warning" : "text-ink-secondary"
-        )}
-      >
-        {missing ? "待识别" : value}
-      </span>
-    </div>
-  );
+function SectionHeading({ children }: { children: React.ReactNode }) {
+  return <h3 className="text-[11px] font-medium tracking-[0.08em] text-[#8f8f89]">{children}</h3>;
 }
 
-// ── Regulatory Basis Card ──
-function RegulatoryBasisCard({
-  basis,
-  index,
-}: {
-  basis: ComplianceQueryResponseData["answer"]["regulatoryBasis"][number];
-  index: number;
-}) {
-  const [expanded, setExpanded] = useState(false);
-  const isLong = basis.excerpt.length > 200;
-  const displayText = expanded || !isLong ? basis.excerpt : basis.excerpt.slice(0, 200) + "…";
-
+function SourcesPanelIcon() {
   return (
-    <div className="rounded-lg border border-slate-100 bg-slate-50/50 p-3 transition-base hover:border-slate-200">
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0 flex-1">
-          <p className="text-sm font-semibold text-ink">
-            《{basis.title}》
-          </p>
-          <div className="mt-0.5 flex flex-wrap items-center gap-2">
-            <span className="text-xs text-ink-tertiary">{basis.publisher}</span>
-            {basis.articleNo && (
-              <span className="rounded bg-accent/10 px-1.5 py-0.5 text-2xs font-medium text-accent">
-                {basis.articleNo}
-              </span>
-            )}
-          </div>
-        </div>
-        <span className="shrink-0 text-2xs text-ink-tertiary">#{index + 1}</span>
-      </div>
-
-      {/* Exact source quote */}
-      <div className="mt-2">
-        <p className="mb-1 text-2xs font-semibold text-ink-tertiary">法规原文（逐字引用）</p>
-        <p className="text-xs leading-6 text-ink-secondary">{displayText}</p>
-        {isLong && (
-          <button
-            onClick={() => setExpanded(!expanded)}
-            className="mt-0.5 text-xs text-accent hover:underline"
-          >
-            {expanded ? "收起" : "展开全文"}
-          </button>
-        )}
-      </div>
-
-      {/* Requirement */}
-      {basis.requirement && (
-        <div className="mt-2 rounded-md bg-white px-2.5 py-1.5 shadow-sm">
-          <p className="text-2xs font-semibold text-ink-tertiary">该条文支持的结论</p>
-          <p className="mt-0.5 text-xs font-medium leading-6 text-ink">{basis.requirement}</p>
-        </div>
-      )}
-
-      {basis.status && <p className="mt-1.5 text-2xs text-ink-tertiary">效力状态：{basis.status}</p>}
-
-      {/* Link */}
-      {basis.url && (
-        <a
-          href={basis.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-1.5 inline-flex items-center gap-1 text-xs text-accent transition-base hover:text-accent/80"
-        >
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
-          </svg>
-          查看原文
-        </a>
-      )}
-    </div>
+    <svg width="13" height="13" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <rect x="3" y="4" width="14" height="12" rx="2" stroke="currentColor" strokeWidth="1.35" />
+      <path d="M12.5 4v12" stroke="currentColor" strokeWidth="1.35" />
+    </svg>
   );
 }

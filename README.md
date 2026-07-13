@@ -1,6 +1,6 @@
 # 场外衍生品法规知识库问答系统
 
-本项目把本地监管原件加工为结构化 Chunk，并由受控问答智能体规划问题、调用 BM25 与本地中文向量组成的混合检索工具、判断证据是否充分、生成带法规原文的回答，再接受程序校验和独立模型审查。证据不足时不使用模型记忆补全法律结论。
+本项目把本地监管原件加工为结构化 Chunk，再由一个连续对话的 Pro Agent 先向用户确认问题、调用 BM25 与本地中文向量组成的混合检索工具、自主判断是否需要第二轮检索，并基于原文回答。证据不足是允许的正常结果；系统会说明现有法规规定到哪里，而不是用模型记忆补出确定法律结论。
 
 ## 当前数据
 
@@ -9,7 +9,7 @@
 - 1,228 个正式 Chunk，位于 `data/processed/chunks/jsonl/all_chunks.jsonl`。
 - Chunk 已完成全量复核，压缩结论见 `docs/chunk_review_final_report.md`。
 - BM25 和本地 BGE 向量索引已基于 1,228 个新 Chunk 重建，索引清单记录 108 份法规、50,581 个 BM25 词项和 1,228 个 768 维向量。
-- 3 道真实问题作为回归评测集。当前通用链路采用 Flash 检索规划 + Pro 证据判断、回答和审查，真实复跑结果为 3/3 通过。
+- 问答层使用同一个 Pro Agent 和同一套通用 Prompt，没有为三道示例问题预置相关 Chunk 或专项补丁。
 
 ## 目录
 
@@ -17,7 +17,7 @@
 apps/api/                   NestJS 问答 API
 apps/web/                   Next.js 问答界面
 packages/shared/            API 类型和 Zod schema
-packages/prompts/           规划、回答和独立审查 Prompt
+packages/prompts/           对话式法规 Agent 的 System Prompt
 knowledge_base/             文档解析、清洗、结构化切分
 data/raw/监管文件/          唯一法规原件目录
 data/processed/chunks/      最终 Chunk
@@ -25,7 +25,6 @@ data/processed/documents/   结构化法规正文
 data/metadata/              法规元数据源
 data/index/                 BM25、向量和检索语料
 scripts/                    索引、检索、URL 同步维护脚本
-tests/                      问答链路测试
 outputs/                    运行时人工处理输出（不提交临时文件）
 docs/                       问答与检索架构说明
 ```
@@ -64,19 +63,15 @@ pnpm download:retrieval-model
 
 模型下载到 `.cache/huggingface/`，不会提交 Git。
 
-## 端到端问答评测
+## 手动问答核验
 
-当前评测集位于 `data/index/eval/queries.jsonl`，包含：
+当前保留三道真实问题作为手动核验示例：
 
 - 上市公司能否开展挂钩自身股票的场外衍生品；
 - 证券公司收益凭证能否设计为雪球结构；
 - 私募产品投资雪球的比例限制。
 
-```bash
-pnpm eval:qa
-```
-
-评测直接调用正式 `ComplianceService`，完整经过规划、工具检索、证据充分性判断、回答、程序校验和独立审查，不预置所谓“人工相关 Chunk”。模型从最多 10 个最终证据 Chunk 中自行选择引用；评测检查最终判断、适用范围、必要法规、关键限定、逐字原文、官网链接以及循环上限。
+启动本地 API 和前端后，直接在聊天页面按真实用户流程测试：先看 Agent 对问题的改写，确认或修正后再观察检索与回答。运行日志写入被 Git 忽略的 `data/index/eval/logs/`。
 
 ## 官网 URL
 
@@ -98,35 +93,36 @@ pnpm dev:web   # http://127.0.0.1:3000
 API：
 
 - `GET /api/compliance/health`
-- `POST /api/compliance/query`，请求体 `{"query":"..."}`
+- `POST /api/compliance/query`，首轮请求体 `{"message":"..."}`，后续对话带上 `sessionId`
 - `POST /api/compliance/query/stream`，SSE
 
 前端、非流式 API 和流式 API 都调用同一套 `ComplianceService`。
 
+前端采用连续对话布局：左侧保存当前浏览器中的历史对话，可新建、切换和删除；中间展示问答与处理进度；右侧法规依据栏可展开或隐藏，并展示模型实际引用的法规原文与官网链接。关闭或刷新页面后，历史对话仍会保留在当前浏览器中。
+
 ## 问答链路
 
 ```text
-问题基础规范化
- -> LLM 规划子问题、正式术语和必需证据
- -> 调用 hybrid_regulation_search（BM25 + BGE + RRF）
- -> LLM 判断证据缺口，必要时补充检索一次
- -> LLM 基于最终证据生成结构化回答与逐字引文
- -> 程序校验引用、原文、数字、效力和适用范围
- -> 独立 LLM 审查证据是否真正支持结论
- -> 必要时修订回答或补充检索
- -> 最终输出或保守降级为“不能确认”
+用户提问
+ -> 同一个 Pro Agent 改写问题并等待用户确认
+ -> Agent 用一个完整问题调用 hybrid_regulation_search（BM25 + BGE + RRF）
+ -> Agent 阅读最多 10 个 Chunk，自主判断是否需要第二轮检索
+ -> 两轮时保留第一轮相关证据，合并后上下文仍最多 10 个 Chunk
+ -> 同一个 Agent 基于原文撰写回答
+ -> 程序只校验 evidence ID 和逐字引文是否真实
+ -> 系统回填法规名称、文号、条号和官网链接
+ -> 输出回答，或如实说明证据不足和待人工判断的边界
 ```
 
 BM25 对标题、章节、条号和正文等权索引，没有监管元数据加权。详细设计见 `docs/qa_retrieval_architecture.md`。
 
-## 测试
+## 静态检查
 
 ```bash
-pnpm test
-python3 -m unittest discover -s knowledge_base/tests -p 'test_*.py'
+pnpm build
 ```
 
-当前本地回归包括7项检索测试、48项受控智能体测试和60项文档处理测试。Node 测试覆盖索引一致性、中文 BM25、向量行号、RRF、工具输入校验、规划失败降级、第二轮检索、循环上限、DeepSeek过载有限重试、无密钥降级、多子问题证据均衡、证据角色、保守降级、幻觉引用拒绝、逐字引文、数字与日期防篡改、URL 回填、未来规则、除外条款、跨主体制度拦截和审查后修订。Python 测试覆盖文档解析、结构化、跨页续行、表格识别、Chunk 生成及查看页面生成；三组测试是不同层次，不能用其中一组代替另一组。
+静态构建用于检查 TypeScript 类型、NestJS 编译和 Next.js 页面构建。真实大模型问答通过本地聊天页面手动观察，不为三道示例题维护独立程序化判定器。
 
 ## 限制
 

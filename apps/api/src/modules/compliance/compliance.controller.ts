@@ -13,9 +13,9 @@ export class ComplianceController {
   ) {}
 
   @Post("query")
-  async query(@Body() body: { query: string; debug?: boolean }) {
-    if (!body.query?.trim()) {
-      return fail("请输入问题");
+  async query(@Body() body: { message: string; sessionId?: string; debug?: boolean }) {
+    if (!body.message?.trim()) {
+      return fail("请输入消息");
     }
 
     if (!this.retrieval.isReady) {
@@ -23,7 +23,10 @@ export class ComplianceController {
     }
 
     try {
-      const result = await this.compliance.answer(body.query.trim(), { debug: body.debug === true });
+      const result = await this.compliance.answer(body.message.trim(), {
+        sessionId: body.sessionId,
+        debug: body.debug === true,
+      });
       return ok(result);
     } catch (err) {
       const message = err instanceof Error ? err.message : "合规查询失败";
@@ -34,12 +37,12 @@ export class ComplianceController {
 
   @Post("query/stream")
   async queryStream(
-    @Body() body: { query: string },
+    @Body() body: { message: string; sessionId?: string; debug?: boolean },
     @Res() res: ExpressResponse,
   ) {
     // Validate input before setting up SSE
-    if (!body.query?.trim()) {
-      res.status(400).json({ success: false, error: { message: "请输入问题" } });
+    if (!body.message?.trim()) {
+      res.status(400).json({ success: false, error: { message: "请输入消息" } });
       return;
     }
 
@@ -65,7 +68,10 @@ export class ComplianceController {
     });
 
     try {
-      const stream = this.compliance.answerStream(body.query.trim());
+      const stream = this.compliance.answerStream(body.message.trim(), {
+        sessionId: body.sessionId,
+        debug: body.debug === true,
+      });
 
       for await (const event of stream) {
         if (aborted) break;

@@ -1,35 +1,71 @@
 import { Injectable } from "@nestjs/common";
-import type { ProductStructure, RetrievalHit } from "@otc/shared";
-import { AgentWorkflowService } from "./agent-workflow.service";
+import type { AgentChatResponse, AgentProgressEvent, AgentRegulatoryAnswer, RetrievalHit } from "@otc/shared";
+import { RegulatoryAgentService } from "./regulatory-agent.service";
 
 export type SSEEvent =
-  | { type: "thinking"; message: string }
-  | { type: "retrieving"; count: number }
-  | { type: "product_structure"; data: ProductStructure }
-  | { type: "answer_chunk"; content: string }
-  | { type: "answer"; data: Awaited<ReturnType<AgentWorkflowService["run"]>>["answer"] }
+  | { type: "progress"; data: AgentProgressEvent }
+  | { type: "message"; data: AgentChatResponse }
+  | { type: "answer"; data: AgentRegulatoryAnswer }
   | { type: "hits"; hits: RetrievalHit[] }
   | { type: "error"; message: string }
   | { type: "done" };
 
 @Injectable()
 export class ComplianceService {
-  constructor(private readonly workflow: AgentWorkflowService) {}
+  constructor(private readonly agent: RegulatoryAgentService) {}
 
-  answer(query: string, options: { debug?: boolean } = {}) {
-    return this.workflow.run(query, options);
+  answer(message: string, options: { sessionId?: string; debug?: boolean; onProgress?: (event: AgentProgressEvent) => void } = {}) {
+    return this.agent.run(message, options);
   }
 
-  async *answerStream(query: string): AsyncGenerator<SSEEvent, void, unknown> {
+  async *answerStream(
+    message: string,
+    options: { sessionId?: string; debug?: boolean } = {},
+  ): AsyncGenerator<SSEEvent, void, unknown> {
+    const queue: SSEEvent[] = [];
+    let wake: (() => void) | null = null;
+    let settled = false;
+    let result: AgentChatResponse | undefined;
+    let failure: unknown;
+    const push = (event: SSEEvent) => {
+      queue.push(event);
+      const resume = wake;
+      wake = null;
+      resume?.();
+    };
+
+    void this.answer(message, {
+      ...options,
+      onProgress: (event) => push({ type: "progress", data: event }),
+    }).then((value) => {
+      result = value;
+    }).catch((error) => {
+      failure = error;
+    }).finally(() => {
+      settled = true;
+      const resume = wake;
+      wake = null;
+      resume?.();
+    });
+
+    while (!settled || queue.length) {
+      if (queue.length) {
+        yield queue.shift()!;
+        continue;
+      }
+      await new Promise<void>((resolve) => {
+        wake = resolve;
+      });
+    }
+
     try {
-      yield { type: "thinking", message: "正在分析问题并制定法规检索计划…" };
-      const result = await this.answer(query);
-      yield { type: "product_structure", data: result.answer.productStructure };
-      yield { type: "retrieving", count: result.hits.length };
-      yield { type: "hits", hits: result.hits };
-      yield { type: "answer", data: result.answer };
+      if (failure) throw failure;
+      if (!result) throw new Error("法规 Agent 未返回结果");
+      yield { type: "message", data: result };
+      if (result.hits.length) yield { type: "hits", hits: result.hits };
+      if (result.answer) yield { type: "answer", data: result.answer };
     } catch (error) {
-      yield { type: "error", message: error instanceof Error ? error.message : "受控法规智能体执行异常" };
+      yield { type: "error", message: error instanceof Error ? error.message : "法规 Agent 执行异常" };
     } finally {
       yield { type: "done" };
     }

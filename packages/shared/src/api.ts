@@ -10,16 +10,21 @@ export type ApiResponse<T> =
   | { success: false; error: ApiError };
 
 // ────────── API 端点类型 ──────────
-export type ComplianceQueryRequest = { query: string; debug?: boolean };
-export type ComplianceQueryResponseData = import("./schemas").ComplianceQueryResponse;
+export type ComplianceQueryRequest = { message: string; sessionId?: string; debug?: boolean };
+export type ComplianceQueryResponseData = import("./schemas").AgentChatResponse;
 
-// ────────── 流式事件（预留） ──────────
+export type AgentProgressEvent = {
+  id: string;
+  label: string;
+  status: "running" | "done";
+  detail?: string;
+};
+
+// ────────── 流式事件 ──────────
 export type ComplianceStreamEvent =
-  | { type: "thinking"; message: string }
-  | { type: "retrieving"; count: number }
-  | { type: "product_structure"; data: ComplianceQueryResponseData["answer"]["productStructure"] }
-  | { type: "answer_chunk"; content: string }
-  | { type: "answer"; data: ComplianceQueryResponseData["answer"] }
+  | { type: "progress"; data: AgentProgressEvent }
+  | { type: "message"; data: ComplianceQueryResponseData }
+  | { type: "answer"; data: NonNullable<ComplianceQueryResponseData["answer"]> }
   | { type: "hits"; hits: ComplianceQueryResponseData["hits"] }
   | { type: "error"; message: string }
   | { type: "done" };

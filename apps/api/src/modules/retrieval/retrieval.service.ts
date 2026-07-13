@@ -2,7 +2,7 @@ import { Injectable, OnModuleInit } from "@nestjs/common";
 import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
-import type { HybridSearchInput, QueryAnalysis, RetrievalHit } from "@otc/shared";
+import type { AgentProgressEvent, HybridSearchInput, RetrievalHit } from "@otc/shared";
 
 type CoreModule = {
   MODEL_CACHE: string;
@@ -24,6 +24,7 @@ type CoreModule = {
 type CorpusRow = Record<string, any> & { chunk_id: string; document_id: string; text: string; document_title: string };
 type RankedHit = { chunk_id: string; index: number; rank: number; bm25?: number; vector?: number };
 type FusedHit = RankedHit & { rrf: number; bm25_rank?: number | null; vector_rank?: number | null };
+type ProgressCallback = (event: AgentProgressEvent) => void;
 
 const dynamicImport = new Function("specifier", "return import(specifier)") as (specifier: string) => Promise<any>;
 
@@ -62,25 +63,15 @@ export class RetrievalService implements OnModuleInit {
     };
   }
 
-  async search(analysis: QueryAnalysis, limit = 14): Promise<RetrievalHit[]> {
-    return this.hybridSearch({
-      queries: [...analysis.subQuestions, analysis.keywords.join(" ")].filter(Boolean),
-      subQuestion: analysis.legalIssue,
-      subjects: analysis.subjects,
-      productTypes: analysis.productTypes,
-      counterparties: [],
-      timeScope: analysis.timeRange,
-      requiredEvidence: analysis.topics,
-      topK: limit,
-    });
-  }
-
-  async hybridSearch(input: HybridSearchInput): Promise<RetrievalHit[]> {
+  async hybridSearch(input: HybridSearchInput, onProgress?: ProgressCallback): Promise<RetrievalHit[]> {
     if (!this.isReady) throw new Error("知识库索引尚未加载完成");
     const { keywordQueries, semanticQueries } = this.buildChannelQueries(input);
+    onProgress?.({ id: "bm25", label: "正在进行 BM25 关键词排序", status: "running" });
     const bm25Hits = this.mergeChannel(keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, 30)), "bm25");
+    onProgress?.({ id: "bm25", label: "BM25 关键词排序完成", status: "done", detail: `${bm25Hits.length} 个候选 Chunk` });
 
     let vectorHits: RankedHit[] = [];
+    onProgress?.({ id: "vector", label: "正在进行向量语义排序", status: "running" });
     try {
       const lists: RankedHit[][] = [];
       for (const query of semanticQueries) {
@@ -88,15 +79,19 @@ export class RetrievalService implements OnModuleInit {
         lists.push(this.core.searchVectors(queryVector, this.vectors!, this.corpus, this.core.MODEL_DIMENSION, 30));
       }
       vectorHits = this.mergeChannel(lists, "vector");
+      onProgress?.({ id: "vector", label: "向量语义排序完成", status: "done", detail: `${vectorHits.length} 个候选 Chunk` });
     } catch (error) {
       console.warn(`[Retrieval] 向量检索不可用，当前请求仅返回BM25结果: ${error instanceof Error ? error.message : error}`);
+      onProgress?.({ id: "vector", label: "向量排序不可用，已使用关键词结果", status: "done" });
     }
 
+    onProgress?.({ id: "rrf", label: "正在融合两路检索结果", status: "running" });
     let fused = this.core.reciprocalRankFusion(bm25Hits, vectorHits, { k: 60, limit: 30 });
     fused = this.prependExactMatches(input.queries.join(" "), fused);
     const evidence = this.core.assembleEvidence(fused, this.corpus, { limit: input.topK, maxWithContext: input.topK });
     const maxRrf = Math.max(...fused.map((hit) => hit.rrf), 1 / 61);
     const rrfRanks = new Map(fused.map((hit, index) => [hit.chunk_id, index + 1]));
+    onProgress?.({ id: "rrf", label: "混合检索结果已整理", status: "done", detail: `${evidence.length} 个法规 Chunk` });
 
     return evidence.map((row: any) => {
       const retrieval = row.retrieval as FusedHit | null;

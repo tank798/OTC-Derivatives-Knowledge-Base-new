@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, type RefObject } from "react";
-import type { ChatMessage } from "./workspace";
+import type { ChatMessage } from "./chat-types";
 import { ComplianceAnswerCard } from "./compliance-answer-card";
 import { ThinkingBubble } from "./thinking-bubble";
 
@@ -11,21 +11,23 @@ type Props = {
   onSubmit: (text: string) => void;
   onRetry: (text: string) => void;
   input: string;
-  setInput: (v: string) => void;
-  onKeyDown: (e: React.KeyboardEvent) => void;
+  setInput: (value: string) => void;
+  onKeyDown: (event: React.KeyboardEvent) => void;
   inputRef: RefObject<HTMLTextAreaElement | null>;
   scrollRef: RefObject<HTMLDivElement | null>;
+  conversationTitle: string;
+  sourcesOpen: boolean;
+  selectedSourceMessageId: string | null;
+  onNewConversation: () => void;
+  onOpenSidebar: () => void;
+  onToggleSources: () => void;
+  onSelectSources: (messageId: string) => void;
 };
 
 const EXAMPLE_TAGS = [
-  "收益互换监管要求",
-  "场外期权适当性管理",
-  "收益凭证合格投资者",
-  "跨境衍生品外汇管理",
-  "期货公司风险揭示",
-  "私募基金收益凭证",
-  "结构化产品挂钩规则",
-  "SAC协议签署要求",
+  "上市公司可以做挂钩自己股票的场外衍生品吗？",
+  "券商收益凭证可以做雪球吗？",
+  "私募产品投资雪球的比例有明确规定吗？",
 ];
 
 export function ChatPanel({
@@ -38,276 +40,249 @@ export function ChatPanel({
   onKeyDown,
   inputRef,
   scrollRef,
+  conversationTitle,
+  sourcesOpen,
+  selectedSourceMessageId,
+  onNewConversation,
+  onOpenSidebar,
+  onToggleSources,
+  onSelectSources,
 }: Props) {
-  // Auto-scroll to bottom when messages change
   useEffect(() => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollTo({
-        top: scrollRef.current.scrollHeight,
-        behavior: "smooth",
-      });
-    }
+    scrollRef.current?.scrollTo({
+      top: scrollRef.current.scrollHeight,
+      behavior: "smooth",
+    });
   }, [messages, scrollRef]);
+
+  useEffect(() => {
+    if (!input && inputRef.current) inputRef.current.style.height = "auto";
+  }, [input, inputRef]);
 
   const showWelcome = messages.length === 0;
 
   return (
-    <div className="mx-auto flex h-full max-w-[820px] flex-col">
-      {/* Messages */}
-      <div
-        ref={scrollRef}
-        className="flex-1 overflow-y-auto scrollbar-thin px-1 pb-4"
-      >
+    <div className="relative flex h-full w-full flex-col">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b border-transparent px-3 sm:px-5">
+        <div className="flex min-w-0 items-center gap-1.5">
+          <button
+            type="button"
+            onClick={onOpenSidebar}
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[#696963] transition-colors hover:bg-[#ecece8] lg:hidden"
+            aria-label="打开历史对话"
+          >
+            <SidebarIcon />
+          </button>
+          <h1 className="max-w-[42vw] truncate px-1.5 text-[13px] font-semibold tracking-[-0.01em] text-[#2d2d29] sm:max-w-[360px]">
+            {conversationTitle || "新对话"}
+          </h1>
+          <button
+            type="button"
+            onClick={onNewConversation}
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[#6c6c66] transition-colors hover:bg-[#ecece8] hover:text-[#282825]"
+            aria-label="新建对话"
+            title="新建对话"
+          >
+            <PlusIcon />
+          </button>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="hidden items-center gap-2 px-2 text-[10px] text-[#979791] sm:flex">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#68a86b]" />
+            法规库已连接
+          </div>
+          <button
+            type="button"
+            onClick={onToggleSources}
+            className={`flex h-8 w-8 items-center justify-center rounded-lg border transition-colors ${
+              sourcesOpen
+                ? "border-[#d1d1cc] bg-[#ebebe7] text-[#343430]"
+                : "border-transparent text-[#74746e] hover:bg-[#ecece8] hover:text-[#343430]"
+            }`}
+            aria-label={sourcesOpen ? "隐藏法规依据" : "显示法规依据"}
+            title={sourcesOpen ? "隐藏法规依据" : "显示法规依据"}
+          >
+            <SourcesPanelToggleIcon open={sourcesOpen} />
+          </button>
+        </div>
+      </header>
+
+      <div ref={scrollRef} className="scrollbar-hidden flex-1 overflow-y-auto px-5 sm:px-8">
         {showWelcome ? (
-          <div className="flex min-h-full flex-col items-center justify-center py-16">
-            {/* Logo / Icon */}
-            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-accent/10">
-              <svg
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="text-accent"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-              </svg>
-            </div>
-
-            <h1 className="text-2xl font-bold text-ink sm:text-3xl">
-              金融监管合规问答
+          <div className="mx-auto flex min-h-full w-full max-w-[780px] flex-col items-center justify-center pb-20 text-center">
+            <h1 className="text-[28px] font-medium leading-tight tracking-[-0.035em] text-[#242421] sm:text-[32px]">
+              有什么可以帮忙的？
             </h1>
-            <p className="mt-2 max-w-md text-center text-sm text-ink-secondary">
-              输入产品结构或合规问题，系统将自动识别产品要素、
-              <br />
-              检索相关法规并给出合规判断
-            </p>
-
-            {/* Quick tags */}
-            <div className="mt-8 w-full max-w-xl">
-              <p className="mb-3 text-center text-xs text-ink-tertiary">
-                快速尝试以下问题
-              </p>
-              <div className="flex flex-wrap justify-center gap-2">
-                {EXAMPLE_TAGS.map((tag) => (
-                  <button
-                    key={tag}
-                    onClick={() => onSubmit(tag)}
-                    className="rounded-full border border-slate-200 bg-white px-3.5 py-1.5 text-xs text-ink-secondary transition-base hover:border-accent/30 hover:bg-accent/5 hover:text-accent"
-                  >
-                    {tag}
-                  </button>
-                ))}
-              </div>
+            <div className="mt-8 w-full">
+              <Composer
+                input={input}
+                setInput={setInput}
+                onKeyDown={onKeyDown}
+                onSubmit={onSubmit}
+                inputRef={inputRef}
+                loading={loading}
+              />
             </div>
-
-            {/* Features hint */}
-            <div className="mt-10 grid grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="mx-auto mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-success/10">
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    className="text-success"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                </div>
-                <p className="text-xs font-medium text-ink">合规判断</p>
-                <p className="mt-0.5 text-2xs text-ink-tertiary">
-                  即时合规结论
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="mx-auto mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-accent/10">
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    className="text-accent"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                    <line x1="16" y1="13" x2="8" y2="13" />
-                    <line x1="16" y1="17" x2="8" y2="17" />
-                  </svg>
-                </div>
-                <p className="text-xs font-medium text-ink">法规溯源</p>
-                <p className="mt-0.5 text-2xs text-ink-tertiary">
-                  逐条标注依据
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="mx-auto mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-warning/10">
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    className="text-warning"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <line x1="12" y1="8" x2="12" y2="12" />
-                    <line x1="12" y1="16" x2="12.01" y2="16" />
-                  </svg>
-                </div>
-                <p className="text-xs font-medium text-ink">风险识别</p>
-                <p className="mt-0.5 text-2xs text-ink-tertiary">
-                  标记待补信息
-                </p>
-              </div>
+            <div className="mt-5 flex max-w-[720px] flex-wrap justify-center gap-2">
+              {EXAMPLE_TAGS.map((question) => (
+                <button
+                  key={question}
+                  onClick={() => onSubmit(question)}
+                  className="rounded-full bg-[#ededeb] px-3.5 py-2 text-left text-[12px] leading-5 text-[#666660] transition-colors hover:bg-[#e2e2df] hover:text-[#292926]"
+                >
+                  {question}
+                </button>
+              ))}
             </div>
           </div>
         ) : (
-          <div className="space-y-6 py-4">
-            {messages.map((msg, idx) => {
-              // Find the preceding user message for retry
-              const userQueryForRetry =
-                msg.role === "assistant" && msg.status === "error"
-                  ? (() => {
-                      for (let i = idx - 1; i >= 0; i--) {
-                        if (messages[i].role === "user") return messages[i].text;
-                      }
-                      return "";
-                    })()
-                  : "";
+          <div className="mx-auto w-full max-w-[780px] space-y-8 pb-8 pt-5">
+            {messages.map((message, index) => {
+              const retryQuery = message.role === "assistant" && message.status === "error"
+                ? findPreviousUserMessage(messages, index)
+                : "";
 
-              return (
-              <div
-                key={msg.id}
-                className={`flex animate-fade-in ${
-                  msg.role === "user" ? "justify-end" : "justify-start"
-                }`}
-              >
-                {msg.role === "user" ? (
-                  <div className="max-w-[75%] rounded-2xl bg-accent/8 px-5 py-3 text-sm leading-7 text-ink shadow-sm">
-                    {msg.text}
-                  </div>
-                ) : msg.status === "loading" ? (
-                  <ThinkingBubble />
-                ) : msg.status === "error" ? (
-                  <div className="w-full max-w-[85%] animate-fade-in rounded-xl border border-danger/20 bg-danger/5 p-4">
-                    <div className="flex items-start gap-3">
-                      <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        className="mt-0.5 shrink-0 text-danger"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <circle cx="12" cy="12" r="10" />
-                        <line x1="15" y1="9" x2="9" y2="15" />
-                        <line x1="9" y1="9" x2="15" y2="15" />
-                      </svg>
-                      <div className="min-w-0">
-                        <p className="text-sm font-medium text-danger">
-                          查询失败
-                        </p>
-                        <p className="mt-0.5 text-xs text-danger/70">
-                          {msg.text}
-                        </p>
-                        {userQueryForRetry && (
-                          <button
-                            onClick={() => onRetry(userQueryForRetry)}
-                            className="mt-2 rounded-lg border border-danger/20 bg-white px-3 py-1 text-xs font-medium text-danger transition-base hover:bg-danger/5"
-                          >
-                            重新发送
-                          </button>
-                        )}
-                      </div>
+              if (message.role === "user") {
+                return (
+                  <div key={message.id} className="flex animate-fade-in justify-end">
+                    <div className="max-w-[82%] rounded-[22px] bg-[#e9e9e7] px-5 py-3 text-[14px] leading-7 text-[#292926]">
+                      {message.text}
                     </div>
                   </div>
-                ) : msg.data ? (
-                  <ComplianceAnswerCard data={msg.data} />
-                ) : (
-                  <div className="max-w-[85%] animate-fade-in rounded-xl border border-slate-200 bg-white p-4 text-sm leading-7 text-ink shadow-sm">
-                    {msg.text}
-                  </div>
-                )}
-              </div>
-            );
+                );
+              }
+
+              return (
+                <div key={message.id} className="w-full animate-fade-in">
+                  <ThinkingBubble progress={message.progress} active={message.status === "loading"} />
+
+                  {message.status === "loading" ? null : message.status === "error" ? (
+                    <div className="rounded-2xl border border-[#e3c8c4] bg-[#fffafa] p-4 text-sm text-[#8b3b32]">
+                      <p className="font-medium">查询没有完成</p>
+                      <p className="mt-1 leading-6 text-[#9b5a52]">{message.text}</p>
+                      {retryQuery && (
+                        <button
+                          onClick={() => onRetry(retryQuery)}
+                          className="mt-3 rounded-full border border-[#dbbbb6] bg-white px-3.5 py-1.5 text-xs font-medium transition-colors hover:bg-[#fff5f3]"
+                        >
+                          重新发送
+                        </button>
+                      )}
+                    </div>
+                  ) : message.data ? (
+                    <ComplianceAnswerCard
+                      data={message.data}
+                      sourcesSelected={message.id === selectedSourceMessageId && sourcesOpen}
+                      onShowSources={() => onSelectSources(message.id)}
+                    />
+                  ) : (
+                    <div className="max-w-[700px] whitespace-pre-wrap text-[14px] leading-7 text-[#343431]">
+                      {message.text}
+                    </div>
+                  )}
+                </div>
+              );
             })}
           </div>
         )}
       </div>
 
-      {/* Input area - sticky bottom */}
-      <div className="sticky bottom-0 border-t border-slate-200/70 bg-surface px-4 pb-4 pt-3">
-        <div className="mx-auto max-w-[820px]">
-          <div className="flex items-end gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 shadow-sm transition-base focus-within:border-accent/30 focus-within:shadow-elevated">
-            <textarea
-              ref={inputRef}
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
+      {!showWelcome && (
+        <div className="shrink-0 bg-gradient-to-t from-[#f7f7f5] via-[#f7f7f5] to-transparent px-4 pb-3 pt-4 sm:px-8 sm:pb-4">
+          <div className="mx-auto max-w-[780px]">
+            <Composer
+              input={input}
+              setInput={setInput}
               onKeyDown={onKeyDown}
-              placeholder="输入产品结构或合规问题..."
-              rows={1}
-              className="max-h-32 min-h-[24px] flex-1 resize-none bg-transparent text-sm leading-6 text-ink outline-none placeholder:text-ink-tertiary"
-              disabled={loading}
+              onSubmit={onSubmit}
+              inputRef={inputRef}
+              loading={loading}
             />
-            <button
-              onClick={() => onSubmit(input)}
-              disabled={loading || !input.trim()}
-              className="flex shrink-0 items-center gap-1.5 rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white transition-base hover:bg-accent/90 disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              {loading ? (
-                <span className="flex items-center gap-1">
-                  <span className="inline-block h-1.5 w-1.5 animate-pulse-dot rounded-full bg-white/70" />
-                  <span className="inline-block h-1.5 w-1.5 animate-pulse-dot rounded-full bg-white/70" />
-                  <span className="inline-block h-1.5 w-1.5 animate-pulse-dot rounded-full bg-white/70" />
-                </span>
-              ) : (
-                <>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <line x1="22" y1="2" x2="11" y2="13" />
-                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
-                  </svg>
-                  发送
-                </>
-              )}
-            </button>
-          </div>
-          <div className="mt-1.5 flex items-center justify-between px-1">
-            <p className="text-2xs text-ink-tertiary">
-              Enter 发送 · Shift+Enter 换行
-            </p>
-            <p className="text-2xs text-ink-tertiary">
-              所有回答均标注法规来源
-            </p>
+            <p className="mt-2 text-center text-[10px] text-[#aaa9a3]">回答仅供参考，请核验重要信息。</p>
           </div>
         </div>
-      </div>
+      )}
     </div>
+  );
+}
+
+function findPreviousUserMessage(messages: ChatMessage[], index: number) {
+  for (let position = index - 1; position >= 0; position -= 1) {
+    if (messages[position].role === "user") return messages[position].text;
+  }
+  return "";
+}
+
+type ComposerProps = {
+  input: string;
+  setInput: (value: string) => void;
+  onKeyDown: (event: React.KeyboardEvent) => void;
+  onSubmit: (text: string) => void;
+  inputRef: RefObject<HTMLTextAreaElement | null>;
+  loading: boolean;
+};
+
+function Composer({ input, setInput, onKeyDown, onSubmit, inputRef, loading }: ComposerProps) {
+  return (
+    <div className="flex items-end gap-3 rounded-[26px] border border-[#dfdfdc] bg-white px-4 py-2.5 shadow-[0_7px_24px_rgba(39,39,35,0.07)] transition-all focus-within:border-[#c5c5c0] focus-within:shadow-[0_9px_30px_rgba(39,39,35,0.1)]">
+      <textarea
+        ref={inputRef}
+        value={input}
+        onChange={(event) => {
+          setInput(event.target.value);
+          event.currentTarget.style.height = "auto";
+          event.currentTarget.style.height = `${Math.min(event.currentTarget.scrollHeight, 144)}px`;
+        }}
+        onKeyDown={onKeyDown}
+        placeholder="输入你的问题"
+        rows={1}
+        className="max-h-36 min-h-[36px] flex-1 resize-none overflow-y-auto bg-transparent px-1 py-1.5 text-[15px] leading-6 text-[#242421] outline-none placeholder:text-[#9d9d98]"
+        disabled={loading}
+      />
+      <button
+        type="button"
+        onClick={() => onSubmit(input)}
+        disabled={loading || !input.trim()}
+        className="mb-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#242422] text-white transition-colors hover:bg-black disabled:cursor-not-allowed disabled:bg-[#d0d0cc]"
+        aria-label="发送"
+      >
+        {loading ? <span className="agent-button-breath h-2 w-2 rounded-full bg-white" /> : <ArrowUpIcon />}
+      </button>
+    </div>
+  );
+}
+
+function ArrowUpIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M10 15V5m0 0L6 9m4-4 4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function PlusIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M10 4v12M4 10h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function SidebarIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <rect x="3" y="4" width="14" height="12" rx="2" stroke="currentColor" strokeWidth="1.35" />
+      <path d="M7.5 4v12" stroke="currentColor" strokeWidth="1.35" />
+    </svg>
+  );
+}
+
+function SourcesPanelToggleIcon({ open }: { open: boolean }) {
+  return (
+    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <rect x="3" y="4" width="14" height="12" rx="2" stroke="currentColor" strokeWidth="1.35" />
+      <path d="M12.5 4v12" stroke="currentColor" strokeWidth="1.35" />
+      <path d={open ? "m8.5 7-2.5 3 2.5 3" : "m6.5 7 2.5 3-2.5 3"} stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }

@@ -69,12 +69,13 @@ async function fetchWithTimeout(
 
 // ── Non-streaming query ──
 export async function queryCompliance(
-  query: string
+  message: string,
+  sessionId?: string,
 ): Promise<ComplianceQueryResponseData> {
   const resp = await fetchWithTimeout(`${API_BASE}/compliance/query`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query }),
+    body: JSON.stringify({ message, ...(sessionId ? { sessionId } : {}) }),
     cache: "no-store",
   });
 
@@ -141,9 +142,9 @@ export async function checkHealth(): Promise<{
 
 // ── Streaming query (SSE-based) ──
 export async function queryComplianceStream(
-  query: string,
+  message: string,
   onEvent: (event: ComplianceStreamEvent) => void,
-  options?: { signal?: AbortSignal; timeout?: number }
+  options?: { signal?: AbortSignal; timeout?: number; sessionId?: string }
 ): Promise<void> {
   const controller = new AbortController();
   const signal = options?.signal
@@ -157,7 +158,10 @@ export async function queryComplianceStream(
     const resp = await fetch(`${API_BASE}/compliance/query/stream`, {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
-      body: JSON.stringify({ query }),
+      body: JSON.stringify({
+        message,
+        ...(options?.sessionId ? { sessionId: options.sessionId } : {}),
+      }),
       signal,
       cache: "no-store",
     });

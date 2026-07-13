@@ -1,5 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
+import { jsonrepair } from "jsonrepair";
 
 export type LlmChatMessage =
   | { role: "system" | "user"; content: string }
@@ -210,65 +211,121 @@ export class LlmService {
       type: "function";
       function: { name: string; description: string; parameters: Record<string, unknown> };
     }>,
-    timeoutMs = 120000
+    timeoutMs = 120000,
+    options: LlmChatOptions = {},
   ): Promise<{
     content: string | null;
-    toolCalls: Array<{ id: string; name: string; arguments: Record<string, unknown> }>;
+    toolCalls: Array<{
+      id: string;
+      name: string;
+      arguments: Record<string, unknown>;
+      argumentParseError?: string;
+      argumentJsonRepaired?: boolean;
+    }>;
+    finishReason: string;
   }> {
     if (!this.apiKey) throw new Error("LLM_API_KEY is not configured");
+    const selectedModel = options.tier === "fast" ? this.fastModel : this.model;
 
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+    const body: Record<string, unknown> = {
+      model: selectedModel,
+      temperature: 0.2,
+      stream: false,
+      ...(options.thinking ? { thinking: { type: options.thinking } } : {}),
+      messages: [{ role: "system", content: systemPrompt }, ...messages],
+      tools,
+      tool_choice: "auto",
+      max_tokens: 8192,
+    };
 
-    try {
-      const body: Record<string, unknown> = {
-        model: this.model,
-        temperature: 0.2,
-        stream: false,
-        messages: [{ role: "system", content: systemPrompt }, ...messages],
-        tools,
-        tool_choice: "auto",
-      };
+    for (let attempt = 1; attempt <= MAX_CHAT_ATTEMPTS; attempt += 1) {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const resp = await fetch(`${this.baseURL}/chat/completions`, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${this.apiKey}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(body),
+          signal: controller.signal,
+        });
 
-      const resp = await fetch(`${this.baseURL}/chat/completions`, {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${this.apiKey}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(body),
-        signal: controller.signal,
-      });
+        const text = await resp.text();
+        let payload: any = {};
+        try { payload = text ? JSON.parse(text) : {}; } catch { payload = { message: text.slice(0, 500) }; }
 
-      const text = await resp.text();
-      const payload = text ? JSON.parse(text) : {};
+        if (!resp.ok) {
+          const errorMessage = payload?.error?.message ?? payload?.message ?? `HTTP ${resp.status}`;
+          if (RETRYABLE_HTTP_STATUS.has(resp.status) && attempt < MAX_CHAT_ATTEMPTS) {
+            await this.waitBeforeRetry(attempt, resp.headers.get("retry-after"));
+            continue;
+          }
+          throw new Error(errorMessage);
+        }
 
-      if (!resp.ok) {
-        const msg = payload?.error?.message ?? payload?.message ?? `HTTP ${resp.status}`;
-        throw new Error(msg);
+        const responseMessage = payload?.choices?.[0]?.message ?? {};
+        const finishReason = typeof payload?.choices?.[0]?.finish_reason === "string"
+          ? payload.choices[0].finish_reason
+          : "unknown";
+        const content = typeof responseMessage.content === "string" ? responseMessage.content : null;
+        const rawCalls = Array.isArray(responseMessage.tool_calls) ? responseMessage.tool_calls : [];
+        const toolCalls = rawCalls.map((toolCall: Record<string, unknown>, index: number) => {
+          const fn = toolCall.function as Record<string, unknown> | undefined;
+          const name = typeof fn?.name === "string" ? fn.name : "";
+          let parsedArguments: Record<string, unknown> = {};
+          let argumentParseError: string | undefined;
+          let argumentJsonRepaired = false;
+          if (fn?.arguments && typeof fn.arguments === "object" && !Array.isArray(fn.arguments)) {
+            parsedArguments = fn.arguments as Record<string, unknown>;
+          } else {
+            const rawArguments = typeof fn?.arguments === "string" ? fn.arguments : "{}";
+            try {
+              const parsed = JSON.parse(rawArguments);
+              if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+                parsedArguments = parsed as Record<string, unknown>;
+              } else {
+                argumentParseError = "工具参数不是 JSON 对象";
+              }
+            } catch (error) {
+              try {
+                const repaired = JSON.parse(jsonrepair(rawArguments));
+                if (repaired && typeof repaired === "object" && !Array.isArray(repaired)) {
+                  parsedArguments = repaired as Record<string, unknown>;
+                  argumentJsonRepaired = true;
+                } else {
+                  argumentParseError = "修复后的工具参数不是 JSON 对象";
+                }
+              } catch (repairError) {
+                const parseMessage = error instanceof Error ? error.message : "工具参数 JSON 解析失败";
+                const repairMessage = repairError instanceof Error ? repairError.message : "JSON 自动修复失败";
+                argumentParseError = `${parseMessage}；自动修复失败：${repairMessage}`;
+              }
+            }
+          }
+          return {
+            id: (toolCall.id as string) ?? `call_${index}`,
+            name,
+            arguments: parsedArguments,
+            ...(argumentParseError ? { argumentParseError } : {}),
+            ...(argumentJsonRepaired ? { argumentJsonRepaired: true } : {}),
+          };
+        });
+        return { content, toolCalls, finishReason };
+      } catch (error) {
+        if (error instanceof Error && error.name === "AbortError") {
+          throw new Error(`LLM request timed out after ${timeoutMs}ms`);
+        }
+        if (error instanceof TypeError && attempt < MAX_CHAT_ATTEMPTS) {
+          await this.waitBeforeRetry(attempt, null);
+          continue;
+        }
+        throw error;
+      } finally {
+        clearTimeout(timeoutId);
       }
-
-      const msg = payload?.choices?.[0]?.message ?? {};
-      const content = typeof msg.content === "string" ? msg.content : null;
-      const rawCalls = Array.isArray(msg.tool_calls) ? msg.tool_calls : [];
-
-      const toolCalls = rawCalls.map((tc: Record<string, unknown>, i: number) => {
-        const fn = tc.function as Record<string, unknown> | undefined;
-        const name = typeof fn?.name === "string" ? fn.name : "";
-        const rawArgs = typeof fn?.arguments === "string" ? fn.arguments : "{}";
-        let args: Record<string, unknown> = {};
-        try { args = JSON.parse(rawArgs); } catch { /* keep empty */ }
-        return { id: (tc.id as string) ?? `call_${i}`, name, arguments: args };
-      });
-
-      return { content, toolCalls };
-    } catch (err) {
-      if (err instanceof Error && err.name === "AbortError") {
-        throw new Error(`LLM request timed out after ${timeoutMs}ms`);
-      }
-      throw err;
-    } finally {
-      clearTimeout(timeoutId);
     }
+    throw new Error("LLM tool request failed after bounded retries");
   }
 }

@@ -10,7 +10,8 @@
   }
 
   body {
-    @apply bg-surface text-ink;
+    @apply text-ink;
+    background: #f7f7f5;
     font-family: -apple-system, PingFang SC, Microsoft YaHei, Helvetica Neue, Arial, sans-serif;
   }
 
@@ -64,6 +65,49 @@
 
   .scrollbar-thin-dark::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.2);
+  }
+
+  .scrollbar-hidden {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .agent-breath-dot {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    flex: 0 0 auto;
+    border-radius: 999px;
+    background: #272724;
+    animation: agent-breathe 1.8s ease-in-out infinite;
+  }
+
+  .agent-breath-dot::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: inherit;
+    background: rgba(39, 39, 36, 0.12);
+    animation: agent-halo 1.8s ease-in-out infinite;
+  }
+
+  .agent-step-dot,
+  .agent-button-breath {
+    animation: agent-breathe 1.8s ease-in-out infinite;
+  }
+
+  .agent-thinking-label {
+    color: transparent;
+    background: linear-gradient(90deg, #292926 20%, #9c9c96 47%, #292926 74%);
+    background-size: 240% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: agent-text-shimmer 2.4s linear infinite;
   }
 
   /* ── Transitions ── */
@@ -144,6 +188,31 @@
     .break-inside-avoid {
       break-inside: avoid;
     }
+  }
+}
+
+@keyframes agent-breathe {
+  0%, 100% { opacity: 0.48; transform: scale(0.82); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+@keyframes agent-halo {
+  0%, 100% { opacity: 0; transform: scale(0.75); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes agent-text-shimmer {
+  from { background-position: 120% 0; }
+  to { background-position: -120% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .agent-breath-dot,
+  .agent-breath-dot::after,
+  .agent-step-dot,
+  .agent-button-breath,
+  .agent-thinking-label {
+    animation: none !important;
   }
 }
 
