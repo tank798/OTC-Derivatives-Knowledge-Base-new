@@ -10,7 +10,7 @@ import {
 } from "@otc/shared";
 import { CitationValidatorService } from "../citation-validator/citation-validator.service";
 import { ContextBuilderService } from "../context-builder/context-builder.service";
-import { LlmService, type LlmChatMessage } from "../llm/llm.service";
+import { LlmRequestAbortedError, LlmService, type LlmChatMessage } from "../llm/llm.service";
 import { PromptService } from "../prompt/prompt.service";
 import { AgentRunLoggerService } from "./agent-run-logger.service";
 import { HybridRegulationSearchTool } from "./hybrid-regulation-search.tool";
@@ -19,6 +19,7 @@ const MAX_SEARCHES = 2;
 const MAX_ACTIVE_CHUNKS = 10;
 const MAX_CITATION_REPAIRS = 1;
 const MAX_ARGUMENT_REPAIRS_PER_TURN = 1;
+const MAX_PROTOCOL_REPAIRS_PER_TURN = 2;
 const MAX_ACTIONS_PER_TURN = 8;
 const SESSION_TTL_MS = 2 * 60 * 60 * 1000;
 
@@ -46,7 +47,18 @@ type ToolDefinition = {
 };
 
 type ProgressCallback = (event: AgentProgressEvent) => void;
-type RunOptions = { sessionId?: string; debug?: boolean; onProgress?: ProgressCallback };
+type RunOptions = { sessionId?: string; debug?: boolean; onProgress?: ProgressCallback; signal?: AbortSignal };
+
+export class AgentRunError extends Error {
+  constructor(
+    message: string,
+    readonly code: string,
+    readonly httpStatus: number,
+  ) {
+    super(message);
+    this.name = "AgentRunError";
+  }
+}
 
 type CompletedExchange = {
   question: string;
@@ -74,6 +86,8 @@ interface AgentSession {
   createdAt: number;
   lastUsedAt: number;
   argumentRepairsThisTurn: number;
+  protocolRepairsThisTurn: number;
+  busy: boolean;
 }
 
 const TOOLS: ToolDefinition[] = [
@@ -191,18 +205,39 @@ export class RegulatoryAgentService {
   ) {}
 
   async run(message: string, options: RunOptions = {}): Promise<AgentChatResponse> {
-    if (!this.llm.isConfigured) throw new Error("未配置 LLM_API_KEY，无法启动对话式法规 Agent");
+    if (!this.llm.isConfigured) {
+      throw new Error("未配置 LLM_API_KEY，或无法读取 LLM_API_KEY_FILE，无法启动对话式法规 Agent");
+    }
     this.removeExpiredSessions();
     const session = this.getOrCreateSession(options.sessionId);
+    if (session.busy) {
+      throw new AgentRunError("当前对话正在处理上一条消息，请等待完成后再试", "SESSION_BUSY", 409);
+    }
+    const snapshot = this.cloneSession(session);
+    session.busy = true;
+    try {
+      return await this.runSession(session, message, options);
+    } catch (error) {
+      this.restoreSession(session, snapshot);
+      throw error;
+    } finally {
+      session.busy = false;
+    }
+  }
+
+  private async runSession(session: AgentSession, message: string, options: RunOptions): Promise<AgentChatResponse> {
     if (session.completed) this.prepareForNextQuestion(session);
     session.lastUsedAt = Date.now();
     session.argumentRepairsThisTurn = 0;
+    session.protocolRepairsThisTurn = 0;
     if (!session.currentQuestion) session.currentQuestion = message;
     if (session.rewritePresented) session.userRespondedToRewrite = true;
     session.messages.push({ role: "user", content: message });
     this.logger.write(session.runId, session.id, "user_message", { message });
+    let protocolCorrection = "";
 
     for (let action = 0; action < MAX_ACTIONS_PER_TURN; action += 1) {
+      if (options.signal?.aborted) throw new LlmRequestAbortedError();
       const promptStage = this.promptStage(session);
       const availableTools = this.toolsForPromptStage(promptStage);
       const modelTier = this.modelTier(promptStage);
@@ -214,10 +249,12 @@ export class RegulatoryAgentService {
       try {
         completion = await this.llm.chatWithTools(
           this.runtimePrompt(session, promptStage),
-          session.messages,
+          protocolCorrection
+            ? [...session.messages, { role: "system", content: protocolCorrection }]
+            : session.messages,
           availableTools,
           150_000,
-          { tier: modelTier, thinking: modelTier === "fast" ? "disabled" : undefined },
+          { tier: modelTier, thinking: modelTier === "fast" ? "disabled" : undefined, signal: options.signal },
         );
       } catch (error) {
         this.logger.write(session.runId, session.id, "agent_action_failed", {
@@ -259,13 +296,35 @@ export class RegulatoryAgentService {
 
       const selectedCall = completion.toolCalls[0];
       if (!selectedCall) {
-        const content = completion.content?.trim();
-        if (!content) throw new Error("Agent 未返回可执行动作");
-        session.messages.push({ role: "assistant", content });
-        this.logger.write(session.runId, session.id, "agent_plain_message", { content });
-        return this.response(session, "awaiting_clarification", content, options.debug);
+        session.protocolRepairsThisTurn += 1;
+        this.logger.write(session.runId, session.id, "agent_protocol_error", {
+          promptStage,
+          finishReason: completion.finishReason,
+          content: completion.content ?? "",
+          repairAttempt: session.protocolRepairsThisTurn,
+        });
+        if (session.protocolRepairsThisTurn <= MAX_PROTOCOL_REPAIRS_PER_TURN) {
+          const allowedToolNames = availableTools.map((tool) => tool.function.name).join("、");
+          protocolCorrection = [
+            `上一次响应违反了当前 ${promptStage} 阶段的工具协议：模型返回了普通文本，但没有调用工具。`,
+            `请立即重新处理，且只调用以下允许工具之一：${allowedToolNames}。`,
+            "不要输出解释、道歉或普通文本；保持原用户意图不变。",
+          ].join("\n");
+          this.logger.write(session.runId, session.id, "agent_protocol_repair_requested", {
+            promptStage,
+            repairAttempt: session.protocolRepairsThisTurn,
+            allowedTools: availableTools.map((tool) => tool.function.name),
+          });
+          continue;
+        }
+        throw new AgentRunError(
+          `Agent 连续 ${session.protocolRepairsThisTurn} 次未按当前阶段调用工具，已停止自动重试`,
+          "AGENT_PROTOCOL_ERROR",
+          502,
+        );
       }
 
+      protocolCorrection = "";
       session.messages.push({
         role: "assistant",
         content: completion.content,
@@ -276,7 +335,13 @@ export class RegulatoryAgentService {
         }],
       });
 
-      const terminal = await this.executeTool(session, selectedCall, Boolean(options.debug), options.onProgress);
+      const terminal = await this.executeTool(
+        session,
+        selectedCall,
+        Boolean(options.debug),
+        options.onProgress,
+        options.signal,
+      );
       if (terminal) return terminal;
     }
 
@@ -288,6 +353,7 @@ export class RegulatoryAgentService {
     call: { id: string; name: string; arguments: Record<string, unknown>; argumentParseError?: string },
     debug: boolean,
     onProgress?: ProgressCallback,
+    signal?: AbortSignal,
   ): Promise<AgentChatResponse | null> {
     switch (call.name) {
       case "present_rewritten_question": {
@@ -337,7 +403,7 @@ export class RegulatoryAgentService {
           });
           return null;
         }
-        return this.executeSearch(session, call.id, parsed.data, onProgress);
+        return this.executeSearch(session, call.id, parsed.data, onProgress, signal);
       }
 
       case "submit_regulatory_answer": {
@@ -364,7 +430,7 @@ export class RegulatoryAgentService {
           this.addToolResult(session, call.id, {
             status: "citation_validation_failed",
             issues: validation.issues,
-            instruction: "只修正 evidenceId 或 quoteExact 的真实性错误，然后再调用一次 submit_regulatory_answer。不要改强法律结论。",
+            instruction: "修正 evidenceId 或 quoteExact 的真实性错误；如果问题指出确定性结论没有依据，则必须降级为证据不足结论，并在分析中说明现有规则的边界。missingInformation 固定为空数组，manualReviewNote 固定为空字符串。然后只重试一次 submit_regulatory_answer。",
           });
           this.logger.write(session.runId, session.id, "citation_validation_failed", {
             repairCount: session.repairCount,
@@ -385,7 +451,11 @@ export class RegulatoryAgentService {
           );
         }
 
-        const answer = validation.answer;
+        const answer = {
+          ...validation.answer,
+          missingInformation: [],
+          manualReviewNote: "",
+        };
 
         this.addToolResult(session, call.id, {
           status: "completed",
@@ -435,7 +505,9 @@ export class RegulatoryAgentService {
     toolCallId: string,
     input: z.infer<typeof searchSchema>,
     onProgress?: ProgressCallback,
+    signal?: AbortSignal,
   ): Promise<null> {
+    if (signal?.aborted) throw new LlmRequestAbortedError();
     const round = session.searchCount + 1;
     const startedAt = Date.now();
     const searchId = `round-${round}-search`;
@@ -450,6 +522,7 @@ export class RegulatoryAgentService {
       requiredEvidence: [],
       topK: MAX_ACTIVE_CHUNKS,
     }, (event) => onProgress?.({ ...event, id: `round-${round}-${event.id}` }));
+    if (signal?.aborted) throw new LlmRequestAbortedError();
 
     if (!result.ok) {
       onProgress?.({ id: searchId, label: `第 ${round} 轮法规检索失败`, status: "done" });
@@ -510,6 +583,7 @@ export class RegulatoryAgentService {
         bm25Rank: hit.bm25Rank ?? null,
         vectorRank: hit.vectorRank ?? null,
         rrfRank: hit.rrfRank ?? null,
+        documentRank: hit.documentRank ?? null,
       })),
       latencyMs: Date.now() - startedAt,
     });
@@ -668,6 +742,7 @@ export class RegulatoryAgentService {
     session.activeHits = [];
     session.searchToolCallIds = [];
     session.argumentRepairsThisTurn = 0;
+    session.protocolRepairsThisTurn = 0;
     this.logger.write(session.runId, session.id, "next_question_started", {
       preservedHistoryCount: session.history.length,
     });
@@ -676,7 +751,9 @@ export class RegulatoryAgentService {
   private getOrCreateSession(sessionId?: string): AgentSession {
     if (sessionId) {
       const existing = this.sessions.get(sessionId);
-      if (!existing) throw new Error("对话已失效，系统将为当前消息建立新的会话");
+      if (!existing) {
+        throw new AgentRunError("对话已失效，请建立新会话后重新发送", "SESSION_EXPIRED", 410);
+      }
       return existing;
     }
 
@@ -701,6 +778,8 @@ export class RegulatoryAgentService {
       createdAt: now,
       lastUsedAt: now,
       argumentRepairsThisTurn: 0,
+      protocolRepairsThisTurn: 0,
+      busy: false,
     };
     this.sessions.set(session.id, session);
     this.logger.write(session.runId, session.id, "session_started", {
@@ -724,5 +803,14 @@ export class RegulatoryAgentService {
     for (const [id, session] of this.sessions) {
       if (session.lastUsedAt < cutoff) this.sessions.delete(id);
     }
+  }
+
+  private cloneSession(session: AgentSession): AgentSession {
+    return structuredClone(session);
+  }
+
+  private restoreSession(session: AgentSession, snapshot: AgentSession) {
+    const busy = session.busy;
+    Object.assign(session, structuredClone(snapshot), { busy });
   }
 }

@@ -18,6 +18,8 @@ const FORMATTING_PUNCTUATION = new Set([
   "、", "…", "·",
 ]);
 
+const INSUFFICIENT_CONCLUSION = /(?:无法|不能|不足|未能|尚无|没有).{0,16}(?:确定|判断|得出|支持|证据|规定|结论)|证据不足/u;
+
 /**
  * 只做可确定的引用真实性检查。
  *
@@ -32,6 +34,12 @@ export class CitationValidatorService {
     const issues: string[] = [];
     const validBasis: AgentRegulatoryBasis[] = [];
     const seen = new Set<string>();
+
+    if (draft.regulatoryBasis.length === 0) {
+      if (!INSUFFICIENT_CONCLUSION.test(draft.conclusion)) {
+        issues.push("确定性法规结论至少需要一条通过真实性校验的法规依据");
+      }
+    }
 
     for (const [index, basis] of draft.regulatoryBasis.entries()) {
       const position = `第 ${index + 1} 条引用`;
@@ -63,6 +71,10 @@ export class CitationValidatorService {
         quoteExact: sourceQuote,
         explanation: basis.explanation,
       });
+    }
+
+    if (draft.regulatoryBasis.length > 0 && validBasis.length === 0 && issues.length === 0) {
+      issues.push("提交的法规依据均未通过真实性校验");
     }
 
     return {

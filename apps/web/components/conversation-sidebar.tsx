@@ -128,10 +128,11 @@ export function ConversationSidebar({
                     <span className={`block truncate text-[13px] leading-5 ${active ? "font-medium text-[#292926]" : "text-[#555550]"}`}>
                       {conversation.title}
                     </span>
-                    <span className="mt-0.5 flex items-center gap-1.5 text-[10px] text-[#a0a09a]">
-                      {running && <span className="agent-step-dot h-1.5 w-1.5 rounded-full bg-[#4b4b47]" />}
-                      {running ? "正在回答" : formatConversationTime(conversation.updatedAt)}
-                    </span>
+                    {!running && (
+                      <span className="mt-0.5 block text-[10px] text-[#a0a09a]">
+                        {formatConversationTime(conversation.updatedAt)}
+                      </span>
+                    )}
                   </button>
                   <button
                     type="button"

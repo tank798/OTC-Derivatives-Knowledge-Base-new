@@ -13,17 +13,28 @@ type CoreModule = {
   QUERY_INSTRUCTION: string;
   VECTOR_PATH: string;
   assembleEvidence: (hits: unknown[], corpus: CorpusRow[], options: object) => CorpusRow[];
+  buildBm25: (corpus: CorpusRow[]) => any;
+  buildDocumentCorpus: (corpus: CorpusRow[]) => CorpusRow[];
+  fuseAdditionalRankedChannel: (hits: FusedHit[], additionalHits: RankedHit[], options: object) => FusedHit[];
   loadIndexArtifacts: () => { corpus: CorpusRow[]; manifest: any; bm25: any; vectorMetadata: any };
   loadVectorMatrix: (path: string, count: number, dimension: number) => Float32Array;
+  mapDocumentHitsToChunkAnchors: (
+    documentHits: RankedHit[],
+    chunkHitLists: RankedHit[][],
+    documentCorpus: CorpusRow[],
+    chunkCorpus: CorpusRow[],
+    options: { maxPerDocument: number },
+  ) => RankedHit[];
   normalizeTitle: (value: string) => string;
+  diversifyByDocument: (hits: FusedHit[], corpus: CorpusRow[], options: { maxPerDocument: number }) => FusedHit[];
   reciprocalRankFusion: (bm25: RankedHit[], vector: RankedHit[], options: object) => FusedHit[];
   searchBm25: (query: string, corpus: CorpusRow[], index: any, limit: number) => RankedHit[];
   searchVectors: (query: Float32Array, matrix: Float32Array, corpus: CorpusRow[], dimension: number, limit: number) => RankedHit[];
 };
 
 type CorpusRow = Record<string, any> & { chunk_id: string; document_id: string; text: string; document_title: string };
-type RankedHit = { chunk_id: string; index: number; rank: number; bm25?: number; vector?: number };
-type FusedHit = RankedHit & { rrf: number; bm25_rank?: number | null; vector_rank?: number | null };
+type RankedHit = { chunk_id: string; index: number; rank: number; bm25?: number; vector?: number; source_rank?: number };
+type FusedHit = RankedHit & { rrf: number; bm25_rank?: number | null; vector_rank?: number | null; document_rank?: number | null };
 type ProgressCallback = (event: AgentProgressEvent) => void;
 
 const dynamicImport = new Function("specifier", "return import(specifier)") as (specifier: string) => Promise<any>;
@@ -39,6 +50,8 @@ export class RetrievalService implements OnModuleInit {
   private vectorMetadata: any = null;
   private vectors: Float32Array | null = null;
   private extractor: any = null;
+  private documentCorpus: CorpusRow[] = [];
+  private documentBm25: any = null;
 
   async onModuleInit() {
     this.root = this.findRepoRoot();
@@ -49,6 +62,8 @@ export class RetrievalService implements OnModuleInit {
     this.bm25 = artifacts.bm25;
     this.vectorMetadata = artifacts.vectorMetadata;
     this.vectors = this.core.loadVectorMatrix(this.core.VECTOR_PATH, this.corpus.length, this.core.MODEL_DIMENSION);
+    this.documentCorpus = this.core.buildDocumentCorpus(this.corpus);
+    this.documentBm25 = this.core.buildBm25(this.documentCorpus);
     this.isReady = true;
   }
 
@@ -67,7 +82,12 @@ export class RetrievalService implements OnModuleInit {
     if (!this.isReady) throw new Error("知识库索引尚未加载完成");
     const { keywordQueries, semanticQueries } = this.buildChannelQueries(input);
     onProgress?.({ id: "bm25", label: "正在进行 BM25 关键词排序", status: "running" });
-    const bm25Hits = this.mergeChannel(keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, 30)), "bm25");
+    const bm25FullLists = keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, this.corpus.length));
+    const bm25Hits = this.mergeChannel(bm25FullLists.map((hits) => hits.slice(0, 30)), "bm25");
+    const documentHits = this.mergeChannel(
+      keywordQueries.map((query) => this.core.searchBm25(query, this.documentCorpus, this.documentBm25, 12)),
+      "bm25",
+    );
     onProgress?.({ id: "bm25", label: "BM25 关键词排序完成", status: "done", detail: `${bm25Hits.length} 个候选 Chunk` });
 
     let vectorHits: RankedHit[] = [];
@@ -85,8 +105,22 @@ export class RetrievalService implements OnModuleInit {
       onProgress?.({ id: "vector", label: "向量排序不可用，已使用关键词结果", status: "done" });
     }
 
-    onProgress?.({ id: "rrf", label: "正在融合两路检索结果", status: "running" });
-    let fused = this.core.reciprocalRankFusion(bm25Hits, vectorHits, { k: 60, limit: 30 });
+    onProgress?.({ id: "rrf", label: "正在融合检索结果", status: "running" });
+    // Keep the full 30 + 30 channel union until the document-level signal is
+    // added; otherwise a strong one-channel Chunk can be discarded too early.
+    let fused = this.core.reciprocalRankFusion(bm25Hits, vectorHits, { k: 60, limit: 60 });
+    fused = this.core.fuseAdditionalRankedChannel(
+      fused,
+      this.core.mapDocumentHitsToChunkAnchors(
+        documentHits,
+        bm25FullLists,
+        this.documentCorpus,
+        this.corpus,
+        { maxPerDocument: 1 },
+      ),
+      { k: 60, limit: 30, weight: 1, rankField: "document_rank" },
+    );
+    fused = this.core.diversifyByDocument(fused, this.corpus, { maxPerDocument: 2 });
     fused = this.prependExactMatches(input.queries.join(" "), fused);
     const evidence = this.core.assembleEvidence(fused, this.corpus, { limit: input.topK, maxWithContext: input.topK });
     const maxRrf = Math.max(...fused.map((hit) => hit.rrf), 1 / 61);
@@ -122,6 +156,7 @@ export class RetrievalService implements OnModuleInit {
         bm25Rank: retrieval?.bm25_rank ?? null,
         vectorRank: retrieval?.vector_rank ?? null,
         rrfRank: retrieval ? (rrfRanks.get(row.chunk_id) ?? null) : null,
+        documentRank: retrieval?.document_rank ?? null,
         isSupplementalContext: !retrieval,
         subQuestion: input.subQuestion,
       } satisfies RetrievalHit;

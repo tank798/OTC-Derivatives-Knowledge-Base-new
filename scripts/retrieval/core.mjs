@@ -107,6 +107,57 @@ export function chunkSearchText(row) {
   ].filter(Boolean).join("\n");
 }
 
+export function buildDocumentCorpus(corpus) {
+  const documents = new Map();
+  for (const row of corpus) {
+    const current = documents.get(row.document_id);
+    if (current) {
+      current.text += `\n${row.text}`;
+      continue;
+    }
+    documents.set(row.document_id, {
+      chunk_id: `document:${row.document_id}`,
+      document_id: row.document_id,
+      document_title: row.document_title,
+      text: row.text,
+    });
+  }
+  return [...documents.values()];
+}
+
+export function mapDocumentHitsToChunkAnchors(
+  documentHits,
+  chunkHitLists,
+  documentCorpus,
+  chunkCorpus,
+  { maxPerDocument = 2 } = {},
+) {
+  return documentHits.flatMap((documentHit) => {
+    const documentId = documentCorpus[documentHit.index]?.document_id;
+    if (!documentId) return [];
+    const queues = chunkHitLists.map((hits) => hits.filter((hit) => chunkCorpus[hit.index]?.document_id === documentId));
+    const anchors = [];
+    const seen = new Set();
+    while (anchors.length < maxPerDocument && queues.some((queue) => queue.length)) {
+      let added = false;
+      for (const queue of queues) {
+        let chunkHit;
+        while (queue.length && !chunkHit) {
+          const candidate = queue.shift();
+          if (candidate && !seen.has(candidate.chunk_id)) chunkHit = candidate;
+        }
+        if (!chunkHit) continue;
+        seen.add(chunkHit.chunk_id);
+        anchors.push({ ...chunkHit, source_rank: chunkHit.rank, rank: documentHit.rank });
+        added = true;
+        if (anchors.length >= maxPerDocument) break;
+      }
+      if (!added) break;
+    }
+    return anchors;
+  });
+}
+
 export function buildBm25(corpus, { k1 = 1.5, b = 0.75 } = {}) {
   const postings = new Map();
   const documentLengths = [];
@@ -209,6 +260,63 @@ export function reciprocalRankFusion(bm25Hits, vectorHits, { k = 60, limit = 20 
     .map((hit, rank) => ({ ...hit, rank: rank + 1 }));
 }
 
+export function fuseAdditionalRankedChannel(
+  fusedHits,
+  additionalHits,
+  { k = 60, limit = 20, weight = 1, rankField = "additional_rank" } = {},
+) {
+  const fused = new Map(fusedHits.map((hit) => [hit.chunk_id, { ...hit }]));
+  for (const hit of additionalHits) {
+    const current = fused.get(hit.chunk_id) ?? {
+      chunk_id: hit.chunk_id,
+      index: hit.index,
+      rrf: 0,
+      bm25_rank: null,
+      vector_rank: null,
+      bm25_score: null,
+      vector_score: null,
+    };
+    const sourceRank = Number.isInteger(hit.source_rank) ? hit.source_rank : null;
+    const source = typeof hit.bm25 === "number" ? "bm25" : typeof hit.vector === "number" ? "vector" : null;
+    if (source && sourceRank && current[`${source}_rank`] == null) {
+      current.rrf += 1 / (k + sourceRank);
+      current[`${source}_rank`] = sourceRank;
+      current[`${source}_score`] = hit[source];
+    }
+    current.rrf += weight / (k + hit.rank);
+    current[rankField] = hit.rank;
+    fused.set(hit.chunk_id, current);
+  }
+  return [...fused.values()]
+    .sort((a, b) => b.rrf - a.rrf || (a.bm25_rank ?? Infinity) - (b.bm25_rank ?? Infinity) || a.index - b.index)
+    .slice(0, limit)
+    .map((hit, rank) => ({ ...hit, rank: rank + 1 }));
+}
+
+export function diversifyByDocument(hits, corpus, { maxPerDocument = 2 } = {}) {
+  if (!Number.isInteger(maxPerDocument) || maxPerDocument < 1) {
+    throw new Error("maxPerDocument 必须是正整数");
+  }
+
+  const primary = [];
+  const overflow = [];
+  const counts = new Map();
+  for (const hit of hits) {
+    const documentId = corpus[hit.index]?.document_id || `unknown:${hit.chunk_id}`;
+    const count = counts.get(documentId) ?? 0;
+    if (count < maxPerDocument) {
+      primary.push(hit);
+      counts.set(documentId, count + 1);
+    } else {
+      overflow.push(hit);
+    }
+  }
+
+  // 先让不同法规进入有限的证据窗口，再用原始排序中的其余 Chunk 补满。
+  // 这不会丢弃候选，也不会针对法规名称设置白名单。
+  return [...primary, ...overflow].map((hit, rank) => ({ ...hit, rank: rank + 1 }));
+}
+
 function containmentSimilarity(left, right) {
   const a = normalizeText(left);
   const b = normalizeText(right);
@@ -255,17 +363,23 @@ export function assembleEvidence(fusedHits, corpus, { limit = 10, maxWithContext
     return true;
   };
 
+  const contextCandidates = [];
   for (const hit of fusedHits.slice(0, limit)) {
     const row = corpus[hit.index];
     add(row, hit, "primary");
-    if (selected.length >= maxWithContext) break;
-    if (row.overlap_source_chunk_id) add(byChunkId.get(row.overlap_source_chunk_id)?.row, null, "overlap_source");
+    if (row.overlap_source_chunk_id) {
+      contextCandidates.push({ row: byChunkId.get(row.overlap_source_chunk_id)?.row, role: "overlap_source" });
+    }
     const openingText = row.text.slice(0, 220);
     if (/(^|\n)(前条|前款|前项|上述规定|依照前款|除前款)/.test(openingText)) {
       const siblings = byDocument.get(row.document_id) ?? [];
       const position = siblings.findIndex((item) => item.row.chunk_id === row.chunk_id);
-      if (position > 0) add(siblings[position - 1].row, null, "dependency_context");
+      if (position > 0) contextCandidates.push({ row: siblings[position - 1].row, role: "dependency_context" });
     }
+  }
+  for (const candidate of contextCandidates) {
+    if (selected.length >= maxWithContext) break;
+    add(candidate.row, null, candidate.role);
   }
   return selected;
 }

@@ -10,8 +10,13 @@ import {
   QUERY_INSTRUCTION,
   VECTOR_PATH,
   assembleEvidence,
+  buildBm25,
+  buildDocumentCorpus,
+  diversifyByDocument,
+  fuseAdditionalRankedChannel,
   loadIndexArtifacts,
   loadVectorMatrix,
+  mapDocumentHitsToChunkAnchors,
   reciprocalRankFusion,
   searchBm25,
   searchVectors,
@@ -51,43 +56,37 @@ export async function hybridSearch(query, options = {}) {
   const { corpus, manifest, bm25, vectorMetadata } = loadIndexArtifacts();
   const bm25TopK = options.bm25TopK ?? manifest.fusion.bm25_top_k;
   const vectorTopK = options.vectorTopK ?? manifest.fusion.vector_top_k;
-  const fusedTopK = options.fusedTopK ?? manifest.fusion.fused_top_k;
-  const bm25Hits = searchBm25(query, corpus, bm25, bm25TopK);
+  const fusedTopK = options.fusedTopK ?? Math.max(30, manifest.fusion.fused_top_k);
+  const bm25FullHits = searchBm25(query, corpus, bm25, corpus.length);
+  const bm25Hits = bm25FullHits.slice(0, bm25TopK);
+  const documentCorpus = buildDocumentCorpus(corpus);
+  const documentHits = searchBm25(query, documentCorpus, buildBm25(documentCorpus), 12);
   const queryVector = await embedQuery(query, vectorMetadata.dimension);
   const matrix = loadVectorMatrix(VECTOR_PATH, corpus.length, vectorMetadata.dimension);
   const vectorHits = searchVectors(queryVector, matrix, corpus, vectorMetadata.dimension, vectorTopK);
-  const fusedHits = reciprocalRankFusion(bm25Hits, vectorHits, { k: manifest.fusion.rrf_k, limit: fusedTopK });
-  const fusedById = new Map(fusedHits.map((hit) => [hit.chunk_id, hit]));
-  const evidenceCandidates = [];
-  const candidateIds = new Set();
-  const addCandidate = (hit, anchorSource = "") => {
-    if (!hit || candidateIds.has(hit.chunk_id)) return;
-    candidateIds.add(hit.chunk_id);
-    const fused = fusedById.get(hit.chunk_id);
-    evidenceCandidates.push({
-      ...(fused ?? {
-        chunk_id: hit.chunk_id,
-        index: hit.index,
-        rrf: 0,
-        bm25_rank: null,
-        vector_rank: null,
-        bm25_score: null,
-        vector_score: null,
-        rank: null,
-      }),
-      anchor_source: anchorSource || null,
-    });
-  };
-  addCandidate(bm25Hits[0], "bm25");
-  addCandidate(vectorHits[0], "vector");
-  fusedHits.forEach((hit) => addCandidate(hit));
-  const evidence = assembleEvidence(evidenceCandidates, corpus, { limit: options.evidenceLimit ?? 10 });
+  const fusedHits = diversifyByDocument(
+    fuseAdditionalRankedChannel(
+      reciprocalRankFusion(bm25Hits, vectorHits, { k: manifest.fusion.rrf_k, limit: bm25TopK + vectorTopK }),
+      mapDocumentHitsToChunkAnchors(
+        documentHits,
+        [bm25FullHits],
+        documentCorpus,
+        corpus,
+        { maxPerDocument: 1 },
+      ),
+      { k: manifest.fusion.rrf_k, limit: fusedTopK, weight: 1, rankField: "document_rank" },
+    ),
+    corpus,
+    { maxPerDocument: 2 },
+  );
+  const evidenceLimit = options.evidenceLimit ?? 10;
+  const evidence = assembleEvidence(fusedHits, corpus, { limit: evidenceLimit, maxWithContext: evidenceLimit });
   return {
     query,
-    strategy: "BM25 + BGE-base-zh-v1.5 + equal-weight RRF",
+    strategy: "Chunk BM25 + document BM25 + BGE-base-zh-v1.5 + RRF",
     corpus: { documents: manifest.corpus.document_count, chunks: manifest.corpus.chunk_count },
     retrieval: { bm25_top_k: bm25TopK, vector_top_k: vectorTopK, fused_top_k: fusedTopK },
-    evidence_policy: "BM25首位 + 向量首位 + 等权RRF结果；正文去重并按需补充重叠来源/前置条款",
+    evidence_policy: "文档级适用性与Chunk级关键词/向量相关性融合；正文去重并按需补充重叠来源/前置条款",
     fused_hits: fusedHits.map((hit) => ({
       ...hit,
       document_title: corpus[hit.index].document_title,

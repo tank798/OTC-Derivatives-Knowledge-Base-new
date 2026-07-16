@@ -27,6 +27,7 @@ export const retrievalHitSchema = z.object({
   bm25Rank: z.number().int().positive().nullable().optional(),
   vectorRank: z.number().int().positive().nullable().optional(),
   rrfRank: z.number().int().positive().nullable().optional(),
+  documentRank: z.number().int().positive().nullable().optional(),
   isSupplementalContext: z.boolean().optional().default(false),
   subQuestion: z.string().optional().default(""),
 });
@@ -117,10 +118,10 @@ export type HybridSearchInput = z.infer<typeof hybridSearchInputSchema>;
 
 // ────────── API 请求/响应 ──────────
 export const complianceQueryInputSchema = z.object({
-  message: z.string().min(1, "请输入消息"),
-  sessionId: z.string().optional(),
+  message: z.string().trim().min(1, "请输入消息").max(4000, "消息过长，请控制在 4000 个字符以内"),
+  sessionId: z.string().uuid("sessionId 格式无效").optional(),
   debug: z.boolean().optional().default(false),
-});
+}).strict();
 
 export type ComplianceQueryInput = z.infer<typeof complianceQueryInputSchema>;
 

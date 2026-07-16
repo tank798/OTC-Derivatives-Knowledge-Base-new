@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import sys
 import unittest
 
@@ -33,6 +34,15 @@ def chunk(body: str, **values):
 
 
 class IncrementalAndQualityTests(unittest.TestCase):
+    def test_structured_document_filenames_match_document_ids(self):
+        documents_dir = Path(__file__).resolve().parents[2] / "data" / "processed" / "documents" / "json"
+        mismatches = []
+        for path in documents_dir.glob("*.json"):
+            row = json.loads(path.read_text(encoding="utf-8"))
+            if path.stem != row.get("document_id"):
+                mismatches.append(f"{path.name}->{row.get('document_id', '')}")
+        self.assertEqual(mismatches, [])
+
     def test_repository_path_is_relative_inside_project(self):
         value = repository_path(PROJECT_ROOT / "data" / "raw" / "监管文件" / "测试办法.docx")
         self.assertEqual(value, "data/raw/监管文件/测试办法.docx")

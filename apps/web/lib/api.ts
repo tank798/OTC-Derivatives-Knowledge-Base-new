@@ -167,7 +167,18 @@ export async function queryComplianceStream(
     });
 
     if (!resp.ok) {
-      onEvent({ type: "error", message: getChineseErrorMessage(resp.status) });
+      let error: { message?: string; code?: string } | undefined;
+      try {
+        const payload = await resp.json() as { error?: { message?: string; code?: string } };
+        error = payload.error;
+      } catch {
+        // Fall back to the status-based message below.
+      }
+      onEvent({
+        type: "error",
+        message: error?.message ?? getChineseErrorMessage(resp.status),
+        ...(error?.code ? { code: error.code } : {}),
+      });
       return;
     }
 
@@ -203,7 +214,7 @@ export async function queryComplianceStream(
     }
   } catch (err) {
     if (err instanceof DOMException && err.name === "AbortError") {
-      onEvent({ type: "error", message: "查询已取消或超时" });
+      onEvent({ type: "error", message: "查询已取消或超时", code: "REQUEST_ABORTED" });
     } else {
       onEvent({
         type: "error",

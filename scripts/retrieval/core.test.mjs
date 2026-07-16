@@ -6,6 +6,8 @@ import {
   MODEL_DIMENSION,
   VECTOR_PATH,
   assembleEvidence,
+  diversifyByDocument,
+  fuseAdditionalRankedChannel,
   loadIndexArtifacts,
   loadVectorMatrix,
   reciprocalRankFusion,
@@ -80,6 +82,36 @@ test("RRF对BM25和向量使用相同公式", () => {
   assert.equal(fused[0].vector_rank, 2);
 });
 
+test("有限证据窗口优先覆盖不同法规且不丢弃候选", () => {
+  const corpus = [
+    { chunk_id: "a1", document_id: "a" },
+    { chunk_id: "a2", document_id: "a" },
+    { chunk_id: "a3", document_id: "a" },
+    { chunk_id: "b1", document_id: "b" },
+    { chunk_id: "c1", document_id: "c" },
+  ];
+  const hits = corpus.map((row, index) => ({ chunk_id: row.chunk_id, index, rank: index + 1, rrf: 1 / (index + 1) }));
+  const diversified = diversifyByDocument(hits, corpus, { maxPerDocument: 2 });
+
+  assert.deepEqual(diversified.map((hit) => hit.chunk_id), ["a1", "a2", "b1", "c1", "a3"]);
+  assert.deepEqual(new Set(diversified.map((hit) => hit.chunk_id)), new Set(hits.map((hit) => hit.chunk_id)));
+});
+
+test("文档级相关性可以提升对应法规内的最佳Chunk", () => {
+  const fused = [
+    { chunk_id: "a", index: 0, rank: 1, rrf: 0.03, bm25_rank: 1, vector_rank: 2 },
+    { chunk_id: "b", index: 1, rank: 2, rrf: 0.02, bm25_rank: 20, vector_rank: null },
+  ];
+  const result = fuseAdditionalRankedChannel(
+    fused,
+    [{ chunk_id: "b", index: 1, rank: 1, bm25: 1 }],
+    { k: 60, limit: 2, weight: 0.75, rankField: "document_rank" },
+  );
+  assert.equal(result[0].chunk_id, "b");
+  assert.equal(result[0].document_rank, 1);
+  assert.equal(result[1].chunk_id, "a");
+});
+
 test("证据整理去除完全重复正文", () => {
   const corpus = [
     { chunk_id: "a", document_id: "d", chunk_index: 1, text: "相同正文", document_title: "甲", local_file_path: "a", official_url: "" },
@@ -90,4 +122,17 @@ test("证据整理去除完全重复正文", () => {
     { chunk_id: "b", index: 1, rank: 2, rrf: 0.5 },
   ], corpus, { limit: 2 });
   assert.equal(evidence.length, 1);
+});
+
+test("前置上下文不会挤出Top K主检索结果", () => {
+  const corpus = [
+    { chunk_id: "context", document_id: "d1", chunk_index: 1, text: "第一条 上下文", document_title: "甲", local_file_path: "a", official_url: "" },
+    { chunk_id: "primary-a", document_id: "d1", chunk_index: 2, text: "前款规定继续适用", document_title: "甲", local_file_path: "a", official_url: "" },
+    { chunk_id: "primary-b", document_id: "d2", chunk_index: 1, text: "独立主结果", document_title: "乙", local_file_path: "b", official_url: "" },
+  ];
+  const evidence = assembleEvidence([
+    { chunk_id: "primary-a", index: 1, rank: 1, rrf: 1 },
+    { chunk_id: "primary-b", index: 2, rank: 2, rrf: 0.5 },
+  ], corpus, { limit: 2, maxWithContext: 2 });
+  assert.deepEqual(evidence.map((row) => row.chunk_id), ["primary-a", "primary-b"]);
 });

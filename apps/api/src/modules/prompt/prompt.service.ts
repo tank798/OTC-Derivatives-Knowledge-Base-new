@@ -11,6 +11,9 @@ export class PromptService {
   constructor() {
     const repoRoot = this.findRepoRoot();
     this.promptsDir = resolve(repoRoot, "packages/prompts");
+    for (const relativePath of Object.values(promptManifest.agent)) {
+      this.loadPrompt(relativePath);
+    }
   }
 
   getAgentPrompt(key: PromptKey): string { return this.loadPrompt(promptManifest.agent[key]); }
@@ -22,14 +25,10 @@ export class PromptService {
     if (cached) return cached;
 
     const fullPath = resolve(this.promptsDir, relativePath);
-    try {
-      const content = readFileSync(fullPath, "utf-8");
-      this.cache.set(relativePath, content);
-      return content;
-    } catch {
-      console.error(`[PromptService] Failed to load prompt: ${fullPath}`);
-      return "";
-    }
+    const content = readFileSync(fullPath, "utf-8").trim();
+    if (!content) throw new Error(`Agent prompt is empty: ${fullPath}`);
+    this.cache.set(relativePath, content);
+    return content;
   }
 
   private findRepoRoot(): string {

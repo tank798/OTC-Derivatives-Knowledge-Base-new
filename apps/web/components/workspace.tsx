@@ -1,15 +1,16 @@
 "use client";
 
 import { Component, useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { ComplianceQueryResponseData } from "@otc/shared";
+import { complianceQueryResponseSchema, type ComplianceQueryResponseData } from "@otc/shared";
 import { queryComplianceStream } from "../lib/api";
 import { ChatPanel } from "./chat-panel";
 import type { ChatConversation, ChatMessage } from "./chat-types";
 import { ConversationSidebar } from "./conversation-sidebar";
 import { RegulatorySourcesPanel } from "./regulatory-sources-panel";
 
-const CONVERSATION_STORAGE_KEY = "otc-regulatory-chat-history-v1";
-const MAX_STORED_CONVERSATIONS = 50;
+const CONVERSATION_STORAGE_KEY = "otc-regulatory-chat-history-v2";
+const LEGACY_CONVERSATION_STORAGE_KEY = "otc-regulatory-chat-history-v1";
+const MAX_STORED_CONVERSATIONS = 20;
 
 function LoadingSkeleton() {
   return (
@@ -68,6 +69,7 @@ export function Workspace() {
   const [isInitializing, setIsInitializing] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
+  const activeConversationIdRef = useRef("");
 
   const activeConversation = useMemo(
     () => conversations.find((conversation) => conversation.id === activeConversationId),
@@ -85,6 +87,7 @@ export function Workspace() {
     const initialActive = [...initialConversations].sort((left, right) => right.updatedAt - left.updatedAt)[0];
     setConversations(initialConversations);
     setActiveConversationId(initialActive.id);
+    activeConversationIdRef.current = initialActive.id;
     const latestAnswerId = findLatestAnswerMessageId(initialActive.messages);
     setSelectedSourceMessageId(latestAnswerId);
     setSourcesOpen(Boolean(latestAnswerId));
@@ -99,6 +102,10 @@ export function Workspace() {
   useEffect(() => {
     if (!isInitializing) inputRef.current?.focus();
   }, [activeConversationId, isInitializing]);
+
+  useEffect(() => {
+    activeConversationIdRef.current = activeConversationId;
+  }, [activeConversationId]);
 
   const updateConversation = useCallback((
     conversationId: string,
@@ -130,10 +137,12 @@ export function Workspace() {
     setLoadingConversationId(conversationId);
 
     let streamError = "";
+    let streamErrorCode = "";
     let receivedMessage = false;
 
     const consumeStream = async (sessionId?: string) => {
       streamError = "";
+      streamErrorCode = "";
       receivedMessage = false;
       await queryComplianceStream(message, (event) => {
         if (event.type === "progress") {
@@ -167,7 +176,7 @@ export function Workspace() {
                 }
               : item),
           }));
-          if (event.data.answer) {
+          if (event.data.answer && activeConversationIdRef.current === conversationId) {
             setSelectedSourceMessageId(assistantMsg.id);
             setSourcesOpen(event.data.answer.regulatoryBasis.length > 0);
           }
@@ -176,6 +185,7 @@ export function Workspace() {
 
         if (event.type === "error") {
           streamError = event.message;
+          streamErrorCode = event.code ?? "";
           updateConversation(conversationId, (current) => ({
             ...current,
             messages: current.messages.map((item) => item.id === assistantMsg.id
@@ -189,7 +199,7 @@ export function Workspace() {
     try {
       await consumeStream(activeSessionId ?? undefined);
 
-      if (activeSessionId && streamError.includes("对话已失效")) {
+      if (activeSessionId && (streamErrorCode === "SESSION_EXPIRED" || streamError.includes("对话已失效"))) {
         updateConversation(conversationId, (current) => ({
           ...current,
           sessionId: null,
@@ -245,6 +255,7 @@ export function Workspace() {
     const conversation = createConversation();
     setConversations((previous) => [conversation, ...previous]);
     setActiveConversationId(conversation.id);
+    activeConversationIdRef.current = conversation.id;
     setSelectedSourceMessageId(null);
     setSourcesOpen(false);
     setInput("");
@@ -253,8 +264,11 @@ export function Workspace() {
   const handleSelectConversation = useCallback((conversationId: string) => {
     const conversation = conversations.find((item) => item.id === conversationId);
     if (!conversation) return;
+    const latestAnswerId = findLatestAnswerMessageId(conversation.messages);
     setActiveConversationId(conversationId);
-    setSelectedSourceMessageId(findLatestAnswerMessageId(conversation.messages));
+    activeConversationIdRef.current = conversationId;
+    setSelectedSourceMessageId(latestAnswerId);
+    setSourcesOpen(Boolean(latestAnswerId));
     setInput("");
     updateConversation(conversationId, (current) => ({ ...current, updatedAt: Date.now() }));
   }, [conversations, updateConversation]);
@@ -266,6 +280,7 @@ export function Workspace() {
       const replacement = createConversation();
       setConversations([replacement]);
       setActiveConversationId(replacement.id);
+      activeConversationIdRef.current = replacement.id;
       setSelectedSourceMessageId(null);
       setSourcesOpen(false);
       return;
@@ -274,6 +289,7 @@ export function Workspace() {
     if (conversationId === activeConversationId) {
       const nextConversation = [...remaining].sort((left, right) => right.updatedAt - left.updatedAt)[0];
       setActiveConversationId(nextConversation.id);
+      activeConversationIdRef.current = nextConversation.id;
       setSelectedSourceMessageId(findLatestAnswerMessageId(nextConversation.messages));
       setSourcesOpen(Boolean(findLatestAnswerMessageId(nextConversation.messages)));
     }
@@ -392,7 +408,7 @@ function persistConversations(conversations: ChatConversation[]) {
             : message
         )),
       }));
-    window.localStorage.setItem(CONVERSATION_STORAGE_KEY, JSON.stringify(serializable));
+    window.sessionStorage.setItem(CONVERSATION_STORAGE_KEY, JSON.stringify(serializable));
   } catch (error) {
     console.warn("无法保存历史对话", error);
   }
@@ -400,7 +416,11 @@ function persistConversations(conversations: ChatConversation[]) {
 
 function loadConversations(): ChatConversation[] {
   try {
-    const raw = window.localStorage.getItem(CONVERSATION_STORAGE_KEY);
+    let raw = window.sessionStorage.getItem(CONVERSATION_STORAGE_KEY);
+    if (!raw) {
+      raw = window.localStorage.getItem(LEGACY_CONVERSATION_STORAGE_KEY);
+      if (raw) window.localStorage.removeItem(LEGACY_CONVERSATION_STORAGE_KEY);
+    }
     if (!raw) return [];
     const parsed: unknown = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
@@ -437,13 +457,14 @@ function normalizeMessage(value: unknown): ChatMessage | null {
   const status = record.status === "loading" || record.status === "done" || record.status === "error"
     ? record.status
     : undefined;
+  const parsedData = record.data && typeof record.data === "object"
+    ? complianceQueryResponseSchema.safeParse(record.data)
+    : null;
   return {
     id: record.id,
     role: record.role,
     text: record.text,
     ...(status ? { status } : {}),
-    ...(record.data && typeof record.data === "object"
-      ? { data: record.data as ComplianceQueryResponseData }
-      : {}),
+    ...(parsedData?.success ? { data: parsedData.data } : {}),
   };
 }

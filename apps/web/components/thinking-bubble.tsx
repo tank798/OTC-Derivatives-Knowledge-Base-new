@@ -1,14 +1,16 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import type { ReactNode } from "react";
 import type { AgentProgressEvent } from "@otc/shared";
 
 type Props = {
   progress?: AgentProgressEvent[];
   active: boolean;
+  actions?: ReactNode;
 };
 
-export function ThinkingBubble({ progress = [], active }: Props) {
+export function ThinkingBubble({ progress = [], active, actions }: Props) {
   const [elapsed, setElapsed] = useState(0);
   const [expanded, setExpanded] = useState(active);
 
@@ -27,32 +29,30 @@ export function ThinkingBubble({ progress = [], active }: Props) {
     label: "正在连接法规 Agent",
     status: "running" as const,
   }], [progress]);
-  const completedCount = steps.filter((step) => step.status === "done").length;
-  const activeStep = [...steps].reverse().find((step) => step.status === "running");
-
   if (!active && !progress.length) return null;
 
   return (
     <div className="mb-3 w-full animate-fade-in text-[14px] text-[#6f6f6b]">
-      <button
-        type="button"
-        onClick={() => setExpanded((value) => !value)}
-        className="group flex items-center gap-2 rounded-lg py-1 text-left transition-colors hover:text-[#252522]"
-        aria-expanded={expanded}
-      >
-        {active ? (
-          <span className="agent-breath-dot" aria-hidden="true" />
-        ) : (
-          <CheckIcon />
-        )}
-        <span className={active ? "agent-thinking-label font-medium" : "font-medium"}>
-          {active
-            ? activeStep?.label ?? "正在处理"
-            : `已完成 ${completedCount} 个处理步骤`}
-        </span>
-        {active && elapsed > 2 && <span className="tabular-nums text-[#a0a09a]">{elapsed}s</span>}
-        <ChevronIcon expanded={expanded} />
-      </button>
+      <div className="flex min-h-9 items-center justify-between gap-3">
+        <button
+          type="button"
+          onClick={() => setExpanded((value) => !value)}
+          className="group flex items-center gap-2 rounded-lg py-1 text-left transition-colors hover:text-[#252522]"
+          aria-expanded={expanded}
+        >
+          {active ? (
+            <span className="agent-breath-dot" aria-hidden="true" />
+          ) : (
+            <CheckIcon />
+          )}
+          <span className={active ? "agent-thinking-label font-medium" : "font-medium"}>
+            {active ? "正在进行中" : "已完成"}
+          </span>
+          {active && elapsed > 2 && <span className="tabular-nums text-[#a0a09a]">{elapsed}s</span>}
+          <ChevronIcon expanded={expanded} />
+        </button>
+        {!active && actions ? <div className="flex shrink-0 items-center gap-1.5">{actions}</div> : null}
+      </div>
 
       {expanded && (
         <div className="ml-[7px] mt-2 border-l border-[#deded9] pl-5">
@@ -64,7 +64,7 @@ export function ThinkingBubble({ progress = [], active }: Props) {
                     step.status === "running" ? "agent-step-dot bg-[#1d1d1b]" : "bg-[#b7b7b1]"
                   }`}
                 />
-                <span className={step.status === "running" ? "font-medium text-[#282825]" : "text-[#85857f]"}>
+                <span className={step.status === "running" ? "agent-thinking-label font-medium" : "text-[#85857f]"}>
                   {step.label}
                 </span>
                 {step.detail && <span className="shrink-0 text-[12px] text-[#aaa9a2]">{step.detail}</span>}

@@ -2,7 +2,7 @@
 
 import { useEffect, type RefObject } from "react";
 import type { ChatMessage } from "./chat-types";
-import { ComplianceAnswerCard } from "./compliance-answer-card";
+import { ComplianceAnswerActions, ComplianceAnswerCard } from "./compliance-answer-card";
 import { ThinkingBubble } from "./thinking-bubble";
 
 type Props = {
@@ -147,7 +147,17 @@ export function ChatPanel({
 
               return (
                 <div key={message.id} className="w-full animate-fade-in">
-                  <ThinkingBubble progress={message.progress} active={message.status === "loading"} />
+                  <ThinkingBubble
+                    progress={message.progress}
+                    active={message.status === "loading"}
+                    actions={message.status === "done" && message.data ? (
+                      <ComplianceAnswerActions
+                        data={message.data}
+                        sourcesSelected={message.id === selectedSourceMessageId && sourcesOpen}
+                        onShowSources={() => onSelectSources(message.id)}
+                      />
+                    ) : undefined}
+                  />
 
                   {message.status === "loading" ? null : message.status === "error" ? (
                     <div className="rounded-2xl border border-[#e3c8c4] bg-[#fffafa] p-4 text-sm text-[#8b3b32]">
@@ -163,11 +173,7 @@ export function ChatPanel({
                       )}
                     </div>
                   ) : message.data ? (
-                    <ComplianceAnswerCard
-                      data={message.data}
-                      sourcesSelected={message.id === selectedSourceMessageId && sourcesOpen}
-                      onShowSources={() => onSelectSources(message.id)}
-                    />
+                    <ComplianceAnswerCard data={message.data} />
                   ) : (
                     <div className="max-w-[700px] whitespace-pre-wrap text-[15px] leading-7 text-[#343431]">
                       {message.text}
@@ -267,7 +273,6 @@ function SourcesPanelToggleIcon() {
     <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
       <rect x="3" y="4" width="14" height="12" rx="2" stroke="currentColor" strokeWidth="1.35" />
       <path d="M12.5 4v12" stroke="currentColor" strokeWidth="1.35" />
-      <path d="m6.5 7 2.5 3-2.5 3" stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
