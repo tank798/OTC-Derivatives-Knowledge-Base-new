@@ -14,7 +14,6 @@ type Props = {
 export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
   const sourceDocuments = groupRegulatorySources(answer, hits);
   const wikiEntries = answer?.wikiBasis ?? [];
-  const chunkCount = sourceDocuments.reduce((total, document) => total + document.chunks.length, 0);
   const [expandedKey, setExpandedKey] = useState<string | null>(sourceDocuments[0]?.key ?? null);
   const [activeTab, setActiveTab] = useState<"regulations" | "wiki">("regulations");
 
@@ -42,11 +41,6 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
         <header className="flex h-14 shrink-0 items-center justify-between border-b border-[#e4e4df] px-4">
           <div className="min-w-0">
             <h2 className="text-[14px] font-semibold text-[#2d2d29]">参考依据</h2>
-            {!!(sourceDocuments.length || wikiEntries.length) && (
-              <p className="mt-0.5 text-[10px] text-[#9a9a94]">
-                {sourceDocuments.length} 份法规 · {chunkCount} 个 Chunk{wikiEntries.length ? ` · ${wikiEntries.length} 条 Wiki` : ""}
-              </p>
-            )}
           </div>
           <button
             type="button"
@@ -103,7 +97,7 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
               </p>
               <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">
                 {activeTab === "regulations"
-                  ? "完成法规问答后，模型实际引用的完整 Chunk 会集中显示在这里。"
+                  ? "完成法规问答后，模型实际引用的法规原文会集中显示在这里。"
                   : "只有回答实际使用的业务 Know-how 才会显示；Wiki 不能替代法规原文。"}
               </p>
             </div>
@@ -157,7 +151,7 @@ function SourceCard({
         <span className="min-w-0 flex-1">
           <span className="block text-[13px] font-medium leading-5 text-[#30302d]">《{document.title}》</span>
           <span className="mt-1 block truncate text-[10px] text-[#969690]">
-            {[`${document.chunks.length} 个引用 Chunk`, document.documentNumber].filter(Boolean).join(" · ")}
+            {[`${document.chunks.length} 个引用`, document.documentNumber].filter(Boolean).join(" · ")}
           </span>
         </span>
         <ChevronIcon expanded={expanded} />
@@ -184,7 +178,7 @@ function SourceCard({
                   {chunk.text}
                 </div>
                 {!chunk.hasCompleteChunk && (
-                  <p className="mt-2 text-[10px] leading-4 text-[#a06850]">该历史记录未保存完整 Chunk，仅能显示当时的逐字引文。</p>
+                  <p className="mt-2 text-[10px] leading-4 text-[#a06850]">该历史记录未保存完整引用原文，仅能显示当时的逐字引文。</p>
                 )}
               </section>
             ))}
