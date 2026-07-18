@@ -26,5 +26,5 @@ export type ComplianceStreamEvent =
   | { type: "message"; data: ComplianceQueryResponseData }
   | { type: "answer"; data: NonNullable<ComplianceQueryResponseData["answer"]> }
   | { type: "hits"; hits: ComplianceQueryResponseData["hits"] }
-  | { type: "error"; message: string }
+  | { type: "error"; message: string; code?: string }
   | { type: "done" };

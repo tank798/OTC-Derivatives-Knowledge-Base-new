@@ -1,5 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
+import { readFileSync } from "node:fs";
 import { jsonrepair } from "jsonrepair";
 
 export type LlmChatMessage =
@@ -13,10 +14,20 @@ export type LlmChatMessage =
 export type LlmChatOptions = {
   tier?: "default" | "fast";
   thinking?: "enabled" | "disabled";
+  signal?: AbortSignal;
 };
 
 const RETRYABLE_HTTP_STATUS = new Set([429, 500, 502, 503, 504, 529]);
 const MAX_CHAT_ATTEMPTS = 3;
+
+export class LlmRequestAbortedError extends Error {
+  readonly code = "REQUEST_ABORTED";
+
+  constructor() {
+    super("请求已取消");
+    this.name = "LlmRequestAbortedError";
+  }
+}
 
 @Injectable()
 export class LlmService {
@@ -26,10 +37,23 @@ export class LlmService {
   private readonly fastModel: string;
 
   constructor(private readonly configService: ConfigService) {
-    this.apiKey = this.configService.get<string>("LLM_API_KEY") ?? null;
+    this.apiKey = this.loadApiKey();
     this.baseURL = (this.configService.get<string>("LLM_BASE_URL") ?? "https://api.deepseek.com").replace(/\/$/, "");
     this.model = this.configService.get<string>("LLM_MODEL") ?? "deepseek-v4-pro";
     this.fastModel = this.configService.get<string>("LLM_FAST_MODEL") ?? "deepseek-v4-flash";
+  }
+
+  private loadApiKey(): string | null {
+    const directKey = this.configService.get<string>("LLM_API_KEY")?.trim();
+    if (directKey) return directKey;
+
+    const keyFile = this.configService.get<string>("LLM_API_KEY_FILE")?.trim();
+    if (!keyFile) return null;
+    try {
+      return readFileSync(keyFile, "utf-8").trim() || null;
+    } catch {
+      return null;
+    }
   }
 
   get isConfigured(): boolean {
@@ -67,7 +91,10 @@ export class LlmService {
     };
 
     for (let attempt = 1; attempt <= MAX_CHAT_ATTEMPTS; attempt += 1) {
+      if (options.signal?.aborted) throw new LlmRequestAbortedError();
       const controller = new AbortController();
+      const abortFromCaller = () => controller.abort(options.signal?.reason);
+      options.signal?.addEventListener("abort", abortFromCaller, { once: true });
       const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
       try {
         const resp = await fetch(`${this.baseURL}/chat/completions`, {
@@ -98,6 +125,7 @@ export class LlmService {
         return content;
       } catch (err) {
         if (err instanceof Error && err.name === "AbortError") {
+          if (options.signal?.aborted) throw new LlmRequestAbortedError();
           throw new Error(`LLM request timed out after ${timeoutMs}ms`);
         }
         if (err instanceof TypeError && attempt < MAX_CHAT_ATTEMPTS) {
@@ -107,6 +135,7 @@ export class LlmService {
         throw err;
       } finally {
         clearTimeout(timeoutId);
+        options.signal?.removeEventListener("abort", abortFromCaller);
       }
     }
     throw new Error("LLM request failed after bounded retries");
@@ -239,7 +268,10 @@ export class LlmService {
     };
 
     for (let attempt = 1; attempt <= MAX_CHAT_ATTEMPTS; attempt += 1) {
+      if (options.signal?.aborted) throw new LlmRequestAbortedError();
       const controller = new AbortController();
+      const abortFromCaller = () => controller.abort(options.signal?.reason);
+      options.signal?.addEventListener("abort", abortFromCaller, { once: true });
       const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
       try {
         const resp = await fetch(`${this.baseURL}/chat/completions`, {
@@ -315,6 +347,7 @@ export class LlmService {
         return { content, toolCalls, finishReason };
       } catch (error) {
         if (error instanceof Error && error.name === "AbortError") {
+          if (options.signal?.aborted) throw new LlmRequestAbortedError();
           throw new Error(`LLM request timed out after ${timeoutMs}ms`);
         }
         if (error instanceof TypeError && attempt < MAX_CHAT_ATTEMPTS) {
@@ -324,6 +357,7 @@ export class LlmService {
         throw error;
       } finally {
         clearTimeout(timeoutId);
+        options.signal?.removeEventListener("abort", abortFromCaller);
       }
     }
     throw new Error("LLM tool request failed after bounded retries");

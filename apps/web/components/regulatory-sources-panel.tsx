@@ -1,20 +1,27 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { AgentRegulatoryAnswer, AgentRegulatoryBasis } from "@otc/shared";
+import type { AgentRegulatoryAnswer, RetrievalHit } from "@otc/shared";
+import { groupRegulatorySources, type RegulatorySourceDocument } from "../lib/regulatory-sources";
 
 type Props = {
   open: boolean;
   answer?: AgentRegulatoryAnswer;
+  hits: RetrievalHit[];
   onClose: () => void;
 };
 
-export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
-  const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
+export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
+  const sourceDocuments = groupRegulatorySources(answer, hits);
+  const wikiEntries = answer?.wikiBasis ?? [];
+  const chunkCount = sourceDocuments.reduce((total, document) => total + document.chunks.length, 0);
+  const [expandedKey, setExpandedKey] = useState<string | null>(sourceDocuments[0]?.key ?? null);
+  const [activeTab, setActiveTab] = useState<"regulations" | "wiki">("regulations");
 
   useEffect(() => {
-    setExpandedIndex(answer?.regulatoryBasis.length ? 0 : null);
-  }, [answer]);
+    setExpandedKey(sourceDocuments[0]?.key ?? null);
+    setActiveTab(sourceDocuments.length ? "regulations" : "wiki");
+  }, [answer, hits]);
 
   return (
     <>
@@ -34,9 +41,11 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
       >
         <header className="flex h-14 shrink-0 items-center justify-between border-b border-[#e4e4df] px-4">
           <div className="min-w-0">
-            <h2 className="text-[14px] font-semibold text-[#2d2d29]">法规依据</h2>
-            {!!answer?.regulatoryBasis.length && (
-              <p className="mt-0.5 text-[10px] text-[#9a9a94]">{answer.regulatoryBasis.length} 条已引用法规</p>
+            <h2 className="text-[14px] font-semibold text-[#2d2d29]">参考依据</h2>
+            {!!(sourceDocuments.length || wikiEntries.length) && (
+              <p className="mt-0.5 text-[10px] text-[#9a9a94]">
+                {sourceDocuments.length} 份法规 · {chunkCount} 个 Chunk{wikiEntries.length ? ` · ${wikiEntries.length} 条 Wiki` : ""}
+              </p>
             )}
           </div>
           <button
@@ -50,26 +59,53 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
           </button>
         </header>
 
+        <div className="flex shrink-0 gap-1 border-b border-[#e4e4df] px-3 py-2">
+          <button
+            type="button"
+            onClick={() => setActiveTab("regulations")}
+            className={`rounded-lg px-3 py-1.5 text-[12px] font-medium transition-colors ${activeTab === "regulations" ? "bg-[#e9e9e5] text-[#30302d]" : "text-[#85857f] hover:bg-[#f0f0ed]"}`}
+          >
+            法规原文 {sourceDocuments.length || ""}
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab("wiki")}
+            className={`rounded-lg px-3 py-1.5 text-[12px] font-medium transition-colors ${activeTab === "wiki" ? "bg-[#e9e9e5] text-[#30302d]" : "text-[#85857f] hover:bg-[#f0f0ed]"}`}
+          >
+            专家 Wiki {wikiEntries.length || ""}
+          </button>
+        </div>
+
         <div className="scrollbar-hidden flex-1 overflow-y-auto px-3 py-4">
-          {answer?.regulatoryBasis.length ? (
+          {activeTab === "regulations" && sourceDocuments.length ? (
             <div className="space-y-2.5">
-              {answer.regulatoryBasis.map((basis, index) => (
+              {sourceDocuments.map((document, index) => (
                 <SourceCard
-                  key={`${basis.evidenceId}-${index}`}
-                  basis={basis}
+                  key={document.key}
+                  document={document}
                   index={index}
-                  expanded={expandedIndex === index}
-                  onToggle={() => setExpandedIndex((current) => current === index ? null : index)}
+                  expanded={expandedKey === document.key}
+                  onToggle={() => setExpandedKey((current) => current === document.key ? null : document.key)}
                 />
               ))}
+            </div>
+          ) : activeTab === "wiki" && wikiEntries.length ? (
+            <div className="space-y-2.5">
+              {wikiEntries.map((entry, index) => <WikiCard key={entry.id} entry={entry} index={index} />)}
             </div>
           ) : (
             <div className="flex min-h-[55vh] flex-col items-center justify-center px-8 text-center">
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#deded9] bg-white text-[#898983]">
                 <SourcesIcon />
               </div>
-              <p className="mt-4 text-[13px] font-medium text-[#5e5e58]">当前没有法规依据</p>
-              <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">完成法规问答后，模型实际引用的条文会集中显示在这里。</p>
+              <p className="mt-4 text-[13px] font-medium text-[#5e5e58]">
+                {activeTab === "regulations" ? "当前没有法规依据" : "当前没有使用专家 Wiki"}
+              </p>
+              <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">
+                {activeTab === "regulations"
+                  ? "完成法规问答后，模型实际引用的完整 Chunk 会集中显示在这里。"
+                  : "只有回答实际使用的业务 Know-how 才会显示；Wiki 不能替代法规原文。"}
+              </p>
             </div>
           )}
         </div>
@@ -78,13 +114,34 @@ export function RegulatorySourcesPanel({ open, answer, onClose }: Props) {
   );
 }
 
+function WikiCard({ entry, index }: { entry: NonNullable<AgentRegulatoryAnswer["wikiBasis"]>[number]; index: number }) {
+  return (
+    <article className="rounded-2xl border border-[#dfdfda] bg-white px-3.5 py-3.5">
+      <div className="flex items-start gap-3">
+        <span className="mt-0.5 flex h-5 min-w-5 items-center justify-center rounded-md bg-[#eeeeeb] text-[10px] font-medium text-[#6e6e68]">{index + 1}</span>
+        <div className="min-w-0 flex-1">
+          <h3 className="text-[13px] font-medium leading-5 text-[#30302d]">{entry.title}</h3>
+          <p className="mt-1 text-[10px] text-[#969690]">{entry.status === "reviewed" ? "已由专家复核" : "用户已确认，待专家复核"}</p>
+        </div>
+      </div>
+      <p className="mt-3 whitespace-pre-wrap break-words text-[12px] leading-6 text-[#454541]">{entry.content}</p>
+      {entry.scope && <p className="mt-3 text-[11px] leading-5 text-[#777771]">适用范围：{entry.scope}</p>}
+      {!!entry.tags.length && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {entry.tags.map((tag) => <span key={tag} className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{tag}</span>)}
+        </div>
+      )}
+    </article>
+  );
+}
+
 function SourceCard({
-  basis,
+  document,
   index,
   expanded,
   onToggle,
 }: {
-  basis: AgentRegulatoryBasis;
+  document: RegulatorySourceDocument;
   index: number;
   expanded: boolean;
   onToggle: () => void;
@@ -98,9 +155,9 @@ function SourceCard({
       >
         <span className="mt-0.5 flex h-5 min-w-5 items-center justify-center rounded-md bg-[#eeeeeb] text-[10px] font-medium text-[#6e6e68]">{index + 1}</span>
         <span className="min-w-0 flex-1">
-          <span className="block text-[13px] font-medium leading-5 text-[#30302d]">《{basis.title}》</span>
+          <span className="block text-[13px] font-medium leading-5 text-[#30302d]">《{document.title}》</span>
           <span className="mt-1 block truncate text-[10px] text-[#969690]">
-            {[basis.articleNo, basis.documentNumber].filter(Boolean).join(" · ") || basis.publisher}
+            {[`${document.chunks.length} 个引用 Chunk`, document.documentNumber].filter(Boolean).join(" · ")}
           </span>
         </span>
         <ChevronIcon expanded={expanded} />
@@ -108,18 +165,33 @@ function SourceCard({
 
       {expanded && (
         <div className="border-t border-[#ecece8] px-3.5 pb-4 pt-3">
-          {(basis.publisher || basis.status) && (
+          {(document.publisher || document.status) && (
             <div className="mb-3 flex flex-wrap gap-1.5">
-              {basis.publisher && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{basis.publisher}</span>}
-              {basis.status && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{basis.status}</span>}
+              {document.publisher && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{document.publisher}</span>}
+              {document.status && <span className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{document.status}</span>}
             </div>
           )}
-          <p className="mb-1.5 text-[10px] font-medium tracking-[0.06em] text-[#999993]">原文</p>
-          <blockquote className="whitespace-pre-wrap border-l-2 border-[#c9c9c3] pl-3 text-[12px] leading-6 text-[#575752]">{basis.quoteExact}</blockquote>
-          <p className="mt-3 text-[12px] leading-5 text-[#3f3f3a]">{basis.explanation}</p>
-          {basis.url && (
+          <div className="space-y-4">
+            {document.chunks.map((chunk, chunkIndex) => (
+              <section
+                key={chunk.evidenceId}
+                className={chunkIndex ? "border-t border-[#ecece8] pt-4" : ""}
+              >
+                {chunk.articleLabel && (
+                  <p className="mb-2 text-[10px] font-medium tracking-[0.06em] text-[#8f8f89]">{chunk.articleLabel}</p>
+                )}
+                <div className="break-words whitespace-pre-wrap text-[12px] leading-6 text-[#454541]">
+                  {chunk.text}
+                </div>
+                {!chunk.hasCompleteChunk && (
+                  <p className="mt-2 text-[10px] leading-4 text-[#a06850]">该历史记录未保存完整 Chunk，仅能显示当时的逐字引文。</p>
+                )}
+              </section>
+            ))}
+          </div>
+          {document.url && (
             <a
-              href={basis.url}
+              href={document.url}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 inline-flex items-center gap-1 text-[11px] font-medium text-[#4d6482] transition-colors hover:text-[#2d496e] hover:underline"
@@ -137,7 +209,7 @@ function ClosePanelIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
       <rect x="3" y="4" width="14" height="12" rx="2" stroke="currentColor" strokeWidth="1.35" />
-      <path d="M12.5 4v12M8.5 7 6 10l2.5 3" stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12.5 4v12" stroke="currentColor" strokeWidth="1.35" />
     </svg>
   );
 }

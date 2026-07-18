@@ -308,6 +308,9 @@ def main() -> int:
         document.file_path = path
         document.metadata = merge_metadata(document.metadata, catalog_record)
         document_id = canonical_document_id(document.metadata, path)
+        # 权威元数据可能改变规范化 document_id；输出文件名必须跟随最终 ID，
+        # 不能继续沿用解析缓存中的旧路径。
+        structured_path = document_output_dir / "json" / f"{document_id}.json"
         meta_hash = metadata_hash(document.metadata)
         text_hash = content_hash(document)
         chunker_version = chunker_version_for(document)
@@ -360,6 +363,16 @@ def main() -> int:
             "chunk_ids": [row["chunk_id"] for row in rows],
             "summary": summary,
         }
+
+    if not partial:
+        intended_structured = {
+            resolve_manifest_artifact(manifest_path, record.get("structured_json", "")).resolve()
+            for record in new_documents.values()
+            if record.get("structured_json")
+        }
+        for stale_path in (document_output_dir / "json").glob("*.json"):
+            if stale_path.resolve() not in intended_structured:
+                stale_path.unlink()
 
     document_ids = list(new_documents)
     if len(document_ids) != len(set(document_ids)):

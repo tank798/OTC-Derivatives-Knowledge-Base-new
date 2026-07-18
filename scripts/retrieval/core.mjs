@@ -209,6 +209,36 @@ export function reciprocalRankFusion(bm25Hits, vectorHits, { k = 60, limit = 20 
     .map((hit, rank) => ({ ...hit, rank: rank + 1 }));
 }
 
+export function diversifyByDocument(
+  hits,
+  corpus,
+  {
+    maxPerDocument = 3,
+    limit = 10,
+  } = {},
+) {
+  if (!Number.isInteger(maxPerDocument) || maxPerDocument < 1) {
+    throw new Error("maxPerDocument 必须是正整数");
+  }
+  if (!Number.isInteger(limit) || limit < 1) throw new Error("limit 必须是正整数");
+  const selected = [];
+  const counts = new Map();
+  const documentIdOf = (hit) => corpus[hit.index]?.document_id || `unknown:${hit.chunk_id}`;
+
+  // 同一份法规最多进入3个Chunk，避免单一长文占满10条上下文。
+  // 这是与法规名称、题目无关的通用约束；仍按原始RRF顺序保留每份法规最强的Chunk。
+  for (const hit of hits) {
+    if (selected.length >= limit) break;
+    const documentId = documentIdOf(hit);
+    const count = counts.get(documentId) ?? 0;
+    if (count >= maxPerDocument) continue;
+    counts.set(documentId, count + 1);
+    selected.push(hit);
+  }
+
+  return selected.map((hit, rank) => ({ ...hit, rank: rank + 1 }));
+}
+
 function containmentSimilarity(left, right) {
   const a = normalizeText(left);
   const b = normalizeText(right);
@@ -255,17 +285,23 @@ export function assembleEvidence(fusedHits, corpus, { limit = 10, maxWithContext
     return true;
   };
 
+  const contextCandidates = [];
   for (const hit of fusedHits.slice(0, limit)) {
     const row = corpus[hit.index];
     add(row, hit, "primary");
-    if (selected.length >= maxWithContext) break;
-    if (row.overlap_source_chunk_id) add(byChunkId.get(row.overlap_source_chunk_id)?.row, null, "overlap_source");
+    if (row.overlap_source_chunk_id) {
+      contextCandidates.push({ row: byChunkId.get(row.overlap_source_chunk_id)?.row, role: "overlap_source" });
+    }
     const openingText = row.text.slice(0, 220);
     if (/(^|\n)(前条|前款|前项|上述规定|依照前款|除前款)/.test(openingText)) {
       const siblings = byDocument.get(row.document_id) ?? [];
       const position = siblings.findIndex((item) => item.row.chunk_id === row.chunk_id);
-      if (position > 0) add(siblings[position - 1].row, null, "dependency_context");
+      if (position > 0) contextCandidates.push({ row: siblings[position - 1].row, role: "dependency_context" });
     }
+  }
+  for (const candidate of contextCandidates) {
+    if (selected.length >= maxWithContext) break;
+    add(candidate.row, null, candidate.role);
   }
   return selected;
 }

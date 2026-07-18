@@ -29,6 +29,7 @@ async function proxy(req: NextRequest) {
       method: req.method,
       headers,
       body,
+      signal: req.signal,
     });
 
     const contentType = resp.headers.get("Content-Type") ?? "";

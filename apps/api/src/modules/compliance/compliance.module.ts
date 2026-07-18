@@ -6,6 +6,7 @@ import { CitationValidatorService } from "../citation-validator/citation-validat
 import { HybridRegulationSearchTool } from "./hybrid-regulation-search.tool";
 import { RegulatoryAgentService } from "./regulatory-agent.service";
 import { AgentRunLoggerService } from "./agent-run-logger.service";
+import { WikiService } from "../wiki/wiki.service";
 
 @Module({
   providers: [
@@ -15,6 +16,7 @@ import { AgentRunLoggerService } from "./agent-run-logger.service";
     ContextBuilderService,
     CitationValidatorService,
     AgentRunLoggerService,
+    WikiService,
   ],
   controllers: [ComplianceController],
 })

@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { appendFileSync, existsSync, mkdirSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readdirSync, statSync, unlinkSync } from "node:fs";
 import { resolve } from "node:path";
 
 type LogValue = string | number | boolean | null | undefined | LogValue[] | { [key: string]: LogValue };
@@ -7,15 +7,24 @@ type LogValue = string | number | boolean | null | undefined | LogValue[] | { [k
 @Injectable()
 export class AgentRunLoggerService {
   private readonly logsDir: string;
+  private readonly mode: "off" | "metadata" | "full";
+  private readonly retentionDays: number;
 
   constructor() {
+    const configuredMode = process.env.AGENT_LOG_MODE?.toLowerCase();
+    this.mode = configuredMode === "off" || configuredMode === "full" ? configuredMode : "metadata";
+    this.retentionDays = Math.max(1, Number(process.env.AGENT_LOG_RETENTION_DAYS ?? 7) || 7);
     this.logsDir = resolve(this.findRepoRoot(), "data/index/eval/logs");
-    mkdirSync(this.logsDir, { recursive: true });
+    if (this.mode !== "off") {
+      mkdirSync(this.logsDir, { recursive: true });
+      this.removeExpiredLogs();
+    }
   }
 
   write(runId: string, sessionId: string, event: string, data: Record<string, LogValue> = {}) {
+    if (this.mode === "off") return;
     const timestamp = new Date().toISOString();
-    const safeData = this.redact(data) as Record<string, LogValue>;
+    const safeData = this.sanitize(data) as Record<string, LogValue>;
     const record = { timestamp, runId, sessionId, event, data: safeData };
 
     try {
@@ -46,15 +55,34 @@ export class AgentRunLoggerService {
     ].join("\n");
   }
 
-  private redact(value: LogValue, key = ""): LogValue {
+  private sanitize(value: LogValue, key = ""): LogValue {
     if (/api.?key|authorization|token|secret|password/i.test(key)) return "[REDACTED]";
-    if (Array.isArray(value)) return value.map((item) => this.redact(item));
+    if (
+      this.mode === "metadata"
+      && /^(?:message|content|conclusion|reasoningSummary|quoteExact|explanation|query|purpose|searchedQueries|answerSummary|evidenceContext)$/i.test(key)
+    ) {
+      return "[OMITTED_BY_LOG_POLICY]";
+    }
+    if (Array.isArray(value)) return value.map((item) => this.sanitize(item));
     if (value && typeof value === "object") {
       return Object.fromEntries(
-        Object.entries(value).map(([childKey, childValue]) => [childKey, this.redact(childValue, childKey)]),
+        Object.entries(value).map(([childKey, childValue]) => [childKey, this.sanitize(childValue, childKey)]),
       );
     }
     return value;
+  }
+
+  private removeExpiredLogs() {
+    const cutoff = Date.now() - this.retentionDays * 24 * 60 * 60 * 1000;
+    for (const name of readdirSync(this.logsDir)) {
+      if (!/\.(?:jsonl|md)$/i.test(name)) continue;
+      const path = resolve(this.logsDir, name);
+      try {
+        if (statSync(path).mtimeMs < cutoff) unlinkSync(path);
+      } catch (error) {
+        console.warn(`[AgentRunLogger] 无法清理过期日志 ${name}: ${error instanceof Error ? error.message : error}`);
+      }
+    }
   }
 
   private findRepoRoot() {

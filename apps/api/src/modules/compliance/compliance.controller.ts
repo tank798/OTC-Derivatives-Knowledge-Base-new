@@ -1,9 +1,22 @@
-import { Controller, Post, Body, Get, Res } from "@nestjs/common";
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type ExpressResponse = any;
-import { ComplianceService } from "./compliance.service";
+import { Body, Controller, Get, Post, Res } from "@nestjs/common";
+import { complianceQueryInputSchema } from "@otc/shared";
+import { fail, ok } from "../../common/api-response";
 import { RetrievalService } from "../retrieval/retrieval.service";
-import { ok, fail } from "../../common/api-response";
+import { ComplianceService } from "./compliance.service";
+import { AgentRunError } from "./regulatory-agent.service";
+
+type ExpressResponse = {
+  status: (code: number) => ExpressResponse;
+  json: (body: unknown) => void;
+  setHeader: (name: string, value: string) => void;
+  flushHeaders: () => void;
+  write: (chunk: string) => void;
+  end: () => void;
+  once: (event: "close", listener: () => void) => void;
+  off: (event: "close", listener: () => void) => void;
+  writableEnded: boolean;
+  flush?: () => void;
+};
 
 @Controller("compliance")
 export class ComplianceController {
@@ -13,36 +26,40 @@ export class ComplianceController {
   ) {}
 
   @Post("query")
-  async query(@Body() body: { message: string; sessionId?: string; debug?: boolean }) {
-    if (!body.message?.trim()) {
-      return fail("请输入消息");
+  async query(@Body() body: unknown, @Res({ passthrough: true }) res: ExpressResponse) {
+    const parsed = complianceQueryInputSchema.safeParse(body);
+    if (!parsed.success) {
+      res.status(400);
+      return fail(parsed.error.issues[0]?.message ?? "请求参数有误", "INVALID_REQUEST");
     }
 
     if (!this.retrieval.isReady) {
+      res.status(503);
       return fail("知识库索引尚未加载完成，请稍后重试", "INDEX_NOT_READY");
     }
 
     try {
-      const result = await this.compliance.answer(body.message.trim(), {
-        sessionId: body.sessionId,
-        debug: body.debug === true,
+      const result = await this.compliance.answer(parsed.data.message, {
+        sessionId: parsed.data.sessionId,
+        debug: parsed.data.debug,
       });
       return ok(result);
-    } catch (err) {
-      const message = err instanceof Error ? err.message : "合规查询失败";
-      console.error("[ComplianceController] POST /compliance/query error:", err);
-      return fail(message);
+    } catch (error) {
+      const details = this.errorDetails(error);
+      res.status(details.status);
+      console.error("[ComplianceController] POST /compliance/query error:", error);
+      return fail(details.message, details.code);
     }
   }
 
   @Post("query/stream")
-  async queryStream(
-    @Body() body: { message: string; sessionId?: string; debug?: boolean },
-    @Res() res: ExpressResponse,
-  ) {
-    // Validate input before setting up SSE
-    if (!body.message?.trim()) {
-      res.status(400).json({ success: false, error: { message: "请输入消息" } });
+  async queryStream(@Body() body: unknown, @Res() res: ExpressResponse) {
+    const parsed = complianceQueryInputSchema.safeParse(body);
+    if (!parsed.success) {
+      res.status(400).json({
+        success: false,
+        error: { message: parsed.error.issues[0]?.message ?? "请求参数有误", code: "INVALID_REQUEST" },
+      });
       return;
     }
 
@@ -54,60 +71,67 @@ export class ComplianceController {
       return;
     }
 
-    // Set SSE headers
     res.setHeader("Content-Type", "text/event-stream");
     res.setHeader("Cache-Control", "no-cache");
     res.setHeader("Connection", "keep-alive");
-    res.setHeader("X-Accel-Buffering", "no"); // Disable nginx buffering if proxied
+    res.setHeader("X-Accel-Buffering", "no");
     res.flushHeaders();
 
-    // Handle client disconnect
+    const abortController = new AbortController();
     let aborted = false;
-    res.on("close", () => {
+    const handleClose = () => {
+      if (res.writableEnded) return;
       aborted = true;
-    });
+      abortController.abort();
+    };
+    res.once("close", handleClose);
 
     try {
-      const stream = this.compliance.answerStream(body.message.trim(), {
-        sessionId: body.sessionId,
-        debug: body.debug === true,
+      const stream = this.compliance.answerStream(parsed.data.message, {
+        sessionId: parsed.data.sessionId,
+        debug: parsed.data.debug,
+        signal: abortController.signal,
       });
 
       for await (const event of stream) {
         if (aborted) break;
-
         res.write(`data: ${JSON.stringify(event)}\n\n`);
-
-        // If using compression, flush after each event
-        if (typeof (res as any).flush === "function") {
-          (res as any).flush();
-        }
-
+        res.flush?.();
         if (event.type === "done" || event.type === "error") break;
       }
-    } catch (err) {
+    } catch (error) {
       if (!aborted) {
-        const message = err instanceof Error ? err.message : "合规查询流异常";
-        console.error("[ComplianceController] POST /compliance/query/stream error:", err);
+        const details = this.errorDetails(error);
+        console.error("[ComplianceController] POST /compliance/query/stream error:", error);
         try {
-          res.write(`data: ${JSON.stringify({ type: "error", message })}\n\n`);
+          res.write(`data: ${JSON.stringify({ type: "error", message: details.message, code: details.code })}\n\n`);
         } catch {
-          // Response may already be closed
+          // The client may have disconnected between the check and write.
         }
       }
     } finally {
-      if (!aborted) {
-        res.end();
-      }
+      res.off("close", handleClose);
+      if (!aborted) res.end();
     }
   }
 
   @Get("health")
   health() {
     return ok({
-      status: "ok",
+      status: this.retrieval.isReady ? "ok" : "starting",
       indexReady: this.retrieval.isReady,
       stats: this.retrieval.stats,
     });
+  }
+
+  private errorDetails(error: unknown) {
+    if (error instanceof AgentRunError) {
+      return { status: error.httpStatus, code: error.code, message: error.message };
+    }
+    return {
+      status: 500,
+      code: "INTERNAL_ERROR",
+      message: error instanceof Error ? error.message : "合规查询失败",
+    };
   }
 }

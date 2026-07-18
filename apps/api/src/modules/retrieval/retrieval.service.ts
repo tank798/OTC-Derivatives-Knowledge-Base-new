@@ -15,14 +15,18 @@ type CoreModule = {
   assembleEvidence: (hits: unknown[], corpus: CorpusRow[], options: object) => CorpusRow[];
   loadIndexArtifacts: () => { corpus: CorpusRow[]; manifest: any; bm25: any; vectorMetadata: any };
   loadVectorMatrix: (path: string, count: number, dimension: number) => Float32Array;
-  normalizeTitle: (value: string) => string;
+  diversifyByDocument: (
+    hits: FusedHit[],
+    corpus: CorpusRow[],
+    options: { maxPerDocument: number; limit: number },
+  ) => FusedHit[];
   reciprocalRankFusion: (bm25: RankedHit[], vector: RankedHit[], options: object) => FusedHit[];
   searchBm25: (query: string, corpus: CorpusRow[], index: any, limit: number) => RankedHit[];
   searchVectors: (query: Float32Array, matrix: Float32Array, corpus: CorpusRow[], dimension: number, limit: number) => RankedHit[];
 };
 
 type CorpusRow = Record<string, any> & { chunk_id: string; document_id: string; text: string; document_title: string };
-type RankedHit = { chunk_id: string; index: number; rank: number; bm25?: number; vector?: number };
+type RankedHit = { chunk_id: string; index: number; rank: number; bm25?: number; vector?: number; source_rank?: number };
 type FusedHit = RankedHit & { rrf: number; bm25_rank?: number | null; vector_rank?: number | null };
 type ProgressCallback = (event: AgentProgressEvent) => void;
 
@@ -39,6 +43,7 @@ export class RetrievalService implements OnModuleInit {
   private vectorMetadata: any = null;
   private vectors: Float32Array | null = null;
   private extractor: any = null;
+  private extractorPromise: Promise<any> | null = null;
 
   async onModuleInit() {
     this.root = this.findRepoRoot();
@@ -67,7 +72,10 @@ export class RetrievalService implements OnModuleInit {
     if (!this.isReady) throw new Error("知识库索引尚未加载完成");
     const { keywordQueries, semanticQueries } = this.buildChannelQueries(input);
     onProgress?.({ id: "bm25", label: "正在进行 BM25 关键词排序", status: "running" });
-    const bm25Hits = this.mergeChannel(keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, 30)), "bm25");
+    const bm25Hits = this.mergeChannel(
+      keywordQueries.map((query) => this.core.searchBm25(query, this.corpus, this.bm25, 30)),
+      "bm25",
+    );
     onProgress?.({ id: "bm25", label: "BM25 关键词排序完成", status: "done", detail: `${bm25Hits.length} 个候选 Chunk` });
 
     let vectorHits: RankedHit[] = [];
@@ -85,10 +93,16 @@ export class RetrievalService implements OnModuleInit {
       onProgress?.({ id: "vector", label: "向量排序不可用，已使用关键词结果", status: "done" });
     }
 
-    onProgress?.({ id: "rrf", label: "正在融合两路检索结果", status: "running" });
-    let fused = this.core.reciprocalRankFusion(bm25Hits, vectorHits, { k: 60, limit: 30 });
-    fused = this.prependExactMatches(input.queries.join(" "), fused);
-    const evidence = this.core.assembleEvidence(fused, this.corpus, { limit: input.topK, maxWithContext: input.topK });
+    onProgress?.({ id: "rrf", label: "正在融合检索结果", status: "running" });
+    const evidenceLimit = Math.min(10, Math.max(1, input.topK));
+    // 主排序只使用Chunk级BM25与向量检索的RRF。保留两路Top30并集，
+    // 避免在融合前误删只在其中一路表现强的Chunk。
+    let fused = this.core.reciprocalRankFusion(bm25Hits, vectorHits, { k: 60, limit: 60 });
+    fused = this.core.diversifyByDocument(fused, this.corpus, {
+      maxPerDocument: 3,
+      limit: evidenceLimit,
+    });
+    const evidence = this.core.assembleEvidence(fused, this.corpus, { limit: evidenceLimit, maxWithContext: evidenceLimit });
     const maxRrf = Math.max(...fused.map((hit) => hit.rrf), 1 / 61);
     const rrfRanks = new Map(fused.map((hit, index) => [hit.chunk_id, index + 1]));
     onProgress?.({ id: "rrf", label: "混合检索结果已整理", status: "done", detail: `${evidence.length} 个法规 Chunk` });
@@ -122,6 +136,7 @@ export class RetrievalService implements OnModuleInit {
         bm25Rank: retrieval?.bm25_rank ?? null,
         vectorRank: retrieval?.vector_rank ?? null,
         rrfRank: retrieval ? (rrfRanks.get(row.chunk_id) ?? null) : null,
+        documentRank: null,
         isSupplementalContext: !retrieval,
         subQuestion: input.subQuestion,
       } satisfies RetrievalHit;
@@ -177,32 +192,42 @@ export class RetrievalService implements OnModuleInit {
     return { keywordQueries, semanticQueries };
   }
 
-  private prependExactMatches(query: string, fused: FusedHit[]) {
-    const normalizedQuery = this.core.normalizeTitle(query);
-    const exact = this.corpus.map((row, index) => ({ row, index })).filter(({ row }) => {
-      const title = this.core.normalizeTitle(row.document_title);
-      const number = this.core.normalizeTitle(row.document_number || "");
-      return (title.length >= 6 && normalizedQuery.includes(title)) || (number && normalizedQuery.includes(number));
-    });
-    const exactIds = new Set(exact.map(({ row }) => row.chunk_id));
-    const anchors = exact.slice(0, 3).map(({ row, index }, rank) => ({ chunk_id: row.chunk_id, index, rank: rank + 1, rrf: 1, bm25_rank: 1, vector_rank: null }));
-    return [...anchors, ...fused.filter((hit) => !exactIds.has(hit.chunk_id))];
+  private async embedQuery(query: string): Promise<Float32Array> {
+    const extractor = await this.getExtractor();
+    const output = await extractor(`${this.core.QUERY_INSTRUCTION}${query}`, { pooling: "cls", normalize: true });
+    return new Float32Array(output.data);
   }
 
-  private async embedQuery(query: string): Promise<Float32Array> {
-    if (!this.extractor) {
-      const transformers = await dynamicImport("@huggingface/transformers");
-      transformers.env.cacheDir = this.core.MODEL_CACHE;
-      transformers.env.allowRemoteModels = false;
-      transformers.env.allowLocalModels = true;
-      this.extractor = await transformers.pipeline("feature-extraction", this.core.MODEL_ID, {
-        dtype: this.core.MODEL_DTYPE,
-        cache_dir: this.core.MODEL_CACHE,
-        local_files_only: true,
-      });
+  private getExtractor(): Promise<any> {
+    if (this.extractor) return Promise.resolve(this.extractor);
+
+    if (!this.extractorPromise) {
+      this.extractorPromise = this.initializeExtractor()
+        .then((extractor) => {
+          this.extractor = extractor;
+          return extractor;
+        })
+        .catch((error) => {
+          // Do not cache a rejected initialization. All requests waiting on the
+          // current attempt receive the same error, while a later request may retry.
+          this.extractorPromise = null;
+          throw error;
+        });
     }
-    const output = await this.extractor(`${this.core.QUERY_INSTRUCTION}${query}`, { pooling: "cls", normalize: true });
-    return new Float32Array(output.data);
+
+    return this.extractorPromise;
+  }
+
+  private async initializeExtractor(): Promise<any> {
+    const transformers = await dynamicImport("@huggingface/transformers");
+    transformers.env.cacheDir = this.core.MODEL_CACHE;
+    transformers.env.allowRemoteModels = false;
+    transformers.env.allowLocalModels = true;
+    return transformers.pipeline("feature-extraction", this.core.MODEL_ID, {
+      dtype: this.core.MODEL_DTYPE,
+      cache_dir: this.core.MODEL_CACHE,
+      local_files_only: true,
+    });
   }
 
   private findRepoRoot() {

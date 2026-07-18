@@ -59,7 +59,7 @@ python3 knowledge_base/review_chunks.py
 
 复核结果写入 `data/processed/chunk_review`；脚本只读原件，不修改 `data/raw/监管文件`。
 
-已完成的全量复核只保留压缩结论 `docs/chunk_review_final_report.md`。逐 Chunk 记录、覆盖明细和中间 CSV 不进入仓库。
+已完成的全量复核只保留压缩结论 `docs/reviews/Chunk复核报告.md`。逐 Chunk 记录、覆盖明细和中间 CSV 不进入仓库。
 
 ## 正式输出
 

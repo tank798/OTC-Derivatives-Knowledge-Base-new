@@ -10,6 +10,7 @@ import {
   QUERY_INSTRUCTION,
   VECTOR_PATH,
   assembleEvidence,
+  diversifyByDocument,
   loadIndexArtifacts,
   loadVectorMatrix,
   reciprocalRankFusion,
@@ -51,43 +52,24 @@ export async function hybridSearch(query, options = {}) {
   const { corpus, manifest, bm25, vectorMetadata } = loadIndexArtifacts();
   const bm25TopK = options.bm25TopK ?? manifest.fusion.bm25_top_k;
   const vectorTopK = options.vectorTopK ?? manifest.fusion.vector_top_k;
-  const fusedTopK = options.fusedTopK ?? manifest.fusion.fused_top_k;
+  const fusedTopK = options.fusedTopK ?? Math.max(60, manifest.fusion.fused_top_k);
   const bm25Hits = searchBm25(query, corpus, bm25, bm25TopK);
   const queryVector = await embedQuery(query, vectorMetadata.dimension);
   const matrix = loadVectorMatrix(VECTOR_PATH, corpus.length, vectorMetadata.dimension);
   const vectorHits = searchVectors(queryVector, matrix, corpus, vectorMetadata.dimension, vectorTopK);
-  const fusedHits = reciprocalRankFusion(bm25Hits, vectorHits, { k: manifest.fusion.rrf_k, limit: fusedTopK });
-  const fusedById = new Map(fusedHits.map((hit) => [hit.chunk_id, hit]));
-  const evidenceCandidates = [];
-  const candidateIds = new Set();
-  const addCandidate = (hit, anchorSource = "") => {
-    if (!hit || candidateIds.has(hit.chunk_id)) return;
-    candidateIds.add(hit.chunk_id);
-    const fused = fusedById.get(hit.chunk_id);
-    evidenceCandidates.push({
-      ...(fused ?? {
-        chunk_id: hit.chunk_id,
-        index: hit.index,
-        rrf: 0,
-        bm25_rank: null,
-        vector_rank: null,
-        bm25_score: null,
-        vector_score: null,
-        rank: null,
-      }),
-      anchor_source: anchorSource || null,
-    });
-  };
-  addCandidate(bm25Hits[0], "bm25");
-  addCandidate(vectorHits[0], "vector");
-  fusedHits.forEach((hit) => addCandidate(hit));
-  const evidence = assembleEvidence(evidenceCandidates, corpus, { limit: options.evidenceLimit ?? 10 });
+  const evidenceLimit = Math.min(10, Math.max(1, options.evidenceLimit ?? 10));
+  const fusedHits = diversifyByDocument(
+    reciprocalRankFusion(bm25Hits, vectorHits, { k: manifest.fusion.rrf_k, limit: fusedTopK }),
+    corpus,
+    { maxPerDocument: 3, limit: evidenceLimit },
+  );
+  const evidence = assembleEvidence(fusedHits, corpus, { limit: evidenceLimit, maxWithContext: evidenceLimit });
   return {
     query,
-    strategy: "BM25 + BGE-base-zh-v1.5 + equal-weight RRF",
+    strategy: "Chunk BM25 + BGE-base-zh-v1.5 + RRF",
     corpus: { documents: manifest.corpus.document_count, chunks: manifest.corpus.chunk_count },
     retrieval: { bm25_top_k: bm25TopK, vector_top_k: vectorTopK, fused_top_k: fusedTopK },
-    evidence_policy: "BM25首位 + 向量首位 + 等权RRF结果；正文去重并按需补充重叠来源/前置条款",
+    evidence_policy: "Chunk级关键词/向量相关性融合；同一法规最多3条；正文去重并按需补充前置条款",
     fused_hits: fusedHits.map((hit) => ({
       ...hit,
       document_title: corpus[hit.index].document_title,

@@ -34,8 +34,6 @@ data/processed/chunks/markdown/
 data/processed/documents/all_documents.jsonl
 data/processed/chunk_review/
 data/processed/chunk_review_independent/
-data/processed/chunk_review_viewer/chunk_review_data.json
-data/processed/chunk_review_viewer/viewer_validation.json
 data/processed/chunks/chunk_index.csv
 data/processed/chunks/Chunk质量问题.csv
 data/processed/chunks/切分报告.md
@@ -44,3 +42,4 @@ data/processed/chunks/自动校验结果.json
 data/index/duplicate_audit.csv
 data/index/eval/results.json
 data/index/eval/results.md
+data/index/eval/live-results/
