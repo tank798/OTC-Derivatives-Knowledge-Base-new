@@ -83,6 +83,7 @@ export class CitationValidatorService {
         conclusion: draft.conclusion,
         reasoningSummary: draft.reasoningSummary,
         regulatoryBasis: validBasis,
+        wikiBasis: [],
         missingInformation: draft.missingInformation,
         manualReviewNote: draft.manualReviewNote,
         citationValidation: { passed: issues.length === 0, issues },

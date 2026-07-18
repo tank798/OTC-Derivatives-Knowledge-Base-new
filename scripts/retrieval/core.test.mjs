@@ -7,7 +7,6 @@ import {
   VECTOR_PATH,
   assembleEvidence,
   diversifyByDocument,
-  fuseAdditionalRankedChannel,
   loadIndexArtifacts,
   loadVectorMatrix,
   reciprocalRankFusion,
@@ -82,34 +81,42 @@ test("RRF对BM25和向量使用相同公式", () => {
   assert.equal(fused[0].vector_rank, 2);
 });
 
-test("有限证据窗口优先覆盖不同法规且不丢弃候选", () => {
+test("同一法规最多保留3个Chunk", () => {
   const corpus = [
     { chunk_id: "a1", document_id: "a" },
     { chunk_id: "a2", document_id: "a" },
     { chunk_id: "a3", document_id: "a" },
+    { chunk_id: "a4", document_id: "a" },
     { chunk_id: "b1", document_id: "b" },
     { chunk_id: "c1", document_id: "c" },
   ];
-  const hits = corpus.map((row, index) => ({ chunk_id: row.chunk_id, index, rank: index + 1, rrf: 1 / (index + 1) }));
-  const diversified = diversifyByDocument(hits, corpus, { maxPerDocument: 2 });
+  const scores = [0.033, 0.032, 0.031, 0.030, 0.0295, 0.015];
+  const hits = corpus.map((row, index) => ({ chunk_id: row.chunk_id, index, rank: index + 1, rrf: scores[index] }));
+  const diversified = diversifyByDocument(hits, corpus, {
+    maxPerDocument: 3,
+    limit: 5,
+  });
 
-  assert.deepEqual(diversified.map((hit) => hit.chunk_id), ["a1", "a2", "b1", "c1", "a3"]);
-  assert.deepEqual(new Set(diversified.map((hit) => hit.chunk_id)), new Set(hits.map((hit) => hit.chunk_id)));
+  assert.deepEqual(diversified.map((hit) => hit.chunk_id), ["a1", "a2", "a3", "b1", "c1"]);
+  assert.equal(diversified.filter((hit) => corpus[hit.index].document_id === "a").length, 3);
 });
 
-test("文档级相关性可以提升对应法规内的最佳Chunk", () => {
-  const fused = [
-    { chunk_id: "a", index: 0, rank: 1, rrf: 0.03, bm25_rank: 1, vector_rank: 2 },
-    { chunk_id: "b", index: 1, rank: 2, rrf: 0.02, bm25_rank: 20, vector_rank: null },
+test("法规级上限对强溢出Chunk同样生效", () => {
+  const corpus = [
+    { chunk_id: "a1", document_id: "a" },
+    { chunk_id: "a2", document_id: "a" },
+    { chunk_id: "a3", document_id: "a" },
+    { chunk_id: "a4", document_id: "a" },
+    { chunk_id: "b1", document_id: "b" },
   ];
-  const result = fuseAdditionalRankedChannel(
-    fused,
-    [{ chunk_id: "b", index: 1, rank: 1, bm25: 1 }],
-    { k: 60, limit: 2, weight: 0.75, rankField: "document_rank" },
-  );
-  assert.equal(result[0].chunk_id, "b");
-  assert.equal(result[0].document_rank, 1);
-  assert.equal(result[1].chunk_id, "a");
+  const scores = [0.033, 0.032, 0.031, 0.030, 0.020];
+  const hits = corpus.map((row, index) => ({ chunk_id: row.chunk_id, index, rank: index + 1, rrf: scores[index] }));
+  const diversified = diversifyByDocument(hits, corpus, {
+    maxPerDocument: 3,
+    limit: 4,
+  });
+
+  assert.deepEqual(diversified.map((hit) => hit.chunk_id), ["a1", "a2", "a3", "b1"]);
 });
 
 test("证据整理去除完全重复正文", () => {

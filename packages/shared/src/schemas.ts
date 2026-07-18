@@ -34,6 +34,48 @@ export const retrievalHitSchema = z.object({
 
 export type RetrievalHit = z.infer<typeof retrievalHitSchema>;
 
+// ───────── 专家 Know-how Wiki ─────────
+// Wiki 用于保存经用户确认的业务经验、术语解释和适用边界。它不是法规
+// 原文，不能替代监管文件作为确定性法律结论的依据。
+export const wikiEntryStatusSchema = z.enum(["user_confirmed", "reviewed"]);
+export type WikiEntryStatus = z.infer<typeof wikiEntryStatusSchema>;
+
+export const wikiProposalSchema = z.object({
+  title: z.string().trim().min(1),
+  content: z.string().trim().min(1),
+  scope: z.string().trim().default(""),
+  tags: z.array(z.string().trim().min(1)).max(12).default([]),
+});
+export type WikiProposal = z.infer<typeof wikiProposalSchema>;
+
+// pending proposal 是已经展示给用户的服务端快照。确认工具只能引用
+// proposalId，不得在保存时重新提交或替换条目内容。
+export const pendingWikiProposalSchema = wikiProposalSchema.extend({
+  proposalId: z.string().min(1),
+});
+export type PendingWikiProposal = z.infer<typeof pendingWikiProposalSchema>;
+
+export const wikiEntrySchema = wikiProposalSchema.extend({
+  id: z.string(),
+  status: wikiEntryStatusSchema,
+  createdAt: z.string(),
+  updatedAt: z.string(),
+  sourceSessionId: z.string().default(""),
+  sourceQuestion: z.string().default(""),
+});
+export type WikiEntry = z.infer<typeof wikiEntrySchema>;
+
+export const agentWikiBasisDraftSchema = z.object({
+  entryId: z.string().min(1),
+  explanation: z.string().min(1),
+});
+export type AgentWikiBasisDraft = z.infer<typeof agentWikiBasisDraftSchema>;
+
+export const agentWikiBasisSchema = wikiEntrySchema.extend({
+  explanation: z.string(),
+});
+export type AgentWikiBasis = z.infer<typeof agentWikiBasisSchema>;
+
 // ───────── 对话式法规 Agent ─────────
 // Agent 只负责改写、检索、判断证据是否足够以及撰写回答。
 // 最终法规元数据由程序根据 evidenceId 回填，不让模型自行编造。
@@ -45,6 +87,7 @@ export const agentAnswerDraftSchema = z.object({
     quoteExact: z.string().min(1),
     explanation: z.string().min(1),
   })).default([]),
+  wikiBasis: z.array(agentWikiBasisDraftSchema).max(5).default([]),
   missingInformation: z.preprocess((value) => value == null ? [] : value, z.array(z.string())).default([]),
   manualReviewNote: z.preprocess((value) => value == null ? "" : value, z.string()).default(""),
 });
@@ -67,6 +110,7 @@ export const agentRegulatoryAnswerSchema = z.object({
   conclusion: z.string(),
   reasoningSummary: z.string(),
   regulatoryBasis: z.array(agentRegulatoryBasisSchema),
+  wikiBasis: z.array(agentWikiBasisSchema).default([]),
   missingInformation: z.array(z.string()).default([]),
   manualReviewNote: z.string().default(""),
   citationValidation: z.object({
@@ -79,6 +123,7 @@ export type AgentRegulatoryAnswer = z.infer<typeof agentRegulatoryAnswerSchema>;
 export const agentTurnStageSchema = z.enum([
   "awaiting_confirmation",
   "awaiting_clarification",
+  "awaiting_wiki_confirmation",
   "complete",
 ]);
 export type AgentTurnStage = z.infer<typeof agentTurnStageSchema>;
@@ -98,6 +143,7 @@ export const agentChatResponseSchema = z.object({
   stage: agentTurnStageSchema,
   message: z.string(),
   proposedQuery: z.string().optional(),
+  wikiProposal: pendingWikiProposalSchema.optional(),
   answer: agentRegulatoryAnswerSchema.optional(),
   hits: z.array(retrievalHitSchema).default([]),
   trace: agentRunTraceSchema.optional(),

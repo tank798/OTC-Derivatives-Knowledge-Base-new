@@ -20,7 +20,11 @@ export function ThinkingBubble({ progress = [], active, actions }: Props) {
       return;
     }
     setExpanded(true);
-    const timer = window.setInterval(() => setElapsed((value) => value + 1), 1000);
+    const startedAt = Date.now();
+    setElapsed(0);
+    const timer = window.setInterval(() => {
+      setElapsed(Math.floor((Date.now() - startedAt) / 1000));
+    }, 1000);
     return () => window.clearInterval(timer);
   }, [active]);
 
@@ -48,7 +52,7 @@ export function ThinkingBubble({ progress = [], active, actions }: Props) {
           <span className={active ? "agent-thinking-label font-medium" : "font-medium"}>
             {active ? "正在进行中" : "已完成"}
           </span>
-          {active && elapsed > 2 && <span className="tabular-nums text-[#a0a09a]">{elapsed}s</span>}
+          {active && elapsed > 2 && <span className="tabular-nums text-[#a0a09a]">{formatElapsedTime(elapsed)}</span>}
           <ChevronIcon expanded={expanded} />
         </button>
         {!active && actions ? <div className="flex shrink-0 items-center gap-1.5">{actions}</div> : null}
@@ -75,6 +79,18 @@ export function ThinkingBubble({ progress = [], active, actions }: Props) {
       )}
     </div>
   );
+}
+
+function formatElapsedTime(totalSeconds: number) {
+  if (totalSeconds < 60) return `${totalSeconds}s`;
+
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  const paddedSeconds = String(seconds).padStart(2, "0");
+
+  if (hours < 1) return `${minutes}m ${paddedSeconds}s`;
+  return `${hours}h ${String(minutes).padStart(2, "0")}m ${paddedSeconds}s`;
 }
 
 function CheckIcon() {

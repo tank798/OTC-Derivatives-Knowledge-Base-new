@@ -4,6 +4,7 @@ export const promptManifest = {
     retrieval: "agent/retrieval.md",
     evidenceAnswer: "agent/evidence-answer.md",
     citationRepair: "agent/citation-repair.md",
+    wikiConfirmation: "agent/wiki-confirmation.md",
   },
 } as const;
 

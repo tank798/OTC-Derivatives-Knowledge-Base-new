@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHUNKS_PATH = ROOT / "data/processed/chunks/jsonl/all_chunks.jsonl"
-OUTPUT_PATH = ROOT / "data/processed/chunk_review_viewer/chunk_review.html"
+OUTPUT_PATH = ROOT / "docs/法规与Chunk查看器.html"
 
 HISTORICAL_AUTHORITY_MAP = {
     "中国银行业监督管理委员会": "国家金融监督管理总局",

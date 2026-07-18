@@ -11,6 +11,7 @@
     "search:hybrid": "node scripts/hybrid_search.mjs",
     "test:retrieval": "node --test scripts/retrieval/*.test.mjs",
     "test:api-contract": "corepack pnpm --filter @otc/shared build && corepack pnpm --filter @otc/prompts build && corepack pnpm --filter api build && node --test scripts/api/*.test.mjs",
+    "test:live-agent": "node scripts/api/live-agent-smoke.mjs",
     "test": "corepack pnpm test:retrieval && corepack pnpm test:api-contract && corepack pnpm -r lint",
     "build": "corepack pnpm -r build",
     "lint": "corepack pnpm -r lint"

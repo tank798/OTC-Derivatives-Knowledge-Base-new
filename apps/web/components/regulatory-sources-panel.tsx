@@ -13,11 +13,14 @@ type Props = {
 
 export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
   const sourceDocuments = groupRegulatorySources(answer, hits);
+  const wikiEntries = answer?.wikiBasis ?? [];
   const chunkCount = sourceDocuments.reduce((total, document) => total + document.chunks.length, 0);
   const [expandedKey, setExpandedKey] = useState<string | null>(sourceDocuments[0]?.key ?? null);
+  const [activeTab, setActiveTab] = useState<"regulations" | "wiki">("regulations");
 
   useEffect(() => {
     setExpandedKey(sourceDocuments[0]?.key ?? null);
+    setActiveTab(sourceDocuments.length ? "regulations" : "wiki");
   }, [answer, hits]);
 
   return (
@@ -38,10 +41,10 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
       >
         <header className="flex h-14 shrink-0 items-center justify-between border-b border-[#e4e4df] px-4">
           <div className="min-w-0">
-            <h2 className="text-[14px] font-semibold text-[#2d2d29]">法规依据</h2>
-            {!!sourceDocuments.length && (
+            <h2 className="text-[14px] font-semibold text-[#2d2d29]">参考依据</h2>
+            {!!(sourceDocuments.length || wikiEntries.length) && (
               <p className="mt-0.5 text-[10px] text-[#9a9a94]">
-                {sourceDocuments.length} 份法规 · {chunkCount} 个引用 Chunk
+                {sourceDocuments.length} 份法规 · {chunkCount} 个 Chunk{wikiEntries.length ? ` · ${wikiEntries.length} 条 Wiki` : ""}
               </p>
             )}
           </div>
@@ -56,8 +59,25 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
           </button>
         </header>
 
+        <div className="flex shrink-0 gap-1 border-b border-[#e4e4df] px-3 py-2">
+          <button
+            type="button"
+            onClick={() => setActiveTab("regulations")}
+            className={`rounded-lg px-3 py-1.5 text-[12px] font-medium transition-colors ${activeTab === "regulations" ? "bg-[#e9e9e5] text-[#30302d]" : "text-[#85857f] hover:bg-[#f0f0ed]"}`}
+          >
+            法规原文 {sourceDocuments.length || ""}
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab("wiki")}
+            className={`rounded-lg px-3 py-1.5 text-[12px] font-medium transition-colors ${activeTab === "wiki" ? "bg-[#e9e9e5] text-[#30302d]" : "text-[#85857f] hover:bg-[#f0f0ed]"}`}
+          >
+            专家 Wiki {wikiEntries.length || ""}
+          </button>
+        </div>
+
         <div className="scrollbar-hidden flex-1 overflow-y-auto px-3 py-4">
-          {sourceDocuments.length ? (
+          {activeTab === "regulations" && sourceDocuments.length ? (
             <div className="space-y-2.5">
               {sourceDocuments.map((document, index) => (
                 <SourceCard
@@ -69,18 +89,49 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
                 />
               ))}
             </div>
+          ) : activeTab === "wiki" && wikiEntries.length ? (
+            <div className="space-y-2.5">
+              {wikiEntries.map((entry, index) => <WikiCard key={entry.id} entry={entry} index={index} />)}
+            </div>
           ) : (
             <div className="flex min-h-[55vh] flex-col items-center justify-center px-8 text-center">
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#deded9] bg-white text-[#898983]">
                 <SourcesIcon />
               </div>
-              <p className="mt-4 text-[13px] font-medium text-[#5e5e58]">当前没有法规依据</p>
-              <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">完成法规问答后，模型实际引用的条文会集中显示在这里。</p>
+              <p className="mt-4 text-[13px] font-medium text-[#5e5e58]">
+                {activeTab === "regulations" ? "当前没有法规依据" : "当前没有使用专家 Wiki"}
+              </p>
+              <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">
+                {activeTab === "regulations"
+                  ? "完成法规问答后，模型实际引用的完整 Chunk 会集中显示在这里。"
+                  : "只有回答实际使用的业务 Know-how 才会显示；Wiki 不能替代法规原文。"}
+              </p>
             </div>
           )}
         </div>
       </aside>
     </>
+  );
+}
+
+function WikiCard({ entry, index }: { entry: NonNullable<AgentRegulatoryAnswer["wikiBasis"]>[number]; index: number }) {
+  return (
+    <article className="rounded-2xl border border-[#dfdfda] bg-white px-3.5 py-3.5">
+      <div className="flex items-start gap-3">
+        <span className="mt-0.5 flex h-5 min-w-5 items-center justify-center rounded-md bg-[#eeeeeb] text-[10px] font-medium text-[#6e6e68]">{index + 1}</span>
+        <div className="min-w-0 flex-1">
+          <h3 className="text-[13px] font-medium leading-5 text-[#30302d]">{entry.title}</h3>
+          <p className="mt-1 text-[10px] text-[#969690]">{entry.status === "reviewed" ? "已由专家复核" : "用户已确认，待专家复核"}</p>
+        </div>
+      </div>
+      <p className="mt-3 whitespace-pre-wrap break-words text-[12px] leading-6 text-[#454541]">{entry.content}</p>
+      {entry.scope && <p className="mt-3 text-[11px] leading-5 text-[#777771]">适用范围：{entry.scope}</p>}
+      {!!entry.tags.length && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {entry.tags.map((tag) => <span key={tag} className="rounded-md bg-[#f1f1ee] px-2 py-1 text-[10px] text-[#72726c]">{tag}</span>)}
+        </div>
+      )}
+    </article>
   );
 }
 

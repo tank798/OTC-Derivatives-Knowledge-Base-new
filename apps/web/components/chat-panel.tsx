@@ -2,6 +2,7 @@
 
 import { useEffect, type RefObject } from "react";
 import type { ChatMessage } from "./chat-types";
+import { AnswerFeedback } from "./answer-feedback";
 import { ComplianceAnswerActions, ComplianceAnswerCard } from "./compliance-answer-card";
 import { ThinkingBubble } from "./thinking-bubble";
 
@@ -20,6 +21,8 @@ type Props = {
   onOpenSidebar: () => void;
   onToggleSources: () => void;
   onSelectSources: (messageId: string) => void;
+  onMarkHelpful: (messageId: string) => void;
+  onCreateBadcase: (messageId: string, note: string) => void;
 };
 
 const EXAMPLE_TAGS = [
@@ -43,6 +46,8 @@ export function ChatPanel({
   onOpenSidebar,
   onToggleSources,
   onSelectSources,
+  onMarkHelpful,
+  onCreateBadcase,
 }: Props) {
   useEffect(() => {
     scrollRef.current?.scrollTo({
@@ -52,18 +57,22 @@ export function ChatPanel({
   }, [messages, scrollRef]);
 
   useEffect(() => {
-    if (!input && inputRef.current) inputRef.current.style.height = "auto";
+    if (!inputRef.current) return;
+    inputRef.current.style.height = "auto";
+    if (input) inputRef.current.style.height = `${Math.min(inputRef.current.scrollHeight, 144)}px`;
   }, [input, inputRef]);
 
   const showWelcome = messages.length === 0;
 
-  const fillExampleQuestion = (question: string) => {
-    setInput(question);
+  const prefillInput = (value: string) => {
+    setInput(value);
     window.requestAnimationFrame(() => {
       if (!inputRef.current) return;
       inputRef.current.focus();
       inputRef.current.style.height = "auto";
       inputRef.current.style.height = `${Math.min(inputRef.current.scrollHeight, 144)}px`;
+      inputRef.current.setSelectionRange(value.length, value.length);
+      inputRef.current.scrollLeft = inputRef.current.scrollWidth;
     });
   };
 
@@ -120,7 +129,7 @@ export function ChatPanel({
                 <button
                   key={question}
                   type="button"
-                  onClick={() => fillExampleQuestion(question)}
+                  onClick={() => prefillInput(question)}
                   className="rounded-full bg-[#ededeb] px-3.5 py-2 text-left text-[13px] leading-5 text-[#666660] transition-colors hover:bg-[#e2e2df] hover:text-[#292926]"
                 >
                   {question}
@@ -134,6 +143,7 @@ export function ChatPanel({
               const retryQuery = message.role === "assistant" && message.status === "error"
                 ? findPreviousUserMessage(messages, index)
                 : "";
+              const hasLaterUserMessage = messages.slice(index + 1).some((item) => item.role === "user");
 
               if (message.role === "user") {
                 return (
@@ -172,8 +182,30 @@ export function ChatPanel({
                         </button>
                       )}
                     </div>
-                  ) : message.data ? (
-                    <ComplianceAnswerCard data={message.data} />
+                  ) : message.data?.answer ? (
+                    <>
+                      <ComplianceAnswerCard data={message.data} />
+                      <AnswerFeedback
+                        feedback={message.feedback}
+                        onHelpful={() => onMarkHelpful(message.id)}
+                        onBadcase={(note) => onCreateBadcase(message.id, note)}
+                      />
+                    </>
+                  ) : message.data?.wikiProposal ? (
+                      <WikiProposalCard
+                        proposal={message.data.wikiProposal}
+                        disabled={loading || hasLaterUserMessage}
+                        onConfirm={() => onSubmit("确认写入 Wiki")}
+                        onDiscard={() => onSubmit("不写入 Wiki")}
+                      />
+                  ) : message.data?.stage === "awaiting_confirmation" && message.data.proposedQuery ? (
+                    <QuestionConfirmationCard
+                      question={message.data.proposedQuery}
+                      handled={hasLaterUserMessage}
+                      disabled={loading || hasLaterUserMessage}
+                      onConfirm={() => onSubmit("是的")}
+                      onEdit={() => prefillInput(message.data?.proposedQuery ?? "")}
+                    />
                   ) : (
                     <div className="max-w-[700px] whitespace-pre-wrap text-[15px] leading-7 text-[#343431]">
                       {message.text}
@@ -202,6 +234,115 @@ export function ChatPanel({
         </div>
       )}
     </div>
+  );
+}
+
+function QuestionConfirmationCard({
+  question,
+  handled,
+  disabled,
+  onConfirm,
+  onEdit,
+}: {
+  question: string;
+  handled: boolean;
+  disabled: boolean;
+  onConfirm: () => void;
+  onEdit: () => void;
+}) {
+  if (handled) {
+    return (
+      <details className="group max-w-[700px] text-[12px] text-[#8b8b85]">
+        <summary className="cursor-pointer list-none transition-colors hover:text-[#4b4b46]">
+          <span className="group-open:hidden">已完成问题确认</span>
+          <span className="hidden group-open:inline">收起问题确认</span>
+        </summary>
+        <p className="mt-2 border-l-2 border-[#ddddda] pl-3 text-[13px] leading-6 text-[#6b6b65]">{question}</p>
+      </details>
+    );
+  }
+
+  return (
+    <section className="max-w-[700px] rounded-2xl border border-[#deded9] bg-white p-4 shadow-[0_4px_18px_rgba(39,39,35,0.035)]">
+      <p className="text-[12px] font-medium text-[#92928c]">我将你的问题理解为</p>
+      <p className="mt-2 text-[15px] font-medium leading-7 text-[#30302d]">{question}</p>
+      <p className="mt-2 text-[13px] leading-6 text-[#777771]">这是你想问的问题吗？如果理解有误，请在下方输入正确问法并发送。</p>
+      <div className="mt-4 flex justify-end gap-2 border-t border-[#ecece8] pt-3">
+        <button
+          type="button"
+          onClick={onEdit}
+          disabled={disabled}
+          className="rounded-full px-3.5 py-1.5 text-[12px] text-[#666660] transition-colors hover:bg-[#eeeeeb] disabled:cursor-default disabled:opacity-40"
+        >
+          修改问题
+        </button>
+        <button
+          type="button"
+          onClick={onConfirm}
+          disabled={disabled}
+          className="rounded-full bg-[#292926] px-4 py-1.5 text-[12px] font-medium text-white transition-colors hover:bg-black disabled:cursor-default disabled:opacity-40"
+        >
+          确认并检索
+        </button>
+      </div>
+    </section>
+  );
+}
+
+function WikiProposalCard({
+  proposal,
+  disabled,
+  onConfirm,
+  onDiscard,
+}: {
+  proposal: NonNullable<ChatMessage["data"]>["wikiProposal"];
+  disabled: boolean;
+  onConfirm: () => void;
+  onDiscard: () => void;
+}) {
+  if (!proposal) return null;
+  return (
+    <section className="mt-4 max-w-[700px] overflow-hidden rounded-2xl border border-[#deded9] bg-white shadow-[0_4px_18px_rgba(39,39,35,0.04)]">
+      <div className="border-b border-[#ecece8] px-4 py-3">
+        <p className="text-[13px] font-semibold text-[#30302d]">{proposal.title}</p>
+        <p className="mt-1 text-[11px] text-[#969690]">待确认的专家 Know-how</p>
+      </div>
+      <div className="px-4 py-3.5">
+        <p className="whitespace-pre-wrap text-[14px] leading-7 text-[#444440]">{proposal.content}</p>
+        {proposal.scope && (
+          <p className="mt-3 text-[12px] leading-5 text-[#777771]">适用范围：{proposal.scope}</p>
+        )}
+        {!!proposal.tags.length && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {proposal.tags.map((tag) => (
+              <span key={tag} className="rounded-md bg-[#f0f0ed] px-2 py-1 text-[10px] text-[#74746e]">{tag}</span>
+            ))}
+          </div>
+        )}
+        <p className="mt-3 text-[11px] leading-5 text-[#9a9a94]">确认后写入本地 Wiki，并标记为“用户已确认，待专家复核”；它不会替代法规原文。</p>
+      </div>
+      <div className="flex justify-end gap-2 border-t border-[#ecece8] px-4 py-3">
+        {disabled && (
+          <span className="mr-auto self-center text-[11px] text-[#9a9a94]">已处理</span>
+        )}
+        <button
+          type="button"
+          onClick={onDiscard}
+          disabled={disabled}
+          className="rounded-full px-3.5 py-1.5 text-[12px] text-[#6f6f69] transition-colors hover:bg-[#eeeeeb] disabled:cursor-default disabled:opacity-40 disabled:hover:bg-transparent"
+        >
+          不写入
+        </button>
+        <button
+          type="button"
+          onClick={onConfirm}
+          disabled={disabled}
+          className="rounded-full bg-[#292926] px-4 py-1.5 text-[12px] font-medium text-white transition-colors hover:bg-black disabled:cursor-default disabled:opacity-40 disabled:hover:bg-[#292926]"
+        >
+          写入 Wiki
+        </button>
+      </div>
+    </section>
   );
 }
 
@@ -236,14 +377,14 @@ function Composer({ input, setInput, onKeyDown, onSubmit, inputRef, loading }: C
         placeholder="输入你的问题"
         rows={1}
         className="max-h-36 min-h-[36px] flex-1 resize-none overflow-y-auto bg-transparent px-1 py-1.5 text-[16px] leading-6 text-[#242421] outline-none placeholder:text-[#9d9d98]"
-        disabled={loading}
       />
       <button
         type="button"
         onClick={() => onSubmit(input)}
         disabled={loading || !input.trim()}
         className="mb-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#242422] text-white transition-colors hover:bg-black disabled:cursor-not-allowed disabled:bg-[#d0d0cc]"
-        aria-label="发送"
+        aria-label={loading ? "当前对话正在回答，请等待完成后发送" : "发送"}
+        title={loading ? "当前对话正在回答，请等待完成后发送" : "发送"}
       >
         {loading ? <span className="agent-button-breath h-2 w-2 rounded-full bg-white" /> : <ArrowUpIcon />}
       </button>

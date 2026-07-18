@@ -3,13 +3,15 @@
 import { Component, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { complianceQueryResponseSchema, type ComplianceQueryResponseData } from "@otc/shared";
 import { queryComplianceStream } from "../lib/api";
+import { BadcaseWorkbench } from "./badcase-workbench";
 import { ChatPanel } from "./chat-panel";
-import type { ChatConversation, ChatMessage } from "./chat-types";
+import type { BadcaseRecord, ChatConversation, ChatMessage } from "./chat-types";
 import { ConversationSidebar } from "./conversation-sidebar";
 import { RegulatorySourcesPanel } from "./regulatory-sources-panel";
 
 const CONVERSATION_STORAGE_KEY = "otc-regulatory-chat-history-v2";
 const LEGACY_CONVERSATION_STORAGE_KEY = "otc-regulatory-chat-history-v1";
+const BADCASE_STORAGE_KEY = "otc-regulatory-badcases-v1";
 const MAX_STORED_CONVERSATIONS = 20;
 
 function LoadingSkeleton() {
@@ -61,15 +63,17 @@ export class WorkspaceErrorBoundary extends Component<ErrorBoundaryProps, ErrorB
 export function Workspace() {
   const [conversations, setConversations] = useState<ChatConversation[]>([]);
   const [activeConversationId, setActiveConversationId] = useState("");
-  const [loadingConversationId, setLoadingConversationId] = useState<string | null>(null);
+  const [activeView, setActiveView] = useState<"chat" | "badcases">("chat");
+  const [badcases, setBadcases] = useState<BadcaseRecord[]>([]);
+  const [runningConversationIds, setRunningConversationIds] = useState<Set<string>>(() => new Set());
   const [selectedSourceMessageId, setSelectedSourceMessageId] = useState<string | null>(null);
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
-  const [input, setInput] = useState("");
   const [isInitializing, setIsInitializing] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const activeConversationIdRef = useRef("");
+  const requestTokensRef = useRef(new Map<string, string>());
 
   const activeConversation = useMemo(
     () => conversations.find((conversation) => conversation.id === activeConversationId),
@@ -79,7 +83,8 @@ export function Workspace() {
   const selectedSourceMessage = messages.find((message) => message.id === selectedSourceMessageId);
   const selectedAnswer = selectedSourceMessage?.data?.answer;
   const selectedSourceHits = selectedSourceMessage?.data?.hits ?? [];
-  const requestRunning = loadingConversationId !== null;
+  const input = activeConversation?.draft ?? "";
+  const requestRunning = runningConversationIds.has(activeConversationId);
 
   useEffect(() => {
     const loaded = loadConversations();
@@ -91,6 +96,7 @@ export function Workspace() {
     const latestAnswerId = findLatestAnswerMessageId(initialActive.messages);
     setSelectedSourceMessageId(latestAnswerId);
     setSourcesOpen(Boolean(latestAnswerId));
+    setBadcases(loadBadcases());
     setIsInitializing(false);
   }, []);
 
@@ -98,6 +104,11 @@ export function Workspace() {
     if (isInitializing || !conversations.length) return;
     persistConversations(conversations);
   }, [conversations, isInitializing]);
+
+  useEffect(() => {
+    if (isInitializing) return;
+    persistBadcases(badcases);
+  }, [badcases, isInitializing]);
 
   useEffect(() => {
     if (!isInitializing) inputRef.current?.focus();
@@ -116,12 +127,26 @@ export function Workspace() {
     )));
   }, []);
 
-  const handleSubmit = useCallback(async (text: string, sessionOverride?: string | null) => {
+  const setInput = useCallback((value: string) => {
+    const conversationId = activeConversationIdRef.current;
+    if (!conversationId) return;
+    updateConversation(conversationId, (current) => ({ ...current, draft: value }));
+  }, [updateConversation]);
+
+  const handleSubmit = useCallback(async (
+    text: string,
+    sessionOverride?: string | null,
+    conversationIdOverride?: string,
+  ) => {
     const message = text.trim();
-    const conversation = conversations.find((item) => item.id === activeConversationId);
-    if (!message || requestRunning || !conversation) return;
+    const targetConversationId = conversationIdOverride ?? activeConversationIdRef.current;
+    const conversation = conversations.find((item) => item.id === targetConversationId);
+    if (!message || !conversation || requestTokensRef.current.has(targetConversationId)) return;
 
     const conversationId = conversation.id;
+    const requestToken = makeId();
+    requestTokensRef.current.set(conversationId, requestToken);
+    setRunningConversationIds((current) => new Set(current).add(conversationId));
     const activeSessionId = sessionOverride === undefined ? conversation.sessionId : sessionOverride;
     const timestamp = Date.now();
     const userMsg: ChatMessage = { id: `u-${timestamp}-${makeId()}`, role: "user", text: message, status: "done" };
@@ -131,10 +156,9 @@ export function Workspace() {
       ...current,
       title: current.messages.some((item) => item.role === "user") ? current.title : titleFromMessage(message),
       updatedAt: timestamp,
+      draft: "",
       messages: [...current.messages, userMsg, assistantMsg],
     }));
-    setInput("");
-    setLoadingConversationId(conversationId);
 
     let streamError = "";
     let streamErrorCode = "";
@@ -162,7 +186,7 @@ export function Workspace() {
 
         if (event.type === "message") {
           receivedMessage = true;
-          const displayData = event.data.answer ? compactResponse(event.data) : undefined;
+          const displayData = compactResponse(event.data);
           updateConversation(conversationId, (current) => ({
             ...current,
             sessionId: event.data.sessionId,
@@ -172,13 +196,13 @@ export function Workspace() {
                   ...item,
                   text: event.data.message,
                   status: "done",
-                  ...(displayData ? { data: displayData } : {}),
+                  data: displayData,
                 }
               : item),
           }));
           if (event.data.answer && activeConversationIdRef.current === conversationId) {
             setSelectedSourceMessageId(assistantMsg.id);
-            setSourcesOpen(event.data.answer.regulatoryBasis.length > 0);
+            setSourcesOpen(event.data.answer.regulatoryBasis.length > 0 || event.data.answer.wikiBasis.length > 0);
           }
           return;
         }
@@ -222,12 +246,21 @@ export function Workspace() {
           : item),
       }));
     } finally {
-      setLoadingConversationId(null);
+      if (requestTokensRef.current.get(conversationId) === requestToken) {
+        requestTokensRef.current.delete(conversationId);
+        setRunningConversationIds((current) => {
+          if (!current.has(conversationId)) return current;
+          const next = new Set(current);
+          next.delete(conversationId);
+          return next;
+        });
+      }
     }
-  }, [activeConversationId, conversations, requestRunning, updateConversation]);
+  }, [conversations, updateConversation]);
 
   const handleRetry = useCallback((text: string) => {
     const conversationId = activeConversationId;
+    if (requestTokensRef.current.has(conversationId)) return;
     updateConversation(conversationId, (current) => {
       const tail = current.messages.slice(-2);
       const messagesWithoutError = tail.length === 2 && tail[0].role === "user" && tail[1].status === "error"
@@ -235,7 +268,7 @@ export function Workspace() {
         : current.messages;
       return { ...current, messages: messagesWithoutError };
     });
-    window.setTimeout(() => void handleSubmit(text), 50);
+    window.setTimeout(() => void handleSubmit(text, undefined, conversationId), 50);
   }, [activeConversationId, handleSubmit, updateConversation]);
 
   const handleKeyDown = useCallback((event: React.KeyboardEvent) => {
@@ -246,8 +279,8 @@ export function Workspace() {
   }, [handleSubmit, input]);
 
   const handleNewConversation = useCallback(() => {
-    if (activeConversation?.messages.length === 0) {
-      setInput("");
+    setActiveView("chat");
+    if (activeConversation?.messages.length === 0 && !activeConversation.draft.trim()) {
       setSourcesOpen(false);
       inputRef.current?.focus();
       return;
@@ -258,23 +291,22 @@ export function Workspace() {
     activeConversationIdRef.current = conversation.id;
     setSelectedSourceMessageId(null);
     setSourcesOpen(false);
-    setInput("");
   }, [activeConversation]);
 
   const handleSelectConversation = useCallback((conversationId: string) => {
     const conversation = conversations.find((item) => item.id === conversationId);
     if (!conversation) return;
+    setActiveView("chat");
     const latestAnswerId = findLatestAnswerMessageId(conversation.messages);
     setActiveConversationId(conversationId);
     activeConversationIdRef.current = conversationId;
     setSelectedSourceMessageId(latestAnswerId);
     setSourcesOpen(Boolean(latestAnswerId));
-    setInput("");
     updateConversation(conversationId, (current) => ({ ...current, updatedAt: Date.now() }));
   }, [conversations, updateConversation]);
 
   const handleDeleteConversation = useCallback((conversationId: string) => {
-    if (conversationId === loadingConversationId) return;
+    if (requestTokensRef.current.has(conversationId)) return;
     const remaining = conversations.filter((conversation) => conversation.id !== conversationId);
     if (!remaining.length) {
       const replacement = createConversation();
@@ -293,7 +325,7 @@ export function Workspace() {
       setSelectedSourceMessageId(findLatestAnswerMessageId(nextConversation.messages));
       setSourcesOpen(Boolean(findLatestAnswerMessageId(nextConversation.messages)));
     }
-  }, [activeConversationId, conversations, loadingConversationId]);
+  }, [activeConversationId, conversations]);
 
   const handleToggleSources = useCallback(() => {
     setSourcesOpen((current) => {
@@ -304,15 +336,113 @@ export function Workspace() {
     });
   }, [messages, selectedSourceMessageId]);
 
+  const handleMarkHelpful = useCallback((messageId: string) => {
+    const conversationId = activeConversationIdRef.current;
+    updateConversation(conversationId, (current) => ({
+      ...current,
+      messages: current.messages.map((message) => (
+        message.id === messageId ? { ...message, feedback: "helpful" } : message
+      )),
+    }));
+    setBadcases((current) => current.filter((record) => record.messageId !== messageId));
+  }, [updateConversation]);
+
+  const handleCreateBadcase = useCallback((messageId: string, note: string) => {
+    const conversationId = activeConversationIdRef.current;
+    const conversation = conversations.find((item) => item.id === conversationId);
+    const messageIndex = conversation?.messages.findIndex((item) => item.id === messageId) ?? -1;
+    const message = messageIndex >= 0 ? conversation?.messages[messageIndex] : undefined;
+    const answer = message?.data?.answer;
+    if (!conversation || !message || !answer) return;
+    const question = findPreviousUserText(conversation.messages, messageIndex);
+    const references: BadcaseRecord["references"] = [
+      ...answer.regulatoryBasis.map((basis) => ({
+        kind: "regulation" as const,
+        title: basis.title,
+        locator: [basis.documentNumber, basis.articleNo].filter(Boolean).join(" · "),
+        quote: basis.quoteExact,
+        explanation: basis.explanation,
+        url: basis.url,
+      })),
+      ...answer.wikiBasis.map((basis) => ({
+        kind: "wiki" as const,
+        title: basis.title,
+        locator: basis.scope ? `适用范围：${basis.scope}` : "专家 Wiki",
+        quote: basis.content,
+        explanation: basis.explanation,
+        url: "",
+      })),
+    ];
+    const now = Date.now();
+
+    setBadcases((current) => {
+      const existing = current.find((record) => record.messageId === messageId);
+      if (existing) {
+        return current.map((record) => record.messageId === messageId
+          ? {
+              ...record,
+              note: note || record.note,
+              answer: `${answer.conclusion}\n\n分析如下：${answer.reasoningSummary}`,
+              references,
+              status: "open",
+            }
+          : record);
+      }
+      return [{
+        id: `badcase-${now}-${makeId()}`,
+        conversationId,
+        messageId,
+        question,
+        answer: `${answer.conclusion}\n\n分析如下：${answer.reasoningSummary}`,
+        note,
+        references,
+        createdAt: now,
+        status: "open",
+      }, ...current];
+    });
+
+    updateConversation(conversationId, (current) => ({
+      ...current,
+      messages: current.messages.map((item) => (
+        item.id === messageId ? { ...item, feedback: "badcase" } : item
+      )),
+    }));
+  }, [conversations, updateConversation]);
+
+  const updateBadcaseStatus = useCallback((id: string, status: BadcaseRecord["status"]) => {
+    setBadcases((current) => current.map((record) => record.id === id ? { ...record, status } : record));
+  }, []);
+
+  const handleDeleteBadcase = useCallback((id: string) => {
+    const record = badcases.find((item) => item.id === id);
+    if (record) {
+      updateConversation(record.conversationId, (current) => ({
+        ...current,
+        messages: current.messages.map((message) => {
+          if (message.id !== record.messageId || message.feedback !== "badcase") return message;
+          const { feedback: _feedback, ...withoutFeedback } = message;
+          return withoutFeedback;
+        }),
+      }));
+    }
+    setBadcases((current) => current.filter((item) => item.id !== id));
+  }, [badcases, updateConversation]);
+
   return (
     <div className="flex h-screen overflow-hidden bg-[#f7f7f5]">
       <ConversationSidebar
         conversations={conversations}
         activeConversationId={activeConversationId}
-        loadingConversationId={loadingConversationId}
+        activeView={activeView}
+        badcaseCount={badcases.filter((record) => record.status === "open").length}
+        runningConversationIds={runningConversationIds}
         mobileOpen={mobileSidebarOpen}
         onCloseMobile={() => setMobileSidebarOpen(false)}
         onNewConversation={handleNewConversation}
+        onOpenBadcases={() => {
+          setActiveView("badcases");
+          setSourcesOpen(false);
+        }}
         onSelectConversation={handleSelectConversation}
         onDeleteConversation={handleDeleteConversation}
       />
@@ -320,6 +450,13 @@ export function Workspace() {
       <main className="flex min-w-0 flex-1 flex-col">
         {isInitializing || !activeConversation ? (
           <LoadingSkeleton />
+        ) : activeView === "badcases" ? (
+          <BadcaseWorkbench
+            records={badcases}
+            onResolve={(id) => updateBadcaseStatus(id, "resolved")}
+            onReopen={(id) => updateBadcaseStatus(id, "open")}
+            onDelete={handleDeleteBadcase}
+          />
         ) : (
           <div className="flex min-h-0 flex-1">
             <section className="min-w-0 flex-1">
@@ -341,6 +478,8 @@ export function Workspace() {
                   setSelectedSourceMessageId(messageId);
                   setSourcesOpen(true);
                 }}
+                onMarkHelpful={handleMarkHelpful}
+                onCreateBadcase={handleCreateBadcase}
               />
             </section>
             <RegulatorySourcesPanel
@@ -364,6 +503,7 @@ function createConversation(): ChatConversation {
     createdAt: now,
     updatedAt: now,
     sessionId: null,
+    draft: "",
     messages: [],
   };
 }
@@ -442,6 +582,7 @@ function normalizeConversation(value: unknown): ChatConversation | null {
     createdAt,
     updatedAt: typeof record.updatedAt === "number" ? record.updatedAt : createdAt,
     sessionId: typeof record.sessionId === "string" ? record.sessionId : null,
+    draft: typeof record.draft === "string" ? record.draft : "",
     messages,
   };
 }
@@ -466,5 +607,81 @@ function normalizeMessage(value: unknown): ChatMessage | null {
     text: record.text,
     ...(status ? { status } : {}),
     ...(parsedData?.success ? { data: parsedData.data } : {}),
+    ...(record.feedback === "helpful" || record.feedback === "badcase" ? { feedback: record.feedback } : {}),
   };
+}
+
+function findPreviousUserText(messages: ChatMessage[], index: number) {
+  for (let position = index - 1; position >= 0; position -= 1) {
+    if (messages[position].role === "user") return messages[position].text;
+  }
+  return "未记录问题";
+}
+
+function persistBadcases(records: BadcaseRecord[]) {
+  try {
+    window.localStorage.setItem(BADCASE_STORAGE_KEY, JSON.stringify(records));
+  } catch (error) {
+    console.warn("无法保存 Badcase", error);
+  }
+}
+
+function loadBadcases(): BadcaseRecord[] {
+  try {
+    const raw = window.localStorage.getItem(BADCASE_STORAGE_KEY);
+    if (!raw) return [];
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map((value): BadcaseRecord | null => {
+      if (!value || typeof value !== "object") return null;
+      const record = value as Record<string, unknown>;
+      const validBase = typeof record.id === "string"
+        && typeof record.conversationId === "string"
+        && typeof record.messageId === "string"
+        && typeof record.question === "string"
+        && typeof record.answer === "string"
+        && typeof record.note === "string"
+        && typeof record.createdAt === "number"
+        && (record.status === "open" || record.status === "resolved");
+      if (!validBase) return null;
+
+      const references = Array.isArray(record.references)
+        ? record.references.filter((reference): reference is BadcaseRecord["references"][number] => {
+            if (!reference || typeof reference !== "object") return false;
+            const item = reference as Record<string, unknown>;
+            return (item.kind === "regulation" || item.kind === "wiki")
+              && typeof item.title === "string"
+              && typeof item.locator === "string"
+              && typeof item.quote === "string"
+              && typeof item.explanation === "string"
+              && typeof item.url === "string";
+          })
+        : Array.isArray(record.sourceTitles)
+          ? record.sourceTitles
+              .filter((title): title is string => typeof title === "string")
+              .map((title) => ({
+                kind: "regulation" as const,
+                title,
+                locator: "",
+                quote: "",
+                explanation: "旧版记录未保存完整引用原文。",
+                url: "",
+              }))
+          : [];
+
+      return {
+        id: record.id as string,
+        conversationId: record.conversationId as string,
+        messageId: record.messageId as string,
+        question: record.question as string,
+        answer: record.answer as string,
+        note: record.note as string,
+        references,
+        createdAt: record.createdAt as number,
+        status: record.status as BadcaseRecord["status"],
+      };
+    }).filter((record): record is BadcaseRecord => Boolean(record));
+  } catch {
+    return [];
+  }
 }

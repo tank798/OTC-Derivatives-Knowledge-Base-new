@@ -107,57 +107,6 @@ export function chunkSearchText(row) {
   ].filter(Boolean).join("\n");
 }
 
-export function buildDocumentCorpus(corpus) {
-  const documents = new Map();
-  for (const row of corpus) {
-    const current = documents.get(row.document_id);
-    if (current) {
-      current.text += `\n${row.text}`;
-      continue;
-    }
-    documents.set(row.document_id, {
-      chunk_id: `document:${row.document_id}`,
-      document_id: row.document_id,
-      document_title: row.document_title,
-      text: row.text,
-    });
-  }
-  return [...documents.values()];
-}
-
-export function mapDocumentHitsToChunkAnchors(
-  documentHits,
-  chunkHitLists,
-  documentCorpus,
-  chunkCorpus,
-  { maxPerDocument = 2 } = {},
-) {
-  return documentHits.flatMap((documentHit) => {
-    const documentId = documentCorpus[documentHit.index]?.document_id;
-    if (!documentId) return [];
-    const queues = chunkHitLists.map((hits) => hits.filter((hit) => chunkCorpus[hit.index]?.document_id === documentId));
-    const anchors = [];
-    const seen = new Set();
-    while (anchors.length < maxPerDocument && queues.some((queue) => queue.length)) {
-      let added = false;
-      for (const queue of queues) {
-        let chunkHit;
-        while (queue.length && !chunkHit) {
-          const candidate = queue.shift();
-          if (candidate && !seen.has(candidate.chunk_id)) chunkHit = candidate;
-        }
-        if (!chunkHit) continue;
-        seen.add(chunkHit.chunk_id);
-        anchors.push({ ...chunkHit, source_rank: chunkHit.rank, rank: documentHit.rank });
-        added = true;
-        if (anchors.length >= maxPerDocument) break;
-      }
-      if (!added) break;
-    }
-    return anchors;
-  });
-}
-
 export function buildBm25(corpus, { k1 = 1.5, b = 0.75 } = {}) {
   const postings = new Map();
   const documentLengths = [];
@@ -260,61 +209,34 @@ export function reciprocalRankFusion(bm25Hits, vectorHits, { k = 60, limit = 20 
     .map((hit, rank) => ({ ...hit, rank: rank + 1 }));
 }
 
-export function fuseAdditionalRankedChannel(
-  fusedHits,
-  additionalHits,
-  { k = 60, limit = 20, weight = 1, rankField = "additional_rank" } = {},
+export function diversifyByDocument(
+  hits,
+  corpus,
+  {
+    maxPerDocument = 3,
+    limit = 10,
+  } = {},
 ) {
-  const fused = new Map(fusedHits.map((hit) => [hit.chunk_id, { ...hit }]));
-  for (const hit of additionalHits) {
-    const current = fused.get(hit.chunk_id) ?? {
-      chunk_id: hit.chunk_id,
-      index: hit.index,
-      rrf: 0,
-      bm25_rank: null,
-      vector_rank: null,
-      bm25_score: null,
-      vector_score: null,
-    };
-    const sourceRank = Number.isInteger(hit.source_rank) ? hit.source_rank : null;
-    const source = typeof hit.bm25 === "number" ? "bm25" : typeof hit.vector === "number" ? "vector" : null;
-    if (source && sourceRank && current[`${source}_rank`] == null) {
-      current.rrf += 1 / (k + sourceRank);
-      current[`${source}_rank`] = sourceRank;
-      current[`${source}_score`] = hit[source];
-    }
-    current.rrf += weight / (k + hit.rank);
-    current[rankField] = hit.rank;
-    fused.set(hit.chunk_id, current);
-  }
-  return [...fused.values()]
-    .sort((a, b) => b.rrf - a.rrf || (a.bm25_rank ?? Infinity) - (b.bm25_rank ?? Infinity) || a.index - b.index)
-    .slice(0, limit)
-    .map((hit, rank) => ({ ...hit, rank: rank + 1 }));
-}
-
-export function diversifyByDocument(hits, corpus, { maxPerDocument = 2 } = {}) {
   if (!Number.isInteger(maxPerDocument) || maxPerDocument < 1) {
     throw new Error("maxPerDocument 必须是正整数");
   }
-
-  const primary = [];
-  const overflow = [];
+  if (!Number.isInteger(limit) || limit < 1) throw new Error("limit 必须是正整数");
+  const selected = [];
   const counts = new Map();
+  const documentIdOf = (hit) => corpus[hit.index]?.document_id || `unknown:${hit.chunk_id}`;
+
+  // 同一份法规最多进入3个Chunk，避免单一长文占满10条上下文。
+  // 这是与法规名称、题目无关的通用约束；仍按原始RRF顺序保留每份法规最强的Chunk。
   for (const hit of hits) {
-    const documentId = corpus[hit.index]?.document_id || `unknown:${hit.chunk_id}`;
+    if (selected.length >= limit) break;
+    const documentId = documentIdOf(hit);
     const count = counts.get(documentId) ?? 0;
-    if (count < maxPerDocument) {
-      primary.push(hit);
-      counts.set(documentId, count + 1);
-    } else {
-      overflow.push(hit);
-    }
+    if (count >= maxPerDocument) continue;
+    counts.set(documentId, count + 1);
+    selected.push(hit);
   }
 
-  // 先让不同法规进入有限的证据窗口，再用原始排序中的其余 Chunk 补满。
-  // 这不会丢弃候选，也不会针对法规名称设置白名单。
-  return [...primary, ...overflow].map((hit, rank) => ({ ...hit, rank: rank + 1 }));
+  return selected.map((hit, rank) => ({ ...hit, rank: rank + 1 }));
 }
 
 function containmentSimilarity(left, right) {

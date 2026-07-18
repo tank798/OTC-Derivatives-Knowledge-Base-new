@@ -38,6 +38,7 @@ export function ComplianceAnswerActions({ data, sourcesSelected, onShowSources }
   const [copied, setCopied] = useState(false);
   if (!answer) return null;
   const referencedDocumentCount = groupRegulatorySources(answer, data.hits).length;
+  const referenceCount = referencedDocumentCount + answer.wikiBasis.length;
 
   const copyAnswer = async () => {
     const text = [
@@ -53,6 +54,15 @@ export function ComplianceAnswerActions({ data, sourcesSelected, onShowSources }
         `说明：${basis.explanation}`,
         basis.url || "",
       ].filter(Boolean).join("\n")),
+      ...(answer.wikiBasis.length ? [
+        "",
+        "专家 Wiki",
+        ...answer.wikiBasis.map((basis, index) => [
+          `${index + 1}. ${basis.title}`,
+          basis.content,
+          basis.scope ? `适用范围：${basis.scope}` : "",
+        ].filter(Boolean).join("\n")),
+      ] : []),
     ].join("\n");
 
     try {
@@ -66,7 +76,7 @@ export function ComplianceAnswerActions({ data, sourcesSelected, onShowSources }
 
   return (
     <>
-      {answer.regulatoryBasis.length > 0 && (
+      {referenceCount > 0 && (
         <button
           type="button"
           onClick={onShowSources}
@@ -77,7 +87,7 @@ export function ComplianceAnswerActions({ data, sourcesSelected, onShowSources }
           }`}
         >
           <SourcesPanelIcon />
-          法规依据 {referencedDocumentCount}
+          参考依据 {referenceCount}
         </button>
       )}
       <button

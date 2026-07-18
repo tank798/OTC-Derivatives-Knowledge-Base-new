@@ -6,10 +6,13 @@ import type { ChatConversation } from "./chat-types";
 type Props = {
   conversations: ChatConversation[];
   activeConversationId: string;
-  loadingConversationId: string | null;
+  activeView: "chat" | "badcases";
+  badcaseCount: number;
+  runningConversationIds: ReadonlySet<string>;
   mobileOpen: boolean;
   onCloseMobile: () => void;
   onNewConversation: () => void;
+  onOpenBadcases: () => void;
   onSelectConversation: (id: string) => void;
   onDeleteConversation: (id: string) => void;
 };
@@ -19,26 +22,34 @@ type ContextMenuState = { id: string; x: number; y: number } | null;
 export function ConversationSidebar({
   conversations,
   activeConversationId,
-  loadingConversationId,
+  activeView,
+  badcaseCount,
+  runningConversationIds,
   mobileOpen,
   onCloseMobile,
   onNewConversation,
+  onOpenBadcases,
   onSelectConversation,
   onDeleteConversation,
 }: Props) {
   const [contextMenu, setContextMenu] = useState<ContextMenuState>(null);
   const [pendingDeleteId, setPendingDeleteId] = useState<string | null>(null);
+  const [toolsMenuOpen, setToolsMenuOpen] = useState(false);
   const sortedConversations = useMemo(
     () => [...conversations].sort((left, right) => right.updatedAt - left.updatedAt),
     [conversations],
   );
 
   useEffect(() => {
-    const closeMenu = () => setContextMenu(null);
+    const closeMenu = () => {
+      setContextMenu(null);
+      setToolsMenuOpen(false);
+    };
     const closeOnEscape = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setContextMenu(null);
         setPendingDeleteId(null);
+        setToolsMenuOpen(false);
       }
     };
     window.addEventListener("click", closeMenu);
@@ -106,8 +117,8 @@ export function ConversationSidebar({
         <nav className="scrollbar-hidden flex-1 overflow-y-auto px-2.5 pb-4" aria-label="历史对话">
           <div className="space-y-1">
             {sortedConversations.map((conversation) => {
-              const active = conversation.id === activeConversationId;
-              const running = conversation.id === loadingConversationId;
+              const active = activeView === "chat" && conversation.id === activeConversationId;
+              const running = runningConversationIds.has(conversation.id);
               return (
                 <div
                   key={conversation.id}
@@ -152,6 +163,41 @@ export function ConversationSidebar({
           </div>
         </nav>
 
+        <div className="relative border-t border-[#deded9] px-3 py-3" onClick={(event) => event.stopPropagation()}>
+          {toolsMenuOpen && (
+            <div className="absolute bottom-[58px] left-3 w-[220px] rounded-xl border border-[#d9d9d4] bg-white p-1.5 shadow-[0_16px_44px_rgba(31,31,27,0.16)]">
+              <button
+                type="button"
+                onClick={() => {
+                  onOpenBadcases();
+                  onCloseMobile();
+                  setToolsMenuOpen(false);
+                }}
+                className={`flex w-full items-center gap-2.5 rounded-lg px-3 py-2.5 text-left text-[13px] transition-colors ${
+                  activeView === "badcases" ? "bg-[#eeeeeb] font-medium text-[#292926]" : "text-[#555550] hover:bg-[#f0f0ed]"
+                }`}
+              >
+                <BadcaseIcon />
+                <span className="flex-1">Badcase 工作台</span>
+                {badcaseCount > 0 && (
+                  <span className="rounded-full bg-[#dfdfda] px-2 py-0.5 text-[10px] tabular-nums text-[#696963]">{badcaseCount}</span>
+                )}
+              </button>
+            </div>
+          )}
+          <button
+            type="button"
+            onClick={() => setToolsMenuOpen((current) => !current)}
+            className={`flex h-9 w-9 items-center justify-center rounded-xl transition-colors ${
+              toolsMenuOpen || activeView === "badcases" ? "bg-white text-[#343430] shadow-sm" : "text-[#696963] hover:bg-[#e2e2de] hover:text-[#292926]"
+            }`}
+            aria-label="打开工具菜单"
+            aria-expanded={toolsMenuOpen}
+            title="更多"
+          >
+            <MenuIcon />
+          </button>
+        </div>
       </aside>
 
       {contextMenu && (
@@ -164,7 +210,7 @@ export function ConversationSidebar({
           <button
             type="button"
             role="menuitem"
-            disabled={contextMenu.id === loadingConversationId}
+            disabled={runningConversationIds.has(contextMenu.id)}
             onClick={() => {
               setPendingDeleteId(contextMenu.id);
               setContextMenu(null);
@@ -172,7 +218,7 @@ export function ConversationSidebar({
             className="flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-[13px] text-[#a13f37] transition-colors hover:bg-[#fff1ef] disabled:cursor-not-allowed disabled:text-[#b9b9b3] disabled:hover:bg-transparent"
           >
             <TrashIcon />
-            {contextMenu.id === loadingConversationId ? "回答中不可删除" : "删除对话"}
+            {runningConversationIds.has(contextMenu.id) ? "回答中不可删除" : "删除对话"}
           </button>
         </div>
       )}
@@ -239,6 +285,23 @@ function TrashIcon() {
   return (
     <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
       <path d="M4.5 6h11M8 3.5h4M6 6l.6 9.2a1.5 1.5 0 0 0 1.5 1.3h3.8a1.5 1.5 0 0 0 1.5-1.3L14 6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function BadcaseIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M5 3.5h8.5A1.5 1.5 0 0 1 15 5v10a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 15V5A1.5 1.5 0 0 1 5 3.5Z" stroke="currentColor" strokeWidth="1.4" />
+      <path d="M6.5 7h5M6.5 10h5M6.5 13h3" stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function MenuIcon() {
+  return (
+    <svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M4 6h12M4 10h12M4 14h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 }
