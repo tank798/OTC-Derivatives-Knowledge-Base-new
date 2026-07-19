@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司场外期权业务二级交易商备案须知.doc",
   "source_type": "docx",
   "file_sha256": "3024b964b7839e2ada39a9f283dd04135f0db03c8403e4ea213774e605e6d288",
-  "content_sha256": "5c4515d30198b0de324eb39528293155e2875200de426e1e55f7c788cbe4a7c8",
+  "content_sha256": "0cb100e47a8cc8048de2c065f222b1181cffe02adb1e7f5f5c46462987f22963",
   "metadata": {
     "document_title": "证券公司场外期权业务二级交易商备案须知",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
     "clean_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
@@ -126,6 +126,2055 @@
   },
   "original_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
   "clean_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
+  "clean_text_hash": "2cf4d7b3ce8a63b6320726b6ab33f781cfe8fd302ad67363131146275defce39",
+  "structured_blocks_sha256": "1a7dd330868e8c9f84657ba57e776ec0c8d2647a84a103f93eb5d135576072e4",
+  "front_matter": [],
+  "body_blocks": [],
+  "appendices": [
+    {
+      "block_id": "b00001",
+      "block_type": "attachment",
+      "text": "附件1:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 4,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "document_title",
+      "text": "证券公司场外期权业务二级交易商备案须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6,
+      "end_char": 25,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为做好场外期权业务二级交易商的备案管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 27,
+      "end_char": 77,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "guide_heading",
+      "text": "一、备案条件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 79,
+      "end_char": 85,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(一)最近一年证监会分类评价结果为A类A级以上的证券公司,申请二级交易商备案应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 87,
+      "end_char": 134,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "1、具备证券自营业务资格;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 136,
+      "end_char": 149,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "2、最近一年内未因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 151,
+      "end_char": 196,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "signoff",
+      "text": "3、负责场外期权业务的业务部门主要负责人应当具备2年以上参与衍生品业务管理的经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 198,
+      "end_char": 239,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "4、具备必要的场外期权业务专业人员,其中,具有一定经验的衍生品产品设计、交易人员应各至少2名,合规、风控人员应各至少1名,以上人员均需专岗,相互之间不得兼任;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 241,
+      "end_char": 320,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 322,
+      "end_char": 392,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "6、已建立完善的信息技术系统,系统模块应涵盖场外期权业务的全流程管理,包括但不限于可实现市场数据实时接入、交易簿记、经独立验证的模型估值、交易对手管理及交易文件留档、信用风险与市场风险敞口监控、压力测试、清算、客户服务等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 394,
+      "end_char": 505,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "7、协会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 507,
+      "end_char": 519,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(二)最近一年证监会分类评价结果为B类BBB级的证券公司,申请二级交易商备案应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 521,
+      "end_char": 568,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "1、具备证券自营业务资格;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 570,
+      "end_char": 583,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "2、最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200% ;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 585,
+      "end_char": 623,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "3、最近24个月未受到证监会行政处罚、被采取重大监管措施,或被证监会立案稽查;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 664,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "signoff",
+      "text": "4、场外期权业务经验和专业人员储备充分,公司衍生品业务负责人具备8年以上衍生品交易或风险管理经验,衍生品产品设计、交易、合规、风控等各类专岗专职人员均不少于2名,且具备3年以上相关业务经验,其中具备5年以上相关业务经验的人员合计不少于5名;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 666,
+      "end_char": 786,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 788,
+      "end_char": 858,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "6、信息技术系统完备,覆盖前中后台整个业务流程的各项功能,达到一级交易商的标准(可充分支持期权定价、对冲交易、风险控制、清算交收、数据报送等环节的精确化、自动化运行,可将场外期权业务全面纳入风险管理系统,能够实现定价分析、风险计量和汇总、风险指标的监测及限额管理、风险展示和报告等功能,以及对交易对手信用风险、交易行为的持续监测分析,对同一主体控制的机构、产品的集中统一的监测监控等);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 860,
+      "end_char": 1053,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "7、风险管理能力突出,达到一级交易商的标准(具备可靠的衍生品估值和风险计量模型,能够每日监测风险敞口和风险限额使用情况,能够有效控制行权价偏离度、不同类型场外期权集中度等);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1055,
+      "end_char": 1142,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "8、协会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1144,
+      "end_char": 1156,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "guide_heading",
+      "text": "二、申请材料",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1158,
+      "end_char": 1164,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券公司申请备案成为二级交易商,应当向证券业协会提交以下材料:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1166,
+      "end_char": 1197,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "guide_subheading",
+      "text": "(一)申请书",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1199,
+      "end_char": 1205,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "signoff",
+      "text": "包括但不限于公司基本情况、场外期权业务开展概况、二级交易商备案准备概况等内容,并应当由申请公司的法定代表人签字并加盖公章。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1207,
+      "end_char": 1268,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "guide_subheading",
+      "text": "(二)法人资格及业务资格证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1270,
+      "end_char": 1286,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "包括营业执照副本复印件(加盖公章)、具备证券自营业务资格证明文件复印件(加盖公章)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1288,
+      "end_char": 1330,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "guide_subheading",
+      "text": "(三)分类评价结果证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1332,
+      "end_char": 1345,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "最近一年证监会分类评价结果反馈函复印件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1367,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "guide_subheading",
+      "text": "(四)场外期权业务实施方案",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1369,
+      "end_char": 1382,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "主要内容包括但不限于业务准备情况、业务开展计划、组织架构、风险管理机制、合规管理要求、投资者适当性要求、尽职调查要求、会计安排、人员配备、信息技术系统建设、制度准备等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1384,
+      "end_char": 1468,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "guide_subheading",
+      "text": "(五)场外期权业务制度和操作流程汇编",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1470,
+      "end_char": 1488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "包括但不限于投资者适当性尽职调查、产品设计、交易对冲、数据报送、信息隔离、风险合规、场外期权业务资质管理等方面的制度(加盖公章)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1555,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "guide_subheading",
+      "text": "(六)人员准备情况的说明",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1557,
+      "end_char": 1569,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "主要包括负责场外期权业务的部门、人员、岗位设置情况说明,明确列示数据报送直接责任人和管理责任人。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1571,
+      "end_char": 1619,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "guide_subheading",
+      "text": "(七)已建立完善的信息技术系统的说明及相关证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1621,
+      "end_char": 1646,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "自主研发系统的,应提供项目立项、结项等文件;采购系统的,应提供采购合同、功能说明书等文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1648,
+      "end_char": 1693,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "guide_subheading",
+      "text": "(八)合规意见书",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1695,
+      "end_char": 1703,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "主要内容包括但不限于下列情况:(1)确认公司已就申请开展场外期权业务履行合法的内部决策、授权程序;(2)确认公司符合开展场外期权业务的各项要求和条件;(3)确认公司拟定的场外期权客户服务合同标准文本合法、完备,并已包含主协议、补充协议和交易确认书等内容。合规意见书应当由申请公司的合规总监签字。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1705,
+      "end_char": 1852,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "guide_subheading",
+      "text": "(九)承诺函",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1854,
+      "end_char": 1860,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "signoff",
+      "text": "公司的法定代表人和期权业务的主要负责人确认申请材料内容真实、准确、完整、合规,如存在虚假记载、误导性陈述和重大遗漏,将承担相关法律责任做出的书面承诺(见附件1-1),承诺函应当由申请公司的法定代表人和期权业务的主要负责人签字。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1862,
+      "end_char": 1975,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "guide_subheading",
+      "text": "(十)确认书",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1977,
+      "end_char": 1983,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "同意协会及其授权机构对公司期权业务专业人员配备、信息技术系统完备性、风险管理能力等构成二级交易商备案条件的充分、真实、合规情况进行查核的确认书。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1985,
+      "end_char": 2057,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(十一)最近一年分类评价结果为B类BBB级的公司,还应提供以下材料:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2059,
+      "end_char": 2093,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "guide_minor_heading",
+      "text": "1、风控指标达标的证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2095,
+      "end_char": 2108,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "主要包括最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200%的证明文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2110,
+      "end_char": 2154,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "2、信息技术系统完备、系统功能满足本须知“一、备案条件第(二)项第6条”要求的证明材料",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2156,
+      "end_char": 2199,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "至少应包括技术系统功能的具体说明(功能是否完备、是能否覆盖前中后台整个业务流程,保证各个环节精确化、自动化运行等)、关于场外期权业务技术系统已通过测试的证明文件等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2201,
+      "end_char": 2283,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "3、风险管理能力突出,且满足本须知“一、备案条件第(二)项第7条”要求的证明材料",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2285,
+      "end_char": 2325,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(十二)协会要求的其他材料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2327,
+      "end_char": 2341,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "guide_heading",
+      "text": "三、备案流程",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2343,
+      "end_char": 2349,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(一)申请成为二级交易商的证券公司应通过中国证券业协会会员信息系统(http://jg.sac.net.cn)— 会员信息报送 — 场外期权业务 — 二级交易商申请信息模块报送备案材料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2351,
+      "end_char": 2444,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(二)协会接收材料后,对材料的齐备性和合规性进行审阅,并可以就备案材料的补正等情况向证券公司反馈意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2446,
+      "end_char": 2497,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(三)分类评价为B类BBB级的证券公司在备案过程中,协会组织相关专家对其信息系统完备性、风险管理能力是否达到一级交易商标准等进行事前现场检查评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2499,
+      "end_char": 2572,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(四)协会在确认证券公司备案条件充分、真实、合规后,向符合备案条件的证券公司出具备案函。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2574,
+      "end_char": 2618,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "guide_heading",
+      "text": "四、持续管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2620,
+      "end_char": 2626,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(一)交易商不再符合备案条件的,应当自发生之日起5个交易日内向协会报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2628,
+      "end_char": 2664,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(二)交易商吸收合并其他证券公司,其交易商资质继续有效;未经认可或备案的证券公司吸收合并交易商,应当另行申请认可或备案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2666,
+      "end_char": 2726,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(三) 二级交易商出现下列情形之一的,协会可暂停其作为二级交易商开展场外期权业务:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2728,
+      "end_char": 2769,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "1、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会关于开展场外期权业务的有关规定及协会有关自律规则;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2771,
+      "end_char": 2842,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "2、内部控制机制不足,业务存在较大风险隐患;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2866,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "3、业务开展过程中扰乱相关市场秩序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2868,
+      "end_char": 2886,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "4、证券自营业务资格被暂停;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2888,
+      "end_char": 2902,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "5、场外期权业务信息报送不准确、不及时、不完整,严重影响监测监控;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2904,
+      "end_char": 2937,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "6、协会认定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2939,
+      "end_char": 2951,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(四)二级交易商出现下列情形之一的,协会可终止其作为二级交易商开展场外期权业务:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2953,
+      "end_char": 2993,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "1、提交的备案材料存在内容不真实、不准确、不完整,存在误导监管部门或协会的情形;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2995,
+      "end_char": 3035,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "2、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会及协会关于开展场外期权业务的监管规定及自律规则,且情节严重;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3037,
+      "end_char": 3113,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "3、内部风险控制严重不足,场外期权业务发生重大风险;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3115,
+      "end_char": 3141,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "4、业务开展过程中严重扰乱市场秩序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3143,
+      "end_char": 3161,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "5、证券自营业务资格被吊销;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3163,
+      "end_char": 3177,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "6、进入风险处置或破产程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3179,
+      "end_char": 3193,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "7、协会认定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3195,
+      "end_char": 3207,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(五)二级交易商在被暂停场外期权业务的情形消除后,三个月内未再出现被暂停场外期权业务情形的,可向协会申请恢复开展场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3209,
+      "end_char": 3272,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "二级交易商在被终止场外期权业务的情形消除后,六个月内未再出现被终止场外期权业务情形的;因材料存在内容不真实被终止的,一年内未再出现被终止场外期权业务情形的,可向协会重新申请备案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3274,
+      "end_char": 3363,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "附件1-1:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3365,
+      "end_char": 3371,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "关于申请备案场外期权业务二级交易商的承诺",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3373,
+      "end_char": 3393,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "本公司及本人对本次提交的申请材料进行了审查,并作出如下承诺:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3395,
+      "end_char": 3425,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "报送的材料真实、准确、完整、合规,申请材料原件和复印件内容一致,在线提交的申请材料与书面申请文件内容一致;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3427,
+      "end_char": 3480,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "在申请备案之前,内容发生调整变化的,我方已及时更新并作出必要说明;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3482,
+      "end_char": 3515,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "二级交易商备案申请通过后,我方将严格按照中国证监会《关于进一步加强证券公司场外期权业务监管的通知》(证监办发〔2018〕40号)、《证券公司场外期权业务管理办法》、《证券公司场外期权业务二级交易商备案须知》的规定,认真履行管理职责,督促本公司场外期权业务守法、合规;如本公司在今后的业务开展过程中出现违法、违规行为,本公司及本人将承担应负的责任。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3517,
+      "end_char": 3690,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "公司(盖章):",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3692,
+      "end_char": 3699,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "signoff",
+      "text": "公司法定代表人(签字):",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3701,
+      "end_char": 3713,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "signoff",
+      "text": "公司期权业务的主要负责人(签字):",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3715,
+      "end_char": 3732,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3734,
+      "end_char": 3739,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "附件1:\n\n证券公司场外期权业务二级交易商备案须知\n\n为做好场外期权业务二级交易商的备案管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。\n\n一、备案条件\n\n(一)最近一年证监会分类评价结果为A类A级以上的证券公司,申请二级交易商备案应当符合下列条件:\n\n1、具备证券自营业务资格;\n\n2、最近一年内未因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查;\n\n3、负责场外期权业务的业务部门主要负责人应当具备2年以上参与衍生品业务管理的经验;\n\n4、具备必要的场外期权业务专业人员,其中,具有一定经验的衍生品产品设计、交易人员应各至少2名,合规、风控人员应各至少1名,以上人员均需专岗,相互之间不得兼任;\n\n5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;\n\n6、已建立完善的信息技术系统,系统模块应涵盖场外期权业务的全流程管理,包括但不限于可实现市场数据实时接入、交易簿记、经独立验证的模型估值、交易对手管理及交易文件留档、信用风险与市场风险敞口监控、压力测试、清算、客户服务等;\n\n7、协会要求的其他条件。\n\n(二)最近一年证监会分类评价结果为B类BBB级的证券公司,申请二级交易商备案应当符合下列条件:\n\n1、具备证券自营业务资格;\n\n2、最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200% ;\n\n3、最近24个月未受到证监会行政处罚、被采取重大监管措施,或被证监会立案稽查;\n\n4、场外期权业务经验和专业人员储备充分,公司衍生品业务负责人具备8年以上衍生品交易或风险管理经验,衍生品产品设计、交易、合规、风控等各类专岗专职人员均不少于2名,且具备3年以上相关业务经验,其中具备5年以上相关业务经验的人员合计不少于5名;\n\n5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;\n\n6、信息技术系统完备,覆盖前中后台整个业务流程的各项功能,达到一级交易商的标准(可充分支持期权定价、对冲交易、风险控制、清算交收、数据报送等环节的精确化、自动化运行,可将场外期权业务全面纳入风险管理系统,能够实现定价分析、风险计量和汇总、风险指标的监测及限额管理、风险展示和报告等功能,以及对交易对手信用风险、交易行为的持续监测分析,对同一主体控制的机构、产品的集中统一的监测监控等);\n\n7、风险管理能力突出,达到一级交易商的标准(具备可靠的衍生品估值和风险计量模型,能够每日监测风险敞口和风险限额使用情况,能够有效控制行权价偏离度、不同类型场外期权集中度等);\n\n8、协会要求的其他条件。\n\n二、申请材料\n\n证券公司申请备案成为二级交易商,应当向证券业协会提交以下材料:\n\n(一)申请书\n\n包括但不限于公司基本情况、场外期权业务开展概况、二级交易商备案准备概况等内容,并应当由申请公司的法定代表人签字并加盖公章。\n\n(二)法人资格及业务资格证明文件\n\n包括营业执照副本复印件(加盖公章)、具备证券自营业务资格证明文件复印件(加盖公章)。\n\n(三)分类评价结果证明文件\n\n最近一年证监会分类评价结果反馈函复印件。\n\n(四)场外期权业务实施方案\n\n主要内容包括但不限于业务准备情况、业务开展计划、组织架构、风险管理机制、合规管理要求、投资者适当性要求、尽职调查要求、会计安排、人员配备、信息技术系统建设、制度准备等。\n\n(五)场外期权业务制度和操作流程汇编\n\n包括但不限于投资者适当性尽职调查、产品设计、交易对冲、数据报送、信息隔离、风险合规、场外期权业务资质管理等方面的制度(加盖公章)。\n\n(六)人员准备情况的说明\n\n主要包括负责场外期权业务的部门、人员、岗位设置情况说明,明确列示数据报送直接责任人和管理责任人。\n\n(七)已建立完善的信息技术系统的说明及相关证明文件\n\n自主研发系统的,应提供项目立项、结项等文件;采购系统的,应提供采购合同、功能说明书等文件。\n\n(八)合规意见书\n\n主要内容包括但不限于下列情况:(1)确认公司已就申请开展场外期权业务履行合法的内部决策、授权程序;(2)确认公司符合开展场外期权业务的各项要求和条件;(3)确认公司拟定的场外期权客户服务合同标准文本合法、完备,并已包含主协议、补充协议和交易确认书等内容。合规意见书应当由申请公司的合规总监签字。\n\n(九)承诺函\n\n公司的法定代表人和期权业务的主要负责人确认申请材料内容真实、准确、完整、合规,如存在虚假记载、误导性陈述和重大遗漏,将承担相关法律责任做出的书面承诺(见附件1-1),承诺函应当由申请公司的法定代表人和期权业务的主要负责人签字。\n\n(十)确认书\n\n同意协会及其授权机构对公司期权业务专业人员配备、信息技术系统完备性、风险管理能力等构成二级交易商备案条件的充分、真实、合规情况进行查核的确认书。\n\n(十一)最近一年分类评价结果为B类BBB级的公司,还应提供以下材料:\n\n1、风控指标达标的证明文件\n\n主要包括最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200%的证明文件。\n\n2、信息技术系统完备、系统功能满足本须知“一、备案条件第(二)项第6条”要求的证明材料\n\n至少应包括技术系统功能的具体说明(功能是否完备、是能否覆盖前中后台整个业务流程,保证各个环节精确化、自动化运行等)、关于场外期权业务技术系统已通过测试的证明文件等。\n\n3、风险管理能力突出,且满足本须知“一、备案条件第(二)项第7条”要求的证明材料\n\n(十二)协会要求的其他材料。\n\n三、备案流程\n\n(一)申请成为二级交易商的证券公司应通过中国证券业协会会员信息系统(http://jg.sac.net.cn)— 会员信息报送 — 场外期权业务 — 二级交易商申请信息模块报送备案材料。\n\n(二)协会接收材料后,对材料的齐备性和合规性进行审阅,并可以就备案材料的补正等情况向证券公司反馈意见。\n\n(三)分类评价为B类BBB级的证券公司在备案过程中,协会组织相关专家对其信息系统完备性、风险管理能力是否达到一级交易商标准等进行事前现场检查评估。\n\n(四)协会在确认证券公司备案条件充分、真实、合规后,向符合备案条件的证券公司出具备案函。\n\n四、持续管理\n\n(一)交易商不再符合备案条件的,应当自发生之日起5个交易日内向协会报告。\n\n(二)交易商吸收合并其他证券公司,其交易商资质继续有效;未经认可或备案的证券公司吸收合并交易商,应当另行申请认可或备案。\n\n(三) 二级交易商出现下列情形之一的,协会可暂停其作为二级交易商开展场外期权业务:\n\n1、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会关于开展场外期权业务的有关规定及协会有关自律规则;\n\n2、内部控制机制不足,业务存在较大风险隐患;\n\n3、业务开展过程中扰乱相关市场秩序;\n\n4、证券自营业务资格被暂停;\n\n5、场外期权业务信息报送不准确、不及时、不完整,严重影响监测监控;\n\n6、协会认定的其他情形。\n\n(四)二级交易商出现下列情形之一的,协会可终止其作为二级交易商开展场外期权业务:\n\n1、提交的备案材料存在内容不真实、不准确、不完整,存在误导监管部门或协会的情形;\n\n2、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会及协会关于开展场外期权业务的监管规定及自律规则,且情节严重;\n\n3、内部风险控制严重不足,场外期权业务发生重大风险;\n\n4、业务开展过程中严重扰乱市场秩序;\n\n5、证券自营业务资格被吊销;\n\n6、进入风险处置或破产程序;\n\n7、协会认定的其他情形。\n\n(五)二级交易商在被暂停场外期权业务的情形消除后,三个月内未再出现被暂停场外期权业务情形的,可向协会申请恢复开展场外期权业务。\n\n二级交易商在被终止场外期权业务的情形消除后,六个月内未再出现被终止场外期权业务情形的;因材料存在内容不真实被终止的,一年内未再出现被终止场外期权业务情形的,可向协会重新申请备案。\n\n附件1-1:\n\n关于申请备案场外期权业务二级交易商的承诺\n\n本公司及本人对本次提交的申请材料进行了审查,并作出如下承诺:\n\n报送的材料真实、准确、完整、合规,申请材料原件和复印件内容一致,在线提交的申请材料与书面申请文件内容一致;\n\n在申请备案之前,内容发生调整变化的,我方已及时更新并作出必要说明;\n\n二级交易商备案申请通过后,我方将严格按照中国证监会《关于进一步加强证券公司场外期权业务监管的通知》(证监办发〔2018〕40号)、《证券公司场外期权业务管理办法》、《证券公司场外期权业务二级交易商备案须知》的规定,认真履行管理职责,督促本公司场外期权业务守法、合规;如本公司在今后的业务开展过程中出现违法、违规行为,本公司及本人将承担应负的责任。\n\n公司(盖章):\n\n公司法定代表人(签字):\n\n公司期权业务的主要负责人(签字):\n\n年 月 日",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "attachment",
+      "text": "附件1:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 4,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "document_title",
+      "text": "证券公司场外期权业务二级交易商备案须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6,
+      "end_char": 25,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为做好场外期权业务二级交易商的备案管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 27,
+      "end_char": 77,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "guide_heading",
+      "text": "一、备案条件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 79,
+      "end_char": 85,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(一)最近一年证监会分类评价结果为A类A级以上的证券公司,申请二级交易商备案应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 87,
+      "end_char": 134,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "1、具备证券自营业务资格;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 136,
+      "end_char": 149,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "2、最近一年内未因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 151,
+      "end_char": 196,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "signoff",
+      "text": "3、负责场外期权业务的业务部门主要负责人应当具备2年以上参与衍生品业务管理的经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 198,
+      "end_char": 239,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "4、具备必要的场外期权业务专业人员,其中,具有一定经验的衍生品产品设计、交易人员应各至少2名,合规、风控人员应各至少1名,以上人员均需专岗,相互之间不得兼任;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 241,
+      "end_char": 320,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 322,
+      "end_char": 392,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "6、已建立完善的信息技术系统,系统模块应涵盖场外期权业务的全流程管理,包括但不限于可实现市场数据实时接入、交易簿记、经独立验证的模型估值、交易对手管理及交易文件留档、信用风险与市场风险敞口监控、压力测试、清算、客户服务等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 394,
+      "end_char": 505,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "7、协会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 507,
+      "end_char": 519,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(二)最近一年证监会分类评价结果为B类BBB级的证券公司,申请二级交易商备案应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 521,
+      "end_char": 568,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "1、具备证券自营业务资格;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 570,
+      "end_char": 583,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "2、最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200% ;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 585,
+      "end_char": 623,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "3、最近24个月未受到证监会行政处罚、被采取重大监管措施,或被证监会立案稽查;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 664,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "signoff",
+      "text": "4、场外期权业务经验和专业人员储备充分,公司衍生品业务负责人具备8年以上衍生品交易或风险管理经验,衍生品产品设计、交易、合规、风控等各类专岗专职人员均不少于2名,且具备3年以上相关业务经验,其中具备5年以上相关业务经验的人员合计不少于5名;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 666,
+      "end_char": 786,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 788,
+      "end_char": 858,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "6、信息技术系统完备,覆盖前中后台整个业务流程的各项功能,达到一级交易商的标准(可充分支持期权定价、对冲交易、风险控制、清算交收、数据报送等环节的精确化、自动化运行,可将场外期权业务全面纳入风险管理系统,能够实现定价分析、风险计量和汇总、风险指标的监测及限额管理、风险展示和报告等功能,以及对交易对手信用风险、交易行为的持续监测分析,对同一主体控制的机构、产品的集中统一的监测监控等);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 860,
+      "end_char": 1053,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "7、风险管理能力突出,达到一级交易商的标准(具备可靠的衍生品估值和风险计量模型,能够每日监测风险敞口和风险限额使用情况,能够有效控制行权价偏离度、不同类型场外期权集中度等);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1055,
+      "end_char": 1142,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "8、协会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1144,
+      "end_char": 1156,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "guide_heading",
+      "text": "二、申请材料",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1158,
+      "end_char": 1164,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券公司申请备案成为二级交易商,应当向证券业协会提交以下材料:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1166,
+      "end_char": 1197,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "guide_subheading",
+      "text": "(一)申请书",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1199,
+      "end_char": 1205,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "signoff",
+      "text": "包括但不限于公司基本情况、场外期权业务开展概况、二级交易商备案准备概况等内容,并应当由申请公司的法定代表人签字并加盖公章。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1207,
+      "end_char": 1268,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "guide_subheading",
+      "text": "(二)法人资格及业务资格证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1270,
+      "end_char": 1286,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "包括营业执照副本复印件(加盖公章)、具备证券自营业务资格证明文件复印件(加盖公章)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1288,
+      "end_char": 1330,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "guide_subheading",
+      "text": "(三)分类评价结果证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1332,
+      "end_char": 1345,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "最近一年证监会分类评价结果反馈函复印件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1367,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "guide_subheading",
+      "text": "(四)场外期权业务实施方案",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1369,
+      "end_char": 1382,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "主要内容包括但不限于业务准备情况、业务开展计划、组织架构、风险管理机制、合规管理要求、投资者适当性要求、尽职调查要求、会计安排、人员配备、信息技术系统建设、制度准备等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1384,
+      "end_char": 1468,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "guide_subheading",
+      "text": "(五)场外期权业务制度和操作流程汇编",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1470,
+      "end_char": 1488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "包括但不限于投资者适当性尽职调查、产品设计、交易对冲、数据报送、信息隔离、风险合规、场外期权业务资质管理等方面的制度(加盖公章)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1555,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "guide_subheading",
+      "text": "(六)人员准备情况的说明",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1557,
+      "end_char": 1569,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "主要包括负责场外期权业务的部门、人员、岗位设置情况说明,明确列示数据报送直接责任人和管理责任人。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1571,
+      "end_char": 1619,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "guide_subheading",
+      "text": "(七)已建立完善的信息技术系统的说明及相关证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1621,
+      "end_char": 1646,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "自主研发系统的,应提供项目立项、结项等文件;采购系统的,应提供采购合同、功能说明书等文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1648,
+      "end_char": 1693,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "guide_subheading",
+      "text": "(八)合规意见书",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1695,
+      "end_char": 1703,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "主要内容包括但不限于下列情况:(1)确认公司已就申请开展场外期权业务履行合法的内部决策、授权程序;(2)确认公司符合开展场外期权业务的各项要求和条件;(3)确认公司拟定的场外期权客户服务合同标准文本合法、完备,并已包含主协议、补充协议和交易确认书等内容。合规意见书应当由申请公司的合规总监签字。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1705,
+      "end_char": 1852,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "guide_subheading",
+      "text": "(九)承诺函",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1854,
+      "end_char": 1860,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "signoff",
+      "text": "公司的法定代表人和期权业务的主要负责人确认申请材料内容真实、准确、完整、合规,如存在虚假记载、误导性陈述和重大遗漏,将承担相关法律责任做出的书面承诺(见附件1-1),承诺函应当由申请公司的法定代表人和期权业务的主要负责人签字。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1862,
+      "end_char": 1975,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "guide_subheading",
+      "text": "(十)确认书",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1977,
+      "end_char": 1983,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "同意协会及其授权机构对公司期权业务专业人员配备、信息技术系统完备性、风险管理能力等构成二级交易商备案条件的充分、真实、合规情况进行查核的确认书。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1985,
+      "end_char": 2057,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(十一)最近一年分类评价结果为B类BBB级的公司,还应提供以下材料:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2059,
+      "end_char": 2093,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "guide_minor_heading",
+      "text": "1、风控指标达标的证明文件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2095,
+      "end_char": 2108,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "主要包括最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200%的证明文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2110,
+      "end_char": 2154,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "2、信息技术系统完备、系统功能满足本须知“一、备案条件第(二)项第6条”要求的证明材料",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2156,
+      "end_char": 2199,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "至少应包括技术系统功能的具体说明(功能是否完备、是能否覆盖前中后台整个业务流程,保证各个环节精确化、自动化运行等)、关于场外期权业务技术系统已通过测试的证明文件等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2201,
+      "end_char": 2283,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "3、风险管理能力突出,且满足本须知“一、备案条件第(二)项第7条”要求的证明材料",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2285,
+      "end_char": 2325,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(十二)协会要求的其他材料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2327,
+      "end_char": 2341,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "guide_heading",
+      "text": "三、备案流程",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2343,
+      "end_char": 2349,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(一)申请成为二级交易商的证券公司应通过中国证券业协会会员信息系统(http://jg.sac.net.cn)— 会员信息报送 — 场外期权业务 — 二级交易商申请信息模块报送备案材料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2351,
+      "end_char": 2444,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(二)协会接收材料后,对材料的齐备性和合规性进行审阅,并可以就备案材料的补正等情况向证券公司反馈意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2446,
+      "end_char": 2497,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(三)分类评价为B类BBB级的证券公司在备案过程中,协会组织相关专家对其信息系统完备性、风险管理能力是否达到一级交易商标准等进行事前现场检查评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2499,
+      "end_char": 2572,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(四)协会在确认证券公司备案条件充分、真实、合规后,向符合备案条件的证券公司出具备案函。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2574,
+      "end_char": 2618,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "guide_heading",
+      "text": "四、持续管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2620,
+      "end_char": 2626,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(一)交易商不再符合备案条件的,应当自发生之日起5个交易日内向协会报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2628,
+      "end_char": 2664,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(二)交易商吸收合并其他证券公司,其交易商资质继续有效;未经认可或备案的证券公司吸收合并交易商,应当另行申请认可或备案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2666,
+      "end_char": 2726,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(三) 二级交易商出现下列情形之一的,协会可暂停其作为二级交易商开展场外期权业务:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2728,
+      "end_char": 2769,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "1、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会关于开展场外期权业务的有关规定及协会有关自律规则;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2771,
+      "end_char": 2842,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "2、内部控制机制不足,业务存在较大风险隐患;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2866,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "3、业务开展过程中扰乱相关市场秩序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2868,
+      "end_char": 2886,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "4、证券自营业务资格被暂停;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2888,
+      "end_char": 2902,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "5、场外期权业务信息报送不准确、不及时、不完整,严重影响监测监控;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2904,
+      "end_char": 2937,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "6、协会认定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2939,
+      "end_char": 2951,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(四)二级交易商出现下列情形之一的,协会可终止其作为二级交易商开展场外期权业务:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2953,
+      "end_char": 2993,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "1、提交的备案材料存在内容不真实、不准确、不完整,存在误导监管部门或协会的情形;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2995,
+      "end_char": 3035,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "2、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会及协会关于开展场外期权业务的监管规定及自律规则,且情节严重;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3037,
+      "end_char": 3113,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "3、内部风险控制严重不足,场外期权业务发生重大风险;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3115,
+      "end_char": 3141,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "4、业务开展过程中严重扰乱市场秩序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3143,
+      "end_char": 3161,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "5、证券自营业务资格被吊销;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3163,
+      "end_char": 3177,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "6、进入风险处置或破产程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3179,
+      "end_char": 3193,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "7、协会认定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3195,
+      "end_char": 3207,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(五)二级交易商在被暂停场外期权业务的情形消除后,三个月内未再出现被暂停场外期权业务情形的,可向协会申请恢复开展场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3209,
+      "end_char": 3272,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "二级交易商在被终止场外期权业务的情形消除后,六个月内未再出现被终止场外期权业务情形的;因材料存在内容不真实被终止的,一年内未再出现被终止场外期权业务情形的,可向协会重新申请备案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3274,
+      "end_char": 3363,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "附件1-1:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3365,
+      "end_char": 3371,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "关于申请备案场外期权业务二级交易商的承诺",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3373,
+      "end_char": 3393,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "本公司及本人对本次提交的申请材料进行了审查,并作出如下承诺:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3395,
+      "end_char": 3425,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "报送的材料真实、准确、完整、合规,申请材料原件和复印件内容一致,在线提交的申请材料与书面申请文件内容一致;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3427,
+      "end_char": 3480,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "在申请备案之前,内容发生调整变化的,我方已及时更新并作出必要说明;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3482,
+      "end_char": 3515,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "二级交易商备案申请通过后,我方将严格按照中国证监会《关于进一步加强证券公司场外期权业务监管的通知》(证监办发〔2018〕40号)、《证券公司场外期权业务管理办法》、《证券公司场外期权业务二级交易商备案须知》的规定,认真履行管理职责,督促本公司场外期权业务守法、合规;如本公司在今后的业务开展过程中出现违法、违规行为,本公司及本人将承担应负的责任。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3517,
+      "end_char": 3690,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "公司(盖章):",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3692,
+      "end_char": 3699,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "signoff",
+      "text": "公司法定代表人(签字):",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3701,
+      "end_char": 3713,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "signoff",
+      "text": "公司期权业务的主要负责人(签字):",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3715,
+      "end_char": 3732,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3734,
+      "end_char": 3739,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "附件1:\n\n证券公司场外期权业务二级交易商备案须知\n\n为做好场外期权业务二级交易商的备案管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。\n\n一、备案条件\n\n(一)最近一年证监会分类评价结果为A类A级以上的证券公司,申请二级交易商备案应当符合下列条件:\n\n1、具备证券自营业务资格;\n\n2、最近一年内未因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查;\n\n3、负责场外期权业务的业务部门主要负责人应当具备2年以上参与衍生品业务管理的经验;\n\n4、具备必要的场外期权业务专业人员,其中,具有一定经验的衍生品产品设计、交易人员应各至少2名,合规、风控人员应各至少1名,以上人员均需专岗,相互之间不得兼任;\n\n5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;\n\n6、已建立完善的信息技术系统,系统模块应涵盖场外期权业务的全流程管理,包括但不限于可实现市场数据实时接入、交易簿记、经独立验证的模型估值、交易对手管理及交易文件留档、信用风险与市场风险敞口监控、压力测试、清算、客户服务等;\n\n7、协会要求的其他条件。\n\n(二)最近一年证监会分类评价结果为B类BBB级的证券公司,申请二级交易商备案应当符合下列条件:\n\n1、具备证券自营业务资格;\n\n2、最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200% ;\n\n3、最近24个月未受到证监会行政处罚、被采取重大监管措施,或被证监会立案稽查;\n\n4、场外期权业务经验和专业人员储备充分,公司衍生品业务负责人具备8年以上衍生品交易或风险管理经验,衍生品产品设计、交易、合规、风控等各类专岗专职人员均不少于2名,且具备3年以上相关业务经验,其中具备5年以上相关业务经验的人员合计不少于5名;\n\n5、已建立符合监管规定和自律规则的场外期权业务制度和操作流程,明确客户尽职调查、产品设计、交易对冲、信息隔离、风险合规等业务环节的基本要求;\n\n6、信息技术系统完备,覆盖前中后台整个业务流程的各项功能,达到一级交易商的标准(可充分支持期权定价、对冲交易、风险控制、清算交收、数据报送等环节的精确化、自动化运行,可将场外期权业务全面纳入风险管理系统,能够实现定价分析、风险计量和汇总、风险指标的监测及限额管理、风险展示和报告等功能,以及对交易对手信用风险、交易行为的持续监测分析,对同一主体控制的机构、产品的集中统一的监测监控等);\n\n7、风险管理能力突出,达到一级交易商的标准(具备可靠的衍生品估值和风险计量模型,能够每日监测风险敞口和风险限额使用情况,能够有效控制行权价偏离度、不同类型场外期权集中度等);\n\n8、协会要求的其他条件。\n\n二、申请材料\n\n证券公司申请备案成为二级交易商,应当向证券业协会提交以下材料:\n\n(一)申请书\n\n包括但不限于公司基本情况、场外期权业务开展概况、二级交易商备案准备概况等内容,并应当由申请公司的法定代表人签字并加盖公章。\n\n(二)法人资格及业务资格证明文件\n\n包括营业执照副本复印件(加盖公章)、具备证券自营业务资格证明文件复印件(加盖公章)。\n\n(三)分类评价结果证明文件\n\n最近一年证监会分类评价结果反馈函复印件。\n\n(四)场外期权业务实施方案\n\n主要内容包括但不限于业务准备情况、业务开展计划、组织架构、风险管理机制、合规管理要求、投资者适当性要求、尽职调查要求、会计安排、人员配备、信息技术系统建设、制度准备等。\n\n(五)场外期权业务制度和操作流程汇编\n\n包括但不限于投资者适当性尽职调查、产品设计、交易对冲、数据报送、信息隔离、风险合规、场外期权业务资质管理等方面的制度(加盖公章)。\n\n(六)人员准备情况的说明\n\n主要包括负责场外期权业务的部门、人员、岗位设置情况说明,明确列示数据报送直接责任人和管理责任人。\n\n(七)已建立完善的信息技术系统的说明及相关证明文件\n\n自主研发系统的,应提供项目立项、结项等文件;采购系统的,应提供采购合同、功能说明书等文件。\n\n(八)合规意见书\n\n主要内容包括但不限于下列情况:(1)确认公司已就申请开展场外期权业务履行合法的内部决策、授权程序;(2)确认公司符合开展场外期权业务的各项要求和条件;(3)确认公司拟定的场外期权客户服务合同标准文本合法、完备,并已包含主协议、补充协议和交易确认书等内容。合规意见书应当由申请公司的合规总监签字。\n\n(九)承诺函\n\n公司的法定代表人和期权业务的主要负责人确认申请材料内容真实、准确、完整、合规,如存在虚假记载、误导性陈述和重大遗漏,将承担相关法律责任做出的书面承诺(见附件1-1),承诺函应当由申请公司的法定代表人和期权业务的主要负责人签字。\n\n(十)确认书\n\n同意协会及其授权机构对公司期权业务专业人员配备、信息技术系统完备性、风险管理能力等构成二级交易商备案条件的充分、真实、合规情况进行查核的确认书。\n\n(十一)最近一年分类评价结果为B类BBB级的公司,还应提供以下材料:\n\n1、风控指标达标的证明文件\n\n主要包括最近18个月各项风控指标持续符合监管规定,且风险覆盖率不低于200%的证明文件。\n\n2、信息技术系统完备、系统功能满足本须知“一、备案条件第(二)项第6条”要求的证明材料\n\n至少应包括技术系统功能的具体说明(功能是否完备、是能否覆盖前中后台整个业务流程,保证各个环节精确化、自动化运行等)、关于场外期权业务技术系统已通过测试的证明文件等。\n\n3、风险管理能力突出,且满足本须知“一、备案条件第(二)项第7条”要求的证明材料\n\n(十二)协会要求的其他材料。\n\n三、备案流程\n\n(一)申请成为二级交易商的证券公司应通过中国证券业协会会员信息系统(http://jg.sac.net.cn)— 会员信息报送 — 场外期权业务 — 二级交易商申请信息模块报送备案材料。\n\n(二)协会接收材料后,对材料的齐备性和合规性进行审阅,并可以就备案材料的补正等情况向证券公司反馈意见。\n\n(三)分类评价为B类BBB级的证券公司在备案过程中,协会组织相关专家对其信息系统完备性、风险管理能力是否达到一级交易商标准等进行事前现场检查评估。\n\n(四)协会在确认证券公司备案条件充分、真实、合规后,向符合备案条件的证券公司出具备案函。\n\n四、持续管理\n\n(一)交易商不再符合备案条件的,应当自发生之日起5个交易日内向协会报告。\n\n(二)交易商吸收合并其他证券公司,其交易商资质继续有效;未经认可或备案的证券公司吸收合并交易商,应当另行申请认可或备案。\n\n(三) 二级交易商出现下列情形之一的,协会可暂停其作为二级交易商开展场外期权业务:\n\n1、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会关于开展场外期权业务的有关规定及协会有关自律规则;\n\n2、内部控制机制不足,业务存在较大风险隐患;\n\n3、业务开展过程中扰乱相关市场秩序;\n\n4、证券自营业务资格被暂停;\n\n5、场外期权业务信息报送不准确、不及时、不完整,严重影响监测监控;\n\n6、协会认定的其他情形。\n\n(四)二级交易商出现下列情形之一的,协会可终止其作为二级交易商开展场外期权业务:\n\n1、提交的备案材料存在内容不真实、不准确、不完整,存在误导监管部门或协会的情形;\n\n2、因场外期权业务重大违法违规行为受到行政处罚、刑事处罚,或被证监会立案稽查,违反中国证监会及协会关于开展场外期权业务的监管规定及自律规则,且情节严重;\n\n3、内部风险控制严重不足,场外期权业务发生重大风险;\n\n4、业务开展过程中严重扰乱市场秩序;\n\n5、证券自营业务资格被吊销;\n\n6、进入风险处置或破产程序;\n\n7、协会认定的其他情形。\n\n(五)二级交易商在被暂停场外期权业务的情形消除后,三个月内未再出现被暂停场外期权业务情形的,可向协会申请恢复开展场外期权业务。\n\n二级交易商在被终止场外期权业务的情形消除后,六个月内未再出现被终止场外期权业务情形的;因材料存在内容不真实被终止的,一年内未再出现被终止场外期权业务情形的,可向协会重新申请备案。\n\n附件1-1:\n\n关于申请备案场外期权业务二级交易商的承诺\n\n本公司及本人对本次提交的申请材料进行了审查,并作出如下承诺:\n\n报送的材料真实、准确、完整、合规,申请材料原件和复印件内容一致,在线提交的申请材料与书面申请文件内容一致;\n\n在申请备案之前,内容发生调整变化的,我方已及时更新并作出必要说明;\n\n二级交易商备案申请通过后,我方将严格按照中国证监会《关于进一步加强证券公司场外期权业务监管的通知》(证监办发〔2018〕40号)、《证券公司场外期权业务管理办法》、《证券公司场外期权业务二级交易商备案须知》的规定,认真履行管理职责,督促本公司场外期权业务守法、合规;如本公司在今后的业务开展过程中出现违法、违规行为,本公司及本人将承担应负的责任。\n\n公司(盖章):\n\n公司法定代表人(签字):\n\n公司期权业务的主要负责人(签字):\n\n年 月 日",
   "blocks": [
     {
@@ -134,7 +2183,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 4,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -142,7 +2198,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 6,
+      "end_char": 25,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -150,7 +2213,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 27,
+      "end_char": 77,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -158,7 +2228,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 79,
+      "end_char": 85,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -166,7 +2243,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 87,
+      "end_char": 134,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -174,7 +2258,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 136,
+      "end_char": 149,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -182,7 +2273,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 151,
+      "end_char": 196,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -190,7 +2288,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 198,
+      "end_char": 239,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -198,7 +2303,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 241,
+      "end_char": 320,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -206,7 +2318,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 322,
+      "end_char": 392,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -214,7 +2333,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 394,
+      "end_char": 505,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -222,7 +2348,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 507,
+      "end_char": 519,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -230,7 +2363,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 521,
+      "end_char": 568,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -238,7 +2378,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 570,
+      "end_char": 583,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -246,7 +2393,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 585,
+      "end_char": 623,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -254,7 +2408,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 664,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -262,7 +2423,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 666,
+      "end_char": 786,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -270,7 +2438,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 788,
+      "end_char": 858,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -278,7 +2453,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 860,
+      "end_char": 1053,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -286,7 +2468,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1055,
+      "end_char": 1142,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -294,7 +2483,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1144,
+      "end_char": 1156,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -302,7 +2498,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1158,
+      "end_char": 1164,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -310,7 +2513,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1166,
+      "end_char": 1197,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -318,7 +2528,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1199,
+      "end_char": 1205,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -326,7 +2543,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1207,
+      "end_char": 1268,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -334,7 +2558,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1270,
+      "end_char": 1286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -342,7 +2573,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1288,
+      "end_char": 1330,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -350,7 +2588,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1332,
+      "end_char": 1345,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -358,7 +2603,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1367,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -366,7 +2618,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1369,
+      "end_char": 1382,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -374,7 +2633,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1384,
+      "end_char": 1468,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -382,7 +2648,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1470,
+      "end_char": 1488,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -390,7 +2663,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1555,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -398,7 +2678,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1557,
+      "end_char": 1569,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -406,7 +2693,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1571,
+      "end_char": 1619,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -414,7 +2708,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1621,
+      "end_char": 1646,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -422,7 +2723,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1648,
+      "end_char": 1693,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -430,7 +2738,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1695,
+      "end_char": 1703,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -438,7 +2753,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1705,
+      "end_char": 1852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -446,7 +2768,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1854,
+      "end_char": 1860,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -454,7 +2783,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1862,
+      "end_char": 1975,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -462,7 +2798,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1977,
+      "end_char": 1983,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -470,7 +2813,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1985,
+      "end_char": 2057,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -478,7 +2828,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2059,
+      "end_char": 2093,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -486,7 +2843,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2095,
+      "end_char": 2108,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -494,7 +2858,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2110,
+      "end_char": 2154,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -502,7 +2873,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2156,
+      "end_char": 2199,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -510,7 +2888,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2201,
+      "end_char": 2283,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -518,7 +2903,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2285,
+      "end_char": 2325,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -526,7 +2918,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2327,
+      "end_char": 2341,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -534,7 +2933,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2343,
+      "end_char": 2349,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -542,7 +2948,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2351,
+      "end_char": 2444,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -550,7 +2963,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2446,
+      "end_char": 2497,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -558,7 +2978,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2499,
+      "end_char": 2572,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -566,7 +2993,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2574,
+      "end_char": 2618,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -574,7 +3008,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2620,
+      "end_char": 2626,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -582,7 +3023,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2628,
+      "end_char": 2664,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -590,7 +3038,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2666,
+      "end_char": 2726,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -598,7 +3053,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2728,
+      "end_char": 2769,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -606,7 +3068,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2771,
+      "end_char": 2842,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -614,7 +3083,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2866,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -622,7 +3098,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2868,
+      "end_char": 2886,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -630,7 +3113,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2888,
+      "end_char": 2902,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -638,7 +3128,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2904,
+      "end_char": 2937,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -646,7 +3143,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2939,
+      "end_char": 2951,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -654,7 +3158,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2953,
+      "end_char": 2993,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -662,7 +3173,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2995,
+      "end_char": 3035,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -670,7 +3188,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3037,
+      "end_char": 3113,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -678,7 +3203,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3115,
+      "end_char": 3141,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -686,7 +3218,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3143,
+      "end_char": 3161,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -694,7 +3233,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3163,
+      "end_char": 3177,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -702,7 +3248,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3179,
+      "end_char": 3193,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -710,7 +3263,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3195,
+      "end_char": 3207,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -718,7 +3278,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3209,
+      "end_char": 3272,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -726,7 +3293,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3274,
+      "end_char": 3363,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -734,7 +3308,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3365,
+      "end_char": 3371,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -742,7 +3323,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3373,
+      "end_char": 3393,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -750,7 +3338,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3395,
+      "end_char": 3425,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -758,7 +3353,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3427,
+      "end_char": 3480,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -766,7 +3368,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3482,
+      "end_char": 3515,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -774,7 +3383,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3517,
+      "end_char": 3690,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -782,7 +3398,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3692,
+      "end_char": 3699,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -790,7 +3413,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3701,
+      "end_char": 3713,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -798,7 +3428,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3715,
+      "end_char": 3732,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -806,7 +3443,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3734,
+      "end_char": 3739,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

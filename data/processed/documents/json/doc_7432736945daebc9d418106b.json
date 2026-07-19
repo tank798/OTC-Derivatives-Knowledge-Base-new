@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券经营机构投资者适当性管理实施指引（试行）.docx",
   "source_type": "docx",
   "file_sha256": "8d9a3658e55062a1dea010ed047d52026298b51b12451422ad0647765cef922e",
-  "content_sha256": "ad5582af89e6b5b386f6a5b79a444a6a9cc7515788b46ed67b03f9c72a6cb586",
+  "content_sha256": "4863399397bc4a90d40f7fda03b28952665772684d43e70719538a8aa780dbaf",
   "metadata": {
     "document_title": "证券经营机构投资者适当性管理实施指引(试行)",
     "issuing_authority": "中国证券业协会",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "4ad39f86599dbbee8f643cffe5d1745d9ca5b3b56bd69b3abd74e84ce629898a",
     "clean_text_sha256": "e1fe8c8e7fb857c17fc8ba579e7cc558b1e93c40949e949a38025506ab8b0240",
@@ -188,6 +188,3002 @@
   },
   "original_text_sha256": "4ad39f86599dbbee8f643cffe5d1745d9ca5b3b56bd69b3abd74e84ce629898a",
   "clean_text_sha256": "e1fe8c8e7fb857c17fc8ba579e7cc558b1e93c40949e949a38025506ab8b0240",
+  "clean_text_hash": "d8bfc7c7f8957e4a3312e9fab020ce3d3c4b214a8968f7407ffe3c9a04d0cb65",
+  "structured_blocks_sha256": "97f222dcc47c139f8e49c7e52b3f3a175e8f0e9cd54d538af01a59f6094adca6",
+  "front_matter": [
+    {
+      "block_id": "b00002",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "中证协发〔2017〕153号",
+      "character_count": 14
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券经营机构投资者适当性管理实施指引(试行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 22,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "各证券经营机构:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 32,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为引导证券行业落实投资者适当性管理要求,保护投资者合法权益,我会组织起草了《证券经营机构投资者适当性管理实施指引(试行)》(以下简称《指引》),经协会第六届常务理事会第1次会议表决通过,并向中国证监会备案,现予发布,自2017年7月1日起实施。现就有关事项通知如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 34,
+      "end_char": 167,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "一、《指引》立足于行业实践,充分吸收了行业和监管部门的合理建议,对行业履行适当性义务作程序上的引导。考虑到证券经营机构在业务性质、服务能力、管理水平、内控机制等方面存在差异,各证券经营机构在实施过程中可以《指引》为参考,结合自身实际进一步细化和完善相关程序、方法、标准和流程,切实履行好适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 169,
+      "end_char": 318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "二、证券公司及其子公司从事基金、期货业务,参照相关自律组织的规定执行。证券公司仅执行客户买卖公开市场交易的股票、基金、债券等交易指令的,不再重复进行适当性管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 320,
+      "end_char": 400,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "三、各证券经营机构应当加强制度建设、人员配备和技术准备。证券经营机构应当在本《指引》发布实施之日起六个月内,完成适当性管理技术系统的改造升级。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 402,
+      "end_char": 473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "四、现有投资者参与证券期货交易是按原有的制度安排进行的,实施新的《证券期货投资者适当性管理办法》和《指引》将充分考虑这一现实情况,实行区别对待,新老划断。具体的做法是:证券经营机构向新客户销售产品或提供服务、向老客户销售(提供)高于原有风险等级的产品或服务,或者向休眠账户重新激活的老客户销售产品或提供服务,需要按照《办法》和《指引》要求执行。向老客户销售或提供不高于原有风险等级的产品或服务的,可继续进行,不受影响。同时,鼓励证券经营机构根据实际情况结合客户回访、自查、评估等工作,主动对老客户的适当性管理做出妥善安排。证券经营机构应当在《办法》和《指引》实施后不断总结经验,持续优化、完善适当性管理制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 475,
+      "end_char": 779,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "五、《投资者基本信息表》、《专业投资者申请书》、《专业投资者告知及确认书》、《投资者风险承受能力评估问卷》、《投资者风险承受能力评估结果告知书》、《产品或服务风险等级名录》、《适当性匹配意见确认书》及《产品或服务风险警示及投资者确认书》等8个附件,是协会为方便证券经营机构履行适当性义务而提供的参考模板,请各证券经营机构根据自身情况进行调整和完善。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 781,
+      "end_char": 955,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "六、我会将持续对证券经营机构落实适当性义务的情况进行跟踪和评估。各证券经营机构在《指引》实施中遇到问题应及时向我会反映。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 957,
+      "end_char": 1017,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "联系电话:010-66575952/5651",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1019,
+      "end_char": 1041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "中国证券业协会",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1043,
+      "end_char": 1050,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "2017-06-28",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1052,
+      "end_char": 1062,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1064,
+      "end_char": 1067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "为督促、引导证券行业有效落实适当性管理要求,维护投资者合法权益,根据《证券法》、《证券公司监督管理条例》、《证券期货投资者适当性管理办法》(以下简称《办法》)及其他相关法律、行政法规和中国证监会规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1069,
+      "end_char": 1175,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1177,
+      "end_char": 1180,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "证券公司及其子公司、证券投资咨询机构(以下统称“证券经营机构”)向投资者销售金融产品,或者以投资者买入金融产品为目的提供证券经纪、投资顾问、融资融券、资产管理、柜台交易等金融服务,适用本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1182,
+      "end_char": 1278,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1280,
+      "end_char": 1283,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以通过由投资者填写《投资者基本信息表》等多种方式了解《办法》第六条规定的投资者基本信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1285,
+      "end_char": 1336,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1338,
+      "end_char": 1341,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以要求符合《办法》第八条第(一)、(二)、(三)项条件的投资者提供营业执照、经营证券、基金、期货业务的许可证、经营其他金融业务的许可证、基金会法人登记证明、QFII、RQFII、私募基金管理人登记材料等身份证明材料,理财产品还需提供产品成立或备案文件等证明材料。符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1343,
+      "end_char": 1532,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1534,
+      "end_char": 1537,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以要求符合《办法》第八条第(四)、(五)项条件的投资者提供下列材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1539,
+      "end_char": 1580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(一)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、两年以上投资经历的证明材料等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1631,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)自然人投资者提供的本人金融资产证明文件或近三年收入证明,投资经历或工作证明或职业资格证书等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1633,
+      "end_char": 1682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1684,
+      "end_char": 1735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1737,
+      "end_char": 1740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "普通投资者申请转化成为专业投资者的,证券经营机构可以要求其提供下列材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1742,
+      "end_char": 1778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(一)专业投资者申请书,确认自主承担产生的风险和后果;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1780,
+      "end_char": 1807,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(二)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、一年以上投资经历等证明材料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1809,
+      "end_char": 1857,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(三)自然人投资者提供的金融资产证明文件或者近三年收入证明或一年以上投资经历或工作经历等证明材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1859,
+      "end_char": 1908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "证券经营机构完成申请材料核验后还应该按照《办法》第十二条规定,对投资者进行审慎评估。符合普通投资者转为专业投资者的,应当说明对不同类别投资者履行适当性义务的差别,警示可能承担的投资风险,书面告知其审查结果和理由;不符合转化为专业投资者的,也应当书面告知其审查结果和理由。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1910,
+      "end_char": 2045,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当按照《办法》第二十五条的规定对审查结果告知和警示进行全过程录音或者录像,或者以符合法律、行政法规要求的电子方式进行确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2047,
+      "end_char": 2115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2117,
+      "end_char": 2120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "符合《办法》第八条第(四)、(五)项规定的专业投资者申请转化普通投资者的,证券经营机构应当及时将其变更为普通投资者,按照规定对投资者风险承受能力进行综合评估,确定其风险承受能力等级,履行相应适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2122,
+      "end_char": 2223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2225,
+      "end_char": 2228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据普通投资者信息,通过投资者填写《投资者风险承受能力评估问卷》等方法对其风险承受能力进行综合评估。《投资者风险承受能力评估问卷》的设计应当科学、合理、全面、通俗易懂。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2230,
+      "end_char": 2322,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2327,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以将普通投资者按其风险承受能力等级由低到高至少划分为五级,分别为:C1(含风险承受能力最低类别的投资者)、C2、C3、C4、C5。具体分类标准、方法及其变更应当告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2329,
+      "end_char": 2422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当与普通投资者确认其风险承受能力等级结果,并以书面方式记载留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2424,
+      "end_char": 2463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2465,
+      "end_char": 2468,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "《投资者基本信息表》、《投资者风险承受能力评估问卷》应当由投资者本人或合法授权人填写。证券经营机构及其工作人员不得以明示、暗示等方式诱导、误导、欺骗投资者,影响填写结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2470,
+      "end_char": 2555,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2557,
+      "end_char": 2561,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当及时将投资者信息录入投资者评估数据库,并根据更新的信息持续评估投资者风险承受能力。投资者评估数据库中应当至少包含下列信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2563,
+      "end_char": 2632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)《办法》第六条所规定的投资者信息及本指引规定的证明材料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2634,
+      "end_char": 2665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)历次《投资者风险承受能力评估问卷》内容、评估时间、评估结果等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2701,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)投资者申请成为专业投资者或转化为普通投资者的申请书、审查结果告知和警示等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2703,
+      "end_char": 2743,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(四)投资者投资交易记录,包括但不限于产品或服务及其风险等级、交易权限、交易频率等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2745,
+      "end_char": 2787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)投资者在证券经营机构的失信记录;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(六)中国证监会、中国证券业协会(以下简称“协会”)及证券经营机构认为必要的其它信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2810,
+      "end_char": 2853,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "前述第(四)项不适用于证券投资咨询机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2855,
+      "end_char": 2875,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2877,
+      "end_char": 2881,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以将C1中符合下列情形之一的自然人,作为风险承受能力最低类别的投资者:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2883,
+      "end_char": 2925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(一)不具有完全民事行为能力;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2927,
+      "end_char": 2942,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(二)没有风险容忍度或者不愿承受任何投资损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2944,
+      "end_char": 2967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(三)法律、行政法规规定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2969,
+      "end_char": 2987,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2989,
+      "end_char": 2993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据《办法》第十六、十七条规定的因素,通过科学、合理的方法对产品或服务进行综合评估,确定其风险等级。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2995,
+      "end_char": 3053,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3055,
+      "end_char": 3059,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以将产品或服务风险等级由低至高至少划分为五级,分别为:R1、R2、R3、R4、R5。具体划分方法、标准及其变更应当告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3061,
+      "end_char": 3131,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据《产品或服务风险等级名录》列出相对应的产品或服务清单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3133,
+      "end_char": 3170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3172,
+      "end_char": 3176,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "证券经营机构向投资者销售产品或者提供服务涉及投资组合或资产配置的,应当按照投资组合或资产配置的整体风险对该产品或者服务进行风险等级评估,确定其风险等级。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3178,
+      "end_char": 3254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3256,
+      "end_char": 3260,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "证券经营机构向普通投资者销售产品或提供服务,应当在遵守法律、行政法规、中国证监会规定以及投资者准入要求的前提下,根据投资者的风险承受能力等级与产品或服务的风险等级相匹配的原则,对投资者提出适当性匹配意见,履行适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3262,
+      "end_char": 3372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3378,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据本机构及普通投资者的实际情况,确定其风险承受能力等级与产品或服务的风险等级适当性匹配的具体方法,也可以参照以下方式确定:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3380,
+      "end_char": 3450,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(一)C1级投资者匹配R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3452,
+      "end_char": 3473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(二)C2级投资者匹配R2、R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3475,
+      "end_char": 3499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "(三)C3级投资者匹配R3、R2、R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3501,
+      "end_char": 3528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "(四)C4级投资者匹配R4、R3、R2、R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3530,
+      "end_char": 3560,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(五)C5级投资者匹配R5、R4、R3、R2、R1级的产品或服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3562,
+      "end_char": 3595,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "专业投资者可以购买或接受所有风险等级的产品或服务,法律、行政法规、中国证监会规定及市场、产品或服务对投资者准入有要求的,从其规定和要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3597,
+      "end_char": 3665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3667,
+      "end_char": 3671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "证券经营机构对投资者提出的适当性匹配意见不代表其对产品或服务的风险和收益作出实质性判断或保证。投资者在参考证券经营机构适当性匹配意见的基础上,根据自身能力审慎独立决策,独立承担投资风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3673,
+      "end_char": 3766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3768,
+      "end_char": 3772,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "证券经营机构告知投资者不适合购买相关产品或者接受相关服务后,投资者主动要求购买风险等级高于其风险承受能力的产品或者接受相关服务的,证券经营机构在确认其不属于风险承受能力最低类别的投资者后,应当就产品或者服务风险高于其承受能力进行特别的书面风险警示,投资者仍坚持购买的,可以向其销售相关产品或者提供相关服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3774,
+      "end_char": 3927,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第二十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3929,
+      "end_char": 3933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "投资者风险承受能力等级与产品或服务风险等级相匹配的,证券经营机构应当与投资者签署确认适当性匹配结果;不匹配的,应当与投资者签署确认风险警示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3935,
+      "end_char": 4005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第二十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4007,
+      "end_char": 4012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "证券经营机构销售产品、提供服务,应当向投资者充分披露产品或服务信息以及有助于投资者作出投资分析判断的其他信息。披露的信息不得含有虚假、误导性陈述或存在重大遗漏,不得欺诈投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4014,
+      "end_char": 4102,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "article",
+      "text": "第二十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4104,
+      "end_char": 4109,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "证券经营机构销售产品、提供服务,应当向投资者充分揭示产品或服务的信用风险、市场风险、流动性风险等可能影响投资者权益的主要风险以及具体产品或服务的特别风险,并由投资者签署确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4111,
+      "end_char": 4198,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第二十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4200,
+      "end_char": 4205,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当建立健全投资者回访制度,对购买产品或接受服务的投资者,每年抽取不低于上一年度末购买产品或接受服务的投资者总数(含购买或者接受产品或服务的风险等级高于其风险承受能力的投资者,不含休眠账户及中止交易账户投资者)的10%进行回访。回访的内容包括但不限于:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4207,
+      "end_char": 4339,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(一)受访人是否为投资者本人;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4341,
+      "end_char": 4356,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(二)受访人是否按规定填写了《投资者基本信息表》、《投资者风险承受能力评估问卷》等并按要求签署;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4358,
+      "end_char": 4406,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(三)受访人是否已知晓产品或服务的风险以及相关风险警示;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4408,
+      "end_char": 4436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(四)受访人是否已知晓所购买产品或接受服务的业务规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4438,
+      "end_char": 4465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(五)受访人是否已知晓自己的风险承受能力等级、购买的产品或者接受服务的风险等级以及适当性匹配意见;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4467,
+      "end_char": 4516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(六)受访人是否知晓承担的费用以及可能产生的投资损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4518,
+      "end_char": 4545,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(七)证券经营机构及其工作人员是否存在《办法》第二十二条规定的禁止行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4547,
+      "end_char": 4583,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第二十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4585,
+      "end_char": 4590,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当结合自身实际需要,定期或不定期对相关岗位人员开展与适当性管理有关的培训,提高其履行适当性义务所需的知识和技能。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4592,
+      "end_char": 4655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "article",
+      "text": "第二十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4657,
+      "end_char": 4662,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当将相关岗位人员履行适当性义务、处理客户投诉与纠纷等纳入绩效考核范围。证券经营机构不得采取鼓励不适当销售或服务的考核激励措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4664,
+      "end_char": 4734,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "article",
+      "text": "第二十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4736,
+      "end_char": 4741,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当对相关岗位人员履行适当性义务的行为进行监督检查,对违反投资者适当性管理规定的人员进行问责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4743,
+      "end_char": 4796,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第二十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4798,
+      "end_char": 4803,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "证券经营机构及其工作人员应当对在履行适当性义务时获取的投资者基本信息、投资者风险承受能力评级结果等信息严格保密,防止该等信息被泄露或被不当利用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4805,
+      "end_char": 4877,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第二十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4879,
+      "end_char": 4884,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "证券经营机构应妥善处理因履行适当性义务引起的投资者投诉与纠纷,保存相关记录,及时分析总结,改进和完善相关机制与制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4886,
+      "end_char": 4944,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "article",
+      "text": "第二十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4946,
+      "end_char": 4951,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当依据《办法》第三十条的规定进行适当性自查,自查的内容包括但不限于适当性管理制度建设及落实、人员培训及考核、投资者投诉纠纷处理、发现问题及整改等情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4953,
+      "end_char": 5035,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第三十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5037,
+      "end_char": 5041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "证券经营机构与投资者发生适当性相关的纠纷,可以按相关规定向协会申请调解。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5043,
+      "end_char": 5079,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第三十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5081,
+      "end_char": 5086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "协会对证券经营机构履行适当性义务进行自律管理,对违反适当性管理规定的证券经营机构及人员依法采取自律惩戒措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5088,
+      "end_char": 5142,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "article",
+      "text": "第三十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5144,
+      "end_char": 5149,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "本指引所称书面形式包括纸质或电子形式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5151,
+      "end_char": 5170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "article",
+      "text": "第三十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5172,
+      "end_char": 5177,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "本指引由中国证券业协会负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5179,
+      "end_char": 5195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "article",
+      "text": "第三十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5197,
+      "end_char": 5202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "本指引自2017年7月1日起实施,《证券公司投资者适当性制度指引》、《关于发布<个人投资者风险承受能力评估问卷(试行模板)>的通知》同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5204,
+      "end_char": 5275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "<pre>",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5277,
+      "end_char": 5282,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00118",
+      "block_type": "attachment",
+      "text": "附件:1、投资者基本信息表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5284,
+      "end_char": 5297,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "guide_minor_heading",
+      "text": "2、专业投资者申请书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5299,
+      "end_char": 5309,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "guide_minor_heading",
+      "text": "3、专业投资者告知及确认书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5311,
+      "end_char": 5324,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "guide_minor_heading",
+      "text": "4、投资者风险承受能力评估问卷",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5326,
+      "end_char": 5341,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "guide_minor_heading",
+      "text": "5、投资者风险承受能力评估结果告知书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5343,
+      "end_char": 5361,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "guide_minor_heading",
+      "text": "6、产品或服务风险等级名录",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5363,
+      "end_char": 5376,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "guide_minor_heading",
+      "text": "7、适当性匹配意见及投资者确认书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5378,
+      "end_char": 5394,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "guide_minor_heading",
+      "text": "8、产品或服务风险警示及投资者确认书</pre>",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5396,
+      "end_char": 5420,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "中国证券业协会",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5422,
+      "end_char": 5429,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "2017-06-28",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5431,
+      "end_char": 5441,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "证券经营机构投资者适当性管理实施指引(试行)\n\n各证券经营机构:\n\n为引导证券行业落实投资者适当性管理要求,保护投资者合法权益,我会组织起草了《证券经营机构投资者适当性管理实施指引(试行)》(以下简称《指引》),经协会第六届常务理事会第1次会议表决通过,并向中国证监会备案,现予发布,自2017年7月1日起实施。现就有关事项通知如下:\n\n一、《指引》立足于行业实践,充分吸收了行业和监管部门的合理建议,对行业履行适当性义务作程序上的引导。考虑到证券经营机构在业务性质、服务能力、管理水平、内控机制等方面存在差异,各证券经营机构在实施过程中可以《指引》为参考,结合自身实际进一步细化和完善相关程序、方法、标准和流程,切实履行好适当性义务。\n\n二、证券公司及其子公司从事基金、期货业务,参照相关自律组织的规定执行。证券公司仅执行客户买卖公开市场交易的股票、基金、债券等交易指令的,不再重复进行适当性管理。\n\n三、各证券经营机构应当加强制度建设、人员配备和技术准备。证券经营机构应当在本《指引》发布实施之日起六个月内,完成适当性管理技术系统的改造升级。\n\n四、现有投资者参与证券期货交易是按原有的制度安排进行的,实施新的《证券期货投资者适当性管理办法》和《指引》将充分考虑这一现实情况,实行区别对待,新老划断。具体的做法是:证券经营机构向新客户销售产品或提供服务、向老客户销售(提供)高于原有风险等级的产品或服务,或者向休眠账户重新激活的老客户销售产品或提供服务,需要按照《办法》和《指引》要求执行。向老客户销售或提供不高于原有风险等级的产品或服务的,可继续进行,不受影响。同时,鼓励证券经营机构根据实际情况结合客户回访、自查、评估等工作,主动对老客户的适当性管理做出妥善安排。证券经营机构应当在《办法》和《指引》实施后不断总结经验,持续优化、完善适当性管理制度。\n\n五、《投资者基本信息表》、《专业投资者申请书》、《专业投资者告知及确认书》、《投资者风险承受能力评估问卷》、《投资者风险承受能力评估结果告知书》、《产品或服务风险等级名录》、《适当性匹配意见确认书》及《产品或服务风险警示及投资者确认书》等8个附件,是协会为方便证券经营机构履行适当性义务而提供的参考模板,请各证券经营机构根据自身情况进行调整和完善。\n\n六、我会将持续对证券经营机构落实适当性义务的情况进行跟踪和评估。各证券经营机构在《指引》实施中遇到问题应及时向我会反映。\n\n联系电话:010-66575952/5651\n\n中国证券业协会\n\n2017-06-28\n\n第一条\n\n为督促、引导证券行业有效落实适当性管理要求,维护投资者合法权益,根据《证券法》、《证券公司监督管理条例》、《证券期货投资者适当性管理办法》(以下简称《办法》)及其他相关法律、行政法规和中国证监会规定,制定本指引。\n\n第二条\n\n证券公司及其子公司、证券投资咨询机构(以下统称“证券经营机构”)向投资者销售金融产品,或者以投资者买入金融产品为目的提供证券经纪、投资顾问、融资融券、资产管理、柜台交易等金融服务,适用本指引。\n\n第三条\n\n证券经营机构可以通过由投资者填写《投资者基本信息表》等多种方式了解《办法》第六条规定的投资者基本信息。\n\n第四条\n\n证券经营机构可以要求符合《办法》第八条第(一)、(二)、(三)项条件的投资者提供营业执照、经营证券、基金、期货业务的许可证、经营其他金融业务的许可证、基金会法人登记证明、QFII、RQFII、私募基金管理人登记材料等身份证明材料,理财产品还需提供产品成立或备案文件等证明材料。符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。\n\n第五条\n\n证券经营机构可以要求符合《办法》第八条第(四)、(五)项条件的投资者提供下列材料:\n\n(一)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、两年以上投资经历的证明材料等;\n\n(二)自然人投资者提供的本人金融资产证明文件或近三年收入证明,投资经历或工作证明或职业资格证书等。\n\n符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。\n\n第六条\n\n普通投资者申请转化成为专业投资者的,证券经营机构可以要求其提供下列材料:\n\n(一)专业投资者申请书,确认自主承担产生的风险和后果;\n\n(二)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、一年以上投资经历等证明材料;\n\n(三)自然人投资者提供的金融资产证明文件或者近三年收入证明或一年以上投资经历或工作经历等证明材料。\n\n证券经营机构完成申请材料核验后还应该按照《办法》第十二条规定,对投资者进行审慎评估。符合普通投资者转为专业投资者的,应当说明对不同类别投资者履行适当性义务的差别,警示可能承担的投资风险,书面告知其审查结果和理由;不符合转化为专业投资者的,也应当书面告知其审查结果和理由。\n\n证券经营机构应当按照《办法》第二十五条的规定对审查结果告知和警示进行全过程录音或者录像,或者以符合法律、行政法规要求的电子方式进行确认。\n\n第七条\n\n符合《办法》第八条第(四)、(五)项规定的专业投资者申请转化普通投资者的,证券经营机构应当及时将其变更为普通投资者,按照规定对投资者风险承受能力进行综合评估,确定其风险承受能力等级,履行相应适当性义务。\n\n第八条\n\n证券经营机构应当根据普通投资者信息,通过投资者填写《投资者风险承受能力评估问卷》等方法对其风险承受能力进行综合评估。《投资者风险承受能力评估问卷》的设计应当科学、合理、全面、通俗易懂。\n\n第九条\n\n证券经营机构可以将普通投资者按其风险承受能力等级由低到高至少划分为五级,分别为:C1(含风险承受能力最低类别的投资者)、C2、C3、C4、C5。具体分类标准、方法及其变更应当告知投资者。\n\n证券经营机构应当与普通投资者确认其风险承受能力等级结果,并以书面方式记载留存。\n\n第十条\n\n《投资者基本信息表》、《投资者风险承受能力评估问卷》应当由投资者本人或合法授权人填写。证券经营机构及其工作人员不得以明示、暗示等方式诱导、误导、欺骗投资者,影响填写结果。\n\n第十一条\n\n证券经营机构应当及时将投资者信息录入投资者评估数据库,并根据更新的信息持续评估投资者风险承受能力。投资者评估数据库中应当至少包含下列信息:\n\n(一)《办法》第六条所规定的投资者信息及本指引规定的证明材料;\n\n(二)历次《投资者风险承受能力评估问卷》内容、评估时间、评估结果等;\n\n(三)投资者申请成为专业投资者或转化为普通投资者的申请书、审查结果告知和警示等;\n\n(四)投资者投资交易记录,包括但不限于产品或服务及其风险等级、交易权限、交易频率等;\n\n(五)投资者在证券经营机构的失信记录;\n\n(六)中国证监会、中国证券业协会(以下简称“协会”)及证券经营机构认为必要的其它信息。\n\n前述第(四)项不适用于证券投资咨询机构。\n\n第十二条\n\n证券经营机构可以将C1中符合下列情形之一的自然人,作为风险承受能力最低类别的投资者:\n\n(一)不具有完全民事行为能力;\n\n(二)没有风险容忍度或者不愿承受任何投资损失;\n\n(三)法律、行政法规规定的其他情形。\n\n第十三条\n\n证券经营机构应当根据《办法》第十六、十七条规定的因素,通过科学、合理的方法对产品或服务进行综合评估,确定其风险等级。\n\n第十四条\n\n证券经营机构可以将产品或服务风险等级由低至高至少划分为五级,分别为:R1、R2、R3、R4、R5。具体划分方法、标准及其变更应当告知投资者。\n\n证券经营机构应当根据《产品或服务风险等级名录》列出相对应的产品或服务清单。\n\n第十五条\n\n证券经营机构向投资者销售产品或者提供服务涉及投资组合或资产配置的,应当按照投资组合或资产配置的整体风险对该产品或者服务进行风险等级评估,确定其风险等级。\n\n第十六条\n\n证券经营机构向普通投资者销售产品或提供服务,应当在遵守法律、行政法规、中国证监会规定以及投资者准入要求的前提下,根据投资者的风险承受能力等级与产品或服务的风险等级相匹配的原则,对投资者提出适当性匹配意见,履行适当性义务。\n\n第十七条\n\n证券经营机构应当根据本机构及普通投资者的实际情况,确定其风险承受能力等级与产品或服务的风险等级适当性匹配的具体方法,也可以参照以下方式确定:\n\n(一)C1级投资者匹配R1级的产品或服务;\n\n(二)C2级投资者匹配R2、R1级的产品或服务;\n\n(三)C3级投资者匹配R3、R2、R1级的产品或服务;\n\n(四)C4级投资者匹配R4、R3、R2、R1级的产品或服务;\n\n(五)C5级投资者匹配R5、R4、R3、R2、R1级的产品或服务。\n\n专业投资者可以购买或接受所有风险等级的产品或服务,法律、行政法规、中国证监会规定及市场、产品或服务对投资者准入有要求的,从其规定和要求。\n\n第十八条\n\n证券经营机构对投资者提出的适当性匹配意见不代表其对产品或服务的风险和收益作出实质性判断或保证。投资者在参考证券经营机构适当性匹配意见的基础上,根据自身能力审慎独立决策,独立承担投资风险。\n\n第十九条\n\n证券经营机构告知投资者不适合购买相关产品或者接受相关服务后,投资者主动要求购买风险等级高于其风险承受能力的产品或者接受相关服务的,证券经营机构在确认其不属于风险承受能力最低类别的投资者后,应当就产品或者服务风险高于其承受能力进行特别的书面风险警示,投资者仍坚持购买的,可以向其销售相关产品或者提供相关服务。\n\n第二十条\n\n投资者风险承受能力等级与产品或服务风险等级相匹配的,证券经营机构应当与投资者签署确认适当性匹配结果;不匹配的,应当与投资者签署确认风险警示。\n\n第二十一条\n\n证券经营机构销售产品、提供服务,应当向投资者充分披露产品或服务信息以及有助于投资者作出投资分析判断的其他信息。披露的信息不得含有虚假、误导性陈述或存在重大遗漏,不得欺诈投资者。\n\n第二十二条\n\n证券经营机构销售产品、提供服务,应当向投资者充分揭示产品或服务的信用风险、市场风险、流动性风险等可能影响投资者权益的主要风险以及具体产品或服务的特别风险,并由投资者签署确认。\n\n第二十三条\n\n证券经营机构应当建立健全投资者回访制度,对购买产品或接受服务的投资者,每年抽取不低于上一年度末购买产品或接受服务的投资者总数(含购买或者接受产品或服务的风险等级高于其风险承受能力的投资者,不含休眠账户及中止交易账户投资者)的10%进行回访。回访的内容包括但不限于:\n\n(一)受访人是否为投资者本人;\n\n(二)受访人是否按规定填写了《投资者基本信息表》、《投资者风险承受能力评估问卷》等并按要求签署;\n\n(三)受访人是否已知晓产品或服务的风险以及相关风险警示;\n\n(四)受访人是否已知晓所购买产品或接受服务的业务规则;\n\n(五)受访人是否已知晓自己的风险承受能力等级、购买的产品或者接受服务的风险等级以及适当性匹配意见;\n\n(六)受访人是否知晓承担的费用以及可能产生的投资损失;\n\n(七)证券经营机构及其工作人员是否存在《办法》第二十二条规定的禁止行为。\n\n第二十四条\n\n证券经营机构应当结合自身实际需要,定期或不定期对相关岗位人员开展与适当性管理有关的培训,提高其履行适当性义务所需的知识和技能。\n\n第二十五条\n\n证券经营机构应当将相关岗位人员履行适当性义务、处理客户投诉与纠纷等纳入绩效考核范围。证券经营机构不得采取鼓励不适当销售或服务的考核激励措施。\n\n第二十六条\n\n证券经营机构应当对相关岗位人员履行适当性义务的行为进行监督检查,对违反投资者适当性管理规定的人员进行问责。\n\n第二十七条\n\n证券经营机构及其工作人员应当对在履行适当性义务时获取的投资者基本信息、投资者风险承受能力评级结果等信息严格保密,防止该等信息被泄露或被不当利用。\n\n第二十八条\n\n证券经营机构应妥善处理因履行适当性义务引起的投资者投诉与纠纷,保存相关记录,及时分析总结,改进和完善相关机制与制度。\n\n第二十九条\n\n证券经营机构应当依据《办法》第三十条的规定进行适当性自查,自查的内容包括但不限于适当性管理制度建设及落实、人员培训及考核、投资者投诉纠纷处理、发现问题及整改等情况。\n\n第三十条\n\n证券经营机构与投资者发生适当性相关的纠纷,可以按相关规定向协会申请调解。\n\n第三十一条\n\n协会对证券经营机构履行适当性义务进行自律管理,对违反适当性管理规定的证券经营机构及人员依法采取自律惩戒措施。\n\n第三十二条\n\n本指引所称书面形式包括纸质或电子形式。\n\n第三十三条\n\n本指引由中国证券业协会负责解释。\n\n第三十四条\n\n本指引自2017年7月1日起实施,《证券公司投资者适当性制度指引》、《关于发布<个人投资者风险承受能力评估问卷(试行模板)>的通知》同时废止。\n\n<pre>\n\n附件:1、投资者基本信息表\n\n2、专业投资者申请书\n\n3、专业投资者告知及确认书\n\n4、投资者风险承受能力评估问卷\n\n5、投资者风险承受能力评估结果告知书\n\n6、产品或服务风险等级名录\n\n7、适当性匹配意见及投资者确认书\n\n8、产品或服务风险警示及投资者确认书</pre>\n\n中国证券业协会\n\n2017-06-28",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券经营机构投资者适当性管理实施指引(试行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 22,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "各证券经营机构:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 32,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为引导证券行业落实投资者适当性管理要求,保护投资者合法权益,我会组织起草了《证券经营机构投资者适当性管理实施指引(试行)》(以下简称《指引》),经协会第六届常务理事会第1次会议表决通过,并向中国证监会备案,现予发布,自2017年7月1日起实施。现就有关事项通知如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 34,
+      "end_char": 167,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "一、《指引》立足于行业实践,充分吸收了行业和监管部门的合理建议,对行业履行适当性义务作程序上的引导。考虑到证券经营机构在业务性质、服务能力、管理水平、内控机制等方面存在差异,各证券经营机构在实施过程中可以《指引》为参考,结合自身实际进一步细化和完善相关程序、方法、标准和流程,切实履行好适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 169,
+      "end_char": 318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "二、证券公司及其子公司从事基金、期货业务,参照相关自律组织的规定执行。证券公司仅执行客户买卖公开市场交易的股票、基金、债券等交易指令的,不再重复进行适当性管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 320,
+      "end_char": 400,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "三、各证券经营机构应当加强制度建设、人员配备和技术准备。证券经营机构应当在本《指引》发布实施之日起六个月内,完成适当性管理技术系统的改造升级。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 402,
+      "end_char": 473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "四、现有投资者参与证券期货交易是按原有的制度安排进行的,实施新的《证券期货投资者适当性管理办法》和《指引》将充分考虑这一现实情况,实行区别对待,新老划断。具体的做法是:证券经营机构向新客户销售产品或提供服务、向老客户销售(提供)高于原有风险等级的产品或服务,或者向休眠账户重新激活的老客户销售产品或提供服务,需要按照《办法》和《指引》要求执行。向老客户销售或提供不高于原有风险等级的产品或服务的,可继续进行,不受影响。同时,鼓励证券经营机构根据实际情况结合客户回访、自查、评估等工作,主动对老客户的适当性管理做出妥善安排。证券经营机构应当在《办法》和《指引》实施后不断总结经验,持续优化、完善适当性管理制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 475,
+      "end_char": 779,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "五、《投资者基本信息表》、《专业投资者申请书》、《专业投资者告知及确认书》、《投资者风险承受能力评估问卷》、《投资者风险承受能力评估结果告知书》、《产品或服务风险等级名录》、《适当性匹配意见确认书》及《产品或服务风险警示及投资者确认书》等8个附件,是协会为方便证券经营机构履行适当性义务而提供的参考模板,请各证券经营机构根据自身情况进行调整和完善。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 781,
+      "end_char": 955,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "六、我会将持续对证券经营机构落实适当性义务的情况进行跟踪和评估。各证券经营机构在《指引》实施中遇到问题应及时向我会反映。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 957,
+      "end_char": 1017,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "联系电话:010-66575952/5651",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1019,
+      "end_char": 1041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "中国证券业协会",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1043,
+      "end_char": 1050,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "2017-06-28",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1052,
+      "end_char": 1062,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1064,
+      "end_char": 1067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "为督促、引导证券行业有效落实适当性管理要求,维护投资者合法权益,根据《证券法》、《证券公司监督管理条例》、《证券期货投资者适当性管理办法》(以下简称《办法》)及其他相关法律、行政法规和中国证监会规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1069,
+      "end_char": 1175,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1177,
+      "end_char": 1180,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "证券公司及其子公司、证券投资咨询机构(以下统称“证券经营机构”)向投资者销售金融产品,或者以投资者买入金融产品为目的提供证券经纪、投资顾问、融资融券、资产管理、柜台交易等金融服务,适用本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1182,
+      "end_char": 1278,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1280,
+      "end_char": 1283,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以通过由投资者填写《投资者基本信息表》等多种方式了解《办法》第六条规定的投资者基本信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1285,
+      "end_char": 1336,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1338,
+      "end_char": 1341,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以要求符合《办法》第八条第(一)、(二)、(三)项条件的投资者提供营业执照、经营证券、基金、期货业务的许可证、经营其他金融业务的许可证、基金会法人登记证明、QFII、RQFII、私募基金管理人登记材料等身份证明材料,理财产品还需提供产品成立或备案文件等证明材料。符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1343,
+      "end_char": 1532,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1534,
+      "end_char": 1537,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以要求符合《办法》第八条第(四)、(五)项条件的投资者提供下列材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1539,
+      "end_char": 1580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(一)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、两年以上投资经历的证明材料等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1631,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)自然人投资者提供的本人金融资产证明文件或近三年收入证明,投资经历或工作证明或职业资格证书等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1633,
+      "end_char": 1682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1684,
+      "end_char": 1735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1737,
+      "end_char": 1740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "普通投资者申请转化成为专业投资者的,证券经营机构可以要求其提供下列材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1742,
+      "end_char": 1778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(一)专业投资者申请书,确认自主承担产生的风险和后果;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1780,
+      "end_char": 1807,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(二)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、一年以上投资经历等证明材料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1809,
+      "end_char": 1857,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(三)自然人投资者提供的金融资产证明文件或者近三年收入证明或一年以上投资经历或工作经历等证明材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1859,
+      "end_char": 1908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "证券经营机构完成申请材料核验后还应该按照《办法》第十二条规定,对投资者进行审慎评估。符合普通投资者转为专业投资者的,应当说明对不同类别投资者履行适当性义务的差别,警示可能承担的投资风险,书面告知其审查结果和理由;不符合转化为专业投资者的,也应当书面告知其审查结果和理由。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1910,
+      "end_char": 2045,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当按照《办法》第二十五条的规定对审查结果告知和警示进行全过程录音或者录像,或者以符合法律、行政法规要求的电子方式进行确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2047,
+      "end_char": 2115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2117,
+      "end_char": 2120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "符合《办法》第八条第(四)、(五)项规定的专业投资者申请转化普通投资者的,证券经营机构应当及时将其变更为普通投资者,按照规定对投资者风险承受能力进行综合评估,确定其风险承受能力等级,履行相应适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2122,
+      "end_char": 2223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2225,
+      "end_char": 2228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据普通投资者信息,通过投资者填写《投资者风险承受能力评估问卷》等方法对其风险承受能力进行综合评估。《投资者风险承受能力评估问卷》的设计应当科学、合理、全面、通俗易懂。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2230,
+      "end_char": 2322,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2327,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以将普通投资者按其风险承受能力等级由低到高至少划分为五级,分别为:C1(含风险承受能力最低类别的投资者)、C2、C3、C4、C5。具体分类标准、方法及其变更应当告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2329,
+      "end_char": 2422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当与普通投资者确认其风险承受能力等级结果,并以书面方式记载留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2424,
+      "end_char": 2463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2465,
+      "end_char": 2468,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "《投资者基本信息表》、《投资者风险承受能力评估问卷》应当由投资者本人或合法授权人填写。证券经营机构及其工作人员不得以明示、暗示等方式诱导、误导、欺骗投资者,影响填写结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2470,
+      "end_char": 2555,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2557,
+      "end_char": 2561,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当及时将投资者信息录入投资者评估数据库,并根据更新的信息持续评估投资者风险承受能力。投资者评估数据库中应当至少包含下列信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2563,
+      "end_char": 2632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)《办法》第六条所规定的投资者信息及本指引规定的证明材料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2634,
+      "end_char": 2665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)历次《投资者风险承受能力评估问卷》内容、评估时间、评估结果等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2701,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)投资者申请成为专业投资者或转化为普通投资者的申请书、审查结果告知和警示等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2703,
+      "end_char": 2743,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(四)投资者投资交易记录,包括但不限于产品或服务及其风险等级、交易权限、交易频率等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2745,
+      "end_char": 2787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)投资者在证券经营机构的失信记录;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(六)中国证监会、中国证券业协会(以下简称“协会”)及证券经营机构认为必要的其它信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2810,
+      "end_char": 2853,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "前述第(四)项不适用于证券投资咨询机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2855,
+      "end_char": 2875,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2877,
+      "end_char": 2881,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以将C1中符合下列情形之一的自然人,作为风险承受能力最低类别的投资者:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2883,
+      "end_char": 2925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(一)不具有完全民事行为能力;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2927,
+      "end_char": 2942,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(二)没有风险容忍度或者不愿承受任何投资损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2944,
+      "end_char": 2967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(三)法律、行政法规规定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2969,
+      "end_char": 2987,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2989,
+      "end_char": 2993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据《办法》第十六、十七条规定的因素,通过科学、合理的方法对产品或服务进行综合评估,确定其风险等级。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2995,
+      "end_char": 3053,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3055,
+      "end_char": 3059,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "证券经营机构可以将产品或服务风险等级由低至高至少划分为五级,分别为:R1、R2、R3、R4、R5。具体划分方法、标准及其变更应当告知投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3061,
+      "end_char": 3131,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据《产品或服务风险等级名录》列出相对应的产品或服务清单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3133,
+      "end_char": 3170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3172,
+      "end_char": 3176,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "证券经营机构向投资者销售产品或者提供服务涉及投资组合或资产配置的,应当按照投资组合或资产配置的整体风险对该产品或者服务进行风险等级评估,确定其风险等级。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3178,
+      "end_char": 3254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3256,
+      "end_char": 3260,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "证券经营机构向普通投资者销售产品或提供服务,应当在遵守法律、行政法规、中国证监会规定以及投资者准入要求的前提下,根据投资者的风险承受能力等级与产品或服务的风险等级相匹配的原则,对投资者提出适当性匹配意见,履行适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3262,
+      "end_char": 3372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3378,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当根据本机构及普通投资者的实际情况,确定其风险承受能力等级与产品或服务的风险等级适当性匹配的具体方法,也可以参照以下方式确定:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3380,
+      "end_char": 3450,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(一)C1级投资者匹配R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3452,
+      "end_char": 3473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(二)C2级投资者匹配R2、R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3475,
+      "end_char": 3499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "(三)C3级投资者匹配R3、R2、R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3501,
+      "end_char": 3528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "(四)C4级投资者匹配R4、R3、R2、R1级的产品或服务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3530,
+      "end_char": 3560,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(五)C5级投资者匹配R5、R4、R3、R2、R1级的产品或服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3562,
+      "end_char": 3595,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "专业投资者可以购买或接受所有风险等级的产品或服务,法律、行政法规、中国证监会规定及市场、产品或服务对投资者准入有要求的,从其规定和要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3597,
+      "end_char": 3665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3667,
+      "end_char": 3671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "证券经营机构对投资者提出的适当性匹配意见不代表其对产品或服务的风险和收益作出实质性判断或保证。投资者在参考证券经营机构适当性匹配意见的基础上,根据自身能力审慎独立决策,独立承担投资风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3673,
+      "end_char": 3766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3768,
+      "end_char": 3772,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "证券经营机构告知投资者不适合购买相关产品或者接受相关服务后,投资者主动要求购买风险等级高于其风险承受能力的产品或者接受相关服务的,证券经营机构在确认其不属于风险承受能力最低类别的投资者后,应当就产品或者服务风险高于其承受能力进行特别的书面风险警示,投资者仍坚持购买的,可以向其销售相关产品或者提供相关服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3774,
+      "end_char": 3927,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第二十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3929,
+      "end_char": 3933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "投资者风险承受能力等级与产品或服务风险等级相匹配的,证券经营机构应当与投资者签署确认适当性匹配结果;不匹配的,应当与投资者签署确认风险警示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3935,
+      "end_char": 4005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第二十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4007,
+      "end_char": 4012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "证券经营机构销售产品、提供服务,应当向投资者充分披露产品或服务信息以及有助于投资者作出投资分析判断的其他信息。披露的信息不得含有虚假、误导性陈述或存在重大遗漏,不得欺诈投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4014,
+      "end_char": 4102,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "article",
+      "text": "第二十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4104,
+      "end_char": 4109,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "证券经营机构销售产品、提供服务,应当向投资者充分揭示产品或服务的信用风险、市场风险、流动性风险等可能影响投资者权益的主要风险以及具体产品或服务的特别风险,并由投资者签署确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4111,
+      "end_char": 4198,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第二十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4200,
+      "end_char": 4205,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当建立健全投资者回访制度,对购买产品或接受服务的投资者,每年抽取不低于上一年度末购买产品或接受服务的投资者总数(含购买或者接受产品或服务的风险等级高于其风险承受能力的投资者,不含休眠账户及中止交易账户投资者)的10%进行回访。回访的内容包括但不限于:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4207,
+      "end_char": 4339,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(一)受访人是否为投资者本人;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4341,
+      "end_char": 4356,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(二)受访人是否按规定填写了《投资者基本信息表》、《投资者风险承受能力评估问卷》等并按要求签署;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4358,
+      "end_char": 4406,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(三)受访人是否已知晓产品或服务的风险以及相关风险警示;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4408,
+      "end_char": 4436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(四)受访人是否已知晓所购买产品或接受服务的业务规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4438,
+      "end_char": 4465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(五)受访人是否已知晓自己的风险承受能力等级、购买的产品或者接受服务的风险等级以及适当性匹配意见;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4467,
+      "end_char": 4516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(六)受访人是否知晓承担的费用以及可能产生的投资损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4518,
+      "end_char": 4545,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(七)证券经营机构及其工作人员是否存在《办法》第二十二条规定的禁止行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4547,
+      "end_char": 4583,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第二十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4585,
+      "end_char": 4590,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当结合自身实际需要,定期或不定期对相关岗位人员开展与适当性管理有关的培训,提高其履行适当性义务所需的知识和技能。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4592,
+      "end_char": 4655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "article",
+      "text": "第二十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4657,
+      "end_char": 4662,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当将相关岗位人员履行适当性义务、处理客户投诉与纠纷等纳入绩效考核范围。证券经营机构不得采取鼓励不适当销售或服务的考核激励措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4664,
+      "end_char": 4734,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "article",
+      "text": "第二十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4736,
+      "end_char": 4741,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当对相关岗位人员履行适当性义务的行为进行监督检查,对违反投资者适当性管理规定的人员进行问责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4743,
+      "end_char": 4796,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第二十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4798,
+      "end_char": 4803,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "证券经营机构及其工作人员应当对在履行适当性义务时获取的投资者基本信息、投资者风险承受能力评级结果等信息严格保密,防止该等信息被泄露或被不当利用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4805,
+      "end_char": 4877,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第二十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4879,
+      "end_char": 4884,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "证券经营机构应妥善处理因履行适当性义务引起的投资者投诉与纠纷,保存相关记录,及时分析总结,改进和完善相关机制与制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4886,
+      "end_char": 4944,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "article",
+      "text": "第二十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4946,
+      "end_char": 4951,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "证券经营机构应当依据《办法》第三十条的规定进行适当性自查,自查的内容包括但不限于适当性管理制度建设及落实、人员培训及考核、投资者投诉纠纷处理、发现问题及整改等情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4953,
+      "end_char": 5035,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第三十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5037,
+      "end_char": 5041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "证券经营机构与投资者发生适当性相关的纠纷,可以按相关规定向协会申请调解。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5043,
+      "end_char": 5079,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第三十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5081,
+      "end_char": 5086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "协会对证券经营机构履行适当性义务进行自律管理,对违反适当性管理规定的证券经营机构及人员依法采取自律惩戒措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5088,
+      "end_char": 5142,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "article",
+      "text": "第三十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5144,
+      "end_char": 5149,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "本指引所称书面形式包括纸质或电子形式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5151,
+      "end_char": 5170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "article",
+      "text": "第三十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5172,
+      "end_char": 5177,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "本指引由中国证券业协会负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5179,
+      "end_char": 5195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "article",
+      "text": "第三十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5197,
+      "end_char": 5202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "本指引自2017年7月1日起实施,《证券公司投资者适当性制度指引》、《关于发布<个人投资者风险承受能力评估问卷(试行模板)>的通知》同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5204,
+      "end_char": 5275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "<pre>",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5277,
+      "end_char": 5282,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "attachment",
+      "text": "附件:1、投资者基本信息表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5284,
+      "end_char": 5297,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "guide_minor_heading",
+      "text": "2、专业投资者申请书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5299,
+      "end_char": 5309,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "guide_minor_heading",
+      "text": "3、专业投资者告知及确认书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5311,
+      "end_char": 5324,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "guide_minor_heading",
+      "text": "4、投资者风险承受能力评估问卷",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5326,
+      "end_char": 5341,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "guide_minor_heading",
+      "text": "5、投资者风险承受能力评估结果告知书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5343,
+      "end_char": 5361,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "guide_minor_heading",
+      "text": "6、产品或服务风险等级名录",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5363,
+      "end_char": 5376,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "guide_minor_heading",
+      "text": "7、适当性匹配意见及投资者确认书",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5378,
+      "end_char": 5394,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "guide_minor_heading",
+      "text": "8、产品或服务风险警示及投资者确认书</pre>",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5396,
+      "end_char": 5420,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "中国证券业协会",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5422,
+      "end_char": 5429,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "2017-06-28",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5431,
+      "end_char": 5441,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "证券经营机构投资者适当性管理实施指引(试行)\n\n各证券经营机构:\n\n为引导证券行业落实投资者适当性管理要求,保护投资者合法权益,我会组织起草了《证券经营机构投资者适当性管理实施指引(试行)》(以下简称《指引》),经协会第六届常务理事会第1次会议表决通过,并向中国证监会备案,现予发布,自2017年7月1日起实施。现就有关事项通知如下:\n\n一、《指引》立足于行业实践,充分吸收了行业和监管部门的合理建议,对行业履行适当性义务作程序上的引导。考虑到证券经营机构在业务性质、服务能力、管理水平、内控机制等方面存在差异,各证券经营机构在实施过程中可以《指引》为参考,结合自身实际进一步细化和完善相关程序、方法、标准和流程,切实履行好适当性义务。\n\n二、证券公司及其子公司从事基金、期货业务,参照相关自律组织的规定执行。证券公司仅执行客户买卖公开市场交易的股票、基金、债券等交易指令的,不再重复进行适当性管理。\n\n三、各证券经营机构应当加强制度建设、人员配备和技术准备。证券经营机构应当在本《指引》发布实施之日起六个月内,完成适当性管理技术系统的改造升级。\n\n四、现有投资者参与证券期货交易是按原有的制度安排进行的,实施新的《证券期货投资者适当性管理办法》和《指引》将充分考虑这一现实情况,实行区别对待,新老划断。具体的做法是:证券经营机构向新客户销售产品或提供服务、向老客户销售(提供)高于原有风险等级的产品或服务,或者向休眠账户重新激活的老客户销售产品或提供服务,需要按照《办法》和《指引》要求执行。向老客户销售或提供不高于原有风险等级的产品或服务的,可继续进行,不受影响。同时,鼓励证券经营机构根据实际情况结合客户回访、自查、评估等工作,主动对老客户的适当性管理做出妥善安排。证券经营机构应当在《办法》和《指引》实施后不断总结经验,持续优化、完善适当性管理制度。\n\n五、《投资者基本信息表》、《专业投资者申请书》、《专业投资者告知及确认书》、《投资者风险承受能力评估问卷》、《投资者风险承受能力评估结果告知书》、《产品或服务风险等级名录》、《适当性匹配意见确认书》及《产品或服务风险警示及投资者确认书》等8个附件,是协会为方便证券经营机构履行适当性义务而提供的参考模板,请各证券经营机构根据自身情况进行调整和完善。\n\n六、我会将持续对证券经营机构落实适当性义务的情况进行跟踪和评估。各证券经营机构在《指引》实施中遇到问题应及时向我会反映。\n\n联系电话:010-66575952/5651\n\n中国证券业协会\n\n2017-06-28\n\n第一条\n\n为督促、引导证券行业有效落实适当性管理要求,维护投资者合法权益,根据《证券法》、《证券公司监督管理条例》、《证券期货投资者适当性管理办法》(以下简称《办法》)及其他相关法律、行政法规和中国证监会规定,制定本指引。\n\n第二条\n\n证券公司及其子公司、证券投资咨询机构(以下统称“证券经营机构”)向投资者销售金融产品,或者以投资者买入金融产品为目的提供证券经纪、投资顾问、融资融券、资产管理、柜台交易等金融服务,适用本指引。\n\n第三条\n\n证券经营机构可以通过由投资者填写《投资者基本信息表》等多种方式了解《办法》第六条规定的投资者基本信息。\n\n第四条\n\n证券经营机构可以要求符合《办法》第八条第(一)、(二)、(三)项条件的投资者提供营业执照、经营证券、基金、期货业务的许可证、经营其他金融业务的许可证、基金会法人登记证明、QFII、RQFII、私募基金管理人登记材料等身份证明材料,理财产品还需提供产品成立或备案文件等证明材料。符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。\n\n第五条\n\n证券经营机构可以要求符合《办法》第八条第(四)、(五)项条件的投资者提供下列材料:\n\n(一)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、两年以上投资经历的证明材料等;\n\n(二)自然人投资者提供的本人金融资产证明文件或近三年收入证明,投资经历或工作证明或职业资格证书等。\n\n符合前述条件的投资者经核验属实的,证券经营机构可将其直接认定为专业投资者,并将认定结果书面告知投资者。\n\n第六条\n\n普通投资者申请转化成为专业投资者的,证券经营机构可以要求其提供下列材料:\n\n(一)专业投资者申请书,确认自主承担产生的风险和后果;\n\n(二)法人或其他组织投资者提供的最近一年财务报表、金融资产证明文件、一年以上投资经历等证明材料;\n\n(三)自然人投资者提供的金融资产证明文件或者近三年收入证明或一年以上投资经历或工作经历等证明材料。\n\n证券经营机构完成申请材料核验后还应该按照《办法》第十二条规定,对投资者进行审慎评估。符合普通投资者转为专业投资者的,应当说明对不同类别投资者履行适当性义务的差别,警示可能承担的投资风险,书面告知其审查结果和理由;不符合转化为专业投资者的,也应当书面告知其审查结果和理由。\n\n证券经营机构应当按照《办法》第二十五条的规定对审查结果告知和警示进行全过程录音或者录像,或者以符合法律、行政法规要求的电子方式进行确认。\n\n第七条\n\n符合《办法》第八条第(四)、(五)项规定的专业投资者申请转化普通投资者的,证券经营机构应当及时将其变更为普通投资者,按照规定对投资者风险承受能力进行综合评估,确定其风险承受能力等级,履行相应适当性义务。\n\n第八条\n\n证券经营机构应当根据普通投资者信息,通过投资者填写《投资者风险承受能力评估问卷》等方法对其风险承受能力进行综合评估。《投资者风险承受能力评估问卷》的设计应当科学、合理、全面、通俗易懂。\n\n第九条\n\n证券经营机构可以将普通投资者按其风险承受能力等级由低到高至少划分为五级,分别为:C1(含风险承受能力最低类别的投资者)、C2、C3、C4、C5。具体分类标准、方法及其变更应当告知投资者。\n\n证券经营机构应当与普通投资者确认其风险承受能力等级结果,并以书面方式记载留存。\n\n第十条\n\n《投资者基本信息表》、《投资者风险承受能力评估问卷》应当由投资者本人或合法授权人填写。证券经营机构及其工作人员不得以明示、暗示等方式诱导、误导、欺骗投资者,影响填写结果。\n\n第十一条\n\n证券经营机构应当及时将投资者信息录入投资者评估数据库,并根据更新的信息持续评估投资者风险承受能力。投资者评估数据库中应当至少包含下列信息:\n\n(一)《办法》第六条所规定的投资者信息及本指引规定的证明材料;\n\n(二)历次《投资者风险承受能力评估问卷》内容、评估时间、评估结果等;\n\n(三)投资者申请成为专业投资者或转化为普通投资者的申请书、审查结果告知和警示等;\n\n(四)投资者投资交易记录,包括但不限于产品或服务及其风险等级、交易权限、交易频率等;\n\n(五)投资者在证券经营机构的失信记录;\n\n(六)中国证监会、中国证券业协会(以下简称“协会”)及证券经营机构认为必要的其它信息。\n\n前述第(四)项不适用于证券投资咨询机构。\n\n第十二条\n\n证券经营机构可以将C1中符合下列情形之一的自然人,作为风险承受能力最低类别的投资者:\n\n(一)不具有完全民事行为能力;\n\n(二)没有风险容忍度或者不愿承受任何投资损失;\n\n(三)法律、行政法规规定的其他情形。\n\n第十三条\n\n证券经营机构应当根据《办法》第十六、十七条规定的因素,通过科学、合理的方法对产品或服务进行综合评估,确定其风险等级。\n\n第十四条\n\n证券经营机构可以将产品或服务风险等级由低至高至少划分为五级,分别为:R1、R2、R3、R4、R5。具体划分方法、标准及其变更应当告知投资者。\n\n证券经营机构应当根据《产品或服务风险等级名录》列出相对应的产品或服务清单。\n\n第十五条\n\n证券经营机构向投资者销售产品或者提供服务涉及投资组合或资产配置的,应当按照投资组合或资产配置的整体风险对该产品或者服务进行风险等级评估,确定其风险等级。\n\n第十六条\n\n证券经营机构向普通投资者销售产品或提供服务,应当在遵守法律、行政法规、中国证监会规定以及投资者准入要求的前提下,根据投资者的风险承受能力等级与产品或服务的风险等级相匹配的原则,对投资者提出适当性匹配意见,履行适当性义务。\n\n第十七条\n\n证券经营机构应当根据本机构及普通投资者的实际情况,确定其风险承受能力等级与产品或服务的风险等级适当性匹配的具体方法,也可以参照以下方式确定:\n\n(一)C1级投资者匹配R1级的产品或服务;\n\n(二)C2级投资者匹配R2、R1级的产品或服务;\n\n(三)C3级投资者匹配R3、R2、R1级的产品或服务;\n\n(四)C4级投资者匹配R4、R3、R2、R1级的产品或服务;\n\n(五)C5级投资者匹配R5、R4、R3、R2、R1级的产品或服务。\n\n专业投资者可以购买或接受所有风险等级的产品或服务,法律、行政法规、中国证监会规定及市场、产品或服务对投资者准入有要求的,从其规定和要求。\n\n第十八条\n\n证券经营机构对投资者提出的适当性匹配意见不代表其对产品或服务的风险和收益作出实质性判断或保证。投资者在参考证券经营机构适当性匹配意见的基础上,根据自身能力审慎独立决策,独立承担投资风险。\n\n第十九条\n\n证券经营机构告知投资者不适合购买相关产品或者接受相关服务后,投资者主动要求购买风险等级高于其风险承受能力的产品或者接受相关服务的,证券经营机构在确认其不属于风险承受能力最低类别的投资者后,应当就产品或者服务风险高于其承受能力进行特别的书面风险警示,投资者仍坚持购买的,可以向其销售相关产品或者提供相关服务。\n\n第二十条\n\n投资者风险承受能力等级与产品或服务风险等级相匹配的,证券经营机构应当与投资者签署确认适当性匹配结果;不匹配的,应当与投资者签署确认风险警示。\n\n第二十一条\n\n证券经营机构销售产品、提供服务,应当向投资者充分披露产品或服务信息以及有助于投资者作出投资分析判断的其他信息。披露的信息不得含有虚假、误导性陈述或存在重大遗漏,不得欺诈投资者。\n\n第二十二条\n\n证券经营机构销售产品、提供服务,应当向投资者充分揭示产品或服务的信用风险、市场风险、流动性风险等可能影响投资者权益的主要风险以及具体产品或服务的特别风险,并由投资者签署确认。\n\n第二十三条\n\n证券经营机构应当建立健全投资者回访制度,对购买产品或接受服务的投资者,每年抽取不低于上一年度末购买产品或接受服务的投资者总数(含购买或者接受产品或服务的风险等级高于其风险承受能力的投资者,不含休眠账户及中止交易账户投资者)的10%进行回访。回访的内容包括但不限于:\n\n(一)受访人是否为投资者本人;\n\n(二)受访人是否按规定填写了《投资者基本信息表》、《投资者风险承受能力评估问卷》等并按要求签署;\n\n(三)受访人是否已知晓产品或服务的风险以及相关风险警示;\n\n(四)受访人是否已知晓所购买产品或接受服务的业务规则;\n\n(五)受访人是否已知晓自己的风险承受能力等级、购买的产品或者接受服务的风险等级以及适当性匹配意见;\n\n(六)受访人是否知晓承担的费用以及可能产生的投资损失;\n\n(七)证券经营机构及其工作人员是否存在《办法》第二十二条规定的禁止行为。\n\n第二十四条\n\n证券经营机构应当结合自身实际需要,定期或不定期对相关岗位人员开展与适当性管理有关的培训,提高其履行适当性义务所需的知识和技能。\n\n第二十五条\n\n证券经营机构应当将相关岗位人员履行适当性义务、处理客户投诉与纠纷等纳入绩效考核范围。证券经营机构不得采取鼓励不适当销售或服务的考核激励措施。\n\n第二十六条\n\n证券经营机构应当对相关岗位人员履行适当性义务的行为进行监督检查,对违反投资者适当性管理规定的人员进行问责。\n\n第二十七条\n\n证券经营机构及其工作人员应当对在履行适当性义务时获取的投资者基本信息、投资者风险承受能力评级结果等信息严格保密,防止该等信息被泄露或被不当利用。\n\n第二十八条\n\n证券经营机构应妥善处理因履行适当性义务引起的投资者投诉与纠纷,保存相关记录,及时分析总结,改进和完善相关机制与制度。\n\n第二十九条\n\n证券经营机构应当依据《办法》第三十条的规定进行适当性自查,自查的内容包括但不限于适当性管理制度建设及落实、人员培训及考核、投资者投诉纠纷处理、发现问题及整改等情况。\n\n第三十条\n\n证券经营机构与投资者发生适当性相关的纠纷,可以按相关规定向协会申请调解。\n\n第三十一条\n\n协会对证券经营机构履行适当性义务进行自律管理,对违反适当性管理规定的证券经营机构及人员依法采取自律惩戒措施。\n\n第三十二条\n\n本指引所称书面形式包括纸质或电子形式。\n\n第三十三条\n\n本指引由中国证券业协会负责解释。\n\n第三十四条\n\n本指引自2017年7月1日起实施,《证券公司投资者适当性制度指引》、《关于发布<个人投资者风险承受能力评估问卷(试行模板)>的通知》同时废止。\n\n<pre>\n\n附件:1、投资者基本信息表\n\n2、专业投资者申请书\n\n3、专业投资者告知及确认书\n\n4、投资者风险承受能力评估问卷\n\n5、投资者风险承受能力评估结果告知书\n\n6、产品或服务风险等级名录\n\n7、适当性匹配意见及投资者确认书\n\n8、产品或服务风险警示及投资者确认书</pre>\n\n中国证券业协会\n\n2017-06-28",
   "blocks": [
     {
@@ -196,7 +3192,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 22,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -204,7 +3207,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 32,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -212,7 +3222,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 34,
+      "end_char": 167,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -220,7 +3237,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 169,
+      "end_char": 318,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -228,7 +3252,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 320,
+      "end_char": 400,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -236,7 +3267,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 402,
+      "end_char": 473,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -244,7 +3282,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 475,
+      "end_char": 779,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -252,7 +3297,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 781,
+      "end_char": 955,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -260,7 +3312,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 957,
+      "end_char": 1017,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -268,7 +3327,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1019,
+      "end_char": 1041,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -276,7 +3342,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1043,
+      "end_char": 1050,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -284,7 +3357,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1052,
+      "end_char": 1062,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -292,7 +3372,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1064,
+      "end_char": 1067,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -300,7 +3387,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1069,
+      "end_char": 1175,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -308,7 +3402,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1177,
+      "end_char": 1180,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -316,7 +3417,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1182,
+      "end_char": 1278,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -324,7 +3432,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1280,
+      "end_char": 1283,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -332,7 +3447,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1285,
+      "end_char": 1336,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -340,7 +3462,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1338,
+      "end_char": 1341,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -348,7 +3477,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1343,
+      "end_char": 1532,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -356,7 +3492,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1534,
+      "end_char": 1537,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -364,7 +3507,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1539,
+      "end_char": 1580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -372,7 +3522,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1631,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -380,7 +3537,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1633,
+      "end_char": 1682,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -388,7 +3552,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1684,
+      "end_char": 1735,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -396,7 +3567,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1737,
+      "end_char": 1740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -404,7 +3582,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1742,
+      "end_char": 1778,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -412,7 +3597,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1780,
+      "end_char": 1807,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -420,7 +3612,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1809,
+      "end_char": 1857,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -428,7 +3627,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1859,
+      "end_char": 1908,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -436,7 +3642,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1910,
+      "end_char": 2045,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -444,7 +3657,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2047,
+      "end_char": 2115,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -452,7 +3672,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2117,
+      "end_char": 2120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -460,7 +3687,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2122,
+      "end_char": 2223,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -468,7 +3702,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2225,
+      "end_char": 2228,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -476,7 +3717,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2230,
+      "end_char": 2322,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -484,7 +3732,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2327,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -492,7 +3747,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2329,
+      "end_char": 2422,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -500,7 +3762,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2424,
+      "end_char": 2463,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -508,7 +3777,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2465,
+      "end_char": 2468,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -516,7 +3792,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2470,
+      "end_char": 2555,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -524,7 +3807,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2557,
+      "end_char": 2561,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -532,7 +3822,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2563,
+      "end_char": 2632,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -540,7 +3837,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2634,
+      "end_char": 2665,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -548,7 +3852,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2701,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -556,7 +3867,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2703,
+      "end_char": 2743,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -564,7 +3882,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2745,
+      "end_char": 2787,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -572,7 +3897,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2808,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -580,7 +3912,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2810,
+      "end_char": 2853,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -588,7 +3927,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2855,
+      "end_char": 2875,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -596,7 +3942,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2877,
+      "end_char": 2881,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -604,7 +3957,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2883,
+      "end_char": 2925,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -612,7 +3972,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2927,
+      "end_char": 2942,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -620,7 +3987,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2944,
+      "end_char": 2967,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -628,7 +4002,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2969,
+      "end_char": 2987,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -636,7 +4017,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2989,
+      "end_char": 2993,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -644,7 +4032,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2995,
+      "end_char": 3053,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -652,7 +4047,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3055,
+      "end_char": 3059,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -660,7 +4062,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3061,
+      "end_char": 3131,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -668,7 +4077,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3133,
+      "end_char": 3170,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -676,7 +4092,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3172,
+      "end_char": 3176,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -684,7 +4107,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3178,
+      "end_char": 3254,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -692,7 +4122,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3256,
+      "end_char": 3260,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -700,7 +4137,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3262,
+      "end_char": 3372,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -708,7 +4152,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3378,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -716,7 +4167,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3380,
+      "end_char": 3450,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -724,7 +4182,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3452,
+      "end_char": 3473,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -732,7 +4197,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3475,
+      "end_char": 3499,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -740,7 +4212,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3501,
+      "end_char": 3528,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -748,7 +4227,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3530,
+      "end_char": 3560,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -756,7 +4242,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3562,
+      "end_char": 3595,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -764,7 +4257,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3597,
+      "end_char": 3665,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -772,7 +4272,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3667,
+      "end_char": 3671,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -780,7 +4287,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3673,
+      "end_char": 3766,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -788,7 +4302,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3768,
+      "end_char": 3772,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -796,7 +4317,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3774,
+      "end_char": 3927,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -804,7 +4332,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3929,
+      "end_char": 3933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -812,7 +4347,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3935,
+      "end_char": 4005,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -820,7 +4362,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4007,
+      "end_char": 4012,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -828,7 +4377,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4014,
+      "end_char": 4102,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -836,7 +4392,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4104,
+      "end_char": 4109,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -844,7 +4407,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4111,
+      "end_char": 4198,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -852,7 +4422,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4200,
+      "end_char": 4205,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -860,7 +4437,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4207,
+      "end_char": 4339,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -868,7 +4452,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4341,
+      "end_char": 4356,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -876,7 +4467,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4358,
+      "end_char": 4406,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -884,7 +4482,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4408,
+      "end_char": 4436,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -892,7 +4497,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4438,
+      "end_char": 4465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -900,7 +4512,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4467,
+      "end_char": 4516,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -908,7 +4527,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4518,
+      "end_char": 4545,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -916,7 +4542,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4547,
+      "end_char": 4583,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -924,7 +4557,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4585,
+      "end_char": 4590,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -932,7 +4572,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4592,
+      "end_char": 4655,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -940,7 +4587,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4657,
+      "end_char": 4662,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -948,7 +4602,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4664,
+      "end_char": 4734,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -956,7 +4617,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4736,
+      "end_char": 4741,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -964,7 +4632,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4743,
+      "end_char": 4796,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -972,7 +4647,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4798,
+      "end_char": 4803,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -980,7 +4662,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4805,
+      "end_char": 4877,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -988,7 +4677,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4879,
+      "end_char": 4884,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -996,7 +4692,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4886,
+      "end_char": 4944,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1004,7 +4707,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4946,
+      "end_char": 4951,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1012,7 +4722,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4953,
+      "end_char": 5035,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1020,7 +4737,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5037,
+      "end_char": 5041,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1028,7 +4752,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5043,
+      "end_char": 5079,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1036,7 +4767,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5081,
+      "end_char": 5086,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1044,7 +4782,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5088,
+      "end_char": 5142,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1052,7 +4797,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5144,
+      "end_char": 5149,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1060,7 +4812,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5151,
+      "end_char": 5170,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1068,7 +4827,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5172,
+      "end_char": 5177,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1076,7 +4842,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5179,
+      "end_char": 5195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1084,7 +4857,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5197,
+      "end_char": 5202,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1092,7 +4872,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5204,
+      "end_char": 5275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1100,7 +4887,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5277,
+      "end_char": 5282,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1108,7 +4902,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5284,
+      "end_char": 5297,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1116,7 +4917,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5299,
+      "end_char": 5309,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1124,7 +4932,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5311,
+      "end_char": 5324,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1132,7 +4947,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5326,
+      "end_char": 5341,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1140,7 +4962,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5343,
+      "end_char": 5361,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1148,7 +4977,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5363,
+      "end_char": 5376,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1156,7 +4992,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5378,
+      "end_char": 5394,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1164,7 +5007,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5396,
+      "end_char": 5420,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1172,7 +5022,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5422,
+      "end_char": 5429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1180,7 +5037,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5431,
+      "end_char": 5441,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

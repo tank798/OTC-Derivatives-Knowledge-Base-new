@@ -26,6 +26,10 @@ PDF_STRUCTURE_START_RE = re.compile(
     r"附件|附录|声\s*明|前言|目录|目次)"
 )
 PDF_TERMINAL_RE = re.compile(r"[。！？!?]】?$")
+GUIDE_TOP_HEADING_RE = re.compile(r"^[一二三四五六七八九十百]+[、.]\s*(.+)$")
+GUIDE_SUB_HEADING_RE = re.compile(r"^[（(][一二三四五六七八九十百\d]+[）)]\s*(.+)$")
+GUIDE_MINOR_HEADING_RE = re.compile(r"^\d+[.．、]\s*(.+)$")
+GUIDE_NORMATIVE_RE = re.compile(r"(?:应当|应|不得|可以|可|负责|包括|主要职责|是指|须|建议)")
 
 
 def ocr_pdf_pages(path: Path) -> list[list[str]]:
@@ -81,6 +85,31 @@ def remove_toc_entries(lines: list[str]) -> tuple[list[str], int]:
     return result, len(cleaned) - len(result)
 
 
+def is_pdf_guide_heading(line: str) -> bool:
+    value = clean_text(line)
+    if compact(value) in {"说明及声明", "说明和声明"}:
+        return True
+    if re.fullmatch(r"第.+章(?:\s+.{1,40})?", value):
+        return True
+    for pattern, limit in (
+        (GUIDE_TOP_HEADING_RE, 36),
+        (GUIDE_SUB_HEADING_RE, 28),
+        (GUIDE_MINOR_HEADING_RE, 22),
+    ):
+        match = pattern.fullmatch(value)
+        if not match:
+            continue
+        remainder = clean_text(match.group(1))
+        if (
+            remainder
+            and len(compact(remainder)) <= limit
+            and not re.search(r"[。；;！？!?]", remainder)
+            and not GUIDE_NORMATIVE_RE.search(remainder)
+        ):
+            return True
+    return False
+
+
 def join_pdf_lines(lines: list[str]) -> list[str]:
     result: list[str] = []
     current = ""
@@ -88,6 +117,12 @@ def join_pdf_lines(lines: list[str]) -> list[str]:
     for raw in lines:
         line = clean_text(raw)
         if not line or is_page_number(line):
+            continue
+        if is_pdf_guide_heading(line):
+            if current:
+                result.append(current)
+                current = ""
+            result.append(line)
             continue
         if structural.match(line) or line.startswith(("附件", "附录")):
             if current:
@@ -140,10 +175,123 @@ def normalize_semantic_table(rows: list[list[str | None]]) -> list[list[str]]:
     active_columns = [index for index in range(width) if any(compact(row[index]) for row in padded)]
     if len(active_columns) < 2:
         return []
-    result = [[row[index] for index in active_columns] for row in padded]
+    # Preserve the source grid width. Removing all-empty columns breaks merged
+    # multi-level headers and makes cross-page continuations appear to have a
+    # different schema. Empty columns remain explicit and are never invented
+    # later by the HTML renderer.
+    result = padded
     if sum(bool(compact(cell)) for row in result for cell in row) < 4:
         return []
     return result
+
+
+def table_header_count(rows: list[list[str]]) -> int:
+    if len(rows) < 3:
+        return 1
+    first, second = rows[0], rows[1]
+    first_nonempty = sum(bool(compact(cell)) for cell in first)
+    second_nonempty = sum(bool(compact(cell)) for cell in second)
+    if first_nonempty and second_nonempty and (
+        any(not compact(cell) for cell in first)
+        or any(not compact(cell) for cell in second)
+    ):
+        return 2
+    return 1
+
+
+def pdf_table_data(
+    rows: list[list[str]],
+    page_no: int,
+    table_index: int,
+    bbox: tuple[float, float, float, float],
+    page_height: float,
+) -> dict:
+    width = max((len(row) for row in rows), default=0)
+    normalized = [row + [""] * (width - len(row)) for row in rows]
+    header_count = min(table_header_count(normalized), len(normalized))
+    headers = normalized[:header_count]
+    body_rows = normalized[header_count:]
+    cells = [
+        {
+            "row": row_index,
+            "column": column_index,
+            "text": cell,
+            "rowspan": 1,
+            "colspan": 1,
+        }
+        for row_index, row in enumerate(normalized)
+        for column_index, cell in enumerate(row)
+    ]
+    warnings = ["PDF文本层未提供可靠合并单元格语义，保留原始网格且未伪造rowspan/colspan"]
+    return {
+        "table_id": f"table_p{page_no}_{table_index}",
+        "caption": "",
+        "headers": headers,
+        "rows": body_rows,
+        "cells": cells,
+        "column_count": width,
+        "source_page_start": page_no,
+        "source_page_end": page_no,
+        "source_fragments": [{"page": page_no, "table_index": table_index}],
+        "bbox": [round(float(value), 3) for value in bbox],
+        "page_height": round(float(page_height), 3),
+        "parsing_warnings": warnings,
+    }
+
+
+def table_grid(table_data: dict) -> list[list[str]]:
+    return list(table_data.get("headers", [])) + list(table_data.get("rows", []))
+
+
+def refresh_table_block_text(block: SourceBlock) -> None:
+    block.text = markdown_table(table_grid(block.table_data))
+    block.source_page_end = int(block.table_data.get("source_page_end", block.page))
+    block.parsing_warnings = list(table_data_warning for table_data_warning in block.table_data.get("parsing_warnings", []))
+
+
+def stitch_cross_page_tables(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
+    """Join only geometrically credible page-bottom/page-top continuations."""
+
+    result: list[SourceBlock] = []
+    stitched = 0
+    for block in blocks:
+        if result and block.source_kind == "table" and result[-1].source_kind == "table":
+            previous = result[-1]
+            left = previous.table_data
+            right = block.table_data
+            left_bbox = left.get("bbox", [])
+            right_bbox = right.get("bbox", [])
+            left_height = float(left.get("page_height", 0) or 0)
+            right_height = float(right.get("page_height", 0) or 0)
+            adjacent = block.page == int(left.get("source_page_end", previous.page)) + 1
+            same_width = int(left.get("column_count", 0)) == int(right.get("column_count", -1))
+            boundary_geometry = (
+                len(left_bbox) == 4 and len(right_bbox) == 4
+                and left_height > 0 and right_height > 0
+                and float(left_bbox[3]) >= left_height * 0.72
+                and float(right_bbox[1]) <= right_height * 0.28
+            )
+            if adjacent and same_width and boundary_geometry:
+                left_headers = list(left.get("headers", []))
+                right_headers = list(right.get("headers", []))
+                left_header_key = [[compact(cell) for cell in row] for row in left_headers]
+                right_header_key = [[compact(cell) for cell in row] for row in right_headers]
+                continuation_rows = list(right.get("rows", []))
+                if right_header_key != left_header_key[:len(right_header_key)]:
+                    continuation_rows = right_headers + continuation_rows
+                left["rows"] = list(left.get("rows", [])) + continuation_rows
+                left["source_page_end"] = right.get("source_page_end", block.page)
+                left["source_fragments"] = list(left.get("source_fragments", [])) + list(right.get("source_fragments", []))
+                left["parsing_warnings"] = list(dict.fromkeys(
+                    list(left.get("parsing_warnings", []))
+                    + list(right.get("parsing_warnings", []))
+                    + [f"已按页底/页顶几何边界拼接第{previous.page}-{block.page}页表格片段"]
+                ))
+                refresh_table_block_text(previous)
+                stitched += 1
+                continue
+        result.append(block)
+    return result, stitched
 
 
 def split_semantic_table_content(rows: list[list[str]]) -> list[tuple[str, object]]:
@@ -248,7 +396,7 @@ def parse_pdf(path: Path) -> ParsedDocument:
                 for table in page.find_tables():
                     rows = normalize_semantic_table(table.extract())
                     if rows:
-                        semantic_tables.append((table.bbox, split_semantic_table_content(rows)))
+                        semantic_tables.append((table.bbox, split_semantic_table_content(rows), float(page.height)))
                 page_tables.append(semantic_tables)
             except Exception:
                 page_tables.append([])
@@ -285,7 +433,7 @@ def parse_pdf(path: Path) -> ParsedDocument:
         if tables and records:
             cursor = float("-inf")
             segments: list[tuple[float, str, object]] = []
-            for table_index, (bbox, content_segments) in enumerate(tables, start=1):
+            for table_index, (bbox, content_segments, page_height) in enumerate(tables, start=1):
                 top, bottom = bbox[1], bbox[3]
                 segment_lines = [
                     record["text"] for record in records
@@ -293,7 +441,7 @@ def parse_pdf(path: Path) -> ParsedDocument:
                 ]
                 segments.append((cursor, "text", segment_lines))
                 for content_index, (content_kind, content) in enumerate(content_segments):
-                    segments.append((top + content_index / 1000, content_kind, (table_index, content)))
+                    segments.append((top + content_index / 1000, content_kind, (table_index, content, bbox, page_height)))
                 cursor = max(cursor, bottom)
             segments.append((cursor, "text", [
                 record["text"] for record in records
@@ -304,15 +452,25 @@ def parse_pdf(path: Path) -> ParsedDocument:
 
         for _, kind, payload in segments:
             if kind == "table":
-                table_index, rows = payload
+                table_index, rows, bbox, page_height = payload
                 value = markdown_table(rows)
                 if value:
                     sequence += 1
-                    blocks.append(SourceBlock(value, style="Table", source_kind="table", page=page_no, block_id=f"b{sequence:05d}"))
+                    table_data = pdf_table_data(rows, page_no, table_index, bbox, page_height)
+                    blocks.append(SourceBlock(
+                        value,
+                        style="Table",
+                        source_kind="table",
+                        page=page_no,
+                        source_page_end=page_no,
+                        block_id=f"b{sequence:05d}",
+                        table_data=table_data,
+                        parsing_warnings=list(table_data["parsing_warnings"]),
+                    ))
                     warnings.append(f"第{page_no}页第{table_index}个多列表格按原行列转为Markdown")
                 continue
             if isinstance(payload, tuple):
-                table_index, value = payload
+                table_index, value, _, _ = payload
                 if value:
                     sequence += 1
                     blocks.append(SourceBlock(value, page=page_no, block_id=f"b{sequence:05d}"))
@@ -329,6 +487,9 @@ def parse_pdf(path: Path) -> ParsedDocument:
     verified_formula_count = apply_verified_formula_overrides(path, blocks)
     if verified_formula_count:
         warnings.append(f"按原PDF二维排版核对并线性化{verified_formula_count}处公式")
+    blocks, stitched_tables = stitch_cross_page_tables(blocks)
+    if stitched_tables:
+        warnings.append(f"已按几何边界拼接{stitched_tables}组PDF跨页表格")
     blocks, merged_page_breaks = merge_cross_page_paragraphs(blocks)
     if merged_page_breaks:
         warnings.append(f"已合并{merged_page_breaks}处PDF跨页句子或词语断行")

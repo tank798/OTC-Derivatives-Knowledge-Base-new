@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司柜台交易业务规范.docx",
   "source_type": "docx",
   "file_sha256": "ce049be984f3250b8ae30feb932a83f7090df60622bce52ad3d5680c2c19e590",
-  "content_sha256": "422ec584ece642c584dbbfa0c09d8fb848f4a7e780b4c23b0ff349c8533cffc8",
+  "content_sha256": "205228ad799ed04803cc8419863955c16992912c4d3722ed4c7f809f728b7bb3",
   "metadata": {
     "document_title": "证券公司柜台交易业务规范",
     "issuing_authority": "中国证券业协会",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "669bad8b1a85867d1468276701ef6296f16d91ea2973ac747c334c412fc3ae26",
     "clean_text_sha256": "c9aefe0452db87f79bc7d3370491e820ed81aeba7f50c8a5a4697f125a58399e",
@@ -117,6 +117,1297 @@
   },
   "original_text_sha256": "669bad8b1a85867d1468276701ef6296f16d91ea2973ac747c334c412fc3ae26",
   "clean_text_sha256": "c9aefe0452db87f79bc7d3370491e820ed81aeba7f50c8a5a4697f125a58399e",
+  "clean_text_hash": "61eb5a4d02df1573f64a93d2156ef56551bc8486af2136b8dbc41368b3c08e9d",
+  "structured_blocks_sha256": "ae2fd64e7dc0c47324fb43e0c1839c095596c6aba01b92f32760d7563873f75e",
+  "front_matter": [
+    {
+      "block_id": "b00002",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "中证协发〔2012〕244号",
+      "character_count": 14
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司柜台交易业务规范",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 17,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "为规范证券公司柜台交易行为,保护投资者合法权益,防范证券公司风险,根据《证券法》、《证券公司监督管理条例》,制定本规范。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 19,
+      "end_char": 79,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 81,
+      "end_char": 84,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "本规范所称柜台交易,是指证券公司与特定交易对手方在集中交易场所之外进行的交易或为投资者在集中交易场所之外进行交易提供服务的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 86,
+      "end_char": 150,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当遵守本规范,但按照其他市场规则进行柜台交易的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 152,
+      "end_char": 190,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 192,
+      "end_char": 195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "证券公司柜台交易的产品包括经国家有关部门或其授权机构批准、备案或认可的在集中交易场所之外发行或销售的基础金融产品和金融衍生产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 197,
+      "end_char": 261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 263,
+      "end_char": 266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当具备中国证券监督管理委员会(以下简称证监会)批准的与所开展业务相适应的资格条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 268,
+      "end_char": 321,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "证券公司与特定交易对手方进行柜台交易的,应经证监会批准可从事证券自营业务;证券公司为投资者交易提供服务的,应经证监会批准可从事证券经纪业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 323,
+      "end_char": 393,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 395,
+      "end_char": 398,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得欺诈、误导投资者,不得利用非公开信息谋取不正当利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 400,
+      "end_char": 465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 467,
+      "end_char": 470,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当建立柜台交易管理制度,对交易产品和投资者的选择、交易的决策与执行、与交易有关的登记结算、交易的记录与信息披露等事项作出明确规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 472,
+      "end_char": 549,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "证券公司应当健全合规管理制度,对柜台交易实施有效的合规管理,保障柜台交易依法合规进行,切实防范不当利用非公开信息进行交易的行为以及柜台交易与公司其他业务之间的利益冲突。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 551,
+      "end_char": 635,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "证券公司应当健全风险管理制度,持续评估因柜台交易而持有的各类金融产品的市场风险和投资者的信用状况,采取有效的风险管理措施,将持有的风险敞口控制在可承受范围内。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 637,
+      "end_char": 716,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 718,
+      "end_char": 721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "参与柜台交易的投资者应当是合格投资者。证券公司应当建立投资者适当性管理制度,并符合中国证券业协会(以下简称协会)投资者适当性管理的相关规定。证券公司在进行柜台交易前,应当采取有效措施了解投资者的身份、财产与收入状况、信用状况、金融知识、投资经验、风险承受能力等情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 723,
+      "end_char": 856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 858,
+      "end_char": 861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "证券公司进行基础金融产品柜台交易,应当遵守销售、交易基础金融产品的有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 863,
+      "end_char": 901,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "证券公司进行金融衍生产品柜台交易,应当向非金融机构投资者客观、全面地介绍该项交易的性质、风险收益特征及相关基础金融资产的状况,充分披露其与基础金融资产发行人等相关当事人之间是否存在关联关系等可能影响投资者决策的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 903,
+      "end_char": 1011,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1013,
+      "end_char": 1016,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当与特定交易对手方或投资者以书面或电子方式签订柜台交易合同,约定双方的权利义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1018,
+      "end_char": 1070,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "金融衍生产品的柜台交易合同应符合协会对金融衍生产品主协议及配套文件的相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1072,
+      "end_char": 1111,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1113,
+      "end_char": 1116,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "证券公司与投资者约定抵押、质押等财产担保的,应当依法办理担保设定手续;向投资者收取履约保证金的,应当在双方约定的金融机构开立专门账户存放,不得违约动用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1118,
+      "end_char": 1194,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1196,
+      "end_char": 1200,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "证券公司应当按照柜台交易合同约定的方式,为投资者办理交易结算。按照约定通过证券公司自有资金账户和客户交易结算资金专用存款账户办理柜台交易资金结算的,相关资金划转应当符合客户交易结算资金存管的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1202,
+      "end_char": 1300,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1302,
+      "end_char": 1306,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易的,应当记录投资者柜台交易产品的持有及变动状况。证券公司应当及时、准确、完整地记载与柜台交易有关的信息,并按照《证券法》的规定予以妥善保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1308,
+      "end_char": 1388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取有效措施,确保投资者可以在营业时间内查询其与证券公司签订的柜台交易合同的内容、持有基础金融产品和金融衍生产品的状况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1390,
+      "end_char": 1456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1458,
+      "end_char": 1462,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "协会按照本规范对证券公司柜台交易活动进行自律管理和日常监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1464,
+      "end_char": 1494,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当将以下材料报协会备案:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1496,
+      "end_char": 1520,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(一) 柜台交易业务实施方案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1522,
+      "end_char": 1537,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(二) 公司关于开展柜台交易的决议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1539,
+      "end_char": 1557,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(三) 关于投资者适当性管理制度、内部控制制度和风险防范机制的说明;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1559,
+      "end_char": 1593,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(四) 有关柜台交易业务规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1595,
+      "end_char": 1610,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(五) 协会要求的其他文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1612,
+      "end_char": 1626,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1628,
+      "end_char": 1632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,其柜台交易管理制度和实施方案应当通过协会组织的专业评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1634,
+      "end_char": 1673,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "自受理证券公司提交的备案材料之日起1个月内,协会组织专家对证券公司柜台交易业务方案进行评估。专家评估通过的,协会在5个工作日内出具确认备案的书面意见;专家评估未通过的,协会不予备案,并书面通知未通过的原因。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1675,
+      "end_char": 1778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1780,
+      "end_char": 1784,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "证券公司应向协会报备其进行柜台交易的相关业务信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1786,
+      "end_char": 1811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "证券公司应于每月结束后5个工作日内按要求向协会报送柜台交易月度报表,每年结束后1个月内向协会报送柜台交易年度报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "发生可能影响柜台交易顺利进行、投资者利益或可能诱发证券公司风险的重大事件时,证券公司应当及时报告协会,并说明重大事件的起因、处理措施和影响等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1872,
+      "end_char": 1943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1945,
+      "end_char": 1949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易应遵守协会制定的自律规则。协会对证券公司进行柜台交易的情况进行检查,证券公司应当配合。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1951,
+      "end_char": 2004,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2006,
+      "end_char": 2010,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "证券公司及其相关业务人员违反本规范规定,协会将视情节轻重采取相关自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,将移交证监会或其他有权机关依法查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2012,
+      "end_char": 2094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2096,
+      "end_char": 2100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "本规范由协会负责解释,自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2102,
+      "end_char": 2122,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "证券公司柜台交易业务规范\n\n第一条\n\n为规范证券公司柜台交易行为,保护投资者合法权益,防范证券公司风险,根据《证券法》、《证券公司监督管理条例》,制定本规范。\n\n第二条\n\n本规范所称柜台交易,是指证券公司与特定交易对手方在集中交易场所之外进行的交易或为投资者在集中交易场所之外进行交易提供服务的行为。\n\n证券公司进行柜台交易,应当遵守本规范,但按照其他市场规则进行柜台交易的除外。\n\n第三条\n\n证券公司柜台交易的产品包括经国家有关部门或其授权机构批准、备案或认可的在集中交易场所之外发行或销售的基础金融产品和金融衍生产品。\n\n第四条\n\n证券公司进行柜台交易,应当具备中国证券监督管理委员会(以下简称证监会)批准的与所开展业务相适应的资格条件。\n\n证券公司与特定交易对手方进行柜台交易的,应经证监会批准可从事证券自营业务;证券公司为投资者交易提供服务的,应经证监会批准可从事证券经纪业务。\n\n第五条\n\n证券公司进行柜台交易,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得欺诈、误导投资者,不得利用非公开信息谋取不正当利益。\n\n第六条\n\n证券公司进行柜台交易,应当建立柜台交易管理制度,对交易产品和投资者的选择、交易的决策与执行、与交易有关的登记结算、交易的记录与信息披露等事项作出明确规定。\n\n证券公司应当健全合规管理制度,对柜台交易实施有效的合规管理,保障柜台交易依法合规进行,切实防范不当利用非公开信息进行交易的行为以及柜台交易与公司其他业务之间的利益冲突。\n\n证券公司应当健全风险管理制度,持续评估因柜台交易而持有的各类金融产品的市场风险和投资者的信用状况,采取有效的风险管理措施,将持有的风险敞口控制在可承受范围内。\n\n第七条\n\n参与柜台交易的投资者应当是合格投资者。证券公司应当建立投资者适当性管理制度,并符合中国证券业协会(以下简称协会)投资者适当性管理的相关规定。证券公司在进行柜台交易前,应当采取有效措施了解投资者的身份、财产与收入状况、信用状况、金融知识、投资经验、风险承受能力等情况。\n\n第八条\n\n证券公司进行基础金融产品柜台交易,应当遵守销售、交易基础金融产品的有关规定。\n\n证券公司进行金融衍生产品柜台交易,应当向非金融机构投资者客观、全面地介绍该项交易的性质、风险收益特征及相关基础金融资产的状况,充分披露其与基础金融资产发行人等相关当事人之间是否存在关联关系等可能影响投资者决策的信息。\n\n第九条\n\n证券公司进行柜台交易,应当与特定交易对手方或投资者以书面或电子方式签订柜台交易合同,约定双方的权利义务。\n\n金融衍生产品的柜台交易合同应符合协会对金融衍生产品主协议及配套文件的相关规定。\n\n第十条\n\n证券公司与投资者约定抵押、质押等财产担保的,应当依法办理担保设定手续;向投资者收取履约保证金的,应当在双方约定的金融机构开立专门账户存放,不得违约动用。\n\n第十一条\n\n证券公司应当按照柜台交易合同约定的方式,为投资者办理交易结算。按照约定通过证券公司自有资金账户和客户交易结算资金专用存款账户办理柜台交易资金结算的,相关资金划转应当符合客户交易结算资金存管的规定。\n\n第十二条\n\n证券公司进行柜台交易的,应当记录投资者柜台交易产品的持有及变动状况。证券公司应当及时、准确、完整地记载与柜台交易有关的信息,并按照《证券法》的规定予以妥善保存。\n\n证券公司应当采取有效措施,确保投资者可以在营业时间内查询其与证券公司签订的柜台交易合同的内容、持有基础金融产品和金融衍生产品的状况。\n\n第十三条\n\n协会按照本规范对证券公司柜台交易活动进行自律管理和日常监控。\n\n证券公司进行柜台交易,应当将以下材料报协会备案:\n\n(一) 柜台交易业务实施方案;\n\n(二) 公司关于开展柜台交易的决议;\n\n(三) 关于投资者适当性管理制度、内部控制制度和风险防范机制的说明;\n\n(四) 有关柜台交易业务规则;\n\n(五) 协会要求的其他文件。\n\n第十四条\n\n证券公司进行柜台交易,其柜台交易管理制度和实施方案应当通过协会组织的专业评价。\n\n自受理证券公司提交的备案材料之日起1个月内,协会组织专家对证券公司柜台交易业务方案进行评估。专家评估通过的,协会在5个工作日内出具确认备案的书面意见;专家评估未通过的,协会不予备案,并书面通知未通过的原因。\n\n第十五条\n\n证券公司应向协会报备其进行柜台交易的相关业务信息。\n\n证券公司应于每月结束后5个工作日内按要求向协会报送柜台交易月度报表,每年结束后1个月内向协会报送柜台交易年度报告。\n\n发生可能影响柜台交易顺利进行、投资者利益或可能诱发证券公司风险的重大事件时,证券公司应当及时报告协会,并说明重大事件的起因、处理措施和影响等。\n\n第十六条\n\n证券公司进行柜台交易应遵守协会制定的自律规则。协会对证券公司进行柜台交易的情况进行检查,证券公司应当配合。\n\n第十七条\n\n证券公司及其相关业务人员违反本规范规定,协会将视情节轻重采取相关自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,将移交证监会或其他有权机关依法查处。\n\n第十八条\n\n本规范由协会负责解释,自发布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司柜台交易业务规范",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 17,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "为规范证券公司柜台交易行为,保护投资者合法权益,防范证券公司风险,根据《证券法》、《证券公司监督管理条例》,制定本规范。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 19,
+      "end_char": 79,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 81,
+      "end_char": 84,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "本规范所称柜台交易,是指证券公司与特定交易对手方在集中交易场所之外进行的交易或为投资者在集中交易场所之外进行交易提供服务的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 86,
+      "end_char": 150,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当遵守本规范,但按照其他市场规则进行柜台交易的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 152,
+      "end_char": 190,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 192,
+      "end_char": 195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "证券公司柜台交易的产品包括经国家有关部门或其授权机构批准、备案或认可的在集中交易场所之外发行或销售的基础金融产品和金融衍生产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 197,
+      "end_char": 261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 263,
+      "end_char": 266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当具备中国证券监督管理委员会(以下简称证监会)批准的与所开展业务相适应的资格条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 268,
+      "end_char": 321,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "证券公司与特定交易对手方进行柜台交易的,应经证监会批准可从事证券自营业务;证券公司为投资者交易提供服务的,应经证监会批准可从事证券经纪业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 323,
+      "end_char": 393,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 395,
+      "end_char": 398,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得欺诈、误导投资者,不得利用非公开信息谋取不正当利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 400,
+      "end_char": 465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 467,
+      "end_char": 470,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当建立柜台交易管理制度,对交易产品和投资者的选择、交易的决策与执行、与交易有关的登记结算、交易的记录与信息披露等事项作出明确规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 472,
+      "end_char": 549,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "证券公司应当健全合规管理制度,对柜台交易实施有效的合规管理,保障柜台交易依法合规进行,切实防范不当利用非公开信息进行交易的行为以及柜台交易与公司其他业务之间的利益冲突。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 551,
+      "end_char": 635,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "证券公司应当健全风险管理制度,持续评估因柜台交易而持有的各类金融产品的市场风险和投资者的信用状况,采取有效的风险管理措施,将持有的风险敞口控制在可承受范围内。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 637,
+      "end_char": 716,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 718,
+      "end_char": 721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "参与柜台交易的投资者应当是合格投资者。证券公司应当建立投资者适当性管理制度,并符合中国证券业协会(以下简称协会)投资者适当性管理的相关规定。证券公司在进行柜台交易前,应当采取有效措施了解投资者的身份、财产与收入状况、信用状况、金融知识、投资经验、风险承受能力等情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 723,
+      "end_char": 856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 858,
+      "end_char": 861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "证券公司进行基础金融产品柜台交易,应当遵守销售、交易基础金融产品的有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 863,
+      "end_char": 901,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "证券公司进行金融衍生产品柜台交易,应当向非金融机构投资者客观、全面地介绍该项交易的性质、风险收益特征及相关基础金融资产的状况,充分披露其与基础金融资产发行人等相关当事人之间是否存在关联关系等可能影响投资者决策的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 903,
+      "end_char": 1011,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1013,
+      "end_char": 1016,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当与特定交易对手方或投资者以书面或电子方式签订柜台交易合同,约定双方的权利义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1018,
+      "end_char": 1070,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "金融衍生产品的柜台交易合同应符合协会对金融衍生产品主协议及配套文件的相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1072,
+      "end_char": 1111,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1113,
+      "end_char": 1116,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "证券公司与投资者约定抵押、质押等财产担保的,应当依法办理担保设定手续;向投资者收取履约保证金的,应当在双方约定的金融机构开立专门账户存放,不得违约动用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1118,
+      "end_char": 1194,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1196,
+      "end_char": 1200,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "证券公司应当按照柜台交易合同约定的方式,为投资者办理交易结算。按照约定通过证券公司自有资金账户和客户交易结算资金专用存款账户办理柜台交易资金结算的,相关资金划转应当符合客户交易结算资金存管的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1202,
+      "end_char": 1300,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1302,
+      "end_char": 1306,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易的,应当记录投资者柜台交易产品的持有及变动状况。证券公司应当及时、准确、完整地记载与柜台交易有关的信息,并按照《证券法》的规定予以妥善保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1308,
+      "end_char": 1388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取有效措施,确保投资者可以在营业时间内查询其与证券公司签订的柜台交易合同的内容、持有基础金融产品和金融衍生产品的状况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1390,
+      "end_char": 1456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1458,
+      "end_char": 1462,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "协会按照本规范对证券公司柜台交易活动进行自律管理和日常监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1464,
+      "end_char": 1494,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,应当将以下材料报协会备案:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1496,
+      "end_char": 1520,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(一) 柜台交易业务实施方案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1522,
+      "end_char": 1537,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(二) 公司关于开展柜台交易的决议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1539,
+      "end_char": 1557,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(三) 关于投资者适当性管理制度、内部控制制度和风险防范机制的说明;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1559,
+      "end_char": 1593,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(四) 有关柜台交易业务规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1595,
+      "end_char": 1610,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(五) 协会要求的其他文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1612,
+      "end_char": 1626,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1628,
+      "end_char": 1632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易,其柜台交易管理制度和实施方案应当通过协会组织的专业评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1634,
+      "end_char": 1673,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "自受理证券公司提交的备案材料之日起1个月内,协会组织专家对证券公司柜台交易业务方案进行评估。专家评估通过的,协会在5个工作日内出具确认备案的书面意见;专家评估未通过的,协会不予备案,并书面通知未通过的原因。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1675,
+      "end_char": 1778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1780,
+      "end_char": 1784,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "证券公司应向协会报备其进行柜台交易的相关业务信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1786,
+      "end_char": 1811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "证券公司应于每月结束后5个工作日内按要求向协会报送柜台交易月度报表,每年结束后1个月内向协会报送柜台交易年度报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "发生可能影响柜台交易顺利进行、投资者利益或可能诱发证券公司风险的重大事件时,证券公司应当及时报告协会,并说明重大事件的起因、处理措施和影响等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1872,
+      "end_char": 1943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1945,
+      "end_char": 1949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "证券公司进行柜台交易应遵守协会制定的自律规则。协会对证券公司进行柜台交易的情况进行检查,证券公司应当配合。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1951,
+      "end_char": 2004,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2006,
+      "end_char": 2010,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "证券公司及其相关业务人员违反本规范规定,协会将视情节轻重采取相关自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,将移交证监会或其他有权机关依法查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2012,
+      "end_char": 2094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2096,
+      "end_char": 2100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "本规范由协会负责解释,自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2102,
+      "end_char": 2122,
+      "region": "body"
+    }
+  ],
   "normalized_text": "证券公司柜台交易业务规范\n\n第一条\n\n为规范证券公司柜台交易行为,保护投资者合法权益,防范证券公司风险,根据《证券法》、《证券公司监督管理条例》,制定本规范。\n\n第二条\n\n本规范所称柜台交易,是指证券公司与特定交易对手方在集中交易场所之外进行的交易或为投资者在集中交易场所之外进行交易提供服务的行为。\n\n证券公司进行柜台交易,应当遵守本规范,但按照其他市场规则进行柜台交易的除外。\n\n第三条\n\n证券公司柜台交易的产品包括经国家有关部门或其授权机构批准、备案或认可的在集中交易场所之外发行或销售的基础金融产品和金融衍生产品。\n\n第四条\n\n证券公司进行柜台交易,应当具备中国证券监督管理委员会(以下简称证监会)批准的与所开展业务相适应的资格条件。\n\n证券公司与特定交易对手方进行柜台交易的,应经证监会批准可从事证券自营业务;证券公司为投资者交易提供服务的,应经证监会批准可从事证券经纪业务。\n\n第五条\n\n证券公司进行柜台交易,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得欺诈、误导投资者,不得利用非公开信息谋取不正当利益。\n\n第六条\n\n证券公司进行柜台交易,应当建立柜台交易管理制度,对交易产品和投资者的选择、交易的决策与执行、与交易有关的登记结算、交易的记录与信息披露等事项作出明确规定。\n\n证券公司应当健全合规管理制度,对柜台交易实施有效的合规管理,保障柜台交易依法合规进行,切实防范不当利用非公开信息进行交易的行为以及柜台交易与公司其他业务之间的利益冲突。\n\n证券公司应当健全风险管理制度,持续评估因柜台交易而持有的各类金融产品的市场风险和投资者的信用状况,采取有效的风险管理措施,将持有的风险敞口控制在可承受范围内。\n\n第七条\n\n参与柜台交易的投资者应当是合格投资者。证券公司应当建立投资者适当性管理制度,并符合中国证券业协会(以下简称协会)投资者适当性管理的相关规定。证券公司在进行柜台交易前,应当采取有效措施了解投资者的身份、财产与收入状况、信用状况、金融知识、投资经验、风险承受能力等情况。\n\n第八条\n\n证券公司进行基础金融产品柜台交易,应当遵守销售、交易基础金融产品的有关规定。\n\n证券公司进行金融衍生产品柜台交易,应当向非金融机构投资者客观、全面地介绍该项交易的性质、风险收益特征及相关基础金融资产的状况,充分披露其与基础金融资产发行人等相关当事人之间是否存在关联关系等可能影响投资者决策的信息。\n\n第九条\n\n证券公司进行柜台交易,应当与特定交易对手方或投资者以书面或电子方式签订柜台交易合同,约定双方的权利义务。\n\n金融衍生产品的柜台交易合同应符合协会对金融衍生产品主协议及配套文件的相关规定。\n\n第十条\n\n证券公司与投资者约定抵押、质押等财产担保的,应当依法办理担保设定手续;向投资者收取履约保证金的,应当在双方约定的金融机构开立专门账户存放,不得违约动用。\n\n第十一条\n\n证券公司应当按照柜台交易合同约定的方式,为投资者办理交易结算。按照约定通过证券公司自有资金账户和客户交易结算资金专用存款账户办理柜台交易资金结算的,相关资金划转应当符合客户交易结算资金存管的规定。\n\n第十二条\n\n证券公司进行柜台交易的,应当记录投资者柜台交易产品的持有及变动状况。证券公司应当及时、准确、完整地记载与柜台交易有关的信息,并按照《证券法》的规定予以妥善保存。\n\n证券公司应当采取有效措施,确保投资者可以在营业时间内查询其与证券公司签订的柜台交易合同的内容、持有基础金融产品和金融衍生产品的状况。\n\n第十三条\n\n协会按照本规范对证券公司柜台交易活动进行自律管理和日常监控。\n\n证券公司进行柜台交易,应当将以下材料报协会备案:\n\n(一) 柜台交易业务实施方案;\n\n(二) 公司关于开展柜台交易的决议;\n\n(三) 关于投资者适当性管理制度、内部控制制度和风险防范机制的说明;\n\n(四) 有关柜台交易业务规则;\n\n(五) 协会要求的其他文件。\n\n第十四条\n\n证券公司进行柜台交易,其柜台交易管理制度和实施方案应当通过协会组织的专业评价。\n\n自受理证券公司提交的备案材料之日起1个月内,协会组织专家对证券公司柜台交易业务方案进行评估。专家评估通过的,协会在5个工作日内出具确认备案的书面意见;专家评估未通过的,协会不予备案,并书面通知未通过的原因。\n\n第十五条\n\n证券公司应向协会报备其进行柜台交易的相关业务信息。\n\n证券公司应于每月结束后5个工作日内按要求向协会报送柜台交易月度报表,每年结束后1个月内向协会报送柜台交易年度报告。\n\n发生可能影响柜台交易顺利进行、投资者利益或可能诱发证券公司风险的重大事件时,证券公司应当及时报告协会,并说明重大事件的起因、处理措施和影响等。\n\n第十六条\n\n证券公司进行柜台交易应遵守协会制定的自律规则。协会对证券公司进行柜台交易的情况进行检查,证券公司应当配合。\n\n第十七条\n\n证券公司及其相关业务人员违反本规范规定,协会将视情节轻重采取相关自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,将移交证监会或其他有权机关依法查处。\n\n第十八条\n\n本规范由协会负责解释,自发布之日起施行。",
   "blocks": [
     {
@@ -125,7 +1416,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -133,7 +1431,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 17,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -141,7 +1446,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 19,
+      "end_char": 79,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -149,7 +1461,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 81,
+      "end_char": 84,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -157,7 +1476,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 86,
+      "end_char": 150,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -165,7 +1491,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 152,
+      "end_char": 190,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -173,7 +1506,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 192,
+      "end_char": 195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -181,7 +1521,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 197,
+      "end_char": 261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -189,7 +1536,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 263,
+      "end_char": 266,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -197,7 +1551,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 268,
+      "end_char": 321,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -205,7 +1566,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 323,
+      "end_char": 393,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -213,7 +1581,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 395,
+      "end_char": 398,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -221,7 +1596,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 400,
+      "end_char": 465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -229,7 +1611,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 467,
+      "end_char": 470,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -237,7 +1626,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 472,
+      "end_char": 549,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -245,7 +1641,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 551,
+      "end_char": 635,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -253,7 +1656,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 637,
+      "end_char": 716,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -261,7 +1671,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 718,
+      "end_char": 721,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -269,7 +1686,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 723,
+      "end_char": 856,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -277,7 +1701,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 858,
+      "end_char": 861,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -285,7 +1716,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 863,
+      "end_char": 901,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -293,7 +1731,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 903,
+      "end_char": 1011,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -301,7 +1746,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1013,
+      "end_char": 1016,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -309,7 +1761,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1018,
+      "end_char": 1070,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -317,7 +1776,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1072,
+      "end_char": 1111,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -325,7 +1791,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1113,
+      "end_char": 1116,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -333,7 +1806,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1118,
+      "end_char": 1194,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -341,7 +1821,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1196,
+      "end_char": 1200,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -349,7 +1836,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1202,
+      "end_char": 1300,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -357,7 +1851,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1302,
+      "end_char": 1306,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -365,7 +1866,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1308,
+      "end_char": 1388,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -373,7 +1881,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1390,
+      "end_char": 1456,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -381,7 +1896,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1458,
+      "end_char": 1462,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -389,7 +1911,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1464,
+      "end_char": 1494,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -397,7 +1926,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1496,
+      "end_char": 1520,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -405,7 +1941,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1522,
+      "end_char": 1537,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -413,7 +1956,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1539,
+      "end_char": 1557,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -421,7 +1971,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1559,
+      "end_char": 1593,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -429,7 +1986,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1595,
+      "end_char": 1610,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -437,7 +2001,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1612,
+      "end_char": 1626,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -445,7 +2016,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1628,
+      "end_char": 1632,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -453,7 +2031,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1634,
+      "end_char": 1673,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -461,7 +2046,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1675,
+      "end_char": 1778,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -469,7 +2061,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1780,
+      "end_char": 1784,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -477,7 +2076,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1786,
+      "end_char": 1811,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -485,7 +2091,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1870,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -493,7 +2106,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1872,
+      "end_char": 1943,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -501,7 +2121,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1945,
+      "end_char": 1949,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -509,7 +2136,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1951,
+      "end_char": 2004,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -517,7 +2151,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2006,
+      "end_char": 2010,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -525,7 +2166,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2012,
+      "end_char": 2094,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -533,7 +2181,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2096,
+      "end_char": 2100,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -541,7 +2196,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2102,
+      "end_char": 2122,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

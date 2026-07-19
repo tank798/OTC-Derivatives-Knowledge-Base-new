@@ -20,8 +20,14 @@
 
 - `document_id` 由法规正式名称、文号、发文机关和版本生成，不依赖文件路径、扩展名或正文哈希。
 - `chunk_id` 由稳定文档ID、章/节/条定位和正文哈希生成，不依赖本次顺序号。
+- 每份结构化文档同时保存 `front_matter`、`body_blocks`、`appendices`、`clean_text` 和 `structured_blocks`。HTML“阅读原文”直接使用 `clean_text + structured_blocks`，不再拼接带 overlap 的检索 Chunk。
+- `structured_blocks` 区分标题、条款、普通段落、指南标题、表格、公式、附件和注释；表格展示使用二维网格，检索时另行生成带表头语义的文本。
+- Chunk 的 `start_char/end_char` 指向 `clean_text` 中的主正文位置；`primary_block_ids/overlap_block_ids` 区分本块正文和为检索保留的上下文。`overlap_left/right` 只描述检索重叠，不参与阅读正文恢复。
+- `clean_text_hash` 决定是否需要重新切分，`chunk_hash` 与 embedding 输入哈希决定是否需要重新向量化。
 - `data/processed/build_manifest.json` 分别记录原件哈希、正文哈希、元数据哈希、解析器版本、切分器版本和每份文件的产物路径。
-- 原件未变时复用结构化正文；正文及切分器未变时复用 Chunk；只修改 URL 等元数据时仅刷新 Chunk 元数据。
+- 原件未变时复用结构化正文；清洗后正文及切分器未变时复用 Chunk；只修改 URL 等元数据时仅刷新 Chunk 元数据。
+
+正文开头的发布公告、独立文号、重复标题和版本说明会移入元数据或 `front_matter`；正式条款中的施行、废止、衔接内容以及实质性通知前言仍保留。PDF 页眉页脚、页码和目录在结构化前清理。
 
 ## 运行
 
@@ -42,6 +48,20 @@ python3 knowledge_base/main.py --force --file "期货和衍生品法"
 ```
 
 默认支持增量处理：文件哈希、程序版本、语义复核模式和已生成 JSONL 均未变化时直接复用。从 `--disable-llm` 切换到默认 DeepSeek 模式时会自动重建，不会误用上一种模式的块。
+
+生成单文件法规查看器：
+
+```bash
+python3 knowledge_base/build_chunk_review_viewer.py
+```
+
+仅对变化的 Chunk 更新向量，并生成逐行复用审计：
+
+```bash
+npm run build:retrieval:incremental
+```
+
+审计文件为 `data/index/incremental_vector_audit.csv`；`status=reused` 且 `vector_bytes_identical=true` 表示旧向量按字节复用。
 
 ## 测试
 

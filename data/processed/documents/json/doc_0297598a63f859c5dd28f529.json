@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/保险资产管理产品管理暂行办法.doc",
   "source_type": "doc",
   "file_sha256": "97596cb3d7c95bb568800263c459dd4ed4015df639fb4d7a8a1f76adb47efffc",
-  "content_sha256": "4fa6d48744bc7fd47d4b7dd0155c6d82f64e6e36894d683ac181c9fdbdf44c1c",
+  "content_sha256": "efd7aa8e30e829e0ad8b1781625327209c05e0330e55b2d56171b975359a55b6",
   "metadata": {
     "document_title": "保险资产管理产品管理暂行办法",
     "issuing_authority": "中国银保监会（历史机构）",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "34bda21052ab87f39140934d7ee7189f3adb2c046b07f95bddd543eda50ce633",
     "clean_text_sha256": "66ee3108f780eec21a33d8676423b2017d91e4a08ac62f3c61f0dd0c4547e92f",
@@ -290,6 +290,3733 @@
   },
   "original_text_sha256": "34bda21052ab87f39140934d7ee7189f3adb2c046b07f95bddd543eda50ce633",
   "clean_text_sha256": "66ee3108f780eec21a33d8676423b2017d91e4a08ac62f3c61f0dd0c4547e92f",
+  "clean_text_hash": "d36c4fc835b974506be05953cf2ecf196180e8984851090de2e93b88651398ad",
+  "structured_blocks_sha256": "238aac80cbe8d005ae49b7ba735060f8c4cf317d22b64954130cfbc8685580f5",
+  "front_matter": [
+    {
+      "block_id": "b00002",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(2020年3月18日中国银行保险监督管理委员会令2020年第5号公布 自2020年5月1日起施行)",
+      "character_count": 49
+    },
+    {
+      "block_id": "b00155",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "trailing_source_reference",
+      "action": "moved_to_front_matter",
+      "text": "中国银保监会有关部门负责人就《保险资产管理产品管理暂行办法》答记者问",
+      "character_count": 34
+    },
+    {
+      "block_id": "b00156",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "trailing_source_reference",
+      "action": "moved_to_front_matter",
+      "text": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=895248&itemId=916&generaltype=0",
+      "character_count": 90
+    },
+    {
+      "block_id": "b00157",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "trailing_source_reference",
+      "action": "moved_to_front_matter",
+      "text": "中国银保监会发布《保险资产管理产品管理暂行办法》",
+      "character_count": 24
+    },
+    {
+      "block_id": "b00158",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "trailing_source_reference",
+      "action": "moved_to_front_matter",
+      "text": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=895088&itemId=916&generaltype=0",
+      "character_count": 90
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "保险资产管理产品管理暂行办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 14,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 16,
+      "end_char": 23,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条 为了规范保险资产管理机构开展保险资产管理产品(以下简称保险资管产品或者产品)业务,保护投资者和相关当事人合法权益,根据《中华人民共和国保险法》《中华人民共和国银行业监督管理法》《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)及相关法律法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 25,
+      "end_char": 164,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条 在中华人民共和国境内设立的保险资产管理机构开展保险资管产品业务,适用本办法。法律、行政法规以及中国银行保险监督管理委员会(以下简称银保监会)另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 166,
+      "end_char": 248,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 本办法所称保险资管产品业务,是指保险资产管理机构接受投资者委托,设立保险资管产品并担任管理人,依照法律法规和有关合同约定,对受托的投资者财产进行投资和管理的金融服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 250,
+      "end_char": 337,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "保险资管产品包括债权投资计划、股权投资计划、组合类产品和银保监会规定的其他产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 339,
+      "end_char": 379,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第四条 保险资管产品应当面向合格投资者通过非公开方式发行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 381,
+      "end_char": 410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第五条 保险资产管理机构开展保险资管产品业务,应当发挥保险资金长期、稳定的优势,服务保险保障,服务经济社会发展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 412,
+      "end_char": 468,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 保险资产管理机构开展保险资管产品业务,应当遵守法律、行政法规以及银保监会的规定,遵循公平、公正原则,维护投资者合法权益,诚实守信、勤勉尽责,防范利益冲突。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 470,
+      "end_char": 551,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构开展保险资管产品业务,应当加强投资者适当性管理,向投资者充分披露信息和揭示风险,不得承诺保本保收益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 553,
+      "end_char": 615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "投资者投资保险资管产品,应当根据自身能力审慎决策,独立承担投资风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 617,
+      "end_char": 651,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 保险资管产品财产独立于保险资产管理机构、托管人和其他为产品管理提供服务的自然人、法人或者组织的固有财产和其管理的其他财产。因产品财产的管理、运用、处分或者其他情形取得的财产和收益,应当归入产品财产。保险资产管理机构、托管人等机构因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,产品财产不属于其清算财产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 653,
+      "end_char": 813,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 中国保险资产管理业协会、上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司依照法律、行政法规以及银保监会的规定,对保险资产管理机构开展保险资管产品业务实施自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 815,
+      "end_char": 906,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 保险资产管理机构开展保险资管产品业务,应当在上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行发行、登记、托管、交易、结算、信息披露等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 1015,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十一条 银保监会依法对保险资管产品业务进行监督管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1017,
+      "end_char": 1044,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "银保监会对保险资管产品业务实行穿透式监管,向上识别产品的最终投资者,向下识别产品的底层资产,并对产品运作管理实行全面动态监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1046,
+      "end_char": 1109,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "chapter",
+      "text": "第二章 产品当事人",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1111,
+      "end_char": 1120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十二条 本办法所称合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只产品不低于一定金额且符合下列条件的自然人、法人或者其他组织:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1192,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(一)具有两年以上投资经历,且满足以下条件之一的自然人:家庭金融净资产不低于300万元人民币,家庭金融资产不低于500万元人民币,或者近三年本人年均收入不低于40万元人民币;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1194,
+      "end_char": 1281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(二)最近一年末净资产不低于1000万元人民币的法人单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1283,
+      "end_char": 1312,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(三)接受金融监督管理部门监管的机构及其发行的资产管理产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1314,
+      "end_char": 1344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(四)基本养老金、社会保障基金、企业年金等养老基金;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1346,
+      "end_char": 1372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(五)银保监会视为合格投资者的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1374,
+      "end_char": 1394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十三条 保险资产管理机构开展保险资管产品业务,应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1396,
+      "end_char": 1429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(一)公司治理完善,市场信誉良好,符合银保监会有关投资管理能力要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1431,
+      "end_char": 1465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)具有健全的操作流程、内控机制、风险管理和稽核制度,建立公平交易和风险隔离机制;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1467,
+      "end_char": 1509,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(三)设置产品开发、投资研究、投资管理、风险控制、绩效评估等专业岗位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1511,
+      "end_char": 1546,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(四)具有稳定的投资管理团队,拥有不低于规定数量的相关专业人员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(五)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1624,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(六)银保监会规定的其他审慎性条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1626,
+      "end_char": 1644,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十四条 保险资产管理机构开展保险资管产品业务,应当履行下列职责:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1646,
+      "end_char": 1679,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(一)依法办理产品的注册或者登记手续以及份额销售、托管等事宜;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1681,
+      "end_char": 1712,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(二)对所管理的不同产品受托财产分别管理、分别记账,按照合同约定管理产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1714,
+      "end_char": 1753,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(三)按照产品合同约定确定收益分配方案,及时向投资者分配收益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1755,
+      "end_char": 1786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(四)进行产品会计核算并编制产品财务会计报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1788,
+      "end_char": 1811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(五)依法计算并披露产品净值或者投资收益情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1836,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(六)办理与受托财产管理业务活动有关的信息披露事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1838,
+      "end_char": 1864,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(七)保存受托财产管理业务活动的记录、账册、报表和其他相关资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1866,
+      "end_char": 1898,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(八)以管理人名义,代表投资者利益行使诉讼权利或者实施其他法律行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1900,
+      "end_char": 1934,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(九)银保监会规定的其他职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1936,
+      "end_char": 1951,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十五条 保险资产管理机构开展保险资管产品业务,应当聘请符合银保监会规定且已具备保险资产托管业务条件的商业银行或者其他金融机构担任托管人。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1953,
+      "end_char": 2022,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十六条 托管人应当履行下列职责:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2024,
+      "end_char": 2041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(一)忠实履行托管职责,妥善保管产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2043,
+      "end_char": 2064,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(二)根据不同产品,分别设置专门账户,保证产品财产独立和安全完整;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2066,
+      "end_char": 2099,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(三)根据保险资产管理机构指令,及时办理资金划转和清算交割;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2101,
+      "end_char": 2131,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(四)复核、审查保险资产管理机构计算的产品财产价值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2133,
+      "end_char": 2159,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(五)了解并获取产品管理运营的有关信息,办理出具托管报告等与托管业务活动有关的信息披露事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2161,
+      "end_char": 2207,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(六)监督保险资产管理机构的投资运作,对托管产品财产的投资范围、投资品种等进行监督,发现保险资产管理机构的投资或者清算指令违反法律、行政法规、银保监会规定或者产品合同约定的,应当拒绝执行,并及时向银保监会报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2209,
+      "end_char": 2314,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(七)保存产品托管业务活动的记录、账册、报表和其他相关资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2316,
+      "end_char": 2346,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(八)主动接受投资者和银保监会的监督,对产品投资信息和相关资料承担保密责任,除法律、行政法规、规章规定或者审计要求、合同约定外,不得向任何机构或者个人提供相关信息和资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2348,
+      "end_char": 2433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(九)法律、行政法规、银保监会规定以及产品合同约定的其他职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2435,
+      "end_char": 2466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十七条 保险资产管理机构开展保险资管产品业务,可以依照有关法律、行政法规以及银保监会规定,聘请专业服务机构,为产品提供独立监督、信用评估、投资顾问、法律服务、财务审计或者资产评估等专业服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2468,
+      "end_char": 2564,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当向投资者披露专业服务机构的资质、收费等情况,以及更换、解聘的条件和程序,充分揭示聘请专业服务机构可能产生的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2566,
+      "end_char": 2632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第十八条 专业服务机构应当诚实守信、勤勉尽责,并符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2634,
+      "end_char": 2665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(一)具有经国家有关部门认可的业务资质;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2687,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(二)具有完善的管理制度、业务流程和内控机制;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2689,
+      "end_char": 2712,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(三)熟悉产品相关法律法规、政策规定、业务流程和交易结构,具有相关服务经验和能力,商业信誉良好;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2714,
+      "end_char": 2762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定的其他审慎性条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2764,
+      "end_char": 2782,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构聘请的投资顾问,除满足上述条件外,还应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2784,
+      "end_char": 2819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(一)接受金融监督管理部门监管并具有专业资质;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2821,
+      "end_char": 2844,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(二)主要人员具备专业知识和技能,从事相关业务三年以上;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2846,
+      "end_char": 2874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(三)最近三年无涉及投资顾问业务的违法违规行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2876,
+      "end_char": 2900,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2902,
+      "end_char": 2917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构与任一投资顾问进行首次合作的,应当提前十个工作日将合作情况报告银保监会。投资顾问不得承担投资决策职责,不得直接执行投资指令,不得以任何方式承诺保本保收益。保险资产管理机构不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2919,
+      "end_char": 3050,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "chapter",
+      "text": "第三章 产品发行、存续与终止",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3052,
+      "end_char": 3066,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第十九条 保险资管产品按照投资性质的不同,分为固定收益类产品、权益类产品、商品及金融衍生品类产品和混合类产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3123,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "固定收益类产品投资于债权类资产的比例不低于80%,权益类产品投资于权益类资产的比例不低于80%,商品及金融衍生品类产品投资于商品及金融衍生品的比例不低于80%,混合类产品投资于债权类资产、权益类资产、商品及金融衍生品类资产且任一资产的投资比例未达到前三类产品标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3125,
+      "end_char": 3257,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "非因保险资产管理机构主观因素导致突破前述比例限制的,保险资产管理机构应当在流动性受限资产可出售、可转让或者恢复交易的十五个交易日内调整至符合要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3259,
+      "end_char": 3332,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十条 合格投资者投资于单只固定收益类产品的金额不低于30万元人民币,投资于单只混合类产品的金额不低于40万元人民币,投资于单只权益类产品、单只商品及金融衍生品类产品的金额不低于100万元人民币。保险资管产品投资于非标准化债权类资产的,接受单个合格投资者委托资金的金额不低于100万元人民币。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3334,
+      "end_char": 3481,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十一条 保险资产管理机构发行的保险资管产品,应当在银保监会认可的机构履行注册或者登记等规定程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3483,
+      "end_char": 3533,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当按照规定报送产品材料。产品材料应当真实、完备、规范。银保监会认可的机构仅对产品材料的完备性和合规性进行审查,不对产品的投资价值和风险作实质性判断。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3535,
+      "end_char": 3618,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第二十二条 在保险资管产品存续期,保险资产管理机构应当按照有关规定以及登记交易平台的业务规则,持续登记产品基本要素、募集情况、收益分配、投资者所持份额等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3620,
+      "end_char": 3699,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第二十三条 投资者持有保险资管产品的份额信息以登记交易平台的登记结果为准。相关产品的受益凭证由登记交易平台出具并集中托管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3701,
+      "end_char": 3762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "投资者对登记结果有异议的,登记交易平台应当及时复查并予以答复;因登记交易平台工作失误造成数据差错并给投资者造成损失的,登记交易平台应当承担相应责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3764,
+      "end_char": 3838,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第二十四条 登记交易平台和注册机构应当建立产品信息共享机制,实现系统互联互通,推进行业基础设施系统与监管信息系统的有效衔接,及时有效履行信息报送责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3840,
+      "end_char": 3915,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第二十五条 保险资产管理机构、托管人、投资者和有关专业服务机构应当按照登记交易平台和注册机构发布的数据标准和技术接口规范,报送产品材料和数据信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3917,
+      "end_char": 3990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第二十六条 保险资产管理机构可以自行销售保险资管产品,也可以委托符合条件的金融机构以及银保监会认可的其他机构代理销售保险资管产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3992,
+      "end_char": 4057,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构和代理销售机构应当诚实守信、勤勉尽责,防范利益冲突,履行说明义务、反洗钱义务等相关义务,承担投资者适当性审查、产品推介和合格投资者确认等相关责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4059,
+      "end_char": 4140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构和代理销售机构应当对自然人投资者的风险承受能力进行评估,确定投资者风险承受能力等级,向投资者销售与其风险识别能力和风险承担能力相适应的产品。产品销售的具体规则由银保监会依法另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4142,
+      "end_char": 4241,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第二十七条 保险资产管理机构应当按照产品的性质、规模,制定专项制度,建立健全机制,设置与产品发行相独立的岗位和专业人员,开展产品存续期管理工作。存续期管理应当涵盖风险预警、风险事件处置、数据报送、信息披露和报告等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4243,
+      "end_char": 4350,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "在产品存续期,注册机构和登记交易平台依法开展信息统计和风险监测等工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4352,
+      "end_char": 4387,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "article",
+      "text": "第二十八条 有下列情形之一的,保险资管产品终止:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4389,
+      "end_char": 4413,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)保险资管产品期限届满;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4415,
+      "end_char": 4429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)保险资管产品目的已经实现或者不能实现;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4431,
+      "end_char": 4453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(三)保险资管产品相关当事人协商同意;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4455,
+      "end_char": 4474,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(四)出现保险资管产品合同约定的应当终止的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4476,
+      "end_char": 4500,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(五)法律、行政法规以及银保监会规定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4502,
+      "end_char": 4526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "article",
+      "text": "第二十九条 保险资管产品终止的,保险资产管理机构应当按照银保监会要求和产品合同约定,组织开展清算工作,并及时履行报告义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4528,
+      "end_char": 4589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "chapter",
+      "text": "第四章 产品投资与管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4591,
+      "end_char": 4602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第三十条 保险资管产品可以投资于国债、地方政府债券、中央银行票据、政府机构债券、金融债券、银行存款、大额存单、同业存单、公司信用类债券,在银行间债券市场或者证券交易所市场等经国务院同意设立的交易市场发行的证券化产品,公募证券投资基金、其他债权类资产、权益类资产和银保监会认可的其他资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4604,
+      "end_char": 4747,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "保险资金投资的保险资管产品,其投资范围应当符合保险资金运用的有关监管规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4749,
+      "end_char": 4786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "article",
+      "text": "第三十一条 保险资管产品的分级安排、负债比例上限、非标准化债权类资产投资限额管理和期限匹配要求应当符合金融管理部门的有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4788,
+      "end_char": 4851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "同一保险资产管理机构管理的全部组合类产品投资于非标准化债权类资产的余额,在任何时点不得超过其管理的全部组合类产品净资产的35%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4853,
+      "end_char": 4917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "保险资管产品不得直接投资于商业银行信贷资产,依据金融管理部门颁布规则开展的资产证券化业务除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4919,
+      "end_char": 4966,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "保险资管产品不得直接或者间接投资法律法规和国家政策禁止进行债权或者股权投资的行业和领域。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4968,
+      "end_char": 5012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "鼓励保险资产管理机构在依法合规、商业可持续的前提下,通过发行保险资管产品募集资金投向符合国家战略和产业政策要求、符合国家供给侧结构性改革政策要求的领域。鼓励保险资产管理机构通过发行保险资管产品募集资金支持经济结构转型,支持市场化、法治化债转股,降低企业杠杆率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5014,
+      "end_char": 5144,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第三十二条 单只保险资管产品的投资者人数应当符合法律、行政法规以及银保监会的规定。保险资管产品接受其他资产管理产品投资的,不合并计算其他资产管理产品的投资者人数,但应当有效识别保险资管产品的实际投资者与最终资金来源。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5146,
+      "end_char": 5254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构不得违反相关规定,通过为单一融资项目设立多只产品的方式,变相突破投资者人数限制或者其他监管要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5256,
+      "end_char": 5312,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "article",
+      "text": "第三十三条 保险资产管理机构应当切实履行主动管理责任,不得让渡管理职责,不得为其他金融机构的资产管理产品提供规避投资范围、杠杆约束等监管要求的通道服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5314,
+      "end_char": 5390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第三十四条 保险资管产品投资其他资产管理产品的,应当明确约定所投资的资产管理产品不得再投资公募证券投资基金以外的资产管理产品,法律、行政法规以及金融管理部门另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5392,
+      "end_char": 5478,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构在履行产品注册或者登记等程序时,应当充分披露资金投向、投资范围和交易结构等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5480,
+      "end_char": 5528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第三十五条 保险资产管理机构不得以受托管理的保险资管产品份额进行质押融资。保险集团(控股)公司、保险公司作为投资者,以其持有的保险资管产品份额进行质押融资的,应当在登记交易平台依法开展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5530,
+      "end_char": 5623,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十六条 保险资管产品应当按照《企业会计准则》和《指导意见》等关于金融工具核算与估值的相关规定,确认和计量产品净值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5625,
+      "end_char": 5684,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "article",
+      "text": "第三十七条 保险资产管理机构应当根据产品规模、投资范围、风险特征等因素,按照市场化原则,在产品合同中约定管理费的计提标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5686,
+      "end_char": 5747,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "article",
+      "text": "第三十八条 保险资产管理机构应当合理确定保险资管产品所投资资产的期限,加强对期限错配的流动性风险管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5749,
+      "end_char": 5800,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第三十九条 保险资产管理机构应当做到每只产品所投资资产构成清晰,风险可识别。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5802,
+      "end_char": 5840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当做到每只产品的资金单独管理、单独建账、单独核算,不得开展或者参与具有滚动发行、集合运作、分离定价特征的资金池业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5842,
+      "end_char": 5909,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "chapter",
+      "text": "第五章 信息披露与报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5911,
+      "end_char": 5922,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "article",
+      "text": "第四十条 保险资产管理机构应当按照银保监会有关规定,向投资者主动、真实、准确、完整、及时披露产品募集情况、资金投向、收益分配、托管安排、投资账户信息和主要投资风险等内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5924,
+      "end_char": 6009,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当至少每季度向投资者披露产品净值和其他重要信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6011,
+      "end_char": 6044,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "article",
+      "text": "第四十一条 投资者可以按照合同约定向保险资产管理机构或者登记交易平台查询与产品财产相关的信息。保险资产管理机构和登记交易平台应当在不损害其他投资者合法权益的前提下,真实、准确、完整、及时地提供相关信息,不得拒绝、推诿。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6046,
+      "end_char": 6155,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "article",
+      "text": "第四十二条 托管人和其他专业服务机构应当按照相关合同约定,向保险资产管理机构和银保监会履行信息披露和报告义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6157,
+      "end_char": 6212,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "article",
+      "text": "第四十三条 保险资产管理机构应当按照中国人民银行和银保监会要求,及时向中国人民银行和银保监会及其指定机构报送产品基本信息和起始募集信息、存续期募集信息等,并于产品终止后报送终止信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6214,
+      "end_char": 6305,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "article",
+      "text": "第四十四条 除本办法规定外,发生可能对投资者决策或者利益产生实质性影响的重大事项,保险资产管理机构应当及时向投资者披露,并向银保监会及其指定机构报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6307,
+      "end_char": 6382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "article",
+      "text": "第四十五条 注册机构和登记交易平台应当按照银保监会的要求,定期或者不定期向银保监会报告产品专项统计、分析等信息。遇有重大突发事件的,双方应当加强信息和资源共享,及时向银保监会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6384,
+      "end_char": 6474,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "chapter",
+      "text": "第六章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6476,
+      "end_char": 6484,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "article",
+      "text": "第四十六条 保险资产管理机构应当建立全面覆盖、全程监控、全员参与的风险管理组织体系和运行机制,通过管理系统和稽核审计等手段,分类、识别、量化和评估保险资管产品的流动性风险、市场风险和信用风险等,有效管控和应对风险。保险资产管理机构董事会负责定期审查和评价业务管理情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6486,
+      "end_char": 6620,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第四十七条 保险资产管理机构开展保险资管产品业务,应当建立风险责任人制度,明确相应的风险责任人。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6622,
+      "end_char": 6670,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "article",
+      "text": "第四十八条 保险资产管理机构应当将保险资管产品业务纳入公司内部稽核和资金运用内部控制年度审计工作,并依法向银保监会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6672,
+      "end_char": 6732,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第四十九条 保险资产管理机构应当建立产品风险处置机制,制定应急预案,有效控制和化解风险隐患,并及时向银保监会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6734,
+      "end_char": 6791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第五十条 保险资产管理机构应当确保风险管控相关岗位和人员具有履行职责所需知情权和查询权,有权查阅、询问与保险资管产品相关的数据、资料和细节,并列席相关会议。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6793,
+      "end_char": 6871,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "article",
+      "text": "第五十一条 保险资产管理机构应当建立相应的风险准备金机制,确保满足抵御业务不可预期损失的需要。风险准备金计提比例为产品管理费收入的10%,主要用于赔偿因保险资产管理机构违法违规、违反产品协议、操作错误或者技术故障等给产品财产或者投资者造成的损失。风险准备金余额达到产品余额的1%时可以不再提取。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6873,
+      "end_char": 7020,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "article",
+      "text": "第五十二条 保险资产管理机构应当建立健全保险资管产品业务人员的准入、培训、考核评价和问责制度,确保业务人员具备必要的专业知识、行业经验和业务能力,充分了解相关法律法规、监管规定以及产品的法律关系、交易结构、主要风险及风险管控方法,遵守行为准则和职业道德标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7022,
+      "end_char": 7151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当完善长效激励约束机制,不得以人员挂靠、业务包干等方式开展保险资管产品业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7153,
+      "end_char": 7200,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "article",
+      "text": "第五十三条 保险资产管理机构的董事、监事、高级管理人员和相关业务人员不得有下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7202,
+      "end_char": 7244,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "(一)不公平地对待所管理的不同产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7246,
+      "end_char": 7266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "paragraph",
+      "text": "(二)利用产品财产或者职务便利为投资者以外的第三方谋取不正当利益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7268,
+      "end_char": 7301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "(三)侵占、挪用产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7303,
+      "end_char": 7316,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "paragraph",
+      "text": "(四)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7318,
+      "end_char": 7363,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "paragraph",
+      "text": "(五)玩忽职守,不按照规定履行职责;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7365,
+      "end_char": 7383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "(六)法律、行政法规以及银保监会规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7385,
+      "end_char": 7411,
+      "region": "body"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "article",
+      "text": "第五十四条 保险资产管理机构应当建立健全关联交易规则,对关联交易认定标准、定价方法和决策程序等进行规范,不得以保险资管产品的资金与关联方进行不正当交易、利益输送、内幕交易和操纵市场等违法违规行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7413,
+      "end_char": 7511,
+      "region": "body"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "chapter",
+      "text": "第七章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7513,
+      "end_char": 7521,
+      "region": "body"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "article",
+      "text": "第五十五条 银保监会依法对保险资管产品业务有关当事人的经营活动进行监督管理。各方当事人应当积极配合,不得发生以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7523,
+      "end_char": 7582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00136",
+      "block_type": "paragraph",
+      "text": "(一)拒绝、阻挠监管人员的监督检查;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7584,
+      "end_char": 7602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "(二)拒绝、拖延提供与检查事项有关的资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7604,
+      "end_char": 7625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00138",
+      "block_type": "paragraph",
+      "text": "(三)隐匿、伪造、变造、毁弃会计账簿、会计报表以及其他有关资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7627,
+      "end_char": 7659,
+      "region": "body"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7661,
+      "end_char": 7678,
+      "region": "body"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "article",
+      "text": "第五十六条 银保监会依法对保险资产管理机构董事、监事、高级管理人员和相关业务人员进行检查。对违反有关法律、行政法规以及本办法规定的相关责任人员进行质询和监管谈话,并依法予以警告、罚款、撤销任职资格、禁止进入保险业等行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7680,
+      "end_char": 7792,
+      "region": "body"
+    },
+    {
+      "block_id": "b00141",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构相关责任人员离任后,发现其在该机构工作期间违反有关法律、行政法规以及本办法规定的,应当依法追究责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7794,
+      "end_char": 7852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00142",
+      "block_type": "article",
+      "text": "第五十七条 保险资产管理机构、托管人、投资顾问等银行保险机构违反有关法律、行政法规以及本办法规定的,由银保监会依法予以行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7854,
+      "end_char": 7918,
+      "region": "body"
+    },
+    {
+      "block_id": "b00143",
+      "block_type": "article",
+      "text": "第五十八条 保险资管产品业务的其他当事人违反有关法律、行政法规以及本办法规定的,银保监会应当记录其不良行为,并将有关情况通报其主管部门;情节严重的,银保监会可以要求保险资产管理机构、保险集团(控股)公司和保险公司三年内不得与其从事相关业务,并建议有关监管部门依法予以行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7920,
+      "end_char": 8058,
+      "region": "body"
+    },
+    {
+      "block_id": "b00144",
+      "block_type": "article",
+      "text": "第五十九条 为保险资管产品业务提供服务的专业服务机构及其有关人员,应当遵守执业规范和职业道德,客观公正、勤勉尽责,独立发表专业意见。相关专业服务机构或者人员未尽责履职,或者其出具的报告存在虚假记载、误导性陈述或者重大遗漏的,应当承担相应法律责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8060,
+      "end_char": 8183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00145",
+      "block_type": "article",
+      "text": "第六十条 注册机构应当按照银保监会有关规定,建立健全机制,制定专项制度,完善注册业务系统,设置专门岗位,配备必要的专职人员,审慎、透明、高效开展注册业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8185,
+      "end_char": 8262,
+      "region": "body"
+    },
+    {
+      "block_id": "b00146",
+      "block_type": "article",
+      "text": "第六十一条 登记交易平台应当按照银保监会有关规定,建立健全机制,制定专项制度,设置专门岗位,配备必要的专职人员,切实维护登记交易平台相关系统的稳定运行,为保险资管产品业务发展提供良好服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8264,
+      "end_char": 8358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00147",
+      "block_type": "chapter",
+      "text": "第八章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8360,
+      "end_char": 8367,
+      "region": "body"
+    },
+    {
+      "block_id": "b00148",
+      "block_type": "article",
+      "text": "第六十二条 符合条件的养老保险公司开展保险资管产品业务,参照本办法执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8369,
+      "end_char": 8405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00149",
+      "block_type": "article",
+      "text": "第六十三条 保险资产管理机构开展跨境保险资管产品业务参照本办法执行,并应当符合跨境人民币和外汇管理有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8407,
+      "end_char": 8461,
+      "region": "body"
+    },
+    {
+      "block_id": "b00150",
+      "block_type": "article",
+      "text": "第六十四条 按照“新老划断”原则设置过渡期,确保平稳过渡。过渡期自本办法施行之日起至2020年12月31日止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8463,
+      "end_char": 8518,
+      "region": "body"
+    },
+    {
+      "block_id": "b00151",
+      "block_type": "paragraph",
+      "text": "过渡期内,保险资产管理机构新发行的产品应当符合本办法规定;保险资产管理机构可以发行老产品对接存量产品所投资的未到期资产,但应当严格控制在存量产品整体规模内,并有序压缩递减。保险资产管理机构应当制定过渡期内产品业务整改计划,明确时间进度安排,报送银保监会认可后实施,同时报备中国人民银行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8520,
+      "end_char": 8663,
+      "region": "body"
+    },
+    {
+      "block_id": "b00152",
+      "block_type": "paragraph",
+      "text": "过渡期结束后,保险资产管理机构应当按照本办法对产品进行全面规范,不得再发行或者存续违反本办法规定的保险资管产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8665,
+      "end_char": 8721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00153",
+      "block_type": "article",
+      "text": "第六十五条 本办法由银保监会负责解释和修订。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8723,
+      "end_char": 8745,
+      "region": "body"
+    },
+    {
+      "block_id": "b00154",
+      "block_type": "article",
+      "text": "第六十六条 本办法自2020年5月1日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8747,
+      "end_char": 8770,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "保险资产管理产品管理暂行办法\n\n第一章 总 则\n\n第一条 为了规范保险资产管理机构开展保险资产管理产品(以下简称保险资管产品或者产品)业务,保护投资者和相关当事人合法权益,根据《中华人民共和国保险法》《中华人民共和国银行业监督管理法》《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)及相关法律法规,制定本办法。\n\n第二条 在中华人民共和国境内设立的保险资产管理机构开展保险资管产品业务,适用本办法。法律、行政法规以及中国银行保险监督管理委员会(以下简称银保监会)另有规定的除外。\n\n第三条 本办法所称保险资管产品业务,是指保险资产管理机构接受投资者委托,设立保险资管产品并担任管理人,依照法律法规和有关合同约定,对受托的投资者财产进行投资和管理的金融服务。\n\n保险资管产品包括债权投资计划、股权投资计划、组合类产品和银保监会规定的其他产品。\n\n第四条 保险资管产品应当面向合格投资者通过非公开方式发行。\n\n第五条 保险资产管理机构开展保险资管产品业务,应当发挥保险资金长期、稳定的优势,服务保险保障,服务经济社会发展。\n\n第六条 保险资产管理机构开展保险资管产品业务,应当遵守法律、行政法规以及银保监会的规定,遵循公平、公正原则,维护投资者合法权益,诚实守信、勤勉尽责,防范利益冲突。\n\n第七条 保险资产管理机构开展保险资管产品业务,应当加强投资者适当性管理,向投资者充分披露信息和揭示风险,不得承诺保本保收益。\n\n投资者投资保险资管产品,应当根据自身能力审慎决策,独立承担投资风险。\n\n第八条 保险资管产品财产独立于保险资产管理机构、托管人和其他为产品管理提供服务的自然人、法人或者组织的固有财产和其管理的其他财产。因产品财产的管理、运用、处分或者其他情形取得的财产和收益,应当归入产品财产。保险资产管理机构、托管人等机构因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,产品财产不属于其清算财产。\n\n第九条 中国保险资产管理业协会、上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司依照法律、行政法规以及银保监会的规定,对保险资产管理机构开展保险资管产品业务实施自律管理。\n\n第十条 保险资产管理机构开展保险资管产品业务,应当在上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行发行、登记、托管、交易、结算、信息披露等。\n\n第十一条 银保监会依法对保险资管产品业务进行监督管理。\n\n银保监会对保险资管产品业务实行穿透式监管,向上识别产品的最终投资者,向下识别产品的底层资产,并对产品运作管理实行全面动态监管。\n\n第二章 产品当事人\n\n第十二条 本办法所称合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只产品不低于一定金额且符合下列条件的自然人、法人或者其他组织:\n\n(一)具有两年以上投资经历,且满足以下条件之一的自然人:家庭金融净资产不低于300万元人民币,家庭金融资产不低于500万元人民币,或者近三年本人年均收入不低于40万元人民币;\n\n(二)最近一年末净资产不低于1000万元人民币的法人单位;\n\n(三)接受金融监督管理部门监管的机构及其发行的资产管理产品;\n\n(四)基本养老金、社会保障基金、企业年金等养老基金;\n\n(五)银保监会视为合格投资者的其他情形。\n\n第十三条 保险资产管理机构开展保险资管产品业务,应当符合下列条件:\n\n(一)公司治理完善,市场信誉良好,符合银保监会有关投资管理能力要求;\n\n(二)具有健全的操作流程、内控机制、风险管理和稽核制度,建立公平交易和风险隔离机制;\n\n(三)设置产品开发、投资研究、投资管理、风险控制、绩效评估等专业岗位;\n\n(四)具有稳定的投资管理团队,拥有不低于规定数量的相关专业人员;\n\n(五)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(六)银保监会规定的其他审慎性条件。\n\n第十四条 保险资产管理机构开展保险资管产品业务,应当履行下列职责:\n\n(一)依法办理产品的注册或者登记手续以及份额销售、托管等事宜;\n\n(二)对所管理的不同产品受托财产分别管理、分别记账,按照合同约定管理产品财产;\n\n(三)按照产品合同约定确定收益分配方案,及时向投资者分配收益;\n\n(四)进行产品会计核算并编制产品财务会计报告;\n\n(五)依法计算并披露产品净值或者投资收益情况;\n\n(六)办理与受托财产管理业务活动有关的信息披露事项;\n\n(七)保存受托财产管理业务活动的记录、账册、报表和其他相关资料;\n\n(八)以管理人名义,代表投资者利益行使诉讼权利或者实施其他法律行为;\n\n(九)银保监会规定的其他职责。\n\n第十五条 保险资产管理机构开展保险资管产品业务,应当聘请符合银保监会规定且已具备保险资产托管业务条件的商业银行或者其他金融机构担任托管人。\n\n第十六条 托管人应当履行下列职责:\n\n(一)忠实履行托管职责,妥善保管产品财产;\n\n(二)根据不同产品,分别设置专门账户,保证产品财产独立和安全完整;\n\n(三)根据保险资产管理机构指令,及时办理资金划转和清算交割;\n\n(四)复核、审查保险资产管理机构计算的产品财产价值;\n\n(五)了解并获取产品管理运营的有关信息,办理出具托管报告等与托管业务活动有关的信息披露事项;\n\n(六)监督保险资产管理机构的投资运作,对托管产品财产的投资范围、投资品种等进行监督,发现保险资产管理机构的投资或者清算指令违反法律、行政法规、银保监会规定或者产品合同约定的,应当拒绝执行,并及时向银保监会报告;\n\n(七)保存产品托管业务活动的记录、账册、报表和其他相关资料;\n\n(八)主动接受投资者和银保监会的监督,对产品投资信息和相关资料承担保密责任,除法律、行政法规、规章规定或者审计要求、合同约定外,不得向任何机构或者个人提供相关信息和资料;\n\n(九)法律、行政法规、银保监会规定以及产品合同约定的其他职责。\n\n第十七条 保险资产管理机构开展保险资管产品业务,可以依照有关法律、行政法规以及银保监会规定,聘请专业服务机构,为产品提供独立监督、信用评估、投资顾问、法律服务、财务审计或者资产评估等专业服务。\n\n保险资产管理机构应当向投资者披露专业服务机构的资质、收费等情况,以及更换、解聘的条件和程序,充分揭示聘请专业服务机构可能产生的风险。\n\n第十八条 专业服务机构应当诚实守信、勤勉尽责,并符合下列条件:\n\n(一)具有经国家有关部门认可的业务资质;\n\n(二)具有完善的管理制度、业务流程和内控机制;\n\n(三)熟悉产品相关法律法规、政策规定、业务流程和交易结构,具有相关服务经验和能力,商业信誉良好;\n\n(四)银保监会规定的其他审慎性条件。\n\n保险资产管理机构聘请的投资顾问,除满足上述条件外,还应当符合下列条件:\n\n(一)接受金融监督管理部门监管并具有专业资质;\n\n(二)主要人员具备专业知识和技能,从事相关业务三年以上;\n\n(三)最近三年无涉及投资顾问业务的违法违规行为;\n\n(四)银保监会规定的其他条件。\n\n保险资产管理机构与任一投资顾问进行首次合作的,应当提前十个工作日将合作情况报告银保监会。投资顾问不得承担投资决策职责,不得直接执行投资指令,不得以任何方式承诺保本保收益。保险资产管理机构不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。\n\n第三章 产品发行、存续与终止\n\n第十九条 保险资管产品按照投资性质的不同,分为固定收益类产品、权益类产品、商品及金融衍生品类产品和混合类产品。\n\n固定收益类产品投资于债权类资产的比例不低于80%,权益类产品投资于权益类资产的比例不低于80%,商品及金融衍生品类产品投资于商品及金融衍生品的比例不低于80%,混合类产品投资于债权类资产、权益类资产、商品及金融衍生品类资产且任一资产的投资比例未达到前三类产品标准。\n\n非因保险资产管理机构主观因素导致突破前述比例限制的,保险资产管理机构应当在流动性受限资产可出售、可转让或者恢复交易的十五个交易日内调整至符合要求。\n\n第二十条 合格投资者投资于单只固定收益类产品的金额不低于30万元人民币,投资于单只混合类产品的金额不低于40万元人民币,投资于单只权益类产品、单只商品及金融衍生品类产品的金额不低于100万元人民币。保险资管产品投资于非标准化债权类资产的,接受单个合格投资者委托资金的金额不低于100万元人民币。\n\n第二十一条 保险资产管理机构发行的保险资管产品,应当在银保监会认可的机构履行注册或者登记等规定程序。\n\n保险资产管理机构应当按照规定报送产品材料。产品材料应当真实、完备、规范。银保监会认可的机构仅对产品材料的完备性和合规性进行审查,不对产品的投资价值和风险作实质性判断。\n\n第二十二条 在保险资管产品存续期,保险资产管理机构应当按照有关规定以及登记交易平台的业务规则,持续登记产品基本要素、募集情况、收益分配、投资者所持份额等信息。\n\n第二十三条 投资者持有保险资管产品的份额信息以登记交易平台的登记结果为准。相关产品的受益凭证由登记交易平台出具并集中托管。\n\n投资者对登记结果有异议的,登记交易平台应当及时复查并予以答复;因登记交易平台工作失误造成数据差错并给投资者造成损失的,登记交易平台应当承担相应责任。\n\n第二十四条 登记交易平台和注册机构应当建立产品信息共享机制,实现系统互联互通,推进行业基础设施系统与监管信息系统的有效衔接,及时有效履行信息报送责任。\n\n第二十五条 保险资产管理机构、托管人、投资者和有关专业服务机构应当按照登记交易平台和注册机构发布的数据标准和技术接口规范,报送产品材料和数据信息。\n\n第二十六条 保险资产管理机构可以自行销售保险资管产品,也可以委托符合条件的金融机构以及银保监会认可的其他机构代理销售保险资管产品。\n\n保险资产管理机构和代理销售机构应当诚实守信、勤勉尽责,防范利益冲突,履行说明义务、反洗钱义务等相关义务,承担投资者适当性审查、产品推介和合格投资者确认等相关责任。\n\n保险资产管理机构和代理销售机构应当对自然人投资者的风险承受能力进行评估,确定投资者风险承受能力等级,向投资者销售与其风险识别能力和风险承担能力相适应的产品。产品销售的具体规则由银保监会依法另行制定。\n\n第二十七条 保险资产管理机构应当按照产品的性质、规模,制定专项制度,建立健全机制,设置与产品发行相独立的岗位和专业人员,开展产品存续期管理工作。存续期管理应当涵盖风险预警、风险事件处置、数据报送、信息披露和报告等。\n\n在产品存续期,注册机构和登记交易平台依法开展信息统计和风险监测等工作。\n\n第二十八条 有下列情形之一的,保险资管产品终止:\n\n(一)保险资管产品期限届满;\n\n(二)保险资管产品目的已经实现或者不能实现;\n\n(三)保险资管产品相关当事人协商同意;\n\n(四)出现保险资管产品合同约定的应当终止的情形;\n\n(五)法律、行政法规以及银保监会规定的其他情形。\n\n第二十九条 保险资管产品终止的,保险资产管理机构应当按照银保监会要求和产品合同约定,组织开展清算工作,并及时履行报告义务。\n\n第四章 产品投资与管理\n\n第三十条 保险资管产品可以投资于国债、地方政府债券、中央银行票据、政府机构债券、金融债券、银行存款、大额存单、同业存单、公司信用类债券,在银行间债券市场或者证券交易所市场等经国务院同意设立的交易市场发行的证券化产品,公募证券投资基金、其他债权类资产、权益类资产和银保监会认可的其他资产。\n\n保险资金投资的保险资管产品,其投资范围应当符合保险资金运用的有关监管规定。\n\n第三十一条 保险资管产品的分级安排、负债比例上限、非标准化债权类资产投资限额管理和期限匹配要求应当符合金融管理部门的有关规定。\n\n同一保险资产管理机构管理的全部组合类产品投资于非标准化债权类资产的余额,在任何时点不得超过其管理的全部组合类产品净资产的35%。\n\n保险资管产品不得直接投资于商业银行信贷资产,依据金融管理部门颁布规则开展的资产证券化业务除外。\n\n保险资管产品不得直接或者间接投资法律法规和国家政策禁止进行债权或者股权投资的行业和领域。\n\n鼓励保险资产管理机构在依法合规、商业可持续的前提下,通过发行保险资管产品募集资金投向符合国家战略和产业政策要求、符合国家供给侧结构性改革政策要求的领域。鼓励保险资产管理机构通过发行保险资管产品募集资金支持经济结构转型,支持市场化、法治化债转股,降低企业杠杆率。\n\n第三十二条 单只保险资管产品的投资者人数应当符合法律、行政法规以及银保监会的规定。保险资管产品接受其他资产管理产品投资的,不合并计算其他资产管理产品的投资者人数,但应当有效识别保险资管产品的实际投资者与最终资金来源。\n\n保险资产管理机构不得违反相关规定,通过为单一融资项目设立多只产品的方式,变相突破投资者人数限制或者其他监管要求。\n\n第三十三条 保险资产管理机构应当切实履行主动管理责任,不得让渡管理职责,不得为其他金融机构的资产管理产品提供规避投资范围、杠杆约束等监管要求的通道服务。\n\n第三十四条 保险资管产品投资其他资产管理产品的,应当明确约定所投资的资产管理产品不得再投资公募证券投资基金以外的资产管理产品,法律、行政法规以及金融管理部门另有规定的除外。\n\n保险资产管理机构在履行产品注册或者登记等程序时,应当充分披露资金投向、投资范围和交易结构等信息。\n\n第三十五条 保险资产管理机构不得以受托管理的保险资管产品份额进行质押融资。保险集团(控股)公司、保险公司作为投资者,以其持有的保险资管产品份额进行质押融资的,应当在登记交易平台依法开展。\n\n第三十六条 保险资管产品应当按照《企业会计准则》和《指导意见》等关于金融工具核算与估值的相关规定,确认和计量产品净值。\n\n第三十七条 保险资产管理机构应当根据产品规模、投资范围、风险特征等因素,按照市场化原则,在产品合同中约定管理费的计提标准。\n\n第三十八条 保险资产管理机构应当合理确定保险资管产品所投资资产的期限,加强对期限错配的流动性风险管理。\n\n第三十九条 保险资产管理机构应当做到每只产品所投资资产构成清晰,风险可识别。\n\n保险资产管理机构应当做到每只产品的资金单独管理、单独建账、单独核算,不得开展或者参与具有滚动发行、集合运作、分离定价特征的资金池业务。\n\n第五章 信息披露与报告\n\n第四十条 保险资产管理机构应当按照银保监会有关规定,向投资者主动、真实、准确、完整、及时披露产品募集情况、资金投向、收益分配、托管安排、投资账户信息和主要投资风险等内容。\n\n保险资产管理机构应当至少每季度向投资者披露产品净值和其他重要信息。\n\n第四十一条 投资者可以按照合同约定向保险资产管理机构或者登记交易平台查询与产品财产相关的信息。保险资产管理机构和登记交易平台应当在不损害其他投资者合法权益的前提下,真实、准确、完整、及时地提供相关信息,不得拒绝、推诿。\n\n第四十二条 托管人和其他专业服务机构应当按照相关合同约定,向保险资产管理机构和银保监会履行信息披露和报告义务。\n\n第四十三条 保险资产管理机构应当按照中国人民银行和银保监会要求,及时向中国人民银行和银保监会及其指定机构报送产品基本信息和起始募集信息、存续期募集信息等,并于产品终止后报送终止信息。\n\n第四十四条 除本办法规定外,发生可能对投资者决策或者利益产生实质性影响的重大事项,保险资产管理机构应当及时向投资者披露,并向银保监会及其指定机构报告。\n\n第四十五条 注册机构和登记交易平台应当按照银保监会的要求,定期或者不定期向银保监会报告产品专项统计、分析等信息。遇有重大突发事件的,双方应当加强信息和资源共享,及时向银保监会报告。\n\n第六章 风险管理\n\n第四十六条 保险资产管理机构应当建立全面覆盖、全程监控、全员参与的风险管理组织体系和运行机制,通过管理系统和稽核审计等手段,分类、识别、量化和评估保险资管产品的流动性风险、市场风险和信用风险等,有效管控和应对风险。保险资产管理机构董事会负责定期审查和评价业务管理情况。\n\n第四十七条 保险资产管理机构开展保险资管产品业务,应当建立风险责任人制度,明确相应的风险责任人。\n\n第四十八条 保险资产管理机构应当将保险资管产品业务纳入公司内部稽核和资金运用内部控制年度审计工作,并依法向银保监会报告。\n\n第四十九条 保险资产管理机构应当建立产品风险处置机制,制定应急预案,有效控制和化解风险隐患,并及时向银保监会报告。\n\n第五十条 保险资产管理机构应当确保风险管控相关岗位和人员具有履行职责所需知情权和查询权,有权查阅、询问与保险资管产品相关的数据、资料和细节,并列席相关会议。\n\n第五十一条 保险资产管理机构应当建立相应的风险准备金机制,确保满足抵御业务不可预期损失的需要。风险准备金计提比例为产品管理费收入的10%,主要用于赔偿因保险资产管理机构违法违规、违反产品协议、操作错误或者技术故障等给产品财产或者投资者造成的损失。风险准备金余额达到产品余额的1%时可以不再提取。\n\n第五十二条 保险资产管理机构应当建立健全保险资管产品业务人员的准入、培训、考核评价和问责制度,确保业务人员具备必要的专业知识、行业经验和业务能力,充分了解相关法律法规、监管规定以及产品的法律关系、交易结构、主要风险及风险管控方法,遵守行为准则和职业道德标准。\n\n保险资产管理机构应当完善长效激励约束机制,不得以人员挂靠、业务包干等方式开展保险资管产品业务。\n\n第五十三条 保险资产管理机构的董事、监事、高级管理人员和相关业务人员不得有下列行为:\n\n(一)不公平地对待所管理的不同产品财产;\n\n(二)利用产品财产或者职务便利为投资者以外的第三方谋取不正当利益;\n\n(三)侵占、挪用产品财产;\n\n(四)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;\n\n(五)玩忽职守,不按照规定履行职责;\n\n(六)法律、行政法规以及银保监会规定禁止的其他行为。\n\n第五十四条 保险资产管理机构应当建立健全关联交易规则,对关联交易认定标准、定价方法和决策程序等进行规范,不得以保险资管产品的资金与关联方进行不正当交易、利益输送、内幕交易和操纵市场等违法违规行为。\n\n第七章 监督管理\n\n第五十五条 银保监会依法对保险资管产品业务有关当事人的经营活动进行监督管理。各方当事人应当积极配合,不得发生以下行为:\n\n(一)拒绝、阻挠监管人员的监督检查;\n\n(二)拒绝、拖延提供与检查事项有关的资料;\n\n(三)隐匿、伪造、变造、毁弃会计账簿、会计报表以及其他有关资料;\n\n(四)银保监会规定禁止的其他行为。\n\n第五十六条 银保监会依法对保险资产管理机构董事、监事、高级管理人员和相关业务人员进行检查。对违反有关法律、行政法规以及本办法规定的相关责任人员进行质询和监管谈话,并依法予以警告、罚款、撤销任职资格、禁止进入保险业等行政处罚。\n\n保险资产管理机构相关责任人员离任后,发现其在该机构工作期间违反有关法律、行政法规以及本办法规定的,应当依法追究责任。\n\n第五十七条 保险资产管理机构、托管人、投资顾问等银行保险机构违反有关法律、行政法规以及本办法规定的,由银保监会依法予以行政处罚。\n\n第五十八条 保险资管产品业务的其他当事人违反有关法律、行政法规以及本办法规定的,银保监会应当记录其不良行为,并将有关情况通报其主管部门;情节严重的,银保监会可以要求保险资产管理机构、保险集团(控股)公司和保险公司三年内不得与其从事相关业务,并建议有关监管部门依法予以行政处罚。\n\n第五十九条 为保险资管产品业务提供服务的专业服务机构及其有关人员,应当遵守执业规范和职业道德,客观公正、勤勉尽责,独立发表专业意见。相关专业服务机构或者人员未尽责履职,或者其出具的报告存在虚假记载、误导性陈述或者重大遗漏的,应当承担相应法律责任。\n\n第六十条 注册机构应当按照银保监会有关规定,建立健全机制,制定专项制度,完善注册业务系统,设置专门岗位,配备必要的专职人员,审慎、透明、高效开展注册业务。\n\n第六十一条 登记交易平台应当按照银保监会有关规定,建立健全机制,制定专项制度,设置专门岗位,配备必要的专职人员,切实维护登记交易平台相关系统的稳定运行,为保险资管产品业务发展提供良好服务。\n\n第八章 附 则\n\n第六十二条 符合条件的养老保险公司开展保险资管产品业务,参照本办法执行。\n\n第六十三条 保险资产管理机构开展跨境保险资管产品业务参照本办法执行,并应当符合跨境人民币和外汇管理有关规定。\n\n第六十四条 按照“新老划断”原则设置过渡期,确保平稳过渡。过渡期自本办法施行之日起至2020年12月31日止。\n\n过渡期内,保险资产管理机构新发行的产品应当符合本办法规定;保险资产管理机构可以发行老产品对接存量产品所投资的未到期资产,但应当严格控制在存量产品整体规模内,并有序压缩递减。保险资产管理机构应当制定过渡期内产品业务整改计划,明确时间进度安排,报送银保监会认可后实施,同时报备中国人民银行。\n\n过渡期结束后,保险资产管理机构应当按照本办法对产品进行全面规范,不得再发行或者存续违反本办法规定的保险资管产品。\n\n第六十五条 本办法由银保监会负责解释和修订。\n\n第六十六条 本办法自2020年5月1日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "保险资产管理产品管理暂行办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 14,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 16,
+      "end_char": 23,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条 为了规范保险资产管理机构开展保险资产管理产品(以下简称保险资管产品或者产品)业务,保护投资者和相关当事人合法权益,根据《中华人民共和国保险法》《中华人民共和国银行业监督管理法》《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)及相关法律法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 25,
+      "end_char": 164,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条 在中华人民共和国境内设立的保险资产管理机构开展保险资管产品业务,适用本办法。法律、行政法规以及中国银行保险监督管理委员会(以下简称银保监会)另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 166,
+      "end_char": 248,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 本办法所称保险资管产品业务,是指保险资产管理机构接受投资者委托,设立保险资管产品并担任管理人,依照法律法规和有关合同约定,对受托的投资者财产进行投资和管理的金融服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 250,
+      "end_char": 337,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "保险资管产品包括债权投资计划、股权投资计划、组合类产品和银保监会规定的其他产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 339,
+      "end_char": 379,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第四条 保险资管产品应当面向合格投资者通过非公开方式发行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 381,
+      "end_char": 410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第五条 保险资产管理机构开展保险资管产品业务,应当发挥保险资金长期、稳定的优势,服务保险保障,服务经济社会发展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 412,
+      "end_char": 468,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 保险资产管理机构开展保险资管产品业务,应当遵守法律、行政法规以及银保监会的规定,遵循公平、公正原则,维护投资者合法权益,诚实守信、勤勉尽责,防范利益冲突。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 470,
+      "end_char": 551,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构开展保险资管产品业务,应当加强投资者适当性管理,向投资者充分披露信息和揭示风险,不得承诺保本保收益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 553,
+      "end_char": 615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "投资者投资保险资管产品,应当根据自身能力审慎决策,独立承担投资风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 617,
+      "end_char": 651,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 保险资管产品财产独立于保险资产管理机构、托管人和其他为产品管理提供服务的自然人、法人或者组织的固有财产和其管理的其他财产。因产品财产的管理、运用、处分或者其他情形取得的财产和收益,应当归入产品财产。保险资产管理机构、托管人等机构因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,产品财产不属于其清算财产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 653,
+      "end_char": 813,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 中国保险资产管理业协会、上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司依照法律、行政法规以及银保监会的规定,对保险资产管理机构开展保险资管产品业务实施自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 815,
+      "end_char": 906,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 保险资产管理机构开展保险资管产品业务,应当在上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行发行、登记、托管、交易、结算、信息披露等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 1015,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十一条 银保监会依法对保险资管产品业务进行监督管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1017,
+      "end_char": 1044,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "银保监会对保险资管产品业务实行穿透式监管,向上识别产品的最终投资者,向下识别产品的底层资产,并对产品运作管理实行全面动态监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1046,
+      "end_char": 1109,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "chapter",
+      "text": "第二章 产品当事人",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1111,
+      "end_char": 1120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十二条 本办法所称合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只产品不低于一定金额且符合下列条件的自然人、法人或者其他组织:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1192,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(一)具有两年以上投资经历,且满足以下条件之一的自然人:家庭金融净资产不低于300万元人民币,家庭金融资产不低于500万元人民币,或者近三年本人年均收入不低于40万元人民币;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1194,
+      "end_char": 1281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(二)最近一年末净资产不低于1000万元人民币的法人单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1283,
+      "end_char": 1312,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(三)接受金融监督管理部门监管的机构及其发行的资产管理产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1314,
+      "end_char": 1344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(四)基本养老金、社会保障基金、企业年金等养老基金;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1346,
+      "end_char": 1372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(五)银保监会视为合格投资者的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1374,
+      "end_char": 1394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十三条 保险资产管理机构开展保险资管产品业务,应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1396,
+      "end_char": 1429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(一)公司治理完善,市场信誉良好,符合银保监会有关投资管理能力要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1431,
+      "end_char": 1465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)具有健全的操作流程、内控机制、风险管理和稽核制度,建立公平交易和风险隔离机制;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1467,
+      "end_char": 1509,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(三)设置产品开发、投资研究、投资管理、风险控制、绩效评估等专业岗位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1511,
+      "end_char": 1546,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(四)具有稳定的投资管理团队,拥有不低于规定数量的相关专业人员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(五)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1624,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(六)银保监会规定的其他审慎性条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1626,
+      "end_char": 1644,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十四条 保险资产管理机构开展保险资管产品业务,应当履行下列职责:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1646,
+      "end_char": 1679,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(一)依法办理产品的注册或者登记手续以及份额销售、托管等事宜;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1681,
+      "end_char": 1712,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(二)对所管理的不同产品受托财产分别管理、分别记账,按照合同约定管理产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1714,
+      "end_char": 1753,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(三)按照产品合同约定确定收益分配方案,及时向投资者分配收益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1755,
+      "end_char": 1786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(四)进行产品会计核算并编制产品财务会计报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1788,
+      "end_char": 1811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(五)依法计算并披露产品净值或者投资收益情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1836,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(六)办理与受托财产管理业务活动有关的信息披露事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1838,
+      "end_char": 1864,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(七)保存受托财产管理业务活动的记录、账册、报表和其他相关资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1866,
+      "end_char": 1898,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(八)以管理人名义,代表投资者利益行使诉讼权利或者实施其他法律行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1900,
+      "end_char": 1934,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(九)银保监会规定的其他职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1936,
+      "end_char": 1951,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十五条 保险资产管理机构开展保险资管产品业务,应当聘请符合银保监会规定且已具备保险资产托管业务条件的商业银行或者其他金融机构担任托管人。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1953,
+      "end_char": 2022,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十六条 托管人应当履行下列职责:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2024,
+      "end_char": 2041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(一)忠实履行托管职责,妥善保管产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2043,
+      "end_char": 2064,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(二)根据不同产品,分别设置专门账户,保证产品财产独立和安全完整;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2066,
+      "end_char": 2099,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(三)根据保险资产管理机构指令,及时办理资金划转和清算交割;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2101,
+      "end_char": 2131,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(四)复核、审查保险资产管理机构计算的产品财产价值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2133,
+      "end_char": 2159,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(五)了解并获取产品管理运营的有关信息,办理出具托管报告等与托管业务活动有关的信息披露事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2161,
+      "end_char": 2207,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(六)监督保险资产管理机构的投资运作,对托管产品财产的投资范围、投资品种等进行监督,发现保险资产管理机构的投资或者清算指令违反法律、行政法规、银保监会规定或者产品合同约定的,应当拒绝执行,并及时向银保监会报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2209,
+      "end_char": 2314,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(七)保存产品托管业务活动的记录、账册、报表和其他相关资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2316,
+      "end_char": 2346,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(八)主动接受投资者和银保监会的监督,对产品投资信息和相关资料承担保密责任,除法律、行政法规、规章规定或者审计要求、合同约定外,不得向任何机构或者个人提供相关信息和资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2348,
+      "end_char": 2433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(九)法律、行政法规、银保监会规定以及产品合同约定的其他职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2435,
+      "end_char": 2466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十七条 保险资产管理机构开展保险资管产品业务,可以依照有关法律、行政法规以及银保监会规定,聘请专业服务机构,为产品提供独立监督、信用评估、投资顾问、法律服务、财务审计或者资产评估等专业服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2468,
+      "end_char": 2564,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当向投资者披露专业服务机构的资质、收费等情况,以及更换、解聘的条件和程序,充分揭示聘请专业服务机构可能产生的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2566,
+      "end_char": 2632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第十八条 专业服务机构应当诚实守信、勤勉尽责,并符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2634,
+      "end_char": 2665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(一)具有经国家有关部门认可的业务资质;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2687,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(二)具有完善的管理制度、业务流程和内控机制;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2689,
+      "end_char": 2712,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(三)熟悉产品相关法律法规、政策规定、业务流程和交易结构,具有相关服务经验和能力,商业信誉良好;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2714,
+      "end_char": 2762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定的其他审慎性条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2764,
+      "end_char": 2782,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构聘请的投资顾问,除满足上述条件外,还应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2784,
+      "end_char": 2819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(一)接受金融监督管理部门监管并具有专业资质;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2821,
+      "end_char": 2844,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(二)主要人员具备专业知识和技能,从事相关业务三年以上;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2846,
+      "end_char": 2874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(三)最近三年无涉及投资顾问业务的违法违规行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2876,
+      "end_char": 2900,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2902,
+      "end_char": 2917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构与任一投资顾问进行首次合作的,应当提前十个工作日将合作情况报告银保监会。投资顾问不得承担投资决策职责,不得直接执行投资指令,不得以任何方式承诺保本保收益。保险资产管理机构不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2919,
+      "end_char": 3050,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "chapter",
+      "text": "第三章 产品发行、存续与终止",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3052,
+      "end_char": 3066,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第十九条 保险资管产品按照投资性质的不同,分为固定收益类产品、权益类产品、商品及金融衍生品类产品和混合类产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3123,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "固定收益类产品投资于债权类资产的比例不低于80%,权益类产品投资于权益类资产的比例不低于80%,商品及金融衍生品类产品投资于商品及金融衍生品的比例不低于80%,混合类产品投资于债权类资产、权益类资产、商品及金融衍生品类资产且任一资产的投资比例未达到前三类产品标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3125,
+      "end_char": 3257,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "非因保险资产管理机构主观因素导致突破前述比例限制的,保险资产管理机构应当在流动性受限资产可出售、可转让或者恢复交易的十五个交易日内调整至符合要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3259,
+      "end_char": 3332,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十条 合格投资者投资于单只固定收益类产品的金额不低于30万元人民币,投资于单只混合类产品的金额不低于40万元人民币,投资于单只权益类产品、单只商品及金融衍生品类产品的金额不低于100万元人民币。保险资管产品投资于非标准化债权类资产的,接受单个合格投资者委托资金的金额不低于100万元人民币。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3334,
+      "end_char": 3481,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十一条 保险资产管理机构发行的保险资管产品,应当在银保监会认可的机构履行注册或者登记等规定程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3483,
+      "end_char": 3533,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当按照规定报送产品材料。产品材料应当真实、完备、规范。银保监会认可的机构仅对产品材料的完备性和合规性进行审查,不对产品的投资价值和风险作实质性判断。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3535,
+      "end_char": 3618,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第二十二条 在保险资管产品存续期,保险资产管理机构应当按照有关规定以及登记交易平台的业务规则,持续登记产品基本要素、募集情况、收益分配、投资者所持份额等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3620,
+      "end_char": 3699,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第二十三条 投资者持有保险资管产品的份额信息以登记交易平台的登记结果为准。相关产品的受益凭证由登记交易平台出具并集中托管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3701,
+      "end_char": 3762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "投资者对登记结果有异议的,登记交易平台应当及时复查并予以答复;因登记交易平台工作失误造成数据差错并给投资者造成损失的,登记交易平台应当承担相应责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3764,
+      "end_char": 3838,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第二十四条 登记交易平台和注册机构应当建立产品信息共享机制,实现系统互联互通,推进行业基础设施系统与监管信息系统的有效衔接,及时有效履行信息报送责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3840,
+      "end_char": 3915,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第二十五条 保险资产管理机构、托管人、投资者和有关专业服务机构应当按照登记交易平台和注册机构发布的数据标准和技术接口规范,报送产品材料和数据信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3917,
+      "end_char": 3990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第二十六条 保险资产管理机构可以自行销售保险资管产品,也可以委托符合条件的金融机构以及银保监会认可的其他机构代理销售保险资管产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3992,
+      "end_char": 4057,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构和代理销售机构应当诚实守信、勤勉尽责,防范利益冲突,履行说明义务、反洗钱义务等相关义务,承担投资者适当性审查、产品推介和合格投资者确认等相关责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4059,
+      "end_char": 4140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构和代理销售机构应当对自然人投资者的风险承受能力进行评估,确定投资者风险承受能力等级,向投资者销售与其风险识别能力和风险承担能力相适应的产品。产品销售的具体规则由银保监会依法另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4142,
+      "end_char": 4241,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第二十七条 保险资产管理机构应当按照产品的性质、规模,制定专项制度,建立健全机制,设置与产品发行相独立的岗位和专业人员,开展产品存续期管理工作。存续期管理应当涵盖风险预警、风险事件处置、数据报送、信息披露和报告等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4243,
+      "end_char": 4350,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "在产品存续期,注册机构和登记交易平台依法开展信息统计和风险监测等工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4352,
+      "end_char": 4387,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "article",
+      "text": "第二十八条 有下列情形之一的,保险资管产品终止:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4389,
+      "end_char": 4413,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)保险资管产品期限届满;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4415,
+      "end_char": 4429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)保险资管产品目的已经实现或者不能实现;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4431,
+      "end_char": 4453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(三)保险资管产品相关当事人协商同意;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4455,
+      "end_char": 4474,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(四)出现保险资管产品合同约定的应当终止的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4476,
+      "end_char": 4500,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(五)法律、行政法规以及银保监会规定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4502,
+      "end_char": 4526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "article",
+      "text": "第二十九条 保险资管产品终止的,保险资产管理机构应当按照银保监会要求和产品合同约定,组织开展清算工作,并及时履行报告义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4528,
+      "end_char": 4589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "chapter",
+      "text": "第四章 产品投资与管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4591,
+      "end_char": 4602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第三十条 保险资管产品可以投资于国债、地方政府债券、中央银行票据、政府机构债券、金融债券、银行存款、大额存单、同业存单、公司信用类债券,在银行间债券市场或者证券交易所市场等经国务院同意设立的交易市场发行的证券化产品,公募证券投资基金、其他债权类资产、权益类资产和银保监会认可的其他资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4604,
+      "end_char": 4747,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "保险资金投资的保险资管产品,其投资范围应当符合保险资金运用的有关监管规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4749,
+      "end_char": 4786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "article",
+      "text": "第三十一条 保险资管产品的分级安排、负债比例上限、非标准化债权类资产投资限额管理和期限匹配要求应当符合金融管理部门的有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4788,
+      "end_char": 4851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "同一保险资产管理机构管理的全部组合类产品投资于非标准化债权类资产的余额,在任何时点不得超过其管理的全部组合类产品净资产的35%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4853,
+      "end_char": 4917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "保险资管产品不得直接投资于商业银行信贷资产,依据金融管理部门颁布规则开展的资产证券化业务除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4919,
+      "end_char": 4966,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "保险资管产品不得直接或者间接投资法律法规和国家政策禁止进行债权或者股权投资的行业和领域。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4968,
+      "end_char": 5012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "鼓励保险资产管理机构在依法合规、商业可持续的前提下,通过发行保险资管产品募集资金投向符合国家战略和产业政策要求、符合国家供给侧结构性改革政策要求的领域。鼓励保险资产管理机构通过发行保险资管产品募集资金支持经济结构转型,支持市场化、法治化债转股,降低企业杠杆率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5014,
+      "end_char": 5144,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第三十二条 单只保险资管产品的投资者人数应当符合法律、行政法规以及银保监会的规定。保险资管产品接受其他资产管理产品投资的,不合并计算其他资产管理产品的投资者人数,但应当有效识别保险资管产品的实际投资者与最终资金来源。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5146,
+      "end_char": 5254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构不得违反相关规定,通过为单一融资项目设立多只产品的方式,变相突破投资者人数限制或者其他监管要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5256,
+      "end_char": 5312,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "article",
+      "text": "第三十三条 保险资产管理机构应当切实履行主动管理责任,不得让渡管理职责,不得为其他金融机构的资产管理产品提供规避投资范围、杠杆约束等监管要求的通道服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5314,
+      "end_char": 5390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第三十四条 保险资管产品投资其他资产管理产品的,应当明确约定所投资的资产管理产品不得再投资公募证券投资基金以外的资产管理产品,法律、行政法规以及金融管理部门另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5392,
+      "end_char": 5478,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构在履行产品注册或者登记等程序时,应当充分披露资金投向、投资范围和交易结构等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5480,
+      "end_char": 5528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第三十五条 保险资产管理机构不得以受托管理的保险资管产品份额进行质押融资。保险集团(控股)公司、保险公司作为投资者,以其持有的保险资管产品份额进行质押融资的,应当在登记交易平台依法开展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5530,
+      "end_char": 5623,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十六条 保险资管产品应当按照《企业会计准则》和《指导意见》等关于金融工具核算与估值的相关规定,确认和计量产品净值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5625,
+      "end_char": 5684,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "article",
+      "text": "第三十七条 保险资产管理机构应当根据产品规模、投资范围、风险特征等因素,按照市场化原则,在产品合同中约定管理费的计提标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5686,
+      "end_char": 5747,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "article",
+      "text": "第三十八条 保险资产管理机构应当合理确定保险资管产品所投资资产的期限,加强对期限错配的流动性风险管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5749,
+      "end_char": 5800,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第三十九条 保险资产管理机构应当做到每只产品所投资资产构成清晰,风险可识别。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5802,
+      "end_char": 5840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当做到每只产品的资金单独管理、单独建账、单独核算,不得开展或者参与具有滚动发行、集合运作、分离定价特征的资金池业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5842,
+      "end_char": 5909,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "chapter",
+      "text": "第五章 信息披露与报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5911,
+      "end_char": 5922,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "article",
+      "text": "第四十条 保险资产管理机构应当按照银保监会有关规定,向投资者主动、真实、准确、完整、及时披露产品募集情况、资金投向、收益分配、托管安排、投资账户信息和主要投资风险等内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5924,
+      "end_char": 6009,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当至少每季度向投资者披露产品净值和其他重要信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6011,
+      "end_char": 6044,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "article",
+      "text": "第四十一条 投资者可以按照合同约定向保险资产管理机构或者登记交易平台查询与产品财产相关的信息。保险资产管理机构和登记交易平台应当在不损害其他投资者合法权益的前提下,真实、准确、完整、及时地提供相关信息,不得拒绝、推诿。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6046,
+      "end_char": 6155,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "article",
+      "text": "第四十二条 托管人和其他专业服务机构应当按照相关合同约定,向保险资产管理机构和银保监会履行信息披露和报告义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6157,
+      "end_char": 6212,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "article",
+      "text": "第四十三条 保险资产管理机构应当按照中国人民银行和银保监会要求,及时向中国人民银行和银保监会及其指定机构报送产品基本信息和起始募集信息、存续期募集信息等,并于产品终止后报送终止信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6214,
+      "end_char": 6305,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "article",
+      "text": "第四十四条 除本办法规定外,发生可能对投资者决策或者利益产生实质性影响的重大事项,保险资产管理机构应当及时向投资者披露,并向银保监会及其指定机构报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6307,
+      "end_char": 6382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "article",
+      "text": "第四十五条 注册机构和登记交易平台应当按照银保监会的要求,定期或者不定期向银保监会报告产品专项统计、分析等信息。遇有重大突发事件的,双方应当加强信息和资源共享,及时向银保监会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6384,
+      "end_char": 6474,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "chapter",
+      "text": "第六章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6476,
+      "end_char": 6484,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "article",
+      "text": "第四十六条 保险资产管理机构应当建立全面覆盖、全程监控、全员参与的风险管理组织体系和运行机制,通过管理系统和稽核审计等手段,分类、识别、量化和评估保险资管产品的流动性风险、市场风险和信用风险等,有效管控和应对风险。保险资产管理机构董事会负责定期审查和评价业务管理情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6486,
+      "end_char": 6620,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第四十七条 保险资产管理机构开展保险资管产品业务,应当建立风险责任人制度,明确相应的风险责任人。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6622,
+      "end_char": 6670,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "article",
+      "text": "第四十八条 保险资产管理机构应当将保险资管产品业务纳入公司内部稽核和资金运用内部控制年度审计工作,并依法向银保监会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6672,
+      "end_char": 6732,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第四十九条 保险资产管理机构应当建立产品风险处置机制,制定应急预案,有效控制和化解风险隐患,并及时向银保监会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6734,
+      "end_char": 6791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第五十条 保险资产管理机构应当确保风险管控相关岗位和人员具有履行职责所需知情权和查询权,有权查阅、询问与保险资管产品相关的数据、资料和细节,并列席相关会议。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6793,
+      "end_char": 6871,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "article",
+      "text": "第五十一条 保险资产管理机构应当建立相应的风险准备金机制,确保满足抵御业务不可预期损失的需要。风险准备金计提比例为产品管理费收入的10%,主要用于赔偿因保险资产管理机构违法违规、违反产品协议、操作错误或者技术故障等给产品财产或者投资者造成的损失。风险准备金余额达到产品余额的1%时可以不再提取。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6873,
+      "end_char": 7020,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "article",
+      "text": "第五十二条 保险资产管理机构应当建立健全保险资管产品业务人员的准入、培训、考核评价和问责制度,确保业务人员具备必要的专业知识、行业经验和业务能力,充分了解相关法律法规、监管规定以及产品的法律关系、交易结构、主要风险及风险管控方法,遵守行为准则和职业道德标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7022,
+      "end_char": 7151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当完善长效激励约束机制,不得以人员挂靠、业务包干等方式开展保险资管产品业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7153,
+      "end_char": 7200,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "article",
+      "text": "第五十三条 保险资产管理机构的董事、监事、高级管理人员和相关业务人员不得有下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7202,
+      "end_char": 7244,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "(一)不公平地对待所管理的不同产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7246,
+      "end_char": 7266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "paragraph",
+      "text": "(二)利用产品财产或者职务便利为投资者以外的第三方谋取不正当利益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7268,
+      "end_char": 7301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "(三)侵占、挪用产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7303,
+      "end_char": 7316,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "paragraph",
+      "text": "(四)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7318,
+      "end_char": 7363,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "paragraph",
+      "text": "(五)玩忽职守,不按照规定履行职责;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7365,
+      "end_char": 7383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "(六)法律、行政法规以及银保监会规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7385,
+      "end_char": 7411,
+      "region": "body"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "article",
+      "text": "第五十四条 保险资产管理机构应当建立健全关联交易规则,对关联交易认定标准、定价方法和决策程序等进行规范,不得以保险资管产品的资金与关联方进行不正当交易、利益输送、内幕交易和操纵市场等违法违规行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7413,
+      "end_char": 7511,
+      "region": "body"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "chapter",
+      "text": "第七章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7513,
+      "end_char": 7521,
+      "region": "body"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "article",
+      "text": "第五十五条 银保监会依法对保险资管产品业务有关当事人的经营活动进行监督管理。各方当事人应当积极配合,不得发生以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7523,
+      "end_char": 7582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00136",
+      "block_type": "paragraph",
+      "text": "(一)拒绝、阻挠监管人员的监督检查;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7584,
+      "end_char": 7602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "(二)拒绝、拖延提供与检查事项有关的资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7604,
+      "end_char": 7625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00138",
+      "block_type": "paragraph",
+      "text": "(三)隐匿、伪造、变造、毁弃会计账簿、会计报表以及其他有关资料;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7627,
+      "end_char": 7659,
+      "region": "body"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7661,
+      "end_char": 7678,
+      "region": "body"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "article",
+      "text": "第五十六条 银保监会依法对保险资产管理机构董事、监事、高级管理人员和相关业务人员进行检查。对违反有关法律、行政法规以及本办法规定的相关责任人员进行质询和监管谈话,并依法予以警告、罚款、撤销任职资格、禁止进入保险业等行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7680,
+      "end_char": 7792,
+      "region": "body"
+    },
+    {
+      "block_id": "b00141",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构相关责任人员离任后,发现其在该机构工作期间违反有关法律、行政法规以及本办法规定的,应当依法追究责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7794,
+      "end_char": 7852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00142",
+      "block_type": "article",
+      "text": "第五十七条 保险资产管理机构、托管人、投资顾问等银行保险机构违反有关法律、行政法规以及本办法规定的,由银保监会依法予以行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7854,
+      "end_char": 7918,
+      "region": "body"
+    },
+    {
+      "block_id": "b00143",
+      "block_type": "article",
+      "text": "第五十八条 保险资管产品业务的其他当事人违反有关法律、行政法规以及本办法规定的,银保监会应当记录其不良行为,并将有关情况通报其主管部门;情节严重的,银保监会可以要求保险资产管理机构、保险集团(控股)公司和保险公司三年内不得与其从事相关业务,并建议有关监管部门依法予以行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7920,
+      "end_char": 8058,
+      "region": "body"
+    },
+    {
+      "block_id": "b00144",
+      "block_type": "article",
+      "text": "第五十九条 为保险资管产品业务提供服务的专业服务机构及其有关人员,应当遵守执业规范和职业道德,客观公正、勤勉尽责,独立发表专业意见。相关专业服务机构或者人员未尽责履职,或者其出具的报告存在虚假记载、误导性陈述或者重大遗漏的,应当承担相应法律责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8060,
+      "end_char": 8183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00145",
+      "block_type": "article",
+      "text": "第六十条 注册机构应当按照银保监会有关规定,建立健全机制,制定专项制度,完善注册业务系统,设置专门岗位,配备必要的专职人员,审慎、透明、高效开展注册业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8185,
+      "end_char": 8262,
+      "region": "body"
+    },
+    {
+      "block_id": "b00146",
+      "block_type": "article",
+      "text": "第六十一条 登记交易平台应当按照银保监会有关规定,建立健全机制,制定专项制度,设置专门岗位,配备必要的专职人员,切实维护登记交易平台相关系统的稳定运行,为保险资管产品业务发展提供良好服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8264,
+      "end_char": 8358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00147",
+      "block_type": "chapter",
+      "text": "第八章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8360,
+      "end_char": 8367,
+      "region": "body"
+    },
+    {
+      "block_id": "b00148",
+      "block_type": "article",
+      "text": "第六十二条 符合条件的养老保险公司开展保险资管产品业务,参照本办法执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8369,
+      "end_char": 8405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00149",
+      "block_type": "article",
+      "text": "第六十三条 保险资产管理机构开展跨境保险资管产品业务参照本办法执行,并应当符合跨境人民币和外汇管理有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8407,
+      "end_char": 8461,
+      "region": "body"
+    },
+    {
+      "block_id": "b00150",
+      "block_type": "article",
+      "text": "第六十四条 按照“新老划断”原则设置过渡期,确保平稳过渡。过渡期自本办法施行之日起至2020年12月31日止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8463,
+      "end_char": 8518,
+      "region": "body"
+    },
+    {
+      "block_id": "b00151",
+      "block_type": "paragraph",
+      "text": "过渡期内,保险资产管理机构新发行的产品应当符合本办法规定;保险资产管理机构可以发行老产品对接存量产品所投资的未到期资产,但应当严格控制在存量产品整体规模内,并有序压缩递减。保险资产管理机构应当制定过渡期内产品业务整改计划,明确时间进度安排,报送银保监会认可后实施,同时报备中国人民银行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8520,
+      "end_char": 8663,
+      "region": "body"
+    },
+    {
+      "block_id": "b00152",
+      "block_type": "paragraph",
+      "text": "过渡期结束后,保险资产管理机构应当按照本办法对产品进行全面规范,不得再发行或者存续违反本办法规定的保险资管产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8665,
+      "end_char": 8721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00153",
+      "block_type": "article",
+      "text": "第六十五条 本办法由银保监会负责解释和修订。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8723,
+      "end_char": 8745,
+      "region": "body"
+    },
+    {
+      "block_id": "b00154",
+      "block_type": "article",
+      "text": "第六十六条 本办法自2020年5月1日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8747,
+      "end_char": 8770,
+      "region": "body"
+    }
+  ],
   "normalized_text": "保险资产管理产品管理暂行办法\n\n第一章 总 则\n\n第一条 为了规范保险资产管理机构开展保险资产管理产品(以下简称保险资管产品或者产品)业务,保护投资者和相关当事人合法权益,根据《中华人民共和国保险法》《中华人民共和国银行业监督管理法》《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)及相关法律法规,制定本办法。\n\n第二条 在中华人民共和国境内设立的保险资产管理机构开展保险资管产品业务,适用本办法。法律、行政法规以及中国银行保险监督管理委员会(以下简称银保监会)另有规定的除外。\n\n第三条 本办法所称保险资管产品业务,是指保险资产管理机构接受投资者委托,设立保险资管产品并担任管理人,依照法律法规和有关合同约定,对受托的投资者财产进行投资和管理的金融服务。\n\n保险资管产品包括债权投资计划、股权投资计划、组合类产品和银保监会规定的其他产品。\n\n第四条 保险资管产品应当面向合格投资者通过非公开方式发行。\n\n第五条 保险资产管理机构开展保险资管产品业务,应当发挥保险资金长期、稳定的优势,服务保险保障,服务经济社会发展。\n\n第六条 保险资产管理机构开展保险资管产品业务,应当遵守法律、行政法规以及银保监会的规定,遵循公平、公正原则,维护投资者合法权益,诚实守信、勤勉尽责,防范利益冲突。\n\n第七条 保险资产管理机构开展保险资管产品业务,应当加强投资者适当性管理,向投资者充分披露信息和揭示风险,不得承诺保本保收益。\n\n投资者投资保险资管产品,应当根据自身能力审慎决策,独立承担投资风险。\n\n第八条 保险资管产品财产独立于保险资产管理机构、托管人和其他为产品管理提供服务的自然人、法人或者组织的固有财产和其管理的其他财产。因产品财产的管理、运用、处分或者其他情形取得的财产和收益,应当归入产品财产。保险资产管理机构、托管人等机构因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,产品财产不属于其清算财产。\n\n第九条 中国保险资产管理业协会、上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司依照法律、行政法规以及银保监会的规定,对保险资产管理机构开展保险资管产品业务实施自律管理。\n\n第十条 保险资产管理机构开展保险资管产品业务,应当在上海保险交易所股份有限公司、中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行发行、登记、托管、交易、结算、信息披露等。\n\n第十一条 银保监会依法对保险资管产品业务进行监督管理。\n\n银保监会对保险资管产品业务实行穿透式监管,向上识别产品的最终投资者,向下识别产品的底层资产,并对产品运作管理实行全面动态监管。\n\n第二章 产品当事人\n\n第十二条 本办法所称合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只产品不低于一定金额且符合下列条件的自然人、法人或者其他组织:\n\n(一)具有两年以上投资经历,且满足以下条件之一的自然人:家庭金融净资产不低于300万元人民币,家庭金融资产不低于500万元人民币,或者近三年本人年均收入不低于40万元人民币;\n\n(二)最近一年末净资产不低于1000万元人民币的法人单位;\n\n(三)接受金融监督管理部门监管的机构及其发行的资产管理产品;\n\n(四)基本养老金、社会保障基金、企业年金等养老基金;\n\n(五)银保监会视为合格投资者的其他情形。\n\n第十三条 保险资产管理机构开展保险资管产品业务,应当符合下列条件:\n\n(一)公司治理完善,市场信誉良好,符合银保监会有关投资管理能力要求;\n\n(二)具有健全的操作流程、内控机制、风险管理和稽核制度,建立公平交易和风险隔离机制;\n\n(三)设置产品开发、投资研究、投资管理、风险控制、绩效评估等专业岗位;\n\n(四)具有稳定的投资管理团队,拥有不低于规定数量的相关专业人员;\n\n(五)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(六)银保监会规定的其他审慎性条件。\n\n第十四条 保险资产管理机构开展保险资管产品业务,应当履行下列职责:\n\n(一)依法办理产品的注册或者登记手续以及份额销售、托管等事宜;\n\n(二)对所管理的不同产品受托财产分别管理、分别记账,按照合同约定管理产品财产;\n\n(三)按照产品合同约定确定收益分配方案,及时向投资者分配收益;\n\n(四)进行产品会计核算并编制产品财务会计报告;\n\n(五)依法计算并披露产品净值或者投资收益情况;\n\n(六)办理与受托财产管理业务活动有关的信息披露事项;\n\n(七)保存受托财产管理业务活动的记录、账册、报表和其他相关资料;\n\n(八)以管理人名义,代表投资者利益行使诉讼权利或者实施其他法律行为;\n\n(九)银保监会规定的其他职责。\n\n第十五条 保险资产管理机构开展保险资管产品业务,应当聘请符合银保监会规定且已具备保险资产托管业务条件的商业银行或者其他金融机构担任托管人。\n\n第十六条 托管人应当履行下列职责:\n\n(一)忠实履行托管职责,妥善保管产品财产;\n\n(二)根据不同产品,分别设置专门账户,保证产品财产独立和安全完整;\n\n(三)根据保险资产管理机构指令,及时办理资金划转和清算交割;\n\n(四)复核、审查保险资产管理机构计算的产品财产价值;\n\n(五)了解并获取产品管理运营的有关信息,办理出具托管报告等与托管业务活动有关的信息披露事项;\n\n(六)监督保险资产管理机构的投资运作,对托管产品财产的投资范围、投资品种等进行监督,发现保险资产管理机构的投资或者清算指令违反法律、行政法规、银保监会规定或者产品合同约定的,应当拒绝执行,并及时向银保监会报告;\n\n(七)保存产品托管业务活动的记录、账册、报表和其他相关资料;\n\n(八)主动接受投资者和银保监会的监督,对产品投资信息和相关资料承担保密责任,除法律、行政法规、规章规定或者审计要求、合同约定外,不得向任何机构或者个人提供相关信息和资料;\n\n(九)法律、行政法规、银保监会规定以及产品合同约定的其他职责。\n\n第十七条 保险资产管理机构开展保险资管产品业务,可以依照有关法律、行政法规以及银保监会规定,聘请专业服务机构,为产品提供独立监督、信用评估、投资顾问、法律服务、财务审计或者资产评估等专业服务。\n\n保险资产管理机构应当向投资者披露专业服务机构的资质、收费等情况,以及更换、解聘的条件和程序,充分揭示聘请专业服务机构可能产生的风险。\n\n第十八条 专业服务机构应当诚实守信、勤勉尽责,并符合下列条件:\n\n(一)具有经国家有关部门认可的业务资质;\n\n(二)具有完善的管理制度、业务流程和内控机制;\n\n(三)熟悉产品相关法律法规、政策规定、业务流程和交易结构,具有相关服务经验和能力,商业信誉良好;\n\n(四)银保监会规定的其他审慎性条件。\n\n保险资产管理机构聘请的投资顾问,除满足上述条件外,还应当符合下列条件:\n\n(一)接受金融监督管理部门监管并具有专业资质;\n\n(二)主要人员具备专业知识和技能,从事相关业务三年以上;\n\n(三)最近三年无涉及投资顾问业务的违法违规行为;\n\n(四)银保监会规定的其他条件。\n\n保险资产管理机构与任一投资顾问进行首次合作的,应当提前十个工作日将合作情况报告银保监会。投资顾问不得承担投资决策职责,不得直接执行投资指令,不得以任何方式承诺保本保收益。保险资产管理机构不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。\n\n第三章 产品发行、存续与终止\n\n第十九条 保险资管产品按照投资性质的不同,分为固定收益类产品、权益类产品、商品及金融衍生品类产品和混合类产品。\n\n固定收益类产品投资于债权类资产的比例不低于80%,权益类产品投资于权益类资产的比例不低于80%,商品及金融衍生品类产品投资于商品及金融衍生品的比例不低于80%,混合类产品投资于债权类资产、权益类资产、商品及金融衍生品类资产且任一资产的投资比例未达到前三类产品标准。\n\n非因保险资产管理机构主观因素导致突破前述比例限制的,保险资产管理机构应当在流动性受限资产可出售、可转让或者恢复交易的十五个交易日内调整至符合要求。\n\n第二十条 合格投资者投资于单只固定收益类产品的金额不低于30万元人民币,投资于单只混合类产品的金额不低于40万元人民币,投资于单只权益类产品、单只商品及金融衍生品类产品的金额不低于100万元人民币。保险资管产品投资于非标准化债权类资产的,接受单个合格投资者委托资金的金额不低于100万元人民币。\n\n第二十一条 保险资产管理机构发行的保险资管产品,应当在银保监会认可的机构履行注册或者登记等规定程序。\n\n保险资产管理机构应当按照规定报送产品材料。产品材料应当真实、完备、规范。银保监会认可的机构仅对产品材料的完备性和合规性进行审查,不对产品的投资价值和风险作实质性判断。\n\n第二十二条 在保险资管产品存续期,保险资产管理机构应当按照有关规定以及登记交易平台的业务规则,持续登记产品基本要素、募集情况、收益分配、投资者所持份额等信息。\n\n第二十三条 投资者持有保险资管产品的份额信息以登记交易平台的登记结果为准。相关产品的受益凭证由登记交易平台出具并集中托管。\n\n投资者对登记结果有异议的,登记交易平台应当及时复查并予以答复;因登记交易平台工作失误造成数据差错并给投资者造成损失的,登记交易平台应当承担相应责任。\n\n第二十四条 登记交易平台和注册机构应当建立产品信息共享机制,实现系统互联互通,推进行业基础设施系统与监管信息系统的有效衔接,及时有效履行信息报送责任。\n\n第二十五条 保险资产管理机构、托管人、投资者和有关专业服务机构应当按照登记交易平台和注册机构发布的数据标准和技术接口规范,报送产品材料和数据信息。\n\n第二十六条 保险资产管理机构可以自行销售保险资管产品,也可以委托符合条件的金融机构以及银保监会认可的其他机构代理销售保险资管产品。\n\n保险资产管理机构和代理销售机构应当诚实守信、勤勉尽责,防范利益冲突,履行说明义务、反洗钱义务等相关义务,承担投资者适当性审查、产品推介和合格投资者确认等相关责任。\n\n保险资产管理机构和代理销售机构应当对自然人投资者的风险承受能力进行评估,确定投资者风险承受能力等级,向投资者销售与其风险识别能力和风险承担能力相适应的产品。产品销售的具体规则由银保监会依法另行制定。\n\n第二十七条 保险资产管理机构应当按照产品的性质、规模,制定专项制度,建立健全机制,设置与产品发行相独立的岗位和专业人员,开展产品存续期管理工作。存续期管理应当涵盖风险预警、风险事件处置、数据报送、信息披露和报告等。\n\n在产品存续期,注册机构和登记交易平台依法开展信息统计和风险监测等工作。\n\n第二十八条 有下列情形之一的,保险资管产品终止:\n\n(一)保险资管产品期限届满;\n\n(二)保险资管产品目的已经实现或者不能实现;\n\n(三)保险资管产品相关当事人协商同意;\n\n(四)出现保险资管产品合同约定的应当终止的情形;\n\n(五)法律、行政法规以及银保监会规定的其他情形。\n\n第二十九条 保险资管产品终止的,保险资产管理机构应当按照银保监会要求和产品合同约定,组织开展清算工作,并及时履行报告义务。\n\n第四章 产品投资与管理\n\n第三十条 保险资管产品可以投资于国债、地方政府债券、中央银行票据、政府机构债券、金融债券、银行存款、大额存单、同业存单、公司信用类债券,在银行间债券市场或者证券交易所市场等经国务院同意设立的交易市场发行的证券化产品,公募证券投资基金、其他债权类资产、权益类资产和银保监会认可的其他资产。\n\n保险资金投资的保险资管产品,其投资范围应当符合保险资金运用的有关监管规定。\n\n第三十一条 保险资管产品的分级安排、负债比例上限、非标准化债权类资产投资限额管理和期限匹配要求应当符合金融管理部门的有关规定。\n\n同一保险资产管理机构管理的全部组合类产品投资于非标准化债权类资产的余额,在任何时点不得超过其管理的全部组合类产品净资产的35%。\n\n保险资管产品不得直接投资于商业银行信贷资产,依据金融管理部门颁布规则开展的资产证券化业务除外。\n\n保险资管产品不得直接或者间接投资法律法规和国家政策禁止进行债权或者股权投资的行业和领域。\n\n鼓励保险资产管理机构在依法合规、商业可持续的前提下,通过发行保险资管产品募集资金投向符合国家战略和产业政策要求、符合国家供给侧结构性改革政策要求的领域。鼓励保险资产管理机构通过发行保险资管产品募集资金支持经济结构转型,支持市场化、法治化债转股,降低企业杠杆率。\n\n第三十二条 单只保险资管产品的投资者人数应当符合法律、行政法规以及银保监会的规定。保险资管产品接受其他资产管理产品投资的,不合并计算其他资产管理产品的投资者人数,但应当有效识别保险资管产品的实际投资者与最终资金来源。\n\n保险资产管理机构不得违反相关规定,通过为单一融资项目设立多只产品的方式,变相突破投资者人数限制或者其他监管要求。\n\n第三十三条 保险资产管理机构应当切实履行主动管理责任,不得让渡管理职责,不得为其他金融机构的资产管理产品提供规避投资范围、杠杆约束等监管要求的通道服务。\n\n第三十四条 保险资管产品投资其他资产管理产品的,应当明确约定所投资的资产管理产品不得再投资公募证券投资基金以外的资产管理产品,法律、行政法规以及金融管理部门另有规定的除外。\n\n保险资产管理机构在履行产品注册或者登记等程序时,应当充分披露资金投向、投资范围和交易结构等信息。\n\n第三十五条 保险资产管理机构不得以受托管理的保险资管产品份额进行质押融资。保险集团(控股)公司、保险公司作为投资者,以其持有的保险资管产品份额进行质押融资的,应当在登记交易平台依法开展。\n\n第三十六条 保险资管产品应当按照《企业会计准则》和《指导意见》等关于金融工具核算与估值的相关规定,确认和计量产品净值。\n\n第三十七条 保险资产管理机构应当根据产品规模、投资范围、风险特征等因素,按照市场化原则,在产品合同中约定管理费的计提标准。\n\n第三十八条 保险资产管理机构应当合理确定保险资管产品所投资资产的期限,加强对期限错配的流动性风险管理。\n\n第三十九条 保险资产管理机构应当做到每只产品所投资资产构成清晰,风险可识别。\n\n保险资产管理机构应当做到每只产品的资金单独管理、单独建账、单独核算,不得开展或者参与具有滚动发行、集合运作、分离定价特征的资金池业务。\n\n第五章 信息披露与报告\n\n第四十条 保险资产管理机构应当按照银保监会有关规定,向投资者主动、真实、准确、完整、及时披露产品募集情况、资金投向、收益分配、托管安排、投资账户信息和主要投资风险等内容。\n\n保险资产管理机构应当至少每季度向投资者披露产品净值和其他重要信息。\n\n第四十一条 投资者可以按照合同约定向保险资产管理机构或者登记交易平台查询与产品财产相关的信息。保险资产管理机构和登记交易平台应当在不损害其他投资者合法权益的前提下,真实、准确、完整、及时地提供相关信息,不得拒绝、推诿。\n\n第四十二条 托管人和其他专业服务机构应当按照相关合同约定,向保险资产管理机构和银保监会履行信息披露和报告义务。\n\n第四十三条 保险资产管理机构应当按照中国人民银行和银保监会要求,及时向中国人民银行和银保监会及其指定机构报送产品基本信息和起始募集信息、存续期募集信息等,并于产品终止后报送终止信息。\n\n第四十四条 除本办法规定外,发生可能对投资者决策或者利益产生实质性影响的重大事项,保险资产管理机构应当及时向投资者披露,并向银保监会及其指定机构报告。\n\n第四十五条 注册机构和登记交易平台应当按照银保监会的要求,定期或者不定期向银保监会报告产品专项统计、分析等信息。遇有重大突发事件的,双方应当加强信息和资源共享,及时向银保监会报告。\n\n第六章 风险管理\n\n第四十六条 保险资产管理机构应当建立全面覆盖、全程监控、全员参与的风险管理组织体系和运行机制,通过管理系统和稽核审计等手段,分类、识别、量化和评估保险资管产品的流动性风险、市场风险和信用风险等,有效管控和应对风险。保险资产管理机构董事会负责定期审查和评价业务管理情况。\n\n第四十七条 保险资产管理机构开展保险资管产品业务,应当建立风险责任人制度,明确相应的风险责任人。\n\n第四十八条 保险资产管理机构应当将保险资管产品业务纳入公司内部稽核和资金运用内部控制年度审计工作,并依法向银保监会报告。\n\n第四十九条 保险资产管理机构应当建立产品风险处置机制,制定应急预案,有效控制和化解风险隐患,并及时向银保监会报告。\n\n第五十条 保险资产管理机构应当确保风险管控相关岗位和人员具有履行职责所需知情权和查询权,有权查阅、询问与保险资管产品相关的数据、资料和细节,并列席相关会议。\n\n第五十一条 保险资产管理机构应当建立相应的风险准备金机制,确保满足抵御业务不可预期损失的需要。风险准备金计提比例为产品管理费收入的10%,主要用于赔偿因保险资产管理机构违法违规、违反产品协议、操作错误或者技术故障等给产品财产或者投资者造成的损失。风险准备金余额达到产品余额的1%时可以不再提取。\n\n第五十二条 保险资产管理机构应当建立健全保险资管产品业务人员的准入、培训、考核评价和问责制度,确保业务人员具备必要的专业知识、行业经验和业务能力,充分了解相关法律法规、监管规定以及产品的法律关系、交易结构、主要风险及风险管控方法,遵守行为准则和职业道德标准。\n\n保险资产管理机构应当完善长效激励约束机制,不得以人员挂靠、业务包干等方式开展保险资管产品业务。\n\n第五十三条 保险资产管理机构的董事、监事、高级管理人员和相关业务人员不得有下列行为:\n\n(一)不公平地对待所管理的不同产品财产;\n\n(二)利用产品财产或者职务便利为投资者以外的第三方谋取不正当利益;\n\n(三)侵占、挪用产品财产;\n\n(四)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;\n\n(五)玩忽职守,不按照规定履行职责;\n\n(六)法律、行政法规以及银保监会规定禁止的其他行为。\n\n第五十四条 保险资产管理机构应当建立健全关联交易规则,对关联交易认定标准、定价方法和决策程序等进行规范,不得以保险资管产品的资金与关联方进行不正当交易、利益输送、内幕交易和操纵市场等违法违规行为。\n\n第七章 监督管理\n\n第五十五条 银保监会依法对保险资管产品业务有关当事人的经营活动进行监督管理。各方当事人应当积极配合,不得发生以下行为:\n\n(一)拒绝、阻挠监管人员的监督检查;\n\n(二)拒绝、拖延提供与检查事项有关的资料;\n\n(三)隐匿、伪造、变造、毁弃会计账簿、会计报表以及其他有关资料;\n\n(四)银保监会规定禁止的其他行为。\n\n第五十六条 银保监会依法对保险资产管理机构董事、监事、高级管理人员和相关业务人员进行检查。对违反有关法律、行政法规以及本办法规定的相关责任人员进行质询和监管谈话,并依法予以警告、罚款、撤销任职资格、禁止进入保险业等行政处罚。\n\n保险资产管理机构相关责任人员离任后,发现其在该机构工作期间违反有关法律、行政法规以及本办法规定的,应当依法追究责任。\n\n第五十七条 保险资产管理机构、托管人、投资顾问等银行保险机构违反有关法律、行政法规以及本办法规定的,由银保监会依法予以行政处罚。\n\n第五十八条 保险资管产品业务的其他当事人违反有关法律、行政法规以及本办法规定的,银保监会应当记录其不良行为,并将有关情况通报其主管部门;情节严重的,银保监会可以要求保险资产管理机构、保险集团(控股)公司和保险公司三年内不得与其从事相关业务,并建议有关监管部门依法予以行政处罚。\n\n第五十九条 为保险资管产品业务提供服务的专业服务机构及其有关人员,应当遵守执业规范和职业道德,客观公正、勤勉尽责,独立发表专业意见。相关专业服务机构或者人员未尽责履职,或者其出具的报告存在虚假记载、误导性陈述或者重大遗漏的,应当承担相应法律责任。\n\n第六十条 注册机构应当按照银保监会有关规定,建立健全机制,制定专项制度,完善注册业务系统,设置专门岗位,配备必要的专职人员,审慎、透明、高效开展注册业务。\n\n第六十一条 登记交易平台应当按照银保监会有关规定,建立健全机制,制定专项制度,设置专门岗位,配备必要的专职人员,切实维护登记交易平台相关系统的稳定运行,为保险资管产品业务发展提供良好服务。\n\n第八章 附 则\n\n第六十二条 符合条件的养老保险公司开展保险资管产品业务,参照本办法执行。\n\n第六十三条 保险资产管理机构开展跨境保险资管产品业务参照本办法执行,并应当符合跨境人民币和外汇管理有关规定。\n\n第六十四条 按照“新老划断”原则设置过渡期,确保平稳过渡。过渡期自本办法施行之日起至2020年12月31日止。\n\n过渡期内,保险资产管理机构新发行的产品应当符合本办法规定;保险资产管理机构可以发行老产品对接存量产品所投资的未到期资产,但应当严格控制在存量产品整体规模内,并有序压缩递减。保险资产管理机构应当制定过渡期内产品业务整改计划,明确时间进度安排,报送银保监会认可后实施,同时报备中国人民银行。\n\n过渡期结束后,保险资产管理机构应当按照本办法对产品进行全面规范,不得再发行或者存续违反本办法规定的保险资管产品。\n\n第六十五条 本办法由银保监会负责解释和修订。\n\n第六十六条 本办法自2020年5月1日起施行。",
   "blocks": [
     {
@@ -298,7 +4025,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 14,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -306,7 +4040,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 16,
+      "end_char": 23,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -314,7 +4055,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 25,
+      "end_char": 164,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -322,7 +4070,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 166,
+      "end_char": 248,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -330,7 +4085,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 250,
+      "end_char": 337,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -338,7 +4100,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 339,
+      "end_char": 379,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -346,7 +4115,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 381,
+      "end_char": 410,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -354,7 +4130,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 412,
+      "end_char": 468,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -362,7 +4145,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 470,
+      "end_char": 551,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -370,7 +4160,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 553,
+      "end_char": 615,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -378,7 +4175,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 617,
+      "end_char": 651,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -386,7 +4190,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 653,
+      "end_char": 813,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -394,7 +4205,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 815,
+      "end_char": 906,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -402,7 +4220,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 1015,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -410,7 +4235,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1017,
+      "end_char": 1044,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -418,7 +4250,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1046,
+      "end_char": 1109,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -426,7 +4265,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1111,
+      "end_char": 1120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -434,7 +4280,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1192,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -442,7 +4295,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1194,
+      "end_char": 1281,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -450,7 +4310,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1283,
+      "end_char": 1312,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -458,7 +4325,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1314,
+      "end_char": 1344,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -466,7 +4340,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1346,
+      "end_char": 1372,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -474,7 +4355,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1374,
+      "end_char": 1394,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -482,7 +4370,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1396,
+      "end_char": 1429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -490,7 +4385,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1431,
+      "end_char": 1465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -498,7 +4400,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1467,
+      "end_char": 1509,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -506,7 +4415,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1511,
+      "end_char": 1546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -514,7 +4430,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -522,7 +4445,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1624,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -530,7 +4460,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1626,
+      "end_char": 1644,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -538,7 +4475,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1646,
+      "end_char": 1679,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -546,7 +4490,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1681,
+      "end_char": 1712,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -554,7 +4505,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1714,
+      "end_char": 1753,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -562,7 +4520,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1755,
+      "end_char": 1786,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -570,7 +4535,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1788,
+      "end_char": 1811,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -578,7 +4550,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1836,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -586,7 +4565,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1838,
+      "end_char": 1864,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -594,7 +4580,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1866,
+      "end_char": 1898,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -602,7 +4595,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1900,
+      "end_char": 1934,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -610,7 +4610,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1936,
+      "end_char": 1951,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -618,7 +4625,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1953,
+      "end_char": 2022,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -626,7 +4640,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2024,
+      "end_char": 2041,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -634,7 +4655,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2043,
+      "end_char": 2064,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -642,7 +4670,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2066,
+      "end_char": 2099,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -650,7 +4685,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2101,
+      "end_char": 2131,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -658,7 +4700,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2133,
+      "end_char": 2159,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -666,7 +4715,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2161,
+      "end_char": 2207,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -674,7 +4730,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2209,
+      "end_char": 2314,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -682,7 +4745,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2316,
+      "end_char": 2346,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -690,7 +4760,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2348,
+      "end_char": 2433,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -698,7 +4775,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2435,
+      "end_char": 2466,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -706,7 +4790,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2468,
+      "end_char": 2564,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -714,7 +4805,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2566,
+      "end_char": 2632,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -722,7 +4820,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2634,
+      "end_char": 2665,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -730,7 +4835,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2687,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -738,7 +4850,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2689,
+      "end_char": 2712,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -746,7 +4865,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2714,
+      "end_char": 2762,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -754,7 +4880,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2764,
+      "end_char": 2782,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -762,7 +4895,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2784,
+      "end_char": 2819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -770,7 +4910,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2821,
+      "end_char": 2844,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -778,7 +4925,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2846,
+      "end_char": 2874,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -786,7 +4940,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2876,
+      "end_char": 2900,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -794,7 +4955,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2902,
+      "end_char": 2917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -802,7 +4970,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2919,
+      "end_char": 3050,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -810,7 +4985,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3052,
+      "end_char": 3066,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -818,7 +5000,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3123,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -826,7 +5015,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3125,
+      "end_char": 3257,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -834,7 +5030,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3259,
+      "end_char": 3332,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -842,7 +5045,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3334,
+      "end_char": 3481,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -850,7 +5060,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3483,
+      "end_char": 3533,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -858,7 +5075,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3535,
+      "end_char": 3618,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -866,7 +5090,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3620,
+      "end_char": 3699,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -874,7 +5105,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3701,
+      "end_char": 3762,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -882,7 +5120,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3764,
+      "end_char": 3838,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -890,7 +5135,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3840,
+      "end_char": 3915,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -898,7 +5150,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3917,
+      "end_char": 3990,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -906,7 +5165,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3992,
+      "end_char": 4057,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -914,7 +5180,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4059,
+      "end_char": 4140,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -922,7 +5195,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4142,
+      "end_char": 4241,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -930,7 +5210,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4243,
+      "end_char": 4350,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -938,7 +5225,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4352,
+      "end_char": 4387,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -946,7 +5240,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4389,
+      "end_char": 4413,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -954,7 +5255,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4415,
+      "end_char": 4429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -962,7 +5270,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4431,
+      "end_char": 4453,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -970,7 +5285,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4455,
+      "end_char": 4474,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -978,7 +5300,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4476,
+      "end_char": 4500,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -986,7 +5315,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4502,
+      "end_char": 4526,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -994,7 +5330,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4528,
+      "end_char": 4589,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -1002,7 +5345,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4591,
+      "end_char": 4602,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -1010,7 +5360,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4604,
+      "end_char": 4747,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -1018,7 +5375,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4749,
+      "end_char": 4786,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -1026,7 +5390,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4788,
+      "end_char": 4851,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -1034,7 +5405,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4853,
+      "end_char": 4917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -1042,7 +5420,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4919,
+      "end_char": 4966,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -1050,7 +5435,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4968,
+      "end_char": 5012,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -1058,7 +5450,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5014,
+      "end_char": 5144,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -1066,7 +5465,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5146,
+      "end_char": 5254,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -1074,7 +5480,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5256,
+      "end_char": 5312,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -1082,7 +5495,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5314,
+      "end_char": 5390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -1090,7 +5510,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5392,
+      "end_char": 5478,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -1098,7 +5525,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5480,
+      "end_char": 5528,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1106,7 +5540,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5530,
+      "end_char": 5623,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1114,7 +5555,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5625,
+      "end_char": 5684,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1122,7 +5570,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5686,
+      "end_char": 5747,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1130,7 +5585,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5749,
+      "end_char": 5800,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1138,7 +5600,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5802,
+      "end_char": 5840,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1146,7 +5615,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5842,
+      "end_char": 5909,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1154,7 +5630,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5911,
+      "end_char": 5922,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1162,7 +5645,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5924,
+      "end_char": 6009,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1170,7 +5660,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6011,
+      "end_char": 6044,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1178,7 +5675,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6046,
+      "end_char": 6155,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1186,7 +5690,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6157,
+      "end_char": 6212,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1194,7 +5705,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6214,
+      "end_char": 6305,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1202,7 +5720,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6307,
+      "end_char": 6382,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1210,7 +5735,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6384,
+      "end_char": 6474,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1218,7 +5750,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6476,
+      "end_char": 6484,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1226,7 +5765,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6486,
+      "end_char": 6620,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1234,7 +5780,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6622,
+      "end_char": 6670,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1242,7 +5795,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6672,
+      "end_char": 6732,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1250,7 +5810,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6734,
+      "end_char": 6791,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1258,7 +5825,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6793,
+      "end_char": 6871,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1266,7 +5840,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6873,
+      "end_char": 7020,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1274,7 +5855,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7022,
+      "end_char": 7151,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1282,7 +5870,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7153,
+      "end_char": 7200,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1290,7 +5885,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7202,
+      "end_char": 7244,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1298,7 +5900,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7246,
+      "end_char": 7266,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00128",
@@ -1306,7 +5915,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7268,
+      "end_char": 7301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00129",
@@ -1314,7 +5930,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7303,
+      "end_char": 7316,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00130",
@@ -1322,7 +5945,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7318,
+      "end_char": 7363,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00131",
@@ -1330,7 +5960,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7365,
+      "end_char": 7383,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00132",
@@ -1338,7 +5975,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7385,
+      "end_char": 7411,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00133",
@@ -1346,7 +5990,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7413,
+      "end_char": 7511,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00134",
@@ -1354,7 +6005,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7513,
+      "end_char": 7521,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00135",
@@ -1362,7 +6020,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7523,
+      "end_char": 7582,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00136",
@@ -1370,7 +6035,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7584,
+      "end_char": 7602,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00137",
@@ -1378,7 +6050,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7604,
+      "end_char": 7625,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00138",
@@ -1386,7 +6065,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7627,
+      "end_char": 7659,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00139",
@@ -1394,7 +6080,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7661,
+      "end_char": 7678,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00140",
@@ -1402,7 +6095,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7680,
+      "end_char": 7792,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00141",
@@ -1410,7 +6110,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7794,
+      "end_char": 7852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00142",
@@ -1418,7 +6125,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7854,
+      "end_char": 7918,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00143",
@@ -1426,7 +6140,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7920,
+      "end_char": 8058,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00144",
@@ -1434,7 +6155,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8060,
+      "end_char": 8183,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00145",
@@ -1442,7 +6170,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8185,
+      "end_char": 8262,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00146",
@@ -1450,7 +6185,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8264,
+      "end_char": 8358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00147",
@@ -1458,7 +6200,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8360,
+      "end_char": 8367,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00148",
@@ -1466,7 +6215,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8369,
+      "end_char": 8405,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00149",
@@ -1474,7 +6230,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8407,
+      "end_char": 8461,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00150",
@@ -1482,7 +6245,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8463,
+      "end_char": 8518,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00151",
@@ -1490,7 +6260,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8520,
+      "end_char": 8663,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00152",
@@ -1498,7 +6275,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8665,
+      "end_char": 8721,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00153",
@@ -1506,7 +6290,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8723,
+      "end_char": 8745,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00154",
@@ -1514,7 +6305,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8747,
+      "end_char": 8770,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

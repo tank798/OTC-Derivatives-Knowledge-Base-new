@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/金融机构产品适当性管理办法.doc",
   "source_type": "doc",
   "file_sha256": "0468130319d03c9183269043b48a439f623fc455932fa99e56da513dbf56feca",
-  "content_sha256": "34e984c0d35a1d1659e63e9b19a063f8010dfbbd21a7f72eb52c4ac36dd95d6d",
+  "content_sha256": "d36e8fa59c864b68dbed0fb367a26a79ce59a8d52457fc8e426efd902bdd1a73",
   "metadata": {
     "document_title": "金融机构产品适当性管理办法",
     "issuing_authority": "国家金融监督管理总局",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "ed25eeb6da5fd628c89c189c745fb88ef76730b35e1bb4c73643a2adddf18f1b",
     "clean_text_sha256": "f933df3a9f211f08135e5c83bc3b67a21314d1c670c0baed5f30bc61b55c10a2",
@@ -188,6 +188,3001 @@
   },
   "original_text_sha256": "ed25eeb6da5fd628c89c189c745fb88ef76730b35e1bb4c73643a2adddf18f1b",
   "clean_text_sha256": "f933df3a9f211f08135e5c83bc3b67a21314d1c670c0baed5f30bc61b55c10a2",
+  "clean_text_hash": "5325e7aee3d3c8b974460569cbf1d8386db250107ff3e523dfd328db8f859e81",
+  "structured_blocks_sha256": "a00ad8b42686a4696be378ade6575af0fd856a5630c05259c16e5abbfd7108fe",
+  "front_matter": [
+    {
+      "block_id": "b00002",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(2025年7月11日国家金融监督管理总局令2025年第7号公布 自2026年2月1日起施行)",
+      "character_count": 46
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "金融机构产品适当性管理办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 13,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 15,
+      "end_char": 21,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条 为规范金融机构产品适当性管理,保护金融消费者合法权益,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中华人民共和国信托法》等法律法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 23,
+      "end_char": 123,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条 本办法所称适当性管理,是指金融机构根据产品的基本属性、风险特征等,结合客户金融需求、财务状况、风险承受能力等因素,开展识别、提示、匹配、销售、交易等活动。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 125,
+      "end_char": 206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 金融机构发行或者销售、交易的收益具有不确定性且可能导致本金损失的投资型产品,以及保险产品,其适当性管理适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 208,
+      "end_char": 269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "金融机构开展银行间市场业务,按照国务院金融管理部门关于银行间市场的有关规定执行,销售证券基金期货经营机构发行的投资型产品,按照国务院金融管理部门关于证券基金期货投资者适当性的有关规定执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 271,
+      "end_char": 365,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "本办法所称“金融机构”是指国家金融监督管理总局监管的持有金融牌照的金融机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 367,
+      "end_char": 405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第四条 金融机构应当依法依规、勤勉尽责、审慎履职,对所销售或者交易的产品承担适当性管理主体责任,将适当的产品通过适当的渠道销售或者提供给适合的客户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 407,
+      "end_char": 481,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第五条 客户应当在了解产品,听取金融机构适当性匹配意见的基础上,根据自身情况自主选择、审慎决策,并承担风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 483,
+      "end_char": 537,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "金融机构的适当性匹配意见不表明其对产品的风险及收益作出实质性判断或者保证。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 539,
+      "end_char": 576,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "chapter",
+      "text": "第二章 基本规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 578,
+      "end_char": 586,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第六条 金融机构应当建立健全适当性管理制度,明确适当性管理的具体依据、标准、方法和流程等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 588,
+      "end_char": 633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第七条 金融机构应当具备符合适当性管理要求的信息系统等设施,保障网络和信息系统安全、高效、可持续服务,保障数据安全。对不符合适当性管理要求的,信息系统应当具备识别、提示、限制交易等功能。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 635,
+      "end_char": 728,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第八条 金融机构在设计开发产品时,应当充分考虑目标客户群体需求,开展消费者权益保护审查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 730,
+      "end_char": 774,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第九条 金融机构应当清晰界定产品的属性特征、风险水平、权利义务关系和适合的客户范围。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 776,
+      "end_char": 818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十条 金融机构应当在合理范围内收集客户信息,评估客户情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 850,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "客户应当遵守诚实信用原则,真实、准确、完整地提供购买产品所必需的信息。客户拒绝按照上述要求提供信息的,金融机构可以拒绝向其销售或者与其交易该产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 852,
+      "end_char": 925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "金融机构应当履行客户信息保护义务,确保客户信息安全。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 927,
+      "end_char": 953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十一条 金融机构在销售、交易特定产品或者开展特定市场业务时,应当按照制度规定的准入要求,明确客户资格审查标准、流程,严格开展客户资格审查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 955,
+      "end_char": 1025,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十二条 除本办法第三十八条规定的情形外,金融机构不得向客户销售不具备适当性的产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1027,
+      "end_char": 1069,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "具有下列情形之一的,应当认定客户与相关产品不具备适当性:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1071,
+      "end_char": 1099,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)产品风险等级高于客户风险承受能力的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1101,
+      "end_char": 1122,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)购买产品所需资金与客户财务支付水平明显不匹配的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1124,
+      "end_char": 1151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)其他应当认定客户与产品不具备适当性的情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1153,
+      "end_char": 1177,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十三条 金融机构在推介、销售或者交易过程中,禁止下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1179,
+      "end_char": 1209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)代替客户进行评估,进行不当提示,先销售或者交易后评估,或者通过其他形式影响评估结果真实性、有效性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1211,
+      "end_char": 1263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)对客户进行告知、风险提示时,内容存在虚假、误导或者重大遗漏,包括但不限于混淆存款、理财、基金、信托、保险等产品,违规承诺保本保收益,夸大产品收益或者保障范围等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1265,
+      "end_char": 1348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)主动推介风险等级高于客户风险承受能力的产品,欺骗、误导客户购买或者交易不具备适当性的产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1350,
+      "end_char": 1398,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(四)通过操纵业绩或者不当展示等方式误导或者诱导客户购买有关产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1400,
+      "end_char": 1433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(五)其他违反适当性要求,损害客户合法权益的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1435,
+      "end_char": 1460,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十四条 金融机构通过互联网等线上方式销售或者交易产品的,应当将适当性管理嵌入流程,充分履行适当性义务,保障客户的知情权、自主选择权等合法权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1462,
+      "end_char": 1534,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十五条 金融机构与第三方机构合作开展营销的,应当严格履行营销管理主体责任,加强对第三方机构的监督管理,确保营销内容、方式合法合规。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1536,
+      "end_char": 1602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十六条 金融机构应当强化销售人员资质管理,确保销售人员具备相应的产品销售资质。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1604,
+      "end_char": 1644,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "金融机构应当对销售人员持续开展培训,确保销售人员充分了解所销售或者交易产品的属性特征及风险水平。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1646,
+      "end_char": 1694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "金融机构应当构建科学合理的销售人员激励约束机制,考核标准应当包括但不限于销售行为和程序的合规性、客户投诉情况等,不得以销售业绩作为唯一考核指标。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1768,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十七条 金融机构应当客观完整地记录适当性管理的重点环节,妥善保存相关信息资料,包括但不限于产品评级结果、客户评估结果、告知提示资料、录音录像资料等,确保适当性管理过程可回溯。相关资料保存期限不得低于机构与客户合同关系终止后五年,国务院金融管理部门对保存期限另有规定的,从其规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1770,
+      "end_char": 1910,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十八条 金融机构向六十五周岁以上的客户销售或者与其交易高风险产品的,应当履行特别的注意义务,可以包括制定专门的销售或者交易程序、追加了解相关信息、强化告知和风险提示、给予更多考虑时间、及时进行回访等。通过互联网等线上方式销售或者交易的,流程设计应当具备适老性、易用性和安全性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1912,
+      "end_char": 2051,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十九条 金融机构不得向无民事行为能力人销售或者与其交易产品。经法定代理人同意,可以向限制民事行为能力人销售或者与其交易低风险产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2053,
+      "end_char": 2119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第二十条 金融机构应当及时、妥善处理适当性相关投诉,积极主动与客户协商解决矛盾纠纷,在协商不成的情况下,通过调解、仲裁、诉讼等方式促进矛盾纠纷化解。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2121,
+      "end_char": 2195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第二十一条 金融机构委托其他机构代理销售的,应当确认代理销售机构具备销售相关产品的资格及落实适当性义务的人员、内控制度、技术设备等条件。委托机构应当提供相关产品的适当性管理标准和要求、产品分类分级考虑因素等信息。代理销售机构应当履行客户评估、适当性匹配等适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2197,
+      "end_char": 2330,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "委托机构和代理销售机构应当在委托销售合同中明确双方适当性管理的责任和义务。对在委托销售中违反适当性义务的行为,委托机构和代理销售机构应当依照法律法规及合同约定承担相应法律责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2332,
+      "end_char": 2420,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "chapter",
+      "text": "第三章 适当性规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2422,
+      "end_char": 2431,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十二条 金融机构应当对本机构发行和销售的投资型产品统一划分风险等级。产品风险等级由低到高至少包括一级至五级。涉及投资组合的产品,应当按照产品整体风险情况进行风险等级划分。发行机构与销售机构的产品风险评级结果不一致的,销售机构应当按照孰高原则采用并披露评级结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2433,
+      "end_char": 2565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "发行机构应当根据市场变化对产品风险等级进行动态管理,并将变动情况及时告知销售机构。销售机构应当及时披露风险等级变动情况,并根据产品及投资者信息变化情况,主动调整适当性匹配意见,及时告知投资者。在产品开放期,投资者可以自主决定是否持有存量产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2688,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十三条 金融机构划分投资型产品风险等级时应当综合考虑以下因素:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2690,
+      "end_char": 2723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)投资方向、投资范围、投资比例、投资资产的流动性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2725,
+      "end_char": 2752,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)到期时限、申购和赎回安排;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2754,
+      "end_char": 2770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)杠杆情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2772,
+      "end_char": 2780,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(四)结构复杂性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2782,
+      "end_char": 2791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)募集方式;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2793,
+      "end_char": 2801,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(六)发行人等相关主体的信用状况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2803,
+      "end_char": 2820,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(七)同类产品的过往业绩、历史波动程度;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2822,
+      "end_char": 2842,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(八)其他因素。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十四条 投资型产品风险评级工作应当由专门部门或者团队负责;金融机构可以委托符合相关资质要求的第三方专业机构为其风险评级工作提供服务,金融机构承担其产品风险评级的最终责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2854,
+      "end_char": 2941,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十五条 金融机构销售投资型产品时,应当了解投资者与适当性管理相关的必要信息,包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2943,
+      "end_char": 2986,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)自然人的姓名、职业、年龄、联系方式,法人或者其他组织的名称、性质、资质、联系方式等基本信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2988,
+      "end_char": 3037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)收入来源及数额、资产、负债等反映财务状况的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3039,
+      "end_char": 3066,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(三)投资相关的学习、工作经历经验等反映风险识别能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3098,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(四)投资目的、投资期限、期望收益等反映投资需求和意愿的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3100,
+      "end_char": 3131,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(五)风险偏好、可承受的损失等反映风险承受能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3133,
+      "end_char": 3160,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(六)法律法规、产品规则或者合同约定需要了解的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3162,
+      "end_char": 3188,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "当投资者为本办法第二十七条规定的专业投资者时,金融机构可以视情况收集其与适当性管理相关的必要信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3190,
+      "end_char": 3239,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十六条 投资型产品的投资者分为专业投资者与普通投资者,金融机构对两者进行差异化的适当性管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3241,
+      "end_char": 3289,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十七条 符合下列条件之一的是专业投资者:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3291,
+      "end_char": 3313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(一)银行业金融机构、保险业金融机构、金融控股公司、证券基金期货经营机构、私募基金管理人;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3315,
+      "end_char": 3360,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(二)上述机构面向投资者发行的金融产品,信托公司管理的资产服务信托、公益慈善信托;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3362,
+      "end_char": 3403,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(三)社会保障基金、企业年金、职业年金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3405,
+      "end_char": 3478,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "金融机构向专业投资者销售投资型产品时,可以视情况简化或者免于进行风险承受能力评估、开展可回溯管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3480,
+      "end_char": 3529,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十八条 专业投资者之外的投资者为普通投资者。金融机构必须严格按照本办法规定,对普通投资者进行风险承受能力评估,对其适合购买或者交易的产品作出判断,提出明确的适当性匹配意见,充分履行告知义务,及时进行风险提示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3531,
+      "end_char": 3637,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十九条 投资者风险承受能力评估等级由低到高应当至少包括一级至五级。投资者在同一金融机构进行风险承受能力评估单日不得超过两次,十二个月内累计不得超过八次。投资者风险承受能力评估等级与最近一次结果不一致的,金融机构应当对其进行提示,请投资者对变动情况再次确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3639,
+      "end_char": 3769,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "风险承受能力评估结果有效期原则上为十二个月,超过十二个月未评估或者投资者主动告知存在可能影响风险承受能力情况的,金融机构向投资者销售或者与其交易时,应当对其风险承受能力重新进行评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3771,
+      "end_char": 3862,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十条 金融机构销售私募产品的,应当按照相关法规及监管制度明确私募产品投资者认定标准,以有效方式对投资者资产规模、收入水平、投资经验、风险承受能力等进行评估,并以非公开方式销售。不得通过拆分产品份额或者收(受)益权等方式变相降低投资门槛,不得通过公共传播媒介、金融机构营业网点、官方网站、互联网应用程序(APP)或者其他方式向不特定对象宣传推介私募产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3864,
+      "end_char": 4042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十一条 金融机构应当严格履行信息披露义务。投资型产品销售前,还应当使用便于接受和理解的方式向普通投资者告知以下信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4044,
+      "end_char": 4104,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(一)产品的基本信息,特别是产品类型、产品管理人、投资范围及比例、募集方式、收益分配方案等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4106,
+      "end_char": 4152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(二)产品的风险等级,以及存续期内风险等级可能会进行调整的情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4154,
+      "end_char": 4186,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(三)产品的相关风险,重点是本金亏损可能;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4188,
+      "end_char": 4209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(四)购买产品需要支付的相关费用或者费率;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4211,
+      "end_char": 4232,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "(五)本办法规定的适当性匹配意见;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4234,
+      "end_char": 4251,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "(六)其他应当告知的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4253,
+      "end_char": 4266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "产品存续期内,金融机构还应当按照相关规定或者协议约定,及时、准确、完整披露产品投资运作情况、杠杆水平、风险状况、可能对投资者权益产生重大影响的风险事件等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4268,
+      "end_char": 4347,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十二条 金融机构销售保险产品的,应当综合考虑以下因素,对保险产品进行分类分级:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4349,
+      "end_char": 4390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(一)保险产品类型;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4392,
+      "end_char": 4402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(二)产品保障责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4404,
+      "end_char": 4414,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(三)保单利益是否确定;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4416,
+      "end_char": 4428,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(四)其他因素。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4430,
+      "end_char": 4438,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第三十三条 金融机构销售保险产品的,应当加强对销售人员、销售行为、销售渠道的管理,建立保险销售资质分级管理体系,以销售人员的保险知识、合规记录、销售履历等为主要标准,对其进行分级,并与保险产品分级管理制度相衔接,区分销售资质实行差别授权,明确不同资质可以销售的保险产品类别。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4440,
+      "end_char": 4577,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "article",
+      "text": "第三十四条 金融机构应当根据保险产品特征,了解投保人与适当性管理相关的必要信息,包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4579,
+      "end_char": 4622,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(一)自然人的姓名、职业、年龄等基本信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4624,
+      "end_char": 4645,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(二)保险保障需求、产品期限需求、已购买补偿损失为目的的同类险种的情况等信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4647,
+      "end_char": 4686,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(三)收入、资产等反映保费承担能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4688,
+      "end_char": 4709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(四)风险偏好、可承受的损失等反映风险承受能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4711,
+      "end_char": 4738,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(五)法律法规、产品规则或者合同约定应当了解的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4740,
+      "end_char": 4766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "article",
+      "text": "第三十五条 金融机构应当在了解投保人相关信息的基础上,对投保人进行需求分析及财务支付水平评估,提出明确的适当性匹配意见,向投保人提供适当的保险产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4768,
+      "end_char": 4842,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第三十六条 金融机构销售投资连结型保险等可能导致本金损失产品的,还应当按照本章关于投资型产品的相关要求,开展产品风险评级和投保人风险承受能力评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4844,
+      "end_char": 4917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "article",
+      "text": "第三十七条 金融机构销售保险产品时,应当根据产品特征,使用便于接受和理解的方式向投保人告知以下信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4919,
+      "end_char": 4969,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(一)产品的基本信息,包括产品名称、保障范围、保险期限、交费期限、赔偿限额、索赔程序、保单现金价值、续保条件、减轻或者免除保险人责任的条款等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4971,
+      "end_char": 5042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(二)保单利益的不确定性、可能导致保费损失或者保单利益不及预期的事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5044,
+      "end_char": 5079,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(三)犹豫期及投保人在犹豫期内的权利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5081,
+      "end_char": 5100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(四)退保可能遭受的损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5102,
+      "end_char": 5115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "(五)需要投保人支付的保费总额、保单初始费用、保单管理费等各项费用;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5117,
+      "end_char": 5151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "(六)本办法规定的适当性匹配意见;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5153,
+      "end_char": 5170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(七)其他应当告知的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5172,
+      "end_char": 5185,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十八条 保险合同订立前,金融机构判断投保人与保险产品不具备适当性的,应当建议投保人终止投保。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5187,
+      "end_char": 5235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "投保人不接受终止投保建议,仍然要求订立保险合同的,金融机构应当充分说明有关风险,并书面确认是投保人基于充分了解产品信息后的自主选择。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5237,
+      "end_char": 5303,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "article",
+      "text": "第三十九条 金融机构销售分红型、万能型、投资连结型、变额型等保单利益不确定的人身保险产品,存在以下情况之一的,应当在取得投保人签名确认的投保声明后方可承保:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5305,
+      "end_char": 5383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(一)趸交保费超过投保人家庭年收入的四倍;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5385,
+      "end_char": 5406,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "(二)年期交保费超过投保人家庭年收入的百分之二十;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5408,
+      "end_char": 5433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(三)保费交费年限与投保人年龄数字之和达到或者超过七十五;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5435,
+      "end_char": 5464,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "(四)保费额度大于或者等于投保人保费预算的百分之一百五十。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5466,
+      "end_char": 5495,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "在投保声明中,投保人应当表明投保时了解保险产品情况,并自愿承担保单利益不确定的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5497,
+      "end_char": 5539,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "article",
+      "text": "第四十条 销售财产保险产品、一年期以下人身保险产品的,可以免于开展投保人需求及财务支付水平评估,按需收集投保人、保险标的等相关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5541,
+      "end_char": 5607,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "团体保险可以免于开展投保人需求及财务支付水平评估;涉及可能导致本金损失产品的团体保险,应当对拟交纳保费的自然人开展风险承受能力评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5609,
+      "end_char": 5675,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "chapter",
+      "text": "第四章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5677,
+      "end_char": 5685,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "article",
+      "text": "第四十一条 国家金融监督管理总局及其派出机构依据相关法律法规和本办法的规定,对金融机构履行适当性义务实施监督管理,可以依法开展非现场监管、现场检查、现场调查等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5687,
+      "end_char": 5767,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局及其派出机构针对涉嫌违反适当性管理规定的事项,可以依据相关法律法规及监管制度,对与金融机构合作的第三方机构和个人开展调查,并加强与其他监管部门的监管协作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5769,
+      "end_char": 5856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "article",
+      "text": "第四十二条 金融机构违反适当性管理相关规定的,国家金融监督管理总局及其派出机构可以按照相关法律法规及监管制度,对机构及责任人员采取监管措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5858,
+      "end_char": 5928,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "article",
+      "text": "第四十三条 金融机构及相关责任人员违反本办法规定,情节严重或者造成严重后果的,由国家金融监督管理总局及其派出机构依据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》等法律法规进行行政处罚;法律法规没有规定,但违反本办法的,国家金融监督管理总局及其派出机构可以视情况予以警告、通报批评、一万元以上十万元以下罚款。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5930,
+      "end_char": 6104,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第四十四条 国家金融监督管理总局及其派出机构将金融机构产品适当性管理情况,纳入年度金融消费者权益保护监管评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6106,
+      "end_char": 6161,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "article",
+      "text": "第四十五条 中国银行业协会、中国信托业协会、中国保险行业协会、中国保险资产管理业协会等行业自律组织应当依法依规建立健全行业适当性管理自律规范,对金融机构履行适当性义务进行自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6163,
+      "end_char": 6253,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6255,
+      "end_char": 6261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第四十六条 本办法所称“以上”“以下”均含本数。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6263,
+      "end_char": 6287,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "article",
+      "text": "第四十七条 保险代理机构、保险经纪人适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6289,
+      "end_char": 6313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "article",
+      "text": "第四十八条 本办法由国家金融监督管理总局负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6315,
+      "end_char": 6340,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第四十九条 本办法自2026年2月1日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6342,
+      "end_char": 6365,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "金融机构产品适当性管理办法\n\n第一章 总则\n\n第一条 为规范金融机构产品适当性管理,保护金融消费者合法权益,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中华人民共和国信托法》等法律法规,制定本办法。\n\n第二条 本办法所称适当性管理,是指金融机构根据产品的基本属性、风险特征等,结合客户金融需求、财务状况、风险承受能力等因素,开展识别、提示、匹配、销售、交易等活动。\n\n第三条 金融机构发行或者销售、交易的收益具有不确定性且可能导致本金损失的投资型产品,以及保险产品,其适当性管理适用本办法。\n\n金融机构开展银行间市场业务,按照国务院金融管理部门关于银行间市场的有关规定执行,销售证券基金期货经营机构发行的投资型产品,按照国务院金融管理部门关于证券基金期货投资者适当性的有关规定执行。\n\n本办法所称“金融机构”是指国家金融监督管理总局监管的持有金融牌照的金融机构。\n\n第四条 金融机构应当依法依规、勤勉尽责、审慎履职,对所销售或者交易的产品承担适当性管理主体责任,将适当的产品通过适当的渠道销售或者提供给适合的客户。\n\n第五条 客户应当在了解产品,听取金融机构适当性匹配意见的基础上,根据自身情况自主选择、审慎决策,并承担风险。\n\n金融机构的适当性匹配意见不表明其对产品的风险及收益作出实质性判断或者保证。\n\n第二章 基本规则\n\n第六条 金融机构应当建立健全适当性管理制度,明确适当性管理的具体依据、标准、方法和流程等。\n\n第七条 金融机构应当具备符合适当性管理要求的信息系统等设施,保障网络和信息系统安全、高效、可持续服务,保障数据安全。对不符合适当性管理要求的,信息系统应当具备识别、提示、限制交易等功能。\n\n第八条 金融机构在设计开发产品时,应当充分考虑目标客户群体需求,开展消费者权益保护审查。\n\n第九条 金融机构应当清晰界定产品的属性特征、风险水平、权利义务关系和适合的客户范围。\n\n第十条 金融机构应当在合理范围内收集客户信息,评估客户情况。\n\n客户应当遵守诚实信用原则,真实、准确、完整地提供购买产品所必需的信息。客户拒绝按照上述要求提供信息的,金融机构可以拒绝向其销售或者与其交易该产品。\n\n金融机构应当履行客户信息保护义务,确保客户信息安全。\n\n第十一条 金融机构在销售、交易特定产品或者开展特定市场业务时,应当按照制度规定的准入要求,明确客户资格审查标准、流程,严格开展客户资格审查。\n\n第十二条 除本办法第三十八条规定的情形外,金融机构不得向客户销售不具备适当性的产品。\n\n具有下列情形之一的,应当认定客户与相关产品不具备适当性:\n\n(一)产品风险等级高于客户风险承受能力的;\n\n(二)购买产品所需资金与客户财务支付水平明显不匹配的;\n\n(三)其他应当认定客户与产品不具备适当性的情形。\n\n第十三条 金融机构在推介、销售或者交易过程中,禁止下列行为:\n\n(一)代替客户进行评估,进行不当提示,先销售或者交易后评估,或者通过其他形式影响评估结果真实性、有效性;\n\n(二)对客户进行告知、风险提示时,内容存在虚假、误导或者重大遗漏,包括但不限于混淆存款、理财、基金、信托、保险等产品,违规承诺保本保收益,夸大产品收益或者保障范围等;\n\n(三)主动推介风险等级高于客户风险承受能力的产品,欺骗、误导客户购买或者交易不具备适当性的产品;\n\n(四)通过操纵业绩或者不当展示等方式误导或者诱导客户购买有关产品;\n\n(五)其他违反适当性要求,损害客户合法权益的行为。\n\n第十四条 金融机构通过互联网等线上方式销售或者交易产品的,应当将适当性管理嵌入流程,充分履行适当性义务,保障客户的知情权、自主选择权等合法权益。\n\n第十五条 金融机构与第三方机构合作开展营销的,应当严格履行营销管理主体责任,加强对第三方机构的监督管理,确保营销内容、方式合法合规。\n\n第十六条 金融机构应当强化销售人员资质管理,确保销售人员具备相应的产品销售资质。\n\n金融机构应当对销售人员持续开展培训,确保销售人员充分了解所销售或者交易产品的属性特征及风险水平。\n\n金融机构应当构建科学合理的销售人员激励约束机制,考核标准应当包括但不限于销售行为和程序的合规性、客户投诉情况等,不得以销售业绩作为唯一考核指标。\n\n第十七条 金融机构应当客观完整地记录适当性管理的重点环节,妥善保存相关信息资料,包括但不限于产品评级结果、客户评估结果、告知提示资料、录音录像资料等,确保适当性管理过程可回溯。相关资料保存期限不得低于机构与客户合同关系终止后五年,国务院金融管理部门对保存期限另有规定的,从其规定。\n\n第十八条 金融机构向六十五周岁以上的客户销售或者与其交易高风险产品的,应当履行特别的注意义务,可以包括制定专门的销售或者交易程序、追加了解相关信息、强化告知和风险提示、给予更多考虑时间、及时进行回访等。通过互联网等线上方式销售或者交易的,流程设计应当具备适老性、易用性和安全性。\n\n第十九条 金融机构不得向无民事行为能力人销售或者与其交易产品。经法定代理人同意,可以向限制民事行为能力人销售或者与其交易低风险产品。\n\n第二十条 金融机构应当及时、妥善处理适当性相关投诉,积极主动与客户协商解决矛盾纠纷,在协商不成的情况下,通过调解、仲裁、诉讼等方式促进矛盾纠纷化解。\n\n第二十一条 金融机构委托其他机构代理销售的,应当确认代理销售机构具备销售相关产品的资格及落实适当性义务的人员、内控制度、技术设备等条件。委托机构应当提供相关产品的适当性管理标准和要求、产品分类分级考虑因素等信息。代理销售机构应当履行客户评估、适当性匹配等适当性义务。\n\n委托机构和代理销售机构应当在委托销售合同中明确双方适当性管理的责任和义务。对在委托销售中违反适当性义务的行为,委托机构和代理销售机构应当依照法律法规及合同约定承担相应法律责任。\n\n第三章 适当性规则\n\n第二十二条 金融机构应当对本机构发行和销售的投资型产品统一划分风险等级。产品风险等级由低到高至少包括一级至五级。涉及投资组合的产品,应当按照产品整体风险情况进行风险等级划分。发行机构与销售机构的产品风险评级结果不一致的,销售机构应当按照孰高原则采用并披露评级结果。\n\n发行机构应当根据市场变化对产品风险等级进行动态管理,并将变动情况及时告知销售机构。销售机构应当及时披露风险等级变动情况,并根据产品及投资者信息变化情况,主动调整适当性匹配意见,及时告知投资者。在产品开放期,投资者可以自主决定是否持有存量产品。\n\n第二十三条 金融机构划分投资型产品风险等级时应当综合考虑以下因素:\n\n(一)投资方向、投资范围、投资比例、投资资产的流动性;\n\n(二)到期时限、申购和赎回安排;\n\n(三)杠杆情况;\n\n(四)结构复杂性;\n\n(五)募集方式;\n\n(六)发行人等相关主体的信用状况;\n\n(七)同类产品的过往业绩、历史波动程度;\n\n(八)其他因素。\n\n第二十四条 投资型产品风险评级工作应当由专门部门或者团队负责;金融机构可以委托符合相关资质要求的第三方专业机构为其风险评级工作提供服务,金融机构承担其产品风险评级的最终责任。\n\n第二十五条 金融机构销售投资型产品时,应当了解投资者与适当性管理相关的必要信息,包括:\n\n(一)自然人的姓名、职业、年龄、联系方式,法人或者其他组织的名称、性质、资质、联系方式等基本信息;\n\n(二)收入来源及数额、资产、负债等反映财务状况的信息;\n\n(三)投资相关的学习、工作经历经验等反映风险识别能力的信息;\n\n(四)投资目的、投资期限、期望收益等反映投资需求和意愿的信息;\n\n(五)风险偏好、可承受的损失等反映风险承受能力的信息;\n\n(六)法律法规、产品规则或者合同约定需要了解的信息。\n\n当投资者为本办法第二十七条规定的专业投资者时,金融机构可以视情况收集其与适当性管理相关的必要信息。\n\n第二十六条 投资型产品的投资者分为专业投资者与普通投资者,金融机构对两者进行差异化的适当性管理。\n\n第二十七条 符合下列条件之一的是专业投资者:\n\n(一)银行业金融机构、保险业金融机构、金融控股公司、证券基金期货经营机构、私募基金管理人;\n\n(二)上述机构面向投资者发行的金融产品,信托公司管理的资产服务信托、公益慈善信托;\n\n(三)社会保障基金、企业年金、职业年金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII)。\n\n金融机构向专业投资者销售投资型产品时,可以视情况简化或者免于进行风险承受能力评估、开展可回溯管理。\n\n第二十八条 专业投资者之外的投资者为普通投资者。金融机构必须严格按照本办法规定,对普通投资者进行风险承受能力评估,对其适合购买或者交易的产品作出判断,提出明确的适当性匹配意见,充分履行告知义务,及时进行风险提示。\n\n第二十九条 投资者风险承受能力评估等级由低到高应当至少包括一级至五级。投资者在同一金融机构进行风险承受能力评估单日不得超过两次,十二个月内累计不得超过八次。投资者风险承受能力评估等级与最近一次结果不一致的,金融机构应当对其进行提示,请投资者对变动情况再次确认。\n\n风险承受能力评估结果有效期原则上为十二个月,超过十二个月未评估或者投资者主动告知存在可能影响风险承受能力情况的,金融机构向投资者销售或者与其交易时,应当对其风险承受能力重新进行评估。\n\n第三十条 金融机构销售私募产品的,应当按照相关法规及监管制度明确私募产品投资者认定标准,以有效方式对投资者资产规模、收入水平、投资经验、风险承受能力等进行评估,并以非公开方式销售。不得通过拆分产品份额或者收(受)益权等方式变相降低投资门槛,不得通过公共传播媒介、金融机构营业网点、官方网站、互联网应用程序(APP)或者其他方式向不特定对象宣传推介私募产品。\n\n第三十一条 金融机构应当严格履行信息披露义务。投资型产品销售前,还应当使用便于接受和理解的方式向普通投资者告知以下信息:\n\n(一)产品的基本信息,特别是产品类型、产品管理人、投资范围及比例、募集方式、收益分配方案等;\n\n(二)产品的风险等级,以及存续期内风险等级可能会进行调整的情况;\n\n(三)产品的相关风险,重点是本金亏损可能;\n\n(四)购买产品需要支付的相关费用或者费率;\n\n(五)本办法规定的适当性匹配意见;\n\n(六)其他应当告知的信息。\n\n产品存续期内,金融机构还应当按照相关规定或者协议约定,及时、准确、完整披露产品投资运作情况、杠杆水平、风险状况、可能对投资者权益产生重大影响的风险事件等信息。\n\n第三十二条 金融机构销售保险产品的,应当综合考虑以下因素,对保险产品进行分类分级:\n\n(一)保险产品类型;\n\n(二)产品保障责任;\n\n(三)保单利益是否确定;\n\n(四)其他因素。\n\n第三十三条 金融机构销售保险产品的,应当加强对销售人员、销售行为、销售渠道的管理,建立保险销售资质分级管理体系,以销售人员的保险知识、合规记录、销售履历等为主要标准,对其进行分级,并与保险产品分级管理制度相衔接,区分销售资质实行差别授权,明确不同资质可以销售的保险产品类别。\n\n第三十四条 金融机构应当根据保险产品特征,了解投保人与适当性管理相关的必要信息,包括:\n\n(一)自然人的姓名、职业、年龄等基本信息;\n\n(二)保险保障需求、产品期限需求、已购买补偿损失为目的的同类险种的情况等信息;\n\n(三)收入、资产等反映保费承担能力的信息;\n\n(四)风险偏好、可承受的损失等反映风险承受能力的信息;\n\n(五)法律法规、产品规则或者合同约定应当了解的信息。\n\n第三十五条 金融机构应当在了解投保人相关信息的基础上,对投保人进行需求分析及财务支付水平评估,提出明确的适当性匹配意见,向投保人提供适当的保险产品。\n\n第三十六条 金融机构销售投资连结型保险等可能导致本金损失产品的,还应当按照本章关于投资型产品的相关要求,开展产品风险评级和投保人风险承受能力评估。\n\n第三十七条 金融机构销售保险产品时,应当根据产品特征,使用便于接受和理解的方式向投保人告知以下信息:\n\n(一)产品的基本信息,包括产品名称、保障范围、保险期限、交费期限、赔偿限额、索赔程序、保单现金价值、续保条件、减轻或者免除保险人责任的条款等;\n\n(二)保单利益的不确定性、可能导致保费损失或者保单利益不及预期的事项;\n\n(三)犹豫期及投保人在犹豫期内的权利;\n\n(四)退保可能遭受的损失;\n\n(五)需要投保人支付的保费总额、保单初始费用、保单管理费等各项费用;\n\n(六)本办法规定的适当性匹配意见;\n\n(七)其他应当告知的信息。\n\n第三十八条 保险合同订立前,金融机构判断投保人与保险产品不具备适当性的,应当建议投保人终止投保。\n\n投保人不接受终止投保建议,仍然要求订立保险合同的,金融机构应当充分说明有关风险,并书面确认是投保人基于充分了解产品信息后的自主选择。\n\n第三十九条 金融机构销售分红型、万能型、投资连结型、变额型等保单利益不确定的人身保险产品,存在以下情况之一的,应当在取得投保人签名确认的投保声明后方可承保:\n\n(一)趸交保费超过投保人家庭年收入的四倍;\n\n(二)年期交保费超过投保人家庭年收入的百分之二十;\n\n(三)保费交费年限与投保人年龄数字之和达到或者超过七十五;\n\n(四)保费额度大于或者等于投保人保费预算的百分之一百五十。\n\n在投保声明中,投保人应当表明投保时了解保险产品情况,并自愿承担保单利益不确定的风险。\n\n第四十条 销售财产保险产品、一年期以下人身保险产品的,可以免于开展投保人需求及财务支付水平评估,按需收集投保人、保险标的等相关信息。\n\n团体保险可以免于开展投保人需求及财务支付水平评估;涉及可能导致本金损失产品的团体保险,应当对拟交纳保费的自然人开展风险承受能力评估。\n\n第四章 监督管理\n\n第四十一条 国家金融监督管理总局及其派出机构依据相关法律法规和本办法的规定,对金融机构履行适当性义务实施监督管理,可以依法开展非现场监管、现场检查、现场调查等。\n\n国家金融监督管理总局及其派出机构针对涉嫌违反适当性管理规定的事项,可以依据相关法律法规及监管制度,对与金融机构合作的第三方机构和个人开展调查,并加强与其他监管部门的监管协作。\n\n第四十二条 金融机构违反适当性管理相关规定的,国家金融监督管理总局及其派出机构可以按照相关法律法规及监管制度,对机构及责任人员采取监管措施。\n\n第四十三条 金融机构及相关责任人员违反本办法规定,情节严重或者造成严重后果的,由国家金融监督管理总局及其派出机构依据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》等法律法规进行行政处罚;法律法规没有规定,但违反本办法的,国家金融监督管理总局及其派出机构可以视情况予以警告、通报批评、一万元以上十万元以下罚款。\n\n第四十四条 国家金融监督管理总局及其派出机构将金融机构产品适当性管理情况,纳入年度金融消费者权益保护监管评价。\n\n第四十五条 中国银行业协会、中国信托业协会、中国保险行业协会、中国保险资产管理业协会等行业自律组织应当依法依规建立健全行业适当性管理自律规范,对金融机构履行适当性义务进行自律管理。\n\n第五章 附则\n\n第四十六条 本办法所称“以上”“以下”均含本数。\n\n第四十七条 保险代理机构、保险经纪人适用本办法。\n\n第四十八条 本办法由国家金融监督管理总局负责解释。\n\n第四十九条 本办法自2026年2月1日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "金融机构产品适当性管理办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 13,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 15,
+      "end_char": 21,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条 为规范金融机构产品适当性管理,保护金融消费者合法权益,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中华人民共和国信托法》等法律法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 23,
+      "end_char": 123,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条 本办法所称适当性管理,是指金融机构根据产品的基本属性、风险特征等,结合客户金融需求、财务状况、风险承受能力等因素,开展识别、提示、匹配、销售、交易等活动。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 125,
+      "end_char": 206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 金融机构发行或者销售、交易的收益具有不确定性且可能导致本金损失的投资型产品,以及保险产品,其适当性管理适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 208,
+      "end_char": 269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "金融机构开展银行间市场业务,按照国务院金融管理部门关于银行间市场的有关规定执行,销售证券基金期货经营机构发行的投资型产品,按照国务院金融管理部门关于证券基金期货投资者适当性的有关规定执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 271,
+      "end_char": 365,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "本办法所称“金融机构”是指国家金融监督管理总局监管的持有金融牌照的金融机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 367,
+      "end_char": 405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第四条 金融机构应当依法依规、勤勉尽责、审慎履职,对所销售或者交易的产品承担适当性管理主体责任,将适当的产品通过适当的渠道销售或者提供给适合的客户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 407,
+      "end_char": 481,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第五条 客户应当在了解产品,听取金融机构适当性匹配意见的基础上,根据自身情况自主选择、审慎决策,并承担风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 483,
+      "end_char": 537,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "金融机构的适当性匹配意见不表明其对产品的风险及收益作出实质性判断或者保证。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 539,
+      "end_char": 576,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "chapter",
+      "text": "第二章 基本规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 578,
+      "end_char": 586,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第六条 金融机构应当建立健全适当性管理制度,明确适当性管理的具体依据、标准、方法和流程等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 588,
+      "end_char": 633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第七条 金融机构应当具备符合适当性管理要求的信息系统等设施,保障网络和信息系统安全、高效、可持续服务,保障数据安全。对不符合适当性管理要求的,信息系统应当具备识别、提示、限制交易等功能。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 635,
+      "end_char": 728,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第八条 金融机构在设计开发产品时,应当充分考虑目标客户群体需求,开展消费者权益保护审查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 730,
+      "end_char": 774,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第九条 金融机构应当清晰界定产品的属性特征、风险水平、权利义务关系和适合的客户范围。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 776,
+      "end_char": 818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十条 金融机构应当在合理范围内收集客户信息,评估客户情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 850,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "客户应当遵守诚实信用原则,真实、准确、完整地提供购买产品所必需的信息。客户拒绝按照上述要求提供信息的,金融机构可以拒绝向其销售或者与其交易该产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 852,
+      "end_char": 925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "金融机构应当履行客户信息保护义务,确保客户信息安全。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 927,
+      "end_char": 953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十一条 金融机构在销售、交易特定产品或者开展特定市场业务时,应当按照制度规定的准入要求,明确客户资格审查标准、流程,严格开展客户资格审查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 955,
+      "end_char": 1025,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十二条 除本办法第三十八条规定的情形外,金融机构不得向客户销售不具备适当性的产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1027,
+      "end_char": 1069,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "具有下列情形之一的,应当认定客户与相关产品不具备适当性:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1071,
+      "end_char": 1099,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)产品风险等级高于客户风险承受能力的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1101,
+      "end_char": 1122,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)购买产品所需资金与客户财务支付水平明显不匹配的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1124,
+      "end_char": 1151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)其他应当认定客户与产品不具备适当性的情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1153,
+      "end_char": 1177,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十三条 金融机构在推介、销售或者交易过程中,禁止下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1179,
+      "end_char": 1209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)代替客户进行评估,进行不当提示,先销售或者交易后评估,或者通过其他形式影响评估结果真实性、有效性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1211,
+      "end_char": 1263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)对客户进行告知、风险提示时,内容存在虚假、误导或者重大遗漏,包括但不限于混淆存款、理财、基金、信托、保险等产品,违规承诺保本保收益,夸大产品收益或者保障范围等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1265,
+      "end_char": 1348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)主动推介风险等级高于客户风险承受能力的产品,欺骗、误导客户购买或者交易不具备适当性的产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1350,
+      "end_char": 1398,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(四)通过操纵业绩或者不当展示等方式误导或者诱导客户购买有关产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1400,
+      "end_char": 1433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(五)其他违反适当性要求,损害客户合法权益的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1435,
+      "end_char": 1460,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十四条 金融机构通过互联网等线上方式销售或者交易产品的,应当将适当性管理嵌入流程,充分履行适当性义务,保障客户的知情权、自主选择权等合法权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1462,
+      "end_char": 1534,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十五条 金融机构与第三方机构合作开展营销的,应当严格履行营销管理主体责任,加强对第三方机构的监督管理,确保营销内容、方式合法合规。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1536,
+      "end_char": 1602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十六条 金融机构应当强化销售人员资质管理,确保销售人员具备相应的产品销售资质。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1604,
+      "end_char": 1644,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "金融机构应当对销售人员持续开展培训,确保销售人员充分了解所销售或者交易产品的属性特征及风险水平。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1646,
+      "end_char": 1694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "金融机构应当构建科学合理的销售人员激励约束机制,考核标准应当包括但不限于销售行为和程序的合规性、客户投诉情况等,不得以销售业绩作为唯一考核指标。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1768,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十七条 金融机构应当客观完整地记录适当性管理的重点环节,妥善保存相关信息资料,包括但不限于产品评级结果、客户评估结果、告知提示资料、录音录像资料等,确保适当性管理过程可回溯。相关资料保存期限不得低于机构与客户合同关系终止后五年,国务院金融管理部门对保存期限另有规定的,从其规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1770,
+      "end_char": 1910,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十八条 金融机构向六十五周岁以上的客户销售或者与其交易高风险产品的,应当履行特别的注意义务,可以包括制定专门的销售或者交易程序、追加了解相关信息、强化告知和风险提示、给予更多考虑时间、及时进行回访等。通过互联网等线上方式销售或者交易的,流程设计应当具备适老性、易用性和安全性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1912,
+      "end_char": 2051,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十九条 金融机构不得向无民事行为能力人销售或者与其交易产品。经法定代理人同意,可以向限制民事行为能力人销售或者与其交易低风险产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2053,
+      "end_char": 2119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第二十条 金融机构应当及时、妥善处理适当性相关投诉,积极主动与客户协商解决矛盾纠纷,在协商不成的情况下,通过调解、仲裁、诉讼等方式促进矛盾纠纷化解。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2121,
+      "end_char": 2195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第二十一条 金融机构委托其他机构代理销售的,应当确认代理销售机构具备销售相关产品的资格及落实适当性义务的人员、内控制度、技术设备等条件。委托机构应当提供相关产品的适当性管理标准和要求、产品分类分级考虑因素等信息。代理销售机构应当履行客户评估、适当性匹配等适当性义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2197,
+      "end_char": 2330,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "委托机构和代理销售机构应当在委托销售合同中明确双方适当性管理的责任和义务。对在委托销售中违反适当性义务的行为,委托机构和代理销售机构应当依照法律法规及合同约定承担相应法律责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2332,
+      "end_char": 2420,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "chapter",
+      "text": "第三章 适当性规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2422,
+      "end_char": 2431,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十二条 金融机构应当对本机构发行和销售的投资型产品统一划分风险等级。产品风险等级由低到高至少包括一级至五级。涉及投资组合的产品,应当按照产品整体风险情况进行风险等级划分。发行机构与销售机构的产品风险评级结果不一致的,销售机构应当按照孰高原则采用并披露评级结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2433,
+      "end_char": 2565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "发行机构应当根据市场变化对产品风险等级进行动态管理,并将变动情况及时告知销售机构。销售机构应当及时披露风险等级变动情况,并根据产品及投资者信息变化情况,主动调整适当性匹配意见,及时告知投资者。在产品开放期,投资者可以自主决定是否持有存量产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2688,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十三条 金融机构划分投资型产品风险等级时应当综合考虑以下因素:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2690,
+      "end_char": 2723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)投资方向、投资范围、投资比例、投资资产的流动性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2725,
+      "end_char": 2752,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)到期时限、申购和赎回安排;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2754,
+      "end_char": 2770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)杠杆情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2772,
+      "end_char": 2780,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(四)结构复杂性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2782,
+      "end_char": 2791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)募集方式;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2793,
+      "end_char": 2801,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(六)发行人等相关主体的信用状况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2803,
+      "end_char": 2820,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(七)同类产品的过往业绩、历史波动程度;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2822,
+      "end_char": 2842,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(八)其他因素。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十四条 投资型产品风险评级工作应当由专门部门或者团队负责;金融机构可以委托符合相关资质要求的第三方专业机构为其风险评级工作提供服务,金融机构承担其产品风险评级的最终责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2854,
+      "end_char": 2941,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十五条 金融机构销售投资型产品时,应当了解投资者与适当性管理相关的必要信息,包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2943,
+      "end_char": 2986,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)自然人的姓名、职业、年龄、联系方式,法人或者其他组织的名称、性质、资质、联系方式等基本信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2988,
+      "end_char": 3037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)收入来源及数额、资产、负债等反映财务状况的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3039,
+      "end_char": 3066,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(三)投资相关的学习、工作经历经验等反映风险识别能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3098,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(四)投资目的、投资期限、期望收益等反映投资需求和意愿的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3100,
+      "end_char": 3131,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(五)风险偏好、可承受的损失等反映风险承受能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3133,
+      "end_char": 3160,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(六)法律法规、产品规则或者合同约定需要了解的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3162,
+      "end_char": 3188,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "当投资者为本办法第二十七条规定的专业投资者时,金融机构可以视情况收集其与适当性管理相关的必要信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3190,
+      "end_char": 3239,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十六条 投资型产品的投资者分为专业投资者与普通投资者,金融机构对两者进行差异化的适当性管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3241,
+      "end_char": 3289,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十七条 符合下列条件之一的是专业投资者:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3291,
+      "end_char": 3313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(一)银行业金融机构、保险业金融机构、金融控股公司、证券基金期货经营机构、私募基金管理人;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3315,
+      "end_char": 3360,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(二)上述机构面向投资者发行的金融产品,信托公司管理的资产服务信托、公益慈善信托;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3362,
+      "end_char": 3403,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(三)社会保障基金、企业年金、职业年金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3405,
+      "end_char": 3478,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "金融机构向专业投资者销售投资型产品时,可以视情况简化或者免于进行风险承受能力评估、开展可回溯管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3480,
+      "end_char": 3529,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十八条 专业投资者之外的投资者为普通投资者。金融机构必须严格按照本办法规定,对普通投资者进行风险承受能力评估,对其适合购买或者交易的产品作出判断,提出明确的适当性匹配意见,充分履行告知义务,及时进行风险提示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3531,
+      "end_char": 3637,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十九条 投资者风险承受能力评估等级由低到高应当至少包括一级至五级。投资者在同一金融机构进行风险承受能力评估单日不得超过两次,十二个月内累计不得超过八次。投资者风险承受能力评估等级与最近一次结果不一致的,金融机构应当对其进行提示,请投资者对变动情况再次确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3639,
+      "end_char": 3769,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "风险承受能力评估结果有效期原则上为十二个月,超过十二个月未评估或者投资者主动告知存在可能影响风险承受能力情况的,金融机构向投资者销售或者与其交易时,应当对其风险承受能力重新进行评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3771,
+      "end_char": 3862,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十条 金融机构销售私募产品的,应当按照相关法规及监管制度明确私募产品投资者认定标准,以有效方式对投资者资产规模、收入水平、投资经验、风险承受能力等进行评估,并以非公开方式销售。不得通过拆分产品份额或者收(受)益权等方式变相降低投资门槛,不得通过公共传播媒介、金融机构营业网点、官方网站、互联网应用程序(APP)或者其他方式向不特定对象宣传推介私募产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3864,
+      "end_char": 4042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十一条 金融机构应当严格履行信息披露义务。投资型产品销售前,还应当使用便于接受和理解的方式向普通投资者告知以下信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4044,
+      "end_char": 4104,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(一)产品的基本信息,特别是产品类型、产品管理人、投资范围及比例、募集方式、收益分配方案等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4106,
+      "end_char": 4152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(二)产品的风险等级,以及存续期内风险等级可能会进行调整的情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4154,
+      "end_char": 4186,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(三)产品的相关风险,重点是本金亏损可能;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4188,
+      "end_char": 4209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(四)购买产品需要支付的相关费用或者费率;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4211,
+      "end_char": 4232,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "(五)本办法规定的适当性匹配意见;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4234,
+      "end_char": 4251,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "(六)其他应当告知的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4253,
+      "end_char": 4266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "产品存续期内,金融机构还应当按照相关规定或者协议约定,及时、准确、完整披露产品投资运作情况、杠杆水平、风险状况、可能对投资者权益产生重大影响的风险事件等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4268,
+      "end_char": 4347,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十二条 金融机构销售保险产品的,应当综合考虑以下因素,对保险产品进行分类分级:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4349,
+      "end_char": 4390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(一)保险产品类型;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4392,
+      "end_char": 4402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(二)产品保障责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4404,
+      "end_char": 4414,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(三)保单利益是否确定;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4416,
+      "end_char": 4428,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(四)其他因素。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4430,
+      "end_char": 4438,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第三十三条 金融机构销售保险产品的,应当加强对销售人员、销售行为、销售渠道的管理,建立保险销售资质分级管理体系,以销售人员的保险知识、合规记录、销售履历等为主要标准,对其进行分级,并与保险产品分级管理制度相衔接,区分销售资质实行差别授权,明确不同资质可以销售的保险产品类别。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4440,
+      "end_char": 4577,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "article",
+      "text": "第三十四条 金融机构应当根据保险产品特征,了解投保人与适当性管理相关的必要信息,包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4579,
+      "end_char": 4622,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(一)自然人的姓名、职业、年龄等基本信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4624,
+      "end_char": 4645,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(二)保险保障需求、产品期限需求、已购买补偿损失为目的的同类险种的情况等信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4647,
+      "end_char": 4686,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(三)收入、资产等反映保费承担能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4688,
+      "end_char": 4709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(四)风险偏好、可承受的损失等反映风险承受能力的信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4711,
+      "end_char": 4738,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(五)法律法规、产品规则或者合同约定应当了解的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4740,
+      "end_char": 4766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "article",
+      "text": "第三十五条 金融机构应当在了解投保人相关信息的基础上,对投保人进行需求分析及财务支付水平评估,提出明确的适当性匹配意见,向投保人提供适当的保险产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4768,
+      "end_char": 4842,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第三十六条 金融机构销售投资连结型保险等可能导致本金损失产品的,还应当按照本章关于投资型产品的相关要求,开展产品风险评级和投保人风险承受能力评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4844,
+      "end_char": 4917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "article",
+      "text": "第三十七条 金融机构销售保险产品时,应当根据产品特征,使用便于接受和理解的方式向投保人告知以下信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4919,
+      "end_char": 4969,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(一)产品的基本信息,包括产品名称、保障范围、保险期限、交费期限、赔偿限额、索赔程序、保单现金价值、续保条件、减轻或者免除保险人责任的条款等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4971,
+      "end_char": 5042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(二)保单利益的不确定性、可能导致保费损失或者保单利益不及预期的事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5044,
+      "end_char": 5079,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(三)犹豫期及投保人在犹豫期内的权利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5081,
+      "end_char": 5100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(四)退保可能遭受的损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5102,
+      "end_char": 5115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "(五)需要投保人支付的保费总额、保单初始费用、保单管理费等各项费用;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5117,
+      "end_char": 5151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "(六)本办法规定的适当性匹配意见;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5153,
+      "end_char": 5170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(七)其他应当告知的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5172,
+      "end_char": 5185,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十八条 保险合同订立前,金融机构判断投保人与保险产品不具备适当性的,应当建议投保人终止投保。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5187,
+      "end_char": 5235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "投保人不接受终止投保建议,仍然要求订立保险合同的,金融机构应当充分说明有关风险,并书面确认是投保人基于充分了解产品信息后的自主选择。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5237,
+      "end_char": 5303,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "article",
+      "text": "第三十九条 金融机构销售分红型、万能型、投资连结型、变额型等保单利益不确定的人身保险产品,存在以下情况之一的,应当在取得投保人签名确认的投保声明后方可承保:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5305,
+      "end_char": 5383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(一)趸交保费超过投保人家庭年收入的四倍;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5385,
+      "end_char": 5406,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "(二)年期交保费超过投保人家庭年收入的百分之二十;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5408,
+      "end_char": 5433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(三)保费交费年限与投保人年龄数字之和达到或者超过七十五;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5435,
+      "end_char": 5464,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "(四)保费额度大于或者等于投保人保费预算的百分之一百五十。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5466,
+      "end_char": 5495,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "在投保声明中,投保人应当表明投保时了解保险产品情况,并自愿承担保单利益不确定的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5497,
+      "end_char": 5539,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "article",
+      "text": "第四十条 销售财产保险产品、一年期以下人身保险产品的,可以免于开展投保人需求及财务支付水平评估,按需收集投保人、保险标的等相关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5541,
+      "end_char": 5607,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "团体保险可以免于开展投保人需求及财务支付水平评估;涉及可能导致本金损失产品的团体保险,应当对拟交纳保费的自然人开展风险承受能力评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5609,
+      "end_char": 5675,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "chapter",
+      "text": "第四章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5677,
+      "end_char": 5685,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "article",
+      "text": "第四十一条 国家金融监督管理总局及其派出机构依据相关法律法规和本办法的规定,对金融机构履行适当性义务实施监督管理,可以依法开展非现场监管、现场检查、现场调查等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5687,
+      "end_char": 5767,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局及其派出机构针对涉嫌违反适当性管理规定的事项,可以依据相关法律法规及监管制度,对与金融机构合作的第三方机构和个人开展调查,并加强与其他监管部门的监管协作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5769,
+      "end_char": 5856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "article",
+      "text": "第四十二条 金融机构违反适当性管理相关规定的,国家金融监督管理总局及其派出机构可以按照相关法律法规及监管制度,对机构及责任人员采取监管措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5858,
+      "end_char": 5928,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "article",
+      "text": "第四十三条 金融机构及相关责任人员违反本办法规定,情节严重或者造成严重后果的,由国家金融监督管理总局及其派出机构依据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》等法律法规进行行政处罚;法律法规没有规定,但违反本办法的,国家金融监督管理总局及其派出机构可以视情况予以警告、通报批评、一万元以上十万元以下罚款。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5930,
+      "end_char": 6104,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第四十四条 国家金融监督管理总局及其派出机构将金融机构产品适当性管理情况,纳入年度金融消费者权益保护监管评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6106,
+      "end_char": 6161,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "article",
+      "text": "第四十五条 中国银行业协会、中国信托业协会、中国保险行业协会、中国保险资产管理业协会等行业自律组织应当依法依规建立健全行业适当性管理自律规范,对金融机构履行适当性义务进行自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6163,
+      "end_char": 6253,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6255,
+      "end_char": 6261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第四十六条 本办法所称“以上”“以下”均含本数。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6263,
+      "end_char": 6287,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "article",
+      "text": "第四十七条 保险代理机构、保险经纪人适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6289,
+      "end_char": 6313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "article",
+      "text": "第四十八条 本办法由国家金融监督管理总局负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6315,
+      "end_char": 6340,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第四十九条 本办法自2026年2月1日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6342,
+      "end_char": 6365,
+      "region": "body"
+    }
+  ],
   "normalized_text": "金融机构产品适当性管理办法\n\n第一章 总则\n\n第一条 为规范金融机构产品适当性管理,保护金融消费者合法权益,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中华人民共和国信托法》等法律法规,制定本办法。\n\n第二条 本办法所称适当性管理,是指金融机构根据产品的基本属性、风险特征等,结合客户金融需求、财务状况、风险承受能力等因素,开展识别、提示、匹配、销售、交易等活动。\n\n第三条 金融机构发行或者销售、交易的收益具有不确定性且可能导致本金损失的投资型产品,以及保险产品,其适当性管理适用本办法。\n\n金融机构开展银行间市场业务,按照国务院金融管理部门关于银行间市场的有关规定执行,销售证券基金期货经营机构发行的投资型产品,按照国务院金融管理部门关于证券基金期货投资者适当性的有关规定执行。\n\n本办法所称“金融机构”是指国家金融监督管理总局监管的持有金融牌照的金融机构。\n\n第四条 金融机构应当依法依规、勤勉尽责、审慎履职,对所销售或者交易的产品承担适当性管理主体责任,将适当的产品通过适当的渠道销售或者提供给适合的客户。\n\n第五条 客户应当在了解产品,听取金融机构适当性匹配意见的基础上,根据自身情况自主选择、审慎决策,并承担风险。\n\n金融机构的适当性匹配意见不表明其对产品的风险及收益作出实质性判断或者保证。\n\n第二章 基本规则\n\n第六条 金融机构应当建立健全适当性管理制度,明确适当性管理的具体依据、标准、方法和流程等。\n\n第七条 金融机构应当具备符合适当性管理要求的信息系统等设施,保障网络和信息系统安全、高效、可持续服务,保障数据安全。对不符合适当性管理要求的,信息系统应当具备识别、提示、限制交易等功能。\n\n第八条 金融机构在设计开发产品时,应当充分考虑目标客户群体需求,开展消费者权益保护审查。\n\n第九条 金融机构应当清晰界定产品的属性特征、风险水平、权利义务关系和适合的客户范围。\n\n第十条 金融机构应当在合理范围内收集客户信息,评估客户情况。\n\n客户应当遵守诚实信用原则,真实、准确、完整地提供购买产品所必需的信息。客户拒绝按照上述要求提供信息的,金融机构可以拒绝向其销售或者与其交易该产品。\n\n金融机构应当履行客户信息保护义务,确保客户信息安全。\n\n第十一条 金融机构在销售、交易特定产品或者开展特定市场业务时,应当按照制度规定的准入要求,明确客户资格审查标准、流程,严格开展客户资格审查。\n\n第十二条 除本办法第三十八条规定的情形外,金融机构不得向客户销售不具备适当性的产品。\n\n具有下列情形之一的,应当认定客户与相关产品不具备适当性:\n\n(一)产品风险等级高于客户风险承受能力的;\n\n(二)购买产品所需资金与客户财务支付水平明显不匹配的;\n\n(三)其他应当认定客户与产品不具备适当性的情形。\n\n第十三条 金融机构在推介、销售或者交易过程中,禁止下列行为:\n\n(一)代替客户进行评估,进行不当提示,先销售或者交易后评估,或者通过其他形式影响评估结果真实性、有效性;\n\n(二)对客户进行告知、风险提示时,内容存在虚假、误导或者重大遗漏,包括但不限于混淆存款、理财、基金、信托、保险等产品,违规承诺保本保收益,夸大产品收益或者保障范围等;\n\n(三)主动推介风险等级高于客户风险承受能力的产品,欺骗、误导客户购买或者交易不具备适当性的产品;\n\n(四)通过操纵业绩或者不当展示等方式误导或者诱导客户购买有关产品;\n\n(五)其他违反适当性要求,损害客户合法权益的行为。\n\n第十四条 金融机构通过互联网等线上方式销售或者交易产品的,应当将适当性管理嵌入流程,充分履行适当性义务,保障客户的知情权、自主选择权等合法权益。\n\n第十五条 金融机构与第三方机构合作开展营销的,应当严格履行营销管理主体责任,加强对第三方机构的监督管理,确保营销内容、方式合法合规。\n\n第十六条 金融机构应当强化销售人员资质管理,确保销售人员具备相应的产品销售资质。\n\n金融机构应当对销售人员持续开展培训,确保销售人员充分了解所销售或者交易产品的属性特征及风险水平。\n\n金融机构应当构建科学合理的销售人员激励约束机制,考核标准应当包括但不限于销售行为和程序的合规性、客户投诉情况等,不得以销售业绩作为唯一考核指标。\n\n第十七条 金融机构应当客观完整地记录适当性管理的重点环节,妥善保存相关信息资料,包括但不限于产品评级结果、客户评估结果、告知提示资料、录音录像资料等,确保适当性管理过程可回溯。相关资料保存期限不得低于机构与客户合同关系终止后五年,国务院金融管理部门对保存期限另有规定的,从其规定。\n\n第十八条 金融机构向六十五周岁以上的客户销售或者与其交易高风险产品的,应当履行特别的注意义务,可以包括制定专门的销售或者交易程序、追加了解相关信息、强化告知和风险提示、给予更多考虑时间、及时进行回访等。通过互联网等线上方式销售或者交易的,流程设计应当具备适老性、易用性和安全性。\n\n第十九条 金融机构不得向无民事行为能力人销售或者与其交易产品。经法定代理人同意,可以向限制民事行为能力人销售或者与其交易低风险产品。\n\n第二十条 金融机构应当及时、妥善处理适当性相关投诉,积极主动与客户协商解决矛盾纠纷,在协商不成的情况下,通过调解、仲裁、诉讼等方式促进矛盾纠纷化解。\n\n第二十一条 金融机构委托其他机构代理销售的,应当确认代理销售机构具备销售相关产品的资格及落实适当性义务的人员、内控制度、技术设备等条件。委托机构应当提供相关产品的适当性管理标准和要求、产品分类分级考虑因素等信息。代理销售机构应当履行客户评估、适当性匹配等适当性义务。\n\n委托机构和代理销售机构应当在委托销售合同中明确双方适当性管理的责任和义务。对在委托销售中违反适当性义务的行为,委托机构和代理销售机构应当依照法律法规及合同约定承担相应法律责任。\n\n第三章 适当性规则\n\n第二十二条 金融机构应当对本机构发行和销售的投资型产品统一划分风险等级。产品风险等级由低到高至少包括一级至五级。涉及投资组合的产品,应当按照产品整体风险情况进行风险等级划分。发行机构与销售机构的产品风险评级结果不一致的,销售机构应当按照孰高原则采用并披露评级结果。\n\n发行机构应当根据市场变化对产品风险等级进行动态管理,并将变动情况及时告知销售机构。销售机构应当及时披露风险等级变动情况,并根据产品及投资者信息变化情况,主动调整适当性匹配意见,及时告知投资者。在产品开放期,投资者可以自主决定是否持有存量产品。\n\n第二十三条 金融机构划分投资型产品风险等级时应当综合考虑以下因素:\n\n(一)投资方向、投资范围、投资比例、投资资产的流动性;\n\n(二)到期时限、申购和赎回安排;\n\n(三)杠杆情况;\n\n(四)结构复杂性;\n\n(五)募集方式;\n\n(六)发行人等相关主体的信用状况;\n\n(七)同类产品的过往业绩、历史波动程度;\n\n(八)其他因素。\n\n第二十四条 投资型产品风险评级工作应当由专门部门或者团队负责;金融机构可以委托符合相关资质要求的第三方专业机构为其风险评级工作提供服务,金融机构承担其产品风险评级的最终责任。\n\n第二十五条 金融机构销售投资型产品时,应当了解投资者与适当性管理相关的必要信息,包括:\n\n(一)自然人的姓名、职业、年龄、联系方式,法人或者其他组织的名称、性质、资质、联系方式等基本信息;\n\n(二)收入来源及数额、资产、负债等反映财务状况的信息;\n\n(三)投资相关的学习、工作经历经验等反映风险识别能力的信息;\n\n(四)投资目的、投资期限、期望收益等反映投资需求和意愿的信息;\n\n(五)风险偏好、可承受的损失等反映风险承受能力的信息;\n\n(六)法律法规、产品规则或者合同约定需要了解的信息。\n\n当投资者为本办法第二十七条规定的专业投资者时,金融机构可以视情况收集其与适当性管理相关的必要信息。\n\n第二十六条 投资型产品的投资者分为专业投资者与普通投资者,金融机构对两者进行差异化的适当性管理。\n\n第二十七条 符合下列条件之一的是专业投资者:\n\n(一)银行业金融机构、保险业金融机构、金融控股公司、证券基金期货经营机构、私募基金管理人;\n\n(二)上述机构面向投资者发行的金融产品,信托公司管理的资产服务信托、公益慈善信托;\n\n(三)社会保障基金、企业年金、职业年金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII)。\n\n金融机构向专业投资者销售投资型产品时,可以视情况简化或者免于进行风险承受能力评估、开展可回溯管理。\n\n第二十八条 专业投资者之外的投资者为普通投资者。金融机构必须严格按照本办法规定,对普通投资者进行风险承受能力评估,对其适合购买或者交易的产品作出判断,提出明确的适当性匹配意见,充分履行告知义务,及时进行风险提示。\n\n第二十九条 投资者风险承受能力评估等级由低到高应当至少包括一级至五级。投资者在同一金融机构进行风险承受能力评估单日不得超过两次,十二个月内累计不得超过八次。投资者风险承受能力评估等级与最近一次结果不一致的,金融机构应当对其进行提示,请投资者对变动情况再次确认。\n\n风险承受能力评估结果有效期原则上为十二个月,超过十二个月未评估或者投资者主动告知存在可能影响风险承受能力情况的,金融机构向投资者销售或者与其交易时,应当对其风险承受能力重新进行评估。\n\n第三十条 金融机构销售私募产品的,应当按照相关法规及监管制度明确私募产品投资者认定标准,以有效方式对投资者资产规模、收入水平、投资经验、风险承受能力等进行评估,并以非公开方式销售。不得通过拆分产品份额或者收(受)益权等方式变相降低投资门槛,不得通过公共传播媒介、金融机构营业网点、官方网站、互联网应用程序(APP)或者其他方式向不特定对象宣传推介私募产品。\n\n第三十一条 金融机构应当严格履行信息披露义务。投资型产品销售前,还应当使用便于接受和理解的方式向普通投资者告知以下信息:\n\n(一)产品的基本信息,特别是产品类型、产品管理人、投资范围及比例、募集方式、收益分配方案等;\n\n(二)产品的风险等级,以及存续期内风险等级可能会进行调整的情况;\n\n(三)产品的相关风险,重点是本金亏损可能;\n\n(四)购买产品需要支付的相关费用或者费率;\n\n(五)本办法规定的适当性匹配意见;\n\n(六)其他应当告知的信息。\n\n产品存续期内,金融机构还应当按照相关规定或者协议约定,及时、准确、完整披露产品投资运作情况、杠杆水平、风险状况、可能对投资者权益产生重大影响的风险事件等信息。\n\n第三十二条 金融机构销售保险产品的,应当综合考虑以下因素,对保险产品进行分类分级:\n\n(一)保险产品类型;\n\n(二)产品保障责任;\n\n(三)保单利益是否确定;\n\n(四)其他因素。\n\n第三十三条 金融机构销售保险产品的,应当加强对销售人员、销售行为、销售渠道的管理,建立保险销售资质分级管理体系,以销售人员的保险知识、合规记录、销售履历等为主要标准,对其进行分级,并与保险产品分级管理制度相衔接,区分销售资质实行差别授权,明确不同资质可以销售的保险产品类别。\n\n第三十四条 金融机构应当根据保险产品特征,了解投保人与适当性管理相关的必要信息,包括:\n\n(一)自然人的姓名、职业、年龄等基本信息;\n\n(二)保险保障需求、产品期限需求、已购买补偿损失为目的的同类险种的情况等信息;\n\n(三)收入、资产等反映保费承担能力的信息;\n\n(四)风险偏好、可承受的损失等反映风险承受能力的信息;\n\n(五)法律法规、产品规则或者合同约定应当了解的信息。\n\n第三十五条 金融机构应当在了解投保人相关信息的基础上,对投保人进行需求分析及财务支付水平评估,提出明确的适当性匹配意见,向投保人提供适当的保险产品。\n\n第三十六条 金融机构销售投资连结型保险等可能导致本金损失产品的,还应当按照本章关于投资型产品的相关要求,开展产品风险评级和投保人风险承受能力评估。\n\n第三十七条 金融机构销售保险产品时,应当根据产品特征,使用便于接受和理解的方式向投保人告知以下信息:\n\n(一)产品的基本信息,包括产品名称、保障范围、保险期限、交费期限、赔偿限额、索赔程序、保单现金价值、续保条件、减轻或者免除保险人责任的条款等;\n\n(二)保单利益的不确定性、可能导致保费损失或者保单利益不及预期的事项;\n\n(三)犹豫期及投保人在犹豫期内的权利;\n\n(四)退保可能遭受的损失;\n\n(五)需要投保人支付的保费总额、保单初始费用、保单管理费等各项费用;\n\n(六)本办法规定的适当性匹配意见;\n\n(七)其他应当告知的信息。\n\n第三十八条 保险合同订立前,金融机构判断投保人与保险产品不具备适当性的,应当建议投保人终止投保。\n\n投保人不接受终止投保建议,仍然要求订立保险合同的,金融机构应当充分说明有关风险,并书面确认是投保人基于充分了解产品信息后的自主选择。\n\n第三十九条 金融机构销售分红型、万能型、投资连结型、变额型等保单利益不确定的人身保险产品,存在以下情况之一的,应当在取得投保人签名确认的投保声明后方可承保:\n\n(一)趸交保费超过投保人家庭年收入的四倍;\n\n(二)年期交保费超过投保人家庭年收入的百分之二十;\n\n(三)保费交费年限与投保人年龄数字之和达到或者超过七十五;\n\n(四)保费额度大于或者等于投保人保费预算的百分之一百五十。\n\n在投保声明中,投保人应当表明投保时了解保险产品情况,并自愿承担保单利益不确定的风险。\n\n第四十条 销售财产保险产品、一年期以下人身保险产品的,可以免于开展投保人需求及财务支付水平评估,按需收集投保人、保险标的等相关信息。\n\n团体保险可以免于开展投保人需求及财务支付水平评估;涉及可能导致本金损失产品的团体保险,应当对拟交纳保费的自然人开展风险承受能力评估。\n\n第四章 监督管理\n\n第四十一条 国家金融监督管理总局及其派出机构依据相关法律法规和本办法的规定,对金融机构履行适当性义务实施监督管理,可以依法开展非现场监管、现场检查、现场调查等。\n\n国家金融监督管理总局及其派出机构针对涉嫌违反适当性管理规定的事项,可以依据相关法律法规及监管制度,对与金融机构合作的第三方机构和个人开展调查,并加强与其他监管部门的监管协作。\n\n第四十二条 金融机构违反适当性管理相关规定的,国家金融监督管理总局及其派出机构可以按照相关法律法规及监管制度,对机构及责任人员采取监管措施。\n\n第四十三条 金融机构及相关责任人员违反本办法规定,情节严重或者造成严重后果的,由国家金融监督管理总局及其派出机构依据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》等法律法规进行行政处罚;法律法规没有规定,但违反本办法的,国家金融监督管理总局及其派出机构可以视情况予以警告、通报批评、一万元以上十万元以下罚款。\n\n第四十四条 国家金融监督管理总局及其派出机构将金融机构产品适当性管理情况,纳入年度金融消费者权益保护监管评价。\n\n第四十五条 中国银行业协会、中国信托业协会、中国保险行业协会、中国保险资产管理业协会等行业自律组织应当依法依规建立健全行业适当性管理自律规范,对金融机构履行适当性义务进行自律管理。\n\n第五章 附则\n\n第四十六条 本办法所称“以上”“以下”均含本数。\n\n第四十七条 保险代理机构、保险经纪人适用本办法。\n\n第四十八条 本办法由国家金融监督管理总局负责解释。\n\n第四十九条 本办法自2026年2月1日起施行。",
   "blocks": [
     {
@@ -196,7 +3191,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 13,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -204,7 +3206,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 15,
+      "end_char": 21,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -212,7 +3221,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 23,
+      "end_char": 123,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -220,7 +3236,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 125,
+      "end_char": 206,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -228,7 +3251,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 208,
+      "end_char": 269,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -236,7 +3266,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 271,
+      "end_char": 365,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -244,7 +3281,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 367,
+      "end_char": 405,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -252,7 +3296,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 407,
+      "end_char": 481,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -260,7 +3311,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 483,
+      "end_char": 537,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -268,7 +3326,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 539,
+      "end_char": 576,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -276,7 +3341,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 578,
+      "end_char": 586,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -284,7 +3356,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 588,
+      "end_char": 633,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -292,7 +3371,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 635,
+      "end_char": 728,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -300,7 +3386,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 730,
+      "end_char": 774,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -308,7 +3401,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 776,
+      "end_char": 818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -316,7 +3416,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 850,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -324,7 +3431,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 852,
+      "end_char": 925,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -332,7 +3446,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 927,
+      "end_char": 953,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -340,7 +3461,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 955,
+      "end_char": 1025,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -348,7 +3476,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1027,
+      "end_char": 1069,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -356,7 +3491,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1071,
+      "end_char": 1099,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -364,7 +3506,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1101,
+      "end_char": 1122,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -372,7 +3521,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1124,
+      "end_char": 1151,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -380,7 +3536,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1153,
+      "end_char": 1177,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -388,7 +3551,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1179,
+      "end_char": 1209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -396,7 +3566,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1211,
+      "end_char": 1263,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -404,7 +3581,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1265,
+      "end_char": 1348,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -412,7 +3596,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1350,
+      "end_char": 1398,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -420,7 +3611,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1400,
+      "end_char": 1433,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -428,7 +3626,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1435,
+      "end_char": 1460,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -436,7 +3641,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1462,
+      "end_char": 1534,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -444,7 +3656,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1536,
+      "end_char": 1602,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -452,7 +3671,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1604,
+      "end_char": 1644,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -460,7 +3686,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1646,
+      "end_char": 1694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -468,7 +3701,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1768,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -476,7 +3716,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1770,
+      "end_char": 1910,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -484,7 +3731,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1912,
+      "end_char": 2051,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -492,7 +3746,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2053,
+      "end_char": 2119,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -500,7 +3761,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2121,
+      "end_char": 2195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -508,7 +3776,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2197,
+      "end_char": 2330,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -516,7 +3791,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2332,
+      "end_char": 2420,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -524,7 +3806,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2422,
+      "end_char": 2431,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -532,7 +3821,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2433,
+      "end_char": 2565,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -540,7 +3836,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2688,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -548,7 +3851,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2690,
+      "end_char": 2723,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -556,7 +3866,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2725,
+      "end_char": 2752,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -564,7 +3881,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2754,
+      "end_char": 2770,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -572,7 +3896,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2772,
+      "end_char": 2780,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -580,7 +3911,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2782,
+      "end_char": 2791,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -588,7 +3926,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2793,
+      "end_char": 2801,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -596,7 +3941,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2803,
+      "end_char": 2820,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -604,7 +3956,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2822,
+      "end_char": 2842,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -612,7 +3971,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -620,7 +3986,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2854,
+      "end_char": 2941,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -628,7 +4001,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2943,
+      "end_char": 2986,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -636,7 +4016,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2988,
+      "end_char": 3037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -644,7 +4031,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3039,
+      "end_char": 3066,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -652,7 +4046,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3098,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -660,7 +4061,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3100,
+      "end_char": 3131,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -668,7 +4076,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3133,
+      "end_char": 3160,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -676,7 +4091,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3162,
+      "end_char": 3188,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -684,7 +4106,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3190,
+      "end_char": 3239,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -692,7 +4121,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3241,
+      "end_char": 3289,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -700,7 +4136,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3291,
+      "end_char": 3313,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -708,7 +4151,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3315,
+      "end_char": 3360,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -716,7 +4166,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3362,
+      "end_char": 3403,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -724,7 +4181,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3405,
+      "end_char": 3478,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -732,7 +4196,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3480,
+      "end_char": 3529,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -740,7 +4211,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3531,
+      "end_char": 3637,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -748,7 +4226,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3639,
+      "end_char": 3769,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -756,7 +4241,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3771,
+      "end_char": 3862,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -764,7 +4256,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3864,
+      "end_char": 4042,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -772,7 +4271,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4044,
+      "end_char": 4104,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -780,7 +4286,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4106,
+      "end_char": 4152,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -788,7 +4301,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4154,
+      "end_char": 4186,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -796,7 +4316,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4188,
+      "end_char": 4209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -804,7 +4331,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4211,
+      "end_char": 4232,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -812,7 +4346,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4234,
+      "end_char": 4251,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -820,7 +4361,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4253,
+      "end_char": 4266,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -828,7 +4376,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4268,
+      "end_char": 4347,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -836,7 +4391,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4349,
+      "end_char": 4390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -844,7 +4406,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4392,
+      "end_char": 4402,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -852,7 +4421,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4404,
+      "end_char": 4414,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -860,7 +4436,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4416,
+      "end_char": 4428,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -868,7 +4451,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4430,
+      "end_char": 4438,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -876,7 +4466,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4440,
+      "end_char": 4577,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -884,7 +4481,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4579,
+      "end_char": 4622,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -892,7 +4496,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4624,
+      "end_char": 4645,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -900,7 +4511,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4647,
+      "end_char": 4686,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -908,7 +4526,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4688,
+      "end_char": 4709,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -916,7 +4541,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4711,
+      "end_char": 4738,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -924,7 +4556,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4740,
+      "end_char": 4766,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -932,7 +4571,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4768,
+      "end_char": 4842,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -940,7 +4586,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4844,
+      "end_char": 4917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -948,7 +4601,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4919,
+      "end_char": 4969,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -956,7 +4616,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4971,
+      "end_char": 5042,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -964,7 +4631,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5044,
+      "end_char": 5079,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -972,7 +4646,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5081,
+      "end_char": 5100,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -980,7 +4661,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5102,
+      "end_char": 5115,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -988,7 +4676,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5117,
+      "end_char": 5151,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -996,7 +4691,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5153,
+      "end_char": 5170,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1004,7 +4706,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5172,
+      "end_char": 5185,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1012,7 +4721,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5187,
+      "end_char": 5235,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1020,7 +4736,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5237,
+      "end_char": 5303,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1028,7 +4751,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5305,
+      "end_char": 5383,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1036,7 +4766,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5385,
+      "end_char": 5406,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1044,7 +4781,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5408,
+      "end_char": 5433,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1052,7 +4796,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5435,
+      "end_char": 5464,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1060,7 +4811,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5466,
+      "end_char": 5495,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1068,7 +4826,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5497,
+      "end_char": 5539,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1076,7 +4841,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5541,
+      "end_char": 5607,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1084,7 +4856,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5609,
+      "end_char": 5675,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1092,7 +4871,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5677,
+      "end_char": 5685,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1100,7 +4886,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5687,
+      "end_char": 5767,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1108,7 +4901,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5769,
+      "end_char": 5856,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1116,7 +4916,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5858,
+      "end_char": 5928,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1124,7 +4931,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5930,
+      "end_char": 6104,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1132,7 +4946,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6106,
+      "end_char": 6161,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1140,7 +4961,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6163,
+      "end_char": 6253,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1148,7 +4976,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6255,
+      "end_char": 6261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1156,7 +4991,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6263,
+      "end_char": 6287,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1164,7 +5006,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6289,
+      "end_char": 6313,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1172,7 +5021,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6315,
+      "end_char": 6340,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1180,7 +5036,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6342,
+      "end_char": 6365,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

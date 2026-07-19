@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司场外期权业务标的管理须知.docx",
   "source_type": "docx",
   "file_sha256": "ed8820ae4527554ba0bcafd134dd2c2daaca1dd67a067f4ecddb26596171b8da",
-  "content_sha256": "a0c72a8d4bd7eac03d376a0d515d4061a464b89799eb84261d115dea933d878b",
+  "content_sha256": "b2f7ae3dc158d8e8b3b67141a2271ea4e558fc52d41dda217d3d858d1c05bc0c",
   "metadata": {
     "document_title": "证券公司场外期权业务标的管理须知",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
     "clean_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
@@ -70,6 +70,711 @@
   },
   "original_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
   "clean_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
+  "clean_text_hash": "f8bc838d2095807b619d30649b2b7c626c366f16771840a4cb03dcc9d18b981e",
+  "structured_blocks_sha256": "94898c46fc3e8546930ca819923806ead456571601316480c02df61ac3f113e7",
+  "front_matter": [],
+  "body_blocks": [],
+  "appendices": [
+    {
+      "block_id": "b00001",
+      "block_type": "attachment",
+      "text": "附件2:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 4,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "document_title",
+      "text": "证券公司场外期权业务标的管理须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6,
+      "end_char": 22,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为做好场外期权业务标的管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 68,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "适用范围",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 70,
+      "end_char": 74,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司场外期权业务挂钩标的适用本须知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 76,
+      "end_char": 96,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "标的类别",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 98,
+      "end_char": 102,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "交易商可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的的场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 104,
+      "end_char": 143,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "筛选标准",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 145,
+      "end_char": 149,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 151,
+      "end_char": 204,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "场外期权业务境内股票股指标的,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 206,
+      "end_char": 230,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "guide_subheading",
+      "text": "(一)境内个股",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 232,
+      "end_char": 239,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "1、在沪深交易所定期调整公布的当期融资融券标的名单内;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 241,
+      "end_char": 268,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "2、协会认可的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 270,
+      "end_char": 282,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "guide_subheading",
+      "text": "(二)境内股票指数",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 284,
+      "end_char": 293,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "1、应为经权威机构认可,具有指数编制及发布权限的机构发布的指数;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 295,
+      "end_char": 327,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "2、指数具有可投资性且流动性良好,指数计算发布应由第三方机构独立管理;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 329,
+      "end_char": 364,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "3、协会认可的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 366,
+      "end_char": 378,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "标的使用",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 380,
+      "end_char": 384,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(一)交易商应结合自身业务定位和风险管理能力,制定相应的场外期权业务标的筛选标准和管理流程,持续动态管理交易标的。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 386,
+      "end_char": 443,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(二)交易商开展场外期权业务挂钩个股及指数标的不得超出协会规定的范围。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 445,
+      "end_char": 480,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(三)协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务挂钩标的管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 482,
+      "end_char": 530,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(四)一级交易商对二级交易商挂钩标的范围等承担评估职责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 532,
+      "end_char": 560,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(五)对于超出标的范围的存续场外期权合约不得展期,且持有到期后不得新开该标的的合约;由于标的个股停牌等特殊情况无法按期了结的,应在标的个股复牌可交易后的二十个交易日内了结。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 562,
+      "end_char": 648,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "持续管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 650,
+      "end_char": 654,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "出现下列情形之一的,交易商不得新开和展期挂钩该标的的合约:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 656,
+      "end_char": 685,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "1、被交易所实行风险警示;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 687,
+      "end_char": 700,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "2、被交易所发布暂停上市或终止上市风险提示;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 702,
+      "end_char": 724,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "3、进入终止上市程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 726,
+      "end_char": 737,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "4、协会规定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 751,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "附件2:\n\n证券公司场外期权业务标的管理须知\n\n为做好场外期权业务标的管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。\n\n适用范围\n\n证券公司场外期权业务挂钩标的适用本须知。\n\n标的类别\n\n交易商可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的的场外期权业务。\n\n筛选标准\n\n挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。\n\n场外期权业务境内股票股指标的,应当符合下列条件:\n\n(一)境内个股\n\n1、在沪深交易所定期调整公布的当期融资融券标的名单内;\n\n2、协会认可的其他条件。\n\n(二)境内股票指数\n\n1、应为经权威机构认可,具有指数编制及发布权限的机构发布的指数;\n\n2、指数具有可投资性且流动性良好,指数计算发布应由第三方机构独立管理;\n\n3、协会认可的其他条件。\n\n标的使用\n\n(一)交易商应结合自身业务定位和风险管理能力,制定相应的场外期权业务标的筛选标准和管理流程,持续动态管理交易标的。\n\n(二)交易商开展场外期权业务挂钩个股及指数标的不得超出协会规定的范围。\n\n(三)协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务挂钩标的管理。\n\n(四)一级交易商对二级交易商挂钩标的范围等承担评估职责。\n\n(五)对于超出标的范围的存续场外期权合约不得展期,且持有到期后不得新开该标的的合约;由于标的个股停牌等特殊情况无法按期了结的,应在标的个股复牌可交易后的二十个交易日内了结。\n\n持续管理\n\n出现下列情形之一的,交易商不得新开和展期挂钩该标的的合约:\n\n1、被交易所实行风险警示;\n\n2、被交易所发布暂停上市或终止上市风险提示;\n\n3、进入终止上市程序;\n\n4、协会规定的其他情形。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "attachment",
+      "text": "附件2:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 4,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "document_title",
+      "text": "证券公司场外期权业务标的管理须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6,
+      "end_char": 22,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为做好场外期权业务标的管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 68,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "适用范围",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 70,
+      "end_char": 74,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司场外期权业务挂钩标的适用本须知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 76,
+      "end_char": 96,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "标的类别",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 98,
+      "end_char": 102,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "交易商可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的的场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 104,
+      "end_char": 143,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "筛选标准",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 145,
+      "end_char": 149,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 151,
+      "end_char": 204,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "场外期权业务境内股票股指标的,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 206,
+      "end_char": 230,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "guide_subheading",
+      "text": "(一)境内个股",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 232,
+      "end_char": 239,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "1、在沪深交易所定期调整公布的当期融资融券标的名单内;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 241,
+      "end_char": 268,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "2、协会认可的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 270,
+      "end_char": 282,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "guide_subheading",
+      "text": "(二)境内股票指数",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 284,
+      "end_char": 293,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "1、应为经权威机构认可,具有指数编制及发布权限的机构发布的指数;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 295,
+      "end_char": 327,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "2、指数具有可投资性且流动性良好,指数计算发布应由第三方机构独立管理;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 329,
+      "end_char": 364,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "3、协会认可的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 366,
+      "end_char": 378,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "标的使用",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 380,
+      "end_char": 384,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(一)交易商应结合自身业务定位和风险管理能力,制定相应的场外期权业务标的筛选标准和管理流程,持续动态管理交易标的。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 386,
+      "end_char": 443,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(二)交易商开展场外期权业务挂钩个股及指数标的不得超出协会规定的范围。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 445,
+      "end_char": 480,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(三)协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务挂钩标的管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 482,
+      "end_char": 530,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(四)一级交易商对二级交易商挂钩标的范围等承担评估职责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 532,
+      "end_char": 560,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(五)对于超出标的范围的存续场外期权合约不得展期,且持有到期后不得新开该标的的合约;由于标的个股停牌等特殊情况无法按期了结的,应在标的个股复牌可交易后的二十个交易日内了结。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 562,
+      "end_char": 648,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "持续管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 650,
+      "end_char": 654,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "出现下列情形之一的,交易商不得新开和展期挂钩该标的的合约:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 656,
+      "end_char": 685,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "1、被交易所实行风险警示;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 687,
+      "end_char": 700,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "2、被交易所发布暂停上市或终止上市风险提示;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 702,
+      "end_char": 724,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "3、进入终止上市程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 726,
+      "end_char": 737,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "4、协会规定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 751,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "附件2:\n\n证券公司场外期权业务标的管理须知\n\n为做好场外期权业务标的管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。\n\n适用范围\n\n证券公司场外期权业务挂钩标的适用本须知。\n\n标的类别\n\n交易商可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的的场外期权业务。\n\n筛选标准\n\n挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。\n\n场外期权业务境内股票股指标的,应当符合下列条件:\n\n(一)境内个股\n\n1、在沪深交易所定期调整公布的当期融资融券标的名单内;\n\n2、协会认可的其他条件。\n\n(二)境内股票指数\n\n1、应为经权威机构认可,具有指数编制及发布权限的机构发布的指数;\n\n2、指数具有可投资性且流动性良好,指数计算发布应由第三方机构独立管理;\n\n3、协会认可的其他条件。\n\n标的使用\n\n(一)交易商应结合自身业务定位和风险管理能力,制定相应的场外期权业务标的筛选标准和管理流程,持续动态管理交易标的。\n\n(二)交易商开展场外期权业务挂钩个股及指数标的不得超出协会规定的范围。\n\n(三)协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务挂钩标的管理。\n\n(四)一级交易商对二级交易商挂钩标的范围等承担评估职责。\n\n(五)对于超出标的范围的存续场外期权合约不得展期,且持有到期后不得新开该标的的合约;由于标的个股停牌等特殊情况无法按期了结的,应在标的个股复牌可交易后的二十个交易日内了结。\n\n持续管理\n\n出现下列情形之一的,交易商不得新开和展期挂钩该标的的合约:\n\n1、被交易所实行风险警示;\n\n2、被交易所发布暂停上市或终止上市风险提示;\n\n3、进入终止上市程序;\n\n4、协会规定的其他情形。",
   "blocks": [
     {
@@ -78,7 +783,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 4,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -86,7 +798,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 6,
+      "end_char": 22,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -94,7 +813,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 68,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -102,7 +828,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 70,
+      "end_char": 74,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -110,7 +843,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 76,
+      "end_char": 96,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -118,7 +858,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 98,
+      "end_char": 102,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -126,7 +873,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 104,
+      "end_char": 143,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -134,7 +888,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 145,
+      "end_char": 149,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -142,7 +903,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 151,
+      "end_char": 204,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -150,7 +918,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 206,
+      "end_char": 230,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -158,7 +933,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 232,
+      "end_char": 239,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -166,7 +948,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 241,
+      "end_char": 268,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -174,7 +963,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 270,
+      "end_char": 282,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -182,7 +978,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 284,
+      "end_char": 293,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -190,7 +993,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 295,
+      "end_char": 327,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -198,7 +1008,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 329,
+      "end_char": 364,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -206,7 +1023,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 366,
+      "end_char": 378,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -214,7 +1038,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 380,
+      "end_char": 384,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -222,7 +1053,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 386,
+      "end_char": 443,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -230,7 +1068,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 445,
+      "end_char": 480,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -238,7 +1083,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 482,
+      "end_char": 530,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -246,7 +1098,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 532,
+      "end_char": 560,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -254,7 +1113,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 562,
+      "end_char": 648,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -262,7 +1128,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 650,
+      "end_char": 654,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -270,7 +1143,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 656,
+      "end_char": 685,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -278,7 +1158,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 687,
+      "end_char": 700,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -286,7 +1173,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 702,
+      "end_char": 724,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -294,7 +1188,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 726,
+      "end_char": 737,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -302,7 +1203,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 751,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

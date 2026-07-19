@@ -4,14 +4,14 @@
   "file_path": "data/raw/监管文件/组合类保险资产管理产品实施细则.docx",
   "source_type": "docx",
   "file_sha256": "5190870a07c4f5b44e4adb289c093be6f92bed79d25657aca6d58bc54e1be58c",
-  "content_sha256": "9165cdd191f9b7f79c621027c565784b485ce61789d950708cf094f47b0c4ec5",
+  "content_sha256": "1bee397021ac73e034a10c5fb7f44954d06f93f2b927ab6edaffb373a25b1fdc",
   "metadata": {
     "document_title": "组合类保险资产管理产品实施细则",
     "issuing_authority": "中国银保监会办公厅（历史机构）",
     "document_number": "银保监办发〔2020〕85号",
     "publication_date": "2020-09-07",
     "effective_date": "2020-09-07",
-    "validity_status": "现行有效（部分条款经后续文件修改）",
+    "validity_status": "现行有效",
     "version": "",
     "document_title_source": "authoritative_catalog",
     "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=928237&generaltype=1&itemId=861",
@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "800467583c40d161d3a54212cfc4a42f56b674f6e9d86c7266db18d52fe35e36",
     "clean_text_sha256": "800467583c40d161d3a54212cfc4a42f56b674f6e9d86c7266db18d52fe35e36",
@@ -179,6 +179,3375 @@
   },
   "original_text_sha256": "800467583c40d161d3a54212cfc4a42f56b674f6e9d86c7266db18d52fe35e36",
   "clean_text_sha256": "800467583c40d161d3a54212cfc4a42f56b674f6e9d86c7266db18d52fe35e36",
+  "clean_text_hash": "5af82e175175aa38f659faea086ef81e251d632e5c37e98af8314c65806a5419",
+  "structured_blocks_sha256": "4b54ad99935ebf706bb3b9de0396efe1ff39ef3700779e7b8fc922d2073adb65",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "中国银保监会办公厅关于印发组合类保险资产管理产品实施细则等三个文件的通知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 36,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "各保险集团(控股)公司、保险公司、保险资产管理公司:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 38,
+      "end_char": 64,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "为规范保险资产管理产品业务发展,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,银保监会制定了《组合类保险资产管理产品实施细则》《债权投资计划实施细则》和《股权投资计划实施细则》。现印发给你们,请遵照执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 66,
+      "end_char": 219,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "2020年9月7日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 221,
+      "end_char": 230,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "document_title",
+      "text": "组合类保险资产管理产品实施细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 232,
+      "end_char": 247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第一条 为规范组合类保险资产管理产品业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 249,
+      "end_char": 375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第二条 本细则所称组合类保险资产管理产品(以下简称组合类产品),是指保险资产管理机构面向合格投资者非公开发行、以组合方式进行投资运作的保险资产管理产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 377,
+      "end_char": 453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条 保险资产管理机构开展组合类产品业务,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 455,
+      "end_char": 486,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)具有一年(含)以上受托投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 488,
+      "end_char": 507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)具备信用风险管理能力、股票投资管理能力和衍生品运用管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 509,
+      "end_char": 542,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(三)明确2名业务风险责任人,包括行政责任人和专业责任人,其履职要求等参照银保监会相关规定执行;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 544,
+      "end_char": 592,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(四)设立专门的组合类产品业务管理部门或专业团队,且该部门或专业团队人员不少于5名,其中产品研发设计和管理等相关人员应当具备必要的专业知识、行业经验和管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 594,
+      "end_char": 674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(五)建立健全组合类产品业务制度,明确产品设计、投资决策、授权管理等相关流程,制定并实施相应的风险管理政策和程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 676,
+      "end_char": 733,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(六)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 735,
+      "end_char": 777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(七)银保监会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 779,
+      "end_char": 794,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第四条 组合类产品可以投资以下资产:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 796,
+      "end_char": 814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(一)银行存款、大额存单、同业存单;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 816,
+      "end_char": 834,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(二)债券等标准化债权类资产;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 836,
+      "end_char": 851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(三)上市或挂牌交易的股票;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 853,
+      "end_char": 867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(四)公募证券投资基金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 869,
+      "end_char": 881,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(五)保险资产管理产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 883,
+      "end_char": 895,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(六)资产支持计划和保险私募基金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 897,
+      "end_char": 914,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(七)银保监会认可的其他资产。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 916,
+      "end_char": 931,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "保险资金投资的组合类产品,应当符合保险资金运用的相关规定。非保险资金投资的组合类产品投资范围由合同约定,应当符合《产品办法》相关规定。组合类产品参与衍生品交易,仅限于对冲或规避风险,不得用于投机目的。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 933,
+      "end_char": 1033,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第五条 组合类产品所投资资产的集中度应当符合《指导意见》相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第六条 保险资产管理机构对组合类产品应当实行净值化管理。金融资产的估值和产品净值的生成应当符合《企业会计准则》《指导意见》等相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1070,
+      "end_char": 1137,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "货币市场类组合类产品在严格监管的前提下,暂按照“摊余成本+影子定价”方法进行估值。现金管理类理财产品规则施行后,货币市场类组合类产品的估值方法和投资管理等参照同类产品的要求执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1139,
+      "end_char": 1228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构和代理销售机构应当向投资者充分披露信息和揭示风险,销售过程中以及产品销售材料不得有下列情形:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1230,
+      "end_char": 1288,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)虚假记载、误导性陈述或重大遗漏;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1290,
+      "end_char": 1309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)误导投资者购买与其风险承受能力不相匹配的组合类产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1311,
+      "end_char": 1340,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(三)预测投资业绩或宣传产品预期收益率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1342,
+      "end_char": 1362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(四)向投资者违规承诺收益和承担损失;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1364,
+      "end_char": 1383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(五)夸大或者片面宣传管理人、投资经理及其管理的组合类产品的过往业绩;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1385,
+      "end_char": 1420,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(六)恶意诋毁、贬低其他机构或产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1422,
+      "end_char": 1440,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(七)银保监会规定禁止的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1442,
+      "end_char": 1459,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构和代理销售机构向自然人投资者销售组合类产品,应当参照《商业银行理财业务监督管理办法》等制度对同类产品的销售要求进行管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1461,
+      "end_char": 1529,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第八条 保险资产管理机构应当于组合类产品设立前2个工作日在中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行产品登记,取得登记编码。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1531,
+      "end_char": 1618,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "登记交易平台仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1620,
+      "end_char": 1664,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第九条 保险资产管理机构应当按月向登记交易平台报送组合类产品的基本信息、投资明细、产品资产负债表和投资者信息,并按要求定期报送产品募集信息、分红信息、终止信息、风险准备金计提和使用情况等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1666,
+      "end_char": 1760,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十条 保险资产管理机构应当于每年4月30日前向银保监会提交上一年度组合类产品业务管理报告,内容包括产品规模与投资明细、发行与清算、收益分配、费用收支、投资经理履职及任免、公平交易制度执行和异常交易行为等情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1762,
+      "end_char": 1867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十一条 组合类产品运作期间,保险资产管理机构应当按照以下要求,向投资者充分披露产品相关信息:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1869,
+      "end_char": 1916,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(一)封闭式产品的净值披露频率不少于每周一次,开放式产品的净值披露频率不低于产品开放频率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1918,
+      "end_char": 1963,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(二)按照产品合同约定披露销售文件、发行公告、到期公告和清算结果;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1965,
+      "end_char": 1998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(三)定期披露组合类产品的季度、半年度和年度报告,组合类产品成立不足90日或者剩余存续期不足90日的,保险资产管理机构可以不编制组合类产品当期的季度、半年度和年度报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2000,
+      "end_char": 2084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十二条 保险资产管理机构应当建立健全组合类产品业务的内部控制体系,完善内部控制措施,按规定开展内外部审计并提高审计的有效性,持续督促提升业务经营、风险管理、内控合规水平。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2086,
+      "end_char": 2172,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十三条 登记交易平台应当在银保监会的指导下,制定组合类产品信息登记规则以及数据报送规范,建立风险监测和报告机制,并接受银保监会的业务指导和监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2174,
+      "end_char": 2247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "登记交易平台应当按照《指导意见》要求,及时向人民银行报送相关统计信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2249,
+      "end_char": 2284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十四条 保险资产管理机构开展组合类产品业务,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2286,
+      "end_char": 2317,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)让渡主动管理职责,为其他机构或个人提供规避监管要求的通道服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2319,
+      "end_char": 2353,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)开展或参与具有滚动发行、集合运作、分离定价特征的资金池业务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2355,
+      "end_char": 2388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)违反真实公允确定净值原则,按照事先约定的预期收益率向投资者兑付本金及收益,或对产品进行保本保收益等构成实质上刚性兑付的行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2390,
+      "end_char": 2455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)分级组合类产品投资于其他分级资产管理产品,或者直接或间接对优先级份额投资者提供保本保收益安排;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(五)以投资顾问形式进行转委托,转委托按实质重于形式的原则认定;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2509,
+      "end_char": 2541,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(六)以任何形式进行违规关联交易、利益输送、内幕交易或不公平交易;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2543,
+      "end_char": 2576,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(七)法律、行政法规以及银保监会规定禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2578,
+      "end_char": 2604,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十五条 银保监会根据保险资产管理机构的监管评级,对保险资产管理机构发行的组合类产品的投资范围和销售对象实施差异化监管。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2606,
+      "end_char": 2666,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第十六条 保险资产管理机构开展组合类产品业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展组合类产品业务等监管措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2668,
+      "end_char": 2757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第十七条 本细则由银保监会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2759,
+      "end_char": 2777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第十八条 本细则自印发之日起施行。《中国保监会关于保险资产管理公司开展资产管理产品业务试点有关问题的通知》(保监资金〔2013〕124号)、《中国保监会关于加强组合类保险资产管理产品业务监管的通知》(保监资金〔2016〕104号)和《中国保监会关于保险资产管理产品参与融资融券债权收益权业务有关问题的通知》(保监资金〔2015〕114号)同时废止。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2779,
+      "end_char": 2953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "债权投资计划实施细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2955,
+      "end_char": 2965,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第一条 为规范债权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资金间接投资基础设施项目管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2967,
+      "end_char": 3108,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二条 本细则所称债权投资计划,是指保险资产管理机构作为受托人面向委托人发行受益凭证,募集资金以债权方式主要投资基础设施、非基础设施类不动产等符合国家政策的项目,并按照约定条件和实际投资收益情况向投资者支付收益、不保证本金支付和收益水平的保险资产管理产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3110,
+      "end_char": 3238,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "本细则所称委托人是指符合《产品办法》规定的合格机构投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3240,
+      "end_char": 3269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第三条 保险资产管理机构开展债权投资计划业务,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3271,
+      "end_char": 3303,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(一)具有一年(含)以上受托投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3305,
+      "end_char": 3324,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(二)具备债权投资计划产品管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3326,
+      "end_char": 3344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3346,
+      "end_char": 3388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(四)银保监会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3390,
+      "end_char": 3405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第四条 保险资产管理机构应当以资金安全为前提,审慎选择融资主体。融资主体应当为项目方或其母公司(实际控制人),且具备持续经营能力和良好发展前景、具有或预计能够产生稳定可靠的收入和现金流、财务情况和信用状况良好、最近两年无违约等不良信用记录、与保险资产管理机构不存在关联关系。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3407,
+      "end_char": 3544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第五条 债权投资计划的资金应当投资于一个或者同类型的一组投资项目。投资项目应当符合国家宏观政策、产业政策和相关规定,履行项目立项、开发、建设、运营等法定程序,项目资本金符合国家有关资本金制度的规定,且还款来源明确合法、真实可靠。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3546,
+      "end_char": 3660,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "投资项目为一组项目的,其子项目应当分别开立财务账户并确定对应资产,不得相互占用资金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3662,
+      "end_char": 3704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "投资项目为非基础设施类不动产的,还应当符合保险资金投资不动产的相关监管规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3706,
+      "end_char": 3744,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第六条 债权投资计划投资基础设施项目的,在还款保障措施完善的前提下,可以使用不超过40%的募集资金用于补充融资主体的营运资金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3746,
+      "end_char": 3809,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构设立债权投资计划,应当确定有效的信用增级安排,并符合下列要求:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3811,
+      "end_char": 3854,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(一)信用增级方式与融资主体还款来源相互独立。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3856,
+      "end_char": 3879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "guide_subheading",
+      "text": "(二)信用增级采用以下方式或其组合:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3881,
+      "end_char": 3899,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "1.设置保证担保的,应当为本息全额无条件不可撤销连带责任保证担保,同时符合以下条件:担保人信用等级不低于被担保人信用等级,担保行为履行全部合法程序;同一担保人全部对外担保金额占其净资产的比例不超过50%,中债信用增进投资股份有限公司除外;由融资主体母公司或实际控制人提供担保的,担保人净资产不得低于融资主体净资产的1.5倍。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3901,
+      "end_char": 4063,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "2.设置抵押或质押担保的,担保财产应当权属清晰,质押担保办理出质登记,抵押担保办理抵押物登记,经评估的担保财产价值不低于待偿还本金和收益的1.5倍。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4065,
+      "end_char": 4139,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "3.银保监会认可的其他合法有效的信用增级方式。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4164,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "(三)融资主体信用等级为AAA级,且符合下列条件之一的债权投资计划,可免于信用增级:融资主体上年末净资产不低于150亿元,或者融资主体最近三年连续盈利,或者投资项目为经国务院或国务院投资主管部门核准的重大工程。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4166,
+      "end_char": 4271,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第八条 保险资产管理机构设立债权投资计划,应当开展尽职调查和可行性研究,科学设定交易结构,充分评估相关风险,严格履行各项程序,独立开展评审和决策,并聘请具备相应资质的专业服务机构对设立债权投资计划的合法合规性、信用级别等作出明确判断和结论。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4273,
+      "end_char": 4393,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第九条 保险资产管理机构应当于债权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4395,
+      "end_char": 4512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4514,
+      "end_char": 4556,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "注册机构应当按照监管规定和经备案的登记规则办理债权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4558,
+      "end_char": 4620,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "article",
+      "text": "第十条 保险资产管理机构应当于债权投资计划依规履行登记程序后12个月内完成资金划拨;分期划拨资金的,最后一次资金划拨不得晚于登记完成之日起24个月。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4622,
+      "end_char": 4696,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第十一条 保险资产管理机构应当制定债权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。债权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4698,
+      "end_char": 4786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第十二条 保险资产管理机构应当切实履行受托人职责,建立与投资发行分离的专职投后管理团队和完善的投后管理体系,完善风险预警管理机制和风险事件应急处理预案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4788,
+      "end_char": 4864,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当跟踪管理和持续监测融资主体、信用增级和投资项目等,强化内部信用评级管理,有效评估融资主体资信状况、还款能力和信用增级安排的效力,及时掌握资金划拨使用和投资项目建设运营情况,形成内部定期报告机制,全程跟踪管理债权投资计划的投资风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4866,
+      "end_char": 4991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "债权投资计划的抵质押资产价值下降或发生变现风险,影响债权投资计划财产安全的,保险资产管理机构应当及时制定应对方案,提交债权投资计划受益人大会审议后启动止损机制,采取减少投资计划本金、增加担保主体或追加合法足值抵质押品等措施,确保担保足额有效。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4993,
+      "end_char": 5114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第十三条 保险资产管理机构管理债权投资计划,除按照《保险资金间接投资基础设施项目管理办法》第八章规定披露信息外,还应当定期披露经审计的融资主体和担保人年度财务报告、债权投资计划涉及的关联交易和专业服务机构履行职责等情况。信息披露规则由注册机构另行制定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5116,
+      "end_char": 5242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第十四条 保险资产管理机构开展债权投资计划业务,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5244,
+      "end_char": 5276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(一)收取或变相收取与发起设立和履行职责无关的费用;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5278,
+      "end_char": 5304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(二)进行公开营销宣传,推介材料含有与债权投资计划文件不符的内容,或者存在虚假记载、误导性陈述或重大遗漏等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5306,
+      "end_char": 5360,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(三)采用压低费率、打折或者变相打折等手段实施恶性竞争,夸大过往业绩,或者恶意贬低同行,将债权投资计划与其他资产管理产品进行捆绑销售;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5362,
+      "end_char": 5429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(四)以任何方式保证债权投资计划本金或承诺债权投资计划收益,包括采取滚动发行等方式使得债权投资计划的本金、收益、风险在不同投资者之间发生转移,实现产品保本保收益;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5431,
+      "end_char": 5512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(五)将债权投资计划资金投资于国家以及监管部门明令禁止或者限制投资的行业或产业;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5514,
+      "end_char": 5554,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(六)将债权投资计划资金挪用于本细则或债权投资计划合同约定之外的其他用途;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5556,
+      "end_char": 5593,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(七)与相关当事人发生涉及利益输送、利益转移或获取超出受托职责以外额外利益的交易行为,利用债权投资计划的资金与关联方进行不正当交易、利益输送等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5595,
+      "end_char": 5667,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(八)投资商业住宅项目;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5669,
+      "end_char": 5681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(九)法律、行政法规以及银保监会规定禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5683,
+      "end_char": 5709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第十五条 债权投资计划存续期间发生异常、重大或突发等风险事件或可能影响债权投资计划安全的其他事件,保险资产管理机构应当立即采取有效措施,启动风险处置预案,并在5个工作日内向受益人、独立监督人等相关当事人和银保监会、注册机构履行信息披露或报告义务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5711,
+      "end_char": 5834,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第十六条 保险资产管理机构开展债权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展债权投资计划业务等监管措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5836,
+      "end_char": 5927,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第十七条 本细则由银保监会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5929,
+      "end_char": 5947,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第十八条 本细则自印发之日起施行。《关于印发〈基础设施债权投资计划管理暂行规定〉的通知》(保监发〔2012〕92号)、《关于保险资金投资有关金融产品的通知》(保监发〔2012〕91号)第六条、《关于债权投资计划注册有关事项的通知》(保监资金〔2013〕93号)和《中国保监会关于债权投资计划投资重大工程有关事项的通知》(保监资金〔2017〕135号)同时废止。有关规定与本细则不一致的,以本细则为准。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5949,
+      "end_char": 6149,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "股权投资计划实施细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6151,
+      "end_char": 6161,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "article",
+      "text": "第一条 为规范股权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6163,
+      "end_char": 6272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第二条 本细则所称股权投资计划,是指保险资产管理机构作为管理人发起设立、向合格机构投资者募集资金、通过直接或间接方式主要投资于未上市企业股权的保险资产管理产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6274,
+      "end_char": 6354,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "article",
+      "text": "第三条 保险资产管理机构开展股权投资计划业务,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6356,
+      "end_char": 6388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(一)具有一年(含)以上受托投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6390,
+      "end_char": 6409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "(二)具备股权投资计划产品管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6411,
+      "end_char": 6429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6431,
+      "end_char": 6473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(四)银保监会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6475,
+      "end_char": 6490,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "article",
+      "text": "第四条 股权投资计划可以投资以下资产:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6492,
+      "end_char": 6511,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "(一)未上市企业股权;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6513,
+      "end_char": 6524,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "(二)私募股权投资基金、创业投资基金(以下统称基金);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6526,
+      "end_char": 6553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "(三)上市公司定向增发、大宗交易、协议转让的股票,以及可转换为普通股的优先股、可转换债券;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6555,
+      "end_char": 6600,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(四)银保监会认可的其他资产。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6602,
+      "end_char": 6617,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "保险资金投资的股权投资计划,其投资运作还应当符合保险资金运用的相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6619,
+      "end_char": 6655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第五条 股权投资计划投资基金的,基金的分级比例(优先级份额/劣后级份额,中间级份额计入优先级份额)不得超过1:1;股权投资计划所投金额不得超过该基金当前实际募集金额的80%。股权投资计划投资于未上市企业股权等权益类资产的比例不低于80%。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6657,
+      "end_char": 6776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "股权投资计划不得投资劣后级基金份额。分级股权投资计划不得投资分级的基金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6778,
+      "end_char": 6814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第六条 股权投资计划应当为封闭式产品,并在投资合同、募集说明书等法律文件中对标的资产的退出机制作出相应安排。标的资产的退出日不得晚于股权投资计划的到期日。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6816,
+      "end_char": 6893,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构应当于股权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6895,
+      "end_char": 7012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7014,
+      "end_char": 7056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "注册机构应当按照监管规定和经备案的登记规则办理股权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7058,
+      "end_char": 7120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第八条 保险资产管理机构应当在股权投资计划募集发行、投资、运营管理、退出、清算等阶段,按照经备案的信息报送规则向注册机构报送相关信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7122,
+      "end_char": 7189,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "article",
+      "text": "第九条 保险资产管理机构应当于每年4月30日前,向银保监会提交上一年度股权投资计划管理报告和经审计的财务会计报告。年度管理报告内容包括规模与投资明细、发行与清算、资产管理和运作、投资标的估值和变动、费用收支和收益分配、投资管理团队履职和任免、关联交易说明、重大突发事件和处置等情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7191,
+      "end_char": 7332,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "article",
+      "text": "第十条 股权投资计划运作期间,保险资产管理机构应当按照监管规定以及合同约定向投资者及时、充分披露股权投资计划发行设立、投资、管理、估值、收益分配、重大事项和风险事件等情况,以及可能影响投资者权益的其他信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7334,
+      "end_char": 7437,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "article",
+      "text": "第十一条 保险资产管理机构应当制定股权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。股权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7439,
+      "end_char": 7527,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "article",
+      "text": "第十二条 保险资产管理机构应当加强股权投资计划的后续管理,通过关键岗位人员委派、制度安排、合同约定、交易结构设计等多种方式,维护投资者合法权益。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7529,
+      "end_char": 7601,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "article",
+      "text": "第十三条 股权投资计划存续期间发生异常、重大或突发等风险事件可能影响股权投资计划安全的,保险资产管理机构应当立即采取有效措施进行风险处置,并及时向银保监会、注册机构报告相关情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7603,
+      "end_char": 7692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "article",
+      "text": "第十四条 股权投资计划各方当事人不得存在以下情形:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7694,
+      "end_char": 7719,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "(一)保险资金通过股权投资计划对未上市企业实施控制;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7721,
+      "end_char": 7747,
+      "region": "body"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "paragraph",
+      "text": "(二)通过关联交易、股东代持、虚假出资、不公平交易等手段进行利益输送;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7749,
+      "end_char": 7784,
+      "region": "body"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "paragraph",
+      "text": "(三)保险资产管理机构让渡主动管理职责,直接或变相开展通道业务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7786,
+      "end_char": 7818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "paragraph",
+      "text": "(四)保险资产管理机构采取各种方式承诺保障本金和投资收益,包括设置明确的预期回报且定期向投资者支付固定投资回报、约定到期由被投资企业或关联第三方赎回投资本金等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7820,
+      "end_char": 7900,
+      "region": "body"
+    },
+    {
+      "block_id": "b00136",
+      "block_type": "paragraph",
+      "text": "(五)股权投资计划投资的私募股权投资基金违反《指导意见》一层嵌套的有关规定,法律法规和金融管理部门另有规定的除外;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7902,
+      "end_char": 7959,
+      "region": "body"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "(六)法律、行政法规以及银保监会规定禁止的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7961,
+      "end_char": 7987,
+      "region": "body"
+    },
+    {
+      "block_id": "b00138",
+      "block_type": "article",
+      "text": "第十五条 保险资产管理机构开展股权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展股权投资计划业务等监管措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7989,
+      "end_char": 8080,
+      "region": "body"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "article",
+      "text": "第十六条 本细则由银保监会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8082,
+      "end_char": 8100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "article",
+      "text": "第十七条 本细则自印发之日起施行。《中国保监会关于保险资金设立股权投资计划有关事项的通知》(保监资金〔2017〕282号)和《关于印发〈保险资金设立股权投资计划报告要件及要点〉监管口径的通知》(资金部函〔2016〕440号)同时废止。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8102,
+      "end_char": 8219,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "中国银保监会办公厅关于印发组合类保险资产管理产品实施细则等三个文件的通知\n\n各保险集团(控股)公司、保险公司、保险资产管理公司:\n\n为规范保险资产管理产品业务发展,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,银保监会制定了《组合类保险资产管理产品实施细则》《债权投资计划实施细则》和《股权投资计划实施细则》。现印发给你们,请遵照执行。\n\n2020年9月7日\n\n组合类保险资产管理产品实施细则\n\n第一条 为规范组合类保险资产管理产品业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。\n\n第二条 本细则所称组合类保险资产管理产品(以下简称组合类产品),是指保险资产管理机构面向合格投资者非公开发行、以组合方式进行投资运作的保险资产管理产品。\n\n第三条 保险资产管理机构开展组合类产品业务,应当符合下列条件:\n\n(一)具有一年(含)以上受托投资经验;\n\n(二)具备信用风险管理能力、股票投资管理能力和衍生品运用管理能力;\n\n(三)明确2名业务风险责任人,包括行政责任人和专业责任人,其履职要求等参照银保监会相关规定执行;\n\n(四)设立专门的组合类产品业务管理部门或专业团队,且该部门或专业团队人员不少于5名,其中产品研发设计和管理等相关人员应当具备必要的专业知识、行业经验和管理能力;\n\n(五)建立健全组合类产品业务制度,明确产品设计、投资决策、授权管理等相关流程,制定并实施相应的风险管理政策和程序;\n\n(六)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(七)银保监会要求的其他条件。\n\n第四条 组合类产品可以投资以下资产:\n\n(一)银行存款、大额存单、同业存单;\n\n(二)债券等标准化债权类资产;\n\n(三)上市或挂牌交易的股票;\n\n(四)公募证券投资基金;\n\n(五)保险资产管理产品;\n\n(六)资产支持计划和保险私募基金;\n\n(七)银保监会认可的其他资产。\n\n保险资金投资的组合类产品,应当符合保险资金运用的相关规定。非保险资金投资的组合类产品投资范围由合同约定,应当符合《产品办法》相关规定。组合类产品参与衍生品交易,仅限于对冲或规避风险,不得用于投机目的。\n\n第五条 组合类产品所投资资产的集中度应当符合《指导意见》相关规定。\n\n第六条 保险资产管理机构对组合类产品应当实行净值化管理。金融资产的估值和产品净值的生成应当符合《企业会计准则》《指导意见》等相关规定。\n\n货币市场类组合类产品在严格监管的前提下,暂按照“摊余成本+影子定价”方法进行估值。现金管理类理财产品规则施行后,货币市场类组合类产品的估值方法和投资管理等参照同类产品的要求执行。\n\n第七条 保险资产管理机构和代理销售机构应当向投资者充分披露信息和揭示风险,销售过程中以及产品销售材料不得有下列情形:\n\n(一)虚假记载、误导性陈述或重大遗漏;\n\n(二)误导投资者购买与其风险承受能力不相匹配的组合类产品;\n\n(三)预测投资业绩或宣传产品预期收益率;\n\n(四)向投资者违规承诺收益和承担损失;\n\n(五)夸大或者片面宣传管理人、投资经理及其管理的组合类产品的过往业绩;\n\n(六)恶意诋毁、贬低其他机构或产品;\n\n(七)银保监会规定禁止的其他情形。\n\n保险资产管理机构和代理销售机构向自然人投资者销售组合类产品,应当参照《商业银行理财业务监督管理办法》等制度对同类产品的销售要求进行管理。\n\n第八条 保险资产管理机构应当于组合类产品设立前2个工作日在中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行产品登记,取得登记编码。\n\n登记交易平台仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。\n\n第九条 保险资产管理机构应当按月向登记交易平台报送组合类产品的基本信息、投资明细、产品资产负债表和投资者信息,并按要求定期报送产品募集信息、分红信息、终止信息、风险准备金计提和使用情况等。\n\n第十条 保险资产管理机构应当于每年4月30日前向银保监会提交上一年度组合类产品业务管理报告,内容包括产品规模与投资明细、发行与清算、收益分配、费用收支、投资经理履职及任免、公平交易制度执行和异常交易行为等情况。\n\n第十一条 组合类产品运作期间,保险资产管理机构应当按照以下要求,向投资者充分披露产品相关信息:\n\n(一)封闭式产品的净值披露频率不少于每周一次,开放式产品的净值披露频率不低于产品开放频率;\n\n(二)按照产品合同约定披露销售文件、发行公告、到期公告和清算结果;\n\n(三)定期披露组合类产品的季度、半年度和年度报告,组合类产品成立不足90日或者剩余存续期不足90日的,保险资产管理机构可以不编制组合类产品当期的季度、半年度和年度报告。\n\n第十二条 保险资产管理机构应当建立健全组合类产品业务的内部控制体系,完善内部控制措施,按规定开展内外部审计并提高审计的有效性,持续督促提升业务经营、风险管理、内控合规水平。\n\n第十三条 登记交易平台应当在银保监会的指导下,制定组合类产品信息登记规则以及数据报送规范,建立风险监测和报告机制,并接受银保监会的业务指导和监督。\n\n登记交易平台应当按照《指导意见》要求,及时向人民银行报送相关统计信息。\n\n第十四条 保险资产管理机构开展组合类产品业务,不得有以下行为:\n\n(一)让渡主动管理职责,为其他机构或个人提供规避监管要求的通道服务;\n\n(二)开展或参与具有滚动发行、集合运作、分离定价特征的资金池业务;\n\n(三)违反真实公允确定净值原则,按照事先约定的预期收益率向投资者兑付本金及收益,或对产品进行保本保收益等构成实质上刚性兑付的行为;\n\n(四)分级组合类产品投资于其他分级资产管理产品,或者直接或间接对优先级份额投资者提供保本保收益安排;\n\n(五)以投资顾问形式进行转委托,转委托按实质重于形式的原则认定;\n\n(六)以任何形式进行违规关联交易、利益输送、内幕交易或不公平交易;\n\n(七)法律、行政法规以及银保监会规定禁止的其他行为。\n\n第十五条 银保监会根据保险资产管理机构的监管评级,对保险资产管理机构发行的组合类产品的投资范围和销售对象实施差异化监管。\n\n第十六条 保险资产管理机构开展组合类产品业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展组合类产品业务等监管措施。\n\n第十七条 本细则由银保监会负责解释。\n\n第十八条 本细则自印发之日起施行。《中国保监会关于保险资产管理公司开展资产管理产品业务试点有关问题的通知》(保监资金〔2013〕124号)、《中国保监会关于加强组合类保险资产管理产品业务监管的通知》(保监资金〔2016〕104号)和《中国保监会关于保险资产管理产品参与融资融券债权收益权业务有关问题的通知》(保监资金〔2015〕114号)同时废止。\n\n债权投资计划实施细则\n\n第一条 为规范债权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资金间接投资基础设施项目管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。\n\n第二条 本细则所称债权投资计划,是指保险资产管理机构作为受托人面向委托人发行受益凭证,募集资金以债权方式主要投资基础设施、非基础设施类不动产等符合国家政策的项目,并按照约定条件和实际投资收益情况向投资者支付收益、不保证本金支付和收益水平的保险资产管理产品。\n\n本细则所称委托人是指符合《产品办法》规定的合格机构投资者。\n\n第三条 保险资产管理机构开展债权投资计划业务,应当符合下列条件:\n\n(一)具有一年(含)以上受托投资经验;\n\n(二)具备债权投资计划产品管理能力;\n\n(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(四)银保监会要求的其他条件。\n\n第四条 保险资产管理机构应当以资金安全为前提,审慎选择融资主体。融资主体应当为项目方或其母公司(实际控制人),且具备持续经营能力和良好发展前景、具有或预计能够产生稳定可靠的收入和现金流、财务情况和信用状况良好、最近两年无违约等不良信用记录、与保险资产管理机构不存在关联关系。\n\n第五条 债权投资计划的资金应当投资于一个或者同类型的一组投资项目。投资项目应当符合国家宏观政策、产业政策和相关规定,履行项目立项、开发、建设、运营等法定程序,项目资本金符合国家有关资本金制度的规定,且还款来源明确合法、真实可靠。\n\n投资项目为一组项目的,其子项目应当分别开立财务账户并确定对应资产,不得相互占用资金。\n\n投资项目为非基础设施类不动产的,还应当符合保险资金投资不动产的相关监管规定。\n\n第六条 债权投资计划投资基础设施项目的,在还款保障措施完善的前提下,可以使用不超过40%的募集资金用于补充融资主体的营运资金。\n\n第七条 保险资产管理机构设立债权投资计划,应当确定有效的信用增级安排,并符合下列要求:\n\n(一)信用增级方式与融资主体还款来源相互独立。\n\n(二)信用增级采用以下方式或其组合:\n\n1.设置保证担保的,应当为本息全额无条件不可撤销连带责任保证担保,同时符合以下条件:担保人信用等级不低于被担保人信用等级,担保行为履行全部合法程序;同一担保人全部对外担保金额占其净资产的比例不超过50%,中债信用增进投资股份有限公司除外;由融资主体母公司或实际控制人提供担保的,担保人净资产不得低于融资主体净资产的1.5倍。\n\n2.设置抵押或质押担保的,担保财产应当权属清晰,质押担保办理出质登记,抵押担保办理抵押物登记,经评估的担保财产价值不低于待偿还本金和收益的1.5倍。\n\n3.银保监会认可的其他合法有效的信用增级方式。\n\n(三)融资主体信用等级为AAA级,且符合下列条件之一的债权投资计划,可免于信用增级:融资主体上年末净资产不低于150亿元,或者融资主体最近三年连续盈利,或者投资项目为经国务院或国务院投资主管部门核准的重大工程。\n\n第八条 保险资产管理机构设立债权投资计划,应当开展尽职调查和可行性研究,科学设定交易结构,充分评估相关风险,严格履行各项程序,独立开展评审和决策,并聘请具备相应资质的专业服务机构对设立债权投资计划的合法合规性、信用级别等作出明确判断和结论。\n\n第九条 保险资产管理机构应当于债权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。\n\n注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。\n\n注册机构应当按照监管规定和经备案的登记规则办理债权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。\n\n第十条 保险资产管理机构应当于债权投资计划依规履行登记程序后12个月内完成资金划拨;分期划拨资金的,最后一次资金划拨不得晚于登记完成之日起24个月。\n\n第十一条 保险资产管理机构应当制定债权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。债权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。\n\n第十二条 保险资产管理机构应当切实履行受托人职责,建立与投资发行分离的专职投后管理团队和完善的投后管理体系,完善风险预警管理机制和风险事件应急处理预案。\n\n保险资产管理机构应当跟踪管理和持续监测融资主体、信用增级和投资项目等,强化内部信用评级管理,有效评估融资主体资信状况、还款能力和信用增级安排的效力,及时掌握资金划拨使用和投资项目建设运营情况,形成内部定期报告机制,全程跟踪管理债权投资计划的投资风险。\n\n债权投资计划的抵质押资产价值下降或发生变现风险,影响债权投资计划财产安全的,保险资产管理机构应当及时制定应对方案,提交债权投资计划受益人大会审议后启动止损机制,采取减少投资计划本金、增加担保主体或追加合法足值抵质押品等措施,确保担保足额有效。\n\n第十三条 保险资产管理机构管理债权投资计划,除按照《保险资金间接投资基础设施项目管理办法》第八章规定披露信息外,还应当定期披露经审计的融资主体和担保人年度财务报告、债权投资计划涉及的关联交易和专业服务机构履行职责等情况。信息披露规则由注册机构另行制定。\n\n第十四条 保险资产管理机构开展债权投资计划业务,不得有以下行为:\n\n(一)收取或变相收取与发起设立和履行职责无关的费用;\n\n(二)进行公开营销宣传,推介材料含有与债权投资计划文件不符的内容,或者存在虚假记载、误导性陈述或重大遗漏等;\n\n(三)采用压低费率、打折或者变相打折等手段实施恶性竞争,夸大过往业绩,或者恶意贬低同行,将债权投资计划与其他资产管理产品进行捆绑销售;\n\n(四)以任何方式保证债权投资计划本金或承诺债权投资计划收益,包括采取滚动发行等方式使得债权投资计划的本金、收益、风险在不同投资者之间发生转移,实现产品保本保收益;\n\n(五)将债权投资计划资金投资于国家以及监管部门明令禁止或者限制投资的行业或产业;\n\n(六)将债权投资计划资金挪用于本细则或债权投资计划合同约定之外的其他用途;\n\n(七)与相关当事人发生涉及利益输送、利益转移或获取超出受托职责以外额外利益的交易行为,利用债权投资计划的资金与关联方进行不正当交易、利益输送等;\n\n(八)投资商业住宅项目;\n\n(九)法律、行政法规以及银保监会规定禁止的其他行为。\n\n第十五条 债权投资计划存续期间发生异常、重大或突发等风险事件或可能影响债权投资计划安全的其他事件,保险资产管理机构应当立即采取有效措施,启动风险处置预案,并在5个工作日内向受益人、独立监督人等相关当事人和银保监会、注册机构履行信息披露或报告义务。\n\n第十六条 保险资产管理机构开展债权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展债权投资计划业务等监管措施。\n\n第十七条 本细则由银保监会负责解释。\n\n第十八条 本细则自印发之日起施行。《关于印发〈基础设施债权投资计划管理暂行规定〉的通知》(保监发〔2012〕92号)、《关于保险资金投资有关金融产品的通知》(保监发〔2012〕91号)第六条、《关于债权投资计划注册有关事项的通知》(保监资金〔2013〕93号)和《中国保监会关于债权投资计划投资重大工程有关事项的通知》(保监资金〔2017〕135号)同时废止。有关规定与本细则不一致的,以本细则为准。\n\n股权投资计划实施细则\n\n第一条 为规范股权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,制定本细则。\n\n第二条 本细则所称股权投资计划,是指保险资产管理机构作为管理人发起设立、向合格机构投资者募集资金、通过直接或间接方式主要投资于未上市企业股权的保险资产管理产品。\n\n第三条 保险资产管理机构开展股权投资计划业务,应当符合下列条件:\n\n(一)具有一年(含)以上受托投资经验;\n\n(二)具备股权投资计划产品管理能力;\n\n(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(四)银保监会要求的其他条件。\n\n第四条 股权投资计划可以投资以下资产:\n\n(一)未上市企业股权;\n\n(二)私募股权投资基金、创业投资基金(以下统称基金);\n\n(三)上市公司定向增发、大宗交易、协议转让的股票,以及可转换为普通股的优先股、可转换债券;\n\n(四)银保监会认可的其他资产。\n\n保险资金投资的股权投资计划,其投资运作还应当符合保险资金运用的相关规定。\n\n第五条 股权投资计划投资基金的,基金的分级比例(优先级份额/劣后级份额,中间级份额计入优先级份额)不得超过1:1;股权投资计划所投金额不得超过该基金当前实际募集金额的80%。股权投资计划投资于未上市企业股权等权益类资产的比例不低于80%。\n\n股权投资计划不得投资劣后级基金份额。分级股权投资计划不得投资分级的基金。\n\n第六条 股权投资计划应当为封闭式产品,并在投资合同、募集说明书等法律文件中对标的资产的退出机制作出相应安排。标的资产的退出日不得晚于股权投资计划的到期日。\n\n第七条 保险资产管理机构应当于股权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。\n\n注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。\n\n注册机构应当按照监管规定和经备案的登记规则办理股权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。\n\n第八条 保险资产管理机构应当在股权投资计划募集发行、投资、运营管理、退出、清算等阶段,按照经备案的信息报送规则向注册机构报送相关信息。\n\n第九条 保险资产管理机构应当于每年4月30日前,向银保监会提交上一年度股权投资计划管理报告和经审计的财务会计报告。年度管理报告内容包括规模与投资明细、发行与清算、资产管理和运作、投资标的估值和变动、费用收支和收益分配、投资管理团队履职和任免、关联交易说明、重大突发事件和处置等情况。\n\n第十条 股权投资计划运作期间,保险资产管理机构应当按照监管规定以及合同约定向投资者及时、充分披露股权投资计划发行设立、投资、管理、估值、收益分配、重大事项和风险事件等情况,以及可能影响投资者权益的其他信息。\n\n第十一条 保险资产管理机构应当制定股权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。股权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。\n\n第十二条 保险资产管理机构应当加强股权投资计划的后续管理,通过关键岗位人员委派、制度安排、合同约定、交易结构设计等多种方式,维护投资者合法权益。\n\n第十三条 股权投资计划存续期间发生异常、重大或突发等风险事件可能影响股权投资计划安全的,保险资产管理机构应当立即采取有效措施进行风险处置,并及时向银保监会、注册机构报告相关情况。\n\n第十四条 股权投资计划各方当事人不得存在以下情形:\n\n(一)保险资金通过股权投资计划对未上市企业实施控制;\n\n(二)通过关联交易、股东代持、虚假出资、不公平交易等手段进行利益输送;\n\n(三)保险资产管理机构让渡主动管理职责,直接或变相开展通道业务;\n\n(四)保险资产管理机构采取各种方式承诺保障本金和投资收益,包括设置明确的预期回报且定期向投资者支付固定投资回报、约定到期由被投资企业或关联第三方赎回投资本金等;\n\n(五)股权投资计划投资的私募股权投资基金违反《指导意见》一层嵌套的有关规定,法律法规和金融管理部门另有规定的除外;\n\n(六)法律、行政法规以及银保监会规定禁止的其他情形。\n\n第十五条 保险资产管理机构开展股权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展股权投资计划业务等监管措施。\n\n第十六条 本细则由银保监会负责解释。\n\n第十七条 本细则自印发之日起施行。《中国保监会关于保险资金设立股权投资计划有关事项的通知》(保监资金〔2017〕282号)和《关于印发〈保险资金设立股权投资计划报告要件及要点〉监管口径的通知》(资金部函〔2016〕440号)同时废止。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "中国银保监会办公厅关于印发组合类保险资产管理产品实施细则等三个文件的通知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 36,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "各保险集团(控股)公司、保险公司、保险资产管理公司:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 38,
+      "end_char": 64,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "为规范保险资产管理产品业务发展,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,银保监会制定了《组合类保险资产管理产品实施细则》《债权投资计划实施细则》和《股权投资计划实施细则》。现印发给你们,请遵照执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 66,
+      "end_char": 219,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "2020年9月7日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 221,
+      "end_char": 230,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "document_title",
+      "text": "组合类保险资产管理产品实施细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 232,
+      "end_char": 247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第一条 为规范组合类保险资产管理产品业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 249,
+      "end_char": 375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第二条 本细则所称组合类保险资产管理产品(以下简称组合类产品),是指保险资产管理机构面向合格投资者非公开发行、以组合方式进行投资运作的保险资产管理产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 377,
+      "end_char": 453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条 保险资产管理机构开展组合类产品业务,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 455,
+      "end_char": 486,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)具有一年(含)以上受托投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 488,
+      "end_char": 507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)具备信用风险管理能力、股票投资管理能力和衍生品运用管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 509,
+      "end_char": 542,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(三)明确2名业务风险责任人,包括行政责任人和专业责任人,其履职要求等参照银保监会相关规定执行;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 544,
+      "end_char": 592,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(四)设立专门的组合类产品业务管理部门或专业团队,且该部门或专业团队人员不少于5名,其中产品研发设计和管理等相关人员应当具备必要的专业知识、行业经验和管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 594,
+      "end_char": 674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(五)建立健全组合类产品业务制度,明确产品设计、投资决策、授权管理等相关流程,制定并实施相应的风险管理政策和程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 676,
+      "end_char": 733,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(六)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 735,
+      "end_char": 777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(七)银保监会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 779,
+      "end_char": 794,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第四条 组合类产品可以投资以下资产:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 796,
+      "end_char": 814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(一)银行存款、大额存单、同业存单;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 816,
+      "end_char": 834,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(二)债券等标准化债权类资产;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 836,
+      "end_char": 851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(三)上市或挂牌交易的股票;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 853,
+      "end_char": 867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(四)公募证券投资基金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 869,
+      "end_char": 881,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(五)保险资产管理产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 883,
+      "end_char": 895,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(六)资产支持计划和保险私募基金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 897,
+      "end_char": 914,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(七)银保监会认可的其他资产。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 916,
+      "end_char": 931,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "保险资金投资的组合类产品,应当符合保险资金运用的相关规定。非保险资金投资的组合类产品投资范围由合同约定,应当符合《产品办法》相关规定。组合类产品参与衍生品交易,仅限于对冲或规避风险,不得用于投机目的。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 933,
+      "end_char": 1033,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第五条 组合类产品所投资资产的集中度应当符合《指导意见》相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第六条 保险资产管理机构对组合类产品应当实行净值化管理。金融资产的估值和产品净值的生成应当符合《企业会计准则》《指导意见》等相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1070,
+      "end_char": 1137,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "货币市场类组合类产品在严格监管的前提下,暂按照“摊余成本+影子定价”方法进行估值。现金管理类理财产品规则施行后,货币市场类组合类产品的估值方法和投资管理等参照同类产品的要求执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1139,
+      "end_char": 1228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构和代理销售机构应当向投资者充分披露信息和揭示风险,销售过程中以及产品销售材料不得有下列情形:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1230,
+      "end_char": 1288,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)虚假记载、误导性陈述或重大遗漏;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1290,
+      "end_char": 1309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)误导投资者购买与其风险承受能力不相匹配的组合类产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1311,
+      "end_char": 1340,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(三)预测投资业绩或宣传产品预期收益率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1342,
+      "end_char": 1362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(四)向投资者违规承诺收益和承担损失;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1364,
+      "end_char": 1383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(五)夸大或者片面宣传管理人、投资经理及其管理的组合类产品的过往业绩;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1385,
+      "end_char": 1420,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(六)恶意诋毁、贬低其他机构或产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1422,
+      "end_char": 1440,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(七)银保监会规定禁止的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1442,
+      "end_char": 1459,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构和代理销售机构向自然人投资者销售组合类产品,应当参照《商业银行理财业务监督管理办法》等制度对同类产品的销售要求进行管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1461,
+      "end_char": 1529,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第八条 保险资产管理机构应当于组合类产品设立前2个工作日在中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行产品登记,取得登记编码。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1531,
+      "end_char": 1618,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "登记交易平台仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1620,
+      "end_char": 1664,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第九条 保险资产管理机构应当按月向登记交易平台报送组合类产品的基本信息、投资明细、产品资产负债表和投资者信息,并按要求定期报送产品募集信息、分红信息、终止信息、风险准备金计提和使用情况等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1666,
+      "end_char": 1760,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十条 保险资产管理机构应当于每年4月30日前向银保监会提交上一年度组合类产品业务管理报告,内容包括产品规模与投资明细、发行与清算、收益分配、费用收支、投资经理履职及任免、公平交易制度执行和异常交易行为等情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1762,
+      "end_char": 1867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十一条 组合类产品运作期间,保险资产管理机构应当按照以下要求,向投资者充分披露产品相关信息:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1869,
+      "end_char": 1916,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(一)封闭式产品的净值披露频率不少于每周一次,开放式产品的净值披露频率不低于产品开放频率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1918,
+      "end_char": 1963,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(二)按照产品合同约定披露销售文件、发行公告、到期公告和清算结果;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1965,
+      "end_char": 1998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(三)定期披露组合类产品的季度、半年度和年度报告,组合类产品成立不足90日或者剩余存续期不足90日的,保险资产管理机构可以不编制组合类产品当期的季度、半年度和年度报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2000,
+      "end_char": 2084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十二条 保险资产管理机构应当建立健全组合类产品业务的内部控制体系,完善内部控制措施,按规定开展内外部审计并提高审计的有效性,持续督促提升业务经营、风险管理、内控合规水平。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2086,
+      "end_char": 2172,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十三条 登记交易平台应当在银保监会的指导下,制定组合类产品信息登记规则以及数据报送规范,建立风险监测和报告机制,并接受银保监会的业务指导和监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2174,
+      "end_char": 2247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "登记交易平台应当按照《指导意见》要求,及时向人民银行报送相关统计信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2249,
+      "end_char": 2284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十四条 保险资产管理机构开展组合类产品业务,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2286,
+      "end_char": 2317,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)让渡主动管理职责,为其他机构或个人提供规避监管要求的通道服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2319,
+      "end_char": 2353,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)开展或参与具有滚动发行、集合运作、分离定价特征的资金池业务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2355,
+      "end_char": 2388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)违反真实公允确定净值原则,按照事先约定的预期收益率向投资者兑付本金及收益,或对产品进行保本保收益等构成实质上刚性兑付的行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2390,
+      "end_char": 2455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)分级组合类产品投资于其他分级资产管理产品,或者直接或间接对优先级份额投资者提供保本保收益安排;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(五)以投资顾问形式进行转委托,转委托按实质重于形式的原则认定;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2509,
+      "end_char": 2541,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(六)以任何形式进行违规关联交易、利益输送、内幕交易或不公平交易;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2543,
+      "end_char": 2576,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(七)法律、行政法规以及银保监会规定禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2578,
+      "end_char": 2604,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十五条 银保监会根据保险资产管理机构的监管评级,对保险资产管理机构发行的组合类产品的投资范围和销售对象实施差异化监管。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2606,
+      "end_char": 2666,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第十六条 保险资产管理机构开展组合类产品业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展组合类产品业务等监管措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2668,
+      "end_char": 2757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第十七条 本细则由银保监会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2759,
+      "end_char": 2777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第十八条 本细则自印发之日起施行。《中国保监会关于保险资产管理公司开展资产管理产品业务试点有关问题的通知》(保监资金〔2013〕124号)、《中国保监会关于加强组合类保险资产管理产品业务监管的通知》(保监资金〔2016〕104号)和《中国保监会关于保险资产管理产品参与融资融券债权收益权业务有关问题的通知》(保监资金〔2015〕114号)同时废止。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2779,
+      "end_char": 2953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "债权投资计划实施细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2955,
+      "end_char": 2965,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第一条 为规范债权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资金间接投资基础设施项目管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2967,
+      "end_char": 3108,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二条 本细则所称债权投资计划,是指保险资产管理机构作为受托人面向委托人发行受益凭证,募集资金以债权方式主要投资基础设施、非基础设施类不动产等符合国家政策的项目,并按照约定条件和实际投资收益情况向投资者支付收益、不保证本金支付和收益水平的保险资产管理产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3110,
+      "end_char": 3238,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "本细则所称委托人是指符合《产品办法》规定的合格机构投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3240,
+      "end_char": 3269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第三条 保险资产管理机构开展债权投资计划业务,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3271,
+      "end_char": 3303,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(一)具有一年(含)以上受托投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3305,
+      "end_char": 3324,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(二)具备债权投资计划产品管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3326,
+      "end_char": 3344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3346,
+      "end_char": 3388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(四)银保监会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3390,
+      "end_char": 3405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第四条 保险资产管理机构应当以资金安全为前提,审慎选择融资主体。融资主体应当为项目方或其母公司(实际控制人),且具备持续经营能力和良好发展前景、具有或预计能够产生稳定可靠的收入和现金流、财务情况和信用状况良好、最近两年无违约等不良信用记录、与保险资产管理机构不存在关联关系。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3407,
+      "end_char": 3544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第五条 债权投资计划的资金应当投资于一个或者同类型的一组投资项目。投资项目应当符合国家宏观政策、产业政策和相关规定,履行项目立项、开发、建设、运营等法定程序,项目资本金符合国家有关资本金制度的规定,且还款来源明确合法、真实可靠。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3546,
+      "end_char": 3660,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "投资项目为一组项目的,其子项目应当分别开立财务账户并确定对应资产,不得相互占用资金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3662,
+      "end_char": 3704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "投资项目为非基础设施类不动产的,还应当符合保险资金投资不动产的相关监管规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3706,
+      "end_char": 3744,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第六条 债权投资计划投资基础设施项目的,在还款保障措施完善的前提下,可以使用不超过40%的募集资金用于补充融资主体的营运资金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3746,
+      "end_char": 3809,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构设立债权投资计划,应当确定有效的信用增级安排,并符合下列要求:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3811,
+      "end_char": 3854,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(一)信用增级方式与融资主体还款来源相互独立。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3856,
+      "end_char": 3879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "guide_subheading",
+      "text": "(二)信用增级采用以下方式或其组合:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3881,
+      "end_char": 3899,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "1.设置保证担保的,应当为本息全额无条件不可撤销连带责任保证担保,同时符合以下条件:担保人信用等级不低于被担保人信用等级,担保行为履行全部合法程序;同一担保人全部对外担保金额占其净资产的比例不超过50%,中债信用增进投资股份有限公司除外;由融资主体母公司或实际控制人提供担保的,担保人净资产不得低于融资主体净资产的1.5倍。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3901,
+      "end_char": 4063,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "2.设置抵押或质押担保的,担保财产应当权属清晰,质押担保办理出质登记,抵押担保办理抵押物登记,经评估的担保财产价值不低于待偿还本金和收益的1.5倍。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4065,
+      "end_char": 4139,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "3.银保监会认可的其他合法有效的信用增级方式。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4164,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "(三)融资主体信用等级为AAA级,且符合下列条件之一的债权投资计划,可免于信用增级:融资主体上年末净资产不低于150亿元,或者融资主体最近三年连续盈利,或者投资项目为经国务院或国务院投资主管部门核准的重大工程。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4166,
+      "end_char": 4271,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第八条 保险资产管理机构设立债权投资计划,应当开展尽职调查和可行性研究,科学设定交易结构,充分评估相关风险,严格履行各项程序,独立开展评审和决策,并聘请具备相应资质的专业服务机构对设立债权投资计划的合法合规性、信用级别等作出明确判断和结论。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4273,
+      "end_char": 4393,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第九条 保险资产管理机构应当于债权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4395,
+      "end_char": 4512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4514,
+      "end_char": 4556,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "注册机构应当按照监管规定和经备案的登记规则办理债权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4558,
+      "end_char": 4620,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "article",
+      "text": "第十条 保险资产管理机构应当于债权投资计划依规履行登记程序后12个月内完成资金划拨;分期划拨资金的,最后一次资金划拨不得晚于登记完成之日起24个月。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4622,
+      "end_char": 4696,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第十一条 保险资产管理机构应当制定债权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。债权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4698,
+      "end_char": 4786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第十二条 保险资产管理机构应当切实履行受托人职责,建立与投资发行分离的专职投后管理团队和完善的投后管理体系,完善风险预警管理机制和风险事件应急处理预案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4788,
+      "end_char": 4864,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构应当跟踪管理和持续监测融资主体、信用增级和投资项目等,强化内部信用评级管理,有效评估融资主体资信状况、还款能力和信用增级安排的效力,及时掌握资金划拨使用和投资项目建设运营情况,形成内部定期报告机制,全程跟踪管理债权投资计划的投资风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4866,
+      "end_char": 4991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "债权投资计划的抵质押资产价值下降或发生变现风险,影响债权投资计划财产安全的,保险资产管理机构应当及时制定应对方案,提交债权投资计划受益人大会审议后启动止损机制,采取减少投资计划本金、增加担保主体或追加合法足值抵质押品等措施,确保担保足额有效。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4993,
+      "end_char": 5114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第十三条 保险资产管理机构管理债权投资计划,除按照《保险资金间接投资基础设施项目管理办法》第八章规定披露信息外,还应当定期披露经审计的融资主体和担保人年度财务报告、债权投资计划涉及的关联交易和专业服务机构履行职责等情况。信息披露规则由注册机构另行制定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5116,
+      "end_char": 5242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第十四条 保险资产管理机构开展债权投资计划业务,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5244,
+      "end_char": 5276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(一)收取或变相收取与发起设立和履行职责无关的费用;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5278,
+      "end_char": 5304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(二)进行公开营销宣传,推介材料含有与债权投资计划文件不符的内容,或者存在虚假记载、误导性陈述或重大遗漏等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5306,
+      "end_char": 5360,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(三)采用压低费率、打折或者变相打折等手段实施恶性竞争,夸大过往业绩,或者恶意贬低同行,将债权投资计划与其他资产管理产品进行捆绑销售;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5362,
+      "end_char": 5429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(四)以任何方式保证债权投资计划本金或承诺债权投资计划收益,包括采取滚动发行等方式使得债权投资计划的本金、收益、风险在不同投资者之间发生转移,实现产品保本保收益;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5431,
+      "end_char": 5512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(五)将债权投资计划资金投资于国家以及监管部门明令禁止或者限制投资的行业或产业;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5514,
+      "end_char": 5554,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(六)将债权投资计划资金挪用于本细则或债权投资计划合同约定之外的其他用途;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5556,
+      "end_char": 5593,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(七)与相关当事人发生涉及利益输送、利益转移或获取超出受托职责以外额外利益的交易行为,利用债权投资计划的资金与关联方进行不正当交易、利益输送等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5595,
+      "end_char": 5667,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(八)投资商业住宅项目;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5669,
+      "end_char": 5681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(九)法律、行政法规以及银保监会规定禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5683,
+      "end_char": 5709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第十五条 债权投资计划存续期间发生异常、重大或突发等风险事件或可能影响债权投资计划安全的其他事件,保险资产管理机构应当立即采取有效措施,启动风险处置预案,并在5个工作日内向受益人、独立监督人等相关当事人和银保监会、注册机构履行信息披露或报告义务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5711,
+      "end_char": 5834,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第十六条 保险资产管理机构开展债权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展债权投资计划业务等监管措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5836,
+      "end_char": 5927,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第十七条 本细则由银保监会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5929,
+      "end_char": 5947,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第十八条 本细则自印发之日起施行。《关于印发〈基础设施债权投资计划管理暂行规定〉的通知》(保监发〔2012〕92号)、《关于保险资金投资有关金融产品的通知》(保监发〔2012〕91号)第六条、《关于债权投资计划注册有关事项的通知》(保监资金〔2013〕93号)和《中国保监会关于债权投资计划投资重大工程有关事项的通知》(保监资金〔2017〕135号)同时废止。有关规定与本细则不一致的,以本细则为准。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5949,
+      "end_char": 6149,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "股权投资计划实施细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6151,
+      "end_char": 6161,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "article",
+      "text": "第一条 为规范股权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6163,
+      "end_char": 6272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第二条 本细则所称股权投资计划,是指保险资产管理机构作为管理人发起设立、向合格机构投资者募集资金、通过直接或间接方式主要投资于未上市企业股权的保险资产管理产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6274,
+      "end_char": 6354,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "article",
+      "text": "第三条 保险资产管理机构开展股权投资计划业务,应当符合下列条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6356,
+      "end_char": 6388,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(一)具有一年(含)以上受托投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6390,
+      "end_char": 6409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "(二)具备股权投资计划产品管理能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6411,
+      "end_char": 6429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6431,
+      "end_char": 6473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(四)银保监会要求的其他条件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6475,
+      "end_char": 6490,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "article",
+      "text": "第四条 股权投资计划可以投资以下资产:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6492,
+      "end_char": 6511,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "(一)未上市企业股权;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6513,
+      "end_char": 6524,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "(二)私募股权投资基金、创业投资基金(以下统称基金);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6526,
+      "end_char": 6553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "(三)上市公司定向增发、大宗交易、协议转让的股票,以及可转换为普通股的优先股、可转换债券;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6555,
+      "end_char": 6600,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(四)银保监会认可的其他资产。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6602,
+      "end_char": 6617,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "保险资金投资的股权投资计划,其投资运作还应当符合保险资金运用的相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6619,
+      "end_char": 6655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第五条 股权投资计划投资基金的,基金的分级比例(优先级份额/劣后级份额,中间级份额计入优先级份额)不得超过1:1;股权投资计划所投金额不得超过该基金当前实际募集金额的80%。股权投资计划投资于未上市企业股权等权益类资产的比例不低于80%。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6657,
+      "end_char": 6776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "股权投资计划不得投资劣后级基金份额。分级股权投资计划不得投资分级的基金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6778,
+      "end_char": 6814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第六条 股权投资计划应当为封闭式产品,并在投资合同、募集说明书等法律文件中对标的资产的退出机制作出相应安排。标的资产的退出日不得晚于股权投资计划的到期日。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6816,
+      "end_char": 6893,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第七条 保险资产管理机构应当于股权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6895,
+      "end_char": 7012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7014,
+      "end_char": 7056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "注册机构应当按照监管规定和经备案的登记规则办理股权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7058,
+      "end_char": 7120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第八条 保险资产管理机构应当在股权投资计划募集发行、投资、运营管理、退出、清算等阶段,按照经备案的信息报送规则向注册机构报送相关信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7122,
+      "end_char": 7189,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "article",
+      "text": "第九条 保险资产管理机构应当于每年4月30日前,向银保监会提交上一年度股权投资计划管理报告和经审计的财务会计报告。年度管理报告内容包括规模与投资明细、发行与清算、资产管理和运作、投资标的估值和变动、费用收支和收益分配、投资管理团队履职和任免、关联交易说明、重大突发事件和处置等情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7191,
+      "end_char": 7332,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "article",
+      "text": "第十条 股权投资计划运作期间,保险资产管理机构应当按照监管规定以及合同约定向投资者及时、充分披露股权投资计划发行设立、投资、管理、估值、收益分配、重大事项和风险事件等情况,以及可能影响投资者权益的其他信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7334,
+      "end_char": 7437,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "article",
+      "text": "第十一条 保险资产管理机构应当制定股权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。股权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7439,
+      "end_char": 7527,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "article",
+      "text": "第十二条 保险资产管理机构应当加强股权投资计划的后续管理,通过关键岗位人员委派、制度安排、合同约定、交易结构设计等多种方式,维护投资者合法权益。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7529,
+      "end_char": 7601,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "article",
+      "text": "第十三条 股权投资计划存续期间发生异常、重大或突发等风险事件可能影响股权投资计划安全的,保险资产管理机构应当立即采取有效措施进行风险处置,并及时向银保监会、注册机构报告相关情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7603,
+      "end_char": 7692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "article",
+      "text": "第十四条 股权投资计划各方当事人不得存在以下情形:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7694,
+      "end_char": 7719,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "(一)保险资金通过股权投资计划对未上市企业实施控制;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7721,
+      "end_char": 7747,
+      "region": "body"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "paragraph",
+      "text": "(二)通过关联交易、股东代持、虚假出资、不公平交易等手段进行利益输送;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7749,
+      "end_char": 7784,
+      "region": "body"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "paragraph",
+      "text": "(三)保险资产管理机构让渡主动管理职责,直接或变相开展通道业务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7786,
+      "end_char": 7818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "paragraph",
+      "text": "(四)保险资产管理机构采取各种方式承诺保障本金和投资收益,包括设置明确的预期回报且定期向投资者支付固定投资回报、约定到期由被投资企业或关联第三方赎回投资本金等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7820,
+      "end_char": 7900,
+      "region": "body"
+    },
+    {
+      "block_id": "b00136",
+      "block_type": "paragraph",
+      "text": "(五)股权投资计划投资的私募股权投资基金违反《指导意见》一层嵌套的有关规定,法律法规和金融管理部门另有规定的除外;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7902,
+      "end_char": 7959,
+      "region": "body"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "(六)法律、行政法规以及银保监会规定禁止的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7961,
+      "end_char": 7987,
+      "region": "body"
+    },
+    {
+      "block_id": "b00138",
+      "block_type": "article",
+      "text": "第十五条 保险资产管理机构开展股权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展股权投资计划业务等监管措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7989,
+      "end_char": 8080,
+      "region": "body"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "article",
+      "text": "第十六条 本细则由银保监会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8082,
+      "end_char": 8100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "article",
+      "text": "第十七条 本细则自印发之日起施行。《中国保监会关于保险资金设立股权投资计划有关事项的通知》(保监资金〔2017〕282号)和《关于印发〈保险资金设立股权投资计划报告要件及要点〉监管口径的通知》(资金部函〔2016〕440号)同时废止。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8102,
+      "end_char": 8219,
+      "region": "body"
+    }
+  ],
   "normalized_text": "中国银保监会办公厅关于印发组合类保险资产管理产品实施细则等三个文件的通知\n\n各保险集团(控股)公司、保险公司、保险资产管理公司:\n\n为规范保险资产管理产品业务发展,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,银保监会制定了《组合类保险资产管理产品实施细则》《债权投资计划实施细则》和《股权投资计划实施细则》。现印发给你们,请遵照执行。\n\n2020年9月7日\n\n组合类保险资产管理产品实施细则\n\n第一条 为规范组合类保险资产管理产品业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。\n\n第二条 本细则所称组合类保险资产管理产品(以下简称组合类产品),是指保险资产管理机构面向合格投资者非公开发行、以组合方式进行投资运作的保险资产管理产品。\n\n第三条 保险资产管理机构开展组合类产品业务,应当符合下列条件:\n\n(一)具有一年(含)以上受托投资经验;\n\n(二)具备信用风险管理能力、股票投资管理能力和衍生品运用管理能力;\n\n(三)明确2名业务风险责任人,包括行政责任人和专业责任人,其履职要求等参照银保监会相关规定执行;\n\n(四)设立专门的组合类产品业务管理部门或专业团队,且该部门或专业团队人员不少于5名,其中产品研发设计和管理等相关人员应当具备必要的专业知识、行业经验和管理能力;\n\n(五)建立健全组合类产品业务制度,明确产品设计、投资决策、授权管理等相关流程,制定并实施相应的风险管理政策和程序;\n\n(六)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(七)银保监会要求的其他条件。\n\n第四条 组合类产品可以投资以下资产:\n\n(一)银行存款、大额存单、同业存单;\n\n(二)债券等标准化债权类资产;\n\n(三)上市或挂牌交易的股票;\n\n(四)公募证券投资基金;\n\n(五)保险资产管理产品;\n\n(六)资产支持计划和保险私募基金;\n\n(七)银保监会认可的其他资产。\n\n保险资金投资的组合类产品,应当符合保险资金运用的相关规定。非保险资金投资的组合类产品投资范围由合同约定,应当符合《产品办法》相关规定。组合类产品参与衍生品交易,仅限于对冲或规避风险,不得用于投机目的。\n\n第五条 组合类产品所投资资产的集中度应当符合《指导意见》相关规定。\n\n第六条 保险资产管理机构对组合类产品应当实行净值化管理。金融资产的估值和产品净值的生成应当符合《企业会计准则》《指导意见》等相关规定。\n\n货币市场类组合类产品在严格监管的前提下,暂按照“摊余成本+影子定价”方法进行估值。现金管理类理财产品规则施行后,货币市场类组合类产品的估值方法和投资管理等参照同类产品的要求执行。\n\n第七条 保险资产管理机构和代理销售机构应当向投资者充分披露信息和揭示风险,销售过程中以及产品销售材料不得有下列情形:\n\n(一)虚假记载、误导性陈述或重大遗漏;\n\n(二)误导投资者购买与其风险承受能力不相匹配的组合类产品;\n\n(三)预测投资业绩或宣传产品预期收益率;\n\n(四)向投资者违规承诺收益和承担损失;\n\n(五)夸大或者片面宣传管理人、投资经理及其管理的组合类产品的过往业绩;\n\n(六)恶意诋毁、贬低其他机构或产品;\n\n(七)银保监会规定禁止的其他情形。\n\n保险资产管理机构和代理销售机构向自然人投资者销售组合类产品,应当参照《商业银行理财业务监督管理办法》等制度对同类产品的销售要求进行管理。\n\n第八条 保险资产管理机构应当于组合类产品设立前2个工作日在中保保险资产登记交易系统有限公司等银保监会认可的资产登记交易平台(以下简称登记交易平台)进行产品登记,取得登记编码。\n\n登记交易平台仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。\n\n第九条 保险资产管理机构应当按月向登记交易平台报送组合类产品的基本信息、投资明细、产品资产负债表和投资者信息,并按要求定期报送产品募集信息、分红信息、终止信息、风险准备金计提和使用情况等。\n\n第十条 保险资产管理机构应当于每年4月30日前向银保监会提交上一年度组合类产品业务管理报告,内容包括产品规模与投资明细、发行与清算、收益分配、费用收支、投资经理履职及任免、公平交易制度执行和异常交易行为等情况。\n\n第十一条 组合类产品运作期间,保险资产管理机构应当按照以下要求,向投资者充分披露产品相关信息:\n\n(一)封闭式产品的净值披露频率不少于每周一次,开放式产品的净值披露频率不低于产品开放频率;\n\n(二)按照产品合同约定披露销售文件、发行公告、到期公告和清算结果;\n\n(三)定期披露组合类产品的季度、半年度和年度报告,组合类产品成立不足90日或者剩余存续期不足90日的,保险资产管理机构可以不编制组合类产品当期的季度、半年度和年度报告。\n\n第十二条 保险资产管理机构应当建立健全组合类产品业务的内部控制体系,完善内部控制措施,按规定开展内外部审计并提高审计的有效性,持续督促提升业务经营、风险管理、内控合规水平。\n\n第十三条 登记交易平台应当在银保监会的指导下,制定组合类产品信息登记规则以及数据报送规范,建立风险监测和报告机制,并接受银保监会的业务指导和监督。\n\n登记交易平台应当按照《指导意见》要求,及时向人民银行报送相关统计信息。\n\n第十四条 保险资产管理机构开展组合类产品业务,不得有以下行为:\n\n(一)让渡主动管理职责,为其他机构或个人提供规避监管要求的通道服务;\n\n(二)开展或参与具有滚动发行、集合运作、分离定价特征的资金池业务;\n\n(三)违反真实公允确定净值原则,按照事先约定的预期收益率向投资者兑付本金及收益,或对产品进行保本保收益等构成实质上刚性兑付的行为;\n\n(四)分级组合类产品投资于其他分级资产管理产品,或者直接或间接对优先级份额投资者提供保本保收益安排;\n\n(五)以投资顾问形式进行转委托,转委托按实质重于形式的原则认定;\n\n(六)以任何形式进行违规关联交易、利益输送、内幕交易或不公平交易;\n\n(七)法律、行政法规以及银保监会规定禁止的其他行为。\n\n第十五条 银保监会根据保险资产管理机构的监管评级,对保险资产管理机构发行的组合类产品的投资范围和销售对象实施差异化监管。\n\n第十六条 保险资产管理机构开展组合类产品业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展组合类产品业务等监管措施。\n\n第十七条 本细则由银保监会负责解释。\n\n第十八条 本细则自印发之日起施行。《中国保监会关于保险资产管理公司开展资产管理产品业务试点有关问题的通知》(保监资金〔2013〕124号)、《中国保监会关于加强组合类保险资产管理产品业务监管的通知》(保监资金〔2016〕104号)和《中国保监会关于保险资产管理产品参与融资融券债权收益权业务有关问题的通知》(保监资金〔2015〕114号)同时废止。\n\n债权投资计划实施细则\n\n第一条 为规范债权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资金间接投资基础设施项目管理办法》《保险资产管理产品管理暂行办法》(以下简称《产品办法》)等相关规定,制定本细则。\n\n第二条 本细则所称债权投资计划,是指保险资产管理机构作为受托人面向委托人发行受益凭证,募集资金以债权方式主要投资基础设施、非基础设施类不动产等符合国家政策的项目,并按照约定条件和实际投资收益情况向投资者支付收益、不保证本金支付和收益水平的保险资产管理产品。\n\n本细则所称委托人是指符合《产品办法》规定的合格机构投资者。\n\n第三条 保险资产管理机构开展债权投资计划业务,应当符合下列条件:\n\n(一)具有一年(含)以上受托投资经验;\n\n(二)具备债权投资计划产品管理能力;\n\n(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(四)银保监会要求的其他条件。\n\n第四条 保险资产管理机构应当以资金安全为前提,审慎选择融资主体。融资主体应当为项目方或其母公司(实际控制人),且具备持续经营能力和良好发展前景、具有或预计能够产生稳定可靠的收入和现金流、财务情况和信用状况良好、最近两年无违约等不良信用记录、与保险资产管理机构不存在关联关系。\n\n第五条 债权投资计划的资金应当投资于一个或者同类型的一组投资项目。投资项目应当符合国家宏观政策、产业政策和相关规定,履行项目立项、开发、建设、运营等法定程序,项目资本金符合国家有关资本金制度的规定,且还款来源明确合法、真实可靠。\n\n投资项目为一组项目的,其子项目应当分别开立财务账户并确定对应资产,不得相互占用资金。\n\n投资项目为非基础设施类不动产的,还应当符合保险资金投资不动产的相关监管规定。\n\n第六条 债权投资计划投资基础设施项目的,在还款保障措施完善的前提下,可以使用不超过40%的募集资金用于补充融资主体的营运资金。\n\n第七条 保险资产管理机构设立债权投资计划,应当确定有效的信用增级安排,并符合下列要求:\n\n(一)信用增级方式与融资主体还款来源相互独立。\n\n(二)信用增级采用以下方式或其组合:\n\n1.设置保证担保的,应当为本息全额无条件不可撤销连带责任保证担保,同时符合以下条件:担保人信用等级不低于被担保人信用等级,担保行为履行全部合法程序;同一担保人全部对外担保金额占其净资产的比例不超过50%,中债信用增进投资股份有限公司除外;由融资主体母公司或实际控制人提供担保的,担保人净资产不得低于融资主体净资产的1.5倍。\n\n2.设置抵押或质押担保的,担保财产应当权属清晰,质押担保办理出质登记,抵押担保办理抵押物登记,经评估的担保财产价值不低于待偿还本金和收益的1.5倍。\n\n3.银保监会认可的其他合法有效的信用增级方式。\n\n(三)融资主体信用等级为AAA级,且符合下列条件之一的债权投资计划,可免于信用增级:融资主体上年末净资产不低于150亿元,或者融资主体最近三年连续盈利,或者投资项目为经国务院或国务院投资主管部门核准的重大工程。\n\n第八条 保险资产管理机构设立债权投资计划,应当开展尽职调查和可行性研究,科学设定交易结构,充分评估相关风险,严格履行各项程序,独立开展评审和决策,并聘请具备相应资质的专业服务机构对设立债权投资计划的合法合规性、信用级别等作出明确判断和结论。\n\n第九条 保险资产管理机构应当于债权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。\n\n注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。\n\n注册机构应当按照监管规定和经备案的登记规则办理债权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。\n\n第十条 保险资产管理机构应当于债权投资计划依规履行登记程序后12个月内完成资金划拨;分期划拨资金的,最后一次资金划拨不得晚于登记完成之日起24个月。\n\n第十一条 保险资产管理机构应当制定债权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。债权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。\n\n第十二条 保险资产管理机构应当切实履行受托人职责,建立与投资发行分离的专职投后管理团队和完善的投后管理体系,完善风险预警管理机制和风险事件应急处理预案。\n\n保险资产管理机构应当跟踪管理和持续监测融资主体、信用增级和投资项目等,强化内部信用评级管理,有效评估融资主体资信状况、还款能力和信用增级安排的效力,及时掌握资金划拨使用和投资项目建设运营情况,形成内部定期报告机制,全程跟踪管理债权投资计划的投资风险。\n\n债权投资计划的抵质押资产价值下降或发生变现风险,影响债权投资计划财产安全的,保险资产管理机构应当及时制定应对方案,提交债权投资计划受益人大会审议后启动止损机制,采取减少投资计划本金、增加担保主体或追加合法足值抵质押品等措施,确保担保足额有效。\n\n第十三条 保险资产管理机构管理债权投资计划,除按照《保险资金间接投资基础设施项目管理办法》第八章规定披露信息外,还应当定期披露经审计的融资主体和担保人年度财务报告、债权投资计划涉及的关联交易和专业服务机构履行职责等情况。信息披露规则由注册机构另行制定。\n\n第十四条 保险资产管理机构开展债权投资计划业务,不得有以下行为:\n\n(一)收取或变相收取与发起设立和履行职责无关的费用;\n\n(二)进行公开营销宣传,推介材料含有与债权投资计划文件不符的内容,或者存在虚假记载、误导性陈述或重大遗漏等;\n\n(三)采用压低费率、打折或者变相打折等手段实施恶性竞争,夸大过往业绩,或者恶意贬低同行,将债权投资计划与其他资产管理产品进行捆绑销售;\n\n(四)以任何方式保证债权投资计划本金或承诺债权投资计划收益,包括采取滚动发行等方式使得债权投资计划的本金、收益、风险在不同投资者之间发生转移,实现产品保本保收益;\n\n(五)将债权投资计划资金投资于国家以及监管部门明令禁止或者限制投资的行业或产业;\n\n(六)将债权投资计划资金挪用于本细则或债权投资计划合同约定之外的其他用途;\n\n(七)与相关当事人发生涉及利益输送、利益转移或获取超出受托职责以外额外利益的交易行为,利用债权投资计划的资金与关联方进行不正当交易、利益输送等;\n\n(八)投资商业住宅项目;\n\n(九)法律、行政法规以及银保监会规定禁止的其他行为。\n\n第十五条 债权投资计划存续期间发生异常、重大或突发等风险事件或可能影响债权投资计划安全的其他事件,保险资产管理机构应当立即采取有效措施,启动风险处置预案,并在5个工作日内向受益人、独立监督人等相关当事人和银保监会、注册机构履行信息披露或报告义务。\n\n第十六条 保险资产管理机构开展债权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展债权投资计划业务等监管措施。\n\n第十七条 本细则由银保监会负责解释。\n\n第十八条 本细则自印发之日起施行。《关于印发〈基础设施债权投资计划管理暂行规定〉的通知》(保监发〔2012〕92号)、《关于保险资金投资有关金融产品的通知》(保监发〔2012〕91号)第六条、《关于债权投资计划注册有关事项的通知》(保监资金〔2013〕93号)和《中国保监会关于债权投资计划投资重大工程有关事项的通知》(保监资金〔2017〕135号)同时废止。有关规定与本细则不一致的,以本细则为准。\n\n股权投资计划实施细则\n\n第一条 为规范股权投资计划业务,强化风险管控,维护投资者合法权益,依据《关于规范金融机构资产管理业务的指导意见》(以下简称《指导意见》)、《保险资金运用管理办法》《保险资产管理产品管理暂行办法》等相关规定,制定本细则。\n\n第二条 本细则所称股权投资计划,是指保险资产管理机构作为管理人发起设立、向合格机构投资者募集资金、通过直接或间接方式主要投资于未上市企业股权的保险资产管理产品。\n\n第三条 保险资产管理机构开展股权投资计划业务,应当符合下列条件:\n\n(一)具有一年(含)以上受托投资经验;\n\n(二)具备股权投资计划产品管理能力;\n\n(三)最近三年无重大违法违规行为,设立未满三年的,自其成立之日起无重大违法违规行为;\n\n(四)银保监会要求的其他条件。\n\n第四条 股权投资计划可以投资以下资产:\n\n(一)未上市企业股权;\n\n(二)私募股权投资基金、创业投资基金(以下统称基金);\n\n(三)上市公司定向增发、大宗交易、协议转让的股票,以及可转换为普通股的优先股、可转换债券;\n\n(四)银保监会认可的其他资产。\n\n保险资金投资的股权投资计划,其投资运作还应当符合保险资金运用的相关规定。\n\n第五条 股权投资计划投资基金的,基金的分级比例(优先级份额/劣后级份额,中间级份额计入优先级份额)不得超过1:1;股权投资计划所投金额不得超过该基金当前实际募集金额的80%。股权投资计划投资于未上市企业股权等权益类资产的比例不低于80%。\n\n股权投资计划不得投资劣后级基金份额。分级股权投资计划不得投资分级的基金。\n\n第六条 股权投资计划应当为封闭式产品,并在投资合同、募集说明书等法律文件中对标的资产的退出机制作出相应安排。标的资产的退出日不得晚于股权投资计划的到期日。\n\n第七条 保险资产管理机构应当于股权投资计划发行前5个工作日在中国保险资产管理业协会等银保监会认可的注册机构(以下简称注册机构)进行产品登记。保险资产管理机构应当按照监管规定以及登记要求报送登记材料,报送的登记材料应当真实、完备、规范。\n\n注册机构仅对登记材料的完备性和合规性进行查验,不对产品的投资价值和风险作实质性判断。\n\n注册机构应当按照监管规定和经备案的登记规则办理股权投资计划登记工作,建立风险监测和报告机制,并接受银保监会的业务指导和监督。\n\n第八条 保险资产管理机构应当在股权投资计划募集发行、投资、运营管理、退出、清算等阶段,按照经备案的信息报送规则向注册机构报送相关信息。\n\n第九条 保险资产管理机构应当于每年4月30日前,向银保监会提交上一年度股权投资计划管理报告和经审计的财务会计报告。年度管理报告内容包括规模与投资明细、发行与清算、资产管理和运作、投资标的估值和变动、费用收支和收益分配、投资管理团队履职和任免、关联交易说明、重大突发事件和处置等情况。\n\n第十条 股权投资计划运作期间,保险资产管理机构应当按照监管规定以及合同约定向投资者及时、充分披露股权投资计划发行设立、投资、管理、估值、收益分配、重大事项和风险事件等情况,以及可能影响投资者权益的其他信息。\n\n第十一条 保险资产管理机构应当制定股权投资计划财务管理制度,确定会计核算方法、账务处理原则,合理计量公允价值。股权投资计划的估值应当符合《企业会计准则》《指导意见》等相关规定。\n\n第十二条 保险资产管理机构应当加强股权投资计划的后续管理,通过关键岗位人员委派、制度安排、合同约定、交易结构设计等多种方式,维护投资者合法权益。\n\n第十三条 股权投资计划存续期间发生异常、重大或突发等风险事件可能影响股权投资计划安全的,保险资产管理机构应当立即采取有效措施进行风险处置,并及时向银保监会、注册机构报告相关情况。\n\n第十四条 股权投资计划各方当事人不得存在以下情形:\n\n(一)保险资金通过股权投资计划对未上市企业实施控制;\n\n(二)通过关联交易、股东代持、虚假出资、不公平交易等手段进行利益输送;\n\n(三)保险资产管理机构让渡主动管理职责,直接或变相开展通道业务;\n\n(四)保险资产管理机构采取各种方式承诺保障本金和投资收益,包括设置明确的预期回报且定期向投资者支付固定投资回报、约定到期由被投资企业或关联第三方赎回投资本金等;\n\n(五)股权投资计划投资的私募股权投资基金违反《指导意见》一层嵌套的有关规定,法律法规和金融管理部门另有规定的除外;\n\n(六)法律、行政法规以及银保监会规定禁止的其他情形。\n\n第十五条 保险资产管理机构开展股权投资计划业务过程中违反法律、行政法规以及本细则的,银保监会将记录其不良行为并责令整改;情节严重的,将依法依规采取暂停开展股权投资计划业务等监管措施。\n\n第十六条 本细则由银保监会负责解释。\n\n第十七条 本细则自印发之日起施行。《中国保监会关于保险资金设立股权投资计划有关事项的通知》(保监资金〔2017〕282号)和《关于印发〈保险资金设立股权投资计划报告要件及要点〉监管口径的通知》(资金部函〔2016〕440号)同时废止。",
   "blocks": [
     {
@@ -187,7 +3556,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 36,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -195,7 +3571,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 38,
+      "end_char": 64,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -203,7 +3586,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 66,
+      "end_char": 219,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -211,7 +3601,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 221,
+      "end_char": 230,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -219,7 +3616,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 232,
+      "end_char": 247,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -227,7 +3631,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 249,
+      "end_char": 375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -235,7 +3646,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 377,
+      "end_char": 453,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -243,7 +3661,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 455,
+      "end_char": 486,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -251,7 +3676,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 488,
+      "end_char": 507,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -259,7 +3691,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 509,
+      "end_char": 542,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -267,7 +3706,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 544,
+      "end_char": 592,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -275,7 +3721,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 594,
+      "end_char": 674,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -283,7 +3736,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 676,
+      "end_char": 733,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -291,7 +3751,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 735,
+      "end_char": 777,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -299,7 +3766,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 779,
+      "end_char": 794,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -307,7 +3781,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 796,
+      "end_char": 814,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -315,7 +3796,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 816,
+      "end_char": 834,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -323,7 +3811,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 836,
+      "end_char": 851,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -331,7 +3826,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 853,
+      "end_char": 867,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -339,7 +3841,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 869,
+      "end_char": 881,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -347,7 +3856,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 883,
+      "end_char": 895,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -355,7 +3871,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 897,
+      "end_char": 914,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -363,7 +3886,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 916,
+      "end_char": 931,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -371,7 +3901,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 933,
+      "end_char": 1033,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -379,7 +3916,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1068,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -387,7 +3931,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1070,
+      "end_char": 1137,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -395,7 +3946,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1139,
+      "end_char": 1228,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -403,7 +3961,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1230,
+      "end_char": 1288,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -411,7 +3976,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1290,
+      "end_char": 1309,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -419,7 +3991,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1311,
+      "end_char": 1340,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -427,7 +4006,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1342,
+      "end_char": 1362,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -435,7 +4021,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1364,
+      "end_char": 1383,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -443,7 +4036,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1385,
+      "end_char": 1420,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -451,7 +4051,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1422,
+      "end_char": 1440,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -459,7 +4066,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1442,
+      "end_char": 1459,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -467,7 +4081,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1461,
+      "end_char": 1529,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -475,7 +4096,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1531,
+      "end_char": 1618,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -483,7 +4111,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1620,
+      "end_char": 1664,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -491,7 +4126,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1666,
+      "end_char": 1760,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -499,7 +4141,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1762,
+      "end_char": 1867,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -507,7 +4156,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1869,
+      "end_char": 1916,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -515,7 +4171,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1918,
+      "end_char": 1963,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -523,7 +4186,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1965,
+      "end_char": 1998,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -531,7 +4201,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2000,
+      "end_char": 2084,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -539,7 +4216,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2086,
+      "end_char": 2172,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -547,7 +4231,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2174,
+      "end_char": 2247,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -555,7 +4246,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2249,
+      "end_char": 2284,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -563,7 +4261,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2286,
+      "end_char": 2317,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -571,7 +4276,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2319,
+      "end_char": 2353,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -579,7 +4291,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2355,
+      "end_char": 2388,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -587,7 +4306,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2390,
+      "end_char": 2455,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -595,7 +4321,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2507,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -603,7 +4336,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2509,
+      "end_char": 2541,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -611,7 +4351,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2543,
+      "end_char": 2576,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -619,7 +4366,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2578,
+      "end_char": 2604,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -627,7 +4381,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2606,
+      "end_char": 2666,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -635,7 +4396,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2668,
+      "end_char": 2757,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -643,7 +4411,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2759,
+      "end_char": 2777,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -651,7 +4426,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2779,
+      "end_char": 2953,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -659,7 +4441,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2955,
+      "end_char": 2965,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -667,7 +4456,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2967,
+      "end_char": 3108,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -675,7 +4471,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3110,
+      "end_char": 3238,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -683,7 +4486,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3240,
+      "end_char": 3269,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -691,7 +4501,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3271,
+      "end_char": 3303,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -699,7 +4516,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3305,
+      "end_char": 3324,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -707,7 +4531,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3326,
+      "end_char": 3344,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -715,7 +4546,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3346,
+      "end_char": 3388,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -723,7 +4561,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3390,
+      "end_char": 3405,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -731,7 +4576,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3407,
+      "end_char": 3544,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -739,7 +4591,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3546,
+      "end_char": 3660,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -747,7 +4606,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3662,
+      "end_char": 3704,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -755,7 +4621,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3706,
+      "end_char": 3744,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -763,7 +4636,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3746,
+      "end_char": 3809,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -771,7 +4651,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3811,
+      "end_char": 3854,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -779,7 +4666,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3856,
+      "end_char": 3879,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -787,7 +4681,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3881,
+      "end_char": 3899,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -795,7 +4696,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3901,
+      "end_char": 4063,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -803,7 +4711,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4065,
+      "end_char": 4139,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -811,7 +4726,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4164,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -819,7 +4741,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4166,
+      "end_char": 4271,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -827,7 +4756,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4273,
+      "end_char": 4393,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -835,7 +4771,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4395,
+      "end_char": 4512,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -843,7 +4786,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4514,
+      "end_char": 4556,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -851,7 +4801,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4558,
+      "end_char": 4620,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -859,7 +4816,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4622,
+      "end_char": 4696,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -867,7 +4831,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4698,
+      "end_char": 4786,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -875,7 +4846,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4788,
+      "end_char": 4864,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -883,7 +4861,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4866,
+      "end_char": 4991,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -891,7 +4876,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4993,
+      "end_char": 5114,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -899,7 +4891,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5116,
+      "end_char": 5242,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -907,7 +4906,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5244,
+      "end_char": 5276,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -915,7 +4921,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5278,
+      "end_char": 5304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -923,7 +4936,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5306,
+      "end_char": 5360,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -931,7 +4951,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5362,
+      "end_char": 5429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -939,7 +4966,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5431,
+      "end_char": 5512,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -947,7 +4981,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5514,
+      "end_char": 5554,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -955,7 +4996,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5556,
+      "end_char": 5593,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -963,7 +5011,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5595,
+      "end_char": 5667,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -971,7 +5026,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5669,
+      "end_char": 5681,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -979,7 +5041,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5683,
+      "end_char": 5709,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -987,7 +5056,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5711,
+      "end_char": 5834,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -995,7 +5071,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5836,
+      "end_char": 5927,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1003,7 +5086,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5929,
+      "end_char": 5947,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1011,7 +5101,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5949,
+      "end_char": 6149,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1019,7 +5116,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6151,
+      "end_char": 6161,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1027,7 +5131,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6163,
+      "end_char": 6272,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1035,7 +5146,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6274,
+      "end_char": 6354,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1043,7 +5161,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6356,
+      "end_char": 6388,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1051,7 +5176,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6390,
+      "end_char": 6409,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1059,7 +5191,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6411,
+      "end_char": 6429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1067,7 +5206,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6431,
+      "end_char": 6473,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1075,7 +5221,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6475,
+      "end_char": 6490,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1083,7 +5236,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6492,
+      "end_char": 6511,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1091,7 +5251,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6513,
+      "end_char": 6524,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1099,7 +5266,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6526,
+      "end_char": 6553,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1107,7 +5281,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6555,
+      "end_char": 6600,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1115,7 +5296,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6602,
+      "end_char": 6617,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1123,7 +5311,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6619,
+      "end_char": 6655,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1131,7 +5326,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6657,
+      "end_char": 6776,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1139,7 +5341,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6778,
+      "end_char": 6814,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1147,7 +5356,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6816,
+      "end_char": 6893,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1155,7 +5371,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6895,
+      "end_char": 7012,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1163,7 +5386,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7014,
+      "end_char": 7056,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1171,7 +5401,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7058,
+      "end_char": 7120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1179,7 +5416,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7122,
+      "end_char": 7189,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1187,7 +5431,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7191,
+      "end_char": 7332,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1195,7 +5446,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7334,
+      "end_char": 7437,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00128",
@@ -1203,7 +5461,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7439,
+      "end_char": 7527,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00129",
@@ -1211,7 +5476,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7529,
+      "end_char": 7601,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00130",
@@ -1219,7 +5491,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7603,
+      "end_char": 7692,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00131",
@@ -1227,7 +5506,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7694,
+      "end_char": 7719,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00132",
@@ -1235,7 +5521,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7721,
+      "end_char": 7747,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00133",
@@ -1243,7 +5536,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7749,
+      "end_char": 7784,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00134",
@@ -1251,7 +5551,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7786,
+      "end_char": 7818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00135",
@@ -1259,7 +5566,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7820,
+      "end_char": 7900,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00136",
@@ -1267,7 +5581,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7902,
+      "end_char": 7959,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00137",
@@ -1275,7 +5596,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7961,
+      "end_char": 7987,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00138",
@@ -1283,7 +5611,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7989,
+      "end_char": 8080,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00139",
@@ -1291,7 +5626,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8082,
+      "end_char": 8100,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00140",
@@ -1299,7 +5641,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8102,
+      "end_char": 8219,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

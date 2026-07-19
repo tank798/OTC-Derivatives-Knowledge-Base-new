@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/深圳证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引.pdf",
   "source_type": "pdf",
   "file_sha256": "3d1aa81a053d53ed921038dc18903d7c46359e531c58928cff50790de2878da6",
-  "content_sha256": "43983122fe7e89e46e4f534e56fc44cf70a6c6936863ae67e4c801b4b711a026",
+  "content_sha256": "14f75dc68cc0a1fdfb004028baac359ddbcc6d18d0c39c21a0b1acb353474c1a",
   "metadata": {
     "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引",
     "issuing_authority": "深圳证券交易所、中国结算",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "3ea3533f46ce1b1e4850cf278e65bf753b2c3a5b1846dc470b68b3738b324026",
     "clean_text_sha256": "3ea3533f46ce1b1e4850cf278e65bf753b2c3a5b1846dc470b68b3738b324026",
@@ -109,6 +109,1623 @@
   },
   "original_text_sha256": "3ea3533f46ce1b1e4850cf278e65bf753b2c3a5b1846dc470b68b3738b324026",
   "clean_text_sha256": "3ea3533f46ce1b1e4850cf278e65bf753b2c3a5b1846dc470b68b3738b324026",
+  "clean_text_hash": "deef6df6b039a5e1e96fcace6788d371f1785ba994a22354b2c874e2c9bcd6b6",
+  "structured_blocks_sha256": "212f7a63be988d0b3472b925f86572bf9e8d03a932256cbc2fb712f9f886dbd3",
+  "front_matter": [],
+  "body_blocks": [],
+  "appendices": [
+    {
+      "block_id": "b00001",
+      "block_type": "attachment",
+      "text": "附件:深圳证券交易所中国证券登记结算有限责任公司股票期权组合策略业务指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 36,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为了规范股票期权(以下简称期权)组合策略交易业务,提高资金使用效率,降低期权交易成本,维护期权交易秩序,根据《深圳证券交易所股票期权试点交易规则》《中国证券登记结算有限责任公司关于深圳证券交易所股票期权试点结算业务实施细则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》(以下简称《风控办法》)及其他相关规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 38,
+      "end_char": 218,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 组合策略的构建、解除、平仓以及对应的保证金收取等事宜,适用本指引。本指引未作规定的,适用深圳证券交易所(以下简称深交所)、中国证券登记结算有限责任公司(以下简称中国结算)其他有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 220,
+      "end_char": 316,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 本指引所称组合策略包括以下类型:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 318,
+      "end_char": 338,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "(一)认购牛市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ CNSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 340,
+      "end_char": 429,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(二)认购熊市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ CXSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 431,
+      "end_char": 520,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(三)认沽牛市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ PNSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 522,
+      "end_char": 611,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(四)认沽熊市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ PXSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 613,
+      "end_char": 702,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(五)跨式空头策略,由一个认购期权义务仓与一个相同合约标的、相同到期日、相同合约单位、相同行权价格的认沽期权义务仓组成,代码为“ KS” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 704,
+      "end_char": 774,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(六)宽跨式空头策略,由一个较高行权价格的认购期权义务仓,与一个相同合约标的、相同到期日、相同合约单位、较低行权价格的认沽期权义务仓组成,代码为“ KKS” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 776,
+      "end_char": 856,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(七)深交所、中国结算规定的其他组合策略类型。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 858,
+      "end_char": 881,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第四条 每个组合策略分别按照以下标准收取保证金:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 883,
+      "end_char": 907,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(一)认购牛市价差策略、认沽熊市价差策略的开仓保证金和维持保证金收取标准为零;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 909,
+      "end_char": 948,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(二)认购熊市价差策略的开仓保证金和维持保证金的计算公式为:(认购期权权利仓行权价格-认购期权义务仓行权价格)×合约单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 950,
+      "end_char": 1011,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(三)认沽牛市价差策略的开仓保证金和维持保证金的计算公式为:(认沽期权义务仓行权价格-认沽期权权利仓行权价格)×合约单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1013,
+      "end_char": 1074,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(四)跨式空头策略、宽跨式空头策略的开仓保证金的计算公式为:Max(认购期权开仓保证金,认沽期权开仓保证金)+开仓保证金较低的成分合约前结算价×合约单位;当开仓保证金相等时,上述公式中开仓保证金较低的成分合约前结算价,取认购期权前结算价和认沽期权前结算价两者中的较大值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1076,
+      "end_char": 1211,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(五)跨式空头策略、宽跨式空头策略的维持保证金的计算公式为:Max(认购期权维持保证金,认沽期权维持保证金)+维持保证金较低的成分合约结算价×合约单位;当维持保证金相等时,上述公式中维持保证金较低的成分合约结算价,取认购期权结算价和认沽期权结算价两者中的较大值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1213,
+      "end_char": 1344,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(六)其他类型组合策略的保证金收取标准由深交所、中国结算另行规定。期权经营机构向客户收取的组合策略保证金,不得低于本条规定的标准。深交所、中国结算可以根据市场情况对本条规定的保证金收取标准进行调整,并向市场公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1346,
+      "end_char": 1452,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第五条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 将其同一个衍生品合约账户(以下简称合约账户)内的相关合约构建本指引规定的组合策略。备兑开仓合约不得用于构建组合策略;除另有规定外,组合策略自动解除后,当月到期合约不得再用于构建组合策略。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1454,
+      "end_char": 1596,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第六条 构建组合策略申报包括下列内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1598,
+      "end_char": 1617,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(一)合约账户号码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1619,
+      "end_char": 1629,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(二)成分合约的合约标的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1631,
+      "end_char": 1644,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(三)交易单元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1646,
+      "end_char": 1654,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(四)组合策略代码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1656,
+      "end_char": 1666,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(五)成分合约数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1668,
+      "end_char": 1678,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(六)各成分合约的合约编码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1680,
+      "end_char": 1694,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(七)各成分合约仓位类型(义务仓、权利仓);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1696,
+      "end_char": 1718,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(八)构建的组合策略数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1720,
+      "end_char": 1733,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(九)深交所规定的其他内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1735,
+      "end_char": 1749,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第七条 深交所根据组合策略的具体类型,对符合规定的构建组合策略申报进行确认,实时锁定相应成分合约,生成组合策略流水号,并在投资者合约账户中增加相应的组合策略数量。同一笔申报构建的所有组合策略对应一个组合策略流水号,不同申报构建的相同类型的组合策略不进行汇总编号。同一笔申报构建组合策略时,其成分合约无法满足构建全部组合策略要求的,该笔申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1751,
+      "end_char": 1923,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第八条 深交所对构建组合策略申报确认后,按照以下公式实时增加相应结算参与人的保证金日间余额:增加的保证金日间余额=组合策略各成分合约已收取的保证金之和-组合策略应收取的开仓保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1925,
+      "end_char": 2015,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第九条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 对其已构建的组合策略提出解除组合策略指令。当日构建的组合策略当日可以解除。投资者频繁构建和解除组合策略,影响期权交易秩序的,深交所将作为异常交易行为予以监控,并根据相关业务规则的规定采取相应措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2017,
+      "end_char": 2164,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十条 解除组合策略申报包括下列内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2166,
+      "end_char": 2185,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(一)合约账户号码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2187,
+      "end_char": 2197,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(二)交易单元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2199,
+      "end_char": 2207,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(三)解除的组合策略流水号;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2209,
+      "end_char": 2223,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(四)解除的组合策略数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2225,
+      "end_char": 2238,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(五)深交所规定的其他内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2240,
+      "end_char": 2254,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十一条 深交所对解除组合策略申报进行校验,按照以下公式计算结算参与人应予扣减的保证金日间余额:应予扣减的保证金日间余额=组合策略各成分合约应收取的开仓保证金之和-组合策略已收取的保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2256,
+      "end_char": 2350,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十二条 结算参与人可用于扣减的保证金日间余额不足,或者申报解除的组合策略不符合规定的,解除组合策略申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2352,
+      "end_char": 2407,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十三条 深交所对符合规定的解除组合策略申报进行确认,实时减少投资者合约账户中相应的组合策略数量,并对相应成分合约解除锁定,实时扣减相应结算参与人的保证金日间余额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2409,
+      "end_char": 2491,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十四条 组合策略的成分合约停牌期间,深交所接受相应构建、解除组合策略申报,但暂时停止交易或临时停市期间除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2493,
+      "end_char": 2548,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 组合策略存续期间发生以下情形的,组合策略自动解除:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2550,
+      "end_char": 2580,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)认购牛市价差策略、认购熊市价差策略、认沽牛市价差策略、认沽熊市价差策略于其成分合约到期日前第二个交易日日终自动解除;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2582,
+      "end_char": 2643,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)跨式空头策略、宽跨式空头策略于其成分合约到期日日终自动解除;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2645,
+      "end_char": 2678,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)深交所及中国结算规定的其他自动解除情形。成分合约在前款规定的自动解除日发生停牌、到期日顺延等情形的,深交所、中国结算可以根据市场情况对组合策略自动解除的相关事项向市场公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2680,
+      "end_char": 2769,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第十六条 组合策略自动解除后,成分合约参加每日日终的持仓自动对冲,并按照对冲后的持仓情况收取相应的维持保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2771,
+      "end_char": 2826,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十七条 深交所、中国结算可以根据市场情况,确定允许单边平仓的组合策略类型,并向市场公布。投资者可对前述组合策略中的义务仓提出单边买入平仓指令。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2828,
+      "end_char": 2900,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第十八条 单边平仓申报包括下列内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2902,
+      "end_char": 2920,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(一)合约账户号码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2922,
+      "end_char": 2932,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(二)成分合约的合约标的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2934,
+      "end_char": 2947,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(三)交易单元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2949,
+      "end_char": 2957,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(四)单边平仓的组合策略流水号及数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2959,
+      "end_char": 2978,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(五)单边平仓的成分合约的合约编码及数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2980,
+      "end_char": 3001,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(六)单边平仓的成分合约的平仓申报价格;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3003,
+      "end_char": 3023,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(七)深交所要求的其他内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3025,
+      "end_char": 3039,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第十九条 深交所对单边平仓申报进行校验,对符合条件的组合策略进行锁定。单边买入平仓申报成交后,深交所实时减少投资者合约账户中相应的组合策略数量,对未平仓的成分合约解除锁定,并按照以下公式实时增加或者扣减相应结算参与人的保证金日间余额:保证金日间余额变动=组合策略已收取的保证金-未平仓成分合约义务仓应收取的开仓保证金之和-买入平仓应收取的权利金之和。前款规定的公式中,计算结果为正值,则增加保证金日间余额;计算结果为负值,则减少保证金日间余额。结算参与人保证金日间余额小于单边平仓应扣减金额的,单边平仓申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3041,
+      "end_char": 3297,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十条 中国结算于每日日终按照组合策略保证金收取标准,向结算参与人收取组合策略的维持保证金;组合策略解除的,对成分合约收取维持保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3299,
+      "end_char": 3367,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十一条 按照《风控办法》第六十一条第(三)项规定对组合策略中的成分合约实施强行平仓时,深交所发出强制解除组合策略指令,再对组合策略中的义务仓和权利仓实施强行平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3369,
+      "end_char": 3452,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十二条 期权经营机构对其客户的组合策略实施强行平仓的,应当先提交解除组合策略申报,校验通过后再对组合策略中的义务仓和权利仓实施强行平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3454,
+      "end_char": 3524,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十三条 投资者可以提交普通仓转备兑仓指令,将认购期权保证金卖出开仓转为备兑开仓。深交所在对足额合约标的进行备兑锁定后,将投资者合约账户中相应的认购期权保证金卖出开仓转为备兑开仓,并实时增加相应结算参与人的保证金日间余额,增加金额为已转为备兑开仓的认购期权已收取的保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3526,
+      "end_char": 3663,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第二十四条 投资者可以提交备兑仓转普通仓指令,将认购期权备兑开仓转为保证金卖出开仓。投资者应当具有三级交易权限且确保其用于保证金卖出开仓的保证金足额。深交所对备兑仓转普通仓申报进行校验,对符合规定的申报予以确认,将投资者合约账户中相应的认购期权备兑开仓转为保证金卖出开仓,实时增加投资者可用证券数量,增加数量为转为保证金卖出开仓的认购期权已锁定的备兑证券数量,并实时扣减相应结算参与人的保证金日间余额,扣减金额为转为保证金卖出开仓的认购期权应收取的开仓保证金。结算参与人可用于扣减的保证金日间余额不足,或者申报不符合规定的,该备兑仓转普通仓申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3665,
+      "end_char": 3940,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第二十五条 期权经营机构应当对客户构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等委托指令进行前端控制,对组合策略类型或成分合约不符合规定、保证金可用余额不足、用于备兑锁定的合约标的不足等情形的,期权经营机构不得接受其提交的相应委托指令。期权经营机构应当做好组合策略自动解除时的风险控制工作,在组合策略自动解除日按照本指引第十一条规定的扣减标准检查保证金可用余额,并确保当日日终保证金足额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3942,
+      "end_char": 4152,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第二十六条 期权经营机构、投资者在构建和解除组合策略、进行组合策略单边平仓、普通仓转备兑仓以及备兑仓转普通仓时,违反本指引规定的,深交所可以按照相关业务规则的规定,对其采取相应监管措施或纪律处分。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4154,
+      "end_char": 4252,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十七条 深交所、中国结算可以根据市场情况对构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等事宜进行调整,并向市场公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4254,
+      "end_char": 4330,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十八条 本指引由深交所、中国结算负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4332,
+      "end_char": 4355,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "article",
+      "text": "第二十九条 本指引自发布之日起实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4357,
+      "end_char": 4375,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "附件:深圳证券交易所中国证券登记结算有限责任公司股票期权组合策略业务指引\n\n第一条 为了规范股票期权(以下简称期权)组合策略交易业务,提高资金使用效率,降低期权交易成本,维护期权交易秩序,根据《深圳证券交易所股票期权试点交易规则》《中国证券登记结算有限责任公司关于深圳证券交易所股票期权试点结算业务实施细则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》(以下简称《风控办法》)及其他相关规定,制定本指引。\n\n第二条 组合策略的构建、解除、平仓以及对应的保证金收取等事宜,适用本指引。本指引未作规定的,适用深圳证券交易所(以下简称深交所)、中国证券登记结算有限责任公司(以下简称中国结算)其他有关规定。\n\n第三条 本指引所称组合策略包括以下类型:\n\n(一)认购牛市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ CNSJC” ;\n\n(二)认购熊市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ CXSJC” ;\n\n(三)认沽牛市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ PNSJC” ;\n\n(四)认沽熊市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ PXSJC” ;\n\n(五)跨式空头策略,由一个认购期权义务仓与一个相同合约标的、相同到期日、相同合约单位、相同行权价格的认沽期权义务仓组成,代码为“ KS” ;\n\n(六)宽跨式空头策略,由一个较高行权价格的认购期权义务仓,与一个相同合约标的、相同到期日、相同合约单位、较低行权价格的认沽期权义务仓组成,代码为“ KKS” ;\n\n(七)深交所、中国结算规定的其他组合策略类型。\n\n第四条 每个组合策略分别按照以下标准收取保证金:\n\n(一)认购牛市价差策略、认沽熊市价差策略的开仓保证金和维持保证金收取标准为零;\n\n(二)认购熊市价差策略的开仓保证金和维持保证金的计算公式为:(认购期权权利仓行权价格-认购期权义务仓行权价格)×合约单位;\n\n(三)认沽牛市价差策略的开仓保证金和维持保证金的计算公式为:(认沽期权义务仓行权价格-认沽期权权利仓行权价格)×合约单位;\n\n(四)跨式空头策略、宽跨式空头策略的开仓保证金的计算公式为:Max(认购期权开仓保证金,认沽期权开仓保证金)+开仓保证金较低的成分合约前结算价×合约单位;当开仓保证金相等时,上述公式中开仓保证金较低的成分合约前结算价,取认购期权前结算价和认沽期权前结算价两者中的较大值;\n\n(五)跨式空头策略、宽跨式空头策略的维持保证金的计算公式为:Max(认购期权维持保证金,认沽期权维持保证金)+维持保证金较低的成分合约结算价×合约单位;当维持保证金相等时,上述公式中维持保证金较低的成分合约结算价,取认购期权结算价和认沽期权结算价两者中的较大值;\n\n(六)其他类型组合策略的保证金收取标准由深交所、中国结算另行规定。期权经营机构向客户收取的组合策略保证金,不得低于本条规定的标准。深交所、中国结算可以根据市场情况对本条规定的保证金收取标准进行调整,并向市场公告。\n\n第五条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 将其同一个衍生品合约账户(以下简称合约账户)内的相关合约构建本指引规定的组合策略。备兑开仓合约不得用于构建组合策略;除另有规定外,组合策略自动解除后,当月到期合约不得再用于构建组合策略。\n\n第六条 构建组合策略申报包括下列内容:\n\n(一)合约账户号码;\n\n(二)成分合约的合约标的;\n\n(三)交易单元;\n\n(四)组合策略代码;\n\n(五)成分合约数量;\n\n(六)各成分合约的合约编码;\n\n(七)各成分合约仓位类型(义务仓、权利仓);\n\n(八)构建的组合策略数量;\n\n(九)深交所规定的其他内容。\n\n第七条 深交所根据组合策略的具体类型,对符合规定的构建组合策略申报进行确认,实时锁定相应成分合约,生成组合策略流水号,并在投资者合约账户中增加相应的组合策略数量。同一笔申报构建的所有组合策略对应一个组合策略流水号,不同申报构建的相同类型的组合策略不进行汇总编号。同一笔申报构建组合策略时,其成分合约无法满足构建全部组合策略要求的,该笔申报无效。\n\n第八条 深交所对构建组合策略申报确认后,按照以下公式实时增加相应结算参与人的保证金日间余额:增加的保证金日间余额=组合策略各成分合约已收取的保证金之和-组合策略应收取的开仓保证金。\n\n第九条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 对其已构建的组合策略提出解除组合策略指令。当日构建的组合策略当日可以解除。投资者频繁构建和解除组合策略,影响期权交易秩序的,深交所将作为异常交易行为予以监控,并根据相关业务规则的规定采取相应措施。\n\n第十条 解除组合策略申报包括下列内容:\n\n(一)合约账户号码;\n\n(二)交易单元;\n\n(三)解除的组合策略流水号;\n\n(四)解除的组合策略数量;\n\n(五)深交所规定的其他内容。\n\n第十一条 深交所对解除组合策略申报进行校验,按照以下公式计算结算参与人应予扣减的保证金日间余额:应予扣减的保证金日间余额=组合策略各成分合约应收取的开仓保证金之和-组合策略已收取的保证金。\n\n第十二条 结算参与人可用于扣减的保证金日间余额不足,或者申报解除的组合策略不符合规定的,解除组合策略申报无效。\n\n第十三条 深交所对符合规定的解除组合策略申报进行确认,实时减少投资者合约账户中相应的组合策略数量,并对相应成分合约解除锁定,实时扣减相应结算参与人的保证金日间余额。\n\n第十四条 组合策略的成分合约停牌期间,深交所接受相应构建、解除组合策略申报,但暂时停止交易或临时停市期间除外。\n\n第十五条 组合策略存续期间发生以下情形的,组合策略自动解除:\n\n(一)认购牛市价差策略、认购熊市价差策略、认沽牛市价差策略、认沽熊市价差策略于其成分合约到期日前第二个交易日日终自动解除;\n\n(二)跨式空头策略、宽跨式空头策略于其成分合约到期日日终自动解除;\n\n(三)深交所及中国结算规定的其他自动解除情形。成分合约在前款规定的自动解除日发生停牌、到期日顺延等情形的,深交所、中国结算可以根据市场情况对组合策略自动解除的相关事项向市场公告。\n\n第十六条 组合策略自动解除后,成分合约参加每日日终的持仓自动对冲,并按照对冲后的持仓情况收取相应的维持保证金。\n\n第十七条 深交所、中国结算可以根据市场情况,确定允许单边平仓的组合策略类型,并向市场公布。投资者可对前述组合策略中的义务仓提出单边买入平仓指令。\n\n第十八条 单边平仓申报包括下列内容:\n\n(一)合约账户号码;\n\n(二)成分合约的合约标的;\n\n(三)交易单元;\n\n(四)单边平仓的组合策略流水号及数量;\n\n(五)单边平仓的成分合约的合约编码及数量;\n\n(六)单边平仓的成分合约的平仓申报价格;\n\n(七)深交所要求的其他内容。\n\n第十九条 深交所对单边平仓申报进行校验,对符合条件的组合策略进行锁定。单边买入平仓申报成交后,深交所实时减少投资者合约账户中相应的组合策略数量,对未平仓的成分合约解除锁定,并按照以下公式实时增加或者扣减相应结算参与人的保证金日间余额:保证金日间余额变动=组合策略已收取的保证金-未平仓成分合约义务仓应收取的开仓保证金之和-买入平仓应收取的权利金之和。前款规定的公式中,计算结果为正值,则增加保证金日间余额;计算结果为负值,则减少保证金日间余额。结算参与人保证金日间余额小于单边平仓应扣减金额的,单边平仓申报无效。\n\n第二十条 中国结算于每日日终按照组合策略保证金收取标准,向结算参与人收取组合策略的维持保证金;组合策略解除的,对成分合约收取维持保证金。\n\n第二十一条 按照《风控办法》第六十一条第(三)项规定对组合策略中的成分合约实施强行平仓时,深交所发出强制解除组合策略指令,再对组合策略中的义务仓和权利仓实施强行平仓。\n\n第二十二条 期权经营机构对其客户的组合策略实施强行平仓的,应当先提交解除组合策略申报,校验通过后再对组合策略中的义务仓和权利仓实施强行平仓。\n\n第二十三条 投资者可以提交普通仓转备兑仓指令,将认购期权保证金卖出开仓转为备兑开仓。深交所在对足额合约标的进行备兑锁定后,将投资者合约账户中相应的认购期权保证金卖出开仓转为备兑开仓,并实时增加相应结算参与人的保证金日间余额,增加金额为已转为备兑开仓的认购期权已收取的保证金。\n\n第二十四条 投资者可以提交备兑仓转普通仓指令,将认购期权备兑开仓转为保证金卖出开仓。投资者应当具有三级交易权限且确保其用于保证金卖出开仓的保证金足额。深交所对备兑仓转普通仓申报进行校验,对符合规定的申报予以确认,将投资者合约账户中相应的认购期权备兑开仓转为保证金卖出开仓,实时增加投资者可用证券数量,增加数量为转为保证金卖出开仓的认购期权已锁定的备兑证券数量,并实时扣减相应结算参与人的保证金日间余额,扣减金额为转为保证金卖出开仓的认购期权应收取的开仓保证金。结算参与人可用于扣减的保证金日间余额不足,或者申报不符合规定的,该备兑仓转普通仓申报无效。\n\n第二十五条 期权经营机构应当对客户构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等委托指令进行前端控制,对组合策略类型或成分合约不符合规定、保证金可用余额不足、用于备兑锁定的合约标的不足等情形的,期权经营机构不得接受其提交的相应委托指令。期权经营机构应当做好组合策略自动解除时的风险控制工作,在组合策略自动解除日按照本指引第十一条规定的扣减标准检查保证金可用余额,并确保当日日终保证金足额。\n\n第二十六条 期权经营机构、投资者在构建和解除组合策略、进行组合策略单边平仓、普通仓转备兑仓以及备兑仓转普通仓时,违反本指引规定的,深交所可以按照相关业务规则的规定,对其采取相应监管措施或纪律处分。\n\n第二十七条 深交所、中国结算可以根据市场情况对构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等事宜进行调整,并向市场公布。\n\n第二十八条 本指引由深交所、中国结算负责解释。\n\n第二十九条 本指引自发布之日起实施。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "attachment",
+      "text": "附件:深圳证券交易所中国证券登记结算有限责任公司股票期权组合策略业务指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 36,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为了规范股票期权(以下简称期权)组合策略交易业务,提高资金使用效率,降低期权交易成本,维护期权交易秩序,根据《深圳证券交易所股票期权试点交易规则》《中国证券登记结算有限责任公司关于深圳证券交易所股票期权试点结算业务实施细则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》(以下简称《风控办法》)及其他相关规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 38,
+      "end_char": 218,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 组合策略的构建、解除、平仓以及对应的保证金收取等事宜,适用本指引。本指引未作规定的,适用深圳证券交易所(以下简称深交所)、中国证券登记结算有限责任公司(以下简称中国结算)其他有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 220,
+      "end_char": 316,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 本指引所称组合策略包括以下类型:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 318,
+      "end_char": 338,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "(一)认购牛市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ CNSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 340,
+      "end_char": 429,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(二)认购熊市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ CXSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 431,
+      "end_char": 520,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(三)认沽牛市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ PNSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 522,
+      "end_char": 611,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(四)认沽熊市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ PXSJC” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 613,
+      "end_char": 702,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(五)跨式空头策略,由一个认购期权义务仓与一个相同合约标的、相同到期日、相同合约单位、相同行权价格的认沽期权义务仓组成,代码为“ KS” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 704,
+      "end_char": 774,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(六)宽跨式空头策略,由一个较高行权价格的认购期权义务仓,与一个相同合约标的、相同到期日、相同合约单位、较低行权价格的认沽期权义务仓组成,代码为“ KKS” ;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 776,
+      "end_char": 856,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(七)深交所、中国结算规定的其他组合策略类型。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 858,
+      "end_char": 881,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第四条 每个组合策略分别按照以下标准收取保证金:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 883,
+      "end_char": 907,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(一)认购牛市价差策略、认沽熊市价差策略的开仓保证金和维持保证金收取标准为零;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 909,
+      "end_char": 948,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(二)认购熊市价差策略的开仓保证金和维持保证金的计算公式为:(认购期权权利仓行权价格-认购期权义务仓行权价格)×合约单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 950,
+      "end_char": 1011,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(三)认沽牛市价差策略的开仓保证金和维持保证金的计算公式为:(认沽期权义务仓行权价格-认沽期权权利仓行权价格)×合约单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1013,
+      "end_char": 1074,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(四)跨式空头策略、宽跨式空头策略的开仓保证金的计算公式为:Max(认购期权开仓保证金,认沽期权开仓保证金)+开仓保证金较低的成分合约前结算价×合约单位;当开仓保证金相等时,上述公式中开仓保证金较低的成分合约前结算价,取认购期权前结算价和认沽期权前结算价两者中的较大值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1076,
+      "end_char": 1211,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(五)跨式空头策略、宽跨式空头策略的维持保证金的计算公式为:Max(认购期权维持保证金,认沽期权维持保证金)+维持保证金较低的成分合约结算价×合约单位;当维持保证金相等时,上述公式中维持保证金较低的成分合约结算价,取认购期权结算价和认沽期权结算价两者中的较大值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1213,
+      "end_char": 1344,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(六)其他类型组合策略的保证金收取标准由深交所、中国结算另行规定。期权经营机构向客户收取的组合策略保证金,不得低于本条规定的标准。深交所、中国结算可以根据市场情况对本条规定的保证金收取标准进行调整,并向市场公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1346,
+      "end_char": 1452,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第五条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 将其同一个衍生品合约账户(以下简称合约账户)内的相关合约构建本指引规定的组合策略。备兑开仓合约不得用于构建组合策略;除另有规定外,组合策略自动解除后,当月到期合约不得再用于构建组合策略。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1454,
+      "end_char": 1596,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第六条 构建组合策略申报包括下列内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1598,
+      "end_char": 1617,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(一)合约账户号码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1619,
+      "end_char": 1629,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(二)成分合约的合约标的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1631,
+      "end_char": 1644,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(三)交易单元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1646,
+      "end_char": 1654,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(四)组合策略代码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1656,
+      "end_char": 1666,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(五)成分合约数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1668,
+      "end_char": 1678,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(六)各成分合约的合约编码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1680,
+      "end_char": 1694,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(七)各成分合约仓位类型(义务仓、权利仓);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1696,
+      "end_char": 1718,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(八)构建的组合策略数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1720,
+      "end_char": 1733,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(九)深交所规定的其他内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1735,
+      "end_char": 1749,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第七条 深交所根据组合策略的具体类型,对符合规定的构建组合策略申报进行确认,实时锁定相应成分合约,生成组合策略流水号,并在投资者合约账户中增加相应的组合策略数量。同一笔申报构建的所有组合策略对应一个组合策略流水号,不同申报构建的相同类型的组合策略不进行汇总编号。同一笔申报构建组合策略时,其成分合约无法满足构建全部组合策略要求的,该笔申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1751,
+      "end_char": 1923,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第八条 深交所对构建组合策略申报确认后,按照以下公式实时增加相应结算参与人的保证金日间余额:增加的保证金日间余额=组合策略各成分合约已收取的保证金之和-组合策略应收取的开仓保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1925,
+      "end_char": 2015,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第九条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 对其已构建的组合策略提出解除组合策略指令。当日构建的组合策略当日可以解除。投资者频繁构建和解除组合策略,影响期权交易秩序的,深交所将作为异常交易行为予以监控,并根据相关业务规则的规定采取相应措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2017,
+      "end_char": 2164,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十条 解除组合策略申报包括下列内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2166,
+      "end_char": 2185,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(一)合约账户号码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2187,
+      "end_char": 2197,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(二)交易单元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2199,
+      "end_char": 2207,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(三)解除的组合策略流水号;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2209,
+      "end_char": 2223,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(四)解除的组合策略数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2225,
+      "end_char": 2238,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(五)深交所规定的其他内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2240,
+      "end_char": 2254,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十一条 深交所对解除组合策略申报进行校验,按照以下公式计算结算参与人应予扣减的保证金日间余额:应予扣减的保证金日间余额=组合策略各成分合约应收取的开仓保证金之和-组合策略已收取的保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2256,
+      "end_char": 2350,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十二条 结算参与人可用于扣减的保证金日间余额不足,或者申报解除的组合策略不符合规定的,解除组合策略申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2352,
+      "end_char": 2407,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十三条 深交所对符合规定的解除组合策略申报进行确认,实时减少投资者合约账户中相应的组合策略数量,并对相应成分合约解除锁定,实时扣减相应结算参与人的保证金日间余额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2409,
+      "end_char": 2491,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十四条 组合策略的成分合约停牌期间,深交所接受相应构建、解除组合策略申报,但暂时停止交易或临时停市期间除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2493,
+      "end_char": 2548,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 组合策略存续期间发生以下情形的,组合策略自动解除:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2550,
+      "end_char": 2580,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)认购牛市价差策略、认购熊市价差策略、认沽牛市价差策略、认沽熊市价差策略于其成分合约到期日前第二个交易日日终自动解除;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2582,
+      "end_char": 2643,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)跨式空头策略、宽跨式空头策略于其成分合约到期日日终自动解除;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2645,
+      "end_char": 2678,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)深交所及中国结算规定的其他自动解除情形。成分合约在前款规定的自动解除日发生停牌、到期日顺延等情形的,深交所、中国结算可以根据市场情况对组合策略自动解除的相关事项向市场公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2680,
+      "end_char": 2769,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第十六条 组合策略自动解除后,成分合约参加每日日终的持仓自动对冲,并按照对冲后的持仓情况收取相应的维持保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2771,
+      "end_char": 2826,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十七条 深交所、中国结算可以根据市场情况,确定允许单边平仓的组合策略类型,并向市场公布。投资者可对前述组合策略中的义务仓提出单边买入平仓指令。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2828,
+      "end_char": 2900,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第十八条 单边平仓申报包括下列内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2902,
+      "end_char": 2920,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(一)合约账户号码;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2922,
+      "end_char": 2932,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(二)成分合约的合约标的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2934,
+      "end_char": 2947,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(三)交易单元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2949,
+      "end_char": 2957,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(四)单边平仓的组合策略流水号及数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2959,
+      "end_char": 2978,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(五)单边平仓的成分合约的合约编码及数量;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2980,
+      "end_char": 3001,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(六)单边平仓的成分合约的平仓申报价格;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3003,
+      "end_char": 3023,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(七)深交所要求的其他内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3025,
+      "end_char": 3039,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第十九条 深交所对单边平仓申报进行校验,对符合条件的组合策略进行锁定。单边买入平仓申报成交后,深交所实时减少投资者合约账户中相应的组合策略数量,对未平仓的成分合约解除锁定,并按照以下公式实时增加或者扣减相应结算参与人的保证金日间余额:保证金日间余额变动=组合策略已收取的保证金-未平仓成分合约义务仓应收取的开仓保证金之和-买入平仓应收取的权利金之和。前款规定的公式中,计算结果为正值,则增加保证金日间余额;计算结果为负值,则减少保证金日间余额。结算参与人保证金日间余额小于单边平仓应扣减金额的,单边平仓申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3041,
+      "end_char": 3297,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十条 中国结算于每日日终按照组合策略保证金收取标准,向结算参与人收取组合策略的维持保证金;组合策略解除的,对成分合约收取维持保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3299,
+      "end_char": 3367,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十一条 按照《风控办法》第六十一条第(三)项规定对组合策略中的成分合约实施强行平仓时,深交所发出强制解除组合策略指令,再对组合策略中的义务仓和权利仓实施强行平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3369,
+      "end_char": 3452,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十二条 期权经营机构对其客户的组合策略实施强行平仓的,应当先提交解除组合策略申报,校验通过后再对组合策略中的义务仓和权利仓实施强行平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3454,
+      "end_char": 3524,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十三条 投资者可以提交普通仓转备兑仓指令,将认购期权保证金卖出开仓转为备兑开仓。深交所在对足额合约标的进行备兑锁定后,将投资者合约账户中相应的认购期权保证金卖出开仓转为备兑开仓,并实时增加相应结算参与人的保证金日间余额,增加金额为已转为备兑开仓的认购期权已收取的保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3526,
+      "end_char": 3663,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第二十四条 投资者可以提交备兑仓转普通仓指令,将认购期权备兑开仓转为保证金卖出开仓。投资者应当具有三级交易权限且确保其用于保证金卖出开仓的保证金足额。深交所对备兑仓转普通仓申报进行校验,对符合规定的申报予以确认,将投资者合约账户中相应的认购期权备兑开仓转为保证金卖出开仓,实时增加投资者可用证券数量,增加数量为转为保证金卖出开仓的认购期权已锁定的备兑证券数量,并实时扣减相应结算参与人的保证金日间余额,扣减金额为转为保证金卖出开仓的认购期权应收取的开仓保证金。结算参与人可用于扣减的保证金日间余额不足,或者申报不符合规定的,该备兑仓转普通仓申报无效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3665,
+      "end_char": 3940,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第二十五条 期权经营机构应当对客户构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等委托指令进行前端控制,对组合策略类型或成分合约不符合规定、保证金可用余额不足、用于备兑锁定的合约标的不足等情形的,期权经营机构不得接受其提交的相应委托指令。期权经营机构应当做好组合策略自动解除时的风险控制工作,在组合策略自动解除日按照本指引第十一条规定的扣减标准检查保证金可用余额,并确保当日日终保证金足额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3942,
+      "end_char": 4152,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第二十六条 期权经营机构、投资者在构建和解除组合策略、进行组合策略单边平仓、普通仓转备兑仓以及备兑仓转普通仓时,违反本指引规定的,深交所可以按照相关业务规则的规定,对其采取相应监管措施或纪律处分。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4154,
+      "end_char": 4252,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十七条 深交所、中国结算可以根据市场情况对构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等事宜进行调整,并向市场公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4254,
+      "end_char": 4330,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十八条 本指引由深交所、中国结算负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4332,
+      "end_char": 4355,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "article",
+      "text": "第二十九条 本指引自发布之日起实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4357,
+      "end_char": 4375,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "附件:深圳证券交易所中国证券登记结算有限责任公司股票期权组合策略业务指引\n\n第一条 为了规范股票期权(以下简称期权)组合策略交易业务,提高资金使用效率,降低期权交易成本,维护期权交易秩序,根据《深圳证券交易所股票期权试点交易规则》《中国证券登记结算有限责任公司关于深圳证券交易所股票期权试点结算业务实施细则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》(以下简称《风控办法》)及其他相关规定,制定本指引。\n\n第二条 组合策略的构建、解除、平仓以及对应的保证金收取等事宜,适用本指引。本指引未作规定的,适用深圳证券交易所(以下简称深交所)、中国证券登记结算有限责任公司(以下简称中国结算)其他有关规定。\n\n第三条 本指引所称组合策略包括以下类型:\n\n(一)认购牛市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ CNSJC” ;\n\n(二)认购熊市价差策略,由一个认购期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认购期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ CXSJC” ;\n\n(三)认沽牛市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格高于权利仓的行权价格,代码为“ PNSJC” ;\n\n(四)认沽熊市价差策略,由一个认沽期权权利仓与一个相同合约标的、相同到期日、相同合约单位的认沽期权义务仓组成,其中义务仓的行权价格低于权利仓的行权价格,代码为“ PXSJC” ;\n\n(五)跨式空头策略,由一个认购期权义务仓与一个相同合约标的、相同到期日、相同合约单位、相同行权价格的认沽期权义务仓组成,代码为“ KS” ;\n\n(六)宽跨式空头策略,由一个较高行权价格的认购期权义务仓,与一个相同合约标的、相同到期日、相同合约单位、较低行权价格的认沽期权义务仓组成,代码为“ KKS” ;\n\n(七)深交所、中国结算规定的其他组合策略类型。\n\n第四条 每个组合策略分别按照以下标准收取保证金:\n\n(一)认购牛市价差策略、认沽熊市价差策略的开仓保证金和维持保证金收取标准为零;\n\n(二)认购熊市价差策略的开仓保证金和维持保证金的计算公式为:(认购期权权利仓行权价格-认购期权义务仓行权价格)×合约单位;\n\n(三)认沽牛市价差策略的开仓保证金和维持保证金的计算公式为:(认沽期权义务仓行权价格-认沽期权权利仓行权价格)×合约单位;\n\n(四)跨式空头策略、宽跨式空头策略的开仓保证金的计算公式为:Max(认购期权开仓保证金,认沽期权开仓保证金)+开仓保证金较低的成分合约前结算价×合约单位;当开仓保证金相等时,上述公式中开仓保证金较低的成分合约前结算价,取认购期权前结算价和认沽期权前结算价两者中的较大值;\n\n(五)跨式空头策略、宽跨式空头策略的维持保证金的计算公式为:Max(认购期权维持保证金,认沽期权维持保证金)+维持保证金较低的成分合约结算价×合约单位;当维持保证金相等时,上述公式中维持保证金较低的成分合约结算价,取认购期权结算价和认沽期权结算价两者中的较大值;\n\n(六)其他类型组合策略的保证金收取标准由深交所、中国结算另行规定。期权经营机构向客户收取的组合策略保证金,不得低于本条规定的标准。深交所、中国结算可以根据市场情况对本条规定的保证金收取标准进行调整,并向市场公告。\n\n第五条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 将其同一个衍生品合约账户(以下简称合约账户)内的相关合约构建本指引规定的组合策略。备兑开仓合约不得用于构建组合策略;除另有规定外,组合策略自动解除后,当月到期合约不得再用于构建组合策略。\n\n第六条 构建组合策略申报包括下列内容:\n\n(一)合约账户号码;\n\n(二)成分合约的合约标的;\n\n(三)交易单元;\n\n(四)组合策略代码;\n\n(五)成分合约数量;\n\n(六)各成分合约的合约编码;\n\n(七)各成分合约仓位类型(义务仓、权利仓);\n\n(八)构建的组合策略数量;\n\n(九)深交所规定的其他内容。\n\n第七条 深交所根据组合策略的具体类型,对符合规定的构建组合策略申报进行确认,实时锁定相应成分合约,生成组合策略流水号,并在投资者合约账户中增加相应的组合策略数量。同一笔申报构建的所有组合策略对应一个组合策略流水号,不同申报构建的相同类型的组合策略不进行汇总编号。同一笔申报构建组合策略时,其成分合约无法满足构建全部组合策略要求的,该笔申报无效。\n\n第八条 深交所对构建组合策略申报确认后,按照以下公式实时增加相应结算参与人的保证金日间余额:增加的保证金日间余额=组合策略各成分合约已收取的保证金之和-组合策略应收取的开仓保证金。\n\n第九条 投资者可以在每个交易日 9:15-9:25、9:30-11:30、13:00-15:15 对其已构建的组合策略提出解除组合策略指令。当日构建的组合策略当日可以解除。投资者频繁构建和解除组合策略,影响期权交易秩序的,深交所将作为异常交易行为予以监控,并根据相关业务规则的规定采取相应措施。\n\n第十条 解除组合策略申报包括下列内容:\n\n(一)合约账户号码;\n\n(二)交易单元;\n\n(三)解除的组合策略流水号;\n\n(四)解除的组合策略数量;\n\n(五)深交所规定的其他内容。\n\n第十一条 深交所对解除组合策略申报进行校验,按照以下公式计算结算参与人应予扣减的保证金日间余额:应予扣减的保证金日间余额=组合策略各成分合约应收取的开仓保证金之和-组合策略已收取的保证金。\n\n第十二条 结算参与人可用于扣减的保证金日间余额不足,或者申报解除的组合策略不符合规定的,解除组合策略申报无效。\n\n第十三条 深交所对符合规定的解除组合策略申报进行确认,实时减少投资者合约账户中相应的组合策略数量,并对相应成分合约解除锁定,实时扣减相应结算参与人的保证金日间余额。\n\n第十四条 组合策略的成分合约停牌期间,深交所接受相应构建、解除组合策略申报,但暂时停止交易或临时停市期间除外。\n\n第十五条 组合策略存续期间发生以下情形的,组合策略自动解除:\n\n(一)认购牛市价差策略、认购熊市价差策略、认沽牛市价差策略、认沽熊市价差策略于其成分合约到期日前第二个交易日日终自动解除;\n\n(二)跨式空头策略、宽跨式空头策略于其成分合约到期日日终自动解除;\n\n(三)深交所及中国结算规定的其他自动解除情形。成分合约在前款规定的自动解除日发生停牌、到期日顺延等情形的,深交所、中国结算可以根据市场情况对组合策略自动解除的相关事项向市场公告。\n\n第十六条 组合策略自动解除后,成分合约参加每日日终的持仓自动对冲,并按照对冲后的持仓情况收取相应的维持保证金。\n\n第十七条 深交所、中国结算可以根据市场情况,确定允许单边平仓的组合策略类型,并向市场公布。投资者可对前述组合策略中的义务仓提出单边买入平仓指令。\n\n第十八条 单边平仓申报包括下列内容:\n\n(一)合约账户号码;\n\n(二)成分合约的合约标的;\n\n(三)交易单元;\n\n(四)单边平仓的组合策略流水号及数量;\n\n(五)单边平仓的成分合约的合约编码及数量;\n\n(六)单边平仓的成分合约的平仓申报价格;\n\n(七)深交所要求的其他内容。\n\n第十九条 深交所对单边平仓申报进行校验,对符合条件的组合策略进行锁定。单边买入平仓申报成交后,深交所实时减少投资者合约账户中相应的组合策略数量,对未平仓的成分合约解除锁定,并按照以下公式实时增加或者扣减相应结算参与人的保证金日间余额:保证金日间余额变动=组合策略已收取的保证金-未平仓成分合约义务仓应收取的开仓保证金之和-买入平仓应收取的权利金之和。前款规定的公式中,计算结果为正值,则增加保证金日间余额;计算结果为负值,则减少保证金日间余额。结算参与人保证金日间余额小于单边平仓应扣减金额的,单边平仓申报无效。\n\n第二十条 中国结算于每日日终按照组合策略保证金收取标准,向结算参与人收取组合策略的维持保证金;组合策略解除的,对成分合约收取维持保证金。\n\n第二十一条 按照《风控办法》第六十一条第(三)项规定对组合策略中的成分合约实施强行平仓时,深交所发出强制解除组合策略指令,再对组合策略中的义务仓和权利仓实施强行平仓。\n\n第二十二条 期权经营机构对其客户的组合策略实施强行平仓的,应当先提交解除组合策略申报,校验通过后再对组合策略中的义务仓和权利仓实施强行平仓。\n\n第二十三条 投资者可以提交普通仓转备兑仓指令,将认购期权保证金卖出开仓转为备兑开仓。深交所在对足额合约标的进行备兑锁定后,将投资者合约账户中相应的认购期权保证金卖出开仓转为备兑开仓,并实时增加相应结算参与人的保证金日间余额,增加金额为已转为备兑开仓的认购期权已收取的保证金。\n\n第二十四条 投资者可以提交备兑仓转普通仓指令,将认购期权备兑开仓转为保证金卖出开仓。投资者应当具有三级交易权限且确保其用于保证金卖出开仓的保证金足额。深交所对备兑仓转普通仓申报进行校验,对符合规定的申报予以确认,将投资者合约账户中相应的认购期权备兑开仓转为保证金卖出开仓,实时增加投资者可用证券数量,增加数量为转为保证金卖出开仓的认购期权已锁定的备兑证券数量,并实时扣减相应结算参与人的保证金日间余额,扣减金额为转为保证金卖出开仓的认购期权应收取的开仓保证金。结算参与人可用于扣减的保证金日间余额不足,或者申报不符合规定的,该备兑仓转普通仓申报无效。\n\n第二十五条 期权经营机构应当对客户构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等委托指令进行前端控制,对组合策略类型或成分合约不符合规定、保证金可用余额不足、用于备兑锁定的合约标的不足等情形的,期权经营机构不得接受其提交的相应委托指令。期权经营机构应当做好组合策略自动解除时的风险控制工作,在组合策略自动解除日按照本指引第十一条规定的扣减标准检查保证金可用余额,并确保当日日终保证金足额。\n\n第二十六条 期权经营机构、投资者在构建和解除组合策略、进行组合策略单边平仓、普通仓转备兑仓以及备兑仓转普通仓时,违反本指引规定的,深交所可以按照相关业务规则的规定,对其采取相应监管措施或纪律处分。\n\n第二十七条 深交所、中国结算可以根据市场情况对构建和解除组合策略、对组合策略实施单边平仓、普通仓转备兑仓以及备兑仓转普通仓等事宜进行调整,并向市场公布。\n\n第二十八条 本指引由深交所、中国结算负责解释。\n\n第二十九条 本指引自发布之日起实施。",
   "blocks": [
     {
@@ -117,7 +1734,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 36,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -125,7 +1749,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 1,
+      "start_char": 38,
+      "end_char": 218,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -133,7 +1764,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 1,
+      "start_char": 220,
+      "end_char": 316,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -141,7 +1779,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 1,
+      "start_char": 318,
+      "end_char": 338,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -149,7 +1794,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 1,
+      "start_char": 340,
+      "end_char": 429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -157,7 +1809,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 431,
+      "end_char": 520,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -165,7 +1824,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 522,
+      "end_char": 611,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -173,7 +1839,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 613,
+      "end_char": 702,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -181,7 +1854,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 704,
+      "end_char": 774,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -189,7 +1869,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 776,
+      "end_char": 856,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -197,7 +1884,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 858,
+      "end_char": 881,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -205,7 +1899,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 883,
+      "end_char": 907,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -213,7 +1914,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 909,
+      "end_char": 948,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -221,7 +1929,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 950,
+      "end_char": 1011,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -229,7 +1944,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 3,
+      "start_char": 1013,
+      "end_char": 1074,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -237,7 +1959,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 3,
+      "start_char": 1076,
+      "end_char": 1211,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -245,7 +1974,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 3,
+      "start_char": 1213,
+      "end_char": 1344,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -253,7 +1989,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 3,
+      "start_char": 1346,
+      "end_char": 1452,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -261,7 +2004,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 3,
+      "start_char": 1454,
+      "end_char": 1596,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -269,7 +2019,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1598,
+      "end_char": 1617,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -277,7 +2034,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1619,
+      "end_char": 1629,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -285,7 +2049,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1631,
+      "end_char": 1644,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -293,7 +2064,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1646,
+      "end_char": 1654,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -301,7 +2079,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1656,
+      "end_char": 1666,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -309,7 +2094,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1668,
+      "end_char": 1678,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -317,7 +2109,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1680,
+      "end_char": 1694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -325,7 +2124,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1696,
+      "end_char": 1718,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -333,7 +2139,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1720,
+      "end_char": 1733,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -341,7 +2154,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1735,
+      "end_char": 1749,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -349,7 +2169,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1751,
+      "end_char": 1923,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -357,7 +2184,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 4,
+      "start_char": 1925,
+      "end_char": 2015,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -365,7 +2199,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2017,
+      "end_char": 2164,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -373,7 +2214,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2166,
+      "end_char": 2185,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -381,7 +2229,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2187,
+      "end_char": 2197,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -389,7 +2244,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2199,
+      "end_char": 2207,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -397,7 +2259,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2209,
+      "end_char": 2223,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -405,7 +2274,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2225,
+      "end_char": 2238,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -413,7 +2289,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2240,
+      "end_char": 2254,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -421,7 +2304,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2256,
+      "end_char": 2350,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -429,7 +2319,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2352,
+      "end_char": 2407,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -437,7 +2334,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 5,
+      "start_char": 2409,
+      "end_char": 2491,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -445,7 +2349,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2493,
+      "end_char": 2548,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -453,7 +2364,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2550,
+      "end_char": 2580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -461,7 +2379,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2582,
+      "end_char": 2643,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -469,7 +2394,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2645,
+      "end_char": 2678,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -477,7 +2409,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2680,
+      "end_char": 2769,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -485,7 +2424,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2771,
+      "end_char": 2826,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -493,7 +2439,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2828,
+      "end_char": 2900,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -501,7 +2454,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2902,
+      "end_char": 2920,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -509,7 +2469,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2922,
+      "end_char": 2932,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -517,7 +2484,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2934,
+      "end_char": 2947,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -525,7 +2499,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 2949,
+      "end_char": 2957,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -533,7 +2514,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 2959,
+      "end_char": 2978,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -541,7 +2529,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 2980,
+      "end_char": 3001,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -549,7 +2544,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 3003,
+      "end_char": 3023,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -557,7 +2559,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 3025,
+      "end_char": 3039,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -565,7 +2574,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 3041,
+      "end_char": 3297,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -573,7 +2589,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 3299,
+      "end_char": 3367,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -581,7 +2604,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 3369,
+      "end_char": 3452,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -589,7 +2619,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 8,
+      "start_char": 3454,
+      "end_char": 3524,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -597,7 +2634,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 8,
+      "start_char": 3526,
+      "end_char": 3663,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -605,7 +2649,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 8,
+      "start_char": 3665,
+      "end_char": 3940,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -613,7 +2664,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 8,
+      "start_char": 3942,
+      "end_char": 4152,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -621,7 +2679,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 9,
+      "start_char": 4154,
+      "end_char": 4252,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -629,7 +2694,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 9,
+      "start_char": 4254,
+      "end_char": 4330,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -637,7 +2709,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 9,
+      "start_char": 4332,
+      "end_char": 4355,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -645,7 +2724,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 9,
+      "start_char": 4357,
+      "end_char": 4375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/关于加强私募投资基金监管的若干规定.pdf",
   "source_type": "pdf",
   "file_sha256": "9d515b5b182e168085f03f2b8bd16fa9f162d46241c2e4ad8a1038ca6ef8eb19",
-  "content_sha256": "c81deaac6ce63d25f3ad39e79a2e6f0f1c7e77c81d3d5ddb4ff2887371500f49",
+  "content_sha256": "8ffd0eefe26366dc889d8bfb282818a67fb68d8f96d89664bb131b5a79031251",
   "metadata": {
     "document_title": "关于加强私募投资基金监管的若干规定",
     "issuing_authority": "中国证券监督管理委员会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "a1831daa936690edc8d9c49152058984a0c067a9ce3cb46619372f53dcdb41a5",
     "clean_text_sha256": "a1831daa936690edc8d9c49152058984a0c067a9ce3cb46619372f53dcdb41a5",
@@ -89,6 +89,1167 @@
   },
   "original_text_sha256": "a1831daa936690edc8d9c49152058984a0c067a9ce3cb46619372f53dcdb41a5",
   "clean_text_sha256": "a1831daa936690edc8d9c49152058984a0c067a9ce3cb46619372f53dcdb41a5",
+  "clean_text_hash": "5fabb2e3bb3a81723b6a736d80860995267a99abd40564674e54ebd4bc5836bb",
+  "structured_blocks_sha256": "d4633dfbb8463d12113e7378f73996f357a3df3cece839a5f53f05710c10fbaf",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "关于加强私募投资基金监管的若干规定",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 17,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为了规范私募投资基金(以下简称私募基金)业务活动,保护投资者和相关当事人的合法权益,促进私募基金行业健康发展,防范金融风险,根据《证券投资基金法》《私募投资基金监督管理暂行办法》(以下简称《私募办法》)等法律法规,制定本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 19,
+      "end_char": 136,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 在中国证券投资基金业协会(以下简称基金业协会)依法登记的私募基金管理人从事私募基金业务,适用本规定。私募基金管理人在初次开展资金募集、基金管理等私募基金业务活动前,应当按照规定在基金业协会完成登记。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 138,
+      "end_char": 241,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 未经登记,任何单位或者个人不得使用“基金”或者“基金管理”字样或者近似名称进行私募基金业务活动,法律、行政法规另有规定的除外。私募基金管理人应当在名称中标明“私募基金”“私募基金管理”“创业投资”字样,并在经营范围中标明“私募投资基金管理”“私募证券投资基金管理”“私募股权投资基金管理”“创业投资基金管理”等体现受托管理私募基金特点的字样。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 243,
+      "end_char": 418,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第四条 私募基金管理人不得直接或者间接从事民间借贷、担保、保理、典当、融资租赁、网络借贷信息中介、众筹、场外配资等任何与私募基金管理相冲突或者无关的业务,中国证券监督管理委员会(以下简称中国证监会)另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 420,
+      "end_char": 527,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第五条 私募基金管理人的出资人不得有代持、循环出资、交叉出资、层级过多、结构复杂等情形,不得隐瞒关联关系或者将关联关系非关联化。同一单位、个人控股或者实际控制两家及以上私募基金管理人的,应当具有设立多个私募基金管理人的合理性与必要性,全面、及时、准确披露各私募基金管理人业务分工,建立完善的合规风控制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 529,
+      "end_char": 681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第六条 私募基金管理人、私募基金销售机构及其从业人员在私募基金募集过程中不得直接或者间接存在下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 683,
+      "end_char": 734,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)向《私募办法》规定的合格投资者之外的单位、个人募集资金或者为投资者提供多人拼凑、资金借贷等满足合格投资者要求的便利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 736,
+      "end_char": 797,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)通过报刊、电台、电视、互联网等公众传播媒体,讲座、报告会、分析会等方式,布告、传单、短信、即时通讯工具、博客和电子邮件等载体,向不特定对象宣传推介,但是通过设置特定对象确定程序的官网、客户端等互联网媒介向合格投资者进行宣传推介的情形除外;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 799,
+      "end_char": 921,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(三)口头、书面或者通过短信、即时通讯工具等方式直接或者间接向投资者承诺保本保收益,包括投资本金不受损失、固定比例损失或者承诺最低收益等情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 923,
+      "end_char": 994,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(四)夸大、片面宣传私募基金,包括使用安全、保本、零风险、收益有保障、高收益、本金无忧等可能导致投资者不能准确认识私募基金风险的表述,或者向投资者宣传预期收益率、目标收益率、基准收益率等类似表述;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 996,
+      "end_char": 1094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(五)向投资者宣传的私募基金投向与私募基金合同约定投向不符;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1096,
+      "end_char": 1126,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(六)宣传推介材料有虚假记载、误导性陈述或者重大遗漏,包括未真实、准确、完整披露私募基金交易结构、各方主要权利义务、收益分配、费用安排、关联交易、委托第三方机构以及私募基金管理人的出资人、实际控制人等情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1128,
+      "end_char": 1231,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(七)以登记备案、金融机构托管、政府出资等名义为增信手段进行误导性宣传推介;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1233,
+      "end_char": 1271,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(八)委托不具有基金销售业务资格的单位或者个人从事资金募集活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1273,
+      "end_char": 1305,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(九)以从事资金募集活动为目的设立或者变相设立分支机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1307,
+      "end_char": 1335,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(十)法律、行政法规和中国证监会禁止的其他情形。私募基金管理人的出资人、实际控制人、关联方不得从事私募基金募集宣传推介,不得从事或者变相从事前款所列行为。私募基金募集完毕,私募基金管理人应当按照规定到基金业协会履行备案手续。私募基金管理人不得管理未备案的私募基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1337,
+      "end_char": 1469,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第七条 私募基金的投资者人数累计不得超过《证券投资基金法》《公司法》《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合本条规定。国务院金融监督管理部门监管的机构依法发行的资产管理产品、合格境外机构投资者、人民币合格境外机构投资者,视为《私募办法》第十三条规定的合格投资者,不再穿透核查最终投资者。任何单位和个人不得通过将私募基金份额或者其收(受)益权进行拆分转让,或者通过为单一融资项目设立多只私募基金等方式,以变相突破合格投资者标准或投资者人数限制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1471,
+      "end_char": 1729,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第八条 私募基金管理人不得直接或者间接将私募基金财产用于下列投资活动:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1731,
+      "end_char": 1766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)借(存)贷、担保、明股实债等非私募基金投资活动,但是私募基金以股权投资为目的,按照合同约定为被投企业提供1 年期限以内借款、担保除外;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1768,
+      "end_char": 1838,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)投向保理资产、融资租赁资产、典当资产等类信贷资产、股权或其收(受)益权;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1840,
+      "end_char": 1879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)从事承担无限责任的投资;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1881,
+      "end_char": 1896,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)法律、行政法规和中国证监会禁止的其他投资活动。私募基金有前款第(一)项规定行为的,借款或者担保到期日不得晚于股权投资退出日,且借款或者担保余额不得超过该私募基金实缴金额的 20%;中国证监会另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1898,
+      "end_char": 2004,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第九条 私募基金管理人及其从业人员从事私募基金业务,不得有下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2006,
+      "end_char": 2040,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(一)未对不同私募基金单独管理、单独建账、单独核算,将其固有财产、他人财产混同于私募基金财产,将不同私募基金财产混同运作,或者不公平对待不同私募基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2042,
+      "end_char": 2119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(二)使用私募基金管理人及其关联方名义、账户代私募基金收付基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2121,
+      "end_char": 2155,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(三)开展或者参与具有滚动发行、集合运作、期限错配、分离定价等特征的资金池业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2157,
+      "end_char": 2197,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(四)以套取私募基金财产为目的,使用私募基金财产直接或者间接投资于私募基金管理人、控股股东、实际控制人及其实际控制的企业或项目等自融行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2199,
+      "end_char": 2268,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(五)不公平对待同一私募基金的不同投资者,损害投资者合法权益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2270,
+      "end_char": 2301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(六)私募基金收益不与投资项目的资产、收益、风险等情况挂钩,包括不按照投资标的实际经营业绩或者收益情况向投资者分红、支付收益等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2303,
+      "end_char": 2367,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(七)直接或者间接侵占、挪用私募基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2369,
+      "end_char": 2390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(八)不按照合同约定进行投资运作或者向投资者进行信息披露;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2392,
+      "end_char": 2421,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(九)利用私募基金财产或者职务之便,以向私募基金、私募基金投资标的及其关联方收取咨询费、手续费、财务顾问费等名义,为自身或者投资者以外的人牟取非法利益、进行利益输送;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2423,
+      "end_char": 2506,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(十)泄露因职务便利获取的未公开信息、利用该信息从事或者明示、暗示他人从事相关的交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2508,
+      "end_char": 2553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(十一)从事内幕交易、操纵证券期货市场及其他不正当交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2555,
+      "end_char": 2585,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(十二)玩忽职守,不按照监管规定或者合同约定履行职责;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2587,
+      "end_char": 2614,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(十三)法律、行政法规和中国证监会禁止的其他行为。私募基金管理人的出资人和实际控制人,私募基金托管人、私募基金销售机构及其他私募基金服务机构及其出资人、实际控制人,不得有前款所列行为或者为前款行为提供便利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2616,
+      "end_char": 2719,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十条 私募基金管理人管理的私募基金不得直接或者间接投资于国家禁止或者限制投资的项目,不符合国家产业政策、环境保护政策、土地管理政策的项目,但证券市场投资除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2721,
+      "end_char": 2801,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十一条 私募基金管理人不得从事损害私募基金财产或者投资者利益的关联交易等投资活动。私募基金管理人应当建立健全关联交易管理制度,对关联交易定价方法、交易审批程序等进行规范。使用私募基金财产与关联方进行交易的,私募基金管理人应当遵守法律、行政法规、中国证监会的规定和私募基金合同约定,防范利益冲突,投资前应当取得全体投资者或者投资者认可的决策机制决策同意,投资后应当及时向投资者充分披露信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2803,
+      "end_char": 2998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十二条 私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构所提交的登记备案信息及其他信息材料,不得有虚假记载、误导性陈述或者重大遗漏,并应当按照规定持续履行信息披露和报送义务,确保所提交信息材料及时、准确、真实、完整。私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员应当配合中国证监会及其派出机构依法履行职责,如实提供有关文件和材料,不得拒绝、阻碍和隐瞒。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3000,
+      "end_char": 3228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十三条 中国证监会及其派出机构依法从严监管私募基金管理人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员的私募基金业务活动,严厉打击各类违法违规行为。对违反本规定的,中国证监会及其派出机构可以依照《私募办法》的规定,采取行政监管措施、市场禁入措施,实施行政处罚,并记入中国资本市场诚信信息数据库;涉嫌犯罪的,依法移送司法机关追究刑事责任。《证券投资基金法》等法律、行政法规另有规定的,依照其规定处理。基金业协会依法开展私募基金管理人登记和私募基金备案,加强自律管理与风险监测。对违反本规定的,基金业协会可以依法依规进行处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3230,
+      "end_char": 3503,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十四条 本规定自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3505,
+      "end_char": 3522,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "证券公司、基金管理公司、期货公司及其子公司从事私募基金业务,不适用本规定。本规定施行前已登记私募基金管理人不符合本规定,按下列要求执行:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3524,
+      "end_char": 3592,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(一)不符合本规定第四条、第五条、第六条第一款第(九)项、第十一条的,应当自本规定施行之日起一年内完成整改;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3594,
+      "end_char": 3648,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(二)不符合本规定第六条第三款的,应当自本规定施行之日六个月内完成整改,整改期内暂停新增私募基金募集和备案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3650,
+      "end_char": 3704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "guide_subheading",
+      "text": "(三)不符合本规定第六条第一款第(一)项至第(八)项、",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3706,
+      "end_char": 3733,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "第六条第一款第(十)项、第七条、第九条、第十二条的,中国证监会及其派出机构可以依照本规定第十三条进行处理,基金业协会可以依法依规进行处理;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3735,
+      "end_char": 3804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)不符合本规定第八条、第十条的,不得新增此类投资,不得新增募集规模,不得新增投资者,不得展期,合同到期后予以清算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3806,
+      "end_char": 3865,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "关于加强私募投资基金监管的若干规定\n\n第一条 为了规范私募投资基金(以下简称私募基金)业务活动,保护投资者和相关当事人的合法权益,促进私募基金行业健康发展,防范金融风险,根据《证券投资基金法》《私募投资基金监督管理暂行办法》(以下简称《私募办法》)等法律法规,制定本规定。\n\n第二条 在中国证券投资基金业协会(以下简称基金业协会)依法登记的私募基金管理人从事私募基金业务,适用本规定。私募基金管理人在初次开展资金募集、基金管理等私募基金业务活动前,应当按照规定在基金业协会完成登记。\n\n第三条 未经登记,任何单位或者个人不得使用“基金”或者“基金管理”字样或者近似名称进行私募基金业务活动,法律、行政法规另有规定的除外。私募基金管理人应当在名称中标明“私募基金”“私募基金管理”“创业投资”字样,并在经营范围中标明“私募投资基金管理”“私募证券投资基金管理”“私募股权投资基金管理”“创业投资基金管理”等体现受托管理私募基金特点的字样。\n\n第四条 私募基金管理人不得直接或者间接从事民间借贷、担保、保理、典当、融资租赁、网络借贷信息中介、众筹、场外配资等任何与私募基金管理相冲突或者无关的业务,中国证券监督管理委员会(以下简称中国证监会)另有规定的除外。\n\n第五条 私募基金管理人的出资人不得有代持、循环出资、交叉出资、层级过多、结构复杂等情形,不得隐瞒关联关系或者将关联关系非关联化。同一单位、个人控股或者实际控制两家及以上私募基金管理人的,应当具有设立多个私募基金管理人的合理性与必要性,全面、及时、准确披露各私募基金管理人业务分工,建立完善的合规风控制度。\n\n第六条 私募基金管理人、私募基金销售机构及其从业人员在私募基金募集过程中不得直接或者间接存在下列行为:\n\n(一)向《私募办法》规定的合格投资者之外的单位、个人募集资金或者为投资者提供多人拼凑、资金借贷等满足合格投资者要求的便利;\n\n(二)通过报刊、电台、电视、互联网等公众传播媒体,讲座、报告会、分析会等方式,布告、传单、短信、即时通讯工具、博客和电子邮件等载体,向不特定对象宣传推介,但是通过设置特定对象确定程序的官网、客户端等互联网媒介向合格投资者进行宣传推介的情形除外;\n\n(三)口头、书面或者通过短信、即时通讯工具等方式直接或者间接向投资者承诺保本保收益,包括投资本金不受损失、固定比例损失或者承诺最低收益等情形;\n\n(四)夸大、片面宣传私募基金,包括使用安全、保本、零风险、收益有保障、高收益、本金无忧等可能导致投资者不能准确认识私募基金风险的表述,或者向投资者宣传预期收益率、目标收益率、基准收益率等类似表述;\n\n(五)向投资者宣传的私募基金投向与私募基金合同约定投向不符;\n\n(六)宣传推介材料有虚假记载、误导性陈述或者重大遗漏,包括未真实、准确、完整披露私募基金交易结构、各方主要权利义务、收益分配、费用安排、关联交易、委托第三方机构以及私募基金管理人的出资人、实际控制人等情况;\n\n(七)以登记备案、金融机构托管、政府出资等名义为增信手段进行误导性宣传推介;\n\n(八)委托不具有基金销售业务资格的单位或者个人从事资金募集活动;\n\n(九)以从事资金募集活动为目的设立或者变相设立分支机构;\n\n(十)法律、行政法规和中国证监会禁止的其他情形。私募基金管理人的出资人、实际控制人、关联方不得从事私募基金募集宣传推介,不得从事或者变相从事前款所列行为。私募基金募集完毕,私募基金管理人应当按照规定到基金业协会履行备案手续。私募基金管理人不得管理未备案的私募基金。\n\n第七条 私募基金的投资者人数累计不得超过《证券投资基金法》《公司法》《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合本条规定。国务院金融监督管理部门监管的机构依法发行的资产管理产品、合格境外机构投资者、人民币合格境外机构投资者,视为《私募办法》第十三条规定的合格投资者,不再穿透核查最终投资者。任何单位和个人不得通过将私募基金份额或者其收(受)益权进行拆分转让,或者通过为单一融资项目设立多只私募基金等方式,以变相突破合格投资者标准或投资者人数限制。\n\n第八条 私募基金管理人不得直接或者间接将私募基金财产用于下列投资活动:\n\n(一)借(存)贷、担保、明股实债等非私募基金投资活动,但是私募基金以股权投资为目的,按照合同约定为被投企业提供1 年期限以内借款、担保除外;\n\n(二)投向保理资产、融资租赁资产、典当资产等类信贷资产、股权或其收(受)益权;\n\n(三)从事承担无限责任的投资;\n\n(四)法律、行政法规和中国证监会禁止的其他投资活动。私募基金有前款第(一)项规定行为的,借款或者担保到期日不得晚于股权投资退出日,且借款或者担保余额不得超过该私募基金实缴金额的 20%;中国证监会另有规定的除外。\n\n第九条 私募基金管理人及其从业人员从事私募基金业务,不得有下列行为:\n\n(一)未对不同私募基金单独管理、单独建账、单独核算,将其固有财产、他人财产混同于私募基金财产,将不同私募基金财产混同运作,或者不公平对待不同私募基金财产;\n\n(二)使用私募基金管理人及其关联方名义、账户代私募基金收付基金财产;\n\n(三)开展或者参与具有滚动发行、集合运作、期限错配、分离定价等特征的资金池业务;\n\n(四)以套取私募基金财产为目的,使用私募基金财产直接或者间接投资于私募基金管理人、控股股东、实际控制人及其实际控制的企业或项目等自融行为;\n\n(五)不公平对待同一私募基金的不同投资者,损害投资者合法权益;\n\n(六)私募基金收益不与投资项目的资产、收益、风险等情况挂钩,包括不按照投资标的实际经营业绩或者收益情况向投资者分红、支付收益等;\n\n(七)直接或者间接侵占、挪用私募基金财产;\n\n(八)不按照合同约定进行投资运作或者向投资者进行信息披露;\n\n(九)利用私募基金财产或者职务之便,以向私募基金、私募基金投资标的及其关联方收取咨询费、手续费、财务顾问费等名义,为自身或者投资者以外的人牟取非法利益、进行利益输送;\n\n(十)泄露因职务便利获取的未公开信息、利用该信息从事或者明示、暗示他人从事相关的交易活动;\n\n(十一)从事内幕交易、操纵证券期货市场及其他不正当交易活动;\n\n(十二)玩忽职守,不按照监管规定或者合同约定履行职责;\n\n(十三)法律、行政法规和中国证监会禁止的其他行为。私募基金管理人的出资人和实际控制人,私募基金托管人、私募基金销售机构及其他私募基金服务机构及其出资人、实际控制人,不得有前款所列行为或者为前款行为提供便利。\n\n第十条 私募基金管理人管理的私募基金不得直接或者间接投资于国家禁止或者限制投资的项目,不符合国家产业政策、环境保护政策、土地管理政策的项目,但证券市场投资除外。\n\n第十一条 私募基金管理人不得从事损害私募基金财产或者投资者利益的关联交易等投资活动。私募基金管理人应当建立健全关联交易管理制度,对关联交易定价方法、交易审批程序等进行规范。使用私募基金财产与关联方进行交易的,私募基金管理人应当遵守法律、行政法规、中国证监会的规定和私募基金合同约定,防范利益冲突,投资前应当取得全体投资者或者投资者认可的决策机制决策同意,投资后应当及时向投资者充分披露信息。\n\n第十二条 私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构所提交的登记备案信息及其他信息材料,不得有虚假记载、误导性陈述或者重大遗漏,并应当按照规定持续履行信息披露和报送义务,确保所提交信息材料及时、准确、真实、完整。私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员应当配合中国证监会及其派出机构依法履行职责,如实提供有关文件和材料,不得拒绝、阻碍和隐瞒。\n\n第十三条 中国证监会及其派出机构依法从严监管私募基金管理人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员的私募基金业务活动,严厉打击各类违法违规行为。对违反本规定的,中国证监会及其派出机构可以依照《私募办法》的规定,采取行政监管措施、市场禁入措施,实施行政处罚,并记入中国资本市场诚信信息数据库;涉嫌犯罪的,依法移送司法机关追究刑事责任。《证券投资基金法》等法律、行政法规另有规定的,依照其规定处理。基金业协会依法开展私募基金管理人登记和私募基金备案,加强自律管理与风险监测。对违反本规定的,基金业协会可以依法依规进行处理。\n\n第十四条 本规定自发布之日起施行。\n\n证券公司、基金管理公司、期货公司及其子公司从事私募基金业务,不适用本规定。本规定施行前已登记私募基金管理人不符合本规定,按下列要求执行:\n\n(一)不符合本规定第四条、第五条、第六条第一款第(九)项、第十一条的,应当自本规定施行之日起一年内完成整改;\n\n(二)不符合本规定第六条第三款的,应当自本规定施行之日六个月内完成整改,整改期内暂停新增私募基金募集和备案;\n\n(三)不符合本规定第六条第一款第(一)项至第(八)项、\n\n第六条第一款第(十)项、第七条、第九条、第十二条的,中国证监会及其派出机构可以依照本规定第十三条进行处理,基金业协会可以依法依规进行处理;\n\n(四)不符合本规定第八条、第十条的,不得新增此类投资,不得新增募集规模,不得新增投资者,不得展期,合同到期后予以清算。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "关于加强私募投资基金监管的若干规定",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 17,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为了规范私募投资基金(以下简称私募基金)业务活动,保护投资者和相关当事人的合法权益,促进私募基金行业健康发展,防范金融风险,根据《证券投资基金法》《私募投资基金监督管理暂行办法》(以下简称《私募办法》)等法律法规,制定本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 19,
+      "end_char": 136,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 在中国证券投资基金业协会(以下简称基金业协会)依法登记的私募基金管理人从事私募基金业务,适用本规定。私募基金管理人在初次开展资金募集、基金管理等私募基金业务活动前,应当按照规定在基金业协会完成登记。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 138,
+      "end_char": 241,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 未经登记,任何单位或者个人不得使用“基金”或者“基金管理”字样或者近似名称进行私募基金业务活动,法律、行政法规另有规定的除外。私募基金管理人应当在名称中标明“私募基金”“私募基金管理”“创业投资”字样,并在经营范围中标明“私募投资基金管理”“私募证券投资基金管理”“私募股权投资基金管理”“创业投资基金管理”等体现受托管理私募基金特点的字样。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 243,
+      "end_char": 418,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第四条 私募基金管理人不得直接或者间接从事民间借贷、担保、保理、典当、融资租赁、网络借贷信息中介、众筹、场外配资等任何与私募基金管理相冲突或者无关的业务,中国证券监督管理委员会(以下简称中国证监会)另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 420,
+      "end_char": 527,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第五条 私募基金管理人的出资人不得有代持、循环出资、交叉出资、层级过多、结构复杂等情形,不得隐瞒关联关系或者将关联关系非关联化。同一单位、个人控股或者实际控制两家及以上私募基金管理人的,应当具有设立多个私募基金管理人的合理性与必要性,全面、及时、准确披露各私募基金管理人业务分工,建立完善的合规风控制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 529,
+      "end_char": 681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第六条 私募基金管理人、私募基金销售机构及其从业人员在私募基金募集过程中不得直接或者间接存在下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 683,
+      "end_char": 734,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)向《私募办法》规定的合格投资者之外的单位、个人募集资金或者为投资者提供多人拼凑、资金借贷等满足合格投资者要求的便利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 736,
+      "end_char": 797,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)通过报刊、电台、电视、互联网等公众传播媒体,讲座、报告会、分析会等方式,布告、传单、短信、即时通讯工具、博客和电子邮件等载体,向不特定对象宣传推介,但是通过设置特定对象确定程序的官网、客户端等互联网媒介向合格投资者进行宣传推介的情形除外;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 799,
+      "end_char": 921,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(三)口头、书面或者通过短信、即时通讯工具等方式直接或者间接向投资者承诺保本保收益,包括投资本金不受损失、固定比例损失或者承诺最低收益等情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 923,
+      "end_char": 994,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(四)夸大、片面宣传私募基金,包括使用安全、保本、零风险、收益有保障、高收益、本金无忧等可能导致投资者不能准确认识私募基金风险的表述,或者向投资者宣传预期收益率、目标收益率、基准收益率等类似表述;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 996,
+      "end_char": 1094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(五)向投资者宣传的私募基金投向与私募基金合同约定投向不符;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1096,
+      "end_char": 1126,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(六)宣传推介材料有虚假记载、误导性陈述或者重大遗漏,包括未真实、准确、完整披露私募基金交易结构、各方主要权利义务、收益分配、费用安排、关联交易、委托第三方机构以及私募基金管理人的出资人、实际控制人等情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1128,
+      "end_char": 1231,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(七)以登记备案、金融机构托管、政府出资等名义为增信手段进行误导性宣传推介;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1233,
+      "end_char": 1271,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(八)委托不具有基金销售业务资格的单位或者个人从事资金募集活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1273,
+      "end_char": 1305,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(九)以从事资金募集活动为目的设立或者变相设立分支机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1307,
+      "end_char": 1335,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(十)法律、行政法规和中国证监会禁止的其他情形。私募基金管理人的出资人、实际控制人、关联方不得从事私募基金募集宣传推介,不得从事或者变相从事前款所列行为。私募基金募集完毕,私募基金管理人应当按照规定到基金业协会履行备案手续。私募基金管理人不得管理未备案的私募基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1337,
+      "end_char": 1469,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第七条 私募基金的投资者人数累计不得超过《证券投资基金法》《公司法》《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合本条规定。国务院金融监督管理部门监管的机构依法发行的资产管理产品、合格境外机构投资者、人民币合格境外机构投资者,视为《私募办法》第十三条规定的合格投资者,不再穿透核查最终投资者。任何单位和个人不得通过将私募基金份额或者其收(受)益权进行拆分转让,或者通过为单一融资项目设立多只私募基金等方式,以变相突破合格投资者标准或投资者人数限制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1471,
+      "end_char": 1729,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第八条 私募基金管理人不得直接或者间接将私募基金财产用于下列投资活动:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1731,
+      "end_char": 1766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)借(存)贷、担保、明股实债等非私募基金投资活动,但是私募基金以股权投资为目的,按照合同约定为被投企业提供1 年期限以内借款、担保除外;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1768,
+      "end_char": 1838,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)投向保理资产、融资租赁资产、典当资产等类信贷资产、股权或其收(受)益权;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1840,
+      "end_char": 1879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)从事承担无限责任的投资;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1881,
+      "end_char": 1896,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)法律、行政法规和中国证监会禁止的其他投资活动。私募基金有前款第(一)项规定行为的,借款或者担保到期日不得晚于股权投资退出日,且借款或者担保余额不得超过该私募基金实缴金额的 20%;中国证监会另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1898,
+      "end_char": 2004,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第九条 私募基金管理人及其从业人员从事私募基金业务,不得有下列行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2006,
+      "end_char": 2040,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(一)未对不同私募基金单独管理、单独建账、单独核算,将其固有财产、他人财产混同于私募基金财产,将不同私募基金财产混同运作,或者不公平对待不同私募基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2042,
+      "end_char": 2119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(二)使用私募基金管理人及其关联方名义、账户代私募基金收付基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2121,
+      "end_char": 2155,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(三)开展或者参与具有滚动发行、集合运作、期限错配、分离定价等特征的资金池业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2157,
+      "end_char": 2197,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(四)以套取私募基金财产为目的,使用私募基金财产直接或者间接投资于私募基金管理人、控股股东、实际控制人及其实际控制的企业或项目等自融行为;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2199,
+      "end_char": 2268,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(五)不公平对待同一私募基金的不同投资者,损害投资者合法权益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2270,
+      "end_char": 2301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(六)私募基金收益不与投资项目的资产、收益、风险等情况挂钩,包括不按照投资标的实际经营业绩或者收益情况向投资者分红、支付收益等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2303,
+      "end_char": 2367,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(七)直接或者间接侵占、挪用私募基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2369,
+      "end_char": 2390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(八)不按照合同约定进行投资运作或者向投资者进行信息披露;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2392,
+      "end_char": 2421,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(九)利用私募基金财产或者职务之便,以向私募基金、私募基金投资标的及其关联方收取咨询费、手续费、财务顾问费等名义,为自身或者投资者以外的人牟取非法利益、进行利益输送;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2423,
+      "end_char": 2506,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(十)泄露因职务便利获取的未公开信息、利用该信息从事或者明示、暗示他人从事相关的交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2508,
+      "end_char": 2553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(十一)从事内幕交易、操纵证券期货市场及其他不正当交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2555,
+      "end_char": 2585,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(十二)玩忽职守,不按照监管规定或者合同约定履行职责;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2587,
+      "end_char": 2614,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(十三)法律、行政法规和中国证监会禁止的其他行为。私募基金管理人的出资人和实际控制人,私募基金托管人、私募基金销售机构及其他私募基金服务机构及其出资人、实际控制人,不得有前款所列行为或者为前款行为提供便利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2616,
+      "end_char": 2719,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十条 私募基金管理人管理的私募基金不得直接或者间接投资于国家禁止或者限制投资的项目,不符合国家产业政策、环境保护政策、土地管理政策的项目,但证券市场投资除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2721,
+      "end_char": 2801,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十一条 私募基金管理人不得从事损害私募基金财产或者投资者利益的关联交易等投资活动。私募基金管理人应当建立健全关联交易管理制度,对关联交易定价方法、交易审批程序等进行规范。使用私募基金财产与关联方进行交易的,私募基金管理人应当遵守法律、行政法规、中国证监会的规定和私募基金合同约定,防范利益冲突,投资前应当取得全体投资者或者投资者认可的决策机制决策同意,投资后应当及时向投资者充分披露信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2803,
+      "end_char": 2998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十二条 私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构所提交的登记备案信息及其他信息材料,不得有虚假记载、误导性陈述或者重大遗漏,并应当按照规定持续履行信息披露和报送义务,确保所提交信息材料及时、准确、真实、完整。私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员应当配合中国证监会及其派出机构依法履行职责,如实提供有关文件和材料,不得拒绝、阻碍和隐瞒。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3000,
+      "end_char": 3228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十三条 中国证监会及其派出机构依法从严监管私募基金管理人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员的私募基金业务活动,严厉打击各类违法违规行为。对违反本规定的,中国证监会及其派出机构可以依照《私募办法》的规定,采取行政监管措施、市场禁入措施,实施行政处罚,并记入中国资本市场诚信信息数据库;涉嫌犯罪的,依法移送司法机关追究刑事责任。《证券投资基金法》等法律、行政法规另有规定的,依照其规定处理。基金业协会依法开展私募基金管理人登记和私募基金备案,加强自律管理与风险监测。对违反本规定的,基金业协会可以依法依规进行处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3230,
+      "end_char": 3503,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十四条 本规定自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3505,
+      "end_char": 3522,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "证券公司、基金管理公司、期货公司及其子公司从事私募基金业务,不适用本规定。本规定施行前已登记私募基金管理人不符合本规定,按下列要求执行:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3524,
+      "end_char": 3592,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(一)不符合本规定第四条、第五条、第六条第一款第(九)项、第十一条的,应当自本规定施行之日起一年内完成整改;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3594,
+      "end_char": 3648,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(二)不符合本规定第六条第三款的,应当自本规定施行之日六个月内完成整改,整改期内暂停新增私募基金募集和备案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3650,
+      "end_char": 3704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "guide_subheading",
+      "text": "(三)不符合本规定第六条第一款第(一)项至第(八)项、",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3706,
+      "end_char": 3733,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "第六条第一款第(十)项、第七条、第九条、第十二条的,中国证监会及其派出机构可以依照本规定第十三条进行处理,基金业协会可以依法依规进行处理;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3735,
+      "end_char": 3804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)不符合本规定第八条、第十条的,不得新增此类投资,不得新增募集规模,不得新增投资者,不得展期,合同到期后予以清算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3806,
+      "end_char": 3865,
+      "region": "body"
+    }
+  ],
   "normalized_text": "关于加强私募投资基金监管的若干规定\n\n第一条 为了规范私募投资基金(以下简称私募基金)业务活动,保护投资者和相关当事人的合法权益,促进私募基金行业健康发展,防范金融风险,根据《证券投资基金法》《私募投资基金监督管理暂行办法》(以下简称《私募办法》)等法律法规,制定本规定。\n\n第二条 在中国证券投资基金业协会(以下简称基金业协会)依法登记的私募基金管理人从事私募基金业务,适用本规定。私募基金管理人在初次开展资金募集、基金管理等私募基金业务活动前,应当按照规定在基金业协会完成登记。\n\n第三条 未经登记,任何单位或者个人不得使用“基金”或者“基金管理”字样或者近似名称进行私募基金业务活动,法律、行政法规另有规定的除外。私募基金管理人应当在名称中标明“私募基金”“私募基金管理”“创业投资”字样,并在经营范围中标明“私募投资基金管理”“私募证券投资基金管理”“私募股权投资基金管理”“创业投资基金管理”等体现受托管理私募基金特点的字样。\n\n第四条 私募基金管理人不得直接或者间接从事民间借贷、担保、保理、典当、融资租赁、网络借贷信息中介、众筹、场外配资等任何与私募基金管理相冲突或者无关的业务,中国证券监督管理委员会(以下简称中国证监会)另有规定的除外。\n\n第五条 私募基金管理人的出资人不得有代持、循环出资、交叉出资、层级过多、结构复杂等情形,不得隐瞒关联关系或者将关联关系非关联化。同一单位、个人控股或者实际控制两家及以上私募基金管理人的,应当具有设立多个私募基金管理人的合理性与必要性,全面、及时、准确披露各私募基金管理人业务分工,建立完善的合规风控制度。\n\n第六条 私募基金管理人、私募基金销售机构及其从业人员在私募基金募集过程中不得直接或者间接存在下列行为:\n\n(一)向《私募办法》规定的合格投资者之外的单位、个人募集资金或者为投资者提供多人拼凑、资金借贷等满足合格投资者要求的便利;\n\n(二)通过报刊、电台、电视、互联网等公众传播媒体,讲座、报告会、分析会等方式,布告、传单、短信、即时通讯工具、博客和电子邮件等载体,向不特定对象宣传推介,但是通过设置特定对象确定程序的官网、客户端等互联网媒介向合格投资者进行宣传推介的情形除外;\n\n(三)口头、书面或者通过短信、即时通讯工具等方式直接或者间接向投资者承诺保本保收益,包括投资本金不受损失、固定比例损失或者承诺最低收益等情形;\n\n(四)夸大、片面宣传私募基金,包括使用安全、保本、零风险、收益有保障、高收益、本金无忧等可能导致投资者不能准确认识私募基金风险的表述,或者向投资者宣传预期收益率、目标收益率、基准收益率等类似表述;\n\n(五)向投资者宣传的私募基金投向与私募基金合同约定投向不符;\n\n(六)宣传推介材料有虚假记载、误导性陈述或者重大遗漏,包括未真实、准确、完整披露私募基金交易结构、各方主要权利义务、收益分配、费用安排、关联交易、委托第三方机构以及私募基金管理人的出资人、实际控制人等情况;\n\n(七)以登记备案、金融机构托管、政府出资等名义为增信手段进行误导性宣传推介;\n\n(八)委托不具有基金销售业务资格的单位或者个人从事资金募集活动;\n\n(九)以从事资金募集活动为目的设立或者变相设立分支机构;\n\n(十)法律、行政法规和中国证监会禁止的其他情形。私募基金管理人的出资人、实际控制人、关联方不得从事私募基金募集宣传推介,不得从事或者变相从事前款所列行为。私募基金募集完毕,私募基金管理人应当按照规定到基金业协会履行备案手续。私募基金管理人不得管理未备案的私募基金。\n\n第七条 私募基金的投资者人数累计不得超过《证券投资基金法》《公司法》《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合本条规定。国务院金融监督管理部门监管的机构依法发行的资产管理产品、合格境外机构投资者、人民币合格境外机构投资者,视为《私募办法》第十三条规定的合格投资者,不再穿透核查最终投资者。任何单位和个人不得通过将私募基金份额或者其收(受)益权进行拆分转让,或者通过为单一融资项目设立多只私募基金等方式,以变相突破合格投资者标准或投资者人数限制。\n\n第八条 私募基金管理人不得直接或者间接将私募基金财产用于下列投资活动:\n\n(一)借(存)贷、担保、明股实债等非私募基金投资活动,但是私募基金以股权投资为目的,按照合同约定为被投企业提供1 年期限以内借款、担保除外;\n\n(二)投向保理资产、融资租赁资产、典当资产等类信贷资产、股权或其收(受)益权;\n\n(三)从事承担无限责任的投资;\n\n(四)法律、行政法规和中国证监会禁止的其他投资活动。私募基金有前款第(一)项规定行为的,借款或者担保到期日不得晚于股权投资退出日,且借款或者担保余额不得超过该私募基金实缴金额的 20%;中国证监会另有规定的除外。\n\n第九条 私募基金管理人及其从业人员从事私募基金业务,不得有下列行为:\n\n(一)未对不同私募基金单独管理、单独建账、单独核算,将其固有财产、他人财产混同于私募基金财产,将不同私募基金财产混同运作,或者不公平对待不同私募基金财产;\n\n(二)使用私募基金管理人及其关联方名义、账户代私募基金收付基金财产;\n\n(三)开展或者参与具有滚动发行、集合运作、期限错配、分离定价等特征的资金池业务;\n\n(四)以套取私募基金财产为目的,使用私募基金财产直接或者间接投资于私募基金管理人、控股股东、实际控制人及其实际控制的企业或项目等自融行为;\n\n(五)不公平对待同一私募基金的不同投资者,损害投资者合法权益;\n\n(六)私募基金收益不与投资项目的资产、收益、风险等情况挂钩,包括不按照投资标的实际经营业绩或者收益情况向投资者分红、支付收益等;\n\n(七)直接或者间接侵占、挪用私募基金财产;\n\n(八)不按照合同约定进行投资运作或者向投资者进行信息披露;\n\n(九)利用私募基金财产或者职务之便,以向私募基金、私募基金投资标的及其关联方收取咨询费、手续费、财务顾问费等名义,为自身或者投资者以外的人牟取非法利益、进行利益输送;\n\n(十)泄露因职务便利获取的未公开信息、利用该信息从事或者明示、暗示他人从事相关的交易活动;\n\n(十一)从事内幕交易、操纵证券期货市场及其他不正当交易活动;\n\n(十二)玩忽职守,不按照监管规定或者合同约定履行职责;\n\n(十三)法律、行政法规和中国证监会禁止的其他行为。私募基金管理人的出资人和实际控制人,私募基金托管人、私募基金销售机构及其他私募基金服务机构及其出资人、实际控制人,不得有前款所列行为或者为前款行为提供便利。\n\n第十条 私募基金管理人管理的私募基金不得直接或者间接投资于国家禁止或者限制投资的项目,不符合国家产业政策、环境保护政策、土地管理政策的项目,但证券市场投资除外。\n\n第十一条 私募基金管理人不得从事损害私募基金财产或者投资者利益的关联交易等投资活动。私募基金管理人应当建立健全关联交易管理制度,对关联交易定价方法、交易审批程序等进行规范。使用私募基金财产与关联方进行交易的,私募基金管理人应当遵守法律、行政法规、中国证监会的规定和私募基金合同约定,防范利益冲突,投资前应当取得全体投资者或者投资者认可的决策机制决策同意,投资后应当及时向投资者充分披露信息。\n\n第十二条 私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构所提交的登记备案信息及其他信息材料,不得有虚假记载、误导性陈述或者重大遗漏,并应当按照规定持续履行信息披露和报送义务,确保所提交信息材料及时、准确、真实、完整。私募基金管理人及其出资人和实际控制人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员应当配合中国证监会及其派出机构依法履行职责,如实提供有关文件和材料,不得拒绝、阻碍和隐瞒。\n\n第十三条 中国证监会及其派出机构依法从严监管私募基金管理人、私募基金托管人、私募基金销售机构和其他私募基金服务机构及其从业人员的私募基金业务活动,严厉打击各类违法违规行为。对违反本规定的,中国证监会及其派出机构可以依照《私募办法》的规定,采取行政监管措施、市场禁入措施,实施行政处罚,并记入中国资本市场诚信信息数据库;涉嫌犯罪的,依法移送司法机关追究刑事责任。《证券投资基金法》等法律、行政法规另有规定的,依照其规定处理。基金业协会依法开展私募基金管理人登记和私募基金备案,加强自律管理与风险监测。对违反本规定的,基金业协会可以依法依规进行处理。\n\n第十四条 本规定自发布之日起施行。\n\n证券公司、基金管理公司、期货公司及其子公司从事私募基金业务,不适用本规定。本规定施行前已登记私募基金管理人不符合本规定,按下列要求执行:\n\n(一)不符合本规定第四条、第五条、第六条第一款第(九)项、第十一条的,应当自本规定施行之日起一年内完成整改;\n\n(二)不符合本规定第六条第三款的,应当自本规定施行之日六个月内完成整改,整改期内暂停新增私募基金募集和备案;\n\n(三)不符合本规定第六条第一款第(一)项至第(八)项、\n\n第六条第一款第(十)项、第七条、第九条、第十二条的,中国证监会及其派出机构可以依照本规定第十三条进行处理,基金业协会可以依法依规进行处理;\n\n(四)不符合本规定第八条、第十条的,不得新增此类投资,不得新增募集规模,不得新增投资者,不得展期,合同到期后予以清算。",
   "blocks": [
     {
@@ -97,7 +1258,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 17,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -105,7 +1273,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 19,
+      "end_char": 136,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -113,7 +1288,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 138,
+      "end_char": 241,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -121,7 +1303,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 243,
+      "end_char": 418,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -129,7 +1318,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 420,
+      "end_char": 527,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -137,7 +1333,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 529,
+      "end_char": 681,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -145,7 +1348,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 683,
+      "end_char": 734,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -153,7 +1363,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 736,
+      "end_char": 797,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -161,7 +1378,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 799,
+      "end_char": 921,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -169,7 +1393,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 923,
+      "end_char": 994,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -177,7 +1408,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 996,
+      "end_char": 1094,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -185,7 +1423,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 1096,
+      "end_char": 1126,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -193,7 +1438,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 1128,
+      "end_char": 1231,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -201,7 +1453,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1233,
+      "end_char": 1271,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -209,7 +1468,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1273,
+      "end_char": 1305,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -217,7 +1483,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1307,
+      "end_char": 1335,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -225,7 +1498,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1337,
+      "end_char": 1469,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -233,7 +1513,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1471,
+      "end_char": 1729,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -241,7 +1528,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1731,
+      "end_char": 1766,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -249,7 +1543,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1768,
+      "end_char": 1838,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -257,7 +1558,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1840,
+      "end_char": 1879,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -265,7 +1573,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1881,
+      "end_char": 1896,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -273,7 +1588,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1898,
+      "end_char": 2004,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -281,7 +1603,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2006,
+      "end_char": 2040,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -289,7 +1618,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2042,
+      "end_char": 2119,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -297,7 +1633,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2121,
+      "end_char": 2155,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -305,7 +1648,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2157,
+      "end_char": 2197,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -313,7 +1663,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2199,
+      "end_char": 2268,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -321,7 +1678,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2270,
+      "end_char": 2301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -329,7 +1693,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2303,
+      "end_char": 2367,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -337,7 +1708,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2369,
+      "end_char": 2390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -345,7 +1723,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2392,
+      "end_char": 2421,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -353,7 +1738,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2423,
+      "end_char": 2506,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -361,7 +1753,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2508,
+      "end_char": 2553,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -369,7 +1768,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2555,
+      "end_char": 2585,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -377,7 +1783,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2587,
+      "end_char": 2614,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -385,7 +1798,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2616,
+      "end_char": 2719,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -393,7 +1813,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2721,
+      "end_char": 2801,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -401,7 +1828,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2803,
+      "end_char": 2998,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -409,7 +1843,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 3000,
+      "end_char": 3228,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -417,7 +1858,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 3230,
+      "end_char": 3503,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -425,7 +1873,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 3505,
+      "end_char": 3522,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -433,7 +1888,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3524,
+      "end_char": 3592,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -441,7 +1903,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3594,
+      "end_char": 3648,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -449,7 +1918,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3650,
+      "end_char": 3704,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -457,7 +1933,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3706,
+      "end_char": 3733,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -465,7 +1948,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3735,
+      "end_char": 3804,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -473,7 +1963,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3806,
+      "end_char": 3865,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/关于人民币利率互换交易备案有关事项的通知.doc",
   "source_type": "doc",
   "file_sha256": "b4596af24420e6174ccb256e40ec180de06f46bfaecb9dab30f4dd0e5d5de8a9",
-  "content_sha256": "5fd1100144377945aeb3ed67d9cf53c4b87173f3ccccd9a6fc5e669f6ce71769",
+  "content_sha256": "9cc586edfdf2e4b89d277a0c0918f2808d708d3be4ac8814674873c710373961",
   "metadata": {
     "document_title": "关于人民币利率互换交易备案有关事项的通知",
     "issuing_authority": "中国外汇交易中心",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "66ff7be652d5b3125542d210163a7c88450b556a1d93e356287be384c61d0826",
     "clean_text_sha256": "0df870ae392ac5963e900ca326dc105b3a19d60badfb69c96bf115b664a25c7e",
@@ -88,6 +88,602 @@
   },
   "original_text_sha256": "66ff7be652d5b3125542d210163a7c88450b556a1d93e356287be384c61d0826",
   "clean_text_sha256": "0df870ae392ac5963e900ca326dc105b3a19d60badfb69c96bf115b664a25c7e",
+  "clean_text_hash": "7fed5fd25cbc0f0af7f18484888428b3a984772c5c05ea86f9adf861ff578534",
+  "structured_blocks_sha256": "2897438d49104ff1cbb3f2751eb93c4f0ba45e1bccdde4a02131395d388140cd",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "中汇交发〔2008〕43号",
+      "character_count": 13
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "document_title",
+      "text": "关于人民币利率互换交易备案有关事项的通知",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 20,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "银行间债券市场参与者:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 22,
+      "end_char": 33,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号,以下简称《通知》)要求,现将人民币利率互换交易备案的有关事项通知如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 35,
+      "end_char": 113,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "一、《通知》要求市场参与者在开展人民币利率互换交易(以下简称“利率互换”)前,制定利率互换内部操作规程和风险管理制度,送全国银行间同业拆借中心(以下简称“交易中心”)和中国银行间市场交易商协会(以下简称“交易商协会”)备案,其中,内部风险管理制度应至少包括风险测算与监控、内部授权授信、信息监测管理、风险报告和内部审计等内容。请市场参与者以电子文档方式向交易中心提交上述备案材料,电子文档采用PDF格式,并包括JPG图片格式的单位签章。交易中心将会同交易商协会通过中国货币网(www.chinamoney.com.cn)和交易商协会网站(www.nafmii.org.cn)公布已备案市场参与者的名单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 115,
+      "end_char": 416,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "2006年2月利率互换业务开展试点以来,根据《中国人民银行关于开展人民币利率互换交易试点有关事项的通知》(银发[2006]27号)的要求,已提交制度备案材料的市场参与者,请于2008年2月18日前按《通知》要求对原有备案材料重新审核,并将审查修订后的备案材料送交易中心和交易商协会备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 418,
+      "end_char": 561,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "市场参与者若对远期利率协议、利率互换等金融衍生产品制定了统一的内部操作规程和风险管理制度,且已按远期利率协议业务的备案要求提交交易中心的,请及时与交易中心联系,进行备案确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 563,
+      "end_char": 650,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "二、《通知》明确未通过交易中心电子交易系统达成的利率互换交易,市场参与者应于交易达成后的下一工作日12:00前将交易情况送交易中心备案。自2008年2月18日起,请市场参与者按时将填写完整的“人民币利率互换交易备案表”(格式见附件)传真至交易中心,同时提交Excel格式的电子文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 652,
+      "end_char": 793,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "三、交易中心将根据中国人民银行授权,通过中国货币网向市场参与者披露利率互换交易有关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 795,
+      "end_char": 839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "联系部门:市场二部",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 841,
+      "end_char": 850,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "联 系 人:秦简",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 852,
+      "end_char": 860,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "联系电话:021-63298988-7722 58555221",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 862,
+      "end_char": 893,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "传 真:021-58957710",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 895,
+      "end_char": 911,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "电子邮箱:swap@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 913,
+      "end_char": 940,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00015",
+      "block_type": "attachment",
+      "text": "附件:人民币利率互换交易备案表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 942,
+      "end_char": 957,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "二○○八年二月二日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 959,
+      "end_char": 968,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "attachment",
+      "text": "附件",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 970,
+      "end_char": 972,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "人民币利率互换交易备案表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 974,
+      "end_char": 986,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "机构名称: 填表人: 联系电话: 填表日期:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 988,
+      "end_char": 1010,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "交易日期 固定利息支付方 浮动利息支付方 名义本金",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1012,
+      "end_char": 1037,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(万元) 合约期限 起息日 到期日 参考利率 固定利率 浮动利率 利息支付(互换)日 日计数基准 备注",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1039,
+      "end_char": 1090,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "利率(%) 支付频率 利率 支付频率",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1092,
+      "end_char": 1110,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "备注",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1112,
+      "end_char": 1114,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "note",
+      "text": "注:1市场二部联系电话:021-63298988转7722,传真:021-58957710;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1116,
+      "end_char": 1162,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "2请在填表日期后加盖单位公章。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1164,
+      "end_char": 1179,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "关于人民币利率互换交易备案有关事项的通知\n\n银行间债券市场参与者:\n\n根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号,以下简称《通知》)要求,现将人民币利率互换交易备案的有关事项通知如下:\n\n一、《通知》要求市场参与者在开展人民币利率互换交易(以下简称“利率互换”)前,制定利率互换内部操作规程和风险管理制度,送全国银行间同业拆借中心(以下简称“交易中心”)和中国银行间市场交易商协会(以下简称“交易商协会”)备案,其中,内部风险管理制度应至少包括风险测算与监控、内部授权授信、信息监测管理、风险报告和内部审计等内容。请市场参与者以电子文档方式向交易中心提交上述备案材料,电子文档采用PDF格式,并包括JPG图片格式的单位签章。交易中心将会同交易商协会通过中国货币网(www.chinamoney.com.cn)和交易商协会网站(www.nafmii.org.cn)公布已备案市场参与者的名单。\n\n2006年2月利率互换业务开展试点以来,根据《中国人民银行关于开展人民币利率互换交易试点有关事项的通知》(银发[2006]27号)的要求,已提交制度备案材料的市场参与者,请于2008年2月18日前按《通知》要求对原有备案材料重新审核,并将审查修订后的备案材料送交易中心和交易商协会备案。\n\n市场参与者若对远期利率协议、利率互换等金融衍生产品制定了统一的内部操作规程和风险管理制度,且已按远期利率协议业务的备案要求提交交易中心的,请及时与交易中心联系,进行备案确认。\n\n二、《通知》明确未通过交易中心电子交易系统达成的利率互换交易,市场参与者应于交易达成后的下一工作日12:00前将交易情况送交易中心备案。自2008年2月18日起,请市场参与者按时将填写完整的“人民币利率互换交易备案表”(格式见附件)传真至交易中心,同时提交Excel格式的电子文件。\n\n三、交易中心将根据中国人民银行授权,通过中国货币网向市场参与者披露利率互换交易有关信息。\n\n联系部门:市场二部\n\n联 系 人:秦简\n\n联系电话:021-63298988-7722 58555221\n\n传 真:021-58957710\n\n电子邮箱:swap@chinamoney.com.cn\n\n附件:人民币利率互换交易备案表\n\n二○○八年二月二日\n\n附件\n\n人民币利率互换交易备案表\n\n机构名称: 填表人: 联系电话: 填表日期:\n\n交易日期 固定利息支付方 浮动利息支付方 名义本金\n\n(万元) 合约期限 起息日 到期日 参考利率 固定利率 浮动利率 利息支付(互换)日 日计数基准 备注\n\n利率(%) 支付频率 利率 支付频率\n\n备注\n\n注:1市场二部联系电话:021-63298988转7722,传真:021-58957710;\n\n2请在填表日期后加盖单位公章。",
+  "structured_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "document_title",
+      "text": "关于人民币利率互换交易备案有关事项的通知",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 20,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "银行间债券市场参与者:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 22,
+      "end_char": 33,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号,以下简称《通知》)要求,现将人民币利率互换交易备案的有关事项通知如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 35,
+      "end_char": 113,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "一、《通知》要求市场参与者在开展人民币利率互换交易(以下简称“利率互换”)前,制定利率互换内部操作规程和风险管理制度,送全国银行间同业拆借中心(以下简称“交易中心”)和中国银行间市场交易商协会(以下简称“交易商协会”)备案,其中,内部风险管理制度应至少包括风险测算与监控、内部授权授信、信息监测管理、风险报告和内部审计等内容。请市场参与者以电子文档方式向交易中心提交上述备案材料,电子文档采用PDF格式,并包括JPG图片格式的单位签章。交易中心将会同交易商协会通过中国货币网(www.chinamoney.com.cn)和交易商协会网站(www.nafmii.org.cn)公布已备案市场参与者的名单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 115,
+      "end_char": 416,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "2006年2月利率互换业务开展试点以来,根据《中国人民银行关于开展人民币利率互换交易试点有关事项的通知》(银发[2006]27号)的要求,已提交制度备案材料的市场参与者,请于2008年2月18日前按《通知》要求对原有备案材料重新审核,并将审查修订后的备案材料送交易中心和交易商协会备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 418,
+      "end_char": 561,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "市场参与者若对远期利率协议、利率互换等金融衍生产品制定了统一的内部操作规程和风险管理制度,且已按远期利率协议业务的备案要求提交交易中心的,请及时与交易中心联系,进行备案确认。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 563,
+      "end_char": 650,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "二、《通知》明确未通过交易中心电子交易系统达成的利率互换交易,市场参与者应于交易达成后的下一工作日12:00前将交易情况送交易中心备案。自2008年2月18日起,请市场参与者按时将填写完整的“人民币利率互换交易备案表”(格式见附件)传真至交易中心,同时提交Excel格式的电子文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 652,
+      "end_char": 793,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "三、交易中心将根据中国人民银行授权,通过中国货币网向市场参与者披露利率互换交易有关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 795,
+      "end_char": 839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "联系部门:市场二部",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 841,
+      "end_char": 850,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "联 系 人:秦简",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 852,
+      "end_char": 860,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "联系电话:021-63298988-7722 58555221",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 862,
+      "end_char": 893,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "传 真:021-58957710",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 895,
+      "end_char": 911,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "电子邮箱:swap@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 913,
+      "end_char": 940,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "attachment",
+      "text": "附件:人民币利率互换交易备案表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 942,
+      "end_char": 957,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "二○○八年二月二日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 959,
+      "end_char": 968,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "attachment",
+      "text": "附件",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 970,
+      "end_char": 972,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "人民币利率互换交易备案表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 974,
+      "end_char": 986,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "机构名称: 填表人: 联系电话: 填表日期:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 988,
+      "end_char": 1010,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "交易日期 固定利息支付方 浮动利息支付方 名义本金",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1012,
+      "end_char": 1037,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(万元) 合约期限 起息日 到期日 参考利率 固定利率 浮动利率 利息支付(互换)日 日计数基准 备注",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1039,
+      "end_char": 1090,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "利率(%) 支付频率 利率 支付频率",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1092,
+      "end_char": 1110,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "备注",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1112,
+      "end_char": 1114,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "note",
+      "text": "注:1市场二部联系电话:021-63298988转7722,传真:021-58957710;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1116,
+      "end_char": 1162,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "2请在填表日期后加盖单位公章。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1164,
+      "end_char": 1179,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "关于人民币利率互换交易备案有关事项的通知\n\n银行间债券市场参与者:\n\n根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号,以下简称《通知》)要求,现将人民币利率互换交易备案的有关事项通知如下:\n\n一、《通知》要求市场参与者在开展人民币利率互换交易(以下简称“利率互换”)前,制定利率互换内部操作规程和风险管理制度,送全国银行间同业拆借中心(以下简称“交易中心”)和中国银行间市场交易商协会(以下简称“交易商协会”)备案,其中,内部风险管理制度应至少包括风险测算与监控、内部授权授信、信息监测管理、风险报告和内部审计等内容。请市场参与者以电子文档方式向交易中心提交上述备案材料,电子文档采用PDF格式,并包括JPG图片格式的单位签章。交易中心将会同交易商协会通过中国货币网(www.chinamoney.com.cn)和交易商协会网站(www.nafmii.org.cn)公布已备案市场参与者的名单。\n\n2006年2月利率互换业务开展试点以来,根据《中国人民银行关于开展人民币利率互换交易试点有关事项的通知》(银发[2006]27号)的要求,已提交制度备案材料的市场参与者,请于2008年2月18日前按《通知》要求对原有备案材料重新审核,并将审查修订后的备案材料送交易中心和交易商协会备案。\n\n市场参与者若对远期利率协议、利率互换等金融衍生产品制定了统一的内部操作规程和风险管理制度,且已按远期利率协议业务的备案要求提交交易中心的,请及时与交易中心联系,进行备案确认。\n\n二、《通知》明确未通过交易中心电子交易系统达成的利率互换交易,市场参与者应于交易达成后的下一工作日12:00前将交易情况送交易中心备案。自2008年2月18日起,请市场参与者按时将填写完整的“人民币利率互换交易备案表”(格式见附件)传真至交易中心,同时提交Excel格式的电子文件。\n\n三、交易中心将根据中国人民银行授权,通过中国货币网向市场参与者披露利率互换交易有关信息。\n\n联系部门:市场二部\n\n联 系 人:秦简\n\n联系电话:021-63298988-7722 58555221\n\n传 真:021-58957710\n\n电子邮箱:swap@chinamoney.com.cn\n\n附件:人民币利率互换交易备案表\n\n二○○八年二月二日\n\n附件\n\n人民币利率互换交易备案表\n\n机构名称: 填表人: 联系电话: 填表日期:\n\n交易日期 固定利息支付方 浮动利息支付方 名义本金\n\n(万元) 合约期限 起息日 到期日 参考利率 固定利率 浮动利率 利息支付(互换)日 日计数基准 备注\n\n利率(%) 支付频率 利率 支付频率\n\n备注\n\n注:1市场二部联系电话:021-63298988转7722,传真:021-58957710;\n\n2请在填表日期后加盖单位公章。",
   "blocks": [
     {
@@ -96,7 +692,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 20,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -104,7 +707,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 22,
+      "end_char": 33,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -112,7 +722,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 35,
+      "end_char": 113,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -120,7 +737,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 115,
+      "end_char": 416,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -128,7 +752,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 418,
+      "end_char": 561,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -136,7 +767,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 563,
+      "end_char": 650,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -144,7 +782,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 652,
+      "end_char": 793,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -152,7 +797,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 795,
+      "end_char": 839,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -160,7 +812,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 841,
+      "end_char": 850,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -168,7 +827,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 852,
+      "end_char": 860,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -176,7 +842,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 862,
+      "end_char": 893,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -184,7 +857,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 895,
+      "end_char": 911,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -192,7 +872,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 913,
+      "end_char": 940,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -200,7 +887,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 942,
+      "end_char": 957,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -208,7 +902,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 959,
+      "end_char": 968,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -216,7 +917,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 970,
+      "end_char": 972,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -224,7 +932,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 974,
+      "end_char": 986,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -232,7 +947,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 988,
+      "end_char": 1010,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -240,7 +962,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1012,
+      "end_char": 1037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -248,7 +977,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1039,
+      "end_char": 1090,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -256,7 +992,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1092,
+      "end_char": 1110,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -264,7 +1007,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1112,
+      "end_char": 1114,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -272,7 +1022,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1116,
+      "end_char": 1162,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -280,7 +1037,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1164,
+      "end_char": 1179,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -3,9 +3,11 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 from datetime import datetime, timezone
+import hashlib
 import json
 import logging
 from pathlib import Path
+import re
 import sys
 from typing import Any
 
@@ -16,7 +18,7 @@ from exporters import export_all, export_file, export_structured_documents
 from parsers import parse_file
 from utils.catalog import canonical_document_id, catalog_by_filename, load_catalog, merge_metadata, metadata_hash, resolve_catalog_record
 from utils.front_matter import clean_front_matter
-from utils.structured import content_hash, document_to_row, load_document, save_document
+from utils.structured import clean_text_hash, content_hash, document_to_row, load_document, save_document
 from utils.text import body_char_count, compact, sha256_file, stable_id
 from utils.validation import article_number, validate_outputs
 
@@ -113,6 +115,8 @@ def build_rows(document, drafts, rendered, document_id: str) -> list[dict[str, A
             "oversized_reason": draft.oversized_reason or ("切分后完整语义或表格单元仍超过上限" if body_char_count(body) > config.MAX_CHARS else ""),
             "source_type": document.source_type,
             "source_block_ids": sorted({block_id for unit in draft.units for block_id in unit.block_ids}),
+            "primary_block_ids": list(draft.primary_block_ids),
+            "overlap_block_ids": list(draft.overlap_block_ids),
             "body_text": body,
             "text": text_values["text"],
         }
@@ -121,6 +125,113 @@ def build_rows(document, drafts, rendered, document_id: str) -> list[dict[str, A
         if draft.overlap_source_index is not None and 0 <= draft.overlap_source_index < len(rows):
             rows[index]["overlap_source_chunk_id"] = rows[draft.overlap_source_index]["chunk_id"]
     return rows
+
+
+def _literal_overlap(left: str, right: str, limit: int = 480) -> int:
+    """Return only an exact designed suffix/prefix overlap; never fuzzy-delete."""
+
+    maximum = min(len(left), len(right), limit)
+    for size in range(maximum, 0, -1):
+        if left[-size:] == right[:size]:
+            return size
+    return 0
+
+
+def enrich_chunk_positions(rows: list[dict[str, Any]], structured_row: dict[str, Any]) -> None:
+    """Attach clean-text coordinates without changing retrieval text or IDs."""
+
+    blocks = {
+        block["block_id"]: block
+        for block in structured_row.get("structured_blocks", [])
+        if block.get("block_id")
+    }
+    block_paths: dict[str, list[str]] = {}
+    hierarchy = {"part": "", "chapter": "", "section": "", "minor": "", "article": ""}
+    for block in sorted(blocks.values(), key=lambda item: int(item.get("start_char", -1))):
+        kind = block.get("block_type", "")
+        text = block.get("text", "")
+        if kind == "part":
+            hierarchy.update({"part": text, "chapter": "", "section": "", "minor": "", "article": ""})
+        elif kind in {"chapter", "guide_heading"}:
+            hierarchy.update({"chapter": text, "section": "", "minor": "", "article": ""})
+        elif kind in {"section", "guide_subheading"}:
+            hierarchy.update({"section": text, "minor": "", "article": ""})
+        elif kind == "guide_minor_heading":
+            hierarchy.update({"minor": text, "article": ""})
+        elif kind == "article":
+            article_match = re.match(r"^(第.+?条)", text)
+            hierarchy["article"] = article_match.group(1) if article_match else text
+        block_paths[block["block_id"]] = [
+            value for value in hierarchy.values() if value
+        ]
+    by_id = {row["chunk_id"]: row for row in rows}
+    clean_hash = structured_row.get("clean_text_hash", "")
+    for row in rows:
+        source_ids = list(dict.fromkeys(row.get("source_block_ids", [])))
+        overlap_ids = list(dict.fromkeys(row.get("overlap_block_ids", [])))
+        primary_ids = list(dict.fromkeys(row.get("primary_block_ids", [])))
+        if not primary_ids:
+            source = by_id.get(row.get("overlap_source_chunk_id", ""))
+            shared = set(source_ids) & set(source.get("source_block_ids", [])) if source else set()
+            inferred = [block_id for block_id in source_ids if block_id not in shared]
+            primary_ids = inferred or source_ids
+            overlap_ids = [block_id for block_id in source_ids if block_id in shared] if inferred else []
+        spans = [
+            (int(blocks[block_id].get("start_char", -1)), int(blocks[block_id].get("end_char", -1)))
+            for block_id in primary_ids if block_id in blocks
+        ]
+        spans = [span for span in spans if span[0] >= 0 and span[1] >= span[0]]
+        pages = [
+            (
+                int(blocks[block_id].get("source_page_start", 0) or 0),
+                int(blocks[block_id].get("source_page_end", 0) or 0),
+            )
+            for block_id in source_ids if block_id in blocks
+        ]
+        source = by_id.get(row.get("overlap_source_chunk_id", ""))
+        overlap_left = _literal_overlap(
+            source.get("body_text", ""),
+            row.get("body_text", ""),
+        ) if source and row.get("is_overlapping") else 0
+        first_primary_path = next(
+            (block_paths[block_id] for block_id in primary_ids if block_id in block_paths),
+            [],
+        )
+        row.update({
+            "start_char": min((start for start, _ in spans), default=-1),
+            "end_char": max((end for _, end in spans), default=-1),
+            "source_page_start": min((start for start, _ in pages if start > 0), default=0),
+            "source_page_end": max((end for _, end in pages if end > 0), default=0),
+            "section_path": first_primary_path or [
+                value for value in (
+                    row.get("part_title", ""),
+                    row.get("chapter_title", ""),
+                    row.get("section_title", ""),
+                    row.get("article_start", ""),
+                ) if value
+            ],
+            "block_ids": source_ids,
+            "primary_block_ids": primary_ids,
+            "overlap_block_ids": overlap_ids,
+            "overlap_left": overlap_left,
+            "overlap_right": 0,
+            "clean_text_hash": clean_hash,
+        })
+        chunk_payload = {
+            key: row.get(key, "")
+            for key in (
+                "document_title", "chapter_title", "section_title",
+                "article_start", "article_end", "text",
+            )
+        }
+        row["chunk_hash"] = hashlib.sha256(
+            json.dumps(
+                chunk_payload,
+                ensure_ascii=False,
+                sort_keys=True,
+                separators=(",", ":"),
+            ).encode("utf-8")
+        ).hexdigest()
 
 
 def refresh_chunk_metadata(rows: list[dict[str, Any]], document, document_id: str) -> None:
@@ -287,6 +398,9 @@ def main() -> int:
         previous = old_documents.get(document_id) or old_by_relative.get(relative, {})
         structured_path = document_output_dir / "json" / f"{document_id}.json"
         previous_structured = resolve_manifest_artifact(manifest_path, previous.get("structured_json", ""))
+        previous_structured_row: dict[str, Any] = {}
+        if previous_structured and previous_structured.exists():
+            previous_structured_row = json.loads(previous_structured.read_text(encoding="utf-8"))
         parser_reused = False
 
         if (
@@ -323,8 +437,13 @@ def main() -> int:
         structured_rows.append(structured_row)
 
         previous_chunk = resolve_manifest_artifact(manifest_path, previous.get("chunk_jsonl", ""))
+        previous_clean_hash = (
+            previous.get("clean_text_hash", "")
+            or previous_structured_row.get("clean_text_hash", "")
+            or clean_text_hash(previous_structured_row.get("clean_text") or previous_structured_row.get("normalized_text", ""))
+        )
         chunk_reused = (
-            not args.force and not force_file and previous.get("content_sha256") == text_hash
+            not args.force and previous_clean_hash == structured_row["clean_text_hash"]
             and previous.get("chunker_version") == chunker_version
             and previous.get("semantic_profile") == semantic_profile
             and previous_chunk is not None and previous_chunk.exists()
@@ -342,6 +461,7 @@ def main() -> int:
             document.warnings.extend(llm_warnings)
             rows = build_rows(document, drafts, rendered, document_id)
 
+        enrich_chunk_positions(rows, structured_row)
         summary = summarize(document, rows, document_id)
         jsonl_rel, markdown_rel = export_file(output_dir, document_id, path, rows)
         summary["jsonl"] = jsonl_rel
@@ -358,6 +478,9 @@ def main() -> int:
             "content_sha256": text_hash,
             "original_text_sha256": document.cleaning.get("original_text_sha256", ""),
             "clean_text_sha256": document.cleaning.get("clean_text_sha256", text_hash),
+            "clean_text_hash": structured_row["clean_text_hash"],
+            "structured_blocks_sha256": structured_row["structured_blocks_sha256"],
+            "structured_schema_version": config.STRUCTURED_SCHEMA_VERSION,
             "cleaning_rule_version": config.CLEANING_RULE_VERSION,
             "cleaning_status": document.cleaning.get("status", "unchanged"),
             "cleaning_rule_hits": document.cleaning.get("rule_hits", []),
@@ -407,11 +530,12 @@ def main() -> int:
     export_all(output_dir, all_rows, summaries, failures, validation, inventory)
     export_structured_documents(document_output_dir, structured_rows)
     manifest = {
-        "schema_version": 3,
+        "schema_version": 4,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "parser_version": config.PARSER_VERSION,
         "chunker_version": config.CHUNKER_VERSION,
         "cleaning_rule_version": config.CLEANING_RULE_VERSION,
+        "structured_schema_version": config.STRUCTURED_SCHEMA_VERSION,
         "semantic_profile": semantic_profile,
         "input_dir": config.repository_path(input_dir),
         "metadata_path": config.repository_path(args.metadata),

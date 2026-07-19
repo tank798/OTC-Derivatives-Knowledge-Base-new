@@ -101,6 +101,7 @@ export function chunkSearchText(row) {
     row.section_title,
     row.article_start,
     row.article_end,
+    ...(row.section_path ?? []),
     row.document_number,
     row.issuing_authority,
     row.text,

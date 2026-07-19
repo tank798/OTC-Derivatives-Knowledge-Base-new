@@ -4,14 +4,14 @@
   "file_path": "data/raw/监管文件/全国银行间同业拆借中心信用风险缓释工具交易规则.docx",
   "source_type": "docx",
   "file_sha256": "a58bf291320dbcdc668f20c1eaed1f241389ee163cbf31f748b1127a1b95d899",
-  "content_sha256": "0faa6f0a1fda6ed069292dfbaa572c77985b9a1126ac1c42bee48e4f4fa1bf76",
+  "content_sha256": "f32f9367edf36b36352fac9e8230affff2be8d8655ea003488186cf6b5a6750d",
   "metadata": {
     "document_title": "全国银行间同业拆借中心信用风险缓释工具交易规则",
     "issuing_authority": "中国外汇交易中心",
     "document_number": "中汇交发〔2017〕155号",
     "publication_date": "2017-04-27",
     "effective_date": "",
-    "validity_status": "现行使用（官网仍列示）",
+    "validity_status": "现行有效",
     "version": "",
     "document_title_source": "authoritative_catalog",
     "official_url": "https://www.chinamoney.com.cn/chinese/bbyspschspz/20170427/2779775.html",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "9997861a4a5c8a5b1d41f393e800e96b1a552cfd606bdaed72430a8e8720c370",
     "clean_text_sha256": "11537ba491379ec26d7e55aee7eb479c89af385b8d260733c3b2fdcc60d506c3",
@@ -171,6 +171,1724 @@
   },
   "original_text_sha256": "9997861a4a5c8a5b1d41f393e800e96b1a552cfd606bdaed72430a8e8720c370",
   "clean_text_sha256": "11537ba491379ec26d7e55aee7eb479c89af385b8d260733c3b2fdcc60d506c3",
+  "clean_text_hash": "9bf4ea7357c66b4fe7467e4cba5272faa1b713d57d5767fbbecd8869b348e5bb",
+  "structured_blocks_sha256": "a0f2b47e0c2ac2da1d0f3297a5ddb4a8accd9341e88c331025d654fa980c0910",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "cover_attachment_label",
+      "action": "moved_to_front_matter",
+      "text": "附件1",
+      "character_count": 3
+    },
+    {
+      "block_id": "b00003",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "cover_document_title",
+      "action": "moved_to_front_matter",
+      "text": "全国银行间同业拆借中心",
+      "character_count": 11
+    },
+    {
+      "block_id": "b00004",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "cover_document_title",
+      "action": "moved_to_front_matter",
+      "text": "信用风险缓释工具交易规则",
+      "character_count": 12
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国银行间市场交易商协会(以下简称“交易商协会”)发布的《银行间市场信用风险缓释工具试点业务规则》(中国银行间市场交易商协会公告[2016]25号)及相关配套文件,全国银行间同业拆借中心(以下简称“交易中心”)就信用风险缓释工具交易制定本规则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 167,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第二条 本规则所称信用风险缓释工具指交易商协会指定的合约类产品及凭证类产品。合约类产品包括但不限于信用风险缓释合约、信用违约互换;凭证类产品包括但不限于信用风险缓释凭证、信用联结票据。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 169,
+      "end_char": 261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条 市场参与者在开展全国银行间同业拆借中心信用风险缓释工具业务前应向交易商协会备案成为核心交易商或一般交易商,并签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》(以下简称“主协议”),或交易商协会根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 263,
+      "end_char": 400,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第四条 交易中心为市场参与者提供信用风险缓释工具交易、信息等相关服务。市场参与者通过交易中心交易系统达成信用风险缓释工具交易的,交易系统出具成交单。成交单及其补充条款与主协议、补充协议(如有)共同组成信用风险缓释工具的完整交易合同。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 402,
+      "end_char": 518,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第五条 交易中心根据交易商协会报价商制度为信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 520,
+      "end_char": 580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第六条 交易中心将信用联结票据等凭证类信用风险缓释工具交易数据实时传输至上海清算所据以结算,将信用违约互换等合约类信用风险缓释工具交易数据依照市场参与者指令实时传输至上海清算所。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 582,
+      "end_char": 671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 交易中心对市场参与者信用风险缓释工具报价交易行为履行一线监测职能,将信用风险缓释工具交易信息传输至交易商协会。交易中心认为发生异常交易的,有权向相关市场参与者了解情况,市场参与者应根据交易中心要求提供相应说明。交易中心发现市场参与者有违规行为的,有权要求其立即停止相关行为,并根据情节轻重予以警示、通报、暂停交易等处理。交易中心酌情将相关情况上报中国人民银行、抄送交易商协会。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 865,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 市场参与者应遵循公平、诚信、自律、风险自担原则开展信用风险缓释工具产品交易,遵守本规则以及交易中心发布的其他相关规范性文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 867,
+      "end_char": 933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 市场参与者开展全国银行间同业拆借中心信用风险缓释工具交易应遵守交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。交易双方的约定不得违反国家法律法规和其他银行间市场相关规章制度。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 935,
+      "end_char": 1040,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 信用违约互换、信用联结票据、信用风险缓释合约和信用风险缓释凭证等信用风险缓释工具的产品要素、报价交易、应急服务等具体规定参见本规则附件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1042,
+      "end_char": 1114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十一条 全国银行间同业拆借中心信用风险缓释工具相关服务费收取标准参照本币市场买卖类交易收费规则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1116,
+      "end_char": 1165,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十二条 本规则的解释权和修改权归属交易中心。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1167,
+      "end_char": 1190,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十三条 本规则自发布之日起实施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1192,
+      "end_char": 1209,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00020",
+      "block_type": "attachment",
+      "text": "附件:1.1、信用违约互换",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1211,
+      "end_char": 1224,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "guide_minor_heading",
+      "text": "1.2、信用联结票据",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1226,
+      "end_char": 1236,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "guide_minor_heading",
+      "text": "1.3、信用风险缓释合约",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1250,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "guide_minor_heading",
+      "text": "1.4、信用风险缓释凭证",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1252,
+      "end_char": 1264,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "附件1.1",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1266,
+      "end_char": 1271,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "信用违约互换",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1273,
+      "end_char": 1279,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "guide_heading",
+      "text": "一、产品及交易要素",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1281,
+      "end_char": 1290,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "guide_subheading",
+      "text": "(一)产品含义",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1292,
+      "end_char": 1299,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的一个或多个参考实体向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1301,
+      "end_char": 1408,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "guide_subheading",
+      "text": "(二)交易要素",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1410,
+      "end_char": 1417,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "信用违约互换交易要素适用全国银行间同业拆借中心(以下简称“交易中心”)发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "guide_subheading",
+      "text": "(三)交易日及交易时间",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1501,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "交易日为每周一至周五,遇法定节假日除外。交易时间为每交易日9:00-12:00和13:30-17:00;如遇变更,交易中心将提前发布市场公告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1503,
+      "end_char": 1574,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "guide_heading",
+      "text": "二、报价交易",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1576,
+      "end_char": 1582,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "guide_subheading",
+      "text": "(一)交易系统",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1584,
+      "end_char": 1591,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "信用违约互换可通过中国银行间本币交易系统(以下简称“交易系统”)交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1593,
+      "end_char": 1628,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "guide_subheading",
+      "text": "(二)交易方式及报价方式",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1642,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "1.信用违约互换通过询价方式交易。交易系统提供其他交易方式的,由交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1644,
+      "end_char": 1685,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "2.信用违约互换询价方式下,报价方式为双向报价和对话报价。其中双向报价属意向性报价,不可直接确认成交;对话报价属要约报价,经对手方确认即可成交。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1687,
+      "end_char": 1759,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "3.交易中心根据交易商协会报价商制度为信用违约互换等信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1761,
+      "end_char": 1826,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "guide_subheading",
+      "text": "(三)关系授信",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1828,
+      "end_char": 1835,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "市场参与者在开展信用违约互换业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1837,
+      "end_char": 1896,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "guide_subheading",
+      "text": "(四)交易合同",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1898,
+      "end_char": 1905,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "1.信用违约互换的交易合同由主协议、补充协议(如有)和成交单及其补充条款组成。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1907,
+      "end_char": 1946,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "2.主协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议》,补充协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议补充协议》(如有)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1948,
+      "end_char": 2035,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "3.交易系统于交易达成后生成信用违约互换成交单,成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。交易双方可于成交前在补充条款内约定其他未尽事宜。交易达成后,补充条款的内容列示于成交单上。补充条款不得与成交单上的其他要素约定相冲突。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2037,
+      "end_char": 2156,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "三、应急服务",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2158,
+      "end_char": 2164,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(一)应急报价及成交",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2166,
+      "end_char": 2176,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面申请,交易中心提供相应应急服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2178,
+      "end_char": 2232,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(二)应急修改及撤销",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2234,
+      "end_char": 2244,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "1.交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致后向交易中心提交书面应急修改/撤销申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2246,
+      "end_char": 2315,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "2.应急修改当日成交的,交易系统按照修改后要素自动重新计算信用保护费用;应急修改历史成交的,交易系统按照修改后要素和当日参数重新计算信用保护费用。如果修改时已发生单期或多期金额的支付,则修改日计算得出新的信用保护支付费用仅对未发生的现金流进行调整,不对已发生的现金流进行回溯。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2317,
+      "end_char": 2455,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "3.参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2535,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "附件1.2",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2537,
+      "end_char": 2542,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "信用联结票据",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2544,
+      "end_char": 2550,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "一、信用联结票据指由创设机构向投资人创设的,投资人的投资回报与参考实体信用状况挂钩的附有现金担保的信用衍生产品,属于凭证类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2552,
+      "end_char": 2622,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用联结票据交易服务,交易方式及报价方式同现券买卖。交易系统变更交易方式、报价方式的,交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2624,
+      "end_char": 2728,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "三、信用风险缓释工具报价商为银行间市场做市机构(包括做市商及尝试做市机构)的,可自主选择开展信用联结票据做市业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2730,
+      "end_char": 2787,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "四、交易达成后,交易系统出具信用联结票据成交单。成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2841,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "五、信用联结票据交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2843,
+      "end_char": 2895,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "六、信用联结票据应急服务参照现券买卖相关规定。交易中心变更应急服务的,交易中心另行通知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2897,
+      "end_char": 2941,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "附件1.3",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2943,
+      "end_char": 2948,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "信用风险缓释合约",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2950,
+      "end_char": 2958,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "一、信用风险缓释合约指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的标的债务向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 3072,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释合约交易服务,交易方式及报价方式同信用违约互换。交易系统变更交易方式、报价方式的,交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3074,
+      "end_char": 3182,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "三、信用风险缓释合约交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3184,
+      "end_char": 3238,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "四、市场参与者在开展信用风险缓释合约业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。信用风险缓释合约与信用违约互换共用双边授信关系。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3240,
+      "end_char": 3327,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "五、信用风险缓释合约应急服务参照全国银行间同业拆借中心信用违约互换相关规定。交易中心变更应急服务的,交易中心另行通知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3329,
+      "end_char": 3388,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "附件1.4",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3390,
+      "end_char": 3395,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "信用风险缓释凭证",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3397,
+      "end_char": 3405,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "一、信用风险缓释凭证指由标的实体以外的机构创设的,为凭证持有人就标的债务提供信用风险保护的,可交易流通的有价凭证,属于凭证类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3407,
+      "end_char": 3478,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释凭证交易服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3480,
+      "end_char": 3545,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "三、信用风险缓释凭证采用询价交易方式。询价方式下,报价方式有意向报价、对话报价两种。交易系统变更交易方式、报价方式的,交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3547,
+      "end_char": 3615,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "四、信用风险缓释凭证交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3617,
+      "end_char": 3671,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "五、市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面应急服务申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3673,
+      "end_char": 3720,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致同意后向交易中心提交书面应急修改/撤销申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3722,
+      "end_char": 3791,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3793,
+      "end_char": 3869,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国银行间市场交易商协会(以下简称“交易商协会”)发布的《银行间市场信用风险缓释工具试点业务规则》(中国银行间市场交易商协会公告[2016]25号)及相关配套文件,全国银行间同业拆借中心(以下简称“交易中心”)就信用风险缓释工具交易制定本规则。\n\n第二条 本规则所称信用风险缓释工具指交易商协会指定的合约类产品及凭证类产品。合约类产品包括但不限于信用风险缓释合约、信用违约互换;凭证类产品包括但不限于信用风险缓释凭证、信用联结票据。\n\n第三条 市场参与者在开展全国银行间同业拆借中心信用风险缓释工具业务前应向交易商协会备案成为核心交易商或一般交易商,并签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》(以下简称“主协议”),或交易商协会根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。\n\n第四条 交易中心为市场参与者提供信用风险缓释工具交易、信息等相关服务。市场参与者通过交易中心交易系统达成信用风险缓释工具交易的,交易系统出具成交单。成交单及其补充条款与主协议、补充协议(如有)共同组成信用风险缓释工具的完整交易合同。\n\n第五条 交易中心根据交易商协会报价商制度为信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。\n\n第六条 交易中心将信用联结票据等凭证类信用风险缓释工具交易数据实时传输至上海清算所据以结算,将信用违约互换等合约类信用风险缓释工具交易数据依照市场参与者指令实时传输至上海清算所。\n\n第七条 交易中心对市场参与者信用风险缓释工具报价交易行为履行一线监测职能,将信用风险缓释工具交易信息传输至交易商协会。交易中心认为发生异常交易的,有权向相关市场参与者了解情况,市场参与者应根据交易中心要求提供相应说明。交易中心发现市场参与者有违规行为的,有权要求其立即停止相关行为,并根据情节轻重予以警示、通报、暂停交易等处理。交易中心酌情将相关情况上报中国人民银行、抄送交易商协会。\n\n第八条 市场参与者应遵循公平、诚信、自律、风险自担原则开展信用风险缓释工具产品交易,遵守本规则以及交易中心发布的其他相关规范性文件。\n\n第九条 市场参与者开展全国银行间同业拆借中心信用风险缓释工具交易应遵守交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。交易双方的约定不得违反国家法律法规和其他银行间市场相关规章制度。\n\n第十条 信用违约互换、信用联结票据、信用风险缓释合约和信用风险缓释凭证等信用风险缓释工具的产品要素、报价交易、应急服务等具体规定参见本规则附件。\n\n第十一条 全国银行间同业拆借中心信用风险缓释工具相关服务费收取标准参照本币市场买卖类交易收费规则。\n\n第十二条 本规则的解释权和修改权归属交易中心。\n\n第十三条 本规则自发布之日起实施。\n\n附件:1.1、信用违约互换\n\n1.2、信用联结票据\n\n1.3、信用风险缓释合约\n\n1.4、信用风险缓释凭证\n\n附件1.1\n\n信用违约互换\n\n一、产品及交易要素\n\n(一)产品含义\n\n指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的一个或多个参考实体向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。\n\n(二)交易要素\n\n信用违约互换交易要素适用全国银行间同业拆借中心(以下简称“交易中心”)发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n(三)交易日及交易时间\n\n交易日为每周一至周五,遇法定节假日除外。交易时间为每交易日9:00-12:00和13:30-17:00;如遇变更,交易中心将提前发布市场公告。\n\n二、报价交易\n\n(一)交易系统\n\n信用违约互换可通过中国银行间本币交易系统(以下简称“交易系统”)交易。\n\n(二)交易方式及报价方式\n\n1.信用违约互换通过询价方式交易。交易系统提供其他交易方式的,由交易中心另行规定。\n\n2.信用违约互换询价方式下,报价方式为双向报价和对话报价。其中双向报价属意向性报价,不可直接确认成交;对话报价属要约报价,经对手方确认即可成交。\n\n3.交易中心根据交易商协会报价商制度为信用违约互换等信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。\n\n(三)关系授信\n\n市场参与者在开展信用违约互换业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。\n\n(四)交易合同\n\n1.信用违约互换的交易合同由主协议、补充协议(如有)和成交单及其补充条款组成。\n\n2.主协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议》,补充协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议补充协议》(如有)。\n\n3.交易系统于交易达成后生成信用违约互换成交单,成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。交易双方可于成交前在补充条款内约定其他未尽事宜。交易达成后,补充条款的内容列示于成交单上。补充条款不得与成交单上的其他要素约定相冲突。\n\n三、应急服务\n\n(一)应急报价及成交\n\n市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面申请,交易中心提供相应应急服务。\n\n(二)应急修改及撤销\n\n1.交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致后向交易中心提交书面应急修改/撤销申请。\n\n2.应急修改当日成交的,交易系统按照修改后要素自动重新计算信用保护费用;应急修改历史成交的,交易系统按照修改后要素和当日参数重新计算信用保护费用。如果修改时已发生单期或多期金额的支付,则修改日计算得出新的信用保护支付费用仅对未发生的现金流进行调整,不对已发生的现金流进行回溯。\n\n3.参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。\n\n附件1.2\n\n信用联结票据\n\n一、信用联结票据指由创设机构向投资人创设的,投资人的投资回报与参考实体信用状况挂钩的附有现金担保的信用衍生产品,属于凭证类信用风险缓释工具。\n\n二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用联结票据交易服务,交易方式及报价方式同现券买卖。交易系统变更交易方式、报价方式的,交易中心另行规定。\n\n三、信用风险缓释工具报价商为银行间市场做市机构(包括做市商及尝试做市机构)的,可自主选择开展信用联结票据做市业务。\n\n四、交易达成后,交易系统出具信用联结票据成交单。成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。\n\n五、信用联结票据交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n六、信用联结票据应急服务参照现券买卖相关规定。交易中心变更应急服务的,交易中心另行通知。\n\n附件1.3\n\n信用风险缓释合约\n\n一、信用风险缓释合约指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的标的债务向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。\n\n二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释合约交易服务,交易方式及报价方式同信用违约互换。交易系统变更交易方式、报价方式的,交易中心另行规定。\n\n三、信用风险缓释合约交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n四、市场参与者在开展信用风险缓释合约业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。信用风险缓释合约与信用违约互换共用双边授信关系。\n\n五、信用风险缓释合约应急服务参照全国银行间同业拆借中心信用违约互换相关规定。交易中心变更应急服务的,交易中心另行通知。\n\n附件1.4\n\n信用风险缓释凭证\n\n一、信用风险缓释凭证指由标的实体以外的机构创设的,为凭证持有人就标的债务提供信用风险保护的,可交易流通的有价凭证,属于凭证类信用风险缓释工具。\n\n二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释凭证交易服务。\n\n三、信用风险缓释凭证采用询价交易方式。询价方式下,报价方式有意向报价、对话报价两种。交易系统变更交易方式、报价方式的,交易中心另行规定。\n\n四、信用风险缓释凭证交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n五、市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面应急服务申请。\n\n交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致同意后向交易中心提交书面应急修改/撤销申请。\n\n参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国银行间市场交易商协会(以下简称“交易商协会”)发布的《银行间市场信用风险缓释工具试点业务规则》(中国银行间市场交易商协会公告[2016]25号)及相关配套文件,全国银行间同业拆借中心(以下简称“交易中心”)就信用风险缓释工具交易制定本规则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 167,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第二条 本规则所称信用风险缓释工具指交易商协会指定的合约类产品及凭证类产品。合约类产品包括但不限于信用风险缓释合约、信用违约互换;凭证类产品包括但不限于信用风险缓释凭证、信用联结票据。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 169,
+      "end_char": 261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条 市场参与者在开展全国银行间同业拆借中心信用风险缓释工具业务前应向交易商协会备案成为核心交易商或一般交易商,并签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》(以下简称“主协议”),或交易商协会根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 263,
+      "end_char": 400,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第四条 交易中心为市场参与者提供信用风险缓释工具交易、信息等相关服务。市场参与者通过交易中心交易系统达成信用风险缓释工具交易的,交易系统出具成交单。成交单及其补充条款与主协议、补充协议(如有)共同组成信用风险缓释工具的完整交易合同。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 402,
+      "end_char": 518,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第五条 交易中心根据交易商协会报价商制度为信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 520,
+      "end_char": 580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第六条 交易中心将信用联结票据等凭证类信用风险缓释工具交易数据实时传输至上海清算所据以结算,将信用违约互换等合约类信用风险缓释工具交易数据依照市场参与者指令实时传输至上海清算所。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 582,
+      "end_char": 671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 交易中心对市场参与者信用风险缓释工具报价交易行为履行一线监测职能,将信用风险缓释工具交易信息传输至交易商协会。交易中心认为发生异常交易的,有权向相关市场参与者了解情况,市场参与者应根据交易中心要求提供相应说明。交易中心发现市场参与者有违规行为的,有权要求其立即停止相关行为,并根据情节轻重予以警示、通报、暂停交易等处理。交易中心酌情将相关情况上报中国人民银行、抄送交易商协会。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 865,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 市场参与者应遵循公平、诚信、自律、风险自担原则开展信用风险缓释工具产品交易,遵守本规则以及交易中心发布的其他相关规范性文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 867,
+      "end_char": 933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 市场参与者开展全国银行间同业拆借中心信用风险缓释工具交易应遵守交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。交易双方的约定不得违反国家法律法规和其他银行间市场相关规章制度。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 935,
+      "end_char": 1040,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 信用违约互换、信用联结票据、信用风险缓释合约和信用风险缓释凭证等信用风险缓释工具的产品要素、报价交易、应急服务等具体规定参见本规则附件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1042,
+      "end_char": 1114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十一条 全国银行间同业拆借中心信用风险缓释工具相关服务费收取标准参照本币市场买卖类交易收费规则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1116,
+      "end_char": 1165,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十二条 本规则的解释权和修改权归属交易中心。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1167,
+      "end_char": 1190,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十三条 本规则自发布之日起实施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1192,
+      "end_char": 1209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "attachment",
+      "text": "附件:1.1、信用违约互换",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1211,
+      "end_char": 1224,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "guide_minor_heading",
+      "text": "1.2、信用联结票据",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1226,
+      "end_char": 1236,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "guide_minor_heading",
+      "text": "1.3、信用风险缓释合约",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1250,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "guide_minor_heading",
+      "text": "1.4、信用风险缓释凭证",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1252,
+      "end_char": 1264,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "附件1.1",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1266,
+      "end_char": 1271,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "信用违约互换",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1273,
+      "end_char": 1279,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "guide_heading",
+      "text": "一、产品及交易要素",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1281,
+      "end_char": 1290,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "guide_subheading",
+      "text": "(一)产品含义",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1292,
+      "end_char": 1299,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的一个或多个参考实体向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1301,
+      "end_char": 1408,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "guide_subheading",
+      "text": "(二)交易要素",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1410,
+      "end_char": 1417,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "信用违约互换交易要素适用全国银行间同业拆借中心(以下简称“交易中心”)发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "guide_subheading",
+      "text": "(三)交易日及交易时间",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1501,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "交易日为每周一至周五,遇法定节假日除外。交易时间为每交易日9:00-12:00和13:30-17:00;如遇变更,交易中心将提前发布市场公告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1503,
+      "end_char": 1574,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "guide_heading",
+      "text": "二、报价交易",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1576,
+      "end_char": 1582,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "guide_subheading",
+      "text": "(一)交易系统",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1584,
+      "end_char": 1591,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "信用违约互换可通过中国银行间本币交易系统(以下简称“交易系统”)交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1593,
+      "end_char": 1628,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "guide_subheading",
+      "text": "(二)交易方式及报价方式",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1642,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "1.信用违约互换通过询价方式交易。交易系统提供其他交易方式的,由交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1644,
+      "end_char": 1685,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "2.信用违约互换询价方式下,报价方式为双向报价和对话报价。其中双向报价属意向性报价,不可直接确认成交;对话报价属要约报价,经对手方确认即可成交。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1687,
+      "end_char": 1759,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "3.交易中心根据交易商协会报价商制度为信用违约互换等信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1761,
+      "end_char": 1826,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "guide_subheading",
+      "text": "(三)关系授信",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1828,
+      "end_char": 1835,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "市场参与者在开展信用违约互换业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1837,
+      "end_char": 1896,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "guide_subheading",
+      "text": "(四)交易合同",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1898,
+      "end_char": 1905,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "1.信用违约互换的交易合同由主协议、补充协议(如有)和成交单及其补充条款组成。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1907,
+      "end_char": 1946,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "2.主协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议》,补充协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议补充协议》(如有)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1948,
+      "end_char": 2035,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "3.交易系统于交易达成后生成信用违约互换成交单,成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。交易双方可于成交前在补充条款内约定其他未尽事宜。交易达成后,补充条款的内容列示于成交单上。补充条款不得与成交单上的其他要素约定相冲突。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2037,
+      "end_char": 2156,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "三、应急服务",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2158,
+      "end_char": 2164,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(一)应急报价及成交",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2166,
+      "end_char": 2176,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面申请,交易中心提供相应应急服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2178,
+      "end_char": 2232,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(二)应急修改及撤销",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2234,
+      "end_char": 2244,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "1.交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致后向交易中心提交书面应急修改/撤销申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2246,
+      "end_char": 2315,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "2.应急修改当日成交的,交易系统按照修改后要素自动重新计算信用保护费用;应急修改历史成交的,交易系统按照修改后要素和当日参数重新计算信用保护费用。如果修改时已发生单期或多期金额的支付,则修改日计算得出新的信用保护支付费用仅对未发生的现金流进行调整,不对已发生的现金流进行回溯。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2317,
+      "end_char": 2455,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "3.参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2535,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "附件1.2",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2537,
+      "end_char": 2542,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "信用联结票据",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2544,
+      "end_char": 2550,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "一、信用联结票据指由创设机构向投资人创设的,投资人的投资回报与参考实体信用状况挂钩的附有现金担保的信用衍生产品,属于凭证类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2552,
+      "end_char": 2622,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用联结票据交易服务,交易方式及报价方式同现券买卖。交易系统变更交易方式、报价方式的,交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2624,
+      "end_char": 2728,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "三、信用风险缓释工具报价商为银行间市场做市机构(包括做市商及尝试做市机构)的,可自主选择开展信用联结票据做市业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2730,
+      "end_char": 2787,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "四、交易达成后,交易系统出具信用联结票据成交单。成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2841,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "五、信用联结票据交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2843,
+      "end_char": 2895,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "六、信用联结票据应急服务参照现券买卖相关规定。交易中心变更应急服务的,交易中心另行通知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2897,
+      "end_char": 2941,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "附件1.3",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2943,
+      "end_char": 2948,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "信用风险缓释合约",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2950,
+      "end_char": 2958,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "一、信用风险缓释合约指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的标的债务向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 3072,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释合约交易服务,交易方式及报价方式同信用违约互换。交易系统变更交易方式、报价方式的,交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3074,
+      "end_char": 3182,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "三、信用风险缓释合约交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3184,
+      "end_char": 3238,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "四、市场参与者在开展信用风险缓释合约业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。信用风险缓释合约与信用违约互换共用双边授信关系。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3240,
+      "end_char": 3327,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "五、信用风险缓释合约应急服务参照全国银行间同业拆借中心信用违约互换相关规定。交易中心变更应急服务的,交易中心另行通知。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3329,
+      "end_char": 3388,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "附件1.4",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3390,
+      "end_char": 3395,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "信用风险缓释凭证",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3397,
+      "end_char": 3405,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "一、信用风险缓释凭证指由标的实体以外的机构创设的,为凭证持有人就标的债务提供信用风险保护的,可交易流通的有价凭证,属于凭证类信用风险缓释工具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3407,
+      "end_char": 3478,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释凭证交易服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3480,
+      "end_char": 3545,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "三、信用风险缓释凭证采用询价交易方式。询价方式下,报价方式有意向报价、对话报价两种。交易系统变更交易方式、报价方式的,交易中心另行规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3547,
+      "end_char": 3615,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "四、信用风险缓释凭证交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3617,
+      "end_char": 3671,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "五、市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面应急服务申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3673,
+      "end_char": 3720,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致同意后向交易中心提交书面应急修改/撤销申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3722,
+      "end_char": 3791,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3793,
+      "end_char": 3869,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国银行间市场交易商协会(以下简称“交易商协会”)发布的《银行间市场信用风险缓释工具试点业务规则》(中国银行间市场交易商协会公告[2016]25号)及相关配套文件,全国银行间同业拆借中心(以下简称“交易中心”)就信用风险缓释工具交易制定本规则。\n\n第二条 本规则所称信用风险缓释工具指交易商协会指定的合约类产品及凭证类产品。合约类产品包括但不限于信用风险缓释合约、信用违约互换;凭证类产品包括但不限于信用风险缓释凭证、信用联结票据。\n\n第三条 市场参与者在开展全国银行间同业拆借中心信用风险缓释工具业务前应向交易商协会备案成为核心交易商或一般交易商,并签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》(以下简称“主协议”),或交易商协会根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。\n\n第四条 交易中心为市场参与者提供信用风险缓释工具交易、信息等相关服务。市场参与者通过交易中心交易系统达成信用风险缓释工具交易的,交易系统出具成交单。成交单及其补充条款与主协议、补充协议(如有)共同组成信用风险缓释工具的完整交易合同。\n\n第五条 交易中心根据交易商协会报价商制度为信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。\n\n第六条 交易中心将信用联结票据等凭证类信用风险缓释工具交易数据实时传输至上海清算所据以结算,将信用违约互换等合约类信用风险缓释工具交易数据依照市场参与者指令实时传输至上海清算所。\n\n第七条 交易中心对市场参与者信用风险缓释工具报价交易行为履行一线监测职能,将信用风险缓释工具交易信息传输至交易商协会。交易中心认为发生异常交易的,有权向相关市场参与者了解情况,市场参与者应根据交易中心要求提供相应说明。交易中心发现市场参与者有违规行为的,有权要求其立即停止相关行为,并根据情节轻重予以警示、通报、暂停交易等处理。交易中心酌情将相关情况上报中国人民银行、抄送交易商协会。\n\n第八条 市场参与者应遵循公平、诚信、自律、风险自担原则开展信用风险缓释工具产品交易,遵守本规则以及交易中心发布的其他相关规范性文件。\n\n第九条 市场参与者开展全国银行间同业拆借中心信用风险缓释工具交易应遵守交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。交易双方的约定不得违反国家法律法规和其他银行间市场相关规章制度。\n\n第十条 信用违约互换、信用联结票据、信用风险缓释合约和信用风险缓释凭证等信用风险缓释工具的产品要素、报价交易、应急服务等具体规定参见本规则附件。\n\n第十一条 全国银行间同业拆借中心信用风险缓释工具相关服务费收取标准参照本币市场买卖类交易收费规则。\n\n第十二条 本规则的解释权和修改权归属交易中心。\n\n第十三条 本规则自发布之日起实施。\n\n附件:1.1、信用违约互换\n\n1.2、信用联结票据\n\n1.3、信用风险缓释合约\n\n1.4、信用风险缓释凭证\n\n附件1.1\n\n信用违约互换\n\n一、产品及交易要素\n\n(一)产品含义\n\n指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的一个或多个参考实体向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。\n\n(二)交易要素\n\n信用违约互换交易要素适用全国银行间同业拆借中心(以下简称“交易中心”)发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n(三)交易日及交易时间\n\n交易日为每周一至周五,遇法定节假日除外。交易时间为每交易日9:00-12:00和13:30-17:00;如遇变更,交易中心将提前发布市场公告。\n\n二、报价交易\n\n(一)交易系统\n\n信用违约互换可通过中国银行间本币交易系统(以下简称“交易系统”)交易。\n\n(二)交易方式及报价方式\n\n1.信用违约互换通过询价方式交易。交易系统提供其他交易方式的,由交易中心另行规定。\n\n2.信用违约互换询价方式下,报价方式为双向报价和对话报价。其中双向报价属意向性报价,不可直接确认成交;对话报价属要约报价,经对手方确认即可成交。\n\n3.交易中心根据交易商协会报价商制度为信用违约互换等信用风险缓释工具报价提供系统服务。信用风险缓释工具报价商可在交易中心系统报价。\n\n(三)关系授信\n\n市场参与者在开展信用违约互换业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。\n\n(四)交易合同\n\n1.信用违约互换的交易合同由主协议、补充协议(如有)和成交单及其补充条款组成。\n\n2.主协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议》,补充协议指市场参与者签署的当前有效的《中国银行间市场金融衍生产品交易主协议补充协议》(如有)。\n\n3.交易系统于交易达成后生成信用违约互换成交单,成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。交易双方可于成交前在补充条款内约定其他未尽事宜。交易达成后,补充条款的内容列示于成交单上。补充条款不得与成交单上的其他要素约定相冲突。\n\n三、应急服务\n\n(一)应急报价及成交\n\n市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面申请,交易中心提供相应应急服务。\n\n(二)应急修改及撤销\n\n1.交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致后向交易中心提交书面应急修改/撤销申请。\n\n2.应急修改当日成交的,交易系统按照修改后要素自动重新计算信用保护费用;应急修改历史成交的,交易系统按照修改后要素和当日参数重新计算信用保护费用。如果修改时已发生单期或多期金额的支付,则修改日计算得出新的信用保护支付费用仅对未发生的现金流进行调整,不对已发生的现金流进行回溯。\n\n3.参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。\n\n附件1.2\n\n信用联结票据\n\n一、信用联结票据指由创设机构向投资人创设的,投资人的投资回报与参考实体信用状况挂钩的附有现金担保的信用衍生产品,属于凭证类信用风险缓释工具。\n\n二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用联结票据交易服务,交易方式及报价方式同现券买卖。交易系统变更交易方式、报价方式的,交易中心另行规定。\n\n三、信用风险缓释工具报价商为银行间市场做市机构(包括做市商及尝试做市机构)的,可自主选择开展信用联结票据做市业务。\n\n四、交易达成后,交易系统出具信用联结票据成交单。成交单为体现交易双方约定的有效书面凭证,双方须遵照执行。\n\n五、信用联结票据交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n六、信用联结票据应急服务参照现券买卖相关规定。交易中心变更应急服务的,交易中心另行通知。\n\n附件1.3\n\n信用风险缓释合约\n\n一、信用风险缓释合约指交易双方达成的,约定在未来一定期限内,信用保护买方按照约定的标准和方式向信用保护卖方支付信用保护费用,由信用保护卖方就约定的标的债务向信用保护买方提供信用风险保护的金融合约,属于合约类信用风险缓释工具。\n\n二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释合约交易服务,交易方式及报价方式同信用违约互换。交易系统变更交易方式、报价方式的,交易中心另行规定。\n\n三、信用风险缓释合约交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n四、市场参与者在开展信用风险缓释合约业务前应在交易系统中进行双边授信关系设置。未设置双边授信关系的市场参与者之间不可达成交易。信用风险缓释合约与信用违约互换共用双边授信关系。\n\n五、信用风险缓释合约应急服务参照全国银行间同业拆借中心信用违约互换相关规定。交易中心变更应急服务的,交易中心另行通知。\n\n附件1.4\n\n信用风险缓释凭证\n\n一、信用风险缓释凭证指由标的实体以外的机构创设的,为凭证持有人就标的债务提供信用风险保护的,可交易流通的有价凭证,属于凭证类信用风险缓释工具。\n\n二、全国银行间同业拆借中心(以下简称“交易中心”)通过中国银行间本币交易系统(以下简称“交易系统”)提供信用风险缓释凭证交易服务。\n\n三、信用风险缓释凭证采用询价交易方式。询价方式下,报价方式有意向报价、对话报价两种。交易系统变更交易方式、报价方式的,交易中心另行规定。\n\n四、信用风险缓释凭证交易要素适用交易中心发布并不时更新的《全国银行间同业拆借中心信用风险缓释工具交易指引》。\n\n五、市场参与者无法使用交易系统报价、成交或打印成交单功能时,可向交易中心提交书面应急服务申请。\n\n交易一经达成,交易双方不得擅自变更或解除。交易双方确需对成交进行修改或撤销的,需经双方协商一致同意后向交易中心提交书面应急修改/撤销申请。\n\n参与机构向交易中心申请应急服务应符合相关规则。本规则未尽事宜,参照《全国银行间同业拆借中心本币交易应急服务规则》(中汇交发〔2010〕第283号)执行。",
   "blocks": [
     {
@@ -179,7 +1897,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 167,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -187,7 +1912,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 169,
+      "end_char": 261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -195,7 +1927,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 263,
+      "end_char": 400,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -203,7 +1942,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 402,
+      "end_char": 518,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -211,7 +1957,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 520,
+      "end_char": 580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -219,7 +1972,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 582,
+      "end_char": 671,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -227,7 +1987,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 865,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -235,7 +2002,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 867,
+      "end_char": 933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -243,7 +2017,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 935,
+      "end_char": 1040,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -251,7 +2032,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1042,
+      "end_char": 1114,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -259,7 +2047,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1116,
+      "end_char": 1165,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -267,7 +2062,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1167,
+      "end_char": 1190,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -275,7 +2077,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1192,
+      "end_char": 1209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -283,7 +2092,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1211,
+      "end_char": 1224,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -291,7 +2107,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1226,
+      "end_char": 1236,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -299,7 +2122,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1250,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -307,7 +2137,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1252,
+      "end_char": 1264,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -315,7 +2152,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1266,
+      "end_char": 1271,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -323,7 +2167,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1273,
+      "end_char": 1279,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -331,7 +2182,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1281,
+      "end_char": 1290,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -339,7 +2197,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1292,
+      "end_char": 1299,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -347,7 +2212,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1301,
+      "end_char": 1408,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -355,7 +2227,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1410,
+      "end_char": 1417,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -363,7 +2242,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1488,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -371,7 +2257,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1501,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -379,7 +2272,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1503,
+      "end_char": 1574,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -387,7 +2287,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1576,
+      "end_char": 1582,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -395,7 +2302,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1584,
+      "end_char": 1591,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -403,7 +2317,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1593,
+      "end_char": 1628,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -411,7 +2332,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1642,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -419,7 +2347,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1644,
+      "end_char": 1685,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -427,7 +2362,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1687,
+      "end_char": 1759,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -435,7 +2377,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1761,
+      "end_char": 1826,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -443,7 +2392,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1828,
+      "end_char": 1835,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -451,7 +2407,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1837,
+      "end_char": 1896,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -459,7 +2422,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1898,
+      "end_char": 1905,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -467,7 +2437,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1907,
+      "end_char": 1946,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -475,7 +2452,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1948,
+      "end_char": 2035,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -483,7 +2467,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2037,
+      "end_char": 2156,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -491,7 +2482,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2158,
+      "end_char": 2164,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -499,7 +2497,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2166,
+      "end_char": 2176,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -507,7 +2512,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2178,
+      "end_char": 2232,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -515,7 +2527,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2234,
+      "end_char": 2244,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -523,7 +2542,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2246,
+      "end_char": 2315,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -531,7 +2557,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2317,
+      "end_char": 2455,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -539,7 +2572,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2535,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -547,7 +2587,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2537,
+      "end_char": 2542,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -555,7 +2602,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2544,
+      "end_char": 2550,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -563,7 +2617,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2552,
+      "end_char": 2622,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -571,7 +2632,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2624,
+      "end_char": 2728,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -579,7 +2647,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2730,
+      "end_char": 2787,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -587,7 +2662,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2841,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -595,7 +2677,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2843,
+      "end_char": 2895,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -603,7 +2692,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2897,
+      "end_char": 2941,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -611,7 +2707,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2943,
+      "end_char": 2948,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -619,7 +2722,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2950,
+      "end_char": 2958,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -627,7 +2737,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 3072,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -635,7 +2752,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3074,
+      "end_char": 3182,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -643,7 +2767,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3184,
+      "end_char": 3238,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -651,7 +2782,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3240,
+      "end_char": 3327,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -659,7 +2797,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3329,
+      "end_char": 3388,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -667,7 +2812,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3390,
+      "end_char": 3395,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -675,7 +2827,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3397,
+      "end_char": 3405,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -683,7 +2842,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3407,
+      "end_char": 3478,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -691,7 +2857,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3480,
+      "end_char": 3545,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -699,7 +2872,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3547,
+      "end_char": 3615,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -707,7 +2887,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3617,
+      "end_char": 3671,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -715,7 +2902,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3673,
+      "end_char": 3720,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -723,7 +2917,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3722,
+      "end_char": 3791,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -731,7 +2932,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3793,
+      "end_char": 3869,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

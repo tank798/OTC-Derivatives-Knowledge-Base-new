@@ -41,6 +41,11 @@ PUBLICATION_WRAPPER_RE = re.compile(
     r"《[^》]{2,120}》.{0,240}(?:现予公布|现公布|予以公布|现予发布|现发布)"
     r")"
 )
+PUBLICATION_SUMMARY_RE = re.compile(
+    r"(?=.{30,1000}$)(?:根据《[^》]{2,120}》.{0,220})?"
+    r"(?:我会|本会|现).{0,120}(?:修订|修正|发布|公布).{0,320}"
+    r"(?:施行|实施|生效)(?:.{0,180}(?:同时废止|予以废止|废止))?"
+)
 DOCUMENT_NUMBER_PREFIX_RE = re.compile(
     r"^(?:中国人民银行|中国证券监督管理委员会|中国证监会|国家金融监督管理总局|"
     r"中国银保监会|中国银监会|中国保监会)(?:公告|令)$"
@@ -48,6 +53,8 @@ DOCUMENT_NUMBER_PREFIX_RE = re.compile(
 DOCUMENT_NUMBER_SUFFIX_RE = re.compile(r"^[〔【\[]\s*\d{4}\s*[〕】\]]\s*第?\s*\d+\s*号$")
 SIGNATURE_LINE_RE = re.compile(r"^(?:中华人民共和国主席|主席|总理|主任|会长|局长)\s*[一-鿿·]{1,12}$")
 STANDALONE_URL_RE = re.compile(r"^https?://\S+$", re.IGNORECASE)
+ATTACHMENT_DIRECTORY_START_RE = re.compile(r"^附件\s*[:：]\s*1[.、．]\s*.+")
+ATTACHMENT_DIRECTORY_ITEM_RE = re.compile(r"^\d+[.、．]\s*.+")
 
 
 def _blocks_sha256(blocks: list[SourceBlock]) -> str:
@@ -116,7 +123,8 @@ def _cover_title_positions(
             if end > limit or blocks[end - 1].source_kind == "table":
                 break
             joined += compact_title(clean_text(blocks[end - 1].text))
-            if joined not in variants:
+            without_attachment_prefix = re.sub(r"^附件[:：]?", "", joined)
+            if joined not in variants and without_attachment_prefix not in variants:
                 continue
             following = [
                 compact(clean_text(block.text))
@@ -135,6 +143,37 @@ def _cover_title_positions(
                 positions.update(range(start, end))
                 break
     return positions
+
+
+def _cover_attachment_directory_positions(blocks: list[SourceBlock]) -> set[int]:
+    """Find a cover-page attachment list, not substantive appendices."""
+
+    if not blocks:
+        return set()
+    first_page = blocks[0].page
+    limit = min(len(blocks), 20)
+    start = next(
+        (
+            index for index, block in enumerate(blocks[:limit])
+            if block.page == first_page
+            and ATTACHMENT_DIRECTORY_START_RE.match(clean_text(block.text))
+        ),
+        None,
+    )
+    if start is None:
+        return set()
+    positions = {start}
+    expected = 2
+    for index in range(start + 1, limit):
+        block = blocks[index]
+        if block.page != first_page:
+            break
+        match = re.match(r"^(\d+)[.、．]\s*.+", clean_text(block.text))
+        if not match or int(match.group(1)) != expected:
+            break
+        positions.add(index)
+        expected += 1
+    return positions if len(positions) >= 2 else set()
 
 
 def _trailing_source_reference_positions(blocks: list[SourceBlock]) -> set[int]:
@@ -191,6 +230,21 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
     already_removed_ids = {item.get("block_id") for item in removed}
 
     prefix_end = _first_structure_index(blocks)
+    title_variants = _title_variants(document.metadata)
+    if blocks:
+        first_without_attachment = re.sub(
+            r"^附件\s*[:：]?",
+            "",
+            compact_title(clean_text(blocks[0].text)),
+        )
+        if first_without_attachment in title_variants:
+            prefix_end = next(
+                (
+                    index for index, block in enumerate(blocks[1:120], start=1)
+                    if any(STRUCTURE_START_RE.match(line) for line in clean_text(block.text).splitlines())
+                ),
+                min(len(blocks), 12),
+            )
     title = compact_title(str(document.metadata.get("document_title", "")))
     title_positions = [
         index
@@ -223,6 +277,7 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
         if compact_title(clean_text(block.text)) in wrapper_titles
     }
     cover_title_positions.update(wrapper_title_positions)
+    cover_attachment_directory_positions = _cover_attachment_directory_positions(blocks)
     split_document_number_positions: set[int] = set()
     for index, block in enumerate(blocks[:max(prefix_end - 1, 0)]):
         prefix = clean_text(block.text)
@@ -244,6 +299,8 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
         rule_id = ""
         if index in trailing_reference_positions:
             rule_id = "trailing_source_reference"
+        elif index in cover_attachment_directory_positions:
+            rule_id = "cover_attachment_directory"
         elif index < prefix_end and block.source_kind != "table":
             if index in split_document_number_positions:
                 rule_id = "split_front_document_number"
@@ -272,7 +329,13 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
                     document.metadata["document_number"] = re.sub(r"\s+", "", text)
             elif PAREN_PROMULGATION_RE.fullmatch(text):
                 rule_id = "front_promulgation_parenthetical"
-            elif index in wrapper_positions:
+            elif (
+                index in wrapper_positions
+                or (
+                    PUBLICATION_SUMMARY_RE.search(text)
+                    and "现就有关事项通知如下" not in text
+                )
+            ):
                 rule_id = "publication_wrapper"
             elif REVISION_NOTE_RE.match(text) and not STRUCTURE_START_RE.match(text):
                 rule_id = "front_revision_history"
@@ -286,6 +349,8 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
                 rule_id = "publication_signature_officer"
 
         if rule_id:
+            if rule_id in {"publication_wrapper", "front_revision_history"}:
+                document.metadata.setdefault("version_note", text)
             if block.block_id not in already_removed_ids:
                 item = _record(block, rule_id)
                 removed.append(item)

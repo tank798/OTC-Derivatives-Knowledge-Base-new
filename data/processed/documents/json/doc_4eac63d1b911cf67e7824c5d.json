@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知.docx",
   "source_type": "docx",
   "file_sha256": "d3d44243dbd91c5411e4ab0f2ea02779760aa8aea1c5f78f3064dbc4d0cd6142",
-  "content_sha256": "90b6ae2504e15ac08ab8a90d3c0206d472e0e46b2160d39c3740c8886055d5dd",
+  "content_sha256": "4ce402a88079aa9d061ad2e28ed75479a59231114e21e1f4a09f5d6a50d94812",
   "metadata": {
     "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
     "issuing_authority": "中国人民银行办公厅（经人民银行、银保监会、证监会共同研究）",
@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "a23e531089328e27ebcbed09684879f58e2c4fe46460df16fd060109b430a64d",
     "clean_text_sha256": "a23e531089328e27ebcbed09684879f58e2c4fe46460df16fd060109b430a64d",
@@ -51,6 +51,303 @@
   },
   "original_text_sha256": "a23e531089328e27ebcbed09684879f58e2c4fe46460df16fd060109b430a64d",
   "clean_text_sha256": "a23e531089328e27ebcbed09684879f58e2c4fe46460df16fd060109b430a64d",
+  "clean_text_hash": "4a9f3267f79cd477e9609464ad0bb8864b5a9e0b73cba1b01e640be8d1008000",
+  "structured_blocks_sha256": "ee3a58e3e6d4b9bd4156cbc70660ce7de9313f3c7fc724a577d550a66a3f87a7",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "中国人民银行上海总部,各分行、营业管理部、省会(首府)城市中心支行、副省级城市中心支行;国家开发银行,各政策性银行、国有商业银行、股份制商业银行,中国邮政储蓄银行;各证券公司、基金公司、期货公司、私募投资基金管理机构;各保险资产管理机构:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106号文,以下简称《指导意见》)自2018年4月27日发布实施以来,对于规范资产管理市场秩序、防范金融风险发挥了积极作用。为了指导金融机构更好地贯彻执行《指导意见》,确保规范资产管理业务工作平稳过渡,为实体经济创造良好的货币金融环境,经人民银行、银保监会、证监会共同研究,现将有关事项进一步明确如下:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 121,
+      "end_char": 302,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "一、按照《指导意见》第十条的规定,公募资产管理产品除主要投资标准化债权类资产和上市交易的股票,还可以适当投资非标准化债权类资产,但应当符合《指导意见》关于非标准化债权类资产投资的期限匹配、限额管理、信息披露等监管要求。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 304,
+      "end_char": 413,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "二、过渡期内,金融机构可以发行老产品投资新资产,优先满足国家重点领域和重大工程建设续建项目以及中小微企业融资需求,但老产品的整体规模应当控制在《指导意见》发布前存量产品的整体规模内,且所投资新资产的到期日不得晚于2020年底。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 415,
+      "end_char": 528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "三、过渡期内,对于封闭期在半年以上的定期开放式资产管理产品,投资以收取合同现金流量为目的并持有到期的债券,可使用摊余成本计量,但定期开放式产品持有资产组合的久期不得长于封闭期的1.5倍;银行的现金管理类产品在严格监管的前提下,暂参照货币市场基金的“摊余成本+影子定价”方法进行估值。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 530,
+      "end_char": 671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "四、对于通过各种措施确实难以消化、需要回表的存量非标准化债权类资产,在宏观审慎评估(MPA)考核时,合理调整有关参数,发挥其逆周期调节作用,支持符合条件的表外资产回表。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "支持有非标准化债权类资产回表需求的银行发行二级资本债补充资本。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 759,
+      "end_char": 790,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "五、过渡期结束后,对于由于特殊原因而难以回表的存量非标准化债权类资产,以及未到期的存量股权类资产,经金融监管部门同意,采取适当安排妥善处理。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 792,
+      "end_char": 862,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "六、过渡期内,由金融机构按照自主有序方式确定整改计划,经金融监管部门确认后执行。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 864,
+      "end_char": 904,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "请将本通知转发至辖区内分支机构和金融机构执行,同时抄送银保监会、证监会当地派出机构。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 906,
+      "end_char": 948,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "中国人民银行办公厅",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 950,
+      "end_char": 959,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "2018年7月20日",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 961,
+      "end_char": 971,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "中国人民银行上海总部,各分行、营业管理部、省会(首府)城市中心支行、副省级城市中心支行;国家开发银行,各政策性银行、国有商业银行、股份制商业银行,中国邮政储蓄银行;各证券公司、基金公司、期货公司、私募投资基金管理机构;各保险资产管理机构:\n\n《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106号文,以下简称《指导意见》)自2018年4月27日发布实施以来,对于规范资产管理市场秩序、防范金融风险发挥了积极作用。为了指导金融机构更好地贯彻执行《指导意见》,确保规范资产管理业务工作平稳过渡,为实体经济创造良好的货币金融环境,经人民银行、银保监会、证监会共同研究,现将有关事项进一步明确如下:\n\n一、按照《指导意见》第十条的规定,公募资产管理产品除主要投资标准化债权类资产和上市交易的股票,还可以适当投资非标准化债权类资产,但应当符合《指导意见》关于非标准化债权类资产投资的期限匹配、限额管理、信息披露等监管要求。\n\n二、过渡期内,金融机构可以发行老产品投资新资产,优先满足国家重点领域和重大工程建设续建项目以及中小微企业融资需求,但老产品的整体规模应当控制在《指导意见》发布前存量产品的整体规模内,且所投资新资产的到期日不得晚于2020年底。\n\n三、过渡期内,对于封闭期在半年以上的定期开放式资产管理产品,投资以收取合同现金流量为目的并持有到期的债券,可使用摊余成本计量,但定期开放式产品持有资产组合的久期不得长于封闭期的1.5倍;银行的现金管理类产品在严格监管的前提下,暂参照货币市场基金的“摊余成本+影子定价”方法进行估值。\n\n四、对于通过各种措施确实难以消化、需要回表的存量非标准化债权类资产,在宏观审慎评估(MPA)考核时,合理调整有关参数,发挥其逆周期调节作用,支持符合条件的表外资产回表。\n\n支持有非标准化债权类资产回表需求的银行发行二级资本债补充资本。\n\n五、过渡期结束后,对于由于特殊原因而难以回表的存量非标准化债权类资产,以及未到期的存量股权类资产,经金融监管部门同意,采取适当安排妥善处理。\n\n六、过渡期内,由金融机构按照自主有序方式确定整改计划,经金融监管部门确认后执行。\n\n请将本通知转发至辖区内分支机构和金融机构执行,同时抄送银保监会、证监会当地派出机构。\n\n中国人民银行办公厅\n\n2018年7月20日",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "中国人民银行上海总部,各分行、营业管理部、省会(首府)城市中心支行、副省级城市中心支行;国家开发银行,各政策性银行、国有商业银行、股份制商业银行,中国邮政储蓄银行;各证券公司、基金公司、期货公司、私募投资基金管理机构;各保险资产管理机构:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106号文,以下简称《指导意见》)自2018年4月27日发布实施以来,对于规范资产管理市场秩序、防范金融风险发挥了积极作用。为了指导金融机构更好地贯彻执行《指导意见》,确保规范资产管理业务工作平稳过渡,为实体经济创造良好的货币金融环境,经人民银行、银保监会、证监会共同研究,现将有关事项进一步明确如下:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 121,
+      "end_char": 302,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "一、按照《指导意见》第十条的规定,公募资产管理产品除主要投资标准化债权类资产和上市交易的股票,还可以适当投资非标准化债权类资产,但应当符合《指导意见》关于非标准化债权类资产投资的期限匹配、限额管理、信息披露等监管要求。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 304,
+      "end_char": 413,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "二、过渡期内,金融机构可以发行老产品投资新资产,优先满足国家重点领域和重大工程建设续建项目以及中小微企业融资需求,但老产品的整体规模应当控制在《指导意见》发布前存量产品的整体规模内,且所投资新资产的到期日不得晚于2020年底。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 415,
+      "end_char": 528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "三、过渡期内,对于封闭期在半年以上的定期开放式资产管理产品,投资以收取合同现金流量为目的并持有到期的债券,可使用摊余成本计量,但定期开放式产品持有资产组合的久期不得长于封闭期的1.5倍;银行的现金管理类产品在严格监管的前提下,暂参照货币市场基金的“摊余成本+影子定价”方法进行估值。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 530,
+      "end_char": 671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "四、对于通过各种措施确实难以消化、需要回表的存量非标准化债权类资产,在宏观审慎评估(MPA)考核时,合理调整有关参数,发挥其逆周期调节作用,支持符合条件的表外资产回表。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "支持有非标准化债权类资产回表需求的银行发行二级资本债补充资本。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 759,
+      "end_char": 790,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "五、过渡期结束后,对于由于特殊原因而难以回表的存量非标准化债权类资产,以及未到期的存量股权类资产,经金融监管部门同意,采取适当安排妥善处理。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 792,
+      "end_char": 862,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "六、过渡期内,由金融机构按照自主有序方式确定整改计划,经金融监管部门确认后执行。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 864,
+      "end_char": 904,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "请将本通知转发至辖区内分支机构和金融机构执行,同时抄送银保监会、证监会当地派出机构。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 906,
+      "end_char": 948,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "中国人民银行办公厅",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 950,
+      "end_char": 959,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "2018年7月20日",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 961,
+      "end_char": 971,
+      "region": "body"
+    }
+  ],
   "normalized_text": "中国人民银行上海总部,各分行、营业管理部、省会(首府)城市中心支行、副省级城市中心支行;国家开发银行,各政策性银行、国有商业银行、股份制商业银行,中国邮政储蓄银行;各证券公司、基金公司、期货公司、私募投资基金管理机构;各保险资产管理机构:\n\n《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106号文,以下简称《指导意见》)自2018年4月27日发布实施以来,对于规范资产管理市场秩序、防范金融风险发挥了积极作用。为了指导金融机构更好地贯彻执行《指导意见》,确保规范资产管理业务工作平稳过渡,为实体经济创造良好的货币金融环境,经人民银行、银保监会、证监会共同研究,现将有关事项进一步明确如下:\n\n一、按照《指导意见》第十条的规定,公募资产管理产品除主要投资标准化债权类资产和上市交易的股票,还可以适当投资非标准化债权类资产,但应当符合《指导意见》关于非标准化债权类资产投资的期限匹配、限额管理、信息披露等监管要求。\n\n二、过渡期内,金融机构可以发行老产品投资新资产,优先满足国家重点领域和重大工程建设续建项目以及中小微企业融资需求,但老产品的整体规模应当控制在《指导意见》发布前存量产品的整体规模内,且所投资新资产的到期日不得晚于2020年底。\n\n三、过渡期内,对于封闭期在半年以上的定期开放式资产管理产品,投资以收取合同现金流量为目的并持有到期的债券,可使用摊余成本计量,但定期开放式产品持有资产组合的久期不得长于封闭期的1.5倍;银行的现金管理类产品在严格监管的前提下,暂参照货币市场基金的“摊余成本+影子定价”方法进行估值。\n\n四、对于通过各种措施确实难以消化、需要回表的存量非标准化债权类资产,在宏观审慎评估(MPA)考核时,合理调整有关参数,发挥其逆周期调节作用,支持符合条件的表外资产回表。\n\n支持有非标准化债权类资产回表需求的银行发行二级资本债补充资本。\n\n五、过渡期结束后,对于由于特殊原因而难以回表的存量非标准化债权类资产,以及未到期的存量股权类资产,经金融监管部门同意,采取适当安排妥善处理。\n\n六、过渡期内,由金融机构按照自主有序方式确定整改计划,经金融监管部门确认后执行。\n\n请将本通知转发至辖区内分支机构和金融机构执行,同时抄送银保监会、证监会当地派出机构。\n\n中国人民银行办公厅\n\n2018年7月20日",
   "blocks": [
     {
@@ -59,7 +356,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 119,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -67,7 +371,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 121,
+      "end_char": 302,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -75,7 +386,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 304,
+      "end_char": 413,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -83,7 +401,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 415,
+      "end_char": 528,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -91,7 +416,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 530,
+      "end_char": 671,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -99,7 +431,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 757,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -107,7 +446,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 759,
+      "end_char": 790,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -115,7 +461,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 792,
+      "end_char": 862,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -123,7 +476,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 864,
+      "end_char": 904,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -131,7 +491,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 906,
+      "end_char": 948,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -139,7 +506,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 950,
+      "end_char": 959,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -147,7 +521,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 961,
+      "end_char": 971,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

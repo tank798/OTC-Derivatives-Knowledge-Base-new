@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/公开募集证券投资基金投资信用衍生品指引.docx",
   "source_type": "docx",
   "file_sha256": "5d57069bf0fd0021ec3ba356e1012a9742ffb70571cd60f4d9146e71b9508f27",
-  "content_sha256": "3e0d82ea89ef2ef7017eae2c4a4f8903ebda27d6f743d82fba07fcef5c3ca613",
+  "content_sha256": "222706d99b2fcd90fa4ff6fd6c161605c6f5ac3f0824f95a7d9a35d0feb4d0be",
   "metadata": {
     "document_title": "公开募集证券投资基金投资信用衍生品指引",
     "issuing_authority": "中国证券监督管理委员会",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "3c8debf372cce6f296da852aa93fc685f7a4dcba1719bb0b6fa37eb1bb5d033d",
     "clean_text_sha256": "6664c19b377b4baa690b713843edd3dcfe1a49d3221fc6d14b9b9c5c4dcd2574",
@@ -107,6 +107,610 @@
   },
   "original_text_sha256": "3c8debf372cce6f296da852aa93fc685f7a4dcba1719bb0b6fa37eb1bb5d033d",
   "clean_text_sha256": "6664c19b377b4baa690b713843edd3dcfe1a49d3221fc6d14b9b9c5c4dcd2574",
+  "clean_text_hash": "1f636548d9b7ebcb855fa82041f5881ab77a950dc44faadda35a96620b848a9e",
+  "structured_blocks_sha256": "47437844183070a210c2a8258ffe6096c69c218e59b78092511575f48ca048fa",
+  "front_matter": [
+    {
+      "block_id": "b00002",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "证监会公告〔2019〕第1号",
+      "character_count": 14
+    },
+    {
+      "block_id": "b00003",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "publication_wrapper",
+      "action": "moved_to_front_matter",
+      "text": "现公布《公开募集证券投资基金投资信用衍生品指引》,自公布之日起施行。",
+      "character_count": 34
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "公开募集证券投资基金投资信用衍生品指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 19,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 21,
+      "end_char": 24,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 122,
+      "end_char": 125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 127,
+      "end_char": 178,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 180,
+      "end_char": 183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 185,
+      "end_char": 270,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 272,
+      "end_char": 275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 277,
+      "end_char": 336,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 338,
+      "end_char": 437,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 439,
+      "end_char": 442,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 444,
+      "end_char": 534,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 536,
+      "end_char": 539,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 541,
+      "end_char": 584,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 586,
+      "end_char": 589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 591,
+      "end_char": 629,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 631,
+      "end_char": 634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 713,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 715,
+      "end_char": 718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 720,
+      "end_char": 827,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 829,
+      "end_char": 832,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 834,
+      "end_char": 960,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 962,
+      "end_char": 966,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "本指引自公布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 968,
+      "end_char": 980,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "公开募集证券投资基金投资信用衍生品指引\n\n第一条\n\n为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。\n\n第二条\n\n本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n第三条\n\n基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。\n\n第四条\n\n基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。\n\n基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。\n\n第五条\n\n基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。\n\n第六条\n\n基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。\n\n第七条\n\n基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。\n\n第八条\n\n基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。\n\n第九条\n\n基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。\n\n第十条\n\n本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。\n\n第十一条\n\n本指引自公布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "公开募集证券投资基金投资信用衍生品指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 19,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 21,
+      "end_char": 24,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 122,
+      "end_char": 125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 127,
+      "end_char": 178,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 180,
+      "end_char": 183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 185,
+      "end_char": 270,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 272,
+      "end_char": 275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 277,
+      "end_char": 336,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 338,
+      "end_char": 437,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 439,
+      "end_char": 442,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 444,
+      "end_char": 534,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 536,
+      "end_char": 539,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 541,
+      "end_char": 584,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 586,
+      "end_char": 589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 591,
+      "end_char": 629,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 631,
+      "end_char": 634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 713,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 715,
+      "end_char": 718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 720,
+      "end_char": 827,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 829,
+      "end_char": 832,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 834,
+      "end_char": 960,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 962,
+      "end_char": 966,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "本指引自公布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 968,
+      "end_char": 980,
+      "region": "body"
+    }
+  ],
   "normalized_text": "公开募集证券投资基金投资信用衍生品指引\n\n第一条\n\n为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。\n\n第二条\n\n本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n第三条\n\n基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。\n\n第四条\n\n基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。\n\n基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。\n\n第五条\n\n基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。\n\n第六条\n\n基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。\n\n第七条\n\n基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。\n\n第八条\n\n基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。\n\n第九条\n\n基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。\n\n第十条\n\n本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。\n\n第十一条\n\n本指引自公布之日起施行。",
   "blocks": [
     {
@@ -115,7 +719,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 19,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -123,7 +734,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 21,
+      "end_char": 24,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -131,7 +749,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -139,7 +764,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 122,
+      "end_char": 125,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -147,7 +779,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 127,
+      "end_char": 178,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -155,7 +794,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 180,
+      "end_char": 183,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -163,7 +809,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 185,
+      "end_char": 270,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -171,7 +824,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 272,
+      "end_char": 275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -179,7 +839,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 277,
+      "end_char": 336,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -187,7 +854,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 338,
+      "end_char": 437,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -195,7 +869,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 439,
+      "end_char": 442,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -203,7 +884,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 444,
+      "end_char": 534,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -211,7 +899,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 536,
+      "end_char": 539,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -219,7 +914,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 541,
+      "end_char": 584,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -227,7 +929,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 586,
+      "end_char": 589,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -235,7 +944,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 591,
+      "end_char": 629,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -243,7 +959,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 631,
+      "end_char": 634,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -251,7 +974,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 713,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -259,7 +989,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 715,
+      "end_char": 718,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -267,7 +1004,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 720,
+      "end_char": 827,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -275,7 +1019,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 829,
+      "end_char": 832,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -283,7 +1034,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 834,
+      "end_char": 960,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -291,7 +1049,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 962,
+      "end_char": 966,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -299,7 +1064,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 968,
+      "end_char": 980,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

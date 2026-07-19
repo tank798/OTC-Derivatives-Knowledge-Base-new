@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/关于加强场外衍生品业务自律管理的通知.docx",
   "source_type": "docx",
   "file_sha256": "900084e084b82bdf54b0eaa9f6033e288a75224e06754c5289f58a8c03e4b17a",
-  "content_sha256": "8f1636d0e2d67c28900e588cd9749dfadab9787dd7adf7313b6e103491178d94",
+  "content_sha256": "e5f2383ee3e8a8a9f91bb7756ca07564b531b9f212bc0a146789163bb7a8ec0f",
   "metadata": {
     "document_title": "关于加强场外衍生品业务自律管理的通知",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "a860f4663f07ef5b5115a8bbbcdbd3f64081453c9542398ae16e7f3db1c4d316",
     "clean_text_sha256": "7a36d8ba31575539b43abbbb1a0986157d951bb838d96a759e6e5deb20a0d750",
@@ -110,6 +110,1154 @@
   },
   "original_text_sha256": "a860f4663f07ef5b5115a8bbbcdbd3f64081453c9542398ae16e7f3db1c4d316",
   "clean_text_sha256": "7a36d8ba31575539b43abbbb1a0986157d951bb838d96a759e6e5deb20a0d750",
+  "clean_text_hash": "69f6cb91e8fd97bcc062a0995bc2a2e058285a7f0900eacfaf50b086ee0619a0",
+  "structured_blocks_sha256": "39050c403e7bd63e250e854c80ba29c4619af59811addbc7af96da8b3e5f92ed",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "中证协发〔2017〕123号",
+      "character_count": 14
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "各参与场外衍生品交易的证券公司、基金管理公司及其子公司:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 28,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "为贯彻落实中国证监会《关于进一步规范证券基金经营机构参与场外衍生品交易的通知》(证监办发〔2016〕81号)的相关要求,加强场外衍生品业务自律管理,有效防范和控制风险,现将有关事项通知如下:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 30,
+      "end_char": 125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "guide_heading",
+      "text": "一、完善场外衍生品业务备案及数据报送",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 127,
+      "end_char": 145,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "guide_subheading",
+      "text": "(一)报送主体",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 147,
+      "end_char": 154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "各证券公司、基金管理公司及其子公司(以下简称“证券基金经营机构”)开展场外衍生品交易的,应当按照《场外证券业务备案管理办法》(中证协发〔2015〕164号)要求,向我会备案并报送相关数据。报送主体分为备案机构和参与机构,其中备案机构是指经有关监管机构或自律组织的批准、备案或认可的可从事场外衍生品交易的证券基金经营机构,其他机构为参与机构。场外衍生品交易双方至少一方应为备案机构。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 156,
+      "end_char": 346,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "guide_subheading",
+      "text": "(二)报送业务范围",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 348,
+      "end_char": 357,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "证券基金经营机构直接参与或作为产品管理人参与SAC、NAFMII、ISDA等主协议项下的场外衍生品交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 359,
+      "end_char": 411,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "guide_subheading",
+      "text": "(三)报送路径",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 413,
+      "end_char": 420,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "证券基金经营机构应将场外衍生品业务相关数据报送至场外证券业务报告系统的场外衍生品报告模块。场外证券业务报告系统登录地址:http://rpt.interotc.com。未注册账户的证券基金经营机构应填写相关信息注册账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 422,
+      "end_char": 532,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "guide_subheading",
+      "text": "(四)报送内容",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 534,
+      "end_char": 541,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "1.持续报告:备案机构及参与机构应于签订主协议、补充协议或交易确认书5个工作日内报送相关交易信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 543,
+      "end_char": 592,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "2.定期报告:备案机构应于每月10日前报送上一月场外衍生品业务开展规模等总体信息,应于每个季度结束后15个工作日内报送公司合规部门的审查意见以及业务开展合规情况说明,应于每年4月30日前报送上一年场外证券业务年度报告。每季度的定期报告应包括对场外衍生品业务的交易对手方、交易结构、保证金比例及使用、产品关联性等合规方面内容。年度报告应包括场外衍生品交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理等总体情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 594,
+      "end_char": 819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "3.重大事项报告:场外衍生品交易合约存续期间发生违约事件、提前终止事件、重大业务风险、重大业务损失、影响业务持续开展等情况的,备案机构应于事件发生后3个工作日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 930,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "各证券基金经营机构应于本通知下发日起三个月内完成历史场外衍生品交易的报送工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 932,
+      "end_char": 971,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "guide_heading",
+      "text": "二、加强场外衍生品业务合规管理和风险控制",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 973,
+      "end_char": 993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(一)证券基金经营机构应保证报送数据真实性、准确性、完整性并对其负责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 995,
+      "end_char": 1030,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(二)各证券基金经营机构应依法、合规参与场外衍生品交易,备案机构应充分了解交易对手方参与场外衍生品交易的真实目的,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1032,
+      "end_char": 1097,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "1.为交易对手方提供融资或者变相融资服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1099,
+      "end_char": 1120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "2.收取明显超过履约保障需要的保证金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1141,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "3.依照交易对手方指令使用保证金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1143,
+      "end_char": 1160,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "4.为非标资产规避监管行为提供服务或便利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1162,
+      "end_char": 1183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "5.中国证监会禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1185,
+      "end_char": 1200,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(三)备案机构应建立健全场外衍生品交易的合规管理、内部控制和风险管理机制。主协议、补充协议、履约保障协议、交易确认书等相关合同和重要文件应当经公司合规审核,并留档备查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1202,
+      "end_char": 1286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "guide_heading",
+      "text": "三、强化场外衍生品业务自律管理措施",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1288,
+      "end_char": 1305,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "signoff",
+      "text": "(一)证券基金经营机构参与场外衍生品交易未按要求报送数据或涉嫌违反自律规则的,我会将视情节轻重约谈业务主管或主要负责人,并要求限期整改。证券基金经营机构按期整改后应向我会提交整改报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1307,
+      "end_char": 1399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)证券基金经营机构参与场外衍生品交易涉嫌违反自律规则的,我会将视情节轻重按照《中国证券业协会自律管理措施和纪律处分实施办法》采取相关自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1401,
+      "end_char": 1476,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(三)证券基金经营机构参与场外衍生品交易涉嫌违反法律法规、监管规定或存在重大风险隐患的,我会将移交证券基金经营机构住所地证监局依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1478,
+      "end_char": 1546,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(四)我会根据《场外证券业务备案管理办法》(中证协发〔2015〕164号)建立场外衍生品业务黑名单制度,将严重违规的证券基金经营机构及其相关人员列入黑名单。黑名单在协会网站公布并按规定记入诚信系统。列入黑名单期间不受理相关机构的备案,相关机构不得新开展场外衍生品业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "guide_heading",
+      "text": "四、其他场外证券业务",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1684,
+      "end_char": 1694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "证券基金经营机构参与其他场外证券业务的,参照本通知要求,按照场外证券业务备案相关规定做好备案及数据报送工作,并加强场外证券业务的合规管理和风险控制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "guide_heading",
+      "text": "五、联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1772,
+      "end_char": 1777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "guide_subheading",
+      "text": "(一)备案相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1779,
+      "end_char": 1791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "场外衍生品业务:金银花,电话:010-66575997,邮箱:jinyh@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1793,
+      "end_char": 1840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "guide_subheading",
+      "text": "(二)数据报送相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1842,
+      "end_char": 1856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "1.场外衍生品业务:梁景美,电话:010-83897845,邮箱:liangjm@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1858,
+      "end_char": 1909,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "2.非公开发行公司债券:赵文雯,电话:010-83897932,邮箱:zhaoww@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1911,
+      "end_char": 1963,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "3.收益凭证:李雅琪,电话:010-83897925,邮箱:liyq@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1965,
+      "end_char": 2010,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "4.场外证券销售业务及证券公司登记、托管和结算:赵智松,电话:010-83897840,邮箱:zhaozs@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2012,
+      "end_char": 2076,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "guide_subheading",
+      "text": "(三)技术相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2078,
+      "end_char": 2090,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "何京嗣,电话:010-83897917,邮箱:hejs@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2092,
+      "end_char": 2130,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00042",
+      "block_type": "attachment",
+      "text": "附件:1.场外衍生品报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2132,
+      "end_char": 2151,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "guide_minor_heading",
+      "text": "2.非公开发行公司债券备案内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2153,
+      "end_char": 2173,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "guide_minor_heading",
+      "text": "3.收益凭证报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2175,
+      "end_char": 2190,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "guide_minor_heading",
+      "text": "4.场外证券销售业务报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2192,
+      "end_char": 2211,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "guide_minor_heading",
+      "text": "5.证券公司登记、托管和结算报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2213,
+      "end_char": 2236,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "中国证券业协会",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2238,
+      "end_char": 2245,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "2017年5月22日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2247,
+      "end_char": 2257,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "各参与场外衍生品交易的证券公司、基金管理公司及其子公司:\n\n为贯彻落实中国证监会《关于进一步规范证券基金经营机构参与场外衍生品交易的通知》(证监办发〔2016〕81号)的相关要求,加强场外衍生品业务自律管理,有效防范和控制风险,现将有关事项通知如下:\n\n一、完善场外衍生品业务备案及数据报送\n\n(一)报送主体\n\n各证券公司、基金管理公司及其子公司(以下简称“证券基金经营机构”)开展场外衍生品交易的,应当按照《场外证券业务备案管理办法》(中证协发〔2015〕164号)要求,向我会备案并报送相关数据。报送主体分为备案机构和参与机构,其中备案机构是指经有关监管机构或自律组织的批准、备案或认可的可从事场外衍生品交易的证券基金经营机构,其他机构为参与机构。场外衍生品交易双方至少一方应为备案机构。\n\n(二)报送业务范围\n\n证券基金经营机构直接参与或作为产品管理人参与SAC、NAFMII、ISDA等主协议项下的场外衍生品交易。\n\n(三)报送路径\n\n证券基金经营机构应将场外衍生品业务相关数据报送至场外证券业务报告系统的场外衍生品报告模块。场外证券业务报告系统登录地址:http://rpt.interotc.com。未注册账户的证券基金经营机构应填写相关信息注册账户。\n\n(四)报送内容\n\n1.持续报告:备案机构及参与机构应于签订主协议、补充协议或交易确认书5个工作日内报送相关交易信息。\n\n2.定期报告:备案机构应于每月10日前报送上一月场外衍生品业务开展规模等总体信息,应于每个季度结束后15个工作日内报送公司合规部门的审查意见以及业务开展合规情况说明,应于每年4月30日前报送上一年场外证券业务年度报告。每季度的定期报告应包括对场外衍生品业务的交易对手方、交易结构、保证金比例及使用、产品关联性等合规方面内容。年度报告应包括场外衍生品交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理等总体情况。\n\n3.重大事项报告:场外衍生品交易合约存续期间发生违约事件、提前终止事件、重大业务风险、重大业务损失、影响业务持续开展等情况的,备案机构应于事件发生后3个工作日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。\n\n各证券基金经营机构应于本通知下发日起三个月内完成历史场外衍生品交易的报送工作。\n\n二、加强场外衍生品业务合规管理和风险控制\n\n(一)证券基金经营机构应保证报送数据真实性、准确性、完整性并对其负责。\n\n(二)各证券基金经营机构应依法、合规参与场外衍生品交易,备案机构应充分了解交易对手方参与场外衍生品交易的真实目的,不得有以下行为:\n\n1.为交易对手方提供融资或者变相融资服务;\n\n2.收取明显超过履约保障需要的保证金;\n\n3.依照交易对手方指令使用保证金;\n\n4.为非标资产规避监管行为提供服务或便利;\n\n5.中国证监会禁止的其他行为。\n\n(三)备案机构应建立健全场外衍生品交易的合规管理、内部控制和风险管理机制。主协议、补充协议、履约保障协议、交易确认书等相关合同和重要文件应当经公司合规审核,并留档备查。\n\n三、强化场外衍生品业务自律管理措施\n\n(一)证券基金经营机构参与场外衍生品交易未按要求报送数据或涉嫌违反自律规则的,我会将视情节轻重约谈业务主管或主要负责人,并要求限期整改。证券基金经营机构按期整改后应向我会提交整改报告。\n\n(二)证券基金经营机构参与场外衍生品交易涉嫌违反自律规则的,我会将视情节轻重按照《中国证券业协会自律管理措施和纪律处分实施办法》采取相关自律惩戒措施。\n\n(三)证券基金经营机构参与场外衍生品交易涉嫌违反法律法规、监管规定或存在重大风险隐患的,我会将移交证券基金经营机构住所地证监局依法查处。\n\n(四)我会根据《场外证券业务备案管理办法》(中证协发〔2015〕164号)建立场外衍生品业务黑名单制度,将严重违规的证券基金经营机构及其相关人员列入黑名单。黑名单在协会网站公布并按规定记入诚信系统。列入黑名单期间不受理相关机构的备案,相关机构不得新开展场外衍生品业务。\n\n四、其他场外证券业务\n\n证券基金经营机构参与其他场外证券业务的,参照本通知要求,按照场外证券业务备案相关规定做好备案及数据报送工作,并加强场外证券业务的合规管理和风险控制。\n\n五、联系人\n\n(一)备案相关问题联系人\n\n场外衍生品业务:金银花,电话:010-66575997,邮箱:jinyh@sac.net.cn\n\n(二)数据报送相关问题联系人\n\n1.场外衍生品业务:梁景美,电话:010-83897845,邮箱:liangjm@sac.net.cn\n\n2.非公开发行公司债券:赵文雯,电话:010-83897932,邮箱:zhaoww@sac.net.cn\n\n3.收益凭证:李雅琪,电话:010-83897925,邮箱:liyq@sac.net.cn\n\n4.场外证券销售业务及证券公司登记、托管和结算:赵智松,电话:010-83897840,邮箱:zhaozs@sac.net.cn\n\n(三)技术相关问题联系人\n\n何京嗣,电话:010-83897917,邮箱:hejs@sac.net.cn\n\n附件:1.场外衍生品报告内容与格式模板\n\n2.非公开发行公司债券备案内容与格式模板\n\n3.收益凭证报告内容与格式模板\n\n4.场外证券销售业务报告内容与格式模板\n\n5.证券公司登记、托管和结算报告内容与格式模板\n\n中国证券业协会\n\n2017年5月22日",
+  "structured_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "各参与场外衍生品交易的证券公司、基金管理公司及其子公司:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 28,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "为贯彻落实中国证监会《关于进一步规范证券基金经营机构参与场外衍生品交易的通知》(证监办发〔2016〕81号)的相关要求,加强场外衍生品业务自律管理,有效防范和控制风险,现将有关事项通知如下:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 30,
+      "end_char": 125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "guide_heading",
+      "text": "一、完善场外衍生品业务备案及数据报送",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 127,
+      "end_char": 145,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "guide_subheading",
+      "text": "(一)报送主体",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 147,
+      "end_char": 154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "各证券公司、基金管理公司及其子公司(以下简称“证券基金经营机构”)开展场外衍生品交易的,应当按照《场外证券业务备案管理办法》(中证协发〔2015〕164号)要求,向我会备案并报送相关数据。报送主体分为备案机构和参与机构,其中备案机构是指经有关监管机构或自律组织的批准、备案或认可的可从事场外衍生品交易的证券基金经营机构,其他机构为参与机构。场外衍生品交易双方至少一方应为备案机构。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 156,
+      "end_char": 346,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "guide_subheading",
+      "text": "(二)报送业务范围",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 348,
+      "end_char": 357,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "证券基金经营机构直接参与或作为产品管理人参与SAC、NAFMII、ISDA等主协议项下的场外衍生品交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 359,
+      "end_char": 411,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "guide_subheading",
+      "text": "(三)报送路径",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 413,
+      "end_char": 420,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "证券基金经营机构应将场外衍生品业务相关数据报送至场外证券业务报告系统的场外衍生品报告模块。场外证券业务报告系统登录地址:http://rpt.interotc.com。未注册账户的证券基金经营机构应填写相关信息注册账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 422,
+      "end_char": 532,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "guide_subheading",
+      "text": "(四)报送内容",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 534,
+      "end_char": 541,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "1.持续报告:备案机构及参与机构应于签订主协议、补充协议或交易确认书5个工作日内报送相关交易信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 543,
+      "end_char": 592,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "2.定期报告:备案机构应于每月10日前报送上一月场外衍生品业务开展规模等总体信息,应于每个季度结束后15个工作日内报送公司合规部门的审查意见以及业务开展合规情况说明,应于每年4月30日前报送上一年场外证券业务年度报告。每季度的定期报告应包括对场外衍生品业务的交易对手方、交易结构、保证金比例及使用、产品关联性等合规方面内容。年度报告应包括场外衍生品交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理等总体情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 594,
+      "end_char": 819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "3.重大事项报告:场外衍生品交易合约存续期间发生违约事件、提前终止事件、重大业务风险、重大业务损失、影响业务持续开展等情况的,备案机构应于事件发生后3个工作日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 930,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "各证券基金经营机构应于本通知下发日起三个月内完成历史场外衍生品交易的报送工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 932,
+      "end_char": 971,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "guide_heading",
+      "text": "二、加强场外衍生品业务合规管理和风险控制",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 973,
+      "end_char": 993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(一)证券基金经营机构应保证报送数据真实性、准确性、完整性并对其负责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 995,
+      "end_char": 1030,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(二)各证券基金经营机构应依法、合规参与场外衍生品交易,备案机构应充分了解交易对手方参与场外衍生品交易的真实目的,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1032,
+      "end_char": 1097,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "1.为交易对手方提供融资或者变相融资服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1099,
+      "end_char": 1120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "2.收取明显超过履约保障需要的保证金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1141,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "3.依照交易对手方指令使用保证金;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1143,
+      "end_char": 1160,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "4.为非标资产规避监管行为提供服务或便利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1162,
+      "end_char": 1183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "5.中国证监会禁止的其他行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1185,
+      "end_char": 1200,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(三)备案机构应建立健全场外衍生品交易的合规管理、内部控制和风险管理机制。主协议、补充协议、履约保障协议、交易确认书等相关合同和重要文件应当经公司合规审核,并留档备查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1202,
+      "end_char": 1286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "guide_heading",
+      "text": "三、强化场外衍生品业务自律管理措施",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1288,
+      "end_char": 1305,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "signoff",
+      "text": "(一)证券基金经营机构参与场外衍生品交易未按要求报送数据或涉嫌违反自律规则的,我会将视情节轻重约谈业务主管或主要负责人,并要求限期整改。证券基金经营机构按期整改后应向我会提交整改报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1307,
+      "end_char": 1399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)证券基金经营机构参与场外衍生品交易涉嫌违反自律规则的,我会将视情节轻重按照《中国证券业协会自律管理措施和纪律处分实施办法》采取相关自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1401,
+      "end_char": 1476,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(三)证券基金经营机构参与场外衍生品交易涉嫌违反法律法规、监管规定或存在重大风险隐患的,我会将移交证券基金经营机构住所地证监局依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1478,
+      "end_char": 1546,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(四)我会根据《场外证券业务备案管理办法》(中证协发〔2015〕164号)建立场外衍生品业务黑名单制度,将严重违规的证券基金经营机构及其相关人员列入黑名单。黑名单在协会网站公布并按规定记入诚信系统。列入黑名单期间不受理相关机构的备案,相关机构不得新开展场外衍生品业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "guide_heading",
+      "text": "四、其他场外证券业务",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1684,
+      "end_char": 1694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "证券基金经营机构参与其他场外证券业务的,参照本通知要求,按照场外证券业务备案相关规定做好备案及数据报送工作,并加强场外证券业务的合规管理和风险控制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "guide_heading",
+      "text": "五、联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1772,
+      "end_char": 1777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "guide_subheading",
+      "text": "(一)备案相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1779,
+      "end_char": 1791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "场外衍生品业务:金银花,电话:010-66575997,邮箱:jinyh@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1793,
+      "end_char": 1840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "guide_subheading",
+      "text": "(二)数据报送相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1842,
+      "end_char": 1856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "1.场外衍生品业务:梁景美,电话:010-83897845,邮箱:liangjm@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1858,
+      "end_char": 1909,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "2.非公开发行公司债券:赵文雯,电话:010-83897932,邮箱:zhaoww@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1911,
+      "end_char": 1963,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "3.收益凭证:李雅琪,电话:010-83897925,邮箱:liyq@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1965,
+      "end_char": 2010,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "4.场外证券销售业务及证券公司登记、托管和结算:赵智松,电话:010-83897840,邮箱:zhaozs@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2012,
+      "end_char": 2076,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "guide_subheading",
+      "text": "(三)技术相关问题联系人",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2078,
+      "end_char": 2090,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "何京嗣,电话:010-83897917,邮箱:hejs@sac.net.cn",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2092,
+      "end_char": 2130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "attachment",
+      "text": "附件:1.场外衍生品报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2132,
+      "end_char": 2151,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "guide_minor_heading",
+      "text": "2.非公开发行公司债券备案内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2153,
+      "end_char": 2173,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "guide_minor_heading",
+      "text": "3.收益凭证报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2175,
+      "end_char": 2190,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "guide_minor_heading",
+      "text": "4.场外证券销售业务报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2192,
+      "end_char": 2211,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "guide_minor_heading",
+      "text": "5.证券公司登记、托管和结算报告内容与格式模板",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2213,
+      "end_char": 2236,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "中国证券业协会",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2238,
+      "end_char": 2245,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "2017年5月22日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2247,
+      "end_char": 2257,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "各参与场外衍生品交易的证券公司、基金管理公司及其子公司:\n\n为贯彻落实中国证监会《关于进一步规范证券基金经营机构参与场外衍生品交易的通知》(证监办发〔2016〕81号)的相关要求,加强场外衍生品业务自律管理,有效防范和控制风险,现将有关事项通知如下:\n\n一、完善场外衍生品业务备案及数据报送\n\n(一)报送主体\n\n各证券公司、基金管理公司及其子公司(以下简称“证券基金经营机构”)开展场外衍生品交易的,应当按照《场外证券业务备案管理办法》(中证协发〔2015〕164号)要求,向我会备案并报送相关数据。报送主体分为备案机构和参与机构,其中备案机构是指经有关监管机构或自律组织的批准、备案或认可的可从事场外衍生品交易的证券基金经营机构,其他机构为参与机构。场外衍生品交易双方至少一方应为备案机构。\n\n(二)报送业务范围\n\n证券基金经营机构直接参与或作为产品管理人参与SAC、NAFMII、ISDA等主协议项下的场外衍生品交易。\n\n(三)报送路径\n\n证券基金经营机构应将场外衍生品业务相关数据报送至场外证券业务报告系统的场外衍生品报告模块。场外证券业务报告系统登录地址:http://rpt.interotc.com。未注册账户的证券基金经营机构应填写相关信息注册账户。\n\n(四)报送内容\n\n1.持续报告:备案机构及参与机构应于签订主协议、补充协议或交易确认书5个工作日内报送相关交易信息。\n\n2.定期报告:备案机构应于每月10日前报送上一月场外衍生品业务开展规模等总体信息,应于每个季度结束后15个工作日内报送公司合规部门的审查意见以及业务开展合规情况说明,应于每年4月30日前报送上一年场外证券业务年度报告。每季度的定期报告应包括对场外衍生品业务的交易对手方、交易结构、保证金比例及使用、产品关联性等合规方面内容。年度报告应包括场外衍生品交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理等总体情况。\n\n3.重大事项报告:场外衍生品交易合约存续期间发生违约事件、提前终止事件、重大业务风险、重大业务损失、影响业务持续开展等情况的,备案机构应于事件发生后3个工作日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。\n\n各证券基金经营机构应于本通知下发日起三个月内完成历史场外衍生品交易的报送工作。\n\n二、加强场外衍生品业务合规管理和风险控制\n\n(一)证券基金经营机构应保证报送数据真实性、准确性、完整性并对其负责。\n\n(二)各证券基金经营机构应依法、合规参与场外衍生品交易,备案机构应充分了解交易对手方参与场外衍生品交易的真实目的,不得有以下行为:\n\n1.为交易对手方提供融资或者变相融资服务;\n\n2.收取明显超过履约保障需要的保证金;\n\n3.依照交易对手方指令使用保证金;\n\n4.为非标资产规避监管行为提供服务或便利;\n\n5.中国证监会禁止的其他行为。\n\n(三)备案机构应建立健全场外衍生品交易的合规管理、内部控制和风险管理机制。主协议、补充协议、履约保障协议、交易确认书等相关合同和重要文件应当经公司合规审核,并留档备查。\n\n三、强化场外衍生品业务自律管理措施\n\n(一)证券基金经营机构参与场外衍生品交易未按要求报送数据或涉嫌违反自律规则的,我会将视情节轻重约谈业务主管或主要负责人,并要求限期整改。证券基金经营机构按期整改后应向我会提交整改报告。\n\n(二)证券基金经营机构参与场外衍生品交易涉嫌违反自律规则的,我会将视情节轻重按照《中国证券业协会自律管理措施和纪律处分实施办法》采取相关自律惩戒措施。\n\n(三)证券基金经营机构参与场外衍生品交易涉嫌违反法律法规、监管规定或存在重大风险隐患的,我会将移交证券基金经营机构住所地证监局依法查处。\n\n(四)我会根据《场外证券业务备案管理办法》(中证协发〔2015〕164号)建立场外衍生品业务黑名单制度,将严重违规的证券基金经营机构及其相关人员列入黑名单。黑名单在协会网站公布并按规定记入诚信系统。列入黑名单期间不受理相关机构的备案,相关机构不得新开展场外衍生品业务。\n\n四、其他场外证券业务\n\n证券基金经营机构参与其他场外证券业务的,参照本通知要求,按照场外证券业务备案相关规定做好备案及数据报送工作,并加强场外证券业务的合规管理和风险控制。\n\n五、联系人\n\n(一)备案相关问题联系人\n\n场外衍生品业务:金银花,电话:010-66575997,邮箱:jinyh@sac.net.cn\n\n(二)数据报送相关问题联系人\n\n1.场外衍生品业务:梁景美,电话:010-83897845,邮箱:liangjm@sac.net.cn\n\n2.非公开发行公司债券:赵文雯,电话:010-83897932,邮箱:zhaoww@sac.net.cn\n\n3.收益凭证:李雅琪,电话:010-83897925,邮箱:liyq@sac.net.cn\n\n4.场外证券销售业务及证券公司登记、托管和结算:赵智松,电话:010-83897840,邮箱:zhaozs@sac.net.cn\n\n(三)技术相关问题联系人\n\n何京嗣,电话:010-83897917,邮箱:hejs@sac.net.cn\n\n附件:1.场外衍生品报告内容与格式模板\n\n2.非公开发行公司债券备案内容与格式模板\n\n3.收益凭证报告内容与格式模板\n\n4.场外证券销售业务报告内容与格式模板\n\n5.证券公司登记、托管和结算报告内容与格式模板\n\n中国证券业协会\n\n2017年5月22日",
   "blocks": [
     {
@@ -118,7 +1266,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 28,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -126,7 +1281,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 30,
+      "end_char": 125,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -134,7 +1296,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 127,
+      "end_char": 145,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -142,7 +1311,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 147,
+      "end_char": 154,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -150,7 +1326,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 156,
+      "end_char": 346,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -158,7 +1341,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 348,
+      "end_char": 357,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -166,7 +1356,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 359,
+      "end_char": 411,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -174,7 +1371,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 413,
+      "end_char": 420,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -182,7 +1386,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 422,
+      "end_char": 532,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -190,7 +1401,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 534,
+      "end_char": 541,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -198,7 +1416,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 543,
+      "end_char": 592,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -206,7 +1431,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 594,
+      "end_char": 819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -214,7 +1446,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 930,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -222,7 +1461,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 932,
+      "end_char": 971,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -230,7 +1476,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 973,
+      "end_char": 993,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -238,7 +1491,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 995,
+      "end_char": 1030,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -246,7 +1506,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1032,
+      "end_char": 1097,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -254,7 +1521,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1099,
+      "end_char": 1120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -262,7 +1536,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1141,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -270,7 +1551,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1143,
+      "end_char": 1160,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -278,7 +1566,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1162,
+      "end_char": 1183,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -286,7 +1581,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1185,
+      "end_char": 1200,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -294,7 +1596,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1202,
+      "end_char": 1286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -302,7 +1611,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1288,
+      "end_char": 1305,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -310,7 +1626,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1307,
+      "end_char": 1399,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -318,7 +1641,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1401,
+      "end_char": 1476,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -326,7 +1656,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1478,
+      "end_char": 1546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -334,7 +1671,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1682,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -342,7 +1686,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1684,
+      "end_char": 1694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -350,7 +1701,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1770,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -358,7 +1716,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1772,
+      "end_char": 1777,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -366,7 +1731,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1779,
+      "end_char": 1791,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -374,7 +1746,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1793,
+      "end_char": 1840,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -382,7 +1761,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1842,
+      "end_char": 1856,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -390,7 +1776,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1858,
+      "end_char": 1909,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -398,7 +1791,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1911,
+      "end_char": 1963,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -406,7 +1806,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1965,
+      "end_char": 2010,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -414,7 +1821,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2012,
+      "end_char": 2076,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -422,7 +1836,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2078,
+      "end_char": 2090,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -430,7 +1851,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2092,
+      "end_char": 2130,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -438,7 +1866,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2132,
+      "end_char": 2151,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -446,7 +1881,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2153,
+      "end_char": 2173,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -454,7 +1896,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2175,
+      "end_char": 2190,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -462,7 +1911,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2192,
+      "end_char": 2211,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -470,7 +1926,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2213,
+      "end_char": 2236,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -478,7 +1941,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2238,
+      "end_char": 2245,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -486,7 +1956,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2247,
+      "end_char": 2257,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

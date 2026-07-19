@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券期货经营机构私募资产管理计划运作管理规定.pdf",
   "source_type": "pdf",
   "file_sha256": "3a31accc0abfb1616c601271f24f1da5f67bcd72292e19f406eef499c63c2f64",
-  "content_sha256": "0b766668e51018370ff8f444344e3b501eead131315741064be980d52109c897",
+  "content_sha256": "387ae2cd222c1cf15f9e1227df13e3880a54e5433d3d5cdb4650ac9d0151a6dd",
   "metadata": {
     "document_title": "证券期货经营机构私募资产管理计划运作管理规定",
     "issuing_authority": "中国证券监督管理委员会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "513c33dcd031065be5ba3ea3855a11d1b1bf19bde6866c85addb4511ced19366",
     "clean_text_sha256": "513c33dcd031065be5ba3ea3855a11d1b1bf19bde6866c85addb4511ced19366",
@@ -139,6 +139,2367 @@
   },
   "original_text_sha256": "513c33dcd031065be5ba3ea3855a11d1b1bf19bde6866c85addb4511ced19366",
   "clean_text_sha256": "513c33dcd031065be5ba3ea3855a11d1b1bf19bde6866c85addb4511ced19366",
+  "clean_text_hash": "b8ae0f5b232921549a63d087a83533d6b1b2162ba4ab3206a82ea16e50ba9b33",
+  "structured_blocks_sha256": "b554a394323dcf86d7308c966bd5b2ecf5e38a6eed6e1f3cb3933a8b5c6a9da0",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "证券期货经营机构私募资产管理计划运作管理规定(2018 年 10 月 22 日证监会公告〔2018〕31 号公布 2023年 1 月 12 日证监会公告〔2023〕2 号修订)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 88,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为规范证券期货经营机构私募资产管理计划(以下简称资产管理计划)运作,强化风险管控,保护投资者及相关当事人的合法权益,根据《中华人民共和国证券法》(以下简称《证券法》)、《中华人民共和国证券投资基金法》、《中华人民共和国期货和衍生品法》、《证券公司监督管理条例》、《期货交易管理条例》、《证券期货经营机构私募资产管理业务管理办法》(证监会令第 203 号,以下简称《管理办法》)、《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106 号,以下简称《指导意见》)及相关法律法规,制定本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 90,
+      "end_char": 344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 证券期货经营机构资产管理计划募集、投资、风险管理、估值核算、信息披露以及其他运作活动,适用本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 346,
+      "end_char": 399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 资产管理计划应当向合格投资者非公开募集。合格投资者是指具备相应风险识别能力和风险承受能力,投资于单只资产管理计划不低于一定金额且符合下列条件的自然人、法人或者其他组织:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 401,
+      "end_char": 489,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "(一)具有 2 年以上投资经历,且满足下列三项条件之一的自然人:家庭金融净资产不低于 300 万元,家庭金融资产不低于500 万元,或者近 3 年本人年均收入不低于 40 万元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 491,
+      "end_char": 580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(二)最近 1 年末净资产不低于 1000 万元的法人单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 582,
+      "end_char": 612,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(三)依法设立并接受国务院金融监督管理机构监管的机构,包括证券公司及其子公司、基金管理公司及其子公司、期货公司及其子公司、在中国证券投资基金业协会(以下简称证券投资基金业协会)登记的私募基金管理人、商业银行、商业银行理财子公司、金融资产投资公司、信托公司、保险公司、保险资产管理机构、财务公司及中国证监会认定的其他机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 614,
+      "end_char": 774,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(四)接受国务院金融监督管理机构监管的机构发行的资产管理产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 776,
+      "end_char": 807,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(五)基本养老金、社会保障基金、年金基金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 809,
+      "end_char": 883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(六)中国证监会视为合格投资者的其他情形。合格投资者投资于单只固定收益类资产管理计划的金额不低于 30 万元,投资于单只混合类资产管理计划的金额不低于 40万元,投资于单只权益类、期货和衍生品类资产管理计划的金额不低于 100 万元。资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产的,接受单个合格投资者参与资金的金额不低于 100 万元。资产管理计划接受其他资产管理产品参与的,不合并计算其他资产管理产品的投资者人数,但应当有效识别资产管理计划的实际投资者与最终资金来源。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 885,
+      "end_char": 1132,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第四条 证券期货经营机构、接受证券期货经营机构委托销售资产管理计划的机构(以下简称销售机构)应当充分了解投资者的资金来源、个人及家庭金融资产、负债等情况,并采取必要手段进行核查验证,确保投资者符合本规定第三条规定的条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1134,
+      "end_char": 1244,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条 资产管理计划的初始募集规模不得低于 1000 万元。集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 60 天,专门投资于未上市企业股权的集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 12 个月。封闭式资产管理计划的投资者可以分期缴付参与资金,但应当在资产管理合同中事先约定分期缴付资金的有关安排,并明确相应的违约责任。单个投资者首期缴付金额不得低于合格投资者参与单个资产管理计划的最低投资金额,所有投资者首期缴付金额合计不得少于 1000 万元。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1246,
+      "end_char": 1492,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第六条 专门投资于未上市企业股权的封闭式资产管理计划,符合以下条件的,可以扩大募集规模:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1494,
+      "end_char": 1538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(一)资产管理计划已成立且运作规范,证券期货经营机构、托管人未违反法律、行政法规、中国证监会规定和资产管理合同的约定;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1540,
+      "end_char": 1599,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(二)扩大募集时处于合同约定的投资期内;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1601,
+      "end_char": 1621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(三)扩大募集的资金规模、频率符合证券投资基金业协会相关要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1623,
+      "end_char": 1654,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(四)按照资产管理合同约定的方式事先取得全体投资者和托管人的同意;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1656,
+      "end_char": 1689,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(五)不存在未按规定进行合理估值、通过扩大募集规模向新参与投资者转移风险、亏损或者输送利益的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1691,
+      "end_char": 1740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(六)中国证监会规定的其他条件。封闭式资产管理计划扩大募集规模的,证券期货经营机构应当依法履行信息披露义务,向投资者披露扩募资金的来源、规模、用途等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1742,
+      "end_char": 1819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第七条 证券期货经营机构设立资产管理计划,应当编制计划说明书,列明以下内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1821,
+      "end_char": 1859,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)资产管理计划名称和类型;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1861,
+      "end_char": 1876,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)管理人与托管人概况、聘用投资顾问等情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1878,
+      "end_char": 1901,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)资产管理计划的投资范围、投资策略和投资限制情况,投资风险揭示;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1903,
+      "end_char": 1937,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)收益分配和风险承担安排;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1939,
+      "end_char": 1954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(五)管理人、托管人报酬,以及其他有关费用的计提标准和计提方式;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1956,
+      "end_char": 1988,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(六)投资者承担的费用和费率,以及投资者的重要权利和义务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1990,
+      "end_char": 2019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(七)募集期间;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2021,
+      "end_char": 2029,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(八)信息披露的内容、方式和频率;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2031,
+      "end_char": 2048,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(九)利益冲突情况以及可能影响投资者合法权益的其他重要事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2050,
+      "end_char": 2080,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(十)中国证监会规定的其他事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2082,
+      "end_char": 2098,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第八条 证券期货经营机构设立资产管理计划,应当制作风险揭示书。风险揭示书的内容应当具有针对性,表述应当清晰、明确、易懂,并以醒目方式充分揭示资产管理计划的市场风险、信用风险、流动性风险、操作风险、关联交易的风险、聘请投资顾问的特定风险等各类风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2100,
+      "end_char": 2223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第九条 资产管理计划应当按照规定开立资金账户、证券账户、期货账户和其他账户,并应当按照证券投资基金业协会有关规定命名。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2225,
+      "end_char": 2284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十条 证券期货经营机构自有资金参与、退出集合资产管理计划的,应当提前 5 个工作日告知全体投资者和托管人,并取得其同意;证券期货经营机构自有资金参与集合资产管理计划的,持有期限不得少于 6 个月。证券期货经营机构及其子公司以自有资金参与其自身或其子公司管理的单个集合资产管理计划的份额合计不得超过该资产管理计划总份额的 50%。中国证监会对证券期货经营机构自有资金投资比例另有规定的,从其规定。因集合资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当依照中国证监会规定及资产管理合同的约定及时调整达标。为应对集合资产管理计划巨额赎回以解决流动性风险,或者中国证监会认可的其他情形,在不存在利益冲突并遵守合同约定的前提下,证券期货经营机构及其子公司以自有资金参与及其后续退出集合资产管理计划可不受本条第一款、第二款规定的限制,但应当及时告知投资者和托管人,并向中国证监会相关派出机构报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2286,
+      "end_char": 2692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十一条 份额登记机构应当妥善保存登记数据,并将集合资产管理计划投资者名称、身份信息以及集合资产管理计划份额明细等数据备份至中国证监会认定的机构。其保存期限自集合资产管理计划账户销户之日起不得少于 20 年。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2694,
+      "end_char": 2798,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十二条 证券期货经营机构应当及时将投资者参与资金划转至资产管理计划托管账户。单一资产管理计划可以约定不聘请托管机构进行托管,但应当在资产管理合同中明确保障资产管理计划资产安全的制度措施和纠纷解决机制。投资于《管理办法》第三十八条第(五)项规定资产的资产管理计划,应当在资产管理合同中准确、合理界定托管人安全保管资产管理计划财产、监督管理人投资运作等职责,并向投资者充分揭示风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2800,
+      "end_char": 2990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十三条 资产管理合同应当明确约定资产管理计划的建仓期。集合资产管理计划的建仓期自产品成立之日起不得超过 6个月,专门投资于未上市企业股权的集合资产管理计划除外。建仓期的投资活动,应当符合资产管理合同约定的投向和资产管理计划的风险收益特征。以现金管理为目的,投资于银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券、货币市场基金等中国证监会认可的投资品种的除外。建仓期结束后,资产管理计划的资产组合应当符合法律、行政法规、中国证监会规定和合同约定的投向和比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2992,
+      "end_char": 3227,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十四条 证券期货经营机构应当明确资产管理计划投资决策流程与授权管理制度,建立、维护投资对象与交易对手备选库,设定清晰的清算流程和资金划转路径,对资产管理计划账户日常交易情况进行风险识别、监测,严格执行风险控制措施和投资交易复核程序,保证投资决策按照法律、行政法规、中国证监会的规定以及合同约定执行。资产管理计划在证券期货等交易所进行投资交易的,应当遵守交易所的相关规定。在交易所以外进行投资交易的,应当遵守相关管理规定。证券期货经营机构应当对资产管理计划账户内的资金、证券是否充足进行审查。资产管理计划资金账户内的资金不足的,不得进行证券买入委托或期货买入卖出委托;资产管理计划证券账户内的证券不足的,不得进行证券卖出委托。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3229,
+      "end_char": 3542,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十五条 一个集合资产管理计划投资于同一资产的资金,不得超过该计划资产净值的 25%。除以收购公司为目的设立的资产管理计划、专门投资于未上市企业股权的资产管理计划外,同一证券期货经营机构管理的全部集合资产管理计划投资于同一资产的资金,不得超过该资产的 25%。银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种除外。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元的封闭式集合资产管理计划,以及完全按照有关指数的构成比例进行证券投资的资产管理计划等中国证监会认可的其他集合资产管理计划,不受前款规定的投资比例限制。同一证券期货经营机构管理的全部资产管理计划及公开募集证券投资基金(以下简称公募基金)合计持有单一上市公司发行的股票不得超过该上市公司可流通股票的 30%。完全按照有关指数的构成比例进行证券投资的资产管理计划、公募基金,以及中国证监会认定的其他投资组合可不受前述比例限制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3544,
+      "end_char": 3973,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十六条 资产管理计划参与股票、债券、可转换公司债券、可交换公司债券等证券发行申购时,单个资产管理计划所申报的金额原则上不得超过该资产管理计划的总资产,单个资产管理计划所申报的数量原则上不得超过拟发行公司本次发行的总量。同一证券期货经营机构管理的全部资产管理计划投资于非标准化债权类资产的资金不得超过其管理的全部资产管理计划净资产的 35%。因证券市场波动、资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当及时报告中国证监会相关派出机构,且在调整达标前不得新增投资于非标准化债权类资产。同一证券期货经营机构管理的全部资产管理计划投资于同一非标准化债权类资产的资金合计不得超过 300 亿元。证券期货经营机构依照《管理办法》第十条、本规定第十七条设立的子公司,按照其与证券期货经营机构合并计算的口径,适用本条第二款、第三款的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3975,
+      "end_char": 4352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十七条 证券公司从事私募资产管理业务投资于未上市企业股权的,应当符合中国证监会规定的条件,并通过设立专门的私募投资基金管理子公司等进行。期货公司及其子公司从事私募资产管理业务,不得投资于《管理办法》第三十八条第(五)项规定资产,最近两期分类评价为 A 类 AA 级的期货公司及其子公司以及中国证监会另有规定的除外。基金管理公司从事私募资产管理业务投资于《管理办法》第三十八条第(五)项规定资产的,应当符合中国证监会规定的条件,并通过设立专门的子公司进行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 4354,
+      "end_char": 4582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十八条 资产管理计划投资于其他资产管理产品的,计算该资产管理计划的总资产时应当按照穿透原则合并计算所投资资产管理产品的总资产。资产管理计划投资于其他私募资产管理产品的,该资产管理计划按照穿透原则合并计算的投资同一资产的比例以及投资同一或同类资产的金额,应当符合《管理办法》及中国证监会相关规定。资产管理计划应当按照所投资资产管理产品披露投资组合的频率,及时更新计算该资产管理计划所投资资产的金额或比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4584,
+      "end_char": 4786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十九条 资产管理计划参与证券逆回购交易的,证券期货经营机构应当加强流动性风险和交易对手风险的管理。资产管理计划应当合理分散逆回购交易的到期日、交易对手及回购证券的集中度。证券期货经营机构应当按照穿透原则对交易对手的财务状况、偿付能力及杠杆水平等进行必要的尽职调查,对不同的交易对手实施交易额度管理并进行动态调整。证券期货经营机构应当建立健全证券逆回购交易质押品管理制度,根据质押品资质审慎确定质押率水平,持续监测质押品的风险状况与价值变动,质押品按公允价值计算应当足额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4788,
+      "end_char": 5024,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第二十条 资产管理计划投资于《管理办法》第三十八条第",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 5026,
+      "end_char": 5052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)项规定的非标准化资产的,所投资的资产应当合法、真实、有效、可特定化,原则上应当由有权机关进行确权登记。资产管理计划不得开展明股实债投资。资产管理计划不得投资于法律依据不充分的收(受)益权。资产管理计划投资于不动产、特许收费权、经营权等基础资产的收(受)益权的,应当以基础资产产生的独立、持续、可预测的现金流实现收(受)益权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5054,
+      "end_char": 5219,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十一条 资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产,涉及抵押、质押担保的,应当设置合理的抵押、质押比例,及时办理抵押、质押登记,确保抵押、质押真实、有效、充分。资产管理计划原则上不得接受收(受)益权、特殊目的机构股权作为抵押、质押标的资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5221,
+      "end_char": 5356,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十二条 专门投资于未上市企业股权的资产管理计划可以通过特殊目的载体间接投资于未上市企业股权。特殊目的载体应当为直接投资于作为底层资产的未上市企业股权的公司或者合伙企业,不得承担资金募集功能,不得收取管理费及业绩报酬。特殊目的载体发生设立、变更及注销等事项的,证券期货经营机构应当在 15 个工作日内报告中国证监会相关派出机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5358,
+      "end_char": 5523,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第二十三条 证券期货经营机构应当加强资产管理计划的久期管理,不得设立不设存续期限的资产管理计划。封闭式资产管理计划的期限不得低于 90 天。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5525,
+      "end_char": 5595,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十四条 全部资产投资于标准化资产的集合资产管理计划和中国证监会认可的其他资产管理计划,可以按照合同约定每季度多次开放,其主动投资于流动性受限资产的市值在开放退出期内合计不得超过该资产管理计划资产净值的 20%。前款规定的资产管理计划每个交易日开放的,其投资范围、投资比例、投资限制、参与和退出管理应当比照适用公募基金投资运作有关规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5597,
+      "end_char": 5766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十五条 证券期货经营机构应当确保集合资产管理计划开放退出期内,其资产组合中 7 个工作日可变现资产的价值,不低于该计划资产净值的 10%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 5768,
+      "end_char": 5839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十六条 资产管理计划直接或者间接投资于非标准化债权类资产的,非标准化债权类资产的终止日不得晚于封闭式资产管理计划的到期日或者开放式资产管理计划的最近一次开放日。资产管理计划直接或者间接投资于非标准化股权类资产的,应当为封闭式资产管理计划,并明确非标准化股权类资产的退出安排。非标准化股权类资产的退出日不得晚于封闭式资产管理计划的到期日。非标准化股权类资产无法按照约定退出的,资产管理计划可以延期清算,也可以按照投资者持有份额占总份额的比例或者资产管理合同的约定,将其持有的非标准化股权类资产分配给投资者,但不得违反《证券法》关于公开发行的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 5841,
+      "end_char": 6115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十七条 封闭式资产管理计划存续期间,其所投资的非标准化资产部分到期、终止或者退出的,证券期货经营机构可以按照资产管理合同约定,对到期、终止或者退出的非标准化资产进行清算,以货币资金形式分配给投资者,但不得允许投资者提前退出或者变相提前退出。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 6117,
+      "end_char": 6239,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十八条 开放式集合资产管理计划资产管理合同,应当明确约定计划巨额退出和连续巨额退出的认定标准、退出顺序、退出价格确定、退出款项支付、告知客户方式,以及单个客户大额退出的预约申请等事宜,相关约定应当符合公平、合理、公开的原则。证券期货经营机构经与托管人协商,在确保投资者得到公平对待的前提下,可以依照法律、行政法规、中国证监会规定以及合同约定,延期办理巨额退出申请、暂停接受退出申请、延缓支付退出款项、收取短期赎回费,或者采取中国证监会认可的其他流动性管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 6241,
+      "end_char": 6473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十九条 资产管理计划投资于同一发行人及其关联方发行的债券的比例超过其净资产 50%的,该资产管理计划的总资产不得超过其净资产的 120%。资产管理计划投资于国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种不受前述规定限制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 6475,
+      "end_char": 6600,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第三十条 证券期货经营机构将资产管理计划资产投资于本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方发行的证券或者承销期内承销的证券,应当建立健全内部审批机制和评估机制,并应当遵循投资者利益优先原则,事先取得投资者的同意,事后告知投资者和托管人,并采取切实有效措施,防范利益冲突,保护投资者合法权益。除前款规定外,证券期货经营机构不得将其管理的资产管理计划资产,直接或者通过投资其他资产管理计划等间接形式,为本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方提供或者变相提供融资。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元,并且事先取得投资者同意的资产管理计划除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 6602,
+      "end_char": 6917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第三十一条 证券期货经营机构董事、监事、从业人员及其配偶不得参与本公司管理的单一资产管理计划。证券期货经营机构董事、监事、从业人员及其配偶、控股股东、实际控制人或者其他关联方参与证券期货经营机构设立的资产管理计划,证券期货经营机构应当向投资者进行披露,对该资产管理计划账户进行监控,并及时向中国证监会相关派出机构报告。证券期货经营机构管理的分级资产管理计划资产,不得直接或者间接为该分级资产管理计划劣后级投资者及其控股股东、实际控制人或者其他关联方提供或者变相提供融资。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 6919,
+      "end_char": 7154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十二条 固定收益类、权益类、期货和衍生品类资产管理计划存续期间,为规避特定风险并经全体投资者同意的,投资于对应类别资产的比例可以低于计划总资产 80%,但不得持续 6个月低于计划总资产 80%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 7156,
+      "end_char": 7255,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十三条 资产管理计划不得直接或者间接投资于违反国家产业政策、环境保护政策的项目(证券市场投资除外),包括但不限于以下情形:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 7257,
+      "end_char": 7320,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(一)投资项目被列入国家发展和改革委员会发布的淘汰类产业目录;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 7322,
+      "end_char": 7353,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(二)投资项目违反国家环境保护政策要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7355,
+      "end_char": 7375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(三)通过穿透核查,资产管理计划最终投向上述投资项目。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7377,
+      "end_char": 7404,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第三十四条 固定收益类资产管理计划优先级与劣后级的比例不得超过 3:1,权益类资产管理计划优先级与劣后级的比例不得超过 1:1,期货和衍生品类、混合类资产管理计划优先级与劣后级的比例不得超过 2:1。分级资产管理计划若存在中间级份额,中间级份额应当计入优先级份额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7406,
+      "end_char": 7538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "article",
+      "text": "第三十五条 分级资产管理计划不得投资其他分级或者结构化金融产品,不得直接或者间接对优先级份额认购者提供保本保收益安排。证券期货经营机构不得违背风险收益相匹配原则,利用分级资产管理计划向特定一个或多个劣后级投资者输送利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7540,
+      "end_char": 7650,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十六条 资产管理计划的投资顾问应当为依法可以从事资产管理业务的证券期货经营机构、商业银行资产管理机构、保险资产管理机构以及中国证监会认可的其他金融机构,或者同时符合以下条件的私募证券投资基金管理人:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7652,
+      "end_char": 7753,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(一)在证券投资基金业协会登记满 1 年、无重大违法违规记录的会员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7755,
+      "end_char": 7789,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(二)具备 3 年以上连续可追溯证券、期货投资管理业绩且无不良从业记录的投资管理人员不少于 3 人;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7791,
+      "end_char": 7841,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(三)中国证监会规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7843,
+      "end_char": 7859,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第三十七条 证券期货经营机构应当对投资顾问的投资建议进行审查,不得由投资顾问直接执行投资指令。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7861,
+      "end_char": 7908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "证券期货经营机构不得允许投资顾问及其关联方以其自有资金或者募集资金投资于分级资产管理计划的劣后级份额,不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 7910,
+      "end_char": 7999,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第三十八条 资产管理计划应当按照《企业会计准则》、《指导意见》以及中国证监会关于资产管理计划对金融工具进行核算与估值的规定、资产管理计划净值计价及风险控制要求,确认和计量资产管理计划净值。证券期货经营机构应当定期对资产管理计划估值执行效果进行评估,必要时调整完善,保证公平、合理。当有充足证据表明资产管理计划相关资产的计量方法已不能真实公允反映其价值时,证券期货经营机构应当与托管人进行协商,及时采用公允价值计量方法对资产管理计划资产净值进行调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8001,
+      "end_char": 8225,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十九条 证券期货经营机构应当对每个资产管理计划单独管理、单独建账、单独核算,不得有以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8227,
+      "end_char": 8275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "(一)将不同资产管理计划进行混同运作,或者出现资金与资产无法明确对应的其他情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8277,
+      "end_char": 8317,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "(二)未按规定进行合理估值,脱离实际投资收益进行分离定价;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8319,
+      "end_char": 8348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(三)未产生实际投资收益,仅以后期投资者的投资资金向前期投资者进行兑付;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8350,
+      "end_char": 8386,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(四)资产管理计划发生兑付风险时通过开放参与或者滚动发行等方式由后期投资者承担风险;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8388,
+      "end_char": 8430,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(五)法律、行政法规和中国证监会禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8432,
+      "end_char": 8456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第四十条 资产管理计划发生的费用,可以按照资产管理合同的约定,在计划资产中列支。资产管理计划成立前发生的费用,不得在计划资产中列支,专门投资于未上市企业股权的资产管理计划聘请专业服务机构等事项所支出的合理费用除外。存续期间发生的与募集有关的费用,不得在计划资产中列支。证券期货经营机构应当根据资产管理计划的投资范围、投资策略、产品结构等因素设定合理的管理费率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8458,
+      "end_char": 8638,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第四十一条 证券期货经营机构可以与投资者在资产管理合同中约定提取业绩报酬,业绩报酬应当计入管理费。证券期货经营机构应当坚持公平对待投资者、长期业绩导向和适当激励原则,合理设定业绩报酬的提取频率、比例,以及包括业绩报酬在内的管理费的收取比例上限,确保业绩报酬提取与资产管理计划的存续期限、收益分配和投资运作特征相匹配。业绩报酬应当从分红资金、退出资金或清算资金中提取,从分红资金中提取业绩报酬的频率不得超过每 6 个月一次。业绩报酬的提取比例不得超过计提基准以上投资收益的 60%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8640,
+      "end_char": 8880,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "article",
+      "text": "第四十二条 证券期货经营机构应当按照资产管理合同的约定向投资者提供资产管理计划年度报告,披露报告期内资产管理计划运作情况,包括但不限于下列信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8882,
+      "end_char": 8954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(一)管理人履职报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8956,
+      "end_char": 8967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(二)托管人履职报告(如适用);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8969,
+      "end_char": 8985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(三)资产管理计划投资表现;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8987,
+      "end_char": 9001,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(四)资产管理计划投资组合报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 9003,
+      "end_char": 9019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(五)资产管理计划财务会计报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9021,
+      "end_char": 9037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(六)资产管理计划投资收益分配情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9039,
+      "end_char": 9057,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(七)投资经理变更、重大关联交易等涉及投资者权益的重大事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9059,
+      "end_char": 9089,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(八)中国证监会规定的其他事项。资产管理计划季度报告应当披露前款除第(五)项之外的其他信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9091,
+      "end_char": 9137,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "article",
+      "text": "第四十三条 证券期货经营机构应当按照《指导意见》的规定,向中国人民银行报送资产管理计划信息,并接受中国人民银行对资产管理计划统计工作的监督检查。期货公司及其子公司应当将其按照《管理办法》第七十三条规定报送的资产管理计划信息以及私募资产管理业务管理季度报告、年度报告,抄报期货市场监控中心。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9139,
+      "end_char": 9283,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第四十四条 证券期货经营机构应当在本公司及相关行业协会网站对其私募资产管理业务资格及从业人员信息等基本情况进行公示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9285,
+      "end_char": 9343,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "article",
+      "text": "第四十五条 证券期货经营机构应当针对私募资产管理业务的主要业务人员和相关管理人员建立收入递延支付机制,合理确定收入递延支付标准、递延支付年限和比例。递延支付年限原则上不少于 3 年,递延支付的收入金额原则上不少于 40%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9345,
+      "end_char": 9456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "article",
+      "text": "第四十六条 证券期货经营机构、托管人、销售机构和投资顾问等服务机构违反本规定的,中国证监会及相关派出机构可以根据《管理办法》等规定,依法对其采取责令改正、监管谈话、出具警示函、责令定期报告等措施;依法对直接负责的主管人员和其他直接责任人员,采取监管谈话、出具警示函、认定为不适当人选等措施。证券期货经营机构违反本规定,依法应予行政处罚的,依照有关规定进行行政处罚;涉嫌犯罪的,依法移送司法机关,追究刑事责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9458,
+      "end_char": 9662,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第四十七条 本规定下列用语的含义:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9664,
+      "end_char": 9681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(一)专门投资于未上市企业股权的资产管理计划,是指投资于未上市企业股权的比例不低于其总资产 80%的资产管理计划。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9683,
+      "end_char": 9740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(二)家庭金融总资产,是指全体家庭成员共有的全部金融资产,包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货和衍生品等。家庭金融净资产是指家庭金融总资产减去全体家庭成员的全部负债。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9742,
+      "end_char": 9851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(三)流动性受限资产,是指由于法律法规、监管、合同或者操作障碍等原因无法以合理价格予以变现的资产,包括到期日在 10 个交易日以上的逆回购与银行定期存款(含协议约定有条件提前支取的银行存款)、资产支持证券(票据)、流动受限的新股以及非公开发行股票、停牌股票、因发行人债务违约无法进行转让或交易的债券和非金融企业债务融资工具等资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9853,
+      "end_char": 10018,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(四)7 个工作日可变现资产,包括可在交易所、银行间市场正常交易的股票、债券、非金融企业债务融资工具、期货及标准化期权合约和同业存单,7 个工作日内到期或者可支取的逆回购、银行存款,7 个工作日内能够确认收到的各类应收款项等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 10020,
+      "end_char": 10133,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(五)单一融资主体及其关联方的非标准化资产,视为同一资产合并计算;关联方按照《企业会计准则》的规定确定;专业投资者为私募资产管理产品的,穿透认定该私募资产管理产品的投资者是否符合本规定第十五条第二款、第三十条第二款规定的条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 10135,
+      "end_char": 10248,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第四十八条 证券期货经营机构设立特定目的公司或者合伙企业从事私募资产管理业务的,参照适用本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 10250,
+      "end_char": 10298,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "article",
+      "text": "第四十九条 本规定自 2023 年 3 月 1 日起施行。《证券期货经营机构私募资产管理计划运作管理规定》(证监会公告〔2018〕31 号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 10300,
+      "end_char": 10375,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "证券期货经营机构私募资产管理计划运作管理规定(2018 年 10 月 22 日证监会公告〔2018〕31 号公布 2023年 1 月 12 日证监会公告〔2023〕2 号修订)\n\n第一条 为规范证券期货经营机构私募资产管理计划(以下简称资产管理计划)运作,强化风险管控,保护投资者及相关当事人的合法权益,根据《中华人民共和国证券法》(以下简称《证券法》)、《中华人民共和国证券投资基金法》、《中华人民共和国期货和衍生品法》、《证券公司监督管理条例》、《期货交易管理条例》、《证券期货经营机构私募资产管理业务管理办法》(证监会令第 203 号,以下简称《管理办法》)、《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106 号,以下简称《指导意见》)及相关法律法规,制定本规定。\n\n第二条 证券期货经营机构资产管理计划募集、投资、风险管理、估值核算、信息披露以及其他运作活动,适用本规定。\n\n第三条 资产管理计划应当向合格投资者非公开募集。合格投资者是指具备相应风险识别能力和风险承受能力,投资于单只资产管理计划不低于一定金额且符合下列条件的自然人、法人或者其他组织:\n\n(一)具有 2 年以上投资经历,且满足下列三项条件之一的自然人:家庭金融净资产不低于 300 万元,家庭金融资产不低于500 万元,或者近 3 年本人年均收入不低于 40 万元;\n\n(二)最近 1 年末净资产不低于 1000 万元的法人单位;\n\n(三)依法设立并接受国务院金融监督管理机构监管的机构,包括证券公司及其子公司、基金管理公司及其子公司、期货公司及其子公司、在中国证券投资基金业协会(以下简称证券投资基金业协会)登记的私募基金管理人、商业银行、商业银行理财子公司、金融资产投资公司、信托公司、保险公司、保险资产管理机构、财务公司及中国证监会认定的其他机构;\n\n(四)接受国务院金融监督管理机构监管的机构发行的资产管理产品;\n\n(五)基本养老金、社会保障基金、年金基金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII);\n\n(六)中国证监会视为合格投资者的其他情形。合格投资者投资于单只固定收益类资产管理计划的金额不低于 30 万元,投资于单只混合类资产管理计划的金额不低于 40万元,投资于单只权益类、期货和衍生品类资产管理计划的金额不低于 100 万元。资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产的,接受单个合格投资者参与资金的金额不低于 100 万元。资产管理计划接受其他资产管理产品参与的,不合并计算其他资产管理产品的投资者人数,但应当有效识别资产管理计划的实际投资者与最终资金来源。\n\n第四条 证券期货经营机构、接受证券期货经营机构委托销售资产管理计划的机构(以下简称销售机构)应当充分了解投资者的资金来源、个人及家庭金融资产、负债等情况,并采取必要手段进行核查验证,确保投资者符合本规定第三条规定的条件。\n\n第五条 资产管理计划的初始募集规模不得低于 1000 万元。集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 60 天,专门投资于未上市企业股权的集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 12 个月。封闭式资产管理计划的投资者可以分期缴付参与资金,但应当在资产管理合同中事先约定分期缴付资金的有关安排,并明确相应的违约责任。单个投资者首期缴付金额不得低于合格投资者参与单个资产管理计划的最低投资金额,所有投资者首期缴付金额合计不得少于 1000 万元。\n\n第六条 专门投资于未上市企业股权的封闭式资产管理计划,符合以下条件的,可以扩大募集规模:\n\n(一)资产管理计划已成立且运作规范,证券期货经营机构、托管人未违反法律、行政法规、中国证监会规定和资产管理合同的约定;\n\n(二)扩大募集时处于合同约定的投资期内;\n\n(三)扩大募集的资金规模、频率符合证券投资基金业协会相关要求;\n\n(四)按照资产管理合同约定的方式事先取得全体投资者和托管人的同意;\n\n(五)不存在未按规定进行合理估值、通过扩大募集规模向新参与投资者转移风险、亏损或者输送利益的情形;\n\n(六)中国证监会规定的其他条件。封闭式资产管理计划扩大募集规模的,证券期货经营机构应当依法履行信息披露义务,向投资者披露扩募资金的来源、规模、用途等信息。\n\n第七条 证券期货经营机构设立资产管理计划,应当编制计划说明书,列明以下内容:\n\n(一)资产管理计划名称和类型;\n\n(二)管理人与托管人概况、聘用投资顾问等情况;\n\n(三)资产管理计划的投资范围、投资策略和投资限制情况,投资风险揭示;\n\n(四)收益分配和风险承担安排;\n\n(五)管理人、托管人报酬,以及其他有关费用的计提标准和计提方式;\n\n(六)投资者承担的费用和费率,以及投资者的重要权利和义务;\n\n(七)募集期间;\n\n(八)信息披露的内容、方式和频率;\n\n(九)利益冲突情况以及可能影响投资者合法权益的其他重要事项;\n\n(十)中国证监会规定的其他事项。\n\n第八条 证券期货经营机构设立资产管理计划,应当制作风险揭示书。风险揭示书的内容应当具有针对性,表述应当清晰、明确、易懂,并以醒目方式充分揭示资产管理计划的市场风险、信用风险、流动性风险、操作风险、关联交易的风险、聘请投资顾问的特定风险等各类风险。\n\n第九条 资产管理计划应当按照规定开立资金账户、证券账户、期货账户和其他账户,并应当按照证券投资基金业协会有关规定命名。\n\n第十条 证券期货经营机构自有资金参与、退出集合资产管理计划的,应当提前 5 个工作日告知全体投资者和托管人,并取得其同意;证券期货经营机构自有资金参与集合资产管理计划的,持有期限不得少于 6 个月。证券期货经营机构及其子公司以自有资金参与其自身或其子公司管理的单个集合资产管理计划的份额合计不得超过该资产管理计划总份额的 50%。中国证监会对证券期货经营机构自有资金投资比例另有规定的,从其规定。因集合资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当依照中国证监会规定及资产管理合同的约定及时调整达标。为应对集合资产管理计划巨额赎回以解决流动性风险,或者中国证监会认可的其他情形,在不存在利益冲突并遵守合同约定的前提下,证券期货经营机构及其子公司以自有资金参与及其后续退出集合资产管理计划可不受本条第一款、第二款规定的限制,但应当及时告知投资者和托管人,并向中国证监会相关派出机构报告。\n\n第十一条 份额登记机构应当妥善保存登记数据,并将集合资产管理计划投资者名称、身份信息以及集合资产管理计划份额明细等数据备份至中国证监会认定的机构。其保存期限自集合资产管理计划账户销户之日起不得少于 20 年。\n\n第十二条 证券期货经营机构应当及时将投资者参与资金划转至资产管理计划托管账户。单一资产管理计划可以约定不聘请托管机构进行托管,但应当在资产管理合同中明确保障资产管理计划资产安全的制度措施和纠纷解决机制。投资于《管理办法》第三十八条第(五)项规定资产的资产管理计划,应当在资产管理合同中准确、合理界定托管人安全保管资产管理计划财产、监督管理人投资运作等职责,并向投资者充分揭示风险。\n\n第十三条 资产管理合同应当明确约定资产管理计划的建仓期。集合资产管理计划的建仓期自产品成立之日起不得超过 6个月,专门投资于未上市企业股权的集合资产管理计划除外。建仓期的投资活动,应当符合资产管理合同约定的投向和资产管理计划的风险收益特征。以现金管理为目的,投资于银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券、货币市场基金等中国证监会认可的投资品种的除外。建仓期结束后,资产管理计划的资产组合应当符合法律、行政法规、中国证监会规定和合同约定的投向和比例。\n\n第十四条 证券期货经营机构应当明确资产管理计划投资决策流程与授权管理制度,建立、维护投资对象与交易对手备选库,设定清晰的清算流程和资金划转路径,对资产管理计划账户日常交易情况进行风险识别、监测,严格执行风险控制措施和投资交易复核程序,保证投资决策按照法律、行政法规、中国证监会的规定以及合同约定执行。资产管理计划在证券期货等交易所进行投资交易的,应当遵守交易所的相关规定。在交易所以外进行投资交易的,应当遵守相关管理规定。证券期货经营机构应当对资产管理计划账户内的资金、证券是否充足进行审查。资产管理计划资金账户内的资金不足的,不得进行证券买入委托或期货买入卖出委托;资产管理计划证券账户内的证券不足的,不得进行证券卖出委托。\n\n第十五条 一个集合资产管理计划投资于同一资产的资金,不得超过该计划资产净值的 25%。除以收购公司为目的设立的资产管理计划、专门投资于未上市企业股权的资产管理计划外,同一证券期货经营机构管理的全部集合资产管理计划投资于同一资产的资金,不得超过该资产的 25%。银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种除外。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元的封闭式集合资产管理计划,以及完全按照有关指数的构成比例进行证券投资的资产管理计划等中国证监会认可的其他集合资产管理计划,不受前款规定的投资比例限制。同一证券期货经营机构管理的全部资产管理计划及公开募集证券投资基金(以下简称公募基金)合计持有单一上市公司发行的股票不得超过该上市公司可流通股票的 30%。完全按照有关指数的构成比例进行证券投资的资产管理计划、公募基金,以及中国证监会认定的其他投资组合可不受前述比例限制。\n\n第十六条 资产管理计划参与股票、债券、可转换公司债券、可交换公司债券等证券发行申购时,单个资产管理计划所申报的金额原则上不得超过该资产管理计划的总资产,单个资产管理计划所申报的数量原则上不得超过拟发行公司本次发行的总量。同一证券期货经营机构管理的全部资产管理计划投资于非标准化债权类资产的资金不得超过其管理的全部资产管理计划净资产的 35%。因证券市场波动、资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当及时报告中国证监会相关派出机构,且在调整达标前不得新增投资于非标准化债权类资产。同一证券期货经营机构管理的全部资产管理计划投资于同一非标准化债权类资产的资金合计不得超过 300 亿元。证券期货经营机构依照《管理办法》第十条、本规定第十七条设立的子公司,按照其与证券期货经营机构合并计算的口径,适用本条第二款、第三款的规定。\n\n第十七条 证券公司从事私募资产管理业务投资于未上市企业股权的,应当符合中国证监会规定的条件,并通过设立专门的私募投资基金管理子公司等进行。期货公司及其子公司从事私募资产管理业务,不得投资于《管理办法》第三十八条第(五)项规定资产,最近两期分类评价为 A 类 AA 级的期货公司及其子公司以及中国证监会另有规定的除外。基金管理公司从事私募资产管理业务投资于《管理办法》第三十八条第(五)项规定资产的,应当符合中国证监会规定的条件,并通过设立专门的子公司进行。\n\n第十八条 资产管理计划投资于其他资产管理产品的,计算该资产管理计划的总资产时应当按照穿透原则合并计算所投资资产管理产品的总资产。资产管理计划投资于其他私募资产管理产品的,该资产管理计划按照穿透原则合并计算的投资同一资产的比例以及投资同一或同类资产的金额,应当符合《管理办法》及中国证监会相关规定。资产管理计划应当按照所投资资产管理产品披露投资组合的频率,及时更新计算该资产管理计划所投资资产的金额或比例。\n\n第十九条 资产管理计划参与证券逆回购交易的,证券期货经营机构应当加强流动性风险和交易对手风险的管理。资产管理计划应当合理分散逆回购交易的到期日、交易对手及回购证券的集中度。证券期货经营机构应当按照穿透原则对交易对手的财务状况、偿付能力及杠杆水平等进行必要的尽职调查,对不同的交易对手实施交易额度管理并进行动态调整。证券期货经营机构应当建立健全证券逆回购交易质押品管理制度,根据质押品资质审慎确定质押率水平,持续监测质押品的风险状况与价值变动,质押品按公允价值计算应当足额。\n\n第二十条 资产管理计划投资于《管理办法》第三十八条第\n\n(五)项规定的非标准化资产的,所投资的资产应当合法、真实、有效、可特定化,原则上应当由有权机关进行确权登记。资产管理计划不得开展明股实债投资。资产管理计划不得投资于法律依据不充分的收(受)益权。资产管理计划投资于不动产、特许收费权、经营权等基础资产的收(受)益权的,应当以基础资产产生的独立、持续、可预测的现金流实现收(受)益权。\n\n第二十一条 资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产,涉及抵押、质押担保的,应当设置合理的抵押、质押比例,及时办理抵押、质押登记,确保抵押、质押真实、有效、充分。资产管理计划原则上不得接受收(受)益权、特殊目的机构股权作为抵押、质押标的资产。\n\n第二十二条 专门投资于未上市企业股权的资产管理计划可以通过特殊目的载体间接投资于未上市企业股权。特殊目的载体应当为直接投资于作为底层资产的未上市企业股权的公司或者合伙企业,不得承担资金募集功能,不得收取管理费及业绩报酬。特殊目的载体发生设立、变更及注销等事项的,证券期货经营机构应当在 15 个工作日内报告中国证监会相关派出机构。\n\n第二十三条 证券期货经营机构应当加强资产管理计划的久期管理,不得设立不设存续期限的资产管理计划。封闭式资产管理计划的期限不得低于 90 天。\n\n第二十四条 全部资产投资于标准化资产的集合资产管理计划和中国证监会认可的其他资产管理计划,可以按照合同约定每季度多次开放,其主动投资于流动性受限资产的市值在开放退出期内合计不得超过该资产管理计划资产净值的 20%。前款规定的资产管理计划每个交易日开放的,其投资范围、投资比例、投资限制、参与和退出管理应当比照适用公募基金投资运作有关规则。\n\n第二十五条 证券期货经营机构应当确保集合资产管理计划开放退出期内,其资产组合中 7 个工作日可变现资产的价值,不低于该计划资产净值的 10%。\n\n第二十六条 资产管理计划直接或者间接投资于非标准化债权类资产的,非标准化债权类资产的终止日不得晚于封闭式资产管理计划的到期日或者开放式资产管理计划的最近一次开放日。资产管理计划直接或者间接投资于非标准化股权类资产的,应当为封闭式资产管理计划,并明确非标准化股权类资产的退出安排。非标准化股权类资产的退出日不得晚于封闭式资产管理计划的到期日。非标准化股权类资产无法按照约定退出的,资产管理计划可以延期清算,也可以按照投资者持有份额占总份额的比例或者资产管理合同的约定,将其持有的非标准化股权类资产分配给投资者,但不得违反《证券法》关于公开发行的规定。\n\n第二十七条 封闭式资产管理计划存续期间,其所投资的非标准化资产部分到期、终止或者退出的,证券期货经营机构可以按照资产管理合同约定,对到期、终止或者退出的非标准化资产进行清算,以货币资金形式分配给投资者,但不得允许投资者提前退出或者变相提前退出。\n\n第二十八条 开放式集合资产管理计划资产管理合同,应当明确约定计划巨额退出和连续巨额退出的认定标准、退出顺序、退出价格确定、退出款项支付、告知客户方式,以及单个客户大额退出的预约申请等事宜,相关约定应当符合公平、合理、公开的原则。证券期货经营机构经与托管人协商,在确保投资者得到公平对待的前提下,可以依照法律、行政法规、中国证监会规定以及合同约定,延期办理巨额退出申请、暂停接受退出申请、延缓支付退出款项、收取短期赎回费,或者采取中国证监会认可的其他流动性管理措施。\n\n第二十九条 资产管理计划投资于同一发行人及其关联方发行的债券的比例超过其净资产 50%的,该资产管理计划的总资产不得超过其净资产的 120%。资产管理计划投资于国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种不受前述规定限制。\n\n第三十条 证券期货经营机构将资产管理计划资产投资于本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方发行的证券或者承销期内承销的证券,应当建立健全内部审批机制和评估机制,并应当遵循投资者利益优先原则,事先取得投资者的同意,事后告知投资者和托管人,并采取切实有效措施,防范利益冲突,保护投资者合法权益。除前款规定外,证券期货经营机构不得将其管理的资产管理计划资产,直接或者通过投资其他资产管理计划等间接形式,为本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方提供或者变相提供融资。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元,并且事先取得投资者同意的资产管理计划除外。\n\n第三十一条 证券期货经营机构董事、监事、从业人员及其配偶不得参与本公司管理的单一资产管理计划。证券期货经营机构董事、监事、从业人员及其配偶、控股股东、实际控制人或者其他关联方参与证券期货经营机构设立的资产管理计划,证券期货经营机构应当向投资者进行披露,对该资产管理计划账户进行监控,并及时向中国证监会相关派出机构报告。证券期货经营机构管理的分级资产管理计划资产,不得直接或者间接为该分级资产管理计划劣后级投资者及其控股股东、实际控制人或者其他关联方提供或者变相提供融资。\n\n第三十二条 固定收益类、权益类、期货和衍生品类资产管理计划存续期间,为规避特定风险并经全体投资者同意的,投资于对应类别资产的比例可以低于计划总资产 80%,但不得持续 6个月低于计划总资产 80%。\n\n第三十三条 资产管理计划不得直接或者间接投资于违反国家产业政策、环境保护政策的项目(证券市场投资除外),包括但不限于以下情形:\n\n(一)投资项目被列入国家发展和改革委员会发布的淘汰类产业目录;\n\n(二)投资项目违反国家环境保护政策要求;\n\n(三)通过穿透核查,资产管理计划最终投向上述投资项目。\n\n第三十四条 固定收益类资产管理计划优先级与劣后级的比例不得超过 3:1,权益类资产管理计划优先级与劣后级的比例不得超过 1:1,期货和衍生品类、混合类资产管理计划优先级与劣后级的比例不得超过 2:1。分级资产管理计划若存在中间级份额,中间级份额应当计入优先级份额。\n\n第三十五条 分级资产管理计划不得投资其他分级或者结构化金融产品,不得直接或者间接对优先级份额认购者提供保本保收益安排。证券期货经营机构不得违背风险收益相匹配原则,利用分级资产管理计划向特定一个或多个劣后级投资者输送利益。\n\n第三十六条 资产管理计划的投资顾问应当为依法可以从事资产管理业务的证券期货经营机构、商业银行资产管理机构、保险资产管理机构以及中国证监会认可的其他金融机构,或者同时符合以下条件的私募证券投资基金管理人:\n\n(一)在证券投资基金业协会登记满 1 年、无重大违法违规记录的会员;\n\n(二)具备 3 年以上连续可追溯证券、期货投资管理业绩且无不良从业记录的投资管理人员不少于 3 人;\n\n(三)中国证监会规定的其他条件。\n\n第三十七条 证券期货经营机构应当对投资顾问的投资建议进行审查,不得由投资顾问直接执行投资指令。\n\n证券期货经营机构不得允许投资顾问及其关联方以其自有资金或者募集资金投资于分级资产管理计划的劣后级份额,不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。\n\n第三十八条 资产管理计划应当按照《企业会计准则》、《指导意见》以及中国证监会关于资产管理计划对金融工具进行核算与估值的规定、资产管理计划净值计价及风险控制要求,确认和计量资产管理计划净值。证券期货经营机构应当定期对资产管理计划估值执行效果进行评估,必要时调整完善,保证公平、合理。当有充足证据表明资产管理计划相关资产的计量方法已不能真实公允反映其价值时,证券期货经营机构应当与托管人进行协商,及时采用公允价值计量方法对资产管理计划资产净值进行调整。\n\n第三十九条 证券期货经营机构应当对每个资产管理计划单独管理、单独建账、单独核算,不得有以下行为:\n\n(一)将不同资产管理计划进行混同运作,或者出现资金与资产无法明确对应的其他情形;\n\n(二)未按规定进行合理估值,脱离实际投资收益进行分离定价;\n\n(三)未产生实际投资收益,仅以后期投资者的投资资金向前期投资者进行兑付;\n\n(四)资产管理计划发生兑付风险时通过开放参与或者滚动发行等方式由后期投资者承担风险;\n\n(五)法律、行政法规和中国证监会禁止的其他行为。\n\n第四十条 资产管理计划发生的费用,可以按照资产管理合同的约定,在计划资产中列支。资产管理计划成立前发生的费用,不得在计划资产中列支,专门投资于未上市企业股权的资产管理计划聘请专业服务机构等事项所支出的合理费用除外。存续期间发生的与募集有关的费用,不得在计划资产中列支。证券期货经营机构应当根据资产管理计划的投资范围、投资策略、产品结构等因素设定合理的管理费率。\n\n第四十一条 证券期货经营机构可以与投资者在资产管理合同中约定提取业绩报酬,业绩报酬应当计入管理费。证券期货经营机构应当坚持公平对待投资者、长期业绩导向和适当激励原则,合理设定业绩报酬的提取频率、比例,以及包括业绩报酬在内的管理费的收取比例上限,确保业绩报酬提取与资产管理计划的存续期限、收益分配和投资运作特征相匹配。业绩报酬应当从分红资金、退出资金或清算资金中提取,从分红资金中提取业绩报酬的频率不得超过每 6 个月一次。业绩报酬的提取比例不得超过计提基准以上投资收益的 60%。\n\n第四十二条 证券期货经营机构应当按照资产管理合同的约定向投资者提供资产管理计划年度报告,披露报告期内资产管理计划运作情况,包括但不限于下列信息:\n\n(一)管理人履职报告;\n\n(二)托管人履职报告(如适用);\n\n(三)资产管理计划投资表现;\n\n(四)资产管理计划投资组合报告;\n\n(五)资产管理计划财务会计报告;\n\n(六)资产管理计划投资收益分配情况;\n\n(七)投资经理变更、重大关联交易等涉及投资者权益的重大事项;\n\n(八)中国证监会规定的其他事项。资产管理计划季度报告应当披露前款除第(五)项之外的其他信息。\n\n第四十三条 证券期货经营机构应当按照《指导意见》的规定,向中国人民银行报送资产管理计划信息,并接受中国人民银行对资产管理计划统计工作的监督检查。期货公司及其子公司应当将其按照《管理办法》第七十三条规定报送的资产管理计划信息以及私募资产管理业务管理季度报告、年度报告,抄报期货市场监控中心。\n\n第四十四条 证券期货经营机构应当在本公司及相关行业协会网站对其私募资产管理业务资格及从业人员信息等基本情况进行公示。\n\n第四十五条 证券期货经营机构应当针对私募资产管理业务的主要业务人员和相关管理人员建立收入递延支付机制,合理确定收入递延支付标准、递延支付年限和比例。递延支付年限原则上不少于 3 年,递延支付的收入金额原则上不少于 40%。\n\n第四十六条 证券期货经营机构、托管人、销售机构和投资顾问等服务机构违反本规定的,中国证监会及相关派出机构可以根据《管理办法》等规定,依法对其采取责令改正、监管谈话、出具警示函、责令定期报告等措施;依法对直接负责的主管人员和其他直接责任人员,采取监管谈话、出具警示函、认定为不适当人选等措施。证券期货经营机构违反本规定,依法应予行政处罚的,依照有关规定进行行政处罚;涉嫌犯罪的,依法移送司法机关,追究刑事责任。\n\n第四十七条 本规定下列用语的含义:\n\n(一)专门投资于未上市企业股权的资产管理计划,是指投资于未上市企业股权的比例不低于其总资产 80%的资产管理计划。\n\n(二)家庭金融总资产,是指全体家庭成员共有的全部金融资产,包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货和衍生品等。家庭金融净资产是指家庭金融总资产减去全体家庭成员的全部负债。\n\n(三)流动性受限资产,是指由于法律法规、监管、合同或者操作障碍等原因无法以合理价格予以变现的资产,包括到期日在 10 个交易日以上的逆回购与银行定期存款(含协议约定有条件提前支取的银行存款)、资产支持证券(票据)、流动受限的新股以及非公开发行股票、停牌股票、因发行人债务违约无法进行转让或交易的债券和非金融企业债务融资工具等资产。\n\n(四)7 个工作日可变现资产,包括可在交易所、银行间市场正常交易的股票、债券、非金融企业债务融资工具、期货及标准化期权合约和同业存单,7 个工作日内到期或者可支取的逆回购、银行存款,7 个工作日内能够确认收到的各类应收款项等。\n\n(五)单一融资主体及其关联方的非标准化资产,视为同一资产合并计算;关联方按照《企业会计准则》的规定确定;专业投资者为私募资产管理产品的,穿透认定该私募资产管理产品的投资者是否符合本规定第十五条第二款、第三十条第二款规定的条件。\n\n第四十八条 证券期货经营机构设立特定目的公司或者合伙企业从事私募资产管理业务的,参照适用本规定。\n\n第四十九条 本规定自 2023 年 3 月 1 日起施行。《证券期货经营机构私募资产管理计划运作管理规定》(证监会公告〔2018〕31 号)同时废止。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "证券期货经营机构私募资产管理计划运作管理规定(2018 年 10 月 22 日证监会公告〔2018〕31 号公布 2023年 1 月 12 日证监会公告〔2023〕2 号修订)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 88,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为规范证券期货经营机构私募资产管理计划(以下简称资产管理计划)运作,强化风险管控,保护投资者及相关当事人的合法权益,根据《中华人民共和国证券法》(以下简称《证券法》)、《中华人民共和国证券投资基金法》、《中华人民共和国期货和衍生品法》、《证券公司监督管理条例》、《期货交易管理条例》、《证券期货经营机构私募资产管理业务管理办法》(证监会令第 203 号,以下简称《管理办法》)、《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106 号,以下简称《指导意见》)及相关法律法规,制定本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 90,
+      "end_char": 344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 证券期货经营机构资产管理计划募集、投资、风险管理、估值核算、信息披露以及其他运作活动,适用本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 346,
+      "end_char": 399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 资产管理计划应当向合格投资者非公开募集。合格投资者是指具备相应风险识别能力和风险承受能力,投资于单只资产管理计划不低于一定金额且符合下列条件的自然人、法人或者其他组织:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 401,
+      "end_char": 489,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "(一)具有 2 年以上投资经历,且满足下列三项条件之一的自然人:家庭金融净资产不低于 300 万元,家庭金融资产不低于500 万元,或者近 3 年本人年均收入不低于 40 万元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 491,
+      "end_char": 580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(二)最近 1 年末净资产不低于 1000 万元的法人单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 582,
+      "end_char": 612,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(三)依法设立并接受国务院金融监督管理机构监管的机构,包括证券公司及其子公司、基金管理公司及其子公司、期货公司及其子公司、在中国证券投资基金业协会(以下简称证券投资基金业协会)登记的私募基金管理人、商业银行、商业银行理财子公司、金融资产投资公司、信托公司、保险公司、保险资产管理机构、财务公司及中国证监会认定的其他机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 614,
+      "end_char": 774,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(四)接受国务院金融监督管理机构监管的机构发行的资产管理产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 776,
+      "end_char": 807,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(五)基本养老金、社会保障基金、年金基金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 809,
+      "end_char": 883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(六)中国证监会视为合格投资者的其他情形。合格投资者投资于单只固定收益类资产管理计划的金额不低于 30 万元,投资于单只混合类资产管理计划的金额不低于 40万元,投资于单只权益类、期货和衍生品类资产管理计划的金额不低于 100 万元。资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产的,接受单个合格投资者参与资金的金额不低于 100 万元。资产管理计划接受其他资产管理产品参与的,不合并计算其他资产管理产品的投资者人数,但应当有效识别资产管理计划的实际投资者与最终资金来源。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 885,
+      "end_char": 1132,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第四条 证券期货经营机构、接受证券期货经营机构委托销售资产管理计划的机构(以下简称销售机构)应当充分了解投资者的资金来源、个人及家庭金融资产、负债等情况,并采取必要手段进行核查验证,确保投资者符合本规定第三条规定的条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1134,
+      "end_char": 1244,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条 资产管理计划的初始募集规模不得低于 1000 万元。集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 60 天,专门投资于未上市企业股权的集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 12 个月。封闭式资产管理计划的投资者可以分期缴付参与资金,但应当在资产管理合同中事先约定分期缴付资金的有关安排,并明确相应的违约责任。单个投资者首期缴付金额不得低于合格投资者参与单个资产管理计划的最低投资金额,所有投资者首期缴付金额合计不得少于 1000 万元。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1246,
+      "end_char": 1492,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第六条 专门投资于未上市企业股权的封闭式资产管理计划,符合以下条件的,可以扩大募集规模:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1494,
+      "end_char": 1538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(一)资产管理计划已成立且运作规范,证券期货经营机构、托管人未违反法律、行政法规、中国证监会规定和资产管理合同的约定;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1540,
+      "end_char": 1599,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(二)扩大募集时处于合同约定的投资期内;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1601,
+      "end_char": 1621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(三)扩大募集的资金规模、频率符合证券投资基金业协会相关要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1623,
+      "end_char": 1654,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(四)按照资产管理合同约定的方式事先取得全体投资者和托管人的同意;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1656,
+      "end_char": 1689,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(五)不存在未按规定进行合理估值、通过扩大募集规模向新参与投资者转移风险、亏损或者输送利益的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1691,
+      "end_char": 1740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(六)中国证监会规定的其他条件。封闭式资产管理计划扩大募集规模的,证券期货经营机构应当依法履行信息披露义务,向投资者披露扩募资金的来源、规模、用途等信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1742,
+      "end_char": 1819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第七条 证券期货经营机构设立资产管理计划,应当编制计划说明书,列明以下内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1821,
+      "end_char": 1859,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)资产管理计划名称和类型;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1861,
+      "end_char": 1876,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)管理人与托管人概况、聘用投资顾问等情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1878,
+      "end_char": 1901,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)资产管理计划的投资范围、投资策略和投资限制情况,投资风险揭示;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1903,
+      "end_char": 1937,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)收益分配和风险承担安排;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1939,
+      "end_char": 1954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(五)管理人、托管人报酬,以及其他有关费用的计提标准和计提方式;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1956,
+      "end_char": 1988,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(六)投资者承担的费用和费率,以及投资者的重要权利和义务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1990,
+      "end_char": 2019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(七)募集期间;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2021,
+      "end_char": 2029,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(八)信息披露的内容、方式和频率;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2031,
+      "end_char": 2048,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(九)利益冲突情况以及可能影响投资者合法权益的其他重要事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2050,
+      "end_char": 2080,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(十)中国证监会规定的其他事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2082,
+      "end_char": 2098,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第八条 证券期货经营机构设立资产管理计划,应当制作风险揭示书。风险揭示书的内容应当具有针对性,表述应当清晰、明确、易懂,并以醒目方式充分揭示资产管理计划的市场风险、信用风险、流动性风险、操作风险、关联交易的风险、聘请投资顾问的特定风险等各类风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 2100,
+      "end_char": 2223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第九条 资产管理计划应当按照规定开立资金账户、证券账户、期货账户和其他账户,并应当按照证券投资基金业协会有关规定命名。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2225,
+      "end_char": 2284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十条 证券期货经营机构自有资金参与、退出集合资产管理计划的,应当提前 5 个工作日告知全体投资者和托管人,并取得其同意;证券期货经营机构自有资金参与集合资产管理计划的,持有期限不得少于 6 个月。证券期货经营机构及其子公司以自有资金参与其自身或其子公司管理的单个集合资产管理计划的份额合计不得超过该资产管理计划总份额的 50%。中国证监会对证券期货经营机构自有资金投资比例另有规定的,从其规定。因集合资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当依照中国证监会规定及资产管理合同的约定及时调整达标。为应对集合资产管理计划巨额赎回以解决流动性风险,或者中国证监会认可的其他情形,在不存在利益冲突并遵守合同约定的前提下,证券期货经营机构及其子公司以自有资金参与及其后续退出集合资产管理计划可不受本条第一款、第二款规定的限制,但应当及时告知投资者和托管人,并向中国证监会相关派出机构报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2286,
+      "end_char": 2692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十一条 份额登记机构应当妥善保存登记数据,并将集合资产管理计划投资者名称、身份信息以及集合资产管理计划份额明细等数据备份至中国证监会认定的机构。其保存期限自集合资产管理计划账户销户之日起不得少于 20 年。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2694,
+      "end_char": 2798,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十二条 证券期货经营机构应当及时将投资者参与资金划转至资产管理计划托管账户。单一资产管理计划可以约定不聘请托管机构进行托管,但应当在资产管理合同中明确保障资产管理计划资产安全的制度措施和纠纷解决机制。投资于《管理办法》第三十八条第(五)项规定资产的资产管理计划,应当在资产管理合同中准确、合理界定托管人安全保管资产管理计划财产、监督管理人投资运作等职责,并向投资者充分揭示风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2800,
+      "end_char": 2990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十三条 资产管理合同应当明确约定资产管理计划的建仓期。集合资产管理计划的建仓期自产品成立之日起不得超过 6个月,专门投资于未上市企业股权的集合资产管理计划除外。建仓期的投资活动,应当符合资产管理合同约定的投向和资产管理计划的风险收益特征。以现金管理为目的,投资于银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券、货币市场基金等中国证监会认可的投资品种的除外。建仓期结束后,资产管理计划的资产组合应当符合法律、行政法规、中国证监会规定和合同约定的投向和比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2992,
+      "end_char": 3227,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十四条 证券期货经营机构应当明确资产管理计划投资决策流程与授权管理制度,建立、维护投资对象与交易对手备选库,设定清晰的清算流程和资金划转路径,对资产管理计划账户日常交易情况进行风险识别、监测,严格执行风险控制措施和投资交易复核程序,保证投资决策按照法律、行政法规、中国证监会的规定以及合同约定执行。资产管理计划在证券期货等交易所进行投资交易的,应当遵守交易所的相关规定。在交易所以外进行投资交易的,应当遵守相关管理规定。证券期货经营机构应当对资产管理计划账户内的资金、证券是否充足进行审查。资产管理计划资金账户内的资金不足的,不得进行证券买入委托或期货买入卖出委托;资产管理计划证券账户内的证券不足的,不得进行证券卖出委托。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 3229,
+      "end_char": 3542,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十五条 一个集合资产管理计划投资于同一资产的资金,不得超过该计划资产净值的 25%。除以收购公司为目的设立的资产管理计划、专门投资于未上市企业股权的资产管理计划外,同一证券期货经营机构管理的全部集合资产管理计划投资于同一资产的资金,不得超过该资产的 25%。银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种除外。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元的封闭式集合资产管理计划,以及完全按照有关指数的构成比例进行证券投资的资产管理计划等中国证监会认可的其他集合资产管理计划,不受前款规定的投资比例限制。同一证券期货经营机构管理的全部资产管理计划及公开募集证券投资基金(以下简称公募基金)合计持有单一上市公司发行的股票不得超过该上市公司可流通股票的 30%。完全按照有关指数的构成比例进行证券投资的资产管理计划、公募基金,以及中国证监会认定的其他投资组合可不受前述比例限制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3544,
+      "end_char": 3973,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十六条 资产管理计划参与股票、债券、可转换公司债券、可交换公司债券等证券发行申购时,单个资产管理计划所申报的金额原则上不得超过该资产管理计划的总资产,单个资产管理计划所申报的数量原则上不得超过拟发行公司本次发行的总量。同一证券期货经营机构管理的全部资产管理计划投资于非标准化债权类资产的资金不得超过其管理的全部资产管理计划净资产的 35%。因证券市场波动、资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当及时报告中国证监会相关派出机构,且在调整达标前不得新增投资于非标准化债权类资产。同一证券期货经营机构管理的全部资产管理计划投资于同一非标准化债权类资产的资金合计不得超过 300 亿元。证券期货经营机构依照《管理办法》第十条、本规定第十七条设立的子公司,按照其与证券期货经营机构合并计算的口径,适用本条第二款、第三款的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3975,
+      "end_char": 4352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十七条 证券公司从事私募资产管理业务投资于未上市企业股权的,应当符合中国证监会规定的条件,并通过设立专门的私募投资基金管理子公司等进行。期货公司及其子公司从事私募资产管理业务,不得投资于《管理办法》第三十八条第(五)项规定资产,最近两期分类评价为 A 类 AA 级的期货公司及其子公司以及中国证监会另有规定的除外。基金管理公司从事私募资产管理业务投资于《管理办法》第三十八条第(五)项规定资产的,应当符合中国证监会规定的条件,并通过设立专门的子公司进行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 4354,
+      "end_char": 4582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十八条 资产管理计划投资于其他资产管理产品的,计算该资产管理计划的总资产时应当按照穿透原则合并计算所投资资产管理产品的总资产。资产管理计划投资于其他私募资产管理产品的,该资产管理计划按照穿透原则合并计算的投资同一资产的比例以及投资同一或同类资产的金额,应当符合《管理办法》及中国证监会相关规定。资产管理计划应当按照所投资资产管理产品披露投资组合的频率,及时更新计算该资产管理计划所投资资产的金额或比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4584,
+      "end_char": 4786,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十九条 资产管理计划参与证券逆回购交易的,证券期货经营机构应当加强流动性风险和交易对手风险的管理。资产管理计划应当合理分散逆回购交易的到期日、交易对手及回购证券的集中度。证券期货经营机构应当按照穿透原则对交易对手的财务状况、偿付能力及杠杆水平等进行必要的尽职调查,对不同的交易对手实施交易额度管理并进行动态调整。证券期货经营机构应当建立健全证券逆回购交易质押品管理制度,根据质押品资质审慎确定质押率水平,持续监测质押品的风险状况与价值变动,质押品按公允价值计算应当足额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4788,
+      "end_char": 5024,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第二十条 资产管理计划投资于《管理办法》第三十八条第",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 5026,
+      "end_char": 5052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)项规定的非标准化资产的,所投资的资产应当合法、真实、有效、可特定化,原则上应当由有权机关进行确权登记。资产管理计划不得开展明股实债投资。资产管理计划不得投资于法律依据不充分的收(受)益权。资产管理计划投资于不动产、特许收费权、经营权等基础资产的收(受)益权的,应当以基础资产产生的独立、持续、可预测的现金流实现收(受)益权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5054,
+      "end_char": 5219,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十一条 资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产,涉及抵押、质押担保的,应当设置合理的抵押、质押比例,及时办理抵押、质押登记,确保抵押、质押真实、有效、充分。资产管理计划原则上不得接受收(受)益权、特殊目的机构股权作为抵押、质押标的资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5221,
+      "end_char": 5356,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十二条 专门投资于未上市企业股权的资产管理计划可以通过特殊目的载体间接投资于未上市企业股权。特殊目的载体应当为直接投资于作为底层资产的未上市企业股权的公司或者合伙企业,不得承担资金募集功能,不得收取管理费及业绩报酬。特殊目的载体发生设立、变更及注销等事项的,证券期货经营机构应当在 15 个工作日内报告中国证监会相关派出机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5358,
+      "end_char": 5523,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第二十三条 证券期货经营机构应当加强资产管理计划的久期管理,不得设立不设存续期限的资产管理计划。封闭式资产管理计划的期限不得低于 90 天。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5525,
+      "end_char": 5595,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十四条 全部资产投资于标准化资产的集合资产管理计划和中国证监会认可的其他资产管理计划,可以按照合同约定每季度多次开放,其主动投资于流动性受限资产的市值在开放退出期内合计不得超过该资产管理计划资产净值的 20%。前款规定的资产管理计划每个交易日开放的,其投资范围、投资比例、投资限制、参与和退出管理应当比照适用公募基金投资运作有关规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 5597,
+      "end_char": 5766,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十五条 证券期货经营机构应当确保集合资产管理计划开放退出期内,其资产组合中 7 个工作日可变现资产的价值,不低于该计划资产净值的 10%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 5768,
+      "end_char": 5839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十六条 资产管理计划直接或者间接投资于非标准化债权类资产的,非标准化债权类资产的终止日不得晚于封闭式资产管理计划的到期日或者开放式资产管理计划的最近一次开放日。资产管理计划直接或者间接投资于非标准化股权类资产的,应当为封闭式资产管理计划,并明确非标准化股权类资产的退出安排。非标准化股权类资产的退出日不得晚于封闭式资产管理计划的到期日。非标准化股权类资产无法按照约定退出的,资产管理计划可以延期清算,也可以按照投资者持有份额占总份额的比例或者资产管理合同的约定,将其持有的非标准化股权类资产分配给投资者,但不得违反《证券法》关于公开发行的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 5841,
+      "end_char": 6115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十七条 封闭式资产管理计划存续期间,其所投资的非标准化资产部分到期、终止或者退出的,证券期货经营机构可以按照资产管理合同约定,对到期、终止或者退出的非标准化资产进行清算,以货币资金形式分配给投资者,但不得允许投资者提前退出或者变相提前退出。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 6117,
+      "end_char": 6239,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十八条 开放式集合资产管理计划资产管理合同,应当明确约定计划巨额退出和连续巨额退出的认定标准、退出顺序、退出价格确定、退出款项支付、告知客户方式,以及单个客户大额退出的预约申请等事宜,相关约定应当符合公平、合理、公开的原则。证券期货经营机构经与托管人协商,在确保投资者得到公平对待的前提下,可以依照法律、行政法规、中国证监会规定以及合同约定,延期办理巨额退出申请、暂停接受退出申请、延缓支付退出款项、收取短期赎回费,或者采取中国证监会认可的其他流动性管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 6241,
+      "end_char": 6473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十九条 资产管理计划投资于同一发行人及其关联方发行的债券的比例超过其净资产 50%的,该资产管理计划的总资产不得超过其净资产的 120%。资产管理计划投资于国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种不受前述规定限制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 6475,
+      "end_char": 6600,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第三十条 证券期货经营机构将资产管理计划资产投资于本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方发行的证券或者承销期内承销的证券,应当建立健全内部审批机制和评估机制,并应当遵循投资者利益优先原则,事先取得投资者的同意,事后告知投资者和托管人,并采取切实有效措施,防范利益冲突,保护投资者合法权益。除前款规定外,证券期货经营机构不得将其管理的资产管理计划资产,直接或者通过投资其他资产管理计划等间接形式,为本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方提供或者变相提供融资。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元,并且事先取得投资者同意的资产管理计划除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 6602,
+      "end_char": 6917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第三十一条 证券期货经营机构董事、监事、从业人员及其配偶不得参与本公司管理的单一资产管理计划。证券期货经营机构董事、监事、从业人员及其配偶、控股股东、实际控制人或者其他关联方参与证券期货经营机构设立的资产管理计划,证券期货经营机构应当向投资者进行披露,对该资产管理计划账户进行监控,并及时向中国证监会相关派出机构报告。证券期货经营机构管理的分级资产管理计划资产,不得直接或者间接为该分级资产管理计划劣后级投资者及其控股股东、实际控制人或者其他关联方提供或者变相提供融资。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 6919,
+      "end_char": 7154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十二条 固定收益类、权益类、期货和衍生品类资产管理计划存续期间,为规避特定风险并经全体投资者同意的,投资于对应类别资产的比例可以低于计划总资产 80%,但不得持续 6个月低于计划总资产 80%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 7156,
+      "end_char": 7255,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十三条 资产管理计划不得直接或者间接投资于违反国家产业政策、环境保护政策的项目(证券市场投资除外),包括但不限于以下情形:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 7257,
+      "end_char": 7320,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(一)投资项目被列入国家发展和改革委员会发布的淘汰类产业目录;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 7322,
+      "end_char": 7353,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(二)投资项目违反国家环境保护政策要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7355,
+      "end_char": 7375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(三)通过穿透核查,资产管理计划最终投向上述投资项目。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7377,
+      "end_char": 7404,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第三十四条 固定收益类资产管理计划优先级与劣后级的比例不得超过 3:1,权益类资产管理计划优先级与劣后级的比例不得超过 1:1,期货和衍生品类、混合类资产管理计划优先级与劣后级的比例不得超过 2:1。分级资产管理计划若存在中间级份额,中间级份额应当计入优先级份额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7406,
+      "end_char": 7538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "article",
+      "text": "第三十五条 分级资产管理计划不得投资其他分级或者结构化金融产品,不得直接或者间接对优先级份额认购者提供保本保收益安排。证券期货经营机构不得违背风险收益相匹配原则,利用分级资产管理计划向特定一个或多个劣后级投资者输送利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7540,
+      "end_char": 7650,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十六条 资产管理计划的投资顾问应当为依法可以从事资产管理业务的证券期货经营机构、商业银行资产管理机构、保险资产管理机构以及中国证监会认可的其他金融机构,或者同时符合以下条件的私募证券投资基金管理人:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7652,
+      "end_char": 7753,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(一)在证券投资基金业协会登记满 1 年、无重大违法违规记录的会员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7755,
+      "end_char": 7789,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(二)具备 3 年以上连续可追溯证券、期货投资管理业绩且无不良从业记录的投资管理人员不少于 3 人;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7791,
+      "end_char": 7841,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(三)中国证监会规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7843,
+      "end_char": 7859,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第三十七条 证券期货经营机构应当对投资顾问的投资建议进行审查,不得由投资顾问直接执行投资指令。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 7861,
+      "end_char": 7908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "证券期货经营机构不得允许投资顾问及其关联方以其自有资金或者募集资金投资于分级资产管理计划的劣后级份额,不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 7910,
+      "end_char": 7999,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第三十八条 资产管理计划应当按照《企业会计准则》、《指导意见》以及中国证监会关于资产管理计划对金融工具进行核算与估值的规定、资产管理计划净值计价及风险控制要求,确认和计量资产管理计划净值。证券期货经营机构应当定期对资产管理计划估值执行效果进行评估,必要时调整完善,保证公平、合理。当有充足证据表明资产管理计划相关资产的计量方法已不能真实公允反映其价值时,证券期货经营机构应当与托管人进行协商,及时采用公允价值计量方法对资产管理计划资产净值进行调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8001,
+      "end_char": 8225,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十九条 证券期货经营机构应当对每个资产管理计划单独管理、单独建账、单独核算,不得有以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8227,
+      "end_char": 8275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "(一)将不同资产管理计划进行混同运作,或者出现资金与资产无法明确对应的其他情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8277,
+      "end_char": 8317,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "(二)未按规定进行合理估值,脱离实际投资收益进行分离定价;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8319,
+      "end_char": 8348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(三)未产生实际投资收益,仅以后期投资者的投资资金向前期投资者进行兑付;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8350,
+      "end_char": 8386,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(四)资产管理计划发生兑付风险时通过开放参与或者滚动发行等方式由后期投资者承担风险;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 8388,
+      "end_char": 8430,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(五)法律、行政法规和中国证监会禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8432,
+      "end_char": 8456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第四十条 资产管理计划发生的费用,可以按照资产管理合同的约定,在计划资产中列支。资产管理计划成立前发生的费用,不得在计划资产中列支,专门投资于未上市企业股权的资产管理计划聘请专业服务机构等事项所支出的合理费用除外。存续期间发生的与募集有关的费用,不得在计划资产中列支。证券期货经营机构应当根据资产管理计划的投资范围、投资策略、产品结构等因素设定合理的管理费率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8458,
+      "end_char": 8638,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第四十一条 证券期货经营机构可以与投资者在资产管理合同中约定提取业绩报酬,业绩报酬应当计入管理费。证券期货经营机构应当坚持公平对待投资者、长期业绩导向和适当激励原则,合理设定业绩报酬的提取频率、比例,以及包括业绩报酬在内的管理费的收取比例上限,确保业绩报酬提取与资产管理计划的存续期限、收益分配和投资运作特征相匹配。业绩报酬应当从分红资金、退出资金或清算资金中提取,从分红资金中提取业绩报酬的频率不得超过每 6 个月一次。业绩报酬的提取比例不得超过计提基准以上投资收益的 60%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8640,
+      "end_char": 8880,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "article",
+      "text": "第四十二条 证券期货经营机构应当按照资产管理合同的约定向投资者提供资产管理计划年度报告,披露报告期内资产管理计划运作情况,包括但不限于下列信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8882,
+      "end_char": 8954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(一)管理人履职报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8956,
+      "end_char": 8967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(二)托管人履职报告(如适用);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8969,
+      "end_char": 8985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(三)资产管理计划投资表现;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 8987,
+      "end_char": 9001,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(四)资产管理计划投资组合报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 9003,
+      "end_char": 9019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(五)资产管理计划财务会计报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9021,
+      "end_char": 9037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(六)资产管理计划投资收益分配情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9039,
+      "end_char": 9057,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(七)投资经理变更、重大关联交易等涉及投资者权益的重大事项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9059,
+      "end_char": 9089,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(八)中国证监会规定的其他事项。资产管理计划季度报告应当披露前款除第(五)项之外的其他信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9091,
+      "end_char": 9137,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "article",
+      "text": "第四十三条 证券期货经营机构应当按照《指导意见》的规定,向中国人民银行报送资产管理计划信息,并接受中国人民银行对资产管理计划统计工作的监督检查。期货公司及其子公司应当将其按照《管理办法》第七十三条规定报送的资产管理计划信息以及私募资产管理业务管理季度报告、年度报告,抄报期货市场监控中心。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9139,
+      "end_char": 9283,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第四十四条 证券期货经营机构应当在本公司及相关行业协会网站对其私募资产管理业务资格及从业人员信息等基本情况进行公示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9285,
+      "end_char": 9343,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "article",
+      "text": "第四十五条 证券期货经营机构应当针对私募资产管理业务的主要业务人员和相关管理人员建立收入递延支付机制,合理确定收入递延支付标准、递延支付年限和比例。递延支付年限原则上不少于 3 年,递延支付的收入金额原则上不少于 40%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9345,
+      "end_char": 9456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "article",
+      "text": "第四十六条 证券期货经营机构、托管人、销售机构和投资顾问等服务机构违反本规定的,中国证监会及相关派出机构可以根据《管理办法》等规定,依法对其采取责令改正、监管谈话、出具警示函、责令定期报告等措施;依法对直接负责的主管人员和其他直接责任人员,采取监管谈话、出具警示函、认定为不适当人选等措施。证券期货经营机构违反本规定,依法应予行政处罚的,依照有关规定进行行政处罚;涉嫌犯罪的,依法移送司法机关,追究刑事责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 9458,
+      "end_char": 9662,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第四十七条 本规定下列用语的含义:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9664,
+      "end_char": 9681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(一)专门投资于未上市企业股权的资产管理计划,是指投资于未上市企业股权的比例不低于其总资产 80%的资产管理计划。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9683,
+      "end_char": 9740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(二)家庭金融总资产,是指全体家庭成员共有的全部金融资产,包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货和衍生品等。家庭金融净资产是指家庭金融总资产减去全体家庭成员的全部负债。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9742,
+      "end_char": 9851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(三)流动性受限资产,是指由于法律法规、监管、合同或者操作障碍等原因无法以合理价格予以变现的资产,包括到期日在 10 个交易日以上的逆回购与银行定期存款(含协议约定有条件提前支取的银行存款)、资产支持证券(票据)、流动受限的新股以及非公开发行股票、停牌股票、因发行人债务违约无法进行转让或交易的债券和非金融企业债务融资工具等资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 9853,
+      "end_char": 10018,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(四)7 个工作日可变现资产,包括可在交易所、银行间市场正常交易的股票、债券、非金融企业债务融资工具、期货及标准化期权合约和同业存单,7 个工作日内到期或者可支取的逆回购、银行存款,7 个工作日内能够确认收到的各类应收款项等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 10020,
+      "end_char": 10133,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(五)单一融资主体及其关联方的非标准化资产,视为同一资产合并计算;关联方按照《企业会计准则》的规定确定;专业投资者为私募资产管理产品的,穿透认定该私募资产管理产品的投资者是否符合本规定第十五条第二款、第三十条第二款规定的条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 10135,
+      "end_char": 10248,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第四十八条 证券期货经营机构设立特定目的公司或者合伙企业从事私募资产管理业务的,参照适用本规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 10250,
+      "end_char": 10298,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "article",
+      "text": "第四十九条 本规定自 2023 年 3 月 1 日起施行。《证券期货经营机构私募资产管理计划运作管理规定》(证监会公告〔2018〕31 号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 10300,
+      "end_char": 10375,
+      "region": "body"
+    }
+  ],
   "normalized_text": "证券期货经营机构私募资产管理计划运作管理规定(2018 年 10 月 22 日证监会公告〔2018〕31 号公布 2023年 1 月 12 日证监会公告〔2023〕2 号修订)\n\n第一条 为规范证券期货经营机构私募资产管理计划(以下简称资产管理计划)运作,强化风险管控,保护投资者及相关当事人的合法权益,根据《中华人民共和国证券法》(以下简称《证券法》)、《中华人民共和国证券投资基金法》、《中华人民共和国期货和衍生品法》、《证券公司监督管理条例》、《期货交易管理条例》、《证券期货经营机构私募资产管理业务管理办法》(证监会令第 203 号,以下简称《管理办法》)、《关于规范金融机构资产管理业务的指导意见》(银发〔2018〕106 号,以下简称《指导意见》)及相关法律法规,制定本规定。\n\n第二条 证券期货经营机构资产管理计划募集、投资、风险管理、估值核算、信息披露以及其他运作活动,适用本规定。\n\n第三条 资产管理计划应当向合格投资者非公开募集。合格投资者是指具备相应风险识别能力和风险承受能力,投资于单只资产管理计划不低于一定金额且符合下列条件的自然人、法人或者其他组织:\n\n(一)具有 2 年以上投资经历,且满足下列三项条件之一的自然人:家庭金融净资产不低于 300 万元,家庭金融资产不低于500 万元,或者近 3 年本人年均收入不低于 40 万元;\n\n(二)最近 1 年末净资产不低于 1000 万元的法人单位;\n\n(三)依法设立并接受国务院金融监督管理机构监管的机构,包括证券公司及其子公司、基金管理公司及其子公司、期货公司及其子公司、在中国证券投资基金业协会(以下简称证券投资基金业协会)登记的私募基金管理人、商业银行、商业银行理财子公司、金融资产投资公司、信托公司、保险公司、保险资产管理机构、财务公司及中国证监会认定的其他机构;\n\n(四)接受国务院金融监督管理机构监管的机构发行的资产管理产品;\n\n(五)基本养老金、社会保障基金、年金基金等养老基金,慈善基金等社会公益基金,合格境外机构投资者(QFII)、人民币合格境外机构投资者(RQFII);\n\n(六)中国证监会视为合格投资者的其他情形。合格投资者投资于单只固定收益类资产管理计划的金额不低于 30 万元,投资于单只混合类资产管理计划的金额不低于 40万元,投资于单只权益类、期货和衍生品类资产管理计划的金额不低于 100 万元。资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产的,接受单个合格投资者参与资金的金额不低于 100 万元。资产管理计划接受其他资产管理产品参与的,不合并计算其他资产管理产品的投资者人数,但应当有效识别资产管理计划的实际投资者与最终资金来源。\n\n第四条 证券期货经营机构、接受证券期货经营机构委托销售资产管理计划的机构(以下简称销售机构)应当充分了解投资者的资金来源、个人及家庭金融资产、负债等情况,并采取必要手段进行核查验证,确保投资者符合本规定第三条规定的条件。\n\n第五条 资产管理计划的初始募集规模不得低于 1000 万元。集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 60 天,专门投资于未上市企业股权的集合资产管理计划的初始募集期自资产管理计划份额发售之日起不得超过 12 个月。封闭式资产管理计划的投资者可以分期缴付参与资金,但应当在资产管理合同中事先约定分期缴付资金的有关安排,并明确相应的违约责任。单个投资者首期缴付金额不得低于合格投资者参与单个资产管理计划的最低投资金额,所有投资者首期缴付金额合计不得少于 1000 万元。\n\n第六条 专门投资于未上市企业股权的封闭式资产管理计划,符合以下条件的,可以扩大募集规模:\n\n(一)资产管理计划已成立且运作规范,证券期货经营机构、托管人未违反法律、行政法规、中国证监会规定和资产管理合同的约定;\n\n(二)扩大募集时处于合同约定的投资期内;\n\n(三)扩大募集的资金规模、频率符合证券投资基金业协会相关要求;\n\n(四)按照资产管理合同约定的方式事先取得全体投资者和托管人的同意;\n\n(五)不存在未按规定进行合理估值、通过扩大募集规模向新参与投资者转移风险、亏损或者输送利益的情形;\n\n(六)中国证监会规定的其他条件。封闭式资产管理计划扩大募集规模的,证券期货经营机构应当依法履行信息披露义务,向投资者披露扩募资金的来源、规模、用途等信息。\n\n第七条 证券期货经营机构设立资产管理计划,应当编制计划说明书,列明以下内容:\n\n(一)资产管理计划名称和类型;\n\n(二)管理人与托管人概况、聘用投资顾问等情况;\n\n(三)资产管理计划的投资范围、投资策略和投资限制情况,投资风险揭示;\n\n(四)收益分配和风险承担安排;\n\n(五)管理人、托管人报酬,以及其他有关费用的计提标准和计提方式;\n\n(六)投资者承担的费用和费率,以及投资者的重要权利和义务;\n\n(七)募集期间;\n\n(八)信息披露的内容、方式和频率;\n\n(九)利益冲突情况以及可能影响投资者合法权益的其他重要事项;\n\n(十)中国证监会规定的其他事项。\n\n第八条 证券期货经营机构设立资产管理计划,应当制作风险揭示书。风险揭示书的内容应当具有针对性,表述应当清晰、明确、易懂,并以醒目方式充分揭示资产管理计划的市场风险、信用风险、流动性风险、操作风险、关联交易的风险、聘请投资顾问的特定风险等各类风险。\n\n第九条 资产管理计划应当按照规定开立资金账户、证券账户、期货账户和其他账户,并应当按照证券投资基金业协会有关规定命名。\n\n第十条 证券期货经营机构自有资金参与、退出集合资产管理计划的,应当提前 5 个工作日告知全体投资者和托管人,并取得其同意;证券期货经营机构自有资金参与集合资产管理计划的,持有期限不得少于 6 个月。证券期货经营机构及其子公司以自有资金参与其自身或其子公司管理的单个集合资产管理计划的份额合计不得超过该资产管理计划总份额的 50%。中国证监会对证券期货经营机构自有资金投资比例另有规定的,从其规定。因集合资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当依照中国证监会规定及资产管理合同的约定及时调整达标。为应对集合资产管理计划巨额赎回以解决流动性风险,或者中国证监会认可的其他情形,在不存在利益冲突并遵守合同约定的前提下,证券期货经营机构及其子公司以自有资金参与及其后续退出集合资产管理计划可不受本条第一款、第二款规定的限制,但应当及时告知投资者和托管人,并向中国证监会相关派出机构报告。\n\n第十一条 份额登记机构应当妥善保存登记数据,并将集合资产管理计划投资者名称、身份信息以及集合资产管理计划份额明细等数据备份至中国证监会认定的机构。其保存期限自集合资产管理计划账户销户之日起不得少于 20 年。\n\n第十二条 证券期货经营机构应当及时将投资者参与资金划转至资产管理计划托管账户。单一资产管理计划可以约定不聘请托管机构进行托管,但应当在资产管理合同中明确保障资产管理计划资产安全的制度措施和纠纷解决机制。投资于《管理办法》第三十八条第(五)项规定资产的资产管理计划,应当在资产管理合同中准确、合理界定托管人安全保管资产管理计划财产、监督管理人投资运作等职责,并向投资者充分揭示风险。\n\n第十三条 资产管理合同应当明确约定资产管理计划的建仓期。集合资产管理计划的建仓期自产品成立之日起不得超过 6个月,专门投资于未上市企业股权的集合资产管理计划除外。建仓期的投资活动,应当符合资产管理合同约定的投向和资产管理计划的风险收益特征。以现金管理为目的,投资于银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券、货币市场基金等中国证监会认可的投资品种的除外。建仓期结束后,资产管理计划的资产组合应当符合法律、行政法规、中国证监会规定和合同约定的投向和比例。\n\n第十四条 证券期货经营机构应当明确资产管理计划投资决策流程与授权管理制度,建立、维护投资对象与交易对手备选库,设定清晰的清算流程和资金划转路径,对资产管理计划账户日常交易情况进行风险识别、监测,严格执行风险控制措施和投资交易复核程序,保证投资决策按照法律、行政法规、中国证监会的规定以及合同约定执行。资产管理计划在证券期货等交易所进行投资交易的,应当遵守交易所的相关规定。在交易所以外进行投资交易的,应当遵守相关管理规定。证券期货经营机构应当对资产管理计划账户内的资金、证券是否充足进行审查。资产管理计划资金账户内的资金不足的,不得进行证券买入委托或期货买入卖出委托;资产管理计划证券账户内的证券不足的,不得进行证券卖出委托。\n\n第十五条 一个集合资产管理计划投资于同一资产的资金,不得超过该计划资产净值的 25%。除以收购公司为目的设立的资产管理计划、专门投资于未上市企业股权的资产管理计划外,同一证券期货经营机构管理的全部集合资产管理计划投资于同一资产的资金,不得超过该资产的 25%。银行活期存款、国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种除外。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元的封闭式集合资产管理计划,以及完全按照有关指数的构成比例进行证券投资的资产管理计划等中国证监会认可的其他集合资产管理计划,不受前款规定的投资比例限制。同一证券期货经营机构管理的全部资产管理计划及公开募集证券投资基金(以下简称公募基金)合计持有单一上市公司发行的股票不得超过该上市公司可流通股票的 30%。完全按照有关指数的构成比例进行证券投资的资产管理计划、公募基金,以及中国证监会认定的其他投资组合可不受前述比例限制。\n\n第十六条 资产管理计划参与股票、债券、可转换公司债券、可交换公司债券等证券发行申购时,单个资产管理计划所申报的金额原则上不得超过该资产管理计划的总资产,单个资产管理计划所申报的数量原则上不得超过拟发行公司本次发行的总量。同一证券期货经营机构管理的全部资产管理计划投资于非标准化债权类资产的资金不得超过其管理的全部资产管理计划净资产的 35%。因证券市场波动、资产管理计划规模变动等客观因素导致前述比例被动超标的,证券期货经营机构应当及时报告中国证监会相关派出机构,且在调整达标前不得新增投资于非标准化债权类资产。同一证券期货经营机构管理的全部资产管理计划投资于同一非标准化债权类资产的资金合计不得超过 300 亿元。证券期货经营机构依照《管理办法》第十条、本规定第十七条设立的子公司,按照其与证券期货经营机构合并计算的口径,适用本条第二款、第三款的规定。\n\n第十七条 证券公司从事私募资产管理业务投资于未上市企业股权的,应当符合中国证监会规定的条件,并通过设立专门的私募投资基金管理子公司等进行。期货公司及其子公司从事私募资产管理业务,不得投资于《管理办法》第三十八条第(五)项规定资产,最近两期分类评价为 A 类 AA 级的期货公司及其子公司以及中国证监会另有规定的除外。基金管理公司从事私募资产管理业务投资于《管理办法》第三十八条第(五)项规定资产的,应当符合中国证监会规定的条件,并通过设立专门的子公司进行。\n\n第十八条 资产管理计划投资于其他资产管理产品的,计算该资产管理计划的总资产时应当按照穿透原则合并计算所投资资产管理产品的总资产。资产管理计划投资于其他私募资产管理产品的,该资产管理计划按照穿透原则合并计算的投资同一资产的比例以及投资同一或同类资产的金额,应当符合《管理办法》及中国证监会相关规定。资产管理计划应当按照所投资资产管理产品披露投资组合的频率,及时更新计算该资产管理计划所投资资产的金额或比例。\n\n第十九条 资产管理计划参与证券逆回购交易的,证券期货经营机构应当加强流动性风险和交易对手风险的管理。资产管理计划应当合理分散逆回购交易的到期日、交易对手及回购证券的集中度。证券期货经营机构应当按照穿透原则对交易对手的财务状况、偿付能力及杠杆水平等进行必要的尽职调查,对不同的交易对手实施交易额度管理并进行动态调整。证券期货经营机构应当建立健全证券逆回购交易质押品管理制度,根据质押品资质审慎确定质押率水平,持续监测质押品的风险状况与价值变动,质押品按公允价值计算应当足额。\n\n第二十条 资产管理计划投资于《管理办法》第三十八条第\n\n(五)项规定的非标准化资产的,所投资的资产应当合法、真实、有效、可特定化,原则上应当由有权机关进行确权登记。资产管理计划不得开展明股实债投资。资产管理计划不得投资于法律依据不充分的收(受)益权。资产管理计划投资于不动产、特许收费权、经营权等基础资产的收(受)益权的,应当以基础资产产生的独立、持续、可预测的现金流实现收(受)益权。\n\n第二十一条 资产管理计划投资于《管理办法》第三十八条第(五)项规定的非标准化资产,涉及抵押、质押担保的,应当设置合理的抵押、质押比例,及时办理抵押、质押登记,确保抵押、质押真实、有效、充分。资产管理计划原则上不得接受收(受)益权、特殊目的机构股权作为抵押、质押标的资产。\n\n第二十二条 专门投资于未上市企业股权的资产管理计划可以通过特殊目的载体间接投资于未上市企业股权。特殊目的载体应当为直接投资于作为底层资产的未上市企业股权的公司或者合伙企业,不得承担资金募集功能,不得收取管理费及业绩报酬。特殊目的载体发生设立、变更及注销等事项的,证券期货经营机构应当在 15 个工作日内报告中国证监会相关派出机构。\n\n第二十三条 证券期货经营机构应当加强资产管理计划的久期管理,不得设立不设存续期限的资产管理计划。封闭式资产管理计划的期限不得低于 90 天。\n\n第二十四条 全部资产投资于标准化资产的集合资产管理计划和中国证监会认可的其他资产管理计划,可以按照合同约定每季度多次开放,其主动投资于流动性受限资产的市值在开放退出期内合计不得超过该资产管理计划资产净值的 20%。前款规定的资产管理计划每个交易日开放的,其投资范围、投资比例、投资限制、参与和退出管理应当比照适用公募基金投资运作有关规则。\n\n第二十五条 证券期货经营机构应当确保集合资产管理计划开放退出期内,其资产组合中 7 个工作日可变现资产的价值,不低于该计划资产净值的 10%。\n\n第二十六条 资产管理计划直接或者间接投资于非标准化债权类资产的,非标准化债权类资产的终止日不得晚于封闭式资产管理计划的到期日或者开放式资产管理计划的最近一次开放日。资产管理计划直接或者间接投资于非标准化股权类资产的,应当为封闭式资产管理计划,并明确非标准化股权类资产的退出安排。非标准化股权类资产的退出日不得晚于封闭式资产管理计划的到期日。非标准化股权类资产无法按照约定退出的,资产管理计划可以延期清算,也可以按照投资者持有份额占总份额的比例或者资产管理合同的约定,将其持有的非标准化股权类资产分配给投资者,但不得违反《证券法》关于公开发行的规定。\n\n第二十七条 封闭式资产管理计划存续期间,其所投资的非标准化资产部分到期、终止或者退出的,证券期货经营机构可以按照资产管理合同约定,对到期、终止或者退出的非标准化资产进行清算,以货币资金形式分配给投资者,但不得允许投资者提前退出或者变相提前退出。\n\n第二十八条 开放式集合资产管理计划资产管理合同,应当明确约定计划巨额退出和连续巨额退出的认定标准、退出顺序、退出价格确定、退出款项支付、告知客户方式,以及单个客户大额退出的预约申请等事宜,相关约定应当符合公平、合理、公开的原则。证券期货经营机构经与托管人协商,在确保投资者得到公平对待的前提下,可以依照法律、行政法规、中国证监会规定以及合同约定,延期办理巨额退出申请、暂停接受退出申请、延缓支付退出款项、收取短期赎回费,或者采取中国证监会认可的其他流动性管理措施。\n\n第二十九条 资产管理计划投资于同一发行人及其关联方发行的债券的比例超过其净资产 50%的,该资产管理计划的总资产不得超过其净资产的 120%。资产管理计划投资于国债、中央银行票据、政策性金融债、地方政府债券等中国证监会认可的投资品种不受前述规定限制。\n\n第三十条 证券期货经营机构将资产管理计划资产投资于本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方发行的证券或者承销期内承销的证券,应当建立健全内部审批机制和评估机制,并应当遵循投资者利益优先原则,事先取得投资者的同意,事后告知投资者和托管人,并采取切实有效措施,防范利益冲突,保护投资者合法权益。除前款规定外,证券期货经营机构不得将其管理的资产管理计划资产,直接或者通过投资其他资产管理计划等间接形式,为本机构、托管人及前述机构的控股股东、实际控制人或者其他关联方提供或者变相提供融资。全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于 1000 万元,并且事先取得投资者同意的资产管理计划除外。\n\n第三十一条 证券期货经营机构董事、监事、从业人员及其配偶不得参与本公司管理的单一资产管理计划。证券期货经营机构董事、监事、从业人员及其配偶、控股股东、实际控制人或者其他关联方参与证券期货经营机构设立的资产管理计划,证券期货经营机构应当向投资者进行披露,对该资产管理计划账户进行监控,并及时向中国证监会相关派出机构报告。证券期货经营机构管理的分级资产管理计划资产,不得直接或者间接为该分级资产管理计划劣后级投资者及其控股股东、实际控制人或者其他关联方提供或者变相提供融资。\n\n第三十二条 固定收益类、权益类、期货和衍生品类资产管理计划存续期间,为规避特定风险并经全体投资者同意的,投资于对应类别资产的比例可以低于计划总资产 80%,但不得持续 6个月低于计划总资产 80%。\n\n第三十三条 资产管理计划不得直接或者间接投资于违反国家产业政策、环境保护政策的项目(证券市场投资除外),包括但不限于以下情形:\n\n(一)投资项目被列入国家发展和改革委员会发布的淘汰类产业目录;\n\n(二)投资项目违反国家环境保护政策要求;\n\n(三)通过穿透核查,资产管理计划最终投向上述投资项目。\n\n第三十四条 固定收益类资产管理计划优先级与劣后级的比例不得超过 3:1,权益类资产管理计划优先级与劣后级的比例不得超过 1:1,期货和衍生品类、混合类资产管理计划优先级与劣后级的比例不得超过 2:1。分级资产管理计划若存在中间级份额,中间级份额应当计入优先级份额。\n\n第三十五条 分级资产管理计划不得投资其他分级或者结构化金融产品,不得直接或者间接对优先级份额认购者提供保本保收益安排。证券期货经营机构不得违背风险收益相匹配原则,利用分级资产管理计划向特定一个或多个劣后级投资者输送利益。\n\n第三十六条 资产管理计划的投资顾问应当为依法可以从事资产管理业务的证券期货经营机构、商业银行资产管理机构、保险资产管理机构以及中国证监会认可的其他金融机构,或者同时符合以下条件的私募证券投资基金管理人:\n\n(一)在证券投资基金业协会登记满 1 年、无重大违法违规记录的会员;\n\n(二)具备 3 年以上连续可追溯证券、期货投资管理业绩且无不良从业记录的投资管理人员不少于 3 人;\n\n(三)中国证监会规定的其他条件。\n\n第三十七条 证券期货经营机构应当对投资顾问的投资建议进行审查,不得由投资顾问直接执行投资指令。\n\n证券期货经营机构不得允许投资顾问及其关联方以其自有资金或者募集资金投资于分级资产管理计划的劣后级份额,不得向未提供实质服务的投资顾问支付费用或者支付与其提供的服务不相匹配的费用。\n\n第三十八条 资产管理计划应当按照《企业会计准则》、《指导意见》以及中国证监会关于资产管理计划对金融工具进行核算与估值的规定、资产管理计划净值计价及风险控制要求,确认和计量资产管理计划净值。证券期货经营机构应当定期对资产管理计划估值执行效果进行评估,必要时调整完善,保证公平、合理。当有充足证据表明资产管理计划相关资产的计量方法已不能真实公允反映其价值时,证券期货经营机构应当与托管人进行协商,及时采用公允价值计量方法对资产管理计划资产净值进行调整。\n\n第三十九条 证券期货经营机构应当对每个资产管理计划单独管理、单独建账、单独核算,不得有以下行为:\n\n(一)将不同资产管理计划进行混同运作,或者出现资金与资产无法明确对应的其他情形;\n\n(二)未按规定进行合理估值,脱离实际投资收益进行分离定价;\n\n(三)未产生实际投资收益,仅以后期投资者的投资资金向前期投资者进行兑付;\n\n(四)资产管理计划发生兑付风险时通过开放参与或者滚动发行等方式由后期投资者承担风险;\n\n(五)法律、行政法规和中国证监会禁止的其他行为。\n\n第四十条 资产管理计划发生的费用,可以按照资产管理合同的约定,在计划资产中列支。资产管理计划成立前发生的费用,不得在计划资产中列支,专门投资于未上市企业股权的资产管理计划聘请专业服务机构等事项所支出的合理费用除外。存续期间发生的与募集有关的费用,不得在计划资产中列支。证券期货经营机构应当根据资产管理计划的投资范围、投资策略、产品结构等因素设定合理的管理费率。\n\n第四十一条 证券期货经营机构可以与投资者在资产管理合同中约定提取业绩报酬,业绩报酬应当计入管理费。证券期货经营机构应当坚持公平对待投资者、长期业绩导向和适当激励原则,合理设定业绩报酬的提取频率、比例,以及包括业绩报酬在内的管理费的收取比例上限,确保业绩报酬提取与资产管理计划的存续期限、收益分配和投资运作特征相匹配。业绩报酬应当从分红资金、退出资金或清算资金中提取,从分红资金中提取业绩报酬的频率不得超过每 6 个月一次。业绩报酬的提取比例不得超过计提基准以上投资收益的 60%。\n\n第四十二条 证券期货经营机构应当按照资产管理合同的约定向投资者提供资产管理计划年度报告,披露报告期内资产管理计划运作情况,包括但不限于下列信息:\n\n(一)管理人履职报告;\n\n(二)托管人履职报告(如适用);\n\n(三)资产管理计划投资表现;\n\n(四)资产管理计划投资组合报告;\n\n(五)资产管理计划财务会计报告;\n\n(六)资产管理计划投资收益分配情况;\n\n(七)投资经理变更、重大关联交易等涉及投资者权益的重大事项;\n\n(八)中国证监会规定的其他事项。资产管理计划季度报告应当披露前款除第(五)项之外的其他信息。\n\n第四十三条 证券期货经营机构应当按照《指导意见》的规定,向中国人民银行报送资产管理计划信息,并接受中国人民银行对资产管理计划统计工作的监督检查。期货公司及其子公司应当将其按照《管理办法》第七十三条规定报送的资产管理计划信息以及私募资产管理业务管理季度报告、年度报告,抄报期货市场监控中心。\n\n第四十四条 证券期货经营机构应当在本公司及相关行业协会网站对其私募资产管理业务资格及从业人员信息等基本情况进行公示。\n\n第四十五条 证券期货经营机构应当针对私募资产管理业务的主要业务人员和相关管理人员建立收入递延支付机制,合理确定收入递延支付标准、递延支付年限和比例。递延支付年限原则上不少于 3 年,递延支付的收入金额原则上不少于 40%。\n\n第四十六条 证券期货经营机构、托管人、销售机构和投资顾问等服务机构违反本规定的,中国证监会及相关派出机构可以根据《管理办法》等规定,依法对其采取责令改正、监管谈话、出具警示函、责令定期报告等措施;依法对直接负责的主管人员和其他直接责任人员,采取监管谈话、出具警示函、认定为不适当人选等措施。证券期货经营机构违反本规定,依法应予行政处罚的,依照有关规定进行行政处罚;涉嫌犯罪的,依法移送司法机关,追究刑事责任。\n\n第四十七条 本规定下列用语的含义:\n\n(一)专门投资于未上市企业股权的资产管理计划,是指投资于未上市企业股权的比例不低于其总资产 80%的资产管理计划。\n\n(二)家庭金融总资产,是指全体家庭成员共有的全部金融资产,包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货和衍生品等。家庭金融净资产是指家庭金融总资产减去全体家庭成员的全部负债。\n\n(三)流动性受限资产,是指由于法律法规、监管、合同或者操作障碍等原因无法以合理价格予以变现的资产,包括到期日在 10 个交易日以上的逆回购与银行定期存款(含协议约定有条件提前支取的银行存款)、资产支持证券(票据)、流动受限的新股以及非公开发行股票、停牌股票、因发行人债务违约无法进行转让或交易的债券和非金融企业债务融资工具等资产。\n\n(四)7 个工作日可变现资产,包括可在交易所、银行间市场正常交易的股票、债券、非金融企业债务融资工具、期货及标准化期权合约和同业存单,7 个工作日内到期或者可支取的逆回购、银行存款,7 个工作日内能够确认收到的各类应收款项等。\n\n(五)单一融资主体及其关联方的非标准化资产,视为同一资产合并计算;关联方按照《企业会计准则》的规定确定;专业投资者为私募资产管理产品的,穿透认定该私募资产管理产品的投资者是否符合本规定第十五条第二款、第三十条第二款规定的条件。\n\n第四十八条 证券期货经营机构设立特定目的公司或者合伙企业从事私募资产管理业务的,参照适用本规定。\n\n第四十九条 本规定自 2023 年 3 月 1 日起施行。《证券期货经营机构私募资产管理计划运作管理规定》(证监会公告〔2018〕31 号)同时废止。",
   "blocks": [
     {
@@ -147,7 +2508,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 88,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -155,7 +2523,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 90,
+      "end_char": 344,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -163,7 +2538,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 346,
+      "end_char": 399,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -171,7 +2553,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 401,
+      "end_char": 489,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -179,7 +2568,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 491,
+      "end_char": 580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -187,7 +2583,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 582,
+      "end_char": 612,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -195,7 +2598,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 614,
+      "end_char": 774,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -203,7 +2613,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 776,
+      "end_char": 807,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -211,7 +2628,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 809,
+      "end_char": 883,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -219,7 +2643,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 885,
+      "end_char": 1132,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -227,7 +2658,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1134,
+      "end_char": 1244,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -235,7 +2673,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1246,
+      "end_char": 1492,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -243,7 +2688,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1494,
+      "end_char": 1538,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -251,7 +2703,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1540,
+      "end_char": 1599,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -259,7 +2718,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1601,
+      "end_char": 1621,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -267,7 +2733,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1623,
+      "end_char": 1654,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -275,7 +2748,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1656,
+      "end_char": 1689,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -283,7 +2763,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1691,
+      "end_char": 1740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -291,7 +2778,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1742,
+      "end_char": 1819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -299,7 +2793,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1821,
+      "end_char": 1859,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -307,7 +2808,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1861,
+      "end_char": 1876,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -315,7 +2823,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1878,
+      "end_char": 1901,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -323,7 +2838,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1903,
+      "end_char": 1937,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -331,7 +2853,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1939,
+      "end_char": 1954,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -339,7 +2868,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1956,
+      "end_char": 1988,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -347,7 +2883,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1990,
+      "end_char": 2019,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -355,7 +2898,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2021,
+      "end_char": 2029,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -363,7 +2913,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2031,
+      "end_char": 2048,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -371,7 +2928,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2050,
+      "end_char": 2080,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -379,7 +2943,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2082,
+      "end_char": 2098,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -387,7 +2958,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 2100,
+      "end_char": 2223,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -395,7 +2973,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2225,
+      "end_char": 2284,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -403,7 +2988,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2286,
+      "end_char": 2692,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -411,7 +3003,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2694,
+      "end_char": 2798,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -419,7 +3018,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2800,
+      "end_char": 2990,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -427,7 +3033,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2992,
+      "end_char": 3227,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -435,7 +3048,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 3229,
+      "end_char": 3542,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -443,7 +3063,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3544,
+      "end_char": 3973,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -451,7 +3078,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3975,
+      "end_char": 4352,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -459,7 +3093,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 4354,
+      "end_char": 4582,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -467,7 +3108,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 4584,
+      "end_char": 4786,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -475,7 +3123,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 4788,
+      "end_char": 5024,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -483,7 +3138,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 5026,
+      "end_char": 5052,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -491,7 +3153,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 5054,
+      "end_char": 5219,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -499,7 +3168,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 5221,
+      "end_char": 5356,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -507,7 +3183,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 5358,
+      "end_char": 5523,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -515,7 +3198,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 5525,
+      "end_char": 5595,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -523,7 +3213,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 5597,
+      "end_char": 5766,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -531,7 +3228,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 5768,
+      "end_char": 5839,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -539,7 +3243,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 5841,
+      "end_char": 6115,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -547,7 +3258,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 6117,
+      "end_char": 6239,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -555,7 +3273,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 6241,
+      "end_char": 6473,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -563,7 +3288,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 6475,
+      "end_char": 6600,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -571,7 +3303,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 6602,
+      "end_char": 6917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -579,7 +3318,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 6919,
+      "end_char": 7154,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -587,7 +3333,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 7156,
+      "end_char": 7255,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -595,7 +3348,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 7257,
+      "end_char": 7320,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -603,7 +3363,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 7322,
+      "end_char": 7353,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -611,7 +3378,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7355,
+      "end_char": 7375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -619,7 +3393,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7377,
+      "end_char": 7404,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -627,7 +3408,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7406,
+      "end_char": 7538,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -635,7 +3423,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7540,
+      "end_char": 7650,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -643,7 +3438,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7652,
+      "end_char": 7753,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -651,7 +3453,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7755,
+      "end_char": 7789,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -659,7 +3468,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7791,
+      "end_char": 7841,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -667,7 +3483,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7843,
+      "end_char": 7859,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -675,7 +3498,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 7861,
+      "end_char": 7908,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -683,7 +3513,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 7910,
+      "end_char": 7999,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -691,7 +3528,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 8001,
+      "end_char": 8225,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -699,7 +3543,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 8227,
+      "end_char": 8275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -707,7 +3558,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 8277,
+      "end_char": 8317,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -715,7 +3573,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 8319,
+      "end_char": 8348,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -723,7 +3588,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 8350,
+      "end_char": 8386,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -731,7 +3603,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 15,
+      "start_char": 8388,
+      "end_char": 8430,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -739,7 +3618,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8432,
+      "end_char": 8456,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -747,7 +3633,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8458,
+      "end_char": 8638,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -755,7 +3648,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8640,
+      "end_char": 8880,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -763,7 +3663,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8882,
+      "end_char": 8954,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -771,7 +3678,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8956,
+      "end_char": 8967,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -779,7 +3693,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8969,
+      "end_char": 8985,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -787,7 +3708,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 8987,
+      "end_char": 9001,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -795,7 +3723,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 16,
+      "start_char": 9003,
+      "end_char": 9019,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -803,7 +3738,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9021,
+      "end_char": 9037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -811,7 +3753,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9039,
+      "end_char": 9057,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -819,7 +3768,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9059,
+      "end_char": 9089,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -827,7 +3783,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9091,
+      "end_char": 9137,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -835,7 +3798,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9139,
+      "end_char": 9283,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -843,7 +3813,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9285,
+      "end_char": 9343,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -851,7 +3828,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9345,
+      "end_char": 9456,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -859,7 +3843,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 17,
+      "start_char": 9458,
+      "end_char": 9662,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -867,7 +3858,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 18,
+      "start_char": 9664,
+      "end_char": 9681,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -875,7 +3873,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 18,
+      "start_char": 9683,
+      "end_char": 9740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -883,7 +3888,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 18,
+      "start_char": 9742,
+      "end_char": 9851,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -891,7 +3903,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 18,
+      "start_char": 9853,
+      "end_char": 10018,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -899,7 +3918,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 18,
+      "start_char": 10020,
+      "end_char": 10133,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -907,7 +3933,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 18,
+      "start_char": 10135,
+      "end_char": 10248,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -915,7 +3948,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 19,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 19,
+      "start_char": 10250,
+      "end_char": 10298,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -923,7 +3963,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 19,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 19,
+      "start_char": 10300,
+      "end_char": 10375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/全国银行间债券市场债券远期交易规则.doc",
   "source_type": "doc",
   "file_sha256": "5387ccac1d606f8e7a13992d175d5068a54c0903942ae61e17f63bf02f65fffe",
-  "content_sha256": "e7930a3c0afec5c5ad5ff3f3950c0db10277c360e3ff0d71be9be7f2b1dcda87",
+  "content_sha256": "d1c5d67e1efa4787beb4233766cb589c23ecae9628d2cd9476e2fbefba66dd65",
   "metadata": {
     "document_title": "全国银行间债券市场债券远期交易规则",
     "issuing_authority": "中国外汇交易中心",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "f527e2cc1394e29cc18f47dc653263e5b9d3f3d63966b1141cdfec58eb148992",
     "clean_text_sha256": "f527e2cc1394e29cc18f47dc653263e5b9d3f3d63966b1141cdfec58eb148992",
@@ -171,6 +171,3136 @@
   },
   "original_text_sha256": "f527e2cc1394e29cc18f47dc653263e5b9d3f3d63966b1141cdfec58eb148992",
   "clean_text_sha256": "f527e2cc1394e29cc18f47dc653263e5b9d3f3d63966b1141cdfec58eb148992",
+  "clean_text_hash": "2b3c090b0116253b857af923571e6d77769b0dd4520c376dc6c81b44397ac1e6",
+  "structured_blocks_sha256": "158f72e1856ddaa26d2e9be7525465523c5c2b01789becd7e70723a44e9ab23c",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "全国银行间债券市场债券远期交易规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 17,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 19,
+      "end_char": 26,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为规范全国银行间债券市场债券远期交易行为,维护市场参与者的合法权益,根据中国人民银行《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券交易规则》和《全国银行间债券市场债券交易应急规则》等有关规定、规则,制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 28,
+      "end_char": 148,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 市场参与者在债券远期交易中应遵循公开、公正、公平的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 150,
+      "end_char": 182,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "市场参与者自主报价、自选对手、自行清算、自担风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 184,
+      "end_char": 209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 全国银行间同业拆借中心(以下简称“交易中心”)为市场参与者债券远期交易提供报价、交易和信息服务,并接受中国人民银行的监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "chapter",
+      "text": "第二章 交易主体",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 278,
+      "end_char": 286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第四条 市场参与者参与债券远期交易应做好如下准备:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 288,
+      "end_char": 313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)签署《全国银行间债券市场债券远期交易主协议》(以下简称“《主协议》”)并提交交易中心备案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 315,
+      "end_char": 363,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)具备债券远期交易内部管理办法并抄送交易中心;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 365,
+      "end_char": 390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "guide_subheading",
+      "text": "(三)以书面并加盖单位公章的形式向交易中心提交下列财务数据:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 392,
+      "end_char": 422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "1、开放式投资基金于每月10日前提交上月月底的基金资产净值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 424,
+      "end_char": 454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "2、外资金融机构在中国境内的分支机构提交该分支机构人民币营运资金规模。当人民币营运资金规模发生变更时应及时书面通知交易中心;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 456,
+      "end_char": 518,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "3、其他机构应提交本机构实收资本或净资产规模数据,二者只需报送其一。当实收资本或净资产规模发生变更时应及时书面通知交易中心。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 520,
+      "end_char": 582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第五条 尚未成为交易成员的市场参与者参与债券远期交易应向交易中心提交以下材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 584,
+      "end_char": 623,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(一)企业法人营业执照副本复印件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 642,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(二)金融机构应提供相关金融机构业务许可证副本复印件,包括金融机构法人许可证、信托法人许可证、经营证券业务许可证、经营保险业务许可证等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 644,
+      "end_char": 712,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(三)商业银行分行应提供其总行的债券远期交易授权书;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 714,
+      "end_char": 740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(四)《全国银行间同业拆借中心债券远期交易申请表》(见附件1);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 742,
+      "end_char": 774,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(五)交易中心要求提交的其他材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 776,
+      "end_char": 793,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第六条 交易中心在收到市场参与者提交的材料后,将于五个工作日内做好为其提供交易服务的准备工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 795,
+      "end_char": 842,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "chapter",
+      "text": "第三章 交易基本规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 844,
+      "end_char": 854,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第七条 债券远期交易期限最短为2天,最长为365天。交易成员可在此区间内自由选择交易期限,不得展期。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 856,
+      "end_char": 906,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第八条 债券远期交易数额最小为债券面额十万元,交易单位为债券面额一万元。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 944,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第九条 债券远期交易净价报价保留小数点后三位。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 946,
+      "end_char": 969,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十条 交易系统对债券远期交易下列风险控制指标设置成交前判断与控制:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 971,
+      "end_char": 1005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)市场参与者单只债券远期交易卖出与买入总余额占该只债券流通量的比例分别不得超过20%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1007,
+      "end_char": 1052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)市场参与者远期交易卖出总余额与其可用自有债券总余额的比例不得超过200%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1054,
+      "end_char": 1094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)市场参与者远期交易净买入总余额与其实收资本(或净资产、基金资产净值、人民币营运资金)的比例不得超过100%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1096,
+      "end_char": 1153,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "交易系统可根据人民银行的规定对上述指标或比例进行调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1155,
+      "end_char": 1182,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "chapter",
+      "text": "第四章 交易程序",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1184,
+      "end_char": 1192,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十一条 已与交易中心专线交易系统联网的市场参与者直接通过交易系统进行债券远期交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1194,
+      "end_char": 1236,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十二条 交易双方通过交易系统确认成交后,交易系统生成成交通知单。债券远期交易在成交通知单生成后立即生效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "成交双方依成交通知单办理结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1293,
+      "end_char": 1308,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十三条 债券远期交易成交通知单的主要内容包括:成交日、成交编号、成交双方全称、交易员、标的债券名称、标的债券代码、远期交易期限、远期交易净价、远期交易全价、券面总额、结算金额、应计利息总额、结算日、结算方式、成交双方资金账户户名、开户行、帐号、债券托管账号、保证金(券)金额、保证券简称、保证金账号、是否允许变更保证金(券)等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1310,
+      "end_char": 1475,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十四条 若成交双方对成交通知单内容有疑问或歧义的,以交易系统的成交记录为准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1477,
+      "end_char": 1516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十五条 交易双方在确认交易成交前可对报价内容进行修改或撤销。交易一经确认成交,则不得擅自变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1518,
+      "end_char": 1566,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "成交双方确需对成交进行变更的,应经双方协商一致同意。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1568,
+      "end_char": 1594,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "成交双方申请变更成交当日生成的成交通知单的,应于成交当日16:15前向交易中心场务值班室提交经双方盖章的书面变更申请,注明申请变更的成交编号并说明变更原因。交易中心依书面申请办理变更,并将有关情况备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1596,
+      "end_char": 1697,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "成交双方申请变更非成交日生成的成交通知单的,应签订远期交易补充合同,并于合同签订当日将合同复印件报交易中心备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1699,
+      "end_char": 1755,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十六条 对一年以内五次以上(不含五次)办理成交变更的市场参与者,交易中心将在中国货币网公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1757,
+      "end_char": 1804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十七条 参与债券远期交易的双方或一方未与专线交易系统联网的,按以下流程办理交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1806,
+      "end_char": 1847,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(一)交易双方通过电话、传真等方式自行询价,确定交易意向;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1849,
+      "end_char": 1878,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(二)交易双方分别填写《债券远期交易应急成交申请单》(以下简称“应急申请单”,见附件2),并加盖公章,在交易当日16:00前传真至交易中心场务值班室;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1880,
+      "end_char": 1955,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(三)交易中心将双方应急申请单核对无误后,将成交要素输入交易系统,生成成交通知单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1957,
+      "end_char": 1998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(四)交易中心在成交通知单上加盖公章后,将成交通知单传真给未联网方;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2000,
+      "end_char": 2034,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(五)成交双方按成交通知单办理结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "chapter",
+      "text": "第五章 保证金集中管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2056,
+      "end_char": 2067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十八条 市场参与者选择由交易中心集中管理债券远期交易保证金(以下简称“保证金”)的,按以下规定办理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2069,
+      "end_char": 2120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第十九条 本规则所称保证金集中管理是指市场参与者进行债券远期交易时,约定将用于履约保障的保证金统一存放于交易中心在中国人民银行上海分行开立的保证金专用帐户,由交易中心集中代为保管的方式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2122,
+      "end_char": 2215,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "保证金及其孳息的所有权属于保证金提供方,交易中心确保提供方的合法权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2217,
+      "end_char": 2252,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十条 保证金管理系统是指由交易中心管理运作的、专门用于保证金帐户管理的计算机处理系统和通讯网络。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2254,
+      "end_char": 2304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十一条 市场参与者委托交易中心集中管理保证金的,应与交易中心签署《债券远期交易保证金管理协议》(以下简称“《协议》”)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2306,
+      "end_char": 2368,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "《协议》规范交易中心与开户方的权利义务关系,并规定保证金管理业务流程。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2370,
+      "end_char": 2405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "经市场参与者签署的《协议》可同时视作其开设保证金帐户的申请文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2407,
+      "end_char": 2439,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十二条 交易中心在收到市场参与者签署的《协议》后应于三个工作日内为其办理保证金帐户开户事宜,并以书面形式通知其开户情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2441,
+      "end_char": 2503,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十三条 市场参与者收到交易中心书面开户通知后,由首席交易员在本币交易系统“内部管理”项下的“帐户管理”中进行帐户设置。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2505,
+      "end_char": 2566,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十四条 市场参与者进行债券远期交易过程中,双方约定设定保证金的,应对保证金占标的债券的比例(以下简称“保证金比例”)、保证金提交日、用于该笔保证金管理的帐户(交易中心的保证金帐户或其他帐户)、在结算日前是否允许变更保证金等要素进行明确约定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2568,
+      "end_char": 2690,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十五条 保证金比例由交易双方自行约定,逐笔缴纳。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2692,
+      "end_char": 2718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "保证金金额=远期交易结算金额×保证金比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2720,
+      "end_char": 2741,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十六条 交易双方可选择在成交当日(T+0)或成交日的下一工作日(T+1)划付保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2743,
+      "end_char": 2787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十七条 交易双方在成交前应就是否允许在结算日前追加或减少保证金达成协议。交易双方只能对已达成协议的远期交易保证金进行变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "交易双方在成交日后、结算日前变更保证金的,应签订补充合同,并于补充合同签订当日报交易中心备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2854,
+      "end_char": 2901,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "chapter",
+      "text": "第六章 信息披露",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2903,
+      "end_char": 2911,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十八条 交易中心通过中国货币网向市场参与者披露债券远期交易有关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2913,
+      "end_char": 2949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第二十九条 交易中心向市场参与者披露以下债券远期交易信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2951,
+      "end_char": 2980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(一)市场报价信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2982,
+      "end_char": 2992,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(二)市场成交和行情信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2994,
+      "end_char": 3007,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "guide_subheading",
+      "text": "(三)市场统计信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3009,
+      "end_char": 3019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "1、单只债券不同期限品种远期交易买入(或卖出)余额及其分别占市场远期交易买入(或卖出)总余额和该只债券市场流通量的比例;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3021,
+      "end_char": 3081,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "2、单个期限品种远期交易买入(或卖出)余额及其占市场远期交易买入(或卖出)总余额的比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3083,
+      "end_char": 3127,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "3、单只债券单日远期交易待交割量及其占该只债券市场流通量的比例,该比例超过5%的,向市场公告该只债券名称和债券远期交易到期交割日期;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3129,
+      "end_char": 3195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "4、市场参与者债券远期交易量排名;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3197,
+      "end_char": 3214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "5、市场参与者违约情况和中国人民银行授权披露的市场参与者违规情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3216,
+      "end_char": 3249,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(四)债券远期交易日评、周评;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3251,
+      "end_char": 3266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(五)已签署《主协议》的市场参与者名单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3268,
+      "end_char": 3288,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(六)中国人民银行授权披露的其他信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3290,
+      "end_char": 3309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "chapter",
+      "text": "第七章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3311,
+      "end_char": 3318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第三十条 如遇不可抗力或其他特殊情况,市场参与者须依《银行间债券交易应急规则》的有关规定办理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3320,
+      "end_char": 3367,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十一条 本规则解释权与修改权属交易中心。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3369,
+      "end_char": 3391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第三十二条 本规则自公布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3393,
+      "end_char": 3411,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00082",
+      "block_type": "attachment",
+      "text": "附件1:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3413,
+      "end_char": 3417,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心债券远期交易申请表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3419,
+      "end_char": 3439,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "机构名称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3441,
+      "end_char": 3445,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "性质 成立时间",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3447,
+      "end_char": 3454,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "法人营业执照登记号 批准机关",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3456,
+      "end_char": 3470,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "金融业务许可证号 批准机关",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3472,
+      "end_char": 3485,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "业务范围",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3487,
+      "end_char": 3491,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "signoff",
+      "text": "法定代表人 注册资本 (亿元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3493,
+      "end_char": 3508,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "实收资本(或净资产)/资产净值/人民币营运资金 (亿元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3510,
+      "end_char": 3538,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "资产规模 (亿元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3540,
+      "end_char": 3549,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "债券业务部门概况 部门名称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3551,
+      "end_char": 3564,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "signoff",
+      "text": "负责人及联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3566,
+      "end_char": 3574,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "经办人及联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3576,
+      "end_char": 3584,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "传真",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3586,
+      "end_char": 3588,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3590,
+      "end_char": 3594,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "地址、邮编",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3596,
+      "end_char": 3601,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "帐户资料 帐户名称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3603,
+      "end_char": 3612,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "清算资金开户行",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3614,
+      "end_char": 3621,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "清算资金帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3623,
+      "end_char": 3629,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "债券托管帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3631,
+      "end_char": 3637,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "保证金开户行",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3639,
+      "end_char": 3645,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "保证金帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3647,
+      "end_char": 3652,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "note",
+      "text": "注:1外资金融机构填写人民币营运资金,基金填写资产净值,其他机构填写实收资本或净资产。2债券托管帐号指申请机构在中央国债登记结算有限责任公司开立的债券托管帐号。3非金融机构不必填写“金融业务许可证号”及“批准机关”4全国银行间同业拆借中心联系及咨询电话:021-63298988转市场二部;联系地址:上海市中山东一路15号,邮政编码:200002。请在填表日期处加盖公章5。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3654,
+      "end_char": 3841,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "填表日期: 年 月 日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3843,
+      "end_char": 3854,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "attachment",
+      "text": "附件2",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3856,
+      "end_char": 3859,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3861,
+      "end_char": 3872,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "债券远期交易应急成交申请单",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3874,
+      "end_char": 3887,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "申请单位名称: 申请日期: 年 月 日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3889,
+      "end_char": 3908,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "买方",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3910,
+      "end_char": 3912,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "卖方",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3914,
+      "end_char": 3916,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "债券名称 债券代码",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3918,
+      "end_char": 3927,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "远期交易净价(元) /百元面值 券面总额(万元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3929,
+      "end_char": 3953,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "远期交易期限(天) 远期结算日 年 月 日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3955,
+      "end_char": 3976,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "结算方式 ○券款对付 ○见券付款 ○见款付券",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3978,
+      "end_char": 4000,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "资金清算帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4002,
+      "end_char": 4008,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "交易员姓名",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4010,
+      "end_char": 4015,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "联系电话 传真电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4017,
+      "end_char": 4026,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "本方保证金(券)要素",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4028,
+      "end_char": 4038,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "履约保证方式 ○无履约保证 ○保证金 ○保证券",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4040,
+      "end_char": 4063,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "保证金(券)比例(%) 保证金(券)金额(元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4065,
+      "end_char": 4088,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "保证券简称 保证金(券)提交日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4090,
+      "end_char": 4105,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "保证金开户行",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4107,
+      "end_char": 4113,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "保证金帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4115,
+      "end_char": 4120,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "是否允许追加/减少保证金 ○是 ○否",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4122,
+      "end_char": 4140,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "note",
+      "text": "说明:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4142,
+      "end_char": 4145,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "note",
+      "text": "备注:1、本申请一式两份,申请单位和交易中心各存一份;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4147,
+      "end_char": 4174,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "paragraph",
+      "text": "2、履约保证方式“保证金”、“保证券”和“无履约保证”三项只能选择一项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4176,
+      "end_char": 4212,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "3、本申请盖章有效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4214,
+      "end_char": 4224,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "paragraph",
+      "text": "申请单位盖章",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4226,
+      "end_char": 4232,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "全国银行间债券市场债券远期交易规则\n\n第一章 总 则\n\n第一条 为规范全国银行间债券市场债券远期交易行为,维护市场参与者的合法权益,根据中国人民银行《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券交易规则》和《全国银行间债券市场债券交易应急规则》等有关规定、规则,制定本规则。\n\n第二条 市场参与者在债券远期交易中应遵循公开、公正、公平的原则。\n\n市场参与者自主报价、自选对手、自行清算、自担风险。\n\n第三条 全国银行间同业拆借中心(以下简称“交易中心”)为市场参与者债券远期交易提供报价、交易和信息服务,并接受中国人民银行的监管。\n\n第二章 交易主体\n\n第四条 市场参与者参与债券远期交易应做好如下准备:\n\n(一)签署《全国银行间债券市场债券远期交易主协议》(以下简称“《主协议》”)并提交交易中心备案;\n\n(二)具备债券远期交易内部管理办法并抄送交易中心;\n\n(三)以书面并加盖单位公章的形式向交易中心提交下列财务数据:\n\n1、开放式投资基金于每月10日前提交上月月底的基金资产净值;\n\n2、外资金融机构在中国境内的分支机构提交该分支机构人民币营运资金规模。当人民币营运资金规模发生变更时应及时书面通知交易中心;\n\n3、其他机构应提交本机构实收资本或净资产规模数据,二者只需报送其一。当实收资本或净资产规模发生变更时应及时书面通知交易中心。\n\n第五条 尚未成为交易成员的市场参与者参与债券远期交易应向交易中心提交以下材料:\n\n(一)企业法人营业执照副本复印件;\n\n(二)金融机构应提供相关金融机构业务许可证副本复印件,包括金融机构法人许可证、信托法人许可证、经营证券业务许可证、经营保险业务许可证等;\n\n(三)商业银行分行应提供其总行的债券远期交易授权书;\n\n(四)《全国银行间同业拆借中心债券远期交易申请表》(见附件1);\n\n(五)交易中心要求提交的其他材料。\n\n第六条 交易中心在收到市场参与者提交的材料后,将于五个工作日内做好为其提供交易服务的准备工作。\n\n第三章 交易基本规则\n\n第七条 债券远期交易期限最短为2天,最长为365天。交易成员可在此区间内自由选择交易期限,不得展期。\n\n第八条 债券远期交易数额最小为债券面额十万元,交易单位为债券面额一万元。\n\n第九条 债券远期交易净价报价保留小数点后三位。\n\n第十条 交易系统对债券远期交易下列风险控制指标设置成交前判断与控制:\n\n(一)市场参与者单只债券远期交易卖出与买入总余额占该只债券流通量的比例分别不得超过20%;\n\n(二)市场参与者远期交易卖出总余额与其可用自有债券总余额的比例不得超过200%;\n\n(三)市场参与者远期交易净买入总余额与其实收资本(或净资产、基金资产净值、人民币营运资金)的比例不得超过100%。\n\n交易系统可根据人民银行的规定对上述指标或比例进行调整。\n\n第四章 交易程序\n\n第十一条 已与交易中心专线交易系统联网的市场参与者直接通过交易系统进行债券远期交易。\n\n第十二条 交易双方通过交易系统确认成交后,交易系统生成成交通知单。债券远期交易在成交通知单生成后立即生效。\n\n成交双方依成交通知单办理结算。\n\n第十三条 债券远期交易成交通知单的主要内容包括:成交日、成交编号、成交双方全称、交易员、标的债券名称、标的债券代码、远期交易期限、远期交易净价、远期交易全价、券面总额、结算金额、应计利息总额、结算日、结算方式、成交双方资金账户户名、开户行、帐号、债券托管账号、保证金(券)金额、保证券简称、保证金账号、是否允许变更保证金(券)等。\n\n第十四条 若成交双方对成交通知单内容有疑问或歧义的,以交易系统的成交记录为准。\n\n第十五条 交易双方在确认交易成交前可对报价内容进行修改或撤销。交易一经确认成交,则不得擅自变更。\n\n成交双方确需对成交进行变更的,应经双方协商一致同意。\n\n成交双方申请变更成交当日生成的成交通知单的,应于成交当日16:15前向交易中心场务值班室提交经双方盖章的书面变更申请,注明申请变更的成交编号并说明变更原因。交易中心依书面申请办理变更,并将有关情况备案。\n\n成交双方申请变更非成交日生成的成交通知单的,应签订远期交易补充合同,并于合同签订当日将合同复印件报交易中心备案。\n\n第十六条 对一年以内五次以上(不含五次)办理成交变更的市场参与者,交易中心将在中国货币网公告。\n\n第十七条 参与债券远期交易的双方或一方未与专线交易系统联网的,按以下流程办理交易:\n\n(一)交易双方通过电话、传真等方式自行询价,确定交易意向;\n\n(二)交易双方分别填写《债券远期交易应急成交申请单》(以下简称“应急申请单”,见附件2),并加盖公章,在交易当日16:00前传真至交易中心场务值班室;\n\n(三)交易中心将双方应急申请单核对无误后,将成交要素输入交易系统,生成成交通知单;\n\n(四)交易中心在成交通知单上加盖公章后,将成交通知单传真给未联网方;\n\n(五)成交双方按成交通知单办理结算。\n\n第五章 保证金集中管理\n\n第十八条 市场参与者选择由交易中心集中管理债券远期交易保证金(以下简称“保证金”)的,按以下规定办理。\n\n第十九条 本规则所称保证金集中管理是指市场参与者进行债券远期交易时,约定将用于履约保障的保证金统一存放于交易中心在中国人民银行上海分行开立的保证金专用帐户,由交易中心集中代为保管的方式。\n\n保证金及其孳息的所有权属于保证金提供方,交易中心确保提供方的合法权益。\n\n第二十条 保证金管理系统是指由交易中心管理运作的、专门用于保证金帐户管理的计算机处理系统和通讯网络。\n\n第二十一条 市场参与者委托交易中心集中管理保证金的,应与交易中心签署《债券远期交易保证金管理协议》(以下简称“《协议》”)。\n\n《协议》规范交易中心与开户方的权利义务关系,并规定保证金管理业务流程。\n\n经市场参与者签署的《协议》可同时视作其开设保证金帐户的申请文件。\n\n第二十二条 交易中心在收到市场参与者签署的《协议》后应于三个工作日内为其办理保证金帐户开户事宜,并以书面形式通知其开户情况。\n\n第二十三条 市场参与者收到交易中心书面开户通知后,由首席交易员在本币交易系统“内部管理”项下的“帐户管理”中进行帐户设置。\n\n第二十四条 市场参与者进行债券远期交易过程中,双方约定设定保证金的,应对保证金占标的债券的比例(以下简称“保证金比例”)、保证金提交日、用于该笔保证金管理的帐户(交易中心的保证金帐户或其他帐户)、在结算日前是否允许变更保证金等要素进行明确约定。\n\n第二十五条 保证金比例由交易双方自行约定,逐笔缴纳。\n\n保证金金额=远期交易结算金额×保证金比例。\n\n第二十六条 交易双方可选择在成交当日(T+0)或成交日的下一工作日(T+1)划付保证金。\n\n第二十七条 交易双方在成交前应就是否允许在结算日前追加或减少保证金达成协议。交易双方只能对已达成协议的远期交易保证金进行变更。\n\n交易双方在成交日后、结算日前变更保证金的,应签订补充合同,并于补充合同签订当日报交易中心备案。\n\n第六章 信息披露\n\n第二十八条 交易中心通过中国货币网向市场参与者披露债券远期交易有关信息。\n\n第二十九条 交易中心向市场参与者披露以下债券远期交易信息:\n\n(一)市场报价信息;\n\n(二)市场成交和行情信息;\n\n(三)市场统计信息:\n\n1、单只债券不同期限品种远期交易买入(或卖出)余额及其分别占市场远期交易买入(或卖出)总余额和该只债券市场流通量的比例;\n\n2、单个期限品种远期交易买入(或卖出)余额及其占市场远期交易买入(或卖出)总余额的比例。\n\n3、单只债券单日远期交易待交割量及其占该只债券市场流通量的比例,该比例超过5%的,向市场公告该只债券名称和债券远期交易到期交割日期;\n\n4、市场参与者债券远期交易量排名;\n\n5、市场参与者违约情况和中国人民银行授权披露的市场参与者违规情况。\n\n(四)债券远期交易日评、周评;\n\n(五)已签署《主协议》的市场参与者名单;\n\n(六)中国人民银行授权披露的其他信息。\n\n第七章 附 则\n\n第三十条 如遇不可抗力或其他特殊情况,市场参与者须依《银行间债券交易应急规则》的有关规定办理。\n\n第三十一条 本规则解释权与修改权属交易中心。\n\n第三十二条 本规则自公布之日起施行。\n\n附件1:\n\n全国银行间同业拆借中心债券远期交易申请表\n\n机构名称\n\n性质 成立时间\n\n法人营业执照登记号 批准机关\n\n金融业务许可证号 批准机关\n\n业务范围\n\n法定代表人 注册资本 (亿元)\n\n实收资本(或净资产)/资产净值/人民币营运资金 (亿元)\n\n资产规模 (亿元)\n\n债券业务部门概况 部门名称\n\n负责人及联系电话\n\n经办人及联系电话\n\n传真\n\n电子邮箱\n\n地址、邮编\n\n帐户资料 帐户名称\n\n清算资金开户行\n\n清算资金帐号\n\n债券托管帐号\n\n保证金开户行\n\n保证金帐号\n\n注:1外资金融机构填写人民币营运资金,基金填写资产净值,其他机构填写实收资本或净资产。2债券托管帐号指申请机构在中央国债登记结算有限责任公司开立的债券托管帐号。3非金融机构不必填写“金融业务许可证号”及“批准机关”4全国银行间同业拆借中心联系及咨询电话:021-63298988转市场二部;联系地址:上海市中山东一路15号,邮政编码:200002。请在填表日期处加盖公章5。\n\n填表日期: 年 月 日\n\n附件2\n\n全国银行间同业拆借中心\n\n债券远期交易应急成交申请单\n\n申请单位名称: 申请日期: 年 月 日\n\n买方\n\n卖方\n\n债券名称 债券代码\n\n远期交易净价(元) /百元面值 券面总额(万元)\n\n远期交易期限(天) 远期结算日 年 月 日\n\n结算方式 ○券款对付 ○见券付款 ○见款付券\n\n资金清算帐号\n\n交易员姓名\n\n联系电话 传真电话\n\n本方保证金(券)要素\n\n履约保证方式 ○无履约保证 ○保证金 ○保证券\n\n保证金(券)比例(%) 保证金(券)金额(元)\n\n保证券简称 保证金(券)提交日\n\n保证金开户行\n\n保证金帐号\n\n是否允许追加/减少保证金 ○是 ○否\n\n说明:\n\n备注:1、本申请一式两份,申请单位和交易中心各存一份;\n\n2、履约保证方式“保证金”、“保证券”和“无履约保证”三项只能选择一项;\n\n3、本申请盖章有效。\n\n申请单位盖章",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "全国银行间债券市场债券远期交易规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 17,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 19,
+      "end_char": 26,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为规范全国银行间债券市场债券远期交易行为,维护市场参与者的合法权益,根据中国人民银行《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券交易规则》和《全国银行间债券市场债券交易应急规则》等有关规定、规则,制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 28,
+      "end_char": 148,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 市场参与者在债券远期交易中应遵循公开、公正、公平的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 150,
+      "end_char": 182,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "市场参与者自主报价、自选对手、自行清算、自担风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 184,
+      "end_char": 209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 全国银行间同业拆借中心(以下简称“交易中心”)为市场参与者债券远期交易提供报价、交易和信息服务,并接受中国人民银行的监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "chapter",
+      "text": "第二章 交易主体",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 278,
+      "end_char": 286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第四条 市场参与者参与债券远期交易应做好如下准备:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 288,
+      "end_char": 313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)签署《全国银行间债券市场债券远期交易主协议》(以下简称“《主协议》”)并提交交易中心备案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 315,
+      "end_char": 363,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)具备债券远期交易内部管理办法并抄送交易中心;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 365,
+      "end_char": 390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "guide_subheading",
+      "text": "(三)以书面并加盖单位公章的形式向交易中心提交下列财务数据:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 392,
+      "end_char": 422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "1、开放式投资基金于每月10日前提交上月月底的基金资产净值;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 424,
+      "end_char": 454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "2、外资金融机构在中国境内的分支机构提交该分支机构人民币营运资金规模。当人民币营运资金规模发生变更时应及时书面通知交易中心;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 456,
+      "end_char": 518,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "3、其他机构应提交本机构实收资本或净资产规模数据,二者只需报送其一。当实收资本或净资产规模发生变更时应及时书面通知交易中心。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 520,
+      "end_char": 582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第五条 尚未成为交易成员的市场参与者参与债券远期交易应向交易中心提交以下材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 584,
+      "end_char": 623,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(一)企业法人营业执照副本复印件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 642,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(二)金融机构应提供相关金融机构业务许可证副本复印件,包括金融机构法人许可证、信托法人许可证、经营证券业务许可证、经营保险业务许可证等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 644,
+      "end_char": 712,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(三)商业银行分行应提供其总行的债券远期交易授权书;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 714,
+      "end_char": 740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(四)《全国银行间同业拆借中心债券远期交易申请表》(见附件1);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 742,
+      "end_char": 774,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(五)交易中心要求提交的其他材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 776,
+      "end_char": 793,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第六条 交易中心在收到市场参与者提交的材料后,将于五个工作日内做好为其提供交易服务的准备工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 795,
+      "end_char": 842,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "chapter",
+      "text": "第三章 交易基本规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 844,
+      "end_char": 854,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第七条 债券远期交易期限最短为2天,最长为365天。交易成员可在此区间内自由选择交易期限,不得展期。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 856,
+      "end_char": 906,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第八条 债券远期交易数额最小为债券面额十万元,交易单位为债券面额一万元。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 944,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第九条 债券远期交易净价报价保留小数点后三位。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 946,
+      "end_char": 969,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十条 交易系统对债券远期交易下列风险控制指标设置成交前判断与控制:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 971,
+      "end_char": 1005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)市场参与者单只债券远期交易卖出与买入总余额占该只债券流通量的比例分别不得超过20%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1007,
+      "end_char": 1052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)市场参与者远期交易卖出总余额与其可用自有债券总余额的比例不得超过200%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1054,
+      "end_char": 1094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)市场参与者远期交易净买入总余额与其实收资本(或净资产、基金资产净值、人民币营运资金)的比例不得超过100%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1096,
+      "end_char": 1153,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "交易系统可根据人民银行的规定对上述指标或比例进行调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1155,
+      "end_char": 1182,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "chapter",
+      "text": "第四章 交易程序",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1184,
+      "end_char": 1192,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十一条 已与交易中心专线交易系统联网的市场参与者直接通过交易系统进行债券远期交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1194,
+      "end_char": 1236,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十二条 交易双方通过交易系统确认成交后,交易系统生成成交通知单。债券远期交易在成交通知单生成后立即生效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "成交双方依成交通知单办理结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1293,
+      "end_char": 1308,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十三条 债券远期交易成交通知单的主要内容包括:成交日、成交编号、成交双方全称、交易员、标的债券名称、标的债券代码、远期交易期限、远期交易净价、远期交易全价、券面总额、结算金额、应计利息总额、结算日、结算方式、成交双方资金账户户名、开户行、帐号、债券托管账号、保证金(券)金额、保证券简称、保证金账号、是否允许变更保证金(券)等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1310,
+      "end_char": 1475,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十四条 若成交双方对成交通知单内容有疑问或歧义的,以交易系统的成交记录为准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1477,
+      "end_char": 1516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十五条 交易双方在确认交易成交前可对报价内容进行修改或撤销。交易一经确认成交,则不得擅自变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1518,
+      "end_char": 1566,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "成交双方确需对成交进行变更的,应经双方协商一致同意。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1568,
+      "end_char": 1594,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "成交双方申请变更成交当日生成的成交通知单的,应于成交当日16:15前向交易中心场务值班室提交经双方盖章的书面变更申请,注明申请变更的成交编号并说明变更原因。交易中心依书面申请办理变更,并将有关情况备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1596,
+      "end_char": 1697,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "成交双方申请变更非成交日生成的成交通知单的,应签订远期交易补充合同,并于合同签订当日将合同复印件报交易中心备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1699,
+      "end_char": 1755,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十六条 对一年以内五次以上(不含五次)办理成交变更的市场参与者,交易中心将在中国货币网公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1757,
+      "end_char": 1804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十七条 参与债券远期交易的双方或一方未与专线交易系统联网的,按以下流程办理交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1806,
+      "end_char": 1847,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(一)交易双方通过电话、传真等方式自行询价,确定交易意向;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1849,
+      "end_char": 1878,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(二)交易双方分别填写《债券远期交易应急成交申请单》(以下简称“应急申请单”,见附件2),并加盖公章,在交易当日16:00前传真至交易中心场务值班室;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1880,
+      "end_char": 1955,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(三)交易中心将双方应急申请单核对无误后,将成交要素输入交易系统,生成成交通知单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1957,
+      "end_char": 1998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(四)交易中心在成交通知单上加盖公章后,将成交通知单传真给未联网方;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2000,
+      "end_char": 2034,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(五)成交双方按成交通知单办理结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "chapter",
+      "text": "第五章 保证金集中管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2056,
+      "end_char": 2067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十八条 市场参与者选择由交易中心集中管理债券远期交易保证金(以下简称“保证金”)的,按以下规定办理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2069,
+      "end_char": 2120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第十九条 本规则所称保证金集中管理是指市场参与者进行债券远期交易时,约定将用于履约保障的保证金统一存放于交易中心在中国人民银行上海分行开立的保证金专用帐户,由交易中心集中代为保管的方式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2122,
+      "end_char": 2215,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "保证金及其孳息的所有权属于保证金提供方,交易中心确保提供方的合法权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2217,
+      "end_char": 2252,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十条 保证金管理系统是指由交易中心管理运作的、专门用于保证金帐户管理的计算机处理系统和通讯网络。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2254,
+      "end_char": 2304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十一条 市场参与者委托交易中心集中管理保证金的,应与交易中心签署《债券远期交易保证金管理协议》(以下简称“《协议》”)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2306,
+      "end_char": 2368,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "《协议》规范交易中心与开户方的权利义务关系,并规定保证金管理业务流程。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2370,
+      "end_char": 2405,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "经市场参与者签署的《协议》可同时视作其开设保证金帐户的申请文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2407,
+      "end_char": 2439,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十二条 交易中心在收到市场参与者签署的《协议》后应于三个工作日内为其办理保证金帐户开户事宜,并以书面形式通知其开户情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2441,
+      "end_char": 2503,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十三条 市场参与者收到交易中心书面开户通知后,由首席交易员在本币交易系统“内部管理”项下的“帐户管理”中进行帐户设置。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2505,
+      "end_char": 2566,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十四条 市场参与者进行债券远期交易过程中,双方约定设定保证金的,应对保证金占标的债券的比例(以下简称“保证金比例”)、保证金提交日、用于该笔保证金管理的帐户(交易中心的保证金帐户或其他帐户)、在结算日前是否允许变更保证金等要素进行明确约定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2568,
+      "end_char": 2690,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十五条 保证金比例由交易双方自行约定,逐笔缴纳。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2692,
+      "end_char": 2718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "保证金金额=远期交易结算金额×保证金比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2720,
+      "end_char": 2741,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十六条 交易双方可选择在成交当日(T+0)或成交日的下一工作日(T+1)划付保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2743,
+      "end_char": 2787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十七条 交易双方在成交前应就是否允许在结算日前追加或减少保证金达成协议。交易双方只能对已达成协议的远期交易保证金进行变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "交易双方在成交日后、结算日前变更保证金的,应签订补充合同,并于补充合同签订当日报交易中心备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2854,
+      "end_char": 2901,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "chapter",
+      "text": "第六章 信息披露",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2903,
+      "end_char": 2911,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十八条 交易中心通过中国货币网向市场参与者披露债券远期交易有关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2913,
+      "end_char": 2949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第二十九条 交易中心向市场参与者披露以下债券远期交易信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2951,
+      "end_char": 2980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(一)市场报价信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2982,
+      "end_char": 2992,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(二)市场成交和行情信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2994,
+      "end_char": 3007,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "guide_subheading",
+      "text": "(三)市场统计信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3009,
+      "end_char": 3019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "1、单只债券不同期限品种远期交易买入(或卖出)余额及其分别占市场远期交易买入(或卖出)总余额和该只债券市场流通量的比例;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3021,
+      "end_char": 3081,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "2、单个期限品种远期交易买入(或卖出)余额及其占市场远期交易买入(或卖出)总余额的比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3083,
+      "end_char": 3127,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "3、单只债券单日远期交易待交割量及其占该只债券市场流通量的比例,该比例超过5%的,向市场公告该只债券名称和债券远期交易到期交割日期;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3129,
+      "end_char": 3195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "4、市场参与者债券远期交易量排名;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3197,
+      "end_char": 3214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "5、市场参与者违约情况和中国人民银行授权披露的市场参与者违规情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3216,
+      "end_char": 3249,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(四)债券远期交易日评、周评;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3251,
+      "end_char": 3266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(五)已签署《主协议》的市场参与者名单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3268,
+      "end_char": 3288,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(六)中国人民银行授权披露的其他信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3290,
+      "end_char": 3309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "chapter",
+      "text": "第七章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3311,
+      "end_char": 3318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第三十条 如遇不可抗力或其他特殊情况,市场参与者须依《银行间债券交易应急规则》的有关规定办理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3320,
+      "end_char": 3367,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十一条 本规则解释权与修改权属交易中心。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3369,
+      "end_char": 3391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第三十二条 本规则自公布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3393,
+      "end_char": 3411,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "attachment",
+      "text": "附件1:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3413,
+      "end_char": 3417,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心债券远期交易申请表",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3419,
+      "end_char": 3439,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "机构名称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3441,
+      "end_char": 3445,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "性质 成立时间",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3447,
+      "end_char": 3454,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "法人营业执照登记号 批准机关",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3456,
+      "end_char": 3470,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "金融业务许可证号 批准机关",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3472,
+      "end_char": 3485,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "业务范围",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3487,
+      "end_char": 3491,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "signoff",
+      "text": "法定代表人 注册资本 (亿元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3493,
+      "end_char": 3508,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "实收资本(或净资产)/资产净值/人民币营运资金 (亿元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3510,
+      "end_char": 3538,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "资产规模 (亿元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3540,
+      "end_char": 3549,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "债券业务部门概况 部门名称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3551,
+      "end_char": 3564,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "signoff",
+      "text": "负责人及联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3566,
+      "end_char": 3574,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "经办人及联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3576,
+      "end_char": 3584,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "传真",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3586,
+      "end_char": 3588,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3590,
+      "end_char": 3594,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "地址、邮编",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3596,
+      "end_char": 3601,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "帐户资料 帐户名称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3603,
+      "end_char": 3612,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "清算资金开户行",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3614,
+      "end_char": 3621,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "清算资金帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3623,
+      "end_char": 3629,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "债券托管帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3631,
+      "end_char": 3637,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "保证金开户行",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3639,
+      "end_char": 3645,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "保证金帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3647,
+      "end_char": 3652,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "note",
+      "text": "注:1外资金融机构填写人民币营运资金,基金填写资产净值,其他机构填写实收资本或净资产。2债券托管帐号指申请机构在中央国债登记结算有限责任公司开立的债券托管帐号。3非金融机构不必填写“金融业务许可证号”及“批准机关”4全国银行间同业拆借中心联系及咨询电话:021-63298988转市场二部;联系地址:上海市中山东一路15号,邮政编码:200002。请在填表日期处加盖公章5。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3654,
+      "end_char": 3841,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "填表日期: 年 月 日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3843,
+      "end_char": 3854,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "attachment",
+      "text": "附件2",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3856,
+      "end_char": 3859,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3861,
+      "end_char": 3872,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "债券远期交易应急成交申请单",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3874,
+      "end_char": 3887,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "申请单位名称: 申请日期: 年 月 日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3889,
+      "end_char": 3908,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "买方",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3910,
+      "end_char": 3912,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "卖方",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3914,
+      "end_char": 3916,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "债券名称 债券代码",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3918,
+      "end_char": 3927,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "远期交易净价(元) /百元面值 券面总额(万元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3929,
+      "end_char": 3953,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "远期交易期限(天) 远期结算日 年 月 日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3955,
+      "end_char": 3976,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "结算方式 ○券款对付 ○见券付款 ○见款付券",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3978,
+      "end_char": 4000,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "资金清算帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4002,
+      "end_char": 4008,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "交易员姓名",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4010,
+      "end_char": 4015,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "联系电话 传真电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4017,
+      "end_char": 4026,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "本方保证金(券)要素",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4028,
+      "end_char": 4038,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "履约保证方式 ○无履约保证 ○保证金 ○保证券",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4040,
+      "end_char": 4063,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "保证金(券)比例(%) 保证金(券)金额(元)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4065,
+      "end_char": 4088,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "保证券简称 保证金(券)提交日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4090,
+      "end_char": 4105,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "保证金开户行",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4107,
+      "end_char": 4113,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "保证金帐号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4115,
+      "end_char": 4120,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "是否允许追加/减少保证金 ○是 ○否",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4122,
+      "end_char": 4140,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "note",
+      "text": "说明:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4142,
+      "end_char": 4145,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "note",
+      "text": "备注:1、本申请一式两份,申请单位和交易中心各存一份;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4147,
+      "end_char": 4174,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "paragraph",
+      "text": "2、履约保证方式“保证金”、“保证券”和“无履约保证”三项只能选择一项;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4176,
+      "end_char": 4212,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "3、本申请盖章有效。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4214,
+      "end_char": 4224,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "paragraph",
+      "text": "申请单位盖章",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4226,
+      "end_char": 4232,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "全国银行间债券市场债券远期交易规则\n\n第一章 总 则\n\n第一条 为规范全国银行间债券市场债券远期交易行为,维护市场参与者的合法权益,根据中国人民银行《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券交易规则》和《全国银行间债券市场债券交易应急规则》等有关规定、规则,制定本规则。\n\n第二条 市场参与者在债券远期交易中应遵循公开、公正、公平的原则。\n\n市场参与者自主报价、自选对手、自行清算、自担风险。\n\n第三条 全国银行间同业拆借中心(以下简称“交易中心”)为市场参与者债券远期交易提供报价、交易和信息服务,并接受中国人民银行的监管。\n\n第二章 交易主体\n\n第四条 市场参与者参与债券远期交易应做好如下准备:\n\n(一)签署《全国银行间债券市场债券远期交易主协议》(以下简称“《主协议》”)并提交交易中心备案;\n\n(二)具备债券远期交易内部管理办法并抄送交易中心;\n\n(三)以书面并加盖单位公章的形式向交易中心提交下列财务数据:\n\n1、开放式投资基金于每月10日前提交上月月底的基金资产净值;\n\n2、外资金融机构在中国境内的分支机构提交该分支机构人民币营运资金规模。当人民币营运资金规模发生变更时应及时书面通知交易中心;\n\n3、其他机构应提交本机构实收资本或净资产规模数据,二者只需报送其一。当实收资本或净资产规模发生变更时应及时书面通知交易中心。\n\n第五条 尚未成为交易成员的市场参与者参与债券远期交易应向交易中心提交以下材料:\n\n(一)企业法人营业执照副本复印件;\n\n(二)金融机构应提供相关金融机构业务许可证副本复印件,包括金融机构法人许可证、信托法人许可证、经营证券业务许可证、经营保险业务许可证等;\n\n(三)商业银行分行应提供其总行的债券远期交易授权书;\n\n(四)《全国银行间同业拆借中心债券远期交易申请表》(见附件1);\n\n(五)交易中心要求提交的其他材料。\n\n第六条 交易中心在收到市场参与者提交的材料后,将于五个工作日内做好为其提供交易服务的准备工作。\n\n第三章 交易基本规则\n\n第七条 债券远期交易期限最短为2天,最长为365天。交易成员可在此区间内自由选择交易期限,不得展期。\n\n第八条 债券远期交易数额最小为债券面额十万元,交易单位为债券面额一万元。\n\n第九条 债券远期交易净价报价保留小数点后三位。\n\n第十条 交易系统对债券远期交易下列风险控制指标设置成交前判断与控制:\n\n(一)市场参与者单只债券远期交易卖出与买入总余额占该只债券流通量的比例分别不得超过20%;\n\n(二)市场参与者远期交易卖出总余额与其可用自有债券总余额的比例不得超过200%;\n\n(三)市场参与者远期交易净买入总余额与其实收资本(或净资产、基金资产净值、人民币营运资金)的比例不得超过100%。\n\n交易系统可根据人民银行的规定对上述指标或比例进行调整。\n\n第四章 交易程序\n\n第十一条 已与交易中心专线交易系统联网的市场参与者直接通过交易系统进行债券远期交易。\n\n第十二条 交易双方通过交易系统确认成交后,交易系统生成成交通知单。债券远期交易在成交通知单生成后立即生效。\n\n成交双方依成交通知单办理结算。\n\n第十三条 债券远期交易成交通知单的主要内容包括:成交日、成交编号、成交双方全称、交易员、标的债券名称、标的债券代码、远期交易期限、远期交易净价、远期交易全价、券面总额、结算金额、应计利息总额、结算日、结算方式、成交双方资金账户户名、开户行、帐号、债券托管账号、保证金(券)金额、保证券简称、保证金账号、是否允许变更保证金(券)等。\n\n第十四条 若成交双方对成交通知单内容有疑问或歧义的,以交易系统的成交记录为准。\n\n第十五条 交易双方在确认交易成交前可对报价内容进行修改或撤销。交易一经确认成交,则不得擅自变更。\n\n成交双方确需对成交进行变更的,应经双方协商一致同意。\n\n成交双方申请变更成交当日生成的成交通知单的,应于成交当日16:15前向交易中心场务值班室提交经双方盖章的书面变更申请,注明申请变更的成交编号并说明变更原因。交易中心依书面申请办理变更,并将有关情况备案。\n\n成交双方申请变更非成交日生成的成交通知单的,应签订远期交易补充合同,并于合同签订当日将合同复印件报交易中心备案。\n\n第十六条 对一年以内五次以上(不含五次)办理成交变更的市场参与者,交易中心将在中国货币网公告。\n\n第十七条 参与债券远期交易的双方或一方未与专线交易系统联网的,按以下流程办理交易:\n\n(一)交易双方通过电话、传真等方式自行询价,确定交易意向;\n\n(二)交易双方分别填写《债券远期交易应急成交申请单》(以下简称“应急申请单”,见附件2),并加盖公章,在交易当日16:00前传真至交易中心场务值班室;\n\n(三)交易中心将双方应急申请单核对无误后,将成交要素输入交易系统,生成成交通知单;\n\n(四)交易中心在成交通知单上加盖公章后,将成交通知单传真给未联网方;\n\n(五)成交双方按成交通知单办理结算。\n\n第五章 保证金集中管理\n\n第十八条 市场参与者选择由交易中心集中管理债券远期交易保证金(以下简称“保证金”)的,按以下规定办理。\n\n第十九条 本规则所称保证金集中管理是指市场参与者进行债券远期交易时,约定将用于履约保障的保证金统一存放于交易中心在中国人民银行上海分行开立的保证金专用帐户,由交易中心集中代为保管的方式。\n\n保证金及其孳息的所有权属于保证金提供方,交易中心确保提供方的合法权益。\n\n第二十条 保证金管理系统是指由交易中心管理运作的、专门用于保证金帐户管理的计算机处理系统和通讯网络。\n\n第二十一条 市场参与者委托交易中心集中管理保证金的,应与交易中心签署《债券远期交易保证金管理协议》(以下简称“《协议》”)。\n\n《协议》规范交易中心与开户方的权利义务关系,并规定保证金管理业务流程。\n\n经市场参与者签署的《协议》可同时视作其开设保证金帐户的申请文件。\n\n第二十二条 交易中心在收到市场参与者签署的《协议》后应于三个工作日内为其办理保证金帐户开户事宜,并以书面形式通知其开户情况。\n\n第二十三条 市场参与者收到交易中心书面开户通知后,由首席交易员在本币交易系统“内部管理”项下的“帐户管理”中进行帐户设置。\n\n第二十四条 市场参与者进行债券远期交易过程中,双方约定设定保证金的,应对保证金占标的债券的比例(以下简称“保证金比例”)、保证金提交日、用于该笔保证金管理的帐户(交易中心的保证金帐户或其他帐户)、在结算日前是否允许变更保证金等要素进行明确约定。\n\n第二十五条 保证金比例由交易双方自行约定,逐笔缴纳。\n\n保证金金额=远期交易结算金额×保证金比例。\n\n第二十六条 交易双方可选择在成交当日(T+0)或成交日的下一工作日(T+1)划付保证金。\n\n第二十七条 交易双方在成交前应就是否允许在结算日前追加或减少保证金达成协议。交易双方只能对已达成协议的远期交易保证金进行变更。\n\n交易双方在成交日后、结算日前变更保证金的,应签订补充合同,并于补充合同签订当日报交易中心备案。\n\n第六章 信息披露\n\n第二十八条 交易中心通过中国货币网向市场参与者披露债券远期交易有关信息。\n\n第二十九条 交易中心向市场参与者披露以下债券远期交易信息:\n\n(一)市场报价信息;\n\n(二)市场成交和行情信息;\n\n(三)市场统计信息:\n\n1、单只债券不同期限品种远期交易买入(或卖出)余额及其分别占市场远期交易买入(或卖出)总余额和该只债券市场流通量的比例;\n\n2、单个期限品种远期交易买入(或卖出)余额及其占市场远期交易买入(或卖出)总余额的比例。\n\n3、单只债券单日远期交易待交割量及其占该只债券市场流通量的比例,该比例超过5%的,向市场公告该只债券名称和债券远期交易到期交割日期;\n\n4、市场参与者债券远期交易量排名;\n\n5、市场参与者违约情况和中国人民银行授权披露的市场参与者违规情况。\n\n(四)债券远期交易日评、周评;\n\n(五)已签署《主协议》的市场参与者名单;\n\n(六)中国人民银行授权披露的其他信息。\n\n第七章 附 则\n\n第三十条 如遇不可抗力或其他特殊情况,市场参与者须依《银行间债券交易应急规则》的有关规定办理。\n\n第三十一条 本规则解释权与修改权属交易中心。\n\n第三十二条 本规则自公布之日起施行。\n\n附件1:\n\n全国银行间同业拆借中心债券远期交易申请表\n\n机构名称\n\n性质 成立时间\n\n法人营业执照登记号 批准机关\n\n金融业务许可证号 批准机关\n\n业务范围\n\n法定代表人 注册资本 (亿元)\n\n实收资本(或净资产)/资产净值/人民币营运资金 (亿元)\n\n资产规模 (亿元)\n\n债券业务部门概况 部门名称\n\n负责人及联系电话\n\n经办人及联系电话\n\n传真\n\n电子邮箱\n\n地址、邮编\n\n帐户资料 帐户名称\n\n清算资金开户行\n\n清算资金帐号\n\n债券托管帐号\n\n保证金开户行\n\n保证金帐号\n\n注:1外资金融机构填写人民币营运资金,基金填写资产净值,其他机构填写实收资本或净资产。2债券托管帐号指申请机构在中央国债登记结算有限责任公司开立的债券托管帐号。3非金融机构不必填写“金融业务许可证号”及“批准机关”4全国银行间同业拆借中心联系及咨询电话:021-63298988转市场二部;联系地址:上海市中山东一路15号,邮政编码:200002。请在填表日期处加盖公章5。\n\n填表日期: 年 月 日\n\n附件2\n\n全国银行间同业拆借中心\n\n债券远期交易应急成交申请单\n\n申请单位名称: 申请日期: 年 月 日\n\n买方\n\n卖方\n\n债券名称 债券代码\n\n远期交易净价(元) /百元面值 券面总额(万元)\n\n远期交易期限(天) 远期结算日 年 月 日\n\n结算方式 ○券款对付 ○见券付款 ○见款付券\n\n资金清算帐号\n\n交易员姓名\n\n联系电话 传真电话\n\n本方保证金(券)要素\n\n履约保证方式 ○无履约保证 ○保证金 ○保证券\n\n保证金(券)比例(%) 保证金(券)金额(元)\n\n保证券简称 保证金(券)提交日\n\n保证金开户行\n\n保证金帐号\n\n是否允许追加/减少保证金 ○是 ○否\n\n说明:\n\n备注:1、本申请一式两份,申请单位和交易中心各存一份;\n\n2、履约保证方式“保证金”、“保证券”和“无履约保证”三项只能选择一项;\n\n3、本申请盖章有效。\n\n申请单位盖章",
   "blocks": [
     {
@@ -179,7 +3309,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 17,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -187,7 +3324,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 19,
+      "end_char": 26,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -195,7 +3339,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 28,
+      "end_char": 148,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -203,7 +3354,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 150,
+      "end_char": 182,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -211,7 +3369,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 184,
+      "end_char": 209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -219,7 +3384,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 276,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -227,7 +3399,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 278,
+      "end_char": 286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -235,7 +3414,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 288,
+      "end_char": 313,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -243,7 +3429,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 315,
+      "end_char": 363,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -251,7 +3444,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 365,
+      "end_char": 390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -259,7 +3459,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 392,
+      "end_char": 422,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -267,7 +3474,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 424,
+      "end_char": 454,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -275,7 +3489,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 456,
+      "end_char": 518,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -283,7 +3504,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 520,
+      "end_char": 582,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -291,7 +3519,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 584,
+      "end_char": 623,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -299,7 +3534,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 642,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -307,7 +3549,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 644,
+      "end_char": 712,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -315,7 +3564,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 714,
+      "end_char": 740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -323,7 +3579,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 742,
+      "end_char": 774,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -331,7 +3594,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 776,
+      "end_char": 793,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -339,7 +3609,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 795,
+      "end_char": 842,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -347,7 +3624,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 844,
+      "end_char": 854,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -355,7 +3639,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 856,
+      "end_char": 906,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -363,7 +3654,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 944,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -371,7 +3669,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 946,
+      "end_char": 969,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -379,7 +3684,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 971,
+      "end_char": 1005,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -387,7 +3699,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1007,
+      "end_char": 1052,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -395,7 +3714,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1054,
+      "end_char": 1094,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -403,7 +3729,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1096,
+      "end_char": 1153,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -411,7 +3744,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1155,
+      "end_char": 1182,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -419,7 +3759,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1184,
+      "end_char": 1192,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -427,7 +3774,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1194,
+      "end_char": 1236,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -435,7 +3789,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1291,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -443,7 +3804,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1293,
+      "end_char": 1308,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -451,7 +3819,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1310,
+      "end_char": 1475,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -459,7 +3834,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1477,
+      "end_char": 1516,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -467,7 +3849,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1518,
+      "end_char": 1566,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -475,7 +3864,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1568,
+      "end_char": 1594,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -483,7 +3879,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1596,
+      "end_char": 1697,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -491,7 +3894,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1699,
+      "end_char": 1755,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -499,7 +3909,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1757,
+      "end_char": 1804,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -507,7 +3924,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1806,
+      "end_char": 1847,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -515,7 +3939,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1849,
+      "end_char": 1878,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -523,7 +3954,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1880,
+      "end_char": 1955,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -531,7 +3969,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1957,
+      "end_char": 1998,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -539,7 +3984,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2000,
+      "end_char": 2034,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -547,7 +3999,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2054,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -555,7 +4014,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2056,
+      "end_char": 2067,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -563,7 +4029,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2069,
+      "end_char": 2120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -571,7 +4044,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2122,
+      "end_char": 2215,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -579,7 +4059,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2217,
+      "end_char": 2252,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -587,7 +4074,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2254,
+      "end_char": 2304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -595,7 +4089,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2306,
+      "end_char": 2368,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -603,7 +4104,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2370,
+      "end_char": 2405,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -611,7 +4119,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2407,
+      "end_char": 2439,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -619,7 +4134,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2441,
+      "end_char": 2503,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -627,7 +4149,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2505,
+      "end_char": 2566,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -635,7 +4164,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2568,
+      "end_char": 2690,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -643,7 +4179,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2692,
+      "end_char": 2718,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -651,7 +4194,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2720,
+      "end_char": 2741,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -659,7 +4209,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2743,
+      "end_char": 2787,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -667,7 +4224,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -675,7 +4239,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2854,
+      "end_char": 2901,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -683,7 +4254,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2903,
+      "end_char": 2911,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -691,7 +4269,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2913,
+      "end_char": 2949,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -699,7 +4284,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2951,
+      "end_char": 2980,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -707,7 +4299,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2982,
+      "end_char": 2992,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -715,7 +4314,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2994,
+      "end_char": 3007,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -723,7 +4329,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3009,
+      "end_char": 3019,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -731,7 +4344,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3021,
+      "end_char": 3081,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -739,7 +4359,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3083,
+      "end_char": 3127,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -747,7 +4374,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3129,
+      "end_char": 3195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -755,7 +4389,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3197,
+      "end_char": 3214,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -763,7 +4404,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3216,
+      "end_char": 3249,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -771,7 +4419,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3251,
+      "end_char": 3266,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -779,7 +4434,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3268,
+      "end_char": 3288,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -787,7 +4449,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3290,
+      "end_char": 3309,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -795,7 +4464,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3311,
+      "end_char": 3318,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -803,7 +4479,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3320,
+      "end_char": 3367,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -811,7 +4494,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3369,
+      "end_char": 3391,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -819,7 +4509,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3393,
+      "end_char": 3411,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -827,7 +4524,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3413,
+      "end_char": 3417,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -835,7 +4539,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3419,
+      "end_char": 3439,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -843,7 +4554,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3441,
+      "end_char": 3445,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -851,7 +4569,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3447,
+      "end_char": 3454,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -859,7 +4584,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3456,
+      "end_char": 3470,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -867,7 +4599,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3472,
+      "end_char": 3485,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -875,7 +4614,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3487,
+      "end_char": 3491,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -883,7 +4629,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3493,
+      "end_char": 3508,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -891,7 +4644,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3510,
+      "end_char": 3538,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -899,7 +4659,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3540,
+      "end_char": 3549,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -907,7 +4674,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3551,
+      "end_char": 3564,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -915,7 +4689,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3566,
+      "end_char": 3574,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -923,7 +4704,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3576,
+      "end_char": 3584,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -931,7 +4719,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3586,
+      "end_char": 3588,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -939,7 +4734,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3590,
+      "end_char": 3594,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -947,7 +4749,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3596,
+      "end_char": 3601,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -955,7 +4764,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3603,
+      "end_char": 3612,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -963,7 +4779,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3614,
+      "end_char": 3621,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -971,7 +4794,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3623,
+      "end_char": 3629,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -979,7 +4809,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3631,
+      "end_char": 3637,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -987,7 +4824,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3639,
+      "end_char": 3645,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -995,7 +4839,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3647,
+      "end_char": 3652,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1003,7 +4854,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3654,
+      "end_char": 3841,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1011,7 +4869,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3843,
+      "end_char": 3854,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1019,7 +4884,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3856,
+      "end_char": 3859,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1027,7 +4899,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3861,
+      "end_char": 3872,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1035,7 +4914,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3874,
+      "end_char": 3887,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1043,7 +4929,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3889,
+      "end_char": 3908,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1051,7 +4944,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3910,
+      "end_char": 3912,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1059,7 +4959,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3914,
+      "end_char": 3916,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1067,7 +4974,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3918,
+      "end_char": 3927,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1075,7 +4989,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3929,
+      "end_char": 3953,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1083,7 +5004,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3955,
+      "end_char": 3976,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1091,7 +5019,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3978,
+      "end_char": 4000,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1099,7 +5034,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4002,
+      "end_char": 4008,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1107,7 +5049,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4010,
+      "end_char": 4015,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1115,7 +5064,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4017,
+      "end_char": 4026,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1123,7 +5079,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4028,
+      "end_char": 4038,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1131,7 +5094,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4040,
+      "end_char": 4063,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1139,7 +5109,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4065,
+      "end_char": 4088,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1147,7 +5124,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4090,
+      "end_char": 4105,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1155,7 +5139,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4107,
+      "end_char": 4113,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1163,7 +5154,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4115,
+      "end_char": 4120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1171,7 +5169,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4122,
+      "end_char": 4140,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1179,7 +5184,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4142,
+      "end_char": 4145,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1187,7 +5199,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4147,
+      "end_char": 4174,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00128",
@@ -1195,7 +5214,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4176,
+      "end_char": 4212,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00129",
@@ -1203,7 +5229,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4214,
+      "end_char": 4224,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00130",
@@ -1211,7 +5244,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4226,
+      "end_char": 4232,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

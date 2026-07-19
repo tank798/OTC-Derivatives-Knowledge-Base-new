@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/银行间市场信用风险缓释工具业务规则(2025年版).pdf",
   "source_type": "pdf",
   "file_sha256": "65360b21a80f914085143dfa8b0bf33c2d97b927d0dc5aa46ee5b1e50193ac3e",
-  "content_sha256": "3e0b36d8a8c267774370f6620e6868c4906fafadd4175d609a736e2b8612e8d1",
+  "content_sha256": "1f30f9d2dc0188ee481a3bf18599e6abc668b04595316c656c93eb2dde30967e",
   "metadata": {
     "document_title": "银行间市场信用风险缓释工具业务规则(2025年版)",
     "issuing_authority": "中国银行间市场交易商协会",
@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "e135662579a3de5a3c8355fdf35df1686d9ef4d9276dc0ddd91c23e4210d6f9b",
     "clean_text_sha256": "e135662579a3de5a3c8355fdf35df1686d9ef4d9276dc0ddd91c23e4210d6f9b",
@@ -89,6 +89,1215 @@
   },
   "original_text_sha256": "e135662579a3de5a3c8355fdf35df1686d9ef4d9276dc0ddd91c23e4210d6f9b",
   "clean_text_sha256": "e135662579a3de5a3c8355fdf35df1686d9ef4d9276dc0ddd91c23e4210d6f9b",
+  "clean_text_hash": "4ed282fdf530f7ac5d9030ec8f611c53697609bf481734b41542b823d33944b3",
+  "structured_blocks_sha256": "d112f60089ac31ee5958f3d8a07fb249047cd6cd866fb96d63c5828f1ca44469",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "银行间市场信用风险缓释工具业务规则(2023 年 10 月 13 日,经交易商协会第四届理事会第十次会议审议通过,交易商协会公告〔2024〕5 号发布)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 76,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 78,
+      "end_char": 84,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国人民银行(以下简称人民银行)有关规定及中国银行间市场交易商协会(以下简称交易商协会)相关自律规则,制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 86,
+      "end_char": 188,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 本规则所称信用风险缓释工具是指用于管理信用风险的信用衍生产品,分为合约类和凭证类两类产品。信用风险缓释工具为参考实体提供信用风险保护的债务范围为债券、贷款或其他类似债务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 190,
+      "end_char": 279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 信用风险缓释工具业务参与者(以下简称参与者)应严格遵守和执行有关法律、法规、监管部门规章和交易商协会自律规则,接受相关监管部门监管和交易商协会自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 281,
+      "end_char": 361,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第四条 参与者进行信用风险缓释工具交易应遵循公平、诚信、自律、风险自担的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 363,
+      "end_char": 402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第五条 参与者开展信用风险缓释工具交易应签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》,或其根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。人民银行另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 404,
+      "end_char": 500,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "chapter",
+      "text": "第二章 参与者",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 502,
+      "end_char": 509,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第六条 参与者分为核心交易商和一般交易商。其中,核心交易商可与所有参与者进行信用风险缓释工具交易。一般交易商只能与核心交易商进行信用风险缓释工具交易,但凭证类信用风险缓释工具的转让流通除外。核心交易商包括金融机构、专业从事信用增进业务的机构等,应经交易商协会金融衍生品专业委员会(以下简称专业委员会)备案后开展信用风险缓释工具业务。核心交易商若开展凭证类信用风险缓释工具创设业务,需经专业委员会备案成为凭证类信用风险缓释工具创设机构(以下简称创设机构)。一般交易商包括金融机构和非金融机构等,应向交易商协会秘书处登记信息后开展信用风险缓释工具业务。同一机构具有自营投资管理业务和资产管理业务的,应分别备案或登记。其中,资产管理业务管理人应作为一般交易商开展业务。交易商协会公示并及时更新参与者名单。参与者备案或登记信息发生变更的,应及时联系交易商协会秘书处更新信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 511,
+      "end_char": 894,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第七条 核心交易商应当建立信用风险缓释工具业务适用的内部操作规程和风险管理制度,健全信用风险缓释工具业务定价机制,并配备履行相应制度所需要的专业人员。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 896,
+      "end_char": 971,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第八条 为促进市场价格发现,交易商协会可根据市场需要建立信用风险缓释工具报价商制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 973,
+      "end_char": 1015,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "chapter",
+      "text": "第三章 业务流程",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1017,
+      "end_char": 1025,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "section",
+      "text": "第一节 合约类信用风险缓释工具",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1027,
+      "end_char": 1042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 合约类信用风险缓释工具的交易可通过人民银行认可的交易平台达成,也可通过电话、传真以及经纪撮合等其他方式达成。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1044,
+      "end_char": 1102,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 合约类信用风险缓释工具交易中参与主体、合约要素适合进行集中清算的,应提交人民银行认可的清算机构进行集中清算;不适合进行集中清算的,可提交人民银行认可的清算机构进行双边清算或由交易双方自行进行清算和结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1104,
+      "end_char": 1209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "section",
+      "text": "第二节 凭证类信用风险缓释工具",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1211,
+      "end_char": 1226,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十一条 创设机构创设凭证类信用风险缓释工具应向交易商协会报备有关创设说明书、创设拟披露文件等,并通过交易商协会指定方式披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1228,
+      "end_char": 1291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十二条 创设机构应在创设披露文件发布后的 10 个工作日内完成销售。交易商协会指定平台可为创设机构销售凭证类信用风险缓释工具提供服务。销售完成后,创设机构应及时办理登记手续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1293,
+      "end_char": 1381,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十三条 凭证类信用风险缓释工具应登记托管在人民银行认可的登记托管机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1383,
+      "end_char": 1419,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十四条 创设机构应在完成登记手续后的次一个工作日,通过交易商协会指定方式披露创设结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1421,
+      "end_char": 1465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十五条 创设机构应在登记当日向交易流通场所提供相关要素信息。经创设完成的凭证类信用风险缓释工具在完成登记手续后的次一工作日即可在银行间市场转让流通。转让流通可以通过人民银行认可的交易平台达成。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1467,
+      "end_char": 1564,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十六条 当创设机构发生可能影响履约行为的重大事项时,创设机构应于下一工作日通过交易商协会指定方式向市场披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1566,
+      "end_char": 1621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十七条 在凭证类信用风险缓释工具存续期内,创设机构应按照创设披露文件的相关约定,通过交易商协会指定方式持续披露信息。披露的信息内容包括评级报告(如有)、财务报告和审计报告等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1623,
+      "end_char": 1711,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "section",
+      "text": "第三节 交易报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1713,
+      "end_char": 1721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十八条 核心交易商应于合约类信用风险缓释工具交易达成后的次一工作日内将交易信息报送交易商协会。创设机构应在凭证类信用风险缓释工具完成登记手续后的次一工作日内,将创设结果信息报送交易商协会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1723,
+      "end_char": 1818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十九条 人民银行认可的交易、清算、结算机构应于每个工作日结束后将当日的信用风险缓释工具业务运行情况送达交易商协会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1820,
+      "end_char": 1878,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第二十条 交易商协会根据人民银行的有关规定,及时向市场披露信用风险缓释工具交易统计数据等有关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1880,
+      "end_char": 1929,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第二十一条 交易商协会定期向人民银行报告信用风险缓释工具市场情况,发现异常情况及时向人民银行报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1931,
+      "end_char": 1980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "chapter",
+      "text": "第四章 风险控制与管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1982,
+      "end_char": 1993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第二十二条 参与者应对披露和报备信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1995,
+      "end_char": 2052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第二十三条 参与者开展信用风险缓释工具交易前,应充分评估业务风险,确保自身具备相应风险承受能力。核心交易商与一般交易商开展交易的,核心交易商应勤勉尽责,及时、充分地向交易对手揭示并确认其知悉可能产生的风险,做好相关风险提示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2054,
+      "end_char": 2166,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第二十四条 参与者进行信用风险缓释工具交易时,应及时向交易对手提供与交易相关的必要信息,并确保所提供信息的真实、准确、完整,不得欺诈或误导交易对手。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2168,
+      "end_char": 2242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第二十五条 信用风险缓释工具交易应明确信用事件发生时的结算条件和方式。结算方式包括但不限于实物结算、现金结算和拍卖结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2244,
+      "end_char": 2304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第二十六条 参与者不得开展以其自身债务为标的债务或以自身为参考实体的信用风险缓释工具业务,开展以关联方债务为标的债务或关联方为参考实体的信用风险缓释工具业务应予以披露,并在信用风险缓释工具存续期按季度向交易商协会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2306,
+      "end_char": 2415,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十七条 任何一家核心交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 500%。任何一家一般交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 100%。其中,任何一只资产管理产品的信用风险缓释工具净卖出总余额不得超过该产品净资产的 100%。交易商协会可根据信用风险缓释工具市场发展运行情况,适时调整上述比例数值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2417,
+      "end_char": 2582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第二十八条 参与者不得以任何手段操纵信用风险缓释工具交易价格。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2584,
+      "end_char": 2615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十九条 参与者不得利用内幕消息开展信用风险缓释工具业务。参与者应建立完善的防火墙制度或措施,防范信用风险缓释工具的内幕交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2617,
+      "end_char": 2681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第三十条 参与者应妥善留存与信用风险缓释工具业务相关的询价及交易、创设记录,不得编造、篡改、删除、损毁相关记录。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2683,
+      "end_char": 2739,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第三十一条 当交易双方就信用事件存在争议时,可申请启动信用事项决定小组工作机制予以处理。信用事项决定有关规程由交易商协会另行规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2741,
+      "end_char": 2806,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第三十二条 信用风险缓释工具交易发生纠纷时,双方可按照有关约定申请仲裁或者向人民法院提起诉讼,并于接到生效的仲裁裁决或法院判决的 10 个工作日内,将结果送达交易商协会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2808,
+      "end_char": 2893,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "chapter",
+      "text": "第五章 自律管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2895,
+      "end_char": 2903,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第三十三条 交易商协会对参与者实施自律管理,可根据本规则制定业务指引、业务指南、工作规程、业务通知等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2905,
+      "end_char": 2956,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第三十四条 交易商协会可根据市场需要,开展对参与者的综合或专项市场化评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2958,
+      "end_char": 2995,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第三十五条 交易商协会对参与者实行动态管理机制。交易商协会可以将不再符合有关要求的核心交易商调整为一般交易商或取消相关参与者的信用风险缓释工具业务参与资质,有关要求将另行通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2997,
+      "end_char": 3085,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第三十六条 交易商协会可根据自律管理需要,就信用风险缓释工具业务情况进行现场或非现场检查,相关机构应予以配合,不得拒绝、拖延或者提供不真实、不准确、不完整的资料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3087,
+      "end_char": 3168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第三十七条 参与者及相关人员违反本规则及信用风险缓释工具有关自律要求的,交易商协会将根据有关自律管理规则进行处理。涉嫌违反法律、行政法规的,交易商协会将移交有关部门处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3170,
+      "end_char": 3255,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "chapter",
+      "text": "第六章 附则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3257,
+      "end_char": 3263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第三十八条 境外机构开展信用风险缓释工具交易的相关要求,遵循主管部门有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3265,
+      "end_char": 3304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第三十九条 本规则由交易商协会秘书处负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3306,
+      "end_char": 3329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第四十条 本规则自发布之日起实行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3331,
+      "end_char": 3348,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "银行间市场信用风险缓释工具业务规则(2023 年 10 月 13 日,经交易商协会第四届理事会第十次会议审议通过,交易商协会公告〔2024〕5 号发布)\n\n第一章 总则\n\n第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国人民银行(以下简称人民银行)有关规定及中国银行间市场交易商协会(以下简称交易商协会)相关自律规则,制定本规则。\n\n第二条 本规则所称信用风险缓释工具是指用于管理信用风险的信用衍生产品,分为合约类和凭证类两类产品。信用风险缓释工具为参考实体提供信用风险保护的债务范围为债券、贷款或其他类似债务。\n\n第三条 信用风险缓释工具业务参与者(以下简称参与者)应严格遵守和执行有关法律、法规、监管部门规章和交易商协会自律规则,接受相关监管部门监管和交易商协会自律管理。\n\n第四条 参与者进行信用风险缓释工具交易应遵循公平、诚信、自律、风险自担的原则。\n\n第五条 参与者开展信用风险缓释工具交易应签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》,或其根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。人民银行另有规定的除外。\n\n第二章 参与者\n\n第六条 参与者分为核心交易商和一般交易商。其中,核心交易商可与所有参与者进行信用风险缓释工具交易。一般交易商只能与核心交易商进行信用风险缓释工具交易,但凭证类信用风险缓释工具的转让流通除外。核心交易商包括金融机构、专业从事信用增进业务的机构等,应经交易商协会金融衍生品专业委员会(以下简称专业委员会)备案后开展信用风险缓释工具业务。核心交易商若开展凭证类信用风险缓释工具创设业务,需经专业委员会备案成为凭证类信用风险缓释工具创设机构(以下简称创设机构)。一般交易商包括金融机构和非金融机构等,应向交易商协会秘书处登记信息后开展信用风险缓释工具业务。同一机构具有自营投资管理业务和资产管理业务的,应分别备案或登记。其中,资产管理业务管理人应作为一般交易商开展业务。交易商协会公示并及时更新参与者名单。参与者备案或登记信息发生变更的,应及时联系交易商协会秘书处更新信息。\n\n第七条 核心交易商应当建立信用风险缓释工具业务适用的内部操作规程和风险管理制度,健全信用风险缓释工具业务定价机制,并配备履行相应制度所需要的专业人员。\n\n第八条 为促进市场价格发现,交易商协会可根据市场需要建立信用风险缓释工具报价商制度。\n\n第三章 业务流程\n\n第一节 合约类信用风险缓释工具\n\n第九条 合约类信用风险缓释工具的交易可通过人民银行认可的交易平台达成,也可通过电话、传真以及经纪撮合等其他方式达成。\n\n第十条 合约类信用风险缓释工具交易中参与主体、合约要素适合进行集中清算的,应提交人民银行认可的清算机构进行集中清算;不适合进行集中清算的,可提交人民银行认可的清算机构进行双边清算或由交易双方自行进行清算和结算。\n\n第二节 凭证类信用风险缓释工具\n\n第十一条 创设机构创设凭证类信用风险缓释工具应向交易商协会报备有关创设说明书、创设拟披露文件等,并通过交易商协会指定方式披露。\n\n第十二条 创设机构应在创设披露文件发布后的 10 个工作日内完成销售。交易商协会指定平台可为创设机构销售凭证类信用风险缓释工具提供服务。销售完成后,创设机构应及时办理登记手续。\n\n第十三条 凭证类信用风险缓释工具应登记托管在人民银行认可的登记托管机构。\n\n第十四条 创设机构应在完成登记手续后的次一个工作日,通过交易商协会指定方式披露创设结果。\n\n第十五条 创设机构应在登记当日向交易流通场所提供相关要素信息。经创设完成的凭证类信用风险缓释工具在完成登记手续后的次一工作日即可在银行间市场转让流通。转让流通可以通过人民银行认可的交易平台达成。\n\n第十六条 当创设机构发生可能影响履约行为的重大事项时,创设机构应于下一工作日通过交易商协会指定方式向市场披露。\n\n第十七条 在凭证类信用风险缓释工具存续期内,创设机构应按照创设披露文件的相关约定,通过交易商协会指定方式持续披露信息。披露的信息内容包括评级报告(如有)、财务报告和审计报告等。\n\n第三节 交易报告\n\n第十八条 核心交易商应于合约类信用风险缓释工具交易达成后的次一工作日内将交易信息报送交易商协会。创设机构应在凭证类信用风险缓释工具完成登记手续后的次一工作日内,将创设结果信息报送交易商协会。\n\n第十九条 人民银行认可的交易、清算、结算机构应于每个工作日结束后将当日的信用风险缓释工具业务运行情况送达交易商协会。\n\n第二十条 交易商协会根据人民银行的有关规定,及时向市场披露信用风险缓释工具交易统计数据等有关信息。\n\n第二十一条 交易商协会定期向人民银行报告信用风险缓释工具市场情况,发现异常情况及时向人民银行报告。\n\n第四章 风险控制与管理\n\n第二十二条 参与者应对披露和报备信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏。\n\n第二十三条 参与者开展信用风险缓释工具交易前,应充分评估业务风险,确保自身具备相应风险承受能力。核心交易商与一般交易商开展交易的,核心交易商应勤勉尽责,及时、充分地向交易对手揭示并确认其知悉可能产生的风险,做好相关风险提示。\n\n第二十四条 参与者进行信用风险缓释工具交易时,应及时向交易对手提供与交易相关的必要信息,并确保所提供信息的真实、准确、完整,不得欺诈或误导交易对手。\n\n第二十五条 信用风险缓释工具交易应明确信用事件发生时的结算条件和方式。结算方式包括但不限于实物结算、现金结算和拍卖结算。\n\n第二十六条 参与者不得开展以其自身债务为标的债务或以自身为参考实体的信用风险缓释工具业务,开展以关联方债务为标的债务或关联方为参考实体的信用风险缓释工具业务应予以披露,并在信用风险缓释工具存续期按季度向交易商协会报告。\n\n第二十七条 任何一家核心交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 500%。任何一家一般交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 100%。其中,任何一只资产管理产品的信用风险缓释工具净卖出总余额不得超过该产品净资产的 100%。交易商协会可根据信用风险缓释工具市场发展运行情况,适时调整上述比例数值。\n\n第二十八条 参与者不得以任何手段操纵信用风险缓释工具交易价格。\n\n第二十九条 参与者不得利用内幕消息开展信用风险缓释工具业务。参与者应建立完善的防火墙制度或措施,防范信用风险缓释工具的内幕交易。\n\n第三十条 参与者应妥善留存与信用风险缓释工具业务相关的询价及交易、创设记录,不得编造、篡改、删除、损毁相关记录。\n\n第三十一条 当交易双方就信用事件存在争议时,可申请启动信用事项决定小组工作机制予以处理。信用事项决定有关规程由交易商协会另行规定。\n\n第三十二条 信用风险缓释工具交易发生纠纷时,双方可按照有关约定申请仲裁或者向人民法院提起诉讼,并于接到生效的仲裁裁决或法院判决的 10 个工作日内,将结果送达交易商协会。\n\n第五章 自律管理\n\n第三十三条 交易商协会对参与者实施自律管理,可根据本规则制定业务指引、业务指南、工作规程、业务通知等。\n\n第三十四条 交易商协会可根据市场需要,开展对参与者的综合或专项市场化评价。\n\n第三十五条 交易商协会对参与者实行动态管理机制。交易商协会可以将不再符合有关要求的核心交易商调整为一般交易商或取消相关参与者的信用风险缓释工具业务参与资质,有关要求将另行通知。\n\n第三十六条 交易商协会可根据自律管理需要,就信用风险缓释工具业务情况进行现场或非现场检查,相关机构应予以配合,不得拒绝、拖延或者提供不真实、不准确、不完整的资料。\n\n第三十七条 参与者及相关人员违反本规则及信用风险缓释工具有关自律要求的,交易商协会将根据有关自律管理规则进行处理。涉嫌违反法律、行政法规的,交易商协会将移交有关部门处理。\n\n第六章 附则\n\n第三十八条 境外机构开展信用风险缓释工具交易的相关要求,遵循主管部门有关规定。\n\n第三十九条 本规则由交易商协会秘书处负责解释。\n\n第四十条 本规则自发布之日起实行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "银行间市场信用风险缓释工具业务规则(2023 年 10 月 13 日,经交易商协会第四届理事会第十次会议审议通过,交易商协会公告〔2024〕5 号发布)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 76,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 78,
+      "end_char": 84,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国人民银行(以下简称人民银行)有关规定及中国银行间市场交易商协会(以下简称交易商协会)相关自律规则,制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 86,
+      "end_char": 188,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 本规则所称信用风险缓释工具是指用于管理信用风险的信用衍生产品,分为合约类和凭证类两类产品。信用风险缓释工具为参考实体提供信用风险保护的债务范围为债券、贷款或其他类似债务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 190,
+      "end_char": 279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 信用风险缓释工具业务参与者(以下简称参与者)应严格遵守和执行有关法律、法规、监管部门规章和交易商协会自律规则,接受相关监管部门监管和交易商协会自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 281,
+      "end_char": 361,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第四条 参与者进行信用风险缓释工具交易应遵循公平、诚信、自律、风险自担的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 363,
+      "end_char": 402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第五条 参与者开展信用风险缓释工具交易应签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》,或其根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。人民银行另有规定的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 404,
+      "end_char": 500,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "chapter",
+      "text": "第二章 参与者",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 502,
+      "end_char": 509,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第六条 参与者分为核心交易商和一般交易商。其中,核心交易商可与所有参与者进行信用风险缓释工具交易。一般交易商只能与核心交易商进行信用风险缓释工具交易,但凭证类信用风险缓释工具的转让流通除外。核心交易商包括金融机构、专业从事信用增进业务的机构等,应经交易商协会金融衍生品专业委员会(以下简称专业委员会)备案后开展信用风险缓释工具业务。核心交易商若开展凭证类信用风险缓释工具创设业务,需经专业委员会备案成为凭证类信用风险缓释工具创设机构(以下简称创设机构)。一般交易商包括金融机构和非金融机构等,应向交易商协会秘书处登记信息后开展信用风险缓释工具业务。同一机构具有自营投资管理业务和资产管理业务的,应分别备案或登记。其中,资产管理业务管理人应作为一般交易商开展业务。交易商协会公示并及时更新参与者名单。参与者备案或登记信息发生变更的,应及时联系交易商协会秘书处更新信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 511,
+      "end_char": 894,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第七条 核心交易商应当建立信用风险缓释工具业务适用的内部操作规程和风险管理制度,健全信用风险缓释工具业务定价机制,并配备履行相应制度所需要的专业人员。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 896,
+      "end_char": 971,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第八条 为促进市场价格发现,交易商协会可根据市场需要建立信用风险缓释工具报价商制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 973,
+      "end_char": 1015,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "chapter",
+      "text": "第三章 业务流程",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1017,
+      "end_char": 1025,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "section",
+      "text": "第一节 合约类信用风险缓释工具",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 1027,
+      "end_char": 1042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 合约类信用风险缓释工具的交易可通过人民银行认可的交易平台达成,也可通过电话、传真以及经纪撮合等其他方式达成。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1044,
+      "end_char": 1102,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 合约类信用风险缓释工具交易中参与主体、合约要素适合进行集中清算的,应提交人民银行认可的清算机构进行集中清算;不适合进行集中清算的,可提交人民银行认可的清算机构进行双边清算或由交易双方自行进行清算和结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1104,
+      "end_char": 1209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "section",
+      "text": "第二节 凭证类信用风险缓释工具",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1211,
+      "end_char": 1226,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十一条 创设机构创设凭证类信用风险缓释工具应向交易商协会报备有关创设说明书、创设拟披露文件等,并通过交易商协会指定方式披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1228,
+      "end_char": 1291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十二条 创设机构应在创设披露文件发布后的 10 个工作日内完成销售。交易商协会指定平台可为创设机构销售凭证类信用风险缓释工具提供服务。销售完成后,创设机构应及时办理登记手续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1293,
+      "end_char": 1381,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十三条 凭证类信用风险缓释工具应登记托管在人民银行认可的登记托管机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1383,
+      "end_char": 1419,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十四条 创设机构应在完成登记手续后的次一个工作日,通过交易商协会指定方式披露创设结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1421,
+      "end_char": 1465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十五条 创设机构应在登记当日向交易流通场所提供相关要素信息。经创设完成的凭证类信用风险缓释工具在完成登记手续后的次一工作日即可在银行间市场转让流通。转让流通可以通过人民银行认可的交易平台达成。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1467,
+      "end_char": 1564,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十六条 当创设机构发生可能影响履约行为的重大事项时,创设机构应于下一工作日通过交易商协会指定方式向市场披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1566,
+      "end_char": 1621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十七条 在凭证类信用风险缓释工具存续期内,创设机构应按照创设披露文件的相关约定,通过交易商协会指定方式持续披露信息。披露的信息内容包括评级报告(如有)、财务报告和审计报告等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1623,
+      "end_char": 1711,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "section",
+      "text": "第三节 交易报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1713,
+      "end_char": 1721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十八条 核心交易商应于合约类信用风险缓释工具交易达成后的次一工作日内将交易信息报送交易商协会。创设机构应在凭证类信用风险缓释工具完成登记手续后的次一工作日内,将创设结果信息报送交易商协会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1723,
+      "end_char": 1818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十九条 人民银行认可的交易、清算、结算机构应于每个工作日结束后将当日的信用风险缓释工具业务运行情况送达交易商协会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1820,
+      "end_char": 1878,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第二十条 交易商协会根据人民银行的有关规定,及时向市场披露信用风险缓释工具交易统计数据等有关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1880,
+      "end_char": 1929,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第二十一条 交易商协会定期向人民银行报告信用风险缓释工具市场情况,发现异常情况及时向人民银行报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1931,
+      "end_char": 1980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "chapter",
+      "text": "第四章 风险控制与管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1982,
+      "end_char": 1993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第二十二条 参与者应对披露和报备信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1995,
+      "end_char": 2052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第二十三条 参与者开展信用风险缓释工具交易前,应充分评估业务风险,确保自身具备相应风险承受能力。核心交易商与一般交易商开展交易的,核心交易商应勤勉尽责,及时、充分地向交易对手揭示并确认其知悉可能产生的风险,做好相关风险提示。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2054,
+      "end_char": 2166,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第二十四条 参与者进行信用风险缓释工具交易时,应及时向交易对手提供与交易相关的必要信息,并确保所提供信息的真实、准确、完整,不得欺诈或误导交易对手。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2168,
+      "end_char": 2242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第二十五条 信用风险缓释工具交易应明确信用事件发生时的结算条件和方式。结算方式包括但不限于实物结算、现金结算和拍卖结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2244,
+      "end_char": 2304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第二十六条 参与者不得开展以其自身债务为标的债务或以自身为参考实体的信用风险缓释工具业务,开展以关联方债务为标的债务或关联方为参考实体的信用风险缓释工具业务应予以披露,并在信用风险缓释工具存续期按季度向交易商协会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2306,
+      "end_char": 2415,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十七条 任何一家核心交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 500%。任何一家一般交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 100%。其中,任何一只资产管理产品的信用风险缓释工具净卖出总余额不得超过该产品净资产的 100%。交易商协会可根据信用风险缓释工具市场发展运行情况,适时调整上述比例数值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2417,
+      "end_char": 2582,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第二十八条 参与者不得以任何手段操纵信用风险缓释工具交易价格。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2584,
+      "end_char": 2615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十九条 参与者不得利用内幕消息开展信用风险缓释工具业务。参与者应建立完善的防火墙制度或措施,防范信用风险缓释工具的内幕交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2617,
+      "end_char": 2681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第三十条 参与者应妥善留存与信用风险缓释工具业务相关的询价及交易、创设记录,不得编造、篡改、删除、损毁相关记录。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2683,
+      "end_char": 2739,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第三十一条 当交易双方就信用事件存在争议时,可申请启动信用事项决定小组工作机制予以处理。信用事项决定有关规程由交易商协会另行规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2741,
+      "end_char": 2806,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第三十二条 信用风险缓释工具交易发生纠纷时,双方可按照有关约定申请仲裁或者向人民法院提起诉讼,并于接到生效的仲裁裁决或法院判决的 10 个工作日内,将结果送达交易商协会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2808,
+      "end_char": 2893,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "chapter",
+      "text": "第五章 自律管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2895,
+      "end_char": 2903,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第三十三条 交易商协会对参与者实施自律管理,可根据本规则制定业务指引、业务指南、工作规程、业务通知等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2905,
+      "end_char": 2956,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第三十四条 交易商协会可根据市场需要,开展对参与者的综合或专项市场化评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2958,
+      "end_char": 2995,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第三十五条 交易商协会对参与者实行动态管理机制。交易商协会可以将不再符合有关要求的核心交易商调整为一般交易商或取消相关参与者的信用风险缓释工具业务参与资质,有关要求将另行通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2997,
+      "end_char": 3085,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第三十六条 交易商协会可根据自律管理需要,就信用风险缓释工具业务情况进行现场或非现场检查,相关机构应予以配合,不得拒绝、拖延或者提供不真实、不准确、不完整的资料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3087,
+      "end_char": 3168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第三十七条 参与者及相关人员违反本规则及信用风险缓释工具有关自律要求的,交易商协会将根据有关自律管理规则进行处理。涉嫌违反法律、行政法规的,交易商协会将移交有关部门处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3170,
+      "end_char": 3255,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "chapter",
+      "text": "第六章 附则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3257,
+      "end_char": 3263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第三十八条 境外机构开展信用风险缓释工具交易的相关要求,遵循主管部门有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3265,
+      "end_char": 3304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第三十九条 本规则由交易商协会秘书处负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3306,
+      "end_char": 3329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第四十条 本规则自发布之日起实行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3331,
+      "end_char": 3348,
+      "region": "body"
+    }
+  ],
   "normalized_text": "银行间市场信用风险缓释工具业务规则(2023 年 10 月 13 日,经交易商协会第四届理事会第十次会议审议通过,交易商协会公告〔2024〕5 号发布)\n\n第一章 总则\n\n第一条 为丰富银行间市场信用风险管理工具,完善市场风险分担机制,促进市场持续健康发展,根据中国人民银行(以下简称人民银行)有关规定及中国银行间市场交易商协会(以下简称交易商协会)相关自律规则,制定本规则。\n\n第二条 本规则所称信用风险缓释工具是指用于管理信用风险的信用衍生产品,分为合约类和凭证类两类产品。信用风险缓释工具为参考实体提供信用风险保护的债务范围为债券、贷款或其他类似债务。\n\n第三条 信用风险缓释工具业务参与者(以下简称参与者)应严格遵守和执行有关法律、法规、监管部门规章和交易商协会自律规则,接受相关监管部门监管和交易商协会自律管理。\n\n第四条 参与者进行信用风险缓释工具交易应遵循公平、诚信、自律、风险自担的原则。\n\n第五条 参与者开展信用风险缓释工具交易应签署由交易商协会发布的《中国银行间市场金融衍生产品交易主协议》,或其根据某一类别信用风险缓释工具产品制定发布的交易协议特别版本。人民银行另有规定的除外。\n\n第二章 参与者\n\n第六条 参与者分为核心交易商和一般交易商。其中,核心交易商可与所有参与者进行信用风险缓释工具交易。一般交易商只能与核心交易商进行信用风险缓释工具交易,但凭证类信用风险缓释工具的转让流通除外。核心交易商包括金融机构、专业从事信用增进业务的机构等,应经交易商协会金融衍生品专业委员会(以下简称专业委员会)备案后开展信用风险缓释工具业务。核心交易商若开展凭证类信用风险缓释工具创设业务,需经专业委员会备案成为凭证类信用风险缓释工具创设机构(以下简称创设机构)。一般交易商包括金融机构和非金融机构等,应向交易商协会秘书处登记信息后开展信用风险缓释工具业务。同一机构具有自营投资管理业务和资产管理业务的,应分别备案或登记。其中,资产管理业务管理人应作为一般交易商开展业务。交易商协会公示并及时更新参与者名单。参与者备案或登记信息发生变更的,应及时联系交易商协会秘书处更新信息。\n\n第七条 核心交易商应当建立信用风险缓释工具业务适用的内部操作规程和风险管理制度,健全信用风险缓释工具业务定价机制,并配备履行相应制度所需要的专业人员。\n\n第八条 为促进市场价格发现,交易商协会可根据市场需要建立信用风险缓释工具报价商制度。\n\n第三章 业务流程\n\n第一节 合约类信用风险缓释工具\n\n第九条 合约类信用风险缓释工具的交易可通过人民银行认可的交易平台达成,也可通过电话、传真以及经纪撮合等其他方式达成。\n\n第十条 合约类信用风险缓释工具交易中参与主体、合约要素适合进行集中清算的,应提交人民银行认可的清算机构进行集中清算;不适合进行集中清算的,可提交人民银行认可的清算机构进行双边清算或由交易双方自行进行清算和结算。\n\n第二节 凭证类信用风险缓释工具\n\n第十一条 创设机构创设凭证类信用风险缓释工具应向交易商协会报备有关创设说明书、创设拟披露文件等,并通过交易商协会指定方式披露。\n\n第十二条 创设机构应在创设披露文件发布后的 10 个工作日内完成销售。交易商协会指定平台可为创设机构销售凭证类信用风险缓释工具提供服务。销售完成后,创设机构应及时办理登记手续。\n\n第十三条 凭证类信用风险缓释工具应登记托管在人民银行认可的登记托管机构。\n\n第十四条 创设机构应在完成登记手续后的次一个工作日,通过交易商协会指定方式披露创设结果。\n\n第十五条 创设机构应在登记当日向交易流通场所提供相关要素信息。经创设完成的凭证类信用风险缓释工具在完成登记手续后的次一工作日即可在银行间市场转让流通。转让流通可以通过人民银行认可的交易平台达成。\n\n第十六条 当创设机构发生可能影响履约行为的重大事项时,创设机构应于下一工作日通过交易商协会指定方式向市场披露。\n\n第十七条 在凭证类信用风险缓释工具存续期内,创设机构应按照创设披露文件的相关约定,通过交易商协会指定方式持续披露信息。披露的信息内容包括评级报告(如有)、财务报告和审计报告等。\n\n第三节 交易报告\n\n第十八条 核心交易商应于合约类信用风险缓释工具交易达成后的次一工作日内将交易信息报送交易商协会。创设机构应在凭证类信用风险缓释工具完成登记手续后的次一工作日内,将创设结果信息报送交易商协会。\n\n第十九条 人民银行认可的交易、清算、结算机构应于每个工作日结束后将当日的信用风险缓释工具业务运行情况送达交易商协会。\n\n第二十条 交易商协会根据人民银行的有关规定,及时向市场披露信用风险缓释工具交易统计数据等有关信息。\n\n第二十一条 交易商协会定期向人民银行报告信用风险缓释工具市场情况,发现异常情况及时向人民银行报告。\n\n第四章 风险控制与管理\n\n第二十二条 参与者应对披露和报备信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏。\n\n第二十三条 参与者开展信用风险缓释工具交易前,应充分评估业务风险,确保自身具备相应风险承受能力。核心交易商与一般交易商开展交易的,核心交易商应勤勉尽责,及时、充分地向交易对手揭示并确认其知悉可能产生的风险,做好相关风险提示。\n\n第二十四条 参与者进行信用风险缓释工具交易时,应及时向交易对手提供与交易相关的必要信息,并确保所提供信息的真实、准确、完整,不得欺诈或误导交易对手。\n\n第二十五条 信用风险缓释工具交易应明确信用事件发生时的结算条件和方式。结算方式包括但不限于实物结算、现金结算和拍卖结算。\n\n第二十六条 参与者不得开展以其自身债务为标的债务或以自身为参考实体的信用风险缓释工具业务,开展以关联方债务为标的债务或关联方为参考实体的信用风险缓释工具业务应予以披露,并在信用风险缓释工具存续期按季度向交易商协会报告。\n\n第二十七条 任何一家核心交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 500%。任何一家一般交易商的信用风险缓释工具净卖出总余额不得超过其净资产的 100%。其中,任何一只资产管理产品的信用风险缓释工具净卖出总余额不得超过该产品净资产的 100%。交易商协会可根据信用风险缓释工具市场发展运行情况,适时调整上述比例数值。\n\n第二十八条 参与者不得以任何手段操纵信用风险缓释工具交易价格。\n\n第二十九条 参与者不得利用内幕消息开展信用风险缓释工具业务。参与者应建立完善的防火墙制度或措施,防范信用风险缓释工具的内幕交易。\n\n第三十条 参与者应妥善留存与信用风险缓释工具业务相关的询价及交易、创设记录,不得编造、篡改、删除、损毁相关记录。\n\n第三十一条 当交易双方就信用事件存在争议时,可申请启动信用事项决定小组工作机制予以处理。信用事项决定有关规程由交易商协会另行规定。\n\n第三十二条 信用风险缓释工具交易发生纠纷时,双方可按照有关约定申请仲裁或者向人民法院提起诉讼,并于接到生效的仲裁裁决或法院判决的 10 个工作日内,将结果送达交易商协会。\n\n第五章 自律管理\n\n第三十三条 交易商协会对参与者实施自律管理,可根据本规则制定业务指引、业务指南、工作规程、业务通知等。\n\n第三十四条 交易商协会可根据市场需要,开展对参与者的综合或专项市场化评价。\n\n第三十五条 交易商协会对参与者实行动态管理机制。交易商协会可以将不再符合有关要求的核心交易商调整为一般交易商或取消相关参与者的信用风险缓释工具业务参与资质,有关要求将另行通知。\n\n第三十六条 交易商协会可根据自律管理需要,就信用风险缓释工具业务情况进行现场或非现场检查,相关机构应予以配合,不得拒绝、拖延或者提供不真实、不准确、不完整的资料。\n\n第三十七条 参与者及相关人员违反本规则及信用风险缓释工具有关自律要求的,交易商协会将根据有关自律管理规则进行处理。涉嫌违反法律、行政法规的,交易商协会将移交有关部门处理。\n\n第六章 附则\n\n第三十八条 境外机构开展信用风险缓释工具交易的相关要求,遵循主管部门有关规定。\n\n第三十九条 本规则由交易商协会秘书处负责解释。\n\n第四十条 本规则自发布之日起实行。",
   "blocks": [
     {
@@ -97,7 +1306,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 76,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -105,7 +1321,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 78,
+      "end_char": 84,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -113,7 +1336,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 86,
+      "end_char": 188,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -121,7 +1351,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 190,
+      "end_char": 279,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -129,7 +1366,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 281,
+      "end_char": 361,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -137,7 +1381,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 363,
+      "end_char": 402,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -145,7 +1396,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 404,
+      "end_char": 500,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -153,7 +1411,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 502,
+      "end_char": 509,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -161,7 +1426,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 511,
+      "end_char": 894,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -169,7 +1441,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 896,
+      "end_char": 971,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -177,7 +1456,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 973,
+      "end_char": 1015,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -185,7 +1471,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 1017,
+      "end_char": 1025,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -193,7 +1486,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 1027,
+      "end_char": 1042,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -201,7 +1501,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1044,
+      "end_char": 1102,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -209,7 +1516,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1104,
+      "end_char": 1209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -217,7 +1531,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1211,
+      "end_char": 1226,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -225,7 +1546,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1228,
+      "end_char": 1291,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -233,7 +1561,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1293,
+      "end_char": 1381,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -241,7 +1576,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1383,
+      "end_char": 1419,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -249,7 +1591,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1421,
+      "end_char": 1465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -257,7 +1606,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1467,
+      "end_char": 1564,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -265,7 +1621,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1566,
+      "end_char": 1621,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -273,7 +1636,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1623,
+      "end_char": 1711,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -281,7 +1651,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1713,
+      "end_char": 1721,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -289,7 +1666,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1723,
+      "end_char": 1818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -297,7 +1681,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1820,
+      "end_char": 1878,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -305,7 +1696,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1880,
+      "end_char": 1929,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -313,7 +1711,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1931,
+      "end_char": 1980,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -321,7 +1726,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1982,
+      "end_char": 1993,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -329,7 +1741,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1995,
+      "end_char": 2052,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -337,7 +1756,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2054,
+      "end_char": 2166,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -345,7 +1771,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2168,
+      "end_char": 2242,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -353,7 +1786,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2244,
+      "end_char": 2304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -361,7 +1801,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2306,
+      "end_char": 2415,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -369,7 +1816,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2417,
+      "end_char": 2582,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -377,7 +1831,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2584,
+      "end_char": 2615,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -385,7 +1846,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2617,
+      "end_char": 2681,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -393,7 +1861,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2683,
+      "end_char": 2739,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -401,7 +1876,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2741,
+      "end_char": 2806,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -409,7 +1891,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2808,
+      "end_char": 2893,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -417,7 +1906,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2895,
+      "end_char": 2903,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -425,7 +1921,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2905,
+      "end_char": 2956,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -433,7 +1936,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2958,
+      "end_char": 2995,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -441,7 +1951,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2997,
+      "end_char": 3085,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -449,7 +1966,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3087,
+      "end_char": 3168,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -457,7 +1981,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3170,
+      "end_char": 3255,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -465,7 +1996,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3257,
+      "end_char": 3263,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -473,7 +2011,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3265,
+      "end_char": 3304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -481,7 +2026,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3306,
+      "end_char": 3329,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -489,7 +2041,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3331,
+      "end_char": 3348,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

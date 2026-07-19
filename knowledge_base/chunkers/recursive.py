@@ -208,6 +208,9 @@ def draft(units: list[Unit]) -> ChunkDraft:
         merged_hierarchy(units),
         is_oversized=any(item.is_oversized for item in units),
         oversized_reason="；".join(item.oversized_reason for item in units if item.oversized_reason),
+        primary_block_ids=list(dict.fromkeys(
+            block_id for unit in units for block_id in unit.block_ids
+        )),
     )
 
 
@@ -243,7 +246,10 @@ def combine_units(units: list[Unit], forced_breaks: set[int] | None = None) -> l
         following = chunks[index + 1]
         heading_text = "\n".join(unit.body_text for unit in heading.units)
         merged = "\n".join(unit.body_text for unit in heading.units + following.units)
-        structural_only = bool(heading.units) and all(unit.kind in {"part", "chapter", "section", "attachment"} for unit in heading.units)
+        structural_only = bool(heading.units) and all(unit.kind in {
+            "part", "chapter", "section", "attachment",
+            "guide_heading", "guide_subheading", "guide_minor_heading",
+        } for unit in heading.units)
         if structural_only and body_char_count(heading_text) < config.MIN_CHARS and body_char_count(merged) <= config.MAX_CHARS and compatible_hierarchy(heading.units[-1], following.units[0]):
             following.units = heading.units + following.units
             following.hierarchy = merged_hierarchy(following.units)
@@ -304,6 +310,9 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
             if body_char_count(combined) <= config.MAX_CHARS and body_char_count(overlap_text) <= max(int(body_char_count(current_text) * 0.2), 120):
                 selected.insert(0, unit)
         if selected:
+            current.overlap_block_ids = list(dict.fromkeys(
+                block_id for unit in selected for block_id in unit.block_ids
+            ))
             current.units = selected + current.units
             current.is_overlapping = True
             current.overlap_source_index = index - 1
@@ -326,6 +335,7 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
                     block_ids=[],
                     sequence_index=source.sequence_index,
                 ))
+                current.overlap_block_ids = list(source.block_ids)
                 current.is_overlapping = True
                 current.overlap_source_index = index - 1
             elif tail:

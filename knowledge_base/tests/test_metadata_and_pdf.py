@@ -280,7 +280,7 @@ class MetadataAndPdfTests(unittest.TestCase):
         note_box = [["", "注：这是一行说明", ""], ["", "继续说明", ""]]
         self.assertEqual(normalize_semantic_table(note_box), [])
         table = [["项目", "", "比例"], ["净资本", "", "100%"]]
-        self.assertEqual(normalize_semantic_table(table), [["项目", "比例"], ["净资本", "100%"]])
+        self.assertEqual(normalize_semantic_table(table), [["项目", "", "比例"], ["净资本", "", "100%"]])
 
     def test_pdf_table_cell_visual_wraps_are_collapsed(self):
         self.assertEqual(normalize_pdf_table_cell("债\n券、票据"), "债券、票据")

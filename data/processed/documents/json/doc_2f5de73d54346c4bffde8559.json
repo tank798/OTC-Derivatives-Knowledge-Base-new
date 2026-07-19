@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/保险资金参与金融衍生产品交易办法.doc",
   "source_type": "doc",
   "file_sha256": "b536eeef673a2e28c854f14b85142409de32fe638f4ad43bc9638d925d84de89",
-  "content_sha256": "8e52b1912293ea72eaf7278be8691efd1ff16c52d2d4712612feca910b9e11be",
+  "content_sha256": "db46677f6c764a699884d1271c92e5cfe132e590e26b300b2ee33892e9de8c36",
   "metadata": {
     "document_title": "保险资金参与金融衍生产品交易办法",
     "issuing_authority": "中国银保监会办公厅（历史机构）",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "aad29b8adfcb3ebde9e3c8f2f9a60d9d2f05711190dda7da8c4431f79a86f27e",
     "clean_text_sha256": "aad29b8adfcb3ebde9e3c8f2f9a60d9d2f05711190dda7da8c4431f79a86f27e",
@@ -122,6 +122,1959 @@
   },
   "original_text_sha256": "aad29b8adfcb3ebde9e3c8f2f9a60d9d2f05711190dda7da8c4431f79a86f27e",
   "clean_text_sha256": "aad29b8adfcb3ebde9e3c8f2f9a60d9d2f05711190dda7da8c4431f79a86f27e",
+  "clean_text_hash": "69cf8d82c628727b99b974e42175169d33976f426bae62fbf58c1ca499fc7f60",
+  "structured_blocks_sha256": "9c53178c4c68167418a440ada02d1da699e0fd8730777a100da7240f8ed29e62",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "保险资金参与金融衍生产品交易办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 25,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为规范保险资金参与金融衍生产品交易,防范资金运用风险,维护保险当事人合法权益,依据《中华人民共和国保险法》及《保险资金运用管理办法》等法律法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 27,
+      "end_char": 109,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 在中国境内依法设立的保险集团(控股)公司、保险公司、保险资产管理机构(以下统称保险机构)参与金融衍生产品交易,适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 111,
+      "end_char": 176,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 本办法所称金融衍生产品(以下简称衍生品),是指其价值取决于一种或多种基础资产、指数或特定事件的金融合约,包括远期、期货、期权及掉期(互换)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 178,
+      "end_char": 252,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "本办法所称金融衍生产品交易(以下简称衍生品交易),是指境内衍生品交易,不包括境外衍生品交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 254,
+      "end_char": 300,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 保险集团(控股)公司、保险公司可以自行参与衍生品交易,也可以根据本办法及相关规定,委托保险资产管理机构及符合中国银行保险监督管理委员会(以下简称银保监会)规定的其他专业管理机构,在授权范围内参与衍生品交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 302,
+      "end_char": 409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 保险资金参与衍生品交易,应当以对冲或规避风险为目的,不得用于投机目的。包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 411,
+      "end_char": 453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)对冲或规避现有资产风险、负债风险或资产负债错配风险;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 455,
+      "end_char": 484,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)对冲未来拟买入资产风险,或锁定其未来交易价格,具体期限视不同品种另行规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 486,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "本条第(二)项所称拟买入资产,应当是机构按其投资决策程序,已经决定将要买入的资产。未在决定之日起的规定期限内买入该资产,或在规定期限内放弃买入该资产,应当在规定期限结束后或决定之日起的一定期限内,终止、清算或平仓相关衍生品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 528,
+      "end_char": 640,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第六条 银保监会将根据市场发展和实际需要,适时发布衍生品具体品种交易规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 642,
+      "end_char": 679,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "chapter",
+      "text": "第二章 资质条件",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 681,
+      "end_char": 689,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第七条 保险集团(控股)公司、保险公司自行参与衍生品交易,应当符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 691,
+      "end_char": 729,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 731,
+      "end_char": 760,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(二)保险公司上季度末综合偿付能力充足率不低于150%,上一年资产负债管理能力评估结果不低于85分;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 762,
+      "end_char": 812,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(三)具有良好的公司治理结构,以及健全的衍生品交易业务操作、内部控制和风险管理制度;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 814,
+      "end_char": 856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(四)建立投资交易、会计核算和风险管理等信息系统;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 858,
+      "end_char": 883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(五)配备衍生品交易专业管理人员,包括但不限于分析研究、投资交易、财务处理、风险控制和审计稽核等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 885,
+      "end_char": 934,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(六)近两年未受到监管机构重大行政处罚;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 936,
+      "end_char": 956,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(七)其他规定要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 958,
+      "end_char": 968,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第八条 保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易,应当符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 970,
+      "end_char": 1025,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1027,
+      "end_char": 1056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)保险公司上季度末综合偿付能力充足率不低于120%,上一年资产负债管理能力评估结果不低于60分;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1058,
+      "end_char": 1108,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)配备与衍生品交易相适应的监督和评价等专业管理人员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1110,
+      "end_char": 1138,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)其他规定要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1140,
+      "end_char": 1150,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构及其他专业管理机构受托参与衍生品交易,应当符合本办法第七条第(三)项至第(七)项规定的要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1152,
+      "end_char": 1206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第九条 保险资金参与衍生品交易,选择的交易结算等专业机构,应当符合银保监会有关衍生品交易的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1208,
+      "end_char": 1256,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "chapter",
+      "text": "第三章 管理规范",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1258,
+      "end_char": 1266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第十条 保险集团(控股)公司、保险公司参与衍生品交易,应当根据公司自身的发展战略和总体规划,综合衡量现阶段的风险管理水平、技术系统和专业人员准备情况,审慎评估参与衍生品交易的能力,科学决策参与衍生品交易的广度和深度。董事会应当根据公司管理情况,制定授权制度,建立决策机制,明确管理人员职责及报告要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1268,
+      "end_char": 1418,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十一条 保险机构自行或受托参与衍生品交易,业务操作制度应当涵盖研究、决策、交易、清算与结算等全过程,明确责任分工,确保业务流程清晰,环节紧密衔接。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1420,
+      "end_char": 1494,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十二条 保险机构自行或受托参与衍生品交易,内部控制制度应当明确岗位职责,确保业务操作和风险管理流程可执行,关键岗位相互制衡,重点环节双人复核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1496,
+      "end_char": 1568,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十三条 保险机构自行或受托参与衍生品交易,风险管理制度应当纳入公司总体风险管理架构,能够覆盖衍生品交易前、中、后台,并符合本办法第四章规定要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1570,
+      "end_char": 1643,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十四条 保险机构自行或受托参与衍生品交易,信息系统应当包括业务处理设备、交易软件和操作系统等,并通过可靠性测试。包括但不限于:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1645,
+      "end_char": 1709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(一)应当配置投资分析系统,计算对冲资产组合风险所需的衍生品数量,并根据市场变化,调整衍生品规模,逐步实现担保品动态调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1711,
+      "end_char": 1772,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(二)应当配备相应的衍生品估值与清算模块,会计确认、计量、账务处理及财务报告应当符合规定。保险机构委托托管银行进行财务核算的,应当确认托管银行的信息系统合规可靠。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1774,
+      "end_char": 1855,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十五条 保险集团(控股)公司、保险公司参与衍生品交易,应当制定业务指引。该指引可以单独制定,也可以作为公司年度投资计划和投资指引的组成部分,包括但不限于以下内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1857,
+      "end_char": 1939,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(一)拟运用衍生品种类;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1941,
+      "end_char": 1953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(二)使用衍生品的限制;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1955,
+      "end_char": 1967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(三)风险管理要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1969,
+      "end_char": 1979,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十六条 保险机构自行或受托参与衍生品交易,应当制定风险对冲方案,并经公司风险管理部门及有关决策人员审批。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1981,
+      "end_char": 2034,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十七条 保险机构参与衍生品交易,应当根据有关法律法规要求,规范业务运作,不得从事内幕交易、操纵证券及衍生品价格、进行利益输送及其他不正当的交易活动。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2111,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "chapter",
+      "text": "第四章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2113,
+      "end_char": 2121,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十八条 保险机构参与衍生品交易,应当建立动态风险管理机制,制定衍生品交易的全面风险管理制度与操作流程,建立监测、评估与处置风险的信息系统,完善应急机制和管理预案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2123,
+      "end_char": 2205,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十九条 保险机构参与衍生品交易,应当制定量化的风险指标,采用适当的计量模型与测评分析技术,及时评估衍生品交易风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2207,
+      "end_char": 2265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十条 保险机构参与衍生品交易,同一资产组合持有的衍生品多头合约价值之和不得高于资产组合净值的100%,应当根据公司风险承受能力,确定衍生品及其资产组合的风险限额,按照一定的评估频率定期复查更新。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2267,
+      "end_char": 2366,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "保险机构应将风险限额分解为不同层级,由风险管理部门控制执行。对违反风险限额等交易情况,风险管理部门应当及时报告;确有风险对冲需求并需要灵活处理的,应严格履行内部审批程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2368,
+      "end_char": 2453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十一条 保险机构参与衍生品交易,应当密切关注外部市场变化,审慎评估市场变化趋势,及时调整衍生品交易方案,防范市场风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2455,
+      "end_char": 2516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第二十二条 保险机构自行或受托参与衍生品交易涉及交易对手的,应当建立交易对手评估与选择机制,充分调查交易对手的资信情况,评估信用风险,并跟踪评估交易过程和行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2518,
+      "end_char": 2598,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "保险机构应当综合内外部信用评级情况,为交易对手设定交易限额,并根据需要采用适当的信用风险缓释措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2600,
+      "end_char": 2649,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第二十三条 保险机构自行或受托参与衍生品交易,应当维持一定比例的流动资产,通过现金管理方法监控与防范流动性风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2651,
+      "end_char": 2707,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十四条 保险机构自行或受托参与衍生品交易,应当及时评估避险有效性。评估工作应当独立于决策和交易部门。评估衍生品价值时,应当采用市场公认或合理的估值方法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2709,
+      "end_char": 2787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十五条 保险机构自行或受托参与衍生品交易,应当制定有效的激励制度和机制,不得简单将衍生品交易盈亏与业务人员收入挂钩。后台及风险管理部门的人员报酬应当独立于交易盈亏情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2875,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第二十六条 保险机构自行或受托参与衍生品交易,应当在不同部门之间设立防火墙体系,实行严格的业务分离制度,确保投资交易、风险管理、清算核算、内审稽核等部门独立运作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2877,
+      "end_char": 2958,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "保险机构应当制定衍生品交易主管人员和专业人员的工作守则,建立问责制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 2995,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十七条 保险机构参与衍生品交易,内部审计与稽核部门应当定期对衍生品交易的风险管理情况进行监督检查,独立提交半年和年度稽核报告。检查内容包括但不限于以下方面:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2997,
+      "end_char": 3077,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)衍生品交易活动合规情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3079,
+      "end_char": 3094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)业务操作、内部控制及风险管理制度执行情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3096,
+      "end_char": 3120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(三)专业人员资质情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3122,
+      "end_char": 3134,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(四)避险政策及其有效性评估等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3136,
+      "end_char": 3152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十八条 保险机构自行或受托参与衍生品交易,应当确保交易记录的及时、真实、准确与完整。记录内容包括衍生品交易决策流程、执行情况及风险事项等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3154,
+      "end_char": 3225,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "chapter",
+      "text": "第五章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3227,
+      "end_char": 3235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十九条 保险资金参与衍生品交易,应当按照衍生品类别分别向银保监会报告,并提交以下书面材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3237,
+      "end_char": 3284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(一)保险集团(控股)公司、保险公司自行参与衍生品交易的,应当报送董事会批准参与衍生品交易的决议、董事会的风险知晓函及本办法第七条第(二)项至第(六)项要求的书面证明文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3286,
+      "end_char": 3372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(二)保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易的,委托人应当报送董事会批准参与衍生品交易的决议、风险知晓函、相关委托协议及符合规定的专业人员资料,受托人应当报送符合本办法第七条第(三)项至第(六)项要求的书面证明文件,受托的其他专业管理机构还应当报送书面承诺函,承诺以对冲或规避风险为目的参与衍生品交易,选择符合银保监会规定的交易结算等专业机构,遵守保险资金参与衍生品交易的头寸比例和流动性比例,并承诺接受银保监会的质询,如实提供衍生品交易的各种资料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十条 保险机构参与衍生品交易,应当持续符合相应的资质条件,在业务系统、设备要求、专业人员配备等不再满足银保监会规定要求时,应当及时向银保监会报告,并暂停开展衍生品业务,妥善处置衍生品头寸,直至满足有关规定要求后,才可恢复相关业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3623,
+      "end_char": 3740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十一条 保险集团(控股)公司、保险公司应当按照规定向银保监会报送以下报告:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3742,
+      "end_char": 3781,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(一)每个季度结束后的10个工作日内,报送衍生品交易的期末风险敞口总额、各类衍生品风险敞口金额,以及该季度的风险对冲情况和合规情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3783,
+      "end_char": 3849,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(二)每半年度和年度结束后的30个工作日内,报送衍生品交易的稽核审计报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3851,
+      "end_char": 3888,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(三)发生的衍生品交易违规行为、重大风险或异常情况,及采取的应对措施,应在10个工作日内上报银保监会;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3890,
+      "end_char": 3941,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定要求报送的其他材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3943,
+      "end_char": 3962,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "本条所指的各项报告应当包括保险集团(控股)公司、保险公司以自己名义开展衍生品交易和委托保险资产管理机构及其他专业管理机构开展衍生品交易的情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3964,
+      "end_char": 4035,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十二条 银保监会依法对保险机构参与衍生品交易情况开展现场和非现场检查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4037,
+      "end_char": 4074,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十三条 保险机构违反规定参与衍生品交易的,由银保监会责令限期改正,并依法对相关机构和人员给予行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4076,
+      "end_char": 4129,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "其他专业管理机构违反有关法规和本办法规定的,银保监会将记录其不良行为,并将有关情况通报其行业主管部门;情节严重的,银保监会可通报保险集团(控股)公司、保险公司3年内不得与其从事相关业务,并商有关监管部门依法给予行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4131,
+      "end_char": 4241,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "涉嫌犯罪的相关机构和人员,银保监会将依法移送司法机关查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4243,
+      "end_char": 4272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第三十四条 保险集团(控股)公司、保险公司参与境外衍生品交易,应当遵守保险资金境外投资规定,委托境外投资管理人,按照授权开展相关业务,并将衍生品交易纳入其业务管理体系。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4274,
+      "end_char": 4358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第三十五条 保险机构受托管理非保险资金参与衍生品交易的,应依照相关法律法规及合同约定进行管理,并严格执行风险管控措施,履行勤勉尽责义务,维护投资者权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4360,
+      "end_char": 4436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4438,
+      "end_char": 4445,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十六条 本办法由银保监会负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4447,
+      "end_char": 4466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第三十七条 《保险资金参与金融衍生产品交易暂行办法》(保监发〔2012〕94号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4468,
+      "end_char": 4513,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "保险资金参与金融衍生产品交易办法\n\n第一章 总 则\n\n第一条 为规范保险资金参与金融衍生产品交易,防范资金运用风险,维护保险当事人合法权益,依据《中华人民共和国保险法》及《保险资金运用管理办法》等法律法规,制定本办法。\n\n第二条 在中国境内依法设立的保险集团(控股)公司、保险公司、保险资产管理机构(以下统称保险机构)参与金融衍生产品交易,适用本办法。\n\n第三条 本办法所称金融衍生产品(以下简称衍生品),是指其价值取决于一种或多种基础资产、指数或特定事件的金融合约,包括远期、期货、期权及掉期(互换)。\n\n本办法所称金融衍生产品交易(以下简称衍生品交易),是指境内衍生品交易,不包括境外衍生品交易。\n\n第四条 保险集团(控股)公司、保险公司可以自行参与衍生品交易,也可以根据本办法及相关规定,委托保险资产管理机构及符合中国银行保险监督管理委员会(以下简称银保监会)规定的其他专业管理机构,在授权范围内参与衍生品交易。\n\n第五条 保险资金参与衍生品交易,应当以对冲或规避风险为目的,不得用于投机目的。包括:\n\n(一)对冲或规避现有资产风险、负债风险或资产负债错配风险;\n\n(二)对冲未来拟买入资产风险,或锁定其未来交易价格,具体期限视不同品种另行规定。\n\n本条第(二)项所称拟买入资产,应当是机构按其投资决策程序,已经决定将要买入的资产。未在决定之日起的规定期限内买入该资产,或在规定期限内放弃买入该资产,应当在规定期限结束后或决定之日起的一定期限内,终止、清算或平仓相关衍生品。\n\n第六条 银保监会将根据市场发展和实际需要,适时发布衍生品具体品种交易规定。\n\n第二章 资质条件\n\n第七条 保险集团(控股)公司、保险公司自行参与衍生品交易,应当符合以下要求:\n\n(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;\n\n(二)保险公司上季度末综合偿付能力充足率不低于150%,上一年资产负债管理能力评估结果不低于85分;\n\n(三)具有良好的公司治理结构,以及健全的衍生品交易业务操作、内部控制和风险管理制度;\n\n(四)建立投资交易、会计核算和风险管理等信息系统;\n\n(五)配备衍生品交易专业管理人员,包括但不限于分析研究、投资交易、财务处理、风险控制和审计稽核等;\n\n(六)近两年未受到监管机构重大行政处罚;\n\n(七)其他规定要求。\n\n第八条 保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易,应当符合以下要求:\n\n(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;\n\n(二)保险公司上季度末综合偿付能力充足率不低于120%,上一年资产负债管理能力评估结果不低于60分;\n\n(三)配备与衍生品交易相适应的监督和评价等专业管理人员;\n\n(四)其他规定要求。\n\n保险资产管理机构及其他专业管理机构受托参与衍生品交易,应当符合本办法第七条第(三)项至第(七)项规定的要求。\n\n第九条 保险资金参与衍生品交易,选择的交易结算等专业机构,应当符合银保监会有关衍生品交易的规定。\n\n第三章 管理规范\n\n第十条 保险集团(控股)公司、保险公司参与衍生品交易,应当根据公司自身的发展战略和总体规划,综合衡量现阶段的风险管理水平、技术系统和专业人员准备情况,审慎评估参与衍生品交易的能力,科学决策参与衍生品交易的广度和深度。董事会应当根据公司管理情况,制定授权制度,建立决策机制,明确管理人员职责及报告要求。\n\n第十一条 保险机构自行或受托参与衍生品交易,业务操作制度应当涵盖研究、决策、交易、清算与结算等全过程,明确责任分工,确保业务流程清晰,环节紧密衔接。\n\n第十二条 保险机构自行或受托参与衍生品交易,内部控制制度应当明确岗位职责,确保业务操作和风险管理流程可执行,关键岗位相互制衡,重点环节双人复核。\n\n第十三条 保险机构自行或受托参与衍生品交易,风险管理制度应当纳入公司总体风险管理架构,能够覆盖衍生品交易前、中、后台,并符合本办法第四章规定要求。\n\n第十四条 保险机构自行或受托参与衍生品交易,信息系统应当包括业务处理设备、交易软件和操作系统等,并通过可靠性测试。包括但不限于:\n\n(一)应当配置投资分析系统,计算对冲资产组合风险所需的衍生品数量,并根据市场变化,调整衍生品规模,逐步实现担保品动态调整。\n\n(二)应当配备相应的衍生品估值与清算模块,会计确认、计量、账务处理及财务报告应当符合规定。保险机构委托托管银行进行财务核算的,应当确认托管银行的信息系统合规可靠。\n\n第十五条 保险集团(控股)公司、保险公司参与衍生品交易,应当制定业务指引。该指引可以单独制定,也可以作为公司年度投资计划和投资指引的组成部分,包括但不限于以下内容:\n\n(一)拟运用衍生品种类;\n\n(二)使用衍生品的限制;\n\n(三)风险管理要求。\n\n第十六条 保险机构自行或受托参与衍生品交易,应当制定风险对冲方案,并经公司风险管理部门及有关决策人员审批。\n\n第十七条 保险机构参与衍生品交易,应当根据有关法律法规要求,规范业务运作,不得从事内幕交易、操纵证券及衍生品价格、进行利益输送及其他不正当的交易活动。\n\n第四章 风险管理\n\n第十八条 保险机构参与衍生品交易,应当建立动态风险管理机制,制定衍生品交易的全面风险管理制度与操作流程,建立监测、评估与处置风险的信息系统,完善应急机制和管理预案。\n\n第十九条 保险机构参与衍生品交易,应当制定量化的风险指标,采用适当的计量模型与测评分析技术,及时评估衍生品交易风险。\n\n第二十条 保险机构参与衍生品交易,同一资产组合持有的衍生品多头合约价值之和不得高于资产组合净值的100%,应当根据公司风险承受能力,确定衍生品及其资产组合的风险限额,按照一定的评估频率定期复查更新。\n\n保险机构应将风险限额分解为不同层级,由风险管理部门控制执行。对违反风险限额等交易情况,风险管理部门应当及时报告;确有风险对冲需求并需要灵活处理的,应严格履行内部审批程序。\n\n第二十一条 保险机构参与衍生品交易,应当密切关注外部市场变化,审慎评估市场变化趋势,及时调整衍生品交易方案,防范市场风险。\n\n第二十二条 保险机构自行或受托参与衍生品交易涉及交易对手的,应当建立交易对手评估与选择机制,充分调查交易对手的资信情况,评估信用风险,并跟踪评估交易过程和行为。\n\n保险机构应当综合内外部信用评级情况,为交易对手设定交易限额,并根据需要采用适当的信用风险缓释措施。\n\n第二十三条 保险机构自行或受托参与衍生品交易,应当维持一定比例的流动资产,通过现金管理方法监控与防范流动性风险。\n\n第二十四条 保险机构自行或受托参与衍生品交易,应当及时评估避险有效性。评估工作应当独立于决策和交易部门。评估衍生品价值时,应当采用市场公认或合理的估值方法。\n\n第二十五条 保险机构自行或受托参与衍生品交易,应当制定有效的激励制度和机制,不得简单将衍生品交易盈亏与业务人员收入挂钩。后台及风险管理部门的人员报酬应当独立于交易盈亏情况。\n\n第二十六条 保险机构自行或受托参与衍生品交易,应当在不同部门之间设立防火墙体系,实行严格的业务分离制度,确保投资交易、风险管理、清算核算、内审稽核等部门独立运作。\n\n保险机构应当制定衍生品交易主管人员和专业人员的工作守则,建立问责制度。\n\n第二十七条 保险机构参与衍生品交易,内部审计与稽核部门应当定期对衍生品交易的风险管理情况进行监督检查,独立提交半年和年度稽核报告。检查内容包括但不限于以下方面:\n\n(一)衍生品交易活动合规情况;\n\n(二)业务操作、内部控制及风险管理制度执行情况;\n\n(三)专业人员资质情况;\n\n(四)避险政策及其有效性评估等。\n\n第二十八条 保险机构自行或受托参与衍生品交易,应当确保交易记录的及时、真实、准确与完整。记录内容包括衍生品交易决策流程、执行情况及风险事项等。\n\n第五章 监督管理\n\n第二十九条 保险资金参与衍生品交易,应当按照衍生品类别分别向银保监会报告,并提交以下书面材料:\n\n(一)保险集团(控股)公司、保险公司自行参与衍生品交易的,应当报送董事会批准参与衍生品交易的决议、董事会的风险知晓函及本办法第七条第(二)项至第(六)项要求的书面证明文件。\n\n(二)保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易的,委托人应当报送董事会批准参与衍生品交易的决议、风险知晓函、相关委托协议及符合规定的专业人员资料,受托人应当报送符合本办法第七条第(三)项至第(六)项要求的书面证明文件,受托的其他专业管理机构还应当报送书面承诺函,承诺以对冲或规避风险为目的参与衍生品交易,选择符合银保监会规定的交易结算等专业机构,遵守保险资金参与衍生品交易的头寸比例和流动性比例,并承诺接受银保监会的质询,如实提供衍生品交易的各种资料。\n\n第三十条 保险机构参与衍生品交易,应当持续符合相应的资质条件,在业务系统、设备要求、专业人员配备等不再满足银保监会规定要求时,应当及时向银保监会报告,并暂停开展衍生品业务,妥善处置衍生品头寸,直至满足有关规定要求后,才可恢复相关业务。\n\n第三十一条 保险集团(控股)公司、保险公司应当按照规定向银保监会报送以下报告:\n\n(一)每个季度结束后的10个工作日内,报送衍生品交易的期末风险敞口总额、各类衍生品风险敞口金额,以及该季度的风险对冲情况和合规情况;\n\n(二)每半年度和年度结束后的30个工作日内,报送衍生品交易的稽核审计报告;\n\n(三)发生的衍生品交易违规行为、重大风险或异常情况,及采取的应对措施,应在10个工作日内上报银保监会;\n\n(四)银保监会规定要求报送的其他材料。\n\n本条所指的各项报告应当包括保险集团(控股)公司、保险公司以自己名义开展衍生品交易和委托保险资产管理机构及其他专业管理机构开展衍生品交易的情况。\n\n第三十二条 银保监会依法对保险机构参与衍生品交易情况开展现场和非现场检查。\n\n第三十三条 保险机构违反规定参与衍生品交易的,由银保监会责令限期改正,并依法对相关机构和人员给予行政处罚。\n\n其他专业管理机构违反有关法规和本办法规定的,银保监会将记录其不良行为,并将有关情况通报其行业主管部门;情节严重的,银保监会可通报保险集团(控股)公司、保险公司3年内不得与其从事相关业务,并商有关监管部门依法给予行政处罚。\n\n涉嫌犯罪的相关机构和人员,银保监会将依法移送司法机关查处。\n\n第三十四条 保险集团(控股)公司、保险公司参与境外衍生品交易,应当遵守保险资金境外投资规定,委托境外投资管理人,按照授权开展相关业务,并将衍生品交易纳入其业务管理体系。\n\n第三十五条 保险机构受托管理非保险资金参与衍生品交易的,应依照相关法律法规及合同约定进行管理,并严格执行风险管控措施,履行勤勉尽责义务,维护投资者权益。\n\n第六章 附 则\n\n第三十六条 本办法由银保监会负责解释。\n\n第三十七条 《保险资金参与金融衍生产品交易暂行办法》(保监发〔2012〕94号)同时废止。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "保险资金参与金融衍生产品交易办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 25,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为规范保险资金参与金融衍生产品交易,防范资金运用风险,维护保险当事人合法权益,依据《中华人民共和国保险法》及《保险资金运用管理办法》等法律法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 27,
+      "end_char": 109,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 在中国境内依法设立的保险集团(控股)公司、保险公司、保险资产管理机构(以下统称保险机构)参与金融衍生产品交易,适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 111,
+      "end_char": 176,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 本办法所称金融衍生产品(以下简称衍生品),是指其价值取决于一种或多种基础资产、指数或特定事件的金融合约,包括远期、期货、期权及掉期(互换)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 178,
+      "end_char": 252,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "本办法所称金融衍生产品交易(以下简称衍生品交易),是指境内衍生品交易,不包括境外衍生品交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 254,
+      "end_char": 300,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 保险集团(控股)公司、保险公司可以自行参与衍生品交易,也可以根据本办法及相关规定,委托保险资产管理机构及符合中国银行保险监督管理委员会(以下简称银保监会)规定的其他专业管理机构,在授权范围内参与衍生品交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 302,
+      "end_char": 409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 保险资金参与衍生品交易,应当以对冲或规避风险为目的,不得用于投机目的。包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 411,
+      "end_char": 453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(一)对冲或规避现有资产风险、负债风险或资产负债错配风险;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 455,
+      "end_char": 484,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(二)对冲未来拟买入资产风险,或锁定其未来交易价格,具体期限视不同品种另行规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 486,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "本条第(二)项所称拟买入资产,应当是机构按其投资决策程序,已经决定将要买入的资产。未在决定之日起的规定期限内买入该资产,或在规定期限内放弃买入该资产,应当在规定期限结束后或决定之日起的一定期限内,终止、清算或平仓相关衍生品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 528,
+      "end_char": 640,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第六条 银保监会将根据市场发展和实际需要,适时发布衍生品具体品种交易规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 642,
+      "end_char": 679,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "chapter",
+      "text": "第二章 资质条件",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 681,
+      "end_char": 689,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第七条 保险集团(控股)公司、保险公司自行参与衍生品交易,应当符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 691,
+      "end_char": 729,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 731,
+      "end_char": 760,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(二)保险公司上季度末综合偿付能力充足率不低于150%,上一年资产负债管理能力评估结果不低于85分;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 762,
+      "end_char": 812,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(三)具有良好的公司治理结构,以及健全的衍生品交易业务操作、内部控制和风险管理制度;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 814,
+      "end_char": 856,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(四)建立投资交易、会计核算和风险管理等信息系统;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 858,
+      "end_char": 883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(五)配备衍生品交易专业管理人员,包括但不限于分析研究、投资交易、财务处理、风险控制和审计稽核等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 885,
+      "end_char": 934,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(六)近两年未受到监管机构重大行政处罚;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 936,
+      "end_char": 956,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(七)其他规定要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 958,
+      "end_char": 968,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第八条 保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易,应当符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 970,
+      "end_char": 1025,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1027,
+      "end_char": 1056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)保险公司上季度末综合偿付能力充足率不低于120%,上一年资产负债管理能力评估结果不低于60分;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1058,
+      "end_char": 1108,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)配备与衍生品交易相适应的监督和评价等专业管理人员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1110,
+      "end_char": 1138,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)其他规定要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1140,
+      "end_char": 1150,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "保险资产管理机构及其他专业管理机构受托参与衍生品交易,应当符合本办法第七条第(三)项至第(七)项规定的要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1152,
+      "end_char": 1206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第九条 保险资金参与衍生品交易,选择的交易结算等专业机构,应当符合银保监会有关衍生品交易的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1208,
+      "end_char": 1256,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "chapter",
+      "text": "第三章 管理规范",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1258,
+      "end_char": 1266,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第十条 保险集团(控股)公司、保险公司参与衍生品交易,应当根据公司自身的发展战略和总体规划,综合衡量现阶段的风险管理水平、技术系统和专业人员准备情况,审慎评估参与衍生品交易的能力,科学决策参与衍生品交易的广度和深度。董事会应当根据公司管理情况,制定授权制度,建立决策机制,明确管理人员职责及报告要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1268,
+      "end_char": 1418,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十一条 保险机构自行或受托参与衍生品交易,业务操作制度应当涵盖研究、决策、交易、清算与结算等全过程,明确责任分工,确保业务流程清晰,环节紧密衔接。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1420,
+      "end_char": 1494,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十二条 保险机构自行或受托参与衍生品交易,内部控制制度应当明确岗位职责,确保业务操作和风险管理流程可执行,关键岗位相互制衡,重点环节双人复核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1496,
+      "end_char": 1568,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十三条 保险机构自行或受托参与衍生品交易,风险管理制度应当纳入公司总体风险管理架构,能够覆盖衍生品交易前、中、后台,并符合本办法第四章规定要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1570,
+      "end_char": 1643,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十四条 保险机构自行或受托参与衍生品交易,信息系统应当包括业务处理设备、交易软件和操作系统等,并通过可靠性测试。包括但不限于:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1645,
+      "end_char": 1709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(一)应当配置投资分析系统,计算对冲资产组合风险所需的衍生品数量,并根据市场变化,调整衍生品规模,逐步实现担保品动态调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1711,
+      "end_char": 1772,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(二)应当配备相应的衍生品估值与清算模块,会计确认、计量、账务处理及财务报告应当符合规定。保险机构委托托管银行进行财务核算的,应当确认托管银行的信息系统合规可靠。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1774,
+      "end_char": 1855,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十五条 保险集团(控股)公司、保险公司参与衍生品交易,应当制定业务指引。该指引可以单独制定,也可以作为公司年度投资计划和投资指引的组成部分,包括但不限于以下内容:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1857,
+      "end_char": 1939,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(一)拟运用衍生品种类;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1941,
+      "end_char": 1953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(二)使用衍生品的限制;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1955,
+      "end_char": 1967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(三)风险管理要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1969,
+      "end_char": 1979,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十六条 保险机构自行或受托参与衍生品交易,应当制定风险对冲方案,并经公司风险管理部门及有关决策人员审批。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1981,
+      "end_char": 2034,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十七条 保险机构参与衍生品交易,应当根据有关法律法规要求,规范业务运作,不得从事内幕交易、操纵证券及衍生品价格、进行利益输送及其他不正当的交易活动。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2111,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "chapter",
+      "text": "第四章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2113,
+      "end_char": 2121,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十八条 保险机构参与衍生品交易,应当建立动态风险管理机制,制定衍生品交易的全面风险管理制度与操作流程,建立监测、评估与处置风险的信息系统,完善应急机制和管理预案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2123,
+      "end_char": 2205,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十九条 保险机构参与衍生品交易,应当制定量化的风险指标,采用适当的计量模型与测评分析技术,及时评估衍生品交易风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2207,
+      "end_char": 2265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十条 保险机构参与衍生品交易,同一资产组合持有的衍生品多头合约价值之和不得高于资产组合净值的100%,应当根据公司风险承受能力,确定衍生品及其资产组合的风险限额,按照一定的评估频率定期复查更新。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2267,
+      "end_char": 2366,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "保险机构应将风险限额分解为不同层级,由风险管理部门控制执行。对违反风险限额等交易情况,风险管理部门应当及时报告;确有风险对冲需求并需要灵活处理的,应严格履行内部审批程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2368,
+      "end_char": 2453,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十一条 保险机构参与衍生品交易,应当密切关注外部市场变化,审慎评估市场变化趋势,及时调整衍生品交易方案,防范市场风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2455,
+      "end_char": 2516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第二十二条 保险机构自行或受托参与衍生品交易涉及交易对手的,应当建立交易对手评估与选择机制,充分调查交易对手的资信情况,评估信用风险,并跟踪评估交易过程和行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2518,
+      "end_char": 2598,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "保险机构应当综合内外部信用评级情况,为交易对手设定交易限额,并根据需要采用适当的信用风险缓释措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2600,
+      "end_char": 2649,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第二十三条 保险机构自行或受托参与衍生品交易,应当维持一定比例的流动资产,通过现金管理方法监控与防范流动性风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2651,
+      "end_char": 2707,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十四条 保险机构自行或受托参与衍生品交易,应当及时评估避险有效性。评估工作应当独立于决策和交易部门。评估衍生品价值时,应当采用市场公认或合理的估值方法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2709,
+      "end_char": 2787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十五条 保险机构自行或受托参与衍生品交易,应当制定有效的激励制度和机制,不得简单将衍生品交易盈亏与业务人员收入挂钩。后台及风险管理部门的人员报酬应当独立于交易盈亏情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2875,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第二十六条 保险机构自行或受托参与衍生品交易,应当在不同部门之间设立防火墙体系,实行严格的业务分离制度,确保投资交易、风险管理、清算核算、内审稽核等部门独立运作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2877,
+      "end_char": 2958,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "保险机构应当制定衍生品交易主管人员和专业人员的工作守则,建立问责制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 2995,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十七条 保险机构参与衍生品交易,内部审计与稽核部门应当定期对衍生品交易的风险管理情况进行监督检查,独立提交半年和年度稽核报告。检查内容包括但不限于以下方面:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2997,
+      "end_char": 3077,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)衍生品交易活动合规情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3079,
+      "end_char": 3094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)业务操作、内部控制及风险管理制度执行情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3096,
+      "end_char": 3120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(三)专业人员资质情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3122,
+      "end_char": 3134,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(四)避险政策及其有效性评估等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3136,
+      "end_char": 3152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十八条 保险机构自行或受托参与衍生品交易,应当确保交易记录的及时、真实、准确与完整。记录内容包括衍生品交易决策流程、执行情况及风险事项等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3154,
+      "end_char": 3225,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "chapter",
+      "text": "第五章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3227,
+      "end_char": 3235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十九条 保险资金参与衍生品交易,应当按照衍生品类别分别向银保监会报告,并提交以下书面材料:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3237,
+      "end_char": 3284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(一)保险集团(控股)公司、保险公司自行参与衍生品交易的,应当报送董事会批准参与衍生品交易的决议、董事会的风险知晓函及本办法第七条第(二)项至第(六)项要求的书面证明文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3286,
+      "end_char": 3372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(二)保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易的,委托人应当报送董事会批准参与衍生品交易的决议、风险知晓函、相关委托协议及符合规定的专业人员资料,受托人应当报送符合本办法第七条第(三)项至第(六)项要求的书面证明文件,受托的其他专业管理机构还应当报送书面承诺函,承诺以对冲或规避风险为目的参与衍生品交易,选择符合银保监会规定的交易结算等专业机构,遵守保险资金参与衍生品交易的头寸比例和流动性比例,并承诺接受银保监会的质询,如实提供衍生品交易的各种资料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十条 保险机构参与衍生品交易,应当持续符合相应的资质条件,在业务系统、设备要求、专业人员配备等不再满足银保监会规定要求时,应当及时向银保监会报告,并暂停开展衍生品业务,妥善处置衍生品头寸,直至满足有关规定要求后,才可恢复相关业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3623,
+      "end_char": 3740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十一条 保险集团(控股)公司、保险公司应当按照规定向银保监会报送以下报告:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3742,
+      "end_char": 3781,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(一)每个季度结束后的10个工作日内,报送衍生品交易的期末风险敞口总额、各类衍生品风险敞口金额,以及该季度的风险对冲情况和合规情况;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3783,
+      "end_char": 3849,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(二)每半年度和年度结束后的30个工作日内,报送衍生品交易的稽核审计报告;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3851,
+      "end_char": 3888,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(三)发生的衍生品交易违规行为、重大风险或异常情况,及采取的应对措施,应在10个工作日内上报银保监会;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3890,
+      "end_char": 3941,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(四)银保监会规定要求报送的其他材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3943,
+      "end_char": 3962,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "本条所指的各项报告应当包括保险集团(控股)公司、保险公司以自己名义开展衍生品交易和委托保险资产管理机构及其他专业管理机构开展衍生品交易的情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3964,
+      "end_char": 4035,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十二条 银保监会依法对保险机构参与衍生品交易情况开展现场和非现场检查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4037,
+      "end_char": 4074,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十三条 保险机构违反规定参与衍生品交易的,由银保监会责令限期改正,并依法对相关机构和人员给予行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4076,
+      "end_char": 4129,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "其他专业管理机构违反有关法规和本办法规定的,银保监会将记录其不良行为,并将有关情况通报其行业主管部门;情节严重的,银保监会可通报保险集团(控股)公司、保险公司3年内不得与其从事相关业务,并商有关监管部门依法给予行政处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4131,
+      "end_char": 4241,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "涉嫌犯罪的相关机构和人员,银保监会将依法移送司法机关查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4243,
+      "end_char": 4272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第三十四条 保险集团(控股)公司、保险公司参与境外衍生品交易,应当遵守保险资金境外投资规定,委托境外投资管理人,按照授权开展相关业务,并将衍生品交易纳入其业务管理体系。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4274,
+      "end_char": 4358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第三十五条 保险机构受托管理非保险资金参与衍生品交易的,应依照相关法律法规及合同约定进行管理,并严格执行风险管控措施,履行勤勉尽责义务,维护投资者权益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4360,
+      "end_char": 4436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4438,
+      "end_char": 4445,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十六条 本办法由银保监会负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4447,
+      "end_char": 4466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第三十七条 《保险资金参与金融衍生产品交易暂行办法》(保监发〔2012〕94号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4468,
+      "end_char": 4513,
+      "region": "body"
+    }
+  ],
   "normalized_text": "保险资金参与金融衍生产品交易办法\n\n第一章 总 则\n\n第一条 为规范保险资金参与金融衍生产品交易,防范资金运用风险,维护保险当事人合法权益,依据《中华人民共和国保险法》及《保险资金运用管理办法》等法律法规,制定本办法。\n\n第二条 在中国境内依法设立的保险集团(控股)公司、保险公司、保险资产管理机构(以下统称保险机构)参与金融衍生产品交易,适用本办法。\n\n第三条 本办法所称金融衍生产品(以下简称衍生品),是指其价值取决于一种或多种基础资产、指数或特定事件的金融合约,包括远期、期货、期权及掉期(互换)。\n\n本办法所称金融衍生产品交易(以下简称衍生品交易),是指境内衍生品交易,不包括境外衍生品交易。\n\n第四条 保险集团(控股)公司、保险公司可以自行参与衍生品交易,也可以根据本办法及相关规定,委托保险资产管理机构及符合中国银行保险监督管理委员会(以下简称银保监会)规定的其他专业管理机构,在授权范围内参与衍生品交易。\n\n第五条 保险资金参与衍生品交易,应当以对冲或规避风险为目的,不得用于投机目的。包括:\n\n(一)对冲或规避现有资产风险、负债风险或资产负债错配风险;\n\n(二)对冲未来拟买入资产风险,或锁定其未来交易价格,具体期限视不同品种另行规定。\n\n本条第(二)项所称拟买入资产,应当是机构按其投资决策程序,已经决定将要买入的资产。未在决定之日起的规定期限内买入该资产,或在规定期限内放弃买入该资产,应当在规定期限结束后或决定之日起的一定期限内,终止、清算或平仓相关衍生品。\n\n第六条 银保监会将根据市场发展和实际需要,适时发布衍生品具体品种交易规定。\n\n第二章 资质条件\n\n第七条 保险集团(控股)公司、保险公司自行参与衍生品交易,应当符合以下要求:\n\n(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;\n\n(二)保险公司上季度末综合偿付能力充足率不低于150%,上一年资产负债管理能力评估结果不低于85分;\n\n(三)具有良好的公司治理结构,以及健全的衍生品交易业务操作、内部控制和风险管理制度;\n\n(四)建立投资交易、会计核算和风险管理等信息系统;\n\n(五)配备衍生品交易专业管理人员,包括但不限于分析研究、投资交易、财务处理、风险控制和审计稽核等;\n\n(六)近两年未受到监管机构重大行政处罚;\n\n(七)其他规定要求。\n\n第八条 保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易,应当符合以下要求:\n\n(一)董事会知晓相关风险,并承担参与衍生品交易的最终责任;\n\n(二)保险公司上季度末综合偿付能力充足率不低于120%,上一年资产负债管理能力评估结果不低于60分;\n\n(三)配备与衍生品交易相适应的监督和评价等专业管理人员;\n\n(四)其他规定要求。\n\n保险资产管理机构及其他专业管理机构受托参与衍生品交易,应当符合本办法第七条第(三)项至第(七)项规定的要求。\n\n第九条 保险资金参与衍生品交易,选择的交易结算等专业机构,应当符合银保监会有关衍生品交易的规定。\n\n第三章 管理规范\n\n第十条 保险集团(控股)公司、保险公司参与衍生品交易,应当根据公司自身的发展战略和总体规划,综合衡量现阶段的风险管理水平、技术系统和专业人员准备情况,审慎评估参与衍生品交易的能力,科学决策参与衍生品交易的广度和深度。董事会应当根据公司管理情况,制定授权制度,建立决策机制,明确管理人员职责及报告要求。\n\n第十一条 保险机构自行或受托参与衍生品交易,业务操作制度应当涵盖研究、决策、交易、清算与结算等全过程,明确责任分工,确保业务流程清晰,环节紧密衔接。\n\n第十二条 保险机构自行或受托参与衍生品交易,内部控制制度应当明确岗位职责,确保业务操作和风险管理流程可执行,关键岗位相互制衡,重点环节双人复核。\n\n第十三条 保险机构自行或受托参与衍生品交易,风险管理制度应当纳入公司总体风险管理架构,能够覆盖衍生品交易前、中、后台,并符合本办法第四章规定要求。\n\n第十四条 保险机构自行或受托参与衍生品交易,信息系统应当包括业务处理设备、交易软件和操作系统等,并通过可靠性测试。包括但不限于:\n\n(一)应当配置投资分析系统,计算对冲资产组合风险所需的衍生品数量,并根据市场变化,调整衍生品规模,逐步实现担保品动态调整。\n\n(二)应当配备相应的衍生品估值与清算模块,会计确认、计量、账务处理及财务报告应当符合规定。保险机构委托托管银行进行财务核算的,应当确认托管银行的信息系统合规可靠。\n\n第十五条 保险集团(控股)公司、保险公司参与衍生品交易,应当制定业务指引。该指引可以单独制定,也可以作为公司年度投资计划和投资指引的组成部分,包括但不限于以下内容:\n\n(一)拟运用衍生品种类;\n\n(二)使用衍生品的限制;\n\n(三)风险管理要求。\n\n第十六条 保险机构自行或受托参与衍生品交易,应当制定风险对冲方案,并经公司风险管理部门及有关决策人员审批。\n\n第十七条 保险机构参与衍生品交易,应当根据有关法律法规要求,规范业务运作,不得从事内幕交易、操纵证券及衍生品价格、进行利益输送及其他不正当的交易活动。\n\n第四章 风险管理\n\n第十八条 保险机构参与衍生品交易,应当建立动态风险管理机制,制定衍生品交易的全面风险管理制度与操作流程,建立监测、评估与处置风险的信息系统,完善应急机制和管理预案。\n\n第十九条 保险机构参与衍生品交易,应当制定量化的风险指标,采用适当的计量模型与测评分析技术,及时评估衍生品交易风险。\n\n第二十条 保险机构参与衍生品交易,同一资产组合持有的衍生品多头合约价值之和不得高于资产组合净值的100%,应当根据公司风险承受能力,确定衍生品及其资产组合的风险限额,按照一定的评估频率定期复查更新。\n\n保险机构应将风险限额分解为不同层级,由风险管理部门控制执行。对违反风险限额等交易情况,风险管理部门应当及时报告;确有风险对冲需求并需要灵活处理的,应严格履行内部审批程序。\n\n第二十一条 保险机构参与衍生品交易,应当密切关注外部市场变化,审慎评估市场变化趋势,及时调整衍生品交易方案,防范市场风险。\n\n第二十二条 保险机构自行或受托参与衍生品交易涉及交易对手的,应当建立交易对手评估与选择机制,充分调查交易对手的资信情况,评估信用风险,并跟踪评估交易过程和行为。\n\n保险机构应当综合内外部信用评级情况,为交易对手设定交易限额,并根据需要采用适当的信用风险缓释措施。\n\n第二十三条 保险机构自行或受托参与衍生品交易,应当维持一定比例的流动资产,通过现金管理方法监控与防范流动性风险。\n\n第二十四条 保险机构自行或受托参与衍生品交易,应当及时评估避险有效性。评估工作应当独立于决策和交易部门。评估衍生品价值时,应当采用市场公认或合理的估值方法。\n\n第二十五条 保险机构自行或受托参与衍生品交易,应当制定有效的激励制度和机制,不得简单将衍生品交易盈亏与业务人员收入挂钩。后台及风险管理部门的人员报酬应当独立于交易盈亏情况。\n\n第二十六条 保险机构自行或受托参与衍生品交易,应当在不同部门之间设立防火墙体系,实行严格的业务分离制度,确保投资交易、风险管理、清算核算、内审稽核等部门独立运作。\n\n保险机构应当制定衍生品交易主管人员和专业人员的工作守则,建立问责制度。\n\n第二十七条 保险机构参与衍生品交易,内部审计与稽核部门应当定期对衍生品交易的风险管理情况进行监督检查,独立提交半年和年度稽核报告。检查内容包括但不限于以下方面:\n\n(一)衍生品交易活动合规情况;\n\n(二)业务操作、内部控制及风险管理制度执行情况;\n\n(三)专业人员资质情况;\n\n(四)避险政策及其有效性评估等。\n\n第二十八条 保险机构自行或受托参与衍生品交易,应当确保交易记录的及时、真实、准确与完整。记录内容包括衍生品交易决策流程、执行情况及风险事项等。\n\n第五章 监督管理\n\n第二十九条 保险资金参与衍生品交易,应当按照衍生品类别分别向银保监会报告,并提交以下书面材料:\n\n(一)保险集团(控股)公司、保险公司自行参与衍生品交易的,应当报送董事会批准参与衍生品交易的决议、董事会的风险知晓函及本办法第七条第(二)项至第(六)项要求的书面证明文件。\n\n(二)保险集团(控股)公司、保险公司委托保险资产管理机构及其他专业管理机构参与衍生品交易的,委托人应当报送董事会批准参与衍生品交易的决议、风险知晓函、相关委托协议及符合规定的专业人员资料,受托人应当报送符合本办法第七条第(三)项至第(六)项要求的书面证明文件,受托的其他专业管理机构还应当报送书面承诺函,承诺以对冲或规避风险为目的参与衍生品交易,选择符合银保监会规定的交易结算等专业机构,遵守保险资金参与衍生品交易的头寸比例和流动性比例,并承诺接受银保监会的质询,如实提供衍生品交易的各种资料。\n\n第三十条 保险机构参与衍生品交易,应当持续符合相应的资质条件,在业务系统、设备要求、专业人员配备等不再满足银保监会规定要求时,应当及时向银保监会报告,并暂停开展衍生品业务,妥善处置衍生品头寸,直至满足有关规定要求后,才可恢复相关业务。\n\n第三十一条 保险集团(控股)公司、保险公司应当按照规定向银保监会报送以下报告:\n\n(一)每个季度结束后的10个工作日内,报送衍生品交易的期末风险敞口总额、各类衍生品风险敞口金额,以及该季度的风险对冲情况和合规情况;\n\n(二)每半年度和年度结束后的30个工作日内,报送衍生品交易的稽核审计报告;\n\n(三)发生的衍生品交易违规行为、重大风险或异常情况,及采取的应对措施,应在10个工作日内上报银保监会;\n\n(四)银保监会规定要求报送的其他材料。\n\n本条所指的各项报告应当包括保险集团(控股)公司、保险公司以自己名义开展衍生品交易和委托保险资产管理机构及其他专业管理机构开展衍生品交易的情况。\n\n第三十二条 银保监会依法对保险机构参与衍生品交易情况开展现场和非现场检查。\n\n第三十三条 保险机构违反规定参与衍生品交易的,由银保监会责令限期改正,并依法对相关机构和人员给予行政处罚。\n\n其他专业管理机构违反有关法规和本办法规定的,银保监会将记录其不良行为,并将有关情况通报其行业主管部门;情节严重的,银保监会可通报保险集团(控股)公司、保险公司3年内不得与其从事相关业务,并商有关监管部门依法给予行政处罚。\n\n涉嫌犯罪的相关机构和人员,银保监会将依法移送司法机关查处。\n\n第三十四条 保险集团(控股)公司、保险公司参与境外衍生品交易,应当遵守保险资金境外投资规定,委托境外投资管理人,按照授权开展相关业务,并将衍生品交易纳入其业务管理体系。\n\n第三十五条 保险机构受托管理非保险资金参与衍生品交易的,应依照相关法律法规及合同约定进行管理,并严格执行风险管控措施,履行勤勉尽责义务,维护投资者权益。\n\n第六章 附 则\n\n第三十六条 本办法由银保监会负责解释。\n\n第三十七条 《保险资金参与金融衍生产品交易暂行办法》(保监发〔2012〕94号)同时废止。",
   "blocks": [
     {
@@ -130,7 +2083,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -138,7 +2098,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 25,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -146,7 +2113,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 27,
+      "end_char": 109,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -154,7 +2128,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 111,
+      "end_char": 176,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -162,7 +2143,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 178,
+      "end_char": 252,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -170,7 +2158,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 254,
+      "end_char": 300,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -178,7 +2173,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 302,
+      "end_char": 409,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -186,7 +2188,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 411,
+      "end_char": 453,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -194,7 +2203,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 455,
+      "end_char": 484,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -202,7 +2218,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 486,
+      "end_char": 526,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -210,7 +2233,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 528,
+      "end_char": 640,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -218,7 +2248,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 642,
+      "end_char": 679,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -226,7 +2263,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 681,
+      "end_char": 689,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -234,7 +2278,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 691,
+      "end_char": 729,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -242,7 +2293,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 731,
+      "end_char": 760,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -250,7 +2308,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 762,
+      "end_char": 812,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -258,7 +2323,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 814,
+      "end_char": 856,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -266,7 +2338,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 858,
+      "end_char": 883,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -274,7 +2353,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 885,
+      "end_char": 934,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -282,7 +2368,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 936,
+      "end_char": 956,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -290,7 +2383,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 958,
+      "end_char": 968,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -298,7 +2398,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 970,
+      "end_char": 1025,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -306,7 +2413,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1027,
+      "end_char": 1056,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -314,7 +2428,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1058,
+      "end_char": 1108,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -322,7 +2443,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1110,
+      "end_char": 1138,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -330,7 +2458,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1140,
+      "end_char": 1150,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -338,7 +2473,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1152,
+      "end_char": 1206,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -346,7 +2488,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1208,
+      "end_char": 1256,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -354,7 +2503,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1258,
+      "end_char": 1266,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -362,7 +2518,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1268,
+      "end_char": 1418,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -370,7 +2533,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1420,
+      "end_char": 1494,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -378,7 +2548,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1496,
+      "end_char": 1568,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -386,7 +2563,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1570,
+      "end_char": 1643,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -394,7 +2578,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1645,
+      "end_char": 1709,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -402,7 +2593,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1711,
+      "end_char": 1772,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -410,7 +2608,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1774,
+      "end_char": 1855,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -418,7 +2623,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1857,
+      "end_char": 1939,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -426,7 +2638,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1941,
+      "end_char": 1953,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -434,7 +2653,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1955,
+      "end_char": 1967,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -442,7 +2668,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1969,
+      "end_char": 1979,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -450,7 +2683,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1981,
+      "end_char": 2034,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -458,7 +2698,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2111,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -466,7 +2713,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2113,
+      "end_char": 2121,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -474,7 +2728,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2123,
+      "end_char": 2205,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -482,7 +2743,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2207,
+      "end_char": 2265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -490,7 +2758,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2267,
+      "end_char": 2366,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -498,7 +2773,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2368,
+      "end_char": 2453,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -506,7 +2788,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2455,
+      "end_char": 2516,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -514,7 +2803,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2518,
+      "end_char": 2598,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -522,7 +2818,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2600,
+      "end_char": 2649,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -530,7 +2833,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2651,
+      "end_char": 2707,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -538,7 +2848,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2709,
+      "end_char": 2787,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -546,7 +2863,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2789,
+      "end_char": 2875,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -554,7 +2878,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2877,
+      "end_char": 2958,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -562,7 +2893,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 2995,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -570,7 +2908,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2997,
+      "end_char": 3077,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -578,7 +2923,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3079,
+      "end_char": 3094,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -586,7 +2938,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3096,
+      "end_char": 3120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -594,7 +2953,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3122,
+      "end_char": 3134,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -602,7 +2968,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3136,
+      "end_char": 3152,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -610,7 +2983,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3154,
+      "end_char": 3225,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -618,7 +2998,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3227,
+      "end_char": 3235,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -626,7 +3013,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3237,
+      "end_char": 3284,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -634,7 +3028,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3286,
+      "end_char": 3372,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -642,7 +3043,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3621,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -650,7 +3058,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3623,
+      "end_char": 3740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -658,7 +3073,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3742,
+      "end_char": 3781,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -666,7 +3088,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3783,
+      "end_char": 3849,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -674,7 +3103,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3851,
+      "end_char": 3888,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -682,7 +3118,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3890,
+      "end_char": 3941,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -690,7 +3133,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3943,
+      "end_char": 3962,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -698,7 +3148,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3964,
+      "end_char": 4035,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -706,7 +3163,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4037,
+      "end_char": 4074,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -714,7 +3178,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4076,
+      "end_char": 4129,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -722,7 +3193,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4131,
+      "end_char": 4241,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -730,7 +3208,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4243,
+      "end_char": 4272,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -738,7 +3223,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4274,
+      "end_char": 4358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -746,7 +3238,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4360,
+      "end_char": 4436,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -754,7 +3253,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4438,
+      "end_char": 4445,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -762,7 +3268,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4447,
+      "end_char": 4466,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -770,7 +3283,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4468,
+      "end_char": 4513,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

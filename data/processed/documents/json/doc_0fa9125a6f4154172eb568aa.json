@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司合规管理实施指引.docx",
   "source_type": "docx",
   "file_sha256": "e39e37deb208b74b603455d35079786d6a14f91d3c7523d3eabcb3582e098c93",
-  "content_sha256": "8e0d77f722234bc9fa42281fcf027ecdf3dc25e5a7859c17cc48bda973a22f68",
+  "content_sha256": "ff3e25e396421347bdb2405af18036023d98539cb783c88b1fd1033790fd30b4",
   "metadata": {
     "document_title": "证券公司合规管理实施指引",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "8bab311d9938524f7f9125b531ecc26a6d30ee78f8070c8c7fba0232d6201b6f",
     "clean_text_sha256": "ed6cbbcdbb2eaf0b250f6a063ba3eba64671cf8a7411d23ae928d650aafbab2e",
@@ -193,6 +193,3145 @@
   },
   "original_text_sha256": "8bab311d9938524f7f9125b531ecc26a6d30ee78f8070c8c7fba0232d6201b6f",
   "clean_text_sha256": "ed6cbbcdbb2eaf0b250f6a063ba3eba64671cf8a7411d23ae928d650aafbab2e",
+  "clean_text_hash": "c3d4af03ff3102ce4a653ed0787988601a0a7039a491613d14a7db59058a50aa",
+  "structured_blocks_sha256": "735f4fe8bb6db627f9ae6bbac623282195740756320bf44d9a7c03cc502dc53f",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(经协会第七届理事会第四十一次会议审议通过, 2025年12月26日发布并生效)",
+      "character_count": 39
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "(中证协发〔2025〕278号)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 24,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第一条 为指导证券公司有效落实《证券公司和证券投资基金管理公司合规管理办法》(以下简称办法),提升证券公司合规管理水平,制定本指引。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 92,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条 证券公司应当树立并坚守以下合规理念:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 94,
+      "end_char": 116,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(一)全员合规。合规是证券公司全体工作人员的基本行为准则。证券公司全体工作人员应当严格遵守法律、法规和准则,主动防范、发现并化解合规风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 118,
+      "end_char": 187,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(二)合规从管理层做起。证券公司应当建立完善的公司治理结构,确保董事会有效行使重大决策和监督功能,确保监事会有效行使监督职能;证券公司董事会、监事会、高级管理人员应当重视公司经营的合规性,承担有效管理公司合规风险的责任,积极践行并推广合规文化,促进公司合规经营。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 189,
+      "end_char": 320,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 322,
+      "end_char": 451,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(三)合规创造价值。证券公司应当通过有效的合规管理防范并化解合规风险,提升管理和业务能力,为机构自身、行业和社会创造价值。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 453,
+      "end_char": 514,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(四)合规是公司的生存基础。证券公司应当提升合规管理重视程度,坚持合规经营,为公司正常经营及长期可持续发展奠定基础。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 516,
+      "end_char": 574,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第三条 证券公司应当制定合规管理的基本制度,经董事会审议通过后实施。合规管理的基本制度应当包括合规管理的目标、基本原则、机构设置及其职责、履职保障、合规考核以及违规事项的报告、处理和责任追究等内容。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 576,
+      "end_char": 675,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "证券公司应当结合本公司经营实际情况,制定指导经营活动依法合规开展的具体管理制度或操作流程,切实加强对各项经营活动的合规管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 677,
+      "end_char": 739,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "证券公司应当制定工作人员执业行为准则,引导工作人员树立良好的合规执业意识和道德行为规范,确保工作人员执业行为依法合规。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 741,
+      "end_char": 800,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取有效措施保障合规管理人员的专业化、职业化水平。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 802,
+      "end_char": 833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第四条 证券公司及其工作人员应当遵守行业公认普遍遵守的职业道德和行为准则,包括但不限于诚实守信、勤勉尽责、专业敬业、公平竞争、客户利益至上、有效防范并妥善处理利益冲突、自觉维护行业良好声誉和秩序、主动承担社会责任等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 835,
+      "end_char": 943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第五条 证券公司应当有效防范并妥善处理利益冲突,在涉及到公司与客户之间的利益冲突时,应当坚持客户利益至上的原则;在涉及到客户与客户之间的利益冲突时,应当坚持公平对待客户的原则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 945,
+      "end_char": 1033,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第六条 中国证券业协会(以下简称协会)对证券公司合规管理工作实施自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1072,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "chapter",
+      "text": "第二章 合规管理职责",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1074,
+      "end_char": 1084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第七条 证券公司经营管理主要负责人、其他高级管理人员、下属各单位负责人及其他工作人员应当充分了解和掌握与其经营管理和执业行为有关的法律、法规和准则,并在经营决策、运营管理和执业行为过程中充分识别相关的合规风险,并主动防范、应对和报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1086,
+      "end_char": 1203,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第八条 证券公司经营管理主要负责人对公司合规运营承担责任,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1205,
+      "end_char": 1245,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(一)组织制定公司规章制度,并监督其实施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1247,
+      "end_char": 1268,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(二)主动在日常经营过程中倡导合规经营理念,积极培育公司合规文化,认真履行合规管理职责,主动落实合规管理要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1270,
+      "end_char": 1325,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(三)充分重视公司合规管理的有效性,发现存在问题时要求下属各单位及其工作人员及时改进;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1327,
+      "end_char": 1370,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(四)督导、提醒公司其他高级管理人员在其分管领域中认真履行合规管理职责,落实合规管理要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1372,
+      "end_char": 1417,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(五)支持合规总监及合规部门工作,督促下属各单位为合规管理人员履职提供有效保障;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1459,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(六)支持合规总监及合规部门按照监管要求和公司制度规定,向董事会、监管部门报告合规风险事项;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1461,
+      "end_char": 1507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(七)在公司经营决策过程中,充分听取合规总监及合规部门的合规意见;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1509,
+      "end_char": 1542,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(八)督促公司下属各单位就合规风险事项开展自查或配合公司调查,严格按照公司规定进行合规问责,并落实整改措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1544,
+      "end_char": 1598,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第九条 证券公司其他高级管理人员对其分管领域的合规运营承担责任,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1600,
+      "end_char": 1643,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(一)在其分管领域组织贯彻执行公司各项规章制度,组织起草、制定其分管领域的规章制度,并监督其实施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1645,
+      "end_char": 1694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(二)在其分管领域主动倡导合规经营理念,积极培育公司合规文化;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1727,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(三)充分重视其分管领域合规管理的有效性,发现存在问题时要求分管领域下属各单位及其工作人员及时改进;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1729,
+      "end_char": 1779,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "signoff",
+      "text": "(四)提醒、督导分管领域下属各单位负责人认真履行合规管理职责,落实合规管理要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1781,
+      "end_char": 1821,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(五)支持分管领域下属各单位合规管理人员的工作,督促分管领域下属各单位为合规管理人员履职提供有效保障;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1823,
+      "end_char": 1874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(六)支持分管领域下属各单位及其合规管理人员按照公司制度规定,向公司及合规部门报告合规风险事项;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1876,
+      "end_char": 1924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(七)在其职责范围内的经营决策过程中,听取公司合规部门及分管领域下属各单位合规管理人员的合规意见,并给予充分关注;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1926,
+      "end_char": 1983,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(八)督促分管领域下属各单位就合规风险事项开展自查或配合公司进行调查,严格按照公司规定进行合规问责,并落实整改措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1985,
+      "end_char": 2043,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十条 证券公司下属各单位负责人负责落实本单位的合规管理要求,对本单位合规运营承担责任,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2045,
+      "end_char": 2100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(一)在本单位组织贯彻执行公司各项规章制度,组织起草、制定与本单位职责相关的规章制度,并监督其实施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2102,
+      "end_char": 2152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(二)建立并完善本单位的合规管理制度与机制,将各项经营活动的合规性要求嵌入业务管理制度与操作流程中;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2154,
+      "end_char": 2204,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(三)在本单位主动倡导合规经营理念,积极培育公司合规文化;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(四)积极配合合规总监及合规部门的工作,认真听取并落实合规总监及合规部门提出的合规管理意见;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2237,
+      "end_char": 2283,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(五)为本单位配备合格合规管理人员,避免分配与其履行合规职责相冲突的工作;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2285,
+      "end_char": 2322,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(六)支持本单位合规管理人员的工作,为本单位合规管理人员提供履职保障,包括但不限于参与本单位重要会议、查阅本单位各类业务与管理文档、充分尊重其独立发表合规专业意见的权利等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(七)在业务开展前应当充分论证业务的合法合规性,充分听取本单位合规管理人员的合规审查意见,有效评估业务的合规风险,主动避免开展存在合规风险的业务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2412,
+      "end_char": 2485,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(八)发现与本单位业务相关的合规风险事项时,及时按公司制度规定进行报告,提出整改措施,并督促整改落实。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2487,
+      "end_char": 2538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十一条 证券公司全体工作人员应当对自身经营活动范围内所有业务事项和执业行为的合规性负责,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2540,
+      "end_char": 2596,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)主动了解、掌握和遵守相关法律、法规和准则;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2598,
+      "end_char": 2622,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)积极参加公司安排的合规培训和合规宣导活动;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2624,
+      "end_char": 2648,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)根据公司要求,签署并信守相关合规承诺;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2650,
+      "end_char": 2672,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)在执业过程中充分关注执业行为的合法合规性;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2674,
+      "end_char": 2698,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(五)在业务开展过程中主动识别和防范业务合规风险;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2700,
+      "end_char": 2725,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(六)发现违法违规行为或者合规风险隐患时,应当主动按照公司规定及时报告;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2727,
+      "end_char": 2763,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(七)出现合规风险事项时,积极配合公司调查,并接受公司问责,落实整改要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2765,
+      "end_char": 2802,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十二条 合规总监不得兼任业务部门负责人及具有业务职能的分支机构负责人,不得分管业务部门及具有业务职能的分支机构,不得在下属子公司兼任具有业务经营性质的职务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2804,
+      "end_char": 2883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司不得向合规总监、合规部门及其他合规管理人员分配或施加业务考核指标与任务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2885,
+      "end_char": 2925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第十三条 证券公司应当建立新产品、新业务评估与决策机制,合规总监和合规部门应当对新产品、新业务发表合规审查意见,证券公司在进行相关决策时,应当充分考虑和采纳合规审查意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2927,
+      "end_char": 3012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "新产品、新业务是指公司首次开展,需就业务合规性进行论证的产品、业务以及展业方式等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3014,
+      "end_char": 3055,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第十四条 证券公司应当按照监管机构及自律组织的要求、公司相关制度规定及管理需要,对下属各单位及其工作人员的经营管理和执业行为的合规性进行检查。合规检查包括下属各单位组织实施的合规检查,也包括合规部门单独或联合其他部门组织实施的合规检查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3057,
+      "end_char": 3175,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第十五条 证券公司开展合规检查,应当遵循客观、谨慎、高效原则,并可与公司的风险管理、内部审计活动共同开展。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3177,
+      "end_char": 3230,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "合规检查分为例行检查与专项检查。发生下列情形时,应当进行专项检查:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3232,
+      "end_char": 3265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(一)公司发生违法违规行为或存在合规风险隐患的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3267,
+      "end_char": 3291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(二)公司董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、高级管理人员、合规总监或合规部门认为必要的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3293,
+      "end_char": 3350,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(三)公司下属各单位及其工作人员配合监管和稽查办案不力的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3352,
+      "end_char": 3381,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(四)监管部门或自律组织要求的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3383,
+      "end_char": 3399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(五)其他有必要进行专项检查的情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3401,
+      "end_char": 3419,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "证券公司相关违法违规行为频发的,应当增加合规检查频次。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3421,
+      "end_char": 3448,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第十六条 证券公司下属各单位及其工作人员在经营管理和执业过程中,遇到法律、法规和准则适用与理解的问题时,可以向合规总监和合规部门进行咨询,合规总监和合规部门应当基于专业分析和判断为其提供合规咨询意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3450,
+      "end_char": 3550,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "重要事项的合规咨询应当以书面形式提出,合规总监、合规部门应当作出书面回复。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3552,
+      "end_char": 3589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "对于法律、法规和准则规定不明确、规定有冲突或规定缺失的咨询事项,合规部门应当进行合规分析与论证,出具尽可能准确、客观和完整的合规咨询意见,并就所依据的法律法规及其适用的理解予以说明。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3591,
+      "end_char": 3682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "合规咨询不能取代合规审查和合规检查。合规咨询意见作为提出咨询的下属各单位及其工作人员进行决策或业务管理活动时的参考意见,不能取代合规审查意见或合规检查结论。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3684,
+      "end_char": 3762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第十七条 证券公司应当开展多种形式的合规宣导与培训,制定行为守则、合规手册等文件,帮助工作人员及时知晓、正确理解和严格遵循法律、法规和准则要求,倡导和推进合规文化建设。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3764,
+      "end_char": 3848,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "合规部门负责对证券公司各部门合规宣导与培训工作的落实情况进行督导。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3850,
+      "end_char": 3883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当运用信息技术手段对反洗钱、信息隔离墙管理、工作人员职务通讯行为、工作人员的证券投资行为等进行监测,发现违法违规行为和合规风险隐患,应当及时处理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3885,
+      "end_char": 3968,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "合规监测可由合规部门或其他部门单独或联合组织实施,也可以在公司总部指导下由下属各单位组织实施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3970,
+      "end_char": 4017,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第十九条 证券公司在对高级管理人员和下属各单位进行考核时,应当要求合规总监出具书面合规性专项考核意见,合规性专项考核占绩效考核结果的比例不得低于15%;对于重大合规事项,可制定一票否决制度。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4019,
+      "end_char": 4114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第二十条 证券公司应当建立合规问责机制,对在经营管理及执业过程中违反法律、法规和准则的责任人或责任单位进行合规问责,并与绩效考核和薪酬发放相挂钩。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4116,
+      "end_char": 4189,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "因合规问责所导致的绩效考核扣分不受上述合规性专项考核比例的限制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4191,
+      "end_char": 4223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "合规总监对合规问责有建议权、知情权和检查权。公司下属各单位应当向合规总监反馈合规问责的最终执行情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4225,
+      "end_char": 4275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第二十一条 证券公司根据《办法》第三十条编制年度合规报告,应当重点强调以下内容:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4277,
+      "end_char": 4317,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "(一)董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、经营管理层及下属各单位履行合规管理职责情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4319,
+      "end_char": 4374,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(二)合规总监及合规部门履行合规管理职责情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4376,
+      "end_char": 4399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(三)公司违法违规行为、合规风险的发现、监管部门和自律组织处罚及整改情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4401,
+      "end_char": 4438,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "signoff",
+      "text": "(四)合规人员配置情况、合规性专项考核情况、合规负责人及合规管理人员薪酬保障落实情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4440,
+      "end_char": 4483,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(五)监管部门、自律组织和证券公司认为必要的其他内容。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4485,
+      "end_char": 4512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当将另类投资、私募基金管理等子公司的合规管理统一纳入公司合规管理有效性评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4514,
+      "end_char": 4563,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "证券公司开展合规管理有效性评估,应当以合规风险为导向,重点关注可能存在合规管理缺失、遗漏或薄弱的环节,全面、客观反映合规管理存在的问题,充分揭示合规风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4565,
+      "end_char": 4642,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "对于通过合规管理有效性评估发现的问题,证券公司应当加强对问题的整改落实与跟踪,将整改情况纳入公司的合规考核与问责范围。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4644,
+      "end_char": 4703,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第二十三条 证券公司可以委托符合条件的会计师事务所、律师事务所或管理咨询公司等外部专业机构进行合规管理有效性评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4705,
+      "end_char": 4762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "chapter",
+      "text": "第三章 合规管理保障机制",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4764,
+      "end_char": 4776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "article",
+      "text": "第二十四条 证券公司免除合规总监职务的,应当由董事会作出决定,并通知合规总监本人。合规总监认为免除其职务理由不充分的,有权向董事会提出申诉。相关通知、决定和申诉意见应当形成书面文件,存档备查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4778,
+      "end_char": 4874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "合规总监的申诉被证券公司董事会驳回的,合规总监除可以向中国证监会及相关派出机构提出申诉外,也可以提请协会进行调解。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4876,
+      "end_char": 4933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "article",
+      "text": "第二十五条 合规总监不能履行职责或缺位时,证券公司代行职责人员在代行职责期间不得直接分管与合规总监管理职责相冲突的业务部门。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4935,
+      "end_char": 4997,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当明确合规部门与法律部门、风险管理部门、内部审计部门等内部控制部门以及其他承担合规管理职责的前中后台部门的职责分工。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4999,
+      "end_char": 5068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "合规总监及合规部门在履行合规审查职责过程中,涉及到需以财务、信息技术等专业事项评估结论为合规审查的前提条件的,相关部门应先行出具准确、客观和完整的评估意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5070,
+      "end_char": 5148,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "证券公司合规部门不得承担业务、财务、信息技术等与合规管理职责相冲突的职责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5150,
+      "end_char": 5187,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第二十七条 证券公司总部合规部门中具备3年以上证券、金融、法律、会计、信息技术等有关领域工作经历的合规管理人员数量占公司总部工作人员比例应当不低于1.5%,且不得少于5人。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5189,
+      "end_char": 5275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "上述合规管理人员不包括从事法务、稽核、内部审计及风险控制岗位的工作人员。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5277,
+      "end_char": 5313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "证券公司应当确保合规部门人员编制的合理预算,并允许合规总监和合规部门根据公司业务和风险情况,定期或及时调整相关预算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5315,
+      "end_char": 5373,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第二十八条 证券公司业务部门、分支机构可以根据需要设置合规团队负责人或合规专员等专职合规管理人员,合规团队负责人或合规专员应当由其所在单位一定职级以上人员担任,并具有履职胜任能力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5375,
+      "end_char": 5465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "证券公司从事自营、投资银行、债券等业务部门,工作人员人数在15人及以上的分支机构以及证券公司异地总部等,应当配备专职合规管理人员。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5467,
+      "end_char": 5532,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第二十九条 证券公司合规部门负责人应当由合规总监提名。证券公司任免各业务部门、分支机构合规团队负责人、合规专员或选派另类投资、私募基金管理等子公司合规负责人,应当充分听取合规总监意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5534,
+      "end_char": 5626,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十条 证券公司应当将各层级子公司纳入统一合规管理体系。母子公司要注重实施统一的合规管理标准,保证合规文化的一致性,同时关注不同司法管辖区和行业的特殊合规管理要求。具体要求包括但不限于:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5628,
+      "end_char": 5722,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(一)子公司应当每年向证券公司合规总监及合规部门提交合规报告,合规报告的具体内容包括但不限于合规管理的基本情况、合规管理制度制定与执行情况、各项合规管理职责的履职情况、各项业务合规运行情况、合规风险事项的发现及整改情况、下一年度合规工作计划等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5724,
+      "end_char": 5846,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(二)子公司应当及时向证券公司合规总监及合规部门报告重大合规风险事项,包括但不限于行政监管措施、行政处罚、重大合规隐患、子公司及高级管理人员违法违规事件等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5848,
+      "end_char": 5926,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应当对子公司的基本合规管理制度进行审查,定期或不定期对子公司合规管理工作及经营管理行为的合规性进行监督和检查;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5928,
+      "end_char": 5990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "signoff",
+      "text": "(四)子公司发生重大合规风险事项的,证券公司应当按照有关制度对其主要负责人进行合规问责,并应当要求该子公司对相关责任人进行合规问责;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5992,
+      "end_char": 6058,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(五)证券公司应当每年对子公司合规管理情况进行考核。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6060,
+      "end_char": 6086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "证券公司应当督促境外子公司满足其所在地的监管要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6088,
+      "end_char": 6113,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "article",
+      "text": "第三十一条 证券公司应当明确合规总监有权出席或列席会议的范围,并于相关会议召开前及时通知合规总监参加。合规总监有权出席或列席以下会议:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6115,
+      "end_char": 6182,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(一)董事会及有关专门委员会(含董事会中设置的审计委员会)会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6184,
+      "end_char": 6216,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "(二)监事会会议(如有);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6218,
+      "end_char": 6231,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "(三)总经理办公会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6233,
+      "end_char": 6244,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "(四)涉及公司“重大事项决策、重要干部任免、重要项目安排、大额资金使用”事项的会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6246,
+      "end_char": 6288,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "(五)经营管理层有关专门委员会会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6290,
+      "end_char": 6308,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(六)各类经营管理专题会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6310,
+      "end_char": 6324,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "(七)有助于合规总监充分履职的其他会议。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6326,
+      "end_char": 6346,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第三十二条 合规总监及合规管理人员基于履职需要,有权要求下属各单位及其工作人员作出说明、提供资料、接受检查、向为公司提供审计等中介服务的机构了解情况等,下属各单位及其工作人员应当予以配合,不得以任何方式或借口加以干涉或阻扰,并应当确保所提供信息真实、准确、完整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6348,
+      "end_char": 6479,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "证券公司调整组织机构及高级管理人员职责分工时,应当就相关事项是否存在利益冲突听取合规总监意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6481,
+      "end_char": 6528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第三十三条 《办法》第二十八条所称的年度薪酬收入包括基本工资、绩效工资、奖金等全口径收入。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6530,
+      "end_char": 6575,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第三十四条 证券公司应当为合规总监及合规部门履职提供充足的资金支持。合规总监和合规部门可以根据需要聘请会计师事务所、律师事务所、专业咨询机构、信息系统服务商等协助开展合规检查、调查、咨询和系统建设等方面的工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6577,
+      "end_char": 6682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "chapter",
+      "text": "第四章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6684,
+      "end_char": 6692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "article",
+      "text": "第三十五条 协会对证券公司合规管理工作情况进行执业检查,证券公司应当予以配合。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6694,
+      "end_char": 6733,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第三十六条 对于合规制度不健全、合规管理执行不到位的证券公司及未按照本指引履行合规管理职责的工作人员,协会视情节轻重采取相应自律惩戒措施,并记入诚信信息管理系统;对存在违反法律、法规行为的证券公司及相关工作人员,移交中国证监会或其他有权机关依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6735,
+      "end_char": 6860,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "article",
+      "text": "第三十七条 证券公司频繁出现违规事件或重大恶性事件的,对证券公司及相关责任人员从重从严实施自律惩戒措施;对于未能勤勉尽责地履行相应合规管理职责或与业务部门合谋、指导业务部门规避监管的工作人员,从重从严实施自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6862,
+      "end_char": 6971,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "article",
+      "text": "第三十八条 协会在实施自律惩戒时,将区分公司责任与个人责任。证券公司建立有效的合规管理制度、主动开展合规管理、严格落实内部责任追究机制的,协会依照本指引对证券公司及严格按照合规制度履职的工作人员从轻、减轻或免于实施自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6973,
+      "end_char": 7087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7089,
+      "end_char": 7095,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "article",
+      "text": "第三十九条 法律、法规或准则对证券公司及其子公司合规负责人及合规管理工作另有特别规定的,从其规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7097,
+      "end_char": 7146,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "article",
+      "text": "第四十条 本指引所用名词术语和概念与《办法》相同。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7148,
+      "end_char": 7173,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "paragraph",
+      "text": "本指引所称工作人员职务通讯,是指对可能知悉敏感信息的工作人员所使用的公司信息系统或配发设备形成的电子邮件、即时通讯信息、通话信息和其他通讯信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7175,
+      "end_char": 7247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "article",
+      "text": "第四十一条 本指引由中国证券业协会负责解释,自发布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7249,
+      "end_char": 7280,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "(中证协发〔2025〕278号)\n\n第一章 总则\n\n第一条 为指导证券公司有效落实《证券公司和证券投资基金管理公司合规管理办法》(以下简称办法),提升证券公司合规管理水平,制定本指引。\n\n第二条 证券公司应当树立并坚守以下合规理念:\n\n(一)全员合规。合规是证券公司全体工作人员的基本行为准则。证券公司全体工作人员应当严格遵守法律、法规和准则,主动防范、发现并化解合规风险。\n\n(二)合规从管理层做起。证券公司应当建立完善的公司治理结构,确保董事会有效行使重大决策和监督功能,确保监事会有效行使监督职能;证券公司董事会、监事会、高级管理人员应当重视公司经营的合规性,承担有效管理公司合规风险的责任,积极践行并推广合规文化,促进公司合规经营。\n\n依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。\n\n(三)合规创造价值。证券公司应当通过有效的合规管理防范并化解合规风险,提升管理和业务能力,为机构自身、行业和社会创造价值。\n\n(四)合规是公司的生存基础。证券公司应当提升合规管理重视程度,坚持合规经营,为公司正常经营及长期可持续发展奠定基础。\n\n第三条 证券公司应当制定合规管理的基本制度,经董事会审议通过后实施。合规管理的基本制度应当包括合规管理的目标、基本原则、机构设置及其职责、履职保障、合规考核以及违规事项的报告、处理和责任追究等内容。\n\n证券公司应当结合本公司经营实际情况,制定指导经营活动依法合规开展的具体管理制度或操作流程,切实加强对各项经营活动的合规管理。\n\n证券公司应当制定工作人员执业行为准则,引导工作人员树立良好的合规执业意识和道德行为规范,确保工作人员执业行为依法合规。\n\n证券公司应当采取有效措施保障合规管理人员的专业化、职业化水平。\n\n第四条 证券公司及其工作人员应当遵守行业公认普遍遵守的职业道德和行为准则,包括但不限于诚实守信、勤勉尽责、专业敬业、公平竞争、客户利益至上、有效防范并妥善处理利益冲突、自觉维护行业良好声誉和秩序、主动承担社会责任等。\n\n第五条 证券公司应当有效防范并妥善处理利益冲突,在涉及到公司与客户之间的利益冲突时,应当坚持客户利益至上的原则;在涉及到客户与客户之间的利益冲突时,应当坚持公平对待客户的原则。\n\n第六条 中国证券业协会(以下简称协会)对证券公司合规管理工作实施自律管理。\n\n第二章 合规管理职责\n\n第七条 证券公司经营管理主要负责人、其他高级管理人员、下属各单位负责人及其他工作人员应当充分了解和掌握与其经营管理和执业行为有关的法律、法规和准则,并在经营决策、运营管理和执业行为过程中充分识别相关的合规风险,并主动防范、应对和报告。\n\n第八条 证券公司经营管理主要负责人对公司合规运营承担责任,履行下列合规管理职责:\n\n(一)组织制定公司规章制度,并监督其实施;\n\n(二)主动在日常经营过程中倡导合规经营理念,积极培育公司合规文化,认真履行合规管理职责,主动落实合规管理要求;\n\n(三)充分重视公司合规管理的有效性,发现存在问题时要求下属各单位及其工作人员及时改进;\n\n(四)督导、提醒公司其他高级管理人员在其分管领域中认真履行合规管理职责,落实合规管理要求;\n\n(五)支持合规总监及合规部门工作,督促下属各单位为合规管理人员履职提供有效保障;\n\n(六)支持合规总监及合规部门按照监管要求和公司制度规定,向董事会、监管部门报告合规风险事项;\n\n(七)在公司经营决策过程中,充分听取合规总监及合规部门的合规意见;\n\n(八)督促公司下属各单位就合规风险事项开展自查或配合公司调查,严格按照公司规定进行合规问责,并落实整改措施。\n\n第九条 证券公司其他高级管理人员对其分管领域的合规运营承担责任,履行下列合规管理职责:\n\n(一)在其分管领域组织贯彻执行公司各项规章制度,组织起草、制定其分管领域的规章制度,并监督其实施;\n\n(二)在其分管领域主动倡导合规经营理念,积极培育公司合规文化;\n\n(三)充分重视其分管领域合规管理的有效性,发现存在问题时要求分管领域下属各单位及其工作人员及时改进;\n\n(四)提醒、督导分管领域下属各单位负责人认真履行合规管理职责,落实合规管理要求;\n\n(五)支持分管领域下属各单位合规管理人员的工作,督促分管领域下属各单位为合规管理人员履职提供有效保障;\n\n(六)支持分管领域下属各单位及其合规管理人员按照公司制度规定,向公司及合规部门报告合规风险事项;\n\n(七)在其职责范围内的经营决策过程中,听取公司合规部门及分管领域下属各单位合规管理人员的合规意见,并给予充分关注;\n\n(八)督促分管领域下属各单位就合规风险事项开展自查或配合公司进行调查,严格按照公司规定进行合规问责,并落实整改措施。\n\n第十条 证券公司下属各单位负责人负责落实本单位的合规管理要求,对本单位合规运营承担责任,履行下列合规管理职责:\n\n(一)在本单位组织贯彻执行公司各项规章制度,组织起草、制定与本单位职责相关的规章制度,并监督其实施;\n\n(二)建立并完善本单位的合规管理制度与机制,将各项经营活动的合规性要求嵌入业务管理制度与操作流程中;\n\n(三)在本单位主动倡导合规经营理念,积极培育公司合规文化;\n\n(四)积极配合合规总监及合规部门的工作,认真听取并落实合规总监及合规部门提出的合规管理意见;\n\n(五)为本单位配备合格合规管理人员,避免分配与其履行合规职责相冲突的工作;\n\n(六)支持本单位合规管理人员的工作,为本单位合规管理人员提供履职保障,包括但不限于参与本单位重要会议、查阅本单位各类业务与管理文档、充分尊重其独立发表合规专业意见的权利等;\n\n(七)在业务开展前应当充分论证业务的合法合规性,充分听取本单位合规管理人员的合规审查意见,有效评估业务的合规风险,主动避免开展存在合规风险的业务;\n\n(八)发现与本单位业务相关的合规风险事项时,及时按公司制度规定进行报告,提出整改措施,并督促整改落实。\n\n第十一条 证券公司全体工作人员应当对自身经营活动范围内所有业务事项和执业行为的合规性负责,履行下列合规管理职责:\n\n(一)主动了解、掌握和遵守相关法律、法规和准则;\n\n(二)积极参加公司安排的合规培训和合规宣导活动;\n\n(三)根据公司要求,签署并信守相关合规承诺;\n\n(四)在执业过程中充分关注执业行为的合法合规性;\n\n(五)在业务开展过程中主动识别和防范业务合规风险;\n\n(六)发现违法违规行为或者合规风险隐患时,应当主动按照公司规定及时报告;\n\n(七)出现合规风险事项时,积极配合公司调查,并接受公司问责,落实整改要求。\n\n第十二条 合规总监不得兼任业务部门负责人及具有业务职能的分支机构负责人,不得分管业务部门及具有业务职能的分支机构,不得在下属子公司兼任具有业务经营性质的职务。\n\n证券公司不得向合规总监、合规部门及其他合规管理人员分配或施加业务考核指标与任务。\n\n第十三条 证券公司应当建立新产品、新业务评估与决策机制,合规总监和合规部门应当对新产品、新业务发表合规审查意见,证券公司在进行相关决策时,应当充分考虑和采纳合规审查意见。\n\n新产品、新业务是指公司首次开展,需就业务合规性进行论证的产品、业务以及展业方式等。\n\n第十四条 证券公司应当按照监管机构及自律组织的要求、公司相关制度规定及管理需要,对下属各单位及其工作人员的经营管理和执业行为的合规性进行检查。合规检查包括下属各单位组织实施的合规检查,也包括合规部门单独或联合其他部门组织实施的合规检查。\n\n第十五条 证券公司开展合规检查,应当遵循客观、谨慎、高效原则,并可与公司的风险管理、内部审计活动共同开展。\n\n合规检查分为例行检查与专项检查。发生下列情形时,应当进行专项检查:\n\n(一)公司发生违法违规行为或存在合规风险隐患的;\n\n(二)公司董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、高级管理人员、合规总监或合规部门认为必要的;\n\n(三)公司下属各单位及其工作人员配合监管和稽查办案不力的;\n\n(四)监管部门或自律组织要求的;\n\n(五)其他有必要进行专项检查的情形。\n\n证券公司相关违法违规行为频发的,应当增加合规检查频次。\n\n第十六条 证券公司下属各单位及其工作人员在经营管理和执业过程中,遇到法律、法规和准则适用与理解的问题时,可以向合规总监和合规部门进行咨询,合规总监和合规部门应当基于专业分析和判断为其提供合规咨询意见。\n\n重要事项的合规咨询应当以书面形式提出,合规总监、合规部门应当作出书面回复。\n\n对于法律、法规和准则规定不明确、规定有冲突或规定缺失的咨询事项,合规部门应当进行合规分析与论证,出具尽可能准确、客观和完整的合规咨询意见,并就所依据的法律法规及其适用的理解予以说明。\n\n合规咨询不能取代合规审查和合规检查。合规咨询意见作为提出咨询的下属各单位及其工作人员进行决策或业务管理活动时的参考意见,不能取代合规审查意见或合规检查结论。\n\n第十七条 证券公司应当开展多种形式的合规宣导与培训,制定行为守则、合规手册等文件,帮助工作人员及时知晓、正确理解和严格遵循法律、法规和准则要求,倡导和推进合规文化建设。\n\n合规部门负责对证券公司各部门合规宣导与培训工作的落实情况进行督导。\n\n第十八条 证券公司应当运用信息技术手段对反洗钱、信息隔离墙管理、工作人员职务通讯行为、工作人员的证券投资行为等进行监测,发现违法违规行为和合规风险隐患,应当及时处理。\n\n合规监测可由合规部门或其他部门单独或联合组织实施,也可以在公司总部指导下由下属各单位组织实施。\n\n第十九条 证券公司在对高级管理人员和下属各单位进行考核时,应当要求合规总监出具书面合规性专项考核意见,合规性专项考核占绩效考核结果的比例不得低于15%;对于重大合规事项,可制定一票否决制度。\n\n第二十条 证券公司应当建立合规问责机制,对在经营管理及执业过程中违反法律、法规和准则的责任人或责任单位进行合规问责,并与绩效考核和薪酬发放相挂钩。\n\n因合规问责所导致的绩效考核扣分不受上述合规性专项考核比例的限制。\n\n合规总监对合规问责有建议权、知情权和检查权。公司下属各单位应当向合规总监反馈合规问责的最终执行情况。\n\n第二十一条 证券公司根据《办法》第三十条编制年度合规报告,应当重点强调以下内容:\n\n(一)董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、经营管理层及下属各单位履行合规管理职责情况;\n\n(二)合规总监及合规部门履行合规管理职责情况;\n\n(三)公司违法违规行为、合规风险的发现、监管部门和自律组织处罚及整改情况;\n\n(四)合规人员配置情况、合规性专项考核情况、合规负责人及合规管理人员薪酬保障落实情况;\n\n(五)监管部门、自律组织和证券公司认为必要的其他内容。\n\n第二十二条 证券公司应当将另类投资、私募基金管理等子公司的合规管理统一纳入公司合规管理有效性评估。\n\n证券公司开展合规管理有效性评估,应当以合规风险为导向,重点关注可能存在合规管理缺失、遗漏或薄弱的环节,全面、客观反映合规管理存在的问题,充分揭示合规风险。\n\n对于通过合规管理有效性评估发现的问题,证券公司应当加强对问题的整改落实与跟踪,将整改情况纳入公司的合规考核与问责范围。\n\n第二十三条 证券公司可以委托符合条件的会计师事务所、律师事务所或管理咨询公司等外部专业机构进行合规管理有效性评估。\n\n第三章 合规管理保障机制\n\n第二十四条 证券公司免除合规总监职务的,应当由董事会作出决定,并通知合规总监本人。合规总监认为免除其职务理由不充分的,有权向董事会提出申诉。相关通知、决定和申诉意见应当形成书面文件,存档备查。\n\n合规总监的申诉被证券公司董事会驳回的,合规总监除可以向中国证监会及相关派出机构提出申诉外,也可以提请协会进行调解。\n\n第二十五条 合规总监不能履行职责或缺位时,证券公司代行职责人员在代行职责期间不得直接分管与合规总监管理职责相冲突的业务部门。\n\n第二十六条 证券公司应当明确合规部门与法律部门、风险管理部门、内部审计部门等内部控制部门以及其他承担合规管理职责的前中后台部门的职责分工。\n\n合规总监及合规部门在履行合规审查职责过程中,涉及到需以财务、信息技术等专业事项评估结论为合规审查的前提条件的,相关部门应先行出具准确、客观和完整的评估意见。\n\n证券公司合规部门不得承担业务、财务、信息技术等与合规管理职责相冲突的职责。\n\n第二十七条 证券公司总部合规部门中具备3年以上证券、金融、法律、会计、信息技术等有关领域工作经历的合规管理人员数量占公司总部工作人员比例应当不低于1.5%,且不得少于5人。\n\n上述合规管理人员不包括从事法务、稽核、内部审计及风险控制岗位的工作人员。\n\n证券公司应当确保合规部门人员编制的合理预算,并允许合规总监和合规部门根据公司业务和风险情况,定期或及时调整相关预算。\n\n第二十八条 证券公司业务部门、分支机构可以根据需要设置合规团队负责人或合规专员等专职合规管理人员,合规团队负责人或合规专员应当由其所在单位一定职级以上人员担任,并具有履职胜任能力。\n\n证券公司从事自营、投资银行、债券等业务部门,工作人员人数在15人及以上的分支机构以及证券公司异地总部等,应当配备专职合规管理人员。\n\n第二十九条 证券公司合规部门负责人应当由合规总监提名。证券公司任免各业务部门、分支机构合规团队负责人、合规专员或选派另类投资、私募基金管理等子公司合规负责人,应当充分听取合规总监意见。\n\n第三十条 证券公司应当将各层级子公司纳入统一合规管理体系。母子公司要注重实施统一的合规管理标准,保证合规文化的一致性,同时关注不同司法管辖区和行业的特殊合规管理要求。具体要求包括但不限于:\n\n(一)子公司应当每年向证券公司合规总监及合规部门提交合规报告,合规报告的具体内容包括但不限于合规管理的基本情况、合规管理制度制定与执行情况、各项合规管理职责的履职情况、各项业务合规运行情况、合规风险事项的发现及整改情况、下一年度合规工作计划等;\n\n(二)子公司应当及时向证券公司合规总监及合规部门报告重大合规风险事项,包括但不限于行政监管措施、行政处罚、重大合规隐患、子公司及高级管理人员违法违规事件等;\n\n(三)证券公司应当对子公司的基本合规管理制度进行审查,定期或不定期对子公司合规管理工作及经营管理行为的合规性进行监督和检查;\n\n(四)子公司发生重大合规风险事项的,证券公司应当按照有关制度对其主要负责人进行合规问责,并应当要求该子公司对相关责任人进行合规问责;\n\n(五)证券公司应当每年对子公司合规管理情况进行考核。\n\n证券公司应当督促境外子公司满足其所在地的监管要求。\n\n第三十一条 证券公司应当明确合规总监有权出席或列席会议的范围,并于相关会议召开前及时通知合规总监参加。合规总监有权出席或列席以下会议:\n\n(一)董事会及有关专门委员会(含董事会中设置的审计委员会)会议;\n\n(二)监事会会议(如有);\n\n(三)总经理办公会议;\n\n(四)涉及公司“重大事项决策、重要干部任免、重要项目安排、大额资金使用”事项的会议;\n\n(五)经营管理层有关专门委员会会议;\n\n(六)各类经营管理专题会议;\n\n(七)有助于合规总监充分履职的其他会议。\n\n第三十二条 合规总监及合规管理人员基于履职需要,有权要求下属各单位及其工作人员作出说明、提供资料、接受检查、向为公司提供审计等中介服务的机构了解情况等,下属各单位及其工作人员应当予以配合,不得以任何方式或借口加以干涉或阻扰,并应当确保所提供信息真实、准确、完整。\n\n证券公司调整组织机构及高级管理人员职责分工时,应当就相关事项是否存在利益冲突听取合规总监意见。\n\n第三十三条 《办法》第二十八条所称的年度薪酬收入包括基本工资、绩效工资、奖金等全口径收入。\n\n第三十四条 证券公司应当为合规总监及合规部门履职提供充足的资金支持。合规总监和合规部门可以根据需要聘请会计师事务所、律师事务所、专业咨询机构、信息系统服务商等协助开展合规检查、调查、咨询和系统建设等方面的工作。\n\n第四章 自律管理\n\n第三十五条 协会对证券公司合规管理工作情况进行执业检查,证券公司应当予以配合。\n\n第三十六条 对于合规制度不健全、合规管理执行不到位的证券公司及未按照本指引履行合规管理职责的工作人员,协会视情节轻重采取相应自律惩戒措施,并记入诚信信息管理系统;对存在违反法律、法规行为的证券公司及相关工作人员,移交中国证监会或其他有权机关依法查处。\n\n第三十七条 证券公司频繁出现违规事件或重大恶性事件的,对证券公司及相关责任人员从重从严实施自律惩戒措施;对于未能勤勉尽责地履行相应合规管理职责或与业务部门合谋、指导业务部门规避监管的工作人员,从重从严实施自律惩戒措施。\n\n第三十八条 协会在实施自律惩戒时,将区分公司责任与个人责任。证券公司建立有效的合规管理制度、主动开展合规管理、严格落实内部责任追究机制的,协会依照本指引对证券公司及严格按照合规制度履职的工作人员从轻、减轻或免于实施自律惩戒措施。\n\n第五章 附则\n\n第三十九条 法律、法规或准则对证券公司及其子公司合规负责人及合规管理工作另有特别规定的,从其规定。\n\n第四十条 本指引所用名词术语和概念与《办法》相同。\n\n本指引所称工作人员职务通讯,是指对可能知悉敏感信息的工作人员所使用的公司信息系统或配发设备形成的电子邮件、即时通讯信息、通话信息和其他通讯信息。\n\n第四十一条 本指引由中国证券业协会负责解释,自发布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "(中证协发〔2025〕278号)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 24,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第一条 为指导证券公司有效落实《证券公司和证券投资基金管理公司合规管理办法》(以下简称办法),提升证券公司合规管理水平,制定本指引。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 92,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条 证券公司应当树立并坚守以下合规理念:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 94,
+      "end_char": 116,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(一)全员合规。合规是证券公司全体工作人员的基本行为准则。证券公司全体工作人员应当严格遵守法律、法规和准则,主动防范、发现并化解合规风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 118,
+      "end_char": 187,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(二)合规从管理层做起。证券公司应当建立完善的公司治理结构,确保董事会有效行使重大决策和监督功能,确保监事会有效行使监督职能;证券公司董事会、监事会、高级管理人员应当重视公司经营的合规性,承担有效管理公司合规风险的责任,积极践行并推广合规文化,促进公司合规经营。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 189,
+      "end_char": 320,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 322,
+      "end_char": 451,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(三)合规创造价值。证券公司应当通过有效的合规管理防范并化解合规风险,提升管理和业务能力,为机构自身、行业和社会创造价值。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 453,
+      "end_char": 514,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(四)合规是公司的生存基础。证券公司应当提升合规管理重视程度,坚持合规经营,为公司正常经营及长期可持续发展奠定基础。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 516,
+      "end_char": 574,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第三条 证券公司应当制定合规管理的基本制度,经董事会审议通过后实施。合规管理的基本制度应当包括合规管理的目标、基本原则、机构设置及其职责、履职保障、合规考核以及违规事项的报告、处理和责任追究等内容。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 576,
+      "end_char": 675,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "证券公司应当结合本公司经营实际情况,制定指导经营活动依法合规开展的具体管理制度或操作流程,切实加强对各项经营活动的合规管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 677,
+      "end_char": 739,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "证券公司应当制定工作人员执业行为准则,引导工作人员树立良好的合规执业意识和道德行为规范,确保工作人员执业行为依法合规。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 741,
+      "end_char": 800,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取有效措施保障合规管理人员的专业化、职业化水平。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 802,
+      "end_char": 833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第四条 证券公司及其工作人员应当遵守行业公认普遍遵守的职业道德和行为准则,包括但不限于诚实守信、勤勉尽责、专业敬业、公平竞争、客户利益至上、有效防范并妥善处理利益冲突、自觉维护行业良好声誉和秩序、主动承担社会责任等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 835,
+      "end_char": 943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第五条 证券公司应当有效防范并妥善处理利益冲突,在涉及到公司与客户之间的利益冲突时,应当坚持客户利益至上的原则;在涉及到客户与客户之间的利益冲突时,应当坚持公平对待客户的原则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 945,
+      "end_char": 1033,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第六条 中国证券业协会(以下简称协会)对证券公司合规管理工作实施自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1072,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "chapter",
+      "text": "第二章 合规管理职责",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1074,
+      "end_char": 1084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第七条 证券公司经营管理主要负责人、其他高级管理人员、下属各单位负责人及其他工作人员应当充分了解和掌握与其经营管理和执业行为有关的法律、法规和准则,并在经营决策、运营管理和执业行为过程中充分识别相关的合规风险,并主动防范、应对和报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1086,
+      "end_char": 1203,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第八条 证券公司经营管理主要负责人对公司合规运营承担责任,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1205,
+      "end_char": 1245,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(一)组织制定公司规章制度,并监督其实施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1247,
+      "end_char": 1268,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(二)主动在日常经营过程中倡导合规经营理念,积极培育公司合规文化,认真履行合规管理职责,主动落实合规管理要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1270,
+      "end_char": 1325,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(三)充分重视公司合规管理的有效性,发现存在问题时要求下属各单位及其工作人员及时改进;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1327,
+      "end_char": 1370,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(四)督导、提醒公司其他高级管理人员在其分管领域中认真履行合规管理职责,落实合规管理要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1372,
+      "end_char": 1417,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(五)支持合规总监及合规部门工作,督促下属各单位为合规管理人员履职提供有效保障;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1459,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(六)支持合规总监及合规部门按照监管要求和公司制度规定,向董事会、监管部门报告合规风险事项;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1461,
+      "end_char": 1507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(七)在公司经营决策过程中,充分听取合规总监及合规部门的合规意见;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1509,
+      "end_char": 1542,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(八)督促公司下属各单位就合规风险事项开展自查或配合公司调查,严格按照公司规定进行合规问责,并落实整改措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1544,
+      "end_char": 1598,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第九条 证券公司其他高级管理人员对其分管领域的合规运营承担责任,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1600,
+      "end_char": 1643,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(一)在其分管领域组织贯彻执行公司各项规章制度,组织起草、制定其分管领域的规章制度,并监督其实施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1645,
+      "end_char": 1694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(二)在其分管领域主动倡导合规经营理念,积极培育公司合规文化;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1727,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(三)充分重视其分管领域合规管理的有效性,发现存在问题时要求分管领域下属各单位及其工作人员及时改进;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1729,
+      "end_char": 1779,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "signoff",
+      "text": "(四)提醒、督导分管领域下属各单位负责人认真履行合规管理职责,落实合规管理要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1781,
+      "end_char": 1821,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(五)支持分管领域下属各单位合规管理人员的工作,督促分管领域下属各单位为合规管理人员履职提供有效保障;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1823,
+      "end_char": 1874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(六)支持分管领域下属各单位及其合规管理人员按照公司制度规定,向公司及合规部门报告合规风险事项;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1876,
+      "end_char": 1924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(七)在其职责范围内的经营决策过程中,听取公司合规部门及分管领域下属各单位合规管理人员的合规意见,并给予充分关注;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1926,
+      "end_char": 1983,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(八)督促分管领域下属各单位就合规风险事项开展自查或配合公司进行调查,严格按照公司规定进行合规问责,并落实整改措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1985,
+      "end_char": 2043,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十条 证券公司下属各单位负责人负责落实本单位的合规管理要求,对本单位合规运营承担责任,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2045,
+      "end_char": 2100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(一)在本单位组织贯彻执行公司各项规章制度,组织起草、制定与本单位职责相关的规章制度,并监督其实施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2102,
+      "end_char": 2152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(二)建立并完善本单位的合规管理制度与机制,将各项经营活动的合规性要求嵌入业务管理制度与操作流程中;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2154,
+      "end_char": 2204,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(三)在本单位主动倡导合规经营理念,积极培育公司合规文化;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(四)积极配合合规总监及合规部门的工作,认真听取并落实合规总监及合规部门提出的合规管理意见;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2237,
+      "end_char": 2283,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(五)为本单位配备合格合规管理人员,避免分配与其履行合规职责相冲突的工作;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2285,
+      "end_char": 2322,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(六)支持本单位合规管理人员的工作,为本单位合规管理人员提供履职保障,包括但不限于参与本单位重要会议、查阅本单位各类业务与管理文档、充分尊重其独立发表合规专业意见的权利等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "paragraph",
+      "text": "(七)在业务开展前应当充分论证业务的合法合规性,充分听取本单位合规管理人员的合规审查意见,有效评估业务的合规风险,主动避免开展存在合规风险的业务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2412,
+      "end_char": 2485,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(八)发现与本单位业务相关的合规风险事项时,及时按公司制度规定进行报告,提出整改措施,并督促整改落实。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2487,
+      "end_char": 2538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十一条 证券公司全体工作人员应当对自身经营活动范围内所有业务事项和执业行为的合规性负责,履行下列合规管理职责:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2540,
+      "end_char": 2596,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)主动了解、掌握和遵守相关法律、法规和准则;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2598,
+      "end_char": 2622,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)积极参加公司安排的合规培训和合规宣导活动;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2624,
+      "end_char": 2648,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)根据公司要求,签署并信守相关合规承诺;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2650,
+      "end_char": 2672,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)在执业过程中充分关注执业行为的合法合规性;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2674,
+      "end_char": 2698,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(五)在业务开展过程中主动识别和防范业务合规风险;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2700,
+      "end_char": 2725,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(六)发现违法违规行为或者合规风险隐患时,应当主动按照公司规定及时报告;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2727,
+      "end_char": 2763,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(七)出现合规风险事项时,积极配合公司调查,并接受公司问责,落实整改要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2765,
+      "end_char": 2802,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十二条 合规总监不得兼任业务部门负责人及具有业务职能的分支机构负责人,不得分管业务部门及具有业务职能的分支机构,不得在下属子公司兼任具有业务经营性质的职务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2804,
+      "end_char": 2883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司不得向合规总监、合规部门及其他合规管理人员分配或施加业务考核指标与任务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2885,
+      "end_char": 2925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第十三条 证券公司应当建立新产品、新业务评估与决策机制,合规总监和合规部门应当对新产品、新业务发表合规审查意见,证券公司在进行相关决策时,应当充分考虑和采纳合规审查意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2927,
+      "end_char": 3012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "新产品、新业务是指公司首次开展,需就业务合规性进行论证的产品、业务以及展业方式等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3014,
+      "end_char": 3055,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第十四条 证券公司应当按照监管机构及自律组织的要求、公司相关制度规定及管理需要,对下属各单位及其工作人员的经营管理和执业行为的合规性进行检查。合规检查包括下属各单位组织实施的合规检查,也包括合规部门单独或联合其他部门组织实施的合规检查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3057,
+      "end_char": 3175,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第十五条 证券公司开展合规检查,应当遵循客观、谨慎、高效原则,并可与公司的风险管理、内部审计活动共同开展。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3177,
+      "end_char": 3230,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "合规检查分为例行检查与专项检查。发生下列情形时,应当进行专项检查:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3232,
+      "end_char": 3265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(一)公司发生违法违规行为或存在合规风险隐患的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3267,
+      "end_char": 3291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(二)公司董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、高级管理人员、合规总监或合规部门认为必要的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3293,
+      "end_char": 3350,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(三)公司下属各单位及其工作人员配合监管和稽查办案不力的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3352,
+      "end_char": 3381,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(四)监管部门或自律组织要求的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3383,
+      "end_char": 3399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(五)其他有必要进行专项检查的情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3401,
+      "end_char": 3419,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "证券公司相关违法违规行为频发的,应当增加合规检查频次。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3421,
+      "end_char": 3448,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第十六条 证券公司下属各单位及其工作人员在经营管理和执业过程中,遇到法律、法规和准则适用与理解的问题时,可以向合规总监和合规部门进行咨询,合规总监和合规部门应当基于专业分析和判断为其提供合规咨询意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3450,
+      "end_char": 3550,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "重要事项的合规咨询应当以书面形式提出,合规总监、合规部门应当作出书面回复。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3552,
+      "end_char": 3589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "对于法律、法规和准则规定不明确、规定有冲突或规定缺失的咨询事项,合规部门应当进行合规分析与论证,出具尽可能准确、客观和完整的合规咨询意见,并就所依据的法律法规及其适用的理解予以说明。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3591,
+      "end_char": 3682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "合规咨询不能取代合规审查和合规检查。合规咨询意见作为提出咨询的下属各单位及其工作人员进行决策或业务管理活动时的参考意见,不能取代合规审查意见或合规检查结论。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3684,
+      "end_char": 3762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第十七条 证券公司应当开展多种形式的合规宣导与培训,制定行为守则、合规手册等文件,帮助工作人员及时知晓、正确理解和严格遵循法律、法规和准则要求,倡导和推进合规文化建设。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3764,
+      "end_char": 3848,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "合规部门负责对证券公司各部门合规宣导与培训工作的落实情况进行督导。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3850,
+      "end_char": 3883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当运用信息技术手段对反洗钱、信息隔离墙管理、工作人员职务通讯行为、工作人员的证券投资行为等进行监测,发现违法违规行为和合规风险隐患,应当及时处理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3885,
+      "end_char": 3968,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "合规监测可由合规部门或其他部门单独或联合组织实施,也可以在公司总部指导下由下属各单位组织实施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3970,
+      "end_char": 4017,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第十九条 证券公司在对高级管理人员和下属各单位进行考核时,应当要求合规总监出具书面合规性专项考核意见,合规性专项考核占绩效考核结果的比例不得低于15%;对于重大合规事项,可制定一票否决制度。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4019,
+      "end_char": 4114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第二十条 证券公司应当建立合规问责机制,对在经营管理及执业过程中违反法律、法规和准则的责任人或责任单位进行合规问责,并与绩效考核和薪酬发放相挂钩。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4116,
+      "end_char": 4189,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "因合规问责所导致的绩效考核扣分不受上述合规性专项考核比例的限制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4191,
+      "end_char": 4223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "合规总监对合规问责有建议权、知情权和检查权。公司下属各单位应当向合规总监反馈合规问责的最终执行情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4225,
+      "end_char": 4275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第二十一条 证券公司根据《办法》第三十条编制年度合规报告,应当重点强调以下内容:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4277,
+      "end_char": 4317,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "(一)董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、经营管理层及下属各单位履行合规管理职责情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4319,
+      "end_char": 4374,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(二)合规总监及合规部门履行合规管理职责情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4376,
+      "end_char": 4399,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(三)公司违法违规行为、合规风险的发现、监管部门和自律组织处罚及整改情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4401,
+      "end_char": 4438,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "signoff",
+      "text": "(四)合规人员配置情况、合规性专项考核情况、合规负责人及合规管理人员薪酬保障落实情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4440,
+      "end_char": 4483,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(五)监管部门、自律组织和证券公司认为必要的其他内容。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4485,
+      "end_char": 4512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当将另类投资、私募基金管理等子公司的合规管理统一纳入公司合规管理有效性评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4514,
+      "end_char": 4563,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "证券公司开展合规管理有效性评估,应当以合规风险为导向,重点关注可能存在合规管理缺失、遗漏或薄弱的环节,全面、客观反映合规管理存在的问题,充分揭示合规风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4565,
+      "end_char": 4642,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "对于通过合规管理有效性评估发现的问题,证券公司应当加强对问题的整改落实与跟踪,将整改情况纳入公司的合规考核与问责范围。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4644,
+      "end_char": 4703,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第二十三条 证券公司可以委托符合条件的会计师事务所、律师事务所或管理咨询公司等外部专业机构进行合规管理有效性评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4705,
+      "end_char": 4762,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "chapter",
+      "text": "第三章 合规管理保障机制",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4764,
+      "end_char": 4776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "article",
+      "text": "第二十四条 证券公司免除合规总监职务的,应当由董事会作出决定,并通知合规总监本人。合规总监认为免除其职务理由不充分的,有权向董事会提出申诉。相关通知、决定和申诉意见应当形成书面文件,存档备查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4778,
+      "end_char": 4874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "合规总监的申诉被证券公司董事会驳回的,合规总监除可以向中国证监会及相关派出机构提出申诉外,也可以提请协会进行调解。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4876,
+      "end_char": 4933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "article",
+      "text": "第二十五条 合规总监不能履行职责或缺位时,证券公司代行职责人员在代行职责期间不得直接分管与合规总监管理职责相冲突的业务部门。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4935,
+      "end_char": 4997,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当明确合规部门与法律部门、风险管理部门、内部审计部门等内部控制部门以及其他承担合规管理职责的前中后台部门的职责分工。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4999,
+      "end_char": 5068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "合规总监及合规部门在履行合规审查职责过程中,涉及到需以财务、信息技术等专业事项评估结论为合规审查的前提条件的,相关部门应先行出具准确、客观和完整的评估意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5070,
+      "end_char": 5148,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "证券公司合规部门不得承担业务、财务、信息技术等与合规管理职责相冲突的职责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5150,
+      "end_char": 5187,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第二十七条 证券公司总部合规部门中具备3年以上证券、金融、法律、会计、信息技术等有关领域工作经历的合规管理人员数量占公司总部工作人员比例应当不低于1.5%,且不得少于5人。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5189,
+      "end_char": 5275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "上述合规管理人员不包括从事法务、稽核、内部审计及风险控制岗位的工作人员。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5277,
+      "end_char": 5313,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "证券公司应当确保合规部门人员编制的合理预算,并允许合规总监和合规部门根据公司业务和风险情况,定期或及时调整相关预算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5315,
+      "end_char": 5373,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第二十八条 证券公司业务部门、分支机构可以根据需要设置合规团队负责人或合规专员等专职合规管理人员,合规团队负责人或合规专员应当由其所在单位一定职级以上人员担任,并具有履职胜任能力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5375,
+      "end_char": 5465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "证券公司从事自营、投资银行、债券等业务部门,工作人员人数在15人及以上的分支机构以及证券公司异地总部等,应当配备专职合规管理人员。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5467,
+      "end_char": 5532,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "article",
+      "text": "第二十九条 证券公司合规部门负责人应当由合规总监提名。证券公司任免各业务部门、分支机构合规团队负责人、合规专员或选派另类投资、私募基金管理等子公司合规负责人,应当充分听取合规总监意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5534,
+      "end_char": 5626,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十条 证券公司应当将各层级子公司纳入统一合规管理体系。母子公司要注重实施统一的合规管理标准,保证合规文化的一致性,同时关注不同司法管辖区和行业的特殊合规管理要求。具体要求包括但不限于:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5628,
+      "end_char": 5722,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(一)子公司应当每年向证券公司合规总监及合规部门提交合规报告,合规报告的具体内容包括但不限于合规管理的基本情况、合规管理制度制定与执行情况、各项合规管理职责的履职情况、各项业务合规运行情况、合规风险事项的发现及整改情况、下一年度合规工作计划等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5724,
+      "end_char": 5846,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(二)子公司应当及时向证券公司合规总监及合规部门报告重大合规风险事项,包括但不限于行政监管措施、行政处罚、重大合规隐患、子公司及高级管理人员违法违规事件等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5848,
+      "end_char": 5926,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应当对子公司的基本合规管理制度进行审查,定期或不定期对子公司合规管理工作及经营管理行为的合规性进行监督和检查;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5928,
+      "end_char": 5990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "signoff",
+      "text": "(四)子公司发生重大合规风险事项的,证券公司应当按照有关制度对其主要负责人进行合规问责,并应当要求该子公司对相关责任人进行合规问责;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5992,
+      "end_char": 6058,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(五)证券公司应当每年对子公司合规管理情况进行考核。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6060,
+      "end_char": 6086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "证券公司应当督促境外子公司满足其所在地的监管要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6088,
+      "end_char": 6113,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "article",
+      "text": "第三十一条 证券公司应当明确合规总监有权出席或列席会议的范围,并于相关会议召开前及时通知合规总监参加。合规总监有权出席或列席以下会议:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6115,
+      "end_char": 6182,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(一)董事会及有关专门委员会(含董事会中设置的审计委员会)会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6184,
+      "end_char": 6216,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "(二)监事会会议(如有);",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6218,
+      "end_char": 6231,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "(三)总经理办公会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6233,
+      "end_char": 6244,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "(四)涉及公司“重大事项决策、重要干部任免、重要项目安排、大额资金使用”事项的会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6246,
+      "end_char": 6288,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "(五)经营管理层有关专门委员会会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6290,
+      "end_char": 6308,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(六)各类经营管理专题会议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6310,
+      "end_char": 6324,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "(七)有助于合规总监充分履职的其他会议。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6326,
+      "end_char": 6346,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第三十二条 合规总监及合规管理人员基于履职需要,有权要求下属各单位及其工作人员作出说明、提供资料、接受检查、向为公司提供审计等中介服务的机构了解情况等,下属各单位及其工作人员应当予以配合,不得以任何方式或借口加以干涉或阻扰,并应当确保所提供信息真实、准确、完整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6348,
+      "end_char": 6479,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "证券公司调整组织机构及高级管理人员职责分工时,应当就相关事项是否存在利益冲突听取合规总监意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6481,
+      "end_char": 6528,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第三十三条 《办法》第二十八条所称的年度薪酬收入包括基本工资、绩效工资、奖金等全口径收入。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6530,
+      "end_char": 6575,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "article",
+      "text": "第三十四条 证券公司应当为合规总监及合规部门履职提供充足的资金支持。合规总监和合规部门可以根据需要聘请会计师事务所、律师事务所、专业咨询机构、信息系统服务商等协助开展合规检查、调查、咨询和系统建设等方面的工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6577,
+      "end_char": 6682,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "chapter",
+      "text": "第四章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6684,
+      "end_char": 6692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "article",
+      "text": "第三十五条 协会对证券公司合规管理工作情况进行执业检查,证券公司应当予以配合。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6694,
+      "end_char": 6733,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第三十六条 对于合规制度不健全、合规管理执行不到位的证券公司及未按照本指引履行合规管理职责的工作人员,协会视情节轻重采取相应自律惩戒措施,并记入诚信信息管理系统;对存在违反法律、法规行为的证券公司及相关工作人员,移交中国证监会或其他有权机关依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6735,
+      "end_char": 6860,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "article",
+      "text": "第三十七条 证券公司频繁出现违规事件或重大恶性事件的,对证券公司及相关责任人员从重从严实施自律惩戒措施;对于未能勤勉尽责地履行相应合规管理职责或与业务部门合谋、指导业务部门规避监管的工作人员,从重从严实施自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6862,
+      "end_char": 6971,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "article",
+      "text": "第三十八条 协会在实施自律惩戒时,将区分公司责任与个人责任。证券公司建立有效的合规管理制度、主动开展合规管理、严格落实内部责任追究机制的,协会依照本指引对证券公司及严格按照合规制度履职的工作人员从轻、减轻或免于实施自律惩戒措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6973,
+      "end_char": 7087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7089,
+      "end_char": 7095,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "article",
+      "text": "第三十九条 法律、法规或准则对证券公司及其子公司合规负责人及合规管理工作另有特别规定的,从其规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7097,
+      "end_char": 7146,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "article",
+      "text": "第四十条 本指引所用名词术语和概念与《办法》相同。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7148,
+      "end_char": 7173,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "paragraph",
+      "text": "本指引所称工作人员职务通讯,是指对可能知悉敏感信息的工作人员所使用的公司信息系统或配发设备形成的电子邮件、即时通讯信息、通话信息和其他通讯信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7175,
+      "end_char": 7247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "article",
+      "text": "第四十一条 本指引由中国证券业协会负责解释,自发布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7249,
+      "end_char": 7280,
+      "region": "body"
+    }
+  ],
   "normalized_text": "(中证协发〔2025〕278号)\n\n第一章 总则\n\n第一条 为指导证券公司有效落实《证券公司和证券投资基金管理公司合规管理办法》(以下简称办法),提升证券公司合规管理水平,制定本指引。\n\n第二条 证券公司应当树立并坚守以下合规理念:\n\n(一)全员合规。合规是证券公司全体工作人员的基本行为准则。证券公司全体工作人员应当严格遵守法律、法规和准则,主动防范、发现并化解合规风险。\n\n(二)合规从管理层做起。证券公司应当建立完善的公司治理结构,确保董事会有效行使重大决策和监督功能,确保监事会有效行使监督职能;证券公司董事会、监事会、高级管理人员应当重视公司经营的合规性,承担有效管理公司合规风险的责任,积极践行并推广合规文化,促进公司合规经营。\n\n依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。\n\n(三)合规创造价值。证券公司应当通过有效的合规管理防范并化解合规风险,提升管理和业务能力,为机构自身、行业和社会创造价值。\n\n(四)合规是公司的生存基础。证券公司应当提升合规管理重视程度,坚持合规经营,为公司正常经营及长期可持续发展奠定基础。\n\n第三条 证券公司应当制定合规管理的基本制度,经董事会审议通过后实施。合规管理的基本制度应当包括合规管理的目标、基本原则、机构设置及其职责、履职保障、合规考核以及违规事项的报告、处理和责任追究等内容。\n\n证券公司应当结合本公司经营实际情况,制定指导经营活动依法合规开展的具体管理制度或操作流程,切实加强对各项经营活动的合规管理。\n\n证券公司应当制定工作人员执业行为准则,引导工作人员树立良好的合规执业意识和道德行为规范,确保工作人员执业行为依法合规。\n\n证券公司应当采取有效措施保障合规管理人员的专业化、职业化水平。\n\n第四条 证券公司及其工作人员应当遵守行业公认普遍遵守的职业道德和行为准则,包括但不限于诚实守信、勤勉尽责、专业敬业、公平竞争、客户利益至上、有效防范并妥善处理利益冲突、自觉维护行业良好声誉和秩序、主动承担社会责任等。\n\n第五条 证券公司应当有效防范并妥善处理利益冲突,在涉及到公司与客户之间的利益冲突时,应当坚持客户利益至上的原则;在涉及到客户与客户之间的利益冲突时,应当坚持公平对待客户的原则。\n\n第六条 中国证券业协会(以下简称协会)对证券公司合规管理工作实施自律管理。\n\n第二章 合规管理职责\n\n第七条 证券公司经营管理主要负责人、其他高级管理人员、下属各单位负责人及其他工作人员应当充分了解和掌握与其经营管理和执业行为有关的法律、法规和准则,并在经营决策、运营管理和执业行为过程中充分识别相关的合规风险,并主动防范、应对和报告。\n\n第八条 证券公司经营管理主要负责人对公司合规运营承担责任,履行下列合规管理职责:\n\n(一)组织制定公司规章制度,并监督其实施;\n\n(二)主动在日常经营过程中倡导合规经营理念,积极培育公司合规文化,认真履行合规管理职责,主动落实合规管理要求;\n\n(三)充分重视公司合规管理的有效性,发现存在问题时要求下属各单位及其工作人员及时改进;\n\n(四)督导、提醒公司其他高级管理人员在其分管领域中认真履行合规管理职责,落实合规管理要求;\n\n(五)支持合规总监及合规部门工作,督促下属各单位为合规管理人员履职提供有效保障;\n\n(六)支持合规总监及合规部门按照监管要求和公司制度规定,向董事会、监管部门报告合规风险事项;\n\n(七)在公司经营决策过程中,充分听取合规总监及合规部门的合规意见;\n\n(八)督促公司下属各单位就合规风险事项开展自查或配合公司调查,严格按照公司规定进行合规问责,并落实整改措施。\n\n第九条 证券公司其他高级管理人员对其分管领域的合规运营承担责任,履行下列合规管理职责:\n\n(一)在其分管领域组织贯彻执行公司各项规章制度,组织起草、制定其分管领域的规章制度,并监督其实施;\n\n(二)在其分管领域主动倡导合规经营理念,积极培育公司合规文化;\n\n(三)充分重视其分管领域合规管理的有效性,发现存在问题时要求分管领域下属各单位及其工作人员及时改进;\n\n(四)提醒、督导分管领域下属各单位负责人认真履行合规管理职责,落实合规管理要求;\n\n(五)支持分管领域下属各单位合规管理人员的工作,督促分管领域下属各单位为合规管理人员履职提供有效保障;\n\n(六)支持分管领域下属各单位及其合规管理人员按照公司制度规定,向公司及合规部门报告合规风险事项;\n\n(七)在其职责范围内的经营决策过程中,听取公司合规部门及分管领域下属各单位合规管理人员的合规意见,并给予充分关注;\n\n(八)督促分管领域下属各单位就合规风险事项开展自查或配合公司进行调查,严格按照公司规定进行合规问责,并落实整改措施。\n\n第十条 证券公司下属各单位负责人负责落实本单位的合规管理要求,对本单位合规运营承担责任,履行下列合规管理职责:\n\n(一)在本单位组织贯彻执行公司各项规章制度,组织起草、制定与本单位职责相关的规章制度,并监督其实施;\n\n(二)建立并完善本单位的合规管理制度与机制,将各项经营活动的合规性要求嵌入业务管理制度与操作流程中;\n\n(三)在本单位主动倡导合规经营理念,积极培育公司合规文化;\n\n(四)积极配合合规总监及合规部门的工作,认真听取并落实合规总监及合规部门提出的合规管理意见;\n\n(五)为本单位配备合格合规管理人员,避免分配与其履行合规职责相冲突的工作;\n\n(六)支持本单位合规管理人员的工作,为本单位合规管理人员提供履职保障,包括但不限于参与本单位重要会议、查阅本单位各类业务与管理文档、充分尊重其独立发表合规专业意见的权利等;\n\n(七)在业务开展前应当充分论证业务的合法合规性,充分听取本单位合规管理人员的合规审查意见,有效评估业务的合规风险,主动避免开展存在合规风险的业务;\n\n(八)发现与本单位业务相关的合规风险事项时,及时按公司制度规定进行报告,提出整改措施,并督促整改落实。\n\n第十一条 证券公司全体工作人员应当对自身经营活动范围内所有业务事项和执业行为的合规性负责,履行下列合规管理职责:\n\n(一)主动了解、掌握和遵守相关法律、法规和准则;\n\n(二)积极参加公司安排的合规培训和合规宣导活动;\n\n(三)根据公司要求,签署并信守相关合规承诺;\n\n(四)在执业过程中充分关注执业行为的合法合规性;\n\n(五)在业务开展过程中主动识别和防范业务合规风险;\n\n(六)发现违法违规行为或者合规风险隐患时,应当主动按照公司规定及时报告;\n\n(七)出现合规风险事项时,积极配合公司调查,并接受公司问责,落实整改要求。\n\n第十二条 合规总监不得兼任业务部门负责人及具有业务职能的分支机构负责人,不得分管业务部门及具有业务职能的分支机构,不得在下属子公司兼任具有业务经营性质的职务。\n\n证券公司不得向合规总监、合规部门及其他合规管理人员分配或施加业务考核指标与任务。\n\n第十三条 证券公司应当建立新产品、新业务评估与决策机制,合规总监和合规部门应当对新产品、新业务发表合规审查意见,证券公司在进行相关决策时,应当充分考虑和采纳合规审查意见。\n\n新产品、新业务是指公司首次开展,需就业务合规性进行论证的产品、业务以及展业方式等。\n\n第十四条 证券公司应当按照监管机构及自律组织的要求、公司相关制度规定及管理需要,对下属各单位及其工作人员的经营管理和执业行为的合规性进行检查。合规检查包括下属各单位组织实施的合规检查,也包括合规部门单独或联合其他部门组织实施的合规检查。\n\n第十五条 证券公司开展合规检查,应当遵循客观、谨慎、高效原则,并可与公司的风险管理、内部审计活动共同开展。\n\n合规检查分为例行检查与专项检查。发生下列情形时,应当进行专项检查:\n\n(一)公司发生违法违规行为或存在合规风险隐患的;\n\n(二)公司董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、高级管理人员、合规总监或合规部门认为必要的;\n\n(三)公司下属各单位及其工作人员配合监管和稽查办案不力的;\n\n(四)监管部门或自律组织要求的;\n\n(五)其他有必要进行专项检查的情形。\n\n证券公司相关违法违规行为频发的,应当增加合规检查频次。\n\n第十六条 证券公司下属各单位及其工作人员在经营管理和执业过程中,遇到法律、法规和准则适用与理解的问题时,可以向合规总监和合规部门进行咨询,合规总监和合规部门应当基于专业分析和判断为其提供合规咨询意见。\n\n重要事项的合规咨询应当以书面形式提出,合规总监、合规部门应当作出书面回复。\n\n对于法律、法规和准则规定不明确、规定有冲突或规定缺失的咨询事项,合规部门应当进行合规分析与论证,出具尽可能准确、客观和完整的合规咨询意见,并就所依据的法律法规及其适用的理解予以说明。\n\n合规咨询不能取代合规审查和合规检查。合规咨询意见作为提出咨询的下属各单位及其工作人员进行决策或业务管理活动时的参考意见,不能取代合规审查意见或合规检查结论。\n\n第十七条 证券公司应当开展多种形式的合规宣导与培训,制定行为守则、合规手册等文件,帮助工作人员及时知晓、正确理解和严格遵循法律、法规和准则要求,倡导和推进合规文化建设。\n\n合规部门负责对证券公司各部门合规宣导与培训工作的落实情况进行督导。\n\n第十八条 证券公司应当运用信息技术手段对反洗钱、信息隔离墙管理、工作人员职务通讯行为、工作人员的证券投资行为等进行监测,发现违法违规行为和合规风险隐患,应当及时处理。\n\n合规监测可由合规部门或其他部门单独或联合组织实施,也可以在公司总部指导下由下属各单位组织实施。\n\n第十九条 证券公司在对高级管理人员和下属各单位进行考核时,应当要求合规总监出具书面合规性专项考核意见,合规性专项考核占绩效考核结果的比例不得低于15%;对于重大合规事项,可制定一票否决制度。\n\n第二十条 证券公司应当建立合规问责机制,对在经营管理及执业过程中违反法律、法规和准则的责任人或责任单位进行合规问责,并与绩效考核和薪酬发放相挂钩。\n\n因合规问责所导致的绩效考核扣分不受上述合规性专项考核比例的限制。\n\n合规总监对合规问责有建议权、知情权和检查权。公司下属各单位应当向合规总监反馈合规问责的最终执行情况。\n\n第二十一条 证券公司根据《办法》第三十条编制年度合规报告,应当重点强调以下内容:\n\n(一)董事会、监事会(或依法承担监事会相应监督职责的组织或个人)、经营管理层及下属各单位履行合规管理职责情况;\n\n(二)合规总监及合规部门履行合规管理职责情况;\n\n(三)公司违法违规行为、合规风险的发现、监管部门和自律组织处罚及整改情况;\n\n(四)合规人员配置情况、合规性专项考核情况、合规负责人及合规管理人员薪酬保障落实情况;\n\n(五)监管部门、自律组织和证券公司认为必要的其他内容。\n\n第二十二条 证券公司应当将另类投资、私募基金管理等子公司的合规管理统一纳入公司合规管理有效性评估。\n\n证券公司开展合规管理有效性评估,应当以合规风险为导向,重点关注可能存在合规管理缺失、遗漏或薄弱的环节,全面、客观反映合规管理存在的问题,充分揭示合规风险。\n\n对于通过合规管理有效性评估发现的问题,证券公司应当加强对问题的整改落实与跟踪,将整改情况纳入公司的合规考核与问责范围。\n\n第二十三条 证券公司可以委托符合条件的会计师事务所、律师事务所或管理咨询公司等外部专业机构进行合规管理有效性评估。\n\n第三章 合规管理保障机制\n\n第二十四条 证券公司免除合规总监职务的,应当由董事会作出决定,并通知合规总监本人。合规总监认为免除其职务理由不充分的,有权向董事会提出申诉。相关通知、决定和申诉意见应当形成书面文件,存档备查。\n\n合规总监的申诉被证券公司董事会驳回的,合规总监除可以向中国证监会及相关派出机构提出申诉外,也可以提请协会进行调解。\n\n第二十五条 合规总监不能履行职责或缺位时,证券公司代行职责人员在代行职责期间不得直接分管与合规总监管理职责相冲突的业务部门。\n\n第二十六条 证券公司应当明确合规部门与法律部门、风险管理部门、内部审计部门等内部控制部门以及其他承担合规管理职责的前中后台部门的职责分工。\n\n合规总监及合规部门在履行合规审查职责过程中,涉及到需以财务、信息技术等专业事项评估结论为合规审查的前提条件的,相关部门应先行出具准确、客观和完整的评估意见。\n\n证券公司合规部门不得承担业务、财务、信息技术等与合规管理职责相冲突的职责。\n\n第二十七条 证券公司总部合规部门中具备3年以上证券、金融、法律、会计、信息技术等有关领域工作经历的合规管理人员数量占公司总部工作人员比例应当不低于1.5%,且不得少于5人。\n\n上述合规管理人员不包括从事法务、稽核、内部审计及风险控制岗位的工作人员。\n\n证券公司应当确保合规部门人员编制的合理预算,并允许合规总监和合规部门根据公司业务和风险情况,定期或及时调整相关预算。\n\n第二十八条 证券公司业务部门、分支机构可以根据需要设置合规团队负责人或合规专员等专职合规管理人员,合规团队负责人或合规专员应当由其所在单位一定职级以上人员担任,并具有履职胜任能力。\n\n证券公司从事自营、投资银行、债券等业务部门,工作人员人数在15人及以上的分支机构以及证券公司异地总部等,应当配备专职合规管理人员。\n\n第二十九条 证券公司合规部门负责人应当由合规总监提名。证券公司任免各业务部门、分支机构合规团队负责人、合规专员或选派另类投资、私募基金管理等子公司合规负责人,应当充分听取合规总监意见。\n\n第三十条 证券公司应当将各层级子公司纳入统一合规管理体系。母子公司要注重实施统一的合规管理标准,保证合规文化的一致性,同时关注不同司法管辖区和行业的特殊合规管理要求。具体要求包括但不限于:\n\n(一)子公司应当每年向证券公司合规总监及合规部门提交合规报告,合规报告的具体内容包括但不限于合规管理的基本情况、合规管理制度制定与执行情况、各项合规管理职责的履职情况、各项业务合规运行情况、合规风险事项的发现及整改情况、下一年度合规工作计划等;\n\n(二)子公司应当及时向证券公司合规总监及合规部门报告重大合规风险事项,包括但不限于行政监管措施、行政处罚、重大合规隐患、子公司及高级管理人员违法违规事件等;\n\n(三)证券公司应当对子公司的基本合规管理制度进行审查,定期或不定期对子公司合规管理工作及经营管理行为的合规性进行监督和检查;\n\n(四)子公司发生重大合规风险事项的,证券公司应当按照有关制度对其主要负责人进行合规问责,并应当要求该子公司对相关责任人进行合规问责;\n\n(五)证券公司应当每年对子公司合规管理情况进行考核。\n\n证券公司应当督促境外子公司满足其所在地的监管要求。\n\n第三十一条 证券公司应当明确合规总监有权出席或列席会议的范围,并于相关会议召开前及时通知合规总监参加。合规总监有权出席或列席以下会议:\n\n(一)董事会及有关专门委员会(含董事会中设置的审计委员会)会议;\n\n(二)监事会会议(如有);\n\n(三)总经理办公会议;\n\n(四)涉及公司“重大事项决策、重要干部任免、重要项目安排、大额资金使用”事项的会议;\n\n(五)经营管理层有关专门委员会会议;\n\n(六)各类经营管理专题会议;\n\n(七)有助于合规总监充分履职的其他会议。\n\n第三十二条 合规总监及合规管理人员基于履职需要,有权要求下属各单位及其工作人员作出说明、提供资料、接受检查、向为公司提供审计等中介服务的机构了解情况等,下属各单位及其工作人员应当予以配合,不得以任何方式或借口加以干涉或阻扰,并应当确保所提供信息真实、准确、完整。\n\n证券公司调整组织机构及高级管理人员职责分工时,应当就相关事项是否存在利益冲突听取合规总监意见。\n\n第三十三条 《办法》第二十八条所称的年度薪酬收入包括基本工资、绩效工资、奖金等全口径收入。\n\n第三十四条 证券公司应当为合规总监及合规部门履职提供充足的资金支持。合规总监和合规部门可以根据需要聘请会计师事务所、律师事务所、专业咨询机构、信息系统服务商等协助开展合规检查、调查、咨询和系统建设等方面的工作。\n\n第四章 自律管理\n\n第三十五条 协会对证券公司合规管理工作情况进行执业检查,证券公司应当予以配合。\n\n第三十六条 对于合规制度不健全、合规管理执行不到位的证券公司及未按照本指引履行合规管理职责的工作人员,协会视情节轻重采取相应自律惩戒措施,并记入诚信信息管理系统;对存在违反法律、法规行为的证券公司及相关工作人员,移交中国证监会或其他有权机关依法查处。\n\n第三十七条 证券公司频繁出现违规事件或重大恶性事件的,对证券公司及相关责任人员从重从严实施自律惩戒措施;对于未能勤勉尽责地履行相应合规管理职责或与业务部门合谋、指导业务部门规避监管的工作人员,从重从严实施自律惩戒措施。\n\n第三十八条 协会在实施自律惩戒时,将区分公司责任与个人责任。证券公司建立有效的合规管理制度、主动开展合规管理、严格落实内部责任追究机制的,协会依照本指引对证券公司及严格按照合规制度履职的工作人员从轻、减轻或免于实施自律惩戒措施。\n\n第五章 附则\n\n第三十九条 法律、法规或准则对证券公司及其子公司合规负责人及合规管理工作另有特别规定的,从其规定。\n\n第四十条 本指引所用名词术语和概念与《办法》相同。\n\n本指引所称工作人员职务通讯,是指对可能知悉敏感信息的工作人员所使用的公司信息系统或配发设备形成的电子邮件、即时通讯信息、通话信息和其他通讯信息。\n\n第四十一条 本指引由中国证券业协会负责解释,自发布之日起施行。",
   "blocks": [
     {
@@ -201,7 +3340,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -209,7 +3355,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 24,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -217,7 +3370,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 92,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -225,7 +3385,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 94,
+      "end_char": 116,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -233,7 +3400,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 118,
+      "end_char": 187,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -241,7 +3415,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 189,
+      "end_char": 320,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -249,7 +3430,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 322,
+      "end_char": 451,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -257,7 +3445,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 453,
+      "end_char": 514,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -265,7 +3460,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 516,
+      "end_char": 574,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -273,7 +3475,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 576,
+      "end_char": 675,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -281,7 +3490,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 677,
+      "end_char": 739,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -289,7 +3505,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 741,
+      "end_char": 800,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -297,7 +3520,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 802,
+      "end_char": 833,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -305,7 +3535,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 835,
+      "end_char": 943,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -313,7 +3550,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 945,
+      "end_char": 1033,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -321,7 +3565,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1072,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -329,7 +3580,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1074,
+      "end_char": 1084,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -337,7 +3595,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1086,
+      "end_char": 1203,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -345,7 +3610,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1205,
+      "end_char": 1245,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -353,7 +3625,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1247,
+      "end_char": 1268,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -361,7 +3640,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1270,
+      "end_char": 1325,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -369,7 +3655,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1327,
+      "end_char": 1370,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -377,7 +3670,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1372,
+      "end_char": 1417,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -385,7 +3685,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1459,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -393,7 +3700,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1461,
+      "end_char": 1507,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -401,7 +3715,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1509,
+      "end_char": 1542,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -409,7 +3730,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1544,
+      "end_char": 1598,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -417,7 +3745,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1600,
+      "end_char": 1643,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -425,7 +3760,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1645,
+      "end_char": 1694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -433,7 +3775,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1696,
+      "end_char": 1727,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -441,7 +3790,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1729,
+      "end_char": 1779,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -449,7 +3805,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1781,
+      "end_char": 1821,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -457,7 +3820,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1823,
+      "end_char": 1874,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -465,7 +3835,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1876,
+      "end_char": 1924,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -473,7 +3850,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1926,
+      "end_char": 1983,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -481,7 +3865,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1985,
+      "end_char": 2043,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -489,7 +3880,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2045,
+      "end_char": 2100,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -497,7 +3895,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2102,
+      "end_char": 2152,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -505,7 +3910,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2154,
+      "end_char": 2204,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -513,7 +3925,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2235,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -521,7 +3940,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2237,
+      "end_char": 2283,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -529,7 +3955,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2285,
+      "end_char": 2322,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -537,7 +3970,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2410,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -545,7 +3985,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2412,
+      "end_char": 2485,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -553,7 +4000,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2487,
+      "end_char": 2538,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -561,7 +4015,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2540,
+      "end_char": 2596,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -569,7 +4030,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2598,
+      "end_char": 2622,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -577,7 +4045,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2624,
+      "end_char": 2648,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -585,7 +4060,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2650,
+      "end_char": 2672,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -593,7 +4075,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2674,
+      "end_char": 2698,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -601,7 +4090,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2700,
+      "end_char": 2725,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -609,7 +4105,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2727,
+      "end_char": 2763,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -617,7 +4120,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2765,
+      "end_char": 2802,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -625,7 +4135,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2804,
+      "end_char": 2883,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -633,7 +4150,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2885,
+      "end_char": 2925,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -641,7 +4165,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2927,
+      "end_char": 3012,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -649,7 +4180,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3014,
+      "end_char": 3055,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -657,7 +4195,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3057,
+      "end_char": 3175,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -665,7 +4210,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3177,
+      "end_char": 3230,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -673,7 +4225,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3232,
+      "end_char": 3265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -681,7 +4240,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3267,
+      "end_char": 3291,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -689,7 +4255,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3293,
+      "end_char": 3350,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -697,7 +4270,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3352,
+      "end_char": 3381,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -705,7 +4285,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3383,
+      "end_char": 3399,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -713,7 +4300,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3401,
+      "end_char": 3419,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -721,7 +4315,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3421,
+      "end_char": 3448,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -729,7 +4330,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3450,
+      "end_char": 3550,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -737,7 +4345,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3552,
+      "end_char": 3589,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -745,7 +4360,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3591,
+      "end_char": 3682,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -753,7 +4375,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3684,
+      "end_char": 3762,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -761,7 +4390,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3764,
+      "end_char": 3848,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -769,7 +4405,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3850,
+      "end_char": 3883,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -777,7 +4420,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3885,
+      "end_char": 3968,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -785,7 +4435,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3970,
+      "end_char": 4017,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -793,7 +4450,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4019,
+      "end_char": 4114,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -801,7 +4465,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4116,
+      "end_char": 4189,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -809,7 +4480,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4191,
+      "end_char": 4223,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -817,7 +4495,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4225,
+      "end_char": 4275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -825,7 +4510,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4277,
+      "end_char": 4317,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -833,7 +4525,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4319,
+      "end_char": 4374,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -841,7 +4540,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4376,
+      "end_char": 4399,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -849,7 +4555,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4401,
+      "end_char": 4438,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -857,7 +4570,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4440,
+      "end_char": 4483,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -865,7 +4585,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4485,
+      "end_char": 4512,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -873,7 +4600,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4514,
+      "end_char": 4563,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -881,7 +4615,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4565,
+      "end_char": 4642,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -889,7 +4630,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4644,
+      "end_char": 4703,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -897,7 +4645,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4705,
+      "end_char": 4762,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -905,7 +4660,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4764,
+      "end_char": 4776,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -913,7 +4675,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4778,
+      "end_char": 4874,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -921,7 +4690,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4876,
+      "end_char": 4933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -929,7 +4705,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4935,
+      "end_char": 4997,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -937,7 +4720,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4999,
+      "end_char": 5068,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -945,7 +4735,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5070,
+      "end_char": 5148,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -953,7 +4750,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5150,
+      "end_char": 5187,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -961,7 +4765,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5189,
+      "end_char": 5275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -969,7 +4780,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5277,
+      "end_char": 5313,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -977,7 +4795,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5315,
+      "end_char": 5373,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -985,7 +4810,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5375,
+      "end_char": 5465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -993,7 +4825,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5467,
+      "end_char": 5532,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1001,7 +4840,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5534,
+      "end_char": 5626,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1009,7 +4855,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5628,
+      "end_char": 5722,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1017,7 +4870,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5724,
+      "end_char": 5846,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1025,7 +4885,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5848,
+      "end_char": 5926,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1033,7 +4900,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5928,
+      "end_char": 5990,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1041,7 +4915,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5992,
+      "end_char": 6058,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1049,7 +4930,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6060,
+      "end_char": 6086,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1057,7 +4945,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6088,
+      "end_char": 6113,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1065,7 +4960,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6115,
+      "end_char": 6182,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1073,7 +4975,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6184,
+      "end_char": 6216,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1081,7 +4990,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6218,
+      "end_char": 6231,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1089,7 +5005,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6233,
+      "end_char": 6244,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1097,7 +5020,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6246,
+      "end_char": 6288,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1105,7 +5035,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6290,
+      "end_char": 6308,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1113,7 +5050,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6310,
+      "end_char": 6324,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1121,7 +5065,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6326,
+      "end_char": 6346,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1129,7 +5080,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6348,
+      "end_char": 6479,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1137,7 +5095,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6481,
+      "end_char": 6528,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1145,7 +5110,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6530,
+      "end_char": 6575,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1153,7 +5125,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6577,
+      "end_char": 6682,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1161,7 +5140,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6684,
+      "end_char": 6692,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1169,7 +5155,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6694,
+      "end_char": 6733,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1177,7 +5170,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6735,
+      "end_char": 6860,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1185,7 +5185,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6862,
+      "end_char": 6971,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1193,7 +5200,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6973,
+      "end_char": 7087,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00128",
@@ -1201,7 +5215,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7089,
+      "end_char": 7095,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00129",
@@ -1209,7 +5230,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7097,
+      "end_char": 7146,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00130",
@@ -1217,7 +5245,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7148,
+      "end_char": 7173,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00131",
@@ -1225,7 +5260,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7175,
+      "end_char": 7247,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00132",
@@ -1233,7 +5275,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7249,
+      "end_char": 7280,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

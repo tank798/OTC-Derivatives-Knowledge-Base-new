@@ -94,6 +94,72 @@ def table_cell_text(cell) -> str:
     return "\n".join(values)
 
 
+def word_table_data(table: Table, table_index: int) -> tuple[list[list[str]], dict]:
+    """Preserve Word grid spans and vertical merges without proxy duplication."""
+
+    width = len(table.columns)
+    matrix: list[list[str]] = []
+    cells: list[dict] = []
+    vertical_starts: dict[int, dict] = {}
+    explicit_header_rows = 0
+    warnings: list[str] = []
+    for row_index, row in enumerate(table.rows):
+        values = [""] * width
+        proxies = list(row.cells)
+        column = 0
+        seen_in_row: set[int] = set()
+        while column < min(width, len(proxies)):
+            cell = proxies[column]
+            cell_key = id(cell._tc)
+            run = 1
+            while column + run < len(proxies) and id(proxies[column + run]._tc) == cell_key:
+                run += 1
+            tc_pr = cell._tc.tcPr
+            grid_span = getattr(getattr(tc_pr, "gridSpan", None), "val", None)
+            colspan = max(1, int(grid_span or run))
+            v_merge = getattr(tc_pr, "vMerge", None)
+            v_value = getattr(v_merge, "val", None) if v_merge is not None else None
+            continuation = v_merge is not None and v_value not in {"restart"}
+            if continuation and column in vertical_starts:
+                vertical_starts[column]["rowspan"] += 1
+            elif cell_key not in seen_in_row:
+                text = table_cell_text(cell)
+                values[column] = text
+                cell_row = {
+                    "row": row_index,
+                    "column": column,
+                    "text": text,
+                    "rowspan": 1,
+                    "colspan": min(colspan, width - column),
+                }
+                cells.append(cell_row)
+                if v_merge is not None:
+                    vertical_starts[column] = cell_row
+            seen_in_row.add(cell_key)
+            column += max(run, colspan)
+        matrix.append(values)
+        tr_pr = row._tr.trPr
+        if tr_pr is not None and tr_pr.find(qn("w:tblHeader")) is not None:
+            explicit_header_rows += 1
+
+    header_count = explicit_header_rows or (1 if matrix else 0)
+    if not explicit_header_rows:
+        warnings.append("Word未标记重复表头，按首行作为检索表头")
+    data = {
+        "table_id": f"table_word_{table_index}",
+        "caption": "",
+        "headers": matrix[:header_count],
+        "rows": matrix[header_count:],
+        "cells": cells,
+        "column_count": width,
+        "source_page_start": 0,
+        "source_page_end": 0,
+        "source_fragments": [{"table_index": table_index}],
+        "parsing_warnings": warnings,
+    }
+    return matrix, data
+
+
 def strip_word_toc(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
     marker = next((index for index, block in enumerate(blocks[:20]) if re.sub(r"\s+", "", clean_text(block.text)) in {"目录", "目次"}), None)
     if marker is None:
@@ -163,9 +229,10 @@ def parse_docx(path: Path) -> ParsedDocument:
     document, temporary_package = open_word_document(path)
     blocks: list[SourceBlock] = []
     sequence = 0
+    table_sequence = 0
 
     def append_item(item) -> None:
-        nonlocal sequence
+        nonlocal sequence, table_sequence
         sequence += 1
         if isinstance(item, Paragraph):
             text = paragraph_xml_text(item)
@@ -187,10 +254,18 @@ def parse_docx(path: Path) -> ParsedDocument:
                     for child in cell.iter_inner_content():
                         append_item(child)
                 return
-            rows = [[table_cell_text(cell) for cell in row.cells] for row in item.rows]
+            table_sequence += 1
+            rows, table_data = word_table_data(item, table_sequence)
             text = markdown_table(rows)
             if text:
-                blocks.append(SourceBlock(text=text, style="Table", source_kind="table", block_id=f"b{sequence:05d}"))
+                blocks.append(SourceBlock(
+                    text=text,
+                    style="Table",
+                    source_kind="table",
+                    block_id=f"b{sequence:05d}",
+                    table_data=table_data,
+                    parsing_warnings=list(table_data["parsing_warnings"]),
+                ))
 
     for item in document.iter_inner_content():
         append_item(item)

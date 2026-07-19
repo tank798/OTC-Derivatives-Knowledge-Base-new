@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司操作风险管理指引.docx",
   "source_type": "docx",
   "file_sha256": "f049f061b53f7bd09ffcc2bae49d1098787a42bfb45c0f990452a2b107d049c1",
-  "content_sha256": "0b2f7c2dd95887eb4e6c4958a2bbdbf8db3d2603d9d780e996b25b2714eb1946",
+  "content_sha256": "dfdd5e19baec054519a19aebcca4ee16d7a6f52d18efa9b099ac6fb449c36983",
   "metadata": {
     "document_title": "证券公司操作风险管理指引",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "8844c6e7891df97b498684b16290961cd7a54b59d751f5415693a0baf714a521",
     "clean_text_sha256": "8844c6e7891df97b498684b16290961cd7a54b59d751f5415693a0baf714a521",
@@ -151,6 +151,2655 @@
   },
   "original_text_sha256": "8844c6e7891df97b498684b16290961cd7a54b59d751f5415693a0baf714a521",
   "clean_text_sha256": "8844c6e7891df97b498684b16290961cd7a54b59d751f5415693a0baf714a521",
+  "clean_text_hash": "f7d245dd85e1242131a1ad19786470c21b054c682b578a825f9f6fd3d3c80726",
+  "structured_blocks_sha256": "fc7078ecae4502e3f9d387a52c5f86813553f29ca0ff504d852eb6097c4096da",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司操作风险管理指引",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "总则",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "为规范证券公司操作风险管理,完善全面风险管理体系,根据《中华人民共和国证券法》《证券公司监督管理条例》《证券公司风险控制指标管理办法》《证券公司全面风险管理规范》等法律法规、监管规定和自律规则,制定本指引。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 121,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "本指引所称操作风险是指由不完善或有问题的内部程序、人员、信息技术系统,以及外部事件造成损失的风险。本定义所指操作风险包括法律风险,但不包括战略风险和声誉风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 123,
+      "end_char": 202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "证券公司应建立符合监管要求,与自身发展战略、业务特点、规模和复杂程度相适应的操作风险管理体系,将操作风险损失控制在自身可承受的范围内。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 204,
+      "end_char": 271,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司操作风险管理应遵循以下基本原则:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 273,
+      "end_char": 293,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(一)全程全员原则。证券公司操作风险管理应覆盖证券公司各部门、分支机构、子公司以及比照子公司管理的各类孙公司(以下简称“子公司”),包含各类岗位、活动、流程、信息系统、产品等,贯穿决策、执行、监督、反馈等各个环节;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 295,
+      "end_char": 402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(二)协同管理原则。证券公司操作风险管理应发挥各专业职能部门的作用,根据不同专业领域的特点与分工,有针对性地协同开展风险管理;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 404,
+      "end_char": 467,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(三)审慎应对原则。证券公司应审慎识别和控制各项经营管理活动的操作风险,对操作风险管理重点领域和环节加强风险识别、评估、监测与控制,最大程度地防范和减少操作风险事件对公司、行业造成的损失和负面影响;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 469,
+      "end_char": 568,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(四)防范预见原则。证券公司应充分识别和评估新业务、新产品涉及的操作风险,重视防范已有业务流程和信息系统等可能因新业务、新产品引发的操作风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 570,
+      "end_char": 641,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "证券公司操作风险管理体系应当包括健全的组织架构、明晰的管理职责与分工、专业的人才队伍、可靠的信息技术系统、量化的风险指标体系和有效的风险应对机制,并通过可操作的管理制度,规范以上要求的落实与开展。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 643,
+      "end_char": 741,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "证券公司应树立全员防控操作风险的管理理念,开展操作风险管理相关培训,确保公司人员获得足够专业技能与风险管理知识,不断提升全员的操作风险管理意识与能力。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 743,
+      "end_char": 818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "chapter",
+      "text": "第二章 操作风险管理职责",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 832,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "证券公司应建立有效的操作风险管理组织架构,明确董事会、监事会、经理层、各部门、分支机构、子公司在操作风险管理中的职责和报告路线,建立健全有效的考核及问责机制。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 834,
+      "end_char": 913,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "证券公司董事会应将操作风险作为公司面临的一项重要风险,承担操作风险管理的最终责任,履行以下职责:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 915,
+      "end_char": 963,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "推进公司操作风险管理文化建设;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 965,
+      "end_char": 980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "确定操作风险管理的总体目标,审议批准涵盖操作风险的公司风险偏好、容忍度等风险管理重大事项;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 982,
+      "end_char": 1027,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "确保经理层采取必要措施有效地识别、评估、监测、控制或缓释操作风险;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1029,
+      "end_char": 1062,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "审议经理层提交的操作风险定期报告,持续关注公司整体操作风险状况。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1064,
+      "end_char": 1096,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券公司监事会承担操作风险管理的监督责任,负责监督检查董事会和经理层在操作风险管理方面的履职尽责情况并督促整改。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1098,
+      "end_char": 1154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "证券公司经理层对操作风险管理承担主要责任,应履行以下职责:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1156,
+      "end_char": 1185,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "建立健全操作风险管理相关制度和流程;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1187,
+      "end_char": 1205,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "确定操作风险管理组织架构,明确各部门操作风险管理职责并督促其切实履行;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1207,
+      "end_char": 1242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "确保操作风险偏好、容忍度等在公司内部的有效沟通、传达和实施;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1244,
+      "end_char": 1274,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "为操作风险管理配备与业务特点、规模和复杂程度相适应的资源,包括但不限于经费、岗位、人员、履行职责所必需的权限等,有效开展操作风险管理工作;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1276,
+      "end_char": 1345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "充分了解操作风险水平及其管理状况等,并定期向董事会报告;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "建立健全操作风险管理工作评估、考核与责任追究机制;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1377,
+      "end_char": 1402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "培育全员操作风险意识,制定并督促实施相关培训计划。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1404,
+      "end_char": 1429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "证券公司首席风险官牵头负责操作风险管理工作。证券公司应当保障首席风险官能够充分履职所必需的知情权和资源配置。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1431,
+      "end_char": 1485,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "证券公司其他高级管理人员负责各自分管领域的操作风险管理,并为首席风险官统筹管理操作风险提供支持。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1487,
+      "end_char": 1535,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "证券公司应设立或指定部门,牵头负责以下操作风险管理工作:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1537,
+      "end_char": 1565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "拟订操作风险偏好、容忍度等并定期审查;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1567,
+      "end_char": 1586,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "组织开展操作风险的识别、评估、监控和报告;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1588,
+      "end_char": 1609,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "协助、指导、检查各部门、分支机构及子公司的操作风险管理工作,落实评估、考核与责任追究机制,定期评价各单位操作风险管理工作开展情况与管理效果;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1611,
+      "end_char": 1681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "定期向经理层汇报公司操作风险管理状况及重大变化。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1683,
+      "end_char": 1707,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "证券公司各部门、分支机构、子公司承担本单位操作风险管理的直接责任,主要职责包括:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1709,
+      "end_char": 1749,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "主动识别、评估操作风险,建立健全操作风险监测、控制或缓释、应对措施;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1751,
+      "end_char": 1785,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "建立健全各项业务与管理活动的规章制度和关键业务环节的操作流程;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1787,
+      "end_char": 1818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "在制定制度、流程,开发新业务、新产品和建设信息系统时,充分体现操作风险管理的要求;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1820,
+      "end_char": 1861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "及时向操作风险管理牵头部门报告操作风险事件,定期报告操作风险管理情况;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1863,
+      "end_char": 1898,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "配备专职或兼职操作风险管理人员,牵头组织本单位操作风险管理工作。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1900,
+      "end_char": 1932,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "证券公司风险管理、法律合规、信息科技、财务、结算、人力资源、安全保卫、后勤保障、综合管理等职能部门除履行以上职责外,还应负责管理本职能领域的操作风险,并为操作风险管理牵头部门提供管理支持。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1934,
+      "end_char": 2028,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "证券公司应将操作风险管理纳入内部审计范畴,对操作风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2030,
+      "end_char": 2116,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第三章 操作风险管理机制",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2118,
+      "end_char": 2130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "section",
+      "text": "第一节 操作风险识别与评估",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2132,
+      "end_char": 2145,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险识别与评估机制,充分识别经营管理活动中的内外部操作风险因素,评估风险状况,确定操作风险管理关注的重点领域和环节:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2147,
+      "end_char": 2214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "建立公司主要业务与管理活动的流程目录并持续更新和完善,并在流程目录的基础上识别操作风险点;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2216,
+      "end_char": 2261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "定期或不定期开展风险与控制自我评估;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2263,
+      "end_char": 2281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(三)通过分析内外部风险事件开展操作风险识别与评估。在发生重大风险事件时,应开展专项操作风险识别与评估;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2283,
+      "end_char": 2335,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(四)建立针对新业务、新产品的判定、评审、验收和回顾等管理流程,充分识别和评估新业务、新产品涉及的操作风险。在业务系统上线等环节,可开展专项操作风险识别与评估;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2337,
+      "end_char": 2417,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(五)根据关键风险指标监测结果,评估操作风险状况与操作风险管理措施的执行效果。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2419,
+      "end_char": 2458,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "section",
+      "text": "第二节 操作风险控制与缓释",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2460,
+      "end_char": 2473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "证券公司应结合风险识别、评估结果,采取合理的操作风险控制或缓释措施,降低、分散、规避或转移操作风险,并将其控制在可接受的水平。证券公司操作风险控制与缓释的基本措施包括但不限于:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2475,
+      "end_char": 2563,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "部门、岗位职责分工应明确、合理,不相容职责应当分离,实现相互制衡和有效监督;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2565,
+      "end_char": 2603,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "授权应具体、明确、合理,通过流程设计、系统控制等严格执行。超过授权范围的须经过相应的被授权单位或责任人批准方可开展;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2605,
+      "end_char": 2663,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "人员上岗前应通过培训等形式确保其熟悉相关管理规范、操作流程、系统功能等;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2665,
+      "end_char": 2701,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "关键业务环节双人负责并加强复核,单人单岗业务应加强监控与检查;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2703,
+      "end_char": 2734,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "定期或不定期对关键岗位人员进行轮换或强制休假;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2736,
+      "end_char": 2759,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "提升各项业务与管理活动的信息化、流程化、自动化水平,通过完善信息系统功能、应用金融科技手段等,减少人工干预;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2761,
+      "end_char": 2815,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "信息系统上线前应经过充分的测试;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2817,
+      "end_char": 2833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "按照最少功能、最小授权和不相容职责分离等原则分配信息系统权限,并定期评估用户权限的合理性;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2880,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "加强交易系统风险指标和参数管理,指标和参数设置应符合业务授权、风险限额等要求。持仓限额、交易额度、风险敞口、压力测试阈值等重要参数的设置、变更应事前与风险管理等相关部门确认,并通过系统控制、流程设计等确保参数设置、变更的准确性和监控的有效性;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2882,
+      "end_char": 3003,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "建立交易差错处理的机制、流程和监控手段,通过流程设置、系统控制等防范交易差错;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3005,
+      "end_char": 3044,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "妥善保存和备份交易数据,保证信息完整、有效;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3046,
+      "end_char": 3068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "建立健全印章、印鉴管理制度,指定专人保管印章、印鉴,严格用印审批流程,妥善保存用印后的书面合同;",
+      "style": "List Paragraph",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3070,
+      "end_char": 3118,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "信息披露事务应建立健全信息收集、传递、审核、披露和保密管理、档案管理等重要环节的管理制度和流程。",
+      "style": "List Paragraph",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3120,
+      "end_char": 3168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "证券公司应针对其主要业务,建立并持续梳理、完善操作风险管理措施,包括但不限于:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3170,
+      "end_char": 3209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "经纪业务应建立健全账户实名制、客户信息保护、异常交易监测、大额及可疑交易报告、客户回访、客户投诉处理等制度和流程,及时发现、妥善处理风险事件;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3211,
+      "end_char": 3282,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "自营业务投资决策、交易执行、清算交收和风险监控等关键岗位由专人负责,并加强自营账户的集中管理和权限控制;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3284,
+      "end_char": 3336,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "投资银行类业务应规范尽职调查过程和项目跟踪管理机制,明确项目相关材料、文件的编制要求和签字审批制度,强化编制或协助编制信息披露文件内容的复核把关,加强对工作底稿的管理;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3338,
+      "end_char": 3422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "资产管理业务应当按规定与其他业务严格分离,并按法律法规、自律规则和合同约定,分别办理不同资产管理计划份额的登记、估值、核算、收益分配,并及时、准确、完整地向投资者进行信息披露;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3424,
+      "end_char": 3512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "融资融券、股票质押等融资类业务应建立健全尽职调查、参数设置、指令申报、资金划转、违约处置等方面的管理制度和业务流程,按规定与客户签订合同,并采用适当的方式向客户明确讲解、告知和确认;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3514,
+      "end_char": 3605,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "场外衍生品业务应建立健全客户准入、交易文件的生成和报备、交易确认、交易簿记与复核、估值核算等重要环节的管理制度和流程,对从事衍生品交易的部门和人员应进行分级授权;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3607,
+      "end_char": 3688,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "涉及跨境的业务应建立健全涉及境内外业务流程衔接、信息系统或数据对接、敏感信息跨境流动、数据备份等方面的管理流程。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3690,
+      "end_char": 3746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "section",
+      "text": "第三节 操作风险监测与报告",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3748,
+      "end_char": 3761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险监测机制,对各类操作风险相关信息及指标等进行动态、持续监测,分析操作风险状况,及时发现问题并采取有效措施,控制、降低风险:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3763,
+      "end_char": 3835,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "(一)建立操作风险关键风险指标体系。证券公司应明确关键风险指标的监测分析目的,说明指标数据来源与统计口径,合理设置指标阈值与监测频率,并建立指标监测预警与报告流程。关键风险指标应逐步覆盖各重点关注领域和关键业务流程。关键风险指标可根据监管要求、操作风险识别与评估结果、内外部操作风险损失数据等设立;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3837,
+      "end_char": 3986,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "(二)持续提升操作风险监测能力。证券公司可通过信息技术手段采集、分析相关数据等方式开展操作风险监测。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3988,
+      "end_char": 4038,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险损失数据收集机制,明确损失数据收集的标准与报告流程,全面、持续地开展操作风险损失数据识别、收集、汇总、分析、报告工作:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4040,
+      "end_char": 4110,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "损失数据记录应包含事件类型、原因、发生时间、损失金额(或非财务损失情况)、发生单位和重要细节描述等;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4112,
+      "end_char": 4162,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "通过分析内外部相关信息和内外部检查中发现的操作风险事件等方式,主动收集操作风险损失数据。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4164,
+      "end_char": 4208,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险报告机制,明确需要报告的情形、报告主体、报告路径和时限等要求,规范事件报告流程。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4210,
+      "end_char": 4261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "证券公司应根据监管部门或其派出机构等的要求报送与重大操作风险事件有关的报告。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4263,
+      "end_char": 4301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险有关问题的整改追踪机制,明确整改责任单位、整改措施、完成时间等要素,并建立内部信息共享与协同整改机制,持续监控、报告整改状况。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4303,
+      "end_char": 4377,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "chapter",
+      "text": "第四章 专项领域的操作风险管理",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4379,
+      "end_char": 4394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "证券公司应将发生操作风险突发事件的场景纳入突发事件应急处理机制,制定和完善应急预案,落实操作风险突发事件的处置职责,最大程度减少操作风险损失。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4396,
+      "end_char": 4467,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "证券公司应建立和完善保障业务连续运行的管理机制,确定重要业务恢复目标,建立业务连续性计划和配置必要资源,并定期开展演练与持续改进,有效降低或消除业务中断造成的影响和损失。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4469,
+      "end_char": 4554,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "证券公司应评估外包活动可能导致的业务中断、敏感信息泄漏等风险,确保外包服务有严谨的合同和服务协议,明确合同各方的责任义务。证券公司应明确各相关部门的外包风险管理职责,监控和管理外包实施过程的风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4556,
+      "end_char": 4654,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "证券公司应高度重视聘用人员的诚信记录,建立和完善公司人员行为管理机制,有效防范公司人员行为不当导致的操作风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4656,
+      "end_char": 4711,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "证券公司应将加强内部控制措施的落实作为操作风险管理的重要手段,在公司内部协同开展风险识别与评估、控制活动设计与实施、检查与评价等工作。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4713,
+      "end_char": 4780,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "chapter",
+      "text": "第五章 系统、数据及其他管理要求",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4782,
+      "end_char": 4798,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "证券公司应建立完善的操作风险管理信息系统或相关系统功能,记录与操作风险损失相关的数据和操作风险事件信息,支持操作风险评估、监测、报告等工作。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4800,
+      "end_char": 4870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "证券公司应建立并逐步完善公司范围内有关操作风险的统一数据分类标准,分类标准可涵盖业务流程目录、操作风险事件类型、风险等级划分等方面。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4872,
+      "end_char": 4938,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "证券公司应建立健全数据治理和质量控制机制,为操作风险管理提供数据支撑。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4940,
+      "end_char": 4975,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "证券公司应将操作风险情景纳入压力测试体系并逐步完善,在开展压力测试时应考虑人员重大操作失误、信息系统重大故障、业务流程设计失效、外部事件造成重大损失等因素。证券公司应当根据压力测试结果反映的风险情况,及时采取适当的应对措施。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4977,
+      "end_char": 5089,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "证券公司可建立操作风险计量模型,提升对操作风险的量化管理能力。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5091,
+      "end_char": 5122,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "chapter",
+      "text": "第六章 自律管理",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5124,
+      "end_char": 5132,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "证券公司应在重大操作风险事件发生当日,向中国证券业协会(以下简称“协会”)报告事件主要情况、影响和应对措施,并在十个工作日内向协会书面报告处理结果。证券公司对引发重大操作风险事件的人员进行内部问责的,相关问责信息应按照《证券行业执业声誉信息管理办法》有关规定报送至协会。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5134,
+      "end_char": 5269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "重大操作风险事件包括但不限于:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5271,
+      "end_char": 5286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "直接经济损失金额1000万元(含)以上或损失金额超过上年末本公司净资本千分之一(含)的操作风险事件;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5288,
+      "end_char": 5338,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "董事、监事、高级管理人员被采取监察调查措施、刑事强制措施或者承担刑事法律责任的事件,以及被证监会采取行政处罚、市场禁入措施或者被采取认定为不适当人选的行政监管措施;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5340,
+      "end_char": 5422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "挪用客户资产、违规代客理财等严重损害客户合法权益的违法违规行为;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5424,
+      "end_char": 5456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "其他对国家金融安全、市场秩序、客户合法权益造成重大影响的事件;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5458,
+      "end_char": 5489,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "协会规定的其他需要报告的事项。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5491,
+      "end_char": 5506,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "协会对证券公司操作风险管理工作实施自律管理,对操作风险管理落实执行情况进行评估和检查,证券公司应予以配合,如实提供有关资料。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5508,
+      "end_char": 5570,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "证券公司违反本指引的,协会依据《中国证券业协会自律措施实施办法》对公司及责任人采取自律管理措施或纪律处分。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5572,
+      "end_char": 5625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "chapter",
+      "text": "第七章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5627,
+      "end_char": 5633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "本指引未尽事宜依照法律、法规、规章及其他相关业务规则执行。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5635,
+      "end_char": 5664,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "本指引所称人员是指与公司建立劳动关系的公司人员、与公司签署委托协议的经纪人、劳务派遣至公司的客服人员等。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5666,
+      "end_char": 5718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "本指引由协会负责解释,自发布之日起施行。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5720,
+      "end_char": 5740,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "证券公司操作风险管理指引\n\n总则\n\n为规范证券公司操作风险管理,完善全面风险管理体系,根据《中华人民共和国证券法》《证券公司监督管理条例》《证券公司风险控制指标管理办法》《证券公司全面风险管理规范》等法律法规、监管规定和自律规则,制定本指引。\n\n本指引所称操作风险是指由不完善或有问题的内部程序、人员、信息技术系统,以及外部事件造成损失的风险。本定义所指操作风险包括法律风险,但不包括战略风险和声誉风险。\n\n证券公司应建立符合监管要求,与自身发展战略、业务特点、规模和复杂程度相适应的操作风险管理体系,将操作风险损失控制在自身可承受的范围内。\n\n证券公司操作风险管理应遵循以下基本原则:\n\n(一)全程全员原则。证券公司操作风险管理应覆盖证券公司各部门、分支机构、子公司以及比照子公司管理的各类孙公司(以下简称“子公司”),包含各类岗位、活动、流程、信息系统、产品等,贯穿决策、执行、监督、反馈等各个环节;\n\n(二)协同管理原则。证券公司操作风险管理应发挥各专业职能部门的作用,根据不同专业领域的特点与分工,有针对性地协同开展风险管理;\n\n(三)审慎应对原则。证券公司应审慎识别和控制各项经营管理活动的操作风险,对操作风险管理重点领域和环节加强风险识别、评估、监测与控制,最大程度地防范和减少操作风险事件对公司、行业造成的损失和负面影响;\n\n(四)防范预见原则。证券公司应充分识别和评估新业务、新产品涉及的操作风险,重视防范已有业务流程和信息系统等可能因新业务、新产品引发的操作风险。\n\n证券公司操作风险管理体系应当包括健全的组织架构、明晰的管理职责与分工、专业的人才队伍、可靠的信息技术系统、量化的风险指标体系和有效的风险应对机制,并通过可操作的管理制度,规范以上要求的落实与开展。\n\n证券公司应树立全员防控操作风险的管理理念,开展操作风险管理相关培训,确保公司人员获得足够专业技能与风险管理知识,不断提升全员的操作风险管理意识与能力。\n\n第二章 操作风险管理职责\n\n证券公司应建立有效的操作风险管理组织架构,明确董事会、监事会、经理层、各部门、分支机构、子公司在操作风险管理中的职责和报告路线,建立健全有效的考核及问责机制。\n\n证券公司董事会应将操作风险作为公司面临的一项重要风险,承担操作风险管理的最终责任,履行以下职责:\n\n推进公司操作风险管理文化建设;\n\n确定操作风险管理的总体目标,审议批准涵盖操作风险的公司风险偏好、容忍度等风险管理重大事项;\n\n确保经理层采取必要措施有效地识别、评估、监测、控制或缓释操作风险;\n\n审议经理层提交的操作风险定期报告,持续关注公司整体操作风险状况。\n\n证券公司监事会承担操作风险管理的监督责任,负责监督检查董事会和经理层在操作风险管理方面的履职尽责情况并督促整改。\n\n证券公司经理层对操作风险管理承担主要责任,应履行以下职责:\n\n建立健全操作风险管理相关制度和流程;\n\n确定操作风险管理组织架构,明确各部门操作风险管理职责并督促其切实履行;\n\n确保操作风险偏好、容忍度等在公司内部的有效沟通、传达和实施;\n\n为操作风险管理配备与业务特点、规模和复杂程度相适应的资源,包括但不限于经费、岗位、人员、履行职责所必需的权限等,有效开展操作风险管理工作;\n\n充分了解操作风险水平及其管理状况等,并定期向董事会报告;\n\n建立健全操作风险管理工作评估、考核与责任追究机制;\n\n培育全员操作风险意识,制定并督促实施相关培训计划。\n\n证券公司首席风险官牵头负责操作风险管理工作。证券公司应当保障首席风险官能够充分履职所必需的知情权和资源配置。\n\n证券公司其他高级管理人员负责各自分管领域的操作风险管理,并为首席风险官统筹管理操作风险提供支持。\n\n证券公司应设立或指定部门,牵头负责以下操作风险管理工作:\n\n拟订操作风险偏好、容忍度等并定期审查;\n\n组织开展操作风险的识别、评估、监控和报告;\n\n协助、指导、检查各部门、分支机构及子公司的操作风险管理工作,落实评估、考核与责任追究机制,定期评价各单位操作风险管理工作开展情况与管理效果;\n\n定期向经理层汇报公司操作风险管理状况及重大变化。\n\n证券公司各部门、分支机构、子公司承担本单位操作风险管理的直接责任,主要职责包括:\n\n主动识别、评估操作风险,建立健全操作风险监测、控制或缓释、应对措施;\n\n建立健全各项业务与管理活动的规章制度和关键业务环节的操作流程;\n\n在制定制度、流程,开发新业务、新产品和建设信息系统时,充分体现操作风险管理的要求;\n\n及时向操作风险管理牵头部门报告操作风险事件,定期报告操作风险管理情况;\n\n配备专职或兼职操作风险管理人员,牵头组织本单位操作风险管理工作。\n\n证券公司风险管理、法律合规、信息科技、财务、结算、人力资源、安全保卫、后勤保障、综合管理等职能部门除履行以上职责外,还应负责管理本职能领域的操作风险,并为操作风险管理牵头部门提供管理支持。\n\n证券公司应将操作风险管理纳入内部审计范畴,对操作风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。\n\n第三章 操作风险管理机制\n\n第一节 操作风险识别与评估\n\n证券公司应建立操作风险识别与评估机制,充分识别经营管理活动中的内外部操作风险因素,评估风险状况,确定操作风险管理关注的重点领域和环节:\n\n建立公司主要业务与管理活动的流程目录并持续更新和完善,并在流程目录的基础上识别操作风险点;\n\n定期或不定期开展风险与控制自我评估;\n\n(三)通过分析内外部风险事件开展操作风险识别与评估。在发生重大风险事件时,应开展专项操作风险识别与评估;\n\n(四)建立针对新业务、新产品的判定、评审、验收和回顾等管理流程,充分识别和评估新业务、新产品涉及的操作风险。在业务系统上线等环节,可开展专项操作风险识别与评估;\n\n(五)根据关键风险指标监测结果,评估操作风险状况与操作风险管理措施的执行效果。\n\n第二节 操作风险控制与缓释\n\n证券公司应结合风险识别、评估结果,采取合理的操作风险控制或缓释措施,降低、分散、规避或转移操作风险,并将其控制在可接受的水平。证券公司操作风险控制与缓释的基本措施包括但不限于:\n\n部门、岗位职责分工应明确、合理,不相容职责应当分离,实现相互制衡和有效监督;\n\n授权应具体、明确、合理,通过流程设计、系统控制等严格执行。超过授权范围的须经过相应的被授权单位或责任人批准方可开展;\n\n人员上岗前应通过培训等形式确保其熟悉相关管理规范、操作流程、系统功能等;\n\n关键业务环节双人负责并加强复核,单人单岗业务应加强监控与检查;\n\n定期或不定期对关键岗位人员进行轮换或强制休假;\n\n提升各项业务与管理活动的信息化、流程化、自动化水平,通过完善信息系统功能、应用金融科技手段等,减少人工干预;\n\n信息系统上线前应经过充分的测试;\n\n按照最少功能、最小授权和不相容职责分离等原则分配信息系统权限,并定期评估用户权限的合理性;\n\n加强交易系统风险指标和参数管理,指标和参数设置应符合业务授权、风险限额等要求。持仓限额、交易额度、风险敞口、压力测试阈值等重要参数的设置、变更应事前与风险管理等相关部门确认,并通过系统控制、流程设计等确保参数设置、变更的准确性和监控的有效性;\n\n建立交易差错处理的机制、流程和监控手段,通过流程设置、系统控制等防范交易差错;\n\n妥善保存和备份交易数据,保证信息完整、有效;\n\n建立健全印章、印鉴管理制度,指定专人保管印章、印鉴,严格用印审批流程,妥善保存用印后的书面合同;\n\n信息披露事务应建立健全信息收集、传递、审核、披露和保密管理、档案管理等重要环节的管理制度和流程。\n\n证券公司应针对其主要业务,建立并持续梳理、完善操作风险管理措施,包括但不限于:\n\n经纪业务应建立健全账户实名制、客户信息保护、异常交易监测、大额及可疑交易报告、客户回访、客户投诉处理等制度和流程,及时发现、妥善处理风险事件;\n\n自营业务投资决策、交易执行、清算交收和风险监控等关键岗位由专人负责,并加强自营账户的集中管理和权限控制;\n\n投资银行类业务应规范尽职调查过程和项目跟踪管理机制,明确项目相关材料、文件的编制要求和签字审批制度,强化编制或协助编制信息披露文件内容的复核把关,加强对工作底稿的管理;\n\n资产管理业务应当按规定与其他业务严格分离,并按法律法规、自律规则和合同约定,分别办理不同资产管理计划份额的登记、估值、核算、收益分配,并及时、准确、完整地向投资者进行信息披露;\n\n融资融券、股票质押等融资类业务应建立健全尽职调查、参数设置、指令申报、资金划转、违约处置等方面的管理制度和业务流程,按规定与客户签订合同,并采用适当的方式向客户明确讲解、告知和确认;\n\n场外衍生品业务应建立健全客户准入、交易文件的生成和报备、交易确认、交易簿记与复核、估值核算等重要环节的管理制度和流程,对从事衍生品交易的部门和人员应进行分级授权;\n\n涉及跨境的业务应建立健全涉及境内外业务流程衔接、信息系统或数据对接、敏感信息跨境流动、数据备份等方面的管理流程。\n\n第三节 操作风险监测与报告\n\n证券公司应建立操作风险监测机制,对各类操作风险相关信息及指标等进行动态、持续监测,分析操作风险状况,及时发现问题并采取有效措施,控制、降低风险:\n\n(一)建立操作风险关键风险指标体系。证券公司应明确关键风险指标的监测分析目的,说明指标数据来源与统计口径,合理设置指标阈值与监测频率,并建立指标监测预警与报告流程。关键风险指标应逐步覆盖各重点关注领域和关键业务流程。关键风险指标可根据监管要求、操作风险识别与评估结果、内外部操作风险损失数据等设立;\n\n(二)持续提升操作风险监测能力。证券公司可通过信息技术手段采集、分析相关数据等方式开展操作风险监测。\n\n证券公司应建立操作风险损失数据收集机制,明确损失数据收集的标准与报告流程,全面、持续地开展操作风险损失数据识别、收集、汇总、分析、报告工作:\n\n损失数据记录应包含事件类型、原因、发生时间、损失金额(或非财务损失情况)、发生单位和重要细节描述等;\n\n通过分析内外部相关信息和内外部检查中发现的操作风险事件等方式,主动收集操作风险损失数据。\n\n证券公司应建立操作风险报告机制,明确需要报告的情形、报告主体、报告路径和时限等要求,规范事件报告流程。\n\n证券公司应根据监管部门或其派出机构等的要求报送与重大操作风险事件有关的报告。\n\n证券公司应建立操作风险有关问题的整改追踪机制,明确整改责任单位、整改措施、完成时间等要素,并建立内部信息共享与协同整改机制,持续监控、报告整改状况。\n\n第四章 专项领域的操作风险管理\n\n证券公司应将发生操作风险突发事件的场景纳入突发事件应急处理机制,制定和完善应急预案,落实操作风险突发事件的处置职责,最大程度减少操作风险损失。\n\n证券公司应建立和完善保障业务连续运行的管理机制,确定重要业务恢复目标,建立业务连续性计划和配置必要资源,并定期开展演练与持续改进,有效降低或消除业务中断造成的影响和损失。\n\n证券公司应评估外包活动可能导致的业务中断、敏感信息泄漏等风险,确保外包服务有严谨的合同和服务协议,明确合同各方的责任义务。证券公司应明确各相关部门的外包风险管理职责,监控和管理外包实施过程的风险。\n\n证券公司应高度重视聘用人员的诚信记录,建立和完善公司人员行为管理机制,有效防范公司人员行为不当导致的操作风险。\n\n证券公司应将加强内部控制措施的落实作为操作风险管理的重要手段,在公司内部协同开展风险识别与评估、控制活动设计与实施、检查与评价等工作。\n\n第五章 系统、数据及其他管理要求\n\n证券公司应建立完善的操作风险管理信息系统或相关系统功能,记录与操作风险损失相关的数据和操作风险事件信息,支持操作风险评估、监测、报告等工作。\n\n证券公司应建立并逐步完善公司范围内有关操作风险的统一数据分类标准,分类标准可涵盖业务流程目录、操作风险事件类型、风险等级划分等方面。\n\n证券公司应建立健全数据治理和质量控制机制,为操作风险管理提供数据支撑。\n\n证券公司应将操作风险情景纳入压力测试体系并逐步完善,在开展压力测试时应考虑人员重大操作失误、信息系统重大故障、业务流程设计失效、外部事件造成重大损失等因素。证券公司应当根据压力测试结果反映的风险情况,及时采取适当的应对措施。\n\n证券公司可建立操作风险计量模型,提升对操作风险的量化管理能力。\n\n第六章 自律管理\n\n证券公司应在重大操作风险事件发生当日,向中国证券业协会(以下简称“协会”)报告事件主要情况、影响和应对措施,并在十个工作日内向协会书面报告处理结果。证券公司对引发重大操作风险事件的人员进行内部问责的,相关问责信息应按照《证券行业执业声誉信息管理办法》有关规定报送至协会。\n\n重大操作风险事件包括但不限于:\n\n直接经济损失金额1000万元(含)以上或损失金额超过上年末本公司净资本千分之一(含)的操作风险事件;\n\n董事、监事、高级管理人员被采取监察调查措施、刑事强制措施或者承担刑事法律责任的事件,以及被证监会采取行政处罚、市场禁入措施或者被采取认定为不适当人选的行政监管措施;\n\n挪用客户资产、违规代客理财等严重损害客户合法权益的违法违规行为;\n\n其他对国家金融安全、市场秩序、客户合法权益造成重大影响的事件;\n\n协会规定的其他需要报告的事项。\n\n协会对证券公司操作风险管理工作实施自律管理,对操作风险管理落实执行情况进行评估和检查,证券公司应予以配合,如实提供有关资料。\n\n证券公司违反本指引的,协会依据《中国证券业协会自律措施实施办法》对公司及责任人采取自律管理措施或纪律处分。\n\n第七章 附则\n\n本指引未尽事宜依照法律、法规、规章及其他相关业务规则执行。\n\n本指引所称人员是指与公司建立劳动关系的公司人员、与公司签署委托协议的经纪人、劳务派遣至公司的客服人员等。\n\n本指引由协会负责解释,自发布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司操作风险管理指引",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "总则",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "为规范证券公司操作风险管理,完善全面风险管理体系,根据《中华人民共和国证券法》《证券公司监督管理条例》《证券公司风险控制指标管理办法》《证券公司全面风险管理规范》等法律法规、监管规定和自律规则,制定本指引。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 121,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "本指引所称操作风险是指由不完善或有问题的内部程序、人员、信息技术系统,以及外部事件造成损失的风险。本定义所指操作风险包括法律风险,但不包括战略风险和声誉风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 123,
+      "end_char": 202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "证券公司应建立符合监管要求,与自身发展战略、业务特点、规模和复杂程度相适应的操作风险管理体系,将操作风险损失控制在自身可承受的范围内。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 204,
+      "end_char": 271,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司操作风险管理应遵循以下基本原则:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 273,
+      "end_char": 293,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(一)全程全员原则。证券公司操作风险管理应覆盖证券公司各部门、分支机构、子公司以及比照子公司管理的各类孙公司(以下简称“子公司”),包含各类岗位、活动、流程、信息系统、产品等,贯穿决策、执行、监督、反馈等各个环节;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 295,
+      "end_char": 402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(二)协同管理原则。证券公司操作风险管理应发挥各专业职能部门的作用,根据不同专业领域的特点与分工,有针对性地协同开展风险管理;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 404,
+      "end_char": 467,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(三)审慎应对原则。证券公司应审慎识别和控制各项经营管理活动的操作风险,对操作风险管理重点领域和环节加强风险识别、评估、监测与控制,最大程度地防范和减少操作风险事件对公司、行业造成的损失和负面影响;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 469,
+      "end_char": 568,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "(四)防范预见原则。证券公司应充分识别和评估新业务、新产品涉及的操作风险,重视防范已有业务流程和信息系统等可能因新业务、新产品引发的操作风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 570,
+      "end_char": 641,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "证券公司操作风险管理体系应当包括健全的组织架构、明晰的管理职责与分工、专业的人才队伍、可靠的信息技术系统、量化的风险指标体系和有效的风险应对机制,并通过可操作的管理制度,规范以上要求的落实与开展。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 643,
+      "end_char": 741,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "证券公司应树立全员防控操作风险的管理理念,开展操作风险管理相关培训,确保公司人员获得足够专业技能与风险管理知识,不断提升全员的操作风险管理意识与能力。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 743,
+      "end_char": 818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "chapter",
+      "text": "第二章 操作风险管理职责",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 832,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "证券公司应建立有效的操作风险管理组织架构,明确董事会、监事会、经理层、各部门、分支机构、子公司在操作风险管理中的职责和报告路线,建立健全有效的考核及问责机制。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 834,
+      "end_char": 913,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "证券公司董事会应将操作风险作为公司面临的一项重要风险,承担操作风险管理的最终责任,履行以下职责:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 915,
+      "end_char": 963,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "推进公司操作风险管理文化建设;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 965,
+      "end_char": 980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "确定操作风险管理的总体目标,审议批准涵盖操作风险的公司风险偏好、容忍度等风险管理重大事项;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 982,
+      "end_char": 1027,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "确保经理层采取必要措施有效地识别、评估、监测、控制或缓释操作风险;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1029,
+      "end_char": 1062,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "审议经理层提交的操作风险定期报告,持续关注公司整体操作风险状况。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1064,
+      "end_char": 1096,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券公司监事会承担操作风险管理的监督责任,负责监督检查董事会和经理层在操作风险管理方面的履职尽责情况并督促整改。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1098,
+      "end_char": 1154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "证券公司经理层对操作风险管理承担主要责任,应履行以下职责:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1156,
+      "end_char": 1185,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "建立健全操作风险管理相关制度和流程;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1187,
+      "end_char": 1205,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "确定操作风险管理组织架构,明确各部门操作风险管理职责并督促其切实履行;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1207,
+      "end_char": 1242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "确保操作风险偏好、容忍度等在公司内部的有效沟通、传达和实施;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1244,
+      "end_char": 1274,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "为操作风险管理配备与业务特点、规模和复杂程度相适应的资源,包括但不限于经费、岗位、人员、履行职责所必需的权限等,有效开展操作风险管理工作;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1276,
+      "end_char": 1345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "充分了解操作风险水平及其管理状况等,并定期向董事会报告;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "建立健全操作风险管理工作评估、考核与责任追究机制;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1377,
+      "end_char": 1402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "培育全员操作风险意识,制定并督促实施相关培训计划。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1404,
+      "end_char": 1429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "证券公司首席风险官牵头负责操作风险管理工作。证券公司应当保障首席风险官能够充分履职所必需的知情权和资源配置。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1431,
+      "end_char": 1485,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "证券公司其他高级管理人员负责各自分管领域的操作风险管理,并为首席风险官统筹管理操作风险提供支持。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1487,
+      "end_char": 1535,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "证券公司应设立或指定部门,牵头负责以下操作风险管理工作:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1537,
+      "end_char": 1565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "拟订操作风险偏好、容忍度等并定期审查;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1567,
+      "end_char": 1586,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "组织开展操作风险的识别、评估、监控和报告;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1588,
+      "end_char": 1609,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "协助、指导、检查各部门、分支机构及子公司的操作风险管理工作,落实评估、考核与责任追究机制,定期评价各单位操作风险管理工作开展情况与管理效果;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1611,
+      "end_char": 1681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "定期向经理层汇报公司操作风险管理状况及重大变化。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1683,
+      "end_char": 1707,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "证券公司各部门、分支机构、子公司承担本单位操作风险管理的直接责任,主要职责包括:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1709,
+      "end_char": 1749,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "主动识别、评估操作风险,建立健全操作风险监测、控制或缓释、应对措施;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1751,
+      "end_char": 1785,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "建立健全各项业务与管理活动的规章制度和关键业务环节的操作流程;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1787,
+      "end_char": 1818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "在制定制度、流程,开发新业务、新产品和建设信息系统时,充分体现操作风险管理的要求;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1820,
+      "end_char": 1861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "及时向操作风险管理牵头部门报告操作风险事件,定期报告操作风险管理情况;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1863,
+      "end_char": 1898,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "配备专职或兼职操作风险管理人员,牵头组织本单位操作风险管理工作。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1900,
+      "end_char": 1932,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "证券公司风险管理、法律合规、信息科技、财务、结算、人力资源、安全保卫、后勤保障、综合管理等职能部门除履行以上职责外,还应负责管理本职能领域的操作风险,并为操作风险管理牵头部门提供管理支持。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1934,
+      "end_char": 2028,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "证券公司应将操作风险管理纳入内部审计范畴,对操作风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2030,
+      "end_char": 2116,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第三章 操作风险管理机制",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2118,
+      "end_char": 2130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "section",
+      "text": "第一节 操作风险识别与评估",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2132,
+      "end_char": 2145,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险识别与评估机制,充分识别经营管理活动中的内外部操作风险因素,评估风险状况,确定操作风险管理关注的重点领域和环节:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2147,
+      "end_char": 2214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "建立公司主要业务与管理活动的流程目录并持续更新和完善,并在流程目录的基础上识别操作风险点;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2216,
+      "end_char": 2261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "定期或不定期开展风险与控制自我评估;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2263,
+      "end_char": 2281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(三)通过分析内外部风险事件开展操作风险识别与评估。在发生重大风险事件时,应开展专项操作风险识别与评估;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2283,
+      "end_char": 2335,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(四)建立针对新业务、新产品的判定、评审、验收和回顾等管理流程,充分识别和评估新业务、新产品涉及的操作风险。在业务系统上线等环节,可开展专项操作风险识别与评估;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2337,
+      "end_char": 2417,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(五)根据关键风险指标监测结果,评估操作风险状况与操作风险管理措施的执行效果。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2419,
+      "end_char": 2458,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "section",
+      "text": "第二节 操作风险控制与缓释",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2460,
+      "end_char": 2473,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "证券公司应结合风险识别、评估结果,采取合理的操作风险控制或缓释措施,降低、分散、规避或转移操作风险,并将其控制在可接受的水平。证券公司操作风险控制与缓释的基本措施包括但不限于:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2475,
+      "end_char": 2563,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "部门、岗位职责分工应明确、合理,不相容职责应当分离,实现相互制衡和有效监督;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2565,
+      "end_char": 2603,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "授权应具体、明确、合理,通过流程设计、系统控制等严格执行。超过授权范围的须经过相应的被授权单位或责任人批准方可开展;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2605,
+      "end_char": 2663,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "人员上岗前应通过培训等形式确保其熟悉相关管理规范、操作流程、系统功能等;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2665,
+      "end_char": 2701,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "关键业务环节双人负责并加强复核,单人单岗业务应加强监控与检查;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2703,
+      "end_char": 2734,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "定期或不定期对关键岗位人员进行轮换或强制休假;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2736,
+      "end_char": 2759,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "提升各项业务与管理活动的信息化、流程化、自动化水平,通过完善信息系统功能、应用金融科技手段等,减少人工干预;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2761,
+      "end_char": 2815,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "信息系统上线前应经过充分的测试;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2817,
+      "end_char": 2833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "按照最少功能、最小授权和不相容职责分离等原则分配信息系统权限,并定期评估用户权限的合理性;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2880,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "加强交易系统风险指标和参数管理,指标和参数设置应符合业务授权、风险限额等要求。持仓限额、交易额度、风险敞口、压力测试阈值等重要参数的设置、变更应事前与风险管理等相关部门确认,并通过系统控制、流程设计等确保参数设置、变更的准确性和监控的有效性;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2882,
+      "end_char": 3003,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "建立交易差错处理的机制、流程和监控手段,通过流程设置、系统控制等防范交易差错;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3005,
+      "end_char": 3044,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "妥善保存和备份交易数据,保证信息完整、有效;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3046,
+      "end_char": 3068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "建立健全印章、印鉴管理制度,指定专人保管印章、印鉴,严格用印审批流程,妥善保存用印后的书面合同;",
+      "style": "List Paragraph",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3070,
+      "end_char": 3118,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "信息披露事务应建立健全信息收集、传递、审核、披露和保密管理、档案管理等重要环节的管理制度和流程。",
+      "style": "List Paragraph",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3120,
+      "end_char": 3168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "证券公司应针对其主要业务,建立并持续梳理、完善操作风险管理措施,包括但不限于:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3170,
+      "end_char": 3209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "经纪业务应建立健全账户实名制、客户信息保护、异常交易监测、大额及可疑交易报告、客户回访、客户投诉处理等制度和流程,及时发现、妥善处理风险事件;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3211,
+      "end_char": 3282,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "自营业务投资决策、交易执行、清算交收和风险监控等关键岗位由专人负责,并加强自营账户的集中管理和权限控制;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3284,
+      "end_char": 3336,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "投资银行类业务应规范尽职调查过程和项目跟踪管理机制,明确项目相关材料、文件的编制要求和签字审批制度,强化编制或协助编制信息披露文件内容的复核把关,加强对工作底稿的管理;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3338,
+      "end_char": 3422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "资产管理业务应当按规定与其他业务严格分离,并按法律法规、自律规则和合同约定,分别办理不同资产管理计划份额的登记、估值、核算、收益分配,并及时、准确、完整地向投资者进行信息披露;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3424,
+      "end_char": 3512,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "融资融券、股票质押等融资类业务应建立健全尽职调查、参数设置、指令申报、资金划转、违约处置等方面的管理制度和业务流程,按规定与客户签订合同,并采用适当的方式向客户明确讲解、告知和确认;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3514,
+      "end_char": 3605,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "场外衍生品业务应建立健全客户准入、交易文件的生成和报备、交易确认、交易簿记与复核、估值核算等重要环节的管理制度和流程,对从事衍生品交易的部门和人员应进行分级授权;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3607,
+      "end_char": 3688,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "涉及跨境的业务应建立健全涉及境内外业务流程衔接、信息系统或数据对接、敏感信息跨境流动、数据备份等方面的管理流程。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3690,
+      "end_char": 3746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "section",
+      "text": "第三节 操作风险监测与报告",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3748,
+      "end_char": 3761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险监测机制,对各类操作风险相关信息及指标等进行动态、持续监测,分析操作风险状况,及时发现问题并采取有效措施,控制、降低风险:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3763,
+      "end_char": 3835,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "(一)建立操作风险关键风险指标体系。证券公司应明确关键风险指标的监测分析目的,说明指标数据来源与统计口径,合理设置指标阈值与监测频率,并建立指标监测预警与报告流程。关键风险指标应逐步覆盖各重点关注领域和关键业务流程。关键风险指标可根据监管要求、操作风险识别与评估结果、内外部操作风险损失数据等设立;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3837,
+      "end_char": 3986,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "(二)持续提升操作风险监测能力。证券公司可通过信息技术手段采集、分析相关数据等方式开展操作风险监测。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3988,
+      "end_char": 4038,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险损失数据收集机制,明确损失数据收集的标准与报告流程,全面、持续地开展操作风险损失数据识别、收集、汇总、分析、报告工作:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4040,
+      "end_char": 4110,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "损失数据记录应包含事件类型、原因、发生时间、损失金额(或非财务损失情况)、发生单位和重要细节描述等;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4112,
+      "end_char": 4162,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "通过分析内外部相关信息和内外部检查中发现的操作风险事件等方式,主动收集操作风险损失数据。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4164,
+      "end_char": 4208,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险报告机制,明确需要报告的情形、报告主体、报告路径和时限等要求,规范事件报告流程。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4210,
+      "end_char": 4261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "证券公司应根据监管部门或其派出机构等的要求报送与重大操作风险事件有关的报告。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4263,
+      "end_char": 4301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "证券公司应建立操作风险有关问题的整改追踪机制,明确整改责任单位、整改措施、完成时间等要素,并建立内部信息共享与协同整改机制,持续监控、报告整改状况。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4303,
+      "end_char": 4377,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "chapter",
+      "text": "第四章 专项领域的操作风险管理",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4379,
+      "end_char": 4394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "证券公司应将发生操作风险突发事件的场景纳入突发事件应急处理机制,制定和完善应急预案,落实操作风险突发事件的处置职责,最大程度减少操作风险损失。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4396,
+      "end_char": 4467,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "证券公司应建立和完善保障业务连续运行的管理机制,确定重要业务恢复目标,建立业务连续性计划和配置必要资源,并定期开展演练与持续改进,有效降低或消除业务中断造成的影响和损失。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4469,
+      "end_char": 4554,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "证券公司应评估外包活动可能导致的业务中断、敏感信息泄漏等风险,确保外包服务有严谨的合同和服务协议,明确合同各方的责任义务。证券公司应明确各相关部门的外包风险管理职责,监控和管理外包实施过程的风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4556,
+      "end_char": 4654,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "证券公司应高度重视聘用人员的诚信记录,建立和完善公司人员行为管理机制,有效防范公司人员行为不当导致的操作风险。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4656,
+      "end_char": 4711,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "证券公司应将加强内部控制措施的落实作为操作风险管理的重要手段,在公司内部协同开展风险识别与评估、控制活动设计与实施、检查与评价等工作。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4713,
+      "end_char": 4780,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "chapter",
+      "text": "第五章 系统、数据及其他管理要求",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4782,
+      "end_char": 4798,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "证券公司应建立完善的操作风险管理信息系统或相关系统功能,记录与操作风险损失相关的数据和操作风险事件信息,支持操作风险评估、监测、报告等工作。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4800,
+      "end_char": 4870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "证券公司应建立并逐步完善公司范围内有关操作风险的统一数据分类标准,分类标准可涵盖业务流程目录、操作风险事件类型、风险等级划分等方面。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4872,
+      "end_char": 4938,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "证券公司应建立健全数据治理和质量控制机制,为操作风险管理提供数据支撑。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4940,
+      "end_char": 4975,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "证券公司应将操作风险情景纳入压力测试体系并逐步完善,在开展压力测试时应考虑人员重大操作失误、信息系统重大故障、业务流程设计失效、外部事件造成重大损失等因素。证券公司应当根据压力测试结果反映的风险情况,及时采取适当的应对措施。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4977,
+      "end_char": 5089,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "证券公司可建立操作风险计量模型,提升对操作风险的量化管理能力。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5091,
+      "end_char": 5122,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "chapter",
+      "text": "第六章 自律管理",
+      "style": "Heading 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5124,
+      "end_char": 5132,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "证券公司应在重大操作风险事件发生当日,向中国证券业协会(以下简称“协会”)报告事件主要情况、影响和应对措施,并在十个工作日内向协会书面报告处理结果。证券公司对引发重大操作风险事件的人员进行内部问责的,相关问责信息应按照《证券行业执业声誉信息管理办法》有关规定报送至协会。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5134,
+      "end_char": 5269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "重大操作风险事件包括但不限于:",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5271,
+      "end_char": 5286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "直接经济损失金额1000万元(含)以上或损失金额超过上年末本公司净资本千分之一(含)的操作风险事件;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5288,
+      "end_char": 5338,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "董事、监事、高级管理人员被采取监察调查措施、刑事强制措施或者承担刑事法律责任的事件,以及被证监会采取行政处罚、市场禁入措施或者被采取认定为不适当人选的行政监管措施;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5340,
+      "end_char": 5422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "挪用客户资产、违规代客理财等严重损害客户合法权益的违法违规行为;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5424,
+      "end_char": 5456,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "其他对国家金融安全、市场秩序、客户合法权益造成重大影响的事件;",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5458,
+      "end_char": 5489,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "协会规定的其他需要报告的事项。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5491,
+      "end_char": 5506,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "协会对证券公司操作风险管理工作实施自律管理,对操作风险管理落实执行情况进行评估和检查,证券公司应予以配合,如实提供有关资料。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5508,
+      "end_char": 5570,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "证券公司违反本指引的,协会依据《中国证券业协会自律措施实施办法》对公司及责任人采取自律管理措施或纪律处分。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5572,
+      "end_char": 5625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "chapter",
+      "text": "第七章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5627,
+      "end_char": 5633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "本指引未尽事宜依照法律、法规、规章及其他相关业务规则执行。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5635,
+      "end_char": 5664,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "本指引所称人员是指与公司建立劳动关系的公司人员、与公司签署委托协议的经纪人、劳务派遣至公司的客服人员等。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5666,
+      "end_char": 5718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "本指引由协会负责解释,自发布之日起施行。",
+      "style": "Normal (Web)",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5720,
+      "end_char": 5740,
+      "region": "body"
+    }
+  ],
   "normalized_text": "证券公司操作风险管理指引\n\n总则\n\n为规范证券公司操作风险管理,完善全面风险管理体系,根据《中华人民共和国证券法》《证券公司监督管理条例》《证券公司风险控制指标管理办法》《证券公司全面风险管理规范》等法律法规、监管规定和自律规则,制定本指引。\n\n本指引所称操作风险是指由不完善或有问题的内部程序、人员、信息技术系统,以及外部事件造成损失的风险。本定义所指操作风险包括法律风险,但不包括战略风险和声誉风险。\n\n证券公司应建立符合监管要求,与自身发展战略、业务特点、规模和复杂程度相适应的操作风险管理体系,将操作风险损失控制在自身可承受的范围内。\n\n证券公司操作风险管理应遵循以下基本原则:\n\n(一)全程全员原则。证券公司操作风险管理应覆盖证券公司各部门、分支机构、子公司以及比照子公司管理的各类孙公司(以下简称“子公司”),包含各类岗位、活动、流程、信息系统、产品等,贯穿决策、执行、监督、反馈等各个环节;\n\n(二)协同管理原则。证券公司操作风险管理应发挥各专业职能部门的作用,根据不同专业领域的特点与分工,有针对性地协同开展风险管理;\n\n(三)审慎应对原则。证券公司应审慎识别和控制各项经营管理活动的操作风险,对操作风险管理重点领域和环节加强风险识别、评估、监测与控制,最大程度地防范和减少操作风险事件对公司、行业造成的损失和负面影响;\n\n(四)防范预见原则。证券公司应充分识别和评估新业务、新产品涉及的操作风险,重视防范已有业务流程和信息系统等可能因新业务、新产品引发的操作风险。\n\n证券公司操作风险管理体系应当包括健全的组织架构、明晰的管理职责与分工、专业的人才队伍、可靠的信息技术系统、量化的风险指标体系和有效的风险应对机制,并通过可操作的管理制度,规范以上要求的落实与开展。\n\n证券公司应树立全员防控操作风险的管理理念,开展操作风险管理相关培训,确保公司人员获得足够专业技能与风险管理知识,不断提升全员的操作风险管理意识与能力。\n\n第二章 操作风险管理职责\n\n证券公司应建立有效的操作风险管理组织架构,明确董事会、监事会、经理层、各部门、分支机构、子公司在操作风险管理中的职责和报告路线,建立健全有效的考核及问责机制。\n\n证券公司董事会应将操作风险作为公司面临的一项重要风险,承担操作风险管理的最终责任,履行以下职责:\n\n推进公司操作风险管理文化建设;\n\n确定操作风险管理的总体目标,审议批准涵盖操作风险的公司风险偏好、容忍度等风险管理重大事项;\n\n确保经理层采取必要措施有效地识别、评估、监测、控制或缓释操作风险;\n\n审议经理层提交的操作风险定期报告,持续关注公司整体操作风险状况。\n\n证券公司监事会承担操作风险管理的监督责任,负责监督检查董事会和经理层在操作风险管理方面的履职尽责情况并督促整改。\n\n证券公司经理层对操作风险管理承担主要责任,应履行以下职责:\n\n建立健全操作风险管理相关制度和流程;\n\n确定操作风险管理组织架构,明确各部门操作风险管理职责并督促其切实履行;\n\n确保操作风险偏好、容忍度等在公司内部的有效沟通、传达和实施;\n\n为操作风险管理配备与业务特点、规模和复杂程度相适应的资源,包括但不限于经费、岗位、人员、履行职责所必需的权限等,有效开展操作风险管理工作;\n\n充分了解操作风险水平及其管理状况等,并定期向董事会报告;\n\n建立健全操作风险管理工作评估、考核与责任追究机制;\n\n培育全员操作风险意识,制定并督促实施相关培训计划。\n\n证券公司首席风险官牵头负责操作风险管理工作。证券公司应当保障首席风险官能够充分履职所必需的知情权和资源配置。\n\n证券公司其他高级管理人员负责各自分管领域的操作风险管理,并为首席风险官统筹管理操作风险提供支持。\n\n证券公司应设立或指定部门,牵头负责以下操作风险管理工作:\n\n拟订操作风险偏好、容忍度等并定期审查;\n\n组织开展操作风险的识别、评估、监控和报告;\n\n协助、指导、检查各部门、分支机构及子公司的操作风险管理工作,落实评估、考核与责任追究机制,定期评价各单位操作风险管理工作开展情况与管理效果;\n\n定期向经理层汇报公司操作风险管理状况及重大变化。\n\n证券公司各部门、分支机构、子公司承担本单位操作风险管理的直接责任,主要职责包括:\n\n主动识别、评估操作风险,建立健全操作风险监测、控制或缓释、应对措施;\n\n建立健全各项业务与管理活动的规章制度和关键业务环节的操作流程;\n\n在制定制度、流程,开发新业务、新产品和建设信息系统时,充分体现操作风险管理的要求;\n\n及时向操作风险管理牵头部门报告操作风险事件,定期报告操作风险管理情况;\n\n配备专职或兼职操作风险管理人员,牵头组织本单位操作风险管理工作。\n\n证券公司风险管理、法律合规、信息科技、财务、结算、人力资源、安全保卫、后勤保障、综合管理等职能部门除履行以上职责外,还应负责管理本职能领域的操作风险,并为操作风险管理牵头部门提供管理支持。\n\n证券公司应将操作风险管理纳入内部审计范畴,对操作风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。\n\n第三章 操作风险管理机制\n\n第一节 操作风险识别与评估\n\n证券公司应建立操作风险识别与评估机制,充分识别经营管理活动中的内外部操作风险因素,评估风险状况,确定操作风险管理关注的重点领域和环节:\n\n建立公司主要业务与管理活动的流程目录并持续更新和完善,并在流程目录的基础上识别操作风险点;\n\n定期或不定期开展风险与控制自我评估;\n\n(三)通过分析内外部风险事件开展操作风险识别与评估。在发生重大风险事件时,应开展专项操作风险识别与评估;\n\n(四)建立针对新业务、新产品的判定、评审、验收和回顾等管理流程,充分识别和评估新业务、新产品涉及的操作风险。在业务系统上线等环节,可开展专项操作风险识别与评估;\n\n(五)根据关键风险指标监测结果,评估操作风险状况与操作风险管理措施的执行效果。\n\n第二节 操作风险控制与缓释\n\n证券公司应结合风险识别、评估结果,采取合理的操作风险控制或缓释措施,降低、分散、规避或转移操作风险,并将其控制在可接受的水平。证券公司操作风险控制与缓释的基本措施包括但不限于:\n\n部门、岗位职责分工应明确、合理,不相容职责应当分离,实现相互制衡和有效监督;\n\n授权应具体、明确、合理,通过流程设计、系统控制等严格执行。超过授权范围的须经过相应的被授权单位或责任人批准方可开展;\n\n人员上岗前应通过培训等形式确保其熟悉相关管理规范、操作流程、系统功能等;\n\n关键业务环节双人负责并加强复核,单人单岗业务应加强监控与检查;\n\n定期或不定期对关键岗位人员进行轮换或强制休假;\n\n提升各项业务与管理活动的信息化、流程化、自动化水平,通过完善信息系统功能、应用金融科技手段等,减少人工干预;\n\n信息系统上线前应经过充分的测试;\n\n按照最少功能、最小授权和不相容职责分离等原则分配信息系统权限,并定期评估用户权限的合理性;\n\n加强交易系统风险指标和参数管理,指标和参数设置应符合业务授权、风险限额等要求。持仓限额、交易额度、风险敞口、压力测试阈值等重要参数的设置、变更应事前与风险管理等相关部门确认,并通过系统控制、流程设计等确保参数设置、变更的准确性和监控的有效性;\n\n建立交易差错处理的机制、流程和监控手段,通过流程设置、系统控制等防范交易差错;\n\n妥善保存和备份交易数据,保证信息完整、有效;\n\n建立健全印章、印鉴管理制度,指定专人保管印章、印鉴,严格用印审批流程,妥善保存用印后的书面合同;\n\n信息披露事务应建立健全信息收集、传递、审核、披露和保密管理、档案管理等重要环节的管理制度和流程。\n\n证券公司应针对其主要业务,建立并持续梳理、完善操作风险管理措施,包括但不限于:\n\n经纪业务应建立健全账户实名制、客户信息保护、异常交易监测、大额及可疑交易报告、客户回访、客户投诉处理等制度和流程,及时发现、妥善处理风险事件;\n\n自营业务投资决策、交易执行、清算交收和风险监控等关键岗位由专人负责,并加强自营账户的集中管理和权限控制;\n\n投资银行类业务应规范尽职调查过程和项目跟踪管理机制,明确项目相关材料、文件的编制要求和签字审批制度,强化编制或协助编制信息披露文件内容的复核把关,加强对工作底稿的管理;\n\n资产管理业务应当按规定与其他业务严格分离,并按法律法规、自律规则和合同约定,分别办理不同资产管理计划份额的登记、估值、核算、收益分配,并及时、准确、完整地向投资者进行信息披露;\n\n融资融券、股票质押等融资类业务应建立健全尽职调查、参数设置、指令申报、资金划转、违约处置等方面的管理制度和业务流程,按规定与客户签订合同,并采用适当的方式向客户明确讲解、告知和确认;\n\n场外衍生品业务应建立健全客户准入、交易文件的生成和报备、交易确认、交易簿记与复核、估值核算等重要环节的管理制度和流程,对从事衍生品交易的部门和人员应进行分级授权;\n\n涉及跨境的业务应建立健全涉及境内外业务流程衔接、信息系统或数据对接、敏感信息跨境流动、数据备份等方面的管理流程。\n\n第三节 操作风险监测与报告\n\n证券公司应建立操作风险监测机制,对各类操作风险相关信息及指标等进行动态、持续监测,分析操作风险状况,及时发现问题并采取有效措施,控制、降低风险:\n\n(一)建立操作风险关键风险指标体系。证券公司应明确关键风险指标的监测分析目的,说明指标数据来源与统计口径,合理设置指标阈值与监测频率,并建立指标监测预警与报告流程。关键风险指标应逐步覆盖各重点关注领域和关键业务流程。关键风险指标可根据监管要求、操作风险识别与评估结果、内外部操作风险损失数据等设立;\n\n(二)持续提升操作风险监测能力。证券公司可通过信息技术手段采集、分析相关数据等方式开展操作风险监测。\n\n证券公司应建立操作风险损失数据收集机制,明确损失数据收集的标准与报告流程,全面、持续地开展操作风险损失数据识别、收集、汇总、分析、报告工作:\n\n损失数据记录应包含事件类型、原因、发生时间、损失金额(或非财务损失情况)、发生单位和重要细节描述等;\n\n通过分析内外部相关信息和内外部检查中发现的操作风险事件等方式,主动收集操作风险损失数据。\n\n证券公司应建立操作风险报告机制,明确需要报告的情形、报告主体、报告路径和时限等要求,规范事件报告流程。\n\n证券公司应根据监管部门或其派出机构等的要求报送与重大操作风险事件有关的报告。\n\n证券公司应建立操作风险有关问题的整改追踪机制,明确整改责任单位、整改措施、完成时间等要素,并建立内部信息共享与协同整改机制,持续监控、报告整改状况。\n\n第四章 专项领域的操作风险管理\n\n证券公司应将发生操作风险突发事件的场景纳入突发事件应急处理机制,制定和完善应急预案,落实操作风险突发事件的处置职责,最大程度减少操作风险损失。\n\n证券公司应建立和完善保障业务连续运行的管理机制,确定重要业务恢复目标,建立业务连续性计划和配置必要资源,并定期开展演练与持续改进,有效降低或消除业务中断造成的影响和损失。\n\n证券公司应评估外包活动可能导致的业务中断、敏感信息泄漏等风险,确保外包服务有严谨的合同和服务协议,明确合同各方的责任义务。证券公司应明确各相关部门的外包风险管理职责,监控和管理外包实施过程的风险。\n\n证券公司应高度重视聘用人员的诚信记录,建立和完善公司人员行为管理机制,有效防范公司人员行为不当导致的操作风险。\n\n证券公司应将加强内部控制措施的落实作为操作风险管理的重要手段,在公司内部协同开展风险识别与评估、控制活动设计与实施、检查与评价等工作。\n\n第五章 系统、数据及其他管理要求\n\n证券公司应建立完善的操作风险管理信息系统或相关系统功能,记录与操作风险损失相关的数据和操作风险事件信息,支持操作风险评估、监测、报告等工作。\n\n证券公司应建立并逐步完善公司范围内有关操作风险的统一数据分类标准,分类标准可涵盖业务流程目录、操作风险事件类型、风险等级划分等方面。\n\n证券公司应建立健全数据治理和质量控制机制,为操作风险管理提供数据支撑。\n\n证券公司应将操作风险情景纳入压力测试体系并逐步完善,在开展压力测试时应考虑人员重大操作失误、信息系统重大故障、业务流程设计失效、外部事件造成重大损失等因素。证券公司应当根据压力测试结果反映的风险情况,及时采取适当的应对措施。\n\n证券公司可建立操作风险计量模型,提升对操作风险的量化管理能力。\n\n第六章 自律管理\n\n证券公司应在重大操作风险事件发生当日,向中国证券业协会(以下简称“协会”)报告事件主要情况、影响和应对措施,并在十个工作日内向协会书面报告处理结果。证券公司对引发重大操作风险事件的人员进行内部问责的,相关问责信息应按照《证券行业执业声誉信息管理办法》有关规定报送至协会。\n\n重大操作风险事件包括但不限于:\n\n直接经济损失金额1000万元(含)以上或损失金额超过上年末本公司净资本千分之一(含)的操作风险事件;\n\n董事、监事、高级管理人员被采取监察调查措施、刑事强制措施或者承担刑事法律责任的事件,以及被证监会采取行政处罚、市场禁入措施或者被采取认定为不适当人选的行政监管措施;\n\n挪用客户资产、违规代客理财等严重损害客户合法权益的违法违规行为;\n\n其他对国家金融安全、市场秩序、客户合法权益造成重大影响的事件;\n\n协会规定的其他需要报告的事项。\n\n协会对证券公司操作风险管理工作实施自律管理,对操作风险管理落实执行情况进行评估和检查,证券公司应予以配合,如实提供有关资料。\n\n证券公司违反本指引的,协会依据《中国证券业协会自律措施实施办法》对公司及责任人采取自律管理措施或纪律处分。\n\n第七章 附则\n\n本指引未尽事宜依照法律、法规、规章及其他相关业务规则执行。\n\n本指引所称人员是指与公司建立劳动关系的公司人员、与公司签署委托协议的经纪人、劳务派遣至公司的客服人员等。\n\n本指引由协会负责解释,自发布之日起施行。",
   "blocks": [
     {
@@ -159,7 +2808,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -167,7 +2823,14 @@
       "style": "Heading 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 16,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -175,7 +2838,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 121,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -183,7 +2853,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 123,
+      "end_char": 202,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -191,7 +2868,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 204,
+      "end_char": 271,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -199,7 +2883,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 273,
+      "end_char": 293,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -207,7 +2898,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 295,
+      "end_char": 402,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -215,7 +2913,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 404,
+      "end_char": 467,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -223,7 +2928,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 469,
+      "end_char": 568,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -231,7 +2943,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 570,
+      "end_char": 641,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -239,7 +2958,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 643,
+      "end_char": 741,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -247,7 +2973,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 743,
+      "end_char": 818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -255,7 +2988,14 @@
       "style": "Heading 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 832,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -263,7 +3003,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 834,
+      "end_char": 913,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -271,7 +3018,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 915,
+      "end_char": 963,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -279,7 +3033,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 965,
+      "end_char": 980,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -287,7 +3048,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 982,
+      "end_char": 1027,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -295,7 +3063,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1029,
+      "end_char": 1062,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -303,7 +3078,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1064,
+      "end_char": 1096,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -311,7 +3093,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1098,
+      "end_char": 1154,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -319,7 +3108,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1156,
+      "end_char": 1185,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -327,7 +3123,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1187,
+      "end_char": 1205,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -335,7 +3138,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1207,
+      "end_char": 1242,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -343,7 +3153,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1244,
+      "end_char": 1274,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -351,7 +3168,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1276,
+      "end_char": 1345,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -359,7 +3183,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -367,7 +3198,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1377,
+      "end_char": 1402,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -375,7 +3213,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1404,
+      "end_char": 1429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -383,7 +3228,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1431,
+      "end_char": 1485,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -391,7 +3243,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1487,
+      "end_char": 1535,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -399,7 +3258,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1537,
+      "end_char": 1565,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -407,7 +3273,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1567,
+      "end_char": 1586,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -415,7 +3288,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1588,
+      "end_char": 1609,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -423,7 +3303,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1611,
+      "end_char": 1681,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -431,7 +3318,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1683,
+      "end_char": 1707,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -439,7 +3333,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1709,
+      "end_char": 1749,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -447,7 +3348,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1751,
+      "end_char": 1785,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -455,7 +3363,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1787,
+      "end_char": 1818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -463,7 +3378,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1820,
+      "end_char": 1861,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -471,7 +3393,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1863,
+      "end_char": 1898,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -479,7 +3408,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1900,
+      "end_char": 1932,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -487,7 +3423,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1934,
+      "end_char": 2028,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -495,7 +3438,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2030,
+      "end_char": 2116,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -503,7 +3453,14 @@
       "style": "Heading 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2118,
+      "end_char": 2130,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -511,7 +3468,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2132,
+      "end_char": 2145,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -519,7 +3483,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2147,
+      "end_char": 2214,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -527,7 +3498,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2216,
+      "end_char": 2261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -535,7 +3513,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2263,
+      "end_char": 2281,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -543,7 +3528,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2283,
+      "end_char": 2335,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -551,7 +3543,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2337,
+      "end_char": 2417,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -559,7 +3558,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2419,
+      "end_char": 2458,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -567,7 +3573,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2460,
+      "end_char": 2473,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -575,7 +3588,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2475,
+      "end_char": 2563,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -583,7 +3603,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2565,
+      "end_char": 2603,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -591,7 +3618,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2605,
+      "end_char": 2663,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -599,7 +3633,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2665,
+      "end_char": 2701,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -607,7 +3648,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2703,
+      "end_char": 2734,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -615,7 +3663,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2736,
+      "end_char": 2759,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -623,7 +3678,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2761,
+      "end_char": 2815,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -631,7 +3693,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2817,
+      "end_char": 2833,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -639,7 +3708,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2880,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -647,7 +3723,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2882,
+      "end_char": 3003,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -655,7 +3738,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3005,
+      "end_char": 3044,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -663,7 +3753,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3046,
+      "end_char": 3068,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -671,7 +3768,14 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3070,
+      "end_char": 3118,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -679,7 +3783,14 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3120,
+      "end_char": 3168,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -687,7 +3798,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3170,
+      "end_char": 3209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -695,7 +3813,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3211,
+      "end_char": 3282,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -703,7 +3828,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3284,
+      "end_char": 3336,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -711,7 +3843,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3338,
+      "end_char": 3422,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -719,7 +3858,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3424,
+      "end_char": 3512,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -727,7 +3873,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3514,
+      "end_char": 3605,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -735,7 +3888,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3607,
+      "end_char": 3688,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -743,7 +3903,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3690,
+      "end_char": 3746,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -751,7 +3918,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3748,
+      "end_char": 3761,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -759,7 +3933,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3763,
+      "end_char": 3835,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -767,7 +3948,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3837,
+      "end_char": 3986,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -775,7 +3963,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3988,
+      "end_char": 4038,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -783,7 +3978,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4040,
+      "end_char": 4110,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -791,7 +3993,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4112,
+      "end_char": 4162,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -799,7 +4008,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4164,
+      "end_char": 4208,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -807,7 +4023,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4210,
+      "end_char": 4261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -815,7 +4038,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4263,
+      "end_char": 4301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -823,7 +4053,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4303,
+      "end_char": 4377,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -831,7 +4068,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4379,
+      "end_char": 4394,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -839,7 +4083,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4396,
+      "end_char": 4467,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -847,7 +4098,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4469,
+      "end_char": 4554,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -855,7 +4113,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4556,
+      "end_char": 4654,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -863,7 +4128,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4656,
+      "end_char": 4711,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -871,7 +4143,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4713,
+      "end_char": 4780,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -879,7 +4158,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4782,
+      "end_char": 4798,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -887,7 +4173,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4800,
+      "end_char": 4870,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -895,7 +4188,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4872,
+      "end_char": 4938,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -903,7 +4203,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4940,
+      "end_char": 4975,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -911,7 +4218,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4977,
+      "end_char": 5089,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -919,7 +4233,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5091,
+      "end_char": 5122,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -927,7 +4248,14 @@
       "style": "Heading 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5124,
+      "end_char": 5132,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -935,7 +4263,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5134,
+      "end_char": 5269,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -943,7 +4278,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5271,
+      "end_char": 5286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -951,7 +4293,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5288,
+      "end_char": 5338,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -959,7 +4308,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5340,
+      "end_char": 5422,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -967,7 +4323,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5424,
+      "end_char": 5456,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -975,7 +4338,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5458,
+      "end_char": 5489,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -983,7 +4353,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5491,
+      "end_char": 5506,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -991,7 +4368,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5508,
+      "end_char": 5570,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -999,7 +4383,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5572,
+      "end_char": 5625,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1007,7 +4398,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5627,
+      "end_char": 5633,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1015,7 +4413,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5635,
+      "end_char": 5664,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1023,7 +4428,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5666,
+      "end_char": 5718,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1031,7 +4443,14 @@
       "style": "Normal (Web)",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5720,
+      "end_char": 5740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

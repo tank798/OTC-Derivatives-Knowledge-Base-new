@@ -14,7 +14,9 @@ CSV_FIELDS = [
     "document_number", "publication_date", "effective_date", "validity_status", "version",
     "part_title", "chapter_title", "section_title", "article_start", "article_end",
     "paragraph_range", "attachment_name", "chunk_index", "character_count", "is_overlapping",
-    "overlap_source_chunk_id", "is_oversized", "oversized_reason", "source_type", "official_url", "text_preview",
+    "overlap_source_chunk_id", "overlap_left", "overlap_right", "start_char", "end_char",
+    "source_page_start", "source_page_end", "clean_text_hash", "chunk_hash",
+    "is_oversized", "oversized_reason", "source_type", "official_url", "text_preview",
 ]
 
 

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/债券远期交易保证金集中管理操作细则.docx",
   "source_type": "docx",
   "file_sha256": "4be6627bb284876f115a64ba8b434f945f75d9eae9cf3b973d17592aa78eadf8",
-  "content_sha256": "86f9853fe213de7d44d5d9f2d88cdc8d96838052e3e332c3391ab245e31c65af",
+  "content_sha256": "3a4da227291928e09b6486444df3d6484a9270510f53906a5ac89c91b0c69bf4",
   "metadata": {
     "document_title": "债券远期交易保证金集中管理操作细则",
     "issuing_authority": "中国外汇交易中心",
@@ -24,12 +24,12 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
-    "original_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
-    "clean_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
-    "chars_before": 3664,
-    "chars_after": 3664,
+    "original_text_sha256": "745a4be3478a8f366254ea1c108f6c95973341e0f9619696483b29d75abb5032",
+    "clean_text_sha256": "745a4be3478a8f366254ea1c108f6c95973341e0f9619696483b29d75abb5032",
+    "chars_before": 3632,
+    "chars_after": 3632,
     "removed_character_count": 0,
     "rule_hits": [],
     "removed_front_matter": [],
@@ -142,9 +142,3312 @@
       "b00141"
     ]
   },
-  "original_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
-  "clean_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
-  "normalized_text": "附件:\n\n全国银行间同业拆借中心\n\n债券远期交易保证金集中管理操作细则\n\n第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。\n\n第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。\n\n第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。\n\n第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。\n\n市场参与者保证金账户的名称为其在交易系统的交易成员全称。\n\n第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。\n\n若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。\n\n第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。\n\n第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。\n\n第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。\n\n第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。\n\n冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。\n\n待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。\n\n冻结户、待处理户内的保证金不可调回。\n\n第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。\n\n市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。\n\n第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。\n\n第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。\n\n第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。\n\n第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。\n\n第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。\n\n第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。\n\n第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。\n\n若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;\n\n若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。\n\n第十八条 保证金利息计付按照中国人民银行有关规定办理。\n\n第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。\n\n第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。\n\n第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。\n\n第二十二条 本细则由交易中心负责解释。\n\n第二十三条 本细则自发布之日起施行。\n\n附件1:\n\n资金账户信息表\n\n| 单位全称 | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 | | | | | |\n| 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 |\n| 户名 | 户名 | | | | |\n| 开户行及行号 | 开户行及行号 | | | | |\n| 账号 | 账号 | | | | |\n| 联系人 | 姓名 | 办公电话 | 手机 | 手机 | 传真 |\n| 联系人 | | | | | |\n| 联系人 | | | | | |\n| 单位地址 | | | | 邮编 | |\n| 备注<br>(启用日期) | | | | | |\n| | | | | | |\n\n部门印章:\n\n年 月 日\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。\n\n3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。\n\n4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。\n\n5、本表请填制一式两份,一份寄交易中心,一份自行留存。\n\n6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)\n\n附件2:\n\n违约举报指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:\n\n。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件3:\n\n违约举报撤消指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件4:\n\n资金调回指令\n\n全国银行间同业拆借中心:\n\n请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金\n\n(小写: 大写: )划至“资金账户信息表”中指定的资金账户。\n\n户名:\n\n账号:\n\n开户行:\n\n部门印章:\n\n经办人:\n\n联系电话:\n\n手机:\n\n年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、部门印章须与“资金账户信息表”中“部门印章”一致。\n\n3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。\n\n4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883\n\n附件5:\n\n债券远期交易保证金账户销户申请\n\n全国银行间同业拆借中心:\n\n我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。\n\n户名:\n\n账号:\n\n特此申请。\n\n申请单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n部门印章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
+  "original_text_sha256": "745a4be3478a8f366254ea1c108f6c95973341e0f9619696483b29d75abb5032",
+  "clean_text_sha256": "745a4be3478a8f366254ea1c108f6c95973341e0f9619696483b29d75abb5032",
+  "clean_text_hash": "8b580e75a502ca95e3efcad197ed114a23d6f44b186fe5111f2c3156674b76da",
+  "structured_blocks_sha256": "fd2dacb1b3f26adc878add431f0620d048959c20720a1e542eb00858382613f6",
+  "front_matter": [],
+  "body_blocks": [],
+  "appendices": [
+    {
+      "block_id": "b00004",
+      "block_type": "attachment",
+      "text": "附件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 3,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5,
+      "end_char": 16,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "document_title",
+      "text": "债券远期交易保证金集中管理操作细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 35,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 37,
+      "end_char": 180,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 182,
+      "end_char": 301,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 303,
+      "end_char": 376,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 378,
+      "end_char": 420,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "市场参与者保证金账户的名称为其在交易系统的交易成员全称。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 422,
+      "end_char": 450,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 452,
+      "end_char": 508,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 510,
+      "end_char": 546,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 548,
+      "end_char": 601,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 603,
+      "end_char": 671,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 743,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 745,
+      "end_char": 799,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 801,
+      "end_char": 855,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 857,
+      "end_char": 908,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "冻结户、待处理户内的保证金不可调回。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 910,
+      "end_char": 928,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 930,
+      "end_char": 985,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 987,
+      "end_char": 1033,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1127,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1129,
+      "end_char": 1236,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1358,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1360,
+      "end_char": 1477,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1479,
+      "end_char": 1546,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1672,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1674,
+      "end_char": 1766,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1768,
+      "end_char": 1876,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1878,
+      "end_char": 2030,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十八条 保证金利息计付按照中国人民银行有关规定办理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2032,
+      "end_char": 2059,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2061,
+      "end_char": 2200,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2202,
+      "end_char": 2259,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2261,
+      "end_char": 2327,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十二条 本细则由交易中心负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2329,
+      "end_char": 2348,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第二十三条 本细则自发布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2350,
+      "end_char": 2368,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "attachment",
+      "text": "附件1:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2370,
+      "end_char": 2374,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "资金账户信息表",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2376,
+      "end_char": 2383,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "table",
+      "text": "| 单位全称 | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 | | | | | |\n| 清算账户 | | | | | |\n| 户名 | | | | | |\n| 开户行及行号 | | | | | |\n| 账号 | | | | | |\n| 联系人 | 姓名 | 办公电话 | 手机 | | 传真 |\n| 联系人 | | | | | |\n| 联系人 | | | | | |\n| 单位地址 | | | | 邮编 | |\n| 备注<br>(启用日期) | | | | | |\n| | | | | | |",
+      "style": "Table",
+      "source_kind": "table",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2385,
+      "end_char": 2665,
+      "region": "appendix",
+      "table_data": {
+        "table_id": "table_word_1",
+        "caption": "资金账户信息表",
+        "headers": [
+          [
+            "单位全称",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "rows": [
+          [
+            "清算部门",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "清算账户",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "户名",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "开户行及行号",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "账号",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "联系人",
+            "姓名",
+            "办公电话",
+            "手机",
+            "",
+            "传真"
+          ],
+          [
+            "联系人",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "联系人",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "单位地址",
+            "",
+            "",
+            "",
+            "邮编",
+            ""
+          ],
+          [
+            "备注\n(启用日期)",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "cells": [
+          {
+            "row": 0,
+            "column": 0,
+            "text": "单位全称",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 0,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "text": "清算部门",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 2,
+            "column": 0,
+            "text": "清算账户",
+            "rowspan": 1,
+            "colspan": 6
+          },
+          {
+            "row": 3,
+            "column": 0,
+            "text": "户名",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 4,
+            "column": 0,
+            "text": "开户行及行号",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 5,
+            "column": 0,
+            "text": "账号",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 6,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "text": "姓名",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "text": "办公电话",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "text": "手机",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "text": "传真",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 0,
+            "text": "单位地址",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 3
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "text": "邮编",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 10,
+            "column": 0,
+            "text": "备注\n(启用日期)",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 11,
+            "column": 0,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "column_count": 6,
+        "source_page_start": 0,
+        "source_page_end": 0,
+        "source_fragments": [
+          {
+            "table_index": 1
+          }
+        ],
+        "parsing_warnings": [
+          "Word未标记重复表头，按首行作为检索表头"
+        ],
+        "retrieval_text": "资金账户信息表\n单位全称：清算部门\n单位全称：清算账户\n单位全称：户名\n单位全称：开户行及行号\n单位全称：账号\n单位全称：联系人；第2列：姓名；第3列：办公电话；第4列：手机；第6列：传真\n单位全称：联系人\n单位全称：联系人\n单位全称：单位地址；第5列：邮编\n单位全称：备注\n(启用日期)"
+      },
+      "parsing_warnings": [
+        "Word未标记重复表头，按首行作为检索表头"
+      ]
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "部门印章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2672,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2674,
+      "end_char": 2679,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2681,
+      "end_char": 2702,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2704,
+      "end_char": 2767,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2769,
+      "end_char": 2825,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2827,
+      "end_char": 2862,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "5、本表请填制一式两份,一份寄交易中心,一份自行留存。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2864,
+      "end_char": 2891,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2893,
+      "end_char": 2933,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "attachment",
+      "text": "附件2:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2935,
+      "end_char": 2939,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "违约举报指令",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2941,
+      "end_char": 2947,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2949,
+      "end_char": 2961,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2963,
+      "end_char": 3009,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3011,
+      "end_char": 3012,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "举报单位全称:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3014,
+      "end_char": 3021,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3023,
+      "end_char": 3027,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "联系电话: 手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3029,
+      "end_char": 3038,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "盖章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3040,
+      "end_char": 3043,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "日期: 年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3045,
+      "end_char": 3054,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3056,
+      "end_char": 3058,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3060,
+      "end_char": 3081,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3083,
+      "end_char": 3167,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3169,
+      "end_char": 3210,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "attachment",
+      "text": "附件3:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3212,
+      "end_char": 3216,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "违约举报撤消指令",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3218,
+      "end_char": 3226,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3228,
+      "end_char": 3240,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3242,
+      "end_char": 3292,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "举报单位全称:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3294,
+      "end_char": 3301,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3303,
+      "end_char": 3307,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "联系电话: 手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3309,
+      "end_char": 3318,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "盖章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3320,
+      "end_char": 3323,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "日期: 年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3325,
+      "end_char": 3334,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3336,
+      "end_char": 3338,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3340,
+      "end_char": 3361,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3363,
+      "end_char": 3447,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3449,
+      "end_char": 3490,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "attachment",
+      "text": "附件4:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3492,
+      "end_char": 3496,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "资金调回指令",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3498,
+      "end_char": 3504,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3506,
+      "end_char": 3518,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3520,
+      "end_char": 3559,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(小写: 大写: )划至“资金账户信息表”中指定的资金账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3561,
+      "end_char": 3591,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "户名:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3593,
+      "end_char": 3596,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "账号:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3598,
+      "end_char": 3601,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "开户行:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3603,
+      "end_char": 3607,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "部门印章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3609,
+      "end_char": 3614,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3616,
+      "end_char": 3620,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "联系电话:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3622,
+      "end_char": 3627,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3629,
+      "end_char": 3632,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3634,
+      "end_char": 3639,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3641,
+      "end_char": 3643,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3645,
+      "end_char": 3666,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "2、部门印章须与“资金账户信息表”中“部门印章”一致。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3668,
+      "end_char": 3695,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3697,
+      "end_char": 3728,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3730,
+      "end_char": 3784,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "attachment",
+      "text": "附件5:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3786,
+      "end_char": 3790,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "债券远期交易保证金账户销户申请",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3792,
+      "end_char": 3807,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3809,
+      "end_char": 3821,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3823,
+      "end_char": 3868,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "户名:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3870,
+      "end_char": 3873,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "账号:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3875,
+      "end_char": 3878,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "特此申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3880,
+      "end_char": 3885,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "申请单位全称:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3887,
+      "end_char": 3894,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3896,
+      "end_char": 3900,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "paragraph",
+      "text": "联系电话: 手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3902,
+      "end_char": 3911,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "paragraph",
+      "text": "部门印章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3913,
+      "end_char": 3918,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "日期: 年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3920,
+      "end_char": 3929,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3931,
+      "end_char": 3933,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3935,
+      "end_char": 3956,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00141",
+      "block_type": "paragraph",
+      "text": "2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3958,
+      "end_char": 4007,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "附件:\n\n全国银行间同业拆借中心\n\n债券远期交易保证金集中管理操作细则\n\n第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。\n\n第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。\n\n第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。\n\n第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。\n\n市场参与者保证金账户的名称为其在交易系统的交易成员全称。\n\n第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。\n\n若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。\n\n第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。\n\n第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。\n\n第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。\n\n第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。\n\n冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。\n\n待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。\n\n冻结户、待处理户内的保证金不可调回。\n\n第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。\n\n市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。\n\n第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。\n\n第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。\n\n第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。\n\n第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。\n\n第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。\n\n第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。\n\n第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。\n\n若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;\n\n若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。\n\n第十八条 保证金利息计付按照中国人民银行有关规定办理。\n\n第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。\n\n第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。\n\n第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。\n\n第二十二条 本细则由交易中心负责解释。\n\n第二十三条 本细则自发布之日起施行。\n\n附件1:\n\n资金账户信息表\n\n| 单位全称 | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 | | | | | |\n| 清算账户 | | | | | |\n| 户名 | | | | | |\n| 开户行及行号 | | | | | |\n| 账号 | | | | | |\n| 联系人 | 姓名 | 办公电话 | 手机 | | 传真 |\n| 联系人 | | | | | |\n| 联系人 | | | | | |\n| 单位地址 | | | | 邮编 | |\n| 备注<br>(启用日期) | | | | | |\n| | | | | | |\n\n部门印章:\n\n年 月 日\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。\n\n3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。\n\n4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。\n\n5、本表请填制一式两份,一份寄交易中心,一份自行留存。\n\n6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)\n\n附件2:\n\n违约举报指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:\n\n。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件3:\n\n违约举报撤消指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件4:\n\n资金调回指令\n\n全国银行间同业拆借中心:\n\n请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金\n\n(小写: 大写: )划至“资金账户信息表”中指定的资金账户。\n\n户名:\n\n账号:\n\n开户行:\n\n部门印章:\n\n经办人:\n\n联系电话:\n\n手机:\n\n年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、部门印章须与“资金账户信息表”中“部门印章”一致。\n\n3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。\n\n4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883\n\n附件5:\n\n债券远期交易保证金账户销户申请\n\n全国银行间同业拆借中心:\n\n我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。\n\n户名:\n\n账号:\n\n特此申请。\n\n申请单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n部门印章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
+  "structured_blocks": [
+    {
+      "block_id": "b00004",
+      "block_type": "attachment",
+      "text": "附件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 3,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5,
+      "end_char": 16,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "document_title",
+      "text": "债券远期交易保证金集中管理操作细则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 35,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 37,
+      "end_char": 180,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 182,
+      "end_char": 301,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 303,
+      "end_char": 376,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 378,
+      "end_char": 420,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "市场参与者保证金账户的名称为其在交易系统的交易成员全称。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 422,
+      "end_char": 450,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 452,
+      "end_char": 508,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 510,
+      "end_char": 546,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 548,
+      "end_char": 601,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 603,
+      "end_char": 671,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 743,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 745,
+      "end_char": 799,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 801,
+      "end_char": 855,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 857,
+      "end_char": 908,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "冻结户、待处理户内的保证金不可调回。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 910,
+      "end_char": 928,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 930,
+      "end_char": 985,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 987,
+      "end_char": 1033,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1127,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1129,
+      "end_char": 1236,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1358,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1360,
+      "end_char": 1477,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1479,
+      "end_char": 1546,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1672,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1674,
+      "end_char": 1766,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1768,
+      "end_char": 1876,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1878,
+      "end_char": 2030,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十八条 保证金利息计付按照中国人民银行有关规定办理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2032,
+      "end_char": 2059,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2061,
+      "end_char": 2200,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2202,
+      "end_char": 2259,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2261,
+      "end_char": 2327,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十二条 本细则由交易中心负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2329,
+      "end_char": 2348,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第二十三条 本细则自发布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2350,
+      "end_char": 2368,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "attachment",
+      "text": "附件1:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2370,
+      "end_char": 2374,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "资金账户信息表",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2376,
+      "end_char": 2383,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "table",
+      "text": "| 单位全称 | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 | | | | | |\n| 清算账户 | | | | | |\n| 户名 | | | | | |\n| 开户行及行号 | | | | | |\n| 账号 | | | | | |\n| 联系人 | 姓名 | 办公电话 | 手机 | | 传真 |\n| 联系人 | | | | | |\n| 联系人 | | | | | |\n| 单位地址 | | | | 邮编 | |\n| 备注<br>(启用日期) | | | | | |\n| | | | | | |",
+      "style": "Table",
+      "source_kind": "table",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2385,
+      "end_char": 2665,
+      "region": "appendix",
+      "table_data": {
+        "table_id": "table_word_1",
+        "caption": "资金账户信息表",
+        "headers": [
+          [
+            "单位全称",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "rows": [
+          [
+            "清算部门",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "清算账户",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "户名",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "开户行及行号",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "账号",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "联系人",
+            "姓名",
+            "办公电话",
+            "手机",
+            "",
+            "传真"
+          ],
+          [
+            "联系人",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "联系人",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "单位地址",
+            "",
+            "",
+            "",
+            "邮编",
+            ""
+          ],
+          [
+            "备注\n(启用日期)",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "cells": [
+          {
+            "row": 0,
+            "column": 0,
+            "text": "单位全称",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 0,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "text": "清算部门",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 2,
+            "column": 0,
+            "text": "清算账户",
+            "rowspan": 1,
+            "colspan": 6
+          },
+          {
+            "row": 3,
+            "column": 0,
+            "text": "户名",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 4,
+            "column": 0,
+            "text": "开户行及行号",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 5,
+            "column": 0,
+            "text": "账号",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 6,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "text": "姓名",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "text": "办公电话",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "text": "手机",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "text": "传真",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 0,
+            "text": "单位地址",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 3
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "text": "邮编",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 10,
+            "column": 0,
+            "text": "备注\n(启用日期)",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 11,
+            "column": 0,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "column_count": 6,
+        "source_page_start": 0,
+        "source_page_end": 0,
+        "source_fragments": [
+          {
+            "table_index": 1
+          }
+        ],
+        "parsing_warnings": [
+          "Word未标记重复表头，按首行作为检索表头"
+        ],
+        "retrieval_text": "资金账户信息表\n单位全称：清算部门\n单位全称：清算账户\n单位全称：户名\n单位全称：开户行及行号\n单位全称：账号\n单位全称：联系人；第2列：姓名；第3列：办公电话；第4列：手机；第6列：传真\n单位全称：联系人\n单位全称：联系人\n单位全称：单位地址；第5列：邮编\n单位全称：备注\n(启用日期)"
+      },
+      "parsing_warnings": [
+        "Word未标记重复表头，按首行作为检索表头"
+      ]
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "部门印章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2672,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2674,
+      "end_char": 2679,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2681,
+      "end_char": 2702,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2704,
+      "end_char": 2767,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2769,
+      "end_char": 2825,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2827,
+      "end_char": 2862,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "5、本表请填制一式两份,一份寄交易中心,一份自行留存。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2864,
+      "end_char": 2891,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2893,
+      "end_char": 2933,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "attachment",
+      "text": "附件2:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2935,
+      "end_char": 2939,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "违约举报指令",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2941,
+      "end_char": 2947,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2949,
+      "end_char": 2961,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2963,
+      "end_char": 3009,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3011,
+      "end_char": 3012,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "举报单位全称:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3014,
+      "end_char": 3021,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3023,
+      "end_char": 3027,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "联系电话: 手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3029,
+      "end_char": 3038,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "盖章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3040,
+      "end_char": 3043,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "日期: 年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3045,
+      "end_char": 3054,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3056,
+      "end_char": 3058,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3060,
+      "end_char": 3081,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3083,
+      "end_char": 3167,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3169,
+      "end_char": 3210,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "attachment",
+      "text": "附件3:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3212,
+      "end_char": 3216,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "违约举报撤消指令",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3218,
+      "end_char": 3226,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3228,
+      "end_char": 3240,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3242,
+      "end_char": 3292,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "举报单位全称:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3294,
+      "end_char": 3301,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3303,
+      "end_char": 3307,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "联系电话: 手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3309,
+      "end_char": 3318,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "盖章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3320,
+      "end_char": 3323,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "日期: 年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3325,
+      "end_char": 3334,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3336,
+      "end_char": 3338,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3340,
+      "end_char": 3361,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3363,
+      "end_char": 3447,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3449,
+      "end_char": 3490,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "attachment",
+      "text": "附件4:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3492,
+      "end_char": 3496,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "资金调回指令",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3498,
+      "end_char": 3504,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3506,
+      "end_char": 3518,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3520,
+      "end_char": 3559,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(小写: 大写: )划至“资金账户信息表”中指定的资金账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3561,
+      "end_char": 3591,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "户名:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3593,
+      "end_char": 3596,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "账号:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3598,
+      "end_char": 3601,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "开户行:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3603,
+      "end_char": 3607,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "部门印章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3609,
+      "end_char": 3614,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3616,
+      "end_char": 3620,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "联系电话:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3622,
+      "end_char": 3627,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3629,
+      "end_char": 3632,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3634,
+      "end_char": 3639,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3641,
+      "end_char": 3643,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3645,
+      "end_char": 3666,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "2、部门印章须与“资金账户信息表”中“部门印章”一致。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3668,
+      "end_char": 3695,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3697,
+      "end_char": 3728,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3730,
+      "end_char": 3784,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "attachment",
+      "text": "附件5:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3786,
+      "end_char": 3790,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "债券远期交易保证金账户销户申请",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3792,
+      "end_char": 3807,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3809,
+      "end_char": 3821,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3823,
+      "end_char": 3868,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "户名:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3870,
+      "end_char": 3873,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "账号:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3875,
+      "end_char": 3878,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "特此申请。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3880,
+      "end_char": 3885,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "申请单位全称:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3887,
+      "end_char": 3894,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "paragraph",
+      "text": "经办人:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3896,
+      "end_char": 3900,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "paragraph",
+      "text": "联系电话: 手机:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3902,
+      "end_char": 3911,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "paragraph",
+      "text": "部门印章:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3913,
+      "end_char": 3918,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "日期: 年 月 日",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3920,
+      "end_char": 3929,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "note",
+      "text": "注:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3931,
+      "end_char": 3933,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "paragraph",
+      "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3935,
+      "end_char": 3956,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00141",
+      "block_type": "paragraph",
+      "text": "2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3958,
+      "end_char": 4007,
+      "region": "appendix"
+    }
+  ],
+  "normalized_text": "附件:\n\n全国银行间同业拆借中心\n\n债券远期交易保证金集中管理操作细则\n\n第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。\n\n第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。\n\n第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。\n\n第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。\n\n市场参与者保证金账户的名称为其在交易系统的交易成员全称。\n\n第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。\n\n若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。\n\n第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。\n\n第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。\n\n第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。\n\n第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。\n\n冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。\n\n待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。\n\n冻结户、待处理户内的保证金不可调回。\n\n第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。\n\n市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。\n\n第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。\n\n第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。\n\n第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。\n\n第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。\n\n第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。\n\n第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。\n\n第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。\n\n若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;\n\n若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。\n\n第十八条 保证金利息计付按照中国人民银行有关规定办理。\n\n第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。\n\n第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。\n\n第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。\n\n第二十二条 本细则由交易中心负责解释。\n\n第二十三条 本细则自发布之日起施行。\n\n附件1:\n\n资金账户信息表\n\n| 单位全称 | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 | | | | | |\n| 清算账户 | | | | | |\n| 户名 | | | | | |\n| 开户行及行号 | | | | | |\n| 账号 | | | | | |\n| 联系人 | 姓名 | 办公电话 | 手机 | | 传真 |\n| 联系人 | | | | | |\n| 联系人 | | | | | |\n| 单位地址 | | | | 邮编 | |\n| 备注<br>(启用日期) | | | | | |\n| | | | | | |\n\n部门印章:\n\n年 月 日\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。\n\n3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。\n\n4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。\n\n5、本表请填制一式两份,一份寄交易中心,一份自行留存。\n\n6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)\n\n附件2:\n\n违约举报指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:\n\n。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件3:\n\n违约举报撤消指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件4:\n\n资金调回指令\n\n全国银行间同业拆借中心:\n\n请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金\n\n(小写: 大写: )划至“资金账户信息表”中指定的资金账户。\n\n户名:\n\n账号:\n\n开户行:\n\n部门印章:\n\n经办人:\n\n联系电话:\n\n手机:\n\n年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、部门印章须与“资金账户信息表”中“部门印章”一致。\n\n3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。\n\n4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883\n\n附件5:\n\n债券远期交易保证金账户销户申请\n\n全国银行间同业拆借中心:\n\n我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。\n\n户名:\n\n账号:\n\n特此申请。\n\n申请单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n部门印章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
   "blocks": [
     {
       "block_id": "b00004",
@@ -152,7 +3455,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 3,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -160,7 +3470,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5,
+      "end_char": 16,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -168,7 +3485,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 35,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -176,7 +3500,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 37,
+      "end_char": 180,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -184,7 +3515,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 182,
+      "end_char": 301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -192,7 +3530,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 303,
+      "end_char": 376,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -200,7 +3545,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 378,
+      "end_char": 420,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -208,7 +3560,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 422,
+      "end_char": 450,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -216,7 +3575,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 452,
+      "end_char": 508,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -224,7 +3590,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 510,
+      "end_char": 546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -232,7 +3605,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 548,
+      "end_char": 601,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -240,7 +3620,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 603,
+      "end_char": 671,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -248,7 +3635,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 673,
+      "end_char": 743,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -256,7 +3650,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 745,
+      "end_char": 799,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -264,7 +3665,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 801,
+      "end_char": 855,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -272,7 +3680,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 857,
+      "end_char": 908,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -280,7 +3695,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 910,
+      "end_char": 928,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -288,7 +3710,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 930,
+      "end_char": 985,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -296,7 +3725,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 987,
+      "end_char": 1033,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -304,7 +3740,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1035,
+      "end_char": 1127,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -312,7 +3755,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1129,
+      "end_char": 1236,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -320,7 +3770,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1238,
+      "end_char": 1358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -328,7 +3785,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1360,
+      "end_char": 1477,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -336,7 +3800,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1479,
+      "end_char": 1546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -344,7 +3815,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1548,
+      "end_char": 1672,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -352,7 +3830,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1674,
+      "end_char": 1766,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -360,7 +3845,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1768,
+      "end_char": 1876,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -368,7 +3860,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1878,
+      "end_char": 2030,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -376,7 +3875,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2032,
+      "end_char": 2059,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -384,7 +3890,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2061,
+      "end_char": 2200,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -392,7 +3905,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2202,
+      "end_char": 2259,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -400,7 +3920,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2261,
+      "end_char": 2327,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -408,7 +3935,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2329,
+      "end_char": 2348,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -416,7 +3950,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2350,
+      "end_char": 2368,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -424,7 +3965,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2370,
+      "end_char": 2374,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -432,15 +3980,413 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2376,
+      "end_char": 2383,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
-      "text": "| 单位全称 |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 |  |  |  |  |  |\n| 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 |\n| 户名 | 户名 |  |  |  |  |\n| 开户行及行号 | 开户行及行号 |  |  |  |  |\n| 账号 | 账号 |  |  |  |  |\n| 联系人 | 姓名 | 办公电话 | 手机 | 手机 | 传真 |\n| 联系人 |  |  |  |  |  |\n| 联系人 |  |  |  |  |  |\n| 单位地址 |  |  |  | 邮编 |  |\n| 备注<br>(启用日期) |  |  |  |  |  |\n|  |  |  |  |  |  |",
+      "text": "| 单位全称 |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 |  |  |  |  |  |\n| 清算账户 |  |  |  |  |  |\n| 户名 |  |  |  |  |  |\n| 开户行及行号 |  |  |  |  |  |\n| 账号 |  |  |  |  |  |\n| 联系人 | 姓名 | 办公电话 | 手机 |  | 传真 |\n| 联系人 |  |  |  |  |  |\n| 联系人 |  |  |  |  |  |\n| 单位地址 |  |  |  | 邮编 |  |\n| 备注<br>(启用日期) |  |  |  |  |  |\n|  |  |  |  |  |  |",
       "style": "Table",
       "source_kind": "table",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2385,
+      "end_char": 2665,
+      "table_data": {
+        "table_id": "table_word_1",
+        "caption": "",
+        "headers": [
+          [
+            "单位全称",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "rows": [
+          [
+            "清算部门",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "清算账户",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "户名",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "开户行及行号",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "账号",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "联系人",
+            "姓名",
+            "办公电话",
+            "手机",
+            "",
+            "传真"
+          ],
+          [
+            "联系人",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "联系人",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "单位地址",
+            "",
+            "",
+            "",
+            "邮编",
+            ""
+          ],
+          [
+            "备注\n(启用日期)",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "cells": [
+          {
+            "row": 0,
+            "column": 0,
+            "text": "单位全称",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 0,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "text": "清算部门",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 2,
+            "column": 0,
+            "text": "清算账户",
+            "rowspan": 1,
+            "colspan": 6
+          },
+          {
+            "row": 3,
+            "column": 0,
+            "text": "户名",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 4,
+            "column": 0,
+            "text": "开户行及行号",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 5,
+            "column": 0,
+            "text": "账号",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 4
+          },
+          {
+            "row": 6,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "text": "姓名",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "text": "办公电话",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "text": "手机",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "text": "传真",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 0,
+            "text": "联系人",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 2
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 0,
+            "text": "单位地址",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 3
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "text": "邮编",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 10,
+            "column": 0,
+            "text": "备注\n(启用日期)",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 5
+          },
+          {
+            "row": 11,
+            "column": 0,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "text": "",
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "column_count": 6,
+        "source_page_start": 0,
+        "source_page_end": 0,
+        "source_fragments": [
+          {
+            "table_index": 1
+          }
+        ],
+        "parsing_warnings": [
+          "Word未标记重复表头，按首行作为检索表头"
+        ]
+      },
+      "formula_data": {},
+      "parsing_warnings": [
+        "Word未标记重复表头，按首行作为检索表头"
+      ],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -448,7 +4394,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2667,
+      "end_char": 2672,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -456,7 +4409,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2674,
+      "end_char": 2679,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -464,7 +4424,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2681,
+      "end_char": 2702,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -472,7 +4439,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2704,
+      "end_char": 2767,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -480,7 +4454,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2769,
+      "end_char": 2825,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -488,7 +4469,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2827,
+      "end_char": 2862,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -496,7 +4484,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2864,
+      "end_char": 2891,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -504,7 +4499,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2893,
+      "end_char": 2933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -512,7 +4514,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2935,
+      "end_char": 2939,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -520,7 +4529,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2941,
+      "end_char": 2947,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -528,7 +4544,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2949,
+      "end_char": 2961,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -536,7 +4559,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2963,
+      "end_char": 3009,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -544,7 +4574,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3011,
+      "end_char": 3012,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -552,7 +4589,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3014,
+      "end_char": 3021,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -560,7 +4604,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3023,
+      "end_char": 3027,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -568,7 +4619,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3029,
+      "end_char": 3038,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -576,7 +4634,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3040,
+      "end_char": 3043,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -584,7 +4649,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3045,
+      "end_char": 3054,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -592,7 +4664,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3056,
+      "end_char": 3058,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -600,7 +4679,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3060,
+      "end_char": 3081,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -608,7 +4694,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3083,
+      "end_char": 3167,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -616,7 +4709,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3169,
+      "end_char": 3210,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -624,7 +4724,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3212,
+      "end_char": 3216,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -632,7 +4739,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3218,
+      "end_char": 3226,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -640,7 +4754,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3228,
+      "end_char": 3240,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -648,7 +4769,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3242,
+      "end_char": 3292,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -656,7 +4784,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3294,
+      "end_char": 3301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -664,7 +4799,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3303,
+      "end_char": 3307,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -672,7 +4814,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3309,
+      "end_char": 3318,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -680,7 +4829,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3320,
+      "end_char": 3323,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -688,7 +4844,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3325,
+      "end_char": 3334,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -696,7 +4859,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3336,
+      "end_char": 3338,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -704,7 +4874,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3340,
+      "end_char": 3361,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -712,7 +4889,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3363,
+      "end_char": 3447,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -720,7 +4904,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3449,
+      "end_char": 3490,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -728,7 +4919,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3492,
+      "end_char": 3496,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -736,7 +4934,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3498,
+      "end_char": 3504,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -744,7 +4949,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3506,
+      "end_char": 3518,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -752,7 +4964,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3520,
+      "end_char": 3559,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -760,7 +4979,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3561,
+      "end_char": 3591,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -768,7 +4994,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3593,
+      "end_char": 3596,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -776,7 +5009,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3598,
+      "end_char": 3601,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -784,7 +5024,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3603,
+      "end_char": 3607,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -792,7 +5039,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3609,
+      "end_char": 3614,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -800,7 +5054,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3616,
+      "end_char": 3620,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -808,7 +5069,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3622,
+      "end_char": 3627,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -816,7 +5084,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3629,
+      "end_char": 3632,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -824,7 +5099,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3634,
+      "end_char": 3639,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -832,7 +5114,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3641,
+      "end_char": 3643,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -840,7 +5129,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3645,
+      "end_char": 3666,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -848,7 +5144,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3668,
+      "end_char": 3695,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -856,7 +5159,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3697,
+      "end_char": 3728,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -864,7 +5174,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3730,
+      "end_char": 3784,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -872,7 +5189,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3786,
+      "end_char": 3790,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -880,7 +5204,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3792,
+      "end_char": 3807,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -888,7 +5219,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3809,
+      "end_char": 3821,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -896,7 +5234,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3823,
+      "end_char": 3868,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -904,7 +5249,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3870,
+      "end_char": 3873,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -912,7 +5264,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3875,
+      "end_char": 3878,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00129",
@@ -920,7 +5279,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3880,
+      "end_char": 3885,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00132",
@@ -928,7 +5294,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3887,
+      "end_char": 3894,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00133",
@@ -936,7 +5309,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3896,
+      "end_char": 3900,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00134",
@@ -944,7 +5324,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3902,
+      "end_char": 3911,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00135",
@@ -952,7 +5339,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3913,
+      "end_char": 3918,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00137",
@@ -960,7 +5354,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3920,
+      "end_char": 3929,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00139",
@@ -968,7 +5369,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3931,
+      "end_char": 3933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00140",
@@ -976,7 +5384,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3935,
+      "end_char": 3956,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00141",
@@ -984,7 +5399,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3958,
+      "end_char": 4007,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

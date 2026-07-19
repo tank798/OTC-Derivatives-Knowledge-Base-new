@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/上海证券交易所信用保护工具交易业务指引(2022年修订).docx",
   "source_type": "docx",
   "file_sha256": "3b5803d96ec9d658d353ddc6980ee29faf7b23eeee7618705fa1ff85ce0acff3",
-  "content_sha256": "2178b16c0ede47b5102d8bc75b1efb1fe1af58b463bd58b50c6a58eb4c5ea0b6",
+  "content_sha256": "9093a92bfea31a3d981b59c59670d1d669fbc62032aab923cb2d1d123986002d",
   "metadata": {
     "document_title": "上海证券交易所信用保护工具交易业务指引(2022年修订)",
     "issuing_authority": "上海证券交易所",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "0a05b7c787851d074a5cdb992be41f438238690bfc5ee077e9a5fa448f356994",
     "clean_text_sha256": "0a05b7c787851d074a5cdb992be41f438238690bfc5ee077e9a5fa448f356994",
@@ -162,6 +162,2919 @@
   },
   "original_text_sha256": "0a05b7c787851d074a5cdb992be41f438238690bfc5ee077e9a5fa448f356994",
   "clean_text_sha256": "0a05b7c787851d074a5cdb992be41f438238690bfc5ee077e9a5fa448f356994",
+  "clean_text_hash": "f296b0e242070a56c800a46a38b322a70ab50475cc0ddc50346ec15c1fc20f58",
+  "structured_blocks_sha256": "c70d70bb175485ae55ae8b07e6c6a49109f86823a1a24ffc8d9d03209da69422",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "上海证券交易所信用保护工具交易业务指引(2022年修订)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 28,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 30,
+      "end_char": 36,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "第一条为了促进信用保护工具市场健康稳定发展,保护投资者的合法权益,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及《上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法》等相关业务规则,制定本指引。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 38,
+      "end_char": 163,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "第二条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 165,
+      "end_char": 206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "第三条市场参与者应当诚实守信,按照相关规定和约定履行义务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 208,
+      "end_char": 237,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "第四条市场参与者应当保证提交或者披露的相关资质申请文件、凭证创设文件及信息披露等文件真实、准确、完整、及时,不存在虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导投资者。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 239,
+      "end_char": 325,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "第五条为凭证创设、挂牌交易提供服务的资信评级机构、会计师事务所等专业机构及其相关人员应当勤勉尽责,严格遵守执业规范和监管规则,按规定和约定履行义务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 327,
+      "end_char": 401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "第六条上海证券交易所(以下简称本所)对信用保护工具相关市场参与者进行备案,并为信用保护工具业务有序开展提供服务,不表明对投资风险或者收益等做出判断或保证。信用保护工具业务的风险,由交易双方自行承担。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 403,
+      "end_char": 502,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "第七条本所对信用保护工具的市场参与者实行分类管理,并实行投资者适当性管理制度。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 504,
+      "end_char": 543,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场情况和市场参与者资信状况的变化,调整分类管理标准、交易机制以及投资者适当性安排。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 545,
+      "end_char": 593,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "第八条市场参与者应当遵守法律、行政法规、部门规章、其他规范性文件、本指引及本所其他相关规定,履行相关协议约定和承诺。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 595,
+      "end_char": 653,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "本所根据本指引及其他相关规定,对市场参与者及相关人员进行自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 655,
+      "end_char": 688,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "chapter",
+      "text": "第二章 参与者管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 690,
+      "end_char": 699,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "第九条信用保护工具参与者的投资者适当性应当与本所债券市场投资者适当性管理相关规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于专业投资者中的机构投资者参与信用保护工具交易。本所可以根据市场发展情况,调整信用保护工具投资者适当性标准。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 701,
+      "end_char": 883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本指引规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 885,
+      "end_char": 966,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "第十条符合以下条件的金融机构、信用增进机构等经本所备案可成为合约核心交易商(以下简称核心交易商):",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 968,
+      "end_char": 1017,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(一)具有较丰富的信用风险管理经验和较强的信用风险承担能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1019,
+      "end_char": 1049,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(二)具有相对独立的信用保护工具交易团队,建立完备的信用风险管理工具内部操作规程和业务管理制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1051,
+      "end_char": 1099,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(三)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1101,
+      "end_char": 1144,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(四)本所要求的其他条件。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1146,
+      "end_char": 1159,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "第十一条符合以下条件的核心交易商经本所备案可成为凭证创设机构(以下简称创设机构):",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1161,
+      "end_char": 1202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)最近一年末净资产不少于40亿元;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1204,
+      "end_char": 1223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)具有较强的信用风险管理和评估能力,并配备5名以上(含5名)的风险管理人员;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1225,
+      "end_char": 1265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)本所要求的其他条件。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1267,
+      "end_char": 1280,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "第十二条投资者拟成为核心交易商或者创设机构的,应当向本所提交以下资质备案文件:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1282,
+      "end_char": 1321,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)信用保护合约核心交易商/凭证创设机构资质申请信息表;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1323,
+      "end_char": 1352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)最近一个会计年度经审计的总资产、净资产的说明及相关证明文件;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1354,
+      "end_char": 1387,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)公司信用保护工具交易团队、信用保护工具业务内部操作规程和业务管理制度或者业务系统说明;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1389,
+      "end_char": 1435,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚的承诺函;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1437,
+      "end_char": 1484,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(五)本所要求的其他文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1486,
+      "end_char": 1499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "第十三条本所收到相关文件后,对市场参与者是否符合备案要求进行核查。符合备案要求的,本所为相关市场参与者开通信用保护工具交易功能,并向市场披露;不符合备案要求的,本所及时告知相关市场参与者理由。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1597,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "chapter",
+      "text": "第三章 信用保护合约",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1599,
+      "end_char": 1609,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "section",
+      "text": "第一节 一般规定",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1611,
+      "end_char": 1619,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "第十四条合约申报要素包括:买方名称、买方证券账户、卖方名称、卖方证券账户、名义本金、参考实体、债务种类、债务特征、可交付债务(如有)、信用事件类型、合约起始日、合约到期日、保护费率、保护费支付方式、前端费用、结算方式等。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1621,
+      "end_char": 1731,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1733,
+      "end_char": 1787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "季度标准保护费率根据合约签订时参考实体的主体评级确定,主体评级AAA的为50个基点,AA+的为100个基点,其他评级或者未评级的为150个基点,同一参考实体有多个评级的,以其中最低评级为准。本所可以根据市场发展情况调整相关标准。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1789,
+      "end_char": 1903,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "主体评级应由经中国证监会备案的证券市场资信评级机构出具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1905,
+      "end_char": 1933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "第十六条合约交易双方协商一致后,一方通过本所交易系统进行合约申报,另一方进行确认。本所可以根据市场需要调整合约的申报方式。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1935,
+      "end_char": 1996,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "证券公司经纪客户通过证券公司进行申报和确认。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1998,
+      "end_char": 2020,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "第十七条合约的交易时间为每个交易日的9:00-11:30、13:00-15:30。合约申报名义本金应当不低于50万元人民币。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2022,
+      "end_char": 2084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场需要调整合约的交易时间。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2086,
+      "end_char": 2106,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "第十八条交易系统根据交易双方的申报和确认,对符合形式要求的合约生成信用保护合约交易确认书(以下简称交易确认书),交易系统不对申报和确认的内容进行审查。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2108,
+      "end_char": 2183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "第十九条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2185,
+      "end_char": 2220,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "第二十条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。合约交易双方可以通过中国结算或者自行协商的其他方式支付相关终止结算金额。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2222,
+      "end_char": 2302,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "section",
+      "text": "第二节 组合型信用保护合约的特别规定",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2304,
+      "end_char": 2322,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "第二十一条组合型信用保护合约(以下简称CDX合约)是指合约交易双方达成的,以特定CDX组合项下全部参考实体或其符合特定债务种类和债务特征的全部债务为保护对象的信用保护合约。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "其中,CDX组合是指CDX组合管理人根据本指引和其他相关业务规则编制的多个参考实体的集合。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2412,
+      "end_char": 2457,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "第二十二条CDX组合管理人是指负责编制、公开发布、运营CDX组合的机构,CDX组合管理人的专业能力、财务实力、公司治理、技术资源等方面应当能持续有效保障CDX组合正常运行,其研究能力、数据处理能力或者估值能力等应当被市场广泛认可。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2459,
+      "end_char": 2574,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "CDX组合管理人应当根据本指引及其他相关业务规则,基于公开、透明、客观、可操作性的原则制定并披露CDX组合编制方案。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2576,
+      "end_char": 2634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "CDX组合管理人应当根据公布的CDX组合编制方案筛选CDX组合,对CDX组合进行滚动和除名,并及时发布CDX组合信息,包括但不限于CDX组合初始名单、经滚动或除名的CDX组合名单和CDX组合信用曲线等内容,确保CDX组合信息的完整性、连续性和可靠性。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2636,
+      "end_char": 2761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "第二十三条CDX组合名称以SnVn结尾标识版本。CDX组合名称中“S”后数字初始为1,并随着CDX组合滚动依次增加。每次滚动后CDX组合名称中“V”后数字初始为1,并随着两次组合滚动日之间参考实体被除名的个数依次增加。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2763,
+      "end_char": 2872,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "CDX组合滚动或除名后,市场参与者仅可基于最新版本的CDX组合开展CDX合约交易,滚动或除名前达成的CDX合约根据合约交易双方的约定办理。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2874,
+      "end_char": 2943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "第二十四条CDX合约的期限不超过5年。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2945,
+      "end_char": 2964,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "第二十五条经备案可以作为核心交易商开展CDX合约业务的市场参与者应当每个交易日就当日每个最新版本CDX组合的关键期限合约向全市场提供双边意向申报,意向申报不可直接确认成交。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2966,
+      "end_char": 3052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "第二十六条根据市场机构对CDX合约的报价及成交情况,CDX组合管理人编制并发布CDX组合信用曲线。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3054,
+      "end_char": 3103,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "chapter",
+      "text": "第四章 信用保护凭证",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3105,
+      "end_char": 3115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "第二十七条创设机构创设凭证,应当在创设前向本所提交以下凭证创设文件:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3117,
+      "end_char": 3151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(一)凭证创设说明书;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3153,
+      "end_char": 3164,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(二)创设机构的信用评级报告;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3166,
+      "end_char": 3181,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(三)最近一个会计年度经审计的创设机构的财务报表和审计报告;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3183,
+      "end_char": 3213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(四)本所要求提交的其他文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3215,
+      "end_char": 3230,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "第二十八条凭证创设说明书应当明确创设机构的基本情况、参考实体、债务种类、债务特征、可交付债务(如有)、名义本金、凭证起始日、凭证到期日、信用事件类型、结算方式、凭证持有人会议规则等相关内容。凭证持有人会议规则应当载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3232,
+      "end_char": 3372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "第二十九条本所对凭证创设文件进行完备性核对,不对凭证的投资价值及投资风险进行实质性判断。文件完备的,本所在收到文件10个交易日内,出具无异议函。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "第三十条凭证创设及登记完成后,创设机构应当向本所提交凭证挂牌转让申请书等相关文件,与本所签订挂牌协议。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3448,
+      "end_char": 3499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "第三十一条凭证转让由投资者通过交易系统申报,证券公司经纪客户通过证券公司申报。可采用点击成交、询价成交、协商成交等方式转让。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3501,
+      "end_char": 3563,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "第三十二条凭证转让的申报时间为每个交易日的9:00-11:30、13:00-15:30。每笔凭证转让申报的名义本金应当不低于50万元人民币,申报价格为百元名义本金凭证的价格,申报价格最小变动单位为0.001元。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3565,
+      "end_char": 3670,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场需要调整凭证转让的申报时间。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3672,
+      "end_char": 3694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "第三十三条创设机构可以买入自身创设的凭证并向交易系统申报注销,不得转售。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3696,
+      "end_char": 3732,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "第三十四条凭证到期且未发生信用事件的,创设机构回购注销其全部凭证的,或者出现本所认定的其他情形的,本所终止凭证的挂牌转让。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3734,
+      "end_char": 3795,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "chapter",
+      "text": "第五章 信用事件及结算",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3797,
+      "end_char": 3808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "第三十五条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书(以下简称信用事件通知书),并同时向本所报告。对手方无异议的,合约或者首份凭证信用事件通知书送达之日即为信用事件决定日。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3810,
+      "end_char": 3921,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "第三十六条按季支付保护费的合约,在存续期发生信用事件的,买方自信用事件决定日起停止支付保护费,买方仅支付自上一保护费支付日至信用事件决定日期间的保护费。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3923,
+      "end_char": 3999,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "第三十七条凭证的信用事件决定日确定后,创设机构应当通过本所网站发布关于信用事件和后续结算安排的公告,内容应当包括信用事件的说明、信用事件决定日的确认、凭证最后交易日期、结算方式以及交割时间区间等信息。最后结算日不得晚于信用事件决定日后60个自然日。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4001,
+      "end_char": 4125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "第三十八条买方应当按照约定在信用事件决定日后向卖方发送结算通知书,结算通知书的发送日不得晚于信用事件决定日后30个自然日,最后结算日不得晚于结算通知书送达日后30个自然日。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4127,
+      "end_char": 4213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "第三十九条交易双方约定采用实物结算的,结算通知书应当包括用于结算的具体可交付债务、交割方式、交割数量、交割时间等信息;交易双方约定采用现金结算的,结算通知书应当包括现金的交付方式、交付金额、交付时间等信息。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4215,
+      "end_char": 4318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "第四十条买方可以通过交易系统或者其他约定方式发送信用事件通知书及结算通知书。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4320,
+      "end_char": 4358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第四十一条 卖方收到结算通知书的,应当按照相关规定、约定及结算通知书内容履行结算义务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4360,
+      "end_char": 4403,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "第四十二条信用事件发生后采用实物结算的,且交易双方约定结算金额包含可交付债务尚未支付的应计利息的,结算金额为名义本金加上约定的截至结算日实际交付债务当日尚未支付的应计利息;交易双方约定结算金额不包含可交付债务尚未支付的应计利息的,结算金额为名义本金。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4405,
+      "end_char": 4530,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "第四十三条信用事件发生后采用现金结算的,计算公式为:结算金额=名义本金×(1-约定回收率)。交易双方应当在相关有效文件中明确约定回收率比例或者约定回收率的确定方法。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4532,
+      "end_char": 4614,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "第四十四条合约信用事件发生后,交易双方最终按照结算金额和买方应付未付保护费的轧差净额进行资金结算。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4616,
+      "end_char": 4665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "第四十五条CDX合约的信用事件包括破产、支付违约等类型。信用事件发生后,CDX合约交易双方可以就发生信用事件的部分参考实体所对应的名义本金进行结算,CDX合约剩余部分参考实体及其对应的名义本金继续存续。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4667,
+      "end_char": 4768,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "第四十六条交易双方应当在结算日确认相关结算要素。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4770,
+      "end_char": 4794,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "合约或凭证采用实物结算以及凭证采用现金结算的,由交易一方通过交易系统申报,另一方进行确认。中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4796,
+      "end_char": 4876,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "合约采用现金结算的,交易双方可以通过中国结算或者自行协商的其他方式完成结算。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4878,
+      "end_char": 4916,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第四十七条 交易双方就信用事件相关事项存在争议的,可以提请信用事件专家委员会出具专家意见并组织协商。若交易双方认可信用事件专家委员会出具的专家意见或协商结果,交易双方按照相关专家意见或协商结果进行处理。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4918,
+      "end_char": 5019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "若交易双方发生争议未提交信用事件专家委员会或者不认可相关专家意见或协商结果的,交易双方可根据约定就信用事件争议事项提交仲裁或诉讼。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5021,
+      "end_char": 5086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "chapter",
+      "text": "第六章 信息披露",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5088,
+      "end_char": 5096,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "第四十八条创设机构应当在凭证创设前2个交易日通过本所网站向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5098,
+      "end_char": 5171,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "第四十九条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露定期跟踪评级报告。年度报告应当至少记载以下内容:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5173,
+      "end_char": 5260,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(一)创设机构概况;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5262,
+      "end_char": 5272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(二)创设机构经营情况、财务状况;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5274,
+      "end_char": 5291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(三)创设机构主体评级情况;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5293,
+      "end_char": 5307,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(四)创设机构在报告期内发生的可能影响创设机构赔付能力或者凭证价格的重大事项;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5309,
+      "end_char": 5348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(五)本所要求披露的其他事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5350,
+      "end_char": 5365,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "第五十条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向本所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。重大事项包括:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5367,
+      "end_char": 5474,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(一)创设机构创设的凭证发生赔付;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5476,
+      "end_char": 5493,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(二)创设机构主要资产被查封、扣押、冻结;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5495,
+      "end_char": 5516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(三)创设机构发生超过上年末净资产10%的重大损失;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5518,
+      "end_char": 5544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(四)创设机构发生未能清偿到期重大债务的违约情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5546,
+      "end_char": 5571,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "(五)创设机构作出减资、合并、分立、解散及申请破产的决定;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5573,
+      "end_char": 5602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "(六)创设机构涉及重大诉讼、仲裁事项或者受到重大行政处罚;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5604,
+      "end_char": 5633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(七)创设机构履约保障方、担保物或者其他偿债保障措施发生重大变化;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5635,
+      "end_char": 5668,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(八)创设机构涉嫌犯罪被司法机关立案调查,创设机构董事、监事、高级管理人员涉嫌犯罪被司法机关采取强制措施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5670,
+      "end_char": 5723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(九)其他对投资者作出投资决策有重大影响的事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5725,
+      "end_char": 5749,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(十)法律、行政法规、规章规定或中国证监会、本所规定的其他事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5751,
+      "end_char": 5783,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "第五十一条凭证创设机构和投资者应当关注参考实体披露的重大事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5785,
+      "end_char": 5816,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "第五十二条合约交易双方按照相关约定及时向对手方报告相关重大事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5818,
+      "end_char": 5850,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "chapter",
+      "text": "第七章 风险控制和监督管理",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5852,
+      "end_char": 5865,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "第五十三条核心交易商或创设机构发生以下情形之一的,应当向本所递交相关文件和书面说明,由本所重新审查:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5867,
+      "end_char": 5917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(一)由于净资产、金融资产规模变化等导致可能不再符合信用保护工具参与者相应资质的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5919,
+      "end_char": 5960,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(二)发生可能被取消资质、吊销执照、进入破产或者清算程序等导致公司资质可能受限或者被注销等情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5962,
+      "end_char": 6010,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "对于不再符合信用保护工具参与者资质要求的,本所撤销市场参与者的核心交易商或创设机构资格。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6012,
+      "end_char": 6056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "核心交易商或创设机构被撤销资格后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6058,
+      "end_char": 6112,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "第五十四条市场参与者未按照相关规定、约定履行支付或交付义务的,该市场参与者与其对手方应当在支付或交付违约情形发生后1个交易日内将相关违约情形报告本所。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6114,
+      "end_char": 6189,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "第五十五条市场参与者以及为其提供经纪服务的证券公司应当根据本所要求定期向本所报送相关数据,本所对市场参与者的交易头寸、参考实体对应的交易头寸等进行动态监测。本所可以根据监测结果采取必要的风险控制措施,包括但不限于暂停市场参与者参与信用保护工具业务或者暂停开展涉及特定参考实体的信用保护工具业务者取所与者况书。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6191,
+      "end_char": 6345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "第五十六条市场参与者、中介机构及其相关人员违反本指引、相关约定、承诺或者本所其他规定的,本所可以采取口头警示、书面警示、监管谈话、要求限期改正、暂停受理或办理相关业务,以及本所规定的其他监管措施;情节严重的,可以给予通报批评、公开谴责以及本所规定的其他纪律处分,并可提请监管机构采取行政监管等措施。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6347,
+      "end_char": 6496,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "本所可以将实施纪律处分或者监管措施的情形记入诚信档案并予以公布。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6498,
+      "end_char": 6530,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "chapter",
+      "text": "第八章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6532,
+      "end_char": 6538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "第五十七条由于不可抗力、意外事件、技术故障或者本所认可的其他情形导致无法通过交易系统达成交易的,交易双方可以将交易确认书或者转让申报等通过书面方式发送本所确认。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6540,
+      "end_char": 6620,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "第五十八条本指引由本所负责解释。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6622,
+      "end_char": 6638,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "第五十九条本指引自发布之日起实施。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6640,
+      "end_char": 6657,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "上海证券交易所信用保护工具交易业务指引(2022年修订)\n\n第一章 总则\n\n第一条为了促进信用保护工具市场健康稳定发展,保护投资者的合法权益,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及《上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法》等相关业务规则,制定本指引。\n\n第二条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。\n\n第三条市场参与者应当诚实守信,按照相关规定和约定履行义务。\n\n第四条市场参与者应当保证提交或者披露的相关资质申请文件、凭证创设文件及信息披露等文件真实、准确、完整、及时,不存在虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导投资者。\n\n第五条为凭证创设、挂牌交易提供服务的资信评级机构、会计师事务所等专业机构及其相关人员应当勤勉尽责,严格遵守执业规范和监管规则,按规定和约定履行义务。\n\n第六条上海证券交易所(以下简称本所)对信用保护工具相关市场参与者进行备案,并为信用保护工具业务有序开展提供服务,不表明对投资风险或者收益等做出判断或保证。信用保护工具业务的风险,由交易双方自行承担。\n\n第七条本所对信用保护工具的市场参与者实行分类管理,并实行投资者适当性管理制度。\n\n本所可以根据市场情况和市场参与者资信状况的变化,调整分类管理标准、交易机制以及投资者适当性安排。\n\n第八条市场参与者应当遵守法律、行政法规、部门规章、其他规范性文件、本指引及本所其他相关规定,履行相关协议约定和承诺。\n\n本所根据本指引及其他相关规定,对市场参与者及相关人员进行自律管理。\n\n第二章 参与者管理\n\n第九条信用保护工具参与者的投资者适当性应当与本所债券市场投资者适当性管理相关规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于专业投资者中的机构投资者参与信用保护工具交易。本所可以根据市场发展情况,调整信用保护工具投资者适当性标准。\n\n交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本指引规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。\n\n第十条符合以下条件的金融机构、信用增进机构等经本所备案可成为合约核心交易商(以下简称核心交易商):\n\n(一)具有较丰富的信用风险管理经验和较强的信用风险承担能力;\n\n(二)具有相对独立的信用保护工具交易团队,建立完备的信用风险管理工具内部操作规程和业务管理制度;\n\n(三)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;\n\n(四)本所要求的其他条件。\n\n第十一条符合以下条件的核心交易商经本所备案可成为凭证创设机构(以下简称创设机构):\n\n(一)最近一年末净资产不少于40亿元;\n\n(二)具有较强的信用风险管理和评估能力,并配备5名以上(含5名)的风险管理人员;\n\n(三)本所要求的其他条件。\n\n第十二条投资者拟成为核心交易商或者创设机构的,应当向本所提交以下资质备案文件:\n\n(一)信用保护合约核心交易商/凭证创设机构资质申请信息表;\n\n(二)最近一个会计年度经审计的总资产、净资产的说明及相关证明文件;\n\n(三)公司信用保护工具交易团队、信用保护工具业务内部操作规程和业务管理制度或者业务系统说明;\n\n(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚的承诺函;\n\n(五)本所要求的其他文件。\n\n第十三条本所收到相关文件后,对市场参与者是否符合备案要求进行核查。符合备案要求的,本所为相关市场参与者开通信用保护工具交易功能,并向市场披露;不符合备案要求的,本所及时告知相关市场参与者理由。\n\n第三章 信用保护合约\n\n第一节 一般规定\n\n第十四条合约申报要素包括:买方名称、买方证券账户、卖方名称、卖方证券账户、名义本金、参考实体、债务种类、债务特征、可交付债务(如有)、信用事件类型、合约起始日、合约到期日、保护费率、保护费支付方式、前端费用、结算方式等。\n\n第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。\n\n季度标准保护费率根据合约签订时参考实体的主体评级确定,主体评级AAA的为50个基点,AA+的为100个基点,其他评级或者未评级的为150个基点,同一参考实体有多个评级的,以其中最低评级为准。本所可以根据市场发展情况调整相关标准。\n\n主体评级应由经中国证监会备案的证券市场资信评级机构出具。\n\n第十六条合约交易双方协商一致后,一方通过本所交易系统进行合约申报,另一方进行确认。本所可以根据市场需要调整合约的申报方式。\n\n证券公司经纪客户通过证券公司进行申报和确认。\n\n第十七条合约的交易时间为每个交易日的9:00-11:30、13:00-15:30。合约申报名义本金应当不低于50万元人民币。\n\n本所可以根据市场需要调整合约的交易时间。\n\n第十八条交易系统根据交易双方的申报和确认,对符合形式要求的合约生成信用保护合约交易确认书(以下简称交易确认书),交易系统不对申报和确认的内容进行审查。\n\n第十九条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。\n\n第二十条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。合约交易双方可以通过中国结算或者自行协商的其他方式支付相关终止结算金额。\n\n第二节 组合型信用保护合约的特别规定\n\n第二十一条组合型信用保护合约(以下简称CDX合约)是指合约交易双方达成的,以特定CDX组合项下全部参考实体或其符合特定债务种类和债务特征的全部债务为保护对象的信用保护合约。\n\n其中,CDX组合是指CDX组合管理人根据本指引和其他相关业务规则编制的多个参考实体的集合。\n\n第二十二条CDX组合管理人是指负责编制、公开发布、运营CDX组合的机构,CDX组合管理人的专业能力、财务实力、公司治理、技术资源等方面应当能持续有效保障CDX组合正常运行,其研究能力、数据处理能力或者估值能力等应当被市场广泛认可。\n\nCDX组合管理人应当根据本指引及其他相关业务规则,基于公开、透明、客观、可操作性的原则制定并披露CDX组合编制方案。\n\nCDX组合管理人应当根据公布的CDX组合编制方案筛选CDX组合,对CDX组合进行滚动和除名,并及时发布CDX组合信息,包括但不限于CDX组合初始名单、经滚动或除名的CDX组合名单和CDX组合信用曲线等内容,确保CDX组合信息的完整性、连续性和可靠性。\n\n第二十三条CDX组合名称以SnVn结尾标识版本。CDX组合名称中“S”后数字初始为1,并随着CDX组合滚动依次增加。每次滚动后CDX组合名称中“V”后数字初始为1,并随着两次组合滚动日之间参考实体被除名的个数依次增加。\n\nCDX组合滚动或除名后,市场参与者仅可基于最新版本的CDX组合开展CDX合约交易,滚动或除名前达成的CDX合约根据合约交易双方的约定办理。\n\n第二十四条CDX合约的期限不超过5年。\n\n第二十五条经备案可以作为核心交易商开展CDX合约业务的市场参与者应当每个交易日就当日每个最新版本CDX组合的关键期限合约向全市场提供双边意向申报,意向申报不可直接确认成交。\n\n第二十六条根据市场机构对CDX合约的报价及成交情况,CDX组合管理人编制并发布CDX组合信用曲线。\n\n第四章 信用保护凭证\n\n第二十七条创设机构创设凭证,应当在创设前向本所提交以下凭证创设文件:\n\n(一)凭证创设说明书;\n\n(二)创设机构的信用评级报告;\n\n(三)最近一个会计年度经审计的创设机构的财务报表和审计报告;\n\n(四)本所要求提交的其他文件。\n\n第二十八条凭证创设说明书应当明确创设机构的基本情况、参考实体、债务种类、债务特征、可交付债务(如有)、名义本金、凭证起始日、凭证到期日、信用事件类型、结算方式、凭证持有人会议规则等相关内容。凭证持有人会议规则应当载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。\n\n第二十九条本所对凭证创设文件进行完备性核对,不对凭证的投资价值及投资风险进行实质性判断。文件完备的,本所在收到文件10个交易日内,出具无异议函。\n\n第三十条凭证创设及登记完成后,创设机构应当向本所提交凭证挂牌转让申请书等相关文件,与本所签订挂牌协议。\n\n第三十一条凭证转让由投资者通过交易系统申报,证券公司经纪客户通过证券公司申报。可采用点击成交、询价成交、协商成交等方式转让。\n\n第三十二条凭证转让的申报时间为每个交易日的9:00-11:30、13:00-15:30。每笔凭证转让申报的名义本金应当不低于50万元人民币,申报价格为百元名义本金凭证的价格,申报价格最小变动单位为0.001元。\n\n本所可以根据市场需要调整凭证转让的申报时间。\n\n第三十三条创设机构可以买入自身创设的凭证并向交易系统申报注销,不得转售。\n\n第三十四条凭证到期且未发生信用事件的,创设机构回购注销其全部凭证的,或者出现本所认定的其他情形的,本所终止凭证的挂牌转让。\n\n第五章 信用事件及结算\n\n第三十五条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书(以下简称信用事件通知书),并同时向本所报告。对手方无异议的,合约或者首份凭证信用事件通知书送达之日即为信用事件决定日。\n\n第三十六条按季支付保护费的合约,在存续期发生信用事件的,买方自信用事件决定日起停止支付保护费,买方仅支付自上一保护费支付日至信用事件决定日期间的保护费。\n\n第三十七条凭证的信用事件决定日确定后,创设机构应当通过本所网站发布关于信用事件和后续结算安排的公告,内容应当包括信用事件的说明、信用事件决定日的确认、凭证最后交易日期、结算方式以及交割时间区间等信息。最后结算日不得晚于信用事件决定日后60个自然日。\n\n第三十八条买方应当按照约定在信用事件决定日后向卖方发送结算通知书,结算通知书的发送日不得晚于信用事件决定日后30个自然日,最后结算日不得晚于结算通知书送达日后30个自然日。\n\n第三十九条交易双方约定采用实物结算的,结算通知书应当包括用于结算的具体可交付债务、交割方式、交割数量、交割时间等信息;交易双方约定采用现金结算的,结算通知书应当包括现金的交付方式、交付金额、交付时间等信息。\n\n第四十条买方可以通过交易系统或者其他约定方式发送信用事件通知书及结算通知书。\n\n第四十一条 卖方收到结算通知书的,应当按照相关规定、约定及结算通知书内容履行结算义务。\n\n第四十二条信用事件发生后采用实物结算的,且交易双方约定结算金额包含可交付债务尚未支付的应计利息的,结算金额为名义本金加上约定的截至结算日实际交付债务当日尚未支付的应计利息;交易双方约定结算金额不包含可交付债务尚未支付的应计利息的,结算金额为名义本金。\n\n第四十三条信用事件发生后采用现金结算的,计算公式为:结算金额=名义本金×(1-约定回收率)。交易双方应当在相关有效文件中明确约定回收率比例或者约定回收率的确定方法。\n\n第四十四条合约信用事件发生后,交易双方最终按照结算金额和买方应付未付保护费的轧差净额进行资金结算。\n\n第四十五条CDX合约的信用事件包括破产、支付违约等类型。信用事件发生后,CDX合约交易双方可以就发生信用事件的部分参考实体所对应的名义本金进行结算,CDX合约剩余部分参考实体及其对应的名义本金继续存续。\n\n第四十六条交易双方应当在结算日确认相关结算要素。\n\n合约或凭证采用实物结算以及凭证采用现金结算的,由交易一方通过交易系统申报,另一方进行确认。中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。\n\n合约采用现金结算的,交易双方可以通过中国结算或者自行协商的其他方式完成结算。\n\n第四十七条 交易双方就信用事件相关事项存在争议的,可以提请信用事件专家委员会出具专家意见并组织协商。若交易双方认可信用事件专家委员会出具的专家意见或协商结果,交易双方按照相关专家意见或协商结果进行处理。\n\n若交易双方发生争议未提交信用事件专家委员会或者不认可相关专家意见或协商结果的,交易双方可根据约定就信用事件争议事项提交仲裁或诉讼。\n\n第六章 信息披露\n\n第四十八条创设机构应当在凭证创设前2个交易日通过本所网站向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。\n\n第四十九条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露定期跟踪评级报告。年度报告应当至少记载以下内容:\n\n(一)创设机构概况;\n\n(二)创设机构经营情况、财务状况;\n\n(三)创设机构主体评级情况;\n\n(四)创设机构在报告期内发生的可能影响创设机构赔付能力或者凭证价格的重大事项;\n\n(五)本所要求披露的其他事项。\n\n第五十条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向本所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。重大事项包括:\n\n(一)创设机构创设的凭证发生赔付;\n\n(二)创设机构主要资产被查封、扣押、冻结;\n\n(三)创设机构发生超过上年末净资产10%的重大损失;\n\n(四)创设机构发生未能清偿到期重大债务的违约情况;\n\n(五)创设机构作出减资、合并、分立、解散及申请破产的决定;\n\n(六)创设机构涉及重大诉讼、仲裁事项或者受到重大行政处罚;\n\n(七)创设机构履约保障方、担保物或者其他偿债保障措施发生重大变化;\n\n(八)创设机构涉嫌犯罪被司法机关立案调查,创设机构董事、监事、高级管理人员涉嫌犯罪被司法机关采取强制措施;\n\n(九)其他对投资者作出投资决策有重大影响的事项。\n\n(十)法律、行政法规、规章规定或中国证监会、本所规定的其他事项。\n\n第五十一条凭证创设机构和投资者应当关注参考实体披露的重大事项。\n\n第五十二条合约交易双方按照相关约定及时向对手方报告相关重大事项。\n\n第七章 风险控制和监督管理\n\n第五十三条核心交易商或创设机构发生以下情形之一的,应当向本所递交相关文件和书面说明,由本所重新审查:\n\n(一)由于净资产、金融资产规模变化等导致可能不再符合信用保护工具参与者相应资质的;\n\n(二)发生可能被取消资质、吊销执照、进入破产或者清算程序等导致公司资质可能受限或者被注销等情形。\n\n对于不再符合信用保护工具参与者资质要求的,本所撤销市场参与者的核心交易商或创设机构资格。\n\n核心交易商或创设机构被撤销资格后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。\n\n第五十四条市场参与者未按照相关规定、约定履行支付或交付义务的,该市场参与者与其对手方应当在支付或交付违约情形发生后1个交易日内将相关违约情形报告本所。\n\n第五十五条市场参与者以及为其提供经纪服务的证券公司应当根据本所要求定期向本所报送相关数据,本所对市场参与者的交易头寸、参考实体对应的交易头寸等进行动态监测。本所可以根据监测结果采取必要的风险控制措施,包括但不限于暂停市场参与者参与信用保护工具业务或者暂停开展涉及特定参考实体的信用保护工具业务者取所与者况书。\n\n第五十六条市场参与者、中介机构及其相关人员违反本指引、相关约定、承诺或者本所其他规定的,本所可以采取口头警示、书面警示、监管谈话、要求限期改正、暂停受理或办理相关业务,以及本所规定的其他监管措施;情节严重的,可以给予通报批评、公开谴责以及本所规定的其他纪律处分,并可提请监管机构采取行政监管等措施。\n\n本所可以将实施纪律处分或者监管措施的情形记入诚信档案并予以公布。\n\n第八章 附则\n\n第五十七条由于不可抗力、意外事件、技术故障或者本所认可的其他情形导致无法通过交易系统达成交易的,交易双方可以将交易确认书或者转让申报等通过书面方式发送本所确认。\n\n第五十八条本指引由本所负责解释。\n\n第五十九条本指引自发布之日起实施。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "上海证券交易所信用保护工具交易业务指引(2022年修订)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 28,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 30,
+      "end_char": 36,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "第一条为了促进信用保护工具市场健康稳定发展,保护投资者的合法权益,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及《上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法》等相关业务规则,制定本指引。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 38,
+      "end_char": 163,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "第二条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 165,
+      "end_char": 206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "第三条市场参与者应当诚实守信,按照相关规定和约定履行义务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 208,
+      "end_char": 237,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "第四条市场参与者应当保证提交或者披露的相关资质申请文件、凭证创设文件及信息披露等文件真实、准确、完整、及时,不存在虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导投资者。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 239,
+      "end_char": 325,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "第五条为凭证创设、挂牌交易提供服务的资信评级机构、会计师事务所等专业机构及其相关人员应当勤勉尽责,严格遵守执业规范和监管规则,按规定和约定履行义务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 327,
+      "end_char": 401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "第六条上海证券交易所(以下简称本所)对信用保护工具相关市场参与者进行备案,并为信用保护工具业务有序开展提供服务,不表明对投资风险或者收益等做出判断或保证。信用保护工具业务的风险,由交易双方自行承担。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 403,
+      "end_char": 502,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "第七条本所对信用保护工具的市场参与者实行分类管理,并实行投资者适当性管理制度。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 504,
+      "end_char": 543,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场情况和市场参与者资信状况的变化,调整分类管理标准、交易机制以及投资者适当性安排。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 545,
+      "end_char": 593,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "第八条市场参与者应当遵守法律、行政法规、部门规章、其他规范性文件、本指引及本所其他相关规定,履行相关协议约定和承诺。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 595,
+      "end_char": 653,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "本所根据本指引及其他相关规定,对市场参与者及相关人员进行自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 655,
+      "end_char": 688,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "chapter",
+      "text": "第二章 参与者管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 690,
+      "end_char": 699,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "第九条信用保护工具参与者的投资者适当性应当与本所债券市场投资者适当性管理相关规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于专业投资者中的机构投资者参与信用保护工具交易。本所可以根据市场发展情况,调整信用保护工具投资者适当性标准。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 701,
+      "end_char": 883,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本指引规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 885,
+      "end_char": 966,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "第十条符合以下条件的金融机构、信用增进机构等经本所备案可成为合约核心交易商(以下简称核心交易商):",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 968,
+      "end_char": 1017,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(一)具有较丰富的信用风险管理经验和较强的信用风险承担能力;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1019,
+      "end_char": 1049,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(二)具有相对独立的信用保护工具交易团队,建立完备的信用风险管理工具内部操作规程和业务管理制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1051,
+      "end_char": 1099,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(三)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1101,
+      "end_char": 1144,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(四)本所要求的其他条件。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1146,
+      "end_char": 1159,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "第十一条符合以下条件的核心交易商经本所备案可成为凭证创设机构(以下简称创设机构):",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1161,
+      "end_char": 1202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)最近一年末净资产不少于40亿元;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1204,
+      "end_char": 1223,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)具有较强的信用风险管理和评估能力,并配备5名以上(含5名)的风险管理人员;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1225,
+      "end_char": 1265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)本所要求的其他条件。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1267,
+      "end_char": 1280,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "第十二条投资者拟成为核心交易商或者创设机构的,应当向本所提交以下资质备案文件:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1282,
+      "end_char": 1321,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)信用保护合约核心交易商/凭证创设机构资质申请信息表;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1323,
+      "end_char": 1352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)最近一个会计年度经审计的总资产、净资产的说明及相关证明文件;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1354,
+      "end_char": 1387,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)公司信用保护工具交易团队、信用保护工具业务内部操作规程和业务管理制度或者业务系统说明;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1389,
+      "end_char": 1435,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚的承诺函;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1437,
+      "end_char": 1484,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(五)本所要求的其他文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1486,
+      "end_char": 1499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "第十三条本所收到相关文件后,对市场参与者是否符合备案要求进行核查。符合备案要求的,本所为相关市场参与者开通信用保护工具交易功能,并向市场披露;不符合备案要求的,本所及时告知相关市场参与者理由。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1597,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "chapter",
+      "text": "第三章 信用保护合约",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1599,
+      "end_char": 1609,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "section",
+      "text": "第一节 一般规定",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1611,
+      "end_char": 1619,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "第十四条合约申报要素包括:买方名称、买方证券账户、卖方名称、卖方证券账户、名义本金、参考实体、债务种类、债务特征、可交付债务(如有)、信用事件类型、合约起始日、合约到期日、保护费率、保护费支付方式、前端费用、结算方式等。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1621,
+      "end_char": 1731,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1733,
+      "end_char": 1787,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "季度标准保护费率根据合约签订时参考实体的主体评级确定,主体评级AAA的为50个基点,AA+的为100个基点,其他评级或者未评级的为150个基点,同一参考实体有多个评级的,以其中最低评级为准。本所可以根据市场发展情况调整相关标准。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1789,
+      "end_char": 1903,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "主体评级应由经中国证监会备案的证券市场资信评级机构出具。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1905,
+      "end_char": 1933,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "第十六条合约交易双方协商一致后,一方通过本所交易系统进行合约申报,另一方进行确认。本所可以根据市场需要调整合约的申报方式。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1935,
+      "end_char": 1996,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "证券公司经纪客户通过证券公司进行申报和确认。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1998,
+      "end_char": 2020,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "第十七条合约的交易时间为每个交易日的9:00-11:30、13:00-15:30。合约申报名义本金应当不低于50万元人民币。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2022,
+      "end_char": 2084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场需要调整合约的交易时间。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2086,
+      "end_char": 2106,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "第十八条交易系统根据交易双方的申报和确认,对符合形式要求的合约生成信用保护合约交易确认书(以下简称交易确认书),交易系统不对申报和确认的内容进行审查。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2108,
+      "end_char": 2183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "第十九条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2185,
+      "end_char": 2220,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "第二十条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。合约交易双方可以通过中国结算或者自行协商的其他方式支付相关终止结算金额。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2222,
+      "end_char": 2302,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "section",
+      "text": "第二节 组合型信用保护合约的特别规定",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2304,
+      "end_char": 2322,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "第二十一条组合型信用保护合约(以下简称CDX合约)是指合约交易双方达成的,以特定CDX组合项下全部参考实体或其符合特定债务种类和债务特征的全部债务为保护对象的信用保护合约。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "其中,CDX组合是指CDX组合管理人根据本指引和其他相关业务规则编制的多个参考实体的集合。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2412,
+      "end_char": 2457,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "第二十二条CDX组合管理人是指负责编制、公开发布、运营CDX组合的机构,CDX组合管理人的专业能力、财务实力、公司治理、技术资源等方面应当能持续有效保障CDX组合正常运行,其研究能力、数据处理能力或者估值能力等应当被市场广泛认可。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2459,
+      "end_char": 2574,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "CDX组合管理人应当根据本指引及其他相关业务规则,基于公开、透明、客观、可操作性的原则制定并披露CDX组合编制方案。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2576,
+      "end_char": 2634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "CDX组合管理人应当根据公布的CDX组合编制方案筛选CDX组合,对CDX组合进行滚动和除名,并及时发布CDX组合信息,包括但不限于CDX组合初始名单、经滚动或除名的CDX组合名单和CDX组合信用曲线等内容,确保CDX组合信息的完整性、连续性和可靠性。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2636,
+      "end_char": 2761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "第二十三条CDX组合名称以SnVn结尾标识版本。CDX组合名称中“S”后数字初始为1,并随着CDX组合滚动依次增加。每次滚动后CDX组合名称中“V”后数字初始为1,并随着两次组合滚动日之间参考实体被除名的个数依次增加。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2763,
+      "end_char": 2872,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "CDX组合滚动或除名后,市场参与者仅可基于最新版本的CDX组合开展CDX合约交易,滚动或除名前达成的CDX合约根据合约交易双方的约定办理。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2874,
+      "end_char": 2943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "第二十四条CDX合约的期限不超过5年。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2945,
+      "end_char": 2964,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "第二十五条经备案可以作为核心交易商开展CDX合约业务的市场参与者应当每个交易日就当日每个最新版本CDX组合的关键期限合约向全市场提供双边意向申报,意向申报不可直接确认成交。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2966,
+      "end_char": 3052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "第二十六条根据市场机构对CDX合约的报价及成交情况,CDX组合管理人编制并发布CDX组合信用曲线。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3054,
+      "end_char": 3103,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "chapter",
+      "text": "第四章 信用保护凭证",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3105,
+      "end_char": 3115,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "第二十七条创设机构创设凭证,应当在创设前向本所提交以下凭证创设文件:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3117,
+      "end_char": 3151,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(一)凭证创设说明书;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3153,
+      "end_char": 3164,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(二)创设机构的信用评级报告;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3166,
+      "end_char": 3181,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(三)最近一个会计年度经审计的创设机构的财务报表和审计报告;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3183,
+      "end_char": 3213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(四)本所要求提交的其他文件。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3215,
+      "end_char": 3230,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "第二十八条凭证创设说明书应当明确创设机构的基本情况、参考实体、债务种类、债务特征、可交付债务(如有)、名义本金、凭证起始日、凭证到期日、信用事件类型、结算方式、凭证持有人会议规则等相关内容。凭证持有人会议规则应当载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3232,
+      "end_char": 3372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "第二十九条本所对凭证创设文件进行完备性核对,不对凭证的投资价值及投资风险进行实质性判断。文件完备的,本所在收到文件10个交易日内,出具无异议函。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "第三十条凭证创设及登记完成后,创设机构应当向本所提交凭证挂牌转让申请书等相关文件,与本所签订挂牌协议。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3448,
+      "end_char": 3499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "第三十一条凭证转让由投资者通过交易系统申报,证券公司经纪客户通过证券公司申报。可采用点击成交、询价成交、协商成交等方式转让。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3501,
+      "end_char": 3563,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "第三十二条凭证转让的申报时间为每个交易日的9:00-11:30、13:00-15:30。每笔凭证转让申报的名义本金应当不低于50万元人民币,申报价格为百元名义本金凭证的价格,申报价格最小变动单位为0.001元。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3565,
+      "end_char": 3670,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场需要调整凭证转让的申报时间。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3672,
+      "end_char": 3694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "第三十三条创设机构可以买入自身创设的凭证并向交易系统申报注销,不得转售。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3696,
+      "end_char": 3732,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "第三十四条凭证到期且未发生信用事件的,创设机构回购注销其全部凭证的,或者出现本所认定的其他情形的,本所终止凭证的挂牌转让。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3734,
+      "end_char": 3795,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "chapter",
+      "text": "第五章 信用事件及结算",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3797,
+      "end_char": 3808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "第三十五条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书(以下简称信用事件通知书),并同时向本所报告。对手方无异议的,合约或者首份凭证信用事件通知书送达之日即为信用事件决定日。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3810,
+      "end_char": 3921,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "第三十六条按季支付保护费的合约,在存续期发生信用事件的,买方自信用事件决定日起停止支付保护费,买方仅支付自上一保护费支付日至信用事件决定日期间的保护费。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3923,
+      "end_char": 3999,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "第三十七条凭证的信用事件决定日确定后,创设机构应当通过本所网站发布关于信用事件和后续结算安排的公告,内容应当包括信用事件的说明、信用事件决定日的确认、凭证最后交易日期、结算方式以及交割时间区间等信息。最后结算日不得晚于信用事件决定日后60个自然日。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4001,
+      "end_char": 4125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "第三十八条买方应当按照约定在信用事件决定日后向卖方发送结算通知书,结算通知书的发送日不得晚于信用事件决定日后30个自然日,最后结算日不得晚于结算通知书送达日后30个自然日。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4127,
+      "end_char": 4213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "第三十九条交易双方约定采用实物结算的,结算通知书应当包括用于结算的具体可交付债务、交割方式、交割数量、交割时间等信息;交易双方约定采用现金结算的,结算通知书应当包括现金的交付方式、交付金额、交付时间等信息。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4215,
+      "end_char": 4318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "第四十条买方可以通过交易系统或者其他约定方式发送信用事件通知书及结算通知书。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4320,
+      "end_char": 4358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第四十一条 卖方收到结算通知书的,应当按照相关规定、约定及结算通知书内容履行结算义务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4360,
+      "end_char": 4403,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "第四十二条信用事件发生后采用实物结算的,且交易双方约定结算金额包含可交付债务尚未支付的应计利息的,结算金额为名义本金加上约定的截至结算日实际交付债务当日尚未支付的应计利息;交易双方约定结算金额不包含可交付债务尚未支付的应计利息的,结算金额为名义本金。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4405,
+      "end_char": 4530,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "第四十三条信用事件发生后采用现金结算的,计算公式为:结算金额=名义本金×(1-约定回收率)。交易双方应当在相关有效文件中明确约定回收率比例或者约定回收率的确定方法。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4532,
+      "end_char": 4614,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "第四十四条合约信用事件发生后,交易双方最终按照结算金额和买方应付未付保护费的轧差净额进行资金结算。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4616,
+      "end_char": 4665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "第四十五条CDX合约的信用事件包括破产、支付违约等类型。信用事件发生后,CDX合约交易双方可以就发生信用事件的部分参考实体所对应的名义本金进行结算,CDX合约剩余部分参考实体及其对应的名义本金继续存续。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4667,
+      "end_char": 4768,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "第四十六条交易双方应当在结算日确认相关结算要素。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4770,
+      "end_char": 4794,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "合约或凭证采用实物结算以及凭证采用现金结算的,由交易一方通过交易系统申报,另一方进行确认。中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4796,
+      "end_char": 4876,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "合约采用现金结算的,交易双方可以通过中国结算或者自行协商的其他方式完成结算。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4878,
+      "end_char": 4916,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "article",
+      "text": "第四十七条 交易双方就信用事件相关事项存在争议的,可以提请信用事件专家委员会出具专家意见并组织协商。若交易双方认可信用事件专家委员会出具的专家意见或协商结果,交易双方按照相关专家意见或协商结果进行处理。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4918,
+      "end_char": 5019,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "若交易双方发生争议未提交信用事件专家委员会或者不认可相关专家意见或协商结果的,交易双方可根据约定就信用事件争议事项提交仲裁或诉讼。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5021,
+      "end_char": 5086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "chapter",
+      "text": "第六章 信息披露",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5088,
+      "end_char": 5096,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "第四十八条创设机构应当在凭证创设前2个交易日通过本所网站向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5098,
+      "end_char": 5171,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "第四十九条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露定期跟踪评级报告。年度报告应当至少记载以下内容:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5173,
+      "end_char": 5260,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(一)创设机构概况;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5262,
+      "end_char": 5272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(二)创设机构经营情况、财务状况;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5274,
+      "end_char": 5291,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(三)创设机构主体评级情况;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5293,
+      "end_char": 5307,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(四)创设机构在报告期内发生的可能影响创设机构赔付能力或者凭证价格的重大事项;",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5309,
+      "end_char": 5348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(五)本所要求披露的其他事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5350,
+      "end_char": 5365,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "第五十条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向本所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。重大事项包括:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5367,
+      "end_char": 5474,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(一)创设机构创设的凭证发生赔付;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5476,
+      "end_char": 5493,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(二)创设机构主要资产被查封、扣押、冻结;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5495,
+      "end_char": 5516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(三)创设机构发生超过上年末净资产10%的重大损失;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5518,
+      "end_char": 5544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(四)创设机构发生未能清偿到期重大债务的违约情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5546,
+      "end_char": 5571,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "(五)创设机构作出减资、合并、分立、解散及申请破产的决定;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5573,
+      "end_char": 5602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "(六)创设机构涉及重大诉讼、仲裁事项或者受到重大行政处罚;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5604,
+      "end_char": 5633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(七)创设机构履约保障方、担保物或者其他偿债保障措施发生重大变化;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5635,
+      "end_char": 5668,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(八)创设机构涉嫌犯罪被司法机关立案调查,创设机构董事、监事、高级管理人员涉嫌犯罪被司法机关采取强制措施;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5670,
+      "end_char": 5723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(九)其他对投资者作出投资决策有重大影响的事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5725,
+      "end_char": 5749,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(十)法律、行政法规、规章规定或中国证监会、本所规定的其他事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5751,
+      "end_char": 5783,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "第五十一条凭证创设机构和投资者应当关注参考实体披露的重大事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5785,
+      "end_char": 5816,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "第五十二条合约交易双方按照相关约定及时向对手方报告相关重大事项。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5818,
+      "end_char": 5850,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "chapter",
+      "text": "第七章 风险控制和监督管理",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5852,
+      "end_char": 5865,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "第五十三条核心交易商或创设机构发生以下情形之一的,应当向本所递交相关文件和书面说明,由本所重新审查:",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5867,
+      "end_char": 5917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(一)由于净资产、金融资产规模变化等导致可能不再符合信用保护工具参与者相应资质的;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5919,
+      "end_char": 5960,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(二)发生可能被取消资质、吊销执照、进入破产或者清算程序等导致公司资质可能受限或者被注销等情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5962,
+      "end_char": 6010,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "对于不再符合信用保护工具参与者资质要求的,本所撤销市场参与者的核心交易商或创设机构资格。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6012,
+      "end_char": 6056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "核心交易商或创设机构被撤销资格后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6058,
+      "end_char": 6112,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "第五十四条市场参与者未按照相关规定、约定履行支付或交付义务的,该市场参与者与其对手方应当在支付或交付违约情形发生后1个交易日内将相关违约情形报告本所。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6114,
+      "end_char": 6189,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "第五十五条市场参与者以及为其提供经纪服务的证券公司应当根据本所要求定期向本所报送相关数据,本所对市场参与者的交易头寸、参考实体对应的交易头寸等进行动态监测。本所可以根据监测结果采取必要的风险控制措施,包括但不限于暂停市场参与者参与信用保护工具业务或者暂停开展涉及特定参考实体的信用保护工具业务者取所与者况书。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6191,
+      "end_char": 6345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "第五十六条市场参与者、中介机构及其相关人员违反本指引、相关约定、承诺或者本所其他规定的,本所可以采取口头警示、书面警示、监管谈话、要求限期改正、暂停受理或办理相关业务,以及本所规定的其他监管措施;情节严重的,可以给予通报批评、公开谴责以及本所规定的其他纪律处分,并可提请监管机构采取行政监管等措施。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6347,
+      "end_char": 6496,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "本所可以将实施纪律处分或者监管措施的情形记入诚信档案并予以公布。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6498,
+      "end_char": 6530,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "chapter",
+      "text": "第八章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6532,
+      "end_char": 6538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "第五十七条由于不可抗力、意外事件、技术故障或者本所认可的其他情形导致无法通过交易系统达成交易的,交易双方可以将交易确认书或者转让申报等通过书面方式发送本所确认。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6540,
+      "end_char": 6620,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "第五十八条本指引由本所负责解释。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6622,
+      "end_char": 6638,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "第五十九条本指引自发布之日起实施。",
+      "style": "列出段落",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6640,
+      "end_char": 6657,
+      "region": "body"
+    }
+  ],
   "normalized_text": "上海证券交易所信用保护工具交易业务指引(2022年修订)\n\n第一章 总则\n\n第一条为了促进信用保护工具市场健康稳定发展,保护投资者的合法权益,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及《上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法》等相关业务规则,制定本指引。\n\n第二条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。\n\n第三条市场参与者应当诚实守信,按照相关规定和约定履行义务。\n\n第四条市场参与者应当保证提交或者披露的相关资质申请文件、凭证创设文件及信息披露等文件真实、准确、完整、及时,不存在虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导投资者。\n\n第五条为凭证创设、挂牌交易提供服务的资信评级机构、会计师事务所等专业机构及其相关人员应当勤勉尽责,严格遵守执业规范和监管规则,按规定和约定履行义务。\n\n第六条上海证券交易所(以下简称本所)对信用保护工具相关市场参与者进行备案,并为信用保护工具业务有序开展提供服务,不表明对投资风险或者收益等做出判断或保证。信用保护工具业务的风险,由交易双方自行承担。\n\n第七条本所对信用保护工具的市场参与者实行分类管理,并实行投资者适当性管理制度。\n\n本所可以根据市场情况和市场参与者资信状况的变化,调整分类管理标准、交易机制以及投资者适当性安排。\n\n第八条市场参与者应当遵守法律、行政法规、部门规章、其他规范性文件、本指引及本所其他相关规定,履行相关协议约定和承诺。\n\n本所根据本指引及其他相关规定,对市场参与者及相关人员进行自律管理。\n\n第二章 参与者管理\n\n第九条信用保护工具参与者的投资者适当性应当与本所债券市场投资者适当性管理相关规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于专业投资者中的机构投资者参与信用保护工具交易。本所可以根据市场发展情况,调整信用保护工具投资者适当性标准。\n\n交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本指引规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。\n\n第十条符合以下条件的金融机构、信用增进机构等经本所备案可成为合约核心交易商(以下简称核心交易商):\n\n(一)具有较丰富的信用风险管理经验和较强的信用风险承担能力;\n\n(二)具有相对独立的信用保护工具交易团队,建立完备的信用风险管理工具内部操作规程和业务管理制度;\n\n(三)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;\n\n(四)本所要求的其他条件。\n\n第十一条符合以下条件的核心交易商经本所备案可成为凭证创设机构(以下简称创设机构):\n\n(一)最近一年末净资产不少于40亿元;\n\n(二)具有较强的信用风险管理和评估能力,并配备5名以上(含5名)的风险管理人员;\n\n(三)本所要求的其他条件。\n\n第十二条投资者拟成为核心交易商或者创设机构的,应当向本所提交以下资质备案文件:\n\n(一)信用保护合约核心交易商/凭证创设机构资质申请信息表;\n\n(二)最近一个会计年度经审计的总资产、净资产的说明及相关证明文件;\n\n(三)公司信用保护工具交易团队、信用保护工具业务内部操作规程和业务管理制度或者业务系统说明;\n\n(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚的承诺函;\n\n(五)本所要求的其他文件。\n\n第十三条本所收到相关文件后,对市场参与者是否符合备案要求进行核查。符合备案要求的,本所为相关市场参与者开通信用保护工具交易功能,并向市场披露;不符合备案要求的,本所及时告知相关市场参与者理由。\n\n第三章 信用保护合约\n\n第一节 一般规定\n\n第十四条合约申报要素包括:买方名称、买方证券账户、卖方名称、卖方证券账户、名义本金、参考实体、债务种类、债务特征、可交付债务(如有)、信用事件类型、合约起始日、合约到期日、保护费率、保护费支付方式、前端费用、结算方式等。\n\n第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。\n\n季度标准保护费率根据合约签订时参考实体的主体评级确定,主体评级AAA的为50个基点,AA+的为100个基点,其他评级或者未评级的为150个基点,同一参考实体有多个评级的,以其中最低评级为准。本所可以根据市场发展情况调整相关标准。\n\n主体评级应由经中国证监会备案的证券市场资信评级机构出具。\n\n第十六条合约交易双方协商一致后,一方通过本所交易系统进行合约申报,另一方进行确认。本所可以根据市场需要调整合约的申报方式。\n\n证券公司经纪客户通过证券公司进行申报和确认。\n\n第十七条合约的交易时间为每个交易日的9:00-11:30、13:00-15:30。合约申报名义本金应当不低于50万元人民币。\n\n本所可以根据市场需要调整合约的交易时间。\n\n第十八条交易系统根据交易双方的申报和确认,对符合形式要求的合约生成信用保护合约交易确认书(以下简称交易确认书),交易系统不对申报和确认的内容进行审查。\n\n第十九条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。\n\n第二十条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。合约交易双方可以通过中国结算或者自行协商的其他方式支付相关终止结算金额。\n\n第二节 组合型信用保护合约的特别规定\n\n第二十一条组合型信用保护合约(以下简称CDX合约)是指合约交易双方达成的,以特定CDX组合项下全部参考实体或其符合特定债务种类和债务特征的全部债务为保护对象的信用保护合约。\n\n其中,CDX组合是指CDX组合管理人根据本指引和其他相关业务规则编制的多个参考实体的集合。\n\n第二十二条CDX组合管理人是指负责编制、公开发布、运营CDX组合的机构,CDX组合管理人的专业能力、财务实力、公司治理、技术资源等方面应当能持续有效保障CDX组合正常运行,其研究能力、数据处理能力或者估值能力等应当被市场广泛认可。\n\nCDX组合管理人应当根据本指引及其他相关业务规则,基于公开、透明、客观、可操作性的原则制定并披露CDX组合编制方案。\n\nCDX组合管理人应当根据公布的CDX组合编制方案筛选CDX组合,对CDX组合进行滚动和除名,并及时发布CDX组合信息,包括但不限于CDX组合初始名单、经滚动或除名的CDX组合名单和CDX组合信用曲线等内容,确保CDX组合信息的完整性、连续性和可靠性。\n\n第二十三条CDX组合名称以SnVn结尾标识版本。CDX组合名称中“S”后数字初始为1,并随着CDX组合滚动依次增加。每次滚动后CDX组合名称中“V”后数字初始为1,并随着两次组合滚动日之间参考实体被除名的个数依次增加。\n\nCDX组合滚动或除名后,市场参与者仅可基于最新版本的CDX组合开展CDX合约交易,滚动或除名前达成的CDX合约根据合约交易双方的约定办理。\n\n第二十四条CDX合约的期限不超过5年。\n\n第二十五条经备案可以作为核心交易商开展CDX合约业务的市场参与者应当每个交易日就当日每个最新版本CDX组合的关键期限合约向全市场提供双边意向申报,意向申报不可直接确认成交。\n\n第二十六条根据市场机构对CDX合约的报价及成交情况,CDX组合管理人编制并发布CDX组合信用曲线。\n\n第四章 信用保护凭证\n\n第二十七条创设机构创设凭证,应当在创设前向本所提交以下凭证创设文件:\n\n(一)凭证创设说明书;\n\n(二)创设机构的信用评级报告;\n\n(三)最近一个会计年度经审计的创设机构的财务报表和审计报告;\n\n(四)本所要求提交的其他文件。\n\n第二十八条凭证创设说明书应当明确创设机构的基本情况、参考实体、债务种类、债务特征、可交付债务(如有)、名义本金、凭证起始日、凭证到期日、信用事件类型、结算方式、凭证持有人会议规则等相关内容。凭证持有人会议规则应当载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。\n\n第二十九条本所对凭证创设文件进行完备性核对,不对凭证的投资价值及投资风险进行实质性判断。文件完备的,本所在收到文件10个交易日内,出具无异议函。\n\n第三十条凭证创设及登记完成后,创设机构应当向本所提交凭证挂牌转让申请书等相关文件,与本所签订挂牌协议。\n\n第三十一条凭证转让由投资者通过交易系统申报,证券公司经纪客户通过证券公司申报。可采用点击成交、询价成交、协商成交等方式转让。\n\n第三十二条凭证转让的申报时间为每个交易日的9:00-11:30、13:00-15:30。每笔凭证转让申报的名义本金应当不低于50万元人民币,申报价格为百元名义本金凭证的价格,申报价格最小变动单位为0.001元。\n\n本所可以根据市场需要调整凭证转让的申报时间。\n\n第三十三条创设机构可以买入自身创设的凭证并向交易系统申报注销,不得转售。\n\n第三十四条凭证到期且未发生信用事件的,创设机构回购注销其全部凭证的,或者出现本所认定的其他情形的,本所终止凭证的挂牌转让。\n\n第五章 信用事件及结算\n\n第三十五条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书(以下简称信用事件通知书),并同时向本所报告。对手方无异议的,合约或者首份凭证信用事件通知书送达之日即为信用事件决定日。\n\n第三十六条按季支付保护费的合约,在存续期发生信用事件的,买方自信用事件决定日起停止支付保护费,买方仅支付自上一保护费支付日至信用事件决定日期间的保护费。\n\n第三十七条凭证的信用事件决定日确定后,创设机构应当通过本所网站发布关于信用事件和后续结算安排的公告,内容应当包括信用事件的说明、信用事件决定日的确认、凭证最后交易日期、结算方式以及交割时间区间等信息。最后结算日不得晚于信用事件决定日后60个自然日。\n\n第三十八条买方应当按照约定在信用事件决定日后向卖方发送结算通知书,结算通知书的发送日不得晚于信用事件决定日后30个自然日,最后结算日不得晚于结算通知书送达日后30个自然日。\n\n第三十九条交易双方约定采用实物结算的,结算通知书应当包括用于结算的具体可交付债务、交割方式、交割数量、交割时间等信息;交易双方约定采用现金结算的,结算通知书应当包括现金的交付方式、交付金额、交付时间等信息。\n\n第四十条买方可以通过交易系统或者其他约定方式发送信用事件通知书及结算通知书。\n\n第四十一条 卖方收到结算通知书的,应当按照相关规定、约定及结算通知书内容履行结算义务。\n\n第四十二条信用事件发生后采用实物结算的,且交易双方约定结算金额包含可交付债务尚未支付的应计利息的,结算金额为名义本金加上约定的截至结算日实际交付债务当日尚未支付的应计利息;交易双方约定结算金额不包含可交付债务尚未支付的应计利息的,结算金额为名义本金。\n\n第四十三条信用事件发生后采用现金结算的,计算公式为:结算金额=名义本金×(1-约定回收率)。交易双方应当在相关有效文件中明确约定回收率比例或者约定回收率的确定方法。\n\n第四十四条合约信用事件发生后,交易双方最终按照结算金额和买方应付未付保护费的轧差净额进行资金结算。\n\n第四十五条CDX合约的信用事件包括破产、支付违约等类型。信用事件发生后,CDX合约交易双方可以就发生信用事件的部分参考实体所对应的名义本金进行结算,CDX合约剩余部分参考实体及其对应的名义本金继续存续。\n\n第四十六条交易双方应当在结算日确认相关结算要素。\n\n合约或凭证采用实物结算以及凭证采用现金结算的,由交易一方通过交易系统申报,另一方进行确认。中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。\n\n合约采用现金结算的,交易双方可以通过中国结算或者自行协商的其他方式完成结算。\n\n第四十七条 交易双方就信用事件相关事项存在争议的,可以提请信用事件专家委员会出具专家意见并组织协商。若交易双方认可信用事件专家委员会出具的专家意见或协商结果,交易双方按照相关专家意见或协商结果进行处理。\n\n若交易双方发生争议未提交信用事件专家委员会或者不认可相关专家意见或协商结果的,交易双方可根据约定就信用事件争议事项提交仲裁或诉讼。\n\n第六章 信息披露\n\n第四十八条创设机构应当在凭证创设前2个交易日通过本所网站向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。\n\n第四十九条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露定期跟踪评级报告。年度报告应当至少记载以下内容:\n\n(一)创设机构概况;\n\n(二)创设机构经营情况、财务状况;\n\n(三)创设机构主体评级情况;\n\n(四)创设机构在报告期内发生的可能影响创设机构赔付能力或者凭证价格的重大事项;\n\n(五)本所要求披露的其他事项。\n\n第五十条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向本所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。重大事项包括:\n\n(一)创设机构创设的凭证发生赔付;\n\n(二)创设机构主要资产被查封、扣押、冻结;\n\n(三)创设机构发生超过上年末净资产10%的重大损失;\n\n(四)创设机构发生未能清偿到期重大债务的违约情况;\n\n(五)创设机构作出减资、合并、分立、解散及申请破产的决定;\n\n(六)创设机构涉及重大诉讼、仲裁事项或者受到重大行政处罚;\n\n(七)创设机构履约保障方、担保物或者其他偿债保障措施发生重大变化;\n\n(八)创设机构涉嫌犯罪被司法机关立案调查,创设机构董事、监事、高级管理人员涉嫌犯罪被司法机关采取强制措施;\n\n(九)其他对投资者作出投资决策有重大影响的事项。\n\n(十)法律、行政法规、规章规定或中国证监会、本所规定的其他事项。\n\n第五十一条凭证创设机构和投资者应当关注参考实体披露的重大事项。\n\n第五十二条合约交易双方按照相关约定及时向对手方报告相关重大事项。\n\n第七章 风险控制和监督管理\n\n第五十三条核心交易商或创设机构发生以下情形之一的,应当向本所递交相关文件和书面说明,由本所重新审查:\n\n(一)由于净资产、金融资产规模变化等导致可能不再符合信用保护工具参与者相应资质的;\n\n(二)发生可能被取消资质、吊销执照、进入破产或者清算程序等导致公司资质可能受限或者被注销等情形。\n\n对于不再符合信用保护工具参与者资质要求的,本所撤销市场参与者的核心交易商或创设机构资格。\n\n核心交易商或创设机构被撤销资格后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。\n\n第五十四条市场参与者未按照相关规定、约定履行支付或交付义务的,该市场参与者与其对手方应当在支付或交付违约情形发生后1个交易日内将相关违约情形报告本所。\n\n第五十五条市场参与者以及为其提供经纪服务的证券公司应当根据本所要求定期向本所报送相关数据,本所对市场参与者的交易头寸、参考实体对应的交易头寸等进行动态监测。本所可以根据监测结果采取必要的风险控制措施,包括但不限于暂停市场参与者参与信用保护工具业务或者暂停开展涉及特定参考实体的信用保护工具业务者取所与者况书。\n\n第五十六条市场参与者、中介机构及其相关人员违反本指引、相关约定、承诺或者本所其他规定的,本所可以采取口头警示、书面警示、监管谈话、要求限期改正、暂停受理或办理相关业务,以及本所规定的其他监管措施;情节严重的,可以给予通报批评、公开谴责以及本所规定的其他纪律处分,并可提请监管机构采取行政监管等措施。\n\n本所可以将实施纪律处分或者监管措施的情形记入诚信档案并予以公布。\n\n第八章 附则\n\n第五十七条由于不可抗力、意外事件、技术故障或者本所认可的其他情形导致无法通过交易系统达成交易的,交易双方可以将交易确认书或者转让申报等通过书面方式发送本所确认。\n\n第五十八条本指引由本所负责解释。\n\n第五十九条本指引自发布之日起实施。",
   "blocks": [
     {
@@ -170,7 +3083,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 28,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -178,7 +3098,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 30,
+      "end_char": 36,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -186,7 +3113,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 38,
+      "end_char": 163,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -194,7 +3128,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 165,
+      "end_char": 206,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -202,7 +3143,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 208,
+      "end_char": 237,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -210,7 +3158,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 239,
+      "end_char": 325,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -218,7 +3173,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 327,
+      "end_char": 401,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -226,7 +3188,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 403,
+      "end_char": 502,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -234,7 +3203,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 504,
+      "end_char": 543,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -242,7 +3218,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 545,
+      "end_char": 593,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -250,7 +3233,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 595,
+      "end_char": 653,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -258,7 +3248,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 655,
+      "end_char": 688,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -266,7 +3263,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 690,
+      "end_char": 699,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -274,7 +3278,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 701,
+      "end_char": 883,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -282,7 +3293,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 885,
+      "end_char": 966,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -290,7 +3308,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 968,
+      "end_char": 1017,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -298,7 +3323,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1019,
+      "end_char": 1049,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -306,7 +3338,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1051,
+      "end_char": 1099,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -314,7 +3353,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1101,
+      "end_char": 1144,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -322,7 +3368,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1146,
+      "end_char": 1159,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -330,7 +3383,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1161,
+      "end_char": 1202,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -338,7 +3398,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1204,
+      "end_char": 1223,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -346,7 +3413,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1225,
+      "end_char": 1265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -354,7 +3428,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1267,
+      "end_char": 1280,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -362,7 +3443,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1282,
+      "end_char": 1321,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -370,7 +3458,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1323,
+      "end_char": 1352,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -378,7 +3473,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1354,
+      "end_char": 1387,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -386,7 +3488,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1389,
+      "end_char": 1435,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -394,7 +3503,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1437,
+      "end_char": 1484,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -402,7 +3518,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1486,
+      "end_char": 1499,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -410,7 +3533,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1597,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -418,7 +3548,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1599,
+      "end_char": 1609,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -426,7 +3563,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1611,
+      "end_char": 1619,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -434,7 +3578,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1621,
+      "end_char": 1731,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -442,7 +3593,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1733,
+      "end_char": 1787,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -450,7 +3608,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1789,
+      "end_char": 1903,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -458,7 +3623,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1905,
+      "end_char": 1933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -466,7 +3638,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1935,
+      "end_char": 1996,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -474,7 +3653,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1998,
+      "end_char": 2020,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -482,7 +3668,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2022,
+      "end_char": 2084,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -490,7 +3683,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2086,
+      "end_char": 2106,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -498,7 +3698,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2108,
+      "end_char": 2183,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -506,7 +3713,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2185,
+      "end_char": 2220,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -514,7 +3728,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2222,
+      "end_char": 2302,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -522,7 +3743,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2304,
+      "end_char": 2322,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -530,7 +3758,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2324,
+      "end_char": 2410,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -538,7 +3773,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2412,
+      "end_char": 2457,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -546,7 +3788,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2459,
+      "end_char": 2574,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -554,7 +3803,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2576,
+      "end_char": 2634,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -562,7 +3818,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2636,
+      "end_char": 2761,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -570,7 +3833,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2763,
+      "end_char": 2872,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -578,7 +3848,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2874,
+      "end_char": 2943,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -586,7 +3863,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2945,
+      "end_char": 2964,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -594,7 +3878,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2966,
+      "end_char": 3052,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -602,7 +3893,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3054,
+      "end_char": 3103,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -610,7 +3908,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3105,
+      "end_char": 3115,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -618,7 +3923,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3117,
+      "end_char": 3151,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -626,7 +3938,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3153,
+      "end_char": 3164,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -634,7 +3953,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3166,
+      "end_char": 3181,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -642,7 +3968,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3183,
+      "end_char": 3213,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -650,7 +3983,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3215,
+      "end_char": 3230,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -658,7 +3998,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3232,
+      "end_char": 3372,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -666,7 +4013,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3374,
+      "end_char": 3446,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -674,7 +4028,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3448,
+      "end_char": 3499,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -682,7 +4043,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3501,
+      "end_char": 3563,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -690,7 +4058,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3565,
+      "end_char": 3670,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -698,7 +4073,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3672,
+      "end_char": 3694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -706,7 +4088,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3696,
+      "end_char": 3732,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -714,7 +4103,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3734,
+      "end_char": 3795,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -722,7 +4118,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3797,
+      "end_char": 3808,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -730,7 +4133,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3810,
+      "end_char": 3921,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -738,7 +4148,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3923,
+      "end_char": 3999,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -746,7 +4163,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4001,
+      "end_char": 4125,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -754,7 +4178,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4127,
+      "end_char": 4213,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -762,7 +4193,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4215,
+      "end_char": 4318,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -770,7 +4208,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4320,
+      "end_char": 4358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -778,7 +4223,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4360,
+      "end_char": 4403,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -786,7 +4238,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4405,
+      "end_char": 4530,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -794,7 +4253,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4532,
+      "end_char": 4614,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -802,7 +4268,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4616,
+      "end_char": 4665,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -810,7 +4283,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4667,
+      "end_char": 4768,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -818,7 +4298,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4770,
+      "end_char": 4794,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -826,7 +4313,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4796,
+      "end_char": 4876,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -834,7 +4328,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4878,
+      "end_char": 4916,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -842,7 +4343,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4918,
+      "end_char": 5019,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -850,7 +4358,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5021,
+      "end_char": 5086,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -858,7 +4373,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5088,
+      "end_char": 5096,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -866,7 +4388,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5098,
+      "end_char": 5171,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -874,7 +4403,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5173,
+      "end_char": 5260,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -882,7 +4418,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5262,
+      "end_char": 5272,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -890,7 +4433,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5274,
+      "end_char": 5291,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -898,7 +4448,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5293,
+      "end_char": 5307,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -906,7 +4463,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5309,
+      "end_char": 5348,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -914,7 +4478,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5350,
+      "end_char": 5365,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -922,7 +4493,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5367,
+      "end_char": 5474,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -930,7 +4508,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5476,
+      "end_char": 5493,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -938,7 +4523,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5495,
+      "end_char": 5516,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -946,7 +4538,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5518,
+      "end_char": 5544,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -954,7 +4553,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5546,
+      "end_char": 5571,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -962,7 +4568,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5573,
+      "end_char": 5602,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -970,7 +4583,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5604,
+      "end_char": 5633,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -978,7 +4598,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5635,
+      "end_char": 5668,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -986,7 +4613,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5670,
+      "end_char": 5723,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -994,7 +4628,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5725,
+      "end_char": 5749,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1002,7 +4643,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5751,
+      "end_char": 5783,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1010,7 +4658,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5785,
+      "end_char": 5816,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1018,7 +4673,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5818,
+      "end_char": 5850,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1026,7 +4688,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5852,
+      "end_char": 5865,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1034,7 +4703,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5867,
+      "end_char": 5917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1042,7 +4718,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5919,
+      "end_char": 5960,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1050,7 +4733,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5962,
+      "end_char": 6010,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1058,7 +4748,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6012,
+      "end_char": 6056,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1066,7 +4763,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6058,
+      "end_char": 6112,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1074,7 +4778,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6114,
+      "end_char": 6189,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1082,7 +4793,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6191,
+      "end_char": 6345,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1090,7 +4808,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6347,
+      "end_char": 6496,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1098,7 +4823,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6498,
+      "end_char": 6530,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1106,7 +4838,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6532,
+      "end_char": 6538,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1114,7 +4853,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6540,
+      "end_char": 6620,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1122,7 +4868,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6622,
+      "end_char": 6638,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1130,7 +4883,14 @@
       "style": "列出段落",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6640,
+      "end_char": 6657,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

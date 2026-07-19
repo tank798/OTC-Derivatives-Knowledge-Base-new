@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/衍生品估值报告内容与格式指引.pdf",
   "source_type": "pdf",
   "file_sha256": "7756b294848454206c183a0301e422b50df7bb817c6a0fb92dd039acaf64b62c",
-  "content_sha256": "abd9b6f7c92cc1d502b22370e594ac46330afa59caf89ec269c3b850b14b0369",
+  "content_sha256": "459e7783742db7b2cfd13f393af1baa4060c02994a952d93e07752a712e53f8c",
   "metadata": {
     "document_title": "衍生品估值报告内容与格式指引",
     "issuing_authority": "中国证券业协会、中国证券投资基金业协会",
@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
     "clean_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
@@ -52,6 +52,328 @@
   },
   "original_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
   "clean_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
+  "clean_text_hash": "bf64a18c02dbefbb6fd0d22f6c68a0edb2d697b0c856afbe720e155734ddec69",
+  "structured_blocks_sha256": "48e2ed2a3284c053d0fbe174e91b4b0e195aa3c80cb93c98515ea986249111f7",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "衍生品估值报告内容与格式指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 14,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为规范衍生品交易的估值报告内容与格式,提高估值数据标准化程度和数据交互效率,根据《中华人民共和国期货和衍生品法》《中华人民共和国证券投资基金法》《中国证监会关于证券投资基金估值业务的指导意见》等相关规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 16,
+      "end_char": 128,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 衍生品交易商或第三方估值服务机构与私募证券投资基金管理人、从事私募资产管理业务的证券期货经营机构(以下统称管理人)、托管人开展衍生品估值相关工作的,适用本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 130,
+      "end_char": 214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 衍生品交易商从事衍生品交易业务,应当遵守审慎经营原则,有效防范和控制交易对手方风险。管理人应当评估自身的财务状况、风险管理需求和风险承受能力等因素,审慎决定是否参与衍生品交易。管理人在参与衍生品交易的过程中,应加强对风险敞口的管理,合理控制衍生品交易的杠杆水平、规模和集中度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 216,
+      "end_char": 358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第四条 管理人采用衍生品交易商或第三方估值服务机构提供的数据对衍生品进行估值的,应当定期对数据质量进行评估,对估值结果进行检验,相关法律法规、规章、规范性文件规定其应当承担的估值责任不因此而免除。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 360,
+      "end_char": 458,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第五条 管理人应当按照相关规定和合同约定积极配合衍生品交易商开展适当性管理、尽职调查、穿透核查等工作,及时、如实、全面提供相关材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 460,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第六条 管理人应当明确授权由衍生品交易商或第三方估值服务机构直接向托管人提供衍生品估值信息。托管人依法对产品净值进行复核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 528,
+      "end_char": 589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第七条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当采用符合公允价值计量原则的估值方法,审慎、合理地确定估值模型及相关参数。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 591,
+      "end_char": 671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第八条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当按照本指引附件中的估值报告模板制作估值报告,确保估值报告数据的真实性、完整性、合理性,并及时向管理人、托管人发送估值报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 673,
+      "end_char": 778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第九条 衍生品交易商向其他交易对手方提供衍生品估值服务的,参照本指引执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 780,
+      "end_char": 817,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第十条 本指引自 2026 年 7 月 1 日起实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 819,
+      "end_char": 846,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00012",
+      "block_type": "attachment",
+      "text": "附件:1.场外期权估值报告模板",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 848,
+      "end_char": 863,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "guide_minor_heading",
+      "text": "2.收益互换估值报告模板",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 865,
+      "end_char": 877,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "衍生品估值报告内容与格式指引\n\n第一条 为规范衍生品交易的估值报告内容与格式,提高估值数据标准化程度和数据交互效率,根据《中华人民共和国期货和衍生品法》《中华人民共和国证券投资基金法》《中国证监会关于证券投资基金估值业务的指导意见》等相关规定,制定本指引。\n\n第二条 衍生品交易商或第三方估值服务机构与私募证券投资基金管理人、从事私募资产管理业务的证券期货经营机构(以下统称管理人)、托管人开展衍生品估值相关工作的,适用本指引。\n\n第三条 衍生品交易商从事衍生品交易业务,应当遵守审慎经营原则,有效防范和控制交易对手方风险。管理人应当评估自身的财务状况、风险管理需求和风险承受能力等因素,审慎决定是否参与衍生品交易。管理人在参与衍生品交易的过程中,应加强对风险敞口的管理,合理控制衍生品交易的杠杆水平、规模和集中度。\n\n第四条 管理人采用衍生品交易商或第三方估值服务机构提供的数据对衍生品进行估值的,应当定期对数据质量进行评估,对估值结果进行检验,相关法律法规、规章、规范性文件规定其应当承担的估值责任不因此而免除。\n\n第五条 管理人应当按照相关规定和合同约定积极配合衍生品交易商开展适当性管理、尽职调查、穿透核查等工作,及时、如实、全面提供相关材料。\n\n第六条 管理人应当明确授权由衍生品交易商或第三方估值服务机构直接向托管人提供衍生品估值信息。托管人依法对产品净值进行复核。\n\n第七条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当采用符合公允价值计量原则的估值方法,审慎、合理地确定估值模型及相关参数。\n\n第八条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当按照本指引附件中的估值报告模板制作估值报告,确保估值报告数据的真实性、完整性、合理性,并及时向管理人、托管人发送估值报告。\n\n第九条 衍生品交易商向其他交易对手方提供衍生品估值服务的,参照本指引执行。\n\n第十条 本指引自 2026 年 7 月 1 日起实施。\n\n附件:1.场外期权估值报告模板\n\n2.收益互换估值报告模板",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "衍生品估值报告内容与格式指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 14,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为规范衍生品交易的估值报告内容与格式,提高估值数据标准化程度和数据交互效率,根据《中华人民共和国期货和衍生品法》《中华人民共和国证券投资基金法》《中国证监会关于证券投资基金估值业务的指导意见》等相关规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 16,
+      "end_char": 128,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 衍生品交易商或第三方估值服务机构与私募证券投资基金管理人、从事私募资产管理业务的证券期货经营机构(以下统称管理人)、托管人开展衍生品估值相关工作的,适用本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 130,
+      "end_char": 214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 衍生品交易商从事衍生品交易业务,应当遵守审慎经营原则,有效防范和控制交易对手方风险。管理人应当评估自身的财务状况、风险管理需求和风险承受能力等因素,审慎决定是否参与衍生品交易。管理人在参与衍生品交易的过程中,应加强对风险敞口的管理,合理控制衍生品交易的杠杆水平、规模和集中度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 216,
+      "end_char": 358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第四条 管理人采用衍生品交易商或第三方估值服务机构提供的数据对衍生品进行估值的,应当定期对数据质量进行评估,对估值结果进行检验,相关法律法规、规章、规范性文件规定其应当承担的估值责任不因此而免除。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 360,
+      "end_char": 458,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第五条 管理人应当按照相关规定和合同约定积极配合衍生品交易商开展适当性管理、尽职调查、穿透核查等工作,及时、如实、全面提供相关材料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 460,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第六条 管理人应当明确授权由衍生品交易商或第三方估值服务机构直接向托管人提供衍生品估值信息。托管人依法对产品净值进行复核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 528,
+      "end_char": 589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第七条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当采用符合公允价值计量原则的估值方法,审慎、合理地确定估值模型及相关参数。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 591,
+      "end_char": 671,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第八条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当按照本指引附件中的估值报告模板制作估值报告,确保估值报告数据的真实性、完整性、合理性,并及时向管理人、托管人发送估值报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 673,
+      "end_char": 778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第九条 衍生品交易商向其他交易对手方提供衍生品估值服务的,参照本指引执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 780,
+      "end_char": 817,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第十条 本指引自 2026 年 7 月 1 日起实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 819,
+      "end_char": 846,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "attachment",
+      "text": "附件:1.场外期权估值报告模板",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 848,
+      "end_char": 863,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "guide_minor_heading",
+      "text": "2.收益互换估值报告模板",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 865,
+      "end_char": 877,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "衍生品估值报告内容与格式指引\n\n第一条 为规范衍生品交易的估值报告内容与格式,提高估值数据标准化程度和数据交互效率,根据《中华人民共和国期货和衍生品法》《中华人民共和国证券投资基金法》《中国证监会关于证券投资基金估值业务的指导意见》等相关规定,制定本指引。\n\n第二条 衍生品交易商或第三方估值服务机构与私募证券投资基金管理人、从事私募资产管理业务的证券期货经营机构(以下统称管理人)、托管人开展衍生品估值相关工作的,适用本指引。\n\n第三条 衍生品交易商从事衍生品交易业务,应当遵守审慎经营原则,有效防范和控制交易对手方风险。管理人应当评估自身的财务状况、风险管理需求和风险承受能力等因素,审慎决定是否参与衍生品交易。管理人在参与衍生品交易的过程中,应加强对风险敞口的管理,合理控制衍生品交易的杠杆水平、规模和集中度。\n\n第四条 管理人采用衍生品交易商或第三方估值服务机构提供的数据对衍生品进行估值的,应当定期对数据质量进行评估,对估值结果进行检验,相关法律法规、规章、规范性文件规定其应当承担的估值责任不因此而免除。\n\n第五条 管理人应当按照相关规定和合同约定积极配合衍生品交易商开展适当性管理、尽职调查、穿透核查等工作,及时、如实、全面提供相关材料。\n\n第六条 管理人应当明确授权由衍生品交易商或第三方估值服务机构直接向托管人提供衍生品估值信息。托管人依法对产品净值进行复核。\n\n第七条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当采用符合公允价值计量原则的估值方法,审慎、合理地确定估值模型及相关参数。\n\n第八条 衍生品交易商或第三方估值服务机构按照相关规定和合同约定提供衍生品估值服务的,应当按照本指引附件中的估值报告模板制作估值报告,确保估值报告数据的真实性、完整性、合理性,并及时向管理人、托管人发送估值报告。\n\n第九条 衍生品交易商向其他交易对手方提供衍生品估值服务的,参照本指引执行。\n\n第十条 本指引自 2026 年 7 月 1 日起实施。\n\n附件:1.场外期权估值报告模板\n\n2.收益互换估值报告模板",
   "blocks": [
     {
@@ -60,7 +382,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 14,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -68,7 +397,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 16,
+      "end_char": 128,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -76,7 +412,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 130,
+      "end_char": 214,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -84,7 +427,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 216,
+      "end_char": 358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -92,7 +442,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 360,
+      "end_char": 458,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -100,7 +457,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 460,
+      "end_char": 526,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -108,7 +472,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 528,
+      "end_char": 589,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -116,7 +487,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 591,
+      "end_char": 671,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -124,7 +502,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 673,
+      "end_char": 778,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -132,7 +517,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 780,
+      "end_char": 817,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -140,7 +532,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 819,
+      "end_char": 846,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -148,7 +547,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 848,
+      "end_char": 863,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -156,7 +562,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 2,
+      "start_char": 865,
+      "end_char": 877,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

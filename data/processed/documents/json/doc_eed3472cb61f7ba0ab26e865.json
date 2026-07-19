@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司信用风险管理指引.doc",
   "source_type": "doc",
   "file_sha256": "216456be98d1e6e00076d6f597f30429fa6e80dc3a7129962a17d05530eede63",
-  "content_sha256": "473413f8fd882040b804ac19e917ebcecb5c009e8f79eb222030f1ec63709dbe",
+  "content_sha256": "3c6f0b177d91977a693159410a47996e1a56105f74935f5c751f5d6c3a5ad3f2",
   "metadata": {
     "document_title": "证券公司信用风险管理指引",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "5d58be5e79750d71272d01a0384183bbb1bd6650a995c863dfb91d4e15f15560",
     "clean_text_sha256": "5d58be5e79750d71272d01a0384183bbb1bd6650a995c863dfb91d4e15f15560",
@@ -108,6 +108,1623 @@
   },
   "original_text_sha256": "5d58be5e79750d71272d01a0384183bbb1bd6650a995c863dfb91d4e15f15560",
   "clean_text_sha256": "5d58be5e79750d71272d01a0384183bbb1bd6650a995c863dfb91d4e15f15560",
+  "clean_text_hash": "db3254d9e4ae1ffe26ee899ba5258a71d90e523b13711251a0ba3739427c98eb",
+  "structured_blocks_sha256": "2f26b44c327f8d41767bc6274a9da68de38c7a2722d680793a2a9325ad798414",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司信用风险管理指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 21,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为加强和规范证券公司信用风险管理,根据《中华人民共和国证券法》、《证券公司监督管理条例》、《证券公司风险控制指标管理办法》、《证券公司全面风险管理规范》等法律法规及自律规则,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 23,
+      "end_char": 120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 本指引适用于证券公司以自有资金出资业务的信用风险管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 122,
+      "end_char": 153,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 本指引所称信用风险指因融资方、交易对手或发行人等违约导致损失的风险。按照业务类型分类,包括但不限于以下几类:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 155,
+      "end_char": 213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(一)股票质押式回购交易、约定购回式证券交易、融资融券等融资类业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 215,
+      "end_char": 249,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(二)互换、场外期权、远期、信用衍生品等场外衍生品业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 251,
+      "end_char": 279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(三)债券投资交易(包括债券现券交易、债券回购交易、债券远期交易、债券借贷业务等债券相关交易业务),债券包括但不限于国债、地方债、金融债、政府支持机构债、企业债、非金融企业债务融资工具、公司债、资产支持证券、同业存单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 281,
+      "end_char": 390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(四)非标准化债权资产投资;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 392,
+      "end_char": 406,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(五)其他涉及信用风险的自有资金出资业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 408,
+      "end_char": 429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第四条 证券公司的信用风险管理应遵循“全面性、内部制衡、全流程风控”的原则组织进行相关业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 431,
+      "end_char": 477,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(一)全面性原则:证券公司信用风险管理应全面覆盖证券公司各部门、分支机构、子公司,包含所有表内外和境内外业务,贯穿决策、执行、监督、反馈等各个环节;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 479,
+      "end_char": 553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(二)内部制衡原则:证券公司应确保前、中、后台的职责分离,并建立相应的制约机制,防范利益冲突;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 555,
+      "end_char": 602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(三)全流程风控原则:证券公司应对信用风险管理各个环节进行严谨、审慎判断,对业务信用风险的管理应贯穿业务全流程,完善风险的识别、评估、监控、应对及全程管理,确保风险可测、可控、可承受,保障可持续经营。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 604,
+      "end_char": 704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第五条 证券公司应将所有子公司以及比照子公司管理的各类孙公司(以下简称“子公司”)纳入信用风险管理体系,实现信用风险管理全覆盖。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 706,
+      "end_char": 770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第六条 按照全面风险管理规范要求,证券公司应建立健全与自身发展战略相适应的信用风险管理体系。信用风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 772,
+      "end_char": 885,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "chapter",
+      "text": "第二章 信用风险管理职责",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 887,
+      "end_char": 899,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第七条 证券公司应建立有效的信用风险管理组织架构,明确董事会、监事会、经理层及首席风险官、相关部门在信用风险管理中的职责和报告路线,建立健全有效的考核及问责机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 901,
+      "end_char": 982,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第八条 证券公司董事会应承担信用风险管理的最终责任,负责审议批准涵盖信用风险的公司风险偏好、容忍度等风险管理重大事项,持续关注信用风险状况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 984,
+      "end_char": 1054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第九条 证券公司监事会应承担信用风险管理的监督责任,负责监督检查董事会和经理层在信用风险管理方面的履职尽责情况并督促整改。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1056,
+      "end_char": 1117,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十条 证券公司经理层应承担信用风险管理的主要责任,负责确定信用风险管理组织架构,明确各部门职责分工;确保公司具有足够的资源,独立、有效地开展信用风险管理工作;确保信用风险偏好和容忍度等在公司内部的有效沟通、传达和实施;建立完备的管理信息系统或采取相应手段,支持信用风险的识别、评估、监控、应对及全程管理;充分了解风险水平及其管理状况等,并向董事会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1119,
+      "end_char": 1296,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十一条 证券公司首席风险官负责全面风险管理工作,应充分了解证券公司信用风险水平及其管理状况,并及时向董事会及经理层报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1298,
+      "end_char": 1359,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十二条 证券公司应当指定或者设立专门部门履行信用风险管理职责,在首席风险官的领导下推动信用风险管理工作,监测、评估、报告公司整体信用风险情况,并为业务决策提供信用风险管理建议,协助、指导和检查各部门、分支机构及子公司的信用风险管理工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1361,
+      "end_char": 1480,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第十三条 证券公司相关业务部门是业务执行机构,也是信用风险管理的一线主体,负责其经营领域的信用风险管理执行工作,对业务风险进行识别、评估、监控和应对,并将业务风险控制在授权范围内。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1482,
+      "end_char": 1572,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十四条 证券公司应将信用风险管理纳入内部审计范畴,对信用风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1574,
+      "end_char": 1665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "chapter",
+      "text": "第三章 信用风险识别、评估和控制",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1667,
+      "end_char": 1683,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十五条 在开展涉及信用风险的新业务前,证券公司应进行充分的论证与评估,对现有信用风险管理措施、操作流程进行同步配套调整,确保管控体系的完备性、有效性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1685,
+      "end_char": 1761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十六条 对于涉及信用风险的业务,证券公司应根据业务特点设置合理的准入要求,且至少满足以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1763,
+      "end_char": 1811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)对于融资类业务和场外衍生品业务,证券公司可根据业务开展需要、实际情况和相关监管制度,对融资方、交易对手和标的证券设置准入要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)对于债券投资交易,证券公司应根据业务开展需要,对作为投资标的或担保品的债券,设置针对主体评级或债项评级的内部评级或外部评级准入要求,对逆回购、远期、借贷融出交易的交易对手建立准入管理规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1881,
+      "end_char": 1978,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(三)对于非标准化债权资产投资以及创设信用保护工具,证券公司可根据业务开展需要、实际情况和相关监管制度,对项目设置准入要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1980,
+      "end_char": 2042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十七条 对于融资类业务,证券公司应对跨部门或跨主体的同一业务制定相对一致的风险管理流程和标准,并遵循“了解你的客户”原则制定同一客户的认定标准,对同一客户的融资类业务进行汇总和监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2044,
+      "end_char": 2136,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当建立健全尽职调查机制。证券公司应根据监管要求、内部实际情况及管理需要确定尽职调查覆盖的业务范围。尽职调查的基本要求如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2138,
+      "end_char": 2209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应当根据不同业务的特点明确尽职调查报告的格式、内容以及其他辅助文件资料。尽职调查报告应当如实反映相关项目的整体风险状况,不得存在虚假记载、误导性陈述或重大遗漏;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2211,
+      "end_char": 2298,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应当以书面或电子形式记载和留存尽职调查材料或档案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2300,
+      "end_char": 2332,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十九条 证券公司应当根据业务实际需要,对可量化的信用风险因素(包括但不限于主体评级等风险因素)进行计量和评估,证券公司应充分认识到所选方法和模型的局限性,并采用有效手段进行补充。证券公司应对信用风险计量模型进行建设、验证和维护,确保相关假设、参数、数据来源和计量程序的合理性和可靠性。证券公司可根据自身管理需要将信用风险计量结果运用于准入管理、限额管理、风险报告、风险预警等方面。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2334,
+      "end_char": 2525,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十条 证券公司应当建立健全内部评级管理制度,证券公司可根据内部实际情况及管理需要确定内部评级管理制度覆盖的业务范围。内部评级管理的基本要求如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2527,
+      "end_char": 2601,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应建立内部评级体系,内部评级体系应能够有效识别信用风险,具备风险区分能力;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2603,
+      "end_char": 2647,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应制定内部评级管理制度,明确内部评级操作流程,确保内部评级体系持续有效运作;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2649,
+      "end_char": 2694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应当建立与自身业务复杂程度和风险指标体系相适应的内部评级管理工具、方法和标准;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2696,
+      "end_char": 2742,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(四)证券公司应当正确收集和使用评级信息,对收集的资料信息进行评估和归档,以保证其及时性、准确性、完整性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2744,
+      "end_char": 2797,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(五)业务存续期内,证券公司应根据风险状况的变化情况,定期或者不定期进行内部评级更新,持续关注相关主体信用变化。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2799,
+      "end_char": 2855,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第二十一条 证券公司应当根据全面风险管理要求,建立常态化的信用风险压力测试机制,并根据市场变化、业务变化和风险水平情况,在压力测试中充分考虑信用风险因素。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2857,
+      "end_char": 2934,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应根据管理需要,合理确定信用风险压力测试的适用业务范围、风险因素、数量模型和情景假设等要素;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2936,
+      "end_char": 2989,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应采用以定量分析为主的风险分析方法,测算压力情景下信用风险敞口暴露。证券公司应当根据压力测试结果反映的风险情况,结合自身风险承受能力,采取必要的应对措施,必要时实施应急预案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2991,
+      "end_char": 3085,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应建立授信管理机制。证券公司应通过综合评价客户资信状况、信用风险和信用需求等因素,结合证券公司自身的风险承受能力,核定客户授信要素,并通过对客户授信使用情况监控管理来集中、统一控制客户信用风险暴露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3087,
+      "end_char": 3196,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应根据自身业务量大小、管理水平和风险程度等因素,明确授信管理的业务范围,并明确各类授信业务的授权审批机制。证券公司应建立授信的授权管理体系,明确各审批层级以及各级审批人员的权限范围。各级审批人员应在证券公司授予的权限范围内开展授信工作,认真履行职责,严禁越权从事经营活动,通过制度、流程、系统等方式,进行有效管理和控制,并确保业务活动受到制衡和监督;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3198,
+      "end_char": 3380,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应根据业务需要,通过授信限额控制信用风险暴露和水平,并运用担保品、集中度管理、净额结算、保证和信用衍生工具等方式缓释与控制信用风险;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3382,
+      "end_char": 3455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应根据自身风险承受能力,建立集中度管理机制。对于融资类业务,证券公司应针对担保品设置集中度指标,并针对同一客户融资规模建立以净资本为核心的风险控制指标。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3457,
+      "end_char": 3540,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第二十三条 对本指引适用范围内的业务,证券公司应明确各类业务的合同管理要求,并通过对合同层面的信用风险相关条款设计,防范客户违约风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3542,
+      "end_char": 3609,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "chapter",
+      "text": "第四章 风险监控、报告和预警",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3611,
+      "end_char": 3625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应建立信用风险监控、报告及预警机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3627,
+      "end_char": 3655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应通过设置并监测各类信用风险指标,动态、持续地监控信用风险状况、管理水平及效果;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3657,
+      "end_char": 3704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应建立健全存续期业务后续管理和跟踪机制,并明确业务覆盖范围和管理方式。证券公司对存续期业务的管理可采用实地调查、客户访谈、查阅核对、舆情监控等多种方式,以便及时掌握业务风险情况,并根据风险程度采取必要的应对措施;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3706,
+      "end_char": 3819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应明确信用风险报告的种类、路线、内容、格式和频率。各报告主体应当根据报告制度规定,及时、准确、真实地提交信用风险报告。证券公司应建立重大信用风险事件报告机制,规范重大信用风险事件报告流程,当发生重大信用风险时,及时掌握重大风险信息,并启动应对处理程序;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3821,
+      "end_char": 3954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(四)证券公司应根据监管部门或其派出机构等的要求报送与信用风险有关的报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3956,
+      "end_char": 3993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当建立与业务复杂程度和风险指标体系相适应的信息技术系统,可实现对同一业务风险信息的集中管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3995,
+      "end_char": 4052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应根据内部管理建立舆情监控机制,确定舆情监控的业务范围和对象。证券公司应建立具备舆情监控功能的信息系统或其他合理有效手段,加强业务存续期间的舆情管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4054,
+      "end_char": 4139,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "chapter",
+      "text": "第五章 风险资产处置和化解",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十七条 证券公司应当根据各类业务特点,建立风险资产违约处置管理流程。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4156,
+      "end_char": 4192,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十八条 证券公司应根据违约事项的具体情况,通过担保品追加、担保品变现、提前了结合约、诉讼追偿等多种方式,及时处置、处理和化解信用风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4194,
+      "end_char": 4263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十九条 证券公司应对资产风险状态准确评估,按照风险程度对资产进行风险分类,并根据会计准则计提损失。对于已经发生或者预期将发生违约造成自有资金损失的各类资产,证券公司应根据实际情况指定专人牵头处理违约处置事宜,及时制定和采取应对措施,做好违约处置安排。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4265,
+      "end_char": 4392,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4394,
+      "end_char": 4401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第三十条 证券公司在资产管理业务中承担资产管理计划管理人职责、在投资银行类业务中承担持续督导和存续期管理职能、在经纪业务中作为结算参与人承担债券质押式回购担保交收责任,证券公司可根据本公司实际情况及内部管理需要,参考本指引,确定具体的使用范围。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4403,
+      "end_char": 4525,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第三十一条 中国证券业协会对行业信用风险管理先进经验和做法进行总结,形成最佳实践,开展相关培训和经验交流。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4527,
+      "end_char": 4580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十二条 本指引由中国证券业协会负责解释。本指引未尽事宜遵照法律、法规、规章及其他相关业务规章制度执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4582,
+      "end_char": 4635,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十三条 本指引自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4637,
+      "end_char": 4655,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "证券公司信用风险管理指引\n\n第一章 总 则\n\n第一条 为加强和规范证券公司信用风险管理,根据《中华人民共和国证券法》、《证券公司监督管理条例》、《证券公司风险控制指标管理办法》、《证券公司全面风险管理规范》等法律法规及自律规则,制定本指引。\n\n第二条 本指引适用于证券公司以自有资金出资业务的信用风险管理。\n\n第三条 本指引所称信用风险指因融资方、交易对手或发行人等违约导致损失的风险。按照业务类型分类,包括但不限于以下几类:\n\n(一)股票质押式回购交易、约定购回式证券交易、融资融券等融资类业务;\n\n(二)互换、场外期权、远期、信用衍生品等场外衍生品业务;\n\n(三)债券投资交易(包括债券现券交易、债券回购交易、债券远期交易、债券借贷业务等债券相关交易业务),债券包括但不限于国债、地方债、金融债、政府支持机构债、企业债、非金融企业债务融资工具、公司债、资产支持证券、同业存单;\n\n(四)非标准化债权资产投资;\n\n(五)其他涉及信用风险的自有资金出资业务。\n\n第四条 证券公司的信用风险管理应遵循“全面性、内部制衡、全流程风控”的原则组织进行相关业务。\n\n(一)全面性原则:证券公司信用风险管理应全面覆盖证券公司各部门、分支机构、子公司,包含所有表内外和境内外业务,贯穿决策、执行、监督、反馈等各个环节;\n\n(二)内部制衡原则:证券公司应确保前、中、后台的职责分离,并建立相应的制约机制,防范利益冲突;\n\n(三)全流程风控原则:证券公司应对信用风险管理各个环节进行严谨、审慎判断,对业务信用风险的管理应贯穿业务全流程,完善风险的识别、评估、监控、应对及全程管理,确保风险可测、可控、可承受,保障可持续经营。\n\n第五条 证券公司应将所有子公司以及比照子公司管理的各类孙公司(以下简称“子公司”)纳入信用风险管理体系,实现信用风险管理全覆盖。\n\n第六条 按照全面风险管理规范要求,证券公司应建立健全与自身发展战略相适应的信用风险管理体系。信用风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。\n\n第二章 信用风险管理职责\n\n第七条 证券公司应建立有效的信用风险管理组织架构,明确董事会、监事会、经理层及首席风险官、相关部门在信用风险管理中的职责和报告路线,建立健全有效的考核及问责机制。\n\n第八条 证券公司董事会应承担信用风险管理的最终责任,负责审议批准涵盖信用风险的公司风险偏好、容忍度等风险管理重大事项,持续关注信用风险状况。\n\n第九条 证券公司监事会应承担信用风险管理的监督责任,负责监督检查董事会和经理层在信用风险管理方面的履职尽责情况并督促整改。\n\n第十条 证券公司经理层应承担信用风险管理的主要责任,负责确定信用风险管理组织架构,明确各部门职责分工;确保公司具有足够的资源,独立、有效地开展信用风险管理工作;确保信用风险偏好和容忍度等在公司内部的有效沟通、传达和实施;建立完备的管理信息系统或采取相应手段,支持信用风险的识别、评估、监控、应对及全程管理;充分了解风险水平及其管理状况等,并向董事会报告。\n\n第十一条 证券公司首席风险官负责全面风险管理工作,应充分了解证券公司信用风险水平及其管理状况,并及时向董事会及经理层报告。\n\n第十二条 证券公司应当指定或者设立专门部门履行信用风险管理职责,在首席风险官的领导下推动信用风险管理工作,监测、评估、报告公司整体信用风险情况,并为业务决策提供信用风险管理建议,协助、指导和检查各部门、分支机构及子公司的信用风险管理工作。\n\n第十三条 证券公司相关业务部门是业务执行机构,也是信用风险管理的一线主体,负责其经营领域的信用风险管理执行工作,对业务风险进行识别、评估、监控和应对,并将业务风险控制在授权范围内。\n\n第十四条 证券公司应将信用风险管理纳入内部审计范畴,对信用风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。\n\n第三章 信用风险识别、评估和控制\n\n第十五条 在开展涉及信用风险的新业务前,证券公司应进行充分的论证与评估,对现有信用风险管理措施、操作流程进行同步配套调整,确保管控体系的完备性、有效性。\n\n第十六条 对于涉及信用风险的业务,证券公司应根据业务特点设置合理的准入要求,且至少满足以下要求:\n\n(一)对于融资类业务和场外衍生品业务,证券公司可根据业务开展需要、实际情况和相关监管制度,对融资方、交易对手和标的证券设置准入要求;\n\n(二)对于债券投资交易,证券公司应根据业务开展需要,对作为投资标的或担保品的债券,设置针对主体评级或债项评级的内部评级或外部评级准入要求,对逆回购、远期、借贷融出交易的交易对手建立准入管理规则;\n\n(三)对于非标准化债权资产投资以及创设信用保护工具,证券公司可根据业务开展需要、实际情况和相关监管制度,对项目设置准入要求。\n\n第十七条 对于融资类业务,证券公司应对跨部门或跨主体的同一业务制定相对一致的风险管理流程和标准,并遵循“了解你的客户”原则制定同一客户的认定标准,对同一客户的融资类业务进行汇总和监控。\n\n第十八条 证券公司应当建立健全尽职调查机制。证券公司应根据监管要求、内部实际情况及管理需要确定尽职调查覆盖的业务范围。尽职调查的基本要求如下:\n\n(一)证券公司应当根据不同业务的特点明确尽职调查报告的格式、内容以及其他辅助文件资料。尽职调查报告应当如实反映相关项目的整体风险状况,不得存在虚假记载、误导性陈述或重大遗漏;\n\n(二)证券公司应当以书面或电子形式记载和留存尽职调查材料或档案。\n\n第十九条 证券公司应当根据业务实际需要,对可量化的信用风险因素(包括但不限于主体评级等风险因素)进行计量和评估,证券公司应充分认识到所选方法和模型的局限性,并采用有效手段进行补充。证券公司应对信用风险计量模型进行建设、验证和维护,确保相关假设、参数、数据来源和计量程序的合理性和可靠性。证券公司可根据自身管理需要将信用风险计量结果运用于准入管理、限额管理、风险报告、风险预警等方面。\n\n第二十条 证券公司应当建立健全内部评级管理制度,证券公司可根据内部实际情况及管理需要确定内部评级管理制度覆盖的业务范围。内部评级管理的基本要求如下:\n\n(一)证券公司应建立内部评级体系,内部评级体系应能够有效识别信用风险,具备风险区分能力;\n\n(二)证券公司应制定内部评级管理制度,明确内部评级操作流程,确保内部评级体系持续有效运作;\n\n(三)证券公司应当建立与自身业务复杂程度和风险指标体系相适应的内部评级管理工具、方法和标准;\n\n(四)证券公司应当正确收集和使用评级信息,对收集的资料信息进行评估和归档,以保证其及时性、准确性、完整性;\n\n(五)业务存续期内,证券公司应根据风险状况的变化情况,定期或者不定期进行内部评级更新,持续关注相关主体信用变化。\n\n第二十一条 证券公司应当根据全面风险管理要求,建立常态化的信用风险压力测试机制,并根据市场变化、业务变化和风险水平情况,在压力测试中充分考虑信用风险因素。\n\n(一)证券公司应根据管理需要,合理确定信用风险压力测试的适用业务范围、风险因素、数量模型和情景假设等要素;\n\n(二)证券公司应采用以定量分析为主的风险分析方法,测算压力情景下信用风险敞口暴露。证券公司应当根据压力测试结果反映的风险情况,结合自身风险承受能力,采取必要的应对措施,必要时实施应急预案。\n\n第二十二条 证券公司应建立授信管理机制。证券公司应通过综合评价客户资信状况、信用风险和信用需求等因素,结合证券公司自身的风险承受能力,核定客户授信要素,并通过对客户授信使用情况监控管理来集中、统一控制客户信用风险暴露。\n\n(一)证券公司应根据自身业务量大小、管理水平和风险程度等因素,明确授信管理的业务范围,并明确各类授信业务的授权审批机制。证券公司应建立授信的授权管理体系,明确各审批层级以及各级审批人员的权限范围。各级审批人员应在证券公司授予的权限范围内开展授信工作,认真履行职责,严禁越权从事经营活动,通过制度、流程、系统等方式,进行有效管理和控制,并确保业务活动受到制衡和监督;\n\n(二)证券公司应根据业务需要,通过授信限额控制信用风险暴露和水平,并运用担保品、集中度管理、净额结算、保证和信用衍生工具等方式缓释与控制信用风险;\n\n(三)证券公司应根据自身风险承受能力,建立集中度管理机制。对于融资类业务,证券公司应针对担保品设置集中度指标,并针对同一客户融资规模建立以净资本为核心的风险控制指标。\n\n第二十三条 对本指引适用范围内的业务,证券公司应明确各类业务的合同管理要求,并通过对合同层面的信用风险相关条款设计,防范客户违约风险。\n\n第四章 风险监控、报告和预警\n\n第二十四条 证券公司应建立信用风险监控、报告及预警机制。\n\n(一)证券公司应通过设置并监测各类信用风险指标,动态、持续地监控信用风险状况、管理水平及效果;\n\n(二)证券公司应建立健全存续期业务后续管理和跟踪机制,并明确业务覆盖范围和管理方式。证券公司对存续期业务的管理可采用实地调查、客户访谈、查阅核对、舆情监控等多种方式,以便及时掌握业务风险情况,并根据风险程度采取必要的应对措施;\n\n(三)证券公司应明确信用风险报告的种类、路线、内容、格式和频率。各报告主体应当根据报告制度规定,及时、准确、真实地提交信用风险报告。证券公司应建立重大信用风险事件报告机制,规范重大信用风险事件报告流程,当发生重大信用风险时,及时掌握重大风险信息,并启动应对处理程序;\n\n(四)证券公司应根据监管部门或其派出机构等的要求报送与信用风险有关的报告。\n\n第二十五条 证券公司应当建立与业务复杂程度和风险指标体系相适应的信息技术系统,可实现对同一业务风险信息的集中管理。\n\n第二十六条 证券公司应根据内部管理建立舆情监控机制,确定舆情监控的业务范围和对象。证券公司应建立具备舆情监控功能的信息系统或其他合理有效手段,加强业务存续期间的舆情管理。\n\n第五章 风险资产处置和化解\n\n第二十七条 证券公司应当根据各类业务特点,建立风险资产违约处置管理流程。\n\n第二十八条 证券公司应根据违约事项的具体情况,通过担保品追加、担保品变现、提前了结合约、诉讼追偿等多种方式,及时处置、处理和化解信用风险。\n\n第二十九条 证券公司应对资产风险状态准确评估,按照风险程度对资产进行风险分类,并根据会计准则计提损失。对于已经发生或者预期将发生违约造成自有资金损失的各类资产,证券公司应根据实际情况指定专人牵头处理违约处置事宜,及时制定和采取应对措施,做好违约处置安排。\n\n第六章 附 则\n\n第三十条 证券公司在资产管理业务中承担资产管理计划管理人职责、在投资银行类业务中承担持续督导和存续期管理职能、在经纪业务中作为结算参与人承担债券质押式回购担保交收责任,证券公司可根据本公司实际情况及内部管理需要,参考本指引,确定具体的使用范围。\n\n第三十一条 中国证券业协会对行业信用风险管理先进经验和做法进行总结,形成最佳实践,开展相关培训和经验交流。\n\n第三十二条 本指引由中国证券业协会负责解释。本指引未尽事宜遵照法律、法规、规章及其他相关业务规章制度执行。\n\n第三十三条 本指引自发布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司信用风险管理指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 21,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为加强和规范证券公司信用风险管理,根据《中华人民共和国证券法》、《证券公司监督管理条例》、《证券公司风险控制指标管理办法》、《证券公司全面风险管理规范》等法律法规及自律规则,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 23,
+      "end_char": 120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 本指引适用于证券公司以自有资金出资业务的信用风险管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 122,
+      "end_char": 153,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 本指引所称信用风险指因融资方、交易对手或发行人等违约导致损失的风险。按照业务类型分类,包括但不限于以下几类:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 155,
+      "end_char": 213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(一)股票质押式回购交易、约定购回式证券交易、融资融券等融资类业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 215,
+      "end_char": 249,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(二)互换、场外期权、远期、信用衍生品等场外衍生品业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 251,
+      "end_char": 279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(三)债券投资交易(包括债券现券交易、债券回购交易、债券远期交易、债券借贷业务等债券相关交易业务),债券包括但不限于国债、地方债、金融债、政府支持机构债、企业债、非金融企业债务融资工具、公司债、资产支持证券、同业存单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 281,
+      "end_char": 390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(四)非标准化债权资产投资;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 392,
+      "end_char": 406,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "(五)其他涉及信用风险的自有资金出资业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 408,
+      "end_char": 429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第四条 证券公司的信用风险管理应遵循“全面性、内部制衡、全流程风控”的原则组织进行相关业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 431,
+      "end_char": 477,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(一)全面性原则:证券公司信用风险管理应全面覆盖证券公司各部门、分支机构、子公司,包含所有表内外和境内外业务,贯穿决策、执行、监督、反馈等各个环节;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 479,
+      "end_char": 553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(二)内部制衡原则:证券公司应确保前、中、后台的职责分离,并建立相应的制约机制,防范利益冲突;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 555,
+      "end_char": 602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(三)全流程风控原则:证券公司应对信用风险管理各个环节进行严谨、审慎判断,对业务信用风险的管理应贯穿业务全流程,完善风险的识别、评估、监控、应对及全程管理,确保风险可测、可控、可承受,保障可持续经营。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 604,
+      "end_char": 704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第五条 证券公司应将所有子公司以及比照子公司管理的各类孙公司(以下简称“子公司”)纳入信用风险管理体系,实现信用风险管理全覆盖。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 706,
+      "end_char": 770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第六条 按照全面风险管理规范要求,证券公司应建立健全与自身发展战略相适应的信用风险管理体系。信用风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 772,
+      "end_char": 885,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "chapter",
+      "text": "第二章 信用风险管理职责",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 887,
+      "end_char": 899,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第七条 证券公司应建立有效的信用风险管理组织架构,明确董事会、监事会、经理层及首席风险官、相关部门在信用风险管理中的职责和报告路线,建立健全有效的考核及问责机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 901,
+      "end_char": 982,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第八条 证券公司董事会应承担信用风险管理的最终责任,负责审议批准涵盖信用风险的公司风险偏好、容忍度等风险管理重大事项,持续关注信用风险状况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 984,
+      "end_char": 1054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第九条 证券公司监事会应承担信用风险管理的监督责任,负责监督检查董事会和经理层在信用风险管理方面的履职尽责情况并督促整改。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1056,
+      "end_char": 1117,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十条 证券公司经理层应承担信用风险管理的主要责任,负责确定信用风险管理组织架构,明确各部门职责分工;确保公司具有足够的资源,独立、有效地开展信用风险管理工作;确保信用风险偏好和容忍度等在公司内部的有效沟通、传达和实施;建立完备的管理信息系统或采取相应手段,支持信用风险的识别、评估、监控、应对及全程管理;充分了解风险水平及其管理状况等,并向董事会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1119,
+      "end_char": 1296,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十一条 证券公司首席风险官负责全面风险管理工作,应充分了解证券公司信用风险水平及其管理状况,并及时向董事会及经理层报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1298,
+      "end_char": 1359,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十二条 证券公司应当指定或者设立专门部门履行信用风险管理职责,在首席风险官的领导下推动信用风险管理工作,监测、评估、报告公司整体信用风险情况,并为业务决策提供信用风险管理建议,协助、指导和检查各部门、分支机构及子公司的信用风险管理工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1361,
+      "end_char": 1480,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第十三条 证券公司相关业务部门是业务执行机构,也是信用风险管理的一线主体,负责其经营领域的信用风险管理执行工作,对业务风险进行识别、评估、监控和应对,并将业务风险控制在授权范围内。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1482,
+      "end_char": 1572,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十四条 证券公司应将信用风险管理纳入内部审计范畴,对信用风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1574,
+      "end_char": 1665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "chapter",
+      "text": "第三章 信用风险识别、评估和控制",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1667,
+      "end_char": 1683,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十五条 在开展涉及信用风险的新业务前,证券公司应进行充分的论证与评估,对现有信用风险管理措施、操作流程进行同步配套调整,确保管控体系的完备性、有效性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1685,
+      "end_char": 1761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十六条 对于涉及信用风险的业务,证券公司应根据业务特点设置合理的准入要求,且至少满足以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1763,
+      "end_char": 1811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)对于融资类业务和场外衍生品业务,证券公司可根据业务开展需要、实际情况和相关监管制度,对融资方、交易对手和标的证券设置准入要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)对于债券投资交易,证券公司应根据业务开展需要,对作为投资标的或担保品的债券,设置针对主体评级或债项评级的内部评级或外部评级准入要求,对逆回购、远期、借贷融出交易的交易对手建立准入管理规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1881,
+      "end_char": 1978,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(三)对于非标准化债权资产投资以及创设信用保护工具,证券公司可根据业务开展需要、实际情况和相关监管制度,对项目设置准入要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1980,
+      "end_char": 2042,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十七条 对于融资类业务,证券公司应对跨部门或跨主体的同一业务制定相对一致的风险管理流程和标准,并遵循“了解你的客户”原则制定同一客户的认定标准,对同一客户的融资类业务进行汇总和监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2044,
+      "end_char": 2136,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当建立健全尽职调查机制。证券公司应根据监管要求、内部实际情况及管理需要确定尽职调查覆盖的业务范围。尽职调查的基本要求如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2138,
+      "end_char": 2209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应当根据不同业务的特点明确尽职调查报告的格式、内容以及其他辅助文件资料。尽职调查报告应当如实反映相关项目的整体风险状况,不得存在虚假记载、误导性陈述或重大遗漏;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2211,
+      "end_char": 2298,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应当以书面或电子形式记载和留存尽职调查材料或档案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2300,
+      "end_char": 2332,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十九条 证券公司应当根据业务实际需要,对可量化的信用风险因素(包括但不限于主体评级等风险因素)进行计量和评估,证券公司应充分认识到所选方法和模型的局限性,并采用有效手段进行补充。证券公司应对信用风险计量模型进行建设、验证和维护,确保相关假设、参数、数据来源和计量程序的合理性和可靠性。证券公司可根据自身管理需要将信用风险计量结果运用于准入管理、限额管理、风险报告、风险预警等方面。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2334,
+      "end_char": 2525,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十条 证券公司应当建立健全内部评级管理制度,证券公司可根据内部实际情况及管理需要确定内部评级管理制度覆盖的业务范围。内部评级管理的基本要求如下:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2527,
+      "end_char": 2601,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应建立内部评级体系,内部评级体系应能够有效识别信用风险,具备风险区分能力;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2603,
+      "end_char": 2647,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应制定内部评级管理制度,明确内部评级操作流程,确保内部评级体系持续有效运作;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2649,
+      "end_char": 2694,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应当建立与自身业务复杂程度和风险指标体系相适应的内部评级管理工具、方法和标准;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2696,
+      "end_char": 2742,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(四)证券公司应当正确收集和使用评级信息,对收集的资料信息进行评估和归档,以保证其及时性、准确性、完整性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2744,
+      "end_char": 2797,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(五)业务存续期内,证券公司应根据风险状况的变化情况,定期或者不定期进行内部评级更新,持续关注相关主体信用变化。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2799,
+      "end_char": 2855,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第二十一条 证券公司应当根据全面风险管理要求,建立常态化的信用风险压力测试机制,并根据市场变化、业务变化和风险水平情况,在压力测试中充分考虑信用风险因素。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2857,
+      "end_char": 2934,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应根据管理需要,合理确定信用风险压力测试的适用业务范围、风险因素、数量模型和情景假设等要素;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2936,
+      "end_char": 2989,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应采用以定量分析为主的风险分析方法,测算压力情景下信用风险敞口暴露。证券公司应当根据压力测试结果反映的风险情况,结合自身风险承受能力,采取必要的应对措施,必要时实施应急预案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2991,
+      "end_char": 3085,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应建立授信管理机制。证券公司应通过综合评价客户资信状况、信用风险和信用需求等因素,结合证券公司自身的风险承受能力,核定客户授信要素,并通过对客户授信使用情况监控管理来集中、统一控制客户信用风险暴露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3087,
+      "end_char": 3196,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应根据自身业务量大小、管理水平和风险程度等因素,明确授信管理的业务范围,并明确各类授信业务的授权审批机制。证券公司应建立授信的授权管理体系,明确各审批层级以及各级审批人员的权限范围。各级审批人员应在证券公司授予的权限范围内开展授信工作,认真履行职责,严禁越权从事经营活动,通过制度、流程、系统等方式,进行有效管理和控制,并确保业务活动受到制衡和监督;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3198,
+      "end_char": 3380,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应根据业务需要,通过授信限额控制信用风险暴露和水平,并运用担保品、集中度管理、净额结算、保证和信用衍生工具等方式缓释与控制信用风险;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3382,
+      "end_char": 3455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应根据自身风险承受能力,建立集中度管理机制。对于融资类业务,证券公司应针对担保品设置集中度指标,并针对同一客户融资规模建立以净资本为核心的风险控制指标。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3457,
+      "end_char": 3540,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第二十三条 对本指引适用范围内的业务,证券公司应明确各类业务的合同管理要求,并通过对合同层面的信用风险相关条款设计,防范客户违约风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3542,
+      "end_char": 3609,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "chapter",
+      "text": "第四章 风险监控、报告和预警",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3611,
+      "end_char": 3625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应建立信用风险监控、报告及预警机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3627,
+      "end_char": 3655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(一)证券公司应通过设置并监测各类信用风险指标,动态、持续地监控信用风险状况、管理水平及效果;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3657,
+      "end_char": 3704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(二)证券公司应建立健全存续期业务后续管理和跟踪机制,并明确业务覆盖范围和管理方式。证券公司对存续期业务的管理可采用实地调查、客户访谈、查阅核对、舆情监控等多种方式,以便及时掌握业务风险情况,并根据风险程度采取必要的应对措施;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3706,
+      "end_char": 3819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(三)证券公司应明确信用风险报告的种类、路线、内容、格式和频率。各报告主体应当根据报告制度规定,及时、准确、真实地提交信用风险报告。证券公司应建立重大信用风险事件报告机制,规范重大信用风险事件报告流程,当发生重大信用风险时,及时掌握重大风险信息,并启动应对处理程序;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3821,
+      "end_char": 3954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(四)证券公司应根据监管部门或其派出机构等的要求报送与信用风险有关的报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3956,
+      "end_char": 3993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当建立与业务复杂程度和风险指标体系相适应的信息技术系统,可实现对同一业务风险信息的集中管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3995,
+      "end_char": 4052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应根据内部管理建立舆情监控机制,确定舆情监控的业务范围和对象。证券公司应建立具备舆情监控功能的信息系统或其他合理有效手段,加强业务存续期间的舆情管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4054,
+      "end_char": 4139,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "chapter",
+      "text": "第五章 风险资产处置和化解",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4154,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十七条 证券公司应当根据各类业务特点,建立风险资产违约处置管理流程。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4156,
+      "end_char": 4192,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十八条 证券公司应根据违约事项的具体情况,通过担保品追加、担保品变现、提前了结合约、诉讼追偿等多种方式,及时处置、处理和化解信用风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4194,
+      "end_char": 4263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十九条 证券公司应对资产风险状态准确评估,按照风险程度对资产进行风险分类,并根据会计准则计提损失。对于已经发生或者预期将发生违约造成自有资金损失的各类资产,证券公司应根据实际情况指定专人牵头处理违约处置事宜,及时制定和采取应对措施,做好违约处置安排。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4265,
+      "end_char": 4392,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4394,
+      "end_char": 4401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第三十条 证券公司在资产管理业务中承担资产管理计划管理人职责、在投资银行类业务中承担持续督导和存续期管理职能、在经纪业务中作为结算参与人承担债券质押式回购担保交收责任,证券公司可根据本公司实际情况及内部管理需要,参考本指引,确定具体的使用范围。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4403,
+      "end_char": 4525,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第三十一条 中国证券业协会对行业信用风险管理先进经验和做法进行总结,形成最佳实践,开展相关培训和经验交流。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4527,
+      "end_char": 4580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十二条 本指引由中国证券业协会负责解释。本指引未尽事宜遵照法律、法规、规章及其他相关业务规章制度执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4582,
+      "end_char": 4635,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十三条 本指引自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4637,
+      "end_char": 4655,
+      "region": "body"
+    }
+  ],
   "normalized_text": "证券公司信用风险管理指引\n\n第一章 总 则\n\n第一条 为加强和规范证券公司信用风险管理,根据《中华人民共和国证券法》、《证券公司监督管理条例》、《证券公司风险控制指标管理办法》、《证券公司全面风险管理规范》等法律法规及自律规则,制定本指引。\n\n第二条 本指引适用于证券公司以自有资金出资业务的信用风险管理。\n\n第三条 本指引所称信用风险指因融资方、交易对手或发行人等违约导致损失的风险。按照业务类型分类,包括但不限于以下几类:\n\n(一)股票质押式回购交易、约定购回式证券交易、融资融券等融资类业务;\n\n(二)互换、场外期权、远期、信用衍生品等场外衍生品业务;\n\n(三)债券投资交易(包括债券现券交易、债券回购交易、债券远期交易、债券借贷业务等债券相关交易业务),债券包括但不限于国债、地方债、金融债、政府支持机构债、企业债、非金融企业债务融资工具、公司债、资产支持证券、同业存单;\n\n(四)非标准化债权资产投资;\n\n(五)其他涉及信用风险的自有资金出资业务。\n\n第四条 证券公司的信用风险管理应遵循“全面性、内部制衡、全流程风控”的原则组织进行相关业务。\n\n(一)全面性原则:证券公司信用风险管理应全面覆盖证券公司各部门、分支机构、子公司,包含所有表内外和境内外业务,贯穿决策、执行、监督、反馈等各个环节;\n\n(二)内部制衡原则:证券公司应确保前、中、后台的职责分离,并建立相应的制约机制,防范利益冲突;\n\n(三)全流程风控原则:证券公司应对信用风险管理各个环节进行严谨、审慎判断,对业务信用风险的管理应贯穿业务全流程,完善风险的识别、评估、监控、应对及全程管理,确保风险可测、可控、可承受,保障可持续经营。\n\n第五条 证券公司应将所有子公司以及比照子公司管理的各类孙公司(以下简称“子公司”)纳入信用风险管理体系,实现信用风险管理全覆盖。\n\n第六条 按照全面风险管理规范要求,证券公司应建立健全与自身发展战略相适应的信用风险管理体系。信用风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。\n\n第二章 信用风险管理职责\n\n第七条 证券公司应建立有效的信用风险管理组织架构,明确董事会、监事会、经理层及首席风险官、相关部门在信用风险管理中的职责和报告路线,建立健全有效的考核及问责机制。\n\n第八条 证券公司董事会应承担信用风险管理的最终责任,负责审议批准涵盖信用风险的公司风险偏好、容忍度等风险管理重大事项,持续关注信用风险状况。\n\n第九条 证券公司监事会应承担信用风险管理的监督责任,负责监督检查董事会和经理层在信用风险管理方面的履职尽责情况并督促整改。\n\n第十条 证券公司经理层应承担信用风险管理的主要责任,负责确定信用风险管理组织架构,明确各部门职责分工;确保公司具有足够的资源,独立、有效地开展信用风险管理工作;确保信用风险偏好和容忍度等在公司内部的有效沟通、传达和实施;建立完备的管理信息系统或采取相应手段,支持信用风险的识别、评估、监控、应对及全程管理;充分了解风险水平及其管理状况等,并向董事会报告。\n\n第十一条 证券公司首席风险官负责全面风险管理工作,应充分了解证券公司信用风险水平及其管理状况,并及时向董事会及经理层报告。\n\n第十二条 证券公司应当指定或者设立专门部门履行信用风险管理职责,在首席风险官的领导下推动信用风险管理工作,监测、评估、报告公司整体信用风险情况,并为业务决策提供信用风险管理建议,协助、指导和检查各部门、分支机构及子公司的信用风险管理工作。\n\n第十三条 证券公司相关业务部门是业务执行机构,也是信用风险管理的一线主体,负责其经营领域的信用风险管理执行工作,对业务风险进行识别、评估、监控和应对,并将业务风险控制在授权范围内。\n\n第十四条 证券公司应将信用风险管理纳入内部审计范畴,对信用风险管理的充分性和有效性进行独立、客观的审查和评价。内部审计发现问题的,应督促责任人及时整改,并跟踪检查整改措施的落实情况。\n\n第三章 信用风险识别、评估和控制\n\n第十五条 在开展涉及信用风险的新业务前,证券公司应进行充分的论证与评估,对现有信用风险管理措施、操作流程进行同步配套调整,确保管控体系的完备性、有效性。\n\n第十六条 对于涉及信用风险的业务,证券公司应根据业务特点设置合理的准入要求,且至少满足以下要求:\n\n(一)对于融资类业务和场外衍生品业务,证券公司可根据业务开展需要、实际情况和相关监管制度,对融资方、交易对手和标的证券设置准入要求;\n\n(二)对于债券投资交易,证券公司应根据业务开展需要,对作为投资标的或担保品的债券,设置针对主体评级或债项评级的内部评级或外部评级准入要求,对逆回购、远期、借贷融出交易的交易对手建立准入管理规则;\n\n(三)对于非标准化债权资产投资以及创设信用保护工具,证券公司可根据业务开展需要、实际情况和相关监管制度,对项目设置准入要求。\n\n第十七条 对于融资类业务,证券公司应对跨部门或跨主体的同一业务制定相对一致的风险管理流程和标准,并遵循“了解你的客户”原则制定同一客户的认定标准,对同一客户的融资类业务进行汇总和监控。\n\n第十八条 证券公司应当建立健全尽职调查机制。证券公司应根据监管要求、内部实际情况及管理需要确定尽职调查覆盖的业务范围。尽职调查的基本要求如下:\n\n(一)证券公司应当根据不同业务的特点明确尽职调查报告的格式、内容以及其他辅助文件资料。尽职调查报告应当如实反映相关项目的整体风险状况,不得存在虚假记载、误导性陈述或重大遗漏;\n\n(二)证券公司应当以书面或电子形式记载和留存尽职调查材料或档案。\n\n第十九条 证券公司应当根据业务实际需要,对可量化的信用风险因素(包括但不限于主体评级等风险因素)进行计量和评估,证券公司应充分认识到所选方法和模型的局限性,并采用有效手段进行补充。证券公司应对信用风险计量模型进行建设、验证和维护,确保相关假设、参数、数据来源和计量程序的合理性和可靠性。证券公司可根据自身管理需要将信用风险计量结果运用于准入管理、限额管理、风险报告、风险预警等方面。\n\n第二十条 证券公司应当建立健全内部评级管理制度,证券公司可根据内部实际情况及管理需要确定内部评级管理制度覆盖的业务范围。内部评级管理的基本要求如下:\n\n(一)证券公司应建立内部评级体系,内部评级体系应能够有效识别信用风险,具备风险区分能力;\n\n(二)证券公司应制定内部评级管理制度,明确内部评级操作流程,确保内部评级体系持续有效运作;\n\n(三)证券公司应当建立与自身业务复杂程度和风险指标体系相适应的内部评级管理工具、方法和标准;\n\n(四)证券公司应当正确收集和使用评级信息,对收集的资料信息进行评估和归档,以保证其及时性、准确性、完整性;\n\n(五)业务存续期内,证券公司应根据风险状况的变化情况,定期或者不定期进行内部评级更新,持续关注相关主体信用变化。\n\n第二十一条 证券公司应当根据全面风险管理要求,建立常态化的信用风险压力测试机制,并根据市场变化、业务变化和风险水平情况,在压力测试中充分考虑信用风险因素。\n\n(一)证券公司应根据管理需要,合理确定信用风险压力测试的适用业务范围、风险因素、数量模型和情景假设等要素;\n\n(二)证券公司应采用以定量分析为主的风险分析方法,测算压力情景下信用风险敞口暴露。证券公司应当根据压力测试结果反映的风险情况,结合自身风险承受能力,采取必要的应对措施,必要时实施应急预案。\n\n第二十二条 证券公司应建立授信管理机制。证券公司应通过综合评价客户资信状况、信用风险和信用需求等因素,结合证券公司自身的风险承受能力,核定客户授信要素,并通过对客户授信使用情况监控管理来集中、统一控制客户信用风险暴露。\n\n(一)证券公司应根据自身业务量大小、管理水平和风险程度等因素,明确授信管理的业务范围,并明确各类授信业务的授权审批机制。证券公司应建立授信的授权管理体系,明确各审批层级以及各级审批人员的权限范围。各级审批人员应在证券公司授予的权限范围内开展授信工作,认真履行职责,严禁越权从事经营活动,通过制度、流程、系统等方式,进行有效管理和控制,并确保业务活动受到制衡和监督;\n\n(二)证券公司应根据业务需要,通过授信限额控制信用风险暴露和水平,并运用担保品、集中度管理、净额结算、保证和信用衍生工具等方式缓释与控制信用风险;\n\n(三)证券公司应根据自身风险承受能力,建立集中度管理机制。对于融资类业务,证券公司应针对担保品设置集中度指标,并针对同一客户融资规模建立以净资本为核心的风险控制指标。\n\n第二十三条 对本指引适用范围内的业务,证券公司应明确各类业务的合同管理要求,并通过对合同层面的信用风险相关条款设计,防范客户违约风险。\n\n第四章 风险监控、报告和预警\n\n第二十四条 证券公司应建立信用风险监控、报告及预警机制。\n\n(一)证券公司应通过设置并监测各类信用风险指标,动态、持续地监控信用风险状况、管理水平及效果;\n\n(二)证券公司应建立健全存续期业务后续管理和跟踪机制,并明确业务覆盖范围和管理方式。证券公司对存续期业务的管理可采用实地调查、客户访谈、查阅核对、舆情监控等多种方式,以便及时掌握业务风险情况,并根据风险程度采取必要的应对措施;\n\n(三)证券公司应明确信用风险报告的种类、路线、内容、格式和频率。各报告主体应当根据报告制度规定,及时、准确、真实地提交信用风险报告。证券公司应建立重大信用风险事件报告机制,规范重大信用风险事件报告流程,当发生重大信用风险时,及时掌握重大风险信息,并启动应对处理程序;\n\n(四)证券公司应根据监管部门或其派出机构等的要求报送与信用风险有关的报告。\n\n第二十五条 证券公司应当建立与业务复杂程度和风险指标体系相适应的信息技术系统,可实现对同一业务风险信息的集中管理。\n\n第二十六条 证券公司应根据内部管理建立舆情监控机制,确定舆情监控的业务范围和对象。证券公司应建立具备舆情监控功能的信息系统或其他合理有效手段,加强业务存续期间的舆情管理。\n\n第五章 风险资产处置和化解\n\n第二十七条 证券公司应当根据各类业务特点,建立风险资产违约处置管理流程。\n\n第二十八条 证券公司应根据违约事项的具体情况,通过担保品追加、担保品变现、提前了结合约、诉讼追偿等多种方式,及时处置、处理和化解信用风险。\n\n第二十九条 证券公司应对资产风险状态准确评估,按照风险程度对资产进行风险分类,并根据会计准则计提损失。对于已经发生或者预期将发生违约造成自有资金损失的各类资产,证券公司应根据实际情况指定专人牵头处理违约处置事宜,及时制定和采取应对措施,做好违约处置安排。\n\n第六章 附 则\n\n第三十条 证券公司在资产管理业务中承担资产管理计划管理人职责、在投资银行类业务中承担持续督导和存续期管理职能、在经纪业务中作为结算参与人承担债券质押式回购担保交收责任,证券公司可根据本公司实际情况及内部管理需要,参考本指引,确定具体的使用范围。\n\n第三十一条 中国证券业协会对行业信用风险管理先进经验和做法进行总结,形成最佳实践,开展相关培训和经验交流。\n\n第三十二条 本指引由中国证券业协会负责解释。本指引未尽事宜遵照法律、法规、规章及其他相关业务规章制度执行。\n\n第三十三条 本指引自发布之日起施行。",
   "blocks": [
     {
@@ -116,7 +1733,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 12,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -124,7 +1748,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 14,
+      "end_char": 21,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -132,7 +1763,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 23,
+      "end_char": 120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -140,7 +1778,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 122,
+      "end_char": 153,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -148,7 +1793,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 155,
+      "end_char": 213,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -156,7 +1808,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 215,
+      "end_char": 249,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -164,7 +1823,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 251,
+      "end_char": 279,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -172,7 +1838,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 281,
+      "end_char": 390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -180,7 +1853,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 392,
+      "end_char": 406,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -188,7 +1868,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 408,
+      "end_char": 429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -196,7 +1883,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 431,
+      "end_char": 477,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -204,7 +1898,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 479,
+      "end_char": 553,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -212,7 +1913,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 555,
+      "end_char": 602,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -220,7 +1928,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 604,
+      "end_char": 704,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -228,7 +1943,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 706,
+      "end_char": 770,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -236,7 +1958,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 772,
+      "end_char": 885,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -244,7 +1973,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 887,
+      "end_char": 899,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -252,7 +1988,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 901,
+      "end_char": 982,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -260,7 +2003,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 984,
+      "end_char": 1054,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -268,7 +2018,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1056,
+      "end_char": 1117,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -276,7 +2033,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1119,
+      "end_char": 1296,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -284,7 +2048,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1298,
+      "end_char": 1359,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -292,7 +2063,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1361,
+      "end_char": 1480,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -300,7 +2078,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1482,
+      "end_char": 1572,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -308,7 +2093,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1574,
+      "end_char": 1665,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -316,7 +2108,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1667,
+      "end_char": 1683,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -324,7 +2123,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1685,
+      "end_char": 1761,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -332,7 +2138,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1763,
+      "end_char": 1811,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -340,7 +2153,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1813,
+      "end_char": 1879,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -348,7 +2168,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1881,
+      "end_char": 1978,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -356,7 +2183,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1980,
+      "end_char": 2042,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -364,7 +2198,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2044,
+      "end_char": 2136,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -372,7 +2213,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2138,
+      "end_char": 2209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -380,7 +2228,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2211,
+      "end_char": 2298,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -388,7 +2243,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2300,
+      "end_char": 2332,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -396,7 +2258,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2334,
+      "end_char": 2525,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -404,7 +2273,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2527,
+      "end_char": 2601,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -412,7 +2288,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2603,
+      "end_char": 2647,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -420,7 +2303,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2649,
+      "end_char": 2694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -428,7 +2318,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2696,
+      "end_char": 2742,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -436,7 +2333,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2744,
+      "end_char": 2797,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -444,7 +2348,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2799,
+      "end_char": 2855,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -452,7 +2363,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2857,
+      "end_char": 2934,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -460,7 +2378,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2936,
+      "end_char": 2989,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -468,7 +2393,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2991,
+      "end_char": 3085,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -476,7 +2408,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3087,
+      "end_char": 3196,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -484,7 +2423,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3198,
+      "end_char": 3380,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -492,7 +2438,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3382,
+      "end_char": 3455,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -500,7 +2453,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3457,
+      "end_char": 3540,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -508,7 +2468,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3542,
+      "end_char": 3609,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -516,7 +2483,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3611,
+      "end_char": 3625,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -524,7 +2498,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3627,
+      "end_char": 3655,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -532,7 +2513,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3657,
+      "end_char": 3704,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -540,7 +2528,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3706,
+      "end_char": 3819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -548,7 +2543,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3821,
+      "end_char": 3954,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -556,7 +2558,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3956,
+      "end_char": 3993,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -564,7 +2573,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3995,
+      "end_char": 4052,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -572,7 +2588,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4054,
+      "end_char": 4139,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -580,7 +2603,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4154,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -588,7 +2618,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4156,
+      "end_char": 4192,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -596,7 +2633,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4194,
+      "end_char": 4263,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -604,7 +2648,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4265,
+      "end_char": 4392,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -612,7 +2663,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4394,
+      "end_char": 4401,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -620,7 +2678,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4403,
+      "end_char": 4525,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -628,7 +2693,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4527,
+      "end_char": 4580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -636,7 +2708,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4582,
+      "end_char": 4635,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -644,7 +2723,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4637,
+      "end_char": 4655,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

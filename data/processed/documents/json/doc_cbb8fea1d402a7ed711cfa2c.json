@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/商业银行托管业务监督管理办法（试行）.docx",
   "source_type": "docx",
   "file_sha256": "00dd1481dc2cf6de56f00270a93efcad7e3abc68c98006412690deb600191798",
-  "content_sha256": "f52caae2788e4df8d3ba9aed344c27c0c679f733db7f4d5578afce2ea168f690",
+  "content_sha256": "b5f22f3007c133c1a12dca3d9e6e556030332f69a049ae1d8085723989a11050",
   "metadata": {
     "document_title": "商业银行托管业务监督管理办法(试行)",
     "issuing_authority": "国家金融监督管理总局",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "e15fb6dd8392ca9b56460b03023ed685c1472edbe31c4a372c1c6ec41f37ce45",
     "clean_text_sha256": "fa4316d5b6521fa55e3517959b96cc75f842a4976d02d0e7bcf4ceb092a6013d",
@@ -231,6 +231,4033 @@
   },
   "original_text_sha256": "e15fb6dd8392ca9b56460b03023ed685c1472edbe31c4a372c1c6ec41f37ce45",
   "clean_text_sha256": "fa4316d5b6521fa55e3517959b96cc75f842a4976d02d0e7bcf4ceb092a6013d",
+  "clean_text_hash": "8d9d9e24219b831d1951a11b94a81761ec4576cd6e3b92113aa89eb4505cd450",
+  "structured_blocks_sha256": "d1161d11353b7905dda64126c066636e0d9ddee931c3b34cdf7c8d82a02adcd6",
+  "front_matter": [
+    {
+      "block_id": "b00007",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(2025年12月12日国家金融监督管理总局令2025年第9号公布 自2026年2月1日起施行)",
+      "character_count": 47
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "商业银行托管业务监督管理办法(试行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 18,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局令2025年第9号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 20,
+      "end_char": 39,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "为进一步加强商业银行托管业务监督管理,促进商业银行托管业务规范健康发展,金融监管总局制定了《商业银行托管业务监督管理办法(试行)》(以下简称《办法》),现正式发布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 41,
+      "end_char": 123,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "商业银行托管业务在强化市场监督制衡、规范产品投资运作、防范道德风险等方面发挥了积极作用,成为建设高标准金融市场体系的重要基础保障。近年来随着商业银行托管业务规模的增长和托管资产的多元化,亟需弥补针对商业银行托管业务的基础性监管制度空白。金融监管总局在总结各方经验的基础上,制定并发布实施《办法》,对推动商业银行进一步规范发展托管业务,加强风险管理,具有重要意义。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 125,
+      "end_char": 306,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "《办法》共五章49条,包括总则、托管职责、管理要求、监督管理和法律责任、附则等部分。《办法》明确了商业银行托管业务的概念和开展业务的基本原则,规定了商业银行开展托管业务应当符合的要求。商业银行需要建立健全托管业务治理架构和管理体系制度,根据自身能力和服务水平提供适当的托管服务。同时,《办法》也进一步强化了持续监管措施、监管处罚、数据报送和自律管理等相关制度安排。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 308,
+      "end_char": 490,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "《办法》的发布实施有利于进一步强化商业银行托管业务监管,明晰商业银行托管业务范围和经营规范,提升精细化管理水平,更好发挥托管机制作用,为资产管理等领域发展提供更加有力有效的支持。下一步,金融监管总局将持续督促商业银行提高经营管理水平和风险防范能力,促进托管业务规范、健康和高质量发展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 492,
+      "end_char": 634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 642,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 644,
+      "end_char": 647,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "为促进商业银行托管业务规范健康发展,加强商业银行托管业务监督管理,根据《中华人民共和国民法典》《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 649,
+      "end_char": 738,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 740,
+      "end_char": 743,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "本办法所称托管是指商业银行作为独立第三方,按照法律法规规定和托管合同约定,为所托管产品在中华人民共和国境内提供财产保管及相关服务的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 745,
+      "end_char": 813,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 815,
+      "end_char": 818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "商业银行所托管产品,包括各类金融产品、各类专项资金形成的投资组合等。前述金融产品是指各类资产管理产品以及国务院金融管理部门认可的其他金融产品;专项资金是指来源于社会保障基金、基本养老保险基金、企业年金、职业年金、保险公司的资金等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 935,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 937,
+      "end_char": 940,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "商业银行所托管产品持有的财产(以下简称托管产品财产),包括各类银行存款等资金款项、股票、债券、未上市企业股权、其他债权、商品、金融衍生品以及法律法规认可的其他投资品种。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 942,
+      "end_char": 1026,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1028,
+      "end_char": 1031,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,应当坚持诚实信用、勤勉尽责、独立审慎、风险隔离原则,确保自身管理水平与所托管产品的规模、业务复杂程度和承担托管职责相匹配,切实防范利益冲突和利益输送。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1033,
+      "end_char": 1119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1121,
+      "end_char": 1124,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "商业银行所托管的产品财产与商业银行自有财产相互独立,与其所托管的其他产品财产相互独立。商业银行因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,所托管的产品财产不属于其清算财产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1126,
+      "end_char": 1219,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1221,
+      "end_char": 1224,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局及其派出机构依照法律法规和审慎监管原则,对商业银行托管业务活动实施监督管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1226,
+      "end_char": 1274,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "chapter",
+      "text": "第二章 托管职责",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1276,
+      "end_char": 1284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1286,
+      "end_char": 1289,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "商业银行可以根据法律法规规定和托管合同约定,为托管产品提供账户开立、财产保管、清算交割、会计核算、资产估值、信息披露、投资监督等服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1291,
+      "end_char": 1358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1360,
+      "end_char": 1363,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务应当签署托管合同。托管合同应当至少包括合同各方的权利义务、托管职责,合同的生效、变更和终止,违约责任和争议解决方式等内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1365,
+      "end_char": 1436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "商业银行应当对托管合同条款进行评估,确保相关约定合规清晰、风险揭示充分,相关各方职责和权利义务明确。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1438,
+      "end_char": 1488,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1493,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "托管产品约定的投资范围包括非标准化债权类资产、未上市企业股权等非标准化资产时,商业银行应当根据自身能力和服务水平,经充分评估后开展托管业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1495,
+      "end_char": 1565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "商业银行应当评估产品管理人的资本实力、公司治理、合规管理、风险控制、信息披露和市场影响力等方面,评估产品的交易结构、投资标的、退出方式、估值方法策略等方面。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1567,
+      "end_char": 1645,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "商业银行为前款资产提供托管服务的,应当根据法律法规、相关监管规定和托管合同约定,采取合理措施,履行托管职责,管控托管风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1647,
+      "end_char": 1708,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1710,
+      "end_char": 1714,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "商业银行应当为不同托管产品分别开立资金账户、证券账户等投资交易必需的相关账户,确保托管产品财产的完整与独立。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1716,
+      "end_char": 1770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "商业银行为托管产品开立资金账户,应当专门用于托管资金存放和使用。托管产品的资金账户应当具有明确标识,名称原则上应当包含开户主体和产品名称字样,确保资金账户名称与所托管的产品名称相对应。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1772,
+      "end_char": 1864,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1866,
+      "end_char": 1870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "商业银行提供财产保管服务,应当根据法律法规规定和托管合同约定,建立与产品管理人的对账机制,定期核对资金账户和证券账户内的资金头寸、证券明细、净值等财产信息,及时核查资金到账、支付情况。商业银行与产品管理人的对账频率应至少每半年一次。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1872,
+      "end_char": 1988,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1990,
+      "end_char": 1994,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "商业银行应当与产品管理人在托管合同中约定结算条款,明确双方在清算交收和风险控制方面的职责,并根据法律法规规定和托管合同约定,执行资金划拨指令,及时办理清算、交割事宜。商业银行应当与产品管理人约定,由托管人负责划拨资金账户内的资金,避免资金挪用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1996,
+      "end_char": 2118,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "商业银行应当明确清算交割的具体责任人员或岗位,未获得明确指令和授权,不得擅自进行资金划拨或资产处置操作等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2120,
+      "end_char": 2173,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2175,
+      "end_char": 2179,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "商业银行提供会计核算服务的,应当为每只托管产品单独建账、单独核算,在托管合同中明确各方职责与具体核算方法,严格按照《企业会计准则》等要求对托管产品的资产、负债等会计要素进行确认和计量。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2181,
+      "end_char": 2273,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "产品管理人为会计责任方的,商业银行应当根据约定的方法和《企业会计准则》的规定复核产品管理人提供的托管产品财务数据,发现错误的应当及时提示产品管理人。可以从第三方渠道获取可靠数据的,商业银行应当主要使用第三方数据进行会计核算。对仅依赖产品管理人所提供数据且无法从其他渠道获取可靠数据进行会计核算的,商业银行应当在托管合同中明确约定数据来源和免责情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2275,
+      "end_char": 2449,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2451,
+      "end_char": 2455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "商业银行提供资产估值服务的,应当在托管合同中明确约定估值对象、估值原则、估值方法、估值时间以及差错处理等内容,严格按照托管合同的约定进行资产估值。使用模型估值的,应当审慎确定模型参数,不得随意调整。商业银行估值结果与产品管理人无法达成一致的,商业银行应当及时提示产品管理人按照有关法律法规进行信息披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2608,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2610,
+      "end_char": 2614,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "商业银行应当在托管合同中对信息披露的职责、内容和方式进行明确约定,严格按照法律法规规定和托管合同约定办理与托管产品相关的信息披露事项。商业银行发现托管产品发生重大事项的,应当根据法律法规规定和托管合同约定,及时提示产品管理人进行信息披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2616,
+      "end_char": 2735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "对于产品管理人或其他相关方披露信息中需要商业银行复核的内容,商业银行应当根据自身能够获取的数据和信息进行复核,并与产品管理人或其他相关方明确约定,在其信息披露时说明商业银行所复核的数据和信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2737,
+      "end_char": 2833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "商业银行应当制定投资监督标准与监督流程,在充分获取所必需数据信息的前提下提供投资监督服务。投资监督的内容可以包括投资范围、投资比例、投资风格、投资限制、关联方交易等。商业银行不得提供或承诺提供无法有效履职的投资监督服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2841,
+      "end_char": 2951,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "商业银行应当在托管合同中明确约定监督事项、监督内容和监督方式,按照法律法规规定和托管合同约定提供投资监督服务。在投资监督过程中,商业银行应当审慎履职,在能力范围内采取必要合理措施,对信息的真实性、准确性等进行评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2953,
+      "end_char": 3060,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "商业银行发现托管产品违反法律法规或合同约定进行投资的,应当拒绝执行;按照交易程序已经达成交易的或无法拒绝执行的,应当及时提示产品管理人等相关方。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3062,
+      "end_char": 3134,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3136,
+      "end_char": 3140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "商业银行应当妥善保存托管产品业务活动的记录、账册、报表和其他相关资料,按照相关监管规定审慎确定保存期限,保存10年以上。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3142,
+      "end_char": 3202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "托管机构变更的,原托管银行应当妥善保管产品财产和业务资料,配合其他托管机构做好移交工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3204,
+      "end_char": 3248,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3250,
+      "end_char": 3254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,不得承担以下职责:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3256,
+      "end_char": 3276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(一)承担托管产品财产的信用风险、市场风险等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3278,
+      "end_char": 3301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(二)为托管产品提供直接或间接、显性或隐性担保,包括承诺本金或保证收益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3303,
+      "end_char": 3339,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(三)为托管产品垫付资金、提供流动性支持或融资承诺等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3341,
+      "end_char": 3368,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(四)参与投资者适当性管理;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3370,
+      "end_char": 3384,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(五)保证投资项目及交易信息真实性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3386,
+      "end_char": 3404,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(六)保证托管产品资金来源的合法合规性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3406,
+      "end_char": 3426,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(七)对已划出托管账户以及处于商业银行实际控制之外的资产承担保管责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3428,
+      "end_char": 3463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(八)参与产品管理人对托管产品的投资决策;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3465,
+      "end_char": 3486,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(九)违规代替产品管理人向其他机构或者个人进行托管产品信息披露或提供相关数据信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3488,
+      "end_char": 3529,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(十)产品管理人未接受商业银行的复核意见进行信息披露产生的相应责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3531,
+      "end_char": 3565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(十一)负责未兑付产品的资金追偿、财产保全、诉讼仲裁、债务重组和破产程序等,法律另有规定的除外;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3567,
+      "end_char": 3615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(十二)因不可抗力,以及非本机构履职错误或过失造成的托管资产损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3617,
+      "end_char": 3650,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(十三)国务院金融监管部门规定的不属于商业银行托管业务范围的其他职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3652,
+      "end_char": 3687,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3689,
+      "end_char": 3693,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,不得有以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3695,
+      "end_char": 3714,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "(一)混同管理托管产品财产与自有财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3716,
+      "end_char": 3735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(二)混同管理不同托管产品持有的财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3737,
+      "end_char": 3756,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(三)侵占、挪用托管产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3758,
+      "end_char": 3773,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(四)非法利用内部信息谋取不正当利益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3775,
+      "end_char": 3794,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(五)利用或者承诺利用托管业务进行利益输送或利益交换;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3796,
+      "end_char": 3823,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(六)法律法规、监管规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3825,
+      "end_char": 3845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第二十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3847,
+      "end_char": 3852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "产品管理人存在拒不履行托管合同、被依法取消业务资格、被依法解散撤销等情形的,商业银行应当根据规定,采取有关措施保护财产安全,并及时告知相关方。在采取必要、合理措施保障投资者合法权益的前提下,商业银行有权按照合同约定终止托管服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3854,
+      "end_char": 3968,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "chapter",
+      "text": "第三章 管理要求",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3970,
+      "end_char": 3978,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第二十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3980,
+      "end_char": 3985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,应当至少符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3987,
+      "end_char": 4009,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)具有良好的公司治理结构、内部控制机制,健全的风险管理体系和完备的托管业务制度等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4011,
+      "end_char": 4054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)经营稳健,主要审慎监管指标符合监管要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4056,
+      "end_char": 4079,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(三)设有托管业务专营部门;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4081,
+      "end_char": 4095,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(四)配备充足的托管业务专职人员,核算、监督等核心岗位人员具备相关托管业务从业经验;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4097,
+      "end_char": 4139,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(五)具备安全保管托管产品财产的条件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4160,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(六)具有满足营业需要的固定场所,配备安全监控系统及安全防范设施;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4162,
+      "end_char": 4195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(七)具有安全高效的托管业务信息系统;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4197,
+      "end_char": 4216,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(八)法律、行政法规和国家金融监督管理总局规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4218,
+      "end_char": 4247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "article",
+      "text": "第二十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4249,
+      "end_char": 4254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "商业银行托管业务信息系统应当至少符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4256,
+      "end_char": 4279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(一)能够安全高效地办理清算、核算、交割事宜;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4281,
+      "end_char": 4304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(二)具有健全的网络安全防护措施,有效防范网络攻击、入侵、干扰和破坏等风险,确保托管业务安全运营;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4306,
+      "end_char": 4355,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(三)具有健全的数据安全措施,有效防范数据遭到篡改、破坏、泄露、丢失或者非法获取、非法利用等,保障托管业务数据安全,保护个人信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4357,
+      "end_char": 4422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(四)具有完备的业务连续性管理体系,保障托管业务信息系统安全、稳定、持续运行;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4424,
+      "end_char": 4463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(五)能够及时从产品管理人等相关方安全接收托管业务相关数据;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4465,
+      "end_char": 4495,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(六)托管产品投资于公开市场证券的,应当与交易场所、证券登记结算机构等金融基础设施机构的系统安全有效对接;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4497,
+      "end_char": 4550,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(七)国家金融监督管理总局规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4552,
+      "end_char": 4573,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第二十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4575,
+      "end_char": 4580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "商业银行开办托管业务,应当向国家金融监督管理总局或其派出机构报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4582,
+      "end_char": 4615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务应当持续符合本办法第二十二条、第二十三条规定的条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4617,
+      "end_char": 4653,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "商业银行开展不同产品托管业务时,还应当符合有关业务主管部门关于产品托管的相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4655,
+      "end_char": 4696,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "article",
+      "text": "第二十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4698,
+      "end_char": 4703,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立健全托管业务治理架构,明确董事会、高级管理层对托管业务承担的职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4705,
+      "end_char": 4746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第二十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4748,
+      "end_char": 4753,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立与托管业务规模和复杂程度相适应的风险管理体系,对托管业务风险进行充分识别和评估,实现管理制度、操作流程、风险控制、内控合规、信息系统、网络安全、数据安全的统一管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4755,
+      "end_char": 4845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第二十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4847,
+      "end_char": 4852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立健全托管业务管理制度,包括托管产品准入管理、风险管理和内部控制、人员管理、会计核算、资产估值、信息披露等,有效防控托管业务合规风险、道德风险、操作风险以及声誉风险等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4854,
+      "end_char": 4945,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "为防止因托管业务引发的声誉风险演变为流动性风险,商业银行除前款所述健全内控和风险管理制度外,还应及时制定并实施应急预案,有效应对可能出现的极端风险情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4947,
+      "end_char": 5023,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "article",
+      "text": "第二十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5025,
+      "end_char": 5030,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "商业银行应当将托管业务授权纳入统一授权管理,建立岗位制衡与流程约束机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5032,
+      "end_char": 5068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "article",
+      "text": "第二十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5070,
+      "end_char": 5075,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "商业银行应当制定并实施托管业务客户资质、产品类别、资产类型的准入标准,切实做好尽职调查和准入管理,实行名单制管理,定期评估风险情况并动态调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5077,
+      "end_char": 5148,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "商业银行应当制定托管产品准入的禁止性负面清单要求,强化资质审查和风险管理,不得托管被纳入负面清单的产品。禁止性负面清单的标准应当包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5150,
+      "end_char": 5217,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(一)违法违规设立的产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5219,
+      "end_char": 5232,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "(二)产品管理人不具备相应的资产管理资质;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5234,
+      "end_char": 5255,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "(三)产品管理人无法正常展业;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5257,
+      "end_char": 5272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "(四)国家金融监督管理总局认定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5274,
+      "end_char": 5295,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第三十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5297,
+      "end_char": 5301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "商业银行应当确保托管业务与其他业务在人员岗位、物理场所、账户资金、业务数据和信息系统等方面有效隔离,防范利益冲突。商业银行托管关联方发行产品的,应当强化信息披露和风险隔离,防范不当关联交易和利益输送。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5303,
+      "end_char": 5403,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "article",
+      "text": "第三十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5405,
+      "end_char": 5410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "商业银行发现产品管理人、产品销售机构借助托管银行的品牌、声誉开展不当营销宣传的,应当督促相关机构及时纠正。相关机构未及时采取有效纠正措施的,商业银行应当按照托管合同约定终止业务合作,并进行通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5412,
+      "end_char": 5509,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第三十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5511,
+      "end_char": 5516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "商业银行应当按照企业会计准则、监管规定等,对托管业务总体情况进行信息披露。信息披露的内容包括但不限于托管业务规模、结构、风险状况等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5518,
+      "end_char": 5584,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "article",
+      "text": "第三十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5586,
+      "end_char": 5591,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务发生下列情形的,应当按照相关规定,及时向产品管理人等相关方的监管部门或主管部门报告:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5593,
+      "end_char": 5645,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "(一)产品管理人违反法律法规规定或合同约定进行投资且拒不纠正的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5647,
+      "end_char": 5679,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "paragraph",
+      "text": "(二)产品管理人发布未经托管机构复核的产品估值结果,或未对估值不一致事项进行说明的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5681,
+      "end_char": 5723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "paragraph",
+      "text": "(三)产品管理人拒不履行托管合同、被依法取消业务资格、被依法解散撤销的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5725,
+      "end_char": 5761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "(四)发现产品管理人侵占、挪用产品财产或者失联的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5763,
+      "end_char": 5788,
+      "region": "body"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "paragraph",
+      "text": "(五)相关监管部门或主管部门规定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5790,
+      "end_char": 5812,
+      "region": "body"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "article",
+      "text": "第三十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5814,
+      "end_char": 5819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "paragraph",
+      "text": "商业银行应当加强对本机构托管业务从业人员执业行为的管理,禁止从业人员利用未公开信息为自己或者他人谋取利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5821,
+      "end_char": 5874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00136",
+      "block_type": "article",
+      "text": "第三十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5876,
+      "end_char": 5881,
+      "region": "body"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "商业银行对托管业务的考核评价应当充分体现合规导向,不得将托管业务与其他业务挂钩考核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5883,
+      "end_char": 5925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00138",
+      "block_type": "article",
+      "text": "第三十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5927,
+      "end_char": 5932,
+      "region": "body"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "paragraph",
+      "text": "商业银行应当严格遵循会计准则和监管规定,按照实质重于形式的原则和穿透原则,从托管业务收入中计提风险准备金,主要用于弥补因违法违规、违反协议、操作错误或者技术故障等造成的损失。风险准备金的计提、使用等,按照相关规定执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5934,
+      "end_char": 6043,
+      "region": "body"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "paragraph",
+      "text": "商业银行应当根据资本管理的相关规定审慎计算操作风险加权资产,计提资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6045,
+      "end_char": 6080,
+      "region": "body"
+    },
+    {
+      "block_id": "b00141",
+      "block_type": "article",
+      "text": "第三十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6082,
+      "end_char": 6087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00142",
+      "block_type": "paragraph",
+      "text": "商业银行应当有效保护和合理利用托管业务数据和客户信息,不得违反法律法规规定和托管合同约定,收集、存储、使用、加工、传输、提供、公开、删除托管业务相关数据信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6089,
+      "end_char": 6168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00143",
+      "block_type": "article",
+      "text": "第三十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6170,
+      "end_char": 6175,
+      "region": "body"
+    },
+    {
+      "block_id": "b00144",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立托管业务内部审计和外部审计机制,定期审计业务经营和风险管理情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6177,
+      "end_char": 6217,
+      "region": "body"
+    },
+    {
+      "block_id": "b00145",
+      "block_type": "article",
+      "text": "第三十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6219,
+      "end_char": 6224,
+      "region": "body"
+    },
+    {
+      "block_id": "b00146",
+      "block_type": "paragraph",
+      "text": "商业银行应当依法核实资金账户开户意愿,审查开销户资料,并对预留印鉴、银企对账、撤销账户、反洗钱和反恐怖融资实施规范管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6226,
+      "end_char": 6286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00147",
+      "block_type": "article",
+      "text": "第四十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6288,
+      "end_char": 6292,
+      "region": "body"
+    },
+    {
+      "block_id": "b00148",
+      "block_type": "paragraph",
+      "text": "商业银行托管业务服务价格应当严格遵守法律法规和有关监管规定,遵循公开公平、诚实信用、质价相符的原则,不得利用价格手段开展不正当竞争。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6294,
+      "end_char": 6360,
+      "region": "body"
+    },
+    {
+      "block_id": "b00149",
+      "block_type": "chapter",
+      "text": "第四章 监督管理和法律责任",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6362,
+      "end_char": 6375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00150",
+      "block_type": "article",
+      "text": "第四十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6377,
+      "end_char": 6382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00151",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局及其派出机构应当加强对商业银行托管业务的持续监管,加强跨部门监管协作,将托管业务的合规性和审慎性作为监管评级的内容。对于不符合托管业务资质、不满足托管业务能力要求、托管业务开展不审慎的商业银行,国家金融监督管理总局及其派出机构可以依照法律法规和审慎监管原则,采取责令限期整改、暂停相关业务等监督管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6384,
+      "end_char": 6546,
+      "region": "body"
+    },
+    {
+      "block_id": "b00152",
+      "block_type": "article",
+      "text": "第四十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6548,
+      "end_char": 6553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00153",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务违反本办法规定的,国家金融监督管理总局及其派出机构依照法律法规责令其限期整改。对于在规定时限内未能采取有效整改措施,或者其行为严重危及商业银行的稳健运行的,国家金融监督管理总局及其派出机构可依照《中华人民共和国银行业监督管理法》等法律法规采取监督管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6555,
+      "end_char": 6693,
+      "region": "body"
+    },
+    {
+      "block_id": "b00154",
+      "block_type": "article",
+      "text": "第四十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6695,
+      "end_char": 6700,
+      "region": "body"
+    },
+    {
+      "block_id": "b00155",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务违反法律法规的,由国家金融监督管理总局及其派出机构依照《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规进行处罚;涉嫌犯罪的,依法移送司法机关处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6702,
+      "end_char": 6797,
+      "region": "body"
+    },
+    {
+      "block_id": "b00156",
+      "block_type": "article",
+      "text": "第四十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6799,
+      "end_char": 6804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00157",
+      "block_type": "paragraph",
+      "text": "商业银行应当根据相关法律法规和监管部门要求,向国家金融监督管理总局及其派出机构依法报送托管业务相关数据和信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6806,
+      "end_char": 6861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00158",
+      "block_type": "article",
+      "text": "第四十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6863,
+      "end_char": 6868,
+      "region": "body"
+    },
+    {
+      "block_id": "b00159",
+      "block_type": "paragraph",
+      "text": "商业银行应当向国家金融监督管理总局及其派出机构及时报告有关托管业务的重大事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6870,
+      "end_char": 6909,
+      "region": "body"
+    },
+    {
+      "block_id": "b00160",
+      "block_type": "article",
+      "text": "第四十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6911,
+      "end_char": 6916,
+      "region": "body"
+    },
+    {
+      "block_id": "b00161",
+      "block_type": "paragraph",
+      "text": "银行业自律组织依法实施商业银行托管业务的自律管理,维护托管业务的市场秩序、规范托管业务行为,可以采取警示、暂停或取消相关成员单位会员资格等措施,并将相关情况报送国家金融监督管理总局及其派出机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6918,
+      "end_char": 7015,
+      "region": "body"
+    },
+    {
+      "block_id": "b00162",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7017,
+      "end_char": 7023,
+      "region": "body"
+    },
+    {
+      "block_id": "b00163",
+      "block_type": "article",
+      "text": "第四十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7025,
+      "end_char": 7030,
+      "region": "body"
+    },
+    {
+      "block_id": "b00164",
+      "block_type": "paragraph",
+      "text": "在中华人民共和国境内依法设立的外国银行分行,以及符合国家金融监督管理总局规定的其他机构开展托管业务,参照适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7032,
+      "end_char": 7090,
+      "region": "body"
+    },
+    {
+      "block_id": "b00165",
+      "block_type": "article",
+      "text": "第四十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7092,
+      "end_char": 7097,
+      "region": "body"
+    },
+    {
+      "block_id": "b00166",
+      "block_type": "paragraph",
+      "text": "本办法由国家金融监督管理总局负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7099,
+      "end_char": 7118,
+      "region": "body"
+    },
+    {
+      "block_id": "b00167",
+      "block_type": "article",
+      "text": "第四十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7120,
+      "end_char": 7125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00168",
+      "block_type": "paragraph",
+      "text": "本办法自2026年2月1日起施行。对于不符合本办法规定的存量业务,应当自本办法施行起三年内整改完成。已为托管产品垫付资金、提供流动性支持或融资承诺的,商业银行应当按照实质重于形式原则和穿透原则,准确识别和评估业务风险,根据相关规定进行资产风险分类,并计提减值准备和资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7127,
+      "end_char": 7262,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "商业银行托管业务监督管理办法(试行)\n\n国家金融监督管理总局令2025年第9号\n\n为进一步加强商业银行托管业务监督管理,促进商业银行托管业务规范健康发展,金融监管总局制定了《商业银行托管业务监督管理办法(试行)》(以下简称《办法》),现正式发布。\n\n商业银行托管业务在强化市场监督制衡、规范产品投资运作、防范道德风险等方面发挥了积极作用,成为建设高标准金融市场体系的重要基础保障。近年来随着商业银行托管业务规模的增长和托管资产的多元化,亟需弥补针对商业银行托管业务的基础性监管制度空白。金融监管总局在总结各方经验的基础上,制定并发布实施《办法》,对推动商业银行进一步规范发展托管业务,加强风险管理,具有重要意义。\n\n《办法》共五章49条,包括总则、托管职责、管理要求、监督管理和法律责任、附则等部分。《办法》明确了商业银行托管业务的概念和开展业务的基本原则,规定了商业银行开展托管业务应当符合的要求。商业银行需要建立健全托管业务治理架构和管理体系制度,根据自身能力和服务水平提供适当的托管服务。同时,《办法》也进一步强化了持续监管措施、监管处罚、数据报送和自律管理等相关制度安排。\n\n《办法》的发布实施有利于进一步强化商业银行托管业务监管,明晰商业银行托管业务范围和经营规范,提升精细化管理水平,更好发挥托管机制作用,为资产管理等领域发展提供更加有力有效的支持。下一步,金融监管总局将持续督促商业银行提高经营管理水平和风险防范能力,促进托管业务规范、健康和高质量发展。\n\n第一章 总则\n\n第一条\n\n为促进商业银行托管业务规范健康发展,加强商业银行托管业务监督管理,根据《中华人民共和国民法典》《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规制定本办法。\n\n第二条\n\n本办法所称托管是指商业银行作为独立第三方,按照法律法规规定和托管合同约定,为所托管产品在中华人民共和国境内提供财产保管及相关服务的行为。\n\n第三条\n\n商业银行所托管产品,包括各类金融产品、各类专项资金形成的投资组合等。前述金融产品是指各类资产管理产品以及国务院金融管理部门认可的其他金融产品;专项资金是指来源于社会保障基金、基本养老保险基金、企业年金、职业年金、保险公司的资金等。\n\n第四条\n\n商业银行所托管产品持有的财产(以下简称托管产品财产),包括各类银行存款等资金款项、股票、债券、未上市企业股权、其他债权、商品、金融衍生品以及法律法规认可的其他投资品种。\n\n第五条\n\n商业银行开展托管业务,应当坚持诚实信用、勤勉尽责、独立审慎、风险隔离原则,确保自身管理水平与所托管产品的规模、业务复杂程度和承担托管职责相匹配,切实防范利益冲突和利益输送。\n\n第六条\n\n商业银行所托管的产品财产与商业银行自有财产相互独立,与其所托管的其他产品财产相互独立。商业银行因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,所托管的产品财产不属于其清算财产。\n\n第七条\n\n国家金融监督管理总局及其派出机构依照法律法规和审慎监管原则,对商业银行托管业务活动实施监督管理。\n\n第二章 托管职责\n\n第八条\n\n商业银行可以根据法律法规规定和托管合同约定,为托管产品提供账户开立、财产保管、清算交割、会计核算、资产估值、信息披露、投资监督等服务。\n\n第九条\n\n商业银行开展托管业务应当签署托管合同。托管合同应当至少包括合同各方的权利义务、托管职责,合同的生效、变更和终止,违约责任和争议解决方式等内容。\n\n商业银行应当对托管合同条款进行评估,确保相关约定合规清晰、风险揭示充分,相关各方职责和权利义务明确。\n\n第十条\n\n托管产品约定的投资范围包括非标准化债权类资产、未上市企业股权等非标准化资产时,商业银行应当根据自身能力和服务水平,经充分评估后开展托管业务。\n\n商业银行应当评估产品管理人的资本实力、公司治理、合规管理、风险控制、信息披露和市场影响力等方面,评估产品的交易结构、投资标的、退出方式、估值方法策略等方面。\n\n商业银行为前款资产提供托管服务的,应当根据法律法规、相关监管规定和托管合同约定,采取合理措施,履行托管职责,管控托管风险。\n\n第十一条\n\n商业银行应当为不同托管产品分别开立资金账户、证券账户等投资交易必需的相关账户,确保托管产品财产的完整与独立。\n\n商业银行为托管产品开立资金账户,应当专门用于托管资金存放和使用。托管产品的资金账户应当具有明确标识,名称原则上应当包含开户主体和产品名称字样,确保资金账户名称与所托管的产品名称相对应。\n\n第十二条\n\n商业银行提供财产保管服务,应当根据法律法规规定和托管合同约定,建立与产品管理人的对账机制,定期核对资金账户和证券账户内的资金头寸、证券明细、净值等财产信息,及时核查资金到账、支付情况。商业银行与产品管理人的对账频率应至少每半年一次。\n\n第十三条\n\n商业银行应当与产品管理人在托管合同中约定结算条款,明确双方在清算交收和风险控制方面的职责,并根据法律法规规定和托管合同约定,执行资金划拨指令,及时办理清算、交割事宜。商业银行应当与产品管理人约定,由托管人负责划拨资金账户内的资金,避免资金挪用。\n\n商业银行应当明确清算交割的具体责任人员或岗位,未获得明确指令和授权,不得擅自进行资金划拨或资产处置操作等。\n\n第十四条\n\n商业银行提供会计核算服务的,应当为每只托管产品单独建账、单独核算,在托管合同中明确各方职责与具体核算方法,严格按照《企业会计准则》等要求对托管产品的资产、负债等会计要素进行确认和计量。\n\n产品管理人为会计责任方的,商业银行应当根据约定的方法和《企业会计准则》的规定复核产品管理人提供的托管产品财务数据,发现错误的应当及时提示产品管理人。可以从第三方渠道获取可靠数据的,商业银行应当主要使用第三方数据进行会计核算。对仅依赖产品管理人所提供数据且无法从其他渠道获取可靠数据进行会计核算的,商业银行应当在托管合同中明确约定数据来源和免责情形。\n\n第十五条\n\n商业银行提供资产估值服务的,应当在托管合同中明确约定估值对象、估值原则、估值方法、估值时间以及差错处理等内容,严格按照托管合同的约定进行资产估值。使用模型估值的,应当审慎确定模型参数,不得随意调整。商业银行估值结果与产品管理人无法达成一致的,商业银行应当及时提示产品管理人按照有关法律法规进行信息披露。\n\n第十六条\n\n商业银行应当在托管合同中对信息披露的职责、内容和方式进行明确约定,严格按照法律法规规定和托管合同约定办理与托管产品相关的信息披露事项。商业银行发现托管产品发生重大事项的,应当根据法律法规规定和托管合同约定,及时提示产品管理人进行信息披露。\n\n对于产品管理人或其他相关方披露信息中需要商业银行复核的内容,商业银行应当根据自身能够获取的数据和信息进行复核,并与产品管理人或其他相关方明确约定,在其信息披露时说明商业银行所复核的数据和信息。\n\n第十七条\n\n商业银行应当制定投资监督标准与监督流程,在充分获取所必需数据信息的前提下提供投资监督服务。投资监督的内容可以包括投资范围、投资比例、投资风格、投资限制、关联方交易等。商业银行不得提供或承诺提供无法有效履职的投资监督服务。\n\n商业银行应当在托管合同中明确约定监督事项、监督内容和监督方式,按照法律法规规定和托管合同约定提供投资监督服务。在投资监督过程中,商业银行应当审慎履职,在能力范围内采取必要合理措施,对信息的真实性、准确性等进行评估。\n\n商业银行发现托管产品违反法律法规或合同约定进行投资的,应当拒绝执行;按照交易程序已经达成交易的或无法拒绝执行的,应当及时提示产品管理人等相关方。\n\n第十八条\n\n商业银行应当妥善保存托管产品业务活动的记录、账册、报表和其他相关资料,按照相关监管规定审慎确定保存期限,保存10年以上。\n\n托管机构变更的,原托管银行应当妥善保管产品财产和业务资料,配合其他托管机构做好移交工作。\n\n第十九条\n\n商业银行开展托管业务,不得承担以下职责:\n\n(一)承担托管产品财产的信用风险、市场风险等;\n\n(二)为托管产品提供直接或间接、显性或隐性担保,包括承诺本金或保证收益;\n\n(三)为托管产品垫付资金、提供流动性支持或融资承诺等;\n\n(四)参与投资者适当性管理;\n\n(五)保证投资项目及交易信息真实性;\n\n(六)保证托管产品资金来源的合法合规性;\n\n(七)对已划出托管账户以及处于商业银行实际控制之外的资产承担保管责任;\n\n(八)参与产品管理人对托管产品的投资决策;\n\n(九)违规代替产品管理人向其他机构或者个人进行托管产品信息披露或提供相关数据信息;\n\n(十)产品管理人未接受商业银行的复核意见进行信息披露产生的相应责任;\n\n(十一)负责未兑付产品的资金追偿、财产保全、诉讼仲裁、债务重组和破产程序等,法律另有规定的除外;\n\n(十二)因不可抗力,以及非本机构履职错误或过失造成的托管资产损失;\n\n(十三)国务院金融监管部门规定的不属于商业银行托管业务范围的其他职责。\n\n第二十条\n\n商业银行开展托管业务,不得有以下行为:\n\n(一)混同管理托管产品财产与自有财产;\n\n(二)混同管理不同托管产品持有的财产;\n\n(三)侵占、挪用托管产品财产;\n\n(四)非法利用内部信息谋取不正当利益;\n\n(五)利用或者承诺利用托管业务进行利益输送或利益交换;\n\n(六)法律法规、监管规定禁止的其他行为。\n\n第二十一条\n\n产品管理人存在拒不履行托管合同、被依法取消业务资格、被依法解散撤销等情形的,商业银行应当根据规定,采取有关措施保护财产安全,并及时告知相关方。在采取必要、合理措施保障投资者合法权益的前提下,商业银行有权按照合同约定终止托管服务。\n\n第三章 管理要求\n\n第二十二条\n\n商业银行开展托管业务,应当至少符合以下要求:\n\n(一)具有良好的公司治理结构、内部控制机制,健全的风险管理体系和完备的托管业务制度等;\n\n(二)经营稳健,主要审慎监管指标符合监管要求;\n\n(三)设有托管业务专营部门;\n\n(四)配备充足的托管业务专职人员,核算、监督等核心岗位人员具备相关托管业务从业经验;\n\n(五)具备安全保管托管产品财产的条件;\n\n(六)具有满足营业需要的固定场所,配备安全监控系统及安全防范设施;\n\n(七)具有安全高效的托管业务信息系统;\n\n(八)法律、行政法规和国家金融监督管理总局规定的其他条件。\n\n第二十三条\n\n商业银行托管业务信息系统应当至少符合以下要求:\n\n(一)能够安全高效地办理清算、核算、交割事宜;\n\n(二)具有健全的网络安全防护措施,有效防范网络攻击、入侵、干扰和破坏等风险,确保托管业务安全运营;\n\n(三)具有健全的数据安全措施,有效防范数据遭到篡改、破坏、泄露、丢失或者非法获取、非法利用等,保障托管业务数据安全,保护个人信息;\n\n(四)具有完备的业务连续性管理体系,保障托管业务信息系统安全、稳定、持续运行;\n\n(五)能够及时从产品管理人等相关方安全接收托管业务相关数据;\n\n(六)托管产品投资于公开市场证券的,应当与交易场所、证券登记结算机构等金融基础设施机构的系统安全有效对接;\n\n(七)国家金融监督管理总局规定的其他条件。\n\n第二十四条\n\n商业银行开办托管业务,应当向国家金融监督管理总局或其派出机构报告。\n\n商业银行开展托管业务应当持续符合本办法第二十二条、第二十三条规定的条件。\n\n商业银行开展不同产品托管业务时,还应当符合有关业务主管部门关于产品托管的相关规定。\n\n第二十五条\n\n商业银行应当建立健全托管业务治理架构,明确董事会、高级管理层对托管业务承担的职责。\n\n第二十六条\n\n商业银行应当建立与托管业务规模和复杂程度相适应的风险管理体系,对托管业务风险进行充分识别和评估,实现管理制度、操作流程、风险控制、内控合规、信息系统、网络安全、数据安全的统一管理。\n\n第二十七条\n\n商业银行应当建立健全托管业务管理制度,包括托管产品准入管理、风险管理和内部控制、人员管理、会计核算、资产估值、信息披露等,有效防控托管业务合规风险、道德风险、操作风险以及声誉风险等。\n\n为防止因托管业务引发的声誉风险演变为流动性风险,商业银行除前款所述健全内控和风险管理制度外,还应及时制定并实施应急预案,有效应对可能出现的极端风险情形。\n\n第二十八条\n\n商业银行应当将托管业务授权纳入统一授权管理,建立岗位制衡与流程约束机制。\n\n第二十九条\n\n商业银行应当制定并实施托管业务客户资质、产品类别、资产类型的准入标准,切实做好尽职调查和准入管理,实行名单制管理,定期评估风险情况并动态调整。\n\n商业银行应当制定托管产品准入的禁止性负面清单要求,强化资质审查和风险管理,不得托管被纳入负面清单的产品。禁止性负面清单的标准应当包括:\n\n(一)违法违规设立的产品;\n\n(二)产品管理人不具备相应的资产管理资质;\n\n(三)产品管理人无法正常展业;\n\n(四)国家金融监督管理总局认定的其他情形。\n\n第三十条\n\n商业银行应当确保托管业务与其他业务在人员岗位、物理场所、账户资金、业务数据和信息系统等方面有效隔离,防范利益冲突。商业银行托管关联方发行产品的,应当强化信息披露和风险隔离,防范不当关联交易和利益输送。\n\n第三十一条\n\n商业银行发现产品管理人、产品销售机构借助托管银行的品牌、声誉开展不当营销宣传的,应当督促相关机构及时纠正。相关机构未及时采取有效纠正措施的,商业银行应当按照托管合同约定终止业务合作,并进行通知。\n\n第三十二条\n\n商业银行应当按照企业会计准则、监管规定等,对托管业务总体情况进行信息披露。信息披露的内容包括但不限于托管业务规模、结构、风险状况等。\n\n第三十三条\n\n商业银行开展托管业务发生下列情形的,应当按照相关规定,及时向产品管理人等相关方的监管部门或主管部门报告:\n\n(一)产品管理人违反法律法规规定或合同约定进行投资且拒不纠正的;\n\n(二)产品管理人发布未经托管机构复核的产品估值结果,或未对估值不一致事项进行说明的;\n\n(三)产品管理人拒不履行托管合同、被依法取消业务资格、被依法解散撤销的;\n\n(四)发现产品管理人侵占、挪用产品财产或者失联的;\n\n(五)相关监管部门或主管部门规定的其他情形。\n\n第三十四条\n\n商业银行应当加强对本机构托管业务从业人员执业行为的管理,禁止从业人员利用未公开信息为自己或者他人谋取利益。\n\n第三十五条\n\n商业银行对托管业务的考核评价应当充分体现合规导向,不得将托管业务与其他业务挂钩考核。\n\n第三十六条\n\n商业银行应当严格遵循会计准则和监管规定,按照实质重于形式的原则和穿透原则,从托管业务收入中计提风险准备金,主要用于弥补因违法违规、违反协议、操作错误或者技术故障等造成的损失。风险准备金的计提、使用等,按照相关规定执行。\n\n商业银行应当根据资本管理的相关规定审慎计算操作风险加权资产,计提资本。\n\n第三十七条\n\n商业银行应当有效保护和合理利用托管业务数据和客户信息,不得违反法律法规规定和托管合同约定,收集、存储、使用、加工、传输、提供、公开、删除托管业务相关数据信息。\n\n第三十八条\n\n商业银行应当建立托管业务内部审计和外部审计机制,定期审计业务经营和风险管理情况。\n\n第三十九条\n\n商业银行应当依法核实资金账户开户意愿,审查开销户资料,并对预留印鉴、银企对账、撤销账户、反洗钱和反恐怖融资实施规范管理。\n\n第四十条\n\n商业银行托管业务服务价格应当严格遵守法律法规和有关监管规定,遵循公开公平、诚实信用、质价相符的原则,不得利用价格手段开展不正当竞争。\n\n第四章 监督管理和法律责任\n\n第四十一条\n\n国家金融监督管理总局及其派出机构应当加强对商业银行托管业务的持续监管,加强跨部门监管协作,将托管业务的合规性和审慎性作为监管评级的内容。对于不符合托管业务资质、不满足托管业务能力要求、托管业务开展不审慎的商业银行,国家金融监督管理总局及其派出机构可以依照法律法规和审慎监管原则,采取责令限期整改、暂停相关业务等监督管理措施。\n\n第四十二条\n\n商业银行开展托管业务违反本办法规定的,国家金融监督管理总局及其派出机构依照法律法规责令其限期整改。对于在规定时限内未能采取有效整改措施,或者其行为严重危及商业银行的稳健运行的,国家金融监督管理总局及其派出机构可依照《中华人民共和国银行业监督管理法》等法律法规采取监督管理措施。\n\n第四十三条\n\n商业银行开展托管业务违反法律法规的,由国家金融监督管理总局及其派出机构依照《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规进行处罚;涉嫌犯罪的,依法移送司法机关处理。\n\n第四十四条\n\n商业银行应当根据相关法律法规和监管部门要求,向国家金融监督管理总局及其派出机构依法报送托管业务相关数据和信息。\n\n第四十五条\n\n商业银行应当向国家金融监督管理总局及其派出机构及时报告有关托管业务的重大事项。\n\n第四十六条\n\n银行业自律组织依法实施商业银行托管业务的自律管理,维护托管业务的市场秩序、规范托管业务行为,可以采取警示、暂停或取消相关成员单位会员资格等措施,并将相关情况报送国家金融监督管理总局及其派出机构。\n\n第五章 附则\n\n第四十七条\n\n在中华人民共和国境内依法设立的外国银行分行,以及符合国家金融监督管理总局规定的其他机构开展托管业务,参照适用本办法。\n\n第四十八条\n\n本办法由国家金融监督管理总局负责解释。\n\n第四十九条\n\n本办法自2026年2月1日起施行。对于不符合本办法规定的存量业务,应当自本办法施行起三年内整改完成。已为托管产品垫付资金、提供流动性支持或融资承诺的,商业银行应当按照实质重于形式原则和穿透原则,准确识别和评估业务风险,根据相关规定进行资产风险分类,并计提减值准备和资本。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "商业银行托管业务监督管理办法(试行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 18,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局令2025年第9号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 20,
+      "end_char": 39,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "paragraph",
+      "text": "为进一步加强商业银行托管业务监督管理,促进商业银行托管业务规范健康发展,金融监管总局制定了《商业银行托管业务监督管理办法(试行)》(以下简称《办法》),现正式发布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 41,
+      "end_char": 123,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "商业银行托管业务在强化市场监督制衡、规范产品投资运作、防范道德风险等方面发挥了积极作用,成为建设高标准金融市场体系的重要基础保障。近年来随着商业银行托管业务规模的增长和托管资产的多元化,亟需弥补针对商业银行托管业务的基础性监管制度空白。金融监管总局在总结各方经验的基础上,制定并发布实施《办法》,对推动商业银行进一步规范发展托管业务,加强风险管理,具有重要意义。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 125,
+      "end_char": 306,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "《办法》共五章49条,包括总则、托管职责、管理要求、监督管理和法律责任、附则等部分。《办法》明确了商业银行托管业务的概念和开展业务的基本原则,规定了商业银行开展托管业务应当符合的要求。商业银行需要建立健全托管业务治理架构和管理体系制度,根据自身能力和服务水平提供适当的托管服务。同时,《办法》也进一步强化了持续监管措施、监管处罚、数据报送和自律管理等相关制度安排。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 308,
+      "end_char": 490,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "《办法》的发布实施有利于进一步强化商业银行托管业务监管,明晰商业银行托管业务范围和经营规范,提升精细化管理水平,更好发挥托管机制作用,为资产管理等领域发展提供更加有力有效的支持。下一步,金融监管总局将持续督促商业银行提高经营管理水平和风险防范能力,促进托管业务规范、健康和高质量发展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 492,
+      "end_char": 634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 642,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 644,
+      "end_char": 647,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "为促进商业银行托管业务规范健康发展,加强商业银行托管业务监督管理,根据《中华人民共和国民法典》《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 649,
+      "end_char": 738,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 740,
+      "end_char": 743,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "本办法所称托管是指商业银行作为独立第三方,按照法律法规规定和托管合同约定,为所托管产品在中华人民共和国境内提供财产保管及相关服务的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 745,
+      "end_char": 813,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 815,
+      "end_char": 818,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "商业银行所托管产品,包括各类金融产品、各类专项资金形成的投资组合等。前述金融产品是指各类资产管理产品以及国务院金融管理部门认可的其他金融产品;专项资金是指来源于社会保障基金、基本养老保险基金、企业年金、职业年金、保险公司的资金等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 935,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 937,
+      "end_char": 940,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "商业银行所托管产品持有的财产(以下简称托管产品财产),包括各类银行存款等资金款项、股票、债券、未上市企业股权、其他债权、商品、金融衍生品以及法律法规认可的其他投资品种。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 942,
+      "end_char": 1026,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1028,
+      "end_char": 1031,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,应当坚持诚实信用、勤勉尽责、独立审慎、风险隔离原则,确保自身管理水平与所托管产品的规模、业务复杂程度和承担托管职责相匹配,切实防范利益冲突和利益输送。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1033,
+      "end_char": 1119,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1121,
+      "end_char": 1124,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "商业银行所托管的产品财产与商业银行自有财产相互独立,与其所托管的其他产品财产相互独立。商业银行因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,所托管的产品财产不属于其清算财产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1126,
+      "end_char": 1219,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1221,
+      "end_char": 1224,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局及其派出机构依照法律法规和审慎监管原则,对商业银行托管业务活动实施监督管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1226,
+      "end_char": 1274,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "chapter",
+      "text": "第二章 托管职责",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1276,
+      "end_char": 1284,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1286,
+      "end_char": 1289,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "商业银行可以根据法律法规规定和托管合同约定,为托管产品提供账户开立、财产保管、清算交割、会计核算、资产估值、信息披露、投资监督等服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1291,
+      "end_char": 1358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1360,
+      "end_char": 1363,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务应当签署托管合同。托管合同应当至少包括合同各方的权利义务、托管职责,合同的生效、变更和终止,违约责任和争议解决方式等内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1365,
+      "end_char": 1436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "商业银行应当对托管合同条款进行评估,确保相关约定合规清晰、风险揭示充分,相关各方职责和权利义务明确。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1438,
+      "end_char": 1488,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1493,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "托管产品约定的投资范围包括非标准化债权类资产、未上市企业股权等非标准化资产时,商业银行应当根据自身能力和服务水平,经充分评估后开展托管业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1495,
+      "end_char": 1565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "商业银行应当评估产品管理人的资本实力、公司治理、合规管理、风险控制、信息披露和市场影响力等方面,评估产品的交易结构、投资标的、退出方式、估值方法策略等方面。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1567,
+      "end_char": 1645,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "商业银行为前款资产提供托管服务的,应当根据法律法规、相关监管规定和托管合同约定,采取合理措施,履行托管职责,管控托管风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1647,
+      "end_char": 1708,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1710,
+      "end_char": 1714,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "商业银行应当为不同托管产品分别开立资金账户、证券账户等投资交易必需的相关账户,确保托管产品财产的完整与独立。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1716,
+      "end_char": 1770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "商业银行为托管产品开立资金账户,应当专门用于托管资金存放和使用。托管产品的资金账户应当具有明确标识,名称原则上应当包含开户主体和产品名称字样,确保资金账户名称与所托管的产品名称相对应。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1772,
+      "end_char": 1864,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1866,
+      "end_char": 1870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "商业银行提供财产保管服务,应当根据法律法规规定和托管合同约定,建立与产品管理人的对账机制,定期核对资金账户和证券账户内的资金头寸、证券明细、净值等财产信息,及时核查资金到账、支付情况。商业银行与产品管理人的对账频率应至少每半年一次。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1872,
+      "end_char": 1988,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1990,
+      "end_char": 1994,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "商业银行应当与产品管理人在托管合同中约定结算条款,明确双方在清算交收和风险控制方面的职责,并根据法律法规规定和托管合同约定,执行资金划拨指令,及时办理清算、交割事宜。商业银行应当与产品管理人约定,由托管人负责划拨资金账户内的资金,避免资金挪用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1996,
+      "end_char": 2118,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "商业银行应当明确清算交割的具体责任人员或岗位,未获得明确指令和授权,不得擅自进行资金划拨或资产处置操作等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2120,
+      "end_char": 2173,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2175,
+      "end_char": 2179,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "商业银行提供会计核算服务的,应当为每只托管产品单独建账、单独核算,在托管合同中明确各方职责与具体核算方法,严格按照《企业会计准则》等要求对托管产品的资产、负债等会计要素进行确认和计量。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2181,
+      "end_char": 2273,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "产品管理人为会计责任方的,商业银行应当根据约定的方法和《企业会计准则》的规定复核产品管理人提供的托管产品财务数据,发现错误的应当及时提示产品管理人。可以从第三方渠道获取可靠数据的,商业银行应当主要使用第三方数据进行会计核算。对仅依赖产品管理人所提供数据且无法从其他渠道获取可靠数据进行会计核算的,商业银行应当在托管合同中明确约定数据来源和免责情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2275,
+      "end_char": 2449,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2451,
+      "end_char": 2455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "商业银行提供资产估值服务的,应当在托管合同中明确约定估值对象、估值原则、估值方法、估值时间以及差错处理等内容,严格按照托管合同的约定进行资产估值。使用模型估值的,应当审慎确定模型参数,不得随意调整。商业银行估值结果与产品管理人无法达成一致的,商业银行应当及时提示产品管理人按照有关法律法规进行信息披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2608,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2610,
+      "end_char": 2614,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "商业银行应当在托管合同中对信息披露的职责、内容和方式进行明确约定,严格按照法律法规规定和托管合同约定办理与托管产品相关的信息披露事项。商业银行发现托管产品发生重大事项的,应当根据法律法规规定和托管合同约定,及时提示产品管理人进行信息披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2616,
+      "end_char": 2735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "对于产品管理人或其他相关方披露信息中需要商业银行复核的内容,商业银行应当根据自身能够获取的数据和信息进行复核,并与产品管理人或其他相关方明确约定,在其信息披露时说明商业银行所复核的数据和信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2737,
+      "end_char": 2833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "商业银行应当制定投资监督标准与监督流程,在充分获取所必需数据信息的前提下提供投资监督服务。投资监督的内容可以包括投资范围、投资比例、投资风格、投资限制、关联方交易等。商业银行不得提供或承诺提供无法有效履职的投资监督服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2841,
+      "end_char": 2951,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "商业银行应当在托管合同中明确约定监督事项、监督内容和监督方式,按照法律法规规定和托管合同约定提供投资监督服务。在投资监督过程中,商业银行应当审慎履职,在能力范围内采取必要合理措施,对信息的真实性、准确性等进行评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2953,
+      "end_char": 3060,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "商业银行发现托管产品违反法律法规或合同约定进行投资的,应当拒绝执行;按照交易程序已经达成交易的或无法拒绝执行的,应当及时提示产品管理人等相关方。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3062,
+      "end_char": 3134,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3136,
+      "end_char": 3140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "商业银行应当妥善保存托管产品业务活动的记录、账册、报表和其他相关资料,按照相关监管规定审慎确定保存期限,保存10年以上。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3142,
+      "end_char": 3202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "托管机构变更的,原托管银行应当妥善保管产品财产和业务资料,配合其他托管机构做好移交工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3204,
+      "end_char": 3248,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3250,
+      "end_char": 3254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,不得承担以下职责:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3256,
+      "end_char": 3276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(一)承担托管产品财产的信用风险、市场风险等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3278,
+      "end_char": 3301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(二)为托管产品提供直接或间接、显性或隐性担保,包括承诺本金或保证收益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3303,
+      "end_char": 3339,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(三)为托管产品垫付资金、提供流动性支持或融资承诺等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3341,
+      "end_char": 3368,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(四)参与投资者适当性管理;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3370,
+      "end_char": 3384,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(五)保证投资项目及交易信息真实性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3386,
+      "end_char": 3404,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(六)保证托管产品资金来源的合法合规性;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3406,
+      "end_char": 3426,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(七)对已划出托管账户以及处于商业银行实际控制之外的资产承担保管责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3428,
+      "end_char": 3463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(八)参与产品管理人对托管产品的投资决策;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3465,
+      "end_char": 3486,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "(九)违规代替产品管理人向其他机构或者个人进行托管产品信息披露或提供相关数据信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3488,
+      "end_char": 3529,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "(十)产品管理人未接受商业银行的复核意见进行信息披露产生的相应责任;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3531,
+      "end_char": 3565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(十一)负责未兑付产品的资金追偿、财产保全、诉讼仲裁、债务重组和破产程序等,法律另有规定的除外;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3567,
+      "end_char": 3615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(十二)因不可抗力,以及非本机构履职错误或过失造成的托管资产损失;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3617,
+      "end_char": 3650,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(十三)国务院金融监管部门规定的不属于商业银行托管业务范围的其他职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3652,
+      "end_char": 3687,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3689,
+      "end_char": 3693,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,不得有以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3695,
+      "end_char": 3714,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "(一)混同管理托管产品财产与自有财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3716,
+      "end_char": 3735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(二)混同管理不同托管产品持有的财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3737,
+      "end_char": 3756,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(三)侵占、挪用托管产品财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3758,
+      "end_char": 3773,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(四)非法利用内部信息谋取不正当利益;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3775,
+      "end_char": 3794,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(五)利用或者承诺利用托管业务进行利益输送或利益交换;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3796,
+      "end_char": 3823,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(六)法律法规、监管规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3825,
+      "end_char": 3845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第二十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3847,
+      "end_char": 3852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "产品管理人存在拒不履行托管合同、被依法取消业务资格、被依法解散撤销等情形的,商业银行应当根据规定,采取有关措施保护财产安全,并及时告知相关方。在采取必要、合理措施保障投资者合法权益的前提下,商业银行有权按照合同约定终止托管服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3854,
+      "end_char": 3968,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "chapter",
+      "text": "第三章 管理要求",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3970,
+      "end_char": 3978,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第二十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3980,
+      "end_char": 3985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务,应当至少符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3987,
+      "end_char": 4009,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)具有良好的公司治理结构、内部控制机制,健全的风险管理体系和完备的托管业务制度等;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4011,
+      "end_char": 4054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)经营稳健,主要审慎监管指标符合监管要求;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4056,
+      "end_char": 4079,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(三)设有托管业务专营部门;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4081,
+      "end_char": 4095,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(四)配备充足的托管业务专职人员,核算、监督等核心岗位人员具备相关托管业务从业经验;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4097,
+      "end_char": 4139,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(五)具备安全保管托管产品财产的条件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4160,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(六)具有满足营业需要的固定场所,配备安全监控系统及安全防范设施;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4162,
+      "end_char": 4195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(七)具有安全高效的托管业务信息系统;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4197,
+      "end_char": 4216,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(八)法律、行政法规和国家金融监督管理总局规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4218,
+      "end_char": 4247,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "article",
+      "text": "第二十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4249,
+      "end_char": 4254,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "商业银行托管业务信息系统应当至少符合以下要求:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4256,
+      "end_char": 4279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(一)能够安全高效地办理清算、核算、交割事宜;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4281,
+      "end_char": 4304,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(二)具有健全的网络安全防护措施,有效防范网络攻击、入侵、干扰和破坏等风险,确保托管业务安全运营;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4306,
+      "end_char": 4355,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(三)具有健全的数据安全措施,有效防范数据遭到篡改、破坏、泄露、丢失或者非法获取、非法利用等,保障托管业务数据安全,保护个人信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4357,
+      "end_char": 4422,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(四)具有完备的业务连续性管理体系,保障托管业务信息系统安全、稳定、持续运行;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4424,
+      "end_char": 4463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(五)能够及时从产品管理人等相关方安全接收托管业务相关数据;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4465,
+      "end_char": 4495,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(六)托管产品投资于公开市场证券的,应当与交易场所、证券登记结算机构等金融基础设施机构的系统安全有效对接;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4497,
+      "end_char": 4550,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(七)国家金融监督管理总局规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4552,
+      "end_char": 4573,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第二十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4575,
+      "end_char": 4580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "商业银行开办托管业务,应当向国家金融监督管理总局或其派出机构报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4582,
+      "end_char": 4615,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务应当持续符合本办法第二十二条、第二十三条规定的条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4617,
+      "end_char": 4653,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "商业银行开展不同产品托管业务时,还应当符合有关业务主管部门关于产品托管的相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4655,
+      "end_char": 4696,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "article",
+      "text": "第二十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4698,
+      "end_char": 4703,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立健全托管业务治理架构,明确董事会、高级管理层对托管业务承担的职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4705,
+      "end_char": 4746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第二十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4748,
+      "end_char": 4753,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立与托管业务规模和复杂程度相适应的风险管理体系,对托管业务风险进行充分识别和评估,实现管理制度、操作流程、风险控制、内控合规、信息系统、网络安全、数据安全的统一管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4755,
+      "end_char": 4845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第二十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4847,
+      "end_char": 4852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立健全托管业务管理制度,包括托管产品准入管理、风险管理和内部控制、人员管理、会计核算、资产估值、信息披露等,有效防控托管业务合规风险、道德风险、操作风险以及声誉风险等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4854,
+      "end_char": 4945,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "为防止因托管业务引发的声誉风险演变为流动性风险,商业银行除前款所述健全内控和风险管理制度外,还应及时制定并实施应急预案,有效应对可能出现的极端风险情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4947,
+      "end_char": 5023,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "article",
+      "text": "第二十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5025,
+      "end_char": 5030,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "商业银行应当将托管业务授权纳入统一授权管理,建立岗位制衡与流程约束机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5032,
+      "end_char": 5068,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "article",
+      "text": "第二十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5070,
+      "end_char": 5075,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "商业银行应当制定并实施托管业务客户资质、产品类别、资产类型的准入标准,切实做好尽职调查和准入管理,实行名单制管理,定期评估风险情况并动态调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5077,
+      "end_char": 5148,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "商业银行应当制定托管产品准入的禁止性负面清单要求,强化资质审查和风险管理,不得托管被纳入负面清单的产品。禁止性负面清单的标准应当包括:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5150,
+      "end_char": 5217,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(一)违法违规设立的产品;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5219,
+      "end_char": 5232,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "(二)产品管理人不具备相应的资产管理资质;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5234,
+      "end_char": 5255,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "(三)产品管理人无法正常展业;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5257,
+      "end_char": 5272,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "(四)国家金融监督管理总局认定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5274,
+      "end_char": 5295,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第三十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5297,
+      "end_char": 5301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "商业银行应当确保托管业务与其他业务在人员岗位、物理场所、账户资金、业务数据和信息系统等方面有效隔离,防范利益冲突。商业银行托管关联方发行产品的,应当强化信息披露和风险隔离,防范不当关联交易和利益输送。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5303,
+      "end_char": 5403,
+      "region": "body"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "article",
+      "text": "第三十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5405,
+      "end_char": 5410,
+      "region": "body"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "商业银行发现产品管理人、产品销售机构借助托管银行的品牌、声誉开展不当营销宣传的,应当督促相关机构及时纠正。相关机构未及时采取有效纠正措施的,商业银行应当按照托管合同约定终止业务合作,并进行通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5412,
+      "end_char": 5509,
+      "region": "body"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "article",
+      "text": "第三十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5511,
+      "end_char": 5516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "商业银行应当按照企业会计准则、监管规定等,对托管业务总体情况进行信息披露。信息披露的内容包括但不限于托管业务规模、结构、风险状况等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5518,
+      "end_char": 5584,
+      "region": "body"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "article",
+      "text": "第三十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5586,
+      "end_char": 5591,
+      "region": "body"
+    },
+    {
+      "block_id": "b00128",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务发生下列情形的,应当按照相关规定,及时向产品管理人等相关方的监管部门或主管部门报告:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5593,
+      "end_char": 5645,
+      "region": "body"
+    },
+    {
+      "block_id": "b00129",
+      "block_type": "paragraph",
+      "text": "(一)产品管理人违反法律法规规定或合同约定进行投资且拒不纠正的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5647,
+      "end_char": 5679,
+      "region": "body"
+    },
+    {
+      "block_id": "b00130",
+      "block_type": "paragraph",
+      "text": "(二)产品管理人发布未经托管机构复核的产品估值结果,或未对估值不一致事项进行说明的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5681,
+      "end_char": 5723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00131",
+      "block_type": "paragraph",
+      "text": "(三)产品管理人拒不履行托管合同、被依法取消业务资格、被依法解散撤销的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5725,
+      "end_char": 5761,
+      "region": "body"
+    },
+    {
+      "block_id": "b00132",
+      "block_type": "paragraph",
+      "text": "(四)发现产品管理人侵占、挪用产品财产或者失联的;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5763,
+      "end_char": 5788,
+      "region": "body"
+    },
+    {
+      "block_id": "b00133",
+      "block_type": "paragraph",
+      "text": "(五)相关监管部门或主管部门规定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5790,
+      "end_char": 5812,
+      "region": "body"
+    },
+    {
+      "block_id": "b00134",
+      "block_type": "article",
+      "text": "第三十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5814,
+      "end_char": 5819,
+      "region": "body"
+    },
+    {
+      "block_id": "b00135",
+      "block_type": "paragraph",
+      "text": "商业银行应当加强对本机构托管业务从业人员执业行为的管理,禁止从业人员利用未公开信息为自己或者他人谋取利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5821,
+      "end_char": 5874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00136",
+      "block_type": "article",
+      "text": "第三十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5876,
+      "end_char": 5881,
+      "region": "body"
+    },
+    {
+      "block_id": "b00137",
+      "block_type": "paragraph",
+      "text": "商业银行对托管业务的考核评价应当充分体现合规导向,不得将托管业务与其他业务挂钩考核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5883,
+      "end_char": 5925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00138",
+      "block_type": "article",
+      "text": "第三十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5927,
+      "end_char": 5932,
+      "region": "body"
+    },
+    {
+      "block_id": "b00139",
+      "block_type": "paragraph",
+      "text": "商业银行应当严格遵循会计准则和监管规定,按照实质重于形式的原则和穿透原则,从托管业务收入中计提风险准备金,主要用于弥补因违法违规、违反协议、操作错误或者技术故障等造成的损失。风险准备金的计提、使用等,按照相关规定执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5934,
+      "end_char": 6043,
+      "region": "body"
+    },
+    {
+      "block_id": "b00140",
+      "block_type": "paragraph",
+      "text": "商业银行应当根据资本管理的相关规定审慎计算操作风险加权资产,计提资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6045,
+      "end_char": 6080,
+      "region": "body"
+    },
+    {
+      "block_id": "b00141",
+      "block_type": "article",
+      "text": "第三十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6082,
+      "end_char": 6087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00142",
+      "block_type": "paragraph",
+      "text": "商业银行应当有效保护和合理利用托管业务数据和客户信息,不得违反法律法规规定和托管合同约定,收集、存储、使用、加工、传输、提供、公开、删除托管业务相关数据信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6089,
+      "end_char": 6168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00143",
+      "block_type": "article",
+      "text": "第三十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6170,
+      "end_char": 6175,
+      "region": "body"
+    },
+    {
+      "block_id": "b00144",
+      "block_type": "paragraph",
+      "text": "商业银行应当建立托管业务内部审计和外部审计机制,定期审计业务经营和风险管理情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6177,
+      "end_char": 6217,
+      "region": "body"
+    },
+    {
+      "block_id": "b00145",
+      "block_type": "article",
+      "text": "第三十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6219,
+      "end_char": 6224,
+      "region": "body"
+    },
+    {
+      "block_id": "b00146",
+      "block_type": "paragraph",
+      "text": "商业银行应当依法核实资金账户开户意愿,审查开销户资料,并对预留印鉴、银企对账、撤销账户、反洗钱和反恐怖融资实施规范管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6226,
+      "end_char": 6286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00147",
+      "block_type": "article",
+      "text": "第四十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6288,
+      "end_char": 6292,
+      "region": "body"
+    },
+    {
+      "block_id": "b00148",
+      "block_type": "paragraph",
+      "text": "商业银行托管业务服务价格应当严格遵守法律法规和有关监管规定,遵循公开公平、诚实信用、质价相符的原则,不得利用价格手段开展不正当竞争。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6294,
+      "end_char": 6360,
+      "region": "body"
+    },
+    {
+      "block_id": "b00149",
+      "block_type": "chapter",
+      "text": "第四章 监督管理和法律责任",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6362,
+      "end_char": 6375,
+      "region": "body"
+    },
+    {
+      "block_id": "b00150",
+      "block_type": "article",
+      "text": "第四十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6377,
+      "end_char": 6382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00151",
+      "block_type": "paragraph",
+      "text": "国家金融监督管理总局及其派出机构应当加强对商业银行托管业务的持续监管,加强跨部门监管协作,将托管业务的合规性和审慎性作为监管评级的内容。对于不符合托管业务资质、不满足托管业务能力要求、托管业务开展不审慎的商业银行,国家金融监督管理总局及其派出机构可以依照法律法规和审慎监管原则,采取责令限期整改、暂停相关业务等监督管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6384,
+      "end_char": 6546,
+      "region": "body"
+    },
+    {
+      "block_id": "b00152",
+      "block_type": "article",
+      "text": "第四十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6548,
+      "end_char": 6553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00153",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务违反本办法规定的,国家金融监督管理总局及其派出机构依照法律法规责令其限期整改。对于在规定时限内未能采取有效整改措施,或者其行为严重危及商业银行的稳健运行的,国家金融监督管理总局及其派出机构可依照《中华人民共和国银行业监督管理法》等法律法规采取监督管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6555,
+      "end_char": 6693,
+      "region": "body"
+    },
+    {
+      "block_id": "b00154",
+      "block_type": "article",
+      "text": "第四十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6695,
+      "end_char": 6700,
+      "region": "body"
+    },
+    {
+      "block_id": "b00155",
+      "block_type": "paragraph",
+      "text": "商业银行开展托管业务违反法律法规的,由国家金融监督管理总局及其派出机构依照《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规进行处罚;涉嫌犯罪的,依法移送司法机关处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6702,
+      "end_char": 6797,
+      "region": "body"
+    },
+    {
+      "block_id": "b00156",
+      "block_type": "article",
+      "text": "第四十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6799,
+      "end_char": 6804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00157",
+      "block_type": "paragraph",
+      "text": "商业银行应当根据相关法律法规和监管部门要求,向国家金融监督管理总局及其派出机构依法报送托管业务相关数据和信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6806,
+      "end_char": 6861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00158",
+      "block_type": "article",
+      "text": "第四十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6863,
+      "end_char": 6868,
+      "region": "body"
+    },
+    {
+      "block_id": "b00159",
+      "block_type": "paragraph",
+      "text": "商业银行应当向国家金融监督管理总局及其派出机构及时报告有关托管业务的重大事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6870,
+      "end_char": 6909,
+      "region": "body"
+    },
+    {
+      "block_id": "b00160",
+      "block_type": "article",
+      "text": "第四十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6911,
+      "end_char": 6916,
+      "region": "body"
+    },
+    {
+      "block_id": "b00161",
+      "block_type": "paragraph",
+      "text": "银行业自律组织依法实施商业银行托管业务的自律管理,维护托管业务的市场秩序、规范托管业务行为,可以采取警示、暂停或取消相关成员单位会员资格等措施,并将相关情况报送国家金融监督管理总局及其派出机构。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 6918,
+      "end_char": 7015,
+      "region": "body"
+    },
+    {
+      "block_id": "b00162",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7017,
+      "end_char": 7023,
+      "region": "body"
+    },
+    {
+      "block_id": "b00163",
+      "block_type": "article",
+      "text": "第四十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7025,
+      "end_char": 7030,
+      "region": "body"
+    },
+    {
+      "block_id": "b00164",
+      "block_type": "paragraph",
+      "text": "在中华人民共和国境内依法设立的外国银行分行,以及符合国家金融监督管理总局规定的其他机构开展托管业务,参照适用本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7032,
+      "end_char": 7090,
+      "region": "body"
+    },
+    {
+      "block_id": "b00165",
+      "block_type": "article",
+      "text": "第四十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7092,
+      "end_char": 7097,
+      "region": "body"
+    },
+    {
+      "block_id": "b00166",
+      "block_type": "paragraph",
+      "text": "本办法由国家金融监督管理总局负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7099,
+      "end_char": 7118,
+      "region": "body"
+    },
+    {
+      "block_id": "b00167",
+      "block_type": "article",
+      "text": "第四十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7120,
+      "end_char": 7125,
+      "region": "body"
+    },
+    {
+      "block_id": "b00168",
+      "block_type": "paragraph",
+      "text": "本办法自2026年2月1日起施行。对于不符合本办法规定的存量业务,应当自本办法施行起三年内整改完成。已为托管产品垫付资金、提供流动性支持或融资承诺的,商业银行应当按照实质重于形式原则和穿透原则,准确识别和评估业务风险,根据相关规定进行资产风险分类,并计提减值准备和资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 7127,
+      "end_char": 7262,
+      "region": "body"
+    }
+  ],
   "normalized_text": "商业银行托管业务监督管理办法(试行)\n\n国家金融监督管理总局令2025年第9号\n\n为进一步加强商业银行托管业务监督管理,促进商业银行托管业务规范健康发展,金融监管总局制定了《商业银行托管业务监督管理办法(试行)》(以下简称《办法》),现正式发布。\n\n商业银行托管业务在强化市场监督制衡、规范产品投资运作、防范道德风险等方面发挥了积极作用,成为建设高标准金融市场体系的重要基础保障。近年来随着商业银行托管业务规模的增长和托管资产的多元化,亟需弥补针对商业银行托管业务的基础性监管制度空白。金融监管总局在总结各方经验的基础上,制定并发布实施《办法》,对推动商业银行进一步规范发展托管业务,加强风险管理,具有重要意义。\n\n《办法》共五章49条,包括总则、托管职责、管理要求、监督管理和法律责任、附则等部分。《办法》明确了商业银行托管业务的概念和开展业务的基本原则,规定了商业银行开展托管业务应当符合的要求。商业银行需要建立健全托管业务治理架构和管理体系制度,根据自身能力和服务水平提供适当的托管服务。同时,《办法》也进一步强化了持续监管措施、监管处罚、数据报送和自律管理等相关制度安排。\n\n《办法》的发布实施有利于进一步强化商业银行托管业务监管,明晰商业银行托管业务范围和经营规范,提升精细化管理水平,更好发挥托管机制作用,为资产管理等领域发展提供更加有力有效的支持。下一步,金融监管总局将持续督促商业银行提高经营管理水平和风险防范能力,促进托管业务规范、健康和高质量发展。\n\n第一章 总则\n\n第一条\n\n为促进商业银行托管业务规范健康发展,加强商业银行托管业务监督管理,根据《中华人民共和国民法典》《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规制定本办法。\n\n第二条\n\n本办法所称托管是指商业银行作为独立第三方,按照法律法规规定和托管合同约定,为所托管产品在中华人民共和国境内提供财产保管及相关服务的行为。\n\n第三条\n\n商业银行所托管产品,包括各类金融产品、各类专项资金形成的投资组合等。前述金融产品是指各类资产管理产品以及国务院金融管理部门认可的其他金融产品;专项资金是指来源于社会保障基金、基本养老保险基金、企业年金、职业年金、保险公司的资金等。\n\n第四条\n\n商业银行所托管产品持有的财产(以下简称托管产品财产),包括各类银行存款等资金款项、股票、债券、未上市企业股权、其他债权、商品、金融衍生品以及法律法规认可的其他投资品种。\n\n第五条\n\n商业银行开展托管业务,应当坚持诚实信用、勤勉尽责、独立审慎、风险隔离原则,确保自身管理水平与所托管产品的规模、业务复杂程度和承担托管职责相匹配,切实防范利益冲突和利益输送。\n\n第六条\n\n商业银行所托管的产品财产与商业银行自有财产相互独立,与其所托管的其他产品财产相互独立。商业银行因依法解散、被依法撤销或者被依法宣告破产等原因进行清算的,所托管的产品财产不属于其清算财产。\n\n第七条\n\n国家金融监督管理总局及其派出机构依照法律法规和审慎监管原则,对商业银行托管业务活动实施监督管理。\n\n第二章 托管职责\n\n第八条\n\n商业银行可以根据法律法规规定和托管合同约定,为托管产品提供账户开立、财产保管、清算交割、会计核算、资产估值、信息披露、投资监督等服务。\n\n第九条\n\n商业银行开展托管业务应当签署托管合同。托管合同应当至少包括合同各方的权利义务、托管职责,合同的生效、变更和终止,违约责任和争议解决方式等内容。\n\n商业银行应当对托管合同条款进行评估,确保相关约定合规清晰、风险揭示充分,相关各方职责和权利义务明确。\n\n第十条\n\n托管产品约定的投资范围包括非标准化债权类资产、未上市企业股权等非标准化资产时,商业银行应当根据自身能力和服务水平,经充分评估后开展托管业务。\n\n商业银行应当评估产品管理人的资本实力、公司治理、合规管理、风险控制、信息披露和市场影响力等方面,评估产品的交易结构、投资标的、退出方式、估值方法策略等方面。\n\n商业银行为前款资产提供托管服务的,应当根据法律法规、相关监管规定和托管合同约定,采取合理措施,履行托管职责,管控托管风险。\n\n第十一条\n\n商业银行应当为不同托管产品分别开立资金账户、证券账户等投资交易必需的相关账户,确保托管产品财产的完整与独立。\n\n商业银行为托管产品开立资金账户,应当专门用于托管资金存放和使用。托管产品的资金账户应当具有明确标识,名称原则上应当包含开户主体和产品名称字样,确保资金账户名称与所托管的产品名称相对应。\n\n第十二条\n\n商业银行提供财产保管服务,应当根据法律法规规定和托管合同约定,建立与产品管理人的对账机制,定期核对资金账户和证券账户内的资金头寸、证券明细、净值等财产信息,及时核查资金到账、支付情况。商业银行与产品管理人的对账频率应至少每半年一次。\n\n第十三条\n\n商业银行应当与产品管理人在托管合同中约定结算条款,明确双方在清算交收和风险控制方面的职责,并根据法律法规规定和托管合同约定,执行资金划拨指令,及时办理清算、交割事宜。商业银行应当与产品管理人约定,由托管人负责划拨资金账户内的资金,避免资金挪用。\n\n商业银行应当明确清算交割的具体责任人员或岗位,未获得明确指令和授权,不得擅自进行资金划拨或资产处置操作等。\n\n第十四条\n\n商业银行提供会计核算服务的,应当为每只托管产品单独建账、单独核算,在托管合同中明确各方职责与具体核算方法,严格按照《企业会计准则》等要求对托管产品的资产、负债等会计要素进行确认和计量。\n\n产品管理人为会计责任方的,商业银行应当根据约定的方法和《企业会计准则》的规定复核产品管理人提供的托管产品财务数据,发现错误的应当及时提示产品管理人。可以从第三方渠道获取可靠数据的,商业银行应当主要使用第三方数据进行会计核算。对仅依赖产品管理人所提供数据且无法从其他渠道获取可靠数据进行会计核算的,商业银行应当在托管合同中明确约定数据来源和免责情形。\n\n第十五条\n\n商业银行提供资产估值服务的,应当在托管合同中明确约定估值对象、估值原则、估值方法、估值时间以及差错处理等内容,严格按照托管合同的约定进行资产估值。使用模型估值的,应当审慎确定模型参数,不得随意调整。商业银行估值结果与产品管理人无法达成一致的,商业银行应当及时提示产品管理人按照有关法律法规进行信息披露。\n\n第十六条\n\n商业银行应当在托管合同中对信息披露的职责、内容和方式进行明确约定,严格按照法律法规规定和托管合同约定办理与托管产品相关的信息披露事项。商业银行发现托管产品发生重大事项的,应当根据法律法规规定和托管合同约定,及时提示产品管理人进行信息披露。\n\n对于产品管理人或其他相关方披露信息中需要商业银行复核的内容,商业银行应当根据自身能够获取的数据和信息进行复核,并与产品管理人或其他相关方明确约定,在其信息披露时说明商业银行所复核的数据和信息。\n\n第十七条\n\n商业银行应当制定投资监督标准与监督流程,在充分获取所必需数据信息的前提下提供投资监督服务。投资监督的内容可以包括投资范围、投资比例、投资风格、投资限制、关联方交易等。商业银行不得提供或承诺提供无法有效履职的投资监督服务。\n\n商业银行应当在托管合同中明确约定监督事项、监督内容和监督方式,按照法律法规规定和托管合同约定提供投资监督服务。在投资监督过程中,商业银行应当审慎履职,在能力范围内采取必要合理措施,对信息的真实性、准确性等进行评估。\n\n商业银行发现托管产品违反法律法规或合同约定进行投资的,应当拒绝执行;按照交易程序已经达成交易的或无法拒绝执行的,应当及时提示产品管理人等相关方。\n\n第十八条\n\n商业银行应当妥善保存托管产品业务活动的记录、账册、报表和其他相关资料,按照相关监管规定审慎确定保存期限,保存10年以上。\n\n托管机构变更的,原托管银行应当妥善保管产品财产和业务资料,配合其他托管机构做好移交工作。\n\n第十九条\n\n商业银行开展托管业务,不得承担以下职责:\n\n(一)承担托管产品财产的信用风险、市场风险等;\n\n(二)为托管产品提供直接或间接、显性或隐性担保,包括承诺本金或保证收益;\n\n(三)为托管产品垫付资金、提供流动性支持或融资承诺等;\n\n(四)参与投资者适当性管理;\n\n(五)保证投资项目及交易信息真实性;\n\n(六)保证托管产品资金来源的合法合规性;\n\n(七)对已划出托管账户以及处于商业银行实际控制之外的资产承担保管责任;\n\n(八)参与产品管理人对托管产品的投资决策;\n\n(九)违规代替产品管理人向其他机构或者个人进行托管产品信息披露或提供相关数据信息;\n\n(十)产品管理人未接受商业银行的复核意见进行信息披露产生的相应责任;\n\n(十一)负责未兑付产品的资金追偿、财产保全、诉讼仲裁、债务重组和破产程序等,法律另有规定的除外;\n\n(十二)因不可抗力,以及非本机构履职错误或过失造成的托管资产损失;\n\n(十三)国务院金融监管部门规定的不属于商业银行托管业务范围的其他职责。\n\n第二十条\n\n商业银行开展托管业务,不得有以下行为:\n\n(一)混同管理托管产品财产与自有财产;\n\n(二)混同管理不同托管产品持有的财产;\n\n(三)侵占、挪用托管产品财产;\n\n(四)非法利用内部信息谋取不正当利益;\n\n(五)利用或者承诺利用托管业务进行利益输送或利益交换;\n\n(六)法律法规、监管规定禁止的其他行为。\n\n第二十一条\n\n产品管理人存在拒不履行托管合同、被依法取消业务资格、被依法解散撤销等情形的,商业银行应当根据规定,采取有关措施保护财产安全,并及时告知相关方。在采取必要、合理措施保障投资者合法权益的前提下,商业银行有权按照合同约定终止托管服务。\n\n第三章 管理要求\n\n第二十二条\n\n商业银行开展托管业务,应当至少符合以下要求:\n\n(一)具有良好的公司治理结构、内部控制机制,健全的风险管理体系和完备的托管业务制度等;\n\n(二)经营稳健,主要审慎监管指标符合监管要求;\n\n(三)设有托管业务专营部门;\n\n(四)配备充足的托管业务专职人员,核算、监督等核心岗位人员具备相关托管业务从业经验;\n\n(五)具备安全保管托管产品财产的条件;\n\n(六)具有满足营业需要的固定场所,配备安全监控系统及安全防范设施;\n\n(七)具有安全高效的托管业务信息系统;\n\n(八)法律、行政法规和国家金融监督管理总局规定的其他条件。\n\n第二十三条\n\n商业银行托管业务信息系统应当至少符合以下要求:\n\n(一)能够安全高效地办理清算、核算、交割事宜;\n\n(二)具有健全的网络安全防护措施,有效防范网络攻击、入侵、干扰和破坏等风险,确保托管业务安全运营;\n\n(三)具有健全的数据安全措施,有效防范数据遭到篡改、破坏、泄露、丢失或者非法获取、非法利用等,保障托管业务数据安全,保护个人信息;\n\n(四)具有完备的业务连续性管理体系,保障托管业务信息系统安全、稳定、持续运行;\n\n(五)能够及时从产品管理人等相关方安全接收托管业务相关数据;\n\n(六)托管产品投资于公开市场证券的,应当与交易场所、证券登记结算机构等金融基础设施机构的系统安全有效对接;\n\n(七)国家金融监督管理总局规定的其他条件。\n\n第二十四条\n\n商业银行开办托管业务,应当向国家金融监督管理总局或其派出机构报告。\n\n商业银行开展托管业务应当持续符合本办法第二十二条、第二十三条规定的条件。\n\n商业银行开展不同产品托管业务时,还应当符合有关业务主管部门关于产品托管的相关规定。\n\n第二十五条\n\n商业银行应当建立健全托管业务治理架构,明确董事会、高级管理层对托管业务承担的职责。\n\n第二十六条\n\n商业银行应当建立与托管业务规模和复杂程度相适应的风险管理体系,对托管业务风险进行充分识别和评估,实现管理制度、操作流程、风险控制、内控合规、信息系统、网络安全、数据安全的统一管理。\n\n第二十七条\n\n商业银行应当建立健全托管业务管理制度,包括托管产品准入管理、风险管理和内部控制、人员管理、会计核算、资产估值、信息披露等,有效防控托管业务合规风险、道德风险、操作风险以及声誉风险等。\n\n为防止因托管业务引发的声誉风险演变为流动性风险,商业银行除前款所述健全内控和风险管理制度外,还应及时制定并实施应急预案,有效应对可能出现的极端风险情形。\n\n第二十八条\n\n商业银行应当将托管业务授权纳入统一授权管理,建立岗位制衡与流程约束机制。\n\n第二十九条\n\n商业银行应当制定并实施托管业务客户资质、产品类别、资产类型的准入标准,切实做好尽职调查和准入管理,实行名单制管理,定期评估风险情况并动态调整。\n\n商业银行应当制定托管产品准入的禁止性负面清单要求,强化资质审查和风险管理,不得托管被纳入负面清单的产品。禁止性负面清单的标准应当包括:\n\n(一)违法违规设立的产品;\n\n(二)产品管理人不具备相应的资产管理资质;\n\n(三)产品管理人无法正常展业;\n\n(四)国家金融监督管理总局认定的其他情形。\n\n第三十条\n\n商业银行应当确保托管业务与其他业务在人员岗位、物理场所、账户资金、业务数据和信息系统等方面有效隔离,防范利益冲突。商业银行托管关联方发行产品的,应当强化信息披露和风险隔离,防范不当关联交易和利益输送。\n\n第三十一条\n\n商业银行发现产品管理人、产品销售机构借助托管银行的品牌、声誉开展不当营销宣传的,应当督促相关机构及时纠正。相关机构未及时采取有效纠正措施的,商业银行应当按照托管合同约定终止业务合作,并进行通知。\n\n第三十二条\n\n商业银行应当按照企业会计准则、监管规定等,对托管业务总体情况进行信息披露。信息披露的内容包括但不限于托管业务规模、结构、风险状况等。\n\n第三十三条\n\n商业银行开展托管业务发生下列情形的,应当按照相关规定,及时向产品管理人等相关方的监管部门或主管部门报告:\n\n(一)产品管理人违反法律法规规定或合同约定进行投资且拒不纠正的;\n\n(二)产品管理人发布未经托管机构复核的产品估值结果,或未对估值不一致事项进行说明的;\n\n(三)产品管理人拒不履行托管合同、被依法取消业务资格、被依法解散撤销的;\n\n(四)发现产品管理人侵占、挪用产品财产或者失联的;\n\n(五)相关监管部门或主管部门规定的其他情形。\n\n第三十四条\n\n商业银行应当加强对本机构托管业务从业人员执业行为的管理,禁止从业人员利用未公开信息为自己或者他人谋取利益。\n\n第三十五条\n\n商业银行对托管业务的考核评价应当充分体现合规导向,不得将托管业务与其他业务挂钩考核。\n\n第三十六条\n\n商业银行应当严格遵循会计准则和监管规定,按照实质重于形式的原则和穿透原则,从托管业务收入中计提风险准备金,主要用于弥补因违法违规、违反协议、操作错误或者技术故障等造成的损失。风险准备金的计提、使用等,按照相关规定执行。\n\n商业银行应当根据资本管理的相关规定审慎计算操作风险加权资产,计提资本。\n\n第三十七条\n\n商业银行应当有效保护和合理利用托管业务数据和客户信息,不得违反法律法规规定和托管合同约定,收集、存储、使用、加工、传输、提供、公开、删除托管业务相关数据信息。\n\n第三十八条\n\n商业银行应当建立托管业务内部审计和外部审计机制,定期审计业务经营和风险管理情况。\n\n第三十九条\n\n商业银行应当依法核实资金账户开户意愿,审查开销户资料,并对预留印鉴、银企对账、撤销账户、反洗钱和反恐怖融资实施规范管理。\n\n第四十条\n\n商业银行托管业务服务价格应当严格遵守法律法规和有关监管规定,遵循公开公平、诚实信用、质价相符的原则,不得利用价格手段开展不正当竞争。\n\n第四章 监督管理和法律责任\n\n第四十一条\n\n国家金融监督管理总局及其派出机构应当加强对商业银行托管业务的持续监管,加强跨部门监管协作,将托管业务的合规性和审慎性作为监管评级的内容。对于不符合托管业务资质、不满足托管业务能力要求、托管业务开展不审慎的商业银行,国家金融监督管理总局及其派出机构可以依照法律法规和审慎监管原则,采取责令限期整改、暂停相关业务等监督管理措施。\n\n第四十二条\n\n商业银行开展托管业务违反本办法规定的,国家金融监督管理总局及其派出机构依照法律法规责令其限期整改。对于在规定时限内未能采取有效整改措施,或者其行为严重危及商业银行的稳健运行的,国家金融监督管理总局及其派出机构可依照《中华人民共和国银行业监督管理法》等法律法规采取监督管理措施。\n\n第四十三条\n\n商业银行开展托管业务违反法律法规的,由国家金融监督管理总局及其派出机构依照《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规进行处罚;涉嫌犯罪的,依法移送司法机关处理。\n\n第四十四条\n\n商业银行应当根据相关法律法规和监管部门要求,向国家金融监督管理总局及其派出机构依法报送托管业务相关数据和信息。\n\n第四十五条\n\n商业银行应当向国家金融监督管理总局及其派出机构及时报告有关托管业务的重大事项。\n\n第四十六条\n\n银行业自律组织依法实施商业银行托管业务的自律管理,维护托管业务的市场秩序、规范托管业务行为,可以采取警示、暂停或取消相关成员单位会员资格等措施,并将相关情况报送国家金融监督管理总局及其派出机构。\n\n第五章 附则\n\n第四十七条\n\n在中华人民共和国境内依法设立的外国银行分行,以及符合国家金融监督管理总局规定的其他机构开展托管业务,参照适用本办法。\n\n第四十八条\n\n本办法由国家金融监督管理总局负责解释。\n\n第四十九条\n\n本办法自2026年2月1日起施行。对于不符合本办法规定的存量业务,应当自本办法施行起三年内整改完成。已为托管产品垫付资金、提供流动性支持或融资承诺的,商业银行应当按照实质重于形式原则和穿透原则,准确识别和评估业务风险,根据相关规定进行资产风险分类,并计提减值准备和资本。",
   "blocks": [
     {
@@ -239,7 +4266,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 18,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -247,7 +4281,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 20,
+      "end_char": 39,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -255,7 +4296,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 41,
+      "end_char": 123,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -263,7 +4311,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 125,
+      "end_char": 306,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -271,7 +4326,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 308,
+      "end_char": 490,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -279,7 +4341,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 492,
+      "end_char": 634,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -287,7 +4356,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 642,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -295,7 +4371,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 644,
+      "end_char": 647,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -303,7 +4386,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 649,
+      "end_char": 738,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -311,7 +4401,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 740,
+      "end_char": 743,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -319,7 +4416,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 745,
+      "end_char": 813,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -327,7 +4431,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 815,
+      "end_char": 818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -335,7 +4446,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 820,
+      "end_char": 935,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -343,7 +4461,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 937,
+      "end_char": 940,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -351,7 +4476,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 942,
+      "end_char": 1026,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -359,7 +4491,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1028,
+      "end_char": 1031,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -367,7 +4506,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1033,
+      "end_char": 1119,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -375,7 +4521,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1121,
+      "end_char": 1124,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -383,7 +4536,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1126,
+      "end_char": 1219,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -391,7 +4551,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1221,
+      "end_char": 1224,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -399,7 +4566,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1226,
+      "end_char": 1274,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -407,7 +4581,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1276,
+      "end_char": 1284,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -415,7 +4596,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1286,
+      "end_char": 1289,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -423,7 +4611,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1291,
+      "end_char": 1358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -431,7 +4626,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1360,
+      "end_char": 1363,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -439,7 +4641,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1365,
+      "end_char": 1436,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -447,7 +4656,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1438,
+      "end_char": 1488,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -455,7 +4671,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1493,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -463,7 +4686,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1495,
+      "end_char": 1565,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -471,7 +4701,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1567,
+      "end_char": 1645,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -479,7 +4716,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1647,
+      "end_char": 1708,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -487,7 +4731,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1710,
+      "end_char": 1714,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -495,7 +4746,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1716,
+      "end_char": 1770,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -503,7 +4761,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1772,
+      "end_char": 1864,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -511,7 +4776,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1866,
+      "end_char": 1870,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -519,7 +4791,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1872,
+      "end_char": 1988,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -527,7 +4806,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1990,
+      "end_char": 1994,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -535,7 +4821,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1996,
+      "end_char": 2118,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -543,7 +4836,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2120,
+      "end_char": 2173,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -551,7 +4851,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2175,
+      "end_char": 2179,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -559,7 +4866,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2181,
+      "end_char": 2273,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -567,7 +4881,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2275,
+      "end_char": 2449,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -575,7 +4896,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2451,
+      "end_char": 2455,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -583,7 +4911,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2457,
+      "end_char": 2608,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -591,7 +4926,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2610,
+      "end_char": 2614,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -599,7 +4941,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2616,
+      "end_char": 2735,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -607,7 +4956,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2737,
+      "end_char": 2833,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -615,7 +4971,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2839,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -623,7 +4986,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2841,
+      "end_char": 2951,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -631,7 +5001,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2953,
+      "end_char": 3060,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -639,7 +5016,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3062,
+      "end_char": 3134,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -647,7 +5031,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3136,
+      "end_char": 3140,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -655,7 +5046,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3142,
+      "end_char": 3202,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -663,7 +5061,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3204,
+      "end_char": 3248,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -671,7 +5076,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3250,
+      "end_char": 3254,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -679,7 +5091,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3256,
+      "end_char": 3276,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -687,7 +5106,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3278,
+      "end_char": 3301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -695,7 +5121,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3303,
+      "end_char": 3339,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -703,7 +5136,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3341,
+      "end_char": 3368,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -711,7 +5151,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3370,
+      "end_char": 3384,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -719,7 +5166,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3386,
+      "end_char": 3404,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -727,7 +5181,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3406,
+      "end_char": 3426,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -735,7 +5196,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3428,
+      "end_char": 3463,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -743,7 +5211,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3465,
+      "end_char": 3486,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -751,7 +5226,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3488,
+      "end_char": 3529,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -759,7 +5241,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3531,
+      "end_char": 3565,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -767,7 +5256,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3567,
+      "end_char": 3615,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -775,7 +5271,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3617,
+      "end_char": 3650,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -783,7 +5286,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3652,
+      "end_char": 3687,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -791,7 +5301,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3689,
+      "end_char": 3693,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -799,7 +5316,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3695,
+      "end_char": 3714,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -807,7 +5331,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3716,
+      "end_char": 3735,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -815,7 +5346,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3737,
+      "end_char": 3756,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -823,7 +5361,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3758,
+      "end_char": 3773,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -831,7 +5376,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3775,
+      "end_char": 3794,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -839,7 +5391,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3796,
+      "end_char": 3823,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -847,7 +5406,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3825,
+      "end_char": 3845,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -855,7 +5421,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3847,
+      "end_char": 3852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -863,7 +5436,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3854,
+      "end_char": 3968,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -871,7 +5451,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3970,
+      "end_char": 3978,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -879,7 +5466,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3980,
+      "end_char": 3985,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -887,7 +5481,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3987,
+      "end_char": 4009,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -895,7 +5496,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4011,
+      "end_char": 4054,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -903,7 +5511,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4056,
+      "end_char": 4079,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -911,7 +5526,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4081,
+      "end_char": 4095,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -919,7 +5541,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4097,
+      "end_char": 4139,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -927,7 +5556,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4141,
+      "end_char": 4160,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -935,7 +5571,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4162,
+      "end_char": 4195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -943,7 +5586,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4197,
+      "end_char": 4216,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -951,7 +5601,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4218,
+      "end_char": 4247,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -959,7 +5616,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4249,
+      "end_char": 4254,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -967,7 +5631,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4256,
+      "end_char": 4279,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -975,7 +5646,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4281,
+      "end_char": 4304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -983,7 +5661,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4306,
+      "end_char": 4355,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -991,7 +5676,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4357,
+      "end_char": 4422,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -999,7 +5691,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4424,
+      "end_char": 4463,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -1007,7 +5706,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4465,
+      "end_char": 4495,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -1015,7 +5721,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4497,
+      "end_char": 4550,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -1023,7 +5736,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4552,
+      "end_char": 4573,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -1031,7 +5751,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4575,
+      "end_char": 4580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -1039,7 +5766,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4582,
+      "end_char": 4615,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1047,7 +5781,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4617,
+      "end_char": 4653,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1055,7 +5796,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4655,
+      "end_char": 4696,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1063,7 +5811,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4698,
+      "end_char": 4703,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1071,7 +5826,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4705,
+      "end_char": 4746,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1079,7 +5841,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4748,
+      "end_char": 4753,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1087,7 +5856,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4755,
+      "end_char": 4845,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1095,7 +5871,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4847,
+      "end_char": 4852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1103,7 +5886,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4854,
+      "end_char": 4945,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1111,7 +5901,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4947,
+      "end_char": 5023,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1119,7 +5916,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5025,
+      "end_char": 5030,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1127,7 +5931,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5032,
+      "end_char": 5068,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1135,7 +5946,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5070,
+      "end_char": 5075,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1143,7 +5961,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5077,
+      "end_char": 5148,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1151,7 +5976,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5150,
+      "end_char": 5217,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1159,7 +5991,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5219,
+      "end_char": 5232,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1167,7 +6006,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5234,
+      "end_char": 5255,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1175,7 +6021,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5257,
+      "end_char": 5272,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1183,7 +6036,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5274,
+      "end_char": 5295,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1191,7 +6051,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5297,
+      "end_char": 5301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1199,7 +6066,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5303,
+      "end_char": 5403,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1207,7 +6081,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5405,
+      "end_char": 5410,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1215,7 +6096,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5412,
+      "end_char": 5509,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1223,7 +6111,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5511,
+      "end_char": 5516,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1231,7 +6126,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5518,
+      "end_char": 5584,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1239,7 +6141,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5586,
+      "end_char": 5591,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00128",
@@ -1247,7 +6156,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5593,
+      "end_char": 5645,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00129",
@@ -1255,7 +6171,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5647,
+      "end_char": 5679,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00130",
@@ -1263,7 +6186,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5681,
+      "end_char": 5723,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00131",
@@ -1271,7 +6201,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5725,
+      "end_char": 5761,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00132",
@@ -1279,7 +6216,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5763,
+      "end_char": 5788,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00133",
@@ -1287,7 +6231,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5790,
+      "end_char": 5812,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00134",
@@ -1295,7 +6246,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5814,
+      "end_char": 5819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00135",
@@ -1303,7 +6261,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5821,
+      "end_char": 5874,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00136",
@@ -1311,7 +6276,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5876,
+      "end_char": 5881,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00137",
@@ -1319,7 +6291,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5883,
+      "end_char": 5925,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00138",
@@ -1327,7 +6306,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5927,
+      "end_char": 5932,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00139",
@@ -1335,7 +6321,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5934,
+      "end_char": 6043,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00140",
@@ -1343,7 +6336,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6045,
+      "end_char": 6080,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00141",
@@ -1351,7 +6351,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6082,
+      "end_char": 6087,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00142",
@@ -1359,7 +6366,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6089,
+      "end_char": 6168,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00143",
@@ -1367,7 +6381,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6170,
+      "end_char": 6175,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00144",
@@ -1375,7 +6396,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6177,
+      "end_char": 6217,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00145",
@@ -1383,7 +6411,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6219,
+      "end_char": 6224,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00146",
@@ -1391,7 +6426,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6226,
+      "end_char": 6286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00147",
@@ -1399,7 +6441,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6288,
+      "end_char": 6292,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00148",
@@ -1407,7 +6456,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6294,
+      "end_char": 6360,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00149",
@@ -1415,7 +6471,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6362,
+      "end_char": 6375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00150",
@@ -1423,7 +6486,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6377,
+      "end_char": 6382,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00151",
@@ -1431,7 +6501,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6384,
+      "end_char": 6546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00152",
@@ -1439,7 +6516,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6548,
+      "end_char": 6553,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00153",
@@ -1447,7 +6531,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6555,
+      "end_char": 6693,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00154",
@@ -1455,7 +6546,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6695,
+      "end_char": 6700,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00155",
@@ -1463,7 +6561,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6702,
+      "end_char": 6797,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00156",
@@ -1471,7 +6576,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6799,
+      "end_char": 6804,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00157",
@@ -1479,7 +6591,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6806,
+      "end_char": 6861,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00158",
@@ -1487,7 +6606,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6863,
+      "end_char": 6868,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00159",
@@ -1495,7 +6621,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6870,
+      "end_char": 6909,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00160",
@@ -1503,7 +6636,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6911,
+      "end_char": 6916,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00161",
@@ -1511,7 +6651,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 6918,
+      "end_char": 7015,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00162",
@@ -1519,7 +6666,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7017,
+      "end_char": 7023,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00163",
@@ -1527,7 +6681,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7025,
+      "end_char": 7030,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00164",
@@ -1535,7 +6696,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7032,
+      "end_char": 7090,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00165",
@@ -1543,7 +6711,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7092,
+      "end_char": 7097,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00166",
@@ -1551,7 +6726,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7099,
+      "end_char": 7118,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00167",
@@ -1559,7 +6741,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7120,
+      "end_char": 7125,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00168",
@@ -1567,7 +6756,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 7127,
+      "end_char": 7262,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

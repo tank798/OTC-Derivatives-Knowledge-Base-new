@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司收益互换业务管理办法.docx",
   "source_type": "docx",
   "file_sha256": "9e2b53ed2100b13a6e30574929e4389bf895385259f5579947c0582fcfe91719",
-  "content_sha256": "bbd66fdeed2daaba71b41f110b974d11065c8db61a59d11953830a856dcb8bc0",
+  "content_sha256": "4e7265ff495939bfcd612ab54738d3612ef17b5338a92254420ee122d7b53e56",
   "metadata": {
     "document_title": "证券公司收益互换业务管理办法",
     "issuing_authority": "中国证券业协会",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "0578489653f4ecd161592a55b8bc7087407a14e13d18ed2a8785fa11671f8656",
     "clean_text_sha256": "6a85cf80bd5d1ce4c56c09c5e26f0c0325241e22cd862a89c7ea15244f4ba1db",
@@ -185,6 +185,2929 @@
   },
   "original_text_sha256": "0578489653f4ecd161592a55b8bc7087407a14e13d18ed2a8785fa11671f8656",
   "clean_text_sha256": "6a85cf80bd5d1ce4c56c09c5e26f0c0325241e22cd862a89c7ea15244f4ba1db",
+  "clean_text_hash": "0f29657643c48f7fd3f1295b2f0183882f8337127671ca073f2fb3e6c84a4d9b",
+  "structured_blocks_sha256": "f0307c6a55407ec1c213dbc851c56320e2cd8169d4a389d1799d059acbd0b832",
+  "front_matter": [
+    {
+      "block_id": "b00002",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "中证协发〔2021〕276号",
+      "character_count": 14
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司收益互换业务管理办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 14,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 16,
+      "end_char": 22,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 27,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为规范发展证券公司收益互换业务,根据《中华人民共和国证券法》《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件等规定,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 29,
+      "end_char": 100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 102,
+      "end_char": 105,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司与交易对手方在其柜台及协会认可的其他场所开展的收益互换交易适用本办法。本办法所称收益互换是指交易双方根据有效约定在约定日期交换收益金额的互换交易,其中交易一方或交易双方支付的金额与标的的表现相关。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 107,
+      "end_char": 209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "证券公司应以服务实体经济、服务客户资产配置和风险管理需求为导向,坚持公平、诚信、稳健的原则,合规、审慎开展收益互换业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 216,
+      "end_char": 276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 278,
+      "end_char": 281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "中国证券业协会(以下简称协会)对证券公司开展收益互换业务实施自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 283,
+      "end_char": 318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下负责场外业务交易报告库的建设及维护,承担收益互换业务的日常监测等职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 320,
+      "end_char": 386,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "chapter",
+      "text": "第二章 交易商管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 388,
+      "end_char": 397,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 399,
+      "end_char": 402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换业务应当建立符合监管规定和自律规则要求的业务制度和操作流程、储备必要的专业人员、建立完善的信息技术系统,实现业务有效风险管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 404,
+      "end_char": 477,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 479,
+      "end_char": 482,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "证监会认可的场外期权一级交易商或协会备案的场外期权二级交易商,可以开展收益互换业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 484,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "未获得交易商资质的证券公司,只能与交易商开展基于自营目的的收益互换交易,不得与客户开展收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 528,
+      "end_char": 578,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "交易商资质管理和动态调整,适用《证券公司场外期权业务管理办法》有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 580,
+      "end_char": 616,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 618,
+      "end_char": 621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换交易,应当与交易对手方签订协会认可的衍生品交易主协议,明确权利义务关系、终止条款、结算机制、违约事件及其处理等事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 623,
+      "end_char": 691,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 693,
+      "end_char": 696,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换交易,应当及时对合约信息进行簿记,并保障交易对手方可以根据协议约定知悉其收益互换合约持仓及变动情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 698,
+      "end_char": 758,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 760,
+      "end_char": 763,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券公司应当按照约定的方式为交易对手方办理交易结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 765,
+      "end_char": 791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 793,
+      "end_char": 796,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "证券公司应当妥善保存收益互换交易的所有交易记录和与交易有关的文件、账目、原始凭证等资料至少20年,以备核查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 798,
+      "end_char": 852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 854,
+      "end_char": 858,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "证券公司应当使用交易所专用对冲账户按规定开展挂钩股票、股票指数等权益类收益互换对冲交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 860,
+      "end_char": 904,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "chapter",
+      "text": "第三章 投资者适当性管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 906,
+      "end_char": 918,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 920,
+      "end_char": 924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "收益互换的交易对手方,应当具有资产配置、风险管理的真实需求,符合《证券期货投资者适当性管理办法》规定的专业机构投资者标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 926,
+      "end_char": 987,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 989,
+      "end_char": 993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "产品参与收益互换的,应当为合规设立的非结构化产品;穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》规定的专业投资者标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 995,
+      "end_char": 1078,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1080,
+      "end_char": 1084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换业务应当充分尽职调查,采取要求交易对手方提供证明材料、查询公开信息等必要措施,对交易对手方的真实身份、是否符合适当性要求、是否具有真实需求、是否为依法取得或募集的资金、是否符合反洗钱的有关规定、是否符合产品合同约定的投资范围等进行核实。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1086,
+      "end_char": 1214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "证券公司应当全面了解交易对手方情况,充分揭示风险,与合格的交易对手方开展收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1216,
+      "end_char": 1259,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1261,
+      "end_char": 1265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "证券公司应当针对收益互换业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约等负面客户信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1267,
+      "end_char": 1328,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1330,
+      "end_char": 1334,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "证券公司应当至少每年对交易对手方的资质复核一次,并通过定期回访、监测评估等方式确保交易对手方持续符合适当性管理要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1336,
+      "end_char": 1394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "chapter",
+      "text": "第四章 交易标的及合约管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1396,
+      "end_char": 1409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1411,
+      "end_char": 1415,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "收益互换业务挂钩标的应当具备公允的市场定价、良好的流动性,包括但不限于股票、股票指数、大宗商品等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1417,
+      "end_char": 1466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "收益互换业务不得挂钩私募基金及资管计划等私募产品、场外衍生品,证监会认可的情形除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1468,
+      "end_char": 1510,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1512,
+      "end_char": 1516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立收益互换挂钩标的穿透核查机制,并对逐笔核查情况进行留痕,严禁通过挂钩标的变相投资于非标准化资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1518,
+      "end_char": 1574,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1576,
+      "end_char": 1580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "证券公司应当结合自身业务定位和风险管理能力,建立挂钩标的白名单制度,从严、动态管理挂钩标的。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1628,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "证券公司不得新增和展期被交易所实行风险警示或进入退市程序的股票为挂钩标的的收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第二十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1676,
+      "end_char": 1680,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "证券公司不得通过与其他衍生工具合约嵌套、拆分、组合形成非线性收益互换合约,变相开展场外期权业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1682,
+      "end_char": 1730,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1732,
+      "end_char": 1737,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换交易,应当与交易对手方签订书面或电子交易确认书,明确交易对手方、挂钩标的、名义本金、合约期限、收益计算、互换方向、交易保证金等交易要素。有标准交易确认书格式文本的,应当采用标准文本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1739,
+      "end_char": 1840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "chapter",
+      "text": "第五章 保证金管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1842,
+      "end_char": 1851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1853,
+      "end_char": 1858,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立收益互换履约保障机制,明确履约保证金的管理程序和标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1860,
+      "end_char": 1895,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1897,
+      "end_char": 1902,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "证券公司应当根据信用风险、市场风险、流动性风险、交易模式、标的品种等确定合理的初始保证金比例,保证金比例应当符合证监会、协会有关要求,并履行必要的内部审批程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1904,
+      "end_char": 1984,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "证券公司应当及时、足额收取初始保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1986,
+      "end_char": 2005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2007,
+      "end_char": 2012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "证券公司应当设定维持保证金比例,明确约定预警线和平仓线,对交易对手方保证金进行逐日盯市管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2014,
+      "end_char": 2060,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2062,
+      "end_char": 2067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "收益互换交易保证金应当为现金或协会认可的其它形式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2069,
+      "end_char": 2094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2096,
+      "end_char": 2101,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "证券公司可为具有场外期权交易商资质的证券公司以及信用主体评级在AAA以上的商业银行设定授信额度。证券公司应建立完善的授信管理制度,审慎评估交易对手信用资质。授信额度设定及调整应当履行必要的内部审批程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2103,
+      "end_char": 2204,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "chapter",
+      "text": "第六章 风险控制",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2216,
+      "end_char": 2221,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "证券公司应当加强收益互换业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算收益互换业务对应的风险控制指标。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2223,
+      "end_char": 2301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2303,
+      "end_char": 2308,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立健全合规管理制度,对收益互换业务实施有效的合规管理,管理收益互换业务与其他业务之间的利益冲突,防范内幕交易、操纵市场、利益输送和商业贿赂、洗钱、利用信息优势谋取不正当利益等合规风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2310,
+      "end_char": 2409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "证券公司应当对收益互换宣传推介材料和拟向客户提供的其他文件、资料进行统一审查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2411,
+      "end_char": 2450,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第二十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2452,
+      "end_char": 2457,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "证券公司应当将收益互换业务纳入全面风险管理体系,对收益互换业务的信用风险、市场风险、流动性风险、操作风险等各类风险进行准确识别、审慎评估、及时应对和全程管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2459,
+      "end_char": 2538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第三十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2540,
+      "end_char": 2544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立健全对冲交易监控机制,防止对市场稳定造成影响。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2546,
+      "end_char": 2577,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "chapter",
+      "text": "第七章 禁止行为",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2579,
+      "end_char": 2587,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第三十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2589,
+      "end_char": 2594,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格交易对手方参与收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2596,
+      "end_char": 2649,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2651,
+      "end_char": 2656,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的收益互换交易;严禁与配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体开展收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2658,
+      "end_char": 2769,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2771,
+      "end_char": 2776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或变相出借交易商资质。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2778,
+      "end_char": 2865,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "article",
+      "text": "第三十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2867,
+      "end_char": 2872,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "变相成为交易对手方交易通道。证券公司不得向交易对手方出借证券账户,不得直接根据交易对手方指令进行对冲交易,不得依照交易对手方指令使用其保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2874,
+      "end_char": 2945,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "chapter",
+      "text": "第八章 数据报送及监测监控",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2947,
+      "end_char": 2960,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第三十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2962,
+      "end_char": 2967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "证券公司及协会认定的收益互换业务重要交易对手(以下统称报送机构)应当按照协会和中证报价有关要求报送业务信息,包括但不限于SAC、NAFMII、ISDA主协议项下的收益互换交易信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2969,
+      "end_char": 3059,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "article",
+      "text": "第三十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3061,
+      "end_char": 3066,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "报送机构开展收益互换业务的,交易信息应于交易达成后1个交易日内报送,主协议、补充协议、交易确认书应于签订后5个交易日内报送,报送文本应加盖印章确保信息的真实性、完整性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "报送机构应于每月前5个交易日报送上月收益互换业务月度报告,报送内容包括但不限于业务规模、交易对手结构、标的结构等场外业务交易报告库要求的内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3154,
+      "end_char": 3225,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "报送机构应于每年7月31日前报送公司合规部门关于上半年收益互换业务的审查意见以及业务开展合规情况说明,包括但不限于交易对手方、保证金比例及使用、产品穿透管理、客户授信及使用情况等方面内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3227,
+      "end_char": 3321,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "报送机构应于每年4月30日前报送上年收益互换业务年度报告,包括但不限于收益互换业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理、系统建设等总体情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3323,
+      "end_char": 3416,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "上述月报、半年报、年报可与场外期权业务报告合并报送。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3418,
+      "end_char": 3444,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第三十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3446,
+      "end_char": 3451,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "收益互换合约存续期间发生异常交易、违约事件、负面客户、重大业务风险、重大业务损失、影响业务持续开展、引起监管部门或协会关注等情况的,报送机构应于事件发生之日起3个交易日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3453,
+      "end_char": 3567,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "中证报价应当在场外业务交易报告库建立负面客户数据库,为交易商提供负面客户信息查询服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3569,
+      "end_char": 3612,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第三十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3614,
+      "end_char": 3619,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "证券公司应当明确数据报送直接责任人员和管理责任人员,建立数据报送问责机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3621,
+      "end_char": 3658,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "article",
+      "text": "第三十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3660,
+      "end_char": 3665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "中证报价应当制定收益互换数据报送规则,对报送内容、数据命名、报告要素等实施分类管理、标准化管理,实行电子化自动报送,提供数据查询、下载服务,定期开展报送数据的质量评估和统计分析,加强收益互换业务的监测监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3667,
+      "end_char": 3770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第四十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3772,
+      "end_char": 3776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、挂钩标的、交易定价、保证金比例、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向证监会、协会报告异常情况和重大事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3778,
+      "end_char": 3891,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第四十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3893,
+      "end_char": 3898,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "中证报价应当与交易所、各证监局之间建立收益互换业务数据共享机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3900,
+      "end_char": 3932,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "chapter",
+      "text": "第九章 自律管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3934,
+      "end_char": 3942,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第四十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3944,
+      "end_char": 3949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "证券公司及其相关从业人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重,分别实施自律管理措施或纪律处分,并按规定计入相应诚信信息管理系统。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3951,
+      "end_char": 4039,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第四十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4041,
+      "end_char": 4046,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4048,
+      "end_char": 4143,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告延迟报送的,视其情节轻重分别对证券公司和相关从业人员采取自律管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4145,
+      "end_char": 4218,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(二)错误笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告出现错误的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施或纪律处分。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4220,
+      "end_char": 4295,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施、纪律处分和移送证监会查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4297,
+      "end_char": 4383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "article",
+      "text": "第四十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4385,
+      "end_char": 4390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将按规定移交证监会等有关机关处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4392,
+      "end_char": 4447,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "chapter",
+      "text": "第十章 附则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4449,
+      "end_char": 4455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "article",
+      "text": "第四十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4457,
+      "end_char": 4462,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "本办法由中国证券业协会负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4464,
+      "end_char": 4480,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第四十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4482,
+      "end_char": 4487,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "本办法自发布之日起实施,协会此前发布的自律规则与本办法规定不一致的,按照本办法规定执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4489,
+      "end_char": 4533,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第四十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4535,
+      "end_char": 4540,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "本办法过渡期为自发布之日起一年。过渡期内,证券公司不符合本办法第十七条的存量收益互换业务整体规模不得增长,证券公司应当自行制定整改计划,有序压缩不符合规定的存量业务规模。过渡期结束后,证券公司不得存续违反本办法规定的业务;因股票停牌等特殊情况无法了结的,由公司合规部门出具合规意见书并向协会及所属辖区证监局报备后可展期或存续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4542,
+      "end_char": 4705,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "证券公司收益互换业务管理办法\n\n第一章 总则\n\n第一条\n\n为规范发展证券公司收益互换业务,根据《中华人民共和国证券法》《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件等规定,制定本办法。\n\n第二条\n\n证券公司与交易对手方在其柜台及协会认可的其他场所开展的收益互换交易适用本办法。本办法所称收益互换是指交易双方根据有效约定在约定日期交换收益金额的互换交易,其中交易一方或交易双方支付的金额与标的的表现相关。\n\n第三条\n\n证券公司应以服务实体经济、服务客户资产配置和风险管理需求为导向,坚持公平、诚信、稳健的原则,合规、审慎开展收益互换业务。\n\n第四条\n\n中国证券业协会(以下简称协会)对证券公司开展收益互换业务实施自律管理。\n\n中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下负责场外业务交易报告库的建设及维护,承担收益互换业务的日常监测等职责。\n\n第二章 交易商管理\n\n第五条\n\n证券公司开展收益互换业务应当建立符合监管规定和自律规则要求的业务制度和操作流程、储备必要的专业人员、建立完善的信息技术系统,实现业务有效风险管理。\n\n第六条\n\n证监会认可的场外期权一级交易商或协会备案的场外期权二级交易商,可以开展收益互换业务。\n\n未获得交易商资质的证券公司,只能与交易商开展基于自营目的的收益互换交易,不得与客户开展收益互换交易。\n\n交易商资质管理和动态调整,适用《证券公司场外期权业务管理办法》有关规定。\n\n第七条\n\n证券公司开展收益互换交易,应当与交易对手方签订协会认可的衍生品交易主协议,明确权利义务关系、终止条款、结算机制、违约事件及其处理等事项。\n\n第八条\n\n证券公司开展收益互换交易,应当及时对合约信息进行簿记,并保障交易对手方可以根据协议约定知悉其收益互换合约持仓及变动情况。\n\n第九条\n\n证券公司应当按照约定的方式为交易对手方办理交易结算。\n\n第十条\n\n证券公司应当妥善保存收益互换交易的所有交易记录和与交易有关的文件、账目、原始凭证等资料至少20年,以备核查。\n\n第十一条\n\n证券公司应当使用交易所专用对冲账户按规定开展挂钩股票、股票指数等权益类收益互换对冲交易。\n\n第三章 投资者适当性管理\n\n第十二条\n\n收益互换的交易对手方,应当具有资产配置、风险管理的真实需求,符合《证券期货投资者适当性管理办法》规定的专业机构投资者标准。\n\n第十三条\n\n产品参与收益互换的,应当为合规设立的非结构化产品;穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》规定的专业投资者标准。\n\n第十四条\n\n证券公司开展收益互换业务应当充分尽职调查,采取要求交易对手方提供证明材料、查询公开信息等必要措施,对交易对手方的真实身份、是否符合适当性要求、是否具有真实需求、是否为依法取得或募集的资金、是否符合反洗钱的有关规定、是否符合产品合同约定的投资范围等进行核实。\n\n证券公司应当全面了解交易对手方情况,充分揭示风险,与合格的交易对手方开展收益互换交易。\n\n第十五条\n\n证券公司应当针对收益互换业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约等负面客户信息。\n\n第十六条\n\n证券公司应当至少每年对交易对手方的资质复核一次,并通过定期回访、监测评估等方式确保交易对手方持续符合适当性管理要求。\n\n第四章 交易标的及合约管理\n\n第十七条\n\n收益互换业务挂钩标的应当具备公允的市场定价、良好的流动性,包括但不限于股票、股票指数、大宗商品等。\n\n收益互换业务不得挂钩私募基金及资管计划等私募产品、场外衍生品,证监会认可的情形除外。\n\n第十八条\n\n证券公司应当建立收益互换挂钩标的穿透核查机制,并对逐笔核查情况进行留痕,严禁通过挂钩标的变相投资于非标准化资产。\n\n第十九条\n\n证券公司应当结合自身业务定位和风险管理能力,建立挂钩标的白名单制度,从严、动态管理挂钩标的。\n\n证券公司不得新增和展期被交易所实行风险警示或进入退市程序的股票为挂钩标的的收益互换交易。\n\n第二十条\n\n证券公司不得通过与其他衍生工具合约嵌套、拆分、组合形成非线性收益互换合约,变相开展场外期权业务。\n\n第二十一条\n\n证券公司开展收益互换交易,应当与交易对手方签订书面或电子交易确认书,明确交易对手方、挂钩标的、名义本金、合约期限、收益计算、互换方向、交易保证金等交易要素。有标准交易确认书格式文本的,应当采用标准文本。\n\n第五章 保证金管理\n\n第二十二条\n\n证券公司应当建立收益互换履约保障机制,明确履约保证金的管理程序和标准。\n\n第二十三条\n\n证券公司应当根据信用风险、市场风险、流动性风险、交易模式、标的品种等确定合理的初始保证金比例,保证金比例应当符合证监会、协会有关要求,并履行必要的内部审批程序。\n\n证券公司应当及时、足额收取初始保证金。\n\n第二十四条\n\n证券公司应当设定维持保证金比例,明确约定预警线和平仓线,对交易对手方保证金进行逐日盯市管理。\n\n第二十五条\n\n收益互换交易保证金应当为现金或协会认可的其它形式。\n\n第二十六条\n\n证券公司可为具有场外期权交易商资质的证券公司以及信用主体评级在AAA以上的商业银行设定授信额度。证券公司应建立完善的授信管理制度,审慎评估交易对手信用资质。授信额度设定及调整应当履行必要的内部审批程序。\n\n第六章 风险控制\n\n第二十七条\n\n证券公司应当加强收益互换业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算收益互换业务对应的风险控制指标。\n\n第二十八条\n\n证券公司应当建立健全合规管理制度,对收益互换业务实施有效的合规管理,管理收益互换业务与其他业务之间的利益冲突,防范内幕交易、操纵市场、利益输送和商业贿赂、洗钱、利用信息优势谋取不正当利益等合规风险。\n\n证券公司应当对收益互换宣传推介材料和拟向客户提供的其他文件、资料进行统一审查。\n\n第二十九条\n\n证券公司应当将收益互换业务纳入全面风险管理体系,对收益互换业务的信用风险、市场风险、流动性风险、操作风险等各类风险进行准确识别、审慎评估、及时应对和全程管理。\n\n第三十条\n\n证券公司应当建立健全对冲交易监控机制,防止对市场稳定造成影响。\n\n第七章 禁止行为\n\n第三十一条\n\n不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格交易对手方参与收益互换交易。\n\n第三十二条\n\n违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的收益互换交易;严禁与配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体开展收益互换交易。\n\n第三十三条\n\n为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或变相出借交易商资质。\n\n第三十四条\n\n变相成为交易对手方交易通道。证券公司不得向交易对手方出借证券账户,不得直接根据交易对手方指令进行对冲交易,不得依照交易对手方指令使用其保证金。\n\n第八章 数据报送及监测监控\n\n第三十五条\n\n证券公司及协会认定的收益互换业务重要交易对手(以下统称报送机构)应当按照协会和中证报价有关要求报送业务信息,包括但不限于SAC、NAFMII、ISDA主协议项下的收益互换交易信息。\n\n第三十六条\n\n报送机构开展收益互换业务的,交易信息应于交易达成后1个交易日内报送,主协议、补充协议、交易确认书应于签订后5个交易日内报送,报送文本应加盖印章确保信息的真实性、完整性。\n\n报送机构应于每月前5个交易日报送上月收益互换业务月度报告,报送内容包括但不限于业务规模、交易对手结构、标的结构等场外业务交易报告库要求的内容。\n\n报送机构应于每年7月31日前报送公司合规部门关于上半年收益互换业务的审查意见以及业务开展合规情况说明,包括但不限于交易对手方、保证金比例及使用、产品穿透管理、客户授信及使用情况等方面内容。\n\n报送机构应于每年4月30日前报送上年收益互换业务年度报告,包括但不限于收益互换业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理、系统建设等总体情况。\n\n上述月报、半年报、年报可与场外期权业务报告合并报送。\n\n第三十七条\n\n收益互换合约存续期间发生异常交易、违约事件、负面客户、重大业务风险、重大业务损失、影响业务持续开展、引起监管部门或协会关注等情况的,报送机构应于事件发生之日起3个交易日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。\n\n中证报价应当在场外业务交易报告库建立负面客户数据库,为交易商提供负面客户信息查询服务。\n\n第三十八条\n\n证券公司应当明确数据报送直接责任人员和管理责任人员,建立数据报送问责机制。\n\n第三十九条\n\n中证报价应当制定收益互换数据报送规则,对报送内容、数据命名、报告要素等实施分类管理、标准化管理,实行电子化自动报送,提供数据查询、下载服务,定期开展报送数据的质量评估和统计分析,加强收益互换业务的监测监控。\n\n第四十条\n\n中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、挂钩标的、交易定价、保证金比例、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向证监会、协会报告异常情况和重大事项。\n\n第四十一条\n\n中证报价应当与交易所、各证监局之间建立收益互换业务数据共享机制。\n\n第九章 自律管理\n\n第四十二条\n\n证券公司及其相关从业人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重,分别实施自律管理措施或纪律处分,并按规定计入相应诚信信息管理系统。\n\n第四十三条\n\n证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。\n\n(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告延迟报送的,视其情节轻重分别对证券公司和相关从业人员采取自律管理措施。\n\n(二)错误笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告出现错误的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施或纪律处分。\n\n(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施、纪律处分和移送证监会查处。\n\n第四十四条\n\n证券公司开展收益互换业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将按规定移交证监会等有关机关处理。\n\n第十章 附则\n\n第四十五条\n\n本办法由中国证券业协会负责解释。\n\n第四十六条\n\n本办法自发布之日起实施,协会此前发布的自律规则与本办法规定不一致的,按照本办法规定执行。\n\n第四十七条\n\n本办法过渡期为自发布之日起一年。过渡期内,证券公司不符合本办法第十七条的存量收益互换业务整体规模不得增长,证券公司应当自行制定整改计划,有序压缩不符合规定的存量业务规模。过渡期结束后,证券公司不得存续违反本办法规定的业务;因股票停牌等特殊情况无法了结的,由公司合规部门出具合规意见书并向协会及所属辖区证监局报备后可展期或存续。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "证券公司收益互换业务管理办法",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 14,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 16,
+      "end_char": 22,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 27,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为规范发展证券公司收益互换业务,根据《中华人民共和国证券法》《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件等规定,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 29,
+      "end_char": 100,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 102,
+      "end_char": 105,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司与交易对手方在其柜台及协会认可的其他场所开展的收益互换交易适用本办法。本办法所称收益互换是指交易双方根据有效约定在约定日期交换收益金额的互换交易,其中交易一方或交易双方支付的金额与标的的表现相关。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 107,
+      "end_char": 209,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "证券公司应以服务实体经济、服务客户资产配置和风险管理需求为导向,坚持公平、诚信、稳健的原则,合规、审慎开展收益互换业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 216,
+      "end_char": 276,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 278,
+      "end_char": 281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "中国证券业协会(以下简称协会)对证券公司开展收益互换业务实施自律管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 283,
+      "end_char": 318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下负责场外业务交易报告库的建设及维护,承担收益互换业务的日常监测等职责。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 320,
+      "end_char": 386,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "chapter",
+      "text": "第二章 交易商管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 388,
+      "end_char": 397,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 399,
+      "end_char": 402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换业务应当建立符合监管规定和自律规则要求的业务制度和操作流程、储备必要的专业人员、建立完善的信息技术系统,实现业务有效风险管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 404,
+      "end_char": 477,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 479,
+      "end_char": 482,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "证监会认可的场外期权一级交易商或协会备案的场外期权二级交易商,可以开展收益互换业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 484,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "未获得交易商资质的证券公司,只能与交易商开展基于自营目的的收益互换交易,不得与客户开展收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 528,
+      "end_char": 578,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "交易商资质管理和动态调整,适用《证券公司场外期权业务管理办法》有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 580,
+      "end_char": 616,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 618,
+      "end_char": 621,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换交易,应当与交易对手方签订协会认可的衍生品交易主协议,明确权利义务关系、终止条款、结算机制、违约事件及其处理等事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 623,
+      "end_char": 691,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 693,
+      "end_char": 696,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换交易,应当及时对合约信息进行簿记,并保障交易对手方可以根据协议约定知悉其收益互换合约持仓及变动情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 698,
+      "end_char": 758,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 760,
+      "end_char": 763,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "证券公司应当按照约定的方式为交易对手方办理交易结算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 765,
+      "end_char": 791,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 793,
+      "end_char": 796,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "证券公司应当妥善保存收益互换交易的所有交易记录和与交易有关的文件、账目、原始凭证等资料至少20年,以备核查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 798,
+      "end_char": 852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 854,
+      "end_char": 858,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "证券公司应当使用交易所专用对冲账户按规定开展挂钩股票、股票指数等权益类收益互换对冲交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 860,
+      "end_char": 904,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "chapter",
+      "text": "第三章 投资者适当性管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 906,
+      "end_char": 918,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 920,
+      "end_char": 924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "收益互换的交易对手方,应当具有资产配置、风险管理的真实需求,符合《证券期货投资者适当性管理办法》规定的专业机构投资者标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 926,
+      "end_char": 987,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 989,
+      "end_char": 993,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "产品参与收益互换的,应当为合规设立的非结构化产品;穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》规定的专业投资者标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 995,
+      "end_char": 1078,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1080,
+      "end_char": 1084,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换业务应当充分尽职调查,采取要求交易对手方提供证明材料、查询公开信息等必要措施,对交易对手方的真实身份、是否符合适当性要求、是否具有真实需求、是否为依法取得或募集的资金、是否符合反洗钱的有关规定、是否符合产品合同约定的投资范围等进行核实。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1086,
+      "end_char": 1214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "证券公司应当全面了解交易对手方情况,充分揭示风险,与合格的交易对手方开展收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1216,
+      "end_char": 1259,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1261,
+      "end_char": 1265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "证券公司应当针对收益互换业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约等负面客户信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1267,
+      "end_char": 1328,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1330,
+      "end_char": 1334,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "证券公司应当至少每年对交易对手方的资质复核一次,并通过定期回访、监测评估等方式确保交易对手方持续符合适当性管理要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1336,
+      "end_char": 1394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "chapter",
+      "text": "第四章 交易标的及合约管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1396,
+      "end_char": 1409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1411,
+      "end_char": 1415,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "收益互换业务挂钩标的应当具备公允的市场定价、良好的流动性,包括但不限于股票、股票指数、大宗商品等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1417,
+      "end_char": 1466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "paragraph",
+      "text": "收益互换业务不得挂钩私募基金及资管计划等私募产品、场外衍生品,证监会认可的情形除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1468,
+      "end_char": 1510,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1512,
+      "end_char": 1516,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立收益互换挂钩标的穿透核查机制,并对逐笔核查情况进行留痕,严禁通过挂钩标的变相投资于非标准化资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1518,
+      "end_char": 1574,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1576,
+      "end_char": 1580,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "证券公司应当结合自身业务定位和风险管理能力,建立挂钩标的白名单制度,从严、动态管理挂钩标的。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1628,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "证券公司不得新增和展期被交易所实行风险警示或进入退市程序的股票为挂钩标的的收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第二十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1676,
+      "end_char": 1680,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "证券公司不得通过与其他衍生工具合约嵌套、拆分、组合形成非线性收益互换合约,变相开展场外期权业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1682,
+      "end_char": 1730,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1732,
+      "end_char": 1737,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换交易,应当与交易对手方签订书面或电子交易确认书,明确交易对手方、挂钩标的、名义本金、合约期限、收益计算、互换方向、交易保证金等交易要素。有标准交易确认书格式文本的,应当采用标准文本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1739,
+      "end_char": 1840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "chapter",
+      "text": "第五章 保证金管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1842,
+      "end_char": 1851,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1853,
+      "end_char": 1858,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立收益互换履约保障机制,明确履约保证金的管理程序和标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1860,
+      "end_char": 1895,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1897,
+      "end_char": 1902,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "证券公司应当根据信用风险、市场风险、流动性风险、交易模式、标的品种等确定合理的初始保证金比例,保证金比例应当符合证监会、协会有关要求,并履行必要的内部审批程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1904,
+      "end_char": 1984,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "证券公司应当及时、足额收取初始保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1986,
+      "end_char": 2005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2007,
+      "end_char": 2012,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "证券公司应当设定维持保证金比例,明确约定预警线和平仓线,对交易对手方保证金进行逐日盯市管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2014,
+      "end_char": 2060,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2062,
+      "end_char": 2067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "收益互换交易保证金应当为现金或协会认可的其它形式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2069,
+      "end_char": 2094,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2096,
+      "end_char": 2101,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "证券公司可为具有场外期权交易商资质的证券公司以及信用主体评级在AAA以上的商业银行设定授信额度。证券公司应建立完善的授信管理制度,审慎评估交易对手信用资质。授信额度设定及调整应当履行必要的内部审批程序。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2103,
+      "end_char": 2204,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "chapter",
+      "text": "第六章 风险控制",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2214,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2216,
+      "end_char": 2221,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "证券公司应当加强收益互换业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算收益互换业务对应的风险控制指标。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2223,
+      "end_char": 2301,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2303,
+      "end_char": 2308,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立健全合规管理制度,对收益互换业务实施有效的合规管理,管理收益互换业务与其他业务之间的利益冲突,防范内幕交易、操纵市场、利益输送和商业贿赂、洗钱、利用信息优势谋取不正当利益等合规风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2310,
+      "end_char": 2409,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "证券公司应当对收益互换宣传推介材料和拟向客户提供的其他文件、资料进行统一审查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2411,
+      "end_char": 2450,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第二十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2452,
+      "end_char": 2457,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "证券公司应当将收益互换业务纳入全面风险管理体系,对收益互换业务的信用风险、市场风险、流动性风险、操作风险等各类风险进行准确识别、审慎评估、及时应对和全程管理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2459,
+      "end_char": 2538,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第三十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2540,
+      "end_char": 2544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "证券公司应当建立健全对冲交易监控机制,防止对市场稳定造成影响。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2546,
+      "end_char": 2577,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "chapter",
+      "text": "第七章 禁止行为",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2579,
+      "end_char": 2587,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第三十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2589,
+      "end_char": 2594,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格交易对手方参与收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2596,
+      "end_char": 2649,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2651,
+      "end_char": 2656,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的收益互换交易;严禁与配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体开展收益互换交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2658,
+      "end_char": 2769,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2771,
+      "end_char": 2776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或变相出借交易商资质。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2778,
+      "end_char": 2865,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "article",
+      "text": "第三十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2867,
+      "end_char": 2872,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "变相成为交易对手方交易通道。证券公司不得向交易对手方出借证券账户,不得直接根据交易对手方指令进行对冲交易,不得依照交易对手方指令使用其保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2874,
+      "end_char": 2945,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "chapter",
+      "text": "第八章 数据报送及监测监控",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2947,
+      "end_char": 2960,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第三十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2962,
+      "end_char": 2967,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "证券公司及协会认定的收益互换业务重要交易对手(以下统称报送机构)应当按照协会和中证报价有关要求报送业务信息,包括但不限于SAC、NAFMII、ISDA主协议项下的收益互换交易信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2969,
+      "end_char": 3059,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "article",
+      "text": "第三十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3061,
+      "end_char": 3066,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "报送机构开展收益互换业务的,交易信息应于交易达成后1个交易日内报送,主协议、补充协议、交易确认书应于签订后5个交易日内报送,报送文本应加盖印章确保信息的真实性、完整性。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3152,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "报送机构应于每月前5个交易日报送上月收益互换业务月度报告,报送内容包括但不限于业务规模、交易对手结构、标的结构等场外业务交易报告库要求的内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3154,
+      "end_char": 3225,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "报送机构应于每年7月31日前报送公司合规部门关于上半年收益互换业务的审查意见以及业务开展合规情况说明,包括但不限于交易对手方、保证金比例及使用、产品穿透管理、客户授信及使用情况等方面内容。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3227,
+      "end_char": 3321,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "报送机构应于每年4月30日前报送上年收益互换业务年度报告,包括但不限于收益互换业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理、系统建设等总体情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3323,
+      "end_char": 3416,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "上述月报、半年报、年报可与场外期权业务报告合并报送。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3418,
+      "end_char": 3444,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "article",
+      "text": "第三十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3446,
+      "end_char": 3451,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "收益互换合约存续期间发生异常交易、违约事件、负面客户、重大业务风险、重大业务损失、影响业务持续开展、引起监管部门或协会关注等情况的,报送机构应于事件发生之日起3个交易日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3453,
+      "end_char": 3567,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "中证报价应当在场外业务交易报告库建立负面客户数据库,为交易商提供负面客户信息查询服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3569,
+      "end_char": 3612,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "article",
+      "text": "第三十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3614,
+      "end_char": 3619,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "证券公司应当明确数据报送直接责任人员和管理责任人员,建立数据报送问责机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3621,
+      "end_char": 3658,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "article",
+      "text": "第三十九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3660,
+      "end_char": 3665,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "中证报价应当制定收益互换数据报送规则,对报送内容、数据命名、报告要素等实施分类管理、标准化管理,实行电子化自动报送,提供数据查询、下载服务,定期开展报送数据的质量评估和统计分析,加强收益互换业务的监测监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3667,
+      "end_char": 3770,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第四十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3772,
+      "end_char": 3776,
+      "region": "body"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、挂钩标的、交易定价、保证金比例、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向证监会、协会报告异常情况和重大事项。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3778,
+      "end_char": 3891,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第四十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3893,
+      "end_char": 3898,
+      "region": "body"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "中证报价应当与交易所、各证监局之间建立收益互换业务数据共享机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3900,
+      "end_char": 3932,
+      "region": "body"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "chapter",
+      "text": "第九章 自律管理",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3934,
+      "end_char": 3942,
+      "region": "body"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "article",
+      "text": "第四十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3944,
+      "end_char": 3949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "证券公司及其相关从业人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重,分别实施自律管理措施或纪律处分,并按规定计入相应诚信信息管理系统。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3951,
+      "end_char": 4039,
+      "region": "body"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "article",
+      "text": "第四十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4041,
+      "end_char": 4046,
+      "region": "body"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4048,
+      "end_char": 4143,
+      "region": "body"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告延迟报送的,视其情节轻重分别对证券公司和相关从业人员采取自律管理措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4145,
+      "end_char": 4218,
+      "region": "body"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(二)错误笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告出现错误的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施或纪律处分。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4220,
+      "end_char": 4295,
+      "region": "body"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施、纪律处分和移送证监会查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4297,
+      "end_char": 4383,
+      "region": "body"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "article",
+      "text": "第四十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4385,
+      "end_char": 4390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "证券公司开展收益互换业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将按规定移交证监会等有关机关处理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4392,
+      "end_char": 4447,
+      "region": "body"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "chapter",
+      "text": "第十章 附则",
+      "style": "标题 1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4449,
+      "end_char": 4455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "article",
+      "text": "第四十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4457,
+      "end_char": 4462,
+      "region": "body"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "本办法由中国证券业协会负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4464,
+      "end_char": 4480,
+      "region": "body"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "article",
+      "text": "第四十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4482,
+      "end_char": 4487,
+      "region": "body"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "本办法自发布之日起实施,协会此前发布的自律规则与本办法规定不一致的,按照本办法规定执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4489,
+      "end_char": 4533,
+      "region": "body"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "article",
+      "text": "第四十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4535,
+      "end_char": 4540,
+      "region": "body"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "本办法过渡期为自发布之日起一年。过渡期内,证券公司不符合本办法第十七条的存量收益互换业务整体规模不得增长,证券公司应当自行制定整改计划,有序压缩不符合规定的存量业务规模。过渡期结束后,证券公司不得存续违反本办法规定的业务;因股票停牌等特殊情况无法了结的,由公司合规部门出具合规意见书并向协会及所属辖区证监局报备后可展期或存续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4542,
+      "end_char": 4705,
+      "region": "body"
+    }
+  ],
   "normalized_text": "证券公司收益互换业务管理办法\n\n第一章 总则\n\n第一条\n\n为规范发展证券公司收益互换业务,根据《中华人民共和国证券法》《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件等规定,制定本办法。\n\n第二条\n\n证券公司与交易对手方在其柜台及协会认可的其他场所开展的收益互换交易适用本办法。本办法所称收益互换是指交易双方根据有效约定在约定日期交换收益金额的互换交易,其中交易一方或交易双方支付的金额与标的的表现相关。\n\n第三条\n\n证券公司应以服务实体经济、服务客户资产配置和风险管理需求为导向,坚持公平、诚信、稳健的原则,合规、审慎开展收益互换业务。\n\n第四条\n\n中国证券业协会(以下简称协会)对证券公司开展收益互换业务实施自律管理。\n\n中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下负责场外业务交易报告库的建设及维护,承担收益互换业务的日常监测等职责。\n\n第二章 交易商管理\n\n第五条\n\n证券公司开展收益互换业务应当建立符合监管规定和自律规则要求的业务制度和操作流程、储备必要的专业人员、建立完善的信息技术系统,实现业务有效风险管理。\n\n第六条\n\n证监会认可的场外期权一级交易商或协会备案的场外期权二级交易商,可以开展收益互换业务。\n\n未获得交易商资质的证券公司,只能与交易商开展基于自营目的的收益互换交易,不得与客户开展收益互换交易。\n\n交易商资质管理和动态调整,适用《证券公司场外期权业务管理办法》有关规定。\n\n第七条\n\n证券公司开展收益互换交易,应当与交易对手方签订协会认可的衍生品交易主协议,明确权利义务关系、终止条款、结算机制、违约事件及其处理等事项。\n\n第八条\n\n证券公司开展收益互换交易,应当及时对合约信息进行簿记,并保障交易对手方可以根据协议约定知悉其收益互换合约持仓及变动情况。\n\n第九条\n\n证券公司应当按照约定的方式为交易对手方办理交易结算。\n\n第十条\n\n证券公司应当妥善保存收益互换交易的所有交易记录和与交易有关的文件、账目、原始凭证等资料至少20年,以备核查。\n\n第十一条\n\n证券公司应当使用交易所专用对冲账户按规定开展挂钩股票、股票指数等权益类收益互换对冲交易。\n\n第三章 投资者适当性管理\n\n第十二条\n\n收益互换的交易对手方,应当具有资产配置、风险管理的真实需求,符合《证券期货投资者适当性管理办法》规定的专业机构投资者标准。\n\n第十三条\n\n产品参与收益互换的,应当为合规设立的非结构化产品;穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》规定的专业投资者标准。\n\n第十四条\n\n证券公司开展收益互换业务应当充分尽职调查,采取要求交易对手方提供证明材料、查询公开信息等必要措施,对交易对手方的真实身份、是否符合适当性要求、是否具有真实需求、是否为依法取得或募集的资金、是否符合反洗钱的有关规定、是否符合产品合同约定的投资范围等进行核实。\n\n证券公司应当全面了解交易对手方情况,充分揭示风险,与合格的交易对手方开展收益互换交易。\n\n第十五条\n\n证券公司应当针对收益互换业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约等负面客户信息。\n\n第十六条\n\n证券公司应当至少每年对交易对手方的资质复核一次,并通过定期回访、监测评估等方式确保交易对手方持续符合适当性管理要求。\n\n第四章 交易标的及合约管理\n\n第十七条\n\n收益互换业务挂钩标的应当具备公允的市场定价、良好的流动性,包括但不限于股票、股票指数、大宗商品等。\n\n收益互换业务不得挂钩私募基金及资管计划等私募产品、场外衍生品,证监会认可的情形除外。\n\n第十八条\n\n证券公司应当建立收益互换挂钩标的穿透核查机制,并对逐笔核查情况进行留痕,严禁通过挂钩标的变相投资于非标准化资产。\n\n第十九条\n\n证券公司应当结合自身业务定位和风险管理能力,建立挂钩标的白名单制度,从严、动态管理挂钩标的。\n\n证券公司不得新增和展期被交易所实行风险警示或进入退市程序的股票为挂钩标的的收益互换交易。\n\n第二十条\n\n证券公司不得通过与其他衍生工具合约嵌套、拆分、组合形成非线性收益互换合约,变相开展场外期权业务。\n\n第二十一条\n\n证券公司开展收益互换交易,应当与交易对手方签订书面或电子交易确认书,明确交易对手方、挂钩标的、名义本金、合约期限、收益计算、互换方向、交易保证金等交易要素。有标准交易确认书格式文本的,应当采用标准文本。\n\n第五章 保证金管理\n\n第二十二条\n\n证券公司应当建立收益互换履约保障机制,明确履约保证金的管理程序和标准。\n\n第二十三条\n\n证券公司应当根据信用风险、市场风险、流动性风险、交易模式、标的品种等确定合理的初始保证金比例,保证金比例应当符合证监会、协会有关要求,并履行必要的内部审批程序。\n\n证券公司应当及时、足额收取初始保证金。\n\n第二十四条\n\n证券公司应当设定维持保证金比例,明确约定预警线和平仓线,对交易对手方保证金进行逐日盯市管理。\n\n第二十五条\n\n收益互换交易保证金应当为现金或协会认可的其它形式。\n\n第二十六条\n\n证券公司可为具有场外期权交易商资质的证券公司以及信用主体评级在AAA以上的商业银行设定授信额度。证券公司应建立完善的授信管理制度,审慎评估交易对手信用资质。授信额度设定及调整应当履行必要的内部审批程序。\n\n第六章 风险控制\n\n第二十七条\n\n证券公司应当加强收益互换业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算收益互换业务对应的风险控制指标。\n\n第二十八条\n\n证券公司应当建立健全合规管理制度,对收益互换业务实施有效的合规管理,管理收益互换业务与其他业务之间的利益冲突,防范内幕交易、操纵市场、利益输送和商业贿赂、洗钱、利用信息优势谋取不正当利益等合规风险。\n\n证券公司应当对收益互换宣传推介材料和拟向客户提供的其他文件、资料进行统一审查。\n\n第二十九条\n\n证券公司应当将收益互换业务纳入全面风险管理体系,对收益互换业务的信用风险、市场风险、流动性风险、操作风险等各类风险进行准确识别、审慎评估、及时应对和全程管理。\n\n第三十条\n\n证券公司应当建立健全对冲交易监控机制,防止对市场稳定造成影响。\n\n第七章 禁止行为\n\n第三十一条\n\n不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格交易对手方参与收益互换交易。\n\n第三十二条\n\n违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的收益互换交易;严禁与配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体开展收益互换交易。\n\n第三十三条\n\n为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或变相出借交易商资质。\n\n第三十四条\n\n变相成为交易对手方交易通道。证券公司不得向交易对手方出借证券账户,不得直接根据交易对手方指令进行对冲交易,不得依照交易对手方指令使用其保证金。\n\n第八章 数据报送及监测监控\n\n第三十五条\n\n证券公司及协会认定的收益互换业务重要交易对手(以下统称报送机构)应当按照协会和中证报价有关要求报送业务信息,包括但不限于SAC、NAFMII、ISDA主协议项下的收益互换交易信息。\n\n第三十六条\n\n报送机构开展收益互换业务的,交易信息应于交易达成后1个交易日内报送,主协议、补充协议、交易确认书应于签订后5个交易日内报送,报送文本应加盖印章确保信息的真实性、完整性。\n\n报送机构应于每月前5个交易日报送上月收益互换业务月度报告,报送内容包括但不限于业务规模、交易对手结构、标的结构等场外业务交易报告库要求的内容。\n\n报送机构应于每年7月31日前报送公司合规部门关于上半年收益互换业务的审查意见以及业务开展合规情况说明,包括但不限于交易对手方、保证金比例及使用、产品穿透管理、客户授信及使用情况等方面内容。\n\n报送机构应于每年4月30日前报送上年收益互换业务年度报告,包括但不限于收益互换业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理、系统建设等总体情况。\n\n上述月报、半年报、年报可与场外期权业务报告合并报送。\n\n第三十七条\n\n收益互换合约存续期间发生异常交易、违约事件、负面客户、重大业务风险、重大业务损失、影响业务持续开展、引起监管部门或协会关注等情况的,报送机构应于事件发生之日起3个交易日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。\n\n中证报价应当在场外业务交易报告库建立负面客户数据库,为交易商提供负面客户信息查询服务。\n\n第三十八条\n\n证券公司应当明确数据报送直接责任人员和管理责任人员,建立数据报送问责机制。\n\n第三十九条\n\n中证报价应当制定收益互换数据报送规则,对报送内容、数据命名、报告要素等实施分类管理、标准化管理,实行电子化自动报送,提供数据查询、下载服务,定期开展报送数据的质量评估和统计分析,加强收益互换业务的监测监控。\n\n第四十条\n\n中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、挂钩标的、交易定价、保证金比例、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向证监会、协会报告异常情况和重大事项。\n\n第四十一条\n\n中证报价应当与交易所、各证监局之间建立收益互换业务数据共享机制。\n\n第九章 自律管理\n\n第四十二条\n\n证券公司及其相关从业人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重,分别实施自律管理措施或纪律处分,并按规定计入相应诚信信息管理系统。\n\n第四十三条\n\n证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。\n\n(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告延迟报送的,视其情节轻重分别对证券公司和相关从业人员采取自律管理措施。\n\n(二)错误笔数月累计达到3笔以上的,或月度报告、半年度报告、年度报告出现错误的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施或纪律处分。\n\n(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别对证券公司和相关从业人员采取自律管理措施、纪律处分和移送证监会查处。\n\n第四十四条\n\n证券公司开展收益互换业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将按规定移交证监会等有关机关处理。\n\n第十章 附则\n\n第四十五条\n\n本办法由中国证券业协会负责解释。\n\n第四十六条\n\n本办法自发布之日起实施,协会此前发布的自律规则与本办法规定不一致的,按照本办法规定执行。\n\n第四十七条\n\n本办法过渡期为自发布之日起一年。过渡期内,证券公司不符合本办法第十七条的存量收益互换业务整体规模不得增长,证券公司应当自行制定整改计划,有序压缩不符合规定的存量业务规模。过渡期结束后,证券公司不得存续违反本办法规定的业务;因股票停牌等特殊情况无法了结的,由公司合规部门出具合规意见书并向协会及所属辖区证监局报备后可展期或存续。",
   "blocks": [
     {
@@ -193,7 +3116,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 14,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -201,7 +3131,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 16,
+      "end_char": 22,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -209,7 +3146,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 24,
+      "end_char": 27,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -217,7 +3161,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 29,
+      "end_char": 100,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -225,7 +3176,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 102,
+      "end_char": 105,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -233,7 +3191,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 107,
+      "end_char": 209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -241,7 +3206,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 214,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -249,7 +3221,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 216,
+      "end_char": 276,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -257,7 +3236,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 278,
+      "end_char": 281,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -265,7 +3251,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 283,
+      "end_char": 318,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -273,7 +3266,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 320,
+      "end_char": 386,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -281,7 +3281,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 388,
+      "end_char": 397,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -289,7 +3296,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 399,
+      "end_char": 402,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -297,7 +3311,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 404,
+      "end_char": 477,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -305,7 +3326,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 479,
+      "end_char": 482,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -313,7 +3341,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 484,
+      "end_char": 526,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -321,7 +3356,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 528,
+      "end_char": 578,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -329,7 +3371,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 580,
+      "end_char": 616,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -337,7 +3386,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 618,
+      "end_char": 621,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -345,7 +3401,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 623,
+      "end_char": 691,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -353,7 +3416,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 693,
+      "end_char": 696,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -361,7 +3431,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 698,
+      "end_char": 758,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -369,7 +3446,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 760,
+      "end_char": 763,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -377,7 +3461,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 765,
+      "end_char": 791,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -385,7 +3476,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 793,
+      "end_char": 796,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -393,7 +3491,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 798,
+      "end_char": 852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -401,7 +3506,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 854,
+      "end_char": 858,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -409,7 +3521,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 860,
+      "end_char": 904,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -417,7 +3536,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 906,
+      "end_char": 918,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -425,7 +3551,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 920,
+      "end_char": 924,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -433,7 +3566,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 926,
+      "end_char": 987,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -441,7 +3581,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 989,
+      "end_char": 993,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -449,7 +3596,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 995,
+      "end_char": 1078,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -457,7 +3611,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1080,
+      "end_char": 1084,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -465,7 +3626,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1086,
+      "end_char": 1214,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -473,7 +3641,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1216,
+      "end_char": 1259,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -481,7 +3656,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1261,
+      "end_char": 1265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -489,7 +3671,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1267,
+      "end_char": 1328,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -497,7 +3686,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1330,
+      "end_char": 1334,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -505,7 +3701,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1336,
+      "end_char": 1394,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -513,7 +3716,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1396,
+      "end_char": 1409,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -521,7 +3731,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1411,
+      "end_char": 1415,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -529,7 +3746,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1417,
+      "end_char": 1466,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -537,7 +3761,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1468,
+      "end_char": 1510,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -545,7 +3776,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1512,
+      "end_char": 1516,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -553,7 +3791,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1518,
+      "end_char": 1574,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -561,7 +3806,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1576,
+      "end_char": 1580,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -569,7 +3821,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1582,
+      "end_char": 1628,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -577,7 +3836,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1674,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -585,7 +3851,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1676,
+      "end_char": 1680,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -593,7 +3866,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1682,
+      "end_char": 1730,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -601,7 +3881,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1732,
+      "end_char": 1737,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -609,7 +3896,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1739,
+      "end_char": 1840,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -617,7 +3911,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1842,
+      "end_char": 1851,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -625,7 +3926,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1853,
+      "end_char": 1858,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -633,7 +3941,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1860,
+      "end_char": 1895,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -641,7 +3956,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1897,
+      "end_char": 1902,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -649,7 +3971,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1904,
+      "end_char": 1984,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -657,7 +3986,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1986,
+      "end_char": 2005,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -665,7 +4001,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2007,
+      "end_char": 2012,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -673,7 +4016,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2014,
+      "end_char": 2060,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -681,7 +4031,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2062,
+      "end_char": 2067,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -689,7 +4046,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2069,
+      "end_char": 2094,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -697,7 +4061,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2096,
+      "end_char": 2101,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -705,7 +4076,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2103,
+      "end_char": 2204,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -713,7 +4091,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2214,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -721,7 +4106,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2216,
+      "end_char": 2221,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -729,7 +4121,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2223,
+      "end_char": 2301,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -737,7 +4136,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2303,
+      "end_char": 2308,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -745,7 +4151,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2310,
+      "end_char": 2409,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -753,7 +4166,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2411,
+      "end_char": 2450,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -761,7 +4181,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2452,
+      "end_char": 2457,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -769,7 +4196,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2459,
+      "end_char": 2538,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -777,7 +4211,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2540,
+      "end_char": 2544,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -785,7 +4226,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2546,
+      "end_char": 2577,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -793,7 +4241,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2579,
+      "end_char": 2587,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -801,7 +4256,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2589,
+      "end_char": 2594,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -809,7 +4271,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2596,
+      "end_char": 2649,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -817,7 +4286,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2651,
+      "end_char": 2656,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -825,7 +4301,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2658,
+      "end_char": 2769,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -833,7 +4316,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2771,
+      "end_char": 2776,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -841,7 +4331,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2778,
+      "end_char": 2865,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -849,7 +4346,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2867,
+      "end_char": 2872,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -857,7 +4361,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2874,
+      "end_char": 2945,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -865,7 +4376,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2947,
+      "end_char": 2960,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -873,7 +4391,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2962,
+      "end_char": 2967,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -881,7 +4406,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2969,
+      "end_char": 3059,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -889,7 +4421,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3061,
+      "end_char": 3066,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -897,7 +4436,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3068,
+      "end_char": 3152,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -905,7 +4451,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3154,
+      "end_char": 3225,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -913,7 +4466,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3227,
+      "end_char": 3321,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -921,7 +4481,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3323,
+      "end_char": 3416,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -929,7 +4496,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3418,
+      "end_char": 3444,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -937,7 +4511,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3446,
+      "end_char": 3451,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -945,7 +4526,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3453,
+      "end_char": 3567,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -953,7 +4541,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3569,
+      "end_char": 3612,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -961,7 +4556,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3614,
+      "end_char": 3619,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -969,7 +4571,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3621,
+      "end_char": 3658,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -977,7 +4586,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3660,
+      "end_char": 3665,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -985,7 +4601,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3667,
+      "end_char": 3770,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -993,7 +4616,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3772,
+      "end_char": 3776,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1001,7 +4631,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3778,
+      "end_char": 3891,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1009,7 +4646,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3893,
+      "end_char": 3898,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1017,7 +4661,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3900,
+      "end_char": 3932,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1025,7 +4676,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3934,
+      "end_char": 3942,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1033,7 +4691,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3944,
+      "end_char": 3949,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1041,7 +4706,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3951,
+      "end_char": 4039,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1049,7 +4721,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4041,
+      "end_char": 4046,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1057,7 +4736,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4048,
+      "end_char": 4143,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1065,7 +4751,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4145,
+      "end_char": 4218,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1073,7 +4766,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4220,
+      "end_char": 4295,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1081,7 +4781,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4297,
+      "end_char": 4383,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1089,7 +4796,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4385,
+      "end_char": 4390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1097,7 +4811,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4392,
+      "end_char": 4447,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1105,7 +4826,14 @@
       "style": "标题 1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4449,
+      "end_char": 4455,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1113,7 +4841,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4457,
+      "end_char": 4462,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1121,7 +4856,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4464,
+      "end_char": 4480,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1129,7 +4871,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4482,
+      "end_char": 4487,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1137,7 +4886,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4489,
+      "end_char": 4533,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1145,7 +4901,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4535,
+      "end_char": 4540,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1153,7 +4916,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4542,
+      "end_char": 4705,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -18,11 +18,22 @@ PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("subitem", re.compile(r"^([①-⑳])\s*(.*)$")),
     ("attachment", re.compile(r"^((?:附件|附录)(?:\s*\d+)?(?:[::：]\s*)?.{0,80})$")),
 ]
-RANK = {"document": 0, "part": 1, "attachment": 1, "chapter": 2, "section": 3, "article": 4, "paragraph": 5, "item": 6, "subitem": 7, "table": 8, "text": 8}
+RANK = {
+    "document": 0, "part": 1, "attachment": 1,
+    "chapter": 2,
+    "section": 3, "guide_heading": 3,
+    "article": 4, "guide_subheading": 4,
+    "paragraph": 5, "guide_minor_heading": 5,
+    "item": 6, "subitem": 7, "table": 8, "text": 8,
+}
 STANDALONE_PART_RE = re.compile(
     r"^(?:补充协议|特别条款|专用条款|[^。；;：:]{2,80}(?:实施细则|管理办法|业务指引|备案指引|补充协议|特别条款|专用条款|操作细则|交易规则))$"
 )
 EMBEDDED_PART_RE = re.compile(r"^(.{2,120}?(?:补充协议|特别条款|专用条款))((?:本|为|鉴于).+)$")
+GUIDE_TOP_RE = re.compile(r"^([一二三四五六七八九十百]+[、.])\s*(.+)$")
+GUIDE_SUB_RE = re.compile(r"^([（(][一二三四五六七八九十百]+[）)])\s*(.+)$")
+GUIDE_MINOR_RE = re.compile(r"^(\d+[.．、])\s*(.+)$")
+GUIDE_NORMATIVE_RE = re.compile(r"(?:应当|应|不得|可以|可|负责|包括|主要职责|是指|须|建议)")
 
 
 def normalize_marker(value: str) -> str:
@@ -60,13 +71,29 @@ def classify_block(block: SourceBlock, *, allow_standalone_part: bool = True) ->
     # but it is not part of the first legal article.  Treat it as its own
     # structural part so the chunker keeps it with its following declaration
     # text and breaks before Article 1.
-    if normalize_marker(text) in {"声明", "前言"}:
+    if normalize_marker(text) in {"声明", "前言", "说明及声明", "说明和声明"}:
         return "part", normalize_marker(text), ""
     embedded_part = EMBEDDED_PART_RE.fullmatch(text)
     if embedded_part:
         return "part", clean_text(embedded_part.group(1)), clean_text(embedded_part.group(2))
     if allow_standalone_part and is_standalone_part_heading(text):
         return "part", text, ""
+    for kind, pattern, limit in (
+        ("guide_heading", GUIDE_TOP_RE, 36),
+        ("guide_subheading", GUIDE_SUB_RE, 30),
+        ("guide_minor_heading", GUIDE_MINOR_RE, 24),
+    ):
+        match = pattern.fullmatch(text)
+        if not match:
+            continue
+        remainder = clean_text(match.group(2))
+        if (
+            remainder
+            and len(normalize_marker(remainder)) <= limit
+            and not re.search(r"[。；;！？!?]", remainder)
+            and not GUIDE_NORMATIVE_RE.search(remainder)
+        ):
+            return kind, clean_text(match.group(1) + remainder), ""
     footnote = re.match(r"^(修订注\d+)[：:]\s*(.*)$", text)
     if footnote:
         return "attachment", footnote.group(1), clean_text(footnote.group(2))
@@ -129,6 +156,10 @@ def hierarchy_for(node: Node) -> dict[str, str]:
     while current:
         if current.kind == "part" and not result["part_title"]:
             result["part_title"] = current.title
+        elif current.kind == "guide_heading" and not result["section_title"]:
+            result["section_title"] = current.title
+        elif current.kind in {"guide_subheading", "guide_minor_heading"} and not result["paragraph_title"]:
+            result["paragraph_title"] = current.title
         elif current.kind == "chapter" and not result["chapter_title"]:
             result["chapter_title"] = current.title
         elif current.kind == "section" and not result["section_title"]:

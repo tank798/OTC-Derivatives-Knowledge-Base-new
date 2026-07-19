@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/全国银行间同业拆借中心标准利率互换交易规则.doc",
   "source_type": "doc",
   "file_sha256": "9c73f7ad37311cbc0904ec1bc4581690773af496d95079b16c54f3af29b21ff8",
-  "content_sha256": "780637acd42ff02b4f420ad896c43e864368460b510943abf7db5d861071c14b",
+  "content_sha256": "02a73942938247ca33302a3a06547fc69c711dfb0d2270b95c234ae0d8ee8692",
   "metadata": {
     "document_title": "全国银行间同业拆借中心标准利率互换交易规则",
     "issuing_authority": "中国外汇交易中心",
@@ -23,18 +23,19 @@
   },
   "warnings": [
     "旧DOC经LibreOffice直接只读导出文本，原文件未修改",
-    "前置发布信息清洗：移出1个block，规则standalone_front_document_number"
+    "前置发布信息清洗：移出3个block，规则cover_attachment_directory、standalone_front_document_number"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "ed5677af7e108159aebe546b9f40da5eeb4276886de855158d0ccb7d81ecc482",
-    "clean_text_sha256": "d8336c9bc4d7fef6272bf8caeb598008d451604c34cbc093cf6f2852bdd422b7",
+    "clean_text_sha256": "aaead4424000cf12464d506e333d8f0615b3448bd2dd2dcda06d5c4b99e82882",
     "chars_before": 3756,
-    "chars_after": 3742,
-    "removed_character_count": 14,
+    "chars_after": 3680,
+    "removed_character_count": 76,
     "rule_hits": [
+      "cover_attachment_directory",
       "standalone_front_document_number"
     ],
     "removed_front_matter": [
@@ -46,6 +47,24 @@
         "action": "moved_to_front_matter",
         "text": "中汇交发〔2023〕326号",
         "character_count": 14
+      },
+      {
+        "block_id": "b00007",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_attachment_directory",
+        "action": "moved_to_front_matter",
+        "text": "附件:1.全国银行间同业拆借中心标准利率互换交易规则",
+        "character_count": 26
+      },
+      {
+        "block_id": "b00008",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_attachment_directory",
+        "action": "moved_to_front_matter",
+        "text": "2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单",
+        "character_count": 36
       }
     ],
     "cleaning_log": [
@@ -57,6 +76,24 @@
         "action": "moved_to_front_matter",
         "text": "中汇交发〔2023〕326号",
         "character_count": 14
+      },
+      {
+        "block_id": "b00007",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_attachment_directory",
+        "action": "moved_to_front_matter",
+        "text": "附件:1.全国银行间同业拆借中心标准利率互换交易规则",
+        "character_count": 26
+      },
+      {
+        "block_id": "b00008",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_attachment_directory",
+        "action": "moved_to_front_matter",
+        "text": "2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单",
+        "character_count": 36
       }
     ],
     "chunk_eligible_block_ids": [
@@ -65,8 +102,6 @@
       "b00004",
       "b00005",
       "b00006",
-      "b00007",
-      "b00008",
       "b00009",
       "b00010",
       "b00011",
@@ -187,8 +222,2974 @@
     ]
   },
   "original_text_sha256": "ed5677af7e108159aebe546b9f40da5eeb4276886de855158d0ccb7d81ecc482",
-  "clean_text_sha256": "d8336c9bc4d7fef6272bf8caeb598008d451604c34cbc093cf6f2852bdd422b7",
-  "normalized_text": "关于发布《全国银行间同业拆借中心\n\n标准利率互换交易规则》的通知\n\n银行间市场成员:\n\n为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。\n\n特此通知。\n\n附件:1.全国银行间同业拆借中心标准利率互换交易规则\n\n2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单\n\n全国银行间同业拆借中心\n\n2023年11月24日\n\n附件1\n\n全国银行间同业拆借中心\n\n标准利率互换交易规则\n\n第一章 总 则\n\n第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。\n\n第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。\n\n第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。\n\n第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。\n\n第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。\n\n第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。\n\n第二章 合约要素定义\n\n第七条 合约要素\n\n标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。\n\n第八条 合约相关日期\n\n合约月份:用以确定合约到期的年份和月份。\n\n合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。\n\n到期结算日:合约到期后,交易双方结算日期,简称D日。\n\n最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。\n\n新合约上市日:前一合约最后交易日的下一个营业日,即D日。\n\n第九条 合约相关利率及金额\n\n每日结算利率:用于每日盯市估值的参考利率。\n\n挂牌基准利率:新合约上市日合约的理论价值。\n\n到期结算利率:合约到期用于到期结算的利率。\n\n累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。\n\n第三章 合 约\n\n第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。\n\n第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。\n\n第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。\n\n第十三条 合约每日结算利率按以下方法确定:\n\n(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;\n\n(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;\n\n(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;\n\n(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。\n\n第十四条 标准利率互换采用现金结算方式。\n\n第四章 业务流程\n\n第十五条 入市管理\n\n参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。\n\n已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。\n\n第十六条 交易时间\n\n每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。\n\n第十七条 报价\n\n合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。\n\n第十八条 交易\n\n参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。\n\n第十九条 限额管理\n\n交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。\n\n第二十条 合约持仓\n\n交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。\n\n第二十一条 组织报价\n\n同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。\n\n第五章 风险管理\n\n第二十二条 涨跌幅管理\n\n交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。\n\n第二十三条 头寸报告\n\n参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。\n\n第六章 附 则\n\n第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。\n\n第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。\n\n第二十六条 本规则由同业拆借中心负责解释和修订。\n\n第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。\n\n附件2\n\n全国银行间同业拆借中心 银行间市场清算所股份有限公司\n\n标准利率互换申请单\n\n申请机构全称 (本币交易系统交易账户名称)\n\n申请机构简称\n\n综合清算会员全称\n\n综合清算会员账号\n\n(7位)\n\n一、业务主管领导及联系方式\n\n姓名 部门及职务\n\n办公室电话 传真\n\n联系地址 电子邮箱\n\n二、业务交易人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 本币交易员\n\n资格证书编号\n\n联系地址 电子邮箱\n\n三、业务清算人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 电子邮箱\n\n• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》\n\n• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险\n\n• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统\n\n• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》\n\n非清算会员\n\n经办人姓名 非清算会员\n\n经办人联系电话\n\n以下内容由综合清算会员填写:\n\n四、额度申请\n\n清算限额\n\n日间容忍度\n\n生效日期 (选填,以实际收到原件为准)\n\n五、账户及扣款提款路径\n\n1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。\n\n2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。\n\n综合清算会员\n\n经办人姓名 综合清算会员\n\n经办人联系电话\n\n说明:\n\n1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;\n\n2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);\n\n3.申请单一式两份,分别发送交易中心和上海清算所;\n\n4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;\n\n5.咨询电话(电子邮箱)\n\n交易中心:\n\n贺田子 021-38585725;hetianzi@chinamoney.com.cn\n\n陆夏冰 021-38585321;luxiabing@chinamoney.com.cn\n\n闫 慧 021-38585302;yanhui@chinamoney.com.cn\n\n上海清算所:\n\n业务申请:李昕 021-23198860;lixin@shclearing.com.cn\n\n业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn\n\n风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn\n\n6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。\n\n申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)\n\n日期: 日期:",
+  "clean_text_sha256": "aaead4424000cf12464d506e333d8f0615b3448bd2dd2dcda06d5c4b99e82882",
+  "clean_text_hash": "6dd4db57e597e333407a66aca4195f44af9b77ab826fabd364ceb23701aeb577",
+  "structured_blocks_sha256": "1c3c6562b29b5518891d2d72accda296d3dbff1c6197306ce41b1e2cce4c2651",
+  "front_matter": [
+    {
+      "block_id": "b00003",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "standalone_front_document_number",
+      "action": "moved_to_front_matter",
+      "text": "中汇交发〔2023〕326号",
+      "character_count": 14
+    },
+    {
+      "block_id": "b00007",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "cover_attachment_directory",
+      "action": "moved_to_front_matter",
+      "text": "附件:1.全国银行间同业拆借中心标准利率互换交易规则",
+      "character_count": 26
+    },
+    {
+      "block_id": "b00008",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "cover_attachment_directory",
+      "action": "moved_to_front_matter",
+      "text": "2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单",
+      "character_count": 36
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "关于发布《全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "标准利率互换交易规则》的通知",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 32,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "银行间市场成员:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 34,
+      "end_char": 42,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 44,
+      "end_char": 137,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "特此通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 139,
+      "end_char": 144,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 146,
+      "end_char": 157,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "2023年11月24日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 159,
+      "end_char": 170,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00011",
+      "block_type": "attachment",
+      "text": "附件1",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 172,
+      "end_char": 175,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 177,
+      "end_char": 188,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "标准利率互换交易规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 190,
+      "end_char": 200,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 202,
+      "end_char": 209,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 300,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 302,
+      "end_char": 385,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 387,
+      "end_char": 442,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 444,
+      "end_char": 481,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 483,
+      "end_char": 546,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 548,
+      "end_char": 587,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "chapter",
+      "text": "第二章 合约要素定义",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 589,
+      "end_char": 599,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第七条 合约要素",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 601,
+      "end_char": 609,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 611,
+      "end_char": 703,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第八条 合约相关日期",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 705,
+      "end_char": 715,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "合约月份:用以确定合约到期的年份和月份。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 717,
+      "end_char": 737,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 819,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "到期结算日:合约到期后,交易双方结算日期,简称D日。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 847,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 849,
+      "end_char": 891,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "新合约上市日:前一合约最后交易日的下一个营业日,即D日。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 893,
+      "end_char": 921,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第九条 合约相关利率及金额",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 923,
+      "end_char": 936,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "每日结算利率:用于每日盯市估值的参考利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 938,
+      "end_char": 959,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "挂牌基准利率:新合约上市日合约的理论价值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 961,
+      "end_char": 982,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "到期结算利率:合约到期用于到期结算的利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 984,
+      "end_char": 1005,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1007,
+      "end_char": 1040,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "chapter",
+      "text": "第三章 合 约",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1042,
+      "end_char": 1049,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1051,
+      "end_char": 1089,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1091,
+      "end_char": 1148,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1150,
+      "end_char": 1256,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十三条 合约每日结算利率按以下方法确定:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1258,
+      "end_char": 1279,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1281,
+      "end_char": 1335,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1337,
+      "end_char": 1371,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1373,
+      "end_char": 1418,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1420,
+      "end_char": 1488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十四条 标准利率互换采用现金结算方式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1510,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第四章 业务流程",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1512,
+      "end_char": 1520,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 入市管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1522,
+      "end_char": 1531,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1533,
+      "end_char": 1582,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1584,
+      "end_char": 1617,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十六条 交易时间",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1619,
+      "end_char": 1628,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1698,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十七条 报价",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1700,
+      "end_char": 1707,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1709,
+      "end_char": 1809,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十八条 交易",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1811,
+      "end_char": 1818,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1820,
+      "end_char": 1921,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第十九条 限额管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1923,
+      "end_char": 1932,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1934,
+      "end_char": 2023,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十条 合约持仓",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2025,
+      "end_char": 2034,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2121,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十一条 组织报价",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2123,
+      "end_char": 2133,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2135,
+      "end_char": 2235,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "chapter",
+      "text": "第五章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2237,
+      "end_char": 2245,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十二条 涨跌幅管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2247,
+      "end_char": 2258,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2260,
+      "end_char": 2334,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十三条 头寸报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2336,
+      "end_char": 2346,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2348,
+      "end_char": 2425,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2427,
+      "end_char": 2434,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2436,
+      "end_char": 2588,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2590,
+      "end_char": 2679,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第二十六条 本规则由同业拆借中心负责解释和修订。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2681,
+      "end_char": 2705,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2707,
+      "end_char": 2796,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "attachment",
+      "text": "附件2",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2798,
+      "end_char": 2801,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心 银行间市场清算所股份有限公司",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2803,
+      "end_char": 2829,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "标准利率互换申请单",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2831,
+      "end_char": 2840,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "申请机构全称 (本币交易系统交易账户名称)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2842,
+      "end_char": 2863,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "申请机构简称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2865,
+      "end_char": 2871,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "综合清算会员全称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2873,
+      "end_char": 2881,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "综合清算会员账号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2883,
+      "end_char": 2891,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(7位)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2893,
+      "end_char": 2897,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "guide_heading",
+      "text": "一、业务主管领导及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2899,
+      "end_char": 2912,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2914,
+      "end_char": 2922,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "办公室电话 传真",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2924,
+      "end_char": 2932,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "联系地址 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2934,
+      "end_char": 2943,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "guide_heading",
+      "text": "二、业务交易人员及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2945,
+      "end_char": 2958,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 2968,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "办公室电话 本币交易员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2970,
+      "end_char": 2981,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "资格证书编号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2983,
+      "end_char": 2989,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "联系地址 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2991,
+      "end_char": 3000,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "guide_heading",
+      "text": "三、业务清算人员及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3002,
+      "end_char": 3015,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3017,
+      "end_char": 3025,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "办公室电话 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3027,
+      "end_char": 3037,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3039,
+      "end_char": 3071,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3073,
+      "end_char": 3103,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3105,
+      "end_char": 3137,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3139,
+      "end_char": 3175,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "非清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3177,
+      "end_char": 3182,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "经办人姓名 非清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3184,
+      "end_char": 3195,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "经办人联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3197,
+      "end_char": 3204,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "以下内容由综合清算会员填写:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3206,
+      "end_char": 3220,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "guide_heading",
+      "text": "四、额度申请",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3222,
+      "end_char": 3228,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "清算限额",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3230,
+      "end_char": 3234,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "日间容忍度",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3236,
+      "end_char": 3241,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "生效日期 (选填,以实际收到原件为准)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3243,
+      "end_char": 3262,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "guide_heading",
+      "text": "五、账户及扣款提款路径",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3264,
+      "end_char": 3275,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3277,
+      "end_char": 3357,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3359,
+      "end_char": 3407,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "综合清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3409,
+      "end_char": 3415,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "经办人姓名 综合清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3417,
+      "end_char": 3429,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "经办人联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3431,
+      "end_char": 3438,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "note",
+      "text": "说明:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3440,
+      "end_char": 3443,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3445,
+      "end_char": 3485,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3487,
+      "end_char": 3539,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "3.申请单一式两份,分别发送交易中心和上海清算所;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3541,
+      "end_char": 3566,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3568,
+      "end_char": 3608,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "guide_minor_heading",
+      "text": "5.咨询电话(电子邮箱)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3610,
+      "end_char": 3622,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "交易中心:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3624,
+      "end_char": 3629,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "贺田子 021-38585725;hetianzi@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3631,
+      "end_char": 3674,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "陆夏冰 021-38585321;luxiabing@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3676,
+      "end_char": 3720,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "闫 慧 021-38585302;yanhui@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3722,
+      "end_char": 3763,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "上海清算所:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3765,
+      "end_char": 3771,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "业务申请:李昕 021-23198860;lixin@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3773,
+      "end_char": 3817,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3819,
+      "end_char": 3864,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3866,
+      "end_char": 3917,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3919,
+      "end_char": 3950,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3952,
+      "end_char": 3979,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "日期: 日期:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3981,
+      "end_char": 3988,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "关于发布《全国银行间同业拆借中心\n\n标准利率互换交易规则》的通知\n\n银行间市场成员:\n\n为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。\n\n特此通知。\n\n全国银行间同业拆借中心\n\n2023年11月24日\n\n附件1\n\n全国银行间同业拆借中心\n\n标准利率互换交易规则\n\n第一章 总 则\n\n第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。\n\n第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。\n\n第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。\n\n第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。\n\n第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。\n\n第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。\n\n第二章 合约要素定义\n\n第七条 合约要素\n\n标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。\n\n第八条 合约相关日期\n\n合约月份:用以确定合约到期的年份和月份。\n\n合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。\n\n到期结算日:合约到期后,交易双方结算日期,简称D日。\n\n最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。\n\n新合约上市日:前一合约最后交易日的下一个营业日,即D日。\n\n第九条 合约相关利率及金额\n\n每日结算利率:用于每日盯市估值的参考利率。\n\n挂牌基准利率:新合约上市日合约的理论价值。\n\n到期结算利率:合约到期用于到期结算的利率。\n\n累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。\n\n第三章 合 约\n\n第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。\n\n第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。\n\n第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。\n\n第十三条 合约每日结算利率按以下方法确定:\n\n(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;\n\n(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;\n\n(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;\n\n(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。\n\n第十四条 标准利率互换采用现金结算方式。\n\n第四章 业务流程\n\n第十五条 入市管理\n\n参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。\n\n已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。\n\n第十六条 交易时间\n\n每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。\n\n第十七条 报价\n\n合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。\n\n第十八条 交易\n\n参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。\n\n第十九条 限额管理\n\n交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。\n\n第二十条 合约持仓\n\n交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。\n\n第二十一条 组织报价\n\n同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。\n\n第五章 风险管理\n\n第二十二条 涨跌幅管理\n\n交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。\n\n第二十三条 头寸报告\n\n参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。\n\n第六章 附 则\n\n第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。\n\n第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。\n\n第二十六条 本规则由同业拆借中心负责解释和修订。\n\n第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。\n\n附件2\n\n全国银行间同业拆借中心 银行间市场清算所股份有限公司\n\n标准利率互换申请单\n\n申请机构全称 (本币交易系统交易账户名称)\n\n申请机构简称\n\n综合清算会员全称\n\n综合清算会员账号\n\n(7位)\n\n一、业务主管领导及联系方式\n\n姓名 部门及职务\n\n办公室电话 传真\n\n联系地址 电子邮箱\n\n二、业务交易人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 本币交易员\n\n资格证书编号\n\n联系地址 电子邮箱\n\n三、业务清算人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 电子邮箱\n\n• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》\n\n• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险\n\n• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统\n\n• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》\n\n非清算会员\n\n经办人姓名 非清算会员\n\n经办人联系电话\n\n以下内容由综合清算会员填写:\n\n四、额度申请\n\n清算限额\n\n日间容忍度\n\n生效日期 (选填,以实际收到原件为准)\n\n五、账户及扣款提款路径\n\n1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。\n\n2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。\n\n综合清算会员\n\n经办人姓名 综合清算会员\n\n经办人联系电话\n\n说明:\n\n1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;\n\n2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);\n\n3.申请单一式两份,分别发送交易中心和上海清算所;\n\n4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;\n\n5.咨询电话(电子邮箱)\n\n交易中心:\n\n贺田子 021-38585725;hetianzi@chinamoney.com.cn\n\n陆夏冰 021-38585321;luxiabing@chinamoney.com.cn\n\n闫 慧 021-38585302;yanhui@chinamoney.com.cn\n\n上海清算所:\n\n业务申请:李昕 021-23198860;lixin@shclearing.com.cn\n\n业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn\n\n风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn\n\n6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。\n\n申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)\n\n日期: 日期:",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "关于发布《全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "标准利率互换交易规则》的通知",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 32,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "paragraph",
+      "text": "银行间市场成员:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 34,
+      "end_char": 42,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 44,
+      "end_char": 137,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "特此通知。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 139,
+      "end_char": 144,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 146,
+      "end_char": 157,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "paragraph",
+      "text": "2023年11月24日",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 159,
+      "end_char": 170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "attachment",
+      "text": "附件1",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 172,
+      "end_char": 175,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 177,
+      "end_char": 188,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "标准利率互换交易规则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 190,
+      "end_char": 200,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 202,
+      "end_char": 209,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 300,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 302,
+      "end_char": 385,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 387,
+      "end_char": 442,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 444,
+      "end_char": 481,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 483,
+      "end_char": 546,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 548,
+      "end_char": 587,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "chapter",
+      "text": "第二章 合约要素定义",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 589,
+      "end_char": 599,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第七条 合约要素",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 601,
+      "end_char": 609,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 611,
+      "end_char": 703,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第八条 合约相关日期",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 705,
+      "end_char": 715,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "合约月份:用以确定合约到期的年份和月份。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 717,
+      "end_char": 737,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 819,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "到期结算日:合约到期后,交易双方结算日期,简称D日。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 847,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 849,
+      "end_char": 891,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "新合约上市日:前一合约最后交易日的下一个营业日,即D日。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 893,
+      "end_char": 921,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第九条 合约相关利率及金额",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 923,
+      "end_char": 936,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "每日结算利率:用于每日盯市估值的参考利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 938,
+      "end_char": 959,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "挂牌基准利率:新合约上市日合约的理论价值。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 961,
+      "end_char": 982,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "到期结算利率:合约到期用于到期结算的利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 984,
+      "end_char": 1005,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1007,
+      "end_char": 1040,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "chapter",
+      "text": "第三章 合 约",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1042,
+      "end_char": 1049,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1051,
+      "end_char": 1089,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1091,
+      "end_char": 1148,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1150,
+      "end_char": 1256,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十三条 合约每日结算利率按以下方法确定:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1258,
+      "end_char": 1279,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1281,
+      "end_char": 1335,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1337,
+      "end_char": 1371,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1373,
+      "end_char": 1418,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1420,
+      "end_char": 1488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十四条 标准利率互换采用现金结算方式。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1510,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第四章 业务流程",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1512,
+      "end_char": 1520,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 入市管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1522,
+      "end_char": 1531,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1533,
+      "end_char": 1582,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1584,
+      "end_char": 1617,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十六条 交易时间",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1619,
+      "end_char": 1628,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1698,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十七条 报价",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1700,
+      "end_char": 1707,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1709,
+      "end_char": 1809,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十八条 交易",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1811,
+      "end_char": 1818,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1820,
+      "end_char": 1921,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第十九条 限额管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1923,
+      "end_char": 1932,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1934,
+      "end_char": 2023,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第二十条 合约持仓",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2025,
+      "end_char": 2034,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2121,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十一条 组织报价",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2123,
+      "end_char": 2133,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2135,
+      "end_char": 2235,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "chapter",
+      "text": "第五章 风险管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2237,
+      "end_char": 2245,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十二条 涨跌幅管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2247,
+      "end_char": 2258,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2260,
+      "end_char": 2334,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十三条 头寸报告",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2336,
+      "end_char": 2346,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2348,
+      "end_char": 2425,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2427,
+      "end_char": 2434,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2436,
+      "end_char": 2588,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2590,
+      "end_char": 2679,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第二十六条 本规则由同业拆借中心负责解释和修订。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2681,
+      "end_char": 2705,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2707,
+      "end_char": 2796,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "attachment",
+      "text": "附件2",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2798,
+      "end_char": 2801,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "全国银行间同业拆借中心 银行间市场清算所股份有限公司",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2803,
+      "end_char": 2829,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "标准利率互换申请单",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2831,
+      "end_char": 2840,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "申请机构全称 (本币交易系统交易账户名称)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2842,
+      "end_char": 2863,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "申请机构简称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2865,
+      "end_char": 2871,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "综合清算会员全称",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2873,
+      "end_char": 2881,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "综合清算会员账号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2883,
+      "end_char": 2891,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(7位)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2893,
+      "end_char": 2897,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "guide_heading",
+      "text": "一、业务主管领导及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2899,
+      "end_char": 2912,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2914,
+      "end_char": 2922,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "办公室电话 传真",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2924,
+      "end_char": 2932,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "联系地址 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2934,
+      "end_char": 2943,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "guide_heading",
+      "text": "二、业务交易人员及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2945,
+      "end_char": 2958,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 2968,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "办公室电话 本币交易员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2970,
+      "end_char": 2981,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "资格证书编号",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2983,
+      "end_char": 2989,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "联系地址 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2991,
+      "end_char": 3000,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "guide_heading",
+      "text": "三、业务清算人员及联系方式",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3002,
+      "end_char": 3015,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "姓名 部门及职务",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3017,
+      "end_char": 3025,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "办公室电话 电子邮箱",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3027,
+      "end_char": 3037,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3039,
+      "end_char": 3071,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3073,
+      "end_char": 3103,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3105,
+      "end_char": 3137,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3139,
+      "end_char": 3175,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "非清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3177,
+      "end_char": 3182,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "经办人姓名 非清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3184,
+      "end_char": 3195,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "经办人联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3197,
+      "end_char": 3204,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "以下内容由综合清算会员填写:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3206,
+      "end_char": 3220,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "guide_heading",
+      "text": "四、额度申请",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3222,
+      "end_char": 3228,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "清算限额",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3230,
+      "end_char": 3234,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "日间容忍度",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3236,
+      "end_char": 3241,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "paragraph",
+      "text": "生效日期 (选填,以实际收到原件为准)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3243,
+      "end_char": 3262,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "guide_heading",
+      "text": "五、账户及扣款提款路径",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3264,
+      "end_char": 3275,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3277,
+      "end_char": 3357,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3359,
+      "end_char": 3407,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "综合清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3409,
+      "end_char": 3415,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "经办人姓名 综合清算会员",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3417,
+      "end_char": 3429,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "经办人联系电话",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3431,
+      "end_char": 3438,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "note",
+      "text": "说明:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3440,
+      "end_char": 3443,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3445,
+      "end_char": 3485,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3487,
+      "end_char": 3539,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "3.申请单一式两份,分别发送交易中心和上海清算所;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3541,
+      "end_char": 3566,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3568,
+      "end_char": 3608,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "guide_minor_heading",
+      "text": "5.咨询电话(电子邮箱)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3610,
+      "end_char": 3622,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "交易中心:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3624,
+      "end_char": 3629,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "贺田子 021-38585725;hetianzi@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3631,
+      "end_char": 3674,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "陆夏冰 021-38585321;luxiabing@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3676,
+      "end_char": 3720,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "闫 慧 021-38585302;yanhui@chinamoney.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3722,
+      "end_char": 3763,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "上海清算所:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3765,
+      "end_char": 3771,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "业务申请:李昕 021-23198860;lixin@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3773,
+      "end_char": 3817,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3819,
+      "end_char": 3864,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00122",
+      "block_type": "paragraph",
+      "text": "风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3866,
+      "end_char": 3917,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3919,
+      "end_char": 3950,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3952,
+      "end_char": 3979,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "日期: 日期:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3981,
+      "end_char": 3988,
+      "region": "appendix"
+    }
+  ],
+  "normalized_text": "关于发布《全国银行间同业拆借中心\n\n标准利率互换交易规则》的通知\n\n银行间市场成员:\n\n为满足市场机构利率风险管理需求,更好发挥银行间利率互换市场作用,推动银行间利率衍生品市场高质量发展,经中国人民银行同意,现印发《全国银行间同业拆借中心标准利率互换交易规则》,请遵照执行。\n\n特此通知。\n\n全国银行间同业拆借中心\n\n2023年11月24日\n\n附件1\n\n全国银行间同业拆借中心\n\n标准利率互换交易规则\n\n第一章 总 则\n\n第一条 为推进利率衍生产品市场发展,适应市场业务需要,根据《中国人民银行关于开展人民币利率互换业务有关事宜的通知》(银发[2008]18号)等文件,就标准利率互换交易制定本规则。\n\n第二条 本规则所称标准利率互换是指由全国银行间同业拆借中心(以下简称同业拆借中心)统一制定的,在银行间市场交易的参考利率、到期日、期限等产品要素标准化的利率互换合约。\n\n第三条 标准利率互换清算方式为集中清算,适用银行间市场清算所股份有限公司(以下简称上海清算所)的集中清算协议。\n\n第四条 标准利率互换交易的参与机构应为银行间市场成员(以下简称参与机构)。\n\n第五条 同业拆借中心提供标准利率互换交易及交易相关服务,组织参与机构开展报价和交易,履行日常监测和统计职责,接受人民银行监管。\n\n第六条 参与机构进行标准利率互换交易应当遵循公平、诚信、自律、风险自担的原则。\n\n第二章 合约要素定义\n\n第七条 合约要素\n\n标准利率互换合约(以下简称合约)主要要素包括合约标的、合约代码、合约月份、到期结算日、最后交易日、新合约上市日、结算方式、每日结算利率、挂牌基准利率、到期结算利率、累计到期结算金额等。\n\n第八条 合约相关日期\n\n合约月份:用以确定合约到期的年份和月份。\n\n合约代码:交易系统中用于区分不同合约品种的代码,由合约标的和合约月份组成。如PrimeNCD3M_2311,表示2023年11月份到期的3个月同业存单利率互换。\n\n到期结算日:合约到期后,交易双方结算日期,简称D日。\n\n最后交易日:合约可以在市场上最后交易的日期,为到期结算日前一个营业日(即D-1日)。\n\n新合约上市日:前一合约最后交易日的下一个营业日,即D日。\n\n第九条 合约相关利率及金额\n\n每日结算利率:用于每日盯市估值的参考利率。\n\n挂牌基准利率:新合约上市日合约的理论价值。\n\n到期结算利率:合约到期用于到期结算的利率。\n\n累计到期结算金额:合约持有至到期结算时交易双方的累计应收应付金额。\n\n第三章 合 约\n\n第十条 标准利率互换合约要素由同业拆借中心统一制定,报人民银行并向市场公布。\n\n第十一条 合约采用收益率报价方式,单位报价量为1000万元人民币,单位变动点设为0.0001%(即0.01BP)。\n\n第十二条 合约到期结算日(D日)为合约月份的第三个星期三,如果这一天不是营业日,则为经调整的下一营业日。最后交易日为到期结算日前一个营业日(D-1日)。新合约上市日为旧合约最后交易日之后的第一个营业日(即D日)。\n\n第十三条 合约每日结算利率按以下方法确定:\n\n(1)取当日最后1小时成交的加权价格,该时段因系统故障等原因导致交易中断的,扣除中断时间后向前取满相应时段;\n\n(2)若最后1小时成交笔数少于5笔,则取当日最后5笔交易的加权价格;\n\n(3)若全天该合约成交笔数少于5笔,取最后一小时的(bid的平均+ ofr平均)×0.5;\n\n(4)若无报价或出现其他难以确定结算利率的情况,则可取前一日结算利率(如为合约上市首日,则取挂牌基准利率)或同业拆借中心计算的其他利率。\n\n第十四条 标准利率互换采用现金结算方式。\n\n第四章 业务流程\n\n第十五条 入市管理\n\n参与机构开展标准利率互换交易前,应向同业拆借中心提交业务开通申请和相关内部操作规程、风险管理制度。\n\n已经完成利率互换入市的参与机构,可直接开展交易,无需再次提交申请。\n\n第十六条 交易时间\n\n每周一至周五(国家法定节假日除外)北京时间9:00-12:00,13:30-16:30。同业拆借中心根据市场情况调整交易时间的另行公布。\n\n第十七条 报价\n\n合约报价为匿名的限价报价。报价方向包括买入报价、卖出报价、平仓报价。其中,平仓报价是指与参与机构当前净持仓方向相反的报价,如参与机构当前合约的净持仓为-1手(即净卖出),发起1手平仓报价即为买入1手。\n\n第十八条 交易\n\n参与机构的标准利率互换交易应通过同业拆借中心本币交易系统(以下简称交易系统)达成。交易双方应严格按照成交单记载的交易信息办理结算交割。成交单一经生成,对交易双方具有最终法律约束力,交易双方不得擅自变更。\n\n第十九条 限额管理\n\n交易系统根据上海清算所提供的其对参与机构设置的单机构总持仓限额,在交易系统进行前端控制。满足限额检查的报价可直接成交。交易达成后,上海清算所作为中央对手方实时接单并完成合约替代。\n\n第二十条 合约持仓\n\n交易系统按买卖轧差平仓原则实时计算参与者合约持仓,如参与机构当前持仓为0手,买入1手后交易系统显示持仓为1手(增加1手),再卖出1手后交易系统显示持仓为0手(减少1手)。\n\n第二十一条 组织报价\n\n同业拆借中心组织报价机构通过交易系统向市场提供标准利率互换买卖双向报价,并对报价机构报价行为和质量进行评估,同业拆借中心可根据报价机构评估结果调整报价机构名单。报价机构名单及后续调整报人民银行并公布。\n\n第五章 风险管理\n\n第二十二条 涨跌幅管理\n\n交易系统设定合约的价格较上一日结算利率(新合约上市首日为挂牌基准利率)的波动幅度。同业拆借中心可根据市场实际情况调整价格波动幅度,报人民银行并实施。\n\n第二十三条 头寸报告\n\n参与机构在达到或超过同业拆借中心设置的头寸报告标准时,应及时向同业拆借中心报备相关信息。同业拆借中心可根据市场实际情况调整头寸报告标准,报人民银行并实施。\n\n第六章 附 则\n\n第二十四条 同业拆借中心根据人民银行有关规定对标准利率互换交易进行监测,定期向人民银行报告业务运行情况,发现异常情形的,及时处理并向人民银行报告。对于违反人民银行规定及同业拆借中心关于利率互换交易相关规则的,同业拆借中心有权视情节轻重采取口头警告、约见谈话、书面警示、责令改正、限制或暂停交易权限等措施。\n\n第二十五条 同业拆借中心根据国务院公布的节假日安排,发布相关合约的到期日、起息日调整公告,参与机构据以自行调整内部系统成交数据。同业拆借中心对已成交交易不再调整成交明细和成交单。\n\n第二十六条 本规则由同业拆借中心负责解释和修订。\n\n第二十七条 本规则自发布之日起实施。全国银行间同业拆借中心2014年10月31日发布的《全国银行间同业拆借中心标准利率衍生产品交易规则》(中汇交发〔2014〕260号)同时废止。\n\n附件2\n\n全国银行间同业拆借中心 银行间市场清算所股份有限公司\n\n标准利率互换申请单\n\n申请机构全称 (本币交易系统交易账户名称)\n\n申请机构简称\n\n综合清算会员全称\n\n综合清算会员账号\n\n(7位)\n\n一、业务主管领导及联系方式\n\n姓名 部门及职务\n\n办公室电话 传真\n\n联系地址 电子邮箱\n\n二、业务交易人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 本币交易员\n\n资格证书编号\n\n联系地址 电子邮箱\n\n三、业务清算人员及联系方式\n\n姓名 部门及职务\n\n办公室电话 电子邮箱\n\n• 是否与综合清算会员完成签署《中央对手方清算业务代理清算协议》\n\n• 是否具备相应的风险识别和承担能力,知悉并自行承担投资风险\n\n• 是否具有熟悉标准利率互换市场的专业人员、完善的内部制度和系统\n\n• 已阅读、理解并同意遵守《全国银行间同业拆借中心标准利率互换交易规则》\n\n非清算会员\n\n经办人姓名 非清算会员\n\n经办人联系电话\n\n以下内容由综合清算会员填写:\n\n四、额度申请\n\n清算限额\n\n日间容忍度\n\n生效日期 (选填,以实际收到原件为准)\n\n五、账户及扣款提款路径\n\n1. 标准利率互换代理资金结算账户沿用我单位参与人民币利率互换集中清算代理业务所使用的资金结算账户,即开在大额支付系统的清算账户或开在上海清算所的资金结算专户。\n\n2. 新开立标准利率互换代理保证金账户。该账户的扣款路径和提款路径与上述人民币资金结算路径共用。\n\n综合清算会员\n\n经办人姓名 综合清算会员\n\n经办人联系电话\n\n说明:\n\n1.申请机构可根据机构内部分工填写相关联系信息,栏目数量可根据实际情况自行添加;\n\n2.申请机构需加盖单位公章,综合清算会员加盖人民币利率互换集中代理清算业务预留印鉴(双面打印或骑缝章);\n\n3.申请单一式两份,分别发送交易中心和上海清算所;\n\n4.本表内容如有变化,请在发生变更之日起十个工作日内向交易中心和上海清算所变更;\n\n5.咨询电话(电子邮箱)\n\n交易中心:\n\n贺田子 021-38585725;hetianzi@chinamoney.com.cn\n\n陆夏冰 021-38585321;luxiabing@chinamoney.com.cn\n\n闫 慧 021-38585302;yanhui@chinamoney.com.cn\n\n上海清算所:\n\n业务申请:李昕 021-23198860;lixin@shclearing.com.cn\n\n业务咨询:戴珺 021-23194847;daijun@shclearing.com.cn\n\n风险管理咨询:周丽娜 021-23198624; zhoulina@shclearing.com.cn\n\n6.交易中心将对参与机构交易情况进行评估,并汇报中国人民银行。\n\n申请机构:(盖章) 综合清算会员代理业务印鉴:(盖章)\n\n日期: 日期:",
   "blocks": [
     {
       "block_id": "b00001",
@@ -196,7 +3197,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -204,7 +3212,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 32,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -212,7 +3227,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 34,
+      "end_char": 42,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -220,7 +3242,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 44,
+      "end_char": 137,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -228,23 +3257,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
-    },
-    {
-      "block_id": "b00007",
-      "text": "附件:1.全国银行间同业拆借中心标准利率互换交易规则",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 0,
-      "region": "body"
-    },
-    {
-      "block_id": "b00008",
-      "text": "2.全国银行间同业拆借中心 银行间市场清算所股份有限公司标准利率互换申请单",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 139,
+      "end_char": 144,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -252,7 +3272,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 146,
+      "end_char": 157,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -260,7 +3287,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 159,
+      "end_char": 170,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -268,7 +3302,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 172,
+      "end_char": 175,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -276,7 +3317,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 177,
+      "end_char": 188,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -284,7 +3332,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 190,
+      "end_char": 200,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -292,7 +3347,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 202,
+      "end_char": 209,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -300,7 +3362,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 211,
+      "end_char": 300,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -308,7 +3377,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 302,
+      "end_char": 385,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -316,7 +3392,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 387,
+      "end_char": 442,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -324,7 +3407,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 444,
+      "end_char": 481,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -332,7 +3422,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 483,
+      "end_char": 546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -340,7 +3437,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 548,
+      "end_char": 587,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -348,7 +3452,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 589,
+      "end_char": 599,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -356,7 +3467,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 601,
+      "end_char": 609,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -364,7 +3482,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 611,
+      "end_char": 703,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -372,7 +3497,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 705,
+      "end_char": 715,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -380,7 +3512,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 717,
+      "end_char": 737,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -388,7 +3527,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -396,7 +3542,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 847,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -404,7 +3557,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 849,
+      "end_char": 891,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -412,7 +3572,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 893,
+      "end_char": 921,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -420,7 +3587,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 923,
+      "end_char": 936,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -428,7 +3602,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 938,
+      "end_char": 959,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -436,7 +3617,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 961,
+      "end_char": 982,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -444,7 +3632,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 984,
+      "end_char": 1005,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -452,7 +3647,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1007,
+      "end_char": 1040,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -460,7 +3662,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1042,
+      "end_char": 1049,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -468,7 +3677,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1051,
+      "end_char": 1089,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -476,7 +3692,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1091,
+      "end_char": 1148,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -484,7 +3707,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1150,
+      "end_char": 1256,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -492,7 +3722,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1258,
+      "end_char": 1279,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -500,7 +3737,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1281,
+      "end_char": 1335,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -508,7 +3752,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1337,
+      "end_char": 1371,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -516,7 +3767,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1373,
+      "end_char": 1418,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -524,7 +3782,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1420,
+      "end_char": 1488,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -532,7 +3797,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1490,
+      "end_char": 1510,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -540,7 +3812,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1512,
+      "end_char": 1520,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -548,7 +3827,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1522,
+      "end_char": 1531,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -556,7 +3842,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1533,
+      "end_char": 1582,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -564,7 +3857,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1584,
+      "end_char": 1617,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -572,7 +3872,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1619,
+      "end_char": 1628,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -580,7 +3887,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1630,
+      "end_char": 1698,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -588,7 +3902,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1700,
+      "end_char": 1707,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -596,7 +3917,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1709,
+      "end_char": 1809,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -604,7 +3932,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1811,
+      "end_char": 1818,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -612,7 +3947,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1820,
+      "end_char": 1921,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -620,7 +3962,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1923,
+      "end_char": 1932,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -628,7 +3977,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1934,
+      "end_char": 2023,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -636,7 +3992,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2025,
+      "end_char": 2034,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -644,7 +4007,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2036,
+      "end_char": 2121,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -652,7 +4022,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2123,
+      "end_char": 2133,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -660,7 +4037,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2135,
+      "end_char": 2235,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -668,7 +4052,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2237,
+      "end_char": 2245,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -676,7 +4067,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2247,
+      "end_char": 2258,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -684,7 +4082,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2260,
+      "end_char": 2334,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -692,7 +4097,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2336,
+      "end_char": 2346,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -700,7 +4112,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2348,
+      "end_char": 2425,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -708,7 +4127,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2427,
+      "end_char": 2434,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -716,7 +4142,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2436,
+      "end_char": 2588,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -724,7 +4157,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2590,
+      "end_char": 2679,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -732,7 +4172,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2681,
+      "end_char": 2705,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -740,7 +4187,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2707,
+      "end_char": 2796,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -748,7 +4202,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2798,
+      "end_char": 2801,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -756,7 +4217,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2803,
+      "end_char": 2829,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -764,7 +4232,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2831,
+      "end_char": 2840,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -772,7 +4247,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2842,
+      "end_char": 2863,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -780,7 +4262,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2865,
+      "end_char": 2871,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -788,7 +4277,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2873,
+      "end_char": 2881,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -796,7 +4292,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2883,
+      "end_char": 2891,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -804,7 +4307,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2893,
+      "end_char": 2897,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -812,7 +4322,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2899,
+      "end_char": 2912,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -820,7 +4337,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2914,
+      "end_char": 2922,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -828,7 +4352,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2924,
+      "end_char": 2932,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -836,7 +4367,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2934,
+      "end_char": 2943,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -844,7 +4382,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2945,
+      "end_char": 2958,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -852,7 +4397,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2960,
+      "end_char": 2968,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -860,7 +4412,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2970,
+      "end_char": 2981,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -868,7 +4427,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2983,
+      "end_char": 2989,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -876,7 +4442,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2991,
+      "end_char": 3000,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -884,7 +4457,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3002,
+      "end_char": 3015,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -892,7 +4472,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3017,
+      "end_char": 3025,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -900,7 +4487,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3027,
+      "end_char": 3037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -908,7 +4502,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3039,
+      "end_char": 3071,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -916,7 +4517,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3073,
+      "end_char": 3103,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -924,7 +4532,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3105,
+      "end_char": 3137,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -932,7 +4547,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3139,
+      "end_char": 3175,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -940,7 +4562,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3177,
+      "end_char": 3182,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -948,7 +4577,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3184,
+      "end_char": 3195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -956,7 +4592,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3197,
+      "end_char": 3204,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -964,7 +4607,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3206,
+      "end_char": 3220,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -972,7 +4622,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3222,
+      "end_char": 3228,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -980,7 +4637,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3230,
+      "end_char": 3234,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -988,7 +4652,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3236,
+      "end_char": 3241,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -996,7 +4667,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3243,
+      "end_char": 3262,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -1004,7 +4682,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3264,
+      "end_char": 3275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -1012,7 +4697,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3277,
+      "end_char": 3357,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -1020,7 +4712,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3359,
+      "end_char": 3407,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -1028,7 +4727,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3409,
+      "end_char": 3415,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -1036,7 +4742,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3417,
+      "end_char": 3429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -1044,7 +4757,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3431,
+      "end_char": 3438,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -1052,7 +4772,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3440,
+      "end_char": 3443,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -1060,7 +4787,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3445,
+      "end_char": 3485,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -1068,7 +4802,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3487,
+      "end_char": 3539,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1076,7 +4817,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3541,
+      "end_char": 3566,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1084,7 +4832,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3568,
+      "end_char": 3608,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1092,7 +4847,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3610,
+      "end_char": 3622,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1100,7 +4862,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3624,
+      "end_char": 3629,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1108,7 +4877,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3631,
+      "end_char": 3674,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1116,7 +4892,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3676,
+      "end_char": 3720,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1124,7 +4907,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3722,
+      "end_char": 3763,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1132,7 +4922,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3765,
+      "end_char": 3771,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1140,7 +4937,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3773,
+      "end_char": 3817,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1148,7 +4952,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3819,
+      "end_char": 3864,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00122",
@@ -1156,7 +4967,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3866,
+      "end_char": 3917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1164,7 +4982,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3919,
+      "end_char": 3950,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1172,7 +4997,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3952,
+      "end_char": 3979,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1180,7 +5012,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3981,
+      "end_char": 3988,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

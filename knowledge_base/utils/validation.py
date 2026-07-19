@@ -44,6 +44,7 @@ def article_number(value: str) -> int | None:
 
 def validate_outputs(rows: list[dict[str, Any]], summaries: list[dict[str, Any]], max_chars: int) -> dict[str, Any]:
     issues: list[dict[str, str]] = []
+    position_schema_enabled = any("clean_text_hash" in row or "start_char" in row for row in rows)
 
     def add(severity: str, check: str, detail: str, row: dict[str, Any] | None = None) -> None:
         issues.append({
@@ -76,6 +77,15 @@ def validate_outputs(rows: list[dict[str, Any]], summaries: list[dict[str, Any]]
             add("minor", "marked_oversized", f"{row['character_count']}字符：{row.get('oversized_reason', '')}", row)
         if row["document_title"] and compact(row["document_title"]) not in compact(row["text"][:600]):
             add("major", "title_context", "检索文本开头缺少法规标题上下文", row)
+        if position_schema_enabled:
+            start_char = row.get("start_char")
+            end_char = row.get("end_char")
+            if not isinstance(start_char, int) or not isinstance(end_char, int) or start_char < 0 or end_char < start_char:
+                add("major", "clean_text_position", f"正文位置无效：{start_char}-{end_char}", row)
+            if not row.get("clean_text_hash") or not row.get("chunk_hash"):
+                add("major", "incremental_hashes", "缺少clean_text_hash或chunk_hash", row)
+            if row.get("is_overlapping") and not isinstance(row.get("overlap_left"), int):
+                add("major", "overlap_coordinates", "overlap Chunk缺少overlap_left", row)
         if any(0xE000 <= ord(char) <= 0xF8FF for char in row["text"]):
             add("critical", "private_use_formula_character", "仍包含Unicode私有区字符", row)
         if "[未映射公式符号U+" in row["text"]:
@@ -175,7 +185,8 @@ def validate_outputs(rows: list[dict[str, Any]], summaries: list[dict[str, Any]]
         "article_order", "title_context", "overlap_trace", "source_block_coverage",
         "private_use_formula_character", "word_field_code", "table_of_contents_residue",
         "heading_only_chunk", "duplicate_chunk_body",
-        "article_start_gap", "article_sequence_gap",
+        "article_start_gap", "article_sequence_gap", "clean_text_position",
+        "incremental_hashes", "overlap_coordinates",
     }):
         checks[name] = not any(issue["check"] == name and issue["severity"] in {"critical", "major"} for issue in issues)
     passed = severity_counts["critical"] == 0 and severity_counts["major"] == 0

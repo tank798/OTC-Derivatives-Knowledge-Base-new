@@ -4,14 +4,14 @@
   "file_path": "data/raw/监管文件/期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则（试行）.pdf",
   "source_type": "pdf",
   "file_sha256": "9def4a61ab412daedfc65e2258e3a752c19c7690f63c1129f47b3b1d2a6795d1",
-  "content_sha256": "15859e09e7087eeb785b3040b83c8ac98e3df36db8e92f5556cad8b81c3889cd",
+  "content_sha256": "25d03238333e5119256a45cdd488d8ffdaa2508453af63b49b30a02980bab66e",
   "metadata": {
     "document_title": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则（试行）",
     "issuing_authority": "中国期货业协会",
     "document_number": "",
     "publication_date": "2021-03-19",
     "effective_date": "2021-03-19",
-    "validity_status": "现行有效（2025-05-13修正）",
+    "validity_status": "现行有效",
     "version": "试行",
     "document_title_source": "authoritative_catalog",
     "official_url": "https://www.cfachina.org/governmentrules/selfdisciplinerules/businessspecificationclass/202103/t20210319_18209.html",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "7b614876573970ec3313e15683ddd598c371e450f1e2645bf2136006f0798f2d",
     "clean_text_sha256": "7b614876573970ec3313e15683ddd598c371e450f1e2645bf2136006f0798f2d",
@@ -70,6 +70,711 @@
   },
   "original_text_sha256": "7b614876573970ec3313e15683ddd598c371e450f1e2645bf2136006f0798f2d",
   "clean_text_sha256": "7b614876573970ec3313e15683ddd598c371e450f1e2645bf2136006f0798f2d",
+  "clean_text_hash": "ff226155593a8da6ce8dd730f458ce954fada35541972760b6794a8f782c097b",
+  "structured_blocks_sha256": "ee8c721ff610229071f10a8acd54335493993f5e2b1c3f1f92104cac829250e2",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则(试行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 34,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为更好地服务实体企业客户,丰富场外衍生品业务履约担保品种类,根据《中国期货业协会章程》、《期货公司风险管理公司业务试点指引》等自律规则,制定本细则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 36,
+      "end_char": 114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 本细则所称标准仓单充抵场外衍生品交易保证金,是指期货公司风险管理公司(以下简称风险管理公司)开展场外衍生品业务时,接受客户以其自有的标准仓单作为场外衍生品交易履约担保品的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 116,
+      "end_char": 208,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金,应同时符合以下条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 210,
+      "end_char": 253,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "(一)已备案场外衍生品业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 255,
+      "end_char": 269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(二)已备案基差贸易、仓单服务业务,或受同一期货公司控制的其他风险管理公司已备案上述两项业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 271,
+      "end_char": 318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(三)中国期货业协会(以下简称协会)根据审慎原则规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 320,
+      "end_char": 352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第四条 客户充抵场外衍生品交易保证金的仓单,应为期货交易所认定的标准仓单,标准仓单市值计算按照交易所充抵期货交易保证金的规则执行。客户使用标准仓单实际充抵场外交易保证金的比例,应不高于期货交易所规定的充抵期货交易保证金比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 354,
+      "end_char": 466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第五条 标准仓单充抵场外衍生品交易保证金的额度仅作为场外业务履约担保,风险管理公司不得将其以货币资金形式支付给客户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 468,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第六条 以标准仓单充抵场外衍生品交易保证金的客户应具有真实风险管理需求,风险管理公司不得为客户高杠杆投机行为提供便利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 528,
+      "end_char": 587,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 客户应通过期货交易所标准仓单系统,办理标准仓单转出;风险管理公司确认标准仓单转入后,给予客户相应场外衍生品交易保证金充抵额度。场外衍生品交易终止或当满足双方约定的条件时,风险管理公司应通过期货交易所标准仓单系统,办理标准仓单转出手续,将标准仓单转回至客户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 589,
+      "end_char": 721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 风险管理公司应建立健全与标准仓单充抵场外衍生品交易保证金相适应的制度方案、内控流程、风险控制措施,使其可以有效执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 723,
+      "end_char": 785,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 充抵额度占用期间,风险管理公司应对标准仓单可充抵额度进行核算,妥善管理因标准仓单价值波动带来的风险,严格落实场外保证金追加制度流程。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 787,
+      "end_char": 857,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 风险管理公司应设定与资本实力、风险承受能力相匹配的充抵规模和风控限额,包括但不限于标准仓单品种集中度和单个客户充抵规模等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 859,
+      "end_char": 924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十一条 风险管理公司应建立健全客户违约情形下标准仓单及对应现货的处置方案及流程,妥善处理客户违约风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 926,
+      "end_char": 978,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十二条 风险管理公司不符合本细则第三条规定条件的,应当立即停止新增标准仓单充抵场外衍生品交易保证金,存续交易到期终止。风险管理公司不符合本细则第三条规定条件的,应当于相关情形发生之日起 5 个工作日内以书面形式向协会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 980,
+      "end_char": 1092,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金前,应向协会报送相关制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1094,
+      "end_char": 1140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十四条 风险管理公司应根据协会的相关要求,真实、准确、完整、及时履行相关信息报送义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1142,
+      "end_char": 1186,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十五条 协会依据本细则对风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金进行自律检查,检查可通过现场或非现场方式进行,风险管理公司应予以配合。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1188,
+      "end_char": 1264,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十六条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司及相关责任人作出书面警示、约见谈话的批评警示:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1266,
+      "end_char": 1325,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)违反本细则第四条至第七条规定,未按规定充抵场外衍生品交易保证金;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1327,
+      "end_char": 1362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)违反本细则第八条至第十一条规定,内部控制存在重大缺陷或者未有效执行;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1364,
+      "end_char": 1401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)违反本细则第十二条至第十四条规定,未按要求履行报送义务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1403,
+      "end_char": 1434,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)协会认定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1436,
+      "end_char": 1449,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十七条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司作出训诫、公开谴责、限期整改、暂停部分会员权利、暂停或者取消会员资格的纪律惩戒,对相关责任人作出训诫、公开谴责等纪律惩戒:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1451,
+      "end_char": 1548,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(一)不符合本细则第三条规定条件,接受客户使用标准仓单充抵场外衍生品交易保证金;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1550,
+      "end_char": 1590,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(二)未妥善处理客户违约风险,发生重大风险事件或造成严重后果;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1592,
+      "end_char": 1623,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(三)协会认定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1625,
+      "end_char": 1638,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十八条 本细则由中国期货业协会负责解释,自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1640,
+      "end_char": 1670,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则(试行)\n\n第一条 为更好地服务实体企业客户,丰富场外衍生品业务履约担保品种类,根据《中国期货业协会章程》、《期货公司风险管理公司业务试点指引》等自律规则,制定本细则。\n\n第二条 本细则所称标准仓单充抵场外衍生品交易保证金,是指期货公司风险管理公司(以下简称风险管理公司)开展场外衍生品业务时,接受客户以其自有的标准仓单作为场外衍生品交易履约担保品的行为。\n\n第三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金,应同时符合以下条件:\n\n(一)已备案场外衍生品业务;\n\n(二)已备案基差贸易、仓单服务业务,或受同一期货公司控制的其他风险管理公司已备案上述两项业务;\n\n(三)中国期货业协会(以下简称协会)根据审慎原则规定的其他条件。\n\n第四条 客户充抵场外衍生品交易保证金的仓单,应为期货交易所认定的标准仓单,标准仓单市值计算按照交易所充抵期货交易保证金的规则执行。客户使用标准仓单实际充抵场外交易保证金的比例,应不高于期货交易所规定的充抵期货交易保证金比例。\n\n第五条 标准仓单充抵场外衍生品交易保证金的额度仅作为场外业务履约担保,风险管理公司不得将其以货币资金形式支付给客户。\n\n第六条 以标准仓单充抵场外衍生品交易保证金的客户应具有真实风险管理需求,风险管理公司不得为客户高杠杆投机行为提供便利。\n\n第七条 客户应通过期货交易所标准仓单系统,办理标准仓单转出;风险管理公司确认标准仓单转入后,给予客户相应场外衍生品交易保证金充抵额度。场外衍生品交易终止或当满足双方约定的条件时,风险管理公司应通过期货交易所标准仓单系统,办理标准仓单转出手续,将标准仓单转回至客户。\n\n第八条 风险管理公司应建立健全与标准仓单充抵场外衍生品交易保证金相适应的制度方案、内控流程、风险控制措施,使其可以有效执行。\n\n第九条 充抵额度占用期间,风险管理公司应对标准仓单可充抵额度进行核算,妥善管理因标准仓单价值波动带来的风险,严格落实场外保证金追加制度流程。\n\n第十条 风险管理公司应设定与资本实力、风险承受能力相匹配的充抵规模和风控限额,包括但不限于标准仓单品种集中度和单个客户充抵规模等。\n\n第十一条 风险管理公司应建立健全客户违约情形下标准仓单及对应现货的处置方案及流程,妥善处理客户违约风险。\n\n第十二条 风险管理公司不符合本细则第三条规定条件的,应当立即停止新增标准仓单充抵场外衍生品交易保证金,存续交易到期终止。风险管理公司不符合本细则第三条规定条件的,应当于相关情形发生之日起 5 个工作日内以书面形式向协会报告。\n\n第十三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金前,应向协会报送相关制度。\n\n第十四条 风险管理公司应根据协会的相关要求,真实、准确、完整、及时履行相关信息报送义务。\n\n第十五条 协会依据本细则对风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金进行自律检查,检查可通过现场或非现场方式进行,风险管理公司应予以配合。\n\n第十六条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司及相关责任人作出书面警示、约见谈话的批评警示:\n\n(一)违反本细则第四条至第七条规定,未按规定充抵场外衍生品交易保证金;\n\n(二)违反本细则第八条至第十一条规定,内部控制存在重大缺陷或者未有效执行;\n\n(三)违反本细则第十二条至第十四条规定,未按要求履行报送义务;\n\n(四)协会认定的其他情形。\n\n第十七条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司作出训诫、公开谴责、限期整改、暂停部分会员权利、暂停或者取消会员资格的纪律惩戒,对相关责任人作出训诫、公开谴责等纪律惩戒:\n\n(一)不符合本细则第三条规定条件,接受客户使用标准仓单充抵场外衍生品交易保证金;\n\n(二)未妥善处理客户违约风险,发生重大风险事件或造成严重后果;\n\n(三)协会认定的其他情形。\n\n第十八条 本细则由中国期货业协会负责解释,自发布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则(试行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 34,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "article",
+      "text": "第一条 为更好地服务实体企业客户,丰富场外衍生品业务履约担保品种类,根据《中国期货业协会章程》、《期货公司风险管理公司业务试点指引》等自律规则,制定本细则。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 36,
+      "end_char": 114,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第二条 本细则所称标准仓单充抵场外衍生品交易保证金,是指期货公司风险管理公司(以下简称风险管理公司)开展场外衍生品业务时,接受客户以其自有的标准仓单作为场外衍生品交易履约担保品的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 116,
+      "end_char": 208,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金,应同时符合以下条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 210,
+      "end_char": 253,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "(一)已备案场外衍生品业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 255,
+      "end_char": 269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(二)已备案基差贸易、仓单服务业务,或受同一期货公司控制的其他风险管理公司已备案上述两项业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 271,
+      "end_char": 318,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(三)中国期货业协会(以下简称协会)根据审慎原则规定的其他条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 320,
+      "end_char": 352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第四条 客户充抵场外衍生品交易保证金的仓单,应为期货交易所认定的标准仓单,标准仓单市值计算按照交易所充抵期货交易保证金的规则执行。客户使用标准仓单实际充抵场外交易保证金的比例,应不高于期货交易所规定的充抵期货交易保证金比例。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 354,
+      "end_char": 466,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第五条 标准仓单充抵场外衍生品交易保证金的额度仅作为场外业务履约担保,风险管理公司不得将其以货币资金形式支付给客户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 468,
+      "end_char": 526,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第六条 以标准仓单充抵场外衍生品交易保证金的客户应具有真实风险管理需求,风险管理公司不得为客户高杠杆投机行为提供便利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 528,
+      "end_char": 587,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 客户应通过期货交易所标准仓单系统,办理标准仓单转出;风险管理公司确认标准仓单转入后,给予客户相应场外衍生品交易保证金充抵额度。场外衍生品交易终止或当满足双方约定的条件时,风险管理公司应通过期货交易所标准仓单系统,办理标准仓单转出手续,将标准仓单转回至客户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 589,
+      "end_char": 721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 风险管理公司应建立健全与标准仓单充抵场外衍生品交易保证金相适应的制度方案、内控流程、风险控制措施,使其可以有效执行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 723,
+      "end_char": 785,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 充抵额度占用期间,风险管理公司应对标准仓单可充抵额度进行核算,妥善管理因标准仓单价值波动带来的风险,严格落实场外保证金追加制度流程。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 787,
+      "end_char": 857,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第十条 风险管理公司应设定与资本实力、风险承受能力相匹配的充抵规模和风控限额,包括但不限于标准仓单品种集中度和单个客户充抵规模等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 859,
+      "end_char": 924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十一条 风险管理公司应建立健全客户违约情形下标准仓单及对应现货的处置方案及流程,妥善处理客户违约风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 926,
+      "end_char": 978,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第十二条 风险管理公司不符合本细则第三条规定条件的,应当立即停止新增标准仓单充抵场外衍生品交易保证金,存续交易到期终止。风险管理公司不符合本细则第三条规定条件的,应当于相关情形发生之日起 5 个工作日内以书面形式向协会报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 980,
+      "end_char": 1092,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金前,应向协会报送相关制度。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1094,
+      "end_char": 1140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十四条 风险管理公司应根据协会的相关要求,真实、准确、完整、及时履行相关信息报送义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1142,
+      "end_char": 1186,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十五条 协会依据本细则对风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金进行自律检查,检查可通过现场或非现场方式进行,风险管理公司应予以配合。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1188,
+      "end_char": 1264,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十六条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司及相关责任人作出书面警示、约见谈话的批评警示:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1266,
+      "end_char": 1325,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(一)违反本细则第四条至第七条规定,未按规定充抵场外衍生品交易保证金;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1327,
+      "end_char": 1362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(二)违反本细则第八条至第十一条规定,内部控制存在重大缺陷或者未有效执行;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1364,
+      "end_char": 1401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(三)违反本细则第十二条至第十四条规定,未按要求履行报送义务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1403,
+      "end_char": 1434,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(四)协会认定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1436,
+      "end_char": 1449,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十七条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司作出训诫、公开谴责、限期整改、暂停部分会员权利、暂停或者取消会员资格的纪律惩戒,对相关责任人作出训诫、公开谴责等纪律惩戒:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1451,
+      "end_char": 1548,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(一)不符合本细则第三条规定条件,接受客户使用标准仓单充抵场外衍生品交易保证金;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1550,
+      "end_char": 1590,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(二)未妥善处理客户违约风险,发生重大风险事件或造成严重后果;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1592,
+      "end_char": 1623,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(三)协会认定的其他情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1625,
+      "end_char": 1638,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十八条 本细则由中国期货业协会负责解释,自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1640,
+      "end_char": 1670,
+      "region": "body"
+    }
+  ],
   "normalized_text": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则(试行)\n\n第一条 为更好地服务实体企业客户,丰富场外衍生品业务履约担保品种类,根据《中国期货业协会章程》、《期货公司风险管理公司业务试点指引》等自律规则,制定本细则。\n\n第二条 本细则所称标准仓单充抵场外衍生品交易保证金,是指期货公司风险管理公司(以下简称风险管理公司)开展场外衍生品业务时,接受客户以其自有的标准仓单作为场外衍生品交易履约担保品的行为。\n\n第三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金,应同时符合以下条件:\n\n(一)已备案场外衍生品业务;\n\n(二)已备案基差贸易、仓单服务业务,或受同一期货公司控制的其他风险管理公司已备案上述两项业务;\n\n(三)中国期货业协会(以下简称协会)根据审慎原则规定的其他条件。\n\n第四条 客户充抵场外衍生品交易保证金的仓单,应为期货交易所认定的标准仓单,标准仓单市值计算按照交易所充抵期货交易保证金的规则执行。客户使用标准仓单实际充抵场外交易保证金的比例,应不高于期货交易所规定的充抵期货交易保证金比例。\n\n第五条 标准仓单充抵场外衍生品交易保证金的额度仅作为场外业务履约担保,风险管理公司不得将其以货币资金形式支付给客户。\n\n第六条 以标准仓单充抵场外衍生品交易保证金的客户应具有真实风险管理需求,风险管理公司不得为客户高杠杆投机行为提供便利。\n\n第七条 客户应通过期货交易所标准仓单系统,办理标准仓单转出;风险管理公司确认标准仓单转入后,给予客户相应场外衍生品交易保证金充抵额度。场外衍生品交易终止或当满足双方约定的条件时,风险管理公司应通过期货交易所标准仓单系统,办理标准仓单转出手续,将标准仓单转回至客户。\n\n第八条 风险管理公司应建立健全与标准仓单充抵场外衍生品交易保证金相适应的制度方案、内控流程、风险控制措施,使其可以有效执行。\n\n第九条 充抵额度占用期间,风险管理公司应对标准仓单可充抵额度进行核算,妥善管理因标准仓单价值波动带来的风险,严格落实场外保证金追加制度流程。\n\n第十条 风险管理公司应设定与资本实力、风险承受能力相匹配的充抵规模和风控限额,包括但不限于标准仓单品种集中度和单个客户充抵规模等。\n\n第十一条 风险管理公司应建立健全客户违约情形下标准仓单及对应现货的处置方案及流程,妥善处理客户违约风险。\n\n第十二条 风险管理公司不符合本细则第三条规定条件的,应当立即停止新增标准仓单充抵场外衍生品交易保证金,存续交易到期终止。风险管理公司不符合本细则第三条规定条件的,应当于相关情形发生之日起 5 个工作日内以书面形式向协会报告。\n\n第十三条 风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金前,应向协会报送相关制度。\n\n第十四条 风险管理公司应根据协会的相关要求,真实、准确、完整、及时履行相关信息报送义务。\n\n第十五条 协会依据本细则对风险管理公司接受客户使用标准仓单充抵场外衍生品交易保证金进行自律检查,检查可通过现场或非现场方式进行,风险管理公司应予以配合。\n\n第十六条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司及相关责任人作出书面警示、约见谈话的批评警示:\n\n(一)违反本细则第四条至第七条规定,未按规定充抵场外衍生品交易保证金;\n\n(二)违反本细则第八条至第十一条规定,内部控制存在重大缺陷或者未有效执行;\n\n(三)违反本细则第十二条至第十四条规定,未按要求履行报送义务;\n\n(四)协会认定的其他情形。\n\n第十七条 风险管理公司存在以下情形的,协会可以视情节轻重,对风险管理公司作出训诫、公开谴责、限期整改、暂停部分会员权利、暂停或者取消会员资格的纪律惩戒,对相关责任人作出训诫、公开谴责等纪律惩戒:\n\n(一)不符合本细则第三条规定条件,接受客户使用标准仓单充抵场外衍生品交易保证金;\n\n(二)未妥善处理客户违约风险,发生重大风险事件或造成严重后果;\n\n(三)协会认定的其他情形。\n\n第十八条 本细则由中国期货业协会负责解释,自发布之日起施行。",
   "blocks": [
     {
@@ -78,7 +783,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 34,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -86,7 +798,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 36,
+      "end_char": 114,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -94,7 +813,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 116,
+      "end_char": 208,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -102,7 +828,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 210,
+      "end_char": 253,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -110,7 +843,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 255,
+      "end_char": 269,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -118,7 +858,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 271,
+      "end_char": 318,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -126,7 +873,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 320,
+      "end_char": 352,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -134,7 +888,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 354,
+      "end_char": 466,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -142,7 +903,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 468,
+      "end_char": 526,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -150,7 +918,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 528,
+      "end_char": 587,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -158,7 +933,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 589,
+      "end_char": 721,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -166,7 +948,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 723,
+      "end_char": 785,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -174,7 +963,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 787,
+      "end_char": 857,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -182,7 +978,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 859,
+      "end_char": 924,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -190,7 +993,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 926,
+      "end_char": 978,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -198,7 +1008,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 980,
+      "end_char": 1092,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -206,7 +1023,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1094,
+      "end_char": 1140,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -214,7 +1038,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1142,
+      "end_char": 1186,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -222,7 +1053,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1188,
+      "end_char": 1264,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -230,7 +1068,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1266,
+      "end_char": 1325,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -238,7 +1083,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1327,
+      "end_char": 1362,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -246,7 +1098,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1364,
+      "end_char": 1401,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -254,7 +1113,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1403,
+      "end_char": 1434,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -262,7 +1128,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1436,
+      "end_char": 1449,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -270,7 +1143,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1451,
+      "end_char": 1548,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -278,7 +1158,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1550,
+      "end_char": 1590,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -286,7 +1173,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1592,
+      "end_char": 1623,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -294,7 +1188,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1625,
+      "end_char": 1638,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -302,7 +1203,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1640,
+      "end_char": 1670,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -1,0 +1,1915 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "document_id": "doc_04effa87c6a9639f9be08f54",
+      "document_title": "公开募集证券投资基金投资信用衍生品指引",
+      "applicable_entities": [
+        "公募基金管理人"
+      ],
+      "business_categories": [
+        "信用衍生品",
+        "公募基金"
+      ],
+      "regulatory_topics": [
+        "标的与持仓管理",
+        "风险管理",
+        "信息披露与报送",
+        "估值与定价"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_5697962363d8ed1e6bd764c8",
+      "document_title": "关于加强私募投资基金监管的若干规定",
+      "applicable_entities": [
+        "私募基金管理人"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_f50a0df7503b9a36b508b8d2",
+      "document_title": "关于证券公司证券自营业务投资范围及有关事项的规定(2020年修订)",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "证券自营"
+      ],
+      "regulatory_topics": [
+        "标的与持仓管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0ac36c1b85d83ba63d51c732",
+      "document_title": "基金管理公司子公司管理规定",
+      "applicable_entities": [
+        "基金管理公司及子公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "内部控制与合规",
+        "关联交易"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_cdd905344ae7b9100583103f",
+      "document_title": "基金管理公司特定客户资产管理子公司风险控制指标管理暂行规定",
+      "applicable_entities": [
+        "基金管理公司及子公司"
+      ],
+      "business_categories": [
+        "资产管理"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "资本与风控指标"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_04b98a8f21b1d2f7ad960e63",
+      "document_title": "私募投资基金信息披露监督管理办法",
+      "applicable_entities": [
+        "私募基金管理人"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "信息披露与报送",
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_7dbac8d41bc526b8fcc38865",
+      "document_title": "私募投资基金监督管理暂行办法",
+      "applicable_entities": [
+        "私募基金管理人"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_93722b33a445cc0d99a9ae9a",
+      "document_title": "股票期权交易试点管理办法",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "投资者适当性",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_ac21323dc6a1a7a983758b30",
+      "document_title": "衍生品交易监督管理办法（试行）",
+      "applicable_entities": [
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_d456c4bb1faefac9d3648d47",
+      "document_title": "证券公司业务范围审批暂行规定(2025年修正)",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_60f946f55f41353a286c1dd2",
+      "document_title": "证券公司内部控制指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "内部控制与合规",
+        "清算结算"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_dbb298ab7fabe184d3910e75",
+      "document_title": "证券公司分类评价规定",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "资本与风控指标",
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_edf9eff3ab66d0f96faa6154",
+      "document_title": "证券公司风险控制指标管理办法(2020年修订)",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "资本与风控指标"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_3d832c68af87b758258734f0",
+      "document_title": "证券公司风险控制指标计算标准规定",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "资本与风控指标",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_3e4eb50900b879c50b0545d6",
+      "document_title": "证券期货投资者适当性管理办法(2022年修正)",
+      "applicable_entities": [
+        "投资者"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_1428029fdd940bf284dc590b",
+      "document_title": "证券期货经营机构私募资产管理业务管理办法",
+      "applicable_entities": [
+        "证券期货经营机构"
+      ],
+      "business_categories": [
+        "私募资产管理",
+        "资产管理"
+      ],
+      "regulatory_topics": [
+        "产品募集与运作",
+        "信息披露与报送",
+        "风险管理",
+        "清算结算"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_c48bf38da25f51a613b261b8",
+      "document_title": "证券期货经营机构私募资产管理计划运作管理规定",
+      "applicable_entities": [
+        "证券期货经营机构"
+      ],
+      "business_categories": [
+        "私募资产管理",
+        "资产管理"
+      ],
+      "regulatory_topics": [
+        "内部控制与合规",
+        "产品募集与运作"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4c9c17c2cbd511c81d89a20f",
+      "document_title": "私募投资基金备案指引第1号——私募证券投资基金",
+      "applicable_entities": [
+        "私募基金管理人"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_68adbdaba103dc576240211c",
+      "document_title": "私募投资基金登记备案办法",
+      "applicable_entities": [
+        "私募基金管理人"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "信息披露与报送",
+        "关联交易",
+        "清算结算"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_e2c5c313dcec6a22c1d431f7",
+      "document_title": "私募证券投资基金运作指引",
+      "applicable_entities": [
+        "私募基金管理人"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "产品募集与运作"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_951c7d3b2fbdc5570069c2a8",
+      "document_title": "证券投资基金投资信用衍生品估值指引(试行)",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "估值与定价"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_48fcdc30f89e0b38cc0bc821",
+      "document_title": "证券期货经营机构私募资产管理计划备案办法",
+      "applicable_entities": [
+        "证券期货经营机构"
+      ],
+      "business_categories": [
+        "私募资产管理",
+        "资产管理"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "关联交易"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_01caf159025c8afcb451c514",
+      "document_title": "中国证券期货市场场外衍生品交易商品衍生品定义文件（2015年版）",
+      "applicable_entities": [
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "商品衍生品",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4da41553856c16155149f89d",
+      "document_title": "中国证券期货市场场外衍生品交易权益类衍生品定义文件（2014年版）",
+      "applicable_entities": [
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理",
+        "估值与定价"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_d875c3ce729703dba2da25c7",
+      "document_title": "中国证券期货市场衍生品交易主协议",
+      "applicable_entities": [
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_49fa45af6688c0561b4c6292",
+      "document_title": "中国证券期货市场衍生品交易主协议(信用保护合约专用版)备案指引",
+      "applicable_entities": [
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "信用衍生品",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_c690621bbbf5d83d3ea90053",
+      "document_title": "关于加强场外衍生品业务自律管理的通知",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_5ee5e9a1b631d3c915cbb899",
+      "document_title": "场外证券业务备案管理办法",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_13136520622b62b0df62c703",
+      "document_title": "衍生品估值报告内容与格式指引",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "估值与定价",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_eed3472cb61f7ba0ab26e865",
+      "document_title": "证券公司信用风险管理指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_6d42e40dcd32a41ec614f4b7",
+      "document_title": "证券公司全面风险管理规范",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "内部控制与合规"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_b078cc87d172ec3c74cc4cf9",
+      "document_title": "证券公司压力测试指引(2023年修订)",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "压力测试",
+        "估值与定价"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0fa9125a6f4154172eb568aa",
+      "document_title": "证券公司合规管理实施指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "内部控制与合规"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_975dce3ddc677fa596ef6165",
+      "document_title": "证券公司场外期权业务二级交易商备案须知",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "场外期权",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4a4a6316e6bc753138838a6c",
+      "document_title": "证券公司场外期权业务数据报送须知",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "场外期权",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_9a71e08de254cc3eb23edddf",
+      "document_title": "证券公司场外期权业务标的管理须知",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "场外期权",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "标的与持仓管理",
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_f69dc587439be8350ab6d755",
+      "document_title": "证券公司场外期权业务管理办法",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "场外期权",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_8ca6804940739b6fa8b8ca2f",
+      "document_title": "证券公司投资者权益保护工作规范",
+      "applicable_entities": [
+        "证券公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "投资者保护",
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_2122b7a4277ff85118abcb3c",
+      "document_title": "证券公司操作风险管理指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_71c8a7bd5b609890bc4091d7",
+      "document_title": "证券公司收益互换业务管理办法",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "收益互换",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "投资者适当性",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_f60b42e2431ae1999420af72",
+      "document_title": "证券公司收益凭证信息披露指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "收益凭证"
+      ],
+      "regulatory_topics": [
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_5db4b17db4de67a2557829de",
+      "document_title": "证券公司收益凭证发行备案与信息报送指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "收益凭证"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_fa22ddd421c758426eb71d33",
+      "document_title": "证券公司收益凭证发行管理办法",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "收益凭证"
+      ],
+      "regulatory_topics": [
+        "产品募集与运作"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_e7ff46520febe0d0b7284c0c",
+      "document_title": "证券公司柜台交易业务规范",
+      "applicable_entities": [
+        "证券公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "产品募集与运作",
+        "保证金与履约保障",
+        "清算结算",
+        "信息披露与报送",
+        "内部控制与合规",
+        "风险管理",
+        "投资者适当性",
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "依据用户提供的完整正文及适用范围分类"
+    },
+    {
+      "document_id": "doc_60dcd7e7e6867844c53435de",
+      "document_title": "证券公司柜台市场管理办法(试行)",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "柜台市场"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_7e1ec4e268f69b6a9c129a2a",
+      "document_title": "证券公司金融工具估值指引（2025年修订）",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "估值与定价"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_892e2bccbae5ed8f55a12e90",
+      "document_title": "证券公司金融衍生品柜台交易风险管理指引",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "柜台市场",
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_7432736945daebc9d418106b",
+      "document_title": "证券经营机构投资者适当性管理实施指引(试行)",
+      "applicable_entities": [
+        "投资者"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_9fdab235b6fbe935b82ba694",
+      "document_title": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "清算结算",
+        "交易规则",
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_578fbc34454f5fa2d8e74568",
+      "document_title": "上海证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引",
+      "applicable_entities": [
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "清算结算",
+        "交易规则",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_e52ac4a6612915d063e678d8",
+      "document_title": "上海证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "清算结算",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_2beabfc0a56dd7399260bba1",
+      "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+      "applicable_entities": [
+        "上市公司"
+      ],
+      "business_categories": [
+        "证券交易"
+      ],
+      "regulatory_topics": [
+        "关联交易",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_72274037b208eb81b6e0eaca",
+      "document_title": "上海证券交易所信用保护工具交易业务指引(2022年修订)",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_60a7549b0fc0fbbd8285e0c5",
+      "document_title": "上海证券交易所期货公司股票期权经纪业务指南（2026年修订）",
+      "applicable_entities": [
+        "期货公司及风险管理公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "投资者适当性",
+        "保证金与履约保障",
+        "清算结算",
+        "内部控制与合规",
+        "风险管理",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-19",
+      "classification_basis": "依据法规名称、适用主体及官方发布信息分类；正文待补充"
+    },
+    {
+      "document_id": "doc_2392a7d24473c4d7c1cad449",
+      "document_title": "上海证券交易所股票期权试点交易规则",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "投资者适当性",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_8f5919c2e50ecae7b0b4b960",
+      "document_title": "上海证券交易所股票期权试点做市商业务指引(2015年修订)",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "做市商管理",
+        "交易规则"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_5ba264600f965c2606eb1d27",
+      "document_title": "上海证券交易所股票期权试点投资者适当性管理指引(2017年修订)",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_118c809698d6296cd6f80188",
+      "document_title": "上海证券交易所证券交易规则适用指引第1号——合格境外机构投资者和人民币合格境外机构投资者",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "境外机构投资者"
+      ],
+      "business_categories": [
+        "证券交易"
+      ],
+      "regulatory_topics": [
+        "跨境与互联互通",
+        "交易规则",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0dfd4bf3228c59db6404e766",
+      "document_title": "上海证券交易所证券公司股票期权经纪业务指南（2026年修订）",
+      "applicable_entities": [
+        "证券公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "投资者适当性",
+        "保证金与履约保障",
+        "清算结算",
+        "内部控制与合规",
+        "风险管理",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-19",
+      "classification_basis": "依据法规名称、适用主体及官方发布信息分类；正文待补充"
+    },
+    {
+      "document_id": "doc_bdf69a192a6b54d48ec3ff78",
+      "document_title": "上海证券交易所证券公司股票期权自营业务指南",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "保证金与履约保障",
+        "清算结算",
+        "内部控制与合规",
+        "风险管理",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-19",
+      "classification_basis": "依据法规名称、适用主体及官方发布信息分类；正文待补充"
+    },
+    {
+      "document_id": "doc_950c9084bac0433616b34ff9",
+      "document_title": "股票期权风险揭示书必备条款",
+      "applicable_entities": [
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "投资者保护",
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_2a2d2c6d09a73b3d38962ec6",
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "清算结算",
+        "交易规则",
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_6f2ad6aa7e5a168602a7966e",
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引",
+      "applicable_entities": [
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "清算结算",
+        "交易规则",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4f3cae525cbb948e416bc286",
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "清算结算",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_3a6573b5b9990ec27fe6bfe3",
+      "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+      "applicable_entities": [
+        "上市公司"
+      ],
+      "business_categories": [
+        "证券交易"
+      ],
+      "regulatory_topics": [
+        "关联交易",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_680262c6f4d4ce0f2c04ae15",
+      "document_title": "深圳证券交易所信用保护工具业务指引(2022年修订)",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "投资者适当性",
+        "信息披露与报送",
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_ab8389cf77ed6121cd67684d",
+      "document_title": "深圳证券交易所股票期权试点交易规则",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "投资者适当性",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_2dd25ed1c44eae7a4dbd66e8",
+      "document_title": "深圳证券交易所股票期权试点做市商业务指南(2025年修订)",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "做市商管理",
+        "风险管理",
+        "保证金与履约保障",
+        "内部控制与合规"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_5100520baad8de14717e4783",
+      "document_title": "深圳证券交易所股票期权试点合约条款管理指引",
+      "applicable_entities": [
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_ae3d0612564aaa75db43c924",
+      "document_title": "深圳证券交易所股票期权试点投资者适当性管理指引",
+      "applicable_entities": [
+        "交易所会员及市场参与人",
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "投资者适当性",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_882ebb027943f57fe0e8cc87",
+      "document_title": "深圳证券交易所股票期权试点期货公司经纪业务指南（2026年修订）",
+      "applicable_entities": [
+        "期货公司及风险管理公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "投资者适当性",
+        "保证金与履约保障",
+        "清算结算",
+        "内部控制与合规",
+        "风险管理",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-19",
+      "classification_basis": "依据法规名称、适用主体及官方发布信息分类；正文待补充"
+    },
+    {
+      "document_id": "doc_62be687809d4f07a23bb2e96",
+      "document_title": "深圳证券交易所股票期权试点证券公司经纪业务指南（2026年修订）",
+      "applicable_entities": [
+        "证券公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "投资者适当性",
+        "保证金与履约保障",
+        "清算结算",
+        "内部控制与合规",
+        "风险管理",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-19",
+      "classification_basis": "依据法规名称、适用主体及官方发布信息分类；正文待补充"
+    },
+    {
+      "document_id": "doc_b2564c4b9418360e21a2f1b9",
+      "document_title": "深圳证券交易所股票期权试点证券公司自营业务指南",
+      "applicable_entities": [
+        "证券公司"
+      ],
+      "business_categories": [
+        "股票期权"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易与合约管理",
+        "保证金与履约保障",
+        "清算结算",
+        "内部控制与合规",
+        "风险管理",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-19",
+      "classification_basis": "依据法规名称、适用主体及官方发布信息分类；正文待补充"
+    },
+    {
+      "document_id": "doc_30c904ae88415de15c32a215",
+      "document_title": "期货公司风险管理公司业务试点指引",
+      "applicable_entities": [
+        "期货公司及风险管理公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "投资者适当性",
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_c80eb846f2b4136a339dae92",
+      "document_title": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则（试行）",
+      "applicable_entities": [
+        "期货公司及风险管理公司"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4d3c337336638ef7bb8bac35",
+      "document_title": "期货风险管理公司衍生品交易业务管理规则",
+      "applicable_entities": [
+        "期货公司及风险管理公司"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "交易规则",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0297598a63f859c5dd28f529",
+      "document_title": "保险资产管理产品管理暂行办法",
+      "applicable_entities": [
+        "保险机构及保险资管"
+      ],
+      "business_categories": [
+        "资产管理",
+        "保险资管"
+      ],
+      "regulatory_topics": [
+        "产品募集与运作",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_2f5de73d54346c4bffde8559",
+      "document_title": "保险资金参与金融衍生产品交易办法",
+      "applicable_entities": [
+        "保险机构及保险资管"
+      ],
+      "business_categories": [
+        "保险资管"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_40efac9f02f60d69669c6748",
+      "document_title": "信托公司管理办法(2025年9月修订)",
+      "applicable_entities": [
+        "信托公司"
+      ],
+      "business_categories": [
+        "信托业务"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "关联交易",
+        "清算结算",
+        "内部控制与合规"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_d80a0090f706453315f77ce0",
+      "document_title": "关于进一步规范商业银行结构性存款业务的通知",
+      "applicable_entities": [
+        "商业银行"
+      ],
+      "business_categories": [
+        "结构性存款"
+      ],
+      "regulatory_topics": [
+        "产品募集与运作",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_53a579ede6b18bcebd71e750",
+      "document_title": "商业银行市场风险管理办法",
+      "applicable_entities": [
+        "商业银行"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_cbb8fea1d402a7ed711cfa2c",
+      "document_title": "商业银行托管业务监督管理办法(试行)",
+      "applicable_entities": [
+        "商业银行"
+      ],
+      "business_categories": [
+        "资产托管"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚",
+        "托管管理",
+        "信息披露与报送",
+        "估值与定价"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_b49f89a86d230228391a766a",
+      "document_title": "商业银行流动性风险管理办法",
+      "applicable_entities": [
+        "商业银行"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "保证金与履约保障",
+        "清算结算"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_b44a9d61a3b595c4675ed29b",
+      "document_title": "商业银行理财业务监督管理办法",
+      "applicable_entities": [
+        "商业银行",
+        "银行理财机构"
+      ],
+      "business_categories": [
+        "银行理财"
+      ],
+      "regulatory_topics": [
+        "产品募集与运作",
+        "监督管理与处罚",
+        "信息披露与报送",
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_bdfb90527f46fe7050440e15",
+      "document_title": "商业银行理财子公司管理办法",
+      "applicable_entities": [
+        "商业银行",
+        "银行理财机构"
+      ],
+      "business_categories": [
+        "银行理财"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_6cd311d0b37985b0fd973a2e",
+      "document_title": "商业银行资本管理办法",
+      "applicable_entities": [
+        "商业银行"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "资本与风控指标",
+        "信息披露与报送",
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_9b7d2237295b4f25c6c77fbf",
+      "document_title": "组合类保险资产管理产品实施细则",
+      "applicable_entities": [
+        "保险机构及保险资管"
+      ],
+      "business_categories": [
+        "资产管理",
+        "保险资管"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_7892b83235d8ee5695cb306e",
+      "document_title": "金融机构产品适当性管理办法",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "投资者适当性"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0be504993eb89c2d2aced80a",
+      "document_title": "金融机构非集中清算衍生品交易保证金管理办法",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "保证金与履约保障",
+        "清算结算"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_e6be6eeeb035ed5f6216c241",
+      "document_title": "银行业金融机构衍生产品交易业务管理暂行办法",
+      "applicable_entities": [
+        "商业银行",
+        "金融机构"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_6a87f96c90352834c9c9ee68",
+      "document_title": "Shibor利率互换定盘(收盘)曲线报价规则",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "估值与定价",
+        "交易规则"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_9fa2a0c832c7b6505a74d692",
+      "document_title": "中华人民共和国期货和衍生品法",
+      "applicable_entities": [
+        "衍生品交易参与者",
+        "金融机构"
+      ],
+      "business_categories": [
+        "场外衍生品",
+        "商品衍生品"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0c2ba098d2a564fe1e7d3c2e",
+      "document_title": "中华人民共和国证券投资基金法",
+      "applicable_entities": [
+        "公募基金管理人",
+        "私募基金管理人",
+        "金融机构"
+      ],
+      "business_categories": [
+        "公募基金"
+      ],
+      "regulatory_topics": [
+        "信息披露与报送",
+        "清算结算",
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_c4fca172634cc59106f2bfc6",
+      "document_title": "中华人民共和国证券法",
+      "applicable_entities": [
+        "证券公司",
+        "上市公司",
+        "投资者",
+        "交易所会员及市场参与人"
+      ],
+      "business_categories": [
+        "证券交易"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_6acf3282f041a6b3ce85d1fb",
+      "document_title": "中国场外信用衍生产品交易基本术语与适用规则（2022年版）",
+      "applicable_entities": [
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_d6958eb9b47a1e2db646abd2",
+      "document_title": "中国银行间市场利率衍生产品交易定义文件（2022年版）",
+      "applicable_entities": [
+        "银行间市场成员",
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_63e7a9402494a3983e4c4806",
+      "document_title": "中国银行间市场金融衍生产品交易主协议（2009年版）",
+      "applicable_entities": [
+        "银行间市场成员",
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_75c1cb9b707848f58b2a91d4",
+      "document_title": "中国银行间市场金融衍生产品交易主协议（凭证特别版）",
+      "applicable_entities": [
+        "银行间市场成员",
+        "衍生品交易参与者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_e7726e8fe4e3b29976a70af0",
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "applicable_entities": [
+        "银行间市场成员",
+        "衍生品交易参与者",
+        "境外机构投资者"
+      ],
+      "business_categories": [
+        "场外衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理",
+        "跨境与互联互通"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_b0158a0b05d79db1aedaca73",
+      "document_title": "中国银行间市场金融衍生产品交易转让式履约保障文件（变动保证金-2025年版）",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_b286ab7f452211fbb2b04002",
+      "document_title": "人民币利率互换集中清算合约移仓交易业务指引",
+      "applicable_entities": [
+        "银行间市场成员",
+        "金融基础设施"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "清算结算",
+        "交易规则"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_5f55756c520aba6de66edaa9",
+      "document_title": "债券远期交易保证金集中管理操作细则",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "债券远期"
+      ],
+      "regulatory_topics": [
+        "保证金与履约保障",
+        "交易规则"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_b856e444bd5981dd572c6592",
+      "document_title": "全国银行间债券市场债券远期交易规则",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "债券远期"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "保证金与履约保障"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_f379ed43c4cb26f83637c1f9",
+      "document_title": "全国银行间同业拆借中心信用风险缓释工具交易规则",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "风险管理",
+        "交易规则"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_2a8c7471635c7d69096012f6",
+      "document_title": "全国银行间同业拆借中心标准利率互换交易规则",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "清算结算"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_90f8ff34de4a6577fde8e1bf",
+      "document_title": "关于人民币利率互换交易备案有关事项的通知",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_83e61ea2abbebac9146089d5",
+      "document_title": "关于规范金融机构资产管理业务的指导意见",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "资产管理"
+      ],
+      "regulatory_topics": [
+        "投资者适当性",
+        "信息披露与报送"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4eac63d1b911cf67e7824c5d",
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "applicable_entities": [
+        "金融机构"
+      ],
+      "business_categories": [
+        "资产管理"
+      ],
+      "regulatory_topics": [
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_375c9616a6d51bdc6337187f",
+      "document_title": "内地与香港利率互换市场互联互通合作清算衍生品协议（2024年版）",
+      "applicable_entities": [
+        "银行间市场成员",
+        "境外机构投资者"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "交易与合约管理",
+        "清算结算",
+        "跨境与互联互通"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_d5e5e05217da1bbf1d708692",
+      "document_title": "私募投资基金监督管理条例",
+      "applicable_entities": [
+        "私募基金管理人",
+        "投资者"
+      ],
+      "business_categories": [
+        "私募基金"
+      ],
+      "regulatory_topics": [
+        "内部控制与合规",
+        "监督管理与处罚",
+        "业务准入与备案"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_4e1772e439d9351f0f4301c1",
+      "document_title": "证券公司监督管理条例(2014修订)",
+      "applicable_entities": [
+        "证券公司",
+        "投资者"
+      ],
+      "business_categories": [
+        "综合监管"
+      ],
+      "regulatory_topics": [
+        "内部控制与合规",
+        "监督管理与处罚"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_0b2bdb7c419f14be50713f93",
+      "document_title": "银行间外汇市场标准化人民币外汇远期掉期业务指南",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "外汇衍生品"
+      ],
+      "regulatory_topics": [
+        "交易规则",
+        "交易与合约管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_d9cd261227aabb763daa486a",
+      "document_title": "银行间市场信用风险缓释工具业务规则(2025年版)",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "信用衍生品"
+      ],
+      "regulatory_topics": [
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    },
+    {
+      "document_id": "doc_72a49ded28ec375d2f9d748b",
+      "document_title": "中国人民银行公告[2007]第20号:远期利率协议业务管理规定",
+      "applicable_entities": [
+        "银行间市场成员"
+      ],
+      "business_categories": [
+        "利率衍生品"
+      ],
+      "regulatory_topics": [
+        "业务准入与备案",
+        "交易规则",
+        "风险管理"
+      ],
+      "classification_version": "2026-07-18",
+      "classification_basis": "标题、适用范围及完整Chunk正文综合判断"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司风险控制指标管理办法(2020年修订).pdf",
   "source_type": "pdf",
   "file_sha256": "ab94cda4e843644c18f1c283c2d4a44811e01dfcbd0d3428c4d79d84dfd74110",
-  "content_sha256": "1cf1ca69ed9c5c1fc586d332e8dd6700f2beeeb67e44ae785de98df58b2823cc",
+  "content_sha256": "afd7294890bdc8924086535ed23adca846475b6d88571ed899f91b64abe70a5f",
   "metadata": {
     "document_title": "证券公司风险控制指标管理办法(2020年修订)",
     "issuing_authority": "中国证券监督管理委员会",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "1853199703064d58c1d7a073e5cf9bd6bf20b7981ab2fc600a0aa5c507c6fa3a",
     "clean_text_sha256": "1853199703064d58c1d7a073e5cf9bd6bf20b7981ab2fc600a0aa5c507c6fa3a",
@@ -113,6 +113,1719 @@
   },
   "original_text_sha256": "1853199703064d58c1d7a073e5cf9bd6bf20b7981ab2fc600a0aa5c507c6fa3a",
   "clean_text_sha256": "1853199703064d58c1d7a073e5cf9bd6bf20b7981ab2fc600a0aa5c507c6fa3a",
+  "clean_text_hash": "d8062caccb9defe62f13f03db1e8ddaf1dab26f4830f211ca53126d6359eb178",
+  "structured_blocks_sha256": "1c966dbf15ec018191996516413980d1021b3793cb58fca9efc2f26b6a203be8",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "证券公司风险控制指标管理办法(2006 年 7 月 20 日证监会令第 34 号公布 根据 2008 年 6月 24 日证监会令第 55 号《关于修改<证券公司风险控制指标管理办法>的决定》第一次修订 根据 2016 年 6 月 16 日证监会令第 125 号《关于修改<证券公司风险控制指标管理办法>的决定》第二次修订 根据 2020 年 3 月 20 日证监会令第 166 号《关于修改部分证券期货规章的决定》第三次修订)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 215,
+      "end_char": 222,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为了建立以净资本和流动性为核心的风险控制指标体系,加强证券公司风险监管,督促证券公司加强内部控制、提升风险管理水平、防范风险,根据《证券法》等有关法律、行政法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 224,
+      "end_char": 315,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 证券公司应当按照中国证券监督管理委员会(以下简称中国证监会)的有关规定,遵循审慎、实质重于形式的原则,计算净资本、风险覆盖率、资本杠杆率、流动性覆盖率、净稳定资金率等各项风险控制指标,编制净资本计算表、风险资本准备计算表、表内外资产总额计算表、流动性覆盖率计算表、净稳定资金率计算表、风险控制指标计算表等监管报表(以下统称风险控制指标监管报表)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 317,
+      "end_char": 494,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 中国证监会可以根据市场发展情况和审慎监管原则,对各项风险控制指标标准及计算要求进行动态调整;调整之前,应当公开征求行业意见,并为调整事项的实施作出过渡性安排。对于未规定风险控制指标标准及计算要求的新产品、新业务,证券公司在投资该产品或者开展该业务前,应当按照规定事先向中国证监会、公司注册地的中国证监会派出机构(以下简称派出机构)报告或者报批。中国证监会根据证券公司新产品、新业务的特点和风险状况,在征求行业意见基础上确定相应的风险控制指标标准及计算要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 496,
+      "end_char": 728,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 中国证监会可以按照分类监管原则,根据证券公司的治理结构、内控水平和风险控制情况,对不同类别公司的风险控制指标标准和计算要求,以及某项业务的风险资本准备计算比例进行动态调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 730,
+      "end_char": 820,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 中国证监会及其派出机构应当对证券公司净资本等各项风险控制指标数据的生成过程及计算结果的真实性、准确性、完整性进行定期或者不定期检查。中国证监会及其派出机构可以根据监管需要,要求证券公司聘请符合《证券法》规定的会计师事务所对其风险控制指标监管报表进行审计。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 822,
+      "end_char": 953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 证券公司应当根据中国证监会有关规定建立符合自身发展战略需要的全面风险管理体系。证券公司应当将所有子公司以及比照子公司管理的各类孙公司纳入全面风险管理体系,强化分支机构风险管理,实现风险管理全覆盖。全面风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。证券公司应当任命一名具有风险管理相关专业背景、任职经历、履职能力的高级管理人员为首席风险官,由其负责全面风险管理工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 955,
+      "end_char": 1183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第七条 证券公司应当根据自身资产负债状况和业务发展情况,建立动态的风险控制指标监控和资本补足机制,确保净资本等各项风险控制指标在任一时点都符合规定标准。证券公司应当在发生重大业务事项及分配利润前对风险控制指标进行压力测试,合理确定有关业务及分配利润的最大规模。证券公司应当建立健全压力测试机制,及时根据市场变化情况及监管部门要求,对公司风险控制指标进行压力测试。压力测试结果显示风险超过证券公司自身承受能力范围的,证券公司应采取措施控制业务规模或降低风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1185,
+      "end_char": 1413,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 证券公司应当聘请符合《证券法》规定的会计师事务所对其年度风险控制指标监管报表进行审计。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1415,
+      "end_char": 1462,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 会计师事务所及其注册会计师应当勤勉尽责,对证券公司风险控制指标监管报表的真实性、准确性、完整性进行审计,并发表恰当的审计意见。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1464,
+      "end_char": 1531,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "chapter",
+      "text": "第二章 净资本及其计算",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1533,
+      "end_char": 1544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十条 证券公司净资本由核心净资本和附属净资本构成。其中:核心净资本=净资产-资产项目的风险调整-或有负债的风险调整-/+中国证监会认定或核准的其他调整项目。附属净资本=长期次级债×规定比例-/+中国证监会认定或核准的其他调整项目。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1546,
+      "end_char": 1662,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十一条 证券公司应当按照中国证监会规定的证券公司净资本计算标准计算净资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1664,
+      "end_char": 1702,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十二条 证券公司计算核心净资本时,应当按照规定对有关项目充分计提资产减值准备。中国证监会及其派出机构可以要求公司专项说明资产减值准备提取的充足性和合理性。有证据表明公司未充分计提资产减值准备的,中国证监会及其派出机构可以责令公司整改并追究相关人员责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1704,
+      "end_char": 1831,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十三条 证券公司应当根据公司期末或有事项的性质(如未决诉讼、未决仲裁、对外提供担保等)、涉及金额、形成原因和进展情况、可能发生的损失和预计损失进行相应会计处理。对于很可能导致经济利益流出公司的或有事项,应当确认预计负债;对于未确认预计负债,但仍可能导致经济利益流出公司的或有事项,在计算核心净资本时,应当作为或有负债,按照一定比例在净资本中予以扣减,并在净资本计算表的附注中披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1833,
+      "end_char": 2024,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十四条 证券公司对控股证券业务子公司出具承诺书提供担保承诺的,应当按照担保承诺金额的一定比例扣减核心净资本。从事证券承销与保荐、证券资产管理业务等中国证监会认可的子公司可以将母公司提供的担保承诺按照一定比例计入核心净资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2026,
+      "end_char": 2138,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十五条 证券公司向股东或机构投资者借入或发行的次级债,可以按照一定比例计入附属净资本或扣减风险资本准备。具体规定由中国证监会另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2140,
+      "end_char": 2208,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "chapter",
+      "text": "第三章 风险控制指标标准",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2210,
+      "end_char": 2222,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十六条 证券公司经营证券经纪业务的,其净资本不得低于人民币 2000 万元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 5000 万元。证券公司经营证券经纪业务,同时经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 1 亿元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务中两项及两项以上的,其净资本不得低于人民币 2亿元。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2224,
+      "end_char": 2447,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十七条 证券公司必须持续符合下列风险控制指标标准:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2449,
+      "end_char": 2475,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)风险覆盖率不得低于 100%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2477,
+      "end_char": 2495,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)资本杠杆率不得低于 8%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2497,
+      "end_char": 2513,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)流动性覆盖率不得低于 100%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2515,
+      "end_char": 2534,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(四)净稳定资金率不得低于 100%;其中:风险覆盖率=净资本/各项风险资本准备之和×100%;资本杠杆率=核心净资本/表内外资产总额×100%;流动性覆盖率=优质流动性资产/未来 30 天现金净流出量×100%;净稳定资金率=可用稳定资金/所需稳定资金×100%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2536,
+      "end_char": 2669,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当按照中国证监会规定的证券公司风险资本准备计算标准计算市场风险、信用风险、操作风险资本准备。中国证监会可以根据特定产品或业务的风险特征,以及监督检查结果,要求证券公司计算特定风险资本准备。市场风险资本准备按照各类金融工具市场风险特征的不同,用投资规模乘以风险系数计算;信用风险资本准备按照各表内外项目信用风险程度的不同,用资产规模乘以风险系数计算;操作风险资本准备按照各项业务收入的一定比例计算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2671,
+      "end_char": 2879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "证券公司可以采取内部模型法等风险计量高级方法计算风险资本准备,具体规定由中国证监会另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2881,
+      "end_char": 2927,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十九条 证券公司经营证券自营业务、为客户提供融资或融券服务的,应当符合中国证监会对该项业务的风险控制指标标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2929,
+      "end_char": 2985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第二十条 证券公司可以结合自身实际情况,在不低于中国证监会规定标准的基础上,确定相应的风险控制指标标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2987,
+      "end_char": 3039,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十一条 中国证监会对各项风险控制指标设置预警标准,对于规定“不得低于”一定标准的风险控制指标,其预警标准是规定标准的 120%;对于规定“不得超过”一定标准的风险控制指标,其预警标准是规定标准的 80%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3041,
+      "end_char": 3145,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "chapter",
+      "text": "第四章 编制和披露",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3147,
+      "end_char": 3156,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十二条 设有子公司的证券公司应当以母公司数据为基础,编制风险控制指标监管报表。中国证监会及其派出机构可以根据监管需要,要求证券公司以合并数据为基础编制风险控制指标监管报表。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3158,
+      "end_char": 3246,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第二十三条 证券公司的董事、高级管理人员应当对公司半年度、年度风险控制指标监管报表签署确认意见。证券公司经营管理的主要负责人、首席风险官、财务负责人应当对公司月度风险控制指标监管报表签署确认意见。在证券公司风险控制指标监管报表上签字的人员,应当保证风险控制指标监管报表真实、准确、完整,不存在虚假记载、误导性陈述和重大遗漏;对风险控制指标监管报表内容持有异议的,应当在报表上注明自己的意见和理由。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3248,
+      "end_char": 3446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应当至少每半年经主要负责人、首席风险官签署确认后,向公司全体董事报告一次公司净资本等风险控制指标的具体情况和达标情况;证券公司应当至少每半年经董事会签署确认,向公司全体股东报告一次公司净资本等风险控制指标的具体情况和达标情况,并至少获得主要股东的签收确认证明文件。净资本指标与上月相比发生 20%以上不利变化或不符合规定标准时,证券公司应当在 5 个工作日内向公司全体董事报告,10个工作日内向公司全体股东报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3448,
+      "end_char": 3664,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当在每月结束之日起 7 个工作日内,向中国证监会及其派出机构报送月度风险控制指标监管报表。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3666,
+      "end_char": 3722,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "派出机构可以根据监管需要,要求辖区内单个、部分或者全部证券公司在一定阶段内按周或者按日编制并报送各项风险控制指标监管报表。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3724,
+      "end_char": 3785,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第二十六条 证券公司的净资本等风险控制指标与上月相比发生不利变化超过 20%的,应当在该情形发生之日起 3 个工作日内,向中国证监会及其派出机构报告,说明基本情况和变化原因。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3787,
+      "end_char": 3874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十七条 证券公司的净资本等风险控制指标达到预警标准或者不符合规定标准的,应当分别在该情形发生之日起 3个、1 个工作日内,向中国证监会及其派出机构报告,说明基本情况、问题成因以及解决问题的具体措施和期限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3876,
+      "end_char": 3980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第五章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3982,
+      "end_char": 3990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十八条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了保留意见、带强调事项段或其他事项段无保留意见的,证券公司应当就涉及事项进行专项说明。涉及事项不属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司说明该事项对公司净资本等风险控制指标的影响。涉及事项属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司限期纠正、重新编制风险控制指标监管报表;证券公司未限期纠正的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3992,
+      "end_char": 4262,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十九条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了无法表示意见或者否定意见的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4264,
+      "end_char": 4348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第三十条 证券公司未按照监管部门要求报送风险控制指标监管报表,或者风险控制指标监管报表存在重大错报、漏报以及虚假报送情况,中国证监会及其派出机构可以根据情况采取出具警示函、责令改正、监管谈话、责令处分有关人员等监管措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4350,
+      "end_char": 4460,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第三十一条 证券公司净资本或者其他风险控制指标不符合规定标准的,派出机构应当责令公司限期改正,在 5 个工作日制定并报送整改计划,整改期限最长不超过 20 个工作日;证券公司未按时报送整改计划的,派出机构应当立即限制其业务活动。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4462,
+      "end_char": 4576,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "整改期内,中国证监会及其派出机构应当区别情形,对证券公司采取下列措施:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4578,
+      "end_char": 4613,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(一)停止批准新业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4615,
+      "end_char": 4626,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(二)停止批准增设、收购营业性分支机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4628,
+      "end_char": 4648,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(三)限制分配红利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4650,
+      "end_char": 4660,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(四)限制转让财产或在财产上设定其他权利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4662,
+      "end_char": 4683,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第三十二条 证券公司整改后,经派出机构验收符合有关风险控制指标的,中国证监会及其派出机构应当自验收完毕之日起3 个工作日内解除对其采取的有关措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4685,
+      "end_char": 4758,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第三十三条 证券公司未按期完成整改的,自整改期限到期的次日起,派出机构应当区别情形,对其采取下列措施:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4760,
+      "end_char": 4811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(一)限制业务活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4813,
+      "end_char": 4823,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(二)责令暂停部分业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4825,
+      "end_char": 4837,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(三)限制向董事、监事、高级管理人员支付报酬、提供福利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4839,
+      "end_char": 4867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(四)责令更换董事、监事、高级管理人员或者限制其权利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4869,
+      "end_char": 4896,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(五)责令负有责任的股东转让股权,限制负有责任的股东行使股东权利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4898,
+      "end_char": 4931,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(六)认定负有责任的董事、监事、高级管理人员为不适当人选;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4933,
+      "end_char": 4962,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(七)中国证监会及其派出机构认为有必要采取的其他措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4964,
+      "end_char": 4991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十四条 证券公司未按期完成整改、风险控制指标情况继续恶化,严重危及该证券公司的稳健运行的,中国证监会可以撤销其有关业务许可。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4993,
+      "end_char": 5057,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十五条 证券公司风险控制指标无法达标,严重危害证券市场秩序、损害投资者利益的,中国证监会可以区别情形,对其采取下列措施:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5059,
+      "end_char": 5121,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(一)责令停业整顿;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5123,
+      "end_char": 5133,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(二)指定其他机构托管、接管;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5135,
+      "end_char": 5150,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(三)撤销经营证券业务许可;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5152,
+      "end_char": 5166,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(四)撤销。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5168,
+      "end_char": 5174,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5176,
+      "end_char": 5183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十六条 本办法下列用语的含义:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5185,
+      "end_char": 5202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(一)风险资本准备:指证券公司在开展各项业务等过程中,因市场风险、信用风险、操作风险等可能引起的非预期损失所需要的资本。证券公司应当按照一定标准计算风险资本准备并与净资本建立对应关系,确保风险资本准备有对应的净资本支撑。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5204,
+      "end_char": 5314,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(二)负债:指对外负债,不含代理买卖证券款、信用交易代理买卖证券款、代理承销证券款。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5316,
+      "end_char": 5358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(三)资产:指自有资产,不含客户资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5360,
+      "end_char": 5379,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(四)或有负债:指过去的交易或者事项形成的潜在义务,其存在须通过未来不确定事项的发生或者不发生予以证实;或过去的交易或者事项形成的现时义务,履行该义务不是很可能导致经济利益流出企业或该义务的金额不能可靠计量。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5381,
+      "end_char": 5485,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "(五)表内外资产总额:表内资产余额与表外项目余额之和。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5487,
+      "end_char": 5514,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十七条 本办法自 2006 年 11 月 1 日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5516,
+      "end_char": 5546,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "证券公司风险控制指标管理办法(2006 年 7 月 20 日证监会令第 34 号公布 根据 2008 年 6月 24 日证监会令第 55 号《关于修改<证券公司风险控制指标管理办法>的决定》第一次修订 根据 2016 年 6 月 16 日证监会令第 125 号《关于修改<证券公司风险控制指标管理办法>的决定》第二次修订 根据 2020 年 3 月 20 日证监会令第 166 号《关于修改部分证券期货规章的决定》第三次修订)\n\n第一章 总 则\n\n第一条 为了建立以净资本和流动性为核心的风险控制指标体系,加强证券公司风险监管,督促证券公司加强内部控制、提升风险管理水平、防范风险,根据《证券法》等有关法律、行政法规,制定本办法。\n\n第二条 证券公司应当按照中国证券监督管理委员会(以下简称中国证监会)的有关规定,遵循审慎、实质重于形式的原则,计算净资本、风险覆盖率、资本杠杆率、流动性覆盖率、净稳定资金率等各项风险控制指标,编制净资本计算表、风险资本准备计算表、表内外资产总额计算表、流动性覆盖率计算表、净稳定资金率计算表、风险控制指标计算表等监管报表(以下统称风险控制指标监管报表)。\n\n第三条 中国证监会可以根据市场发展情况和审慎监管原则,对各项风险控制指标标准及计算要求进行动态调整;调整之前,应当公开征求行业意见,并为调整事项的实施作出过渡性安排。对于未规定风险控制指标标准及计算要求的新产品、新业务,证券公司在投资该产品或者开展该业务前,应当按照规定事先向中国证监会、公司注册地的中国证监会派出机构(以下简称派出机构)报告或者报批。中国证监会根据证券公司新产品、新业务的特点和风险状况,在征求行业意见基础上确定相应的风险控制指标标准及计算要求。\n\n第四条 中国证监会可以按照分类监管原则,根据证券公司的治理结构、内控水平和风险控制情况,对不同类别公司的风险控制指标标准和计算要求,以及某项业务的风险资本准备计算比例进行动态调整。\n\n第五条 中国证监会及其派出机构应当对证券公司净资本等各项风险控制指标数据的生成过程及计算结果的真实性、准确性、完整性进行定期或者不定期检查。中国证监会及其派出机构可以根据监管需要,要求证券公司聘请符合《证券法》规定的会计师事务所对其风险控制指标监管报表进行审计。\n\n第六条 证券公司应当根据中国证监会有关规定建立符合自身发展战略需要的全面风险管理体系。证券公司应当将所有子公司以及比照子公司管理的各类孙公司纳入全面风险管理体系,强化分支机构风险管理,实现风险管理全覆盖。全面风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。证券公司应当任命一名具有风险管理相关专业背景、任职经历、履职能力的高级管理人员为首席风险官,由其负责全面风险管理工作。\n\n第七条 证券公司应当根据自身资产负债状况和业务发展情况,建立动态的风险控制指标监控和资本补足机制,确保净资本等各项风险控制指标在任一时点都符合规定标准。证券公司应当在发生重大业务事项及分配利润前对风险控制指标进行压力测试,合理确定有关业务及分配利润的最大规模。证券公司应当建立健全压力测试机制,及时根据市场变化情况及监管部门要求,对公司风险控制指标进行压力测试。压力测试结果显示风险超过证券公司自身承受能力范围的,证券公司应采取措施控制业务规模或降低风险。\n\n第八条 证券公司应当聘请符合《证券法》规定的会计师事务所对其年度风险控制指标监管报表进行审计。\n\n第九条 会计师事务所及其注册会计师应当勤勉尽责,对证券公司风险控制指标监管报表的真实性、准确性、完整性进行审计,并发表恰当的审计意见。\n\n第二章 净资本及其计算\n\n第十条 证券公司净资本由核心净资本和附属净资本构成。其中:核心净资本=净资产-资产项目的风险调整-或有负债的风险调整-/+中国证监会认定或核准的其他调整项目。附属净资本=长期次级债×规定比例-/+中国证监会认定或核准的其他调整项目。\n\n第十一条 证券公司应当按照中国证监会规定的证券公司净资本计算标准计算净资本。\n\n第十二条 证券公司计算核心净资本时,应当按照规定对有关项目充分计提资产减值准备。中国证监会及其派出机构可以要求公司专项说明资产减值准备提取的充足性和合理性。有证据表明公司未充分计提资产减值准备的,中国证监会及其派出机构可以责令公司整改并追究相关人员责任。\n\n第十三条 证券公司应当根据公司期末或有事项的性质(如未决诉讼、未决仲裁、对外提供担保等)、涉及金额、形成原因和进展情况、可能发生的损失和预计损失进行相应会计处理。对于很可能导致经济利益流出公司的或有事项,应当确认预计负债;对于未确认预计负债,但仍可能导致经济利益流出公司的或有事项,在计算核心净资本时,应当作为或有负债,按照一定比例在净资本中予以扣减,并在净资本计算表的附注中披露。\n\n第十四条 证券公司对控股证券业务子公司出具承诺书提供担保承诺的,应当按照担保承诺金额的一定比例扣减核心净资本。从事证券承销与保荐、证券资产管理业务等中国证监会认可的子公司可以将母公司提供的担保承诺按照一定比例计入核心净资本。\n\n第十五条 证券公司向股东或机构投资者借入或发行的次级债,可以按照一定比例计入附属净资本或扣减风险资本准备。具体规定由中国证监会另行制定。\n\n第三章 风险控制指标标准\n\n第十六条 证券公司经营证券经纪业务的,其净资本不得低于人民币 2000 万元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 5000 万元。证券公司经营证券经纪业务,同时经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 1 亿元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务中两项及两项以上的,其净资本不得低于人民币 2亿元。\n\n第十七条 证券公司必须持续符合下列风险控制指标标准:\n\n(一)风险覆盖率不得低于 100%;\n\n(二)资本杠杆率不得低于 8%;\n\n(三)流动性覆盖率不得低于 100%;\n\n(四)净稳定资金率不得低于 100%;其中:风险覆盖率=净资本/各项风险资本准备之和×100%;资本杠杆率=核心净资本/表内外资产总额×100%;流动性覆盖率=优质流动性资产/未来 30 天现金净流出量×100%;净稳定资金率=可用稳定资金/所需稳定资金×100%。\n\n第十八条 证券公司应当按照中国证监会规定的证券公司风险资本准备计算标准计算市场风险、信用风险、操作风险资本准备。中国证监会可以根据特定产品或业务的风险特征,以及监督检查结果,要求证券公司计算特定风险资本准备。市场风险资本准备按照各类金融工具市场风险特征的不同,用投资规模乘以风险系数计算;信用风险资本准备按照各表内外项目信用风险程度的不同,用资产规模乘以风险系数计算;操作风险资本准备按照各项业务收入的一定比例计算。\n\n证券公司可以采取内部模型法等风险计量高级方法计算风险资本准备,具体规定由中国证监会另行制定。\n\n第十九条 证券公司经营证券自营业务、为客户提供融资或融券服务的,应当符合中国证监会对该项业务的风险控制指标标准。\n\n第二十条 证券公司可以结合自身实际情况,在不低于中国证监会规定标准的基础上,确定相应的风险控制指标标准。\n\n第二十一条 中国证监会对各项风险控制指标设置预警标准,对于规定“不得低于”一定标准的风险控制指标,其预警标准是规定标准的 120%;对于规定“不得超过”一定标准的风险控制指标,其预警标准是规定标准的 80%。\n\n第四章 编制和披露\n\n第二十二条 设有子公司的证券公司应当以母公司数据为基础,编制风险控制指标监管报表。中国证监会及其派出机构可以根据监管需要,要求证券公司以合并数据为基础编制风险控制指标监管报表。\n\n第二十三条 证券公司的董事、高级管理人员应当对公司半年度、年度风险控制指标监管报表签署确认意见。证券公司经营管理的主要负责人、首席风险官、财务负责人应当对公司月度风险控制指标监管报表签署确认意见。在证券公司风险控制指标监管报表上签字的人员,应当保证风险控制指标监管报表真实、准确、完整,不存在虚假记载、误导性陈述和重大遗漏;对风险控制指标监管报表内容持有异议的,应当在报表上注明自己的意见和理由。\n\n第二十四条 证券公司应当至少每半年经主要负责人、首席风险官签署确认后,向公司全体董事报告一次公司净资本等风险控制指标的具体情况和达标情况;证券公司应当至少每半年经董事会签署确认,向公司全体股东报告一次公司净资本等风险控制指标的具体情况和达标情况,并至少获得主要股东的签收确认证明文件。净资本指标与上月相比发生 20%以上不利变化或不符合规定标准时,证券公司应当在 5 个工作日内向公司全体董事报告,10个工作日内向公司全体股东报告。\n\n第二十五条 证券公司应当在每月结束之日起 7 个工作日内,向中国证监会及其派出机构报送月度风险控制指标监管报表。\n\n派出机构可以根据监管需要,要求辖区内单个、部分或者全部证券公司在一定阶段内按周或者按日编制并报送各项风险控制指标监管报表。\n\n第二十六条 证券公司的净资本等风险控制指标与上月相比发生不利变化超过 20%的,应当在该情形发生之日起 3 个工作日内,向中国证监会及其派出机构报告,说明基本情况和变化原因。\n\n第二十七条 证券公司的净资本等风险控制指标达到预警标准或者不符合规定标准的,应当分别在该情形发生之日起 3个、1 个工作日内,向中国证监会及其派出机构报告,说明基本情况、问题成因以及解决问题的具体措施和期限。\n\n第五章 监督管理\n\n第二十八条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了保留意见、带强调事项段或其他事项段无保留意见的,证券公司应当就涉及事项进行专项说明。涉及事项不属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司说明该事项对公司净资本等风险控制指标的影响。涉及事项属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司限期纠正、重新编制风险控制指标监管报表;证券公司未限期纠正的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。\n\n第二十九条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了无法表示意见或者否定意见的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。\n\n第三十条 证券公司未按照监管部门要求报送风险控制指标监管报表,或者风险控制指标监管报表存在重大错报、漏报以及虚假报送情况,中国证监会及其派出机构可以根据情况采取出具警示函、责令改正、监管谈话、责令处分有关人员等监管措施。\n\n第三十一条 证券公司净资本或者其他风险控制指标不符合规定标准的,派出机构应当责令公司限期改正,在 5 个工作日制定并报送整改计划,整改期限最长不超过 20 个工作日;证券公司未按时报送整改计划的,派出机构应当立即限制其业务活动。\n\n整改期内,中国证监会及其派出机构应当区别情形,对证券公司采取下列措施:\n\n(一)停止批准新业务;\n\n(二)停止批准增设、收购营业性分支机构;\n\n(三)限制分配红利;\n\n(四)限制转让财产或在财产上设定其他权利。\n\n第三十二条 证券公司整改后,经派出机构验收符合有关风险控制指标的,中国证监会及其派出机构应当自验收完毕之日起3 个工作日内解除对其采取的有关措施。\n\n第三十三条 证券公司未按期完成整改的,自整改期限到期的次日起,派出机构应当区别情形,对其采取下列措施:\n\n(一)限制业务活动;\n\n(二)责令暂停部分业务;\n\n(三)限制向董事、监事、高级管理人员支付报酬、提供福利;\n\n(四)责令更换董事、监事、高级管理人员或者限制其权利;\n\n(五)责令负有责任的股东转让股权,限制负有责任的股东行使股东权利;\n\n(六)认定负有责任的董事、监事、高级管理人员为不适当人选;\n\n(七)中国证监会及其派出机构认为有必要采取的其他措施。\n\n第三十四条 证券公司未按期完成整改、风险控制指标情况继续恶化,严重危及该证券公司的稳健运行的,中国证监会可以撤销其有关业务许可。\n\n第三十五条 证券公司风险控制指标无法达标,严重危害证券市场秩序、损害投资者利益的,中国证监会可以区别情形,对其采取下列措施:\n\n(一)责令停业整顿;\n\n(二)指定其他机构托管、接管;\n\n(三)撤销经营证券业务许可;\n\n(四)撤销。\n\n第六章 附 则\n\n第三十六条 本办法下列用语的含义:\n\n(一)风险资本准备:指证券公司在开展各项业务等过程中,因市场风险、信用风险、操作风险等可能引起的非预期损失所需要的资本。证券公司应当按照一定标准计算风险资本准备并与净资本建立对应关系,确保风险资本准备有对应的净资本支撑。\n\n(二)负债:指对外负债,不含代理买卖证券款、信用交易代理买卖证券款、代理承销证券款。\n\n(三)资产:指自有资产,不含客户资产。\n\n(四)或有负债:指过去的交易或者事项形成的潜在义务,其存在须通过未来不确定事项的发生或者不发生予以证实;或过去的交易或者事项形成的现时义务,履行该义务不是很可能导致经济利益流出企业或该义务的金额不能可靠计量。\n\n(五)表内外资产总额:表内资产余额与表外项目余额之和。\n\n第三十七条 本办法自 2006 年 11 月 1 日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "证券公司风险控制指标管理办法(2006 年 7 月 20 日证监会令第 34 号公布 根据 2008 年 6月 24 日证监会令第 55 号《关于修改<证券公司风险控制指标管理办法>的决定》第一次修订 根据 2016 年 6 月 16 日证监会令第 125 号《关于修改<证券公司风险控制指标管理办法>的决定》第二次修订 根据 2020 年 3 月 20 日证监会令第 166 号《关于修改部分证券期货规章的决定》第三次修订)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 213,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 215,
+      "end_char": 222,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为了建立以净资本和流动性为核心的风险控制指标体系,加强证券公司风险监管,督促证券公司加强内部控制、提升风险管理水平、防范风险,根据《证券法》等有关法律、行政法规,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 224,
+      "end_char": 315,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 证券公司应当按照中国证券监督管理委员会(以下简称中国证监会)的有关规定,遵循审慎、实质重于形式的原则,计算净资本、风险覆盖率、资本杠杆率、流动性覆盖率、净稳定资金率等各项风险控制指标,编制净资本计算表、风险资本准备计算表、表内外资产总额计算表、流动性覆盖率计算表、净稳定资金率计算表、风险控制指标计算表等监管报表(以下统称风险控制指标监管报表)。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 317,
+      "end_char": 494,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 中国证监会可以根据市场发展情况和审慎监管原则,对各项风险控制指标标准及计算要求进行动态调整;调整之前,应当公开征求行业意见,并为调整事项的实施作出过渡性安排。对于未规定风险控制指标标准及计算要求的新产品、新业务,证券公司在投资该产品或者开展该业务前,应当按照规定事先向中国证监会、公司注册地的中国证监会派出机构(以下简称派出机构)报告或者报批。中国证监会根据证券公司新产品、新业务的特点和风险状况,在征求行业意见基础上确定相应的风险控制指标标准及计算要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 496,
+      "end_char": 728,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 中国证监会可以按照分类监管原则,根据证券公司的治理结构、内控水平和风险控制情况,对不同类别公司的风险控制指标标准和计算要求,以及某项业务的风险资本准备计算比例进行动态调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 730,
+      "end_char": 820,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 中国证监会及其派出机构应当对证券公司净资本等各项风险控制指标数据的生成过程及计算结果的真实性、准确性、完整性进行定期或者不定期检查。中国证监会及其派出机构可以根据监管需要,要求证券公司聘请符合《证券法》规定的会计师事务所对其风险控制指标监管报表进行审计。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 822,
+      "end_char": 953,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 证券公司应当根据中国证监会有关规定建立符合自身发展战略需要的全面风险管理体系。证券公司应当将所有子公司以及比照子公司管理的各类孙公司纳入全面风险管理体系,强化分支机构风险管理,实现风险管理全覆盖。全面风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。证券公司应当任命一名具有风险管理相关专业背景、任职经历、履职能力的高级管理人员为首席风险官,由其负责全面风险管理工作。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 955,
+      "end_char": 1183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第七条 证券公司应当根据自身资产负债状况和业务发展情况,建立动态的风险控制指标监控和资本补足机制,确保净资本等各项风险控制指标在任一时点都符合规定标准。证券公司应当在发生重大业务事项及分配利润前对风险控制指标进行压力测试,合理确定有关业务及分配利润的最大规模。证券公司应当建立健全压力测试机制,及时根据市场变化情况及监管部门要求,对公司风险控制指标进行压力测试。压力测试结果显示风险超过证券公司自身承受能力范围的,证券公司应采取措施控制业务规模或降低风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1185,
+      "end_char": 1413,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第八条 证券公司应当聘请符合《证券法》规定的会计师事务所对其年度风险控制指标监管报表进行审计。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1415,
+      "end_char": 1462,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第九条 会计师事务所及其注册会计师应当勤勉尽责,对证券公司风险控制指标监管报表的真实性、准确性、完整性进行审计,并发表恰当的审计意见。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1464,
+      "end_char": 1531,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "chapter",
+      "text": "第二章 净资本及其计算",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1533,
+      "end_char": 1544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "article",
+      "text": "第十条 证券公司净资本由核心净资本和附属净资本构成。其中:核心净资本=净资产-资产项目的风险调整-或有负债的风险调整-/+中国证监会认定或核准的其他调整项目。附属净资本=长期次级债×规定比例-/+中国证监会认定或核准的其他调整项目。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1546,
+      "end_char": 1662,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十一条 证券公司应当按照中国证监会规定的证券公司净资本计算标准计算净资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1664,
+      "end_char": 1702,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第十二条 证券公司计算核心净资本时,应当按照规定对有关项目充分计提资产减值准备。中国证监会及其派出机构可以要求公司专项说明资产减值准备提取的充足性和合理性。有证据表明公司未充分计提资产减值准备的,中国证监会及其派出机构可以责令公司整改并追究相关人员责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1704,
+      "end_char": 1831,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十三条 证券公司应当根据公司期末或有事项的性质(如未决诉讼、未决仲裁、对外提供担保等)、涉及金额、形成原因和进展情况、可能发生的损失和预计损失进行相应会计处理。对于很可能导致经济利益流出公司的或有事项,应当确认预计负债;对于未确认预计负债,但仍可能导致经济利益流出公司的或有事项,在计算核心净资本时,应当作为或有负债,按照一定比例在净资本中予以扣减,并在净资本计算表的附注中披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1833,
+      "end_char": 2024,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十四条 证券公司对控股证券业务子公司出具承诺书提供担保承诺的,应当按照担保承诺金额的一定比例扣减核心净资本。从事证券承销与保荐、证券资产管理业务等中国证监会认可的子公司可以将母公司提供的担保承诺按照一定比例计入核心净资本。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2026,
+      "end_char": 2138,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十五条 证券公司向股东或机构投资者借入或发行的次级债,可以按照一定比例计入附属净资本或扣减风险资本准备。具体规定由中国证监会另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2140,
+      "end_char": 2208,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "chapter",
+      "text": "第三章 风险控制指标标准",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2210,
+      "end_char": 2222,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十六条 证券公司经营证券经纪业务的,其净资本不得低于人民币 2000 万元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 5000 万元。证券公司经营证券经纪业务,同时经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 1 亿元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务中两项及两项以上的,其净资本不得低于人民币 2亿元。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2224,
+      "end_char": 2447,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "article",
+      "text": "第十七条 证券公司必须持续符合下列风险控制指标标准:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2449,
+      "end_char": 2475,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(一)风险覆盖率不得低于 100%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2477,
+      "end_char": 2495,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(二)资本杠杆率不得低于 8%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2497,
+      "end_char": 2513,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(三)流动性覆盖率不得低于 100%;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2515,
+      "end_char": 2534,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(四)净稳定资金率不得低于 100%;其中:风险覆盖率=净资本/各项风险资本准备之和×100%;资本杠杆率=核心净资本/表内外资产总额×100%;流动性覆盖率=优质流动性资产/未来 30 天现金净流出量×100%;净稳定资金率=可用稳定资金/所需稳定资金×100%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2536,
+      "end_char": 2669,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当按照中国证监会规定的证券公司风险资本准备计算标准计算市场风险、信用风险、操作风险资本准备。中国证监会可以根据特定产品或业务的风险特征,以及监督检查结果,要求证券公司计算特定风险资本准备。市场风险资本准备按照各类金融工具市场风险特征的不同,用投资规模乘以风险系数计算;信用风险资本准备按照各表内外项目信用风险程度的不同,用资产规模乘以风险系数计算;操作风险资本准备按照各项业务收入的一定比例计算。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2671,
+      "end_char": 2879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "证券公司可以采取内部模型法等风险计量高级方法计算风险资本准备,具体规定由中国证监会另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2881,
+      "end_char": 2927,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十九条 证券公司经营证券自营业务、为客户提供融资或融券服务的,应当符合中国证监会对该项业务的风险控制指标标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2929,
+      "end_char": 2985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第二十条 证券公司可以结合自身实际情况,在不低于中国证监会规定标准的基础上,确定相应的风险控制指标标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2987,
+      "end_char": 3039,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十一条 中国证监会对各项风险控制指标设置预警标准,对于规定“不得低于”一定标准的风险控制指标,其预警标准是规定标准的 120%;对于规定“不得超过”一定标准的风险控制指标,其预警标准是规定标准的 80%。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3041,
+      "end_char": 3145,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "chapter",
+      "text": "第四章 编制和披露",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3147,
+      "end_char": 3156,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第二十二条 设有子公司的证券公司应当以母公司数据为基础,编制风险控制指标监管报表。中国证监会及其派出机构可以根据监管需要,要求证券公司以合并数据为基础编制风险控制指标监管报表。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3158,
+      "end_char": 3246,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第二十三条 证券公司的董事、高级管理人员应当对公司半年度、年度风险控制指标监管报表签署确认意见。证券公司经营管理的主要负责人、首席风险官、财务负责人应当对公司月度风险控制指标监管报表签署确认意见。在证券公司风险控制指标监管报表上签字的人员,应当保证风险控制指标监管报表真实、准确、完整,不存在虚假记载、误导性陈述和重大遗漏;对风险控制指标监管报表内容持有异议的,应当在报表上注明自己的意见和理由。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3248,
+      "end_char": 3446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应当至少每半年经主要负责人、首席风险官签署确认后,向公司全体董事报告一次公司净资本等风险控制指标的具体情况和达标情况;证券公司应当至少每半年经董事会签署确认,向公司全体股东报告一次公司净资本等风险控制指标的具体情况和达标情况,并至少获得主要股东的签收确认证明文件。净资本指标与上月相比发生 20%以上不利变化或不符合规定标准时,证券公司应当在 5 个工作日内向公司全体董事报告,10个工作日内向公司全体股东报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3448,
+      "end_char": 3664,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当在每月结束之日起 7 个工作日内,向中国证监会及其派出机构报送月度风险控制指标监管报表。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3666,
+      "end_char": 3722,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "派出机构可以根据监管需要,要求辖区内单个、部分或者全部证券公司在一定阶段内按周或者按日编制并报送各项风险控制指标监管报表。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3724,
+      "end_char": 3785,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第二十六条 证券公司的净资本等风险控制指标与上月相比发生不利变化超过 20%的,应当在该情形发生之日起 3 个工作日内,向中国证监会及其派出机构报告,说明基本情况和变化原因。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3787,
+      "end_char": 3874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十七条 证券公司的净资本等风险控制指标达到预警标准或者不符合规定标准的,应当分别在该情形发生之日起 3个、1 个工作日内,向中国证监会及其派出机构报告,说明基本情况、问题成因以及解决问题的具体措施和期限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3876,
+      "end_char": 3980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第五章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3982,
+      "end_char": 3990,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十八条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了保留意见、带强调事项段或其他事项段无保留意见的,证券公司应当就涉及事项进行专项说明。涉及事项不属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司说明该事项对公司净资本等风险控制指标的影响。涉及事项属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司限期纠正、重新编制风险控制指标监管报表;证券公司未限期纠正的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3992,
+      "end_char": 4262,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十九条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了无法表示意见或者否定意见的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4264,
+      "end_char": 4348,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第三十条 证券公司未按照监管部门要求报送风险控制指标监管报表,或者风险控制指标监管报表存在重大错报、漏报以及虚假报送情况,中国证监会及其派出机构可以根据情况采取出具警示函、责令改正、监管谈话、责令处分有关人员等监管措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4350,
+      "end_char": 4460,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第三十一条 证券公司净资本或者其他风险控制指标不符合规定标准的,派出机构应当责令公司限期改正,在 5 个工作日制定并报送整改计划,整改期限最长不超过 20 个工作日;证券公司未按时报送整改计划的,派出机构应当立即限制其业务活动。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4462,
+      "end_char": 4576,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "整改期内,中国证监会及其派出机构应当区别情形,对证券公司采取下列措施:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4578,
+      "end_char": 4613,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(一)停止批准新业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4615,
+      "end_char": 4626,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(二)停止批准增设、收购营业性分支机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4628,
+      "end_char": 4648,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(三)限制分配红利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4650,
+      "end_char": 4660,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(四)限制转让财产或在财产上设定其他权利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4662,
+      "end_char": 4683,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第三十二条 证券公司整改后,经派出机构验收符合有关风险控制指标的,中国证监会及其派出机构应当自验收完毕之日起3 个工作日内解除对其采取的有关措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4685,
+      "end_char": 4758,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第三十三条 证券公司未按期完成整改的,自整改期限到期的次日起,派出机构应当区别情形,对其采取下列措施:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4760,
+      "end_char": 4811,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(一)限制业务活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4813,
+      "end_char": 4823,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(二)责令暂停部分业务;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4825,
+      "end_char": 4837,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(三)限制向董事、监事、高级管理人员支付报酬、提供福利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4839,
+      "end_char": 4867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(四)责令更换董事、监事、高级管理人员或者限制其权利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4869,
+      "end_char": 4896,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(五)责令负有责任的股东转让股权,限制负有责任的股东行使股东权利;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4898,
+      "end_char": 4931,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(六)认定负有责任的董事、监事、高级管理人员为不适当人选;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4933,
+      "end_char": 4962,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "(七)中国证监会及其派出机构认为有必要采取的其他措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4964,
+      "end_char": 4991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十四条 证券公司未按期完成整改、风险控制指标情况继续恶化,严重危及该证券公司的稳健运行的,中国证监会可以撤销其有关业务许可。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4993,
+      "end_char": 5057,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第三十五条 证券公司风险控制指标无法达标,严重危害证券市场秩序、损害投资者利益的,中国证监会可以区别情形,对其采取下列措施:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5059,
+      "end_char": 5121,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "paragraph",
+      "text": "(一)责令停业整顿;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5123,
+      "end_char": 5133,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(二)指定其他机构托管、接管;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5135,
+      "end_char": 5150,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(三)撤销经营证券业务许可;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5152,
+      "end_char": 5166,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(四)撤销。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5168,
+      "end_char": 5174,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "chapter",
+      "text": "第六章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5176,
+      "end_char": 5183,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十六条 本办法下列用语的含义:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5185,
+      "end_char": 5202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "paragraph",
+      "text": "(一)风险资本准备:指证券公司在开展各项业务等过程中,因市场风险、信用风险、操作风险等可能引起的非预期损失所需要的资本。证券公司应当按照一定标准计算风险资本准备并与净资本建立对应关系,确保风险资本准备有对应的净资本支撑。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5204,
+      "end_char": 5314,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(二)负债:指对外负债,不含代理买卖证券款、信用交易代理买卖证券款、代理承销证券款。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5316,
+      "end_char": 5358,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(三)资产:指自有资产,不含客户资产。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5360,
+      "end_char": 5379,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(四)或有负债:指过去的交易或者事项形成的潜在义务,其存在须通过未来不确定事项的发生或者不发生予以证实;或过去的交易或者事项形成的现时义务,履行该义务不是很可能导致经济利益流出企业或该义务的金额不能可靠计量。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5381,
+      "end_char": 5485,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "(五)表内外资产总额:表内资产余额与表外项目余额之和。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5487,
+      "end_char": 5514,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第三十七条 本办法自 2006 年 11 月 1 日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5516,
+      "end_char": 5546,
+      "region": "body"
+    }
+  ],
   "normalized_text": "证券公司风险控制指标管理办法(2006 年 7 月 20 日证监会令第 34 号公布 根据 2008 年 6月 24 日证监会令第 55 号《关于修改<证券公司风险控制指标管理办法>的决定》第一次修订 根据 2016 年 6 月 16 日证监会令第 125 号《关于修改<证券公司风险控制指标管理办法>的决定》第二次修订 根据 2020 年 3 月 20 日证监会令第 166 号《关于修改部分证券期货规章的决定》第三次修订)\n\n第一章 总 则\n\n第一条 为了建立以净资本和流动性为核心的风险控制指标体系,加强证券公司风险监管,督促证券公司加强内部控制、提升风险管理水平、防范风险,根据《证券法》等有关法律、行政法规,制定本办法。\n\n第二条 证券公司应当按照中国证券监督管理委员会(以下简称中国证监会)的有关规定,遵循审慎、实质重于形式的原则,计算净资本、风险覆盖率、资本杠杆率、流动性覆盖率、净稳定资金率等各项风险控制指标,编制净资本计算表、风险资本准备计算表、表内外资产总额计算表、流动性覆盖率计算表、净稳定资金率计算表、风险控制指标计算表等监管报表(以下统称风险控制指标监管报表)。\n\n第三条 中国证监会可以根据市场发展情况和审慎监管原则,对各项风险控制指标标准及计算要求进行动态调整;调整之前,应当公开征求行业意见,并为调整事项的实施作出过渡性安排。对于未规定风险控制指标标准及计算要求的新产品、新业务,证券公司在投资该产品或者开展该业务前,应当按照规定事先向中国证监会、公司注册地的中国证监会派出机构(以下简称派出机构)报告或者报批。中国证监会根据证券公司新产品、新业务的特点和风险状况,在征求行业意见基础上确定相应的风险控制指标标准及计算要求。\n\n第四条 中国证监会可以按照分类监管原则,根据证券公司的治理结构、内控水平和风险控制情况,对不同类别公司的风险控制指标标准和计算要求,以及某项业务的风险资本准备计算比例进行动态调整。\n\n第五条 中国证监会及其派出机构应当对证券公司净资本等各项风险控制指标数据的生成过程及计算结果的真实性、准确性、完整性进行定期或者不定期检查。中国证监会及其派出机构可以根据监管需要,要求证券公司聘请符合《证券法》规定的会计师事务所对其风险控制指标监管报表进行审计。\n\n第六条 证券公司应当根据中国证监会有关规定建立符合自身发展战略需要的全面风险管理体系。证券公司应当将所有子公司以及比照子公司管理的各类孙公司纳入全面风险管理体系,强化分支机构风险管理,实现风险管理全覆盖。全面风险管理体系应当包括可操作的管理制度、健全的组织架构、可靠的信息技术系统、量化的风险指标体系、专业的人才队伍、有效的风险应对机制。证券公司应当任命一名具有风险管理相关专业背景、任职经历、履职能力的高级管理人员为首席风险官,由其负责全面风险管理工作。\n\n第七条 证券公司应当根据自身资产负债状况和业务发展情况,建立动态的风险控制指标监控和资本补足机制,确保净资本等各项风险控制指标在任一时点都符合规定标准。证券公司应当在发生重大业务事项及分配利润前对风险控制指标进行压力测试,合理确定有关业务及分配利润的最大规模。证券公司应当建立健全压力测试机制,及时根据市场变化情况及监管部门要求,对公司风险控制指标进行压力测试。压力测试结果显示风险超过证券公司自身承受能力范围的,证券公司应采取措施控制业务规模或降低风险。\n\n第八条 证券公司应当聘请符合《证券法》规定的会计师事务所对其年度风险控制指标监管报表进行审计。\n\n第九条 会计师事务所及其注册会计师应当勤勉尽责,对证券公司风险控制指标监管报表的真实性、准确性、完整性进行审计,并发表恰当的审计意见。\n\n第二章 净资本及其计算\n\n第十条 证券公司净资本由核心净资本和附属净资本构成。其中:核心净资本=净资产-资产项目的风险调整-或有负债的风险调整-/+中国证监会认定或核准的其他调整项目。附属净资本=长期次级债×规定比例-/+中国证监会认定或核准的其他调整项目。\n\n第十一条 证券公司应当按照中国证监会规定的证券公司净资本计算标准计算净资本。\n\n第十二条 证券公司计算核心净资本时,应当按照规定对有关项目充分计提资产减值准备。中国证监会及其派出机构可以要求公司专项说明资产减值准备提取的充足性和合理性。有证据表明公司未充分计提资产减值准备的,中国证监会及其派出机构可以责令公司整改并追究相关人员责任。\n\n第十三条 证券公司应当根据公司期末或有事项的性质(如未决诉讼、未决仲裁、对外提供担保等)、涉及金额、形成原因和进展情况、可能发生的损失和预计损失进行相应会计处理。对于很可能导致经济利益流出公司的或有事项,应当确认预计负债;对于未确认预计负债,但仍可能导致经济利益流出公司的或有事项,在计算核心净资本时,应当作为或有负债,按照一定比例在净资本中予以扣减,并在净资本计算表的附注中披露。\n\n第十四条 证券公司对控股证券业务子公司出具承诺书提供担保承诺的,应当按照担保承诺金额的一定比例扣减核心净资本。从事证券承销与保荐、证券资产管理业务等中国证监会认可的子公司可以将母公司提供的担保承诺按照一定比例计入核心净资本。\n\n第十五条 证券公司向股东或机构投资者借入或发行的次级债,可以按照一定比例计入附属净资本或扣减风险资本准备。具体规定由中国证监会另行制定。\n\n第三章 风险控制指标标准\n\n第十六条 证券公司经营证券经纪业务的,其净资本不得低于人民币 2000 万元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 5000 万元。证券公司经营证券经纪业务,同时经营证券承销与保荐、证券自营、证券资产管理、其他证券业务等业务之一的,其净资本不得低于人民币 1 亿元。证券公司经营证券承销与保荐、证券自营、证券资产管理、其他证券业务中两项及两项以上的,其净资本不得低于人民币 2亿元。\n\n第十七条 证券公司必须持续符合下列风险控制指标标准:\n\n(一)风险覆盖率不得低于 100%;\n\n(二)资本杠杆率不得低于 8%;\n\n(三)流动性覆盖率不得低于 100%;\n\n(四)净稳定资金率不得低于 100%;其中:风险覆盖率=净资本/各项风险资本准备之和×100%;资本杠杆率=核心净资本/表内外资产总额×100%;流动性覆盖率=优质流动性资产/未来 30 天现金净流出量×100%;净稳定资金率=可用稳定资金/所需稳定资金×100%。\n\n第十八条 证券公司应当按照中国证监会规定的证券公司风险资本准备计算标准计算市场风险、信用风险、操作风险资本准备。中国证监会可以根据特定产品或业务的风险特征,以及监督检查结果,要求证券公司计算特定风险资本准备。市场风险资本准备按照各类金融工具市场风险特征的不同,用投资规模乘以风险系数计算;信用风险资本准备按照各表内外项目信用风险程度的不同,用资产规模乘以风险系数计算;操作风险资本准备按照各项业务收入的一定比例计算。\n\n证券公司可以采取内部模型法等风险计量高级方法计算风险资本准备,具体规定由中国证监会另行制定。\n\n第十九条 证券公司经营证券自营业务、为客户提供融资或融券服务的,应当符合中国证监会对该项业务的风险控制指标标准。\n\n第二十条 证券公司可以结合自身实际情况,在不低于中国证监会规定标准的基础上,确定相应的风险控制指标标准。\n\n第二十一条 中国证监会对各项风险控制指标设置预警标准,对于规定“不得低于”一定标准的风险控制指标,其预警标准是规定标准的 120%;对于规定“不得超过”一定标准的风险控制指标,其预警标准是规定标准的 80%。\n\n第四章 编制和披露\n\n第二十二条 设有子公司的证券公司应当以母公司数据为基础,编制风险控制指标监管报表。中国证监会及其派出机构可以根据监管需要,要求证券公司以合并数据为基础编制风险控制指标监管报表。\n\n第二十三条 证券公司的董事、高级管理人员应当对公司半年度、年度风险控制指标监管报表签署确认意见。证券公司经营管理的主要负责人、首席风险官、财务负责人应当对公司月度风险控制指标监管报表签署确认意见。在证券公司风险控制指标监管报表上签字的人员,应当保证风险控制指标监管报表真实、准确、完整,不存在虚假记载、误导性陈述和重大遗漏;对风险控制指标监管报表内容持有异议的,应当在报表上注明自己的意见和理由。\n\n第二十四条 证券公司应当至少每半年经主要负责人、首席风险官签署确认后,向公司全体董事报告一次公司净资本等风险控制指标的具体情况和达标情况;证券公司应当至少每半年经董事会签署确认,向公司全体股东报告一次公司净资本等风险控制指标的具体情况和达标情况,并至少获得主要股东的签收确认证明文件。净资本指标与上月相比发生 20%以上不利变化或不符合规定标准时,证券公司应当在 5 个工作日内向公司全体董事报告,10个工作日内向公司全体股东报告。\n\n第二十五条 证券公司应当在每月结束之日起 7 个工作日内,向中国证监会及其派出机构报送月度风险控制指标监管报表。\n\n派出机构可以根据监管需要,要求辖区内单个、部分或者全部证券公司在一定阶段内按周或者按日编制并报送各项风险控制指标监管报表。\n\n第二十六条 证券公司的净资本等风险控制指标与上月相比发生不利变化超过 20%的,应当在该情形发生之日起 3 个工作日内,向中国证监会及其派出机构报告,说明基本情况和变化原因。\n\n第二十七条 证券公司的净资本等风险控制指标达到预警标准或者不符合规定标准的,应当分别在该情形发生之日起 3个、1 个工作日内,向中国证监会及其派出机构报告,说明基本情况、问题成因以及解决问题的具体措施和期限。\n\n第五章 监督管理\n\n第二十八条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了保留意见、带强调事项段或其他事项段无保留意见的,证券公司应当就涉及事项进行专项说明。涉及事项不属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司说明该事项对公司净资本等风险控制指标的影响。涉及事项属于明显违反会计准则、证券公司净资本计算规则等有关规定的,中国证监会及其派出机构可以要求证券公司限期纠正、重新编制风险控制指标监管报表;证券公司未限期纠正的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。\n\n第二十九条 证券公司的财务会计报告、风险控制指标监管报表被注册会计师出具了无法表示意见或者否定意见的,中国证监会及其派出机构可以认定其净资本等风险控制指标低于规定标准。\n\n第三十条 证券公司未按照监管部门要求报送风险控制指标监管报表,或者风险控制指标监管报表存在重大错报、漏报以及虚假报送情况,中国证监会及其派出机构可以根据情况采取出具警示函、责令改正、监管谈话、责令处分有关人员等监管措施。\n\n第三十一条 证券公司净资本或者其他风险控制指标不符合规定标准的,派出机构应当责令公司限期改正,在 5 个工作日制定并报送整改计划,整改期限最长不超过 20 个工作日;证券公司未按时报送整改计划的,派出机构应当立即限制其业务活动。\n\n整改期内,中国证监会及其派出机构应当区别情形,对证券公司采取下列措施:\n\n(一)停止批准新业务;\n\n(二)停止批准增设、收购营业性分支机构;\n\n(三)限制分配红利;\n\n(四)限制转让财产或在财产上设定其他权利。\n\n第三十二条 证券公司整改后,经派出机构验收符合有关风险控制指标的,中国证监会及其派出机构应当自验收完毕之日起3 个工作日内解除对其采取的有关措施。\n\n第三十三条 证券公司未按期完成整改的,自整改期限到期的次日起,派出机构应当区别情形,对其采取下列措施:\n\n(一)限制业务活动;\n\n(二)责令暂停部分业务;\n\n(三)限制向董事、监事、高级管理人员支付报酬、提供福利;\n\n(四)责令更换董事、监事、高级管理人员或者限制其权利;\n\n(五)责令负有责任的股东转让股权,限制负有责任的股东行使股东权利;\n\n(六)认定负有责任的董事、监事、高级管理人员为不适当人选;\n\n(七)中国证监会及其派出机构认为有必要采取的其他措施。\n\n第三十四条 证券公司未按期完成整改、风险控制指标情况继续恶化,严重危及该证券公司的稳健运行的,中国证监会可以撤销其有关业务许可。\n\n第三十五条 证券公司风险控制指标无法达标,严重危害证券市场秩序、损害投资者利益的,中国证监会可以区别情形,对其采取下列措施:\n\n(一)责令停业整顿;\n\n(二)指定其他机构托管、接管;\n\n(三)撤销经营证券业务许可;\n\n(四)撤销。\n\n第六章 附 则\n\n第三十六条 本办法下列用语的含义:\n\n(一)风险资本准备:指证券公司在开展各项业务等过程中,因市场风险、信用风险、操作风险等可能引起的非预期损失所需要的资本。证券公司应当按照一定标准计算风险资本准备并与净资本建立对应关系,确保风险资本准备有对应的净资本支撑。\n\n(二)负债:指对外负债,不含代理买卖证券款、信用交易代理买卖证券款、代理承销证券款。\n\n(三)资产:指自有资产,不含客户资产。\n\n(四)或有负债:指过去的交易或者事项形成的潜在义务,其存在须通过未来不确定事项的发生或者不发生予以证实;或过去的交易或者事项形成的现时义务,履行该义务不是很可能导致经济利益流出企业或该义务的金额不能可靠计量。\n\n(五)表内外资产总额:表内资产余额与表外项目余额之和。\n\n第三十七条 本办法自 2006 年 11 月 1 日起施行。",
   "blocks": [
     {
@@ -121,7 +1834,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 213,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -129,7 +1849,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 215,
+      "end_char": 222,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -137,7 +1864,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 224,
+      "end_char": 315,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -145,7 +1879,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 317,
+      "end_char": 494,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -153,7 +1894,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 496,
+      "end_char": 728,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -161,7 +1909,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 730,
+      "end_char": 820,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -169,7 +1924,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 822,
+      "end_char": 953,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -177,7 +1939,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 955,
+      "end_char": 1183,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -185,7 +1954,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1185,
+      "end_char": 1413,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -193,7 +1969,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1415,
+      "end_char": 1462,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -201,7 +1984,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1464,
+      "end_char": 1531,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -209,7 +1999,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1533,
+      "end_char": 1544,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -217,7 +2014,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1546,
+      "end_char": 1662,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -225,7 +2029,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1664,
+      "end_char": 1702,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -233,7 +2044,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1704,
+      "end_char": 1831,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -241,7 +2059,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1833,
+      "end_char": 2024,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -249,7 +2074,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2026,
+      "end_char": 2138,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -257,7 +2089,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2140,
+      "end_char": 2208,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -265,7 +2104,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2210,
+      "end_char": 2222,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -273,7 +2119,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2224,
+      "end_char": 2447,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -281,7 +2134,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2449,
+      "end_char": 2475,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -289,7 +2149,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2477,
+      "end_char": 2495,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -297,7 +2164,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2497,
+      "end_char": 2513,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -305,7 +2179,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2515,
+      "end_char": 2534,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -313,7 +2194,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2536,
+      "end_char": 2669,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -321,7 +2209,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2671,
+      "end_char": 2879,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -329,7 +2224,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 2881,
+      "end_char": 2927,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -337,7 +2239,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 2929,
+      "end_char": 2985,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -345,7 +2254,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 2987,
+      "end_char": 3039,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -353,7 +2269,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3041,
+      "end_char": 3145,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -361,7 +2284,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3147,
+      "end_char": 3156,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -369,7 +2299,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3158,
+      "end_char": 3246,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -377,7 +2314,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3248,
+      "end_char": 3446,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -385,7 +2329,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3448,
+      "end_char": 3664,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -393,7 +2344,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3666,
+      "end_char": 3722,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -401,7 +2359,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3724,
+      "end_char": 3785,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -409,7 +2374,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3787,
+      "end_char": 3874,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -417,7 +2389,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3876,
+      "end_char": 3980,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -425,7 +2404,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3982,
+      "end_char": 3990,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -433,7 +2419,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3992,
+      "end_char": 4262,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -441,7 +2434,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4264,
+      "end_char": 4348,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -449,7 +2449,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4350,
+      "end_char": 4460,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -457,7 +2464,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4462,
+      "end_char": 4576,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -465,7 +2479,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4578,
+      "end_char": 4613,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -473,7 +2494,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4615,
+      "end_char": 4626,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -481,7 +2509,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4628,
+      "end_char": 4648,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -489,7 +2524,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4650,
+      "end_char": 4660,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -497,7 +2539,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4662,
+      "end_char": 4683,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -505,7 +2554,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4685,
+      "end_char": 4758,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -513,7 +2569,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4760,
+      "end_char": 4811,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -521,7 +2584,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4813,
+      "end_char": 4823,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -529,7 +2599,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4825,
+      "end_char": 4837,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -537,7 +2614,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4839,
+      "end_char": 4867,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -545,7 +2629,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4869,
+      "end_char": 4896,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -553,7 +2644,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4898,
+      "end_char": 4931,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -561,7 +2659,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4933,
+      "end_char": 4962,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -569,7 +2674,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4964,
+      "end_char": 4991,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -577,7 +2689,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4993,
+      "end_char": 5057,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -585,7 +2704,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5059,
+      "end_char": 5121,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -593,7 +2719,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5123,
+      "end_char": 5133,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -601,7 +2734,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5135,
+      "end_char": 5150,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -609,7 +2749,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5152,
+      "end_char": 5166,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -617,7 +2764,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5168,
+      "end_char": 5174,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -625,7 +2779,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5176,
+      "end_char": 5183,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -633,7 +2794,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5185,
+      "end_char": 5202,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -641,7 +2809,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 5204,
+      "end_char": 5314,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -649,7 +2824,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5316,
+      "end_char": 5358,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -657,7 +2839,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5360,
+      "end_char": 5379,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -665,7 +2854,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5381,
+      "end_char": 5485,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -673,7 +2869,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5487,
+      "end_char": 5514,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -681,7 +2884,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5516,
+      "end_char": 5546,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司场外期权业务管理办法.docx",
   "source_type": "docx",
   "file_sha256": "9d92b845d0fecaf2bbcd4adc4afee247507fa76bd3dc8ed9dd5401221f37fcf3",
-  "content_sha256": "3a1490bbd8878bfbdd6de5dd48de5484a1cbf19cdcfd2d29be96b6ee9f9b5823",
+  "content_sha256": "2142f481b8e40576a4070e75a8f95ce17bb15af7199209fff556aab99005722a",
   "metadata": {
     "document_title": "证券公司场外期权业务管理办法",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "3b2bd724356d257df5f68d3d757c23cd29d59435ca3c7ec44a4427291f7093a5",
     "clean_text_sha256": "1dbc7585dfa21752d345cdaede5c4fc03423890571a042d27d2510c7bc097e58",
@@ -155,6 +155,2234 @@
   },
   "original_text_sha256": "3b2bd724356d257df5f68d3d757c23cd29d59435ca3c7ec44a4427291f7093a5",
   "clean_text_sha256": "1dbc7585dfa21752d345cdaede5c4fc03423890571a042d27d2510c7bc097e58",
+  "clean_text_hash": "b9e75d9968754ea957fe4cc61dfa63a4a97ad940d55ebc8b5e05daae888e2b2e",
+  "structured_blocks_sha256": "ad918d9a72754d13da25d056dc259cae5b76d90066c620af2cd6b65a780309ce",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(协会第六届常务理事会第十二次会议表决通过,2020年9月25日发布)",
+      "character_count": 35
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 6,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条 为规范发展证券公司场外期权业务,根据《中 华人民共和国证券法》、《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件和《中国证券业协会章程》等规定,制定本办法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8,
+      "end_char": 97,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条 本办法所称场外期权业务指在证券公司柜台开展的期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 99,
+      "end_char": 130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 证券公司场外期权业务的交易商管理、标的及合约管理、投资者适当性管理、数据报送、监测监控等适用本办法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 132,
+      "end_char": 186,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 证券公司应以服务实体经济为目标,以客户风险管理需求为导向,合规、审慎开展场外期权业务。严禁与客户开展单纯以高杠杆投机为目的、不存在真实风险管理需求的场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 188,
+      "end_char": 273,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 中国证券业协会(以下简称协会)对证券公司开展场外期权业务实施自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 275,
+      "end_char": 314,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下承担场外证券业务报告系统的建设及维护,为场外期权业务提供交易备案、数据报送、监测监控等服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 316,
+      "end_char": 393,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "chapter",
+      "text": "第二章 交易商管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 395,
+      "end_char": 404,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第六条 证券公司参与场外期权交易实施分层管理,根据公司资本实力、分类结果、全面风险管理水平、专业人员及技术系统情况,分为一级交易商和二级交易商。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 406,
+      "end_char": 478,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 最近一年分类评级在A类AA级以上的,经中国证监会认可,可以成为一级交易商。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 480,
+      "end_char": 521,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "最近一年分类评级在A类A级以上或B类BBB级以上,持续规范经营且专业人员、技术系统、风险管理等符合对应条件的证券公司,经协会备案,可以成为二级交易商;展业一年情况良好、未有重大风险事件的,可向证监会申请成为一级交易商。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 523,
+      "end_char": 632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第八条 证券公司、证券公司子公司及上述主体管理的产品均应当通过证监会认可或协会备案的证券公司交易商进行场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 634,
+      "end_char": 692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第九条 一级交易商应当在沪深证券交易所开立场内个股对冲交易专用账户,直接开展对冲交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 694,
+      "end_char": 737,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "二级交易商仅能与一级交易商进行场内个股对冲交易,不得自行或与一级交易商之外的交易对手开展场内个股对冲交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 792,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "二级交易商应确保其与对手方和一级交易商分别达成的个股期权合约挂钩标的、合约期限、合约名义本金、收益结构等交易要素基本保持一致。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 794,
+      "end_char": 857,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十条 一级交易商应当建立公平、公正的个股期权报价机制,不得利用交易优势地位等进行不正当竞争。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 859,
+      "end_char": 906,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "一级交易商应当履职尽责,对二级交易商及其对手方客户的交易目的、交易标的、交易行为等进行监测评估,并根据标的集中度确定是否接受二级交易商的个股期权对冲交易,发现不符合规定的,不得开展相关交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 1003,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "一级交易商拒绝接受对冲交易的,二级交易商不得与客户达成交易合约。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1005,
+      "end_char": 1037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十一条 交易商发现异常交易的,应当及时向协会报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1039,
+      "end_char": 1065,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十二条 交易商发生不符合备案条件、合并、分立等情形时,应当自发生之日起五个交易日内向协会报告,接受持续管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1067,
+      "end_char": 1122,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十三条 中国证监会、协会对交易商执业情况实施定期评估,并根据评估结果实行动态调整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1124,
+      "end_char": 1166,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "对于经评估不符合交易商条件的证券公司,设置一年过渡期,过渡期内不得新增业务规模;过渡期结束,仍未符合一级或二级交易商条件的,调出相应级别交易商名单。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1168,
+      "end_char": 1242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十四条 交易商应当建立因动态调整不再属于交易商的处置工作预案,被调出交易商名单后,不得新增场外期权业务;存量业务原则上应在合约了结后终止。因股票停牌等特殊情况无法了结的,经公司合规部门评估出具合规意见书并向协会及所属辖区证监局报备后可展期,但展期期限不超过停牌期满后一个月。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1244,
+      "end_char": 1382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "chapter",
+      "text": "第三章 标的及合约管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1384,
+      "end_char": 1395,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十五条 协会对证券公司场外期权业务挂钩标的实行自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1397,
+      "end_char": 1426,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十六条 证券公司可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的资产的场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1428,
+      "end_char": 1475,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1477,
+      "end_char": 1530,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第十七条 证券公司开展场外期权业务个股标的范围不得超出融资融券标的当期名单,股票指数标的不得超出协会规定的范围。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1532,
+      "end_char": 1588,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十八条 证券公司开展场外期权业务个股标的应进行实时动态调整,不得新开和展期被交易所实行风险警示、发布暂停上市或终止上市风险提示、进入终止上市程序的个股为标的的场外期权合约。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1590,
+      "end_char": 1677,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十九条 证券公司可以自主设计适合投资者真实风险管理需求的期权合约类型,但应避免形成与其他衍生工具合约组合、嵌套的增加交易成本和链条的复杂产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1679,
+      "end_char": 1751,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第二十条 对于合约期限30天以下、行权价偏离标的资产市场价格超过20%的合约,证券公司合规部门应当对产品合约设计的合规性进行审慎评估并出具书面合规意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1753,
+      "end_char": 1829,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第二十一条 期权合约应当明确名义本金、合约期限、挂钩标的及期权费等要素。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1831,
+      "end_char": 1867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当合理配置不同类型的场外期权合约的结构比例,做好内部管控,充分评估股票期权合约对场内对冲的影响,避免对市场产生不当冲击。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1869,
+      "end_char": 1940,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第二十三条 协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务风险管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1942,
+      "end_char": 1991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "chapter",
+      "text": "第四章 投资者适当性管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1993,
+      "end_char": 2005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第二十四条 商品类场外期权交易对手方,应当是符合《证券期货投资者适当性管理办法》的专业机构投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2007,
+      "end_char": 2056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "股票股指类等其它场外期权交易对手方应当是符合《证券期货投资者适当性管理办法》的专业机构投资者,并满足以下条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2058,
+      "end_char": 2113,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(一)法人、合伙企业或者其他组织参与的,最近1年末净资产不低于5000万元人民币、金融资产不低于2000万元人民币,且具有3年以上证券、基金、期货、黄金、外汇等相关投资经验。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2115,
+      "end_char": 2202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(二)资产管理机构代表产品参与的,最近一年末管理的金融资产规模不低于5亿元人民币,且具备2年以上金融产品管理经验。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2204,
+      "end_char": 2261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(三)产品参与的,应当为合规设立的非结构化产品,规模不低于5000万元人民币,并符合以下条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2263,
+      "end_char": 2310,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "1.穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》专业投资者的基本标准,且最近一年末金融资产不低于2000万元人民币,具有3年以上证券、基金、期货、黄金、外汇等相关投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2312,
+      "end_char": 2423,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "2.购买场外期权支付的期权费以及缴纳的初始保证金合计不超过产品规模的30%。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2425,
+      "end_char": 2463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当通过尽职调查、要求投资者提供证明材料、查询公开信息等必要措施,对投资者尤其是私募基金等非持牌机构的真实身份、是否满足准入标准、产品合同中对投资场外期权是否约定、相关风险是否揭示等进行核实。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2465,
+      "end_char": 2571,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当审慎核查投资者真实交易目的,查验投资者是否具有真实的风险管理需求,确认相关投资符合法律法规规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2573,
+      "end_char": 2633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "article",
+      "text": "第二十七条 证券公司应当确认交易对手方的资金来源为依法依规取得或募集的资金,不存在非法汇集他人资金或违反反洗钱规定的有关情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2635,
+      "end_char": 2698,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十八条 证券公司应当建立交易对手管理台账,对交易对手进行穿透核查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2700,
+      "end_char": 2735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "产品参与的,应当核实产品管理人是否真实承担管理人职责,并对产品最终投资人的投资者适当性进行穿透核查;法人参与的,应当对机构主体及股东信息进行核查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2737,
+      "end_char": 2810,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第二十九条 证券公司应对投资者准入过程充分留痕,并由总部进行最终审核。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2812,
+      "end_char": 2847,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第三十条 证券公司应当加强对交易对手交易行为持续监测分析,对同一主体控制的机构、产品应当集中统一监测监控。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2849,
+      "end_char": 2902,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "发现交易对手涉嫌存在利用场外期权从事规避监管、初始保证金比例超出产品规模30%的,以及涉及违法违规行为的,应当立即停止合作并及时向监管部门报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2904,
+      "end_char": 2976,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第三十一条 证券公司应当针对场外期权业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约的负面客户信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2978,
+      "end_char": 3045,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第三十二条 证券公司应当至少每年对投资者的资质复核一次,并通过定期回访、监测评估等方式确保投资者持续符合适当性管理要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3047,
+      "end_char": 3107,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "chapter",
+      "text": "第五章 禁止行为",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3109,
+      "end_char": 3117,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第三十三条 不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格投资者参与场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3119,
+      "end_char": 3176,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第三十四条 异化为杠杆融资工具。证券公司不得通过期权组合策略、提前终止条款等方式,为投资者提供融资或者变相融资服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3178,
+      "end_char": 3236,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第三十五条 变相成为投资者交易通道。证券公司不得向投资者出借证券账户,不得直接根据投资者指令进行对冲证券买卖,不得将对冲头寸出售给投资者指定的第三方,不得依照客户指令使用客户保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3238,
+      "end_char": 3329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第三十六条 频繁交易。证券公司不得通过建立交易系统、频繁提前了结合约等方式为交易对手短期内频繁开仓、平仓交易提供便利。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3331,
+      "end_char": 3390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第三十七条 违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的场外期权;严禁为配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体提供场外期权服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3392,
+      "end_char": 3507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第三十八条 为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或者变相出借交易商资质。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3509,
+      "end_char": 3603,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "chapter",
+      "text": "第六章 数据报送",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3605,
+      "end_char": 3613,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第三十九条 证券公司及协会认定的场外期权业务重要交易对手(以下统称报送机构)应当定期向协会报送规定的场外期权业务信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3615,
+      "end_char": 3674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第四十条 业务信息包括但不限于在SAC、NAFMII、ISDA等主协议项下的场外期权业务信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3676,
+      "end_char": 3723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第四十一条 业务信息由报送机构按规定报送至场外证券业务报告系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3725,
+      "end_char": 3757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第四十二条 中证报价应当对报送机构的报送内容、数据命名、报告要素等实施标准化管理,开发并升级数据自动报送系统接口,定期开展数据报送的质量评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3759,
+      "end_char": 3830,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第四十三条 报送机构应当建立数据报送工作机制,健全数据报送、核实验证、报告补正等工作流程,配备专岗人员,明确对数据报送工作负直接责任和负管理责任的人员。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3832,
+      "end_char": 3908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第四十四条 证券公司应当将负面客户相关信息报送至场外证券业务报告系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3910,
+      "end_char": 3945,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "中证报价应当在场外证券业务报告系统建立负面客户数据库,为交易商提供负面客户信息查询。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3947,
+      "end_char": 3989,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第四十五条 中证报价、沪深证券交易所、各证监局之间建立场外期权业务数据共享机制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3991,
+      "end_char": 4031,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "chapter",
+      "text": "第七章 监测监控",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4033,
+      "end_char": 4041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "article",
+      "text": "第四十六条 证券公司应当建立健全覆盖场外期权业务各环节的内部管理制度,有效防范业务风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4043,
+      "end_char": 4087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第四十七条 证券公司应当加强对场外期权业务合规性审查,主动识别、合理控制合规风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4089,
+      "end_char": 4130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第四十八条 证券公司应当完善场外期权业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算场外期权业务对应的风控指标。在计算风险资本准备时,卖出场外期权的最大损失应当按照合约本身的损失测算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4132,
+      "end_char": 4250,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第四十九条 开展场外个股期权业务对应的自营权益类证券及衍生品规模不得超过净资本的20% (场外完全抵销的衍生品合约规模不纳入计算口径);连续开展业务两年持续合规的,不得超过净资本的30%;连续三年持续合规的,不超过50%;开展场外个股期权挂钩单一股票的全部合约名义本金(场外完全抵销的衍生品合约不纳入计算口径)占其总市值不超过5%。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4252,
+      "end_char": 4418,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第五十条 证券公司应当建立健全对冲交易行为监控机制,制定完善成交金额占比控制、日内涨跌幅限制、委托价格限制、对冲交易额度限制、股价异常波动的开仓限制等措施,防止对市场稳定造成影响。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4420,
+      "end_char": 4510,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第五十一条 证券公司进行场内对冲交易应当遵守交易所相关交易规则和制度,接受交易所全方位监控。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4512,
+      "end_char": 4558,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第五十二条 中证报价开展业务信息的统计分析,并定期向中国证监会、协会报送统计报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4560,
+      "end_char": 4601,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第五十三条 中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、场外期权标的、交易定价、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向中国证监会、协会报告异常情况和重大事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4603,
+      "end_char": 4720,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第五十四条 证券公司应密切关注中证报价通过场外证券业务报告系统、协会官网等渠道发布的场外期权相关信息公告(包括但不限于场外期权业务信息报送相关公告、风险控制相关公告等),并做好相关信息公告的管理工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4722,
+      "end_char": 4822,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "chapter",
+      "text": "第八章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4824,
+      "end_char": 4832,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第五十五条 证券公司及其相关业务人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、注销执业证书、取消协会授予的业务资格等纪律处分,并按规定计入相应诚信信息管理系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4834,
+      "end_char": 4970,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "article",
+      "text": "第五十六条 证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4972,
+      "end_char": 5073,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告延迟报送的,视其情节轻重采取谈话提醒、警示、责令改正等自律管理措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5075,
+      "end_char": 5146,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)错误笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告出现错误的,视其情节轻重,分别采取自律管理措施和纪律处分。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5148,
+      "end_char": 5210,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别采取自律管理措施、纪律处分和移送证监会查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5212,
+      "end_char": 5286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第五十七条 证券公司开展场外期权业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将移交其住所地证监局依法处理,并报告中国证监会,由中国证监会依法采取监管措施;涉嫌犯罪的,依法移送司法机关,追究其刑事责任。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5288,
+      "end_char": 5394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "chapter",
+      "text": "第九章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5396,
+      "end_char": 5402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "article",
+      "text": "第五十八条 协会根据需要制定专项证券公司场外期权业务自律管理工作须知,工作须知与本办法具有同等效力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5404,
+      "end_char": 5454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第五十九条 本办法由中国证券业协会负责解释、修订。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5456,
+      "end_char": 5481,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第六十条 本办法自发布之日起实施。协会2018年5月28日发布的《关于进一步加强证券公司场外期权业务自律管理的通知》(中证发〔2018〕119号)同时废止。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5483,
+      "end_char": 5561,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00093",
+      "block_type": "attachment",
+      "text": "附件: 1.证券公司场外期权业务二级交易商备案须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5563,
+      "end_char": 5588,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "2.证券公司场外期权业务标的管理须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5590,
+      "end_char": 5608,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "3.证券公司场外期权业务数据报送须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5610,
+      "end_char": 5628,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "第一章 总则\n\n第一条 为规范发展证券公司场外期权业务,根据《中 华人民共和国证券法》、《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件和《中国证券业协会章程》等规定,制定本办法。\n\n第二条 本办法所称场外期权业务指在证券公司柜台开展的期权交易。\n\n第三条 证券公司场外期权业务的交易商管理、标的及合约管理、投资者适当性管理、数据报送、监测监控等适用本办法。\n\n第四条 证券公司应以服务实体经济为目标,以客户风险管理需求为导向,合规、审慎开展场外期权业务。严禁与客户开展单纯以高杠杆投机为目的、不存在真实风险管理需求的场外期权业务。\n\n第五条 中国证券业协会(以下简称协会)对证券公司开展场外期权业务实施自律管理。\n\n中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下承担场外证券业务报告系统的建设及维护,为场外期权业务提供交易备案、数据报送、监测监控等服务。\n\n第二章 交易商管理\n\n第六条 证券公司参与场外期权交易实施分层管理,根据公司资本实力、分类结果、全面风险管理水平、专业人员及技术系统情况,分为一级交易商和二级交易商。\n\n第七条 最近一年分类评级在A类AA级以上的,经中国证监会认可,可以成为一级交易商。\n\n最近一年分类评级在A类A级以上或B类BBB级以上,持续规范经营且专业人员、技术系统、风险管理等符合对应条件的证券公司,经协会备案,可以成为二级交易商;展业一年情况良好、未有重大风险事件的,可向证监会申请成为一级交易商。\n\n第八条 证券公司、证券公司子公司及上述主体管理的产品均应当通过证监会认可或协会备案的证券公司交易商进行场外期权交易。\n\n第九条 一级交易商应当在沪深证券交易所开立场内个股对冲交易专用账户,直接开展对冲交易。\n\n二级交易商仅能与一级交易商进行场内个股对冲交易,不得自行或与一级交易商之外的交易对手开展场内个股对冲交易。\n\n二级交易商应确保其与对手方和一级交易商分别达成的个股期权合约挂钩标的、合约期限、合约名义本金、收益结构等交易要素基本保持一致。\n\n第十条 一级交易商应当建立公平、公正的个股期权报价机制,不得利用交易优势地位等进行不正当竞争。\n\n一级交易商应当履职尽责,对二级交易商及其对手方客户的交易目的、交易标的、交易行为等进行监测评估,并根据标的集中度确定是否接受二级交易商的个股期权对冲交易,发现不符合规定的,不得开展相关交易。\n\n一级交易商拒绝接受对冲交易的,二级交易商不得与客户达成交易合约。\n\n第十一条 交易商发现异常交易的,应当及时向协会报告。\n\n第十二条 交易商发生不符合备案条件、合并、分立等情形时,应当自发生之日起五个交易日内向协会报告,接受持续管理。\n\n第十三条 中国证监会、协会对交易商执业情况实施定期评估,并根据评估结果实行动态调整。\n\n对于经评估不符合交易商条件的证券公司,设置一年过渡期,过渡期内不得新增业务规模;过渡期结束,仍未符合一级或二级交易商条件的,调出相应级别交易商名单。\n\n第十四条 交易商应当建立因动态调整不再属于交易商的处置工作预案,被调出交易商名单后,不得新增场外期权业务;存量业务原则上应在合约了结后终止。因股票停牌等特殊情况无法了结的,经公司合规部门评估出具合规意见书并向协会及所属辖区证监局报备后可展期,但展期期限不超过停牌期满后一个月。\n\n第三章 标的及合约管理\n\n第十五条 协会对证券公司场外期权业务挂钩标的实行自律管理。\n\n第十六条 证券公司可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的资产的场外期权业务。\n\n挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。\n\n第十七条 证券公司开展场外期权业务个股标的范围不得超出融资融券标的当期名单,股票指数标的不得超出协会规定的范围。\n\n第十八条 证券公司开展场外期权业务个股标的应进行实时动态调整,不得新开和展期被交易所实行风险警示、发布暂停上市或终止上市风险提示、进入终止上市程序的个股为标的的场外期权合约。\n\n第十九条 证券公司可以自主设计适合投资者真实风险管理需求的期权合约类型,但应避免形成与其他衍生工具合约组合、嵌套的增加交易成本和链条的复杂产品。\n\n第二十条 对于合约期限30天以下、行权价偏离标的资产市场价格超过20%的合约,证券公司合规部门应当对产品合约设计的合规性进行审慎评估并出具书面合规意见。\n\n第二十一条 期权合约应当明确名义本金、合约期限、挂钩标的及期权费等要素。\n\n第二十二条 证券公司应当合理配置不同类型的场外期权合约的结构比例,做好内部管控,充分评估股票期权合约对场内对冲的影响,避免对市场产生不当冲击。\n\n第二十三条 协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务风险管理。\n\n第四章 投资者适当性管理\n\n第二十四条 商品类场外期权交易对手方,应当是符合《证券期货投资者适当性管理办法》的专业机构投资者。\n\n股票股指类等其它场外期权交易对手方应当是符合《证券期货投资者适当性管理办法》的专业机构投资者,并满足以下条件:\n\n(一)法人、合伙企业或者其他组织参与的,最近1年末净资产不低于5000万元人民币、金融资产不低于2000万元人民币,且具有3年以上证券、基金、期货、黄金、外汇等相关投资经验。\n\n(二)资产管理机构代表产品参与的,最近一年末管理的金融资产规模不低于5亿元人民币,且具备2年以上金融产品管理经验。\n\n(三)产品参与的,应当为合规设立的非结构化产品,规模不低于5000万元人民币,并符合以下条件:\n\n1.穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》专业投资者的基本标准,且最近一年末金融资产不低于2000万元人民币,具有3年以上证券、基金、期货、黄金、外汇等相关投资经验;\n\n2.购买场外期权支付的期权费以及缴纳的初始保证金合计不超过产品规模的30%。\n\n第二十五条 证券公司应当通过尽职调查、要求投资者提供证明材料、查询公开信息等必要措施,对投资者尤其是私募基金等非持牌机构的真实身份、是否满足准入标准、产品合同中对投资场外期权是否约定、相关风险是否揭示等进行核实。\n\n第二十六条 证券公司应当审慎核查投资者真实交易目的,查验投资者是否具有真实的风险管理需求,确认相关投资符合法律法规规定。\n\n第二十七条 证券公司应当确认交易对手方的资金来源为依法依规取得或募集的资金,不存在非法汇集他人资金或违反反洗钱规定的有关情况。\n\n第二十八条 证券公司应当建立交易对手管理台账,对交易对手进行穿透核查。\n\n产品参与的,应当核实产品管理人是否真实承担管理人职责,并对产品最终投资人的投资者适当性进行穿透核查;法人参与的,应当对机构主体及股东信息进行核查。\n\n第二十九条 证券公司应对投资者准入过程充分留痕,并由总部进行最终审核。\n\n第三十条 证券公司应当加强对交易对手交易行为持续监测分析,对同一主体控制的机构、产品应当集中统一监测监控。\n\n发现交易对手涉嫌存在利用场外期权从事规避监管、初始保证金比例超出产品规模30%的,以及涉及违法违规行为的,应当立即停止合作并及时向监管部门报告。\n\n第三十一条 证券公司应当针对场外期权业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约的负面客户信息。\n\n第三十二条 证券公司应当至少每年对投资者的资质复核一次,并通过定期回访、监测评估等方式确保投资者持续符合适当性管理要求。\n\n第五章 禁止行为\n\n第三十三条 不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格投资者参与场外期权交易。\n\n第三十四条 异化为杠杆融资工具。证券公司不得通过期权组合策略、提前终止条款等方式,为投资者提供融资或者变相融资服务。\n\n第三十五条 变相成为投资者交易通道。证券公司不得向投资者出借证券账户,不得直接根据投资者指令进行对冲证券买卖,不得将对冲头寸出售给投资者指定的第三方,不得依照客户指令使用客户保证金。\n\n第三十六条 频繁交易。证券公司不得通过建立交易系统、频繁提前了结合约等方式为交易对手短期内频繁开仓、平仓交易提供便利。\n\n第三十七条 违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的场外期权;严禁为配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体提供场外期权服务。\n\n第三十八条 为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或者变相出借交易商资质。\n\n第六章 数据报送\n\n第三十九条 证券公司及协会认定的场外期权业务重要交易对手(以下统称报送机构)应当定期向协会报送规定的场外期权业务信息。\n\n第四十条 业务信息包括但不限于在SAC、NAFMII、ISDA等主协议项下的场外期权业务信息。\n\n第四十一条 业务信息由报送机构按规定报送至场外证券业务报告系统。\n\n第四十二条 中证报价应当对报送机构的报送内容、数据命名、报告要素等实施标准化管理,开发并升级数据自动报送系统接口,定期开展数据报送的质量评估。\n\n第四十三条 报送机构应当建立数据报送工作机制,健全数据报送、核实验证、报告补正等工作流程,配备专岗人员,明确对数据报送工作负直接责任和负管理责任的人员。\n\n第四十四条 证券公司应当将负面客户相关信息报送至场外证券业务报告系统。\n\n中证报价应当在场外证券业务报告系统建立负面客户数据库,为交易商提供负面客户信息查询。\n\n第四十五条 中证报价、沪深证券交易所、各证监局之间建立场外期权业务数据共享机制。\n\n第七章 监测监控\n\n第四十六条 证券公司应当建立健全覆盖场外期权业务各环节的内部管理制度,有效防范业务风险。\n\n第四十七条 证券公司应当加强对场外期权业务合规性审查,主动识别、合理控制合规风险。\n\n第四十八条 证券公司应当完善场外期权业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算场外期权业务对应的风控指标。在计算风险资本准备时,卖出场外期权的最大损失应当按照合约本身的损失测算。\n\n第四十九条 开展场外个股期权业务对应的自营权益类证券及衍生品规模不得超过净资本的20% (场外完全抵销的衍生品合约规模不纳入计算口径);连续开展业务两年持续合规的,不得超过净资本的30%;连续三年持续合规的,不超过50%;开展场外个股期权挂钩单一股票的全部合约名义本金(场外完全抵销的衍生品合约不纳入计算口径)占其总市值不超过5%。\n\n第五十条 证券公司应当建立健全对冲交易行为监控机制,制定完善成交金额占比控制、日内涨跌幅限制、委托价格限制、对冲交易额度限制、股价异常波动的开仓限制等措施,防止对市场稳定造成影响。\n\n第五十一条 证券公司进行场内对冲交易应当遵守交易所相关交易规则和制度,接受交易所全方位监控。\n\n第五十二条 中证报价开展业务信息的统计分析,并定期向中国证监会、协会报送统计报告。\n\n第五十三条 中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、场外期权标的、交易定价、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向中国证监会、协会报告异常情况和重大事项。\n\n第五十四条 证券公司应密切关注中证报价通过场外证券业务报告系统、协会官网等渠道发布的场外期权相关信息公告(包括但不限于场外期权业务信息报送相关公告、风险控制相关公告等),并做好相关信息公告的管理工作。\n\n第八章 自律管理\n\n第五十五条 证券公司及其相关业务人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、注销执业证书、取消协会授予的业务资格等纪律处分,并按规定计入相应诚信信息管理系统。\n\n第五十六条 证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。\n\n(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告延迟报送的,视其情节轻重采取谈话提醒、警示、责令改正等自律管理措施。\n\n(二)错误笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告出现错误的,视其情节轻重,分别采取自律管理措施和纪律处分。\n\n(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别采取自律管理措施、纪律处分和移送证监会查处。\n\n第五十七条 证券公司开展场外期权业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将移交其住所地证监局依法处理,并报告中国证监会,由中国证监会依法采取监管措施;涉嫌犯罪的,依法移送司法机关,追究其刑事责任。\n\n第九章 附则\n\n第五十八条 协会根据需要制定专项证券公司场外期权业务自律管理工作须知,工作须知与本办法具有同等效力。\n\n第五十九条 本办法由中国证券业协会负责解释、修订。\n\n第六十条 本办法自发布之日起实施。协会2018年5月28日发布的《关于进一步加强证券公司场外期权业务自律管理的通知》(中证发〔2018〕119号)同时废止。\n\n附件: 1.证券公司场外期权业务二级交易商备案须知\n\n2.证券公司场外期权业务标的管理须知\n\n3.证券公司场外期权业务数据报送须知",
+  "structured_blocks": [
+    {
+      "block_id": "b00003",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 6,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第一条 为规范发展证券公司场外期权业务,根据《中 华人民共和国证券法》、《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件和《中国证券业协会章程》等规定,制定本办法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8,
+      "end_char": 97,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第二条 本办法所称场外期权业务指在证券公司柜台开展的期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 99,
+      "end_char": 130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 证券公司场外期权业务的交易商管理、标的及合约管理、投资者适当性管理、数据报送、监测监控等适用本办法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 132,
+      "end_char": 186,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 证券公司应以服务实体经济为目标,以客户风险管理需求为导向,合规、审慎开展场外期权业务。严禁与客户开展单纯以高杠杆投机为目的、不存在真实风险管理需求的场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 188,
+      "end_char": 273,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 中国证券业协会(以下简称协会)对证券公司开展场外期权业务实施自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 275,
+      "end_char": 314,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下承担场外证券业务报告系统的建设及维护,为场外期权业务提供交易备案、数据报送、监测监控等服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 316,
+      "end_char": 393,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "chapter",
+      "text": "第二章 交易商管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 395,
+      "end_char": 404,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第六条 证券公司参与场外期权交易实施分层管理,根据公司资本实力、分类结果、全面风险管理水平、专业人员及技术系统情况,分为一级交易商和二级交易商。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 406,
+      "end_char": 478,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 最近一年分类评级在A类AA级以上的,经中国证监会认可,可以成为一级交易商。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 480,
+      "end_char": 521,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "最近一年分类评级在A类A级以上或B类BBB级以上,持续规范经营且专业人员、技术系统、风险管理等符合对应条件的证券公司,经协会备案,可以成为二级交易商;展业一年情况良好、未有重大风险事件的,可向证监会申请成为一级交易商。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 523,
+      "end_char": 632,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "article",
+      "text": "第八条 证券公司、证券公司子公司及上述主体管理的产品均应当通过证监会认可或协会备案的证券公司交易商进行场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 634,
+      "end_char": 692,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第九条 一级交易商应当在沪深证券交易所开立场内个股对冲交易专用账户,直接开展对冲交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 694,
+      "end_char": 737,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "二级交易商仅能与一级交易商进行场内个股对冲交易,不得自行或与一级交易商之外的交易对手开展场内个股对冲交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 792,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "二级交易商应确保其与对手方和一级交易商分别达成的个股期权合约挂钩标的、合约期限、合约名义本金、收益结构等交易要素基本保持一致。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 794,
+      "end_char": 857,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第十条 一级交易商应当建立公平、公正的个股期权报价机制,不得利用交易优势地位等进行不正当竞争。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 859,
+      "end_char": 906,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "一级交易商应当履职尽责,对二级交易商及其对手方客户的交易目的、交易标的、交易行为等进行监测评估,并根据标的集中度确定是否接受二级交易商的个股期权对冲交易,发现不符合规定的,不得开展相关交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 1003,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "一级交易商拒绝接受对冲交易的,二级交易商不得与客户达成交易合约。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1005,
+      "end_char": 1037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十一条 交易商发现异常交易的,应当及时向协会报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1039,
+      "end_char": 1065,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十二条 交易商发生不符合备案条件、合并、分立等情形时,应当自发生之日起五个交易日内向协会报告,接受持续管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1067,
+      "end_char": 1122,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第十三条 中国证监会、协会对交易商执业情况实施定期评估,并根据评估结果实行动态调整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1124,
+      "end_char": 1166,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "对于经评估不符合交易商条件的证券公司,设置一年过渡期,过渡期内不得新增业务规模;过渡期结束,仍未符合一级或二级交易商条件的,调出相应级别交易商名单。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1168,
+      "end_char": 1242,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十四条 交易商应当建立因动态调整不再属于交易商的处置工作预案,被调出交易商名单后,不得新增场外期权业务;存量业务原则上应在合约了结后终止。因股票停牌等特殊情况无法了结的,经公司合规部门评估出具合规意见书并向协会及所属辖区证监局报备后可展期,但展期期限不超过停牌期满后一个月。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1244,
+      "end_char": 1382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "chapter",
+      "text": "第三章 标的及合约管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1384,
+      "end_char": 1395,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十五条 协会对证券公司场外期权业务挂钩标的实行自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1397,
+      "end_char": 1426,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十六条 证券公司可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的资产的场外期权业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1428,
+      "end_char": 1475,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1477,
+      "end_char": 1530,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "article",
+      "text": "第十七条 证券公司开展场外期权业务个股标的范围不得超出融资融券标的当期名单,股票指数标的不得超出协会规定的范围。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1532,
+      "end_char": 1588,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "article",
+      "text": "第十八条 证券公司开展场外期权业务个股标的应进行实时动态调整,不得新开和展期被交易所实行风险警示、发布暂停上市或终止上市风险提示、进入终止上市程序的个股为标的的场外期权合约。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1590,
+      "end_char": 1677,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十九条 证券公司可以自主设计适合投资者真实风险管理需求的期权合约类型,但应避免形成与其他衍生工具合约组合、嵌套的增加交易成本和链条的复杂产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1679,
+      "end_char": 1751,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第二十条 对于合约期限30天以下、行权价偏离标的资产市场价格超过20%的合约,证券公司合规部门应当对产品合约设计的合规性进行审慎评估并出具书面合规意见。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1753,
+      "end_char": 1829,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第二十一条 期权合约应当明确名义本金、合约期限、挂钩标的及期权费等要素。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1831,
+      "end_char": 1867,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当合理配置不同类型的场外期权合约的结构比例,做好内部管控,充分评估股票期权合约对场内对冲的影响,避免对市场产生不当冲击。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1869,
+      "end_char": 1940,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第二十三条 协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务风险管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1942,
+      "end_char": 1991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "chapter",
+      "text": "第四章 投资者适当性管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1993,
+      "end_char": 2005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第二十四条 商品类场外期权交易对手方,应当是符合《证券期货投资者适当性管理办法》的专业机构投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2007,
+      "end_char": 2056,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "股票股指类等其它场外期权交易对手方应当是符合《证券期货投资者适当性管理办法》的专业机构投资者,并满足以下条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2058,
+      "end_char": 2113,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(一)法人、合伙企业或者其他组织参与的,最近1年末净资产不低于5000万元人民币、金融资产不低于2000万元人民币,且具有3年以上证券、基金、期货、黄金、外汇等相关投资经验。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2115,
+      "end_char": 2202,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "(二)资产管理机构代表产品参与的,最近一年末管理的金融资产规模不低于5亿元人民币,且具备2年以上金融产品管理经验。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2204,
+      "end_char": 2261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "(三)产品参与的,应当为合规设立的非结构化产品,规模不低于5000万元人民币,并符合以下条件:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2263,
+      "end_char": 2310,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "1.穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》专业投资者的基本标准,且最近一年末金融资产不低于2000万元人民币,具有3年以上证券、基金、期货、黄金、外汇等相关投资经验;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2312,
+      "end_char": 2423,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "2.购买场外期权支付的期权费以及缴纳的初始保证金合计不超过产品规模的30%。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2425,
+      "end_char": 2463,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当通过尽职调查、要求投资者提供证明材料、查询公开信息等必要措施,对投资者尤其是私募基金等非持牌机构的真实身份、是否满足准入标准、产品合同中对投资场外期权是否约定、相关风险是否揭示等进行核实。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2465,
+      "end_char": 2571,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当审慎核查投资者真实交易目的,查验投资者是否具有真实的风险管理需求,确认相关投资符合法律法规规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2573,
+      "end_char": 2633,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "article",
+      "text": "第二十七条 证券公司应当确认交易对手方的资金来源为依法依规取得或募集的资金,不存在非法汇集他人资金或违反反洗钱规定的有关情况。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2635,
+      "end_char": 2698,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十八条 证券公司应当建立交易对手管理台账,对交易对手进行穿透核查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2700,
+      "end_char": 2735,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "产品参与的,应当核实产品管理人是否真实承担管理人职责,并对产品最终投资人的投资者适当性进行穿透核查;法人参与的,应当对机构主体及股东信息进行核查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2737,
+      "end_char": 2810,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "article",
+      "text": "第二十九条 证券公司应对投资者准入过程充分留痕,并由总部进行最终审核。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2812,
+      "end_char": 2847,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第三十条 证券公司应当加强对交易对手交易行为持续监测分析,对同一主体控制的机构、产品应当集中统一监测监控。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2849,
+      "end_char": 2902,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "发现交易对手涉嫌存在利用场外期权从事规避监管、初始保证金比例超出产品规模30%的,以及涉及违法违规行为的,应当立即停止合作并及时向监管部门报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2904,
+      "end_char": 2976,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第三十一条 证券公司应当针对场外期权业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约的负面客户信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2978,
+      "end_char": 3045,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第三十二条 证券公司应当至少每年对投资者的资质复核一次,并通过定期回访、监测评估等方式确保投资者持续符合适当性管理要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3047,
+      "end_char": 3107,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "chapter",
+      "text": "第五章 禁止行为",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3109,
+      "end_char": 3117,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第三十三条 不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格投资者参与场外期权交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3119,
+      "end_char": 3176,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "article",
+      "text": "第三十四条 异化为杠杆融资工具。证券公司不得通过期权组合策略、提前终止条款等方式,为投资者提供融资或者变相融资服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3178,
+      "end_char": 3236,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第三十五条 变相成为投资者交易通道。证券公司不得向投资者出借证券账户,不得直接根据投资者指令进行对冲证券买卖,不得将对冲头寸出售给投资者指定的第三方,不得依照客户指令使用客户保证金。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3238,
+      "end_char": 3329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第三十六条 频繁交易。证券公司不得通过建立交易系统、频繁提前了结合约等方式为交易对手短期内频繁开仓、平仓交易提供便利。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3331,
+      "end_char": 3390,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第三十七条 违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的场外期权;严禁为配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体提供场外期权服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3392,
+      "end_char": 3507,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第三十八条 为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或者变相出借交易商资质。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3509,
+      "end_char": 3603,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "chapter",
+      "text": "第六章 数据报送",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3605,
+      "end_char": 3613,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第三十九条 证券公司及协会认定的场外期权业务重要交易对手(以下统称报送机构)应当定期向协会报送规定的场外期权业务信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3615,
+      "end_char": 3674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第四十条 业务信息包括但不限于在SAC、NAFMII、ISDA等主协议项下的场外期权业务信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3676,
+      "end_char": 3723,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第四十一条 业务信息由报送机构按规定报送至场外证券业务报告系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3725,
+      "end_char": 3757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第四十二条 中证报价应当对报送机构的报送内容、数据命名、报告要素等实施标准化管理,开发并升级数据自动报送系统接口,定期开展数据报送的质量评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3759,
+      "end_char": 3830,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "article",
+      "text": "第四十三条 报送机构应当建立数据报送工作机制,健全数据报送、核实验证、报告补正等工作流程,配备专岗人员,明确对数据报送工作负直接责任和负管理责任的人员。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3832,
+      "end_char": 3908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第四十四条 证券公司应当将负面客户相关信息报送至场外证券业务报告系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3910,
+      "end_char": 3945,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "中证报价应当在场外证券业务报告系统建立负面客户数据库,为交易商提供负面客户信息查询。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3947,
+      "end_char": 3989,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第四十五条 中证报价、沪深证券交易所、各证监局之间建立场外期权业务数据共享机制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3991,
+      "end_char": 4031,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "chapter",
+      "text": "第七章 监测监控",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4033,
+      "end_char": 4041,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "article",
+      "text": "第四十六条 证券公司应当建立健全覆盖场外期权业务各环节的内部管理制度,有效防范业务风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4043,
+      "end_char": 4087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第四十七条 证券公司应当加强对场外期权业务合规性审查,主动识别、合理控制合规风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4089,
+      "end_char": 4130,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第四十八条 证券公司应当完善场外期权业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算场外期权业务对应的风控指标。在计算风险资本准备时,卖出场外期权的最大损失应当按照合约本身的损失测算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4132,
+      "end_char": 4250,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第四十九条 开展场外个股期权业务对应的自营权益类证券及衍生品规模不得超过净资本的20% (场外完全抵销的衍生品合约规模不纳入计算口径);连续开展业务两年持续合规的,不得超过净资本的30%;连续三年持续合规的,不超过50%;开展场外个股期权挂钩单一股票的全部合约名义本金(场外完全抵销的衍生品合约不纳入计算口径)占其总市值不超过5%。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4252,
+      "end_char": 4418,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第五十条 证券公司应当建立健全对冲交易行为监控机制,制定完善成交金额占比控制、日内涨跌幅限制、委托价格限制、对冲交易额度限制、股价异常波动的开仓限制等措施,防止对市场稳定造成影响。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4420,
+      "end_char": 4510,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第五十一条 证券公司进行场内对冲交易应当遵守交易所相关交易规则和制度,接受交易所全方位监控。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4512,
+      "end_char": 4558,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "article",
+      "text": "第五十二条 中证报价开展业务信息的统计分析,并定期向中国证监会、协会报送统计报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4560,
+      "end_char": 4601,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第五十三条 中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、场外期权标的、交易定价、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向中国证监会、协会报告异常情况和重大事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4603,
+      "end_char": 4720,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第五十四条 证券公司应密切关注中证报价通过场外证券业务报告系统、协会官网等渠道发布的场外期权相关信息公告(包括但不限于场外期权业务信息报送相关公告、风险控制相关公告等),并做好相关信息公告的管理工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4722,
+      "end_char": 4822,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "chapter",
+      "text": "第八章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4824,
+      "end_char": 4832,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第五十五条 证券公司及其相关业务人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、注销执业证书、取消协会授予的业务资格等纪律处分,并按规定计入相应诚信信息管理系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4834,
+      "end_char": 4970,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "article",
+      "text": "第五十六条 证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4972,
+      "end_char": 5073,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告延迟报送的,视其情节轻重采取谈话提醒、警示、责令改正等自律管理措施。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5075,
+      "end_char": 5146,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)错误笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告出现错误的,视其情节轻重,分别采取自律管理措施和纪律处分。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5148,
+      "end_char": 5210,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别采取自律管理措施、纪律处分和移送证监会查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5212,
+      "end_char": 5286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第五十七条 证券公司开展场外期权业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将移交其住所地证监局依法处理,并报告中国证监会,由中国证监会依法采取监管措施;涉嫌犯罪的,依法移送司法机关,追究其刑事责任。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5288,
+      "end_char": 5394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "chapter",
+      "text": "第九章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5396,
+      "end_char": 5402,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "article",
+      "text": "第五十八条 协会根据需要制定专项证券公司场外期权业务自律管理工作须知,工作须知与本办法具有同等效力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5404,
+      "end_char": 5454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第五十九条 本办法由中国证券业协会负责解释、修订。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5456,
+      "end_char": 5481,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第六十条 本办法自发布之日起实施。协会2018年5月28日发布的《关于进一步加强证券公司场外期权业务自律管理的通知》(中证发〔2018〕119号)同时废止。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5483,
+      "end_char": 5561,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "attachment",
+      "text": "附件: 1.证券公司场外期权业务二级交易商备案须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5563,
+      "end_char": 5588,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "2.证券公司场外期权业务标的管理须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5590,
+      "end_char": 5608,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "3.证券公司场外期权业务数据报送须知",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5610,
+      "end_char": 5628,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "第一章 总则\n\n第一条 为规范发展证券公司场外期权业务,根据《中 华人民共和国证券法》、《证券公司监督管理条例》等法律、行政法规、部门规章、规范性文件和《中国证券业协会章程》等规定,制定本办法。\n\n第二条 本办法所称场外期权业务指在证券公司柜台开展的期权交易。\n\n第三条 证券公司场外期权业务的交易商管理、标的及合约管理、投资者适当性管理、数据报送、监测监控等适用本办法。\n\n第四条 证券公司应以服务实体经济为目标,以客户风险管理需求为导向,合规、审慎开展场外期权业务。严禁与客户开展单纯以高杠杆投机为目的、不存在真实风险管理需求的场外期权业务。\n\n第五条 中国证券业协会(以下简称协会)对证券公司开展场外期权业务实施自律管理。\n\n中证机构间报价系统股份有限公司(以下简称中证报价)在协会指导下承担场外证券业务报告系统的建设及维护,为场外期权业务提供交易备案、数据报送、监测监控等服务。\n\n第二章 交易商管理\n\n第六条 证券公司参与场外期权交易实施分层管理,根据公司资本实力、分类结果、全面风险管理水平、专业人员及技术系统情况,分为一级交易商和二级交易商。\n\n第七条 最近一年分类评级在A类AA级以上的,经中国证监会认可,可以成为一级交易商。\n\n最近一年分类评级在A类A级以上或B类BBB级以上,持续规范经营且专业人员、技术系统、风险管理等符合对应条件的证券公司,经协会备案,可以成为二级交易商;展业一年情况良好、未有重大风险事件的,可向证监会申请成为一级交易商。\n\n第八条 证券公司、证券公司子公司及上述主体管理的产品均应当通过证监会认可或协会备案的证券公司交易商进行场外期权交易。\n\n第九条 一级交易商应当在沪深证券交易所开立场内个股对冲交易专用账户,直接开展对冲交易。\n\n二级交易商仅能与一级交易商进行场内个股对冲交易,不得自行或与一级交易商之外的交易对手开展场内个股对冲交易。\n\n二级交易商应确保其与对手方和一级交易商分别达成的个股期权合约挂钩标的、合约期限、合约名义本金、收益结构等交易要素基本保持一致。\n\n第十条 一级交易商应当建立公平、公正的个股期权报价机制,不得利用交易优势地位等进行不正当竞争。\n\n一级交易商应当履职尽责,对二级交易商及其对手方客户的交易目的、交易标的、交易行为等进行监测评估,并根据标的集中度确定是否接受二级交易商的个股期权对冲交易,发现不符合规定的,不得开展相关交易。\n\n一级交易商拒绝接受对冲交易的,二级交易商不得与客户达成交易合约。\n\n第十一条 交易商发现异常交易的,应当及时向协会报告。\n\n第十二条 交易商发生不符合备案条件、合并、分立等情形时,应当自发生之日起五个交易日内向协会报告,接受持续管理。\n\n第十三条 中国证监会、协会对交易商执业情况实施定期评估,并根据评估结果实行动态调整。\n\n对于经评估不符合交易商条件的证券公司,设置一年过渡期,过渡期内不得新增业务规模;过渡期结束,仍未符合一级或二级交易商条件的,调出相应级别交易商名单。\n\n第十四条 交易商应当建立因动态调整不再属于交易商的处置工作预案,被调出交易商名单后,不得新增场外期权业务;存量业务原则上应在合约了结后终止。因股票停牌等特殊情况无法了结的,经公司合规部门评估出具合规意见书并向协会及所属辖区证监局报备后可展期,但展期期限不超过停牌期满后一个月。\n\n第三章 标的及合约管理\n\n第十五条 协会对证券公司场外期权业务挂钩标的实行自律管理。\n\n第十六条 证券公司可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的资产的场外期权业务。\n\n挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。\n\n第十七条 证券公司开展场外期权业务个股标的范围不得超出融资融券标的当期名单,股票指数标的不得超出协会规定的范围。\n\n第十八条 证券公司开展场外期权业务个股标的应进行实时动态调整,不得新开和展期被交易所实行风险警示、发布暂停上市或终止上市风险提示、进入终止上市程序的个股为标的的场外期权合约。\n\n第十九条 证券公司可以自主设计适合投资者真实风险管理需求的期权合约类型,但应避免形成与其他衍生工具合约组合、嵌套的增加交易成本和链条的复杂产品。\n\n第二十条 对于合约期限30天以下、行权价偏离标的资产市场价格超过20%的合约,证券公司合规部门应当对产品合约设计的合规性进行审慎评估并出具书面合规意见。\n\n第二十一条 期权合约应当明确名义本金、合约期限、挂钩标的及期权费等要素。\n\n第二十二条 证券公司应当合理配置不同类型的场外期权合约的结构比例,做好内部管控,充分评估股票期权合约对场内对冲的影响,避免对市场产生不当冲击。\n\n第二十三条 协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务风险管理。\n\n第四章 投资者适当性管理\n\n第二十四条 商品类场外期权交易对手方,应当是符合《证券期货投资者适当性管理办法》的专业机构投资者。\n\n股票股指类等其它场外期权交易对手方应当是符合《证券期货投资者适当性管理办法》的专业机构投资者,并满足以下条件:\n\n(一)法人、合伙企业或者其他组织参与的,最近1年末净资产不低于5000万元人民币、金融资产不低于2000万元人民币,且具有3年以上证券、基金、期货、黄金、外汇等相关投资经验。\n\n(二)资产管理机构代表产品参与的,最近一年末管理的金融资产规模不低于5亿元人民币,且具备2年以上金融产品管理经验。\n\n(三)产品参与的,应当为合规设立的非结构化产品,规模不低于5000万元人民币,并符合以下条件:\n\n1.穿透后的委托人中,单一投资者在产品中权益超过20%的,应当符合《证券期货投资者适当性管理办法》专业投资者的基本标准,且最近一年末金融资产不低于2000万元人民币,具有3年以上证券、基金、期货、黄金、外汇等相关投资经验;\n\n2.购买场外期权支付的期权费以及缴纳的初始保证金合计不超过产品规模的30%。\n\n第二十五条 证券公司应当通过尽职调查、要求投资者提供证明材料、查询公开信息等必要措施,对投资者尤其是私募基金等非持牌机构的真实身份、是否满足准入标准、产品合同中对投资场外期权是否约定、相关风险是否揭示等进行核实。\n\n第二十六条 证券公司应当审慎核查投资者真实交易目的,查验投资者是否具有真实的风险管理需求,确认相关投资符合法律法规规定。\n\n第二十七条 证券公司应当确认交易对手方的资金来源为依法依规取得或募集的资金,不存在非法汇集他人资金或违反反洗钱规定的有关情况。\n\n第二十八条 证券公司应当建立交易对手管理台账,对交易对手进行穿透核查。\n\n产品参与的,应当核实产品管理人是否真实承担管理人职责,并对产品最终投资人的投资者适当性进行穿透核查;法人参与的,应当对机构主体及股东信息进行核查。\n\n第二十九条 证券公司应对投资者准入过程充分留痕,并由总部进行最终审核。\n\n第三十条 证券公司应当加强对交易对手交易行为持续监测分析,对同一主体控制的机构、产品应当集中统一监测监控。\n\n发现交易对手涉嫌存在利用场外期权从事规避监管、初始保证金比例超出产品规模30%的,以及涉及违法违规行为的,应当立即停止合作并及时向监管部门报告。\n\n第三十一条 证券公司应当针对场外期权业务建立负面客户管理机制,及时记载展业过程中的违反法律法规、违反自律规则、重大违约的负面客户信息。\n\n第三十二条 证券公司应当至少每年对投资者的资质复核一次,并通过定期回访、监测评估等方式确保投资者持续符合适当性管理要求。\n\n第五章 禁止行为\n\n第三十三条 不当宣传推介。证券公司不得通过互联网、自媒体等任何方式向公众宣传,或诱导不合格投资者参与场外期权交易。\n\n第三十四条 异化为杠杆融资工具。证券公司不得通过期权组合策略、提前终止条款等方式,为投资者提供融资或者变相融资服务。\n\n第三十五条 变相成为投资者交易通道。证券公司不得向投资者出借证券账户,不得直接根据投资者指令进行对冲证券买卖,不得将对冲头寸出售给投资者指定的第三方,不得依照客户指令使用客户保证金。\n\n第三十六条 频繁交易。证券公司不得通过建立交易系统、频繁提前了结合约等方式为交易对手短期内频繁开仓、平仓交易提供便利。\n\n第三十七条 违规与敏感客户交易。证券公司不得违规与上市公司及其关联方、一致行动人开展以本公司股票为标的的场外期权;严禁为配资公司、荐股平台、P2P平台、违规互联网金融平台等涉嫌非法金融活动或存在潜在利益冲突的主体提供场外期权服务。\n\n第三十八条 为监管套利等违法违规行为提供便利。证券公司不得为违规资产出表、资金腾挪或者规避信息披露、投资范围、交易限制、杠杆约束等监管要求的行为提供服务或向他人出借或者变相出借交易商资质。\n\n第六章 数据报送\n\n第三十九条 证券公司及协会认定的场外期权业务重要交易对手(以下统称报送机构)应当定期向协会报送规定的场外期权业务信息。\n\n第四十条 业务信息包括但不限于在SAC、NAFMII、ISDA等主协议项下的场外期权业务信息。\n\n第四十一条 业务信息由报送机构按规定报送至场外证券业务报告系统。\n\n第四十二条 中证报价应当对报送机构的报送内容、数据命名、报告要素等实施标准化管理,开发并升级数据自动报送系统接口,定期开展数据报送的质量评估。\n\n第四十三条 报送机构应当建立数据报送工作机制,健全数据报送、核实验证、报告补正等工作流程,配备专岗人员,明确对数据报送工作负直接责任和负管理责任的人员。\n\n第四十四条 证券公司应当将负面客户相关信息报送至场外证券业务报告系统。\n\n中证报价应当在场外证券业务报告系统建立负面客户数据库,为交易商提供负面客户信息查询。\n\n第四十五条 中证报价、沪深证券交易所、各证监局之间建立场外期权业务数据共享机制。\n\n第七章 监测监控\n\n第四十六条 证券公司应当建立健全覆盖场外期权业务各环节的内部管理制度,有效防范业务风险。\n\n第四十七条 证券公司应当加强对场外期权业务合规性审查,主动识别、合理控制合规风险。\n\n第四十八条 证券公司应当完善场外期权业务规模和对冲交易持仓集中度控制,严格按照《证券公司风险控制指标管理办法》及配套规则的规定,审慎计算场外期权业务对应的风控指标。在计算风险资本准备时,卖出场外期权的最大损失应当按照合约本身的损失测算。\n\n第四十九条 开展场外个股期权业务对应的自营权益类证券及衍生品规模不得超过净资本的20% (场外完全抵销的衍生品合约规模不纳入计算口径);连续开展业务两年持续合规的,不得超过净资本的30%;连续三年持续合规的,不超过50%;开展场外个股期权挂钩单一股票的全部合约名义本金(场外完全抵销的衍生品合约不纳入计算口径)占其总市值不超过5%。\n\n第五十条 证券公司应当建立健全对冲交易行为监控机制,制定完善成交金额占比控制、日内涨跌幅限制、委托价格限制、对冲交易额度限制、股价异常波动的开仓限制等措施,防止对市场稳定造成影响。\n\n第五十一条 证券公司进行场内对冲交易应当遵守交易所相关交易规则和制度,接受交易所全方位监控。\n\n第五十二条 中证报价开展业务信息的统计分析,并定期向中国证监会、协会报送统计报告。\n\n第五十三条 中证报价应加强业务情况的监测监控,监测监控内容包括但不限于投资者适当性、场外期权标的、交易定价、交易集中度、变动趋势、对手方分布、履约情况变动等重点环节,定期编制监测监控报告,及时向中国证监会、协会报告异常情况和重大事项。\n\n第五十四条 证券公司应密切关注中证报价通过场外证券业务报告系统、协会官网等渠道发布的场外期权相关信息公告(包括但不限于场外期权业务信息报送相关公告、风险控制相关公告等),并做好相关信息公告的管理工作。\n\n第八章 自律管理\n\n第五十五条 证券公司及其相关业务人员违反本办法和协会相关自律规则的,协会根据《中国证券业协会自律措施实施办法》视情节轻重采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、注销执业证书、取消协会授予的业务资格等纪律处分,并按规定计入相应诚信信息管理系统。\n\n第五十六条 证券公司存在以下未按要求报送业务信息、影响监测监控情形的,协会依据《中国证券业协会自律措施实施办法》视情节轻重采取自律惩戒措施,并按规定计入相应诚信信息管理系统;情节严重的,移送证监会查处。\n\n(一)持续报告延迟笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告延迟报送的,视其情节轻重采取谈话提醒、警示、责令改正等自律管理措施。\n\n(二)错误笔数月累计达到3笔以上的,或月度报告、季度报告、年度报告出现错误的,视其情节轻重,分别采取自律管理措施和纪律处分。\n\n(三)截至交易到期日仍未报送业务信息的,或重大事项自发生之日起未在3个交易日内报告的,视其情节轻重,分别采取自律管理措施、纪律处分和移送证监会查处。\n\n第五十七条 证券公司开展场外期权业务涉嫌违反法律法规、监管规定或存在重大风险隐患的,协会将移交其住所地证监局依法处理,并报告中国证监会,由中国证监会依法采取监管措施;涉嫌犯罪的,依法移送司法机关,追究其刑事责任。\n\n第九章 附则\n\n第五十八条 协会根据需要制定专项证券公司场外期权业务自律管理工作须知,工作须知与本办法具有同等效力。\n\n第五十九条 本办法由中国证券业协会负责解释、修订。\n\n第六十条 本办法自发布之日起实施。协会2018年5月28日发布的《关于进一步加强证券公司场外期权业务自律管理的通知》(中证发〔2018〕119号)同时废止。\n\n附件: 1.证券公司场外期权业务二级交易商备案须知\n\n2.证券公司场外期权业务标的管理须知\n\n3.证券公司场外期权业务数据报送须知",
   "blocks": [
     {
@@ -163,7 +2391,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 6,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -171,7 +2406,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8,
+      "end_char": 97,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -179,7 +2421,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 99,
+      "end_char": 130,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -187,7 +2436,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 132,
+      "end_char": 186,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -195,7 +2451,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 188,
+      "end_char": 273,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -203,7 +2466,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 275,
+      "end_char": 314,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -211,7 +2481,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 316,
+      "end_char": 393,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -219,7 +2496,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 395,
+      "end_char": 404,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -227,7 +2511,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 406,
+      "end_char": 478,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -235,7 +2526,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 480,
+      "end_char": 521,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -243,7 +2541,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 523,
+      "end_char": 632,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -251,7 +2556,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 634,
+      "end_char": 692,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -259,7 +2571,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 694,
+      "end_char": 737,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -267,7 +2586,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 792,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -275,7 +2601,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 794,
+      "end_char": 857,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -283,7 +2616,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 859,
+      "end_char": 906,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -291,7 +2631,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 908,
+      "end_char": 1003,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -299,7 +2646,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1005,
+      "end_char": 1037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -307,7 +2661,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1039,
+      "end_char": 1065,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -315,7 +2676,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1067,
+      "end_char": 1122,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -323,7 +2691,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1124,
+      "end_char": 1166,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -331,7 +2706,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1168,
+      "end_char": 1242,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -339,7 +2721,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1244,
+      "end_char": 1382,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -347,7 +2736,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1384,
+      "end_char": 1395,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -355,7 +2751,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1397,
+      "end_char": 1426,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -363,7 +2766,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1428,
+      "end_char": 1475,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -371,7 +2781,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1477,
+      "end_char": 1530,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -379,7 +2796,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1532,
+      "end_char": 1588,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -387,7 +2811,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1590,
+      "end_char": 1677,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -395,7 +2826,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1679,
+      "end_char": 1751,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -403,7 +2841,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1753,
+      "end_char": 1829,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -411,7 +2856,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1831,
+      "end_char": 1867,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -419,7 +2871,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1869,
+      "end_char": 1940,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -427,7 +2886,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1942,
+      "end_char": 1991,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -435,7 +2901,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1993,
+      "end_char": 2005,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -443,7 +2916,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2007,
+      "end_char": 2056,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -451,7 +2931,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2058,
+      "end_char": 2113,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -459,7 +2946,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2115,
+      "end_char": 2202,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -467,7 +2961,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2204,
+      "end_char": 2261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -475,7 +2976,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2263,
+      "end_char": 2310,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -483,7 +2991,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2312,
+      "end_char": 2423,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -491,7 +3006,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2425,
+      "end_char": 2463,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -499,7 +3021,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2465,
+      "end_char": 2571,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -507,7 +3036,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2573,
+      "end_char": 2633,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -515,7 +3051,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2635,
+      "end_char": 2698,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -523,7 +3066,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2700,
+      "end_char": 2735,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -531,7 +3081,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2737,
+      "end_char": 2810,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -539,7 +3096,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2812,
+      "end_char": 2847,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -547,7 +3111,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2849,
+      "end_char": 2902,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -555,7 +3126,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2904,
+      "end_char": 2976,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -563,7 +3141,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2978,
+      "end_char": 3045,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -571,7 +3156,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3047,
+      "end_char": 3107,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -579,7 +3171,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3109,
+      "end_char": 3117,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -587,7 +3186,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3119,
+      "end_char": 3176,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -595,7 +3201,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3178,
+      "end_char": 3236,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -603,7 +3216,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3238,
+      "end_char": 3329,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -611,7 +3231,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3331,
+      "end_char": 3390,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -619,7 +3246,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3392,
+      "end_char": 3507,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -627,7 +3261,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3509,
+      "end_char": 3603,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -635,7 +3276,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3605,
+      "end_char": 3613,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -643,7 +3291,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3615,
+      "end_char": 3674,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -651,7 +3306,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3676,
+      "end_char": 3723,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -659,7 +3321,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3725,
+      "end_char": 3757,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -667,7 +3336,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3759,
+      "end_char": 3830,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -675,7 +3351,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3832,
+      "end_char": 3908,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -683,7 +3366,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3910,
+      "end_char": 3945,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -691,7 +3381,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3947,
+      "end_char": 3989,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -699,7 +3396,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3991,
+      "end_char": 4031,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -707,7 +3411,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4033,
+      "end_char": 4041,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -715,7 +3426,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4043,
+      "end_char": 4087,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -723,7 +3441,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4089,
+      "end_char": 4130,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -731,7 +3456,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4132,
+      "end_char": 4250,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -739,7 +3471,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4252,
+      "end_char": 4418,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -747,7 +3486,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4420,
+      "end_char": 4510,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -755,7 +3501,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4512,
+      "end_char": 4558,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -763,7 +3516,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4560,
+      "end_char": 4601,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -771,7 +3531,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4603,
+      "end_char": 4720,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -779,7 +3546,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4722,
+      "end_char": 4822,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -787,7 +3561,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4824,
+      "end_char": 4832,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -795,7 +3576,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4834,
+      "end_char": 4970,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -803,7 +3591,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4972,
+      "end_char": 5073,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -811,7 +3606,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5075,
+      "end_char": 5146,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -819,7 +3621,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5148,
+      "end_char": 5210,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -827,7 +3636,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5212,
+      "end_char": 5286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -835,7 +3651,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5288,
+      "end_char": 5394,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -843,7 +3666,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5396,
+      "end_char": 5402,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -851,7 +3681,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5404,
+      "end_char": 5454,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -859,7 +3696,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5456,
+      "end_char": 5481,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -867,7 +3711,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5483,
+      "end_char": 5561,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -875,7 +3726,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5563,
+      "end_char": 5588,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -883,7 +3741,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5590,
+      "end_char": 5608,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -891,7 +3756,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 5610,
+      "end_char": 5628,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/深圳证券交易所股票期权试点投资者适当性管理指引.pdf",
   "source_type": "pdf",
   "file_sha256": "a329487b521dc04455b7a62d75179dabba5c10de010099ad863598fab335f49c",
-  "content_sha256": "062d27b37045849aa0299d46069e9d3e726b2770a84aedfe10cbe8e70fef23cf",
+  "content_sha256": "948d040543485583b12fdc50827bfc06b2a3dd7a7598e4c8eb7a76d4c61aa9ef",
   "metadata": {
     "document_title": "深圳证券交易所股票期权试点投资者适当性管理指引",
     "issuing_authority": "深圳证券交易所",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "019b944708893e1f8db4300df084655efc05171a5d40295c27285a16696ef380",
     "clean_text_sha256": "019b944708893e1f8db4300df084655efc05171a5d40295c27285a16696ef380",
@@ -160,6 +160,2872 @@
   },
   "original_text_sha256": "019b944708893e1f8db4300df084655efc05171a5d40295c27285a16696ef380",
   "clean_text_sha256": "019b944708893e1f8db4300df084655efc05171a5d40295c27285a16696ef380",
+  "clean_text_hash": "118a052bf6f0c059bc2b9f3998ae6418c1f98b81af1b9bf34077888ebc3b0cdc",
+  "structured_blocks_sha256": "ff6bf22ac4d3b25ad86934b655dcc9ac22a4b9c0c24763ac5c8be6aaadc35d31",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 26,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 28,
+      "end_char": 34,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 36,
+      "end_char": 159,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 161,
+      "end_char": 327,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 329,
+      "end_char": 455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 457,
+      "end_char": 569,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 571,
+      "end_char": 646,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 648,
+      "end_char": 722,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "chapter",
+      "text": "第二章 投资者适当性管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 724,
+      "end_char": 736,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "section",
+      "text": "第一节 投资者适当性标准",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 738,
+      "end_char": 750,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 个人投资者参与期权交易,应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 752,
+      "end_char": 777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 779,
+      "end_char": 846,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 848,
+      "end_char": 917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(三)具备期权基础知识,通过本所认可的相关测试;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 919,
+      "end_char": 943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(四)具有本所认可的期权模拟交易经历;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 945,
+      "end_char": 964,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(五)具有相应的风险承受能力;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 966,
+      "end_char": 981,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(六)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 983,
+      "end_char": 1037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1039,
+      "end_char": 1140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第八条 普通机构投资者参与期权交易,应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1142,
+      "end_char": 1169,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1171,
+      "end_char": 1239,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(二)净资产不低于人民币 100 万元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1241,
+      "end_char": 1261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1263,
+      "end_char": 1293,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(四)相关业务人员拥有本所认可的期权模拟交易经历;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1295,
+      "end_char": 1320,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1322,
+      "end_char": 1376,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1378,
+      "end_char": 1433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1435,
+      "end_char": 1496,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)商业银行、期权经营机构、保险机构、信托公司、基金管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1498,
+      "end_char": 1556,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)证券投资基金、社保基金、养老基金、企业年金、信托计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1558,
+      "end_char": 1636,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(三)监管机构及本所规定的其他专业机构投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1638,
+      "end_char": 1661,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "section",
+      "text": "第二节 综合评估基本要求",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1663,
+      "end_char": 1675,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1677,
+      "end_char": 1759,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1761,
+      "end_char": 1802,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1804,
+      "end_char": 1908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1910,
+      "end_char": 1996,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1998,
+      "end_char": 2108,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2110,
+      "end_char": 2197,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "section",
+      "text": "第三节 期权投资者知识测试",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2199,
+      "end_char": 2212,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2214,
+      "end_char": 2287,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2289,
+      "end_char": 2394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2396,
+      "end_char": 2440,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2442,
+      "end_char": 2553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2555,
+      "end_char": 2589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第三章 投资者分级管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2591,
+      "end_char": 2602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2604,
+      "end_char": 2709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "article",
+      "text": "第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2711,
+      "end_char": 2746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2748,
+      "end_char": 2780,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(一)在持有期权合约标的时,进行相应数量的备兑开仓;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2782,
+      "end_char": 2808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2810,
+      "end_char": 2840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(三)对所持有的合约进行平仓或者行权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2842,
+      "end_char": 2861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2863,
+      "end_char": 2895,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(一)一级交易权限对应的交易;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2897,
+      "end_char": 2912,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(二)买入开仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2914,
+      "end_char": 2922,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2924,
+      "end_char": 2974,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)二级交易权限对应的交易;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2976,
+      "end_char": 2991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)保证金卖出开仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2993,
+      "end_char": 3004,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3006,
+      "end_char": 3105,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3107,
+      "end_char": 3184,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3186,
+      "end_char": 3257,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3259,
+      "end_char": 3309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3311,
+      "end_char": 3471,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3473,
+      "end_char": 3586,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3588,
+      "end_char": 3666,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3668,
+      "end_char": 3742,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3744,
+      "end_char": 3798,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3800,
+      "end_char": 3845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3847,
+      "end_char": 3918,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3920,
+      "end_char": 4014,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4016,
+      "end_char": 4078,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "chapter",
+      "text": "第四章 投资者教育",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4080,
+      "end_char": 4089,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4091,
+      "end_char": 4184,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4186,
+      "end_char": 4297,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4299,
+      "end_char": 4372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4374,
+      "end_char": 4446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4448,
+      "end_char": 4454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4456,
+      "end_char": 4505,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第四十二条 本指引由本所负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4507,
+      "end_char": 4524,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第四十三条 本指引自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4526,
+      "end_char": 4544,
+      "region": "body"
+    }
+  ],
+  "appendices": [
+    {
+      "block_id": "b00082",
+      "block_type": "attachment",
+      "text": "附件:股票期权试点风险揭示书必备条款(草案)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4546,
+      "end_char": 4568,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "attachment",
+      "text": "附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。一、 一般风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4570,
+      "end_char": 4858,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4860,
+      "end_char": 4964,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4966,
+      "end_char": 5084,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5086,
+      "end_char": 5200,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5202,
+      "end_char": 5367,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5369,
+      "end_char": 5488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(六)提示客户在与期权经营机构的合同关系存续期间,如提供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。二、 交易风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5490,
+      "end_char": 5677,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5679,
+      "end_char": 5794,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5796,
+      "end_char": 5937,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5939,
+      "end_char": 6021,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 6023,
+      "end_char": 6165,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6167,
+      "end_char": 6232,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6234,
+      "end_char": 6345,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(十三)提示客户关注期权合约存续期间,合约标的停牌的,对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6347,
+      "end_char": 6425,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6427,
+      "end_char": 6543,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6545,
+      "end_char": 6626,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "(十六)提示客户关注组合策略持仓不参加每日日终的持仓自动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6628,
+      "end_char": 6762,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。三、结算风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 6764,
+      "end_char": 6911,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 6913,
+      "end_char": 7037,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 7039,
+      "end_char": 7101,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 7103,
+      "end_char": 7293,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7295,
+      "end_char": 7478,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7480,
+      "end_char": 7628,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7630,
+      "end_char": 7744,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7746,
+      "end_char": 7839,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(二十五)提示客户在期权交易时,如果出现行权资金交收违约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。四、行权风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 7841,
+      "end_char": 7933,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 7935,
+      "end_char": 8076,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 8078,
+      "end_char": 8149,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "(二十八)提示客户期权行权原则上进行实物交割,但在出现结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 8151,
+      "end_char": 8294,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 8296,
+      "end_char": 8403,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8405,
+      "end_char": 8500,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8502,
+      "end_char": 8549,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8551,
+      "end_char": 8621,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。五、其他风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8623,
+      "end_char": 8734,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8736,
+      "end_char": 8907,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8909,
+      "end_char": 9028,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 9030,
+      "end_char": 9161,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "(三十七)提示客户利用互联网进行期权交易时将存在但不限于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 9163,
+      "end_char": 9432,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 9434,
+      "end_char": 9530,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 20,
+      "source_page_end": 20,
+      "start_char": 9532,
+      "end_char": 9759,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 20,
+      "source_page_end": 20,
+      "start_char": 9761,
+      "end_char": 9796,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引\n\n第一章 总则\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)净资产不低于人民币 100 万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员拥有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。\n\n第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。\n\n第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。\n\n第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。\n\n第四十二条 本指引由本所负责解释。\n\n第四十三条 本指引自发布之日起施行。\n\n附件:股票期权试点风险揭示书必备条款(草案)\n\n附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。一、 一般风险事项\n\n(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。\n\n(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。\n\n(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。\n\n(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。\n\n(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。\n\n(六)提示客户在与期权经营机构的合同关系存续期间,如提供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。二、 交易风险事项\n\n(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。\n\n(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。\n\n(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。\n\n(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。\n\n(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。\n\n(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。\n\n(十三)提示客户关注期权合约存续期间,合约标的停牌的,对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。\n\n(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。\n\n(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。\n\n(十六)提示客户关注组合策略持仓不参加每日日终的持仓自动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。\n\n(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。三、结算风险事项\n\n(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。\n\n(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。\n\n(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。\n\n(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。\n\n(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。\n\n(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。\n\n(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。\n\n(二十五)提示客户在期权交易时,如果出现行权资金交收违约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。四、行权风险事项\n\n(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。\n\n(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。\n\n(二十八)提示客户期权行权原则上进行实物交割,但在出现结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。\n\n(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。\n\n(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。\n\n(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。\n\n(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。\n\n(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。五、其他风险事项\n\n(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。\n\n(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。\n\n(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。\n\n(三十七)提示客户利用互联网进行期权交易时将存在但不限于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。\n\n(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。\n\n(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。\n\n2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "document_title",
+      "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 26,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 28,
+      "end_char": 34,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 36,
+      "end_char": 159,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 161,
+      "end_char": 327,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 329,
+      "end_char": 455,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 457,
+      "end_char": 569,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 571,
+      "end_char": 646,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 648,
+      "end_char": 722,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "chapter",
+      "text": "第二章 投资者适当性管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 724,
+      "end_char": 736,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "section",
+      "text": "第一节 投资者适当性标准",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 738,
+      "end_char": 750,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 个人投资者参与期权交易,应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 752,
+      "end_char": 777,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 779,
+      "end_char": 846,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 848,
+      "end_char": 917,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(三)具备期权基础知识,通过本所认可的相关测试;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 919,
+      "end_char": 943,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(四)具有本所认可的期权模拟交易经历;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 945,
+      "end_char": 964,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(五)具有相应的风险承受能力;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 966,
+      "end_char": 981,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(六)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 983,
+      "end_char": 1037,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1039,
+      "end_char": 1140,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第八条 普通机构投资者参与期权交易,应当符合下列条件:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1142,
+      "end_char": 1169,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1171,
+      "end_char": 1239,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(二)净资产不低于人民币 100 万元;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1241,
+      "end_char": 1261,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1263,
+      "end_char": 1293,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(四)相关业务人员拥有本所认可的期权模拟交易经历;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1295,
+      "end_char": 1320,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1322,
+      "end_char": 1376,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1378,
+      "end_char": 1433,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1435,
+      "end_char": 1496,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)商业银行、期权经营机构、保险机构、信托公司、基金管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1498,
+      "end_char": 1556,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)证券投资基金、社保基金、养老基金、企业年金、信托计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1558,
+      "end_char": 1636,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(三)监管机构及本所规定的其他专业机构投资者。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1638,
+      "end_char": 1661,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "section",
+      "text": "第二节 综合评估基本要求",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1663,
+      "end_char": 1675,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1677,
+      "end_char": 1759,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "article",
+      "text": "第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1761,
+      "end_char": 1802,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1804,
+      "end_char": 1908,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "article",
+      "text": "第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1910,
+      "end_char": 1996,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1998,
+      "end_char": 2108,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2110,
+      "end_char": 2197,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "section",
+      "text": "第三节 期权投资者知识测试",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2199,
+      "end_char": 2212,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 2214,
+      "end_char": 2287,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2289,
+      "end_char": 2394,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2396,
+      "end_char": 2440,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2442,
+      "end_char": 2553,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2555,
+      "end_char": 2589,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "chapter",
+      "text": "第三章 投资者分级管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2591,
+      "end_char": 2602,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2604,
+      "end_char": 2709,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "article",
+      "text": "第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2711,
+      "end_char": 2746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2748,
+      "end_char": 2780,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(一)在持有期权合约标的时,进行相应数量的备兑开仓;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2782,
+      "end_char": 2808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2810,
+      "end_char": 2840,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(三)对所持有的合约进行平仓或者行权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2842,
+      "end_char": 2861,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2863,
+      "end_char": 2895,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(一)一级交易权限对应的交易;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2897,
+      "end_char": 2912,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(二)买入开仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2914,
+      "end_char": 2922,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2924,
+      "end_char": 2974,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)二级交易权限对应的交易;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2976,
+      "end_char": 2991,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)保证金卖出开仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2993,
+      "end_char": 3004,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3006,
+      "end_char": 3105,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 3107,
+      "end_char": 3184,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3186,
+      "end_char": 3257,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3259,
+      "end_char": 3309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3311,
+      "end_char": 3471,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3473,
+      "end_char": 3586,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3588,
+      "end_char": 3666,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3668,
+      "end_char": 3742,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3744,
+      "end_char": 3798,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3800,
+      "end_char": 3845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "article",
+      "text": "第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3847,
+      "end_char": 3918,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3920,
+      "end_char": 4014,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4016,
+      "end_char": 4078,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "chapter",
+      "text": "第四章 投资者教育",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4080,
+      "end_char": 4089,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4091,
+      "end_char": 4184,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 4186,
+      "end_char": 4297,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4299,
+      "end_char": 4372,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4374,
+      "end_char": 4446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4448,
+      "end_char": 4454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4456,
+      "end_char": 4505,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第四十二条 本指引由本所负责解释。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4507,
+      "end_char": 4524,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第四十三条 本指引自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4526,
+      "end_char": 4544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "attachment",
+      "text": "附件:股票期权试点风险揭示书必备条款(草案)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 4546,
+      "end_char": 4568,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "attachment",
+      "text": "附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。一、 一般风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4570,
+      "end_char": 4858,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4860,
+      "end_char": 4964,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4966,
+      "end_char": 5084,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5086,
+      "end_char": 5200,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5202,
+      "end_char": 5367,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5369,
+      "end_char": 5488,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "paragraph",
+      "text": "(六)提示客户在与期权经营机构的合同关系存续期间,如提供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。二、 交易风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 5490,
+      "end_char": 5677,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5679,
+      "end_char": 5794,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5796,
+      "end_char": 5937,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 5939,
+      "end_char": 6021,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 6023,
+      "end_char": 6165,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6167,
+      "end_char": 6232,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6234,
+      "end_char": 6345,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(十三)提示客户关注期权合约存续期间,合约标的停牌的,对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6347,
+      "end_char": 6425,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6427,
+      "end_char": 6543,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "paragraph",
+      "text": "(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6545,
+      "end_char": 6626,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "paragraph",
+      "text": "(十六)提示客户关注组合策略持仓不参加每日日终的持仓自动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 6628,
+      "end_char": 6762,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00103",
+      "block_type": "paragraph",
+      "text": "(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。三、结算风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 6764,
+      "end_char": 6911,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "paragraph",
+      "text": "(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 6913,
+      "end_char": 7037,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00105",
+      "block_type": "paragraph",
+      "text": "(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 7039,
+      "end_char": 7101,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00106",
+      "block_type": "paragraph",
+      "text": "(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 15,
+      "source_page_end": 15,
+      "start_char": 7103,
+      "end_char": 7293,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00107",
+      "block_type": "paragraph",
+      "text": "(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7295,
+      "end_char": 7478,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00108",
+      "block_type": "paragraph",
+      "text": "(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7480,
+      "end_char": 7628,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00109",
+      "block_type": "paragraph",
+      "text": "(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7630,
+      "end_char": 7744,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00110",
+      "block_type": "paragraph",
+      "text": "(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 16,
+      "source_page_end": 16,
+      "start_char": 7746,
+      "end_char": 7839,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00111",
+      "block_type": "paragraph",
+      "text": "(二十五)提示客户在期权交易时,如果出现行权资金交收违约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。四、行权风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 7841,
+      "end_char": 7933,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00112",
+      "block_type": "paragraph",
+      "text": "(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 7935,
+      "end_char": 8076,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00113",
+      "block_type": "paragraph",
+      "text": "(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 8078,
+      "end_char": 8149,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00114",
+      "block_type": "paragraph",
+      "text": "(二十八)提示客户期权行权原则上进行实物交割,但在出现结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 8151,
+      "end_char": 8294,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00115",
+      "block_type": "paragraph",
+      "text": "(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 17,
+      "source_page_end": 17,
+      "start_char": 8296,
+      "end_char": 8403,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00116",
+      "block_type": "paragraph",
+      "text": "(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8405,
+      "end_char": 8500,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00117",
+      "block_type": "paragraph",
+      "text": "(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8502,
+      "end_char": 8549,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00118",
+      "block_type": "paragraph",
+      "text": "(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8551,
+      "end_char": 8621,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00119",
+      "block_type": "paragraph",
+      "text": "(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。五、其他风险事项",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8623,
+      "end_char": 8734,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00120",
+      "block_type": "paragraph",
+      "text": "(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8736,
+      "end_char": 8907,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00121",
+      "block_type": "paragraph",
+      "text": "(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 18,
+      "source_page_end": 18,
+      "start_char": 8909,
+      "end_char": 9028,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00123",
+      "block_type": "paragraph",
+      "text": "(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 9030,
+      "end_char": 9161,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00124",
+      "block_type": "paragraph",
+      "text": "(三十七)提示客户利用互联网进行期权交易时将存在但不限于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 9163,
+      "end_char": 9432,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00125",
+      "block_type": "paragraph",
+      "text": "(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 19,
+      "source_page_end": 19,
+      "start_char": 9434,
+      "end_char": 9530,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00126",
+      "block_type": "paragraph",
+      "text": "(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 20,
+      "source_page_end": 20,
+      "start_char": 9532,
+      "end_char": 9759,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00127",
+      "block_type": "paragraph",
+      "text": "2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 20,
+      "source_page_end": 20,
+      "start_char": 9761,
+      "end_char": 9796,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引\n\n第一章 总则\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)净资产不低于人民币 100 万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员拥有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。\n\n第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。\n\n第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。\n\n第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。\n\n第四十二条 本指引由本所负责解释。\n\n第四十三条 本指引自发布之日起施行。\n\n附件:股票期权试点风险揭示书必备条款(草案)\n\n附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。一、 一般风险事项\n\n(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。\n\n(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。\n\n(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。\n\n(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。\n\n(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。\n\n(六)提示客户在与期权经营机构的合同关系存续期间,如提供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。二、 交易风险事项\n\n(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。\n\n(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。\n\n(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。\n\n(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。\n\n(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。\n\n(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。\n\n(十三)提示客户关注期权合约存续期间,合约标的停牌的,对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。\n\n(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。\n\n(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。\n\n(十六)提示客户关注组合策略持仓不参加每日日终的持仓自动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。\n\n(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。三、结算风险事项\n\n(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。\n\n(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。\n\n(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。\n\n(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。\n\n(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。\n\n(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。\n\n(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。\n\n(二十五)提示客户在期权交易时,如果出现行权资金交收违约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。四、行权风险事项\n\n(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。\n\n(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。\n\n(二十八)提示客户期权行权原则上进行实物交割,但在出现结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。\n\n(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。\n\n(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。\n\n(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。\n\n(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。\n\n(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。五、其他风险事项\n\n(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。\n\n(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。\n\n(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。\n\n(三十七)提示客户利用互联网进行期权交易时将存在但不限于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。\n\n(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。\n\n(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。\n\n2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
   "blocks": [
     {
@@ -168,7 +3034,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 26,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -176,7 +3049,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 28,
+      "end_char": 34,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -184,7 +3064,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 36,
+      "end_char": 159,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -192,7 +3079,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 161,
+      "end_char": 327,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -200,7 +3094,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 329,
+      "end_char": 455,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -208,7 +3109,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 457,
+      "end_char": 569,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -216,7 +3124,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 571,
+      "end_char": 646,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -224,7 +3139,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 648,
+      "end_char": 722,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -232,7 +3154,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 724,
+      "end_char": 736,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -240,7 +3169,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 738,
+      "end_char": 750,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -248,7 +3184,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 752,
+      "end_char": 777,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -256,7 +3199,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 779,
+      "end_char": 846,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -264,7 +3214,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 848,
+      "end_char": 917,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -272,7 +3229,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 919,
+      "end_char": 943,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -280,7 +3244,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 945,
+      "end_char": 964,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -288,7 +3259,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 966,
+      "end_char": 981,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -296,7 +3274,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 983,
+      "end_char": 1037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -304,7 +3289,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1039,
+      "end_char": 1140,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -312,7 +3304,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1142,
+      "end_char": 1169,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -320,7 +3319,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1171,
+      "end_char": 1239,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -328,7 +3334,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1241,
+      "end_char": 1261,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -336,7 +3349,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1263,
+      "end_char": 1293,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -344,7 +3364,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1295,
+      "end_char": 1320,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -352,7 +3379,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1322,
+      "end_char": 1376,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -360,7 +3394,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1378,
+      "end_char": 1433,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -368,7 +3409,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1435,
+      "end_char": 1496,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -376,7 +3424,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1498,
+      "end_char": 1556,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -384,7 +3439,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1558,
+      "end_char": 1636,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -392,7 +3454,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1638,
+      "end_char": 1661,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -400,7 +3469,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1663,
+      "end_char": 1675,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -408,7 +3484,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1677,
+      "end_char": 1759,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -416,7 +3499,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1761,
+      "end_char": 1802,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -424,7 +3514,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1804,
+      "end_char": 1908,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -432,7 +3529,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1910,
+      "end_char": 1996,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -440,7 +3544,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1998,
+      "end_char": 2108,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -448,7 +3559,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2110,
+      "end_char": 2197,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -456,7 +3574,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2199,
+      "end_char": 2212,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -464,7 +3589,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 2214,
+      "end_char": 2287,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -472,7 +3604,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2289,
+      "end_char": 2394,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -480,7 +3619,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2396,
+      "end_char": 2440,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -488,7 +3634,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2442,
+      "end_char": 2553,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -496,7 +3649,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2555,
+      "end_char": 2589,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -504,7 +3664,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2591,
+      "end_char": 2602,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -512,7 +3679,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2604,
+      "end_char": 2709,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -520,7 +3694,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2711,
+      "end_char": 2746,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -528,7 +3709,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2748,
+      "end_char": 2780,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -536,7 +3724,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2782,
+      "end_char": 2808,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -544,7 +3739,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2810,
+      "end_char": 2840,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -552,7 +3754,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2842,
+      "end_char": 2861,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -560,7 +3769,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2863,
+      "end_char": 2895,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -568,7 +3784,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2897,
+      "end_char": 2912,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -576,7 +3799,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2914,
+      "end_char": 2922,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -584,7 +3814,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2924,
+      "end_char": 2974,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -592,7 +3829,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2976,
+      "end_char": 2991,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -600,7 +3844,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2993,
+      "end_char": 3004,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -608,7 +3859,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3006,
+      "end_char": 3105,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -616,7 +3874,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 3107,
+      "end_char": 3184,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -624,7 +3889,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3186,
+      "end_char": 3257,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -632,7 +3904,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3259,
+      "end_char": 3309,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -640,7 +3919,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3311,
+      "end_char": 3471,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -648,7 +3934,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3473,
+      "end_char": 3586,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -656,7 +3949,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3588,
+      "end_char": 3666,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -664,7 +3964,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3668,
+      "end_char": 3742,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -672,7 +3979,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3744,
+      "end_char": 3798,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -680,7 +3994,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3800,
+      "end_char": 3845,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -688,7 +4009,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3847,
+      "end_char": 3918,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -696,7 +4024,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3920,
+      "end_char": 4014,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -704,7 +4039,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 4016,
+      "end_char": 4078,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -712,7 +4054,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 4080,
+      "end_char": 4089,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -720,7 +4069,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 4091,
+      "end_char": 4184,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -728,7 +4084,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 4186,
+      "end_char": 4297,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -736,7 +4099,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 4299,
+      "end_char": 4372,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -744,7 +4114,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 4374,
+      "end_char": 4446,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -752,7 +4129,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 4448,
+      "end_char": 4454,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -760,7 +4144,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 4456,
+      "end_char": 4505,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -768,7 +4159,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 4507,
+      "end_char": 4524,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -776,7 +4174,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 4526,
+      "end_char": 4544,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -784,7 +4189,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 10,
+      "start_char": 4546,
+      "end_char": 4568,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -792,7 +4204,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 11,
+      "start_char": 4570,
+      "end_char": 4858,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -800,7 +4219,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 11,
+      "start_char": 4860,
+      "end_char": 4964,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -808,7 +4234,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 11,
+      "start_char": 4966,
+      "end_char": 5084,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -816,7 +4249,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 12,
+      "start_char": 5086,
+      "end_char": 5200,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -824,7 +4264,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 12,
+      "start_char": 5202,
+      "end_char": 5367,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -832,7 +4279,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 12,
+      "start_char": 5369,
+      "end_char": 5488,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -840,7 +4294,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 12,
+      "start_char": 5490,
+      "end_char": 5677,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -848,7 +4309,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 13,
+      "start_char": 5679,
+      "end_char": 5794,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -856,7 +4324,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 13,
+      "start_char": 5796,
+      "end_char": 5937,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -864,7 +4339,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 13,
+      "start_char": 5939,
+      "end_char": 6021,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -872,7 +4354,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 13,
+      "start_char": 6023,
+      "end_char": 6165,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -880,7 +4369,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 14,
+      "start_char": 6167,
+      "end_char": 6232,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -888,7 +4384,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 14,
+      "start_char": 6234,
+      "end_char": 6345,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -896,7 +4399,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 14,
+      "start_char": 6347,
+      "end_char": 6425,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -904,7 +4414,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 14,
+      "start_char": 6427,
+      "end_char": 6543,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -912,7 +4429,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 14,
+      "start_char": 6545,
+      "end_char": 6626,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -920,7 +4444,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 14,
+      "start_char": 6628,
+      "end_char": 6762,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00103",
@@ -928,7 +4459,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 15,
+      "start_char": 6764,
+      "end_char": 6911,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -936,7 +4474,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 15,
+      "start_char": 6913,
+      "end_char": 7037,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00105",
@@ -944,7 +4489,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 15,
+      "start_char": 7039,
+      "end_char": 7101,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00106",
@@ -952,7 +4504,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 15,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 15,
+      "start_char": 7103,
+      "end_char": 7293,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00107",
@@ -960,7 +4519,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 16,
+      "start_char": 7295,
+      "end_char": 7478,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00108",
@@ -968,7 +4534,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 16,
+      "start_char": 7480,
+      "end_char": 7628,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00109",
@@ -976,7 +4549,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 16,
+      "start_char": 7630,
+      "end_char": 7744,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00110",
@@ -984,7 +4564,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 16,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 16,
+      "start_char": 7746,
+      "end_char": 7839,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00111",
@@ -992,7 +4579,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 17,
+      "start_char": 7841,
+      "end_char": 7933,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00112",
@@ -1000,7 +4594,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 17,
+      "start_char": 7935,
+      "end_char": 8076,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00113",
@@ -1008,7 +4609,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 17,
+      "start_char": 8078,
+      "end_char": 8149,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00114",
@@ -1016,7 +4624,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 17,
+      "start_char": 8151,
+      "end_char": 8294,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00115",
@@ -1024,7 +4639,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 17,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 17,
+      "start_char": 8296,
+      "end_char": 8403,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00116",
@@ -1032,7 +4654,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 18,
+      "start_char": 8405,
+      "end_char": 8500,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00117",
@@ -1040,7 +4669,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 18,
+      "start_char": 8502,
+      "end_char": 8549,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00118",
@@ -1048,7 +4684,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 18,
+      "start_char": 8551,
+      "end_char": 8621,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00119",
@@ -1056,7 +4699,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 18,
+      "start_char": 8623,
+      "end_char": 8734,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00120",
@@ -1064,7 +4714,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 18,
+      "start_char": 8736,
+      "end_char": 8907,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00121",
@@ -1072,7 +4729,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 18,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 18,
+      "start_char": 8909,
+      "end_char": 9028,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00123",
@@ -1080,7 +4744,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 19,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 19,
+      "start_char": 9030,
+      "end_char": 9161,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00124",
@@ -1088,7 +4759,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 19,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 19,
+      "start_char": 9163,
+      "end_char": 9432,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00125",
@@ -1096,7 +4774,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 19,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 19,
+      "start_char": 9434,
+      "end_char": 9530,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00126",
@@ -1104,7 +4789,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 20,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 20,
+      "start_char": 9532,
+      "end_char": 9759,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00127",
@@ -1112,7 +4804,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 20,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 20,
+      "start_char": 9761,
+      "end_char": 9796,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

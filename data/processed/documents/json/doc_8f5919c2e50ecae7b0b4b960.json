@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/上海证券交易所股票期权试点做市商业务指引(2015年修订).docx",
   "source_type": "docx",
   "file_sha256": "cd512bdb8ca2857ca34d6c38964c93632192a06302eb99a437f794caabff2896",
-  "content_sha256": "2be35ddc51bee5ac31fa6e2f5d0e6ec02a1e17028830d81a6f2220b9f40db217",
+  "content_sha256": "ba8e95ff9d5b56d3e1756baf403e01947257e84de6731878f0b8b43a7566d0d6",
   "metadata": {
     "document_title": "上海证券交易所股票期权试点做市商业务指引(2015年修订)",
     "issuing_authority": "上海证券交易所",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "965f9577ac6b98ea744de891317a8a9a3e617ce67fe366c524c47d2eeff0e782",
     "clean_text_sha256": "965f9577ac6b98ea744de891317a8a9a3e617ce67fe366c524c47d2eeff0e782",
@@ -125,6 +125,2031 @@
   },
   "original_text_sha256": "965f9577ac6b98ea744de891317a8a9a3e617ce67fe366c524c47d2eeff0e782",
   "clean_text_sha256": "965f9577ac6b98ea744de891317a8a9a3e617ce67fe366c524c47d2eeff0e782",
+  "clean_text_hash": "a3ec1521d5a8ff800f98a8414aee1524cee5f7728b47d5d8c7f1b84e25cc2ea7",
+  "structured_blocks_sha256": "09f9af814eb5faf1935b1e0873c611824ef1918c1ac5711519c18eedea61f125",
+  "front_matter": [],
+  "body_blocks": [],
+  "appendices": [
+    {
+      "block_id": "b00003",
+      "block_type": "attachment",
+      "text": "附件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 2,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "上海证券交易所股票期权试点做市商业务指引",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4,
+      "end_char": 24,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(2015年修订)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 35,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 37,
+      "end_char": 43,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第一条 为了提高上海证券交易所(以下简称“本所”)股票期权(以下简称“期权”)交易的流动性,规范期权做市商的做市业务,根据《股票期权交易试点管理办法》、《上海证券交易所股票期权试点交易规则》(以下简称“《期权交易规则》”),制定本指引。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 45,
+      "end_char": 163,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第二条 本指引所称期权做市商(以下简称“做市商”),是指按照本指引的规定和要求,为本所挂牌交易的期权合约提供流动性服务的期权经营机构或者本所认可的其他专业机构。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 165,
+      "end_char": 245,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第三条 本指引所称的期权合约流动性服务(以下简称“做市服务”),包括下列类型:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 247,
+      "end_char": 286,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(一)向投资者提供双边持续报价;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 288,
+      "end_char": 304,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(二)对投资者询价提供双边回应报价;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 306,
+      "end_char": 324,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(三)本所规定或者做市协议约定的其他业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 326,
+      "end_char": 347,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第四条 做市商分为主做市商和一般做市商。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 349,
+      "end_char": 369,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "主做市商应当提供前条规定的全部做市服务,一般做市商应当提供前条第(二)、(三)项规定的做市服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 371,
+      "end_char": 419,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第五条 做市商从事做市业务,应当严格遵守法律、法规、规章和本所业务规则,不得利用做市业务进行内幕交易、市场操纵等违法违规行为,或者谋取其他不正当利益。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 421,
+      "end_char": 496,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "chapter",
+      "text": "第二章 做市申请",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 498,
+      "end_char": 506,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第六条 符合下列条件的机构,可以向本所申请为合约品种提供做市服务:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 508,
+      "end_char": 541,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(一)参与本所期权模拟交易做市业务并且做市时间达到3个月,并且通过本所实验室环境的各项做市业务测试;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 543,
+      "end_char": 593,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(二)在模拟交易期间的做市表现符合本所相关做市指标要求;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 595,
+      "end_char": 623,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(三)通过本所组织的专项检查;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 640,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(四)中国证监会及本所规定的其他条件。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 642,
+      "end_char": 661,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第七条 申请为合约品种提供做市服务的,应当向本所提交下列材料:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 663,
+      "end_char": 694,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "signoff",
+      "text": "(一)经法定代表人签字并加盖单位公章的主做市商业务申请书或者一般做市商业务申请书;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 696,
+      "end_char": 737,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)加盖单位公章的营业执照、组织机构代码证副本复印件;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 767,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(三)做市业务风险控制制度及有关内部管理制度;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 769,
+      "end_char": 792,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(四)负责做市业务的部门、岗位设置、人员情况说明;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 794,
+      "end_char": 819,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(五)开展做市业务的技术系统准备情况;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 840,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(六)申请做市的合约品种名单及具体做市业务实施方案;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 842,
+      "end_char": 868,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(七)中国证监会及本所规定的其他材料。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 870,
+      "end_char": 889,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第八条 做市申请符合条件且材料齐备的,本所自受理之日起15个交易日内作出决定,并通知申请人。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 891,
+      "end_char": 937,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "本所根据市场情况确定每个合约品种的做市商数量,据此确定合约品种的做市商名单,并向市场公布。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 939,
+      "end_char": 984,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第九条 做市商应当在收到本所通知之日起5个交易日内与本所签订做市协议,明确提供做市服务的相关权利和义务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 986,
+      "end_char": 1038,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "未签订做市协议的,不得开展做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1040,
+      "end_char": 1058,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "chapter",
+      "text": "第三章 做市规则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1060,
+      "end_char": 1068,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十条 做市商应当按照本所业务规则以及做市协议开展做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1070,
+      "end_char": 1100,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十一条 单个合约品种可以有多个做市商提供做市服务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1102,
+      "end_char": 1128,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十二条 本所可以根据市场情况,要求主做市商对特定期权合约提供相应的做市服务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1130,
+      "end_char": 1169,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十三条 做市商从事做市业务,应当使用指定的衍生品合约账户和对应的证券账户,并报本所备案。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1171,
+      "end_char": 1216,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "做市商不得利用指定从事做市业务的衍生品合约账户开展非做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1218,
+      "end_char": 1249,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "做市商变更上述指定账户的,应当提前15个交易日向本所备案,经本所确认后实施。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1251,
+      "end_char": 1289,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十四条 做市商应当使用自有资金开展做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1291,
+      "end_char": 1314,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 合约品种的做市指标,包括但不限于下列要素:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1316,
+      "end_char": 1342,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)最大买卖价差;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1344,
+      "end_char": 1354,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)最小报价数量;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1356,
+      "end_char": 1366,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)参与率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1368,
+      "end_char": 1375,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(四)合约覆盖率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1377,
+      "end_char": 1386,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)回应报价的最长回应时间以及最短保留时间;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1388,
+      "end_char": 1411,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(六)其他做市指标。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1413,
+      "end_char": 1423,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "做市商开展做市业务,应当符合做市协议就前款规定的做市指标所作的具体要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1425,
+      "end_char": 1461,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场情况或者做市商的申请,对具体合约品种的做市指标做出调整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1463,
+      "end_char": 1499,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第十六条 做市商可以根据做市业务需要,向本所申请提高持仓限额。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1532,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十七条 出现下列情形之一的,相应豁免做市商的做市义务:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1534,
+      "end_char": 1562,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)期权合约交易价格达到涨停或者跌停价格,做市商可以仅提供单边报价。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1564,
+      "end_char": 1599,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)当合约标的为股票的期权合约的交易价格小于0.005元,或者合约标的为交易所交易型开放式指数基金的期权合约的交易价格小于0.001元时,做市商可以暂停对该合约提供买入报价。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1601,
+      "end_char": 1689,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(三)因不可抗力、意外事件或者技术故障等导致无法继续提供做市服务,做市商可以暂停对部分或者全部合约品种提供做市服务,并及时向本所报告。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1691,
+      "end_char": 1758,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(四)本所规定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1760,
+      "end_char": 1773,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "前款规定的情形消失后,做市商应当立即恢复相应做市服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1775,
+      "end_char": 1802,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第十八条 做市商主动申请终止对其做市的全部或者部分合约品种提供做市服务,应当提前15个交易日书面通知本所,经本所确认后终止。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1804,
+      "end_char": 1866,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "做市商主动申请终止对合约品种提供做市服务的,1年以内不得重新申请对同一合约品种提供做市服务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1868,
+      "end_char": 1914,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第十九条 本所根据买卖价差、参与率等指标,定期评价做市商的做市情况。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1916,
+      "end_char": 1950,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "本所每月对做市商单个合约品种做市情况进行评价;每年定期对做市商单个合约品种做市情况以及整体做市服务情况进行综合评价,并向市场公布。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1952,
+      "end_char": 2017,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "期权市场出现剧烈波动或者其他特殊情况的,本所可以决定在特定周期内不对做市商的做市情况进行评价,并向市场公告。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2019,
+      "end_char": 2073,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "做市商违反本指引、本所其他规定或者做市协议约定的,本所可以调低其评价结果。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2075,
+      "end_char": 2112,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十条 本所可以根据做市商评价结果,对做市商给予适当交易费用减免或激励。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2114,
+      "end_char": 2151,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "chapter",
+      "text": "第四章 监督管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2153,
+      "end_char": 2161,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十一条 做市商应当具备符合要求的技术系统、风险管理和内部控制制度、动态风险监控系统,确保提供做市服务风险可测、可控。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2163,
+      "end_char": 2223,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "做市商应当建立压力测试机制,并按季度向本所提交压力测试报告。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2225,
+      "end_char": 2255,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第二十二条 做市商应当建立风险防范与业务隔离制度,防范利益冲突,不得利用做市业务损害客户利益。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2257,
+      "end_char": 2304,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第二十三条 做市商的做市服务出现下列情形之一的,本所可以取消其对特定合约品种的做市资格,并向市场公告:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2306,
+      "end_char": 2357,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(一)对负责做市的合约品种, 6个月中任意2个月未达到本所规定以及做市协议约定的做市要求,或连续6个月均未获得A及以上评价。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2359,
+      "end_char": 2421,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(二)对本所指定其做市的特定期权合约,连续6个月未达到本所及做市协议约定的做市要求;期权合约存续期不足6个月的,在其承担做市义务的存续期内均未达到本所及做市协议约定的做市要求。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2423,
+      "end_char": 2511,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(三)在单个合约品种做市情况年度评价排名中处于末位20%,但其单个合约品种年度做市评价在A及以上的除外。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2513,
+      "end_char": 2565,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(四)本所规定或做市协议约定的其他情形。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2587,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "做市商对特定合约品种的做市资格被取消的,1年以内不得重新申请对同一合约品种提供做市服务,但因前款第(三)项规定被取消特定合约品种做市资格的除外。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2589,
+      "end_char": 2661,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第二十四条 做市商有下列情形之一的,本所可以取消其做市商资格:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2663,
+      "end_char": 2694,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "(一)不再符合本指引第六条规定的条件;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2696,
+      "end_char": 2715,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "(二)不再为任何合约品种提供做市服务;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2717,
+      "end_char": 2736,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(三)存在操纵期权市场或合约标的市场等违法违规行为;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2738,
+      "end_char": 2764,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(四)在全部合约品种做市情况年度评价排名中均处于末位20%,但其全部合约品种年度做市评价在A及以上的除外;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2766,
+      "end_char": 2819,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(五)本所规定或者做市协议约定的其他情形。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2821,
+      "end_char": 2842,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "做市商对全部合约品种做市资格被取消的,1年以内不得重新申请对任一合约品种提供做市服务,但因前款第(四)项规定被取消全部合约品种做市资格的除外。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2915,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第二十五条 本所可以对做市商的风险管理、交易行为及相关系统安全运行等情况,进行监督检查。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2917,
+      "end_char": 2961,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "article",
+      "text": "第二十六条 做市商违反本指引的,本所可以依据《期权交易规则》及其他相关规定,对其采取相应的监管措施或实施纪律处分,并计入诚信记录;情节严重的,提请立案调查。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2963,
+      "end_char": 3041,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3043,
+      "end_char": 3049,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第二十七条 本指引由本所负责解释。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3051,
+      "end_char": 3068,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "article",
+      "text": "第二十八条 本指引自发布之日起实施。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3070,
+      "end_char": 3088,
+      "region": "appendix"
+    }
+  ],
+  "clean_text": "附件\n\n上海证券交易所股票期权试点做市商业务指引\n\n(2015年修订)\n\n第一章 总则\n\n第一条 为了提高上海证券交易所(以下简称“本所”)股票期权(以下简称“期权”)交易的流动性,规范期权做市商的做市业务,根据《股票期权交易试点管理办法》、《上海证券交易所股票期权试点交易规则》(以下简称“《期权交易规则》”),制定本指引。\n\n第二条 本指引所称期权做市商(以下简称“做市商”),是指按照本指引的规定和要求,为本所挂牌交易的期权合约提供流动性服务的期权经营机构或者本所认可的其他专业机构。\n\n第三条 本指引所称的期权合约流动性服务(以下简称“做市服务”),包括下列类型:\n\n(一)向投资者提供双边持续报价;\n\n(二)对投资者询价提供双边回应报价;\n\n(三)本所规定或者做市协议约定的其他业务。\n\n第四条 做市商分为主做市商和一般做市商。\n\n主做市商应当提供前条规定的全部做市服务,一般做市商应当提供前条第(二)、(三)项规定的做市服务。\n\n第五条 做市商从事做市业务,应当严格遵守法律、法规、规章和本所业务规则,不得利用做市业务进行内幕交易、市场操纵等违法违规行为,或者谋取其他不正当利益。\n\n第二章 做市申请\n\n第六条 符合下列条件的机构,可以向本所申请为合约品种提供做市服务:\n\n(一)参与本所期权模拟交易做市业务并且做市时间达到3个月,并且通过本所实验室环境的各项做市业务测试;\n\n(二)在模拟交易期间的做市表现符合本所相关做市指标要求;\n\n(三)通过本所组织的专项检查;\n\n(四)中国证监会及本所规定的其他条件。\n\n第七条 申请为合约品种提供做市服务的,应当向本所提交下列材料:\n\n(一)经法定代表人签字并加盖单位公章的主做市商业务申请书或者一般做市商业务申请书;\n\n(二)加盖单位公章的营业执照、组织机构代码证副本复印件;\n\n(三)做市业务风险控制制度及有关内部管理制度;\n\n(四)负责做市业务的部门、岗位设置、人员情况说明;\n\n(五)开展做市业务的技术系统准备情况;\n\n(六)申请做市的合约品种名单及具体做市业务实施方案;\n\n(七)中国证监会及本所规定的其他材料。\n\n第八条 做市申请符合条件且材料齐备的,本所自受理之日起15个交易日内作出决定,并通知申请人。\n\n本所根据市场情况确定每个合约品种的做市商数量,据此确定合约品种的做市商名单,并向市场公布。\n\n第九条 做市商应当在收到本所通知之日起5个交易日内与本所签订做市协议,明确提供做市服务的相关权利和义务。\n\n未签订做市协议的,不得开展做市业务。\n\n第三章 做市规则\n\n第十条 做市商应当按照本所业务规则以及做市协议开展做市业务。\n\n第十一条 单个合约品种可以有多个做市商提供做市服务。\n\n第十二条 本所可以根据市场情况,要求主做市商对特定期权合约提供相应的做市服务。\n\n第十三条 做市商从事做市业务,应当使用指定的衍生品合约账户和对应的证券账户,并报本所备案。\n\n做市商不得利用指定从事做市业务的衍生品合约账户开展非做市业务。\n\n做市商变更上述指定账户的,应当提前15个交易日向本所备案,经本所确认后实施。\n\n第十四条 做市商应当使用自有资金开展做市业务。\n\n第十五条 合约品种的做市指标,包括但不限于下列要素:\n\n(一)最大买卖价差;\n\n(二)最小报价数量;\n\n(三)参与率;\n\n(四)合约覆盖率;\n\n(五)回应报价的最长回应时间以及最短保留时间;\n\n(六)其他做市指标。\n\n做市商开展做市业务,应当符合做市协议就前款规定的做市指标所作的具体要求。\n\n本所可以根据市场情况或者做市商的申请,对具体合约品种的做市指标做出调整。\n\n第十六条 做市商可以根据做市业务需要,向本所申请提高持仓限额。\n\n第十七条 出现下列情形之一的,相应豁免做市商的做市义务:\n\n(一)期权合约交易价格达到涨停或者跌停价格,做市商可以仅提供单边报价。\n\n(二)当合约标的为股票的期权合约的交易价格小于0.005元,或者合约标的为交易所交易型开放式指数基金的期权合约的交易价格小于0.001元时,做市商可以暂停对该合约提供买入报价。\n\n(三)因不可抗力、意外事件或者技术故障等导致无法继续提供做市服务,做市商可以暂停对部分或者全部合约品种提供做市服务,并及时向本所报告。\n\n(四)本所规定的其他情形。\n\n前款规定的情形消失后,做市商应当立即恢复相应做市服务。\n\n第十八条 做市商主动申请终止对其做市的全部或者部分合约品种提供做市服务,应当提前15个交易日书面通知本所,经本所确认后终止。\n\n做市商主动申请终止对合约品种提供做市服务的,1年以内不得重新申请对同一合约品种提供做市服务。\n\n第十九条 本所根据买卖价差、参与率等指标,定期评价做市商的做市情况。\n\n本所每月对做市商单个合约品种做市情况进行评价;每年定期对做市商单个合约品种做市情况以及整体做市服务情况进行综合评价,并向市场公布。\n\n期权市场出现剧烈波动或者其他特殊情况的,本所可以决定在特定周期内不对做市商的做市情况进行评价,并向市场公告。\n\n做市商违反本指引、本所其他规定或者做市协议约定的,本所可以调低其评价结果。\n\n第二十条 本所可以根据做市商评价结果,对做市商给予适当交易费用减免或激励。\n\n第四章 监督管理\n\n第二十一条 做市商应当具备符合要求的技术系统、风险管理和内部控制制度、动态风险监控系统,确保提供做市服务风险可测、可控。\n\n做市商应当建立压力测试机制,并按季度向本所提交压力测试报告。\n\n第二十二条 做市商应当建立风险防范与业务隔离制度,防范利益冲突,不得利用做市业务损害客户利益。\n\n第二十三条 做市商的做市服务出现下列情形之一的,本所可以取消其对特定合约品种的做市资格,并向市场公告:\n\n(一)对负责做市的合约品种, 6个月中任意2个月未达到本所规定以及做市协议约定的做市要求,或连续6个月均未获得A及以上评价。\n\n(二)对本所指定其做市的特定期权合约,连续6个月未达到本所及做市协议约定的做市要求;期权合约存续期不足6个月的,在其承担做市义务的存续期内均未达到本所及做市协议约定的做市要求。\n\n(三)在单个合约品种做市情况年度评价排名中处于末位20%,但其单个合约品种年度做市评价在A及以上的除外。\n\n(四)本所规定或做市协议约定的其他情形。\n\n做市商对特定合约品种的做市资格被取消的,1年以内不得重新申请对同一合约品种提供做市服务,但因前款第(三)项规定被取消特定合约品种做市资格的除外。\n\n第二十四条 做市商有下列情形之一的,本所可以取消其做市商资格:\n\n(一)不再符合本指引第六条规定的条件;\n\n(二)不再为任何合约品种提供做市服务;\n\n(三)存在操纵期权市场或合约标的市场等违法违规行为;\n\n(四)在全部合约品种做市情况年度评价排名中均处于末位20%,但其全部合约品种年度做市评价在A及以上的除外;\n\n(五)本所规定或者做市协议约定的其他情形。\n\n做市商对全部合约品种做市资格被取消的,1年以内不得重新申请对任一合约品种提供做市服务,但因前款第(四)项规定被取消全部合约品种做市资格的除外。\n\n第二十五条 本所可以对做市商的风险管理、交易行为及相关系统安全运行等情况,进行监督检查。\n\n第二十六条 做市商违反本指引的,本所可以依据《期权交易规则》及其他相关规定,对其采取相应的监管措施或实施纪律处分,并计入诚信记录;情节严重的,提请立案调查。\n\n第五章 附则\n\n第二十七条 本指引由本所负责解释。\n\n第二十八条 本指引自发布之日起实施。",
+  "structured_blocks": [
+    {
+      "block_id": "b00003",
+      "block_type": "attachment",
+      "text": "附件",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 2,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "paragraph",
+      "text": "上海证券交易所股票期权试点做市商业务指引",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4,
+      "end_char": 24,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "paragraph",
+      "text": "(2015年修订)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 35,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 37,
+      "end_char": 43,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "article",
+      "text": "第一条 为了提高上海证券交易所(以下简称“本所”)股票期权(以下简称“期权”)交易的流动性,规范期权做市商的做市业务,根据《股票期权交易试点管理办法》、《上海证券交易所股票期权试点交易规则》(以下简称“《期权交易规则》”),制定本指引。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 45,
+      "end_char": 163,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第二条 本指引所称期权做市商(以下简称“做市商”),是指按照本指引的规定和要求,为本所挂牌交易的期权合约提供流动性服务的期权经营机构或者本所认可的其他专业机构。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 165,
+      "end_char": 245,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第三条 本指引所称的期权合约流动性服务(以下简称“做市服务”),包括下列类型:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 247,
+      "end_char": 286,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "paragraph",
+      "text": "(一)向投资者提供双边持续报价;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 288,
+      "end_char": 304,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(二)对投资者询价提供双边回应报价;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 306,
+      "end_char": 324,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(三)本所规定或者做市协议约定的其他业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 326,
+      "end_char": 347,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第四条 做市商分为主做市商和一般做市商。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 349,
+      "end_char": 369,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "主做市商应当提供前条规定的全部做市服务,一般做市商应当提供前条第(二)、(三)项规定的做市服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 371,
+      "end_char": 419,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "article",
+      "text": "第五条 做市商从事做市业务,应当严格遵守法律、法规、规章和本所业务规则,不得利用做市业务进行内幕交易、市场操纵等违法违规行为,或者谋取其他不正当利益。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 421,
+      "end_char": 496,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "chapter",
+      "text": "第二章 做市申请",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 498,
+      "end_char": 506,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第六条 符合下列条件的机构,可以向本所申请为合约品种提供做市服务:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 508,
+      "end_char": 541,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(一)参与本所期权模拟交易做市业务并且做市时间达到3个月,并且通过本所实验室环境的各项做市业务测试;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 543,
+      "end_char": 593,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(二)在模拟交易期间的做市表现符合本所相关做市指标要求;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 595,
+      "end_char": 623,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "paragraph",
+      "text": "(三)通过本所组织的专项检查;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 640,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(四)中国证监会及本所规定的其他条件。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 642,
+      "end_char": 661,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第七条 申请为合约品种提供做市服务的,应当向本所提交下列材料:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 663,
+      "end_char": 694,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "signoff",
+      "text": "(一)经法定代表人签字并加盖单位公章的主做市商业务申请书或者一般做市商业务申请书;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 696,
+      "end_char": 737,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(二)加盖单位公章的营业执照、组织机构代码证副本复印件;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 767,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(三)做市业务风险控制制度及有关内部管理制度;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 769,
+      "end_char": 792,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(四)负责做市业务的部门、岗位设置、人员情况说明;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 794,
+      "end_char": 819,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(五)开展做市业务的技术系统准备情况;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 840,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(六)申请做市的合约品种名单及具体做市业务实施方案;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 842,
+      "end_char": 868,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "paragraph",
+      "text": "(七)中国证监会及本所规定的其他材料。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 870,
+      "end_char": 889,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第八条 做市申请符合条件且材料齐备的,本所自受理之日起15个交易日内作出决定,并通知申请人。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 891,
+      "end_char": 937,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "本所根据市场情况确定每个合约品种的做市商数量,据此确定合约品种的做市商名单,并向市场公布。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 939,
+      "end_char": 984,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第九条 做市商应当在收到本所通知之日起5个交易日内与本所签订做市协议,明确提供做市服务的相关权利和义务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 986,
+      "end_char": 1038,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "未签订做市协议的,不得开展做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1040,
+      "end_char": 1058,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "chapter",
+      "text": "第三章 做市规则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1060,
+      "end_char": 1068,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十条 做市商应当按照本所业务规则以及做市协议开展做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1070,
+      "end_char": 1100,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十一条 单个合约品种可以有多个做市商提供做市服务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1102,
+      "end_char": 1128,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十二条 本所可以根据市场情况,要求主做市商对特定期权合约提供相应的做市服务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1130,
+      "end_char": 1169,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十三条 做市商从事做市业务,应当使用指定的衍生品合约账户和对应的证券账户,并报本所备案。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1171,
+      "end_char": 1216,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "做市商不得利用指定从事做市业务的衍生品合约账户开展非做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1218,
+      "end_char": 1249,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "paragraph",
+      "text": "做市商变更上述指定账户的,应当提前15个交易日向本所备案,经本所确认后实施。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1251,
+      "end_char": 1289,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十四条 做市商应当使用自有资金开展做市业务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1291,
+      "end_char": 1314,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 合约品种的做市指标,包括但不限于下列要素:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1316,
+      "end_char": 1342,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "(一)最大买卖价差;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1344,
+      "end_char": 1354,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "paragraph",
+      "text": "(二)最小报价数量;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1356,
+      "end_char": 1366,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(三)参与率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1368,
+      "end_char": 1375,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(四)合约覆盖率;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1377,
+      "end_char": 1386,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(五)回应报价的最长回应时间以及最短保留时间;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1388,
+      "end_char": 1411,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(六)其他做市指标。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1413,
+      "end_char": 1423,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "做市商开展做市业务,应当符合做市协议就前款规定的做市指标所作的具体要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1425,
+      "end_char": 1461,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "本所可以根据市场情况或者做市商的申请,对具体合约品种的做市指标做出调整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1463,
+      "end_char": 1499,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第十六条 做市商可以根据做市业务需要,向本所申请提高持仓限额。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1532,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第十七条 出现下列情形之一的,相应豁免做市商的做市义务:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1534,
+      "end_char": 1562,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(一)期权合约交易价格达到涨停或者跌停价格,做市商可以仅提供单边报价。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1564,
+      "end_char": 1599,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "(二)当合约标的为股票的期权合约的交易价格小于0.005元,或者合约标的为交易所交易型开放式指数基金的期权合约的交易价格小于0.001元时,做市商可以暂停对该合约提供买入报价。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1601,
+      "end_char": 1689,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(三)因不可抗力、意外事件或者技术故障等导致无法继续提供做市服务,做市商可以暂停对部分或者全部合约品种提供做市服务,并及时向本所报告。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1691,
+      "end_char": 1758,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(四)本所规定的其他情形。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1760,
+      "end_char": 1773,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "前款规定的情形消失后,做市商应当立即恢复相应做市服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1775,
+      "end_char": 1802,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第十八条 做市商主动申请终止对其做市的全部或者部分合约品种提供做市服务,应当提前15个交易日书面通知本所,经本所确认后终止。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1804,
+      "end_char": 1866,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "做市商主动申请终止对合约品种提供做市服务的,1年以内不得重新申请对同一合约品种提供做市服务。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1868,
+      "end_char": 1914,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第十九条 本所根据买卖价差、参与率等指标,定期评价做市商的做市情况。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1916,
+      "end_char": 1950,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "本所每月对做市商单个合约品种做市情况进行评价;每年定期对做市商单个合约品种做市情况以及整体做市服务情况进行综合评价,并向市场公布。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1952,
+      "end_char": 2017,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "paragraph",
+      "text": "期权市场出现剧烈波动或者其他特殊情况的,本所可以决定在特定周期内不对做市商的做市情况进行评价,并向市场公告。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2019,
+      "end_char": 2073,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "做市商违反本指引、本所其他规定或者做市协议约定的,本所可以调低其评价结果。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2075,
+      "end_char": 2112,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十条 本所可以根据做市商评价结果,对做市商给予适当交易费用减免或激励。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2114,
+      "end_char": 2151,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "chapter",
+      "text": "第四章 监督管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2153,
+      "end_char": 2161,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第二十一条 做市商应当具备符合要求的技术系统、风险管理和内部控制制度、动态风险监控系统,确保提供做市服务风险可测、可控。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2163,
+      "end_char": 2223,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "做市商应当建立压力测试机制,并按季度向本所提交压力测试报告。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2225,
+      "end_char": 2255,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第二十二条 做市商应当建立风险防范与业务隔离制度,防范利益冲突,不得利用做市业务损害客户利益。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2257,
+      "end_char": 2304,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第二十三条 做市商的做市服务出现下列情形之一的,本所可以取消其对特定合约品种的做市资格,并向市场公告:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2306,
+      "end_char": 2357,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "(一)对负责做市的合约品种, 6个月中任意2个月未达到本所规定以及做市协议约定的做市要求,或连续6个月均未获得A及以上评价。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2359,
+      "end_char": 2421,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "(二)对本所指定其做市的特定期权合约,连续6个月未达到本所及做市协议约定的做市要求;期权合约存续期不足6个月的,在其承担做市义务的存续期内均未达到本所及做市协议约定的做市要求。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2423,
+      "end_char": 2511,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "paragraph",
+      "text": "(三)在单个合约品种做市情况年度评价排名中处于末位20%,但其单个合约品种年度做市评价在A及以上的除外。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2513,
+      "end_char": 2565,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "(四)本所规定或做市协议约定的其他情形。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2587,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "paragraph",
+      "text": "做市商对特定合约品种的做市资格被取消的,1年以内不得重新申请对同一合约品种提供做市服务,但因前款第(三)项规定被取消特定合约品种做市资格的除外。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2589,
+      "end_char": 2661,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第二十四条 做市商有下列情形之一的,本所可以取消其做市商资格:",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2663,
+      "end_char": 2694,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "paragraph",
+      "text": "(一)不再符合本指引第六条规定的条件;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2696,
+      "end_char": 2715,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "paragraph",
+      "text": "(二)不再为任何合约品种提供做市服务;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2717,
+      "end_char": 2736,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(三)存在操纵期权市场或合约标的市场等违法违规行为;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2738,
+      "end_char": 2764,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(四)在全部合约品种做市情况年度评价排名中均处于末位20%,但其全部合约品种年度做市评价在A及以上的除外;",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2766,
+      "end_char": 2819,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(五)本所规定或者做市协议约定的其他情形。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2821,
+      "end_char": 2842,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "做市商对全部合约品种做市资格被取消的,1年以内不得重新申请对任一合约品种提供做市服务,但因前款第(四)项规定被取消全部合约品种做市资格的除外。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2915,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "article",
+      "text": "第二十五条 本所可以对做市商的风险管理、交易行为及相关系统安全运行等情况,进行监督检查。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2917,
+      "end_char": 2961,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "article",
+      "text": "第二十六条 做市商违反本指引的,本所可以依据《期权交易规则》及其他相关规定,对其采取相应的监管措施或实施纪律处分,并计入诚信记录;情节严重的,提请立案调查。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2963,
+      "end_char": 3041,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3043,
+      "end_char": 3049,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "article",
+      "text": "第二十七条 本指引由本所负责解释。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3051,
+      "end_char": 3068,
+      "region": "appendix"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "article",
+      "text": "第二十八条 本指引自发布之日起实施。",
+      "style": "列出段落1",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3070,
+      "end_char": 3088,
+      "region": "appendix"
+    }
+  ],
   "normalized_text": "附件\n\n上海证券交易所股票期权试点做市商业务指引\n\n(2015年修订)\n\n第一章 总则\n\n第一条 为了提高上海证券交易所(以下简称“本所”)股票期权(以下简称“期权”)交易的流动性,规范期权做市商的做市业务,根据《股票期权交易试点管理办法》、《上海证券交易所股票期权试点交易规则》(以下简称“《期权交易规则》”),制定本指引。\n\n第二条 本指引所称期权做市商(以下简称“做市商”),是指按照本指引的规定和要求,为本所挂牌交易的期权合约提供流动性服务的期权经营机构或者本所认可的其他专业机构。\n\n第三条 本指引所称的期权合约流动性服务(以下简称“做市服务”),包括下列类型:\n\n(一)向投资者提供双边持续报价;\n\n(二)对投资者询价提供双边回应报价;\n\n(三)本所规定或者做市协议约定的其他业务。\n\n第四条 做市商分为主做市商和一般做市商。\n\n主做市商应当提供前条规定的全部做市服务,一般做市商应当提供前条第(二)、(三)项规定的做市服务。\n\n第五条 做市商从事做市业务,应当严格遵守法律、法规、规章和本所业务规则,不得利用做市业务进行内幕交易、市场操纵等违法违规行为,或者谋取其他不正当利益。\n\n第二章 做市申请\n\n第六条 符合下列条件的机构,可以向本所申请为合约品种提供做市服务:\n\n(一)参与本所期权模拟交易做市业务并且做市时间达到3个月,并且通过本所实验室环境的各项做市业务测试;\n\n(二)在模拟交易期间的做市表现符合本所相关做市指标要求;\n\n(三)通过本所组织的专项检查;\n\n(四)中国证监会及本所规定的其他条件。\n\n第七条 申请为合约品种提供做市服务的,应当向本所提交下列材料:\n\n(一)经法定代表人签字并加盖单位公章的主做市商业务申请书或者一般做市商业务申请书;\n\n(二)加盖单位公章的营业执照、组织机构代码证副本复印件;\n\n(三)做市业务风险控制制度及有关内部管理制度;\n\n(四)负责做市业务的部门、岗位设置、人员情况说明;\n\n(五)开展做市业务的技术系统准备情况;\n\n(六)申请做市的合约品种名单及具体做市业务实施方案;\n\n(七)中国证监会及本所规定的其他材料。\n\n第八条 做市申请符合条件且材料齐备的,本所自受理之日起15个交易日内作出决定,并通知申请人。\n\n本所根据市场情况确定每个合约品种的做市商数量,据此确定合约品种的做市商名单,并向市场公布。\n\n第九条 做市商应当在收到本所通知之日起5个交易日内与本所签订做市协议,明确提供做市服务的相关权利和义务。\n\n未签订做市协议的,不得开展做市业务。\n\n第三章 做市规则\n\n第十条 做市商应当按照本所业务规则以及做市协议开展做市业务。\n\n第十一条 单个合约品种可以有多个做市商提供做市服务。\n\n第十二条 本所可以根据市场情况,要求主做市商对特定期权合约提供相应的做市服务。\n\n第十三条 做市商从事做市业务,应当使用指定的衍生品合约账户和对应的证券账户,并报本所备案。\n\n做市商不得利用指定从事做市业务的衍生品合约账户开展非做市业务。\n\n做市商变更上述指定账户的,应当提前15个交易日向本所备案,经本所确认后实施。\n\n第十四条 做市商应当使用自有资金开展做市业务。\n\n第十五条 合约品种的做市指标,包括但不限于下列要素:\n\n(一)最大买卖价差;\n\n(二)最小报价数量;\n\n(三)参与率;\n\n(四)合约覆盖率;\n\n(五)回应报价的最长回应时间以及最短保留时间;\n\n(六)其他做市指标。\n\n做市商开展做市业务,应当符合做市协议就前款规定的做市指标所作的具体要求。\n\n本所可以根据市场情况或者做市商的申请,对具体合约品种的做市指标做出调整。\n\n第十六条 做市商可以根据做市业务需要,向本所申请提高持仓限额。\n\n第十七条 出现下列情形之一的,相应豁免做市商的做市义务:\n\n(一)期权合约交易价格达到涨停或者跌停价格,做市商可以仅提供单边报价。\n\n(二)当合约标的为股票的期权合约的交易价格小于0.005元,或者合约标的为交易所交易型开放式指数基金的期权合约的交易价格小于0.001元时,做市商可以暂停对该合约提供买入报价。\n\n(三)因不可抗力、意外事件或者技术故障等导致无法继续提供做市服务,做市商可以暂停对部分或者全部合约品种提供做市服务,并及时向本所报告。\n\n(四)本所规定的其他情形。\n\n前款规定的情形消失后,做市商应当立即恢复相应做市服务。\n\n第十八条 做市商主动申请终止对其做市的全部或者部分合约品种提供做市服务,应当提前15个交易日书面通知本所,经本所确认后终止。\n\n做市商主动申请终止对合约品种提供做市服务的,1年以内不得重新申请对同一合约品种提供做市服务。\n\n第十九条 本所根据买卖价差、参与率等指标,定期评价做市商的做市情况。\n\n本所每月对做市商单个合约品种做市情况进行评价;每年定期对做市商单个合约品种做市情况以及整体做市服务情况进行综合评价,并向市场公布。\n\n期权市场出现剧烈波动或者其他特殊情况的,本所可以决定在特定周期内不对做市商的做市情况进行评价,并向市场公告。\n\n做市商违反本指引、本所其他规定或者做市协议约定的,本所可以调低其评价结果。\n\n第二十条 本所可以根据做市商评价结果,对做市商给予适当交易费用减免或激励。\n\n第四章 监督管理\n\n第二十一条 做市商应当具备符合要求的技术系统、风险管理和内部控制制度、动态风险监控系统,确保提供做市服务风险可测、可控。\n\n做市商应当建立压力测试机制,并按季度向本所提交压力测试报告。\n\n第二十二条 做市商应当建立风险防范与业务隔离制度,防范利益冲突,不得利用做市业务损害客户利益。\n\n第二十三条 做市商的做市服务出现下列情形之一的,本所可以取消其对特定合约品种的做市资格,并向市场公告:\n\n(一)对负责做市的合约品种, 6个月中任意2个月未达到本所规定以及做市协议约定的做市要求,或连续6个月均未获得A及以上评价。\n\n(二)对本所指定其做市的特定期权合约,连续6个月未达到本所及做市协议约定的做市要求;期权合约存续期不足6个月的,在其承担做市义务的存续期内均未达到本所及做市协议约定的做市要求。\n\n(三)在单个合约品种做市情况年度评价排名中处于末位20%,但其单个合约品种年度做市评价在A及以上的除外。\n\n(四)本所规定或做市协议约定的其他情形。\n\n做市商对特定合约品种的做市资格被取消的,1年以内不得重新申请对同一合约品种提供做市服务,但因前款第(三)项规定被取消特定合约品种做市资格的除外。\n\n第二十四条 做市商有下列情形之一的,本所可以取消其做市商资格:\n\n(一)不再符合本指引第六条规定的条件;\n\n(二)不再为任何合约品种提供做市服务;\n\n(三)存在操纵期权市场或合约标的市场等违法违规行为;\n\n(四)在全部合约品种做市情况年度评价排名中均处于末位20%,但其全部合约品种年度做市评价在A及以上的除外;\n\n(五)本所规定或者做市协议约定的其他情形。\n\n做市商对全部合约品种做市资格被取消的,1年以内不得重新申请对任一合约品种提供做市服务,但因前款第(四)项规定被取消全部合约品种做市资格的除外。\n\n第二十五条 本所可以对做市商的风险管理、交易行为及相关系统安全运行等情况,进行监督检查。\n\n第二十六条 做市商违反本指引的,本所可以依据《期权交易规则》及其他相关规定,对其采取相应的监管措施或实施纪律处分,并计入诚信记录;情节严重的,提请立案调查。\n\n第五章 附则\n\n第二十七条 本指引由本所负责解释。\n\n第二十八条 本指引自发布之日起实施。",
   "blocks": [
     {
@@ -133,7 +2158,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 2,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -141,7 +2173,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 4,
+      "end_char": 24,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -149,7 +2188,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 35,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -157,7 +2203,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 37,
+      "end_char": 43,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -165,7 +2218,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 45,
+      "end_char": 163,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -173,7 +2233,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 165,
+      "end_char": 245,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -181,7 +2248,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 247,
+      "end_char": 286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -189,7 +2263,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 288,
+      "end_char": 304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -197,7 +2278,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 306,
+      "end_char": 324,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -205,7 +2293,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 326,
+      "end_char": 347,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -213,7 +2308,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 349,
+      "end_char": 369,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -221,7 +2323,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 371,
+      "end_char": 419,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -229,7 +2338,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 421,
+      "end_char": 496,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -237,7 +2353,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 498,
+      "end_char": 506,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -245,7 +2368,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 508,
+      "end_char": 541,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -253,7 +2383,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 543,
+      "end_char": 593,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -261,7 +2398,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 595,
+      "end_char": 623,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -269,7 +2413,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 625,
+      "end_char": 640,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -277,7 +2428,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 642,
+      "end_char": 661,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -285,7 +2443,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 663,
+      "end_char": 694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -293,7 +2458,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 696,
+      "end_char": 737,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -301,7 +2473,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 739,
+      "end_char": 767,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -309,7 +2488,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 769,
+      "end_char": 792,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -317,7 +2503,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 794,
+      "end_char": 819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -325,7 +2518,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 821,
+      "end_char": 840,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -333,7 +2533,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 842,
+      "end_char": 868,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -341,7 +2548,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 870,
+      "end_char": 889,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -349,7 +2563,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 891,
+      "end_char": 937,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -357,7 +2578,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 939,
+      "end_char": 984,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -365,7 +2593,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 986,
+      "end_char": 1038,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -373,7 +2608,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1040,
+      "end_char": 1058,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -381,7 +2623,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1060,
+      "end_char": 1068,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -389,7 +2638,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1070,
+      "end_char": 1100,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -397,7 +2653,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1102,
+      "end_char": 1128,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -405,7 +2668,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1130,
+      "end_char": 1169,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -413,7 +2683,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1171,
+      "end_char": 1216,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -421,7 +2698,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1218,
+      "end_char": 1249,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -429,7 +2713,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1251,
+      "end_char": 1289,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -437,7 +2728,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1291,
+      "end_char": 1314,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -445,7 +2743,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1316,
+      "end_char": 1342,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -453,7 +2758,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1344,
+      "end_char": 1354,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -461,7 +2773,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1356,
+      "end_char": 1366,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -469,7 +2788,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1368,
+      "end_char": 1375,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -477,7 +2803,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1377,
+      "end_char": 1386,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -485,7 +2818,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1388,
+      "end_char": 1411,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -493,7 +2833,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1413,
+      "end_char": 1423,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -501,7 +2848,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1425,
+      "end_char": 1461,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -509,7 +2863,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1463,
+      "end_char": 1499,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -517,7 +2878,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1532,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -525,7 +2893,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1534,
+      "end_char": 1562,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -533,7 +2908,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1564,
+      "end_char": 1599,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -541,7 +2923,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1601,
+      "end_char": 1689,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -549,7 +2938,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1691,
+      "end_char": 1758,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -557,7 +2953,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1760,
+      "end_char": 1773,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -565,7 +2968,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1775,
+      "end_char": 1802,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -573,7 +2983,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1804,
+      "end_char": 1866,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -581,7 +2998,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1868,
+      "end_char": 1914,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -589,7 +3013,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1916,
+      "end_char": 1950,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -597,7 +3028,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 1952,
+      "end_char": 2017,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -605,7 +3043,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2019,
+      "end_char": 2073,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -613,7 +3058,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2075,
+      "end_char": 2112,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -621,7 +3073,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2114,
+      "end_char": 2151,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -629,7 +3088,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2153,
+      "end_char": 2161,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -637,7 +3103,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2163,
+      "end_char": 2223,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -645,7 +3118,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2225,
+      "end_char": 2255,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -653,7 +3133,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2257,
+      "end_char": 2304,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -661,7 +3148,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2306,
+      "end_char": 2357,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -669,7 +3163,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2359,
+      "end_char": 2421,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -677,7 +3178,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2423,
+      "end_char": 2511,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -685,7 +3193,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2513,
+      "end_char": 2565,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -693,7 +3208,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2587,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -701,7 +3223,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2589,
+      "end_char": 2661,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -709,7 +3238,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2663,
+      "end_char": 2694,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -717,7 +3253,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2696,
+      "end_char": 2715,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -725,7 +3268,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2717,
+      "end_char": 2736,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -733,7 +3283,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2738,
+      "end_char": 2764,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -741,7 +3298,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2766,
+      "end_char": 2819,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -749,7 +3313,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2821,
+      "end_char": 2842,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -757,7 +3328,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2844,
+      "end_char": 2915,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -765,7 +3343,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2917,
+      "end_char": 2961,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -773,7 +3358,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 2963,
+      "end_char": 3041,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -781,7 +3373,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3043,
+      "end_char": 3049,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -789,7 +3388,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3051,
+      "end_char": 3068,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -797,7 +3403,14 @@
       "style": "列出段落1",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "appendix",
+      "source_page_end": 0,
+      "start_char": 3070,
+      "end_char": 3088,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

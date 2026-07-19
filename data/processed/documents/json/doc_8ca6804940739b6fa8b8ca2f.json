@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司投资者权益保护工作规范.docx",
   "source_type": "docx",
   "file_sha256": "580974a7c77d9334059c93f60a1b5bf77568cfb2bdc5553886a07ccc9d12ffa4",
-  "content_sha256": "7124b122f8796c4b1e4788ad57d2bbbf5a95971a350941c0925c767676002f4f",
+  "content_sha256": "b5d5a1293af30f4d15f9d7ef39e2882a4a189f7bed50c5ca46c0251db82cdef5",
   "metadata": {
     "document_title": "证券公司投资者权益保护工作规范",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "a26dc0fec56de0f70b606dc15f88dfe3ebda8faf309fd80f3813c90d40dc83ce",
     "clean_text_sha256": "2e46bfa6d9697fc5c6d27e1f20f1ca46051a6b918eff97ac026ffbb1065fa982",
@@ -164,6 +164,2449 @@
   },
   "original_text_sha256": "a26dc0fec56de0f70b606dc15f88dfe3ebda8faf309fd80f3813c90d40dc83ce",
   "clean_text_sha256": "2e46bfa6d9697fc5c6d27e1f20f1ca46051a6b918eff97ac026ffbb1065fa982",
+  "clean_text_hash": "c4407165ee4e46bb13811ea184fcdb1521537632e9e092f90afe79843c48bc82",
+  "structured_blocks_sha256": "c76acc6bb960a6c77a088382c577cbf0ca72de6492beed7260edeb57e497e252",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(经协会第七届理事会第四十一次会议审议通过, 2025年12月26日发布并生效)",
+      "character_count": 39
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "(中证协发〔2025〕278号)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 24,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第一条 为了保护投资者合法权益,规范证券公司向投资者提供金融产品和服务的行为(以下简称产品和服务),督促证券公司积极开展投资者保护活动,维护公开、公平、公正的市场环境,促进资本市场健康稳定发展,根据《中华人民共和国证券法》《国务院办公厅关于进一步加强资本市场中小投资者合法权益保护工作的意见》等相关法律法规、监管规定、政策文件,制定本规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 196,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条 证券公司开展与下列业务相关的投资者权益保护工作,适用本规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 198,
+      "end_char": 232,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(一)向投资者销售产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 234,
+      "end_char": 246,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(二)以投资者买入产品为目的提供证券经纪、投资顾问(投资咨询)、融资融券、资产管理、柜台交易等直接或间接面向投资者的服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 248,
+      "end_char": 309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(三)与上述第一、二项业务相关的营销宣传和投资者信息保护。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 311,
+      "end_char": 340,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第三条 本规范所称投资者权益保护工作,是指证券公司建立完善投资者权益保护相关管理机制和制度流程,规范对投资者提供产品和服务的行为,畅通与中小投资者的沟通渠道,依法妥善处理投资者投诉纠纷等活动,以推动实现投资者与证券公司发生业务往来的各个环节得到公平、公正和诚信的对待。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 342,
+      "end_char": 476,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第四条 中国证券业协会(以下简称协会)依法对证券公司投资者权益保护工作进行自律管理。证券公司应当按照本规范的要求,切实做好投资者权益保护工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 478,
+      "end_char": 549,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第五条 证券公司向投资者提供产品和服务,应当坚持以人为本,遵循自愿、平等、公平、诚实信用的原则,切实承担起投资者权益保护的主体责任,履行投资者合法权益保护的法定义务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 551,
+      "end_char": 634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第六条 投资者权益保护工作的目标包括:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(一)维护公开、公平、公正的资本市场秩序,促进资本市场健康稳定发展;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 657,
+      "end_char": 691,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(二)提升投资者自我保护能力,帮助投资者树立理性投资理念,提高风险防范意识;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 693,
+      "end_char": 731,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(三)规范证券公司提供产品和服务行为,防范和化解证券市场风险;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 733,
+      "end_char": 764,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(四)多元化解投资者纠纷,倡导卖者尽责、买者自负理念,引导投资者理性维权。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 766,
+      "end_char": 803,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "chapter",
+      "text": "第二章 组织与制度保障",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 805,
+      "end_char": 816,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第七条 证券公司应当将投资者权益保护纳入公司内部制度体系、企业文化建设和经营发展战略中统筹规划,从制度、人员、流程、经费等方面保障投资者权益保护工作的开展,使投资者权益保护意识贯穿到各项业务、各个环节和各个岗位中。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 818,
+      "end_char": 925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第八条 证券公司应当建立有效的投资者权益保护组织架构,明确董事会、监事会、经理层、各部门、分支机构在投资者保护工作中的职责分工。依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 927,
+      "end_char": 1120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券公司应当明确一名高级管理人员牵头负责或成立投资者权益保护委员会统筹部署整个公司的投资者权益保护工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1174,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "证券公司应当在总部设立或指定负责投资者权益保护工作的职能部门,配备一定的专岗人员,负责牵头组织、协调、督促、指导总部及下级机构开展投资者权益保护工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1176,
+      "end_char": 1251,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第九条 证券公司投资者权益保护工作职能部门的工作职责包括:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1253,
+      "end_char": 1282,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(一)制定投资者权益保护工作计划及年度预算;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1284,
+      "end_char": 1306,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(二)策划、组织及实施投资者权益保护活动;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1308,
+      "end_char": 1329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(三)考核和评估投资者权益保护工作效果;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1331,
+      "end_char": 1351,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(四)调查和研究投资者权益保护工作中存在的问题;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1353,
+      "end_char": 1377,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(五)建设和培养投资者权益保护工作人员队伍;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1379,
+      "end_char": 1401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(六)落实监管部门及自律组织关于投资者权益保护工作的各项要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1403,
+      "end_char": 1434,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(七)将相关涉及投资者权益保护工作要求的业务制度制定、执行情况纳入合规审查范畴;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1436,
+      "end_char": 1476,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(八)与投资者权益保护工作相关的其他事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1478,
+      "end_char": 1499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十条 证券公司应当建立健全投资者权益保护工作的全流程控制制度,包括但不局限于以下方面:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1545,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(一)投资者信息使用规定;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1547,
+      "end_char": 1560,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(二)投资者投诉、调解受理流程及处理程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1562,
+      "end_char": 1583,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(三)投资者教育相关制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1585,
+      "end_char": 1598,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(四)防范非法证券活动相关制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1600,
+      "end_char": 1616,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(五)投资者权益保护工作培训、监督和考评制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1618,
+      "end_char": 1641,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(六)投资者互动沟通机制及投资者意见建议处理流程;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1643,
+      "end_char": 1668,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(七)投资者权益保护工作重大突发事件应急预案;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1670,
+      "end_char": 1693,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(八)法律法规要求的相关制度。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1695,
+      "end_char": 1710,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十一条 证券公司应当定期或不定期开展投资者权益保护培训,培训对象应当覆盖各类业务人员。其中对于直接进行客户服务的相关工作人员、证券经纪人以及客户回访人员等,应当每年至少开展一次培训。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1712,
+      "end_char": 1804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十二条 证券公司应当强化服务意识,切实履行投资者投诉处理的首要责任。建立健全投资者投诉处理制度和机制,明确投诉处理的职责分工、处置流程、时限要求、答复反馈、追踪整改、责任追究、培训安排和资料存档等,提高处理质量和效率,妥善处理客户投诉和纠纷。证券公司应当听取投资者对其提供的产品和服务的意见,接受投资者的监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1806,
+      "end_char": 1962,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "证券公司应当合理引导投资者依法通过正当途径客观、理性反映诉求,并采取必要、合理措施防范和应对投资者的不当行为,对于投资者可能发生的扰乱金融秩序和社会公共秩序的行为及时向相关机关报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1964,
+      "end_char": 2055,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十三条 鼓励证券公司和投资者利用调解、仲裁等方式,遵循独立、自愿、公平、便捷、有效的原则解决业务纠纷。普通投资者与证券公司发生证券业务纠纷,普通投资者提出调解请求的,证券公司不得拒绝。鼓励证券公司基于自愿原则加入调解组织小额速调机制。协会可以对投资者与证券公司之间发生的证券业务纠纷进行调解。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2057,
+      "end_char": 2204,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十四条 证券公司及其分支机构应当在公司网站及营业场所显著位置公示客户投诉电话、传真和电子信箱等,保证投诉电话在营业时间内有人值守及接听,提升接通率和服务质量。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 证券公司应当以纸质或电子等形式留存投资者适当性、投资者保护活动开展、投资者调解工作记录、公司员工培训记录等投资者权益保护的相关工作记录,保存时间自该项工作终止之日起不短于三年,法律法规另有规定的,从其规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2288,
+      "end_char": 2396,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "article",
+      "text": "第十六条 证券公司稽核审计部门应当将投资者权益保护工作落实情况纳入公司内部稽核审计范畴,并制定相关稽核审计底稿。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2398,
+      "end_char": 2454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "chapter",
+      "text": "第三章 行为规范",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2456,
+      "end_char": 2464,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十七条 证券公司应当将影响投资者权益的事项,通过移动互联网应用提示、官网公告、短信或其他有效的形式通知、提醒投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2466,
+      "end_char": 2525,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "证券公司应当主动优化对投资者的服务,建立常态化与投资者互动沟通的渠道或机制,积极配合相关单位的投资者状况调查工作,及时收集和反馈投资者的意见建议。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2527,
+      "end_char": 2600,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当落实投资者教育工作,将投资者教育纳入直接或间接面向投资者的业务环节,提高投资者对产品和服务的认知能力、风险意识和法律意识。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2602,
+      "end_char": 2674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "证券公司应当积极组织证券知识普及活动,依托投资者教育基地、营业网点、官方自媒体平台等,制作投资者教育宣传材料,开展广泛、持续的投资者教育,创新投资者教育方式方法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2676,
+      "end_char": 2757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十九条 证券公司应当落实投资者适当性监管要求,对所提供的产品和服务进行风险评估,合理划分风险,做好跟踪评级工作,并持续关注投资者适当性与动态评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2759,
+      "end_char": 2833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第二十条 证券公司应当规范开展营销宣传工作,加强营销宣传工作的管控,不得开展违法营销宣传活动。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2882,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十一条 证券公司应当参与和落实打击非法证券工作,包括非法证券活动的监测、防范和宣传等工作,提高投资者对非法证券活动的风险辨识和防范能力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2884,
+      "end_char": 2954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当将保护投资者尤其是中小投资者的合法权益纳入到对上市公司的持续督导工作,依法督导上市公司及其控股股东、董事、监事、高级管理人员等依法规范运作,督促其切实保障投资者的合法权益。发现侵害投资者权益的行为,应及时向相关业务监管部门、投资者保护机构报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2956,
+      "end_char": 3090,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司应当要求保荐代表人、债券受托管理工作人员以及其他持续督导工作人员落实保障投资者权益的相关要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3092,
+      "end_char": 3143,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十三条 证券公司向投资者提供产品和服务时使用格式条款的,应合理设置格式条款中的免责条款。不得违反法律法规、相关监管规定及合理业务需要,以格式条款、通知、声明、告示等方式做出含有下列内容的规定:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3145,
+      "end_char": 3243,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(一)不合理地减轻或免除证券公司因自身责任造成投资者财产损失的赔偿责任;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3245,
+      "end_char": 3281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(二)不合理地加重投资者责任,排除或限制投资者合法权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3283,
+      "end_char": 3311,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(三)排除或限制投资者依法对其产品、服务信息进行查询、调出、修改的权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3313,
+      "end_char": 3349,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(四)排除或限制投资者选择其他证券公司提供的产品和服务的权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3351,
+      "end_char": 3382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(五)排除或限制投资者寻求法律救济途径的权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3384,
+      "end_char": 3407,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(六)其他对投资者不公平、不合理的规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3409,
+      "end_char": 3429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "证券公司应当对格式条款履行提示说明义务,采取合理方式提示投资者注意。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3431,
+      "end_char": 3465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应当以通俗易懂的语言,真实、准确、完整、及时、全面向投资者披露产品和服务的基本信息、收益及风险、收费标准等影响投资者决策和利益的重要信息,根据复杂程度及风险等级,充分提示投资风险,并对其中关键的专业术语进行解释说明。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3467,
+      "end_char": 3585,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "证券公司应当以足以引起投资者注意的字体、字号、颜色、符号、标识等显著方式,提请投资者注意前述与投资者决策和利益相关的重要信息并进行解释说明,除非投资者明确表示不需要。投资者要求做进一步解释说明的,证券公司应按照投资者的要求进行解释说明。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3587,
+      "end_char": 3705,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当公平对待投资者,保障投资者在同等条件下,能够公平获得相关产品和服务;充分尊重投资者意愿,由投资者自主选择提供产品和服务的证券公司,自行决定是否购买产品或接受服务,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3707,
+      "end_char": 3808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(一)强买强卖,违背投资者意愿搭售产品和服务或者附加其他不合理的条件;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3810,
+      "end_char": 3845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(二)采用诱导、胁迫、欺诈、隐瞒等不正当手段诱使投资者购买相关产品和接受服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3847,
+      "end_char": 3886,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(三)利用技术手段、优势地位,干扰投资者自主选择;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3888,
+      "end_char": 3913,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "(四)诱导投资者从事不必要交易、使用投资者受托资产进行不必要交易等谋取不正当利益;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3915,
+      "end_char": 3956,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "(五)其他侵害投资者自主选择权的行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3958,
+      "end_char": 3977,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当依法保障投资者资产存放与受托财产存管安全,审慎经营,采用严格的内控措施和科学的技术监测手段保障投资者交易结算资金的安全性,切实满足投资者交易结算等需求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3979,
+      "end_char": 4067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第二十七条 证券公司在依法采集、使用投资者个人身份信息、资产信息、交易信息、交易终端信息等投资者个人金融信息时,应遵守法律法规及监管规定,不得违规收集与业务无关的信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4069,
+      "end_char": 4153,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取数据加密、访问控制、安全传输、签名认证等措施,强化对内部及第三方合作机构的管控,加强投资者信息的保护,防止相关信息被非法窃取、截留、泄漏或篡改。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4155,
+      "end_char": 4235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第二十八条 证券公司应当设置必要的线下服务渠道,合理布局并向基层延伸,配备引导人员优先接待老年人,改进老年人服务体验。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4237,
+      "end_char": 4296,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "证券公司应当推动网站、移动互联网应用的适老化改造,方便老年人获取信息和服务,帮助老年投资者充分了解相关风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4298,
+      "end_char": 4352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "chapter",
+      "text": "第四章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4354,
+      "end_char": 4362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第二十九条 协会依法承担对证券公司投资者保护工作的自律管理职责,通过制定业务规范、推广示范实践、开展自律检查、建立评估机制、组织沟通交流等方式,督促证券公司积极开展投资者保护活动,落实投资者保护工作的各项要求,维护投资者的合法权益。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4364,
+      "end_char": 4480,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第三十条 协会鼓励证券公司建立健全投资者权益保护工作评估机制,通过综合投资者权益保护内部制度建设、人员配备、业务能力、投资者教育、投资者适当性、纠纷处理及参与的投资者保护主题活动等情况,自我评估投资者权益保护工作的开展情况和实际效果,协会通过汇总分析,对投资者权益保护工作中存在的问题提出意见建议,促进证券公司提升投资者保护的水平和能力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4482,
+      "end_char": 4651,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十一条 协会将不定期对证券公司的投资者权益保护工作开展现场或非现场检查,证券公司应积极做好相关配合工作。检查内容包括:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4653,
+      "end_char": 4714,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(一)投资者权益保护内部控制等制度的制定与执行;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4716,
+      "end_char": 4740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(二)投资者权益保护工作的组织架构及人员配备;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4742,
+      "end_char": 4765,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(三)投资者服务工作落实开展;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4767,
+      "end_char": 4782,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(四)投资者适当性工作的执行;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4784,
+      "end_char": 4799,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(五)投资者教育工作的实施,投资者教育基地的运作;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4801,
+      "end_char": 4826,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(六)纠纷处理、司法案件中的投资者权益保护情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4828,
+      "end_char": 4852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(七)协会认为有必要的其他内容。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4854,
+      "end_char": 4870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第三十二条 证券公司及其工作人员有下列情形的,协会依据《中国证券业协会自律措施实施办法》相关规定,对其采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、暂停执业、停止执业等纪律处分:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4872,
+      "end_char": 4973,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(一)违规收集、使用投资者依法保护的金融信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4975,
+      "end_char": 4998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(二)对产品或服务作出虚假或者引人误解的宣传;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5000,
+      "end_char": 5023,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(三)未按要求向投资者披露与产品和服务相关的重要内容;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5025,
+      "end_char": 5052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(四)未及时妥当处理和报告投资者重要意见建议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5054,
+      "end_char": 5077,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(五)在提供产品或服务中,谋取不正当利益,诱导投资者放弃合法权益,煽动投资者采取过激维权行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5079,
+      "end_char": 5126,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(六)不配合、阻挠或以其他变相方式妨碍检查、纠纷调解等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5128,
+      "end_char": 5156,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(七)无正当理由不按规定及时报送相关信息,经提醒后仍不按规定报送,报送的信息中存在严重不实内容;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5158,
+      "end_char": 5206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(八)未尽责履行投资者权益保护相关职责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5208,
+      "end_char": 5228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "自律措施按照相关规定记入证监会、协会诚信信息管理系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5230,
+      "end_char": 5257,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5259,
+      "end_char": 5265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第三十三条 证券公司子公司、证券投资咨询机构、资信评级机构等协会其他会员单位依据其业务范围和特点,参照本规范要求执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5267,
+      "end_char": 5326,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第三十四条 本规范由协会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5328,
+      "end_char": 5345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十五条 本规范自公布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5347,
+      "end_char": 5365,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "(中证协发〔2025〕278号)\n\n第一章 总则\n\n第一条 为了保护投资者合法权益,规范证券公司向投资者提供金融产品和服务的行为(以下简称产品和服务),督促证券公司积极开展投资者保护活动,维护公开、公平、公正的市场环境,促进资本市场健康稳定发展,根据《中华人民共和国证券法》《国务院办公厅关于进一步加强资本市场中小投资者合法权益保护工作的意见》等相关法律法规、监管规定、政策文件,制定本规范。\n\n第二条 证券公司开展与下列业务相关的投资者权益保护工作,适用本规范。\n\n(一)向投资者销售产品;\n\n(二)以投资者买入产品为目的提供证券经纪、投资顾问(投资咨询)、融资融券、资产管理、柜台交易等直接或间接面向投资者的服务;\n\n(三)与上述第一、二项业务相关的营销宣传和投资者信息保护。\n\n第三条 本规范所称投资者权益保护工作,是指证券公司建立完善投资者权益保护相关管理机制和制度流程,规范对投资者提供产品和服务的行为,畅通与中小投资者的沟通渠道,依法妥善处理投资者投诉纠纷等活动,以推动实现投资者与证券公司发生业务往来的各个环节得到公平、公正和诚信的对待。\n\n第四条 中国证券业协会(以下简称协会)依法对证券公司投资者权益保护工作进行自律管理。证券公司应当按照本规范的要求,切实做好投资者权益保护工作。\n\n第五条 证券公司向投资者提供产品和服务,应当坚持以人为本,遵循自愿、平等、公平、诚实信用的原则,切实承担起投资者权益保护的主体责任,履行投资者合法权益保护的法定义务。\n\n第六条 投资者权益保护工作的目标包括:\n\n(一)维护公开、公平、公正的资本市场秩序,促进资本市场健康稳定发展;\n\n(二)提升投资者自我保护能力,帮助投资者树立理性投资理念,提高风险防范意识;\n\n(三)规范证券公司提供产品和服务行为,防范和化解证券市场风险;\n\n(四)多元化解投资者纠纷,倡导卖者尽责、买者自负理念,引导投资者理性维权。\n\n第二章 组织与制度保障\n\n第七条 证券公司应当将投资者权益保护纳入公司内部制度体系、企业文化建设和经营发展战略中统筹规划,从制度、人员、流程、经费等方面保障投资者权益保护工作的开展,使投资者权益保护意识贯穿到各项业务、各个环节和各个岗位中。\n\n第八条 证券公司应当建立有效的投资者权益保护组织架构,明确董事会、监事会、经理层、各部门、分支机构在投资者保护工作中的职责分工。依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。\n\n证券公司应当明确一名高级管理人员牵头负责或成立投资者权益保护委员会统筹部署整个公司的投资者权益保护工作。\n\n证券公司应当在总部设立或指定负责投资者权益保护工作的职能部门,配备一定的专岗人员,负责牵头组织、协调、督促、指导总部及下级机构开展投资者权益保护工作。\n\n第九条 证券公司投资者权益保护工作职能部门的工作职责包括:\n\n(一)制定投资者权益保护工作计划及年度预算;\n\n(二)策划、组织及实施投资者权益保护活动;\n\n(三)考核和评估投资者权益保护工作效果;\n\n(四)调查和研究投资者权益保护工作中存在的问题;\n\n(五)建设和培养投资者权益保护工作人员队伍;\n\n(六)落实监管部门及自律组织关于投资者权益保护工作的各项要求;\n\n(七)将相关涉及投资者权益保护工作要求的业务制度制定、执行情况纳入合规审查范畴;\n\n(八)与投资者权益保护工作相关的其他事项。\n\n第十条 证券公司应当建立健全投资者权益保护工作的全流程控制制度,包括但不局限于以下方面:\n\n(一)投资者信息使用规定;\n\n(二)投资者投诉、调解受理流程及处理程序;\n\n(三)投资者教育相关制度;\n\n(四)防范非法证券活动相关制度;\n\n(五)投资者权益保护工作培训、监督和考评制度;\n\n(六)投资者互动沟通机制及投资者意见建议处理流程;\n\n(七)投资者权益保护工作重大突发事件应急预案;\n\n(八)法律法规要求的相关制度。\n\n第十一条 证券公司应当定期或不定期开展投资者权益保护培训,培训对象应当覆盖各类业务人员。其中对于直接进行客户服务的相关工作人员、证券经纪人以及客户回访人员等,应当每年至少开展一次培训。\n\n第十二条 证券公司应当强化服务意识,切实履行投资者投诉处理的首要责任。建立健全投资者投诉处理制度和机制,明确投诉处理的职责分工、处置流程、时限要求、答复反馈、追踪整改、责任追究、培训安排和资料存档等,提高处理质量和效率,妥善处理客户投诉和纠纷。证券公司应当听取投资者对其提供的产品和服务的意见,接受投资者的监督。\n\n证券公司应当合理引导投资者依法通过正当途径客观、理性反映诉求,并采取必要、合理措施防范和应对投资者的不当行为,对于投资者可能发生的扰乱金融秩序和社会公共秩序的行为及时向相关机关报告。\n\n第十三条 鼓励证券公司和投资者利用调解、仲裁等方式,遵循独立、自愿、公平、便捷、有效的原则解决业务纠纷。普通投资者与证券公司发生证券业务纠纷,普通投资者提出调解请求的,证券公司不得拒绝。鼓励证券公司基于自愿原则加入调解组织小额速调机制。协会可以对投资者与证券公司之间发生的证券业务纠纷进行调解。\n\n第十四条 证券公司及其分支机构应当在公司网站及营业场所显著位置公示客户投诉电话、传真和电子信箱等,保证投诉电话在营业时间内有人值守及接听,提升接通率和服务质量。\n\n第十五条 证券公司应当以纸质或电子等形式留存投资者适当性、投资者保护活动开展、投资者调解工作记录、公司员工培训记录等投资者权益保护的相关工作记录,保存时间自该项工作终止之日起不短于三年,法律法规另有规定的,从其规定。\n\n第十六条 证券公司稽核审计部门应当将投资者权益保护工作落实情况纳入公司内部稽核审计范畴,并制定相关稽核审计底稿。\n\n第三章 行为规范\n\n第十七条 证券公司应当将影响投资者权益的事项,通过移动互联网应用提示、官网公告、短信或其他有效的形式通知、提醒投资者。\n\n证券公司应当主动优化对投资者的服务,建立常态化与投资者互动沟通的渠道或机制,积极配合相关单位的投资者状况调查工作,及时收集和反馈投资者的意见建议。\n\n第十八条 证券公司应当落实投资者教育工作,将投资者教育纳入直接或间接面向投资者的业务环节,提高投资者对产品和服务的认知能力、风险意识和法律意识。\n\n证券公司应当积极组织证券知识普及活动,依托投资者教育基地、营业网点、官方自媒体平台等,制作投资者教育宣传材料,开展广泛、持续的投资者教育,创新投资者教育方式方法。\n\n第十九条 证券公司应当落实投资者适当性监管要求,对所提供的产品和服务进行风险评估,合理划分风险,做好跟踪评级工作,并持续关注投资者适当性与动态评估。\n\n第二十条 证券公司应当规范开展营销宣传工作,加强营销宣传工作的管控,不得开展违法营销宣传活动。\n\n第二十一条 证券公司应当参与和落实打击非法证券工作,包括非法证券活动的监测、防范和宣传等工作,提高投资者对非法证券活动的风险辨识和防范能力。\n\n第二十二条 证券公司应当将保护投资者尤其是中小投资者的合法权益纳入到对上市公司的持续督导工作,依法督导上市公司及其控股股东、董事、监事、高级管理人员等依法规范运作,督促其切实保障投资者的合法权益。发现侵害投资者权益的行为,应及时向相关业务监管部门、投资者保护机构报告。\n\n证券公司应当要求保荐代表人、债券受托管理工作人员以及其他持续督导工作人员落实保障投资者权益的相关要求。\n\n第二十三条 证券公司向投资者提供产品和服务时使用格式条款的,应合理设置格式条款中的免责条款。不得违反法律法规、相关监管规定及合理业务需要,以格式条款、通知、声明、告示等方式做出含有下列内容的规定:\n\n(一)不合理地减轻或免除证券公司因自身责任造成投资者财产损失的赔偿责任;\n\n(二)不合理地加重投资者责任,排除或限制投资者合法权利;\n\n(三)排除或限制投资者依法对其产品、服务信息进行查询、调出、修改的权利;\n\n(四)排除或限制投资者选择其他证券公司提供的产品和服务的权利;\n\n(五)排除或限制投资者寻求法律救济途径的权利;\n\n(六)其他对投资者不公平、不合理的规定。\n\n证券公司应当对格式条款履行提示说明义务,采取合理方式提示投资者注意。\n\n第二十四条 证券公司应当以通俗易懂的语言,真实、准确、完整、及时、全面向投资者披露产品和服务的基本信息、收益及风险、收费标准等影响投资者决策和利益的重要信息,根据复杂程度及风险等级,充分提示投资风险,并对其中关键的专业术语进行解释说明。\n\n证券公司应当以足以引起投资者注意的字体、字号、颜色、符号、标识等显著方式,提请投资者注意前述与投资者决策和利益相关的重要信息并进行解释说明,除非投资者明确表示不需要。投资者要求做进一步解释说明的,证券公司应按照投资者的要求进行解释说明。\n\n第二十五条 证券公司应当公平对待投资者,保障投资者在同等条件下,能够公平获得相关产品和服务;充分尊重投资者意愿,由投资者自主选择提供产品和服务的证券公司,自行决定是否购买产品或接受服务,不得有以下行为:\n\n(一)强买强卖,违背投资者意愿搭售产品和服务或者附加其他不合理的条件;\n\n(二)采用诱导、胁迫、欺诈、隐瞒等不正当手段诱使投资者购买相关产品和接受服务;\n\n(三)利用技术手段、优势地位,干扰投资者自主选择;\n\n(四)诱导投资者从事不必要交易、使用投资者受托资产进行不必要交易等谋取不正当利益;\n\n(五)其他侵害投资者自主选择权的行为。\n\n第二十六条 证券公司应当依法保障投资者资产存放与受托财产存管安全,审慎经营,采用严格的内控措施和科学的技术监测手段保障投资者交易结算资金的安全性,切实满足投资者交易结算等需求。\n\n第二十七条 证券公司在依法采集、使用投资者个人身份信息、资产信息、交易信息、交易终端信息等投资者个人金融信息时,应遵守法律法规及监管规定,不得违规收集与业务无关的信息。\n\n证券公司应当采取数据加密、访问控制、安全传输、签名认证等措施,强化对内部及第三方合作机构的管控,加强投资者信息的保护,防止相关信息被非法窃取、截留、泄漏或篡改。\n\n第二十八条 证券公司应当设置必要的线下服务渠道,合理布局并向基层延伸,配备引导人员优先接待老年人,改进老年人服务体验。\n\n证券公司应当推动网站、移动互联网应用的适老化改造,方便老年人获取信息和服务,帮助老年投资者充分了解相关风险。\n\n第四章 自律管理\n\n第二十九条 协会依法承担对证券公司投资者保护工作的自律管理职责,通过制定业务规范、推广示范实践、开展自律检查、建立评估机制、组织沟通交流等方式,督促证券公司积极开展投资者保护活动,落实投资者保护工作的各项要求,维护投资者的合法权益。\n\n第三十条 协会鼓励证券公司建立健全投资者权益保护工作评估机制,通过综合投资者权益保护内部制度建设、人员配备、业务能力、投资者教育、投资者适当性、纠纷处理及参与的投资者保护主题活动等情况,自我评估投资者权益保护工作的开展情况和实际效果,协会通过汇总分析,对投资者权益保护工作中存在的问题提出意见建议,促进证券公司提升投资者保护的水平和能力。\n\n第三十一条 协会将不定期对证券公司的投资者权益保护工作开展现场或非现场检查,证券公司应积极做好相关配合工作。检查内容包括:\n\n(一)投资者权益保护内部控制等制度的制定与执行;\n\n(二)投资者权益保护工作的组织架构及人员配备;\n\n(三)投资者服务工作落实开展;\n\n(四)投资者适当性工作的执行;\n\n(五)投资者教育工作的实施,投资者教育基地的运作;\n\n(六)纠纷处理、司法案件中的投资者权益保护情况;\n\n(七)协会认为有必要的其他内容。\n\n第三十二条 证券公司及其工作人员有下列情形的,协会依据《中国证券业协会自律措施实施办法》相关规定,对其采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、暂停执业、停止执业等纪律处分:\n\n(一)违规收集、使用投资者依法保护的金融信息;\n\n(二)对产品或服务作出虚假或者引人误解的宣传;\n\n(三)未按要求向投资者披露与产品和服务相关的重要内容;\n\n(四)未及时妥当处理和报告投资者重要意见建议;\n\n(五)在提供产品或服务中,谋取不正当利益,诱导投资者放弃合法权益,煽动投资者采取过激维权行为;\n\n(六)不配合、阻挠或以其他变相方式妨碍检查、纠纷调解等;\n\n(七)无正当理由不按规定及时报送相关信息,经提醒后仍不按规定报送,报送的信息中存在严重不实内容;\n\n(八)未尽责履行投资者权益保护相关职责。\n\n自律措施按照相关规定记入证监会、协会诚信信息管理系统。\n\n第五章 附则\n\n第三十三条 证券公司子公司、证券投资咨询机构、资信评级机构等协会其他会员单位依据其业务范围和特点,参照本规范要求执行。\n\n第三十四条 本规范由协会负责解释。\n\n第三十五条 本规范自公布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "paragraph",
+      "text": "(中证协发〔2025〕278号)",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 24,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第一条 为了保护投资者合法权益,规范证券公司向投资者提供金融产品和服务的行为(以下简称产品和服务),督促证券公司积极开展投资者保护活动,维护公开、公平、公正的市场环境,促进资本市场健康稳定发展,根据《中华人民共和国证券法》《国务院办公厅关于进一步加强资本市场中小投资者合法权益保护工作的意见》等相关法律法规、监管规定、政策文件,制定本规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 196,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第二条 证券公司开展与下列业务相关的投资者权益保护工作,适用本规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 198,
+      "end_char": 232,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "(一)向投资者销售产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 234,
+      "end_char": 246,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "paragraph",
+      "text": "(二)以投资者买入产品为目的提供证券经纪、投资顾问(投资咨询)、融资融券、资产管理、柜台交易等直接或间接面向投资者的服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 248,
+      "end_char": 309,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "(三)与上述第一、二项业务相关的营销宣传和投资者信息保护。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 311,
+      "end_char": 340,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第三条 本规范所称投资者权益保护工作,是指证券公司建立完善投资者权益保护相关管理机制和制度流程,规范对投资者提供产品和服务的行为,畅通与中小投资者的沟通渠道,依法妥善处理投资者投诉纠纷等活动,以推动实现投资者与证券公司发生业务往来的各个环节得到公平、公正和诚信的对待。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 342,
+      "end_char": 476,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "article",
+      "text": "第四条 中国证券业协会(以下简称协会)依法对证券公司投资者权益保护工作进行自律管理。证券公司应当按照本规范的要求,切实做好投资者权益保护工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 478,
+      "end_char": 549,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第五条 证券公司向投资者提供产品和服务,应当坚持以人为本,遵循自愿、平等、公平、诚实信用的原则,切实承担起投资者权益保护的主体责任,履行投资者合法权益保护的法定义务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 551,
+      "end_char": 634,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第六条 投资者权益保护工作的目标包括:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 655,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(一)维护公开、公平、公正的资本市场秩序,促进资本市场健康稳定发展;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 657,
+      "end_char": 691,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(二)提升投资者自我保护能力,帮助投资者树立理性投资理念,提高风险防范意识;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 693,
+      "end_char": 731,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(三)规范证券公司提供产品和服务行为,防范和化解证券市场风险;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 733,
+      "end_char": 764,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(四)多元化解投资者纠纷,倡导卖者尽责、买者自负理念,引导投资者理性维权。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 766,
+      "end_char": 803,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "chapter",
+      "text": "第二章 组织与制度保障",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 805,
+      "end_char": 816,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第七条 证券公司应当将投资者权益保护纳入公司内部制度体系、企业文化建设和经营发展战略中统筹规划,从制度、人员、流程、经费等方面保障投资者权益保护工作的开展,使投资者权益保护意识贯穿到各项业务、各个环节和各个岗位中。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 818,
+      "end_char": 925,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第八条 证券公司应当建立有效的投资者权益保护组织架构,明确董事会、监事会、经理层、各部门、分支机构在投资者保护工作中的职责分工。依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 927,
+      "end_char": 1120,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "证券公司应当明确一名高级管理人员牵头负责或成立投资者权益保护委员会统筹部署整个公司的投资者权益保护工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1174,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "证券公司应当在总部设立或指定负责投资者权益保护工作的职能部门,配备一定的专岗人员,负责牵头组织、协调、督促、指导总部及下级机构开展投资者权益保护工作。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1176,
+      "end_char": 1251,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第九条 证券公司投资者权益保护工作职能部门的工作职责包括:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1253,
+      "end_char": 1282,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "paragraph",
+      "text": "(一)制定投资者权益保护工作计划及年度预算;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1284,
+      "end_char": 1306,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "paragraph",
+      "text": "(二)策划、组织及实施投资者权益保护活动;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1308,
+      "end_char": 1329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "(三)考核和评估投资者权益保护工作效果;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1331,
+      "end_char": 1351,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "(四)调查和研究投资者权益保护工作中存在的问题;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1353,
+      "end_char": 1377,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "(五)建设和培养投资者权益保护工作人员队伍;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1379,
+      "end_char": 1401,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(六)落实监管部门及自律组织关于投资者权益保护工作的各项要求;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1403,
+      "end_char": 1434,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(七)将相关涉及投资者权益保护工作要求的业务制度制定、执行情况纳入合规审查范畴;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1436,
+      "end_char": 1476,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "(八)与投资者权益保护工作相关的其他事项。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1478,
+      "end_char": 1499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十条 证券公司应当建立健全投资者权益保护工作的全流程控制制度,包括但不局限于以下方面:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1545,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(一)投资者信息使用规定;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1547,
+      "end_char": 1560,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "(二)投资者投诉、调解受理流程及处理程序;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1562,
+      "end_char": 1583,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "paragraph",
+      "text": "(三)投资者教育相关制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1585,
+      "end_char": 1598,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "(四)防范非法证券活动相关制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1600,
+      "end_char": 1616,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "(五)投资者权益保护工作培训、监督和考评制度;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1618,
+      "end_char": 1641,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "(六)投资者互动沟通机制及投资者意见建议处理流程;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1643,
+      "end_char": 1668,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "(七)投资者权益保护工作重大突发事件应急预案;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1670,
+      "end_char": 1693,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "paragraph",
+      "text": "(八)法律法规要求的相关制度。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1695,
+      "end_char": 1710,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "article",
+      "text": "第十一条 证券公司应当定期或不定期开展投资者权益保护培训,培训对象应当覆盖各类业务人员。其中对于直接进行客户服务的相关工作人员、证券经纪人以及客户回访人员等,应当每年至少开展一次培训。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1712,
+      "end_char": 1804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十二条 证券公司应当强化服务意识,切实履行投资者投诉处理的首要责任。建立健全投资者投诉处理制度和机制,明确投诉处理的职责分工、处置流程、时限要求、答复反馈、追踪整改、责任追究、培训安排和资料存档等,提高处理质量和效率,妥善处理客户投诉和纠纷。证券公司应当听取投资者对其提供的产品和服务的意见,接受投资者的监督。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1806,
+      "end_char": 1962,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "paragraph",
+      "text": "证券公司应当合理引导投资者依法通过正当途径客观、理性反映诉求,并采取必要、合理措施防范和应对投资者的不当行为,对于投资者可能发生的扰乱金融秩序和社会公共秩序的行为及时向相关机关报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1964,
+      "end_char": 2055,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第十三条 鼓励证券公司和投资者利用调解、仲裁等方式,遵循独立、自愿、公平、便捷、有效的原则解决业务纠纷。普通投资者与证券公司发生证券业务纠纷,普通投资者提出调解请求的,证券公司不得拒绝。鼓励证券公司基于自愿原则加入调解组织小额速调机制。协会可以对投资者与证券公司之间发生的证券业务纠纷进行调解。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2057,
+      "end_char": 2204,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第十四条 证券公司及其分支机构应当在公司网站及营业场所显著位置公示客户投诉电话、传真和电子信箱等,保证投诉电话在营业时间内有人值守及接听,提升接通率和服务质量。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2286,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第十五条 证券公司应当以纸质或电子等形式留存投资者适当性、投资者保护活动开展、投资者调解工作记录、公司员工培训记录等投资者权益保护的相关工作记录,保存时间自该项工作终止之日起不短于三年,法律法规另有规定的,从其规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2288,
+      "end_char": 2396,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "article",
+      "text": "第十六条 证券公司稽核审计部门应当将投资者权益保护工作落实情况纳入公司内部稽核审计范畴,并制定相关稽核审计底稿。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2398,
+      "end_char": 2454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "chapter",
+      "text": "第三章 行为规范",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2456,
+      "end_char": 2464,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "article",
+      "text": "第十七条 证券公司应当将影响投资者权益的事项,通过移动互联网应用提示、官网公告、短信或其他有效的形式通知、提醒投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2466,
+      "end_char": 2525,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "证券公司应当主动优化对投资者的服务,建立常态化与投资者互动沟通的渠道或机制,积极配合相关单位的投资者状况调查工作,及时收集和反馈投资者的意见建议。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2527,
+      "end_char": 2600,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "article",
+      "text": "第十八条 证券公司应当落实投资者教育工作,将投资者教育纳入直接或间接面向投资者的业务环节,提高投资者对产品和服务的认知能力、风险意识和法律意识。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2602,
+      "end_char": 2674,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "证券公司应当积极组织证券知识普及活动,依托投资者教育基地、营业网点、官方自媒体平台等,制作投资者教育宣传材料,开展广泛、持续的投资者教育,创新投资者教育方式方法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2676,
+      "end_char": 2757,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第十九条 证券公司应当落实投资者适当性监管要求,对所提供的产品和服务进行风险评估,合理划分风险,做好跟踪评级工作,并持续关注投资者适当性与动态评估。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2759,
+      "end_char": 2833,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "article",
+      "text": "第二十条 证券公司应当规范开展营销宣传工作,加强营销宣传工作的管控,不得开展违法营销宣传活动。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2882,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十一条 证券公司应当参与和落实打击非法证券工作,包括非法证券活动的监测、防范和宣传等工作,提高投资者对非法证券活动的风险辨识和防范能力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2884,
+      "end_char": 2954,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当将保护投资者尤其是中小投资者的合法权益纳入到对上市公司的持续督导工作,依法督导上市公司及其控股股东、董事、监事、高级管理人员等依法规范运作,督促其切实保障投资者的合法权益。发现侵害投资者权益的行为,应及时向相关业务监管部门、投资者保护机构报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2956,
+      "end_char": 3090,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司应当要求保荐代表人、债券受托管理工作人员以及其他持续督导工作人员落实保障投资者权益的相关要求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3092,
+      "end_char": 3143,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十三条 证券公司向投资者提供产品和服务时使用格式条款的,应合理设置格式条款中的免责条款。不得违反法律法规、相关监管规定及合理业务需要,以格式条款、通知、声明、告示等方式做出含有下列内容的规定:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3145,
+      "end_char": 3243,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "paragraph",
+      "text": "(一)不合理地减轻或免除证券公司因自身责任造成投资者财产损失的赔偿责任;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3245,
+      "end_char": 3281,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "paragraph",
+      "text": "(二)不合理地加重投资者责任,排除或限制投资者合法权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3283,
+      "end_char": 3311,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "paragraph",
+      "text": "(三)排除或限制投资者依法对其产品、服务信息进行查询、调出、修改的权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3313,
+      "end_char": 3349,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "paragraph",
+      "text": "(四)排除或限制投资者选择其他证券公司提供的产品和服务的权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3351,
+      "end_char": 3382,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "paragraph",
+      "text": "(五)排除或限制投资者寻求法律救济途径的权利;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3384,
+      "end_char": 3407,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "paragraph",
+      "text": "(六)其他对投资者不公平、不合理的规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3409,
+      "end_char": 3429,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "paragraph",
+      "text": "证券公司应当对格式条款履行提示说明义务,采取合理方式提示投资者注意。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3431,
+      "end_char": 3465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应当以通俗易懂的语言,真实、准确、完整、及时、全面向投资者披露产品和服务的基本信息、收益及风险、收费标准等影响投资者决策和利益的重要信息,根据复杂程度及风险等级,充分提示投资风险,并对其中关键的专业术语进行解释说明。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3467,
+      "end_char": 3585,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "paragraph",
+      "text": "证券公司应当以足以引起投资者注意的字体、字号、颜色、符号、标识等显著方式,提请投资者注意前述与投资者决策和利益相关的重要信息并进行解释说明,除非投资者明确表示不需要。投资者要求做进一步解释说明的,证券公司应按照投资者的要求进行解释说明。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3587,
+      "end_char": 3705,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当公平对待投资者,保障投资者在同等条件下,能够公平获得相关产品和服务;充分尊重投资者意愿,由投资者自主选择提供产品和服务的证券公司,自行决定是否购买产品或接受服务,不得有以下行为:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3707,
+      "end_char": 3808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00069",
+      "block_type": "paragraph",
+      "text": "(一)强买强卖,违背投资者意愿搭售产品和服务或者附加其他不合理的条件;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3810,
+      "end_char": 3845,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "paragraph",
+      "text": "(二)采用诱导、胁迫、欺诈、隐瞒等不正当手段诱使投资者购买相关产品和接受服务;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3847,
+      "end_char": 3886,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "paragraph",
+      "text": "(三)利用技术手段、优势地位,干扰投资者自主选择;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3888,
+      "end_char": 3913,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "paragraph",
+      "text": "(四)诱导投资者从事不必要交易、使用投资者受托资产进行不必要交易等谋取不正当利益;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3915,
+      "end_char": 3956,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "paragraph",
+      "text": "(五)其他侵害投资者自主选择权的行为。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3958,
+      "end_char": 3977,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当依法保障投资者资产存放与受托财产存管安全,审慎经营,采用严格的内控措施和科学的技术监测手段保障投资者交易结算资金的安全性,切实满足投资者交易结算等需求。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3979,
+      "end_char": 4067,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "article",
+      "text": "第二十七条 证券公司在依法采集、使用投资者个人身份信息、资产信息、交易信息、交易终端信息等投资者个人金融信息时,应遵守法律法规及监管规定,不得违规收集与业务无关的信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4069,
+      "end_char": 4153,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取数据加密、访问控制、安全传输、签名认证等措施,强化对内部及第三方合作机构的管控,加强投资者信息的保护,防止相关信息被非法窃取、截留、泄漏或篡改。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4155,
+      "end_char": 4235,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第二十八条 证券公司应当设置必要的线下服务渠道,合理布局并向基层延伸,配备引导人员优先接待老年人,改进老年人服务体验。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4237,
+      "end_char": 4296,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "paragraph",
+      "text": "证券公司应当推动网站、移动互联网应用的适老化改造,方便老年人获取信息和服务,帮助老年投资者充分了解相关风险。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4298,
+      "end_char": 4352,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "chapter",
+      "text": "第四章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4354,
+      "end_char": 4362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "article",
+      "text": "第二十九条 协会依法承担对证券公司投资者保护工作的自律管理职责,通过制定业务规范、推广示范实践、开展自律检查、建立评估机制、组织沟通交流等方式,督促证券公司积极开展投资者保护活动,落实投资者保护工作的各项要求,维护投资者的合法权益。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4364,
+      "end_char": 4480,
+      "region": "body"
+    },
+    {
+      "block_id": "b00081",
+      "block_type": "article",
+      "text": "第三十条 协会鼓励证券公司建立健全投资者权益保护工作评估机制,通过综合投资者权益保护内部制度建设、人员配备、业务能力、投资者教育、投资者适当性、纠纷处理及参与的投资者保护主题活动等情况,自我评估投资者权益保护工作的开展情况和实际效果,协会通过汇总分析,对投资者权益保护工作中存在的问题提出意见建议,促进证券公司提升投资者保护的水平和能力。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4482,
+      "end_char": 4651,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十一条 协会将不定期对证券公司的投资者权益保护工作开展现场或非现场检查,证券公司应积极做好相关配合工作。检查内容包括:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4653,
+      "end_char": 4714,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "paragraph",
+      "text": "(一)投资者权益保护内部控制等制度的制定与执行;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4716,
+      "end_char": 4740,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "paragraph",
+      "text": "(二)投资者权益保护工作的组织架构及人员配备;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4742,
+      "end_char": 4765,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "paragraph",
+      "text": "(三)投资者服务工作落实开展;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4767,
+      "end_char": 4782,
+      "region": "body"
+    },
+    {
+      "block_id": "b00086",
+      "block_type": "paragraph",
+      "text": "(四)投资者适当性工作的执行;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4784,
+      "end_char": 4799,
+      "region": "body"
+    },
+    {
+      "block_id": "b00087",
+      "block_type": "paragraph",
+      "text": "(五)投资者教育工作的实施,投资者教育基地的运作;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4801,
+      "end_char": 4826,
+      "region": "body"
+    },
+    {
+      "block_id": "b00088",
+      "block_type": "paragraph",
+      "text": "(六)纠纷处理、司法案件中的投资者权益保护情况;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4828,
+      "end_char": 4852,
+      "region": "body"
+    },
+    {
+      "block_id": "b00089",
+      "block_type": "paragraph",
+      "text": "(七)协会认为有必要的其他内容。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4854,
+      "end_char": 4870,
+      "region": "body"
+    },
+    {
+      "block_id": "b00090",
+      "block_type": "article",
+      "text": "第三十二条 证券公司及其工作人员有下列情形的,协会依据《中国证券业协会自律措施实施办法》相关规定,对其采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、暂停执业、停止执业等纪律处分:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4872,
+      "end_char": 4973,
+      "region": "body"
+    },
+    {
+      "block_id": "b00091",
+      "block_type": "paragraph",
+      "text": "(一)违规收集、使用投资者依法保护的金融信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 4975,
+      "end_char": 4998,
+      "region": "body"
+    },
+    {
+      "block_id": "b00092",
+      "block_type": "paragraph",
+      "text": "(二)对产品或服务作出虚假或者引人误解的宣传;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5000,
+      "end_char": 5023,
+      "region": "body"
+    },
+    {
+      "block_id": "b00093",
+      "block_type": "paragraph",
+      "text": "(三)未按要求向投资者披露与产品和服务相关的重要内容;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5025,
+      "end_char": 5052,
+      "region": "body"
+    },
+    {
+      "block_id": "b00094",
+      "block_type": "paragraph",
+      "text": "(四)未及时妥当处理和报告投资者重要意见建议;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5054,
+      "end_char": 5077,
+      "region": "body"
+    },
+    {
+      "block_id": "b00095",
+      "block_type": "paragraph",
+      "text": "(五)在提供产品或服务中,谋取不正当利益,诱导投资者放弃合法权益,煽动投资者采取过激维权行为;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5079,
+      "end_char": 5126,
+      "region": "body"
+    },
+    {
+      "block_id": "b00096",
+      "block_type": "paragraph",
+      "text": "(六)不配合、阻挠或以其他变相方式妨碍检查、纠纷调解等;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5128,
+      "end_char": 5156,
+      "region": "body"
+    },
+    {
+      "block_id": "b00097",
+      "block_type": "paragraph",
+      "text": "(七)无正当理由不按规定及时报送相关信息,经提醒后仍不按规定报送,报送的信息中存在严重不实内容;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5158,
+      "end_char": 5206,
+      "region": "body"
+    },
+    {
+      "block_id": "b00098",
+      "block_type": "paragraph",
+      "text": "(八)未尽责履行投资者权益保护相关职责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5208,
+      "end_char": 5228,
+      "region": "body"
+    },
+    {
+      "block_id": "b00099",
+      "block_type": "paragraph",
+      "text": "自律措施按照相关规定记入证监会、协会诚信信息管理系统。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5230,
+      "end_char": 5257,
+      "region": "body"
+    },
+    {
+      "block_id": "b00100",
+      "block_type": "chapter",
+      "text": "第五章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5259,
+      "end_char": 5265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00101",
+      "block_type": "article",
+      "text": "第三十三条 证券公司子公司、证券投资咨询机构、资信评级机构等协会其他会员单位依据其业务范围和特点,参照本规范要求执行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5267,
+      "end_char": 5326,
+      "region": "body"
+    },
+    {
+      "block_id": "b00102",
+      "block_type": "article",
+      "text": "第三十四条 本规范由协会负责解释。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5328,
+      "end_char": 5345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00104",
+      "block_type": "article",
+      "text": "第三十五条 本规范自公布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 5347,
+      "end_char": 5365,
+      "region": "body"
+    }
+  ],
   "normalized_text": "(中证协发〔2025〕278号)\n\n第一章 总则\n\n第一条 为了保护投资者合法权益,规范证券公司向投资者提供金融产品和服务的行为(以下简称产品和服务),督促证券公司积极开展投资者保护活动,维护公开、公平、公正的市场环境,促进资本市场健康稳定发展,根据《中华人民共和国证券法》《国务院办公厅关于进一步加强资本市场中小投资者合法权益保护工作的意见》等相关法律法规、监管规定、政策文件,制定本规范。\n\n第二条 证券公司开展与下列业务相关的投资者权益保护工作,适用本规范。\n\n(一)向投资者销售产品;\n\n(二)以投资者买入产品为目的提供证券经纪、投资顾问(投资咨询)、融资融券、资产管理、柜台交易等直接或间接面向投资者的服务;\n\n(三)与上述第一、二项业务相关的营销宣传和投资者信息保护。\n\n第三条 本规范所称投资者权益保护工作,是指证券公司建立完善投资者权益保护相关管理机制和制度流程,规范对投资者提供产品和服务的行为,畅通与中小投资者的沟通渠道,依法妥善处理投资者投诉纠纷等活动,以推动实现投资者与证券公司发生业务往来的各个环节得到公平、公正和诚信的对待。\n\n第四条 中国证券业协会(以下简称协会)依法对证券公司投资者权益保护工作进行自律管理。证券公司应当按照本规范的要求,切实做好投资者权益保护工作。\n\n第五条 证券公司向投资者提供产品和服务,应当坚持以人为本,遵循自愿、平等、公平、诚实信用的原则,切实承担起投资者权益保护的主体责任,履行投资者合法权益保护的法定义务。\n\n第六条 投资者权益保护工作的目标包括:\n\n(一)维护公开、公平、公正的资本市场秩序,促进资本市场健康稳定发展;\n\n(二)提升投资者自我保护能力,帮助投资者树立理性投资理念,提高风险防范意识;\n\n(三)规范证券公司提供产品和服务行为,防范和化解证券市场风险;\n\n(四)多元化解投资者纠纷,倡导卖者尽责、买者自负理念,引导投资者理性维权。\n\n第二章 组织与制度保障\n\n第七条 证券公司应当将投资者权益保护纳入公司内部制度体系、企业文化建设和经营发展战略中统筹规划,从制度、人员、流程、经费等方面保障投资者权益保护工作的开展,使投资者权益保护意识贯穿到各项业务、各个环节和各个岗位中。\n\n第八条 证券公司应当建立有效的投资者权益保护组织架构,明确董事会、监事会、经理层、各部门、分支机构在投资者保护工作中的职责分工。依法未设监事会的,由法定承担监事会职能的监事或董事会中设置的由董事组成的审计委员会履行相应监督职权。规模较小或股东人数较少的机构,若依法未设立审计委员会、监事会(或监事),应当将上述监督职责整合至内部审计部门或由董事会指定专人承担,确保内部监督机制明确有效。\n\n证券公司应当明确一名高级管理人员牵头负责或成立投资者权益保护委员会统筹部署整个公司的投资者权益保护工作。\n\n证券公司应当在总部设立或指定负责投资者权益保护工作的职能部门,配备一定的专岗人员,负责牵头组织、协调、督促、指导总部及下级机构开展投资者权益保护工作。\n\n第九条 证券公司投资者权益保护工作职能部门的工作职责包括:\n\n(一)制定投资者权益保护工作计划及年度预算;\n\n(二)策划、组织及实施投资者权益保护活动;\n\n(三)考核和评估投资者权益保护工作效果;\n\n(四)调查和研究投资者权益保护工作中存在的问题;\n\n(五)建设和培养投资者权益保护工作人员队伍;\n\n(六)落实监管部门及自律组织关于投资者权益保护工作的各项要求;\n\n(七)将相关涉及投资者权益保护工作要求的业务制度制定、执行情况纳入合规审查范畴;\n\n(八)与投资者权益保护工作相关的其他事项。\n\n第十条 证券公司应当建立健全投资者权益保护工作的全流程控制制度,包括但不局限于以下方面:\n\n(一)投资者信息使用规定;\n\n(二)投资者投诉、调解受理流程及处理程序;\n\n(三)投资者教育相关制度;\n\n(四)防范非法证券活动相关制度;\n\n(五)投资者权益保护工作培训、监督和考评制度;\n\n(六)投资者互动沟通机制及投资者意见建议处理流程;\n\n(七)投资者权益保护工作重大突发事件应急预案;\n\n(八)法律法规要求的相关制度。\n\n第十一条 证券公司应当定期或不定期开展投资者权益保护培训,培训对象应当覆盖各类业务人员。其中对于直接进行客户服务的相关工作人员、证券经纪人以及客户回访人员等,应当每年至少开展一次培训。\n\n第十二条 证券公司应当强化服务意识,切实履行投资者投诉处理的首要责任。建立健全投资者投诉处理制度和机制,明确投诉处理的职责分工、处置流程、时限要求、答复反馈、追踪整改、责任追究、培训安排和资料存档等,提高处理质量和效率,妥善处理客户投诉和纠纷。证券公司应当听取投资者对其提供的产品和服务的意见,接受投资者的监督。\n\n证券公司应当合理引导投资者依法通过正当途径客观、理性反映诉求,并采取必要、合理措施防范和应对投资者的不当行为,对于投资者可能发生的扰乱金融秩序和社会公共秩序的行为及时向相关机关报告。\n\n第十三条 鼓励证券公司和投资者利用调解、仲裁等方式,遵循独立、自愿、公平、便捷、有效的原则解决业务纠纷。普通投资者与证券公司发生证券业务纠纷,普通投资者提出调解请求的,证券公司不得拒绝。鼓励证券公司基于自愿原则加入调解组织小额速调机制。协会可以对投资者与证券公司之间发生的证券业务纠纷进行调解。\n\n第十四条 证券公司及其分支机构应当在公司网站及营业场所显著位置公示客户投诉电话、传真和电子信箱等,保证投诉电话在营业时间内有人值守及接听,提升接通率和服务质量。\n\n第十五条 证券公司应当以纸质或电子等形式留存投资者适当性、投资者保护活动开展、投资者调解工作记录、公司员工培训记录等投资者权益保护的相关工作记录,保存时间自该项工作终止之日起不短于三年,法律法规另有规定的,从其规定。\n\n第十六条 证券公司稽核审计部门应当将投资者权益保护工作落实情况纳入公司内部稽核审计范畴,并制定相关稽核审计底稿。\n\n第三章 行为规范\n\n第十七条 证券公司应当将影响投资者权益的事项,通过移动互联网应用提示、官网公告、短信或其他有效的形式通知、提醒投资者。\n\n证券公司应当主动优化对投资者的服务,建立常态化与投资者互动沟通的渠道或机制,积极配合相关单位的投资者状况调查工作,及时收集和反馈投资者的意见建议。\n\n第十八条 证券公司应当落实投资者教育工作,将投资者教育纳入直接或间接面向投资者的业务环节,提高投资者对产品和服务的认知能力、风险意识和法律意识。\n\n证券公司应当积极组织证券知识普及活动,依托投资者教育基地、营业网点、官方自媒体平台等,制作投资者教育宣传材料,开展广泛、持续的投资者教育,创新投资者教育方式方法。\n\n第十九条 证券公司应当落实投资者适当性监管要求,对所提供的产品和服务进行风险评估,合理划分风险,做好跟踪评级工作,并持续关注投资者适当性与动态评估。\n\n第二十条 证券公司应当规范开展营销宣传工作,加强营销宣传工作的管控,不得开展违法营销宣传活动。\n\n第二十一条 证券公司应当参与和落实打击非法证券工作,包括非法证券活动的监测、防范和宣传等工作,提高投资者对非法证券活动的风险辨识和防范能力。\n\n第二十二条 证券公司应当将保护投资者尤其是中小投资者的合法权益纳入到对上市公司的持续督导工作,依法督导上市公司及其控股股东、董事、监事、高级管理人员等依法规范运作,督促其切实保障投资者的合法权益。发现侵害投资者权益的行为,应及时向相关业务监管部门、投资者保护机构报告。\n\n证券公司应当要求保荐代表人、债券受托管理工作人员以及其他持续督导工作人员落实保障投资者权益的相关要求。\n\n第二十三条 证券公司向投资者提供产品和服务时使用格式条款的,应合理设置格式条款中的免责条款。不得违反法律法规、相关监管规定及合理业务需要,以格式条款、通知、声明、告示等方式做出含有下列内容的规定:\n\n(一)不合理地减轻或免除证券公司因自身责任造成投资者财产损失的赔偿责任;\n\n(二)不合理地加重投资者责任,排除或限制投资者合法权利;\n\n(三)排除或限制投资者依法对其产品、服务信息进行查询、调出、修改的权利;\n\n(四)排除或限制投资者选择其他证券公司提供的产品和服务的权利;\n\n(五)排除或限制投资者寻求法律救济途径的权利;\n\n(六)其他对投资者不公平、不合理的规定。\n\n证券公司应当对格式条款履行提示说明义务,采取合理方式提示投资者注意。\n\n第二十四条 证券公司应当以通俗易懂的语言,真实、准确、完整、及时、全面向投资者披露产品和服务的基本信息、收益及风险、收费标准等影响投资者决策和利益的重要信息,根据复杂程度及风险等级,充分提示投资风险,并对其中关键的专业术语进行解释说明。\n\n证券公司应当以足以引起投资者注意的字体、字号、颜色、符号、标识等显著方式,提请投资者注意前述与投资者决策和利益相关的重要信息并进行解释说明,除非投资者明确表示不需要。投资者要求做进一步解释说明的,证券公司应按照投资者的要求进行解释说明。\n\n第二十五条 证券公司应当公平对待投资者,保障投资者在同等条件下,能够公平获得相关产品和服务;充分尊重投资者意愿,由投资者自主选择提供产品和服务的证券公司,自行决定是否购买产品或接受服务,不得有以下行为:\n\n(一)强买强卖,违背投资者意愿搭售产品和服务或者附加其他不合理的条件;\n\n(二)采用诱导、胁迫、欺诈、隐瞒等不正当手段诱使投资者购买相关产品和接受服务;\n\n(三)利用技术手段、优势地位,干扰投资者自主选择;\n\n(四)诱导投资者从事不必要交易、使用投资者受托资产进行不必要交易等谋取不正当利益;\n\n(五)其他侵害投资者自主选择权的行为。\n\n第二十六条 证券公司应当依法保障投资者资产存放与受托财产存管安全,审慎经营,采用严格的内控措施和科学的技术监测手段保障投资者交易结算资金的安全性,切实满足投资者交易结算等需求。\n\n第二十七条 证券公司在依法采集、使用投资者个人身份信息、资产信息、交易信息、交易终端信息等投资者个人金融信息时,应遵守法律法规及监管规定,不得违规收集与业务无关的信息。\n\n证券公司应当采取数据加密、访问控制、安全传输、签名认证等措施,强化对内部及第三方合作机构的管控,加强投资者信息的保护,防止相关信息被非法窃取、截留、泄漏或篡改。\n\n第二十八条 证券公司应当设置必要的线下服务渠道,合理布局并向基层延伸,配备引导人员优先接待老年人,改进老年人服务体验。\n\n证券公司应当推动网站、移动互联网应用的适老化改造,方便老年人获取信息和服务,帮助老年投资者充分了解相关风险。\n\n第四章 自律管理\n\n第二十九条 协会依法承担对证券公司投资者保护工作的自律管理职责,通过制定业务规范、推广示范实践、开展自律检查、建立评估机制、组织沟通交流等方式,督促证券公司积极开展投资者保护活动,落实投资者保护工作的各项要求,维护投资者的合法权益。\n\n第三十条 协会鼓励证券公司建立健全投资者权益保护工作评估机制,通过综合投资者权益保护内部制度建设、人员配备、业务能力、投资者教育、投资者适当性、纠纷处理及参与的投资者保护主题活动等情况,自我评估投资者权益保护工作的开展情况和实际效果,协会通过汇总分析,对投资者权益保护工作中存在的问题提出意见建议,促进证券公司提升投资者保护的水平和能力。\n\n第三十一条 协会将不定期对证券公司的投资者权益保护工作开展现场或非现场检查,证券公司应积极做好相关配合工作。检查内容包括:\n\n(一)投资者权益保护内部控制等制度的制定与执行;\n\n(二)投资者权益保护工作的组织架构及人员配备;\n\n(三)投资者服务工作落实开展;\n\n(四)投资者适当性工作的执行;\n\n(五)投资者教育工作的实施,投资者教育基地的运作;\n\n(六)纠纷处理、司法案件中的投资者权益保护情况;\n\n(七)协会认为有必要的其他内容。\n\n第三十二条 证券公司及其工作人员有下列情形的,协会依据《中国证券业协会自律措施实施办法》相关规定,对其采取谈话提醒、警示、责令改正等自律管理措施或行业内通报批评、公开谴责、暂停执业、停止执业等纪律处分:\n\n(一)违规收集、使用投资者依法保护的金融信息;\n\n(二)对产品或服务作出虚假或者引人误解的宣传;\n\n(三)未按要求向投资者披露与产品和服务相关的重要内容;\n\n(四)未及时妥当处理和报告投资者重要意见建议;\n\n(五)在提供产品或服务中,谋取不正当利益,诱导投资者放弃合法权益,煽动投资者采取过激维权行为;\n\n(六)不配合、阻挠或以其他变相方式妨碍检查、纠纷调解等;\n\n(七)无正当理由不按规定及时报送相关信息,经提醒后仍不按规定报送,报送的信息中存在严重不实内容;\n\n(八)未尽责履行投资者权益保护相关职责。\n\n自律措施按照相关规定记入证监会、协会诚信信息管理系统。\n\n第五章 附则\n\n第三十三条 证券公司子公司、证券投资咨询机构、资信评级机构等协会其他会员单位依据其业务范围和特点,参照本规范要求执行。\n\n第三十四条 本规范由协会负责解释。\n\n第三十五条 本规范自公布之日起施行。",
   "blocks": [
     {
@@ -172,7 +2615,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 16,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -180,7 +2630,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 18,
+      "end_char": 24,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -188,7 +2645,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 26,
+      "end_char": 196,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -196,7 +2660,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 198,
+      "end_char": 232,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -204,7 +2675,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 234,
+      "end_char": 246,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -212,7 +2690,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 248,
+      "end_char": 309,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -220,7 +2705,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 311,
+      "end_char": 340,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -228,7 +2720,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 342,
+      "end_char": 476,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -236,7 +2735,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 478,
+      "end_char": 549,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -244,7 +2750,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 551,
+      "end_char": 634,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -252,7 +2765,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 636,
+      "end_char": 655,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -260,7 +2780,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 657,
+      "end_char": 691,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -268,7 +2795,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 693,
+      "end_char": 731,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -276,7 +2810,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 733,
+      "end_char": 764,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -284,7 +2825,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 766,
+      "end_char": 803,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -292,7 +2840,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 805,
+      "end_char": 816,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -300,7 +2855,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 818,
+      "end_char": 925,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -308,7 +2870,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 927,
+      "end_char": 1120,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -316,7 +2885,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1122,
+      "end_char": 1174,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -324,7 +2900,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1176,
+      "end_char": 1251,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -332,7 +2915,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1253,
+      "end_char": 1282,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -340,7 +2930,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1284,
+      "end_char": 1306,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -348,7 +2945,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1308,
+      "end_char": 1329,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -356,7 +2960,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1331,
+      "end_char": 1351,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -364,7 +2975,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1353,
+      "end_char": 1377,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -372,7 +2990,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1379,
+      "end_char": 1401,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -380,7 +3005,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1403,
+      "end_char": 1434,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -388,7 +3020,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1436,
+      "end_char": 1476,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -396,7 +3035,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1478,
+      "end_char": 1499,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -404,7 +3050,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1501,
+      "end_char": 1545,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -412,7 +3065,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1547,
+      "end_char": 1560,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -420,7 +3080,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1562,
+      "end_char": 1583,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -428,7 +3095,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1585,
+      "end_char": 1598,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -436,7 +3110,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1600,
+      "end_char": 1616,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -444,7 +3125,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1618,
+      "end_char": 1641,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -452,7 +3140,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1643,
+      "end_char": 1668,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -460,7 +3155,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1670,
+      "end_char": 1693,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -468,7 +3170,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1695,
+      "end_char": 1710,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -476,7 +3185,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1712,
+      "end_char": 1804,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -484,7 +3200,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1806,
+      "end_char": 1962,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -492,7 +3215,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1964,
+      "end_char": 2055,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -500,7 +3230,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2057,
+      "end_char": 2204,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -508,7 +3245,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2206,
+      "end_char": 2286,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -516,7 +3260,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2288,
+      "end_char": 2396,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -524,7 +3275,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2398,
+      "end_char": 2454,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -532,7 +3290,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2456,
+      "end_char": 2464,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -540,7 +3305,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2466,
+      "end_char": 2525,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -548,7 +3320,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2527,
+      "end_char": 2600,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -556,7 +3335,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2602,
+      "end_char": 2674,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -564,7 +3350,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2676,
+      "end_char": 2757,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -572,7 +3365,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2759,
+      "end_char": 2833,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -580,7 +3380,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2835,
+      "end_char": 2882,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -588,7 +3395,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2884,
+      "end_char": 2954,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -596,7 +3410,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2956,
+      "end_char": 3090,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -604,7 +3425,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3092,
+      "end_char": 3143,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -612,7 +3440,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3145,
+      "end_char": 3243,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -620,7 +3455,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3245,
+      "end_char": 3281,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -628,7 +3470,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3283,
+      "end_char": 3311,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -636,7 +3485,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3313,
+      "end_char": 3349,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -644,7 +3500,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3351,
+      "end_char": 3382,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -652,7 +3515,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3384,
+      "end_char": 3407,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -660,7 +3530,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3409,
+      "end_char": 3429,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -668,7 +3545,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3431,
+      "end_char": 3465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -676,7 +3560,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3467,
+      "end_char": 3585,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -684,7 +3575,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3587,
+      "end_char": 3705,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -692,7 +3590,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3707,
+      "end_char": 3808,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00069",
@@ -700,7 +3605,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3810,
+      "end_char": 3845,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -708,7 +3620,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3847,
+      "end_char": 3886,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -716,7 +3635,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3888,
+      "end_char": 3913,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -724,7 +3650,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3915,
+      "end_char": 3956,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -732,7 +3665,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3958,
+      "end_char": 3977,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -740,7 +3680,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3979,
+      "end_char": 4067,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -748,7 +3695,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4069,
+      "end_char": 4153,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -756,7 +3710,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4155,
+      "end_char": 4235,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -764,7 +3725,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4237,
+      "end_char": 4296,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -772,7 +3740,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4298,
+      "end_char": 4352,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -780,7 +3755,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4354,
+      "end_char": 4362,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -788,7 +3770,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4364,
+      "end_char": 4480,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00081",
@@ -796,7 +3785,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4482,
+      "end_char": 4651,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -804,7 +3800,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4653,
+      "end_char": 4714,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -812,7 +3815,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4716,
+      "end_char": 4740,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -820,7 +3830,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4742,
+      "end_char": 4765,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -828,7 +3845,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4767,
+      "end_char": 4782,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00086",
@@ -836,7 +3860,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4784,
+      "end_char": 4799,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00087",
@@ -844,7 +3875,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4801,
+      "end_char": 4826,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00088",
@@ -852,7 +3890,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4828,
+      "end_char": 4852,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00089",
@@ -860,7 +3905,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4854,
+      "end_char": 4870,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00090",
@@ -868,7 +3920,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4872,
+      "end_char": 4973,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00091",
@@ -876,7 +3935,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 4975,
+      "end_char": 4998,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00092",
@@ -884,7 +3950,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5000,
+      "end_char": 5023,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00093",
@@ -892,7 +3965,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5025,
+      "end_char": 5052,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00094",
@@ -900,7 +3980,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5054,
+      "end_char": 5077,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00095",
@@ -908,7 +3995,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5079,
+      "end_char": 5126,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00096",
@@ -916,7 +4010,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5128,
+      "end_char": 5156,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00097",
@@ -924,7 +4025,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5158,
+      "end_char": 5206,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00098",
@@ -932,7 +4040,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5208,
+      "end_char": 5228,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00099",
@@ -940,7 +4055,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5230,
+      "end_char": 5257,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00100",
@@ -948,7 +4070,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5259,
+      "end_char": 5265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00101",
@@ -956,7 +4085,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5267,
+      "end_char": 5326,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00102",
@@ -964,7 +4100,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5328,
+      "end_char": 5345,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00104",
@@ -972,7 +4115,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 5347,
+      "end_char": 5365,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

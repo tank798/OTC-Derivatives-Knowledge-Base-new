@@ -13,6 +13,13 @@ class SourceBlock:
     page: int = 0
     block_id: str = ""
     region: str = "body"
+    source_page_end: int = 0
+    start_char: int = -1
+    end_char: int = -1
+    table_data: dict[str, Any] = field(default_factory=dict)
+    formula_data: dict[str, Any] = field(default_factory=dict)
+    parsing_warnings: list[str] = field(default_factory=list)
+    layout: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
@@ -53,6 +60,8 @@ class Unit:
     is_oversized: bool = False
     oversized_reason: str = ""
     sequence_index: int = -1
+    start_char: int = -1
+    end_char: int = -1
 
 
 @dataclass
@@ -64,6 +73,8 @@ class ChunkDraft:
     is_oversized: bool = False
     oversized_reason: str = ""
     context_only_prefix: str = ""
+    primary_block_ids: list[str] = field(default_factory=list)
+    overlap_block_ids: list[str] = field(default_factory=list)
 
 
 @dataclass

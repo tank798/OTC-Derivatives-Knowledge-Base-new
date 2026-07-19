@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { existsSync, statSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
 import test from "node:test";
 import {
   MANIFEST_PATH,
@@ -34,6 +34,11 @@ test("向量文件与Chunk行号严格对应", { skip: !HAS_INDEX && "尚未基�
   assert.equal(vectorMetadata.dimension, MODEL_DIMENSION);
   assert.equal(vectorMetadata.chunk_count, corpus.length);
   assert.deepEqual(vectorMetadata.row_chunk_ids, corpus.map((row) => row.chunk_id));
+  assert.equal(vectorMetadata.row_embedding_input_sha256.length, corpus.length);
+  assert.equal(vectorMetadata.row_vector_sha256.length, corpus.length);
+  assert.ok(vectorMetadata.row_embedding_input_sha256.every((value) => /^[0-9a-f]{64}$/.test(value)));
+  assert.ok(vectorMetadata.row_vector_sha256.every((value) => /^[0-9a-f]{64}$/.test(value)));
+  assert.equal(vectorMetadata.incremental_audit_path, "data/index/incremental_vector_audit.csv");
   assert.equal(statSync(VECTOR_PATH).size, corpus.length * MODEL_DIMENSION * 4);
   const matrix = loadVectorMatrix(VECTOR_PATH, corpus.length, MODEL_DIMENSION);
   for (let row = 0; row < corpus.length; row += 1) {
@@ -45,6 +50,16 @@ test("向量文件与Chunk行号严格对应", { skip: !HAS_INDEX && "尚未基�
     }
     assert.ok(Math.abs(Math.sqrt(squaredNorm) - 1) < 1e-4);
   }
+});
+
+test("增量向量审计证明复用行字节不变", { skip: !HAS_INDEX && "尚未基于114份正式法规重建索引" }, () => {
+  const { corpus, vectorMetadata } = loadIndexArtifacts();
+  const auditPath = resolveProjectPath(vectorMetadata.incremental_audit_path);
+  const rows = readFileSync(auditPath, "utf8").trim().split(/\r?\n/);
+  assert.equal(rows.length - 1, corpus.length);
+  const reused = rows.slice(1).filter((row) => row.includes(",reused,"));
+  assert.equal(reused.length, vectorMetadata.incremental_build.reused_chunk_count);
+  assert.ok(reused.every((row) => row.endsWith(",true")));
 });
 
 test("中文BM25包含专业词且不使用字段权重", { skip: !HAS_INDEX && "尚未基于114份正式法规重建索引" }, () => {

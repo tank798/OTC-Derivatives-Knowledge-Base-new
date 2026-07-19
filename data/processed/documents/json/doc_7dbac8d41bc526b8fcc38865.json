@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/私募投资基金监督管理暂行办法.pdf",
   "source_type": "pdf",
   "file_sha256": "7e70ac8a679b74c329e0a7862a036260147aeebe86bb510eeb0df934b67d53f9",
-  "content_sha256": "2e3a297e05b33d49e87099f12808150b3201cdf5f398fb87250baebe5a041187",
+  "content_sha256": "48b6df77f51a30f345ffaf8fdfd318ae9fdcefdc6cdb6511e0280f680a671313",
   "metadata": {
     "document_title": "私募投资基金监督管理暂行办法",
     "issuing_authority": "中国证券监督管理委员会",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "unchanged",
     "original_text_sha256": "ea7ce8062aa7e99c92c304c4525cb8e6ac18aab56c9dc586800d3e303427f461",
     "clean_text_sha256": "ea7ce8062aa7e99c92c304c4525cb8e6ac18aab56c9dc586800d3e303427f461",
@@ -118,6 +118,1839 @@
   },
   "original_text_sha256": "ea7ce8062aa7e99c92c304c4525cb8e6ac18aab56c9dc586800d3e303427f461",
   "clean_text_sha256": "ea7ce8062aa7e99c92c304c4525cb8e6ac18aab56c9dc586800d3e303427f461",
+  "clean_text_hash": "601a3e2bdd0b2affd1e2f385dc44e8859f03293b318708683b0920fec338ea97",
+  "structured_blocks_sha256": "842a75e412c77097114cff5ef6291d310a1fb783bdfcef8b5a79a5b657f97e09",
+  "front_matter": [],
+  "body_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "私募投资基金监督管理暂行办法(2014 年 8 月 21 日证监会令第 105 号公布 自 2014 年 8月 21 日起施行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 64,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 66,
+      "end_char": 73,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为了规范私募投资基金活动,保护投资者及相关当事人的合法权益,促进私募投资基金行业健康发展,根据《证券投资基金法》、《国务院关于进一步促进资本市场健康发展的若干意见》,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 75,
+      "end_char": 168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 本办法所称私募投资基金(以下简称私募基金),是指在中华人民共和国境内,以非公开方式向投资者募集资金设立的投资基金。私募基金财产的投资包括买卖股票、股权、债券、期货、期权、基金份额及投资合同约定的其他投资标的。非公开募集资金,以进行投资活动为目的设立的公司或者合伙企业,资产由基金管理人或者普通合伙人管理的,其登记备案、资金募集和投资运作适用本办法。证券公司、基金管理公司、期货公司及其子公司从事私募基金业务适用本办法,其他法律法规和中国证券监督管理委员会(以下简称中国证监会)有关规定对上述机构从事私募基金业务另有规定的,适用其规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 170,
+      "end_char": 441,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 从事私募基金业务,应当遵循自愿、公平、诚实信用原则,维护投资者合法权益,不得损害国家利益和社会公共利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 443,
+      "end_char": 499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 私募基金管理人和从事私募基金托管业务的机构(以下简称私募基金托管人)管理、运用私募基金财产,从事私募基金销售业务的机构(以下简称私募基金销售机构)及其他私募服务机构从事私募基金服务活动,应当恪尽职守,履行诚实信用、谨慎勤勉的义务。私募基金从业人员应当遵守法律、行政法规,恪守职业道德和行为规范。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 501,
+      "end_char": 652,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 中国证监会及其派出机构依照《证券投资基金法》、本办法和中国证监会的其他有关规定,对私募基金业务活动实施监督管理。设立私募基金管理机构和发行私募基金不设行政审批,允许各类发行主体在依法合规的基础上,向累计不超过法律规定数量的投资者发行私募基金。建立健全私募基金发行监管制度,切实强化事中事后监管,依法严厉打击以私募基金为名的各类非法集资活动。建立促进经营机构规范开展私募基金业务的风险控制和自律管理制度,以及各类私募基金的统一监测系统。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 654,
+      "end_char": 875,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 中国证券投资基金业协会(以下简称基金业协会)依照《证券投资基金法》、本办法、中国证监会其他有关规定和基金业协会自律规则,对私募基金业开展行业自律,协调行业关系,提供行业服务,促进行业发展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 877,
+      "end_char": 975,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "chapter",
+      "text": "第二章 登记备案",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 977,
+      "end_char": 985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 各类私募基金管理人应当根据基金业协会的规定,向基金业协会申请登记,报送以下基本信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 987,
+      "end_char": 1033,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(一)工商登记和营业执照正副本复印件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1035,
+      "end_char": 1054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(二)公司章程或者合伙协议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1056,
+      "end_char": 1070,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(三)主要股东或者合伙人名单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1072,
+      "end_char": 1087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(四)高级管理人员的基本信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1089,
+      "end_char": 1104,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(五)基金业协会规定的其他信息。基金业协会应当在私募基金管理人登记材料齐备后的 20 个工作日内,通过网站公告私募基金管理人名单及其基本情况的方式,为私募基金管理人办结登记手续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1106,
+      "end_char": 1195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第八条 各类私募基金募集完毕,私募基金管理人应当根据基金业协会的规定,办理基金备案手续,报送以下基本信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1197,
+      "end_char": 1250,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(一)主要投资方向及根据主要投资方向注明的基金类别;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1252,
+      "end_char": 1278,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(二)基金合同、公司章程或者合伙协议。资金募集过程中向投资者提供基金招募说明书的,应当报送基金招募说明书。以公司、合伙等企业形式设立的私募基金,还应当报送工商登记和营业执照正副本复印件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1280,
+      "end_char": 1373,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(三)采取委托管理方式的,应当报送委托管理协议。委托托管机构托管基金财产的,还应当报送托管协议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1375,
+      "end_char": 1423,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(四)基金业协会规定的其他信息。基金业协会应当在私募基金备案材料齐备后的 20 个工作日内,通过网站公告私募基金名单及其基本情况的方式,为私募基金办结备案手续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1425,
+      "end_char": 1505,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第九条 基金业协会为私募基金管理人和私募基金办理登记备案不构成对私募基金管理人投资能力、持续合规情况的认可;不作为对基金财产安全的保证。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1507,
+      "end_char": 1575,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十条 私募基金管理人依法解散、被依法撤销、或者被依法宣告破产的,其法定代表人或者普通合伙人应当在 20 个工作日内向基金业协会报告,基金业协会应当及时注销基金管理人登记并通过网站公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1577,
+      "end_char": 1670,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "chapter",
+      "text": "第三章 合格投资者",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1672,
+      "end_char": 1681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十一条 私募基金应当向合格投资者募集,单只私募基金的投资者人数累计不得超过《证券投资基金法》、《公司法》、《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合前款规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1683,
+      "end_char": 1799,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十二条 私募基金的合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只私募基金的金额不低于 100 万元且符合下列相关标准的单位和个人:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1801,
+      "end_char": 1874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)净资产不低于 1000 万元的单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1876,
+      "end_char": 1897,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)金融资产不低于 300 万元或者最近三年个人年均收入不低于 50 万元的个人。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1899,
+      "end_char": 1941,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "前款所称金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 1943,
+      "end_char": 1999,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十三条 下列投资者视为合格投资者:社会保障基金、企业年金等养老基金,慈善基金等社会公益基金;依法设立并在基金业协会备案的投资计划;投资于所管理私募基金的私募基金管理人及其从业人员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2001,
+      "end_char": 2092,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(四)中国证监会规定的其他投资者。以合伙企业、契约等非法人形式,通过汇集多数投资者的资金直接或者间接投资于私募基金的,私募基金管理人或者私募基金销售机构应当穿透核查最终投资者是否为合格投资者,并合并计算投资者人数。但是,符合本条第(一)、(二)、(四)项规定的投资者投资私募基金的,不再穿透核查最终投资者是否为合格投资者和合并计算投资者人数。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2094,
+      "end_char": 2265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "chapter",
+      "text": "第四章 资金募集",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2267,
+      "end_char": 2275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十四条 私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金,不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式,向不特定对象宣传推介。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2277,
+      "end_char": 2391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十五条 私募基金管理人、私募基金销售机构不得向投资者承诺投资本金不受损失或者承诺最低收益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2393,
+      "end_char": 2439,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十六条 私募基金管理人自行销售私募基金的,应当采取问卷调查等方式,对投资者的风险识别能力和风险承担能力进行评估,由投资者书面承诺符合合格投资者条件;应当制作风险揭示书,由投资者签字确认。私募基金管理人委托销售机构销售私募基金的,私募基金销售机构应当采取前款规定的评估、确认等措施。投资者风险识别能力和承担能力问卷及风险揭示书的内容与格式指引,由基金业协会按照不同类别私募基金的特点制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2441,
+      "end_char": 2635,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十七条 私募基金管理人自行销售或者委托销售机构销售私募基金,应当自行或者委托第三方机构对私募基金进行风险评级,向风险识别能力和风险承担能力相匹配的投资者推介私募基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2637,
+      "end_char": 2721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十八条 投资者应当如实填写风险识别能力和承担能力问卷,如实承诺资产或者收入情况,并对其真实性、准确性和完整性负责。填写虚假信息或者提供虚假承诺文件的,应当承担相应责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2723,
+      "end_char": 2808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十九条 投资者应当确保投资资金来源合法,不得非法汇集他人资金投资私募基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2810,
+      "end_char": 2848,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "chapter",
+      "text": "第五章 投资运作",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2850,
+      "end_char": 2858,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十条 募集私募证券基金,应当制定并签订基金合同、公司章程或者合伙协议(以下统称基金合同)。基金合同应当符合《证券投资基金法》第九十三条、第九十四条规定。募集其他种类私募基金,基金合同应当参照《证券投资基金法》第九十三条、第九十四条规定,明确约定各方当事人的权利、义务和相关事宜。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2860,
+      "end_char": 3001,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第二十一条 除基金合同另有约定外,私募基金应当由基金托管人托管。基金合同约定私募基金不进行托管的,应当在基金合同中明确保障私募基金财产安全的制度措施和纠纷解决机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3003,
+      "end_char": 3085,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十二条 同一私募基金管理人管理不同类别私募基金的,应当坚持专业化管理原则;管理可能导致利益输送或者利益冲突的不同私募基金的,应当建立防范利益输送和利益冲突的机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3087,
+      "end_char": 3170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员从事私募基金业务,不得有以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3172,
+      "end_char": 3234,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)将其固有财产或者他人财产混同于基金财产从事投资活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3236,
+      "end_char": 3265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)不公平地对待其管理的不同基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3267,
+      "end_char": 3287,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)利用基金财产或者职务之便,为本人或者投资者以外的人牟取利益,进行利益输送;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3289,
+      "end_char": 3329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)侵占、挪用基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3331,
+      "end_char": 3344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(五)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3346,
+      "end_char": 3391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(六)从事损害基金财产和投资者利益的投资活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3393,
+      "end_char": 3416,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(七)玩忽职守,不按照规定履行职责;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3418,
+      "end_char": 3436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(八)从事内幕交易、操纵交易价格及其他不正当交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3438,
+      "end_char": 3465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(九)法律、行政法规和中国证监会规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3467,
+      "end_char": 3493,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十四条 私募基金管理人、私募基金托管人应当按照合同约定,如实向投资者披露基金投资、资产负债、投资收益分配、基金承担的费用和业绩报酬、可能存在的利益冲突情况以及可能影响投资者合法权益的其他重大信息,不得隐瞒或者提供虚假信息。信息披露规则由基金业协会另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3495,
+      "end_char": 3625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十五条 私募基金管理人应当根据基金业协会的规定,及时填报并定期更新管理人及其从业人员的有关信息、所管理私募基金的投资运作情况和杠杆运用情况,保证所填报内容真实、准确、完整。发生重大事项的,应当在 10 个工作日内向基金业协会报告。私募基金管理人应当于每个会计年度结束后的 4 个月内,向基金业协会报送经会计师事务所审计的年度财务报告和所管理私募基金年度投资运作基本情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3627,
+      "end_char": 3814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十六条 私募基金管理人、私募基金托管人及私募基金销售机构应当妥善保存私募基金投资决策、交易和投资者适当性管理等方面的记录及其他相关资料,保存期限自基金清算终止之日起不得少于 10 年。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3816,
+      "end_char": 3910,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "chapter",
+      "text": "第六章 行业自律",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3912,
+      "end_char": 3920,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十七条 基金业协会应当建立私募基金管理人登记、私募基金备案管理信息系统。基金业协会应当对私募基金管理人和私募基金信息严格保密。除法律法规另有规定外,不得对外披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 3922,
+      "end_char": 4005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十八条 基金业协会应当建立与中国证监会及其派出机构和其他相关机构的信息共享机制,定期汇总分析私募基金情况,及时提供私募基金相关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4007,
+      "end_char": 4075,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十九条 基金业协会应当制定和实施私募基金行业自律规则,监督、检查会员及其从业人员的执业行为。会员及其从业人员违反法律、行政法规、本办法规定和基金业协会自律规则的,基金业协会可以视情节轻重,采取自律管理措施,并通过网站公开相关违法违规信息。会员及其从业人员涉嫌违法违规的,基金业协会应当及时报告中国证监会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4077,
+      "end_char": 4231,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十条 基金业协会应当建立投诉处理机制,受理投资者投诉,进行纠纷调解。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4233,
+      "end_char": 4269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "chapter",
+      "text": "第七章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4271,
+      "end_char": 4279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第三十一条 中国证监会及其派出机构依法对私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构开展私募基金业务情况进行统计监测和检查,依照《证券投资基金法》第一百一十四条规定采取有关措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4281,
+      "end_char": 4381,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第三十二条 中国证监会将私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员诚信信息记入证券期货市场诚信档案数据库;根据私募基金管理人的信用状况,实施差异化监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4383,
+      "end_char": 4477,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第三十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律、行政法规及本办法规定,中国证监会及其派出机构可以对其采取责令改正、监管谈话、出具警示函、公开谴责等行政监管措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4479,
+      "end_char": 4585,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "chapter",
+      "text": "第八章 关于创业投资基金的特别规定",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4587,
+      "end_char": 4604,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十四条 本办法所称创业投资基金,是指主要投资于未上市创业企业普通股或者依法可转换为普通股的优先股、可转换债券等权益的股权投资基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4606,
+      "end_char": 4673,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十五条 鼓励和引导创业投资基金投资创业早期的小微企业。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4675,
+      "end_char": 4704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "享受国家财政税收扶持政策的创业投资基金,其投资范围应当符合国家相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4706,
+      "end_char": 4742,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第三十六条 基金业协会在基金管理人登记、基金备案、投资情况报告要求和会员管理等环节,对创业投资基金采取区别于其他私募基金的差异化行业自律,并提供差异化会员服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4744,
+      "end_char": 4824,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第三十七条 中国证监会及其派出机构对创业投资基金在投资方向检查等环节,采取区别于其他私募基金的差异化监督管理;在账户开立、发行交易和投资退出等方面,为创业投资基金提供便利服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4826,
+      "end_char": 4914,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "chapter",
+      "text": "第九章 法律责任",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4916,
+      "end_char": 4924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第三十八条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反本办法第七条、",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4926,
+      "end_char": 4980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "第八条、第十一条、第十四条至第十七条、第二十四条至第二十六条规定的,以及有本办法第二十三条第一项至第七项和第九项所列行为之一的,责令改正,给予警告并处三万元以下罚款;对直接负责的主管人员和其他直接责任人员,给予警告并处三万元以下罚款;有本办法第二十三条第八项行为的,按照《证券法》和《期货交易管理条例》的有关规定处罚;构成犯罪的,依法移交司法机关追究刑事责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4982,
+      "end_char": 5162,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十九条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律法规和本办法规定,情节严重的,中国证监会可以依法对有关责任人员采取市场禁入措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5164,
+      "end_char": 5253,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "article",
+      "text": "第四十条 私募证券基金管理人及其从业人员违反《证券投资基金法》有关规定的,按照《证券投资基金法》有关规定处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5255,
+      "end_char": 5310,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "chapter",
+      "text": "第十章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5312,
+      "end_char": 5319,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "article",
+      "text": "第四十一条 本办法自公布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5321,
+      "end_char": 5339,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "私募投资基金监督管理暂行办法(2014 年 8 月 21 日证监会令第 105 号公布 自 2014 年 8月 21 日起施行)\n\n第一章 总 则\n\n第一条 为了规范私募投资基金活动,保护投资者及相关当事人的合法权益,促进私募投资基金行业健康发展,根据《证券投资基金法》、《国务院关于进一步促进资本市场健康发展的若干意见》,制定本办法。\n\n第二条 本办法所称私募投资基金(以下简称私募基金),是指在中华人民共和国境内,以非公开方式向投资者募集资金设立的投资基金。私募基金财产的投资包括买卖股票、股权、债券、期货、期权、基金份额及投资合同约定的其他投资标的。非公开募集资金,以进行投资活动为目的设立的公司或者合伙企业,资产由基金管理人或者普通合伙人管理的,其登记备案、资金募集和投资运作适用本办法。证券公司、基金管理公司、期货公司及其子公司从事私募基金业务适用本办法,其他法律法规和中国证券监督管理委员会(以下简称中国证监会)有关规定对上述机构从事私募基金业务另有规定的,适用其规定。\n\n第三条 从事私募基金业务,应当遵循自愿、公平、诚实信用原则,维护投资者合法权益,不得损害国家利益和社会公共利益。\n\n第四条 私募基金管理人和从事私募基金托管业务的机构(以下简称私募基金托管人)管理、运用私募基金财产,从事私募基金销售业务的机构(以下简称私募基金销售机构)及其他私募服务机构从事私募基金服务活动,应当恪尽职守,履行诚实信用、谨慎勤勉的义务。私募基金从业人员应当遵守法律、行政法规,恪守职业道德和行为规范。\n\n第五条 中国证监会及其派出机构依照《证券投资基金法》、本办法和中国证监会的其他有关规定,对私募基金业务活动实施监督管理。设立私募基金管理机构和发行私募基金不设行政审批,允许各类发行主体在依法合规的基础上,向累计不超过法律规定数量的投资者发行私募基金。建立健全私募基金发行监管制度,切实强化事中事后监管,依法严厉打击以私募基金为名的各类非法集资活动。建立促进经营机构规范开展私募基金业务的风险控制和自律管理制度,以及各类私募基金的统一监测系统。\n\n第六条 中国证券投资基金业协会(以下简称基金业协会)依照《证券投资基金法》、本办法、中国证监会其他有关规定和基金业协会自律规则,对私募基金业开展行业自律,协调行业关系,提供行业服务,促进行业发展。\n\n第二章 登记备案\n\n第七条 各类私募基金管理人应当根据基金业协会的规定,向基金业协会申请登记,报送以下基本信息:\n\n(一)工商登记和营业执照正副本复印件;\n\n(二)公司章程或者合伙协议;\n\n(三)主要股东或者合伙人名单;\n\n(四)高级管理人员的基本信息;\n\n(五)基金业协会规定的其他信息。基金业协会应当在私募基金管理人登记材料齐备后的 20 个工作日内,通过网站公告私募基金管理人名单及其基本情况的方式,为私募基金管理人办结登记手续。\n\n第八条 各类私募基金募集完毕,私募基金管理人应当根据基金业协会的规定,办理基金备案手续,报送以下基本信息:\n\n(一)主要投资方向及根据主要投资方向注明的基金类别;\n\n(二)基金合同、公司章程或者合伙协议。资金募集过程中向投资者提供基金招募说明书的,应当报送基金招募说明书。以公司、合伙等企业形式设立的私募基金,还应当报送工商登记和营业执照正副本复印件;\n\n(三)采取委托管理方式的,应当报送委托管理协议。委托托管机构托管基金财产的,还应当报送托管协议;\n\n(四)基金业协会规定的其他信息。基金业协会应当在私募基金备案材料齐备后的 20 个工作日内,通过网站公告私募基金名单及其基本情况的方式,为私募基金办结备案手续。\n\n第九条 基金业协会为私募基金管理人和私募基金办理登记备案不构成对私募基金管理人投资能力、持续合规情况的认可;不作为对基金财产安全的保证。\n\n第十条 私募基金管理人依法解散、被依法撤销、或者被依法宣告破产的,其法定代表人或者普通合伙人应当在 20 个工作日内向基金业协会报告,基金业协会应当及时注销基金管理人登记并通过网站公告。\n\n第三章 合格投资者\n\n第十一条 私募基金应当向合格投资者募集,单只私募基金的投资者人数累计不得超过《证券投资基金法》、《公司法》、《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合前款规定。\n\n第十二条 私募基金的合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只私募基金的金额不低于 100 万元且符合下列相关标准的单位和个人:\n\n(一)净资产不低于 1000 万元的单位;\n\n(二)金融资产不低于 300 万元或者最近三年个人年均收入不低于 50 万元的个人。\n\n前款所称金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等。\n\n第十三条 下列投资者视为合格投资者:社会保障基金、企业年金等养老基金,慈善基金等社会公益基金;依法设立并在基金业协会备案的投资计划;投资于所管理私募基金的私募基金管理人及其从业人员;\n\n(四)中国证监会规定的其他投资者。以合伙企业、契约等非法人形式,通过汇集多数投资者的资金直接或者间接投资于私募基金的,私募基金管理人或者私募基金销售机构应当穿透核查最终投资者是否为合格投资者,并合并计算投资者人数。但是,符合本条第(一)、(二)、(四)项规定的投资者投资私募基金的,不再穿透核查最终投资者是否为合格投资者和合并计算投资者人数。\n\n第四章 资金募集\n\n第十四条 私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金,不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式,向不特定对象宣传推介。\n\n第十五条 私募基金管理人、私募基金销售机构不得向投资者承诺投资本金不受损失或者承诺最低收益。\n\n第十六条 私募基金管理人自行销售私募基金的,应当采取问卷调查等方式,对投资者的风险识别能力和风险承担能力进行评估,由投资者书面承诺符合合格投资者条件;应当制作风险揭示书,由投资者签字确认。私募基金管理人委托销售机构销售私募基金的,私募基金销售机构应当采取前款规定的评估、确认等措施。投资者风险识别能力和承担能力问卷及风险揭示书的内容与格式指引,由基金业协会按照不同类别私募基金的特点制定。\n\n第十七条 私募基金管理人自行销售或者委托销售机构销售私募基金,应当自行或者委托第三方机构对私募基金进行风险评级,向风险识别能力和风险承担能力相匹配的投资者推介私募基金。\n\n第十八条 投资者应当如实填写风险识别能力和承担能力问卷,如实承诺资产或者收入情况,并对其真实性、准确性和完整性负责。填写虚假信息或者提供虚假承诺文件的,应当承担相应责任。\n\n第十九条 投资者应当确保投资资金来源合法,不得非法汇集他人资金投资私募基金。\n\n第五章 投资运作\n\n第二十条 募集私募证券基金,应当制定并签订基金合同、公司章程或者合伙协议(以下统称基金合同)。基金合同应当符合《证券投资基金法》第九十三条、第九十四条规定。募集其他种类私募基金,基金合同应当参照《证券投资基金法》第九十三条、第九十四条规定,明确约定各方当事人的权利、义务和相关事宜。\n\n第二十一条 除基金合同另有约定外,私募基金应当由基金托管人托管。基金合同约定私募基金不进行托管的,应当在基金合同中明确保障私募基金财产安全的制度措施和纠纷解决机制。\n\n第二十二条 同一私募基金管理人管理不同类别私募基金的,应当坚持专业化管理原则;管理可能导致利益输送或者利益冲突的不同私募基金的,应当建立防范利益输送和利益冲突的机制。\n\n第二十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员从事私募基金业务,不得有以下行为:\n\n(一)将其固有财产或者他人财产混同于基金财产从事投资活动;\n\n(二)不公平地对待其管理的不同基金财产;\n\n(三)利用基金财产或者职务之便,为本人或者投资者以外的人牟取利益,进行利益输送;\n\n(四)侵占、挪用基金财产;\n\n(五)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;\n\n(六)从事损害基金财产和投资者利益的投资活动;\n\n(七)玩忽职守,不按照规定履行职责;\n\n(八)从事内幕交易、操纵交易价格及其他不正当交易活动;\n\n(九)法律、行政法规和中国证监会规定禁止的其他行为。\n\n第二十四条 私募基金管理人、私募基金托管人应当按照合同约定,如实向投资者披露基金投资、资产负债、投资收益分配、基金承担的费用和业绩报酬、可能存在的利益冲突情况以及可能影响投资者合法权益的其他重大信息,不得隐瞒或者提供虚假信息。信息披露规则由基金业协会另行制定。\n\n第二十五条 私募基金管理人应当根据基金业协会的规定,及时填报并定期更新管理人及其从业人员的有关信息、所管理私募基金的投资运作情况和杠杆运用情况,保证所填报内容真实、准确、完整。发生重大事项的,应当在 10 个工作日内向基金业协会报告。私募基金管理人应当于每个会计年度结束后的 4 个月内,向基金业协会报送经会计师事务所审计的年度财务报告和所管理私募基金年度投资运作基本情况。\n\n第二十六条 私募基金管理人、私募基金托管人及私募基金销售机构应当妥善保存私募基金投资决策、交易和投资者适当性管理等方面的记录及其他相关资料,保存期限自基金清算终止之日起不得少于 10 年。\n\n第六章 行业自律\n\n第二十七条 基金业协会应当建立私募基金管理人登记、私募基金备案管理信息系统。基金业协会应当对私募基金管理人和私募基金信息严格保密。除法律法规另有规定外,不得对外披露。\n\n第二十八条 基金业协会应当建立与中国证监会及其派出机构和其他相关机构的信息共享机制,定期汇总分析私募基金情况,及时提供私募基金相关信息。\n\n第二十九条 基金业协会应当制定和实施私募基金行业自律规则,监督、检查会员及其从业人员的执业行为。会员及其从业人员违反法律、行政法规、本办法规定和基金业协会自律规则的,基金业协会可以视情节轻重,采取自律管理措施,并通过网站公开相关违法违规信息。会员及其从业人员涉嫌违法违规的,基金业协会应当及时报告中国证监会。\n\n第三十条 基金业协会应当建立投诉处理机制,受理投资者投诉,进行纠纷调解。\n\n第七章 监督管理\n\n第三十一条 中国证监会及其派出机构依法对私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构开展私募基金业务情况进行统计监测和检查,依照《证券投资基金法》第一百一十四条规定采取有关措施。\n\n第三十二条 中国证监会将私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员诚信信息记入证券期货市场诚信档案数据库;根据私募基金管理人的信用状况,实施差异化监管。\n\n第三十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律、行政法规及本办法规定,中国证监会及其派出机构可以对其采取责令改正、监管谈话、出具警示函、公开谴责等行政监管措施。\n\n第八章 关于创业投资基金的特别规定\n\n第三十四条 本办法所称创业投资基金,是指主要投资于未上市创业企业普通股或者依法可转换为普通股的优先股、可转换债券等权益的股权投资基金。\n\n第三十五条 鼓励和引导创业投资基金投资创业早期的小微企业。\n\n享受国家财政税收扶持政策的创业投资基金,其投资范围应当符合国家相关规定。\n\n第三十六条 基金业协会在基金管理人登记、基金备案、投资情况报告要求和会员管理等环节,对创业投资基金采取区别于其他私募基金的差异化行业自律,并提供差异化会员服务。\n\n第三十七条 中国证监会及其派出机构对创业投资基金在投资方向检查等环节,采取区别于其他私募基金的差异化监督管理;在账户开立、发行交易和投资退出等方面,为创业投资基金提供便利服务。\n\n第九章 法律责任\n\n第三十八条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反本办法第七条、\n\n第八条、第十一条、第十四条至第十七条、第二十四条至第二十六条规定的,以及有本办法第二十三条第一项至第七项和第九项所列行为之一的,责令改正,给予警告并处三万元以下罚款;对直接负责的主管人员和其他直接责任人员,给予警告并处三万元以下罚款;有本办法第二十三条第八项行为的,按照《证券法》和《期货交易管理条例》的有关规定处罚;构成犯罪的,依法移交司法机关追究刑事责任。\n\n第三十九条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律法规和本办法规定,情节严重的,中国证监会可以依法对有关责任人员采取市场禁入措施。\n\n第四十条 私募证券基金管理人及其从业人员违反《证券投资基金法》有关规定的,按照《证券投资基金法》有关规定处罚。\n\n第十章 附 则\n\n第四十一条 本办法自公布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00001",
+      "block_type": "paragraph",
+      "text": "私募投资基金监督管理暂行办法(2014 年 8 月 21 日证监会令第 105 号公布 自 2014 年 8月 21 日起施行)",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 64,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 66,
+      "end_char": 73,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为了规范私募投资基金活动,保护投资者及相关当事人的合法权益,促进私募投资基金行业健康发展,根据《证券投资基金法》、《国务院关于进一步促进资本市场健康发展的若干意见》,制定本办法。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 75,
+      "end_char": 168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 本办法所称私募投资基金(以下简称私募基金),是指在中华人民共和国境内,以非公开方式向投资者募集资金设立的投资基金。私募基金财产的投资包括买卖股票、股权、债券、期货、期权、基金份额及投资合同约定的其他投资标的。非公开募集资金,以进行投资活动为目的设立的公司或者合伙企业,资产由基金管理人或者普通合伙人管理的,其登记备案、资金募集和投资运作适用本办法。证券公司、基金管理公司、期货公司及其子公司从事私募基金业务适用本办法,其他法律法规和中国证券监督管理委员会(以下简称中国证监会)有关规定对上述机构从事私募基金业务另有规定的,适用其规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 1,
+      "source_page_end": 1,
+      "start_char": 170,
+      "end_char": 441,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第三条 从事私募基金业务,应当遵循自愿、公平、诚实信用原则,维护投资者合法权益,不得损害国家利益和社会公共利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 443,
+      "end_char": 499,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "article",
+      "text": "第四条 私募基金管理人和从事私募基金托管业务的机构(以下简称私募基金托管人)管理、运用私募基金财产,从事私募基金销售业务的机构(以下简称私募基金销售机构)及其他私募服务机构从事私募基金服务活动,应当恪尽职守,履行诚实信用、谨慎勤勉的义务。私募基金从业人员应当遵守法律、行政法规,恪守职业道德和行为规范。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 501,
+      "end_char": 652,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 中国证监会及其派出机构依照《证券投资基金法》、本办法和中国证监会的其他有关规定,对私募基金业务活动实施监督管理。设立私募基金管理机构和发行私募基金不设行政审批,允许各类发行主体在依法合规的基础上,向累计不超过法律规定数量的投资者发行私募基金。建立健全私募基金发行监管制度,切实强化事中事后监管,依法严厉打击以私募基金为名的各类非法集资活动。建立促进经营机构规范开展私募基金业务的风险控制和自律管理制度,以及各类私募基金的统一监测系统。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 654,
+      "end_char": 875,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 中国证券投资基金业协会(以下简称基金业协会)依照《证券投资基金法》、本办法、中国证监会其他有关规定和基金业协会自律规则,对私募基金业开展行业自律,协调行业关系,提供行业服务,促进行业发展。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 877,
+      "end_char": 975,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "chapter",
+      "text": "第二章 登记备案",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 977,
+      "end_char": 985,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "article",
+      "text": "第七条 各类私募基金管理人应当根据基金业协会的规定,向基金业协会申请登记,报送以下基本信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 987,
+      "end_char": 1033,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "paragraph",
+      "text": "(一)工商登记和营业执照正副本复印件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1035,
+      "end_char": 1054,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "(二)公司章程或者合伙协议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1056,
+      "end_char": 1070,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "paragraph",
+      "text": "(三)主要股东或者合伙人名单;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1072,
+      "end_char": 1087,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(四)高级管理人员的基本信息;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 3,
+      "source_page_end": 3,
+      "start_char": 1089,
+      "end_char": 1104,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(五)基金业协会规定的其他信息。基金业协会应当在私募基金管理人登记材料齐备后的 20 个工作日内,通过网站公告私募基金管理人名单及其基本情况的方式,为私募基金管理人办结登记手续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1106,
+      "end_char": 1195,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "article",
+      "text": "第八条 各类私募基金募集完毕,私募基金管理人应当根据基金业协会的规定,办理基金备案手续,报送以下基本信息:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1197,
+      "end_char": 1250,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "paragraph",
+      "text": "(一)主要投资方向及根据主要投资方向注明的基金类别;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1252,
+      "end_char": 1278,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "paragraph",
+      "text": "(二)基金合同、公司章程或者合伙协议。资金募集过程中向投资者提供基金招募说明书的,应当报送基金招募说明书。以公司、合伙等企业形式设立的私募基金,还应当报送工商登记和营业执照正副本复印件;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1280,
+      "end_char": 1373,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "paragraph",
+      "text": "(三)采取委托管理方式的,应当报送委托管理协议。委托托管机构托管基金财产的,还应当报送托管协议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1375,
+      "end_char": 1423,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "paragraph",
+      "text": "(四)基金业协会规定的其他信息。基金业协会应当在私募基金备案材料齐备后的 20 个工作日内,通过网站公告私募基金名单及其基本情况的方式,为私募基金办结备案手续。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1425,
+      "end_char": 1505,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "article",
+      "text": "第九条 基金业协会为私募基金管理人和私募基金办理登记备案不构成对私募基金管理人投资能力、持续合规情况的认可;不作为对基金财产安全的保证。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 4,
+      "source_page_end": 4,
+      "start_char": 1507,
+      "end_char": 1575,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十条 私募基金管理人依法解散、被依法撤销、或者被依法宣告破产的,其法定代表人或者普通合伙人应当在 20 个工作日内向基金业协会报告,基金业协会应当及时注销基金管理人登记并通过网站公告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1577,
+      "end_char": 1670,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "chapter",
+      "text": "第三章 合格投资者",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1672,
+      "end_char": 1681,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "article",
+      "text": "第十一条 私募基金应当向合格投资者募集,单只私募基金的投资者人数累计不得超过《证券投资基金法》、《公司法》、《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合前款规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1683,
+      "end_char": 1799,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "article",
+      "text": "第十二条 私募基金的合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只私募基金的金额不低于 100 万元且符合下列相关标准的单位和个人:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1801,
+      "end_char": 1874,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "paragraph",
+      "text": "(一)净资产不低于 1000 万元的单位;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1876,
+      "end_char": 1897,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "(二)金融资产不低于 300 万元或者最近三年个人年均收入不低于 50 万元的个人。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 5,
+      "source_page_end": 5,
+      "start_char": 1899,
+      "end_char": 1941,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "前款所称金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 1943,
+      "end_char": 1999,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十三条 下列投资者视为合格投资者:社会保障基金、企业年金等养老基金,慈善基金等社会公益基金;依法设立并在基金业协会备案的投资计划;投资于所管理私募基金的私募基金管理人及其从业人员;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2001,
+      "end_char": 2092,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "paragraph",
+      "text": "(四)中国证监会规定的其他投资者。以合伙企业、契约等非法人形式,通过汇集多数投资者的资金直接或者间接投资于私募基金的,私募基金管理人或者私募基金销售机构应当穿透核查最终投资者是否为合格投资者,并合并计算投资者人数。但是,符合本条第(一)、(二)、(四)项规定的投资者投资私募基金的,不再穿透核查最终投资者是否为合格投资者和合并计算投资者人数。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2094,
+      "end_char": 2265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "chapter",
+      "text": "第四章 资金募集",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2267,
+      "end_char": 2275,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十四条 私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金,不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式,向不特定对象宣传推介。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 6,
+      "source_page_end": 6,
+      "start_char": 2277,
+      "end_char": 2391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "article",
+      "text": "第十五条 私募基金管理人、私募基金销售机构不得向投资者承诺投资本金不受损失或者承诺最低收益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2393,
+      "end_char": 2439,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "article",
+      "text": "第十六条 私募基金管理人自行销售私募基金的,应当采取问卷调查等方式,对投资者的风险识别能力和风险承担能力进行评估,由投资者书面承诺符合合格投资者条件;应当制作风险揭示书,由投资者签字确认。私募基金管理人委托销售机构销售私募基金的,私募基金销售机构应当采取前款规定的评估、确认等措施。投资者风险识别能力和承担能力问卷及风险揭示书的内容与格式指引,由基金业协会按照不同类别私募基金的特点制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2441,
+      "end_char": 2635,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "article",
+      "text": "第十七条 私募基金管理人自行销售或者委托销售机构销售私募基金,应当自行或者委托第三方机构对私募基金进行风险评级,向风险识别能力和风险承担能力相匹配的投资者推介私募基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2637,
+      "end_char": 2721,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十八条 投资者应当如实填写风险识别能力和承担能力问卷,如实承诺资产或者收入情况,并对其真实性、准确性和完整性负责。填写虚假信息或者提供虚假承诺文件的,应当承担相应责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 7,
+      "source_page_end": 7,
+      "start_char": 2723,
+      "end_char": 2808,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "article",
+      "text": "第十九条 投资者应当确保投资资金来源合法,不得非法汇集他人资金投资私募基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2810,
+      "end_char": 2848,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "chapter",
+      "text": "第五章 投资运作",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2850,
+      "end_char": 2858,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "article",
+      "text": "第二十条 募集私募证券基金,应当制定并签订基金合同、公司章程或者合伙协议(以下统称基金合同)。基金合同应当符合《证券投资基金法》第九十三条、第九十四条规定。募集其他种类私募基金,基金合同应当参照《证券投资基金法》第九十三条、第九十四条规定,明确约定各方当事人的权利、义务和相关事宜。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 2860,
+      "end_char": 3001,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第二十一条 除基金合同另有约定外,私募基金应当由基金托管人托管。基金合同约定私募基金不进行托管的,应当在基金合同中明确保障私募基金财产安全的制度措施和纠纷解决机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3003,
+      "end_char": 3085,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十二条 同一私募基金管理人管理不同类别私募基金的,应当坚持专业化管理原则;管理可能导致利益输送或者利益冲突的不同私募基金的,应当建立防范利益输送和利益冲突的机制。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 8,
+      "source_page_end": 8,
+      "start_char": 3087,
+      "end_char": 3170,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员从事私募基金业务,不得有以下行为:",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3172,
+      "end_char": 3234,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)将其固有财产或者他人财产混同于基金财产从事投资活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3236,
+      "end_char": 3265,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)不公平地对待其管理的不同基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3267,
+      "end_char": 3287,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)利用基金财产或者职务之便,为本人或者投资者以外的人牟取利益,进行利益输送;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3289,
+      "end_char": 3329,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四)侵占、挪用基金财产;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3331,
+      "end_char": 3344,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "paragraph",
+      "text": "(五)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3346,
+      "end_char": 3391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "paragraph",
+      "text": "(六)从事损害基金财产和投资者利益的投资活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3393,
+      "end_char": 3416,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "paragraph",
+      "text": "(七)玩忽职守,不按照规定履行职责;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3418,
+      "end_char": 3436,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "paragraph",
+      "text": "(八)从事内幕交易、操纵交易价格及其他不正当交易活动;",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3438,
+      "end_char": 3465,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "(九)法律、行政法规和中国证监会规定禁止的其他行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3467,
+      "end_char": 3493,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "article",
+      "text": "第二十四条 私募基金管理人、私募基金托管人应当按照合同约定,如实向投资者披露基金投资、资产负债、投资收益分配、基金承担的费用和业绩报酬、可能存在的利益冲突情况以及可能影响投资者合法权益的其他重大信息,不得隐瞒或者提供虚假信息。信息披露规则由基金业协会另行制定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 9,
+      "source_page_end": 9,
+      "start_char": 3495,
+      "end_char": 3625,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十五条 私募基金管理人应当根据基金业协会的规定,及时填报并定期更新管理人及其从业人员的有关信息、所管理私募基金的投资运作情况和杠杆运用情况,保证所填报内容真实、准确、完整。发生重大事项的,应当在 10 个工作日内向基金业协会报告。私募基金管理人应当于每个会计年度结束后的 4 个月内,向基金业协会报送经会计师事务所审计的年度财务报告和所管理私募基金年度投资运作基本情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3627,
+      "end_char": 3814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "article",
+      "text": "第二十六条 私募基金管理人、私募基金托管人及私募基金销售机构应当妥善保存私募基金投资决策、交易和投资者适当性管理等方面的记录及其他相关资料,保存期限自基金清算终止之日起不得少于 10 年。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3816,
+      "end_char": 3910,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "chapter",
+      "text": "第六章 行业自律",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 10,
+      "source_page_end": 10,
+      "start_char": 3912,
+      "end_char": 3920,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第二十七条 基金业协会应当建立私募基金管理人登记、私募基金备案管理信息系统。基金业协会应当对私募基金管理人和私募基金信息严格保密。除法律法规另有规定外,不得对外披露。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 3922,
+      "end_char": 4005,
+      "region": "body"
+    },
+    {
+      "block_id": "b00064",
+      "block_type": "article",
+      "text": "第二十八条 基金业协会应当建立与中国证监会及其派出机构和其他相关机构的信息共享机制,定期汇总分析私募基金情况,及时提供私募基金相关信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4007,
+      "end_char": 4075,
+      "region": "body"
+    },
+    {
+      "block_id": "b00065",
+      "block_type": "article",
+      "text": "第二十九条 基金业协会应当制定和实施私募基金行业自律规则,监督、检查会员及其从业人员的执业行为。会员及其从业人员违反法律、行政法规、本办法规定和基金业协会自律规则的,基金业协会可以视情节轻重,采取自律管理措施,并通过网站公开相关违法违规信息。会员及其从业人员涉嫌违法违规的,基金业协会应当及时报告中国证监会。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4077,
+      "end_char": 4231,
+      "region": "body"
+    },
+    {
+      "block_id": "b00066",
+      "block_type": "article",
+      "text": "第三十条 基金业协会应当建立投诉处理机制,受理投资者投诉,进行纠纷调解。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4233,
+      "end_char": 4269,
+      "region": "body"
+    },
+    {
+      "block_id": "b00067",
+      "block_type": "chapter",
+      "text": "第七章 监督管理",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4271,
+      "end_char": 4279,
+      "region": "body"
+    },
+    {
+      "block_id": "b00068",
+      "block_type": "article",
+      "text": "第三十一条 中国证监会及其派出机构依法对私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构开展私募基金业务情况进行统计监测和检查,依照《证券投资基金法》第一百一十四条规定采取有关措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 11,
+      "source_page_end": 11,
+      "start_char": 4281,
+      "end_char": 4381,
+      "region": "body"
+    },
+    {
+      "block_id": "b00070",
+      "block_type": "article",
+      "text": "第三十二条 中国证监会将私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员诚信信息记入证券期货市场诚信档案数据库;根据私募基金管理人的信用状况,实施差异化监管。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4383,
+      "end_char": 4477,
+      "region": "body"
+    },
+    {
+      "block_id": "b00071",
+      "block_type": "article",
+      "text": "第三十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律、行政法规及本办法规定,中国证监会及其派出机构可以对其采取责令改正、监管谈话、出具警示函、公开谴责等行政监管措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4479,
+      "end_char": 4585,
+      "region": "body"
+    },
+    {
+      "block_id": "b00072",
+      "block_type": "chapter",
+      "text": "第八章 关于创业投资基金的特别规定",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4587,
+      "end_char": 4604,
+      "region": "body"
+    },
+    {
+      "block_id": "b00073",
+      "block_type": "article",
+      "text": "第三十四条 本办法所称创业投资基金,是指主要投资于未上市创业企业普通股或者依法可转换为普通股的优先股、可转换债券等权益的股权投资基金。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4606,
+      "end_char": 4673,
+      "region": "body"
+    },
+    {
+      "block_id": "b00074",
+      "block_type": "article",
+      "text": "第三十五条 鼓励和引导创业投资基金投资创业早期的小微企业。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 12,
+      "source_page_end": 12,
+      "start_char": 4675,
+      "end_char": 4704,
+      "region": "body"
+    },
+    {
+      "block_id": "b00075",
+      "block_type": "paragraph",
+      "text": "享受国家财政税收扶持政策的创业投资基金,其投资范围应当符合国家相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4706,
+      "end_char": 4742,
+      "region": "body"
+    },
+    {
+      "block_id": "b00076",
+      "block_type": "article",
+      "text": "第三十六条 基金业协会在基金管理人登记、基金备案、投资情况报告要求和会员管理等环节,对创业投资基金采取区别于其他私募基金的差异化行业自律,并提供差异化会员服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4744,
+      "end_char": 4824,
+      "region": "body"
+    },
+    {
+      "block_id": "b00077",
+      "block_type": "article",
+      "text": "第三十七条 中国证监会及其派出机构对创业投资基金在投资方向检查等环节,采取区别于其他私募基金的差异化监督管理;在账户开立、发行交易和投资退出等方面,为创业投资基金提供便利服务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4826,
+      "end_char": 4914,
+      "region": "body"
+    },
+    {
+      "block_id": "b00078",
+      "block_type": "chapter",
+      "text": "第九章 法律责任",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4916,
+      "end_char": 4924,
+      "region": "body"
+    },
+    {
+      "block_id": "b00079",
+      "block_type": "article",
+      "text": "第三十八条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反本办法第七条、",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4926,
+      "end_char": 4980,
+      "region": "body"
+    },
+    {
+      "block_id": "b00080",
+      "block_type": "paragraph",
+      "text": "第八条、第十一条、第十四条至第十七条、第二十四条至第二十六条规定的,以及有本办法第二十三条第一项至第七项和第九项所列行为之一的,责令改正,给予警告并处三万元以下罚款;对直接负责的主管人员和其他直接责任人员,给予警告并处三万元以下罚款;有本办法第二十三条第八项行为的,按照《证券法》和《期货交易管理条例》的有关规定处罚;构成犯罪的,依法移交司法机关追究刑事责任。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 13,
+      "source_page_end": 13,
+      "start_char": 4982,
+      "end_char": 5162,
+      "region": "body"
+    },
+    {
+      "block_id": "b00082",
+      "block_type": "article",
+      "text": "第三十九条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律法规和本办法规定,情节严重的,中国证监会可以依法对有关责任人员采取市场禁入措施。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5164,
+      "end_char": 5253,
+      "region": "body"
+    },
+    {
+      "block_id": "b00083",
+      "block_type": "article",
+      "text": "第四十条 私募证券基金管理人及其从业人员违反《证券投资基金法》有关规定的,按照《证券投资基金法》有关规定处罚。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5255,
+      "end_char": 5310,
+      "region": "body"
+    },
+    {
+      "block_id": "b00084",
+      "block_type": "chapter",
+      "text": "第十章 附 则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5312,
+      "end_char": 5319,
+      "region": "body"
+    },
+    {
+      "block_id": "b00085",
+      "block_type": "article",
+      "text": "第四十一条 本办法自公布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 14,
+      "source_page_end": 14,
+      "start_char": 5321,
+      "end_char": 5339,
+      "region": "body"
+    }
+  ],
   "normalized_text": "私募投资基金监督管理暂行办法(2014 年 8 月 21 日证监会令第 105 号公布 自 2014 年 8月 21 日起施行)\n\n第一章 总 则\n\n第一条 为了规范私募投资基金活动,保护投资者及相关当事人的合法权益,促进私募投资基金行业健康发展,根据《证券投资基金法》、《国务院关于进一步促进资本市场健康发展的若干意见》,制定本办法。\n\n第二条 本办法所称私募投资基金(以下简称私募基金),是指在中华人民共和国境内,以非公开方式向投资者募集资金设立的投资基金。私募基金财产的投资包括买卖股票、股权、债券、期货、期权、基金份额及投资合同约定的其他投资标的。非公开募集资金,以进行投资活动为目的设立的公司或者合伙企业,资产由基金管理人或者普通合伙人管理的,其登记备案、资金募集和投资运作适用本办法。证券公司、基金管理公司、期货公司及其子公司从事私募基金业务适用本办法,其他法律法规和中国证券监督管理委员会(以下简称中国证监会)有关规定对上述机构从事私募基金业务另有规定的,适用其规定。\n\n第三条 从事私募基金业务,应当遵循自愿、公平、诚实信用原则,维护投资者合法权益,不得损害国家利益和社会公共利益。\n\n第四条 私募基金管理人和从事私募基金托管业务的机构(以下简称私募基金托管人)管理、运用私募基金财产,从事私募基金销售业务的机构(以下简称私募基金销售机构)及其他私募服务机构从事私募基金服务活动,应当恪尽职守,履行诚实信用、谨慎勤勉的义务。私募基金从业人员应当遵守法律、行政法规,恪守职业道德和行为规范。\n\n第五条 中国证监会及其派出机构依照《证券投资基金法》、本办法和中国证监会的其他有关规定,对私募基金业务活动实施监督管理。设立私募基金管理机构和发行私募基金不设行政审批,允许各类发行主体在依法合规的基础上,向累计不超过法律规定数量的投资者发行私募基金。建立健全私募基金发行监管制度,切实强化事中事后监管,依法严厉打击以私募基金为名的各类非法集资活动。建立促进经营机构规范开展私募基金业务的风险控制和自律管理制度,以及各类私募基金的统一监测系统。\n\n第六条 中国证券投资基金业协会(以下简称基金业协会)依照《证券投资基金法》、本办法、中国证监会其他有关规定和基金业协会自律规则,对私募基金业开展行业自律,协调行业关系,提供行业服务,促进行业发展。\n\n第二章 登记备案\n\n第七条 各类私募基金管理人应当根据基金业协会的规定,向基金业协会申请登记,报送以下基本信息:\n\n(一)工商登记和营业执照正副本复印件;\n\n(二)公司章程或者合伙协议;\n\n(三)主要股东或者合伙人名单;\n\n(四)高级管理人员的基本信息;\n\n(五)基金业协会规定的其他信息。基金业协会应当在私募基金管理人登记材料齐备后的 20 个工作日内,通过网站公告私募基金管理人名单及其基本情况的方式,为私募基金管理人办结登记手续。\n\n第八条 各类私募基金募集完毕,私募基金管理人应当根据基金业协会的规定,办理基金备案手续,报送以下基本信息:\n\n(一)主要投资方向及根据主要投资方向注明的基金类别;\n\n(二)基金合同、公司章程或者合伙协议。资金募集过程中向投资者提供基金招募说明书的,应当报送基金招募说明书。以公司、合伙等企业形式设立的私募基金,还应当报送工商登记和营业执照正副本复印件;\n\n(三)采取委托管理方式的,应当报送委托管理协议。委托托管机构托管基金财产的,还应当报送托管协议;\n\n(四)基金业协会规定的其他信息。基金业协会应当在私募基金备案材料齐备后的 20 个工作日内,通过网站公告私募基金名单及其基本情况的方式,为私募基金办结备案手续。\n\n第九条 基金业协会为私募基金管理人和私募基金办理登记备案不构成对私募基金管理人投资能力、持续合规情况的认可;不作为对基金财产安全的保证。\n\n第十条 私募基金管理人依法解散、被依法撤销、或者被依法宣告破产的,其法定代表人或者普通合伙人应当在 20 个工作日内向基金业协会报告,基金业协会应当及时注销基金管理人登记并通过网站公告。\n\n第三章 合格投资者\n\n第十一条 私募基金应当向合格投资者募集,单只私募基金的投资者人数累计不得超过《证券投资基金法》、《公司法》、《合伙企业法》等法律规定的特定数量。投资者转让基金份额的,受让人应当为合格投资者且基金份额受让后投资者人数应当符合前款规定。\n\n第十二条 私募基金的合格投资者是指具备相应风险识别能力和风险承担能力,投资于单只私募基金的金额不低于 100 万元且符合下列相关标准的单位和个人:\n\n(一)净资产不低于 1000 万元的单位;\n\n(二)金融资产不低于 300 万元或者最近三年个人年均收入不低于 50 万元的个人。\n\n前款所称金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等。\n\n第十三条 下列投资者视为合格投资者:社会保障基金、企业年金等养老基金,慈善基金等社会公益基金;依法设立并在基金业协会备案的投资计划;投资于所管理私募基金的私募基金管理人及其从业人员;\n\n(四)中国证监会规定的其他投资者。以合伙企业、契约等非法人形式,通过汇集多数投资者的资金直接或者间接投资于私募基金的,私募基金管理人或者私募基金销售机构应当穿透核查最终投资者是否为合格投资者,并合并计算投资者人数。但是,符合本条第(一)、(二)、(四)项规定的投资者投资私募基金的,不再穿透核查最终投资者是否为合格投资者和合并计算投资者人数。\n\n第四章 资金募集\n\n第十四条 私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金,不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式,向不特定对象宣传推介。\n\n第十五条 私募基金管理人、私募基金销售机构不得向投资者承诺投资本金不受损失或者承诺最低收益。\n\n第十六条 私募基金管理人自行销售私募基金的,应当采取问卷调查等方式,对投资者的风险识别能力和风险承担能力进行评估,由投资者书面承诺符合合格投资者条件;应当制作风险揭示书,由投资者签字确认。私募基金管理人委托销售机构销售私募基金的,私募基金销售机构应当采取前款规定的评估、确认等措施。投资者风险识别能力和承担能力问卷及风险揭示书的内容与格式指引,由基金业协会按照不同类别私募基金的特点制定。\n\n第十七条 私募基金管理人自行销售或者委托销售机构销售私募基金,应当自行或者委托第三方机构对私募基金进行风险评级,向风险识别能力和风险承担能力相匹配的投资者推介私募基金。\n\n第十八条 投资者应当如实填写风险识别能力和承担能力问卷,如实承诺资产或者收入情况,并对其真实性、准确性和完整性负责。填写虚假信息或者提供虚假承诺文件的,应当承担相应责任。\n\n第十九条 投资者应当确保投资资金来源合法,不得非法汇集他人资金投资私募基金。\n\n第五章 投资运作\n\n第二十条 募集私募证券基金,应当制定并签订基金合同、公司章程或者合伙协议(以下统称基金合同)。基金合同应当符合《证券投资基金法》第九十三条、第九十四条规定。募集其他种类私募基金,基金合同应当参照《证券投资基金法》第九十三条、第九十四条规定,明确约定各方当事人的权利、义务和相关事宜。\n\n第二十一条 除基金合同另有约定外,私募基金应当由基金托管人托管。基金合同约定私募基金不进行托管的,应当在基金合同中明确保障私募基金财产安全的制度措施和纠纷解决机制。\n\n第二十二条 同一私募基金管理人管理不同类别私募基金的,应当坚持专业化管理原则;管理可能导致利益输送或者利益冲突的不同私募基金的,应当建立防范利益输送和利益冲突的机制。\n\n第二十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员从事私募基金业务,不得有以下行为:\n\n(一)将其固有财产或者他人财产混同于基金财产从事投资活动;\n\n(二)不公平地对待其管理的不同基金财产;\n\n(三)利用基金财产或者职务之便,为本人或者投资者以外的人牟取利益,进行利益输送;\n\n(四)侵占、挪用基金财产;\n\n(五)泄露因职务便利获取的未公开信息,利用该信息从事或者明示、暗示他人从事相关的交易活动;\n\n(六)从事损害基金财产和投资者利益的投资活动;\n\n(七)玩忽职守,不按照规定履行职责;\n\n(八)从事内幕交易、操纵交易价格及其他不正当交易活动;\n\n(九)法律、行政法规和中国证监会规定禁止的其他行为。\n\n第二十四条 私募基金管理人、私募基金托管人应当按照合同约定,如实向投资者披露基金投资、资产负债、投资收益分配、基金承担的费用和业绩报酬、可能存在的利益冲突情况以及可能影响投资者合法权益的其他重大信息,不得隐瞒或者提供虚假信息。信息披露规则由基金业协会另行制定。\n\n第二十五条 私募基金管理人应当根据基金业协会的规定,及时填报并定期更新管理人及其从业人员的有关信息、所管理私募基金的投资运作情况和杠杆运用情况,保证所填报内容真实、准确、完整。发生重大事项的,应当在 10 个工作日内向基金业协会报告。私募基金管理人应当于每个会计年度结束后的 4 个月内,向基金业协会报送经会计师事务所审计的年度财务报告和所管理私募基金年度投资运作基本情况。\n\n第二十六条 私募基金管理人、私募基金托管人及私募基金销售机构应当妥善保存私募基金投资决策、交易和投资者适当性管理等方面的记录及其他相关资料,保存期限自基金清算终止之日起不得少于 10 年。\n\n第六章 行业自律\n\n第二十七条 基金业协会应当建立私募基金管理人登记、私募基金备案管理信息系统。基金业协会应当对私募基金管理人和私募基金信息严格保密。除法律法规另有规定外,不得对外披露。\n\n第二十八条 基金业协会应当建立与中国证监会及其派出机构和其他相关机构的信息共享机制,定期汇总分析私募基金情况,及时提供私募基金相关信息。\n\n第二十九条 基金业协会应当制定和实施私募基金行业自律规则,监督、检查会员及其从业人员的执业行为。会员及其从业人员违反法律、行政法规、本办法规定和基金业协会自律规则的,基金业协会可以视情节轻重,采取自律管理措施,并通过网站公开相关违法违规信息。会员及其从业人员涉嫌违法违规的,基金业协会应当及时报告中国证监会。\n\n第三十条 基金业协会应当建立投诉处理机制,受理投资者投诉,进行纠纷调解。\n\n第七章 监督管理\n\n第三十一条 中国证监会及其派出机构依法对私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构开展私募基金业务情况进行统计监测和检查,依照《证券投资基金法》第一百一十四条规定采取有关措施。\n\n第三十二条 中国证监会将私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员诚信信息记入证券期货市场诚信档案数据库;根据私募基金管理人的信用状况,实施差异化监管。\n\n第三十三条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律、行政法规及本办法规定,中国证监会及其派出机构可以对其采取责令改正、监管谈话、出具警示函、公开谴责等行政监管措施。\n\n第八章 关于创业投资基金的特别规定\n\n第三十四条 本办法所称创业投资基金,是指主要投资于未上市创业企业普通股或者依法可转换为普通股的优先股、可转换债券等权益的股权投资基金。\n\n第三十五条 鼓励和引导创业投资基金投资创业早期的小微企业。\n\n享受国家财政税收扶持政策的创业投资基金,其投资范围应当符合国家相关规定。\n\n第三十六条 基金业协会在基金管理人登记、基金备案、投资情况报告要求和会员管理等环节,对创业投资基金采取区别于其他私募基金的差异化行业自律,并提供差异化会员服务。\n\n第三十七条 中国证监会及其派出机构对创业投资基金在投资方向检查等环节,采取区别于其他私募基金的差异化监督管理;在账户开立、发行交易和投资退出等方面,为创业投资基金提供便利服务。\n\n第九章 法律责任\n\n第三十八条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反本办法第七条、\n\n第八条、第十一条、第十四条至第十七条、第二十四条至第二十六条规定的,以及有本办法第二十三条第一项至第七项和第九项所列行为之一的,责令改正,给予警告并处三万元以下罚款;对直接负责的主管人员和其他直接责任人员,给予警告并处三万元以下罚款;有本办法第二十三条第八项行为的,按照《证券法》和《期货交易管理条例》的有关规定处罚;构成犯罪的,依法移交司法机关追究刑事责任。\n\n第三十九条 私募基金管理人、私募基金托管人、私募基金销售机构及其他私募服务机构及其从业人员违反法律法规和本办法规定,情节严重的,中国证监会可以依法对有关责任人员采取市场禁入措施。\n\n第四十条 私募证券基金管理人及其从业人员违反《证券投资基金法》有关规定的,按照《证券投资基金法》有关规定处罚。\n\n第十章 附 则\n\n第四十一条 本办法自公布之日起施行。",
   "blocks": [
     {
@@ -126,7 +1959,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 0,
+      "end_char": 64,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00002",
@@ -134,7 +1974,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 66,
+      "end_char": 73,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -142,7 +1989,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 75,
+      "end_char": 168,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -150,7 +2004,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 1,
+      "start_char": 170,
+      "end_char": 441,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -158,7 +2019,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 443,
+      "end_char": 499,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -166,7 +2034,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 501,
+      "end_char": 652,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -174,7 +2049,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 654,
+      "end_char": 875,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -182,7 +2064,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 877,
+      "end_char": 975,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -190,7 +2079,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 977,
+      "end_char": 985,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -198,7 +2094,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 987,
+      "end_char": 1033,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -206,7 +2109,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1035,
+      "end_char": 1054,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -214,7 +2124,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1056,
+      "end_char": 1070,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -222,7 +2139,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1072,
+      "end_char": 1087,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -230,7 +2154,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 3,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 3,
+      "start_char": 1089,
+      "end_char": 1104,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -238,7 +2169,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1106,
+      "end_char": 1195,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -246,7 +2184,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1197,
+      "end_char": 1250,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -254,7 +2199,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1252,
+      "end_char": 1278,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -262,7 +2214,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1280,
+      "end_char": 1373,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -270,7 +2229,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1375,
+      "end_char": 1423,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -278,7 +2244,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1425,
+      "end_char": 1505,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -286,7 +2259,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1507,
+      "end_char": 1575,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -294,7 +2274,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1577,
+      "end_char": 1670,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -302,7 +2289,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1672,
+      "end_char": 1681,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -310,7 +2304,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1683,
+      "end_char": 1799,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -318,7 +2319,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1801,
+      "end_char": 1874,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -326,7 +2334,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1876,
+      "end_char": 1897,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -334,7 +2349,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 5,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1899,
+      "end_char": 1941,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -342,7 +2364,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 1943,
+      "end_char": 1999,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -350,7 +2379,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2001,
+      "end_char": 2092,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -358,7 +2394,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2094,
+      "end_char": 2265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -366,7 +2409,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2267,
+      "end_char": 2275,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -374,7 +2424,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 6,
+      "start_char": 2277,
+      "end_char": 2391,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -382,7 +2439,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2393,
+      "end_char": 2439,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -390,7 +2454,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2441,
+      "end_char": 2635,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -398,7 +2469,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2637,
+      "end_char": 2721,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -406,7 +2484,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 7,
+      "start_char": 2723,
+      "end_char": 2808,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -414,7 +2499,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 2810,
+      "end_char": 2848,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -422,7 +2514,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 2850,
+      "end_char": 2858,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -430,7 +2529,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 2860,
+      "end_char": 3001,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -438,7 +2544,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3003,
+      "end_char": 3085,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -446,7 +2559,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 8,
+      "start_char": 3087,
+      "end_char": 3170,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -454,7 +2574,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3172,
+      "end_char": 3234,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -462,7 +2589,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3236,
+      "end_char": 3265,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -470,7 +2604,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3267,
+      "end_char": 3287,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -478,7 +2619,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3289,
+      "end_char": 3329,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -486,7 +2634,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3331,
+      "end_char": 3344,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -494,7 +2649,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3346,
+      "end_char": 3391,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -502,7 +2664,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3393,
+      "end_char": 3416,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -510,7 +2679,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3418,
+      "end_char": 3436,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -518,7 +2694,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3438,
+      "end_char": 3465,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -526,7 +2709,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3467,
+      "end_char": 3493,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -534,7 +2724,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 9,
+      "start_char": 3495,
+      "end_char": 3625,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -542,7 +2739,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3627,
+      "end_char": 3814,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -550,7 +2754,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3816,
+      "end_char": 3910,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -558,7 +2769,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 10,
+      "start_char": 3912,
+      "end_char": 3920,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -566,7 +2784,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 3922,
+      "end_char": 4005,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00064",
@@ -574,7 +2799,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4007,
+      "end_char": 4075,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00065",
@@ -582,7 +2814,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4077,
+      "end_char": 4231,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00066",
@@ -590,7 +2829,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4233,
+      "end_char": 4269,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00067",
@@ -598,7 +2844,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4271,
+      "end_char": 4279,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00068",
@@ -606,7 +2859,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 11,
+      "start_char": 4281,
+      "end_char": 4381,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00070",
@@ -614,7 +2874,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4383,
+      "end_char": 4477,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00071",
@@ -622,7 +2889,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4479,
+      "end_char": 4585,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00072",
@@ -630,7 +2904,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4587,
+      "end_char": 4604,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00073",
@@ -638,7 +2919,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4606,
+      "end_char": 4673,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00074",
@@ -646,7 +2934,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 12,
+      "start_char": 4675,
+      "end_char": 4704,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00075",
@@ -654,7 +2949,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4706,
+      "end_char": 4742,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00076",
@@ -662,7 +2964,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4744,
+      "end_char": 4824,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00077",
@@ -670,7 +2979,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4826,
+      "end_char": 4914,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00078",
@@ -678,7 +2994,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4916,
+      "end_char": 4924,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00079",
@@ -686,7 +3009,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4926,
+      "end_char": 4980,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00080",
@@ -694,7 +3024,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 13,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 13,
+      "start_char": 4982,
+      "end_char": 5162,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00082",
@@ -702,7 +3039,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5164,
+      "end_char": 5253,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00083",
@@ -710,7 +3054,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5255,
+      "end_char": 5310,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00084",
@@ -718,7 +3069,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5312,
+      "end_char": 5319,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00085",
@@ -726,7 +3084,14 @@
       "style": "",
       "source_kind": "paragraph",
       "page": 14,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 14,
+      "start_char": 5321,
+      "end_char": 5339,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券公司柜台市场管理办法(试行).docx",
   "source_type": "docx",
   "file_sha256": "9c7568aeeb4a57bad988496949728c36f3e1c900a79efb67e8c809b9801f2882",
-  "content_sha256": "fbb8057a4d510233802f544d41ad209844acec9079dcd001ff4f90602a985b10",
+  "content_sha256": "5478bc1799e9a767efa086f08d2ebc59fc9b46cb59cd140f5a1560fcb10e856c",
   "metadata": {
     "document_title": "证券公司柜台市场管理办法(试行)",
     "issuing_authority": "中国证券业协会",
@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
     "status": "changed",
     "original_text_sha256": "c2fb9f7ac6b5f52a9cbf6032dc3abf832d9b222af60768570962c2dae5144db1",
     "clean_text_sha256": "bce592a1f202db56dd484dba2efb8932a91f7d1d13b5f3eeb7d58adb6da87b73",
@@ -125,6 +125,1513 @@
   },
   "original_text_sha256": "c2fb9f7ac6b5f52a9cbf6032dc3abf832d9b222af60768570962c2dae5144db1",
   "clean_text_sha256": "bce592a1f202db56dd484dba2efb8932a91f7d1d13b5f3eeb7d58adb6da87b73",
+  "clean_text_hash": "30833ce353ba32cf1d2e3951de6cc4e1d6401db99fa51997b0a934419c9e763d",
+  "structured_blocks_sha256": "af56bea5450d8a8d4c8fc7bf5d9351547a36a0c355593b8fd276a3a1b4ba2c1f",
+  "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "front_promulgation_parenthetical",
+      "action": "moved_to_front_matter",
+      "text": "(2014年7月21日第五届常务理事会第二十二次会议表决通过,2014年8月15日发布)",
+      "character_count": 44
+    }
+  ],
+  "body_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 6,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为促进证券公司柜台市场规范发展,保护投资者合法权益,维护柜台市场秩序,根据《中华人民共和国证券法》、《中华人民共和国证券投资基金法》等制定本办法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8,
+      "end_char": 85,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 证券公司柜台市场是指证券公司为与特定交易对手方在集中交易场所之外进行交易或为投资者在集中交易场所之外进行交易提供服务的场所或平台。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 87,
+      "end_char": 156,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 证券公司在柜台市场开展业务,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得侵害投资者合法权益,不得挪用客户资产,不得利用非公开信息谋取不正当利益。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 158,
+      "end_char": 240,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第四条 证券公司在柜台市场开展业务,应当按照法律、行政法规、中国证券监督管理委员会(以下简称“中国证监会”)规定、行业自律规则等建立投资者适当性管理制度,做好投资者准入、投资者教育等工作,不得诱导投资者参与与其风险承受能力不相适应的交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 242,
+      "end_char": 361,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取有效措施确保在柜台市场交易的私募产品持有人数量符合相关规定,并要求私募产品发行人承诺私募产品的持有人数量符合相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 363,
+      "end_char": 430,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 证券公司应当建立健全柜台市场产品管理制度,对产品进行集中管理,并对产品合规性和风险等级进行内部审查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 432,
+      "end_char": 486,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "证券公司在柜台市场开展业务,应当建立健全柜台市场业务管理、合规管理和风险管理等制度,保障柜台市场安全、有序运行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 488,
+      "end_char": 544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 证券公司应当依照本办法开展柜台市场业务并接受中国证券业协会(以下简称“协会”)的自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 546,
+      "end_char": 595,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "协会委托中证资本市场发展监测中心有限责任公司(以下简称“市场监测中心”)建立机构间私募产品报价与服务系统(以下简称“报价系统”),为柜台市场提供互联互通服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 597,
+      "end_char": 676,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "chapter",
+      "text": "第二章 发行、销售与转让",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 678,
+      "end_char": 690,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第七条 除金融监管部门明确规定必须事前审批、备案的私募产品外,证券公司在柜台市场发行、销售与转让的私募产品,直接实行事后备案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 692,
+      "end_char": 755,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "在柜台市场发行、销售与转让的私募产品应当依法合规,资金投向应当符合法律法规和国家有关政策规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 757,
+      "end_char": 804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第八条 在柜台市场发行、销售与转让的产品包括但不限于以下私募产品:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 806,
+      "end_char": 839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(一)证券公司及其子公司以非公开募集方式设立或者承销的资产管理计划、公司债务融资工具等产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 841,
+      "end_char": 887,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(二)银行、保险公司、信托公司等其他机构设立并通过证券公司发行、销售与转让的产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 889,
+      "end_char": 930,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(三)金融衍生品及中国证监会、协会认可的产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 932,
+      "end_char": 955,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第九条 证券公司为其他机构发行的私募产品提供柜台市场发行、销售与转让服务的,应当与发行人签订协议,对发行人提供的资料进行审核并妥善保管,不得隐匿、伪造或者毁损相关资料。证券公司应当督促发行人保证其提供的资料真实、准确、完整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 957,
+      "end_char": 1069,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十条 证券公司可以采取协议、报价、做市、拍卖竞价、标购竞价等方式发行、销售与转让私募产品,不得采用集中竞价方式,法律法规有明确规定的除外。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1071,
+      "end_char": 1141,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十一条 证券公司应当根据相关约定组织私募产品在柜台市场发行、销售与转让。因发生可能影响私募产品价值、投资者利益、诱发私募产品或者证券公司风险等的重大事项,证券公司拟暂停、终止、恢复发行、销售与转让的,应当事前公告或者以其他方式告知投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1143,
+      "end_char": 1263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十二条 证券公司在柜台市场为投资者进行私募产品发行、销售与转让提供服务并向投资者或者产品发行人收取费用的,应当在相关协议中约定或者在证券公司网站公布收费标准。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1265,
+      "end_char": 1345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "chapter",
+      "text": "第三章 账户、登记、托管与结算",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第十三条 开展柜台市场业务的证券公司可以为在其柜台市场发行、销售与转让的私募产品提供登记、托管与结算服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1364,
+      "end_char": 1417,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十四条 投资者在柜台市场交易私募产品,证券公司应当为其开立产品账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "证券公司代理投资者在柜台市场交易由其他合法登记机构登记的私募产品时,可以采取名义持有模式,以证券公司名义在该产品登记机构开立产品账户,享有产品持有人权利。证券公司与投资者应当签署名义持有协议,明确双方的权利义务关系;证券公司应当根据约定行使产品持有人相关权利,不得损害投资者权益。证券公司应当为每个投资者开立产品账户,分别记录每个投资者拥有的权益数据,并向该产品登记机构报送投资者权益明细数据等资料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1456,
+      "end_char": 1656,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "证券公司应当在产品登记机构开立柜台市场自有产品专用账户,并与其他自有产品账户相互隔离。证券公司应当将柜台市场自有产品专用账户和参与柜台市场交易的自有资金专用存款账户向协会报备。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1658,
+      "end_char": 1746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "证券公司应当在商业银行开立柜台市场客户资金专用存款账户,用于存放柜台市场客户的非第三方存管资金、第三方存管客户与非第三方存管客户的待交收资金,并与其他账户相互隔离。证券公司应当将该账户向中国证监会证券市场交易结算资金监控系统报备。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1748,
+      "end_char": 1863,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十五条 证券公司为在柜台市场发行、销售与转让的私募产品提供登记服务的,应当保证产品持有人名册和登记过户记录真实、准确、完整,不得隐匿、伪造或者毁损相关资料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1865,
+      "end_char": 1944,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "证券公司为其他发行人发行的私募产品提供登记服务的,应当与私募产品发行人签订协议。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1946,
+      "end_char": 1986,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "中国证监会认可的其他登记机构接受发行人委托,为在柜台市场发行、销售与转让的私募产品提供登记服务的,证券公司应当与其签订协议,对相关事项进行约定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1988,
+      "end_char": 2060,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十六条 证券公司柜台市场产品账户代码由12位字符组成,前3位为机构代码,由报价系统自动分配;后9位由阿拉伯数字和英文字母组成,优先使用阿拉伯数字,由报价系统、证券公司或者中国证监会认可的其他登记机构分配并管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2062,
+      "end_char": 2168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十七条 证券公司可以接受委托,为客户依法持有或者管理的在其柜台市场发行、销售与转让的私募产品提供保管、清算交割、估值核算、投资监督、风险监控、出具托管报告等服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2170,
+      "end_char": 2252,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "证券公司开展托管业务,应当采取有效措施,保证其托管的私募产品的安全,禁止挪用客户资产。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2254,
+      "end_char": 2297,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十八条 为柜台市场提供结算服务的机构应当按照约定为投资者办理结算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2299,
+      "end_char": 2333,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "收付双方的结算账户都是同一证券公司第三方存管账户的,证券公司可以根据结算需要在收付双方资金账户之间进行资金划转。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2335,
+      "end_char": 2391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "收付双方的结算账户均不是第三方存管账户的,开展结算业务的机构可以通过报价系统或者中国证监会认可的其他机构为收付双方办理资金结算业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2393,
+      "end_char": 2459,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "付款方或者收款方的结算账户是证券公司第三方存管账户、对方结算账户不是该证券公司第三方存管账户的,证券公司应当将柜台市场客户资金专用存款账户作为过渡账户,进行客户交易结算资金专用存款账户与对方结算账户资金划付。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2461,
+      "end_char": 2565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "证券公司与其第三方存管客户发生交易的,应当通过参与柜台市场的自有资金专用存款账户与柜台市场客户资金专用存款账户进行资金结算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2629,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十九条 为柜台市场提供登记、结算服务的机构应当按照协会规定报送柜台市场交易、登记、结算数据。协会与中国证券登记结算有限责任公司(以下简称“中国结算”)应当建立交易、登记、结算数据集中存储和共享机制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2631,
+      "end_char": 2731,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "柜台市场私募产品的登记、结算可以由证券公司自行办理,也可以由中国证监会认可的其他机构办理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2733,
+      "end_char": 2778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "柜台市场产品账户应当与中国结算统一的全国投资者证券账户建立关联关系。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2780,
+      "end_char": 2814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第二十条 柜台市场交易、登记、结算应当遵守或者优先采用中国证监会、协会、证券交易所、中国结算及其他有权机构制定的业务技术规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2816,
+      "end_char": 2879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "chapter",
+      "text": "第四章 信息披露",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2881,
+      "end_char": 2889,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第二十一条 证券公司应当制定明确的柜台市场信息披露规则,信息披露义务人应当对所披露信息的真实性、准确性、完整性负责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2891,
+      "end_char": 2949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当督促信息披露义务人按照约定向投资者披露信息,并根据信息性质及私募业务相关规定分类披露,包括公开披露和向特定对象披露。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2951,
+      "end_char": 3021,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "法律法规、自律规则要求公开披露的信息,应当面向公众进行披露;法律法规、自律规则或者合同约定定向披露的信息,应当向特定对象披露。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3023,
+      "end_char": 3086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十三条 下列私募业务信息不得向公众披露:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3088,
+      "end_char": 3110,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)涉及证券公司客户隐私的信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3112,
+      "end_char": 3129,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)涉及第三方商业秘密的信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3131,
+      "end_char": 3147,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)合同约定不得向公众公开的信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3149,
+      "end_char": 3167,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四) 法律法规和自律规则禁止向公众公开的信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3169,
+      "end_char": 3193,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应当通过本公司网站、报价系统或者协会认可的其他信息披露平台,披露私募产品相关信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3195,
+      "end_char": 3246,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "chapter",
+      "text": "第五章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3248,
+      "end_char": 3256,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当通过与报价系统联网的方式实现业务信息的互联互通,信息范围包括但不限于私募产品基本情况、交易信息和登记结算信息等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3258,
+      "end_char": 3326,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当向协会报送柜台市场业务年度报告以及重大事项报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3328,
+      "end_char": 3364,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司应当在每个会计年度结束之日起4个月内报送柜台市场业务年度报告,内容包括但不限于柜台市场业务总体情况、交易、登记结算、投资者适当性管理、风险及合规管理等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3366,
+      "end_char": 3446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "柜台市场发生对业务开展、客户权益、证券公司风险等产生重大影响的事项,证券公司应当在该事项发生后1个交易日内向协会报告,并于3个交易日内提交重大事项报告,内容包括:事项基本情况、产生原因、影响、应对措施等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3448,
+      "end_char": 3550,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十七条 协会可以对证券公司柜台市场进行现场检查或者非现场检查;证券公司及其相关人员应当予以配合,并按照要求提供有关文件和资料、接受问询。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3552,
+      "end_char": 3622,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十八条 证券公司及其相关人员违反自律规则的,协会将视情节轻重采取自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,移交中国证监会或者其他有权机关依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3624,
+      "end_char": 3710,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "chapter",
+      "text": "第六章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3712,
+      "end_char": 3718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十九条 证券公司可以通过柜台市场销售或者转让《证券公司代销金融产品管理规定》允许代销的产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3720,
+      "end_char": 3768,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第三十条 本办法由协会负责解释,自发布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3770,
+      "end_char": 3795,
+      "region": "body"
+    }
+  ],
+  "appendices": [],
+  "clean_text": "第一章 总则\n\n第一条 为促进证券公司柜台市场规范发展,保护投资者合法权益,维护柜台市场秩序,根据《中华人民共和国证券法》、《中华人民共和国证券投资基金法》等制定本办法。\n\n第二条 证券公司柜台市场是指证券公司为与特定交易对手方在集中交易场所之外进行交易或为投资者在集中交易场所之外进行交易提供服务的场所或平台。\n\n第三条 证券公司在柜台市场开展业务,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得侵害投资者合法权益,不得挪用客户资产,不得利用非公开信息谋取不正当利益。\n\n第四条 证券公司在柜台市场开展业务,应当按照法律、行政法规、中国证券监督管理委员会(以下简称“中国证监会”)规定、行业自律规则等建立投资者适当性管理制度,做好投资者准入、投资者教育等工作,不得诱导投资者参与与其风险承受能力不相适应的交易。\n\n证券公司应当采取有效措施确保在柜台市场交易的私募产品持有人数量符合相关规定,并要求私募产品发行人承诺私募产品的持有人数量符合相关规定。\n\n第五条 证券公司应当建立健全柜台市场产品管理制度,对产品进行集中管理,并对产品合规性和风险等级进行内部审查。\n\n证券公司在柜台市场开展业务,应当建立健全柜台市场业务管理、合规管理和风险管理等制度,保障柜台市场安全、有序运行。\n\n第六条 证券公司应当依照本办法开展柜台市场业务并接受中国证券业协会(以下简称“协会”)的自律管理。\n\n协会委托中证资本市场发展监测中心有限责任公司(以下简称“市场监测中心”)建立机构间私募产品报价与服务系统(以下简称“报价系统”),为柜台市场提供互联互通服务。\n\n第二章 发行、销售与转让\n\n第七条 除金融监管部门明确规定必须事前审批、备案的私募产品外,证券公司在柜台市场发行、销售与转让的私募产品,直接实行事后备案。\n\n在柜台市场发行、销售与转让的私募产品应当依法合规,资金投向应当符合法律法规和国家有关政策规定。\n\n第八条 在柜台市场发行、销售与转让的产品包括但不限于以下私募产品:\n\n(一)证券公司及其子公司以非公开募集方式设立或者承销的资产管理计划、公司债务融资工具等产品;\n\n(二)银行、保险公司、信托公司等其他机构设立并通过证券公司发行、销售与转让的产品;\n\n(三)金融衍生品及中国证监会、协会认可的产品。\n\n第九条 证券公司为其他机构发行的私募产品提供柜台市场发行、销售与转让服务的,应当与发行人签订协议,对发行人提供的资料进行审核并妥善保管,不得隐匿、伪造或者毁损相关资料。证券公司应当督促发行人保证其提供的资料真实、准确、完整。\n\n第十条 证券公司可以采取协议、报价、做市、拍卖竞价、标购竞价等方式发行、销售与转让私募产品,不得采用集中竞价方式,法律法规有明确规定的除外。\n\n第十一条 证券公司应当根据相关约定组织私募产品在柜台市场发行、销售与转让。因发生可能影响私募产品价值、投资者利益、诱发私募产品或者证券公司风险等的重大事项,证券公司拟暂停、终止、恢复发行、销售与转让的,应当事前公告或者以其他方式告知投资者。\n\n第十二条 证券公司在柜台市场为投资者进行私募产品发行、销售与转让提供服务并向投资者或者产品发行人收取费用的,应当在相关协议中约定或者在证券公司网站公布收费标准。\n\n第三章 账户、登记、托管与结算\n\n第十三条 开展柜台市场业务的证券公司可以为在其柜台市场发行、销售与转让的私募产品提供登记、托管与结算服务。\n\n第十四条 投资者在柜台市场交易私募产品,证券公司应当为其开立产品账户。\n\n证券公司代理投资者在柜台市场交易由其他合法登记机构登记的私募产品时,可以采取名义持有模式,以证券公司名义在该产品登记机构开立产品账户,享有产品持有人权利。证券公司与投资者应当签署名义持有协议,明确双方的权利义务关系;证券公司应当根据约定行使产品持有人相关权利,不得损害投资者权益。证券公司应当为每个投资者开立产品账户,分别记录每个投资者拥有的权益数据,并向该产品登记机构报送投资者权益明细数据等资料。\n\n证券公司应当在产品登记机构开立柜台市场自有产品专用账户,并与其他自有产品账户相互隔离。证券公司应当将柜台市场自有产品专用账户和参与柜台市场交易的自有资金专用存款账户向协会报备。\n\n证券公司应当在商业银行开立柜台市场客户资金专用存款账户,用于存放柜台市场客户的非第三方存管资金、第三方存管客户与非第三方存管客户的待交收资金,并与其他账户相互隔离。证券公司应当将该账户向中国证监会证券市场交易结算资金监控系统报备。\n\n第十五条 证券公司为在柜台市场发行、销售与转让的私募产品提供登记服务的,应当保证产品持有人名册和登记过户记录真实、准确、完整,不得隐匿、伪造或者毁损相关资料。\n\n证券公司为其他发行人发行的私募产品提供登记服务的,应当与私募产品发行人签订协议。\n\n中国证监会认可的其他登记机构接受发行人委托,为在柜台市场发行、销售与转让的私募产品提供登记服务的,证券公司应当与其签订协议,对相关事项进行约定。\n\n第十六条 证券公司柜台市场产品账户代码由12位字符组成,前3位为机构代码,由报价系统自动分配;后9位由阿拉伯数字和英文字母组成,优先使用阿拉伯数字,由报价系统、证券公司或者中国证监会认可的其他登记机构分配并管理。\n\n第十七条 证券公司可以接受委托,为客户依法持有或者管理的在其柜台市场发行、销售与转让的私募产品提供保管、清算交割、估值核算、投资监督、风险监控、出具托管报告等服务。\n\n证券公司开展托管业务,应当采取有效措施,保证其托管的私募产品的安全,禁止挪用客户资产。\n\n第十八条 为柜台市场提供结算服务的机构应当按照约定为投资者办理结算。\n\n收付双方的结算账户都是同一证券公司第三方存管账户的,证券公司可以根据结算需要在收付双方资金账户之间进行资金划转。\n\n收付双方的结算账户均不是第三方存管账户的,开展结算业务的机构可以通过报价系统或者中国证监会认可的其他机构为收付双方办理资金结算业务。\n\n付款方或者收款方的结算账户是证券公司第三方存管账户、对方结算账户不是该证券公司第三方存管账户的,证券公司应当将柜台市场客户资金专用存款账户作为过渡账户,进行客户交易结算资金专用存款账户与对方结算账户资金划付。\n\n证券公司与其第三方存管客户发生交易的,应当通过参与柜台市场的自有资金专用存款账户与柜台市场客户资金专用存款账户进行资金结算。\n\n第十九条 为柜台市场提供登记、结算服务的机构应当按照协会规定报送柜台市场交易、登记、结算数据。协会与中国证券登记结算有限责任公司(以下简称“中国结算”)应当建立交易、登记、结算数据集中存储和共享机制。\n\n柜台市场私募产品的登记、结算可以由证券公司自行办理,也可以由中国证监会认可的其他机构办理。\n\n柜台市场产品账户应当与中国结算统一的全国投资者证券账户建立关联关系。\n\n第二十条 柜台市场交易、登记、结算应当遵守或者优先采用中国证监会、协会、证券交易所、中国结算及其他有权机构制定的业务技术规范。\n\n第四章 信息披露\n\n第二十一条 证券公司应当制定明确的柜台市场信息披露规则,信息披露义务人应当对所披露信息的真实性、准确性、完整性负责。\n\n第二十二条 证券公司应当督促信息披露义务人按照约定向投资者披露信息,并根据信息性质及私募业务相关规定分类披露,包括公开披露和向特定对象披露。\n\n法律法规、自律规则要求公开披露的信息,应当面向公众进行披露;法律法规、自律规则或者合同约定定向披露的信息,应当向特定对象披露。\n\n第二十三条 下列私募业务信息不得向公众披露:\n\n(一)涉及证券公司客户隐私的信息;\n\n(二)涉及第三方商业秘密的信息;\n\n(三)合同约定不得向公众公开的信息;\n\n(四) 法律法规和自律规则禁止向公众公开的信息。\n\n第二十四条 证券公司应当通过本公司网站、报价系统或者协会认可的其他信息披露平台,披露私募产品相关信息。\n\n第五章 自律管理\n\n第二十五条 证券公司应当通过与报价系统联网的方式实现业务信息的互联互通,信息范围包括但不限于私募产品基本情况、交易信息和登记结算信息等。\n\n第二十六条 证券公司应当向协会报送柜台市场业务年度报告以及重大事项报告。\n\n证券公司应当在每个会计年度结束之日起4个月内报送柜台市场业务年度报告,内容包括但不限于柜台市场业务总体情况、交易、登记结算、投资者适当性管理、风险及合规管理等。\n\n柜台市场发生对业务开展、客户权益、证券公司风险等产生重大影响的事项,证券公司应当在该事项发生后1个交易日内向协会报告,并于3个交易日内提交重大事项报告,内容包括:事项基本情况、产生原因、影响、应对措施等。\n\n第二十七条 协会可以对证券公司柜台市场进行现场检查或者非现场检查;证券公司及其相关人员应当予以配合,并按照要求提供有关文件和资料、接受问询。\n\n第二十八条 证券公司及其相关人员违反自律规则的,协会将视情节轻重采取自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,移交中国证监会或者其他有权机关依法查处。\n\n第六章 附则\n\n第二十九条 证券公司可以通过柜台市场销售或者转让《证券公司代销金融产品管理规定》允许代销的产品。\n\n第三十条 本办法由协会负责解释,自发布之日起施行。",
+  "structured_blocks": [
+    {
+      "block_id": "b00002",
+      "block_type": "chapter",
+      "text": "第一章 总则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 6,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "block_type": "article",
+      "text": "第一条 为促进证券公司柜台市场规范发展,保护投资者合法权益,维护柜台市场秩序,根据《中华人民共和国证券法》、《中华人民共和国证券投资基金法》等制定本办法。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 8,
+      "end_char": 85,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "block_type": "article",
+      "text": "第二条 证券公司柜台市场是指证券公司为与特定交易对手方在集中交易场所之外进行交易或为投资者在集中交易场所之外进行交易提供服务的场所或平台。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 87,
+      "end_char": 156,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "block_type": "article",
+      "text": "第三条 证券公司在柜台市场开展业务,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得侵害投资者合法权益,不得挪用客户资产,不得利用非公开信息谋取不正当利益。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 158,
+      "end_char": 240,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "block_type": "article",
+      "text": "第四条 证券公司在柜台市场开展业务,应当按照法律、行政法规、中国证券监督管理委员会(以下简称“中国证监会”)规定、行业自律规则等建立投资者适当性管理制度,做好投资者准入、投资者教育等工作,不得诱导投资者参与与其风险承受能力不相适应的交易。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 242,
+      "end_char": 361,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "block_type": "paragraph",
+      "text": "证券公司应当采取有效措施确保在柜台市场交易的私募产品持有人数量符合相关规定,并要求私募产品发行人承诺私募产品的持有人数量符合相关规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 363,
+      "end_char": 430,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "block_type": "article",
+      "text": "第五条 证券公司应当建立健全柜台市场产品管理制度,对产品进行集中管理,并对产品合规性和风险等级进行内部审查。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 432,
+      "end_char": 486,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "block_type": "paragraph",
+      "text": "证券公司在柜台市场开展业务,应当建立健全柜台市场业务管理、合规管理和风险管理等制度,保障柜台市场安全、有序运行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 488,
+      "end_char": 544,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "block_type": "article",
+      "text": "第六条 证券公司应当依照本办法开展柜台市场业务并接受中国证券业协会(以下简称“协会”)的自律管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 546,
+      "end_char": 595,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "block_type": "paragraph",
+      "text": "协会委托中证资本市场发展监测中心有限责任公司(以下简称“市场监测中心”)建立机构间私募产品报价与服务系统(以下简称“报价系统”),为柜台市场提供互联互通服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 597,
+      "end_char": 676,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "block_type": "chapter",
+      "text": "第二章 发行、销售与转让",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 678,
+      "end_char": 690,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "block_type": "article",
+      "text": "第七条 除金融监管部门明确规定必须事前审批、备案的私募产品外,证券公司在柜台市场发行、销售与转让的私募产品,直接实行事后备案。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 692,
+      "end_char": 755,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "block_type": "paragraph",
+      "text": "在柜台市场发行、销售与转让的私募产品应当依法合规,资金投向应当符合法律法规和国家有关政策规定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 757,
+      "end_char": 804,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "block_type": "article",
+      "text": "第八条 在柜台市场发行、销售与转让的产品包括但不限于以下私募产品:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 806,
+      "end_char": 839,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "block_type": "paragraph",
+      "text": "(一)证券公司及其子公司以非公开募集方式设立或者承销的资产管理计划、公司债务融资工具等产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 841,
+      "end_char": 887,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "block_type": "paragraph",
+      "text": "(二)银行、保险公司、信托公司等其他机构设立并通过证券公司发行、销售与转让的产品;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 889,
+      "end_char": 930,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "block_type": "paragraph",
+      "text": "(三)金融衍生品及中国证监会、协会认可的产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 932,
+      "end_char": 955,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "block_type": "article",
+      "text": "第九条 证券公司为其他机构发行的私募产品提供柜台市场发行、销售与转让服务的,应当与发行人签订协议,对发行人提供的资料进行审核并妥善保管,不得隐匿、伪造或者毁损相关资料。证券公司应当督促发行人保证其提供的资料真实、准确、完整。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 957,
+      "end_char": 1069,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "block_type": "article",
+      "text": "第十条 证券公司可以采取协议、报价、做市、拍卖竞价、标购竞价等方式发行、销售与转让私募产品,不得采用集中竞价方式,法律法规有明确规定的除外。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1071,
+      "end_char": 1141,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "block_type": "article",
+      "text": "第十一条 证券公司应当根据相关约定组织私募产品在柜台市场发行、销售与转让。因发生可能影响私募产品价值、投资者利益、诱发私募产品或者证券公司风险等的重大事项,证券公司拟暂停、终止、恢复发行、销售与转让的,应当事前公告或者以其他方式告知投资者。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1143,
+      "end_char": 1263,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "block_type": "article",
+      "text": "第十二条 证券公司在柜台市场为投资者进行私募产品发行、销售与转让提供服务并向投资者或者产品发行人收取费用的,应当在相关协议中约定或者在证券公司网站公布收费标准。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1265,
+      "end_char": 1345,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "block_type": "chapter",
+      "text": "第三章 账户、登记、托管与结算",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1362,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "block_type": "article",
+      "text": "第十三条 开展柜台市场业务的证券公司可以为在其柜台市场发行、销售与转让的私募产品提供登记、托管与结算服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1364,
+      "end_char": 1417,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "block_type": "article",
+      "text": "第十四条 投资者在柜台市场交易私募产品,证券公司应当为其开立产品账户。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1454,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "block_type": "paragraph",
+      "text": "证券公司代理投资者在柜台市场交易由其他合法登记机构登记的私募产品时,可以采取名义持有模式,以证券公司名义在该产品登记机构开立产品账户,享有产品持有人权利。证券公司与投资者应当签署名义持有协议,明确双方的权利义务关系;证券公司应当根据约定行使产品持有人相关权利,不得损害投资者权益。证券公司应当为每个投资者开立产品账户,分别记录每个投资者拥有的权益数据,并向该产品登记机构报送投资者权益明细数据等资料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1456,
+      "end_char": 1656,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "证券公司应当在产品登记机构开立柜台市场自有产品专用账户,并与其他自有产品账户相互隔离。证券公司应当将柜台市场自有产品专用账户和参与柜台市场交易的自有资金专用存款账户向协会报备。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1658,
+      "end_char": 1746,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "block_type": "paragraph",
+      "text": "证券公司应当在商业银行开立柜台市场客户资金专用存款账户,用于存放柜台市场客户的非第三方存管资金、第三方存管客户与非第三方存管客户的待交收资金,并与其他账户相互隔离。证券公司应当将该账户向中国证监会证券市场交易结算资金监控系统报备。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1748,
+      "end_char": 1863,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "block_type": "article",
+      "text": "第十五条 证券公司为在柜台市场发行、销售与转让的私募产品提供登记服务的,应当保证产品持有人名册和登记过户记录真实、准确、完整,不得隐匿、伪造或者毁损相关资料。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1865,
+      "end_char": 1944,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "block_type": "paragraph",
+      "text": "证券公司为其他发行人发行的私募产品提供登记服务的,应当与私募产品发行人签订协议。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1946,
+      "end_char": 1986,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "block_type": "paragraph",
+      "text": "中国证监会认可的其他登记机构接受发行人委托,为在柜台市场发行、销售与转让的私募产品提供登记服务的,证券公司应当与其签订协议,对相关事项进行约定。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 1988,
+      "end_char": 2060,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "block_type": "article",
+      "text": "第十六条 证券公司柜台市场产品账户代码由12位字符组成,前3位为机构代码,由报价系统自动分配;后9位由阿拉伯数字和英文字母组成,优先使用阿拉伯数字,由报价系统、证券公司或者中国证监会认可的其他登记机构分配并管理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2062,
+      "end_char": 2168,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "block_type": "article",
+      "text": "第十七条 证券公司可以接受委托,为客户依法持有或者管理的在其柜台市场发行、销售与转让的私募产品提供保管、清算交割、估值核算、投资监督、风险监控、出具托管报告等服务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2170,
+      "end_char": 2252,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "block_type": "paragraph",
+      "text": "证券公司开展托管业务,应当采取有效措施,保证其托管的私募产品的安全,禁止挪用客户资产。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2254,
+      "end_char": 2297,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "block_type": "article",
+      "text": "第十八条 为柜台市场提供结算服务的机构应当按照约定为投资者办理结算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2299,
+      "end_char": 2333,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "block_type": "paragraph",
+      "text": "收付双方的结算账户都是同一证券公司第三方存管账户的,证券公司可以根据结算需要在收付双方资金账户之间进行资金划转。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2335,
+      "end_char": 2391,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "block_type": "paragraph",
+      "text": "收付双方的结算账户均不是第三方存管账户的,开展结算业务的机构可以通过报价系统或者中国证监会认可的其他机构为收付双方办理资金结算业务。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2393,
+      "end_char": 2459,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "block_type": "paragraph",
+      "text": "付款方或者收款方的结算账户是证券公司第三方存管账户、对方结算账户不是该证券公司第三方存管账户的,证券公司应当将柜台市场客户资金专用存款账户作为过渡账户,进行客户交易结算资金专用存款账户与对方结算账户资金划付。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2461,
+      "end_char": 2565,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "block_type": "paragraph",
+      "text": "证券公司与其第三方存管客户发生交易的,应当通过参与柜台市场的自有资金专用存款账户与柜台市场客户资金专用存款账户进行资金结算。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2629,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "block_type": "article",
+      "text": "第十九条 为柜台市场提供登记、结算服务的机构应当按照协会规定报送柜台市场交易、登记、结算数据。协会与中国证券登记结算有限责任公司(以下简称“中国结算”)应当建立交易、登记、结算数据集中存储和共享机制。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2631,
+      "end_char": 2731,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "block_type": "paragraph",
+      "text": "柜台市场私募产品的登记、结算可以由证券公司自行办理,也可以由中国证监会认可的其他机构办理。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2733,
+      "end_char": 2778,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "block_type": "paragraph",
+      "text": "柜台市场产品账户应当与中国结算统一的全国投资者证券账户建立关联关系。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2780,
+      "end_char": 2814,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "block_type": "article",
+      "text": "第二十条 柜台市场交易、登记、结算应当遵守或者优先采用中国证监会、协会、证券交易所、中国结算及其他有权机构制定的业务技术规范。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2816,
+      "end_char": 2879,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "block_type": "chapter",
+      "text": "第四章 信息披露",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2881,
+      "end_char": 2889,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "block_type": "article",
+      "text": "第二十一条 证券公司应当制定明确的柜台市场信息披露规则,信息披露义务人应当对所披露信息的真实性、准确性、完整性负责。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2891,
+      "end_char": 2949,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "block_type": "article",
+      "text": "第二十二条 证券公司应当督促信息披露义务人按照约定向投资者披露信息,并根据信息性质及私募业务相关规定分类披露,包括公开披露和向特定对象披露。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 2951,
+      "end_char": 3021,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "block_type": "paragraph",
+      "text": "法律法规、自律规则要求公开披露的信息,应当面向公众进行披露;法律法规、自律规则或者合同约定定向披露的信息,应当向特定对象披露。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3023,
+      "end_char": 3086,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "block_type": "article",
+      "text": "第二十三条 下列私募业务信息不得向公众披露:",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3088,
+      "end_char": 3110,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "block_type": "paragraph",
+      "text": "(一)涉及证券公司客户隐私的信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3112,
+      "end_char": 3129,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "block_type": "paragraph",
+      "text": "(二)涉及第三方商业秘密的信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3131,
+      "end_char": 3147,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "block_type": "paragraph",
+      "text": "(三)合同约定不得向公众公开的信息;",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3149,
+      "end_char": 3167,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "block_type": "paragraph",
+      "text": "(四) 法律法规和自律规则禁止向公众公开的信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3169,
+      "end_char": 3193,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "block_type": "article",
+      "text": "第二十四条 证券公司应当通过本公司网站、报价系统或者协会认可的其他信息披露平台,披露私募产品相关信息。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3195,
+      "end_char": 3246,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "block_type": "chapter",
+      "text": "第五章 自律管理",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3248,
+      "end_char": 3256,
+      "region": "body"
+    },
+    {
+      "block_id": "b00055",
+      "block_type": "article",
+      "text": "第二十五条 证券公司应当通过与报价系统联网的方式实现业务信息的互联互通,信息范围包括但不限于私募产品基本情况、交易信息和登记结算信息等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3258,
+      "end_char": 3326,
+      "region": "body"
+    },
+    {
+      "block_id": "b00056",
+      "block_type": "article",
+      "text": "第二十六条 证券公司应当向协会报送柜台市场业务年度报告以及重大事项报告。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3328,
+      "end_char": 3364,
+      "region": "body"
+    },
+    {
+      "block_id": "b00057",
+      "block_type": "paragraph",
+      "text": "证券公司应当在每个会计年度结束之日起4个月内报送柜台市场业务年度报告,内容包括但不限于柜台市场业务总体情况、交易、登记结算、投资者适当性管理、风险及合规管理等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3366,
+      "end_char": 3446,
+      "region": "body"
+    },
+    {
+      "block_id": "b00058",
+      "block_type": "paragraph",
+      "text": "柜台市场发生对业务开展、客户权益、证券公司风险等产生重大影响的事项,证券公司应当在该事项发生后1个交易日内向协会报告,并于3个交易日内提交重大事项报告,内容包括:事项基本情况、产生原因、影响、应对措施等。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3448,
+      "end_char": 3550,
+      "region": "body"
+    },
+    {
+      "block_id": "b00059",
+      "block_type": "article",
+      "text": "第二十七条 协会可以对证券公司柜台市场进行现场检查或者非现场检查;证券公司及其相关人员应当予以配合,并按照要求提供有关文件和资料、接受问询。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3552,
+      "end_char": 3622,
+      "region": "body"
+    },
+    {
+      "block_id": "b00060",
+      "block_type": "article",
+      "text": "第二十八条 证券公司及其相关人员违反自律规则的,协会将视情节轻重采取自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,移交中国证监会或者其他有权机关依法查处。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3624,
+      "end_char": 3710,
+      "region": "body"
+    },
+    {
+      "block_id": "b00061",
+      "block_type": "chapter",
+      "text": "第六章 附则",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3712,
+      "end_char": 3718,
+      "region": "body"
+    },
+    {
+      "block_id": "b00062",
+      "block_type": "article",
+      "text": "第二十九条 证券公司可以通过柜台市场销售或者转让《证券公司代销金融产品管理规定》允许代销的产品。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3720,
+      "end_char": 3768,
+      "region": "body"
+    },
+    {
+      "block_id": "b00063",
+      "block_type": "article",
+      "text": "第三十条 本办法由协会负责解释,自发布之日起施行。",
+      "style": "Normal",
+      "source_kind": "paragraph",
+      "source_page_start": 0,
+      "source_page_end": 0,
+      "start_char": 3770,
+      "end_char": 3795,
+      "region": "body"
+    }
+  ],
   "normalized_text": "第一章 总则\n\n第一条 为促进证券公司柜台市场规范发展,保护投资者合法权益,维护柜台市场秩序,根据《中华人民共和国证券法》、《中华人民共和国证券投资基金法》等制定本办法。\n\n第二条 证券公司柜台市场是指证券公司为与特定交易对手方在集中交易场所之外进行交易或为投资者在集中交易场所之外进行交易提供服务的场所或平台。\n\n第三条 证券公司在柜台市场开展业务,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得侵害投资者合法权益,不得挪用客户资产,不得利用非公开信息谋取不正当利益。\n\n第四条 证券公司在柜台市场开展业务,应当按照法律、行政法规、中国证券监督管理委员会(以下简称“中国证监会”)规定、行业自律规则等建立投资者适当性管理制度,做好投资者准入、投资者教育等工作,不得诱导投资者参与与其风险承受能力不相适应的交易。\n\n证券公司应当采取有效措施确保在柜台市场交易的私募产品持有人数量符合相关规定,并要求私募产品发行人承诺私募产品的持有人数量符合相关规定。\n\n第五条 证券公司应当建立健全柜台市场产品管理制度,对产品进行集中管理,并对产品合规性和风险等级进行内部审查。\n\n证券公司在柜台市场开展业务,应当建立健全柜台市场业务管理、合规管理和风险管理等制度,保障柜台市场安全、有序运行。\n\n第六条 证券公司应当依照本办法开展柜台市场业务并接受中国证券业协会(以下简称“协会”)的自律管理。\n\n协会委托中证资本市场发展监测中心有限责任公司(以下简称“市场监测中心”)建立机构间私募产品报价与服务系统(以下简称“报价系统”),为柜台市场提供互联互通服务。\n\n第二章 发行、销售与转让\n\n第七条 除金融监管部门明确规定必须事前审批、备案的私募产品外,证券公司在柜台市场发行、销售与转让的私募产品,直接实行事后备案。\n\n在柜台市场发行、销售与转让的私募产品应当依法合规,资金投向应当符合法律法规和国家有关政策规定。\n\n第八条 在柜台市场发行、销售与转让的产品包括但不限于以下私募产品:\n\n(一)证券公司及其子公司以非公开募集方式设立或者承销的资产管理计划、公司债务融资工具等产品;\n\n(二)银行、保险公司、信托公司等其他机构设立并通过证券公司发行、销售与转让的产品;\n\n(三)金融衍生品及中国证监会、协会认可的产品。\n\n第九条 证券公司为其他机构发行的私募产品提供柜台市场发行、销售与转让服务的,应当与发行人签订协议,对发行人提供的资料进行审核并妥善保管,不得隐匿、伪造或者毁损相关资料。证券公司应当督促发行人保证其提供的资料真实、准确、完整。\n\n第十条 证券公司可以采取协议、报价、做市、拍卖竞价、标购竞价等方式发行、销售与转让私募产品,不得采用集中竞价方式,法律法规有明确规定的除外。\n\n第十一条 证券公司应当根据相关约定组织私募产品在柜台市场发行、销售与转让。因发生可能影响私募产品价值、投资者利益、诱发私募产品或者证券公司风险等的重大事项,证券公司拟暂停、终止、恢复发行、销售与转让的,应当事前公告或者以其他方式告知投资者。\n\n第十二条 证券公司在柜台市场为投资者进行私募产品发行、销售与转让提供服务并向投资者或者产品发行人收取费用的,应当在相关协议中约定或者在证券公司网站公布收费标准。\n\n第三章 账户、登记、托管与结算\n\n第十三条 开展柜台市场业务的证券公司可以为在其柜台市场发行、销售与转让的私募产品提供登记、托管与结算服务。\n\n第十四条 投资者在柜台市场交易私募产品,证券公司应当为其开立产品账户。\n\n证券公司代理投资者在柜台市场交易由其他合法登记机构登记的私募产品时,可以采取名义持有模式,以证券公司名义在该产品登记机构开立产品账户,享有产品持有人权利。证券公司与投资者应当签署名义持有协议,明确双方的权利义务关系;证券公司应当根据约定行使产品持有人相关权利,不得损害投资者权益。证券公司应当为每个投资者开立产品账户,分别记录每个投资者拥有的权益数据,并向该产品登记机构报送投资者权益明细数据等资料。\n\n证券公司应当在产品登记机构开立柜台市场自有产品专用账户,并与其他自有产品账户相互隔离。证券公司应当将柜台市场自有产品专用账户和参与柜台市场交易的自有资金专用存款账户向协会报备。\n\n证券公司应当在商业银行开立柜台市场客户资金专用存款账户,用于存放柜台市场客户的非第三方存管资金、第三方存管客户与非第三方存管客户的待交收资金,并与其他账户相互隔离。证券公司应当将该账户向中国证监会证券市场交易结算资金监控系统报备。\n\n第十五条 证券公司为在柜台市场发行、销售与转让的私募产品提供登记服务的,应当保证产品持有人名册和登记过户记录真实、准确、完整,不得隐匿、伪造或者毁损相关资料。\n\n证券公司为其他发行人发行的私募产品提供登记服务的,应当与私募产品发行人签订协议。\n\n中国证监会认可的其他登记机构接受发行人委托,为在柜台市场发行、销售与转让的私募产品提供登记服务的,证券公司应当与其签订协议,对相关事项进行约定。\n\n第十六条 证券公司柜台市场产品账户代码由12位字符组成,前3位为机构代码,由报价系统自动分配;后9位由阿拉伯数字和英文字母组成,优先使用阿拉伯数字,由报价系统、证券公司或者中国证监会认可的其他登记机构分配并管理。\n\n第十七条 证券公司可以接受委托,为客户依法持有或者管理的在其柜台市场发行、销售与转让的私募产品提供保管、清算交割、估值核算、投资监督、风险监控、出具托管报告等服务。\n\n证券公司开展托管业务,应当采取有效措施,保证其托管的私募产品的安全,禁止挪用客户资产。\n\n第十八条 为柜台市场提供结算服务的机构应当按照约定为投资者办理结算。\n\n收付双方的结算账户都是同一证券公司第三方存管账户的,证券公司可以根据结算需要在收付双方资金账户之间进行资金划转。\n\n收付双方的结算账户均不是第三方存管账户的,开展结算业务的机构可以通过报价系统或者中国证监会认可的其他机构为收付双方办理资金结算业务。\n\n付款方或者收款方的结算账户是证券公司第三方存管账户、对方结算账户不是该证券公司第三方存管账户的,证券公司应当将柜台市场客户资金专用存款账户作为过渡账户,进行客户交易结算资金专用存款账户与对方结算账户资金划付。\n\n证券公司与其第三方存管客户发生交易的,应当通过参与柜台市场的自有资金专用存款账户与柜台市场客户资金专用存款账户进行资金结算。\n\n第十九条 为柜台市场提供登记、结算服务的机构应当按照协会规定报送柜台市场交易、登记、结算数据。协会与中国证券登记结算有限责任公司(以下简称“中国结算”)应当建立交易、登记、结算数据集中存储和共享机制。\n\n柜台市场私募产品的登记、结算可以由证券公司自行办理,也可以由中国证监会认可的其他机构办理。\n\n柜台市场产品账户应当与中国结算统一的全国投资者证券账户建立关联关系。\n\n第二十条 柜台市场交易、登记、结算应当遵守或者优先采用中国证监会、协会、证券交易所、中国结算及其他有权机构制定的业务技术规范。\n\n第四章 信息披露\n\n第二十一条 证券公司应当制定明确的柜台市场信息披露规则,信息披露义务人应当对所披露信息的真实性、准确性、完整性负责。\n\n第二十二条 证券公司应当督促信息披露义务人按照约定向投资者披露信息,并根据信息性质及私募业务相关规定分类披露,包括公开披露和向特定对象披露。\n\n法律法规、自律规则要求公开披露的信息,应当面向公众进行披露;法律法规、自律规则或者合同约定定向披露的信息,应当向特定对象披露。\n\n第二十三条 下列私募业务信息不得向公众披露:\n\n(一)涉及证券公司客户隐私的信息;\n\n(二)涉及第三方商业秘密的信息;\n\n(三)合同约定不得向公众公开的信息;\n\n(四) 法律法规和自律规则禁止向公众公开的信息。\n\n第二十四条 证券公司应当通过本公司网站、报价系统或者协会认可的其他信息披露平台,披露私募产品相关信息。\n\n第五章 自律管理\n\n第二十五条 证券公司应当通过与报价系统联网的方式实现业务信息的互联互通,信息范围包括但不限于私募产品基本情况、交易信息和登记结算信息等。\n\n第二十六条 证券公司应当向协会报送柜台市场业务年度报告以及重大事项报告。\n\n证券公司应当在每个会计年度结束之日起4个月内报送柜台市场业务年度报告,内容包括但不限于柜台市场业务总体情况、交易、登记结算、投资者适当性管理、风险及合规管理等。\n\n柜台市场发生对业务开展、客户权益、证券公司风险等产生重大影响的事项,证券公司应当在该事项发生后1个交易日内向协会报告,并于3个交易日内提交重大事项报告,内容包括:事项基本情况、产生原因、影响、应对措施等。\n\n第二十七条 协会可以对证券公司柜台市场进行现场检查或者非现场检查;证券公司及其相关人员应当予以配合,并按照要求提供有关文件和资料、接受问询。\n\n第二十八条 证券公司及其相关人员违反自律规则的,协会将视情节轻重采取自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,移交中国证监会或者其他有权机关依法查处。\n\n第六章 附则\n\n第二十九条 证券公司可以通过柜台市场销售或者转让《证券公司代销金融产品管理规定》允许代销的产品。\n\n第三十条 本办法由协会负责解释,自发布之日起施行。",
   "blocks": [
     {
@@ -133,7 +1640,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 0,
+      "end_char": 6,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00003",
@@ -141,7 +1655,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 8,
+      "end_char": 85,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00004",
@@ -149,7 +1670,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 87,
+      "end_char": 156,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00005",
@@ -157,7 +1685,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 158,
+      "end_char": 240,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00006",
@@ -165,7 +1700,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 242,
+      "end_char": 361,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00007",
@@ -173,7 +1715,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 363,
+      "end_char": 430,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00008",
@@ -181,7 +1730,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 432,
+      "end_char": 486,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00009",
@@ -189,7 +1745,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 488,
+      "end_char": 544,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00010",
@@ -197,7 +1760,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 546,
+      "end_char": 595,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00011",
@@ -205,7 +1775,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 597,
+      "end_char": 676,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00012",
@@ -213,7 +1790,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 678,
+      "end_char": 690,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00013",
@@ -221,7 +1805,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 692,
+      "end_char": 755,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00014",
@@ -229,7 +1820,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 757,
+      "end_char": 804,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00015",
@@ -237,7 +1835,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 806,
+      "end_char": 839,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00016",
@@ -245,7 +1850,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 841,
+      "end_char": 887,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00017",
@@ -253,7 +1865,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 889,
+      "end_char": 930,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00018",
@@ -261,7 +1880,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 932,
+      "end_char": 955,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00019",
@@ -269,7 +1895,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 957,
+      "end_char": 1069,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00020",
@@ -277,7 +1910,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1071,
+      "end_char": 1141,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00021",
@@ -285,7 +1925,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1143,
+      "end_char": 1263,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00022",
@@ -293,7 +1940,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1265,
+      "end_char": 1345,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00023",
@@ -301,7 +1955,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1347,
+      "end_char": 1362,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00024",
@@ -309,7 +1970,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1364,
+      "end_char": 1417,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00025",
@@ -317,7 +1985,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1419,
+      "end_char": 1454,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00026",
@@ -325,7 +2000,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1456,
+      "end_char": 1656,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00027",
@@ -333,7 +2015,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1658,
+      "end_char": 1746,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00028",
@@ -341,7 +2030,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1748,
+      "end_char": 1863,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00029",
@@ -349,7 +2045,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1865,
+      "end_char": 1944,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00030",
@@ -357,7 +2060,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1946,
+      "end_char": 1986,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00031",
@@ -365,7 +2075,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 1988,
+      "end_char": 2060,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00032",
@@ -373,7 +2090,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2062,
+      "end_char": 2168,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00033",
@@ -381,7 +2105,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2170,
+      "end_char": 2252,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00034",
@@ -389,7 +2120,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2254,
+      "end_char": 2297,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00035",
@@ -397,7 +2135,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2299,
+      "end_char": 2333,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00036",
@@ -405,7 +2150,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2335,
+      "end_char": 2391,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00037",
@@ -413,7 +2165,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2393,
+      "end_char": 2459,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00038",
@@ -421,7 +2180,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2461,
+      "end_char": 2565,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00039",
@@ -429,7 +2195,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2567,
+      "end_char": 2629,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00040",
@@ -437,7 +2210,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2631,
+      "end_char": 2731,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00041",
@@ -445,7 +2225,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2733,
+      "end_char": 2778,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00042",
@@ -453,7 +2240,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2780,
+      "end_char": 2814,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00043",
@@ -461,7 +2255,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2816,
+      "end_char": 2879,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00044",
@@ -469,7 +2270,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2881,
+      "end_char": 2889,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00045",
@@ -477,7 +2285,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2891,
+      "end_char": 2949,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00046",
@@ -485,7 +2300,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 2951,
+      "end_char": 3021,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00047",
@@ -493,7 +2315,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3023,
+      "end_char": 3086,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00048",
@@ -501,7 +2330,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3088,
+      "end_char": 3110,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00049",
@@ -509,7 +2345,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3112,
+      "end_char": 3129,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00050",
@@ -517,7 +2360,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3131,
+      "end_char": 3147,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00051",
@@ -525,7 +2375,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3149,
+      "end_char": 3167,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00052",
@@ -533,7 +2390,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3169,
+      "end_char": 3193,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00053",
@@ -541,7 +2405,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3195,
+      "end_char": 3246,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00054",
@@ -549,7 +2420,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3248,
+      "end_char": 3256,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00055",
@@ -557,7 +2435,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3258,
+      "end_char": 3326,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00056",
@@ -565,7 +2450,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3328,
+      "end_char": 3364,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00057",
@@ -573,7 +2465,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3366,
+      "end_char": 3446,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00058",
@@ -581,7 +2480,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3448,
+      "end_char": 3550,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00059",
@@ -589,7 +2495,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3552,
+      "end_char": 3622,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00060",
@@ -597,7 +2510,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3624,
+      "end_char": 3710,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00061",
@@ -605,7 +2525,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3712,
+      "end_char": 3718,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00062",
@@ -613,7 +2540,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3720,
+      "end_char": 3768,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     },
     {
       "block_id": "b00063",
@@ -621,7 +2555,14 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "body"
+      "region": "body",
+      "source_page_end": 0,
+      "start_char": 3770,
+      "end_char": 3795,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
     }
   ]
 }

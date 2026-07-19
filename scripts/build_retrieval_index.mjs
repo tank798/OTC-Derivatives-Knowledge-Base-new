@@ -42,6 +42,7 @@ const VECTOR_METADATA_PATH = resolve(INDEX_DIR, "vector_metadata.json");
 const CATALOG_PATH = resolve(ROOT, "data/metadata/authoritative_regulatory_catalog.json");
 const CANONICAL_PATH = resolve(ROOT, "data/metadata/regulations.jsonl");
 const DUPLICATE_AUDIT_PATH = resolve(INDEX_DIR, "duplicate_audit.csv");
+const VECTOR_REUSE_AUDIT_PATH = resolve(INDEX_DIR, "incremental_vector_audit.csv");
 
 function metadataKeys(row) {
   const values = [
@@ -119,6 +120,18 @@ function buildCorpus(chunks, lookup) {
       is_overlapping: Boolean(chunk.is_overlapping),
       overlap_source_chunk_id: chunk.overlap_source_chunk_id || "",
       source_block_ids: chunk.source_block_ids ?? [],
+      block_ids: chunk.block_ids ?? chunk.source_block_ids ?? [],
+      primary_block_ids: chunk.primary_block_ids ?? [],
+      overlap_block_ids: chunk.overlap_block_ids ?? [],
+      start_char: chunk.start_char ?? -1,
+      end_char: chunk.end_char ?? -1,
+      source_page_start: chunk.source_page_start ?? 0,
+      source_page_end: chunk.source_page_end ?? 0,
+      section_path: chunk.section_path ?? [],
+      overlap_left: chunk.overlap_left ?? 0,
+      overlap_right: chunk.overlap_right ?? 0,
+      clean_text_hash: chunk.clean_text_hash ?? "",
+      chunk_hash: chunk.chunk_hash ?? "",
     };
   });
 }
@@ -253,6 +266,8 @@ async function buildVectors(corpus) {
   const ownersToEmbed = [];
   let reusedCount = 0;
   let previousChunkCount = 0;
+  const previousAuditByChunk = new Map();
+  const reusedPreviousVectorHashes = new Map();
   const reuseCorpusPath = resolve(REUSE_INDEX_DIR, "corpus.jsonl");
   const reuseVectorPath = resolve(REUSE_INDEX_DIR, "vectors.f32");
   const reuseMetadataPath = resolve(REUSE_INDEX_DIR, "vector_metadata.json");
@@ -281,6 +296,12 @@ async function buildVectors(corpus) {
     previousCorpus.forEach((row, index) => {
       const hash = sha256Buffer(stableJson(splitEmbeddingText(row)));
       previousRows.set(`${row.chunk_id}:${hash}`, index);
+      const vectorHash = sha256Buffer(Buffer.from(
+        previousMatrix.buffer,
+        previousMatrix.byteOffset + index * MODEL_DIMENSION * Float32Array.BYTES_PER_ELEMENT,
+        MODEL_DIMENSION * Float32Array.BYTES_PER_ELEMENT,
+      ));
+      previousAuditByChunk.set(row.chunk_id, { inputHash: hash, vectorHash });
     });
     corpus.forEach((row, owner) => {
       const previousIndex = previousRows.get(`${row.chunk_id}:${rowEmbeddingHashes[owner]}`);
@@ -295,6 +316,7 @@ async function buildVectors(corpus) {
         ),
         owner * MODEL_DIMENSION,
       );
+      reusedPreviousVectorHashes.set(row.chunk_id, previousAuditByChunk.get(row.chunk_id)?.vectorHash ?? "");
       reusedCount += 1;
     });
     previousChunkCount = previousCorpus.length;
@@ -333,8 +355,41 @@ async function buildVectors(corpus) {
     matrix.set(normalizeVector(average), row * MODEL_DIMENSION);
   }
   writeFileSync(VECTOR_PATH, Buffer.from(matrix.buffer));
+  const rowVectorHashes = corpus.map((row, index) => sha256Buffer(Buffer.from(
+    matrix.buffer,
+    matrix.byteOffset + index * MODEL_DIMENSION * Float32Array.BYTES_PER_ELEMENT,
+    MODEL_DIMENSION * Float32Array.BYTES_PER_ELEMENT,
+  )));
+  const auditColumns = [
+    "row_index", "document_id", "chunk_id", "status",
+    "previous_embedding_input_sha256", "embedding_input_sha256",
+    "previous_vector_sha256", "vector_sha256", "vector_bytes_identical",
+  ];
+  const auditRows = corpus.map((row, index) => {
+    const previous = previousAuditByChunk.get(row.chunk_id);
+    const reused = reusedPreviousVectorHashes.has(row.chunk_id);
+    return {
+      row_index: index,
+      document_id: row.document_id,
+      chunk_id: row.chunk_id,
+      status: reused ? "reused" : (previous ? "changed_reembedded" : "new_embedded"),
+      previous_embedding_input_sha256: previous?.inputHash ?? "",
+      embedding_input_sha256: rowEmbeddingHashes[index],
+      previous_vector_sha256: previous?.vectorHash ?? "",
+      vector_sha256: rowVectorHashes[index],
+      vector_bytes_identical: reused && previous?.vectorHash === rowVectorHashes[index],
+    };
+  });
+  writeFileSync(
+    VECTOR_REUSE_AUDIT_PATH,
+    [
+      auditColumns.join(","),
+      ...auditRows.map((row) => auditColumns.map((column) => csvCell(row[column])).join(",")),
+    ].join("\n") + "\n",
+    "utf8",
+  );
   const metadata = {
-    version: 2,
+    version: 3,
     model_id: MODEL_ID,
     model_revision: MODEL_REVISION,
     model_dtype: MODEL_DTYPE,
@@ -355,6 +410,8 @@ async function buildVectors(corpus) {
     },
     embedding_input_sha256: embeddingInputFingerprint(corpus),
     row_embedding_input_sha256: rowEmbeddingHashes,
+    row_vector_sha256: rowVectorHashes,
+    incremental_audit_path: "data/index/incremental_vector_audit.csv",
     corpus_sha256: sha256File(CORPUS_PATH),
     vectors_sha256: sha256File(VECTOR_PATH),
     row_chunk_ids: corpus.map((row) => row.chunk_id),
