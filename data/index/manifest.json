@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-07-19T06:17:38.858Z",
+  "generated_at": "2026-07-19T06:33:43.624Z",
   "source": {
     "path": "data/processed/chunks/jsonl/all_chunks.jsonl",
-    "sha256": "6d6e6791f2db7c3178ba6b3616967a031cf82c4663e3393b02a294cd28f17523",
+    "sha256": "c463f22290334007ebe5315205a93dfbf422a2e1debc3a8acb3433e741f8c5b6",
     "unique_body_source": true,
     "legacy_clauses_enabled": false
   },
   "corpus": {
     "path": "data/index/corpus.jsonl",
-    "sha256": "941a773778ec97f29eb2b4cc1aa223df381a09f2b5c7dc489058a2125d8970fd",
+    "sha256": "66b1c19d493c8c911a9db15f841eb36e8b9e5a2e350b2c29e9e378ed52cbbf05",
     "document_count": 114,
     "chunk_count": 1700,
     "official_url_count": 114
@@ -51,5 +51,5 @@
     "review_duplicate_groups": 0,
     "intentional_overlap_groups": 0
   },
-  "build_fingerprint": "d191614d5f8c2af4d13519528b5eee220b54d1c61499c6f557a617acf0fd79d2"
+  "build_fingerprint": "390bb870d678aa4ecc0b7baf65cdddd03865700031cf495f9c900bcf3bdbed25"
 }
