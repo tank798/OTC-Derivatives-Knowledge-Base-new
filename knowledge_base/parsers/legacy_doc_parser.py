@@ -27,21 +27,47 @@ def _blocks_from_plain_text(text: str) -> tuple[list[SourceBlock], list[str]]:
         # 结尾，因此只删除目录标题和连续目录条目，不能把第一个正文
         # “第X条”之前的全部内容一并裁掉。
         toc_end = toc_marker
-        for index in range(toc_marker + 1, min(len(paragraphs), toc_marker + 80)):
-            value = paragraphs[index]
-            article_toc = bool(
-                re.match(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条", value)
-                and re.search(r"\s\d{1,4}\s*$", value)
+        def toc_key(value: str) -> str:
+            return re.sub(r"\s+\d{1,4}\s*$", "", re.sub(r"\s+", " ", clean_text(value))).strip()
+
+        guide_prefix = paragraphs[toc_marker + 1:min(toc_marker + 130, len(paragraphs))]
+        page_suffixed = sum(
+            bool(re.search(r"\s+\d{1,4}\s*$", value))
+            and bool(re.match(r"^(?:第.+[章节]|[一二三四五六七八九十百]+[、.]|附件|附录|说明及声明)", value))
+            for value in guide_prefix
+        )
+        if guide_prefix and page_suffixed >= 3:
+            first_key = toc_key(guide_prefix[0])
+            duplicate = next(
+                (
+                    index for index in range(toc_marker + 2, len(paragraphs))
+                    if toc_key(paragraphs[index]) == first_key
+                    and not re.search(r"\s+\d{1,4}\s*$", paragraphs[index])
+                ),
+                None,
             )
-            dotted_toc = bool(re.search(r"(?:\.{2,}|[…·]{2,})\s*\d{1,4}\s*$", value))
-            if article_toc or dotted_toc or is_toc_field(value):
-                toc_end = index
-                continue
+            if duplicate is not None:
+                removed_toc = duplicate - toc_marker
+                paragraphs = paragraphs[:toc_marker] + paragraphs[duplicate:]
+                toc_marker = None
+        if toc_marker is None:
+            pass
+        else:
+            for index in range(toc_marker + 1, min(len(paragraphs), toc_marker + 80)):
+                value = paragraphs[index]
+                article_toc = bool(
+                    re.match(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条", value)
+                    and re.search(r"\s\d{1,4}\s*$", value)
+                )
+                dotted_toc = bool(re.search(r"(?:\.{2,}|[…·]{2,})\s*\d{1,4}\s*$", value))
+                if article_toc or dotted_toc or is_toc_field(value):
+                    toc_end = index
+                    continue
+                if toc_end > toc_marker:
+                    break
             if toc_end > toc_marker:
-                break
-        if toc_end > toc_marker:
-            removed_toc = toc_end - toc_marker + 1
-            paragraphs = paragraphs[:toc_marker] + paragraphs[toc_end + 1:]
+                removed_toc = toc_end - toc_marker + 1
+                paragraphs = paragraphs[:toc_marker] + paragraphs[toc_end + 1:]
     blocks = [SourceBlock(value, block_id=f"b{index:05d}") for index, value in enumerate(paragraphs, start=1)]
     blocks, removed_front_structure = strip_repeated_front_structure(blocks)
     warnings: list[str] = []

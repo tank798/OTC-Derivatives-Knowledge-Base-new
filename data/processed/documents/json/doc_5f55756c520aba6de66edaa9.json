@@ -23,6 +23,127 @@
   },
   "warnings": [],
   "extraction_status": "success",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "unchanged",
+    "original_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
+    "clean_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
+    "chars_before": 3664,
+    "chars_after": 3664,
+    "removed_character_count": 0,
+    "rule_hits": [],
+    "removed_front_matter": [],
+    "cleaning_log": [],
+    "chunk_eligible_block_ids": [
+      "b00004",
+      "b00005",
+      "b00006",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025",
+      "b00026",
+      "b00027",
+      "b00028",
+      "b00029",
+      "b00030",
+      "b00031",
+      "b00032",
+      "b00033",
+      "b00034",
+      "b00035",
+      "b00036",
+      "b00037",
+      "b00038",
+      "b00043",
+      "b00044",
+      "b00045",
+      "b00048",
+      "b00050",
+      "b00051",
+      "b00052",
+      "b00053",
+      "b00054",
+      "b00055",
+      "b00056",
+      "b00058",
+      "b00059",
+      "b00061",
+      "b00062",
+      "b00065",
+      "b00067",
+      "b00068",
+      "b00069",
+      "b00070",
+      "b00072",
+      "b00074",
+      "b00075",
+      "b00076",
+      "b00077",
+      "b00079",
+      "b00080",
+      "b00082",
+      "b00083",
+      "b00086",
+      "b00087",
+      "b00088",
+      "b00089",
+      "b00091",
+      "b00094",
+      "b00095",
+      "b00096",
+      "b00097",
+      "b00099",
+      "b00100",
+      "b00102",
+      "b00103",
+      "b00104",
+      "b00105",
+      "b00106",
+      "b00107",
+      "b00108",
+      "b00109",
+      "b00110",
+      "b00111",
+      "b00112",
+      "b00113",
+      "b00114",
+      "b00115",
+      "b00116",
+      "b00117",
+      "b00121",
+      "b00122",
+      "b00124",
+      "b00125",
+      "b00126",
+      "b00127",
+      "b00129",
+      "b00132",
+      "b00133",
+      "b00134",
+      "b00135",
+      "b00137",
+      "b00139",
+      "b00140",
+      "b00141"
+    ]
+  },
+  "original_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
+  "clean_text_sha256": "76aec84cddf12676905ae508840efe895f7956264a13a73c8fff26068d39d46f",
   "normalized_text": "附件:\n\n全国银行间同业拆借中心\n\n债券远期交易保证金集中管理操作细则\n\n第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。\n\n第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。\n\n第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。\n\n第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。\n\n市场参与者保证金账户的名称为其在交易系统的交易成员全称。\n\n第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。\n\n若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。\n\n第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。\n\n第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。\n\n第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。\n\n第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。\n\n冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。\n\n待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。\n\n冻结户、待处理户内的保证金不可调回。\n\n第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。\n\n市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。\n\n第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。\n\n第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。\n\n第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。\n\n第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。\n\n第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。\n\n第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。\n\n第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。\n\n若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;\n\n若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。\n\n第十八条 保证金利息计付按照中国人民银行有关规定办理。\n\n第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。\n\n第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。\n\n第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。\n\n第二十二条 本细则由交易中心负责解释。\n\n第二十三条 本细则自发布之日起施行。\n\n附件1:\n\n资金账户信息表\n\n| 单位全称 | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 | | | | | |\n| 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 |\n| 户名 | 户名 | | | | |\n| 开户行及行号 | 开户行及行号 | | | | |\n| 账号 | 账号 | | | | |\n| 联系人 | 姓名 | 办公电话 | 手机 | 手机 | 传真 |\n| 联系人 | | | | | |\n| 联系人 | | | | | |\n| 单位地址 | | | | 邮编 | |\n| 备注<br>(启用日期) | | | | | |\n| | | | | | |\n\n部门印章:\n\n年 月 日\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。\n\n3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。\n\n4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。\n\n5、本表请填制一式两份,一份寄交易中心,一份自行留存。\n\n6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)\n\n附件2:\n\n违约举报指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:\n\n。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件3:\n\n违约举报撤消指令\n\n全国银行间同业拆借中心:\n\n我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。\n\n举报单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n盖章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441\n\n3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)\n\n附件4:\n\n资金调回指令\n\n全国银行间同业拆借中心:\n\n请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金\n\n(小写: 大写: )划至“资金账户信息表”中指定的资金账户。\n\n户名:\n\n账号:\n\n开户行:\n\n部门印章:\n\n经办人:\n\n联系电话:\n\n手机:\n\n年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、部门印章须与“资金账户信息表”中“部门印章”一致。\n\n3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。\n\n4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883\n\n附件5:\n\n债券远期交易保证金账户销户申请\n\n全国银行间同业拆借中心:\n\n我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。\n\n户名:\n\n账号:\n\n特此申请。\n\n申请单位全称:\n\n经办人:\n\n联系电话: 手机:\n\n部门印章:\n\n日期: 年 月 日\n\n注:\n\n1、请用钢笔或签字笔填写,字迹与印章清晰。\n\n2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
   "blocks": [
     {
@@ -30,735 +151,840 @@
       "text": "附件:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00005",
       "text": "全国银行间同业拆借中心",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00006",
       "text": "债券远期交易保证金集中管理操作细则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00008",
       "text": "第一条 为实行银行间债券市场债券远期交易(以下简称远期交易)履约保障机制,防范远期交易达成后的违约风险,保证远期交易合同的履行,根据《全国银行间债券市场债券远期交易管理规定》、《全国银行间债券市场债券远期交易主协议》、《全国银行间债券市场债券远期交易规则》等有关规定、规则,制定本细则。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00009",
       "text": "第二条 本细则所称保证金集中管理是指远期交易市场参与者(以下简称市场参与者)在远期交易中约定将保证金统一存放于中国外汇交易中心暨全国银行间同业拆借中心(以下简称交易中心)在中国人民银行开立的保证金管理账户中,由交易中心集中代为保管的方式。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00010",
       "text": "第三条 市场参与者根据自愿原则与交易中心签署《债券远期交易保证金管理协议》(以下简称协议)。经签署的该协议可同时视作同意开立保证金账户的申请文件。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00011",
       "text": "第四条 交易中心在保证金管理账户下为市场参与者开立保证金账户(含冻结户和待处理户)。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00012",
       "text": "市场参与者保证金账户的名称为其在交易系统的交易成员全称。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00013",
       "text": "第五条 市场参与者需向交易中心提交“资金账户信息表”(见附件1),并按该表中指定的资金账户向交易中心提交保证金。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00014",
       "text": "若市场参与者需变更“资金账户信息表”中所列事项的,应重新填写该表并提交。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00015",
       "text": "第六条 交易中心在收到经市场参与者签署的协议后三个工作日内为其办理保证金开户事宜,并书面通知该市场参与者。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00016",
       "text": "第七条 市场参与者保证金账户中所记载的保证金(包括本金及其孳息)的所有权属于保证金账户所有人(即保证金账户名称所标明的市场参与者)所有。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00017",
       "text": "第八条 交易中心不对市场参与者保证金账户提供透支和垫付。交易中心对保证金账户变动情况保密,但国家法律法规另有规定或市场参与者另有约定的除外。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00018",
       "text": "第九条 保证金账户记录市场参与者提交的准备用于保证远期交易履约的保证金。该账户余额可根据市场参与者指令调回。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00019",
       "text": "冻结户记录市场参与者提交的为已达成的远期交易设置履约保障而被暂时冻结的保证金,可根据交易双方约定追加或减少。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00020",
       "text": "待处理户记录被举报、违约或其它合法需要而等待处置的违约方保证金,该资金金额按照双方约定或法定程序处置。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00021",
       "text": "冻结户、待处理户内的保证金不可调回。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00022",
       "text": "第十条 市场参与者双方约定提交保证金的,提交方应于约定的保证金提交日在保证金账户中备有足额资金用于提交保证金。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00023",
       "text": "市场参与者在向保证金账户存入保证金时,应使用事先指定的资金账户并在汇款附言中注明保证金字样。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00024",
       "text": "第十一条 交易中心于远期交易成交双方约定的保证金提交日(北京时间)16:30按成交编号的顺序逐笔全额将提交方根据其达成的远期交易所需要缴纳的保证金从提交方保证金账户划转至提交方冻结户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00025",
       "text": "第十二条 在保证金提交日(北京时间)16:30,提交方保证金账户内无足额资金用于划转的,交易中心通知提交方补足资金,同时通知其远期交易的对手方,由该成交双方按《全国银行间债券市场债券远期交易主协议》的有关规定处理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00026",
       "text": "第十三条 在远期交易双方达成的远期交易结算日,若相关的成交双方履行了资金支付和债券交割义务并且交易中心未接到违约举报的,交易中心在该结算日的下一工作日(北京时间)12:00将该笔远期交易已经划转的保证金从提交方冻结户划回至提交方保证金账户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00027",
       "text": "第十四条 如在远期交易双方达成的远期交易结算日下一工作日(北京时间)11:30前,交易中心接到该远期交易成交任何一方的违约举报(见附件2)后,交易中心将相关当事方的冻结户上与该笔交易相关的保证金划转至其待处理户,并通知该交易成交双方。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00028",
       "text": "第十五条 如原举报方提出撤消举报(见附件3)的,在经被举报方同意后,交易中心将待处理户的保证金从提交方待处理户划回至提交方保证金账户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00029",
       "text": "第十六条 远期交易成交双方就违约事实和/或违约责任认定达成协议后需书面通知交易中心,交易中心在收到书面通知的当日,或收到相关仲裁/诉讼结果的当日,根据书面通知或仲裁/诉讼结果的内容,交易中心在违约方待处理户上继续冻结已经划转的与该交易相关的保证金。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00030",
       "text": "第十七条 交易中心收到经远期交易成交双方签署的违约处理书面协议后,或收到相关仲裁/诉讼结果后,根据协议或仲裁/诉讼结果中明确的违约赔偿和补偿金额在成交双方的保证金账户之间进行划付处理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00031",
       "text": "若成交双方约定的违约赔偿和补偿金额没有超过已经根据上述第十六条规定冻结的违约方的保证金金额,则交易中心将相应违约赔偿和补偿金额从违约方的待处理户划至非违约方保证金账户,并将剩余金额从违约方的待处理户划回其保证金账户;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00032",
       "text": "若成交双方约定的违约赔偿和补偿金额大于已经根据上述第十六条规定冻结的违约方的保证金金额,则先将已经冻结的保证金全额从违约方的待处理户划至非违约方保证金账户,不足金额部分再从违约方保证金账户直接划至非违约方保证金账户;若违约方保证金账户余额不足以支付上述剩余的违约赔偿和补偿金额,交易中心将通知违约方补足。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00033",
       "text": "第十八条 保证金利息计付按照中国人民银行有关规定办理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00034",
       "text": "第十九条 市场参与者可以传真的方式向交易中心发出《资金调回指令》(见附件4),将其保证金账户内的资金调回“资金账户信息表”上注明的指定资金账户。如需当日将资金调回的,应于当日14:00前将指令发送至交易中心,交易中心将根据有效指令于当日16:00前通过中国人民银行支付系统划出。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00035",
       "text": "第二十条 交易中心定期向市场参与者邮寄保证金账户对账单,并对提交方保证金账户的账户余额及资金到帐情况提供查询服务。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00036",
       "text": "第二十一条 市场参与者需注销保证金账户时,应向交易中心提交《债券远期交易保证金账户销户申请》(见附件5),交易中心办理相关销户手续。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00037",
       "text": "第二十二条 本细则由交易中心负责解释。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00038",
       "text": "第二十三条 本细则自发布之日起施行。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00043",
       "text": "附件1:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00044",
       "text": "资金账户信息表",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00045",
       "text": "| 单位全称 |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 清算部门 |  |  |  |  |  |\n| 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 | 清算账户 |\n| 户名 | 户名 |  |  |  |  |\n| 开户行及行号 | 开户行及行号 |  |  |  |  |\n| 账号 | 账号 |  |  |  |  |\n| 联系人 | 姓名 | 办公电话 | 手机 | 手机 | 传真 |\n| 联系人 |  |  |  |  |  |\n| 联系人 |  |  |  |  |  |\n| 单位地址 |  |  |  | 邮编 |  |\n| 备注<br>(启用日期) |  |  |  |  |  |\n|  |  |  |  |  |  |",
       "style": "Table",
       "source_kind": "table",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00048",
       "text": "部门印章:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00050",
       "text": "年 月 日",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00051",
       "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00052",
       "text": "2、“资金帐户”为贵单位在向保证金帐户调入资金时指定的划出资金帐户,同时也是将贵单位保证金户中的资金调出时指定的划入资金帐户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00053",
       "text": "3、“部门印章”为贵单位办理保证金资金存取和业务联系等相关事宜部门的印章,可为前台交易部门或后台会计部门的印章。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00054",
       "text": "4、表中内容发生任何变更时,请重新填写并提交。新表启用的同时旧表作废。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00055",
       "text": "5、本表请填制一式两份,一份寄交易中心,一份自行留存。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00056",
       "text": "6、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00058",
       "text": "附件2:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00059",
       "text": "违约举报指令",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00061",
       "text": "全国银行间同业拆借中心:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00062",
       "text": "我单位于 年 月 日成交的债券远期交易合同(成交编号为 )发生对手方( )违约。违约原因为:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00065",
       "text": "。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00067",
       "text": "举报单位全称:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00068",
       "text": "经办人:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00069",
       "text": "联系电话: 手机:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00070",
       "text": "盖章:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00072",
       "text": "日期: 年 月 日",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00074",
       "text": "注:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00075",
       "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00076",
       "text": "2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00077",
       "text": "3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00079",
       "text": "附件3:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00080",
       "text": "违约举报撤消指令",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00082",
       "text": "全国银行间同业拆借中心:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00083",
       "text": "我单位于 年 月 日提交的违约举报指令,举报的成交编号为 ,对手方为 。现经与对手方协商后撤消举报。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00086",
       "text": "举报单位全称:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00087",
       "text": "经办人:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00088",
       "text": "联系电话: 手机:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00089",
       "text": "盖章:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00091",
       "text": "日期: 年 月 日",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00094",
       "text": "注:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00095",
       "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00096",
       "text": "2、本指令一式两份。一份先以传真方式提交交易中心市场二部,并于传真后立即将原件邮寄至交易中心;一份由市场参与者留存。传真电话:021-63234204 63298441",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00097",
       "text": "3、邮寄地址:上海市中山东一路15号全国银行间同业拆借中心市场二部(200002)",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00099",
       "text": "附件4:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00100",
       "text": "资金调回指令",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00102",
       "text": "全国银行间同业拆借中心:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00103",
       "text": "请将我单位(债券远期交易保证金账户名称 账号 )债券远期交易保证金账户上的资金",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00104",
       "text": "(小写: 大写: )划至“资金账户信息表”中指定的资金账户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00105",
       "text": "户名:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00106",
       "text": "账号:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00107",
       "text": "开户行:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00108",
       "text": "部门印章:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00109",
       "text": "经办人:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00110",
       "text": "联系电话:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00111",
       "text": "手机:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00112",
       "text": "年 月 日",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00113",
       "text": "注:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00114",
       "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00115",
       "text": "2、部门印章须与“资金账户信息表”中“部门印章”一致。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00116",
       "text": "3、本指令所填账户资料须为“资金账户信息表”中所填的指定账户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00117",
       "text": "4、本指令一式两份。一份以传真方式提交交易中心清算部,一份由市场成员留存。传真电话:021-63298883",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00121",
       "text": "附件5:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00122",
       "text": "债券远期交易保证金账户销户申请",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00124",
       "text": "全国银行间同业拆借中心:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00125",
       "text": "我单位申请注销在你中心开立的债券远期交易保证金账户,请你中心收到申请后办理相关的销户手续。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00126",
       "text": "户名:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00127",
       "text": "账号:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00129",
       "text": "特此申请。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00132",
       "text": "申请单位全称:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00133",
       "text": "经办人:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00134",
       "text": "联系电话: 手机:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00135",
       "text": "部门印章:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00137",
       "text": "日期: 年 月 日",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00139",
       "text": "注:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00140",
       "text": "1、请用钢笔或签字笔填写,字迹与印章清晰。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00141",
       "text": "2、请邮寄至交易中心。邮寄地址:上海市中山东一路15号全国银行间同业拆借中心清算部(200002)",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     }
   ]
 }

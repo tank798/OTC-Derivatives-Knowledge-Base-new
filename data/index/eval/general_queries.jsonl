@@ -1,8 +1,0 @@
-{"id":"note_investor_scope","query":"证券公司发行收益凭证，可以向哪些投资者发行？"}
-{"id":"otc_option_natural_person","query":"证券公司能否和自然人直接开展场外期权交易？"}
-{"id":"private_fund_otc_option","query":"私募证券投资基金投资场外期权需要满足哪些条件？"}
-{"id":"derivative_margin_reuse","query":"衍生品经营机构能否再次使用交易对手方交纳的保证金？"}
-{"id":"commercial_bank_derivatives","query":"商业银行开展金融衍生品交易需要满足哪些准入条件？"}
-{"id":"shibor_tenors","query":"Shibor利率互换定盘曲线中的1M、3M、6M、9M期限如何报价？"}
-{"id":"fund_credit_derivative_valuation","query":"证券投资基金投资信用衍生品时，应当按照什么原则进行估值？"}
-{"id":"futures_risk_company_counterparty","query":"期货风险管理公司开展场外衍生品业务，对交易对手方有什么要求？"}

@@ -11,7 +11,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHUNKS_PATH = ROOT / "data/processed/chunks/jsonl/all_chunks.jsonl"
-OUTPUT_PATH = ROOT / "docs/法规与Chunk查看器.html"
+OUTPUT_PATH = ROOT / "docs/场外衍生品法规知识库.html"
+VIEWER_DATA_RE = re.compile(
+    r'(<script\s+type="application/json"\s+id="viewer-data">)(.*?)(</script>)',
+    re.DOTALL,
+)
 
 HISTORICAL_AUTHORITY_MAP = {
     "中国银行业监督管理委员会": "国家金融监督管理总局",
@@ -85,8 +89,46 @@ def validity_category(value: str) -> str:
     return text or "状态未载"
 
 
+def _classification_key(value: str) -> str:
+    return re.sub(
+        r"[\s（）()《》【】\[\]，,。；;：:·—\-_]|(?:19|20)\d{2}年(?:修订|版)",
+        "",
+        Path(value or "").stem,
+    )
+
+
+def existing_classifications() -> dict[str, dict]:
+    """Preserve the manually curated business classifications in the current UI."""
+
+    if not OUTPUT_PATH.exists():
+        return {}
+    match = VIEWER_DATA_RE.search(OUTPUT_PATH.read_text(encoding="utf-8"))
+    if not match:
+        return {}
+    try:
+        old_data = json.loads(match.group(2))
+    except json.JSONDecodeError:
+        return {}
+    lookup: dict[str, dict] = {}
+    fields = (
+        "applicable_entities",
+        "business_categories",
+        "regulatory_topics",
+        "classification_version",
+        "classification_basis",
+    )
+    for document in old_data.get("documents", []):
+        annotation = {field: document.get(field) for field in fields if document.get(field)}
+        for value in (document.get("document_title", ""), document.get("file_name", "")):
+            key = _classification_key(value)
+            if key:
+                lookup[key] = annotation
+    return lookup
+
+
 def public_data() -> dict:
     chunks = read_jsonl(CHUNKS_PATH)
+    classifications = existing_classifications()
     documents: OrderedDict[str, dict] = OrderedDict()
     chunk_ids = [chunk["chunk_id"] for chunk in chunks]
     if len(chunk_ids) != len(set(chunk_ids)):
@@ -132,6 +174,12 @@ def public_data() -> dict:
     for document in documents.values():
         document["chunks"].sort(key=lambda item: item["chunk_index"])
         document["chunk_count"] = len(document["chunks"])
+        annotation = (
+            classifications.get(_classification_key(document["document_title"]))
+            or classifications.get(_classification_key(document["file_name"]))
+            or {}
+        )
+        document.update(annotation)
 
     document_list = list(documents.values())
     priority_position = {
@@ -150,6 +198,7 @@ def public_data() -> dict:
             "documents": len(documents),
             "authorities": len(authorities),
             "chunks": len(chunks),
+            "classification_dimensions": 4,
         },
         "documents": document_list,
     }
@@ -362,7 +411,15 @@ openHash();renderAll();
 def main() -> None:
     data = public_data()
     serialized = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
-    html = HTML.replace("__VIEWER_DATA__", serialized)
+    if OUTPUT_PATH.exists() and VIEWER_DATA_RE.search(OUTPUT_PATH.read_text(encoding="utf-8")):
+        current_html = OUTPUT_PATH.read_text(encoding="utf-8")
+        html = VIEWER_DATA_RE.sub(
+            lambda match: f"{match.group(1)}{serialized}{match.group(3)}",
+            current_html,
+            count=1,
+        )
+    else:
+        html = HTML.replace("__VIEWER_DATA__", serialized)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(html, encoding="utf-8")
     print(

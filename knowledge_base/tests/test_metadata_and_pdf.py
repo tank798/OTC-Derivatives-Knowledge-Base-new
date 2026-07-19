@@ -1,24 +1,219 @@
 from pathlib import Path
 import sys
+import tempfile
 import unittest
 
 PROGRAM_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROGRAM_ROOT))
 
-from models import SourceBlock
+from models import ParsedDocument, SourceBlock
 from docx import Document
 from docx.oxml import OxmlElement
 from docx.text.paragraph import Paragraph
 from parsers.docx_parser import paragraph_xml_text, strip_front_page_metadata, strip_word_toc
+from parsers.dispatcher import parse_file
 from parsers.legacy_doc_parser import _blocks_from_plain_text
 from parsers.text_parser import _OfficialBodyHTML
 from parsers.pdf_parser import merge_cross_page_paragraphs, normalize_pdf_table_cell, normalize_semantic_table, remove_toc_entries, split_semantic_table_content
 from parsers.pdf_formula_overrides import apply_verified_formula_overrides
 from utils.metadata import infer_metadata
+from utils.front_matter import clean_front_matter
 from utils.text import clean_text, is_page_number
 
 
 class MetadataAndPdfTests(unittest.TestCase):
+    def test_structural_front_matter_cleaning_is_scoped_before_articles(self):
+        document = ParsedDocument(
+            Path("公开募集证券投资基金投资信用衍生品指引.docx"),
+            "docx",
+            [
+                SourceBlock("公开募集证券投资基金投资信用衍生品指引", block_id="b1"),
+                SourceBlock("证监会公告〔2019〕第1号", block_id="b2"),
+                SourceBlock("现公布《公开募集证券投资基金投资信用衍生品指引》，自公布之日起施行。", block_id="b3"),
+                SourceBlock("公开募集证券投资基金投资信用衍生品指引", block_id="b4"),
+                SourceBlock("第一条 为规范基金投资行为，制定本指引。", block_id="b5"),
+                SourceBlock("第十一条 本指引自公布之日起施行。", block_id="b6"),
+            ],
+            {
+                "document_title": "公开募集证券投资基金投资信用衍生品指引",
+                "issuing_authority": "中国证券监督管理委员会",
+            },
+        )
+        clean_front_matter(document)
+        values = [block.text for block in document.blocks]
+        self.assertNotIn("证监会公告〔2019〕第1号", values)
+        self.assertFalse(any(value.startswith("现公布") for value in values))
+        self.assertIn("第十一条 本指引自公布之日起施行。", values)
+        self.assertEqual(document.metadata["document_number"], "证监会公告〔2019〕第1号")
+        self.assertEqual(document.cleaning["status"], "changed")
+
+    def test_notice_body_and_referenced_document_number_are_preserved(self):
+        document = ParsedDocument(
+            Path("关于加强场外衍生品业务自律管理的通知.docx"),
+            "docx",
+            [
+                SourceBlock("中证协发〔2017〕123号", block_id="b1"),
+                SourceBlock("各证券公司：", block_id="b2"),
+                SourceBlock("现将有关事项通知如下：", block_id="b3"),
+                SourceBlock("一、执行中证协发〔2016〕8号文件。", block_id="b4"),
+            ],
+            {
+                "document_title": "关于加强场外衍生品业务自律管理的通知",
+                "issuing_authority": "中国证券业协会",
+            },
+        )
+        clean_front_matter(document)
+        values = [block.text for block in document.blocks]
+        self.assertEqual(values[0], "各证券公司：")
+        self.assertIn("现将有关事项通知如下：", values)
+        self.assertIn("一、执行中证协发〔2016〕8号文件。", values)
+
+    def test_split_guide_cover_is_metadata_not_chunk_body(self):
+        document = ParsedDocument(
+            Path("上交所期货公司股票期权经纪业务指南（2026年修订）.docx"),
+            "docx",
+            [
+                SourceBlock("附件2", block_id="b1"),
+                SourceBlock("期货公司股票期权", block_id="b2"),
+                SourceBlock("经纪业务指南", block_id="b3"),
+                SourceBlock("上海证券交易所", block_id="b4"),
+                SourceBlock("2026年6月", block_id="b5"),
+                SourceBlock("说明及声明", block_id="b6"),
+                SourceBlock("本指南供期货公司开展股票期权经纪业务时参考。", block_id="b7"),
+                SourceBlock("第一章 总体要求", block_id="b8"),
+            ],
+            {
+                "document_title": "上海证券交易所期货公司股票期权经纪业务指南（2026年修订）",
+                "issuing_authority": "上海证券交易所",
+            },
+        )
+        clean_front_matter(document)
+        values = [block.text for block in document.blocks]
+        self.assertEqual(
+            values,
+            [
+                "说明及声明",
+                "本指南供期货公司开展股票期权经纪业务时参考。",
+                "第一章 总体要求",
+            ],
+        )
+        self.assertEqual(
+            set(document.cleaning["rule_hits"]),
+            {"cover_attachment_label", "cover_authority", "cover_document_title", "cover_month"},
+        )
+
+    def test_multiple_guide_cover_titles_are_removed_in_one_pass_and_cleaning_is_idempotent(self):
+        document = ParsedDocument(
+            Path("上交所证券公司股票期权经纪业务指南（2026年修订）.docx"),
+            "docx",
+            [
+                SourceBlock("证券公司股票期权", block_id="b1"),
+                SourceBlock("经纪业务指南", block_id="b2"),
+                SourceBlock("上海证券交易所", block_id="b3"),
+                SourceBlock("2026年6月", block_id="b4"),
+                SourceBlock("证券公司股票期权经纪业务指南", block_id="b5"),
+                SourceBlock("说明及声明", block_id="b6"),
+                SourceBlock("第一章 总则", block_id="b7"),
+                SourceBlock("第一条 本指南适用于证券公司。", block_id="b8"),
+            ],
+            {
+                "document_title": "上海证券交易所证券公司股票期权经纪业务指南（2026年修订）",
+                "issuing_authority": "上海证券交易所",
+            },
+        )
+
+        clean_front_matter(document)
+        once = [block.text for block in document.blocks]
+        chars_after = document.cleaning["chars_after"]
+        clean_front_matter(document)
+
+        self.assertEqual(once, ["说明及声明", "第一章 总则", "第一条 本指南适用于证券公司。"])
+        self.assertEqual([block.text for block in document.blocks], once)
+        self.assertEqual(document.cleaning["chars_after"], chars_after)
+
+    def test_split_publication_page_is_removed_but_formal_effective_article_is_preserved(self):
+        document = ParsedDocument(
+            Path("远期利率协议业务管理规定.doc"),
+            "doc",
+            [
+                SourceBlock("中国人民银行公告", block_id="b1"),
+                SourceBlock("〔2007〕第 20号", block_id="b2"),
+                SourceBlock(
+                    "中国人民银行制定了《远期利率协议业务管理规定》，现予公布。",
+                    block_id="b3",
+                ),
+                SourceBlock("中国人民银行", block_id="b4"),
+                SourceBlock("二〇〇七年九月二十九日", block_id="b5"),
+                SourceBlock("远期利率协议业务管理规定", block_id="b6"),
+                SourceBlock("第一条 为规范远期利率协议业务，制定本规定。", block_id="b7"),
+                SourceBlock("第二十条 本规定自2007年11月1日起施行。", block_id="b8"),
+            ],
+            {
+                "document_title": "中国人民银行公告[2007]第20号：远期利率协议业务管理规定",
+                "issuing_authority": "中国人民银行",
+            },
+        )
+
+        clean_front_matter(document)
+
+        self.assertEqual(
+            [block.text for block in document.blocks],
+            ["第一条 为规范远期利率协议业务，制定本规定。", "第二十条 本规定自2007年11月1日起施行。"],
+        )
+        self.assertEqual(document.metadata["document_number"], "中国人民银行公告〔2007〕第20号")
+
+    def test_substantive_notice_preamble_is_not_treated_as_publication_wrapper(self):
+        document = ParsedDocument(
+            Path("实施指引通知.docx"),
+            "docx",
+            [
+                SourceBlock(
+                    "我会组织起草了《实施指引》，现予发布，自即日起实施。现就有关事项通知如下：",
+                    block_id="b1",
+                ),
+                SourceBlock("一、各机构应当遵照执行。", block_id="b2"),
+            ],
+            {"document_title": "关于发布实施指引的通知", "issuing_authority": "中国证券业协会"},
+        )
+
+        clean_front_matter(document)
+
+        self.assertEqual(len(document.blocks), 2)
+
+    def test_trailing_source_links_are_removed_after_final_article(self):
+        document = ParsedDocument(
+            Path("测试办法.doc"),
+            "doc",
+            [
+                SourceBlock("第一条 正文。", block_id="b1"),
+                SourceBlock("第二条 本办法自公布之日起施行。", block_id="b2"),
+                SourceBlock("有关部门负责人就《测试办法》答记者问", block_id="b3"),
+                SourceBlock("https://example.gov.cn/interview", block_id="b4"),
+                SourceBlock("有关部门发布《测试办法》", block_id="b5"),
+                SourceBlock("https://example.gov.cn/release", block_id="b6"),
+            ],
+            {"document_title": "测试办法", "issuing_authority": "测试机关"},
+        )
+        clean_front_matter(document)
+        self.assertEqual(
+            [block.text for block in document.blocks],
+            ["第一条 正文。", "第二条 本办法自公布之日起施行。"],
+        )
+        self.assertIn("trailing_source_reference", document.cleaning["rule_hits"])
+
+    def test_doc_extension_with_ooxml_signature_uses_docx_parser(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "扩展名错误的指南.doc"
+            source = Path(directory) / "source.docx"
+            word = Document()
+            word.add_paragraph("测试业务指南")
+            word.add_paragraph("第一条 正文。")
+            word.save(source)
+            path.write_bytes(source.read_bytes())
+            parsed = parse_file(path)
+        self.assertEqual(parsed.source_type, "docx")
+        self.assertTrue(any("第一条 正文" in block.text for block in parsed.blocks))
+
     def test_front_page_timestamp_is_removed_but_article_date_is_kept(self):
         blocks = [
             SourceBlock("测试定义文件", block_id="b1"),
@@ -135,6 +330,21 @@ class MetadataAndPdfTests(unittest.TestCase):
         filtered, removed = strip_word_toc(blocks)
         self.assertEqual(removed, 3)
         self.assertEqual([block.block_id for block in filtered], ["b1", "b5", "b6", "b7", "b8", "b9", "b10", "b11"])
+
+    def test_unstyled_guide_toc_is_removed_before_repeated_declaration(self):
+        blocks = [
+            SourceBlock("目 录", block_id="b1"),
+            SourceBlock("说明及声明", block_id="b2"),
+            SourceBlock("第一章 总体要求 1", block_id="b3"),
+            SourceBlock("一、组织架构 2", block_id="b4"),
+            SourceBlock("第二章 业务申请 6", block_id="b5"),
+            SourceBlock("说明及声明", block_id="b6"),
+            SourceBlock("本指南供业务办理时参考。", block_id="b7"),
+            SourceBlock("第一章 总体要求", block_id="b8"),
+        ]
+        filtered, removed = strip_word_toc(blocks)
+        self.assertEqual(removed, 5)
+        self.assertEqual([block.block_id for block in filtered], ["b6", "b7", "b8"])
 
     def test_spaced_page_number_is_detected(self):
         self.assertTrue(is_page_number("— 1 0 —"))

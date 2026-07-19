@@ -1,37 +1,43 @@
 {
   "version": 1,
-  "generated_at": "2026-07-13T07:59:47.585Z",
+  "generated_at": "2026-07-19T06:17:38.858Z",
   "source": {
     "path": "data/processed/chunks/jsonl/all_chunks.jsonl",
-    "sha256": "cd48623ddf399e5e03fec78095e3206887e8f00a95255a89fc2f76b3f674f633",
+    "sha256": "6d6e6791f2db7c3178ba6b3616967a031cf82c4663e3393b02a294cd28f17523",
     "unique_body_source": true,
     "legacy_clauses_enabled": false
   },
   "corpus": {
     "path": "data/index/corpus.jsonl",
-    "sha256": "afc5be3ccf943aaf878a6633ac6aa552e351747519d3d020964f0b9a0f3c12eb",
-    "document_count": 108,
-    "chunk_count": 1228,
-    "official_url_count": 108
+    "sha256": "941a773778ec97f29eb2b4cc1aa223df381a09f2b5c7dc489058a2125d8970fd",
+    "document_count": 114,
+    "chunk_count": 1700,
+    "official_url_count": 114
   },
   "bm25": {
     "path": "data/index/bm25/index.json",
-    "sha256": "aaebc0d389e2c97e8a1836bfecc83a4022e8d22360257f052351bf97a6a03167",
+    "sha256": "ad05a28c1f39b6e266c262db4bb6ef9acd50c8a1114fd6cf509093d27a1a199b",
     "tokenizer": "nfkc+cjk_bigram+otc_domain_terms",
     "field_weighting": "none",
     "k1": 1.5,
     "b": 0.75,
-    "vocabulary_size": 50581
+    "vocabulary_size": 54868
   },
   "vectors": {
     "path": "data/index/vectors.f32",
     "metadata_path": "data/index/vector_metadata.json",
-    "sha256": "4884e80a64ecc551ffebaa810dbdc0edaf57f8c56e61582dd76c013d6608353c",
+    "sha256": "b7a1a113a31defab32d0d6cc6531ba282482d3b5beefc90b354198d9e10948fd",
     "model_id": "Xenova/bge-base-zh-v1.5",
     "model_revision": "71e50dc531959f9e04ebf190ea25b00261a0a186",
     "model_dtype": "q8",
     "dimension": 768,
-    "chunk_count": 1228
+    "chunk_count": 1700,
+    "incremental_build": {
+      "enabled": true,
+      "reused_chunk_count": 1183,
+      "embedded_chunk_count": 517,
+      "retired_or_changed_previous_chunk_count": 45
+    }
   },
   "fusion": {
     "method": "equal_weight_rrf",
@@ -45,5 +51,5 @@
     "review_duplicate_groups": 0,
     "intentional_overlap_groups": 0
   },
-  "build_fingerprint": "b8988bd071f09c2251ce91660f8edd7a86d54e135111b3efab69bf41c323b637"
+  "build_fingerprint": "d191614d5f8c2af4d13519528b5eee220b54d1c61499c6f557a617acf0fd79d2"
 }

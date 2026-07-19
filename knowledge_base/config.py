@@ -35,6 +35,7 @@ PARSER_VERSION = "2.4.2-cross-page-continuations+clean-pdf-table-cells"
 DOCX_PARSER_VERSION = "2.3.1-smarttag-text+toc-style-scope+front-metadata"
 LEGACY_DOC_PARSER_VERSION = "2.3.0-direct-text-preserve-preface"
 OFFICIAL_HTML_PARSER_VERSION = "2.2.0-footnote-structure"
+CLEANING_RULE_VERSION = "1.3.0-structural-publication-pages-and-source-links"
 CHUNKER_BASE_VERSION = "3.2.0-inline-list-markers"
 CHUNKER_MULTIPART_VERSION = "3.2.0-inline-list-markers+multipart-reset"
 CHUNKER_VERSION = "3.2.0-inline-list-markers+embedded-part+official-footnote"
@@ -50,3 +51,16 @@ def parser_version_for_suffix(suffix: str, *, uses_official_cache: bool = False)
     if normalized == ".pdf" and uses_official_cache:
         return f"{PARSER_VERSION}:{OFFICIAL_HTML_PARSER_VERSION}"
     return PARSER_VERSION
+
+
+def parser_version_for_path(path: Path, *, uses_official_cache: bool = False) -> str:
+    """Return the parser version for the file's real container, not its suffix."""
+    suffix = path.suffix.lower()
+    if suffix in {".doc", ".docx"}:
+        with path.open("rb") as handle:
+            signature = handle.read(8)
+        if signature.startswith(b"PK"):
+            return f"{PARSER_VERSION}:{DOCX_PARSER_VERSION}"
+        if signature == bytes.fromhex("D0CF11E0A1B11AE1"):
+            return f"{PARSER_VERSION}:{LEGACY_DOC_PARSER_VERSION}"
+    return parser_version_for_suffix(suffix, uses_official_cache=uses_official_cache)

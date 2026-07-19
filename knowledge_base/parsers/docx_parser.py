@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 import re
+import tempfile
+from zipfile import ZIP_DEFLATED, ZipFile
 
 from docx import Document
 from docx.table import Table
@@ -10,10 +12,37 @@ from docx.oxml.ns import qn
 
 from models import ParsedDocument, SourceBlock
 from utils.metadata import infer_metadata
-from utils.text import clean_text, is_page_number, is_toc_field, markdown_table, strip_repeated_front_structure
+from utils.text import clean_text, compact, is_page_number, is_toc_field, markdown_table, strip_repeated_front_structure
 
 
 FRONT_PAGE_TIMESTAMP_RE = re.compile(r"^时间\s*[:：]\s*\d{4}[-/.]\d{1,2}[-/.]\d{1,2}$")
+
+
+def open_word_document(path: Path):
+    """Open OOXML Word files without changing the original container.
+
+    Some exchange downloads use a .docx name while declaring the main part as
+    macro-enabled Word content. python-docx rejects that content type even
+    though the visible WordprocessingML is otherwise standard. For extraction,
+    create a temporary macro-free package declaration and leave the source
+    bytes untouched.
+    """
+    try:
+        return Document(path), None
+    except ValueError as exc:
+        if "macroEnabled.main+xml" not in str(exc):
+            raise
+    temp_dir = tempfile.TemporaryDirectory(prefix="regulatory_docm_")
+    converted = Path(temp_dir.name) / f"{path.stem}.docx"
+    macro_type = b"application/vnd.ms-word.document.macroEnabled.main+xml"
+    standard_type = b"application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"
+    with ZipFile(path) as source, ZipFile(converted, "w", ZIP_DEFLATED) as target:
+        for item in source.infolist():
+            payload = source.read(item.filename)
+            if item.filename == "[Content_Types].xml":
+                payload = payload.replace(macro_type, standard_type)
+            target.writestr(item, payload)
+    return Document(converted), temp_dir
 
 
 def strip_front_page_metadata(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
@@ -78,6 +107,30 @@ def strip_word_toc(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
         styled_end += 1
     if styled_end > marker + 1:
         return blocks[:marker] + blocks[styled_end:], styled_end - marker
+    # 业务指南常见无TOC样式的纯文本目录，条目末尾直接跟页码，
+    # 正文从再次出现的“说明及声明”或第一章开始。按规范化标题寻找
+    # 重复起点，不要求正文一定含“第X条”。
+    def toc_key(value: str) -> str:
+        return re.sub(r"\s+\d{1,4}\s*$", "", re.sub(r"\s+", " ", clean_text(value))).strip()
+
+    guide_prefix = blocks[marker + 1:min(marker + 130, len(blocks))]
+    page_suffixed = sum(
+        bool(re.search(r"\s+\d{1,4}\s*$", clean_text(block.text)))
+        and bool(re.match(r"^(?:第.+[章节]|[一二三四五六七八九十百]+[、.]|附件|附录|说明及声明)", clean_text(block.text)))
+        for block in guide_prefix
+    )
+    if guide_prefix and page_suffixed >= 3:
+        first_key = toc_key(guide_prefix[0].text)
+        duplicate = next(
+            (
+                index for index in range(marker + 2, len(blocks))
+                if toc_key(blocks[index].text) == first_key
+                and not re.search(r"\s+\d{1,4}\s*$", clean_text(blocks[index].text))
+            ),
+            None,
+        )
+        if duplicate is not None:
+            return blocks[:marker] + blocks[duplicate:], duplicate - marker
     for index in range(marker + 2, len(blocks)):
         value = re.sub(r"\s+", "", clean_text(blocks[index].text))
         earlier = {re.sub(r"\s+", "", clean_text(block.text)) for block in blocks[marker + 1:index]}
@@ -99,11 +152,15 @@ def strip_word_toc(blocks: list[SourceBlock]) -> tuple[list[SourceBlock], int]:
                 continue
             break
         return blocks[:marker] + blocks[start:], start - marker
+    # 若Word目录域本身没有导出任何条目，而后面紧接正式标题和
+    # “说明及声明”，仅删除孤立的“目录”标记。
+    if any(compact(block.text) in {"说明及声明", "声明"} for block in blocks[marker + 1:marker + 6]):
+        return blocks[:marker] + blocks[marker + 1:], 1
     return blocks, 0
 
 
 def parse_docx(path: Path) -> ParsedDocument:
-    document = Document(path)
+    document, temporary_package = open_word_document(path)
     blocks: list[SourceBlock] = []
     sequence = 0
 
@@ -157,5 +214,9 @@ def parse_docx(path: Path) -> ParsedDocument:
             header_footer_text.extend(clean_text(p.text) for p in container.paragraphs if clean_text(p.text))
     if header_footer_text:
         warnings.append("已识别Word页眉页脚，未混入正文：" + " | ".join(dict.fromkeys(header_footer_text))[:300])
+    if temporary_package is not None:
+        warnings.append("宏启用Word容器在临时目录转换声明后只读解析，原文件未修改")
     metadata = infer_metadata(blocks, path)
+    if temporary_package is not None:
+        temporary_package.cleanup()
     return ParsedDocument(path, "docx", blocks, metadata, warnings)

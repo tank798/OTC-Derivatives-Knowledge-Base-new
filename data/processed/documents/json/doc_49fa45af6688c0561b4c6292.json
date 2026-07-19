@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/中国证券期货市场衍生品交易主协议(信用保护合约专用版)备案指引.docx",
   "source_type": "docx",
   "file_sha256": "43746e773fd91230313822af34b699c0c3cf2319cb6a159f8d60d0ef7eeac104",
-  "content_sha256": "3126b165349cb57b4ce54f1adb4539eb3d18236183ce193b161ef354260d1530",
+  "content_sha256": "0f28cf5be6220f03a4a1df86cccefb27011265bb9c8529574d0e76e15bd68023",
   "metadata": {
     "document_title": "中国证券期货市场衍生品交易主协议(信用保护合约专用版)备案指引",
     "issuing_authority": "中国证券业协会",
@@ -21,205 +21,292 @@
     "source_status": "local_original_verified",
     "legacy_document_id": "doc_source_43746e773fd912303138"
   },
-  "warnings": [],
+  "warnings": [
+    "前置发布信息清洗：移出1个block，规则front_promulgation_parenthetical"
+  ],
   "extraction_status": "success",
-  "normalized_text": "(协会第六届常务理事会表决通过,2018年12月27日发布)\n\n第一章 总 则\n\n第一条 为规范、促进信用保护合约业务发展,根据中国证券业协会(以下简称“协会”)相关自律规则,制订本指引。\n\n第二条 在交易所市场开展信用保护合约业务所签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》及补充协议(以下简称“信用保护合约主协议及补充协议”)的备案适用本指引。\n\n第三条 报备义务人应当按照本指引要求进行信用保护合约主协议及补充协议的备案。\n\n本指引所称报备义务人是指在上海证券交易所或深圳证券交易所备案成为核心交易商的机构。交易双方均为核心交易商的,则由信用保护合约交易的卖方履行备案职责。\n\n第四条 协会负责信用保护合约主协议及补充协议的备案和自律管理。\n\n第五条 协会根据公平、公正、高效的原则,开展信用保护合约主协议及补充协议备案工作。\n\n第二章 备案程序\n\n第六条 报备义务人应当通过协会指定信息系统报送备案信息及材料。\n\n第七条 报备义务人应当在信用保护合约主协议及补充协议签署之日起5个工作日内进行备案。信用保护合约主协议及补充协议有更新或补充的,报备义务人应当在新协议签署之日起5个工作日内向协会备案。\n\n第八条 备案提交材料包括:\n\n(一)备案基本信息表;\n\n(二)信用保护合约主协议;\n\n(三)信用保护合约补充协议。\n\n第九条 协会对信用保护合约主协议及补充协议的备案进行齐备性审核,审核内容包括但不限于:\n\n(一)备案材料是否齐备;\n\n(二)主协议和补充协议要素是否完备。\n\n第十条 备案材料齐备的,协会在材料齐备后5个工作日内出具电子备案确认函。备案材料不齐备的,协会在备案提交之日起5个工作日内一次性告知报备义务人补正。按照要求补正的,协会在材料齐备后5个工作日内出具电子备案确认函。\n\n第三章 自律管理\n\n第十一条 报备义务人应当真实、准确、完整、及时地报送备案材料,并对备案材料内容的合规性负责。\n\n第十二条 协会与上海证券交易所、深圳证券交易所建立沟通衔接机制和备案数据共享机制。\n\n第十三条 协会会员类报备义务人及其相关业务人员违反本指引的,协会根据《中国证券业协会自律管理措施和纪律处分实施办法》采取相应自律惩戒措施,并计入协会诚信信息管理系统;涉嫌违法违规的,由协会报告中国证监会及其他有权机构。\n\n非协会会员的报备义务人及其相关业务人员违反本指引或涉嫌违法违规的,由协会报告中国证监会及其他有权机构。\n\n第四章 附 则\n\n第十四条 信用保护合约主协议及补充协议在协会备案,不代表协会合规性审查,不构成市场准入,也不豁免相关主体的违规责任。\n\n第十五条 本指引由协会负责解释。\n\n第十六条 本指引自发布之日起施行。",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "changed",
+    "original_text_sha256": "ca7cab3ffe9c1ebd81abdf4d66c545fe58af0e45a450e261a4358ed756474ad5",
+    "clean_text_sha256": "c4706087ea89f5c13a7977e01b6347fcbeb463cbe6326e27e41cd1d530b6c326",
+    "chars_before": 1055,
+    "chars_after": 1025,
+    "removed_character_count": 30,
+    "rule_hits": [
+      "front_promulgation_parenthetical"
+    ],
+    "removed_front_matter": [
+      {
+        "block_id": "b00001",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "front_promulgation_parenthetical",
+        "action": "moved_to_front_matter",
+        "text": "(协会第六届常务理事会表决通过,2018年12月27日发布)",
+        "character_count": 30
+      }
+    ],
+    "cleaning_log": [
+      {
+        "block_id": "b00001",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "front_promulgation_parenthetical",
+        "action": "moved_to_front_matter",
+        "text": "(协会第六届常务理事会表决通过,2018年12月27日发布)",
+        "character_count": 30
+      }
+    ],
+    "chunk_eligible_block_ids": [
+      "b00002",
+      "b00003",
+      "b00004",
+      "b00005",
+      "b00006",
+      "b00007",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025",
+      "b00026",
+      "b00027",
+      "b00028"
+    ]
+  },
+  "original_text_sha256": "ca7cab3ffe9c1ebd81abdf4d66c545fe58af0e45a450e261a4358ed756474ad5",
+  "clean_text_sha256": "c4706087ea89f5c13a7977e01b6347fcbeb463cbe6326e27e41cd1d530b6c326",
+  "normalized_text": "第一章 总 则\n\n第一条 为规范、促进信用保护合约业务发展,根据中国证券业协会(以下简称“协会”)相关自律规则,制订本指引。\n\n第二条 在交易所市场开展信用保护合约业务所签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》及补充协议(以下简称“信用保护合约主协议及补充协议”)的备案适用本指引。\n\n第三条 报备义务人应当按照本指引要求进行信用保护合约主协议及补充协议的备案。\n\n本指引所称报备义务人是指在上海证券交易所或深圳证券交易所备案成为核心交易商的机构。交易双方均为核心交易商的,则由信用保护合约交易的卖方履行备案职责。\n\n第四条 协会负责信用保护合约主协议及补充协议的备案和自律管理。\n\n第五条 协会根据公平、公正、高效的原则,开展信用保护合约主协议及补充协议备案工作。\n\n第二章 备案程序\n\n第六条 报备义务人应当通过协会指定信息系统报送备案信息及材料。\n\n第七条 报备义务人应当在信用保护合约主协议及补充协议签署之日起5个工作日内进行备案。信用保护合约主协议及补充协议有更新或补充的,报备义务人应当在新协议签署之日起5个工作日内向协会备案。\n\n第八条 备案提交材料包括:\n\n(一)备案基本信息表;\n\n(二)信用保护合约主协议;\n\n(三)信用保护合约补充协议。\n\n第九条 协会对信用保护合约主协议及补充协议的备案进行齐备性审核,审核内容包括但不限于:\n\n(一)备案材料是否齐备;\n\n(二)主协议和补充协议要素是否完备。\n\n第十条 备案材料齐备的,协会在材料齐备后5个工作日内出具电子备案确认函。备案材料不齐备的,协会在备案提交之日起5个工作日内一次性告知报备义务人补正。按照要求补正的,协会在材料齐备后5个工作日内出具电子备案确认函。\n\n第三章 自律管理\n\n第十一条 报备义务人应当真实、准确、完整、及时地报送备案材料,并对备案材料内容的合规性负责。\n\n第十二条 协会与上海证券交易所、深圳证券交易所建立沟通衔接机制和备案数据共享机制。\n\n第十三条 协会会员类报备义务人及其相关业务人员违反本指引的,协会根据《中国证券业协会自律管理措施和纪律处分实施办法》采取相应自律惩戒措施,并计入协会诚信信息管理系统;涉嫌违法违规的,由协会报告中国证监会及其他有权机构。\n\n非协会会员的报备义务人及其相关业务人员违反本指引或涉嫌违法违规的,由协会报告中国证监会及其他有权机构。\n\n第四章 附 则\n\n第十四条 信用保护合约主协议及补充协议在协会备案,不代表协会合规性审查,不构成市场准入,也不豁免相关主体的违规责任。\n\n第十五条 本指引由协会负责解释。\n\n第十六条 本指引自发布之日起施行。",
   "blocks": [
-    {
-      "block_id": "b00001",
-      "text": "(协会第六届常务理事会表决通过,2018年12月27日发布)",
-      "style": "Normal",
-      "source_kind": "paragraph",
-      "page": 0
-    },
     {
       "block_id": "b00002",
       "text": "第一章 总 则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00003",
       "text": "第一条 为规范、促进信用保护合约业务发展,根据中国证券业协会(以下简称“协会”)相关自律规则,制订本指引。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00004",
       "text": "第二条 在交易所市场开展信用保护合约业务所签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》及补充协议(以下简称“信用保护合约主协议及补充协议”)的备案适用本指引。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00005",
       "text": "第三条 报备义务人应当按照本指引要求进行信用保护合约主协议及补充协议的备案。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00006",
       "text": "本指引所称报备义务人是指在上海证券交易所或深圳证券交易所备案成为核心交易商的机构。交易双方均为核心交易商的,则由信用保护合约交易的卖方履行备案职责。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00007",
       "text": "第四条 协会负责信用保护合约主协议及补充协议的备案和自律管理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00008",
       "text": "第五条 协会根据公平、公正、高效的原则,开展信用保护合约主协议及补充协议备案工作。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00009",
       "text": "第二章 备案程序",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00010",
       "text": "第六条 报备义务人应当通过协会指定信息系统报送备案信息及材料。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00011",
       "text": "第七条 报备义务人应当在信用保护合约主协议及补充协议签署之日起5个工作日内进行备案。信用保护合约主协议及补充协议有更新或补充的,报备义务人应当在新协议签署之日起5个工作日内向协会备案。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00012",
       "text": "第八条 备案提交材料包括:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00013",
       "text": "(一)备案基本信息表;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00014",
       "text": "(二)信用保护合约主协议;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00015",
       "text": "(三)信用保护合约补充协议。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00016",
       "text": "第九条 协会对信用保护合约主协议及补充协议的备案进行齐备性审核,审核内容包括但不限于:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00017",
       "text": "(一)备案材料是否齐备;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00018",
       "text": "(二)主协议和补充协议要素是否完备。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00019",
       "text": "第十条 备案材料齐备的,协会在材料齐备后5个工作日内出具电子备案确认函。备案材料不齐备的,协会在备案提交之日起5个工作日内一次性告知报备义务人补正。按照要求补正的,协会在材料齐备后5个工作日内出具电子备案确认函。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00020",
       "text": "第三章 自律管理",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00021",
       "text": "第十一条 报备义务人应当真实、准确、完整、及时地报送备案材料,并对备案材料内容的合规性负责。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00022",
       "text": "第十二条 协会与上海证券交易所、深圳证券交易所建立沟通衔接机制和备案数据共享机制。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00023",
       "text": "第十三条 协会会员类报备义务人及其相关业务人员违反本指引的,协会根据《中国证券业协会自律管理措施和纪律处分实施办法》采取相应自律惩戒措施,并计入协会诚信信息管理系统;涉嫌违法违规的,由协会报告中国证监会及其他有权机构。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00024",
       "text": "非协会会员的报备义务人及其相关业务人员违反本指引或涉嫌违法违规的,由协会报告中国证监会及其他有权机构。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00025",
       "text": "第四章 附 则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00026",
       "text": "第十四条 信用保护合约主协议及补充协议在协会备案,不代表协会合规性审查,不构成市场准入,也不豁免相关主体的违规责任。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00027",
       "text": "第十五条 本指引由协会负责解释。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00028",
       "text": "第十六条 本指引自发布之日起施行。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     }
   ]
 }

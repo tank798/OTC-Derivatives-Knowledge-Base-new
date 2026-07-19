@@ -12,6 +12,7 @@ class SourceBlock:
     source_kind: str = "paragraph"
     page: int = 0
     block_id: str = ""
+    region: str = "body"
 
 
 @dataclass
@@ -22,6 +23,7 @@ class ParsedDocument:
     metadata: dict[str, str]
     warnings: list[str] = field(default_factory=list)
     extraction_status: str = "success"
+    cleaning: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass

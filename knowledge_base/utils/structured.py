@@ -36,6 +36,9 @@ def document_to_row(document: ParsedDocument, document_id: str, file_hash: str) 
         "metadata": document.metadata,
         "warnings": document.warnings,
         "extraction_status": document.extraction_status,
+        "cleaning": document.cleaning,
+        "original_text_sha256": document.cleaning.get("original_text_sha256", ""),
+        "clean_text_sha256": document.cleaning.get("clean_text_sha256", content_hash(document)),
         "normalized_text": normalized_text,
         "blocks": [
             {
@@ -44,6 +47,7 @@ def document_to_row(document: ParsedDocument, document_id: str, file_hash: str) 
                 "style": block.style,
                 "source_kind": block.source_kind,
                 "page": block.page,
+                "region": block.region,
             }
             for block in document.blocks
         ],
@@ -59,6 +63,7 @@ def row_to_document(row: dict[str, Any], current_path: Path | None = None) -> Pa
         dict(row.get("metadata", {})),
         list(row.get("warnings", [])),
         row.get("extraction_status", "success"),
+        dict(row.get("cleaning", {})),
     )
 
 

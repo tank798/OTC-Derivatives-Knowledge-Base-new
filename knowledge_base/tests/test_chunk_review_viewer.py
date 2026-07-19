@@ -34,7 +34,7 @@ class ChunkReviewViewerTests(unittest.TestCase):
 
     def test_public_viewer_uses_actual_file_extensions_and_preserves_totals(self):
         data = public_data()
-        self.assertEqual(data["summary"]["documents"], 108)
+        self.assertEqual(data["summary"]["documents"], 114)
         self.assertEqual(data["summary"]["chunks"], sum(len(document["chunks"]) for document in data["documents"]))
         self.assertGreater(data["summary"]["chunks"], 0)
         self.assertEqual(data["documents"][0]["navigation_authority"], "中国证券监督管理委员会")

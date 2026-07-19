@@ -15,6 +15,7 @@ from chunkers.structure import is_embedded_part_heading, is_official_footnote_he
 from exporters import export_all, export_file, export_structured_documents
 from parsers import parse_file
 from utils.catalog import canonical_document_id, catalog_by_filename, load_catalog, merge_metadata, metadata_hash, resolve_catalog_record
+from utils.front_matter import clean_front_matter
 from utils.structured import content_hash, document_to_row, load_document, save_document
 from utils.text import body_char_count, compact, sha256_file, stable_id
 from utils.validation import article_number, validate_outputs
@@ -199,6 +200,7 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="忽略增量缓存，重新解析和切分所有文件")
     parser.add_argument("--limit", type=int, default=0, help="仅处理前N个文件，用于调试；不应用于正式构建")
     parser.add_argument("--file", action="append", default=[], help="仅处理文件名中包含该文本的文件")
+    parser.add_argument("--reparse-file", action="append", default=[], help="强制重新解析匹配文件，其余文档仍复用缓存")
     parser.add_argument("--disable-semantic", action="store_true")
     parser.add_argument("--disable-llm", action="store_true", help="禁用DeepSeek语义边界复核")
     args = parser.parse_args()
@@ -273,9 +275,10 @@ def main() -> int:
             continue
 
         file_hash = sha256_file(path)
+        force_file = any(token in path.name for token in args.reparse_file)
         auxiliary_source = config.OFFICIAL_TEXT_CACHE_DIR / f"{path.stem}.html" if path.suffix.lower() == ".pdf" else None
         auxiliary_hash = sha256_file(auxiliary_source) if auxiliary_source and auxiliary_source.exists() else ""
-        parser_version = config.parser_version_for_suffix(path.suffix, uses_official_cache=bool(auxiliary_source and auxiliary_source.exists()))
+        parser_version = config.parser_version_for_path(path, uses_official_cache=bool(auxiliary_source and auxiliary_source.exists()))
         catalog_record = resolve_catalog_record(path, catalog_map)
         if not catalog_record:
             LOGGER.warning("未在权威元数据目录匹配：%s", path.name)
@@ -287,7 +290,7 @@ def main() -> int:
         parser_reused = False
 
         if (
-            not args.force
+            not args.force and not force_file
             and previous.get("file_sha256") == file_hash
             and previous.get("auxiliary_source_sha256", "") == auxiliary_hash
             and previous.get("parser_version") == parser_version
@@ -307,7 +310,8 @@ def main() -> int:
 
         document.file_path = path
         document.metadata = merge_metadata(document.metadata, catalog_record)
-        document_id = canonical_document_id(document.metadata, path)
+        document = clean_front_matter(document)
+        document_id = previous.get("document_id") or canonical_document_id(document.metadata, path)
         # 权威元数据可能改变规范化 document_id；输出文件名必须跟随最终 ID，
         # 不能继续沿用解析缓存中的旧路径。
         structured_path = document_output_dir / "json" / f"{document_id}.json"
@@ -320,7 +324,7 @@ def main() -> int:
 
         previous_chunk = resolve_manifest_artifact(manifest_path, previous.get("chunk_jsonl", ""))
         chunk_reused = (
-            not args.force and previous.get("content_sha256") == text_hash
+            not args.force and not force_file and previous.get("content_sha256") == text_hash
             and previous.get("chunker_version") == chunker_version
             and previous.get("semantic_profile") == semantic_profile
             and previous_chunk is not None and previous_chunk.exists()
@@ -352,6 +356,11 @@ def main() -> int:
             "file_sha256": file_hash,
             "auxiliary_source_sha256": auxiliary_hash,
             "content_sha256": text_hash,
+            "original_text_sha256": document.cleaning.get("original_text_sha256", ""),
+            "clean_text_sha256": document.cleaning.get("clean_text_sha256", text_hash),
+            "cleaning_rule_version": config.CLEANING_RULE_VERSION,
+            "cleaning_status": document.cleaning.get("status", "unchanged"),
+            "cleaning_rule_hits": document.cleaning.get("rule_hits", []),
             "metadata_sha256": meta_hash,
             "parser_version": parser_version,
             "chunker_version": chunker_version,
@@ -373,6 +382,18 @@ def main() -> int:
         for stale_path in (document_output_dir / "json").glob("*.json"):
             if stale_path.resolve() not in intended_structured:
                 stale_path.unlink()
+        intended_chunks = {
+            resolve_manifest_artifact(manifest_path, record.get("chunk_jsonl", "")).resolve()
+            for record in new_documents.values()
+            if record.get("chunk_jsonl")
+        }
+        for stale_path in (output_dir / "jsonl").glob("doc_*.jsonl"):
+            if stale_path.resolve() not in intended_chunks:
+                stale_path.unlink()
+        intended_markdown = {f"{document_id}.md" for document_id in new_documents}
+        for stale_path in (output_dir / "markdown").glob("doc_*.md"):
+            if stale_path.name not in intended_markdown:
+                stale_path.unlink()
 
     document_ids = list(new_documents)
     if len(document_ids) != len(set(document_ids)):
@@ -386,10 +407,11 @@ def main() -> int:
     export_all(output_dir, all_rows, summaries, failures, validation, inventory)
     export_structured_documents(document_output_dir, structured_rows)
     manifest = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "parser_version": config.PARSER_VERSION,
         "chunker_version": config.CHUNKER_VERSION,
+        "cleaning_rule_version": config.CLEANING_RULE_VERSION,
         "semantic_profile": semantic_profile,
         "input_dir": config.repository_path(input_dir),
         "metadata_path": config.repository_path(args.metadata),

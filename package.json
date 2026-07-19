@@ -8,6 +8,7 @@
     "dev:api": "corepack pnpm --filter @otc/shared build && corepack pnpm --filter @otc/prompts build && corepack pnpm --filter api start:dev",
     "download:retrieval-model": "bash scripts/download_embedding_model.sh",
     "build:retrieval": "corepack pnpm download:retrieval-model && node scripts/build_retrieval_index.mjs --with-vectors",
+    "build:retrieval:incremental": "node scripts/build_retrieval_index.mjs --with-vectors --incremental-vectors",
     "search:hybrid": "node scripts/hybrid_search.mjs",
     "test:retrieval": "node --test scripts/retrieval/*.test.mjs",
     "test:api-contract": "corepack pnpm --filter @otc/shared build && corepack pnpm --filter @otc/prompts build && corepack pnpm --filter api build && node --test scripts/api/*.test.mjs",

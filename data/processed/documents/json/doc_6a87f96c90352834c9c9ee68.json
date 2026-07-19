@@ -23,6 +23,46 @@
   },
   "warnings": [],
   "extraction_status": "success",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "unchanged",
+    "original_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
+    "clean_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
+    "chars_before": 1067,
+    "chars_after": 1067,
+    "removed_character_count": 0,
+    "rule_hits": [],
+    "removed_front_matter": [],
+    "cleaning_log": [],
+    "chunk_eligible_block_ids": [
+      "b00001",
+      "b00003",
+      "b00004",
+      "b00005",
+      "b00006",
+      "b00007",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025"
+    ]
+  },
+  "original_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
+  "clean_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
   "normalized_text": "Shibor利率互换定盘(收盘)曲线报价规则\n\n一、报价机构资格\n\nShibor利率互换报价机构自动成为Shibor利率互换定盘(收盘)曲线报价机构(报价机构)。上一年度在全国银行间同业拆借中心(交易中心)本币交易系统利率互换交易量排名前30位的其他市场成员可向交易中心申请成为报价机构,申请时应向交易中心提交申请表格(见附表)。\n\n交易中心每半年根据报价机构报价评估情况及申请情况对报价机构进行调整,具体评估办法另行通知。在评估期内,若报价机构未按照本规则要求进行报价或持续提供不合理报价,经交易中心提醒后不予改正的,交易中心可以取消其报价机构资格,并视情况从其他有报价意愿的机构中挑选报价情况良好的机构顶替其报价行资格。交易中心将及时向市场公告报价机构增减情况。\n\n二、报价规则\n\n1、利率互换合约报价:指高信用等级交易商之间针对名义本金为1亿元人民币利率互换交易的报价。利率互换合约参考利率与期限如下:\n\nShibor O/N:1M、3M、6M、9M、1Y;\n\nShibor 1W:1M、3M、6M、9M、1Y ;\n\nShibor 3M:6M、9M、1Y、2Y、3Y、4Y、5Y、7Y、10Y。\n\n2、报价方向:同时报出支付固定利率(bid)和收取固定利率(offer)两个方向。\n\n3、报价时间窗口:每个交易日上午11:30至12:00,下午16:00至16:30。\n\n4、报价界面:中国外汇交易中心本币交易系统利率互换双向报价界面。\n\n三、计算规则\n\n交易中心取各机构报价时间窗口内的最新报价,根据以下规则计算:\n\n1、分别计算bid均值与offer均值\n\n若某个品种bid(offer)报价数量多于16个,则分别去掉4个最高价、4个最低价,对剩余的报价作算术平均。\n\n若某个品种bid(offer)报价数量少于16个,多于8个(含)且为偶数时,剔除相同数量最低、最高报价,对剩余的8个报价作算术平均,得出bid(offer)均值。若bid报价数量为奇数,则先剔除一个最低bid报价后,对剩余的偶数个报价进行计算。若offer报价数量为奇数,则先剔除一个最高offer报价后,对剩余的偶数个报价进行计算。\n\n若某个品种报价数量少于8个,则交易中心将向利率互换市场主要参与机构询价以补足8个报价,再进行平均计算。\n\n2、根据bid(offer)均值计算定盘(收盘)曲线数值\n\n各品种bid均值和offer均值的平均值为该品种定盘(收盘)曲线数值。\n\n四、发布时间及方式\n\n每个交易日上午12:30与下午17:00通过Shibor网、中国货币网同时发布。\n\n五、附则\n\n交易中心将根据市场情况不定期对本规则进行修改并向市场公布。",
   "blocks": [
     {
@@ -30,168 +70,192 @@
       "text": "Shibor利率互换定盘(收盘)曲线报价规则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00003",
       "text": "一、报价机构资格",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00004",
       "text": "Shibor利率互换报价机构自动成为Shibor利率互换定盘(收盘)曲线报价机构(报价机构)。上一年度在全国银行间同业拆借中心(交易中心)本币交易系统利率互换交易量排名前30位的其他市场成员可向交易中心申请成为报价机构,申请时应向交易中心提交申请表格(见附表)。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00005",
       "text": "交易中心每半年根据报价机构报价评估情况及申请情况对报价机构进行调整,具体评估办法另行通知。在评估期内,若报价机构未按照本规则要求进行报价或持续提供不合理报价,经交易中心提醒后不予改正的,交易中心可以取消其报价机构资格,并视情况从其他有报价意愿的机构中挑选报价情况良好的机构顶替其报价行资格。交易中心将及时向市场公告报价机构增减情况。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00006",
       "text": "二、报价规则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00007",
       "text": "1、利率互换合约报价:指高信用等级交易商之间针对名义本金为1亿元人民币利率互换交易的报价。利率互换合约参考利率与期限如下:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00008",
       "text": "Shibor O/N:1M、3M、6M、9M、1Y;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00009",
       "text": "Shibor 1W:1M、3M、6M、9M、1Y ;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00010",
       "text": "Shibor 3M:6M、9M、1Y、2Y、3Y、4Y、5Y、7Y、10Y。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00011",
       "text": "2、报价方向:同时报出支付固定利率(bid)和收取固定利率(offer)两个方向。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00012",
       "text": "3、报价时间窗口:每个交易日上午11:30至12:00,下午16:00至16:30。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00013",
       "text": "4、报价界面:中国外汇交易中心本币交易系统利率互换双向报价界面。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00014",
       "text": "三、计算规则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00015",
       "text": "交易中心取各机构报价时间窗口内的最新报价,根据以下规则计算:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00016",
       "text": "1、分别计算bid均值与offer均值",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00017",
       "text": "若某个品种bid(offer)报价数量多于16个,则分别去掉4个最高价、4个最低价,对剩余的报价作算术平均。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00018",
       "text": "若某个品种bid(offer)报价数量少于16个,多于8个(含)且为偶数时,剔除相同数量最低、最高报价,对剩余的8个报价作算术平均,得出bid(offer)均值。若bid报价数量为奇数,则先剔除一个最低bid报价后,对剩余的偶数个报价进行计算。若offer报价数量为奇数,则先剔除一个最高offer报价后,对剩余的偶数个报价进行计算。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00019",
       "text": "若某个品种报价数量少于8个,则交易中心将向利率互换市场主要参与机构询价以补足8个报价,再进行平均计算。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00020",
       "text": "2、根据bid(offer)均值计算定盘(收盘)曲线数值",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00021",
       "text": "各品种bid均值和offer均值的平均值为该品种定盘(收盘)曲线数值。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00022",
       "text": "四、发布时间及方式",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00023",
       "text": "每个交易日上午12:30与下午17:00通过Shibor网、中国货币网同时发布。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00024",
       "text": "五、附则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00025",
       "text": "交易中心将根据市场情况不定期对本规则进行修改并向市场公布。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     }
   ]
 }

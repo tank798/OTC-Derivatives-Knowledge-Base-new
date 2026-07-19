@@ -25,6 +25,51 @@
     "已识别Word页眉页脚，未混入正文：3"
   ],
   "extraction_status": "success",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "unchanged",
+    "original_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
+    "clean_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
+    "chars_before": 695,
+    "chars_after": 695,
+    "removed_character_count": 0,
+    "rule_hits": [],
+    "removed_front_matter": [],
+    "cleaning_log": [],
+    "chunk_eligible_block_ids": [
+      "b00001",
+      "b00003",
+      "b00005",
+      "b00006",
+      "b00007",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025",
+      "b00026",
+      "b00027",
+      "b00028",
+      "b00029",
+      "b00030",
+      "b00031"
+    ]
+  },
+  "original_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
+  "clean_text_sha256": "2cb2a2d44df8a6eca7012ac20191a06eacb7adb8a661e6cdd1214c4aa92e0f7f",
   "normalized_text": "附件2:\n\n证券公司场外期权业务标的管理须知\n\n为做好场外期权业务标的管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。\n\n适用范围\n\n证券公司场外期权业务挂钩标的适用本须知。\n\n标的类别\n\n交易商可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的的场外期权业务。\n\n筛选标准\n\n挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。\n\n场外期权业务境内股票股指标的,应当符合下列条件:\n\n(一)境内个股\n\n1、在沪深交易所定期调整公布的当期融资融券标的名单内;\n\n2、协会认可的其他条件。\n\n(二)境内股票指数\n\n1、应为经权威机构认可,具有指数编制及发布权限的机构发布的指数;\n\n2、指数具有可投资性且流动性良好,指数计算发布应由第三方机构独立管理;\n\n3、协会认可的其他条件。\n\n标的使用\n\n(一)交易商应结合自身业务定位和风险管理能力,制定相应的场外期权业务标的筛选标准和管理流程,持续动态管理交易标的。\n\n(二)交易商开展场外期权业务挂钩个股及指数标的不得超出协会规定的范围。\n\n(三)协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务挂钩标的管理。\n\n(四)一级交易商对二级交易商挂钩标的范围等承担评估职责。\n\n(五)对于超出标的范围的存续场外期权合约不得展期,且持有到期后不得新开该标的的合约;由于标的个股停牌等特殊情况无法按期了结的,应在标的个股复牌可交易后的二十个交易日内了结。\n\n持续管理\n\n出现下列情形之一的,交易商不得新开和展期挂钩该标的的合约:\n\n1、被交易所实行风险警示;\n\n2、被交易所发布暂停上市或终止上市风险提示;\n\n3、进入终止上市程序;\n\n4、协会规定的其他情形。",
   "blocks": [
     {
@@ -32,203 +77,232 @@
       "text": "附件2:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00003",
       "text": "证券公司场外期权业务标的管理须知",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00005",
       "text": "为做好场外期权业务标的管理,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00006",
       "text": "适用范围",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00007",
       "text": "证券公司场外期权业务挂钩标的适用本须知。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00008",
       "text": "标的类别",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00009",
       "text": "交易商可以开展挂钩符合规定条件的个股、股票指数、大宗商品等标的的场外期权业务。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00010",
       "text": "筛选标准",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00011",
       "text": "挂钩标的应当具有充分的现货交易基础,市场竞争充分,具备公允的市场定价,流动性良好等,适宜进行场外期权交易。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00012",
       "text": "场外期权业务境内股票股指标的,应当符合下列条件:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00013",
       "text": "(一)境内个股",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00014",
       "text": "1、在沪深交易所定期调整公布的当期融资融券标的名单内;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00015",
       "text": "2、协会认可的其他条件。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00016",
       "text": "(二)境内股票指数",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00017",
       "text": "1、应为经权威机构认可,具有指数编制及发布权限的机构发布的指数;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00018",
       "text": "2、指数具有可投资性且流动性良好,指数计算发布应由第三方机构独立管理;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00019",
       "text": "3、协会认可的其他条件。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00020",
       "text": "标的使用",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00021",
       "text": "(一)交易商应结合自身业务定位和风险管理能力,制定相应的场外期权业务标的筛选标准和管理流程,持续动态管理交易标的。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00022",
       "text": "(二)交易商开展场外期权业务挂钩个股及指数标的不得超出协会规定的范围。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00023",
       "text": "(三)协会定期向交易商公布个股标的集中度指标,交易商可以参考该指标进行场外期权业务挂钩标的管理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00024",
       "text": "(四)一级交易商对二级交易商挂钩标的范围等承担评估职责。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00025",
       "text": "(五)对于超出标的范围的存续场外期权合约不得展期,且持有到期后不得新开该标的的合约;由于标的个股停牌等特殊情况无法按期了结的,应在标的个股复牌可交易后的二十个交易日内了结。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00026",
       "text": "持续管理",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00027",
       "text": "出现下列情形之一的,交易商不得新开和展期挂钩该标的的合约:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00028",
       "text": "1、被交易所实行风险警示;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00029",
       "text": "2、被交易所发布暂停上市或终止上市风险提示;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00030",
       "text": "3、进入终止上市程序;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00031",
       "text": "4、协会规定的其他情形。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     }
   ]
 }

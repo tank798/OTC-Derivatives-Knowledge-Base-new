@@ -3,26 +3,21 @@
 import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { basename, dirname, resolve } from "node:path";
 import {
-  BM25_PATH,
-  CORPUS_PATH,
-  INDEX_DIR,
-  MANIFEST_PATH,
-  METADATA_PATH,
+  INDEX_DIR as DEFAULT_INDEX_DIR,
   MODEL_CACHE,
   MODEL_DIMENSION,
   MODEL_DTYPE,
   MODEL_ID,
   MODEL_REVISION,
   ROOT,
-  SOURCE_CHUNKS,
-  VECTOR_METADATA_PATH,
-  VECTOR_PATH,
+  SOURCE_CHUNKS as DEFAULT_SOURCE_CHUNKS,
   buildBm25,
   embeddingInputFingerprint,
   normalizeText,
   normalizeTitle,
   normalizeVector,
   readJsonl,
+  loadVectorMatrix,
   sha256Buffer,
   sha256File,
   splitEmbeddingText,
@@ -30,6 +25,20 @@ import {
 } from "./retrieval/core.mjs";
 
 const WITH_VECTORS = process.argv.includes("--with-vectors");
+const INCREMENTAL_VECTORS = process.argv.includes("--incremental-vectors");
+function argValue(name, fallback) {
+  const index = process.argv.indexOf(name);
+  return index >= 0 && process.argv[index + 1] ? resolve(process.argv[index + 1]) : fallback;
+}
+const SOURCE_CHUNKS_PATH = argValue("--source-chunks", DEFAULT_SOURCE_CHUNKS);
+const INDEX_DIR = argValue("--output-dir", DEFAULT_INDEX_DIR);
+const REUSE_INDEX_DIR = argValue("--reuse-index", DEFAULT_INDEX_DIR);
+const CORPUS_PATH = resolve(INDEX_DIR, "corpus.jsonl");
+const METADATA_PATH = resolve(INDEX_DIR, "document_metadata.jsonl");
+const MANIFEST_PATH = resolve(INDEX_DIR, "manifest.json");
+const BM25_PATH = resolve(INDEX_DIR, "bm25/index.json");
+const VECTOR_PATH = resolve(INDEX_DIR, "vectors.f32");
+const VECTOR_METADATA_PATH = resolve(INDEX_DIR, "vector_metadata.json");
 const CATALOG_PATH = resolve(ROOT, "data/metadata/authoritative_regulatory_catalog.json");
 const CANONICAL_PATH = resolve(ROOT, "data/metadata/regulations.jsonl");
 const DUPLICATE_AUDIT_PATH = resolve(INDEX_DIR, "duplicate_audit.csv");
@@ -239,10 +248,65 @@ async function buildVectors(corpus) {
     local_files_only: true,
   });
 
+  const rowEmbeddingHashes = corpus.map((row) => sha256Buffer(stableJson(splitEmbeddingText(row))));
+  const matrix = new Float32Array(corpus.length * MODEL_DIMENSION);
+  const ownersToEmbed = [];
+  let reusedCount = 0;
+  let previousChunkCount = 0;
+  const reuseCorpusPath = resolve(REUSE_INDEX_DIR, "corpus.jsonl");
+  const reuseVectorPath = resolve(REUSE_INDEX_DIR, "vectors.f32");
+  const reuseMetadataPath = resolve(REUSE_INDEX_DIR, "vector_metadata.json");
+
+  if (
+    INCREMENTAL_VECTORS
+    && existsSync(reuseCorpusPath)
+    && existsSync(reuseVectorPath)
+    && existsSync(reuseMetadataPath)
+  ) {
+    const previousCorpus = readJsonl(reuseCorpusPath);
+    const previousMetadata = JSON.parse(readFileSync(reuseMetadataPath, "utf8"));
+    if (
+      previousMetadata.model_id !== MODEL_ID
+      || previousMetadata.dimension !== MODEL_DIMENSION
+      || previousMetadata.model_dtype !== MODEL_DTYPE
+    ) {
+      throw new Error("旧向量模型配置与当前配置不一致，不能增量复用");
+    }
+    const previousMatrix = loadVectorMatrix(
+      reuseVectorPath,
+      previousCorpus.length,
+      MODEL_DIMENSION,
+    );
+    const previousRows = new Map();
+    previousCorpus.forEach((row, index) => {
+      const hash = sha256Buffer(stableJson(splitEmbeddingText(row)));
+      previousRows.set(`${row.chunk_id}:${hash}`, index);
+    });
+    corpus.forEach((row, owner) => {
+      const previousIndex = previousRows.get(`${row.chunk_id}:${rowEmbeddingHashes[owner]}`);
+      if (previousIndex === undefined) {
+        ownersToEmbed.push(owner);
+        return;
+      }
+      matrix.set(
+        previousMatrix.subarray(
+          previousIndex * MODEL_DIMENSION,
+          (previousIndex + 1) * MODEL_DIMENSION,
+        ),
+        owner * MODEL_DIMENSION,
+      );
+      reusedCount += 1;
+    });
+    previousChunkCount = previousCorpus.length;
+    console.log(`[Vector] 复用 ${reusedCount} 个未变化 Chunk，新增或变化 ${ownersToEmbed.length} 个`);
+  } else {
+    for (let owner = 0; owner < corpus.length; owner += 1) ownersToEmbed.push(owner);
+  }
+
   const segments = [];
-  corpus.forEach((row, owner) => {
-    for (const text of splitEmbeddingText(row)) segments.push({ owner, text });
-  });
+  for (const owner of ownersToEmbed) {
+    for (const text of splitEmbeddingText(corpus[owner])) segments.push({ owner, text });
+  }
   const sums = Array.from({ length: corpus.length }, () => new Float32Array(MODEL_DIMENSION));
   const counts = new Uint16Array(corpus.length);
   const batchSize = 48;
@@ -263,15 +327,14 @@ async function buildVectors(corpus) {
     }
   }
 
-  const matrix = new Float32Array(corpus.length * MODEL_DIMENSION);
-  for (let row = 0; row < corpus.length; row += 1) {
+  for (const row of ownersToEmbed) {
     const average = new Float32Array(MODEL_DIMENSION);
     for (let column = 0; column < MODEL_DIMENSION; column += 1) average[column] = sums[row][column] / Math.max(1, counts[row]);
     matrix.set(normalizeVector(average), row * MODEL_DIMENSION);
   }
   writeFileSync(VECTOR_PATH, Buffer.from(matrix.buffer));
   const metadata = {
-    version: 1,
+    version: 2,
     model_id: MODEL_ID,
     model_revision: MODEL_REVISION,
     model_dtype: MODEL_DTYPE,
@@ -282,8 +345,16 @@ async function buildVectors(corpus) {
     byte_order: "little_endian",
     dimension: MODEL_DIMENSION,
     chunk_count: corpus.length,
-    segment_count: segments.length,
+    segment_count: corpus.reduce((sum, row) => sum + splitEmbeddingText(row).length, 0),
+    embedded_segment_count: segments.length,
+    incremental_build: {
+      enabled: INCREMENTAL_VECTORS,
+      reused_chunk_count: reusedCount,
+      embedded_chunk_count: ownersToEmbed.length,
+      retired_or_changed_previous_chunk_count: Math.max(0, previousChunkCount - reusedCount),
+    },
     embedding_input_sha256: embeddingInputFingerprint(corpus),
+    row_embedding_input_sha256: rowEmbeddingHashes,
     corpus_sha256: sha256File(CORPUS_PATH),
     vectors_sha256: sha256File(VECTOR_PATH),
     row_chunk_ids: corpus.map((row) => row.chunk_id),
@@ -297,7 +368,7 @@ async function main() {
   mkdirSync(INDEX_DIR, { recursive: true });
   mkdirSync(dirname(BM25_PATH), { recursive: true });
   mkdirSync(resolve(INDEX_DIR, "eval"), { recursive: true });
-  const sourceChunks = readJsonl(SOURCE_CHUNKS);
+  const sourceChunks = readJsonl(SOURCE_CHUNKS_PATH);
   if (!sourceChunks.length) throw new Error("all_chunks.jsonl为空");
   const uniqueIds = new Set(sourceChunks.map((row) => row.chunk_id));
   if (uniqueIds.size !== sourceChunks.length) throw new Error("all_chunks.jsonl存在重复chunk_id");
@@ -335,7 +406,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     source: {
       path: "data/processed/chunks/jsonl/all_chunks.jsonl",
-      sha256: sha256File(SOURCE_CHUNKS),
+      sha256: sha256File(SOURCE_CHUNKS_PATH),
       unique_body_source: true,
       legacy_clauses_enabled: false,
     },
@@ -364,11 +435,12 @@ async function main() {
       model_dtype: vectorMetadata.model_dtype,
       dimension: vectorMetadata.dimension,
       chunk_count: vectorMetadata.chunk_count,
+      incremental_build: vectorMetadata.incremental_build ?? null,
     } : null,
     fusion: { method: "equal_weight_rrf", rrf_k: 60, bm25_top_k: 30, vector_top_k: 30, fused_top_k: 20 },
     duplicate_audit: duplicateAudit,
     build_fingerprint: sha256Buffer(stableJson({
-      source: sha256File(SOURCE_CHUNKS),
+      source: sha256File(SOURCE_CHUNKS_PATH),
       corpus: sha256File(CORPUS_PATH),
       bm25: sha256File(BM25_PATH),
       vectors: vectorMetadata?.vectors_sha256 ?? "",

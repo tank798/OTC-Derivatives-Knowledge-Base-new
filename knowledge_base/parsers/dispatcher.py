@@ -12,15 +12,16 @@ from parsers.xlsx_parser import parse_xlsx
 
 def parse_file(path: Path) -> ParsedDocument:
     suffix = path.suffix.lower()
-    if suffix == ".docx":
-        # 少量WPS文件使用.docx扩展名但实际仍是OLE复合文档。
-        # python-docx无法读取，按旧DOC只读转换流程处理。
+    if suffix in {".doc", ".docx"}:
+        # 不能只相信扩展名：WPS/交易所下载文件可能出现.doc内实际为
+        # OOXML，或.docx内仍为OLE复合文档的情况。
         with path.open("rb") as handle:
-            if handle.read(8) == bytes.fromhex("D0CF11E0A1B11AE1"):
-                return parse_legacy_doc(path)
-        return parse_docx(path)
-    if suffix == ".doc":
-        return parse_legacy_doc(path)
+            signature = handle.read(8)
+        if signature == bytes.fromhex("D0CF11E0A1B11AE1"):
+            return parse_legacy_doc(path)
+        if signature.startswith(b"PK"):
+            return parse_docx(path)
+        return parse_docx(path) if suffix == ".docx" else parse_legacy_doc(path)
     if suffix == ".pdf":
         return parse_pdf(path)
     if suffix == ".xlsx":

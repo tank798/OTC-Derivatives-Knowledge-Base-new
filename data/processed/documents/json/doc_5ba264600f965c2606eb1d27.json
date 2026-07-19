@@ -25,6 +25,114 @@
     "已识别Word页眉页脚，未混入正文：-9-"
   ],
   "extraction_status": "success",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "unchanged",
+    "original_text_sha256": "718065d3fb64da4b2fdf11fe1f71fb2f1c2d345730c6fcafbf29df8494641625",
+    "clean_text_sha256": "718065d3fb64da4b2fdf11fe1f71fb2f1c2d345730c6fcafbf29df8494641625",
+    "chars_before": 4157,
+    "chars_after": 4157,
+    "removed_character_count": 0,
+    "rule_hits": [],
+    "removed_front_matter": [],
+    "cleaning_log": [],
+    "chunk_eligible_block_ids": [
+      "b00001",
+      "b00003",
+      "b00004",
+      "b00005",
+      "b00007",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025",
+      "b00026",
+      "b00027",
+      "b00028",
+      "b00029",
+      "b00030",
+      "b00031",
+      "b00032",
+      "b00033",
+      "b00034",
+      "b00035",
+      "b00036",
+      "b00037",
+      "b00038",
+      "b00039",
+      "b00040",
+      "b00041",
+      "b00042",
+      "b00043",
+      "b00044",
+      "b00045",
+      "b00046",
+      "b00047",
+      "b00048",
+      "b00049",
+      "b00050",
+      "b00051",
+      "b00052",
+      "b00053",
+      "b00054",
+      "b00055",
+      "b00056",
+      "b00057",
+      "b00058",
+      "b00059",
+      "b00060",
+      "b00061",
+      "b00062",
+      "b00063",
+      "b00064",
+      "b00065",
+      "b00066",
+      "b00067",
+      "b00068",
+      "b00069",
+      "b00070",
+      "b00071",
+      "b00072",
+      "b00073",
+      "b00074",
+      "b00075",
+      "b00076",
+      "b00077",
+      "b00078",
+      "b00079",
+      "b00080",
+      "b00081",
+      "b00082",
+      "b00083",
+      "b00084",
+      "b00085",
+      "b00086",
+      "b00087",
+      "b00088",
+      "b00089",
+      "b00090",
+      "b00091",
+      "b00092",
+      "b00093",
+      "b00094"
+    ]
+  },
+  "original_text_sha256": "718065d3fb64da4b2fdf11fe1f71fb2f1c2d345730c6fcafbf29df8494641625",
+  "clean_text_sha256": "718065d3fb64da4b2fdf11fe1f71fb2f1c2d345730c6fcafbf29df8494641625",
   "normalized_text": "附件\n\n上海证券交易所股票期权试点投资者\n\n适当性管理指引\n\n(2015年1月9日实施 2017年6月28日第一次修订)\n\n第一章 总则\n\n第一条 为了规范上海证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《上海证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。\n\n期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。\n\n投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。\n\n投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的监管措施或实施纪律处分,并计入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前20个交易日日均托管在其委托的期权经营机构的证券市值与资金账户可用余额(不含通过融资融券交易融入的证券和资金),合计不低于人民币50万元;\n\n(二)指定交易在证券公司6个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户6个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、法规、规章及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。\n\n个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前20个交易日日均托管在其委托的期权经营机构的证券市值与资金账户可用余额(不含通过融资融券交易融入的证券和资金),合计不低于人民币100万元;\n\n(二)净资产不低于人民币100万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员具有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、法规、规章及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。\n\n第九条 除法律、法规、规章以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。\n\n期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。\n\n投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。\n\n期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户,试点期间不得采取见证开户、网上开户及其他开户方式。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。\n\n普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。\n\n投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。\n\n期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。\n\n期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条具有三级交易权限的个人投资者,以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。\n\n第二十七条个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。\n\n投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前三个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、法规、规章与业务规则,充分揭示期权交易风险。\n\n第三十九条期权经营机构应当在公司网站建立与本所投资者教育网站期权投教专区的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于20年。\n\n第四十二条本指引由本所负责解释。\n\n第四十三条本指引自发布之日起施行。",
   "blocks": [
     {
@@ -32,644 +140,736 @@
       "text": "附件",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00003",
       "text": "上海证券交易所股票期权试点投资者",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00004",
       "text": "适当性管理指引",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00005",
       "text": "(2015年1月9日实施 2017年6月28日第一次修订)",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00007",
       "text": "第一章 总则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00008",
       "text": "第一条 为了规范上海证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《上海证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00009",
       "text": "第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00010",
       "text": "期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00011",
       "text": "第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00012",
       "text": "投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00013",
       "text": "第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00014",
       "text": "投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00015",
       "text": "第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00016",
       "text": "第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的监管措施或实施纪律处分,并计入诚信记录。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00017",
       "text": "第二章 投资者适当性管理",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00018",
       "text": "第一节 投资者适当性标准",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00019",
       "text": "第七条 个人投资者参与期权交易,应当符合下列条件:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00020",
       "text": "(一)申请开户前20个交易日日均托管在其委托的期权经营机构的证券市值与资金账户可用余额(不含通过融资融券交易融入的证券和资金),合计不低于人民币50万元;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00021",
       "text": "(二)指定交易在证券公司6个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户6个月以上并具有金融期货交易经历;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00022",
       "text": "(三)具备期权基础知识,通过本所认可的相关测试;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00023",
       "text": "(四)具有本所认可的期权模拟交易经历;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00024",
       "text": "(五)具有相应的风险承受能力;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00025",
       "text": "(六)无严重不良诚信记录和法律、法规、规章及本所业务规则禁止或者限制从事期权交易的情形;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00026",
       "text": "(七)本所规定的其他条件。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00027",
       "text": "个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00028",
       "text": "第八条 普通机构投资者参与期权交易,应当符合下列条件:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00029",
       "text": "(一)申请开户前20个交易日日均托管在其委托的期权经营机构的证券市值与资金账户可用余额(不含通过融资融券交易融入的证券和资金),合计不低于人民币100万元;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00030",
       "text": "(二)净资产不低于人民币100万元;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00031",
       "text": "(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00032",
       "text": "(四)相关业务人员具有本所认可的期权模拟交易经历;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00033",
       "text": "(五)无严重不良诚信记录和法律、法规、规章及本所业务规则禁止或者限制从事期权交易的情形;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00034",
       "text": "(六)本所规定的其他条件。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00035",
       "text": "第九条 除法律、法规、规章以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00036",
       "text": "(一)商业银行、期权经营机构、保险机构、信托公司、基金管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00037",
       "text": "(二)证券投资基金、社保基金、养老基金、企业年金、信托计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00038",
       "text": "(三)监管机构及本所规定的其他专业机构投资者。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00039",
       "text": "第二节 综合评估基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00040",
       "text": "第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00041",
       "text": "期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00042",
       "text": "第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00043",
       "text": "第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00044",
       "text": "投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00045",
       "text": "第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00046",
       "text": "期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00047",
       "text": "第十四条 期权经营机构应当要求客户进行现场开户,试点期间不得采取见证开户、网上开户及其他开户方式。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00048",
       "text": "第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00049",
       "text": "第三节 期权投资者知识测试",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00050",
       "text": "第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00051",
       "text": "第十七条 投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00052",
       "text": "普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00053",
       "text": "第十八条个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00054",
       "text": "第十九条知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00055",
       "text": "投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00056",
       "text": "期权经营机构客户开发人员不得兼任知识测试组织人员。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00057",
       "text": "第二十条知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00058",
       "text": "第三章 投资者分级管理",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00059",
       "text": "第二十一条期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00060",
       "text": "期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00061",
       "text": "第二十二条个人投资者申请的交易权限级别分为一级、二级、三级交易权限。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00062",
       "text": "第二十三条具有一级交易权限的个人投资者,可以进行下列期权交易:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00063",
       "text": "(一)在持有期权合约标的时,进行相应数量的备兑开仓;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00064",
       "text": "(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00065",
       "text": "(三)对所持有的合约进行平仓或者行权。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00066",
       "text": "第二十四条具有二级交易权限的个人投资者,可以进行下列期权交易:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00067",
       "text": "(一)一级交易权限对应的交易;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00068",
       "text": "(二)买入开仓。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00069",
       "text": "第二十五条具有三级交易权限的个人投资者,以及普通机构投资者、专业机构投资者,可以进行下列期权交易:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00070",
       "text": "(一)二级交易权限对应的交易;",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00071",
       "text": "(二)保证金卖出开仓。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00072",
       "text": "第二十六条个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00073",
       "text": "第二十七条个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00074",
       "text": "出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00075",
       "text": "第二十八条个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00076",
       "text": "第二十九条期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00077",
       "text": "投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00078",
       "text": "第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00079",
       "text": "第三十一条期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00080",
       "text": "第三十二条期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00081",
       "text": "期权经营机构自行调低客户交易权限的,还应当至少提前三个交易日通过纸面或者电子形式告知客户并予以记录留存。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00082",
       "text": "第三十三条期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00083",
       "text": "第三十四条期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00084",
       "text": "第三十五条期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00085",
       "text": "第三十六条期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00086",
       "text": "第四章 投资者教育",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00087",
       "text": "第三十七条期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00088",
       "text": "第三十八条期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、法规、规章与业务规则,充分揭示期权交易风险。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00089",
       "text": "第三十九条期权经营机构应当在公司网站建立与本所投资者教育网站期权投教专区的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00090",
       "text": "第四十条期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00091",
       "text": "第五章 附则",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00092",
       "text": "第四十一条期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于20年。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00093",
       "text": "第四十二条本指引由本所负责解释。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00094",
       "text": "第四十三条本指引自发布之日起施行。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     }
   ]
 }

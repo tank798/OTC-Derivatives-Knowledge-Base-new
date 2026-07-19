@@ -4,11 +4,11 @@
 
 ## 当前数据
 
-- 108 份正式监管原件，位于 `data/raw/监管文件/`。
-- 108 份结构化正文，位于 `data/processed/documents/json/`。
-- 1,228 个正式 Chunk，位于 `data/processed/chunks/jsonl/all_chunks.jsonl`。
-- Chunk 已完成全量复核，压缩结论见 `docs/reviews/Chunk复核报告.md`。
-- BM25 和本地 BGE 向量索引已基于 1,228 个新 Chunk 重建，索引清单记录 108 份法规、50,581 个 BM25 词项和 1,228 个 768 维向量。
+- 114 份正式监管原件，位于 `data/raw/监管文件/`。
+- 114 份结构化正文，位于 `data/processed/documents/json/`。
+- 1,700 个正式 Chunk，位于 `data/processed/chunks/jsonl/all_chunks.jsonl`。
+- Chunk 复核结论见 `docs/reviews/Chunk复核报告.md`。
+- BM25 和本地 BGE 向量索引已基于 1,700 个 Chunk 重建，索引清单记录 114 份法规、54,868 个 BM25 词项和 1,700 个 768 维向量。
 - 问答层使用同一套通用 Agent Prompt；轻任务使用 Flash、证据判断与回答使用 Pro，没有为三道示例问题预置相关 Chunk 或专项补丁。
 
 ## 目录
@@ -53,6 +53,14 @@ python knowledge_base/main.py --input-dir data/raw/监管文件 --output-dir dat
 pnpm build:retrieval
 ```
 
+已有索引与当前向量模型均可用时，可只为新增或正文变化的Chunk计算向量；BM25仍会按完整语料重建：
+
+```bash
+pnpm build:retrieval:incremental
+```
+
+结构化JSON的`cleaning`字段记录清洗规则版本、原文与清洗后哈希、字符数变化、被移出正文的block及规则命中。原文件和清洗后正文哈希都未变化时，继续复用既有Chunk；向量输入哈希未变化时，继续复用原向量。
+
 切分器默认使用本地规则。只有明确配置 `DEEPSEEK_API_KEY_FILE` 并启用相应配置时，才会发送文本片段给外部模型做语义边界复核。
 
 本地向量模型固定为 `Xenova/bge-base-zh-v1.5` ONNX q8：
@@ -75,7 +83,7 @@ pnpm download:retrieval-model
 
 ## 官网 URL
 
-当前 108 份正式法规均已有官网 URL。后续新增法规需要人工补充 URL 时，可准备包含“法规名称”和“URL”的 Excel，再运行：
+当前 114 份正式法规均已有官网 URL。后续新增法规需要人工补充 URL 时，可准备包含“法规名称”和“URL”的 Excel，再运行：
 
 ```bash
 python scripts/update_regulation_urls.py
@@ -129,7 +137,7 @@ python3 -m unittest discover -s knowledge_base/tests -v
 
 ## 限制
 
-- 当前索引与评测基于 108 份法规、1,228 个 Chunk；新增或修改 Chunk 后必须重建 BM25 和向量并重跑评测。
+- 当前索引与评测基于 114 份法规、1,700 个 Chunk；新增或修改 Chunk 后必须重建 BM25，并为新增或正文变化的 Chunk 更新向量。
 - 三道评测题只是首版回归集，不代表已覆盖所有产品、主体、时间和效力冲突情形。
 - Agent 运行日志默认使用 `metadata` 模式，不记录问题、回答和逐字引文正文，并自动清理超过 7 天的日志；仅在受控排障环境中显式设置 `AGENT_LOG_MODE=full`。
 - 法规效力状态为空或未知时，不能据此回答确定的现行效力结论。

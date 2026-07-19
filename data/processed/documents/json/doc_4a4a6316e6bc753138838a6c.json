@@ -25,6 +25,49 @@
     "已识别Word页眉页脚，未混入正文：2"
   ],
   "extraction_status": "success",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "unchanged",
+    "original_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
+    "clean_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
+    "chars_before": 1016,
+    "chars_after": 1016,
+    "removed_character_count": 0,
+    "rule_hits": [],
+    "removed_front_matter": [],
+    "cleaning_log": [],
+    "chunk_eligible_block_ids": [
+      "b00001",
+      "b00003",
+      "b00005",
+      "b00006",
+      "b00007",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025",
+      "b00026",
+      "b00027",
+      "b00028",
+      "b00029"
+    ]
+  },
+  "original_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
+  "clean_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
   "normalized_text": "附件3:\n\n证券公司场外期权业务数据报送须知\n\n为做好场外期权业务数据报送,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。\n\n一、报告类别\n\n(一)持续报告\n\n1、报送机构开展场外期权业务的,交易确认书应于交易达成后的1个交易日内报送,主协议、补充协议应于签订后的5个交易日内报送,协议文本应加盖印章确保信息的真实性、完整性。\n\n2、交易确认书应明确交易要素,包括但不限于交易对手方、合约期限、名义本金、期权费、标的情况、期权类型及履约保障情况等。\n\n3、对于合约期限30天以下或行权价偏离标的资产市场价格超过20%的合约,应在交易信息报送的同时报送产品设计合规意见。\n\n(二)月度报告\n\n报送机构应于每月前5个交易日报送上月场外期权总体业务情况。报送内容包括但不限于业务规模、交易对手结构、标的结构、期权结构、合约估值等场外证券业务报告系统所要求的内容。\n\n(三)季度报告\n\n报送机构应于每季度结束后15个交易日内报送公司合规部门关于上季度场外期权业务的审查意见以及业务开展合规情况说明,包括但不限于交易对手方、交易结构、保证金比例及使用、产品穿透管理等合规方面内容。\n\n一级交易商还应当报告对与其发生交易的二级交易商的交易目的、交易标的、交易行为等的监测情况。\n\n(四)年度报告\n\n报送机构应于每年4月30日前报送上一年度场外期权业务年度报告,包括但不限于场外期权交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理、系统建设等总体情况。\n\n(五)重大事项报告\n\n场外期权交易合约存续期间发生异常交易、违约事件、负面客户、重大业务风险、重大业务损失、影响业务持续开展等情况的, 报送机构应于事件发生之日起3个交易日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。\n\n二、报送要求\n\n(一)人员要求\n\n报送机构应当建立场外期权业务数据报送机制,配备专岗数据报送人员及其备岗,明确对数据报送工作负直接责任和负管理职责的人员,建立内部培训机制。\n\n(二)机制要求\n\n报送机构应当建立数据报送工作机制,明确数据报送、核实验证、报告补正等工作流程和工作标准,开发并升级数据自动报送系统接口。\n\n(三)质量要求\n\n1、报送机构应保证场外期权数据报送的及时、准确、完整、规范。\n\n2、中证报价对报送机构的报送内容、数据命名、报告要素等实施标准化管理。\n\n3、协会及授权机构有权要求报送机构对场外期权数据情况以提供书面材料等形式作出解释说明。\n\n4、协会定期组织开展数据报送的质量评估。",
   "blocks": [
     {
@@ -32,189 +75,216 @@
       "text": "附件3:",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00003",
       "text": "证券公司场外期权业务数据报送须知",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00005",
       "text": "为做好场外期权业务数据报送,根据《证券公司场外期权业务管理办法》的有关规定,制定本须知。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00006",
       "text": "一、报告类别",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00007",
       "text": "(一)持续报告",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00008",
       "text": "1、报送机构开展场外期权业务的,交易确认书应于交易达成后的1个交易日内报送,主协议、补充协议应于签订后的5个交易日内报送,协议文本应加盖印章确保信息的真实性、完整性。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00009",
       "text": "2、交易确认书应明确交易要素,包括但不限于交易对手方、合约期限、名义本金、期权费、标的情况、期权类型及履约保障情况等。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00010",
       "text": "3、对于合约期限30天以下或行权价偏离标的资产市场价格超过20%的合约,应在交易信息报送的同时报送产品设计合规意见。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00011",
       "text": "(二)月度报告",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00012",
       "text": "报送机构应于每月前5个交易日报送上月场外期权总体业务情况。报送内容包括但不限于业务规模、交易对手结构、标的结构、期权结构、合约估值等场外证券业务报告系统所要求的内容。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00013",
       "text": "(三)季度报告",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00014",
       "text": "报送机构应于每季度结束后15个交易日内报送公司合规部门关于上季度场外期权业务的审查意见以及业务开展合规情况说明,包括但不限于交易对手方、交易结构、保证金比例及使用、产品穿透管理等合规方面内容。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00015",
       "text": "一级交易商还应当报告对与其发生交易的二级交易商的交易目的、交易标的、交易行为等的监测情况。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00016",
       "text": "(四)年度报告",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00017",
       "text": "报送机构应于每年4月30日前报送上一年度场外期权业务年度报告,包括但不限于场外期权交易业务模式、业务规模、交易对手方、挂钩标的、对冲持仓、履约保障、盈亏、风险管控、合规管理、系统建设等总体情况。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00018",
       "text": "(五)重大事项报告",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00019",
       "text": "场外期权交易合约存续期间发生异常交易、违约事件、负面客户、重大业务风险、重大业务损失、影响业务持续开展等情况的, 报送机构应于事件发生之日起3个交易日内报送重大事项报告,说明重大事项的起因、处理措施和影响结果。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00020",
       "text": "二、报送要求",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00021",
       "text": "(一)人员要求",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00022",
       "text": "报送机构应当建立场外期权业务数据报送机制,配备专岗数据报送人员及其备岗,明确对数据报送工作负直接责任和负管理职责的人员,建立内部培训机制。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00023",
       "text": "(二)机制要求",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00024",
       "text": "报送机构应当建立数据报送工作机制,明确数据报送、核实验证、报告补正等工作流程和工作标准,开发并升级数据自动报送系统接口。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00025",
       "text": "(三)质量要求",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00026",
       "text": "1、报送机构应保证场外期权数据报送的及时、准确、完整、规范。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00027",
       "text": "2、中证报价对报送机构的报送内容、数据命名、报告要素等实施标准化管理。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00028",
       "text": "3、协会及授权机构有权要求报送机构对场外期权数据情况以提供书面材料等形式作出解释说明。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     },
     {
       "block_id": "b00029",
       "text": "4、协会定期组织开展数据报送的质量评估。",
       "style": "Normal",
       "source_kind": "paragraph",
-      "page": 0
+      "page": 0,
+      "region": "body"
     }
   ]
 }
