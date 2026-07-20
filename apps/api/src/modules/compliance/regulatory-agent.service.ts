@@ -238,10 +238,10 @@ const TOOLS: ToolDefinition[] = [
         additionalProperties: false,
         required: ["conclusion", "reasoningSummary", "regulatoryBasis", "wikiBasis"],
         properties: {
-          conclusion: { type: "string", description: "先说的直接结论；证据不足时明确说无法得出确定结论。" },
+          conclusion: { type: "string", description: "回答前先判断问题是否属于简单判断题或单一数值题；若属于，仅保留直接答案以及会改变答案的必要前提、限制或例外，背景、计算过程、程序性说明和扩展解释放入reasoningSummary或regulatoryBasis。若问题要求列举多个条件、比较多条路径，或存在共同条件与分支条件，则不得套用上述简化规则：首句按用户问题的原始极性直接回答，并逐项保留每个条件、数值梯度、例外、适用主体和边界，不得用‘条件不同’‘另有规定’等概括替代原文要件；对‘A或B且分别满足不同条件’的分支规则，按每条路径分别列出门槛、对应条件、例外和程序；如所有分支还共享前置条件，先单列该共同条件，再分别展开各分支；上位条款的共同前置条件与细则分支条件并存时，必须把共同条件明确保留在结论中，不得认为分支细则已经隐含覆盖；证据不足时明确说无法得出确定结论。" },
           reasoningSummary: {
             type: "string",
-            description: "通常400至800字、3至6个详细分析段落，以两个换行符分隔；不写标题，不重复结论，不暴露隐藏思维过程。",
+            description: "如果当前检索到的法规已经直接、完整回答问题，直接给出结论并列出最直接的法规依据；简单判断题或单一数值题的分析只保留主体、条件、例外、数字和期限等必要边界，不展开与结论无关的内容；仅多条件、冲突或适用范围复杂的问题使用400至800字、3至6个详细分析段落，以两个换行符分隔；不写标题，不重复结论，不暴露隐藏思维过程。",
           },
           regulatoryBasis: {
             type: "array",
