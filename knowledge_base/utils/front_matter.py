@@ -223,6 +223,8 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
 
     blocks = list(document.blocks)
     previous = dict(document.cleaning or {})
+    content_overrides: list[str] = list(previous.get("content_overrides", []))
+    content_override_rule_hits: list[str] = list(previous.get("content_override_rule_hits", []))
     original_hash = previous.get("original_text_sha256") or _blocks_sha256(blocks)
     chars_before = int(previous.get("chars_before") or sum(body_char_count(block.text) for block in blocks))
     removed: list[dict[str, Any]] = list(previous.get("removed_front_matter", []))
@@ -365,7 +367,7 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
     chars_after = sum(body_char_count(block.text) for block in kept)
     document.cleaning = {
         "cleaning_rule_version": config.CLEANING_RULE_VERSION,
-        "status": "changed" if removed else "unchanged",
+        "status": "changed" if removed or content_overrides else "unchanged",
         "original_text_sha256": original_hash,
         "clean_text_sha256": clean_hash,
         "chars_before": chars_before,
@@ -374,6 +376,8 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
         "rule_hits": sorted({item["rule_id"] for item in removed}),
         "removed_front_matter": removed,
         "cleaning_log": log,
+        "content_overrides": content_overrides,
+        "content_override_rule_hits": content_override_rule_hits,
         "chunk_eligible_block_ids": [block.block_id for block in kept],
     }
     if removed:

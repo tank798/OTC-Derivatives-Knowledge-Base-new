@@ -120,7 +120,23 @@ class ChunkerTests(unittest.TestCase):
         chunks = [ChunkDraft([previous_unit], {}), ChunkDraft([current_unit], {})]
         apply_structural_overlap(chunks)
         self.assertTrue(chunks[1].is_overlapping)
-        self.assertIn("未付款项包括以下款项", chunks[1].units[0].body_text)
+        self.assertEqual(chunks[1].units[0].body_text, "2、第二项内容。")
+        self.assertIn("未付款项包括以下款项", chunks[1].context_only_prefix)
+
+    def test_overlap_does_not_cross_new_guide_heading(self):
+        previous = Unit(
+            "三、条款设计情形三\n凭证条款正文。", "guide_heading",
+            {"section_title": "三、条款设计情形三"}, sequence_index=1,
+        )
+        current = Unit(
+            "四、估值方法相关释义\n(一)估值方法正文。", "guide_heading",
+            {"section_title": "四、估值方法相关释义"}, sequence_index=2,
+        )
+        chunks = [ChunkDraft([previous], {}), ChunkDraft([current], {})]
+        apply_structural_overlap(chunks)
+        self.assertFalse(chunks[1].is_overlapping)
+        self.assertEqual(chunks[1].context_only_prefix, "")
+        self.assertEqual([unit.body_text for unit in chunks[1].units], [current.body_text])
 
     def test_embedded_special_terms_heading_resets_article_tree(self):
         doc = ParsedDocument(

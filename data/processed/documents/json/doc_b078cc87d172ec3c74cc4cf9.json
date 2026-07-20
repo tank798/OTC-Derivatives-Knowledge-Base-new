@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "b9d57157159e1e01e4180a0ecbc586f63073af2fa1117b98524b8977d6b0a5da",
     "clean_text_sha256": "cf0d593ee14bb1b7d02552bf2da470825e357957f009e6058da1f186f3a7b719",
@@ -58,6 +58,8 @@
         "character_count": 38
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00002",
       "b00004",
@@ -240,7 +242,7 @@
   "original_text_sha256": "b9d57157159e1e01e4180a0ecbc586f63073af2fa1117b98524b8977d6b0a5da",
   "clean_text_sha256": "cf0d593ee14bb1b7d02552bf2da470825e357957f009e6058da1f186f3a7b719",
   "clean_text_hash": "dabaea7ba36df3aaed018d418c8be799b8e0007f685c4f161e7cf7d38ed4c544",
-  "structured_blocks_sha256": "dfbadd362bcc48636c1b7a6dab9448d9d264e585795e187e41075f5078b64545",
+  "structured_blocks_sha256": "668e1882f0c577e2ff214c2c3118464575131a6e1213c5791e7d169aae7bef50",
   "front_matter": [
     {
       "block_id": "b00001",
@@ -1313,7 +1315,7 @@
     },
     {
       "block_id": "b00092",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.利率类方向性业务市场风险参数设定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2356,7 +2358,7 @@
     },
     {
       "block_id": "b00102",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.权益类方向性业务市场风险参数设定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4179,7 +4181,7 @@
     },
     {
       "block_id": "b00178",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、反向压力测试",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -5274,7 +5276,7 @@
     },
     {
       "block_id": "b00092",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.利率类方向性业务市场风险参数设定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6317,7 +6319,7 @@
     },
     {
       "block_id": "b00102",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.权益类方向性业务市场风险参数设定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -8140,7 +8142,7 @@
     },
     {
       "block_id": "b00178",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、反向压力测试",
       "style": "Normal",
       "source_kind": "paragraph",

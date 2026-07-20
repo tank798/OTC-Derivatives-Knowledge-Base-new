@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
     "clean_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
@@ -34,6 +34,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00002",
@@ -53,7 +55,7 @@
   "original_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
   "clean_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
   "clean_text_hash": "bf64a18c02dbefbb6fd0d22f6c68a0edb2d697b0c856afbe720e155734ddec69",
-  "structured_blocks_sha256": "48e2ed2a3284c053d0fbe174e91b4b0e195aa3c80cb93c98515ea986249111f7",
+  "structured_blocks_sha256": "28c29cca2f875823d92af28b70a12d6f7c83a11759704dfe10852eb1bad6858e",
   "front_matter": [],
   "body_blocks": [
     {
@@ -204,7 +206,7 @@
     },
     {
       "block_id": "b00013",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.收益互换估值报告模板",
       "style": "",
       "source_kind": "paragraph",
@@ -363,7 +365,7 @@
     },
     {
       "block_id": "b00013",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.收益互换估值报告模板",
       "style": "",
       "source_kind": "paragraph",

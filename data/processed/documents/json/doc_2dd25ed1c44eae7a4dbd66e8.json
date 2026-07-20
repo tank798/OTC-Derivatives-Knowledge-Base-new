@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "67d9bbf06f9dde9c0f10b8237855e4d0b87f1b968cfa41e996c50136eefed95c",
     "clean_text_sha256": "67d9bbf06f9dde9c0f10b8237855e4d0b87f1b968cfa41e996c50136eefed95c",
@@ -37,6 +37,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00003",
@@ -372,7 +374,7 @@
   "original_text_sha256": "67d9bbf06f9dde9c0f10b8237855e4d0b87f1b968cfa41e996c50136eefed95c",
   "clean_text_sha256": "67d9bbf06f9dde9c0f10b8237855e4d0b87f1b968cfa41e996c50136eefed95c",
   "clean_text_hash": "df38f79c693db49f9a472693664198d82280d301b8bbeaaf9ece539b4e2ab6ac",
-  "structured_blocks_sha256": "38192fef04682ad20175e18f77317227db4ef133acd7a124eb5631582015a2ae",
+  "structured_blocks_sha256": "abc0ba3dff2ce96f2965861db1c7c2d7a476cb806649905fff6a6e7d8559895f",
   "front_matter": [],
   "body_blocks": [],
   "appendices": [
@@ -690,7 +692,7 @@
     },
     {
       "block_id": "b00083",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、做市申请条件",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -810,7 +812,7 @@
     },
     {
       "block_id": "b00093",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、做市申请材料",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -942,7 +944,7 @@
     },
     {
       "block_id": "b00104",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、做市申请受理",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -1158,7 +1160,7 @@
     },
     {
       "block_id": "b00122",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "六、合约品种与持仓限额的同步申请",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -1302,7 +1304,7 @@
     },
     {
       "block_id": "b00134",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "八、做市专用交易单元设立及权限开通",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -1434,7 +1436,7 @@
     },
     {
       "block_id": "b00145",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "十一、主动申请终止合约品种做市",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -1698,7 +1700,7 @@
     },
     {
       "block_id": "b00169",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、申请提高持仓限额",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -1986,7 +1988,7 @@
     },
     {
       "block_id": "b00194",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.综合参与率",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2070,7 +2072,7 @@
     },
     {
       "block_id": "b00201",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.加量报价参与率",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2094,7 +2096,7 @@
     },
     {
       "block_id": "b00203",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.连续竞价启动参与率",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4355,7 +4357,7 @@
     },
     {
       "block_id": "b00280",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)内部风险报告机制",
       "style": "Heading 3",
       "source_kind": "paragraph",
@@ -4511,7 +4513,7 @@
     },
     {
       "block_id": "b00293",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)风险报告",
       "style": "Heading 3",
       "source_kind": "paragraph",
@@ -4667,7 +4669,7 @@
     },
     {
       "block_id": "b00307",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、禁止行为",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -5116,7 +5118,7 @@
     },
     {
       "block_id": "b00332",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、运维部署要求",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -9556,7 +9558,7 @@
     },
     {
       "block_id": "b00083",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、做市申请条件",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -9676,7 +9678,7 @@
     },
     {
       "block_id": "b00093",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、做市申请材料",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -9808,7 +9810,7 @@
     },
     {
       "block_id": "b00104",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、做市申请受理",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -10024,7 +10026,7 @@
     },
     {
       "block_id": "b00122",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "六、合约品种与持仓限额的同步申请",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -10168,7 +10170,7 @@
     },
     {
       "block_id": "b00134",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "八、做市专用交易单元设立及权限开通",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -10300,7 +10302,7 @@
     },
     {
       "block_id": "b00145",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "十一、主动申请终止合约品种做市",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -10564,7 +10566,7 @@
     },
     {
       "block_id": "b00169",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、申请提高持仓限额",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -10852,7 +10854,7 @@
     },
     {
       "block_id": "b00194",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.综合参与率",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10936,7 +10938,7 @@
     },
     {
       "block_id": "b00201",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.加量报价参与率",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10960,7 +10962,7 @@
     },
     {
       "block_id": "b00203",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.连续竞价启动参与率",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -13221,7 +13223,7 @@
     },
     {
       "block_id": "b00280",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)内部风险报告机制",
       "style": "Heading 3",
       "source_kind": "paragraph",
@@ -13377,7 +13379,7 @@
     },
     {
       "block_id": "b00293",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)风险报告",
       "style": "Heading 3",
       "source_kind": "paragraph",
@@ -13533,7 +13535,7 @@
     },
     {
       "block_id": "b00307",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、禁止行为",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -13982,7 +13984,7 @@
     },
     {
       "block_id": "b00332",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、运维部署要求",
       "style": "Heading 2",
       "source_kind": "paragraph",

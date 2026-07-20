@@ -15,9 +15,57 @@ GUIDE_TOP_RE = re.compile(r"^[一二三四五六七八九十百]+[、.]\s*(.+)$"
 GUIDE_SUB_RE = re.compile(r"^[（(][一二三四五六七八九十百]+[）)]\s*(.+)$")
 GUIDE_PAREN_MINOR_RE = re.compile(r"^[（(]\d+[）)]\s*(.+)$")
 GUIDE_MINOR_RE = re.compile(r"^\d+[.．、]\s*(.+)$")
-GUIDE_NORMATIVE_RE = re.compile(r"(?:应当|应|不得|可以|可|负责|包括|主要职责|是指|须|建议)")
+GUIDE_NORMATIVE_RE = re.compile(
+    r"(?:应当|应|不得|可以|可|负责|包括|主要职责|是指|须|建议|向|通过|口头|夸大|不符合|"
+    r"从事|委托|按照|根据|禁止|限制|发生|提供|承诺|要求|完成|履行|宣传|投向|开展|参与|"
+    r"支付|计算|提交|知晓|遵守|用于|采取|建立|适用|转让|认购|卖方|买方|申请|新增|展期|"
+    r"清算|具有|符合|满足|接受|收取|取得|披露|报告|报送|说明|识别|使用|设立|发行|保证|"
+    r"确认|执行|导致|影响|属于|定义|批准|以)"
+)
 ATTACHMENT_RE = re.compile(r"^(?:附件|附录)(?:\s*[一二三四五六七八九十百\d]+)?(?:[:：\s]|$)")
 NOTE_RE = re.compile(r"^(?:注|说明|备注)\s*[:：]")
+FORMULA_LEAD_RE = re.compile(r"(?:计算公式为|公式如下)\s*[:：]?\s*$")
+ARTICLE_LEAD_RE = re.compile(r"^第[一二三四五六七八九十百千万零〇\d]+条")
+
+
+def _formula_expression_is_present(text: str) -> bool:
+    """Return whether a following block contains a readable formula expression.
+
+    Some legacy ``.doc`` files store equations as OLE objects.  Their text
+    extraction preserves the sentence introducing the formula but drops the
+    equation itself.  This deliberately conservative check only flags a lead
+    when the immediately following text does not look like an expression.
+    """
+
+    value = clean_text(text)
+    if not value:
+        return False
+    if "=" in value or any(token in value for token in ("÷", "×", "∑", "∫", "/")):
+        return True
+    if re.search(r"(?:比例|比率|覆盖率|杠杆率|资本要求|风险权重|金额|价格|概率|违约强度)\s*=", value):
+        return True
+    return False
+
+
+def _legacy_formula_warning(document: ParsedDocument, index: int, text: str) -> str:
+    """Describe an equation that the legacy DOC extractor could not recover.
+
+    This is an extraction-quality signal, not a replacement formula.  We do
+    not invent mathematical content when the source OLE object is unavailable.
+    The rule is format-level and applies to any legacy DOC, never to a named
+    question or a specific regulation.
+    """
+
+    if document.source_type != "doc" or not FORMULA_LEAD_RE.search(text):
+        return ""
+    following = document.blocks[index + 1].text if index + 1 < len(document.blocks) else ""
+    if _formula_expression_is_present(following):
+        return ""
+    # A following article/formula lead or an "其中" block means the formula
+    # itself is absent from the text layer rather than merely wrapped.
+    if ARTICLE_LEAD_RE.match(clean_text(following)) or re.match(r"^其中\s*[:：]?\s*$", clean_text(following)):
+        return "原始文档公式为嵌入对象，文本转换未提取公式；请对照原件。"
+    return ""
 
 
 def serialize_clean_text(document: ParsedDocument) -> tuple[str, dict[str, tuple[int, int]]]:
@@ -65,7 +113,7 @@ def block_type(block: SourceBlock, document_title: str = "") -> str:
     text = clean_text(block.text)
     if block.source_kind == "table" or block.table_data:
         return "table"
-    if block.source_kind == "formula" or block.formula_data:
+    if block.source_kind == "formula":
         return "formula"
     if document_title and compact(text).lstrip("附件:：") == compact(document_title):
         return "document_title"
@@ -79,6 +127,8 @@ def block_type(block: SourceBlock, document_title: str = "") -> str:
         return "section"
     if re.match(r"^第.+条(?:\s|$)", text):
         return "article"
+    if block.formula_data:
+        return "formula"
     if ATTACHMENT_RE.match(text):
         return "attachment"
     if NOTE_RE.match(text):
@@ -161,7 +211,7 @@ def structured_blocks(document: ParsedDocument) -> list[dict[str, Any]]:
     result: list[dict[str, Any]] = []
     appendix_mode = False
     title = document.metadata.get("document_title", "")
-    for block in document.blocks:
+    for index, block in enumerate(document.blocks):
         kind = block_type(block, title)
         if kind == "attachment":
             appendix_mode = True
@@ -210,6 +260,20 @@ def structured_blocks(document: ParsedDocument) -> list[dict[str, Any]]:
                     "source_page": block.page,
                     "conversion_status": "verified_linearized_raw_text",
                 }
+        else:
+            formula_warning = _legacy_formula_warning(document, index, row["text"])
+            if formula_warning:
+                row["formula_data"] = {
+                    "raw_text": row["text"],
+                    "expressions": [],
+                    "latex_expressions": [],
+                    "latex": "",
+                    "formula_label": "公式",
+                    "source_page": block.page,
+                    "conversion_status": "source_formula_not_extractable",
+                    "parsing_warnings": [formula_warning],
+                }
+                block.parsing_warnings.append(formula_warning)
         warnings = list(dict.fromkeys(block.parsing_warnings))
         if warnings:
             row["parsing_warnings"] = warnings

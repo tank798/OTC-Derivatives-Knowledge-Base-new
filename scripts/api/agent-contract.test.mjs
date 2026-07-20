@@ -81,6 +81,64 @@ test("证据不足回答可以无引用返回", () => {
   assert.equal(result.answer.citationValidation.passed, true);
 });
 
+test("引用校验忽略 Markdown 表格边框和排版标点并回填真实原文", () => {
+  const source = "| 申请用途 | 现货多头套期保值现货空头套期保值期权套期保值备兑开仓 |";
+  const result = new CitationValidatorService().validateDraft({
+    conclusion: "申请用途包括四类。",
+    reasoningSummary: "测试",
+    regulatoryBasis: [{
+      evidenceId: "chunk_table",
+      quoteExact: "申请用途：现货多头套期保值、现货空头套期保值、期权套期保值、备兑开仓",
+      explanation: "测试",
+    }],
+    missingInformation: [],
+    manualReviewNote: "",
+  }, [{
+    id: "chunk_table",
+    title: "测试指南",
+    text: source,
+    publisher: "测试机构",
+    documentNumber: "",
+    articleNo: "",
+    articleEnd: "",
+    status: "现行有效",
+    url: "",
+  }]);
+
+  assert.equal(result.answer.citationValidation.passed, true);
+  assert.equal(
+    result.answer.regulatoryBasis[0]?.quoteExact,
+    "申请用途 | 现货多头套期保值现货空头套期保值期权套期保值备兑开仓",
+  );
+});
+
+test("引用校验不忽略正文文字差异", () => {
+  const result = new CitationValidatorService().validateDraft({
+    conclusion: "持仓限额符合要求。",
+    reasoningSummary: "测试",
+    regulatoryBasis: [{
+      evidenceId: "chunk_limit",
+      quoteExact: "总持仓限额",
+      explanation: "测试",
+    }],
+    missingInformation: [],
+    manualReviewNote: "",
+  }, [{
+    id: "chunk_limit",
+    title: "测试指南",
+    text: "| 权利仓持仓限额 |",
+    publisher: "测试机构",
+    documentNumber: "",
+    articleNo: "",
+    articleEnd: "",
+    status: "现行有效",
+    url: "",
+  }]);
+
+  assert.equal(result.answer.citationValidation.passed, false);
+  assert.match(result.issues.join("；"), /连续逐字原文/u);
+});
+
 test("用户 Know-how 必须先展示候选，不能直接写入 Wiki", async () => {
   let saves = 0;
   const agent = createAgent(async () => ({

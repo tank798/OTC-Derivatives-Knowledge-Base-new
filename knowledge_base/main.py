@@ -16,6 +16,7 @@ from chunkers import chunk_document
 from chunkers.structure import is_embedded_part_heading, is_official_footnote_heading, is_standalone_part_heading
 from exporters import export_all, export_file, export_structured_documents
 from parsers import parse_file
+from parsers.pdf_content_overrides import apply_verified_pdf_content_overrides
 from utils.catalog import canonical_document_id, catalog_by_filename, load_catalog, merge_metadata, metadata_hash, resolve_catalog_record
 from utils.front_matter import clean_front_matter
 from utils.structured import clean_text_hash, content_hash, document_to_row, load_document, save_document
@@ -423,6 +424,11 @@ def main() -> int:
                 continue
 
         document.file_path = path
+        document.blocks, content_override_warnings = apply_verified_pdf_content_overrides(path, document.blocks)
+        if content_override_warnings:
+            document.cleaning["content_overrides"] = list(content_override_warnings)
+            document.cleaning["content_override_rule_hits"] = ["verified_attachment_directory"]
+        document.warnings.extend(content_override_warnings)
         document.metadata = merge_metadata(document.metadata, catalog_record)
         document = clean_front_matter(document)
         document_id = previous.get("document_id") or canonical_document_id(document.metadata, path)

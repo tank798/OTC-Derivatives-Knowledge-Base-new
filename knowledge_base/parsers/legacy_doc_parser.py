@@ -12,6 +12,7 @@ from parsers.docx_parser import parse_docx, strip_word_toc
 from utils.metadata import infer_metadata
 from utils.text import clean_text, compact, is_page_number, is_toc_field, strip_repeated_front_structure
 from models import SourceBlock
+from parsers.legacy_doc_formula_overrides import apply_verified_formula_overrides
 
 
 def _blocks_from_plain_text(text: str) -> tuple[list[SourceBlock], list[str]]:
@@ -101,6 +102,9 @@ def parse_legacy_doc(path: Path) -> ParsedDocument:
         if text:
             blocks, cleanup_warnings = _blocks_from_plain_text(text)
             if blocks:
+                verified_formula_count = apply_verified_formula_overrides(path, blocks)
+                if verified_formula_count:
+                    cleanup_warnings.append(f"已从原始DOC版式恢复{verified_formula_count}个公式块")
                 return ParsedDocument(
                     path,
                     "doc",
@@ -116,6 +120,9 @@ def parse_legacy_doc(path: Path) -> ParsedDocument:
             parsed.file_path = path
             parsed.source_type = "doc"
             parsed.metadata = infer_metadata(parsed.blocks, path)
+            verified_formula_count = apply_verified_formula_overrides(path, parsed.blocks)
+            if verified_formula_count:
+                parsed.warnings.append(f"已从原始DOC版式恢复{verified_formula_count}个公式块")
             parsed.warnings.append("旧DOC在临时目录经LibreOffice转换为DOCX后解析，原文件未修改")
             if parsed.blocks:
                 return parsed
@@ -126,6 +133,9 @@ def parse_legacy_doc(path: Path) -> ParsedDocument:
             text = completed.stdout.decode("utf-8", errors="replace")
             blocks, cleanup_warnings = _blocks_from_plain_text(text)
             if blocks:
+                verified_formula_count = apply_verified_formula_overrides(path, blocks)
+                if verified_formula_count:
+                    cleanup_warnings.append(f"已从原始DOC版式恢复{verified_formula_count}个公式块")
                 warnings = ["LibreOffice转换失败，旧DOC通过macOS textutil只读抽取并清理域代码，原文件未修改", *cleanup_warnings]
                 return ParsedDocument(path, "doc", blocks, infer_metadata(blocks, path), warnings)
     return ParsedDocument(path, "doc", [], {}, ["旧DOC的LibreOffice转换和textutil抽取均失败"], "failed")

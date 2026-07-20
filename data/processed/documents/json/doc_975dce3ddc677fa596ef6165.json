@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
     "clean_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
@@ -36,6 +36,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00003",
@@ -127,7 +129,7 @@
   "original_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
   "clean_text_sha256": "d86a5bbabb2d0c1a9baa425fb588a6885eac267635562da6632c3e3add1dadff",
   "clean_text_hash": "2cf4d7b3ce8a63b6320726b6ab33f781cfe8fd302ad67363131146275defce39",
-  "structured_blocks_sha256": "1a7dd330868e8c9f84657ba57e776ec0c8d2647a84a103f93eb5d135576072e4",
+  "structured_blocks_sha256": "da8ed73b5cec3212f84017e1cf0045b0cd9c48178d16d1a3da7e97bc205edd41",
   "front_matter": [],
   "body_blocks": [],
   "appendices": [
@@ -385,7 +387,7 @@
     },
     {
       "block_id": "b00024",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、申请材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -409,7 +411,7 @@
     },
     {
       "block_id": "b00026",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)申请书",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -529,7 +531,7 @@
     },
     {
       "block_id": "b00036",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(六)人员准备情况的说明",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -553,7 +555,7 @@
     },
     {
       "block_id": "b00038",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(七)已建立完善的信息技术系统的说明及相关证明文件",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -601,7 +603,7 @@
     },
     {
       "block_id": "b00042",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(九)承诺函",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -625,7 +627,7 @@
     },
     {
       "block_id": "b00044",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十)确认书",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1408,7 +1410,7 @@
     },
     {
       "block_id": "b00024",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、申请材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1432,7 +1434,7 @@
     },
     {
       "block_id": "b00026",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)申请书",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1552,7 +1554,7 @@
     },
     {
       "block_id": "b00036",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(六)人员准备情况的说明",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1576,7 +1578,7 @@
     },
     {
       "block_id": "b00038",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(七)已建立完善的信息技术系统的说明及相关证明文件",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1624,7 +1626,7 @@
     },
     {
       "block_id": "b00042",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(九)承诺函",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1648,7 +1650,7 @@
     },
     {
       "block_id": "b00044",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十)确认书",
       "style": "Normal",
       "source_kind": "paragraph",

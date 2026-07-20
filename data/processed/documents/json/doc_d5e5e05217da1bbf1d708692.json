@@ -19,14 +19,15 @@
     "catalog_index": 4,
     "local_file_path": "data/raw/监管文件/私募投资基金监督管理条例.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_726d2d09f9653c4e73c7"
+    "legacy_document_id": "doc_source_726d2d09f9653c4e73c7",
+    "version_note": "《私募投资基金监督管理条例》已经2023年6月16日国务院第8次常务会议通过,现予公布,自2023年9月1日起施行。"
   },
   "warnings": [
     "前置发布信息清洗：移出4个block，规则cover_document_title、publication_signature_date、publication_signature_officer、publication_wrapper"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "af024ba34539698d83444e286edf59c063eb4a0fe1a84f9db5e4e98138af8af9",
     "clean_text_sha256": "94ef363a1698b76b5859d887c8c332a650a48e85465edc0dc6c34c8de9bc67a0",
@@ -115,6 +116,8 @@
         "character_count": 12
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00008",
       "b00010",

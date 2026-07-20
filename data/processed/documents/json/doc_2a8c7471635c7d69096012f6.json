@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "ed5677af7e108159aebe546b9f40da5eeb4276886de855158d0ccb7d81ecc482",
     "clean_text_sha256": "aaead4424000cf12464d506e333d8f0615b3448bd2dd2dcda06d5c4b99e82882",
@@ -96,6 +96,8 @@
         "character_count": 36
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00002",
@@ -224,7 +226,7 @@
   "original_text_sha256": "ed5677af7e108159aebe546b9f40da5eeb4276886de855158d0ccb7d81ecc482",
   "clean_text_sha256": "aaead4424000cf12464d506e333d8f0615b3448bd2dd2dcda06d5c4b99e82882",
   "clean_text_hash": "6dd4db57e597e333407a66aca4195f44af9b77ab826fabd364ceb23701aeb577",
-  "structured_blocks_sha256": "1c3c6562b29b5518891d2d72accda296d3dbff1c6197306ce41b1e2cce4c2651",
+  "structured_blocks_sha256": "000efbf3e80b0d6db01616e2054fdb3b5bdf5d8725fa346a2fe90eb1c7a2b309",
   "front_matter": [
     {
       "block_id": "b00003",
@@ -1267,7 +1269,7 @@
     },
     {
       "block_id": "b00088",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、业务清算人员及联系方式",
       "style": "",
       "source_kind": "paragraph",
@@ -1399,7 +1401,7 @@
     },
     {
       "block_id": "b00099",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "四、额度申请",
       "style": "",
       "source_kind": "paragraph",
@@ -2734,7 +2736,7 @@
     },
     {
       "block_id": "b00088",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、业务清算人员及联系方式",
       "style": "",
       "source_kind": "paragraph",
@@ -2866,7 +2868,7 @@
     },
     {
       "block_id": "b00099",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "四、额度申请",
       "style": "",
       "source_kind": "paragraph",

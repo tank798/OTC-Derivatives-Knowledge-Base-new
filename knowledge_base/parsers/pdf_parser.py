@@ -22,14 +22,27 @@ TOC_ENTRY_RE = re.compile(
 TOC_GENERIC_ENTRY_RE = re.compile(r"^.+(?:\.{2,}|[…·]{2,})\s*(?:(?:\d\s*){1,4}|[IVXLCDM]+)$", re.I)
 PDF_STRUCTURE_START_RE = re.compile(
     r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|"
-    r"[（(][一二三四五六七八九十\d]+[）)]|\d+(?:\.\d+){1,4}\s+[一-鿿]|\d+[．.、]|"
+    r"[一二三四五六七八九十百]+[、.]|[（(][一二三四五六七八九十\d]+[）)]|"
+    r"\d+(?:\.\d+){1,4}\s+[一-鿿]|\d+[．.、]|"
     r"附件|附录|声\s*明|前言|目录|目次)"
 )
 PDF_TERMINAL_RE = re.compile(r"[。！？!?]】?$")
 GUIDE_TOP_HEADING_RE = re.compile(r"^[一二三四五六七八九十百]+[、.]\s*(.+)$")
 GUIDE_SUB_HEADING_RE = re.compile(r"^[（(][一二三四五六七八九十百\d]+[）)]\s*(.+)$")
 GUIDE_MINOR_HEADING_RE = re.compile(r"^\d+[.．、]\s*(.+)$")
-GUIDE_NORMATIVE_RE = re.compile(r"(?:应当|应|不得|可以|可|负责|包括|主要职责|是指|须|建议)")
+# PDF text extraction frequently cuts an action sentence after a short first
+# line, e.g. ``（一）向……个人`` or ``五、……发``.  These are not headings:
+# they are the lead of a numbered item whose next visual line is continuation
+# text.  Keep the cue list broad enough to prevent the parser from flushing a
+# false heading, while retaining genuinely short noun-style headings.
+GUIDE_NORMATIVE_RE = re.compile(
+    r"(?:应当|应|不得|可以|可|负责|包括|主要职责|是指|须|建议|向|通过|口头|夸大|不符合|"
+    r"从事|委托|按照|根据|禁止|限制|发生|提供|承诺|要求|完成|履行|宣传|投向|开展|参与|"
+    r"支付|计算|提交|知晓|遵守|用于|采取|建立|适用|转让|认购|卖方|买方|申请|新增|展期|"
+    r"清算|具有|符合|满足|接受|收取|取得|披露|报告|报送|说明|识别|使用|设立|发行|保证|"
+    r"确认|执行|导致|影响|属于|定义|批准|以)"
+)
+GUIDE_TRUNCATED_END_RE = re.compile(r"(?:专|项|发|行|讲|直|投|资|信|报|第|不|应|为|其|及|等|的|与|或|在|对|从|将|未|有|由|和)$")
 
 
 def ocr_pdf_pages(path: Path) -> list[list[str]]:
@@ -105,6 +118,7 @@ def is_pdf_guide_heading(line: str) -> bool:
             and len(compact(remainder)) <= limit
             and not re.search(r"[。；;！？!?]", remainder)
             and not GUIDE_NORMATIVE_RE.search(remainder)
+            and not (len(compact(remainder)) >= 10 and GUIDE_TRUNCATED_END_RE.search(remainder))
         ):
             return True
     return False
@@ -125,6 +139,23 @@ def join_pdf_lines(lines: list[str]) -> list[str]:
             result.append(line)
             continue
         if structural.match(line) or line.startswith(("附件", "附录")):
+            # A numbered rule can itself wrap before a legal-looking phrase,
+            # e.g. ``（三）……第（八）项、\n第六条第一款……``.  When the
+            # current numbered item ends in a list separator, treat that
+            # apparent article lead as continuation text instead of starting
+            # a new block.  This is deliberately narrower than joining every
+            # line beginning with “第”, so genuine article boundaries remain.
+            if (
+                current
+                and re.match(r"^(?:[（(][一二三四五六七八九十百\d]+[）)]|[一二三四五六七八九十百]+[、.])", current)
+                and (
+                    current.rstrip().endswith(("、", ",", "，", ":", "："))
+                    or (len(compact(current)) >= 20 and line.startswith("第"))
+                )
+                and not re.search(r"[。！？!?；;]$", current.rstrip())
+            ):
+                current += line
+                continue
             if current:
                 result.append(current)
             current = line
@@ -484,15 +515,18 @@ def parse_pdf(path: Path) -> ParsedDocument:
                 sequence += 1
                 blocks.append(SourceBlock(paragraph, page=page_no, block_id=f"b{sequence:05d}"))
 
-    verified_formula_count = apply_verified_formula_overrides(path, blocks)
-    if verified_formula_count:
-        warnings.append(f"按原PDF二维排版核对并线性化{verified_formula_count}处公式")
     blocks, stitched_tables = stitch_cross_page_tables(blocks)
     if stitched_tables:
         warnings.append(f"已按几何边界拼接{stitched_tables}组PDF跨页表格")
     blocks, merged_page_breaks = merge_cross_page_paragraphs(blocks)
     if merged_page_breaks:
         warnings.append(f"已合并{merged_page_breaks}处PDF跨页句子或词语断行")
+    # Apply formula corrections only after cross-page paragraphs have been
+    # joined.  Otherwise a formula that starts at the bottom of one page can
+    # be attached to a discarded continuation block and lose its metadata.
+    verified_formula_count = apply_verified_formula_overrides(path, blocks)
+    if verified_formula_count:
+        warnings.append(f"按原PDF二维排版核对并线性化{verified_formula_count}处公式")
     blocks, removed_front_structure = strip_repeated_front_structure(blocks)
     if removed_front_structure:
         warnings.append(f"已过滤{removed_front_structure}个PDF前置目录标题")

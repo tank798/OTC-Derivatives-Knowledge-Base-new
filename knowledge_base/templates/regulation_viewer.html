@@ -508,6 +508,17 @@ body::-webkit-scrollbar,
   overflow-wrap:anywhere;
 }
 .legal-formula-expression sub,.legal-formula-expression sup{font-size:.72em;line-height:0}
+.legal-math{
+  display:inline-block;
+  max-width:100%;
+  vertical-align:middle;
+  font-family:"STIX Two Math","Cambria Math","Times New Roman",serif;
+  font-size:1.08em;
+  line-height:1.2;
+  text-align:left;
+}
+.legal-math math{max-width:100%;}
+.legal-formula-fallback{display:none}
 .legal-note-block{
   margin:.75em 0 1em;
   padding:12px 16px;
@@ -1608,6 +1619,11 @@ body.sidebar-open .brand-logo-full{
 }
 
 /* 2026-07-19 strict filter baseline alignment */
+#filter-rows{
+  display:flex;
+  flex-direction:column;
+  row-gap:2px;
+}
 .filter-row{
   display:grid!important;
   grid-template-columns:108px minmax(0,1fr)!important;
@@ -2253,8 +2269,153 @@ function renderMarkdownTable(lines,d,index,q){
   const hint=maxCols>6?'<div class="legal-table-hint">表格支持横向滚动</div>':'';
   return `<section class="legal-table-section"><div class="legal-table-caption">${markText(tableCaptionFor(d,index),q)}</div><div class="legal-table-wrap"><table class="legal-table">${head}${body}</table></div>${hint}</section>`;
 }
-function formatFormulaHTML(raw,q){
+function latexGroupSource(source,state){
+  if(source[state.pos]!=='{')return null;
+  const start=++state.pos;
+  let depth=1;
+  while(state.pos<source.length&&depth){
+    if(source[state.pos]==='\\'&&source[state.pos+1]){state.pos+=2;continue;}
+    if(source[state.pos]==='{')depth++;
+    else if(source[state.pos]==='}')depth--;
+    state.pos++;
+  }
+  return source.slice(start,state.pos-(depth?0:1));
+}
+function latexTextAtom(value,variant='normal'){
+  return `<mtext mathvariant="${variant}">${esc(String(value||'').replace(/\s+/g,' ').trim())}</mtext>`;
+}
+function latexFragment(source){
+  const state={source:String(source||''),pos:0};
+  const readCommand=()=>{
+    const start=++state.pos;
+    while(state.pos<state.source.length&&/[A-Za-z]/.test(state.source[state.pos]))state.pos++;
+    return state.source.slice(start,state.pos)||state.source[state.pos++]||'';
+  };
+  const readScript=()=>{
+    if(state.source[state.pos]==='{'){
+      const raw=latexGroupSource(state.source,state);
+      return latexFragment(raw).html;
+    }
+    const atom=parseAtom();
+    return atom?atom.html:'';
+  };
+  const delimiter=()=>{
+    if(state.source[state.pos]==='\\'){
+      const command=readCommand();
+      return {"{":"{","}":"}","langle":"⟨","rangle":"⟩","vert":"|","Vert":"‖","mid":"|"}[command]||command;
+    }
+    return state.source[state.pos++]||'';
+  };
+  const wrapStyle=(tag,html,variant)=>`<${tag} mathvariant="${variant}"><mrow>${html}</mrow></${tag}>`;
+  function parseAtom(){
+    while(state.pos<state.source.length&&/[\s~&]/.test(state.source[state.pos]))state.pos++;
+    if(state.pos>=state.source.length||state.source[state.pos]==='}')return null;
+    const ch=state.source[state.pos];
+    if(ch==='{'){
+      const raw=latexGroupSource(state.source,state)||'';
+      return {html:raw?`<mrow>${latexFragment(raw).html}</mrow>`:''};
+    }
+    if(ch==='\\'){
+      const command=readCommand();
+      if(command==='frac' || command==='dfrac' || command==='tfrac'){
+        const numerator=state.source[state.pos]==='{'?latexFragment(latexGroupSource(state.source,state)).html:readScript();
+        const denominator=state.source[state.pos]==='{'?latexFragment(latexGroupSource(state.source,state)).html:readScript();
+        return {html:`<mfrac><mrow>${numerator}</mrow><mrow>${denominator}</mrow></mfrac>`};
+      }
+      if(command==='left')return {html:`<mo fence="true">${esc(delimiter())}</mo>`};
+      if(command==='right')return {html:`<mo fence="true">${esc(delimiter())}</mo>`};
+      if(command==='mathrm'||command==='text'||command==='operatorname'||command==='textrm'){
+        const raw=state.source[state.pos]==='{'?latexGroupSource(state.source,state):'';
+        return {html:latexTextAtom(raw||'',command==='mathrm'?'normal':'normal')};
+      }
+      if(command==='mathbf'||command==='boldsymbol'){
+        const raw=state.source[state.pos]==='{'?latexGroupSource(state.source,state):'';
+        return {html:wrapStyle('mtext',esc(raw||''),'bold')};
+      }
+      if(command==='bar'||command==='overline'){
+        const inner=state.source[state.pos]==='{'?latexFragment(latexGroupSource(state.source,state)).html:readScript();
+        return {html:`<mover accent="true"><mrow>${inner}</mrow><mo>¯</mo></mover>`};
+      }
+      const commands={
+        exp:['mi','exp'],ln:['mi','ln'],log:['mi','log'],sin:['mi','sin'],cos:['mi','cos'],
+        tan:['mi','tan'],max:['mi','max'],min:['mi','min'],sup:['mi','sup'],inf:['mi','inf'],
+        int:['mo','∫'],sum:['mo','∑'],prod:['mo','∏'],cap:['mo','∩'],cup:['mo','∪'],mid:['mo','|'],
+        vert:['mo','|'],Vert:['mo','‖'],times:['mo','×'],cdot:['mo','·'],cdotp:['mo','·'],
+        pm:['mo','±'],mp:['mo','∓'],le:['mo','≤'],leq:['mo','≤'],ge:['mo','≥'],geq:['mo','≥'],
+        neq:['mo','≠'],approx:['mo','≈'],sim:['mo','∼'],infty:['mi','∞'],cdots:['mo','⋯'],ldots:['mo','…'],
+        dots:['mo','…'],quad:['mspace',''],qquad:['mspace',''],thinspace:['mspace','']
+      };
+      if(command==='quad'||command==='qquad'||command===','||command==='!')return {html:`<mspace width="${command==='qquad'?'2em':command==='quad'?'1em':'0.2em'}"></mspace>`};
+      const mapped=commands[command];
+      if(mapped){
+        const html=mapped[0]==='mspace'?`<mspace width="1em"></mspace>`:`<${mapped[0]}${mapped[0]==='mo'?'': ' mathvariant="normal"'}>${mapped[1]}</${mapped[0]}>`;
+        return {html,largeOperator:command==='int'||command==='sum'||command==='prod'};
+      }
+      if(command==='Big'||command==='big'||command==='Bigg'||command==='bigg'){
+        return parseAtom();
+      }
+      if(command==='begin'){
+        const env=state.source[state.pos]==='{'?latexGroupSource(state.source,state):'';
+        return {html:env==='aligned'?'':'',skip:true};
+      }
+      if(command==='end'){
+        if(state.source[state.pos]==='{')latexGroupSource(state.source,state);
+        return {html:'',skip:true};
+      }
+      return {html:`<mi mathvariant="normal">${esc(command)}</mi>`};
+    }
+    if(/[0-9]/.test(ch)){
+      const start=state.pos++;
+      while(state.pos<state.source.length&&/[0-9.]/.test(state.source[state.pos]))state.pos++;
+      return {html:`<mn>${esc(state.source.slice(start,state.pos))}</mn>`};
+    }
+    if(/[A-Za-z]/.test(ch)){
+      const start=state.pos++;
+      while(state.pos<state.source.length&&/[A-Za-z]/.test(state.source[state.pos]))state.pos++;
+      const value=state.source.slice(start,state.pos);
+      return {html:value.length===1?`<mi>${esc(value)}</mi>`:`<mtext mathvariant="italic">${esc(value)}</mtext>`};
+    }
+    state.pos++;
+    if(ch==='.'||ch===','||ch===':'||ch===';'||ch==='='||ch==='+'||ch==='-'||ch==='/'||ch==='*'||ch==='['||ch===']'||ch==='('||ch===')'||ch==='|'||ch==='<'||ch==='>')return {html:`<mo>${esc(ch)}</mo>`};
+    return {html:latexTextAtom(ch)};
+  }
+  function parseSequence(stopAtEnd=false){
+    const parts=[];
+    while(state.pos<state.source.length){
+      if(stopAtEnd&&state.source[state.pos]==='}')break;
+      const atom=parseAtom();
+      if(!atom)break;
+      if(atom.skip)continue;
+      let sub=null,sup=null;
+      while(state.pos<state.source.length&&(state.source[state.pos]==='_'||state.source[state.pos]==='^')){
+        const marker=state.source[state.pos++];
+        const value=readScript();
+        if(marker==='_')sub=value;else sup=value;
+      }
+      if(sub||sup){
+        if(atom.largeOperator)atom.html=sub&&sup?`<munderover>${atom.html}<mrow>${sub}</mrow><mrow>${sup}</mrow></munderover>`:sub?`<munder>${atom.html}<mrow>${sub}</mrow></munder>`:`<mover>${atom.html}<mrow>${sup}</mrow></mover>`;
+        else atom.html=sub&&sup?`<msubsup>${atom.html}<mrow>${sub}</mrow><mrow>${sup}</mrow></msubsup>`:sub?`<msub>${atom.html}<mrow>${sub}</mrow></msub>`:`<msup>${atom.html}<mrow>${sup}</mrow></msup>`;
+      }
+      parts.push(atom.html);
+    }
+    return {html:parts.join('')};
+  }
+  return parseSequence(true);
+}
+function latexToMathML(latex){
+  const source=String(latex||'').trim();
+  if(!source)return '';
+  const aligned=source.match(/^\\begin\{aligned\}([\s\S]*?)\\end\{aligned\}$/);
+  if(aligned){
+    const rows=aligned[1].split(/\\\\/).map(row=>row.replace(/&/g,'').trim()).filter(Boolean);
+    return `<math class="legal-math" display="block" aria-label="${esc(source)}"><mtable columnalign="left">${rows.map(row=>`<mtr><mtd>${latexFragment(row).html}</mtd></mtr>`).join('')}</mtable></math>`;
+  }
+  return `<math class="legal-math" display="block" aria-label="${esc(source)}"><mrow>${latexFragment(source).html}</mrow></math>`;
+}
+function formatFormulaHTML(raw,q,latex=''){
   if(q)return markText(raw,q);
+  const math=latexToMathML(latex);
+  if(math)return `<span class="legal-math-wrap">${math}<span class="legal-formula-fallback">${esc(raw)}</span></span>`;
   let h=esc(raw);
   h=h.replace(/([A-Za-z])_([A-Za-z0-9]+)/g,'$1<sub>$2</sub>');
   h=h.replace(/\^\{([^{}]+)\}/g,'<sup>$1</sup>');
@@ -2386,17 +2547,22 @@ function renderStructuredTable(block,q){
 function renderStructuredFormula(block,d,q,index){
   const formula=block.formula_data||{};
   const expressions=Array.isArray(formula.expressions)?formula.expressions:[];
+  const latexExpressions=Array.isArray(formula.latex_expressions)?formula.latex_expressions:[];
+  const warnings=uniq([...(formula.parsing_warnings||[]),...(block.parsing_warnings||[])]);
+  const warningHtml=warnings.length?`<div class="legal-parsing-warning">${warnings.map(v=>markText(v,q)).join('<br>')}</div>`:'';
   let expressionIndex=0;
-  return String(block.text||'').split(/\n/).map(line=>{
+  const body=String(block.text||'').split(/\n/).map(line=>{
     const value=line.trim();
     if(!value)return '';
     const marker=value.match(/^【公式[^】]*】\s*(.*)$/);
     if(marker){
       const expression=expressions[expressionIndex++]||marker[1];
-      return `<div class="legal-formula"><span class="legal-formula-label">${esc(formula.formula_label||'公式')}</span><span class="legal-formula-expression">${formatFormulaHTML(expression,q)}</span></div>`;
+      const latex=latexExpressions[expressionIndex-1]||formula.latex||'';
+      return `<div class="legal-formula"><span class="legal-formula-label">${esc(formula.formula_label||'公式')}</span><span class="legal-formula-expression">${formatFormulaHTML(expression,q,latex)}</span></div>`;
     }
     return renderOrdinaryLegalLine(value,index,d,q);
   }).join('');
+  return warningHtml+body;
 }
 function renderStructuredBlock(block,index,d,q){
   const type=block.block_type||'paragraph';
@@ -2405,7 +2571,18 @@ function renderStructuredBlock(block,index,d,q){
   if(type==='table')return renderStructuredTable(block,q);
   if(block.formula_data||type==='formula')return `<section class="legal-formula-group">${renderStructuredFormula(block,d,q,index)}</section>`;
   if(type==='guide_heading')return `<h2 class="legal-guide-heading">${markText(text,q)}</h2>`;
-  if(type==='guide_subheading')return `<h3 class="legal-guide-subheading">${markText(text,q)}</h3>`;
+  if(type==='guide_subheading'){
+    // A PDF may still carry a long numbered rule as a guide_subheading when
+    // an older cached structure is opened.  Render substantive list items at
+    // normal body size; genuine short section labels retain the hierarchy
+    // style.  This is content-shape based, not document/question specific.
+    const compactGuide=norm(text);
+    const substantive=/^[（(]/.test(text)&&(
+      compactGuide.length>24||/(向|通过|口头|不符合|从事|委托|按照|宣传|投向|开展|参与|知晓|遵守|发行|计算|提交|报告|报送|要求|不得|应当)/.test(text)
+    );
+    if(substantive)return renderOrdinaryLegalLine(text,index,d,q);
+    return `<h3 class="legal-guide-subheading">${markText(text,q)}</h3>`;
+  }
   if(type==='guide_minor_heading')return `<h4 class="legal-guide-minor-heading">${markText(text,q)}</h4>`;
   if(type==='part')return `<h3 class="legal-part">${markText(text,q)}</h3>`;
   if(type==='chapter')return `<h3 class="legal-chapter">${markText(text,q)}</h3>`;

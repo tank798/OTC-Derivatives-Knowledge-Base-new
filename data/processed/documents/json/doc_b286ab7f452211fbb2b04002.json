@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "6978e8e22ca7740c50c1661a17429cc571c39c807daf27929c665decabca85ab",
     "clean_text_sha256": "6978e8e22ca7740c50c1661a17429cc571c39c807daf27929c665decabca85ab",
@@ -36,6 +36,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00002",
@@ -155,7 +157,7 @@
   "original_text_sha256": "6978e8e22ca7740c50c1661a17429cc571c39c807daf27929c665decabca85ab",
   "clean_text_sha256": "6978e8e22ca7740c50c1661a17429cc571c39c807daf27929c665decabca85ab",
   "clean_text_hash": "3551c1d61188e804a65f8f12ec0bc46e9107ac0e53b92534c8c5b4a935da368a",
-  "structured_blocks_sha256": "9fb1c07d4231529e4c0e76e5b50f73edc520731ee25119bc90481c00b3640dc1",
+  "structured_blocks_sha256": "8947bebe7cee767e60d5816d857854492d35e086eeb05c3cb5b9848e5c7bad46",
   "front_matter": [],
   "body_blocks": [],
   "appendices": [
@@ -929,7 +931,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、移仓交易清算人员及联系方式",
       "style": "",
       "source_kind": "paragraph",
@@ -2288,7 +2290,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、移仓交易清算人员及联系方式",
       "style": "",
       "source_kind": "paragraph",

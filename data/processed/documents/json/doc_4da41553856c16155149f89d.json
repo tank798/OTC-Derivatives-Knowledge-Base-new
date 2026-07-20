@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "a7b1abcab68415011ece8a63bad9bfaf655bc24dc42064aa19f3810287b7ea68",
     "clean_text_sha256": "a7b1abcab68415011ece8a63bad9bfaf655bc24dc42064aa19f3810287b7ea68",
@@ -36,6 +36,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00005",
@@ -238,7 +240,7 @@
   "original_text_sha256": "a7b1abcab68415011ece8a63bad9bfaf655bc24dc42064aa19f3810287b7ea68",
   "clean_text_sha256": "a7b1abcab68415011ece8a63bad9bfaf655bc24dc42064aa19f3810287b7ea68",
   "clean_text_hash": "bc361d23f922062cada0238ac841ca752191e17e018c6e9a87b8ef5b0a084f4c",
-  "structured_blocks_sha256": "94340aa21e0b7cf44f1793661550a64a63145a58dcb82897ff3c70d9ac36c980",
+  "structured_blocks_sha256": "fb6944d5b66c4a63b5be605cec84e7f7e25780d4f4009a1b710503b8e62eb630",
   "front_matter": [],
   "body_blocks": [
     {
@@ -375,7 +377,7 @@
     },
     {
       "block_id": "b00017",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.4 交易确认书",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -771,7 +773,7 @@
     },
     {
       "block_id": "b00050",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.19 股息支付日",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -819,7 +821,7 @@
     },
     {
       "block_id": "b00054",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.21 计算机构",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -927,7 +929,7 @@
     },
     {
       "block_id": "b00063",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.2 远期买方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -951,7 +953,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.3 远期卖方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -999,7 +1001,7 @@
     },
     {
       "block_id": "b00069",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.5 远期结算支付金额",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1119,7 +1121,7 @@
     },
     {
       "block_id": "b00079",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.2 权益收益金额支付方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1647,7 +1649,7 @@
     },
     {
       "block_id": "b00123",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.6 期权买方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1671,7 +1673,7 @@
     },
     {
       "block_id": "b00125",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.7 期权卖方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1719,7 +1721,7 @@
     },
     {
       "block_id": "b00129",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.9 期权费支付日",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1959,7 +1961,7 @@
     },
     {
       "block_id": "b00149",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.18 期权结算支付金额",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2731,7 +2733,7 @@
     },
     {
       "block_id": "b00017",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.4 交易确认书",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3127,7 +3129,7 @@
     },
     {
       "block_id": "b00050",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.19 股息支付日",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3175,7 +3177,7 @@
     },
     {
       "block_id": "b00054",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.21 计算机构",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3283,7 +3285,7 @@
     },
     {
       "block_id": "b00063",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.2 远期买方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3307,7 +3309,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.3 远期卖方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3355,7 +3357,7 @@
     },
     {
       "block_id": "b00069",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.5 远期结算支付金额",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3475,7 +3477,7 @@
     },
     {
       "block_id": "b00079",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.2 权益收益金额支付方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4003,7 +4005,7 @@
     },
     {
       "block_id": "b00123",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.6 期权买方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4027,7 +4029,7 @@
     },
     {
       "block_id": "b00125",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.7 期权卖方",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4075,7 +4077,7 @@
     },
     {
       "block_id": "b00129",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.9 期权费支付日",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4315,7 +4317,7 @@
     },
     {
       "block_id": "b00149",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.18 期权结算支付金额",
       "style": "Normal",
       "source_kind": "paragraph",

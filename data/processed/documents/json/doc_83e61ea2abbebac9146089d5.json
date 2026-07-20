@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "ff70f6f79026398854e44c25a00041144e2a3fadd6e9e5d4bcfb8d922924fc1a",
     "clean_text_sha256": "ff70f6f79026398854e44c25a00041144e2a3fadd6e9e5d4bcfb8d922924fc1a",
@@ -34,6 +34,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00002",
@@ -178,7 +180,7 @@
   "original_text_sha256": "ff70f6f79026398854e44c25a00041144e2a3fadd6e9e5d4bcfb8d922924fc1a",
   "clean_text_sha256": "ff70f6f79026398854e44c25a00041144e2a3fadd6e9e5d4bcfb8d922924fc1a",
   "clean_text_hash": "f763c52da25a21459d2461bf4e560ca7baa90a3e8de25563f0ded9a1f7c4846f",
-  "structured_blocks_sha256": "d9d5c06cc6e6fbec07ce56509e260e294d284371a5e146431e2d237852aeb7b0",
+  "structured_blocks_sha256": "3843530665dd139938ea60033e7df627c1b4d76f45ee2c7f90468dfbe5f2e46a",
   "front_matter": [],
   "body_blocks": [
     {
@@ -279,7 +281,7 @@
     },
     {
       "block_id": "b00010",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、规范金融机构资产管理业务主要遵循以下原则:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1311,7 +1313,7 @@
     },
     {
       "block_id": "b00096",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "十九、经金融管理部门认定,存在以下行为的视为刚性兑付:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1707,7 +1709,7 @@
     },
     {
       "block_id": "b00129",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二十七、对资产管理业务实施监管遵循以下原则:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -1939,7 +1941,7 @@
     },
     {
       "block_id": "b00010",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、规范金融机构资产管理业务主要遵循以下原则:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2971,7 +2973,7 @@
     },
     {
       "block_id": "b00096",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "十九、经金融管理部门认定,存在以下行为的视为刚性兑付:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3367,7 +3369,7 @@
     },
     {
       "block_id": "b00129",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二十七、对资产管理业务实施监管遵循以下原则:",
       "style": "Normal",
       "source_kind": "paragraph",

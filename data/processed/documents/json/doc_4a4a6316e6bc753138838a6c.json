@@ -26,7 +26,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
     "clean_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
@@ -36,6 +36,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00003",
@@ -69,7 +71,7 @@
   "original_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
   "clean_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
   "clean_text_hash": "452ada6b360d18910f2f1832315c8bd9798997a3c7bbc146b8d0cff7fd2a7063",
-  "structured_blocks_sha256": "28f18f7ee2d6865216d072e67f600621e94d26de061c99d5cde990862151e8f2",
+  "structured_blocks_sha256": "e9364f08b39ed05ebda0805a43f2172c41656662693a9ac85b3595b26915a246",
   "front_matter": [],
   "body_blocks": [],
   "appendices": [
@@ -111,7 +113,7 @@
     },
     {
       "block_id": "b00006",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、报告类别",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -123,7 +125,7 @@
     },
     {
       "block_id": "b00007",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)持续报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -171,7 +173,7 @@
     },
     {
       "block_id": "b00011",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)月度报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -195,7 +197,7 @@
     },
     {
       "block_id": "b00013",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)季度报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -231,7 +233,7 @@
     },
     {
       "block_id": "b00016",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(四)年度报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -255,7 +257,7 @@
     },
     {
       "block_id": "b00018",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)重大事项报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -279,7 +281,7 @@
     },
     {
       "block_id": "b00020",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、报送要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -291,7 +293,7 @@
     },
     {
       "block_id": "b00021",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)人员要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -315,7 +317,7 @@
     },
     {
       "block_id": "b00023",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)机制要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -339,7 +341,7 @@
     },
     {
       "block_id": "b00025",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)质量要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -438,7 +440,7 @@
     },
     {
       "block_id": "b00006",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、报告类别",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -450,7 +452,7 @@
     },
     {
       "block_id": "b00007",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)持续报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -498,7 +500,7 @@
     },
     {
       "block_id": "b00011",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)月度报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -522,7 +524,7 @@
     },
     {
       "block_id": "b00013",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)季度报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -558,7 +560,7 @@
     },
     {
       "block_id": "b00016",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(四)年度报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -582,7 +584,7 @@
     },
     {
       "block_id": "b00018",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)重大事项报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -606,7 +608,7 @@
     },
     {
       "block_id": "b00020",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、报送要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -618,7 +620,7 @@
     },
     {
       "block_id": "b00021",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)人员要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -642,7 +644,7 @@
     },
     {
       "block_id": "b00023",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)机制要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -666,7 +668,7 @@
     },
     {
       "block_id": "b00025",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)质量要求",
       "style": "Normal",
       "source_kind": "paragraph",

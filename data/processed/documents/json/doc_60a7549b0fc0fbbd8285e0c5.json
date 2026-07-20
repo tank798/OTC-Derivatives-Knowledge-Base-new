@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "35d5fe81ca2496747ffe55d5d599341e14cc67c958697d7cb58e4030743d42ce",
     "clean_text_sha256": "8e4d2ef60498ed68822a0fff65146b34d6387b3b95b3503f2878e68dd87e6298",
@@ -153,6 +153,8 @@
         "character_count": 14
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00113",
       "b00114",
@@ -1136,7 +1138,7 @@
   "original_text_sha256": "35d5fe81ca2496747ffe55d5d599341e14cc67c958697d7cb58e4030743d42ce",
   "clean_text_sha256": "8e4d2ef60498ed68822a0fff65146b34d6387b3b95b3503f2878e68dd87e6298",
   "clean_text_hash": "d394938c3d55aa5d5905b6294a197f2e91e39b555e3b47b739e090557d1bf265",
-  "structured_blocks_sha256": "42b5bec1b8268cc9cef2f96721cdb595b79dc0baecefa937524f15c287dd3fac",
+  "structured_blocks_sha256": "9f73d460d1e8f696813c192559bf127bd9369e77cf9b250103a331e2ae6c32d6",
   "front_matter": [
     {
       "block_id": "b00003",
@@ -2072,7 +2074,7 @@
     },
     {
       "block_id": "b00192",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、申请本所会员业务数字证书",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -2096,7 +2098,7 @@
     },
     {
       "block_id": "b00194",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.账号申请",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2192,7 +2194,7 @@
     },
     {
       "block_id": "b00202",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)所需材料及材料要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2300,7 +2302,7 @@
     },
     {
       "block_id": "b00211",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)材料提交方式",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2360,7 +2362,7 @@
     },
     {
       "block_id": "b00216",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "四、申请股票期权交易参与人",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -2384,7 +2386,7 @@
     },
     {
       "block_id": "b00218",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)所需材料及材料要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2504,7 +2506,7 @@
     },
     {
       "block_id": "b00228",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)申请流程",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2720,7 +2722,7 @@
     },
     {
       "block_id": "b00246",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1. 所需材料及材料要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -2780,7 +2782,7 @@
     },
     {
       "block_id": "b00251",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "七、开通一网通办会员机构门户(交易参与人业务)使用权限",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -3428,7 +3430,7 @@
     },
     {
       "block_id": "b00326",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)考试要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3608,7 +3610,7 @@
     },
     {
       "block_id": "b00341",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(六)通过标准与考试时长",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -3680,7 +3682,7 @@
     },
     {
       "block_id": "b00347",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)交易权限的申请条件",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4112,7 +4114,7 @@
     },
     {
       "block_id": "b00388",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(2)股票期权保证金账户",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4256,7 +4258,7 @@
     },
     {
       "block_id": "b00400",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(1)客户股票期权保证金账户",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4388,7 +4390,7 @@
     },
     {
       "block_id": "b00411",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.3 期货公司要求的其他材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4568,7 +4570,7 @@
     },
     {
       "block_id": "b00426",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.1向客户解释风险揭示书及经纪合同的核心内容",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -5997,7 +5999,7 @@
     },
     {
       "block_id": "b00555",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、客户保证金管理",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6009,7 +6011,7 @@
     },
     {
       "block_id": "b00556",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)保证金水平",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6273,7 +6275,7 @@
     },
     {
       "block_id": "b00578",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6285,7 +6287,7 @@
     },
     {
       "block_id": "b00579",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.盘中开仓保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6321,7 +6323,7 @@
     },
     {
       "block_id": "b00582",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.盘后维持保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6345,7 +6347,7 @@
     },
     {
       "block_id": "b00584",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.临近组合策略自动解除日保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6369,7 +6371,7 @@
     },
     {
       "block_id": "b00586",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.到期被指派合约保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6405,7 +6407,7 @@
     },
     {
       "block_id": "b00589",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.除权除息日保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6441,7 +6443,7 @@
     },
     {
       "block_id": "b00592",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)保证金监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6705,7 +6707,7 @@
     },
     {
       "block_id": "b00614",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.提取现金的计算",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6717,7 +6719,7 @@
     },
     {
       "block_id": "b00615",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(1)客户占用未对冲保证金",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6825,7 +6827,7 @@
     },
     {
       "block_id": "b00624",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.客户维持保证金监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -6885,7 +6887,7 @@
     },
     {
       "block_id": "b00629",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.客户维持保证金比例1与客户维持保证金比例2",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -7017,7 +7019,7 @@
     },
     {
       "block_id": "b00640",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.保证金通知邮箱",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -7101,7 +7103,7 @@
     },
     {
       "block_id": "b00647",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、备兑开仓客户保证金管理",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -7341,7 +7343,7 @@
     },
     {
       "block_id": "b00668",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)资金盯市管理要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -7389,7 +7391,7 @@
     },
     {
       "block_id": "b00672",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)盘中保证金占用比例实时监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -7689,7 +7691,7 @@
     },
     {
       "block_id": "b00697",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)客户出金要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -7821,7 +7823,7 @@
     },
     {
       "block_id": "b00708",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、保证金不足强行平仓",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -8865,7 +8867,7 @@
     },
     {
       "block_id": "b00810",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、行权日前调整保证金参数水平提醒",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -9405,7 +9407,7 @@
     },
     {
       "block_id": "b00881",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、日常交易清算",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -9525,7 +9527,7 @@
     },
     {
       "block_id": "b00891",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、清算后数据对账",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -9801,7 +9803,7 @@
     },
     {
       "block_id": "b00929",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、程序化交易接入管理要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -9837,7 +9839,7 @@
     },
     {
       "block_id": "b00932",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、程序化交易报告管理要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -9873,7 +9875,7 @@
     },
     {
       "block_id": "b00935",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、变更报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10053,7 +10055,7 @@
     },
     {
       "block_id": "b00957",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、报告要求和报告材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10149,7 +10151,7 @@
     },
     {
       "block_id": "b00965",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、报告注意事项",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10605,7 +10607,7 @@
     },
     {
       "block_id": "b01016",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.交易委托提醒",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10653,7 +10655,7 @@
     },
     {
       "block_id": "b01020",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、股票期权基础信息接口文件说明",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10869,7 +10871,7 @@
     },
     {
       "block_id": "b01053",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、保证金监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -10953,7 +10955,7 @@
     },
     {
       "block_id": "b01067",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)投资者教育工作要求及工作形式",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -11349,7 +11351,7 @@
     },
     {
       "block_id": "b01108",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -11687,7 +11689,7 @@
     },
     {
       "block_id": "b01138",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -13240,7 +13242,7 @@
     },
     {
       "block_id": "b01141",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、功能要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -16863,7 +16865,7 @@
     },
     {
       "block_id": "b01149",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -17360,7 +17362,7 @@
     },
     {
       "block_id": "b01152",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、功能要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -18409,7 +18411,7 @@
     },
     {
       "block_id": "b01160",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -19104,7 +19106,7 @@
     },
     {
       "block_id": "b01163",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、功能要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26097,7 +26099,7 @@
     },
     {
       "block_id": "b00192",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、申请本所会员业务数字证书",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -26121,7 +26123,7 @@
     },
     {
       "block_id": "b00194",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.账号申请",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26217,7 +26219,7 @@
     },
     {
       "block_id": "b00202",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)所需材料及材料要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26325,7 +26327,7 @@
     },
     {
       "block_id": "b00211",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)材料提交方式",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26385,7 +26387,7 @@
     },
     {
       "block_id": "b00216",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "四、申请股票期权交易参与人",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -26409,7 +26411,7 @@
     },
     {
       "block_id": "b00218",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)所需材料及材料要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26529,7 +26531,7 @@
     },
     {
       "block_id": "b00228",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)申请流程",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26745,7 +26747,7 @@
     },
     {
       "block_id": "b00246",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1. 所需材料及材料要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26805,7 +26807,7 @@
     },
     {
       "block_id": "b00251",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "七、开通一网通办会员机构门户(交易参与人业务)使用权限",
       "style": "Heading 2",
       "source_kind": "paragraph",
@@ -27453,7 +27455,7 @@
     },
     {
       "block_id": "b00326",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)考试要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -27633,7 +27635,7 @@
     },
     {
       "block_id": "b00341",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(六)通过标准与考试时长",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -27705,7 +27707,7 @@
     },
     {
       "block_id": "b00347",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)交易权限的申请条件",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -28137,7 +28139,7 @@
     },
     {
       "block_id": "b00388",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(2)股票期权保证金账户",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -28281,7 +28283,7 @@
     },
     {
       "block_id": "b00400",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(1)客户股票期权保证金账户",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -28413,7 +28415,7 @@
     },
     {
       "block_id": "b00411",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.3 期货公司要求的其他材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -28593,7 +28595,7 @@
     },
     {
       "block_id": "b00426",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.1向客户解释风险揭示书及经纪合同的核心内容",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30022,7 +30024,7 @@
     },
     {
       "block_id": "b00555",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、客户保证金管理",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30034,7 +30036,7 @@
     },
     {
       "block_id": "b00556",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)保证金水平",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30298,7 +30300,7 @@
     },
     {
       "block_id": "b00578",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30310,7 +30312,7 @@
     },
     {
       "block_id": "b00579",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.盘中开仓保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30346,7 +30348,7 @@
     },
     {
       "block_id": "b00582",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.盘后维持保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30370,7 +30372,7 @@
     },
     {
       "block_id": "b00584",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.临近组合策略自动解除日保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30394,7 +30396,7 @@
     },
     {
       "block_id": "b00586",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.到期被指派合约保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30430,7 +30432,7 @@
     },
     {
       "block_id": "b00589",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.除权除息日保证金收取",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30466,7 +30468,7 @@
     },
     {
       "block_id": "b00592",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)保证金监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30730,7 +30732,7 @@
     },
     {
       "block_id": "b00614",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.提取现金的计算",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30742,7 +30744,7 @@
     },
     {
       "block_id": "b00615",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(1)客户占用未对冲保证金",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30850,7 +30852,7 @@
     },
     {
       "block_id": "b00624",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.客户维持保证金监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -30910,7 +30912,7 @@
     },
     {
       "block_id": "b00629",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.客户维持保证金比例1与客户维持保证金比例2",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -31042,7 +31044,7 @@
     },
     {
       "block_id": "b00640",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.保证金通知邮箱",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -31126,7 +31128,7 @@
     },
     {
       "block_id": "b00647",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、备兑开仓客户保证金管理",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -31366,7 +31368,7 @@
     },
     {
       "block_id": "b00668",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)资金盯市管理要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -31414,7 +31416,7 @@
     },
     {
       "block_id": "b00672",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)盘中保证金占用比例实时监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -31714,7 +31716,7 @@
     },
     {
       "block_id": "b00697",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)客户出金要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -31846,7 +31848,7 @@
     },
     {
       "block_id": "b00708",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、保证金不足强行平仓",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -32890,7 +32892,7 @@
     },
     {
       "block_id": "b00810",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、行权日前调整保证金参数水平提醒",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -33430,7 +33432,7 @@
     },
     {
       "block_id": "b00881",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、日常交易清算",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -33550,7 +33552,7 @@
     },
     {
       "block_id": "b00891",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、清算后数据对账",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -33826,7 +33828,7 @@
     },
     {
       "block_id": "b00929",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、程序化交易接入管理要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -33862,7 +33864,7 @@
     },
     {
       "block_id": "b00932",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、程序化交易报告管理要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -33898,7 +33900,7 @@
     },
     {
       "block_id": "b00935",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、变更报告",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34078,7 +34080,7 @@
     },
     {
       "block_id": "b00957",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、报告要求和报告材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34174,7 +34176,7 @@
     },
     {
       "block_id": "b00965",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、报告注意事项",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34630,7 +34632,7 @@
     },
     {
       "block_id": "b01016",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.交易委托提醒",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34678,7 +34680,7 @@
     },
     {
       "block_id": "b01020",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、股票期权基础信息接口文件说明",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34894,7 +34896,7 @@
     },
     {
       "block_id": "b01053",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、保证金监控",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34978,7 +34980,7 @@
     },
     {
       "block_id": "b01067",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)投资者教育工作要求及工作形式",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -35374,7 +35376,7 @@
     },
     {
       "block_id": "b01108",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -35710,7 +35712,7 @@
     },
     {
       "block_id": "b01138",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -37263,7 +37265,7 @@
     },
     {
       "block_id": "b01141",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、功能要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -40886,7 +40888,7 @@
     },
     {
       "block_id": "b01149",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -41383,7 +41385,7 @@
     },
     {
       "block_id": "b01152",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、功能要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -42432,7 +42434,7 @@
     },
     {
       "block_id": "b01160",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、基本要求",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -43127,7 +43129,7 @@
     },
     {
       "block_id": "b01163",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、功能要求",
       "style": "Normal",
       "source_kind": "paragraph",

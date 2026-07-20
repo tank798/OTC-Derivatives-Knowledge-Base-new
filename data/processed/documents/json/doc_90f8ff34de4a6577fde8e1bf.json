@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "66ff7be652d5b3125542d210163a7c88450b556a1d93e356287be384c61d0826",
     "clean_text_sha256": "0df870ae392ac5963e900ca326dc105b3a19d60badfb69c96bf115b664a25c7e",
@@ -59,6 +59,8 @@
         "character_count": 13
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00002",
       "b00003",

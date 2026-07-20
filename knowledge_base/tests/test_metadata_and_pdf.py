@@ -14,14 +14,71 @@ from parsers.docx_parser import paragraph_xml_text, strip_front_page_metadata, s
 from parsers.dispatcher import parse_file
 from parsers.legacy_doc_parser import _blocks_from_plain_text
 from parsers.text_parser import _OfficialBodyHTML
-from parsers.pdf_parser import merge_cross_page_paragraphs, normalize_pdf_table_cell, normalize_semantic_table, remove_toc_entries, split_semantic_table_content
+from parsers.pdf_parser import join_pdf_lines, merge_cross_page_paragraphs, normalize_pdf_table_cell, normalize_semantic_table, remove_toc_entries, split_semantic_table_content
 from parsers.pdf_formula_overrides import apply_verified_formula_overrides
+from parsers.pdf_content_overrides import apply_verified_pdf_content_overrides
+from parsers.legacy_doc_formula_overrides import apply_verified_formula_overrides as apply_verified_doc_formula_overrides
 from utils.metadata import infer_metadata
 from utils.front_matter import clean_front_matter
+from utils.structured import structured_blocks
 from utils.text import clean_text, is_page_number
 
 
 class MetadataAndPdfTests(unittest.TestCase):
+    def test_pdf_wrapped_numbered_items_are_joined_without_promoting_the_lead_to_heading(self):
+        lines = [
+            "（一）向《私募办法》规定的合格投资者之外的单位、个人",
+            "募集资金或者为投资者提供多人拼凑、资金借贷等满足合格投资者要求的便利；",
+            "（二）通过报刊、电台、电视、互联网等公众传播媒体，讲",
+            "座、报告会、分析会等方式向不特定对象宣传推介；",
+        ]
+        joined = join_pdf_lines(lines)
+        self.assertEqual(
+            joined,
+            [
+                "(一)向《私募办法》规定的合格投资者之外的单位、个人募集资金或者为投资者提供多人拼凑、资金借贷等满足合格投资者要求的便利;",
+                "(二)通过报刊、电台、电视、互联网等公众传播媒体,讲座、报告会、分析会等方式向不特定对象宣传推介;",
+            ],
+        )
+
+    def test_pdf_wrapped_item_can_continue_before_an_article_like_phrase(self):
+        joined = join_pdf_lines([
+            "（三）不符合本规定第六条第一款第（一）项至第（八）项、",
+            "第六条第一款第（十）项、第七条的，可以依法处理；",
+            "第七条 这是下一条正文。",
+        ])
+        self.assertEqual(
+            joined,
+            [
+                "(三)不符合本规定第六条第一款第(一)项至第(八)项、第六条第一款第(十)项、第七条的,可以依法处理;",
+                "第七条 这是下一条正文。",
+            ],
+        )
+
+    def test_verified_attachment_cleanup_is_bounded_and_keeps_following_body(self):
+        blocks = [
+            SourceBlock("正文第一条。", block_id="b1"),
+            SourceBlock("附件:1.场外衍生品报告内容与格式模板", block_id="b2"),
+            SourceBlock("2.非公开发行公司债券备案内容与格式模板", block_id="b3"),
+            SourceBlock("3.收益凭证报告内容与格式模板", block_id="b4"),
+            SourceBlock("4.场外证券销售业务报告内容与格式模板", block_id="b5"),
+            SourceBlock("5.证券公司登记、托管和结算报告内容与格式模板", block_id="b6"),
+            SourceBlock("中国证券业协会", block_id="b7"),
+            SourceBlock("2017年5月22日", block_id="b8"),
+            SourceBlock("正文附件后的条款。", block_id="b9"),
+        ]
+        kept, descriptions = apply_verified_pdf_content_overrides(
+            Path("关于加强场外衍生品业务自律管理的通知.docx"), blocks,
+        )
+        self.assertEqual([block.block_id for block in kept], ["b1", "b9"])
+        self.assertEqual(len(descriptions), 1)
+
+    def test_verified_attachment_cleanup_does_not_apply_to_unknown_file(self):
+        blocks = [SourceBlock("附件:1.模板", block_id="b1"), SourceBlock("正文", block_id="b2")]
+        kept, descriptions = apply_verified_pdf_content_overrides(Path("其他通知.pdf"), blocks)
+        self.assertEqual([block.block_id for block in kept], ["b1", "b2"])
+        self.assertEqual(descriptions, [])
+
     def test_structural_front_matter_cleaning_is_scoped_before_articles(self):
         document = ParsedDocument(
             Path("公开募集证券投资基金投资信用衍生品指引.docx"),
@@ -276,6 +333,16 @@ class MetadataAndPdfTests(unittest.TestCase):
         self.assertEqual(count, 0)
         self.assertEqual(len(merged), 2)
 
+    def test_cross_page_join_stops_at_top_level_guide_heading(self):
+        blocks = [
+            SourceBlock("证券投资基金投资信用衍生品估值指引(试行)", page=1, block_id="b1"),
+            SourceBlock("一、总则", page=2, block_id="b2"),
+            SourceBlock("(一)为规范基金投资信用衍生品估值行为。", page=2, block_id="b3"),
+        ]
+        merged, count = merge_cross_page_paragraphs(blocks)
+        self.assertEqual(count, 0)
+        self.assertEqual([block.text for block in merged], [block.text for block in blocks])
+
     def test_pdf_semantic_table_requires_two_nonempty_columns(self):
         note_box = [["", "注：这是一行说明", ""], ["", "继续说明", ""]]
         self.assertEqual(normalize_semantic_table(note_box), [])
@@ -397,6 +464,7 @@ class MetadataAndPdfTests(unittest.TestCase):
         changed = apply_verified_formula_overrides(Path("中国银行间市场利率衍生产品交易定义文件（2022年版）.pdf"), blocks)
         self.assertEqual(changed, 1)
         self.assertIn("λ = 1 / [1 + (r × N / D)]", blocks[0].text)
+        self.assertIn(r"\frac{1}{1+\frac{rN}{D}}", blocks[0].formula_data["latex"])
 
     def test_credit_valuation_formula_preserves_fraction_and_exponent_order(self):
         blocks = [SourceBlock(
@@ -408,6 +476,8 @@ class MetadataAndPdfTests(unittest.TestCase):
         self.assertEqual(changed, 1)
         self.assertIn("exp((d / TY) × ln(1 - D))", blocks[0].text)
         self.assertIn("/ [1 + r_d × (d / TY)]", blocks[0].text)
+        self.assertTrue(blocks[0].formula_data["latex_expressions"])
+        self.assertIn(r"\frac", blocks[0].formula_data["latex_expressions"][0])
 
     def test_credit_default_probability_preserves_complement_event(self):
         blocks = [SourceBlock(
@@ -418,6 +488,51 @@ class MetadataAndPdfTests(unittest.TestCase):
         changed = apply_verified_formula_overrides(Path("证券投资基金投资信用衍生品估值指引(试行).pdf"), blocks)
         self.assertEqual(changed, 1)
         self.assertIn("P(A∩B̄) = P(A|B̄) × P(B̄)", blocks[0].text)
+        self.assertEqual(len(blocks[0].formula_data["latex_expressions"]), 2)
+
+    def test_credit_complex_formula_keeps_condition_separate_and_latex(self):
+        blocks = [SourceBlock(
+            "(四)估值公式如下:∫_{t}^{T_n}旧内容其中:T_j<t<T_{j+1}",
+            page=8,
+            block_id="b1",
+        )]
+        changed = apply_verified_formula_overrides(Path("证券投资基金投资信用衍生品估值指引(试行).pdf"), blocks)
+        self.assertEqual(changed, 1)
+        self.assertIn("注：T_j < t < T_{j+1}", blocks[0].text)
+        self.assertIn(r"\int", blocks[0].formula_data["latex"])
+
+    def test_legacy_doc_missing_ole_formula_is_marked_without_inventing_content(self):
+        document = ParsedDocument(
+            Path("商业银行资本管理办法.doc"),
+            "doc",
+            [
+                SourceBlock("第十九条 商业银行资本充足率计算公式为:", block_id="b1"),
+                SourceBlock("第二十条 商业银行杠杆率计算公式为:", block_id="b2"),
+                SourceBlock("第二十一条 商业银行总资本包括一级资本。", block_id="b3"),
+                SourceBlock("第一百二十条 内部损失乘数计算公式为:", block_id="b4"),
+                SourceBlock("其中:", block_id="b5"),
+            ],
+            {"document_title": "商业银行资本管理办法"},
+        )
+        rows = structured_blocks(document)
+        missing = [row for row in rows if row.get("formula_data", {}).get("conversion_status") == "source_formula_not_extractable"]
+        self.assertEqual([row["block_id"] for row in missing], ["b1", "b2", "b4"])
+        self.assertTrue(all(not row["formula_data"]["expressions"] for row in missing))
+        self.assertTrue(all("请对照原件" in row["parsing_warnings"][0] for row in missing))
+
+    def test_legacy_doc_verified_ole_formulas_are_restored_from_original_layout(self):
+        blocks = [
+            SourceBlock("第十九条 商业银行资本充足率计算公式为:", block_id="b19"),
+            SourceBlock("第二十条 商业银行杠杆率计算公式为:", block_id="b20"),
+            SourceBlock("第一百二十条 内部损失乘数(ILM)是基于商业银行操作风险平均历史损失数据与业务指标部分的调整因子,计算公式为:", block_id="b120"),
+        ]
+        changed = apply_verified_doc_formula_overrides(Path("商业银行资本管理办法.doc"), blocks)
+        self.assertEqual(changed, 3)
+        self.assertEqual(len(blocks[0].formula_data["expressions"]), 3)
+        self.assertIn("核心一级资本充足率", blocks[0].text)
+        self.assertIn("调整后表内外资产余额", blocks[1].text)
+        self.assertIn("(LC / BIC)^{0.8}", blocks[2].text)
+        self.assertEqual(blocks[2].formula_data["conversion_status"], "verified_from_original_doc_layout")
 
     def test_official_html_footnote_marker_is_structured(self):
         parser = _OfficialBodyHTML()

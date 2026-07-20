@@ -193,6 +193,38 @@ def compatible_hierarchy(left: Unit, right: Unit) -> bool:
     return True
 
 
+STRUCTURAL_OVERLAP_KINDS = {
+    "part", "chapter", "section", "attachment", "guide_heading",
+}
+
+
+def is_structural_scope_heading(unit: Unit) -> bool:
+    if unit.kind in STRUCTURAL_OVERLAP_KINDS:
+        return True
+    if unit.kind not in {"guide_subheading", "guide_minor_heading"}:
+        return False
+    # Some PDFs label substantive list items as a “guide subheading” because
+    # the first visual line is short.  A sentence/list item is still allowed
+    # to carry retrieval context; a short punctuation-free label is not.
+    value = clean_text(unit.body_text)
+    return body_char_count(value) <= 80 and not re.search(r"[。；;！？!?]", value)
+
+
+def overlap_scope_compatible(previous: ChunkDraft, current: ChunkDraft) -> bool:
+    """Keep retrieval overlap inside one structural scope.
+
+    A heading starts a new scope even when the following text is short enough
+    to fit in the same retrieval window.  More importantly, overlap must not
+    be written into ``units``: ``units`` are the primary source-backed body,
+    while ``context_only_prefix`` is retrieval context only.
+    """
+    if not previous.units or not current.units:
+        return False
+    if is_structural_scope_heading(current.units[0]):
+        return False
+    return compatible_hierarchy(previous.units[-1], current.units[0])
+
+
 def merged_hierarchy(units: list[Unit]) -> dict[str, str]:
     keys = ("part_title", "chapter_title", "section_title", "article_title", "paragraph_title", "attachment_name")
     result: dict[str, str] = {}
@@ -277,6 +309,8 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
     for index in range(1, len(chunks)):
         current = chunks[index]
         previous = chunks[index - 1]
+        if not overlap_scope_compatible(previous, current):
+            continue
         current_text = "\n".join(unit.body_text for unit in current.units)
         previous_text = "\n".join(unit.body_text for unit in previous.units)
         first_sequence = current.units[0].sequence_index if current.units else -1
@@ -313,7 +347,12 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
             current.overlap_block_ids = list(dict.fromkeys(
                 block_id for unit in selected for block_id in unit.block_ids
             ))
-            current.units = selected + current.units
+            # Overlap is useful for retrieval, but it is not part of the
+            # source-backed body.  Keeping it in ``units`` made the HTML and
+            # exported Chunk正文 repeat the previous article/heading.
+            selected_text = "\n".join(unit.body_text for unit in selected)
+            prefixes = [value for value in (current.context_only_prefix, selected_text) if value]
+            current.context_only_prefix = "\n".join(dict.fromkeys(prefixes))
             current.is_overlapping = True
             current.overlap_source_index = index - 1
         elif enumeration_continuation or dependency:
@@ -325,17 +364,8 @@ def apply_structural_overlap(chunks: list[ChunkDraft], llm_overlaps: set[int] | 
                 tail = clean_text(matches[-1].group(1)) if matches else parent_context_from_previous(previous_text, current_text)
             if tail and body_char_count(tail + "\n" + current_text) <= config.MAX_CHARS:
                 source = previous.units[-1]
-                current.units.insert(0, Unit(
-                    body_text=tail,
-                    kind="text",
-                    hierarchy=dict(source.hierarchy),
-                    article_start=source.article_start,
-                    article_end=source.article_end,
-                    attachment_name=source.attachment_name,
-                    block_ids=[],
-                    sequence_index=source.sequence_index,
-                ))
                 current.overlap_block_ids = list(source.block_ids)
+                current.context_only_prefix = tail
                 current.is_overlapping = True
                 current.overlap_source_index = index - 1
             elif tail:

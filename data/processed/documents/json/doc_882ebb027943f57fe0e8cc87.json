@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "cad957b2fdc099bb369bd668fdae0753c738ae27ca674cd8a88490a27e6e9975",
     "clean_text_sha256": "c2421fb00821064296d9418c73c22d1123d5ae132e174e5e9817d9b983064b81",
@@ -96,6 +96,8 @@
         "character_count": 10
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00112",
       "b00113",
@@ -1550,7 +1552,7 @@
   "original_text_sha256": "cad957b2fdc099bb369bd668fdae0753c738ae27ca674cd8a88490a27e6e9975",
   "clean_text_sha256": "c2421fb00821064296d9418c73c22d1123d5ae132e174e5e9817d9b983064b81",
   "clean_text_hash": "703d6c21ca3cd427f35b457ef0c09653c362566560f1d96e4940f6d71e56a313",
-  "structured_blocks_sha256": "237eaa7188ea72b7b0d9e265c5676dfb44c736a4f6909db539493e001ec2b3b1",
+  "structured_blocks_sha256": "3862016687d75a2127baeef22425c3d66d410741ea374b91751c1f8c6ca3a5bd",
   "front_matter": [
     {
       "block_id": "b00001",
@@ -4475,7 +4477,7 @@
     },
     {
       "block_id": "b00356",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.3 期货公司要求的其他材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4655,7 +4657,7 @@
     },
     {
       "block_id": "b00371",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.9完成适当性综合评估表",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -4679,7 +4681,7 @@
     },
     {
       "block_id": "b00373",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.1向客户解释风险揭示书及经纪合同的核心内容",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -22883,7 +22885,7 @@
     },
     {
       "block_id": "b01188",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、投资者需知晓的事项",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -22895,7 +22897,7 @@
     },
     {
       "block_id": "b01189",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)知晓期权交易风险",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -22991,7 +22993,7 @@
     },
     {
       "block_id": "b01197",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)知晓期权保证金安全存管的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -23015,7 +23017,7 @@
     },
     {
       "block_id": "b01199",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(六)知晓期权保证金账户和结算资料的查询网址",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -23039,7 +23041,7 @@
     },
     {
       "block_id": "b01201",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(七)知晓从业人员资格公示网址",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -23087,7 +23089,7 @@
     },
     {
       "block_id": "b01205",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(九)知晓并遵守深圳证券交易所有关异常交易、实际控制关系账户的规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -23123,7 +23125,7 @@
     },
     {
       "block_id": "b01208",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十)知晓从事中间介绍业务( )公司的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -23207,7 +23209,7 @@
     },
     {
       "block_id": "b01215",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十一)知晓反洗钱法律法规的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -23243,7 +23245,7 @@
     },
     {
       "block_id": "b01218",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十二)知晓投资者适当性制度的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -24683,7 +24685,7 @@
     },
     {
       "block_id": "b01350",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)发送每日交易结算报告:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -24743,7 +24745,7 @@
     },
     {
       "block_id": "b01355",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)追加保证金通知:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -24803,7 +24805,7 @@
     },
     {
       "block_id": "b01360",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)单独调整保证金通知:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -25631,7 +25633,7 @@
     },
     {
       "block_id": "b01431",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)合约标的为股票的,每张合约的维持保证金收取比例为:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -25715,7 +25717,7 @@
     },
     {
       "block_id": "b01438",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)合约标的为股票的,每张合约开仓保证金计算比例为:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -25751,7 +25753,7 @@
     },
     {
       "block_id": "b01441",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)合约标的为交易型开放式基金的,每张合约开仓保证金计算比例为:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -26351,7 +26353,7 @@
     },
     {
       "block_id": "b01491",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.执行时间、申报价格和方式:( )",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -29734,7 +29736,7 @@
     },
     {
       "block_id": "b01589",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、交易结算报告确认人",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -34861,7 +34863,7 @@
     },
     {
       "block_id": "b00356",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.3 期货公司要求的其他材料",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -35041,7 +35043,7 @@
     },
     {
       "block_id": "b00371",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.9完成适当性综合评估表",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -35065,7 +35067,7 @@
     },
     {
       "block_id": "b00373",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3.1向客户解释风险揭示书及经纪合同的核心内容",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53267,7 +53269,7 @@
     },
     {
       "block_id": "b01188",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、投资者需知晓的事项",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53279,7 +53281,7 @@
     },
     {
       "block_id": "b01189",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)知晓期权交易风险",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53375,7 +53377,7 @@
     },
     {
       "block_id": "b01197",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(五)知晓期权保证金安全存管的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53399,7 +53401,7 @@
     },
     {
       "block_id": "b01199",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(六)知晓期权保证金账户和结算资料的查询网址",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53423,7 +53425,7 @@
     },
     {
       "block_id": "b01201",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(七)知晓从业人员资格公示网址",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53471,7 +53473,7 @@
     },
     {
       "block_id": "b01205",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(九)知晓并遵守深圳证券交易所有关异常交易、实际控制关系账户的规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53507,7 +53509,7 @@
     },
     {
       "block_id": "b01208",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十)知晓从事中间介绍业务( )公司的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53591,7 +53593,7 @@
     },
     {
       "block_id": "b01215",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十一)知晓反洗钱法律法规的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -53627,7 +53629,7 @@
     },
     {
       "block_id": "b01218",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(十二)知晓投资者适当性制度的有关规定",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -55067,7 +55069,7 @@
     },
     {
       "block_id": "b01350",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)发送每日交易结算报告:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -55127,7 +55129,7 @@
     },
     {
       "block_id": "b01355",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)追加保证金通知:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -55187,7 +55189,7 @@
     },
     {
       "block_id": "b01360",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)单独调整保证金通知:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -56015,7 +56017,7 @@
     },
     {
       "block_id": "b01431",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)合约标的为股票的,每张合约的维持保证金收取比例为:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -56099,7 +56101,7 @@
     },
     {
       "block_id": "b01438",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(一)合约标的为股票的,每张合约开仓保证金计算比例为:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -56135,7 +56137,7 @@
     },
     {
       "block_id": "b01441",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)合约标的为交易型开放式基金的,每张合约开仓保证金计算比例为:",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -56735,7 +56737,7 @@
     },
     {
       "block_id": "b01491",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.执行时间、申报价格和方式:( )",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -60118,7 +60120,7 @@
     },
     {
       "block_id": "b01589",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、交易结算报告确认人",
       "style": "Normal",
       "source_kind": "paragraph",

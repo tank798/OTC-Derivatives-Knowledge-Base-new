@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generated_at": "2026-07-19T13:18:48.396Z",
+  "generated_at": "2026-07-20T03:35:29.185Z",
   "source": {
     "path": "data/processed/chunks/jsonl/all_chunks.jsonl",
-    "sha256": "6041584916c9e032c50b4af270243bd0389ea44e7bb1c8b94472fec11ee3389c",
+    "sha256": "186116d8a1e97a92aaab84d54fc323b01d8aac5185dd3eedbba364fab466021d",
     "unique_body_source": true,
     "legacy_clauses_enabled": false
   },
   "corpus": {
     "path": "data/index/corpus.jsonl",
-    "sha256": "cd00cada6e18042390b495d0f74e6e28ecadfe0b817b538fe0aaa793408db0c1",
+    "sha256": "dfdb77a62582504876528bbe164deb6fcda3f3b45130b4485a166504b7643ce9",
     "document_count": 114,
-    "chunk_count": 1723,
+    "chunk_count": 1718,
     "official_url_count": 114
   },
   "bm25": {
     "path": "data/index/bm25/index.json",
-    "sha256": "b962d0eaf83dad9b52414d230ae39e6e7f471c39318e57842d07e7219db0d857",
+    "sha256": "0168e863ad5f373dab51561ba926b89da9b561bb43bdc24ccda91464a2fa4157",
     "tokenizer": "nfkc+cjk_bigram+otc_domain_terms",
     "field_weighting": "none",
     "k1": 1.5,
     "b": 0.75,
-    "vocabulary_size": 54792
+    "vocabulary_size": 54802
   },
   "vectors": {
     "path": "data/index/vectors.f32",
     "metadata_path": "data/index/vector_metadata.json",
-    "sha256": "be5f81a18b607c6a8345576720a5b2bbd9d9a4ecee47a2ed9d74aab631078f2d",
+    "sha256": "9d79e22d9e0e2186a21eaaf187277f6088a2778253bc2f5de60356f648b9df7d",
     "model_id": "Xenova/bge-base-zh-v1.5",
     "model_revision": "71e50dc531959f9e04ebf190ea25b00261a0a186",
     "model_dtype": "q8",
     "dimension": 768,
-    "chunk_count": 1723,
+    "chunk_count": 1718,
     "incremental_build": {
-      "enabled": true,
-      "reused_chunk_count": 1723,
-      "embedded_chunk_count": 0,
+      "enabled": false,
+      "reused_chunk_count": 0,
+      "embedded_chunk_count": 1718,
       "retired_or_changed_previous_chunk_count": 0
     }
   },
@@ -51,5 +51,5 @@
     "review_duplicate_groups": 0,
     "intentional_overlap_groups": 0
   },
-  "build_fingerprint": "13ad7bff6058e102a51da1dc725953ddfd01e066d587a5631c9732c81b1e85e8"
+  "build_fingerprint": "456ca7ed4b06b6de39dd54ba9ec2c8256336c419cbadc7ad72a708231b214fea"
 }

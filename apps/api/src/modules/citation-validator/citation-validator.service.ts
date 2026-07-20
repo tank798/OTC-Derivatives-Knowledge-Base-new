@@ -18,6 +18,10 @@ const FORMATTING_PUNCTUATION = new Set([
   "、", "…", "·",
 ]);
 
+const MARKDOWN_FORMATTING_CHARACTERS = new Set([
+  "*", "_", "`", "~", "|", "\\",
+]);
+
 const INSUFFICIENT_CONCLUSION = /(?:无法|不能|不足|未能|尚无|没有).{0,16}(?:确定|判断|得出|支持|证据|规定|结论)|证据不足/u;
 
 /**
@@ -144,7 +148,7 @@ export class CitationValidatorService {
     end: number,
     character: string,
   ) {
-    if (/\s/u.test(character) || ["*", "_", "`", "~"].includes(character)) return true;
+    if (/\s/u.test(character) || MARKDOWN_FORMATTING_CHARACTERS.has(character)) return true;
 
     if (!FORMATTING_PUNCTUATION.has(character)) return false;
 

@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "4ad39f86599dbbee8f643cffe5d1745d9ca5b3b56bd69b3abd74e84ce629898a",
     "clean_text_sha256": "e1fe8c8e7fb857c17fc8ba579e7cc558b1e93c40949e949a38025506ab8b0240",
@@ -59,6 +59,8 @@
         "character_count": 14
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00003",
@@ -189,7 +191,7 @@
   "original_text_sha256": "4ad39f86599dbbee8f643cffe5d1745d9ca5b3b56bd69b3abd74e84ce629898a",
   "clean_text_sha256": "e1fe8c8e7fb857c17fc8ba579e7cc558b1e93c40949e949a38025506ab8b0240",
   "clean_text_hash": "d8bfc7c7f8957e4a3312e9fab020ce3d3c4b214a8968f7407ffe3c9a04d0cb65",
-  "structured_blocks_sha256": "97f222dcc47c139f8e49c7e52b3f3a175e8f0e9cd54d538af01a59f6094adca6",
+  "structured_blocks_sha256": "424168726dee6a550ddf4644ceff96ebd8b302f1688691d6db727c0825a77ea2",
   "front_matter": [
     {
       "block_id": "b00002",
@@ -1586,7 +1588,7 @@
     },
     {
       "block_id": "b00119",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2、专业投资者申请书",
       "style": "",
       "source_kind": "paragraph",
@@ -1598,7 +1600,7 @@
     },
     {
       "block_id": "b00120",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3、专业投资者告知及确认书",
       "style": "",
       "source_kind": "paragraph",
@@ -1646,7 +1648,7 @@
     },
     {
       "block_id": "b00124",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7、适当性匹配意见及投资者确认书",
       "style": "",
       "source_kind": "paragraph",
@@ -1658,7 +1660,7 @@
     },
     {
       "block_id": "b00125",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "8、产品或服务风险警示及投资者确认书</pre>",
       "style": "",
       "source_kind": "paragraph",
@@ -3077,7 +3079,7 @@
     },
     {
       "block_id": "b00119",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2、专业投资者申请书",
       "style": "",
       "source_kind": "paragraph",
@@ -3089,7 +3091,7 @@
     },
     {
       "block_id": "b00120",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3、专业投资者告知及确认书",
       "style": "",
       "source_kind": "paragraph",
@@ -3137,7 +3139,7 @@
     },
     {
       "block_id": "b00124",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7、适当性匹配意见及投资者确认书",
       "style": "",
       "source_kind": "paragraph",
@@ -3149,7 +3151,7 @@
     },
     {
       "block_id": "b00125",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "8、产品或服务风险警示及投资者确认书</pre>",
       "style": "",
       "source_kind": "paragraph",

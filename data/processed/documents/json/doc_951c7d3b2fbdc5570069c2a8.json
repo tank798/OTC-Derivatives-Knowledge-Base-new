@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/证券投资基金投资信用衍生品估值指引(试行).pdf",
   "source_type": "pdf",
   "file_sha256": "7b5a8efe57d198998dfef857f23136cfd3f1ba2891ef2941a7325afd03087216",
-  "content_sha256": "6547c5125d7a2ec0bc861060c5592674e7629ca0f5977e9b44e8f627d37914ee",
+  "content_sha256": "934565934074043c4a8b917529ddc45a1c7069ce7d1665af2cf2055f48a5755c",
   "metadata": {
     "document_title": "证券投资基金投资信用衍生品估值指引(试行)",
     "issuing_authority": "中国证券投资基金业协会",
@@ -25,23 +25,26 @@
     "按Adobe Symbol编码规范化244个PDF公式字符",
     "第1页过滤5行目录条目",
     "第4页第1个多列表格按原行列转为Markdown",
-    "按原PDF二维排版核对并线性化8处公式",
-    "已合并9处PDF跨页句子或词语断行"
+    "已合并8处PDF跨页句子或词语断行",
+    "按原PDF二维排版核对并线性化8处公式"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
-    "original_text_sha256": "0e4a73a47c4fb82e8859da348ab2f32a8b608d5cd99acb68351139c5fc71e18b",
-    "clean_text_sha256": "0e4a73a47c4fb82e8859da348ab2f32a8b608d5cd99acb68351139c5fc71e18b",
-    "chars_before": 5212,
-    "chars_after": 5212,
+    "original_text_sha256": "3e760967a864ff82d3bdb304b1bdfb7fe4a978a6f193d4da9504d19ed8cb4b69",
+    "clean_text_sha256": "3e760967a864ff82d3bdb304b1bdfb7fe4a978a6f193d4da9504d19ed8cb4b69",
+    "chars_before": 5222,
+    "chars_after": 5222,
     "removed_character_count": 0,
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
+      "b00002",
       "b00003",
       "b00004",
       "b00005",
@@ -50,7 +53,7 @@
       "b00008",
       "b00009",
       "b00010",
-      "b00011",
+      "b00012",
       "b00013",
       "b00014",
       "b00015",
@@ -69,87 +72,85 @@
       "b00028",
       "b00029",
       "b00030",
-      "b00031",
       "b00032",
+      "b00033",
       "b00034",
       "b00035",
       "b00036",
       "b00037",
       "b00038",
-      "b00039",
       "b00040",
+      "b00041",
       "b00042",
       "b00043",
       "b00044",
       "b00045",
-      "b00046",
       "b00047",
+      "b00048",
       "b00049",
       "b00050",
       "b00051",
       "b00052",
-      "b00053",
       "b00054",
+      "b00055",
       "b00056",
       "b00057",
       "b00058",
-      "b00059",
       "b00060",
+      "b00061",
       "b00062",
-      "b00063",
       "b00064",
+      "b00065",
       "b00066",
       "b00067",
-      "b00068",
       "b00069",
-      "b00071",
-      "b00072"
+      "b00070"
     ]
   },
-  "original_text_sha256": "0e4a73a47c4fb82e8859da348ab2f32a8b608d5cd99acb68351139c5fc71e18b",
-  "clean_text_sha256": "0e4a73a47c4fb82e8859da348ab2f32a8b608d5cd99acb68351139c5fc71e18b",
-  "clean_text_hash": "b8a186b20bda38e431ac6f1a1304db432cd6b88bc8596157f5f1da839acd24b6",
-  "structured_blocks_sha256": "5724c645e4aeba6c4dd9784c85733fbc9860d7f8e24ed090ce674c966d40fc19",
+  "original_text_sha256": "3e760967a864ff82d3bdb304b1bdfb7fe4a978a6f193d4da9504d19ed8cb4b69",
+  "clean_text_sha256": "3e760967a864ff82d3bdb304b1bdfb7fe4a978a6f193d4da9504d19ed8cb4b69",
+  "clean_text_hash": "9a6df907a1bab7870bf68c47b8b9ff0593daa7ea2272557f3cd9610966c8fe64",
+  "structured_blocks_sha256": "dbd3eed55f5ad6d2602f1b0325994dabd233c78cbb129f403ca15f948e77ac84",
   "front_matter": [],
   "body_blocks": [
     {
       "block_id": "b00001",
-      "block_type": "paragraph",
-      "text": "证券投资基金投资信用衍生品估值指引(试行)一、总则",
+      "block_type": "document_title",
+      "text": "证券投资基金投资信用衍生品估值指引(试行)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
       "start_char": 0,
-      "end_char": 25,
+      "end_char": 21,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "guide_heading",
+      "text": "一、总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 23,
+      "end_char": 27,
       "region": "body"
     },
     {
       "block_id": "b00003",
-      "block_type": "guide_subheading",
-      "text": "(一)为规范证券投资基金(以下简称“基金”)投资",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 2,
-      "source_page_end": 2,
-      "start_char": 27,
-      "end_char": 51,
-      "region": "body"
-    },
-    {
-      "block_id": "b00004",
       "block_type": "paragraph",
-      "text": "信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。",
+      "text": "(一)为规范证券投资基金(以下简称“基金”)投资信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 53,
+      "start_char": 29,
       "end_char": 140,
       "region": "body"
     },
     {
-      "block_id": "b00005",
+      "block_id": "b00004",
       "block_type": "paragraph",
       "text": "(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。",
       "style": "",
@@ -161,7 +162,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00006",
+      "block_id": "b00005",
       "block_type": "guide_subheading",
       "text": "(三)基金管理人和基金托管人对基金投资的信用衍生",
       "style": "",
@@ -173,7 +174,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00007",
+      "block_id": "b00006",
       "block_type": "paragraph",
       "text": "品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。",
       "style": "",
@@ -185,7 +186,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00008",
+      "block_id": "b00007",
       "block_type": "paragraph",
       "text": "(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。",
       "style": "",
@@ -197,7 +198,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00009",
+      "block_id": "b00008",
       "block_type": "paragraph",
       "text": "(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。",
       "style": "",
@@ -209,7 +210,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00010",
+      "block_id": "b00009",
       "block_type": "paragraph",
       "text": "(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。",
       "style": "",
@@ -221,7 +222,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00011",
+      "block_id": "b00010",
       "block_type": "paragraph",
       "text": "(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。",
       "style": "",
@@ -233,7 +234,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00013",
+      "block_id": "b00012",
       "block_type": "guide_subheading",
       "text": "(八)基金管理人对管理的不同基金持有的同一种信用",
       "style": "",
@@ -245,7 +246,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00014",
+      "block_id": "b00013",
       "block_type": "paragraph",
       "text": "衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。",
       "style": "",
@@ -257,7 +258,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00015",
+      "block_id": "b00014",
       "block_type": "paragraph",
       "text": "(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。",
       "style": "",
@@ -269,7 +270,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00016",
+      "block_id": "b00015",
       "block_type": "paragraph",
       "text": "(十)本指引自发布之日起实施。",
       "style": "",
@@ -281,7 +282,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00017",
+      "block_id": "b00016",
       "block_type": "guide_heading",
       "text": "二、信用衍生品的估值处理",
       "style": "",
@@ -293,7 +294,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00018",
+      "block_id": "b00017",
       "block_type": "guide_subheading",
       "text": "(一)对证券交易所或银行间市场上交易的凭证类信用",
       "style": "",
@@ -305,7 +306,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00019",
+      "block_id": "b00018",
       "block_type": "paragraph",
       "text": "衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。",
       "style": "",
@@ -317,7 +318,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00020",
+      "block_id": "b00019",
       "block_type": "guide_subheading",
       "text": "(二)对证券交易所或银行间市场非上市交易的合约类",
       "style": "",
@@ -329,7 +330,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00021",
+      "block_id": "b00020",
       "block_type": "paragraph",
       "text": "信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。",
       "style": "",
@@ -341,7 +342,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00022",
+      "block_id": "b00021",
       "block_type": "guide_heading",
       "text": "三、会计处理",
       "style": "",
@@ -353,7 +354,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00023",
+      "block_id": "b00022",
       "block_type": "guide_subheading",
       "text": "(一)科目设置",
       "style": "",
@@ -365,7 +366,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00024",
+      "block_id": "b00023",
       "block_type": "table",
       "text": "| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |",
       "style": "Table",
@@ -580,7 +581,7 @@
       ]
     },
     {
-      "block_id": "b00025",
+      "block_id": "b00024",
       "block_type": "guide_subheading",
       "text": "(二)主要账务处理",
       "style": "",
@@ -592,7 +593,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00026",
+      "block_id": "b00025",
       "block_type": "guide_minor_heading",
       "text": "1、买入",
       "style": "",
@@ -604,7 +605,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00027",
+      "block_id": "b00026",
       "block_type": "paragraph",
       "text": "借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)",
       "style": "",
@@ -616,585 +617,598 @@
       "region": "body"
     },
     {
-      "block_id": "b00028",
-      "block_type": "guide_minor_heading",
-      "text": "2、固定票息保费确认",
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "2、固定票息保费确认借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
       "start_char": 1470,
-      "end_char": 1480,
+      "end_char": 1510,
       "region": "body"
     },
     {
-      "block_id": "b00029",
-      "block_type": "paragraph",
-      "text": "借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 4,
-      "source_page_end": 4,
-      "start_char": 1482,
-      "end_char": 1512,
-      "region": "body"
-    },
-    {
-      "block_id": "b00030",
+      "block_id": "b00028",
       "block_type": "guide_minor_heading",
       "text": "3、公允价值变动",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1514,
-      "end_char": 1522,
+      "start_char": 1512,
+      "end_char": 1520,
       "region": "body"
     },
     {
-      "block_id": "b00031",
+      "block_id": "b00029",
       "block_type": "paragraph",
       "text": "借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1524,
-      "end_char": 1570,
+      "start_char": 1522,
+      "end_char": 1568,
       "region": "body"
     },
     {
-      "block_id": "b00032",
+      "block_id": "b00030",
       "block_type": "paragraph",
       "text": "4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1572,
-      "end_char": 1689,
+      "start_char": 1570,
+      "end_char": 1687,
       "region": "body"
     },
     {
-      "block_id": "b00034",
+      "block_id": "b00032",
       "block_type": "guide_minor_heading",
       "text": "5、到期",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1691,
-      "end_char": 1695,
+      "start_char": 1689,
+      "end_char": 1693,
       "region": "body"
     },
     {
-      "block_id": "b00035",
+      "block_id": "b00033",
       "block_type": "paragraph",
       "text": "借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1697,
-      "end_char": 1781,
+      "start_char": 1695,
+      "end_char": 1779,
       "region": "body"
     }
   ],
   "appendices": [
     {
-      "block_id": "b00036",
+      "block_id": "b00034",
       "block_type": "attachment",
       "text": "附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 1783,
-      "end_char": 2011,
+      "start_char": 1781,
+      "end_char": 2009,
       "region": "appendix"
     },
     {
-      "block_id": "b00037",
+      "block_id": "b00035",
       "block_type": "guide_heading",
       "text": "一、条款设计情形一",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2013,
-      "end_char": 2022,
+      "start_char": 2011,
+      "end_char": 2020,
       "region": "appendix"
     },
     {
-      "block_id": "b00038",
+      "block_id": "b00036",
       "block_type": "paragraph",
       "text": "凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2024,
-      "end_char": 2082,
+      "start_char": 2022,
+      "end_char": 2080,
       "region": "appendix"
     },
     {
-      "block_id": "b00039",
+      "block_id": "b00037",
       "block_type": "guide_subheading",
       "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2084,
-      "end_char": 2095,
+      "start_char": 2082,
+      "end_char": 2093,
       "region": "appendix"
     },
     {
-      "block_id": "b00040",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率",
+      "block_id": "b00038",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2097,
-      "end_char": 2348,
+      "start_char": 2095,
+      "end_char": 2343,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率",
         "expressions": [
           "V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-D)\\right)\\right]FV(1-R)}{1+r_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-D)\\right)\\right]FV(1-R)}{1+r_d\\left(\\frac{d}{TY}\\right)}",
         "formula_label": "公式",
         "source_page": 6,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00042",
+      "block_id": "b00040",
       "block_type": "guide_subheading",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2350,
-      "end_char": 2359,
+      "start_char": 2345,
+      "end_char": 2354,
       "region": "appendix"
     },
     {
-      "block_id": "b00043",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率",
+      "block_id": "b00041",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nd:标的债券估值日到到期日实际天数\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2361,
-      "end_char": 2560,
+      "start_char": 2356,
+      "end_char": 2553,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nd：标的债券估值日到到期日实际天数\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率",
         "expressions": [
           "V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{FV}{1+y_s\\left(\\frac{d}{TY}\\right)}-\\frac{FV}{1+y_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{FV}{1+y_s\\left(\\frac{d}{TY}\\right)}-\\frac{FV}{1+y_d\\left(\\frac{d}{TY}\\right)}",
         "formula_label": "公式",
         "source_page": 7,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00044",
+      "block_id": "b00042",
       "block_type": "guide_heading",
       "text": "二、条款设计情形二",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2562,
-      "end_char": 2571,
+      "start_char": 2555,
+      "end_char": 2564,
       "region": "appendix"
     },
     {
-      "block_id": "b00045",
+      "block_id": "b00043",
       "block_type": "paragraph",
       "text": "凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2573,
-      "end_char": 2620,
+      "start_char": 2566,
+      "end_char": 2613,
       "region": "appendix"
     },
     {
-      "block_id": "b00046",
+      "block_id": "b00044",
       "block_type": "guide_subheading",
       "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2622,
-      "end_char": 2633,
+      "start_char": 2615,
+      "end_char": 2626,
       "region": "appendix"
     },
     {
-      "block_id": "b00047",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数",
+      "block_id": "b00045",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nt_{1,2,n}:标的债券距估值日第1、2、3......n次现金流的时间长度\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率\nn:标的债券剩余付息次数",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2635,
-      "end_char": 2985,
+      "start_char": 2628,
+      "end_char": 2978,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nt_{1,2,n}：标的债券距估值日第1、2、3……n次现金流的时间长度\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率\nn：标的债券剩余付息次数",
         "expressions": [
           "V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(t_1\\ln(1-D)\\right)\\right]FV(1-R)}{(1+r_1)^{t_1}}+\\cdots+\\frac{\\exp\\left(t_1\\ln(1-D)\\right)(1-D)^{n-2}DFV(1-R)}{(1+r_n)^{t_n}}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(t_1\\ln(1-D)\\right)\\right]FV(1-R)}{(1+r_1)^{t_1}}+\\cdots+\\frac{\\exp\\left(t_1\\ln(1-D)\\right)(1-D)^{n-2}DFV(1-R)}{(1+r_n)^{t_n}}",
         "formula_label": "公式",
         "source_page": 7,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00049",
+      "block_id": "b00047",
       "block_type": "guide_subheading",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 2987,
-      "end_char": 2996,
+      "start_char": 2980,
+      "end_char": 2989,
       "region": "appendix"
     },
     {
-      "block_id": "b00050",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数",
+      "block_id": "b00048",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW:估值日CRMW估值\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率\nn:标的债券剩余付息次数",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 2998,
-      "end_char": 3284,
+      "start_char": 2991,
+      "end_char": 3283,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW：估值日CRMW估值\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率\nn：标的债券剩余付息次数",
         "expressions": [
           "V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\left[\\frac{CF_1}{(1+y_s)^1}+\\frac{CF_2}{(1+y_s)^2}+\\cdots+\\frac{CF_n}{(1+y_s)^n}\\right]-\\left[\\frac{CF_1}{(1+y_d)^1}+\\frac{CF_2}{(1+y_d)^2}+\\cdots+\\frac{CF_n}{(1+y_d)^n}\\right]"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\left[\\frac{CF_1}{(1+y_s)^1}+\\frac{CF_2}{(1+y_s)^2}+\\cdots+\\frac{CF_n}{(1+y_s)^n}\\right]-\\left[\\frac{CF_1}{(1+y_d)^1}+\\frac{CF_2}{(1+y_d)^2}+\\cdots+\\frac{CF_n}{(1+y_d)^n}\\right]",
         "formula_label": "公式",
         "source_page": 8,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00051",
+      "block_id": "b00049",
       "block_type": "guide_heading",
       "text": "三、条款设计情形三",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3286,
-      "end_char": 3295,
+      "start_char": 3285,
+      "end_char": 3294,
       "region": "appendix"
     },
     {
-      "block_id": "b00052",
+      "block_id": "b00050",
       "block_type": "paragraph",
       "text": "凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3297,
-      "end_char": 3329,
+      "start_char": 3296,
+      "end_char": 3328,
       "region": "appendix"
     },
     {
-      "block_id": "b00053",
+      "block_id": "b00051",
       "block_type": "guide_subheading",
       "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3331,
-      "end_char": 3342,
+      "start_char": 3330,
+      "end_char": 3341,
       "region": "appendix"
     },
     {
-      "block_id": "b00054",
-      "block_type": "paragraph",
-      "text": "估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数",
+      "block_id": "b00052",
+      "block_type": "formula",
+      "text": "【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注:T_j < t < T_{j+1}\n其中:\nV_CRMW:估值日CRMW估值\nC_1:凭证固定支付票息(单位%)\nFV:标的债券到期时还本付息金额\nh:考虑CRMW创设机构风险下标的债券(标的主体)违约强度\nT_{1,2,n}:凭证固定票息付息日距凭证创设日的时间长度\nt:估值日距凭证创设日的时间长度\nR:标的债券(标的主体)回收率\nr_u:剩余期限u对应的基准即期收益率曲线值\nn:凭证固定票息支付次数",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3344,
-      "end_char": 3918,
+      "start_char": 3343,
+      "end_char": 3907,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数",
+        "raw_text": "【公式（按原PDF二维排版线性化）】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注：T_j < t < T_{j+1}\n其中:\nV_CRMW：估值日CRMW估值\nC_1：凭证固定支付票息（单位%）\nFV：标的债券到期时还本付息金额\nh：考虑CRMW创设机构风险下标的债券（标的主体）违约强度\nT_{1,2,n}：凭证固定票息付息日距凭证创设日的时间长度\nt：估值日距凭证创设日的时间长度\nR：标的债券（标的主体）回收率\nr_u：剩余期限u对应的基准即期收益率曲线值\nn：凭证固定票息支付次数",
         "expressions": [
-          "V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}"
+          "V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "\\begin{aligned}\nV_{\\mathrm{CRMW}}={}&FV(1-R)\\int_t^{T_n}\\frac{h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&-100C_1\\Bigg[\\sum_{i=j+1}^{n}(T_i-T_{i-1})\\frac{1-\\exp[-h(T_i-t)]}{(1+r_{T_i-t})^{T_i-t}}\\\\\n&\\quad+\\int_t^{T_{j+1}}\\frac{(s-T_j)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&\\quad+\\sum_{k=j+1}^{n-1}\\int_{T_k}^{T_{k+1}}\\frac{(s-T_k)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\Bigg]\n\\end{aligned}"
+        ],
+        "latex": "\\begin{aligned}\nV_{\\mathrm{CRMW}}={}&FV(1-R)\\int_t^{T_n}\\frac{h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&-100C_1\\Bigg[\\sum_{i=j+1}^{n}(T_i-T_{i-1})\\frac{1-\\exp[-h(T_i-t)]}{(1+r_{T_i-t})^{T_i-t}}\\\\\n&\\quad+\\int_t^{T_{j+1}}\\frac{(s-T_j)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&\\quad+\\sum_{k=j+1}^{n-1}\\int_{T_k}^{T_{k+1}}\\frac{(s-T_k)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\Bigg]\n\\end{aligned}",
         "formula_label": "公式",
         "source_page": 8,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00056",
+      "block_id": "b00054",
       "block_type": "guide_subheading",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3920,
-      "end_char": 3929,
+      "start_char": 3909,
+      "end_char": 3918,
       "region": "appendix"
     },
     {
-      "block_id": "b00057",
+      "block_id": "b00055",
       "block_type": "paragraph",
       "text": "基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3931,
-      "end_char": 4021,
+      "start_char": 3920,
+      "end_char": 4010,
       "region": "appendix"
     },
     {
-      "block_id": "b00058",
+      "block_id": "b00056",
       "block_type": "guide_heading",
       "text": "四、估值方法相关释义",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4023,
-      "end_char": 4033,
+      "start_char": 4012,
+      "end_char": 4022,
       "region": "appendix"
     },
     {
-      "block_id": "b00059",
+      "block_id": "b00057",
       "block_type": "guide_subheading",
       "text": "(一) 考虑 CRMW 创设机构风险下的标的债券(标的主",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4035,
-      "end_char": 4063,
+      "start_char": 4024,
+      "end_char": 4052,
       "region": "appendix"
     },
     {
-      "block_id": "b00060",
-      "block_type": "paragraph",
-      "text": "体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
+      "block_id": "b00058",
+      "block_type": "formula",
+      "text": "考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A):标的债券年化违约概率\nP(B)=1-P(B̄):创设机构年化违约概率\nP(A|B̄):条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4065,
-      "end_char": 4402,
+      "start_char": 4054,
+      "end_char": 4356,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
+        "raw_text": "考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A)：标的债券年化违约概率\nP(B)=1-P(B̄)：创设机构年化违约概率\nP(A|B̄)：条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
         "expressions": [
           "P(A∩B̄) = P(A|B̄) × P(B̄)",
           "P(A∩B̄) = (1-w) × P(A) × P(B̄)"
         ],
+        "latex_expressions": [
+          "P(A\\cap\\bar{B})=P(A\\mid\\bar{B})P(\\bar{B})",
+          "P(A\\cap\\bar{B})=(1-w)P(A)P(\\bar{B})"
+        ],
         "latex": "",
         "formula_label": "公式",
         "source_page": 9,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00062",
+      "block_id": "b00060",
       "block_type": "paragraph",
       "text": "(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4404,
-      "end_char": 4455,
+      "start_char": 4358,
+      "end_char": 4409,
       "region": "appendix"
     },
     {
-      "block_id": "b00063",
+      "block_id": "b00061",
       "block_type": "guide_minor_heading",
       "text": "1、标的债券为到期一次还本付息的短期融资券或超短",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4457,
-      "end_char": 4481,
+      "start_char": 4411,
+      "end_char": 4435,
       "region": "appendix"
     },
     {
-      "block_id": "b00064",
-      "block_type": "paragraph",
-      "text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率",
+      "block_id": "b00062",
+      "block_type": "formula",
+      "text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV:估值日标的债券全价\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nP:标的债券年化隐含违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:估值日标的债券回收率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4483,
-      "end_char": 4748,
+      "start_char": 4437,
+      "end_char": 4703,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率",
+        "raw_text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV：估值日标的债券全价\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nP：标的债券年化隐含违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
         "expressions": [
           "PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "PV=\\frac{\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)FV+\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)\\right]FVR}{1+r_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "PV=\\frac{\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)FV+\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)\\right]FVR}{1+r_d\\left(\\frac{d}{TY}\\right)}",
         "formula_label": "公式",
         "source_page": 10,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00066",
-      "block_type": "paragraph",
-      "text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率",
+      "block_id": "b00064",
+      "block_type": "formula",
+      "text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV:估值日标的债券全价\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\nP:标的债券年化隐含违约率\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:估值日标的债券回收率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4750,
-      "end_char": 5126,
+      "start_char": 4705,
+      "end_char": 5090,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率",
+        "raw_text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV：估值日标的债券全价\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\nP：标的债券年化隐含违约率\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
         "expressions": [
           "PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "PV=\\frac{\\exp\\left(t_1\\ln(1-P)\\right)CF_1+\\left[1-\\exp\\left(t_1\\ln(1-P)\\right)\\right]CF_nR}{(1+r_1)^{t_1}}+\\frac{\\exp\\left(t_1\\ln(1-P)\\right)(1-P)^{n-2}\\left[(1-P)CF_n+PCF_nR\\right]}{(1+r_n)^{t_n}}"
+        ],
+        "latex": "PV=\\frac{\\exp\\left(t_1\\ln(1-P)\\right)CF_1+\\left[1-\\exp\\left(t_1\\ln(1-P)\\right)\\right]CF_nR}{(1+r_1)^{t_1}}+\\frac{\\exp\\left(t_1\\ln(1-P)\\right)(1-P)^{n-2}\\left[(1-P)CF_n+PCF_nR\\right]}{(1+r_n)^{t_n}}",
         "formula_label": "公式",
         "source_page": 11,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00067",
+      "block_id": "b00065",
       "block_type": "guide_subheading",
       "text": "(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 5128,
-      "end_char": 5165,
+      "start_char": 5092,
+      "end_char": 5129,
       "region": "appendix"
     },
     {
-      "block_id": "b00068",
+      "block_id": "b00066",
       "block_type": "paragraph",
       "text": "(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 5167,
-      "end_char": 5203,
+      "start_char": 5131,
+      "end_char": 5167,
       "region": "appendix"
     },
     {
-      "block_id": "b00069",
+      "block_id": "b00067",
       "block_type": "paragraph",
       "text": "(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 5205,
-      "end_char": 5697,
+      "start_char": 5169,
+      "end_char": 5661,
       "region": "appendix"
     },
     {
-      "block_id": "b00071",
+      "block_id": "b00069",
       "block_type": "guide_subheading",
       "text": "(六) 鉴于合约类信用衍生品产品条款设计灵活,基金",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5699,
-      "end_char": 5724,
+      "start_char": 5663,
+      "end_char": 5688,
       "region": "appendix"
     },
     {
-      "block_id": "b00072",
+      "block_id": "b00070",
       "block_type": "paragraph",
       "text": "管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5726,
-      "end_char": 5777,
+      "start_char": 5690,
+      "end_char": 5741,
       "region": "appendix"
     }
   ],
-  "clean_text": "证券投资基金投资信用衍生品估值指引(试行)一、总则\n\n(一)为规范证券投资基金(以下简称“基金”)投资\n\n信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。\n\n(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n(三)基金管理人和基金托管人对基金投资的信用衍生\n\n品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。\n\n(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。\n\n(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。\n\n(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。\n\n(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。\n\n(八)基金管理人对管理的不同基金持有的同一种信用\n\n衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。\n\n(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。\n\n(十)本指引自发布之日起实施。\n\n二、信用衍生品的估值处理\n\n(一)对证券交易所或银行间市场上交易的凭证类信用\n\n衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。\n\n(二)对证券交易所或银行间市场非上市交易的合约类\n\n信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。\n\n三、会计处理\n\n(一)科目设置\n\n| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |\n\n(二)主要账务处理\n\n1、买入\n\n借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)\n\n2、固定票息保费确认\n\n借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款\n\n3、公允价值变动\n\n借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)\n\n4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)\n\n5、到期\n\n借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)\n\n附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。\n\n一、条款设计情形一\n\n凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率\n\n二、条款设计情形二\n\n凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数\n\n三、条款设计情形三\n\n凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:\n\n(一)基于违约率的方法\n\n估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数\n\n(二)现金流折现法\n\n基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。\n\n四、估值方法相关释义\n\n(一) 考虑 CRMW 创设机构风险下的标的债券(标的主\n\n体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)\n\n(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。\n\n1、标的债券为到期一次还本付息的短期融资券或超短\n\n期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率\n\n2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率\n\n(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)\n\n(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。\n\n(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。\n\n(六) 鉴于合约类信用衍生品产品条款设计灵活,基金\n\n管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
+  "clean_text": "证券投资基金投资信用衍生品估值指引(试行)\n\n一、总则\n\n(一)为规范证券投资基金(以下简称“基金”)投资信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。\n\n(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n(三)基金管理人和基金托管人对基金投资的信用衍生\n\n品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。\n\n(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。\n\n(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。\n\n(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。\n\n(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。\n\n(八)基金管理人对管理的不同基金持有的同一种信用\n\n衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。\n\n(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。\n\n(十)本指引自发布之日起实施。\n\n二、信用衍生品的估值处理\n\n(一)对证券交易所或银行间市场上交易的凭证类信用\n\n衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。\n\n(二)对证券交易所或银行间市场非上市交易的合约类\n\n信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。\n\n三、会计处理\n\n(一)科目设置\n\n| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |\n\n(二)主要账务处理\n\n1、买入\n\n借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)\n\n2、固定票息保费确认借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款\n\n3、公允价值变动\n\n借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)\n\n4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)\n\n5、到期\n\n借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)\n\n附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。\n\n一、条款设计情形一\n\n凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nd:标的债券估值日到到期日实际天数\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率\n\n二、条款设计情形二\n\n凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nt_{1,2,n}:标的债券距估值日第1、2、3......n次现金流的时间长度\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率\nn:标的债券剩余付息次数\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW:估值日CRMW估值\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率\nn:标的债券剩余付息次数\n\n三、条款设计情形三\n\n凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:\n\n(一)基于违约率的方法\n\n【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注:T_j < t < T_{j+1}\n其中:\nV_CRMW:估值日CRMW估值\nC_1:凭证固定支付票息(单位%)\nFV:标的债券到期时还本付息金额\nh:考虑CRMW创设机构风险下标的债券(标的主体)违约强度\nT_{1,2,n}:凭证固定票息付息日距凭证创设日的时间长度\nt:估值日距凭证创设日的时间长度\nR:标的债券(标的主体)回收率\nr_u:剩余期限u对应的基准即期收益率曲线值\nn:凭证固定票息支付次数\n\n(二)现金流折现法\n\n基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。\n\n四、估值方法相关释义\n\n(一) 考虑 CRMW 创设机构风险下的标的债券(标的主\n\n考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A):标的债券年化违约概率\nP(B)=1-P(B̄):创设机构年化违约概率\nP(A|B̄):条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)\n\n(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。\n\n1、标的债券为到期一次还本付息的短期融资券或超短\n\n期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV:估值日标的债券全价\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nP:标的债券年化隐含违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:估值日标的债券回收率\n\n2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV:估值日标的债券全价\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\nP:标的债券年化隐含违约率\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:估值日标的债券回收率\n\n(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)\n\n(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。\n\n(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。\n\n(六) 鉴于合约类信用衍生品产品条款设计灵活,基金\n\n管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
   "structured_blocks": [
     {
       "block_id": "b00001",
-      "block_type": "paragraph",
-      "text": "证券投资基金投资信用衍生品估值指引(试行)一、总则",
+      "block_type": "document_title",
+      "text": "证券投资基金投资信用衍生品估值指引(试行)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
       "start_char": 0,
-      "end_char": 25,
+      "end_char": 21,
+      "region": "body"
+    },
+    {
+      "block_id": "b00002",
+      "block_type": "guide_heading",
+      "text": "一、总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "source_page_start": 2,
+      "source_page_end": 2,
+      "start_char": 23,
+      "end_char": 27,
       "region": "body"
     },
     {
       "block_id": "b00003",
-      "block_type": "guide_subheading",
-      "text": "(一)为规范证券投资基金(以下简称“基金”)投资",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 2,
-      "source_page_end": 2,
-      "start_char": 27,
-      "end_char": 51,
-      "region": "body"
-    },
-    {
-      "block_id": "b00004",
       "block_type": "paragraph",
-      "text": "信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。",
+      "text": "(一)为规范证券投资基金(以下简称“基金”)投资信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 53,
+      "start_char": 29,
       "end_char": 140,
       "region": "body"
     },
     {
-      "block_id": "b00005",
+      "block_id": "b00004",
       "block_type": "paragraph",
       "text": "(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。",
       "style": "",
@@ -1206,7 +1220,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00006",
+      "block_id": "b00005",
       "block_type": "guide_subheading",
       "text": "(三)基金管理人和基金托管人对基金投资的信用衍生",
       "style": "",
@@ -1218,7 +1232,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00007",
+      "block_id": "b00006",
       "block_type": "paragraph",
       "text": "品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。",
       "style": "",
@@ -1230,7 +1244,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00008",
+      "block_id": "b00007",
       "block_type": "paragraph",
       "text": "(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。",
       "style": "",
@@ -1242,7 +1256,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00009",
+      "block_id": "b00008",
       "block_type": "paragraph",
       "text": "(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。",
       "style": "",
@@ -1254,7 +1268,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00010",
+      "block_id": "b00009",
       "block_type": "paragraph",
       "text": "(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。",
       "style": "",
@@ -1266,7 +1280,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00011",
+      "block_id": "b00010",
       "block_type": "paragraph",
       "text": "(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。",
       "style": "",
@@ -1278,7 +1292,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00013",
+      "block_id": "b00012",
       "block_type": "guide_subheading",
       "text": "(八)基金管理人对管理的不同基金持有的同一种信用",
       "style": "",
@@ -1290,7 +1304,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00014",
+      "block_id": "b00013",
       "block_type": "paragraph",
       "text": "衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。",
       "style": "",
@@ -1302,7 +1316,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00015",
+      "block_id": "b00014",
       "block_type": "paragraph",
       "text": "(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。",
       "style": "",
@@ -1314,7 +1328,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00016",
+      "block_id": "b00015",
       "block_type": "paragraph",
       "text": "(十)本指引自发布之日起实施。",
       "style": "",
@@ -1326,7 +1340,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00017",
+      "block_id": "b00016",
       "block_type": "guide_heading",
       "text": "二、信用衍生品的估值处理",
       "style": "",
@@ -1338,7 +1352,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00018",
+      "block_id": "b00017",
       "block_type": "guide_subheading",
       "text": "(一)对证券交易所或银行间市场上交易的凭证类信用",
       "style": "",
@@ -1350,7 +1364,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00019",
+      "block_id": "b00018",
       "block_type": "paragraph",
       "text": "衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。",
       "style": "",
@@ -1362,7 +1376,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00020",
+      "block_id": "b00019",
       "block_type": "guide_subheading",
       "text": "(二)对证券交易所或银行间市场非上市交易的合约类",
       "style": "",
@@ -1374,7 +1388,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00021",
+      "block_id": "b00020",
       "block_type": "paragraph",
       "text": "信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。",
       "style": "",
@@ -1386,7 +1400,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00022",
+      "block_id": "b00021",
       "block_type": "guide_heading",
       "text": "三、会计处理",
       "style": "",
@@ -1398,7 +1412,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00023",
+      "block_id": "b00022",
       "block_type": "guide_subheading",
       "text": "(一)科目设置",
       "style": "",
@@ -1410,7 +1424,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00024",
+      "block_id": "b00023",
       "block_type": "table",
       "text": "| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |",
       "style": "Table",
@@ -1625,7 +1639,7 @@
       ]
     },
     {
-      "block_id": "b00025",
+      "block_id": "b00024",
       "block_type": "guide_subheading",
       "text": "(二)主要账务处理",
       "style": "",
@@ -1637,7 +1651,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00026",
+      "block_id": "b00025",
       "block_type": "guide_minor_heading",
       "text": "1、买入",
       "style": "",
@@ -1649,7 +1663,7 @@
       "region": "body"
     },
     {
-      "block_id": "b00027",
+      "block_id": "b00026",
       "block_type": "paragraph",
       "text": "借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)",
       "style": "",
@@ -1661,555 +1675,583 @@
       "region": "body"
     },
     {
-      "block_id": "b00028",
-      "block_type": "guide_minor_heading",
-      "text": "2、固定票息保费确认",
+      "block_id": "b00027",
+      "block_type": "paragraph",
+      "text": "2、固定票息保费确认借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
       "start_char": 1470,
-      "end_char": 1480,
+      "end_char": 1510,
       "region": "body"
     },
     {
-      "block_id": "b00029",
-      "block_type": "paragraph",
-      "text": "借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 4,
-      "source_page_end": 4,
-      "start_char": 1482,
-      "end_char": 1512,
-      "region": "body"
-    },
-    {
-      "block_id": "b00030",
+      "block_id": "b00028",
       "block_type": "guide_minor_heading",
       "text": "3、公允价值变动",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1514,
-      "end_char": 1522,
+      "start_char": 1512,
+      "end_char": 1520,
       "region": "body"
     },
     {
-      "block_id": "b00031",
+      "block_id": "b00029",
       "block_type": "paragraph",
       "text": "借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1524,
-      "end_char": 1570,
+      "start_char": 1522,
+      "end_char": 1568,
       "region": "body"
     },
     {
-      "block_id": "b00032",
+      "block_id": "b00030",
       "block_type": "paragraph",
       "text": "4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1572,
-      "end_char": 1689,
+      "start_char": 1570,
+      "end_char": 1687,
       "region": "body"
     },
     {
-      "block_id": "b00034",
+      "block_id": "b00032",
       "block_type": "guide_minor_heading",
       "text": "5、到期",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1691,
-      "end_char": 1695,
+      "start_char": 1689,
+      "end_char": 1693,
       "region": "body"
     },
     {
-      "block_id": "b00035",
+      "block_id": "b00033",
       "block_type": "paragraph",
       "text": "借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1697,
-      "end_char": 1781,
+      "start_char": 1695,
+      "end_char": 1779,
       "region": "body"
     },
     {
-      "block_id": "b00036",
+      "block_id": "b00034",
       "block_type": "attachment",
       "text": "附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 1783,
-      "end_char": 2011,
+      "start_char": 1781,
+      "end_char": 2009,
       "region": "appendix"
     },
     {
-      "block_id": "b00037",
+      "block_id": "b00035",
       "block_type": "guide_heading",
       "text": "一、条款设计情形一",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2013,
-      "end_char": 2022,
+      "start_char": 2011,
+      "end_char": 2020,
       "region": "appendix"
     },
     {
-      "block_id": "b00038",
+      "block_id": "b00036",
       "block_type": "paragraph",
       "text": "凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2024,
-      "end_char": 2082,
+      "start_char": 2022,
+      "end_char": 2080,
       "region": "appendix"
     },
     {
-      "block_id": "b00039",
+      "block_id": "b00037",
       "block_type": "guide_subheading",
       "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2084,
-      "end_char": 2095,
+      "start_char": 2082,
+      "end_char": 2093,
       "region": "appendix"
     },
     {
-      "block_id": "b00040",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率",
+      "block_id": "b00038",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2097,
-      "end_char": 2348,
+      "start_char": 2095,
+      "end_char": 2343,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率",
         "expressions": [
           "V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-D)\\right)\\right]FV(1-R)}{1+r_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-D)\\right)\\right]FV(1-R)}{1+r_d\\left(\\frac{d}{TY}\\right)}",
         "formula_label": "公式",
         "source_page": 6,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00042",
+      "block_id": "b00040",
       "block_type": "guide_subheading",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2350,
-      "end_char": 2359,
+      "start_char": 2345,
+      "end_char": 2354,
       "region": "appendix"
     },
     {
-      "block_id": "b00043",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率",
+      "block_id": "b00041",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nd:标的债券估值日到到期日实际天数\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2361,
-      "end_char": 2560,
+      "start_char": 2356,
+      "end_char": 2553,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nd：标的债券估值日到到期日实际天数\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率",
         "expressions": [
           "V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{FV}{1+y_s\\left(\\frac{d}{TY}\\right)}-\\frac{FV}{1+y_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{FV}{1+y_s\\left(\\frac{d}{TY}\\right)}-\\frac{FV}{1+y_d\\left(\\frac{d}{TY}\\right)}",
         "formula_label": "公式",
         "source_page": 7,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00044",
+      "block_id": "b00042",
       "block_type": "guide_heading",
       "text": "二、条款设计情形二",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2562,
-      "end_char": 2571,
+      "start_char": 2555,
+      "end_char": 2564,
       "region": "appendix"
     },
     {
-      "block_id": "b00045",
+      "block_id": "b00043",
       "block_type": "paragraph",
       "text": "凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2573,
-      "end_char": 2620,
+      "start_char": 2566,
+      "end_char": 2613,
       "region": "appendix"
     },
     {
-      "block_id": "b00046",
+      "block_id": "b00044",
       "block_type": "guide_subheading",
       "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2622,
-      "end_char": 2633,
+      "start_char": 2615,
+      "end_char": 2626,
       "region": "appendix"
     },
     {
-      "block_id": "b00047",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数",
+      "block_id": "b00045",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nt_{1,2,n}:标的债券距估值日第1、2、3......n次现金流的时间长度\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率\nn:标的债券剩余付息次数",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2635,
-      "end_char": 2985,
+      "start_char": 2628,
+      "end_char": 2978,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nt_{1,2,n}：标的债券距估值日第1、2、3……n次现金流的时间长度\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率\nn：标的债券剩余付息次数",
         "expressions": [
           "V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(t_1\\ln(1-D)\\right)\\right]FV(1-R)}{(1+r_1)^{t_1}}+\\cdots+\\frac{\\exp\\left(t_1\\ln(1-D)\\right)(1-D)^{n-2}DFV(1-R)}{(1+r_n)^{t_n}}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(t_1\\ln(1-D)\\right)\\right]FV(1-R)}{(1+r_1)^{t_1}}+\\cdots+\\frac{\\exp\\left(t_1\\ln(1-D)\\right)(1-D)^{n-2}DFV(1-R)}{(1+r_n)^{t_n}}",
         "formula_label": "公式",
         "source_page": 7,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00049",
+      "block_id": "b00047",
       "block_type": "guide_subheading",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 2987,
-      "end_char": 2996,
+      "start_char": 2980,
+      "end_char": 2989,
       "region": "appendix"
     },
     {
-      "block_id": "b00050",
-      "block_type": "paragraph",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数",
+      "block_id": "b00048",
+      "block_type": "formula",
+      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW:估值日CRMW估值\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率\nn:标的债券剩余付息次数",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 2998,
-      "end_char": 3284,
+      "start_char": 2991,
+      "end_char": 3283,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数",
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW：估值日CRMW估值\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率\nn：标的债券剩余付息次数",
         "expressions": [
           "V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\left[\\frac{CF_1}{(1+y_s)^1}+\\frac{CF_2}{(1+y_s)^2}+\\cdots+\\frac{CF_n}{(1+y_s)^n}\\right]-\\left[\\frac{CF_1}{(1+y_d)^1}+\\frac{CF_2}{(1+y_d)^2}+\\cdots+\\frac{CF_n}{(1+y_d)^n}\\right]"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\left[\\frac{CF_1}{(1+y_s)^1}+\\frac{CF_2}{(1+y_s)^2}+\\cdots+\\frac{CF_n}{(1+y_s)^n}\\right]-\\left[\\frac{CF_1}{(1+y_d)^1}+\\frac{CF_2}{(1+y_d)^2}+\\cdots+\\frac{CF_n}{(1+y_d)^n}\\right]",
         "formula_label": "公式",
         "source_page": 8,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00051",
+      "block_id": "b00049",
       "block_type": "guide_heading",
       "text": "三、条款设计情形三",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3286,
-      "end_char": 3295,
+      "start_char": 3285,
+      "end_char": 3294,
       "region": "appendix"
     },
     {
-      "block_id": "b00052",
+      "block_id": "b00050",
       "block_type": "paragraph",
       "text": "凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3297,
-      "end_char": 3329,
+      "start_char": 3296,
+      "end_char": 3328,
       "region": "appendix"
     },
     {
-      "block_id": "b00053",
+      "block_id": "b00051",
       "block_type": "guide_subheading",
       "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3331,
-      "end_char": 3342,
+      "start_char": 3330,
+      "end_char": 3341,
       "region": "appendix"
     },
     {
-      "block_id": "b00054",
-      "block_type": "paragraph",
-      "text": "估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数",
+      "block_id": "b00052",
+      "block_type": "formula",
+      "text": "【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注:T_j < t < T_{j+1}\n其中:\nV_CRMW:估值日CRMW估值\nC_1:凭证固定支付票息(单位%)\nFV:标的债券到期时还本付息金额\nh:考虑CRMW创设机构风险下标的债券(标的主体)违约强度\nT_{1,2,n}:凭证固定票息付息日距凭证创设日的时间长度\nt:估值日距凭证创设日的时间长度\nR:标的债券(标的主体)回收率\nr_u:剩余期限u对应的基准即期收益率曲线值\nn:凭证固定票息支付次数",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3344,
-      "end_char": 3918,
+      "start_char": 3343,
+      "end_char": 3907,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数",
+        "raw_text": "【公式（按原PDF二维排版线性化）】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注：T_j < t < T_{j+1}\n其中:\nV_CRMW：估值日CRMW估值\nC_1：凭证固定支付票息（单位%）\nFV：标的债券到期时还本付息金额\nh：考虑CRMW创设机构风险下标的债券（标的主体）违约强度\nT_{1,2,n}：凭证固定票息付息日距凭证创设日的时间长度\nt：估值日距凭证创设日的时间长度\nR：标的债券（标的主体）回收率\nr_u：剩余期限u对应的基准即期收益率曲线值\nn：凭证固定票息支付次数",
         "expressions": [
-          "V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}"
+          "V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "\\begin{aligned}\nV_{\\mathrm{CRMW}}={}&FV(1-R)\\int_t^{T_n}\\frac{h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&-100C_1\\Bigg[\\sum_{i=j+1}^{n}(T_i-T_{i-1})\\frac{1-\\exp[-h(T_i-t)]}{(1+r_{T_i-t})^{T_i-t}}\\\\\n&\\quad+\\int_t^{T_{j+1}}\\frac{(s-T_j)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&\\quad+\\sum_{k=j+1}^{n-1}\\int_{T_k}^{T_{k+1}}\\frac{(s-T_k)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\Bigg]\n\\end{aligned}"
+        ],
+        "latex": "\\begin{aligned}\nV_{\\mathrm{CRMW}}={}&FV(1-R)\\int_t^{T_n}\\frac{h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&-100C_1\\Bigg[\\sum_{i=j+1}^{n}(T_i-T_{i-1})\\frac{1-\\exp[-h(T_i-t)]}{(1+r_{T_i-t})^{T_i-t}}\\\\\n&\\quad+\\int_t^{T_{j+1}}\\frac{(s-T_j)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&\\quad+\\sum_{k=j+1}^{n-1}\\int_{T_k}^{T_{k+1}}\\frac{(s-T_k)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\Bigg]\n\\end{aligned}",
         "formula_label": "公式",
         "source_page": 8,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00056",
+      "block_id": "b00054",
       "block_type": "guide_subheading",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3920,
-      "end_char": 3929,
+      "start_char": 3909,
+      "end_char": 3918,
       "region": "appendix"
     },
     {
-      "block_id": "b00057",
+      "block_id": "b00055",
       "block_type": "paragraph",
       "text": "基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3931,
-      "end_char": 4021,
+      "start_char": 3920,
+      "end_char": 4010,
       "region": "appendix"
     },
     {
-      "block_id": "b00058",
+      "block_id": "b00056",
       "block_type": "guide_heading",
       "text": "四、估值方法相关释义",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4023,
-      "end_char": 4033,
+      "start_char": 4012,
+      "end_char": 4022,
       "region": "appendix"
     },
     {
-      "block_id": "b00059",
+      "block_id": "b00057",
       "block_type": "guide_subheading",
       "text": "(一) 考虑 CRMW 创设机构风险下的标的债券(标的主",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4035,
-      "end_char": 4063,
+      "start_char": 4024,
+      "end_char": 4052,
       "region": "appendix"
     },
     {
-      "block_id": "b00060",
-      "block_type": "paragraph",
-      "text": "体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
+      "block_id": "b00058",
+      "block_type": "formula",
+      "text": "考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A):标的债券年化违约概率\nP(B)=1-P(B̄):创设机构年化违约概率\nP(A|B̄):条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4065,
-      "end_char": 4402,
+      "start_char": 4054,
+      "end_char": 4356,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
+        "raw_text": "考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A)：标的债券年化违约概率\nP(B)=1-P(B̄)：创设机构年化违约概率\nP(A|B̄)：条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
         "expressions": [
           "P(A∩B̄) = P(A|B̄) × P(B̄)",
           "P(A∩B̄) = (1-w) × P(A) × P(B̄)"
         ],
+        "latex_expressions": [
+          "P(A\\cap\\bar{B})=P(A\\mid\\bar{B})P(\\bar{B})",
+          "P(A\\cap\\bar{B})=(1-w)P(A)P(\\bar{B})"
+        ],
         "latex": "",
         "formula_label": "公式",
         "source_page": 9,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00062",
+      "block_id": "b00060",
       "block_type": "paragraph",
       "text": "(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4404,
-      "end_char": 4455,
+      "start_char": 4358,
+      "end_char": 4409,
       "region": "appendix"
     },
     {
-      "block_id": "b00063",
+      "block_id": "b00061",
       "block_type": "guide_minor_heading",
       "text": "1、标的债券为到期一次还本付息的短期融资券或超短",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4457,
-      "end_char": 4481,
+      "start_char": 4411,
+      "end_char": 4435,
       "region": "appendix"
     },
     {
-      "block_id": "b00064",
-      "block_type": "paragraph",
-      "text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率",
+      "block_id": "b00062",
+      "block_type": "formula",
+      "text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV:估值日标的债券全价\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nP:标的债券年化隐含违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:估值日标的债券回收率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4483,
-      "end_char": 4748,
+      "start_char": 4437,
+      "end_char": 4703,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率",
+        "raw_text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV：估值日标的债券全价\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nP：标的债券年化隐含违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
         "expressions": [
           "PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "PV=\\frac{\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)FV+\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)\\right]FVR}{1+r_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "PV=\\frac{\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)FV+\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)\\right]FVR}{1+r_d\\left(\\frac{d}{TY}\\right)}",
         "formula_label": "公式",
         "source_page": 10,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00066",
-      "block_type": "paragraph",
-      "text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率",
+      "block_id": "b00064",
+      "block_type": "formula",
+      "text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV:估值日标的债券全价\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\nP:标的债券年化隐含违约率\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:估值日标的债券回收率",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4750,
-      "end_char": 5126,
+      "start_char": 4705,
+      "end_char": 5090,
       "region": "appendix",
       "formula_data": {
-        "raw_text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率",
+        "raw_text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV：估值日标的债券全价\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\nP：标的债券年化隐含违约率\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
         "expressions": [
           "PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}"
         ],
-        "latex": "",
+        "latex_expressions": [
+          "PV=\\frac{\\exp\\left(t_1\\ln(1-P)\\right)CF_1+\\left[1-\\exp\\left(t_1\\ln(1-P)\\right)\\right]CF_nR}{(1+r_1)^{t_1}}+\\frac{\\exp\\left(t_1\\ln(1-P)\\right)(1-P)^{n-2}\\left[(1-P)CF_n+PCF_nR\\right]}{(1+r_n)^{t_n}}"
+        ],
+        "latex": "PV=\\frac{\\exp\\left(t_1\\ln(1-P)\\right)CF_1+\\left[1-\\exp\\left(t_1\\ln(1-P)\\right)\\right]CF_nR}{(1+r_1)^{t_1}}+\\frac{\\exp\\left(t_1\\ln(1-P)\\right)(1-P)^{n-2}\\left[(1-P)CF_n+PCF_nR\\right]}{(1+r_n)^{t_n}}",
         "formula_label": "公式",
         "source_page": 11,
-        "conversion_status": "verified_linearized_raw_text"
+        "conversion_status": "verified_linearized_and_latex"
       }
     },
     {
-      "block_id": "b00067",
+      "block_id": "b00065",
       "block_type": "guide_subheading",
       "text": "(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 5128,
-      "end_char": 5165,
+      "start_char": 5092,
+      "end_char": 5129,
       "region": "appendix"
     },
     {
-      "block_id": "b00068",
+      "block_id": "b00066",
       "block_type": "paragraph",
       "text": "(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 5167,
-      "end_char": 5203,
+      "start_char": 5131,
+      "end_char": 5167,
       "region": "appendix"
     },
     {
-      "block_id": "b00069",
+      "block_id": "b00067",
       "block_type": "paragraph",
       "text": "(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 5205,
-      "end_char": 5697,
+      "start_char": 5169,
+      "end_char": 5661,
       "region": "appendix"
     },
     {
-      "block_id": "b00071",
+      "block_id": "b00069",
       "block_type": "guide_subheading",
       "text": "(六) 鉴于合约类信用衍生品产品条款设计灵活,基金",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5699,
-      "end_char": 5724,
+      "start_char": 5663,
+      "end_char": 5688,
       "region": "appendix"
     },
     {
-      "block_id": "b00072",
+      "block_id": "b00070",
       "block_type": "paragraph",
       "text": "管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
       "style": "",
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5726,
-      "end_char": 5777,
+      "start_char": 5690,
+      "end_char": 5741,
       "region": "appendix"
     }
   ],
-  "normalized_text": "证券投资基金投资信用衍生品估值指引(试行)一、总则\n\n(一)为规范证券投资基金(以下简称“基金”)投资\n\n信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。\n\n(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n(三)基金管理人和基金托管人对基金投资的信用衍生\n\n品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。\n\n(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。\n\n(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。\n\n(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。\n\n(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。\n\n(八)基金管理人对管理的不同基金持有的同一种信用\n\n衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。\n\n(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。\n\n(十)本指引自发布之日起实施。\n\n二、信用衍生品的估值处理\n\n(一)对证券交易所或银行间市场上交易的凭证类信用\n\n衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。\n\n(二)对证券交易所或银行间市场非上市交易的合约类\n\n信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。\n\n三、会计处理\n\n(一)科目设置\n\n| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |\n\n(二)主要账务处理\n\n1、买入\n\n借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)\n\n2、固定票息保费确认\n\n借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款\n\n3、公允价值变动\n\n借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)\n\n4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)\n\n5、到期\n\n借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)\n\n附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。\n\n一、条款设计情形一\n\n凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率\n\n二、条款设计情形二\n\n凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数\n\n三、条款设计情形三\n\n凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:\n\n(一)基于违约率的方法\n\n估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数\n\n(二)现金流折现法\n\n基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。\n\n四、估值方法相关释义\n\n(一) 考虑 CRMW 创设机构风险下的标的债券(标的主\n\n体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)\n\n(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。\n\n1、标的债券为到期一次还本付息的短期融资券或超短\n\n期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率\n\n2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率\n\n(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)\n\n(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。\n\n(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。\n\n(六) 鉴于合约类信用衍生品产品条款设计灵活,基金\n\n管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
+  "normalized_text": "证券投资基金投资信用衍生品估值指引(试行)\n\n一、总则\n\n(一)为规范证券投资基金(以下简称“基金”)投资信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。\n\n(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n(三)基金管理人和基金托管人对基金投资的信用衍生\n\n品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。\n\n(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。\n\n(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。\n\n(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。\n\n(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。\n\n(八)基金管理人对管理的不同基金持有的同一种信用\n\n衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。\n\n(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。\n\n(十)本指引自发布之日起实施。\n\n二、信用衍生品的估值处理\n\n(一)对证券交易所或银行间市场上交易的凭证类信用\n\n衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。\n\n(二)对证券交易所或银行间市场非上市交易的合约类\n\n信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。\n\n三、会计处理\n\n(一)科目设置\n\n| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |\n\n(二)主要账务处理\n\n1、买入\n\n借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)\n\n2、固定票息保费确认借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款\n\n3、公允价值变动\n\n借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)\n\n4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)\n\n5、到期\n\n借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)\n\n附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。\n\n一、条款设计情形一\n\n凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nd:标的债券估值日到到期日实际天数\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率\n\n二、条款设计情形二\n\n凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。\n\n(一)基于违约率的方法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW:估值日CRMW估值\nFV:标的债券到期时还本付息金额\nD:考虑CRMW创设机构风险下标的债券(标的主体)年化违约率\nt_{1,2,n}:标的债券距估值日第1、2、3......n次现金流的时间长度\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:标的债券(标的主体)回收率\nn:标的债券剩余付息次数\n\n(二)现金流折现法\n\n估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW:估值日CRMW估值\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\ny_s:被CRMW创设机构保险后的估价收益率\ny_d:标的债券的估价收益率\nn:标的债券剩余付息次数\n\n三、条款设计情形三\n\n凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:\n\n(一)基于违约率的方法\n\n【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注:T_j < t < T_{j+1}\n其中:\nV_CRMW:估值日CRMW估值\nC_1:凭证固定支付票息(单位%)\nFV:标的债券到期时还本付息金额\nh:考虑CRMW创设机构风险下标的债券(标的主体)违约强度\nT_{1,2,n}:凭证固定票息付息日距凭证创设日的时间长度\nt:估值日距凭证创设日的时间长度\nR:标的债券(标的主体)回收率\nr_u:剩余期限u对应的基准即期收益率曲线值\nn:凭证固定票息支付次数\n\n(二)现金流折现法\n\n基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。\n\n四、估值方法相关释义\n\n(一) 考虑 CRMW 创设机构风险下的标的债券(标的主\n\n考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A):标的债券年化违约概率\nP(B)=1-P(B̄):创设机构年化违约概率\nP(A|B̄):条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)\n\n(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。\n\n1、标的债券为到期一次还本付息的短期融资券或超短\n\n期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV:估值日标的债券全价\nFV:标的债券到期时还本付息金额\nTY:标的债券计息年实际天数\nP:标的债券年化隐含违约率\nd:标的债券估值日到到期日实际天数\nr_d:估值日期限d对应的基准即期收益率曲线值\nR:估值日标的债券回收率\n\n2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV:估值日标的债券全价\nCF_{1,2,n}:标的债券第1、2、......、n次现金流\nt_{1,2,n}:标的债券距估值日第1、2、......、n次现金流的时间长度\nP:标的债券年化隐含违约率\nr_{1,2,n}:估值日期限对应的基准即期收益率曲线值\nR:估值日标的债券回收率\n\n(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)\n\n(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。\n\n(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。\n\n(六) 鉴于合约类信用衍生品产品条款设计灵活,基金\n\n管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
   "blocks": [
     {
       "block_id": "b00001",
-      "text": "证券投资基金投资信用衍生品估值指引(试行)一、总则",
+      "text": "证券投资基金投资信用衍生品估值指引(试行)",
       "style": "",
       "source_kind": "paragraph",
       "page": 1,
       "region": "body",
       "source_page_end": 1,
       "start_char": 0,
-      "end_char": 25,
+      "end_char": 21,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00002",
+      "text": "一、总则",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 2,
+      "region": "body",
+      "source_page_end": 2,
+      "start_char": 23,
+      "end_char": 27,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2217,28 +2259,13 @@
     },
     {
       "block_id": "b00003",
-      "text": "(一)为规范证券投资基金(以下简称“基金”)投资",
+      "text": "(一)为规范证券投资基金(以下简称“基金”)投资信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。",
       "style": "",
       "source_kind": "paragraph",
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 27,
-      "end_char": 51,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00004",
-      "text": "信用衍生品的估值,保护基金份额持有人的利益,根据《证券投资基金法》、《公开募集证券投资基金运作管理办法》、《公开募集证券投资基金投资信用衍生品指引》等法律、法规,制定本指引。",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 2,
-      "region": "body",
-      "source_page_end": 2,
-      "start_char": 53,
+      "start_char": 29,
       "end_char": 140,
       "table_data": {},
       "formula_data": {},
@@ -2246,7 +2273,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00005",
+      "block_id": "b00004",
       "text": "(二)本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。",
       "style": "",
       "source_kind": "paragraph",
@@ -2261,7 +2288,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00006",
+      "block_id": "b00005",
       "text": "(三)基金管理人和基金托管人对基金投资的信用衍生",
       "style": "",
       "source_kind": "paragraph",
@@ -2276,7 +2303,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00007",
+      "block_id": "b00006",
       "text": "品估值、计算基金份额净值时,可参考本指引,但不能免除其作为估值责任人的相关责任。",
       "style": "",
       "source_kind": "paragraph",
@@ -2291,7 +2318,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00008",
+      "block_id": "b00007",
       "text": "(四)基金管理人可以委托中国证券投资基金业协会(以下简称“协会”)引入的估值基准服务机构提供估值服务,基金管理人依法应当承担的估值责任不因委托而免除。基金管理人和估值基准服务机构可以结合信用衍生品条款设计、数据可公开性等因素,就估值服务的服务范围、方式等进行个性化约定。",
       "style": "",
       "source_kind": "paragraph",
@@ -2306,7 +2333,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00009",
+      "block_id": "b00008",
       "text": "(五)基金管理人作为估值的第一责任人,应当定期评估估值质量,并对估值价格进行检验,防范可能出现的偏差。",
       "style": "",
       "source_kind": "paragraph",
@@ -2321,7 +2348,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00010",
+      "block_id": "b00009",
       "text": "(六)估值基准服务机构应做好相关公开披露工作,披露内容不限于估值原则、方法等,披露方式不限于协会和本机构网站。",
       "style": "",
       "source_kind": "paragraph",
@@ -2336,7 +2363,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00011",
+      "block_id": "b00010",
       "text": "(七)基金管理人和估值基准服务机构应当根据估值中性和动态性原则,确定信用衍生品公允价值,并根据市场环境和交易机制等变化进行动态评估和调整。",
       "style": "",
       "source_kind": "paragraph",
@@ -2351,7 +2378,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00013",
+      "block_id": "b00012",
       "text": "(八)基金管理人对管理的不同基金持有的同一种信用",
       "style": "",
       "source_kind": "paragraph",
@@ -2366,7 +2393,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00014",
+      "block_id": "b00013",
       "text": "衍生品的估值原则、程序及技术应当一致。估值技术一经确定,不得随意更改,除非变更估值技术或其应用方法能使计量结果在当前情况下同样或者更能代表公允价值。基金管理人改变估值技术时,应本着最大限度保护基金份额持有人利益的原则及时进行临时公告。",
       "style": "",
       "source_kind": "paragraph",
@@ -2381,7 +2408,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00015",
+      "block_id": "b00014",
       "text": "(九)私募基金投资信用衍生品的,可根据合同约定,参考本指引执行。",
       "style": "",
       "source_kind": "paragraph",
@@ -2396,7 +2423,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00016",
+      "block_id": "b00015",
       "text": "(十)本指引自发布之日起实施。",
       "style": "",
       "source_kind": "paragraph",
@@ -2411,7 +2438,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00017",
+      "block_id": "b00016",
       "text": "二、信用衍生品的估值处理",
       "style": "",
       "source_kind": "paragraph",
@@ -2426,7 +2453,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00018",
+      "block_id": "b00017",
       "text": "(一)对证券交易所或银行间市场上交易的凭证类信用",
       "style": "",
       "source_kind": "paragraph",
@@ -2441,7 +2468,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00019",
+      "block_id": "b00018",
       "text": "衍生品,建议根据以下原则确定公允价值:对于存在活跃市场的情况下,应以活跃市场上未经调整的报价作为计量日的公允价值;对于活跃市场报价未能代表计量日公允价值的情况下,应当对市场报价进行调整以确认计量日的公允价值;对于不存在市场活动或市场活动很少的情况下,应当采用估值技术确定其公允价值。",
       "style": "",
       "source_kind": "paragraph",
@@ -2456,7 +2483,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00020",
+      "block_id": "b00019",
       "text": "(二)对证券交易所或银行间市场非上市交易的合约类",
       "style": "",
       "source_kind": "paragraph",
@@ -2471,7 +2498,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00021",
+      "block_id": "b00020",
       "text": "信用衍生品,且估值基准服务机构未提供估值价格的,建议采用估值技术确定其公允价值。",
       "style": "",
       "source_kind": "paragraph",
@@ -2486,7 +2513,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00022",
+      "block_id": "b00021",
       "text": "三、会计处理",
       "style": "",
       "source_kind": "paragraph",
@@ -2501,7 +2528,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00023",
+      "block_id": "b00022",
       "text": "(一)科目设置",
       "style": "",
       "source_kind": "paragraph",
@@ -2516,7 +2543,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00024",
+      "block_id": "b00023",
       "text": "| 编号 | 会计科目 | 明细科目设置 | 核算内容 |\n| --- | --- | --- | --- |\n| 3102 | 其他衍生工具 | 按照信用衍生合约(凭证)、成本/公允价值、品种等进行明细核算。 | 核算基金持有的信用衍生合约(凭证)的数量、公允价值。 |\n| 6101 | 公允价值变动损益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)公允价值变动形成的应计入当期损益的利得或损失。 |\n| 6111 | 投资收益 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金持有的信用衍生合约(凭证)卖出和到期实现的损益。 |\n| 6407 | 交易费用 | 按照信用衍生合约(凭证)进行明细核算。 | 核算基金信用衍生合约(凭证)交易产生的交易费用。 |",
       "style": "Table",
       "source_kind": "table",
@@ -2731,7 +2758,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00025",
+      "block_id": "b00024",
       "text": "(二)主要账务处理",
       "style": "",
       "source_kind": "paragraph",
@@ -2746,7 +2773,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00026",
+      "block_id": "b00025",
       "text": "1、买入",
       "style": "",
       "source_kind": "paragraph",
@@ -2761,7 +2788,7 @@
       "layout": {}
     },
     {
-      "block_id": "b00027",
+      "block_id": "b00026",
       "text": "借:其他衍生工具——信用衍生合约(凭证)——成本交易费用(如有)贷:银行存款应付佣金(如有)",
       "style": "",
       "source_kind": "paragraph",
@@ -2776,15 +2803,30 @@
       "layout": {}
     },
     {
-      "block_id": "b00028",
-      "text": "2、固定票息保费确认",
+      "block_id": "b00027",
+      "text": "2、固定票息保费确认借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款",
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
       "region": "body",
       "source_page_end": 4,
       "start_char": 1470,
-      "end_char": 1480,
+      "end_char": 1510,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00028",
+      "text": "3、公允价值变动",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 4,
+      "region": "body",
+      "source_page_end": 4,
+      "start_char": 1512,
+      "end_char": 1520,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2792,14 +2834,14 @@
     },
     {
       "block_id": "b00029",
-      "text": "借:其他衍生工具——信用衍生合约(凭证)——成本贷:银行存款",
+      "text": "借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1482,
-      "end_char": 1512,
+      "start_char": 1522,
+      "end_char": 1568,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2807,29 +2849,14 @@
     },
     {
       "block_id": "b00030",
-      "text": "3、公允价值变动",
+      "text": "4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)",
       "style": "",
       "source_kind": "paragraph",
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1514,
-      "end_char": 1522,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00031",
-      "text": "借:其他衍生工具——信用衍生合约(凭证)——估值增值贷:公允价值变动——信用衍生合约(凭证)",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 4,
-      "region": "body",
-      "source_page_end": 4,
-      "start_char": 1524,
-      "end_char": 1570,
+      "start_char": 1570,
+      "end_char": 1687,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2837,14 +2864,29 @@
     },
     {
       "block_id": "b00032",
-      "text": "4、卖出(包括设立方回购)借:银行存款交易费用(如有)公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值应付佣金(如有)投资收益——信用衍生合约(凭证)",
+      "text": "5、到期",
       "style": "",
       "source_kind": "paragraph",
-      "page": 4,
+      "page": 5,
       "region": "body",
-      "source_page_end": 4,
-      "start_char": 1572,
-      "end_char": 1689,
+      "source_page_end": 5,
+      "start_char": 1689,
+      "end_char": 1693,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00033",
+      "text": "借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 5,
+      "region": "body",
+      "source_page_end": 5,
+      "start_char": 1695,
+      "end_char": 1779,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2852,14 +2894,14 @@
     },
     {
       "block_id": "b00034",
-      "text": "5、到期",
+      "text": "附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。",
       "style": "",
       "source_kind": "paragraph",
-      "page": 5,
-      "region": "body",
-      "source_page_end": 5,
-      "start_char": 1691,
-      "end_char": 1695,
+      "page": 6,
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 1781,
+      "end_char": 2009,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2867,14 +2909,14 @@
     },
     {
       "block_id": "b00035",
-      "text": "借:公允价值变动——信用衍生合约(凭证)贷:其他衍生工具——信用衍生合约(凭证)——成本其他衍生工具——信用衍生合约(凭证)——估值增值投资收益——信用衍生合约(凭证)",
+      "text": "一、条款设计情形一",
       "style": "",
       "source_kind": "paragraph",
-      "page": 5,
-      "region": "body",
-      "source_page_end": 5,
-      "start_char": 1697,
-      "end_char": 1781,
+      "page": 6,
+      "region": "appendix",
+      "source_page_end": 6,
+      "start_char": 2011,
+      "end_char": 2020,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2882,14 +2924,14 @@
     },
     {
       "block_id": "b00036",
-      "text": "附件:信用衍生品估值参考方法国际上信用衍生品的主流定价方法(主要是信用违约互换 CDS)包括等成本参考法、基于信用利差的方法、信用套利模型、现金流折现模型、基于评级的违约率方法等。根据目前我国信用衍生品发展情况,现结合银行间信用风险缓释凭证(CRMW)条款设计特点,以 CRMW 为例,提供以下估值方法作为参考。估值基准服务机构应当结合交易所规则、产品条款设计、市场环境等因素,评估模型假设条件的适用性,确定信用衍生品的估值方法,使用恰当的模型和模型参数。",
+      "text": "凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。",
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
       "region": "appendix",
       "source_page_end": 6,
-      "start_char": 1783,
-      "end_char": 2011,
+      "start_char": 2022,
+      "end_char": 2080,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2897,14 +2939,14 @@
     },
     {
       "block_id": "b00037",
-      "text": "一、条款设计情形一",
+      "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
       "region": "appendix",
       "source_page_end": 6,
-      "start_char": 2013,
-      "end_char": 2022,
+      "start_char": 2082,
+      "end_char": 2093,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2912,59 +2954,83 @@
     },
     {
       "block_id": "b00038",
-      "text": "凭证为前端付费且标的债券为到期一次还本付息的短期融资券或超短期融资券,或标的债券为附息式债券但已处于最后付息周期时。",
+      "text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率",
       "style": "",
       "source_kind": "paragraph",
       "page": 6,
       "region": "appendix",
       "source_page_end": 6,
-      "start_char": 2024,
-      "end_char": 2082,
+      "start_char": 2095,
+      "end_char": 2343,
       "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00039",
-      "text": "(一)基于违约率的方法",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 6,
-      "region": "appendix",
-      "source_page_end": 6,
-      "start_char": 2084,
-      "end_char": 2095,
-      "table_data": {},
-      "formula_data": {},
+      "formula_data": {
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率",
+        "expressions": [
+          "V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]"
+        ],
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-D)\\right)\\right]FV(1-R)}{1+r_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-D)\\right)\\right]FV(1-R)}{1+r_d\\left(\\frac{d}{TY}\\right)}",
+        "formula_label": "公式",
+        "source_page": 6,
+        "conversion_status": "verified_linearized_and_latex"
+      },
       "parsing_warnings": [],
       "layout": {}
     },
     {
       "block_id": "b00040",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = [(1 - exp((d / TY) × ln(1 - D))) × FV × (1 - R)] / [1 + r_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :标的债券(标的主体)回收率",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 6,
-      "region": "appendix",
-      "source_page_end": 6,
-      "start_char": 2097,
-      "end_char": 2348,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00042",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
       "region": "appendix",
       "source_page_end": 7,
-      "start_char": 2350,
-      "end_char": 2359,
+      "start_char": 2345,
+      "end_char": 2354,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00041",
+      "text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nd：标的债券估值日到到期日实际天数\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 7,
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 2356,
+      "end_char": 2553,
+      "table_data": {},
+      "formula_data": {
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nd：标的债券估值日到到期日实际天数\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率",
+        "expressions": [
+          "V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]"
+        ],
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{FV}{1+y_s\\left(\\frac{d}{TY}\\right)}-\\frac{FV}{1+y_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{FV}{1+y_s\\left(\\frac{d}{TY}\\right)}-\\frac{FV}{1+y_d\\left(\\frac{d}{TY}\\right)}",
+        "formula_label": "公式",
+        "source_page": 7,
+        "conversion_status": "verified_linearized_and_latex"
+      },
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00042",
+      "text": "二、条款设计情形二",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 7,
+      "region": "appendix",
+      "source_page_end": 7,
+      "start_char": 2555,
+      "end_char": 2564,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2972,14 +3038,14 @@
     },
     {
       "block_id": "b00043",
-      "text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = FV / [1 + y_s × (d / TY)] - FV / [1 + y_d × (d / TY)]\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数d :标的债券估值日到到期日实际天数y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率",
+      "text": "凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。",
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
       "region": "appendix",
       "source_page_end": 7,
-      "start_char": 2361,
-      "end_char": 2560,
+      "start_char": 2566,
+      "end_char": 2613,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2987,14 +3053,14 @@
     },
     {
       "block_id": "b00044",
-      "text": "二、条款设计情形二",
+      "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
       "region": "appendix",
       "source_page_end": 7,
-      "start_char": 2562,
-      "end_char": 2571,
+      "start_char": 2615,
+      "end_char": 2626,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3002,59 +3068,83 @@
     },
     {
       "block_id": "b00045",
-      "text": "凭证为前端付费且标的债券为附息式债券,按年付息且不处于最后付息周期时(不含选择权等特殊情况)。",
+      "text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nt_{1,2,n}：标的债券距估值日第1、2、3……n次现金流的时间长度\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率\nn：标的债券剩余付息次数",
       "style": "",
       "source_kind": "paragraph",
       "page": 7,
       "region": "appendix",
       "source_page_end": 7,
-      "start_char": 2573,
-      "end_char": 2620,
+      "start_char": 2628,
+      "end_char": 2978,
       "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00046",
-      "text": "(一)基于违约率的方法",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 7,
-      "region": "appendix",
-      "source_page_end": 7,
-      "start_char": 2622,
-      "end_char": 2633,
-      "table_data": {},
-      "formula_data": {},
+      "formula_data": {
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:\nV_CRMW：估值日CRMW估值\nFV：标的债券到期时还本付息金额\nD：考虑CRMW创设机构风险下标的债券（标的主体）年化违约率\nt_{1,2,n}：标的债券距估值日第1、2、3……n次现金流的时间长度\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：标的债券（标的主体）回收率\nn：标的债券剩余付息次数",
+        "expressions": [
+          "V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}"
+        ],
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(t_1\\ln(1-D)\\right)\\right]FV(1-R)}{(1+r_1)^{t_1}}+\\cdots+\\frac{\\exp\\left(t_1\\ln(1-D)\\right)(1-D)^{n-2}DFV(1-R)}{(1+r_n)^{t_n}}"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\frac{\\left[1-\\exp\\left(t_1\\ln(1-D)\\right)\\right]FV(1-R)}{(1+r_1)^{t_1}}+\\cdots+\\frac{\\exp\\left(t_1\\ln(1-D)\\right)(1-D)^{n-2}DFV(1-R)}{(1+r_n)^{t_n}}",
+        "formula_label": "公式",
+        "source_page": 7,
+        "conversion_status": "verified_linearized_and_latex"
+      },
       "parsing_warnings": [],
       "layout": {}
     },
     {
       "block_id": "b00047",
-      "text": "估值公式如下:\n【公式(按原PDF二维排版线性化)】V_CRMW = {[(1 - exp(t_1 × ln(1 - D))) × FV × (1 - R)] / (1 + r_1)^{t_1}} + ⋯ + {[exp(t_1 × ln(1 - D)) × (1 - D)^{n-2} × D × FV × (1 - R)] / (1 + r_n)^{t_n}}\n其中:V :估值日 CRMW 估值CRMW FV :标的债券到期时还本付息金额D :考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约率t :标的债券距估值日第 1,2,3...n 次现金流的时间长1,2, n度r :估值日期限对应的基准即期收益率曲线值1,2, n R :标的债券(标的主体)回收率n :标的债券剩余付息次数",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 7,
-      "region": "appendix",
-      "source_page_end": 7,
-      "start_char": 2635,
-      "end_char": 2985,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00049",
       "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
       "region": "appendix",
       "source_page_end": 8,
-      "start_char": 2987,
-      "end_char": 2996,
+      "start_char": 2980,
+      "end_char": 2989,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00048",
+      "text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW：估值日CRMW估值\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率\nn：标的债券剩余付息次数",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 8,
+      "region": "appendix",
+      "source_page_end": 8,
+      "start_char": 2991,
+      "end_char": 3283,
+      "table_data": {},
+      "formula_data": {
+        "raw_text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:\nV_CRMW：估值日CRMW估值\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\ny_s：被CRMW创设机构保险后的估价收益率\ny_d：标的债券的估价收益率\nn：标的债券剩余付息次数",
+        "expressions": [
+          "V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]"
+        ],
+        "latex_expressions": [
+          "V_{\\mathrm{CRMW}}=\\left[\\frac{CF_1}{(1+y_s)^1}+\\frac{CF_2}{(1+y_s)^2}+\\cdots+\\frac{CF_n}{(1+y_s)^n}\\right]-\\left[\\frac{CF_1}{(1+y_d)^1}+\\frac{CF_2}{(1+y_d)^2}+\\cdots+\\frac{CF_n}{(1+y_d)^n}\\right]"
+        ],
+        "latex": "V_{\\mathrm{CRMW}}=\\left[\\frac{CF_1}{(1+y_s)^1}+\\frac{CF_2}{(1+y_s)^2}+\\cdots+\\frac{CF_n}{(1+y_s)^n}\\right]-\\left[\\frac{CF_1}{(1+y_d)^1}+\\frac{CF_2}{(1+y_d)^2}+\\cdots+\\frac{CF_n}{(1+y_d)^n}\\right]",
+        "formula_label": "公式",
+        "source_page": 8,
+        "conversion_status": "verified_linearized_and_latex"
+      },
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00049",
+      "text": "三、条款设计情形三",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 8,
+      "region": "appendix",
+      "source_page_end": 8,
+      "start_char": 3285,
+      "end_char": 3294,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3062,14 +3152,14 @@
     },
     {
       "block_id": "b00050",
-      "text": "估值公式如下:\n【公式（按原PDF二维排版线性化）】V_CRMW = [CF_1/(1+y_s)^1 + CF_2/(1+y_s)^2 + ⋯ + CF_n/(1+y_s)^n] - [CF_1/(1+y_d)^1 + CF_2/(1+y_d)^2 + ⋯ + CF_n/(1+y_d)^n]\n其中:V :估值日 CRMW 估值CRMW CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度y :被 CRMW 创设机构保险后的估价收益率s y :标的债券的估价收益率n :标的债券剩余付息次数",
+      "text": "凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:",
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
       "region": "appendix",
       "source_page_end": 8,
-      "start_char": 2998,
-      "end_char": 3284,
+      "start_char": 3296,
+      "end_char": 3328,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3077,14 +3167,14 @@
     },
     {
       "block_id": "b00051",
-      "text": "三、条款设计情形三",
+      "text": "(一)基于违约率的方法",
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
       "region": "appendix",
       "source_page_end": 8,
-      "start_char": 3286,
-      "end_char": 3295,
+      "start_char": 3330,
+      "end_char": 3341,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3092,43 +3182,40 @@
     },
     {
       "block_id": "b00052",
-      "text": "凭证为前端付费加固定频率付费或主体风险缓释工具等其他复杂情形时:",
+      "text": "【公式（按原PDF二维排版线性化）】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注：T_j < t < T_{j+1}\n其中:\nV_CRMW：估值日CRMW估值\nC_1：凭证固定支付票息（单位%）\nFV：标的债券到期时还本付息金额\nh：考虑CRMW创设机构风险下标的债券（标的主体）违约强度\nT_{1,2,n}：凭证固定票息付息日距凭证创设日的时间长度\nt：估值日距凭证创设日的时间长度\nR：标的债券（标的主体）回收率\nr_u：剩余期限u对应的基准即期收益率曲线值\nn：凭证固定票息支付次数",
       "style": "",
       "source_kind": "paragraph",
       "page": 8,
       "region": "appendix",
       "source_page_end": 8,
-      "start_char": 3297,
-      "end_char": 3329,
+      "start_char": 3343,
+      "end_char": 3907,
       "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00053",
-      "text": "(一)基于违约率的方法",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 8,
-      "region": "appendix",
-      "source_page_end": 8,
-      "start_char": 3331,
-      "end_char": 3342,
-      "table_data": {},
-      "formula_data": {},
+      "formula_data": {
+        "raw_text": "【公式（按原PDF二维排版线性化）】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]\n注：T_j < t < T_{j+1}\n其中:\nV_CRMW：估值日CRMW估值\nC_1：凭证固定支付票息（单位%）\nFV：标的债券到期时还本付息金额\nh：考虑CRMW创设机构风险下标的债券（标的主体）违约强度\nT_{1,2,n}：凭证固定票息付息日距凭证创设日的时间长度\nt：估值日距凭证创设日的时间长度\nR：标的债券（标的主体）回收率\nr_u：剩余期限u对应的基准即期收益率曲线值\nn：凭证固定票息支付次数",
+        "expressions": [
+          "V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds]"
+        ],
+        "latex_expressions": [
+          "\\begin{aligned}\nV_{\\mathrm{CRMW}}={}&FV(1-R)\\int_t^{T_n}\\frac{h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&-100C_1\\Bigg[\\sum_{i=j+1}^{n}(T_i-T_{i-1})\\frac{1-\\exp[-h(T_i-t)]}{(1+r_{T_i-t})^{T_i-t}}\\\\\n&\\quad+\\int_t^{T_{j+1}}\\frac{(s-T_j)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&\\quad+\\sum_{k=j+1}^{n-1}\\int_{T_k}^{T_{k+1}}\\frac{(s-T_k)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\Bigg]\n\\end{aligned}"
+        ],
+        "latex": "\\begin{aligned}\nV_{\\mathrm{CRMW}}={}&FV(1-R)\\int_t^{T_n}\\frac{h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&-100C_1\\Bigg[\\sum_{i=j+1}^{n}(T_i-T_{i-1})\\frac{1-\\exp[-h(T_i-t)]}{(1+r_{T_i-t})^{T_i-t}}\\\\\n&\\quad+\\int_t^{T_{j+1}}\\frac{(s-T_j)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\\\\n&\\quad+\\sum_{k=j+1}^{n-1}\\int_{T_k}^{T_{k+1}}\\frac{(s-T_k)h\\exp[-h(s-t)]}{(1+r_{s-t})^{s-t}}\\,ds\\Bigg]\n\\end{aligned}",
+        "formula_label": "公式",
+        "source_page": 8,
+        "conversion_status": "verified_linearized_and_latex"
+      },
       "parsing_warnings": [],
       "layout": {}
     },
     {
       "block_id": "b00054",
-      "text": "估值公式如下:【公式(按原PDF二维排版线性化)】V_CRMW = FV × (1-R) × ∫_{t}^{T_n} {[1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds - 100 × C_1 × [Σ_{i=j+1}^{n} {(T_i-T_{i-1}) × [1/(1+r_{T_i-t})^{T_i-t}] × [1-exp(-h(T_i-t))]} + ∫_{t}^{T_{j+1}} {(s-T_j) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds + Σ_{k=j+1}^{n-1} ∫_{T_k}^{T_{k+1}} {(s-T_k) × [1/(1+r_{s-t})^{s-t}] × h × exp[-h(s-t)]} ds];其中 T_j < t < T_{j+1}\n其中:V :估值日 CRMW 估值CRMW C :凭证固定支付票息(单位%)FV :标的债券到期时还本付息金额h :考虑 CRMW 创设机构风险下标的债券(标的主体)违约强度T :凭证固定票息付息日距凭证创设日的时间长度1,2, n t :估值日距凭证创设日的时间长度R :标的债券(标的主体)回收率r :剩余期限u 对应的基准即期收益率曲线值u n :凭证固定票息支付次数",
+      "text": "(二)现金流折现法",
       "style": "",
       "source_kind": "paragraph",
-      "page": 8,
+      "page": 9,
       "region": "appendix",
-      "source_page_end": 8,
-      "start_char": 3344,
+      "source_page_end": 9,
+      "start_char": 3909,
       "end_char": 3918,
       "table_data": {},
       "formula_data": {},
@@ -3136,15 +3223,30 @@
       "layout": {}
     },
     {
-      "block_id": "b00056",
-      "text": "(二)现金流折现法",
+      "block_id": "b00055",
+      "text": "基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。",
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
       "region": "appendix",
       "source_page_end": 9,
       "start_char": 3920,
-      "end_char": 3929,
+      "end_char": 4010,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00056",
+      "text": "四、估值方法相关释义",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 9,
+      "region": "appendix",
+      "source_page_end": 9,
+      "start_char": 4012,
+      "end_char": 4022,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3152,14 +3254,14 @@
     },
     {
       "block_id": "b00057",
-      "text": "基于上述情形计算所得V 的基础上,扣减后续固定票CRMW息保费的现值,得到估值价格。后续固定票息保费现值的收益率视具体条款而定,也可考虑分析投资人及标的债券相关风险的联合概率得出。",
+      "text": "(一) 考虑 CRMW 创设机构风险下的标的债券(标的主",
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
       "region": "appendix",
       "source_page_end": 9,
-      "start_char": 3931,
-      "end_char": 4021,
+      "start_char": 4024,
+      "end_char": 4052,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3167,44 +3269,58 @@
     },
     {
       "block_id": "b00058",
-      "text": "四、估值方法相关释义",
+      "text": "考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A)：标的债券年化违约概率\nP(B)=1-P(B̄)：创设机构年化违约概率\nP(A|B̄)：条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
       "style": "",
       "source_kind": "paragraph",
       "page": 9,
       "region": "appendix",
       "source_page_end": 9,
-      "start_char": 4023,
-      "end_char": 4033,
+      "start_char": 4054,
+      "end_char": 4356,
       "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00059",
-      "text": "(一) 考虑 CRMW 创设机构风险下的标的债券(标的主",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 9,
-      "region": "appendix",
-      "source_page_end": 9,
-      "start_char": 4035,
-      "end_char": 4063,
-      "table_data": {},
-      "formula_data": {},
+      "formula_data": {
+        "raw_text": "考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中:\nP(A)：标的债券年化违约概率\nP(B)=1-P(B̄)：创设机构年化违约概率\nP(A|B̄)：条件年化违约概率。\n在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式（按原PDF二维排版线性化）】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
+        "expressions": [
+          "P(A∩B̄) = P(A|B̄) × P(B̄)",
+          "P(A∩B̄) = (1-w) × P(A) × P(B̄)"
+        ],
+        "latex_expressions": [
+          "P(A\\cap\\bar{B})=P(A\\mid\\bar{B})P(\\bar{B})",
+          "P(A\\cap\\bar{B})=(1-w)P(A)P(\\bar{B})"
+        ],
+        "latex": "",
+        "formula_label": "公式",
+        "source_page": 9,
+        "conversion_status": "verified_linearized_and_latex"
+      },
       "parsing_warnings": [],
       "layout": {}
     },
     {
       "block_id": "b00060",
-      "text": "体)年化违约率可使用两者的历史违约率或者隐含违约率加权计算,计算方法如下:考虑 CRMW 创设机构风险下标的债券(标的主体)年化违约概率 D = P(A∩B̄),定义为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = P(A|B̄) × P(B̄)\n其中,P(A)为标的债券年化违约概率,P(B)=1-P(B̄)为创设机构年化违约概率,P(A|B̄)为条件年化违约概率。在创设机构和标的债券发行人违约相关性w很小的情况下,P(A|B̄)可近似为P(A);在相关性w很大的情况下,P(A|B̄)可近似为0。现实中相关性一般位于0和1之间,因此可通过相关系数加权近似为:\n【公式(按原PDF二维排版线性化)】P(A∩B̄) = (1-w) × P(A) × P(B̄)",
+      "text": "(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。",
       "style": "",
       "source_kind": "paragraph",
-      "page": 9,
+      "page": 10,
       "region": "appendix",
-      "source_page_end": 9,
-      "start_char": 4065,
-      "end_char": 4402,
+      "source_page_end": 10,
+      "start_char": 4358,
+      "end_char": 4409,
+      "table_data": {},
+      "formula_data": {},
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00061",
+      "text": "1、标的债券为到期一次还本付息的短期融资券或超短",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 10,
+      "region": "appendix",
+      "source_page_end": 10,
+      "start_char": 4411,
+      "end_char": 4435,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3212,44 +3328,68 @@
     },
     {
       "block_id": "b00062",
-      "text": "(二) 标的债券或 CRMW 创设机构年化隐含违约率 可P参考如下计算,以标的债券为例,计算方法如下。",
+      "text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV：估值日标的债券全价\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nP：标的债券年化隐含违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
       "style": "",
       "source_kind": "paragraph",
       "page": 10,
       "region": "appendix",
       "source_page_end": 10,
-      "start_char": 4404,
-      "end_char": 4455,
+      "start_char": 4437,
+      "end_char": 4703,
       "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00063",
-      "text": "1、标的债券为到期一次还本付息的短期融资券或超短",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 10,
-      "region": "appendix",
-      "source_page_end": 10,
-      "start_char": 4457,
-      "end_char": 4481,
-      "table_data": {},
-      "formula_data": {},
+      "formula_data": {
+        "raw_text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:\nPV：估值日标的债券全价\nFV：标的债券到期时还本付息金额\nTY：标的债券计息年实际天数\nP：标的债券年化隐含违约率\nd：标的债券估值日到到期日实际天数\nr_d：估值日期限d对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
+        "expressions": [
+          "PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]"
+        ],
+        "latex_expressions": [
+          "PV=\\frac{\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)FV+\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)\\right]FVR}{1+r_d\\left(\\frac{d}{TY}\\right)}"
+        ],
+        "latex": "PV=\\frac{\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)FV+\\left[1-\\exp\\left(\\frac{d}{TY}\\ln(1-P)\\right)\\right]FVR}{1+r_d\\left(\\frac{d}{TY}\\right)}",
+        "formula_label": "公式",
+        "source_page": 10,
+        "conversion_status": "verified_linearized_and_latex"
+      },
       "parsing_warnings": [],
       "layout": {}
     },
     {
       "block_id": "b00064",
-      "text": "期融资券,或标的债券为附息式债券但已处于最后付息周期时,隐含违约率公式如下:\n【公式(按原PDF二维排版线性化)】PV = {exp[(d/TY) × ln(1-P)] × FV + [1-exp((d/TY) × ln(1-P))] × FV × R} / [1 + r_d × (d/TY)]\n其中:PV :估值日标的债券全价FV :标的债券到期时还本付息金额TY :标的债券计息年实际天数:标的债券年化隐含违约率P d :标的债券估值日到到期日实际天数r :估值日期限d 对应的基准即期收益率曲线值R :估值日标的债券回收率",
+      "text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV：估值日标的债券全价\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\nP：标的债券年化隐含违约率\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
       "style": "",
       "source_kind": "paragraph",
-      "page": 10,
+      "page": 11,
       "region": "appendix",
-      "source_page_end": 10,
-      "start_char": 4483,
-      "end_char": 4748,
+      "source_page_end": 11,
+      "start_char": 4705,
+      "end_char": 5090,
+      "table_data": {},
+      "formula_data": {
+        "raw_text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:\nPV：估值日标的债券全价\nCF_{1,2,n}：标的债券第1、2、……、n次现金流\nt_{1,2,n}：标的债券距估值日第1、2、……、n次现金流的时间长度\nP：标的债券年化隐含违约率\nr_{1,2,n}：估值日期限对应的基准即期收益率曲线值\nR：估值日标的债券回收率",
+        "expressions": [
+          "PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}"
+        ],
+        "latex_expressions": [
+          "PV=\\frac{\\exp\\left(t_1\\ln(1-P)\\right)CF_1+\\left[1-\\exp\\left(t_1\\ln(1-P)\\right)\\right]CF_nR}{(1+r_1)^{t_1}}+\\frac{\\exp\\left(t_1\\ln(1-P)\\right)(1-P)^{n-2}\\left[(1-P)CF_n+PCF_nR\\right]}{(1+r_n)^{t_n}}"
+        ],
+        "latex": "PV=\\frac{\\exp\\left(t_1\\ln(1-P)\\right)CF_1+\\left[1-\\exp\\left(t_1\\ln(1-P)\\right)\\right]CF_nR}{(1+r_1)^{t_1}}+\\frac{\\exp\\left(t_1\\ln(1-P)\\right)(1-P)^{n-2}\\left[(1-P)CF_n+PCF_nR\\right]}{(1+r_n)^{t_n}}",
+        "formula_label": "公式",
+        "source_page": 11,
+        "conversion_status": "verified_linearized_and_latex"
+      },
+      "parsing_warnings": [],
+      "layout": {}
+    },
+    {
+      "block_id": "b00065",
+      "text": "(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 11,
+      "region": "appendix",
+      "source_page_end": 11,
+      "start_char": 5092,
+      "end_char": 5129,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3257,14 +3397,14 @@
     },
     {
       "block_id": "b00066",
-      "text": "2、标的债券为附息式债券且不处于最后付息周期时(不含选择权等特殊情况),隐含违约率公式如下:\n【公式（按原PDF二维排版线性化）】PV = {exp[t_1 × ln(1-P)] × CF_1 + [1-exp(t_1 × ln(1-P))] × CF_n × R} / (1+r_1)^{t_1} + ⋯ + {exp[t_1 × ln(1-P)] × (1-P)^{n-2} × [(1-P) × CF_n + P × CF_n × R]} / (1+r_n)^{t_n}\n其中:PV :估值日标的债券全价CF 1,2,n:标的债券第 1,2,...,n 次现金流t 1,2,n:标的债券距估值日第 1,2,...,n 次现金流的时间长度:标的债券年化隐含违约率P r :估值日期限对应的基准即期收益率曲线值1,2, n R :估值日标的债券回收率",
+      "text": "(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。",
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
       "region": "appendix",
       "source_page_end": 11,
-      "start_char": 4750,
-      "end_char": 5126,
+      "start_char": 5131,
+      "end_char": 5167,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3272,29 +3412,14 @@
     },
     {
       "block_id": "b00067",
-      "text": "(三) 违约强度h 与年化违约率 D 关系参照:h = −ln(1− D)",
+      "text": "(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。",
       "style": "",
       "source_kind": "paragraph",
       "page": 11,
       "region": "appendix",
       "source_page_end": 11,
-      "start_char": 5128,
-      "end_char": 5165,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00068",
-      "text": "(四) 标的债券(标的主体)回收率可参考历史回收率或其他公开性资料计算。",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 11,
-      "region": "appendix",
-      "source_page_end": 11,
-      "start_char": 5167,
-      "end_char": 5203,
+      "start_char": 5169,
+      "end_char": 5661,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3302,44 +3427,29 @@
     },
     {
       "block_id": "b00069",
-      "text": "(五) 被 CRMW 创设机构保险后的估价收益率 y 可通过S分析创设机构和标的债券联合违约的概率,并综合流动性等因素得出。其中,联合违约概率参考穆迪公司担保债券联合违约概率方法,联合违约概率P(AB)定义为:P(AB) = P(A| B)×P(B)其中, P(A) 为标的债券违约概率, P(B) 为创设机构违约概率。两者可考虑使用债券收益率采用曲线无套利方法计算得出。 P(A| B)为条件违约概率。在创设机构和标的债券发行人违约相关性 很小的情况w下, P(A| B)可近似为 P(A) ;在创设机构和标的债券发行人相关性 w 很大的情况下, P(A| B)可近似为 1。现实中,创设机构和标的债券发行人的相关性一般位于 0 和 1 之间,因此,联合违约概率可通过相关系数加权近似为:P(AB) = w×P(B)+(1−w)×P(A)×P(B)一般来说,违约相关性 需要通过市场数据进行检验,w在市场数据不充分时,可在上述公式计算中假设较低的违约相关性。在该假设下计算所得的联合违约概率 P(AB),同样可考虑使用曲线无套利方法回算得到被 CRMW 创设机构保险后的估价收益率。",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 11,
-      "region": "appendix",
-      "source_page_end": 11,
-      "start_char": 5205,
-      "end_char": 5697,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00071",
       "text": "(六) 鉴于合约类信用衍生品产品条款设计灵活,基金",
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5699,
-      "end_char": 5724,
+      "start_char": 5663,
+      "end_char": 5688,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
       "layout": {}
     },
     {
-      "block_id": "b00072",
+      "block_id": "b00070",
       "text": "管理人可以参考“基于违约率的方法”和“现金流折现法”,结合具体信用衍生品条款设计,确定适当的估值方法。",
       "style": "",
       "source_kind": "paragraph",
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5726,
-      "end_char": 5777,
+      "start_char": 5690,
+      "end_char": 5741,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],

@@ -24,7 +24,7 @@
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
     "clean_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
@@ -34,6 +34,8 @@
     "rule_hits": [],
     "removed_front_matter": [],
     "cleaning_log": [],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00001",
       "b00003",
@@ -64,7 +66,7 @@
   "original_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
   "clean_text_sha256": "6191d05a2b5a8aca3e1d0ae953b87643feec15bf1694899252786c2fa3300848",
   "clean_text_hash": "47dea9c158280408cf53145828e036d94605862ee6ace723f3339228bb7bf046",
-  "structured_blocks_sha256": "85071f4cbb326bb56bfafb12d6cd0b90f29ac79848c1a92e6dde5f7a6e1b1070",
+  "structured_blocks_sha256": "6cd8a57c3c5e9ba61d484f130303045ab5c15ca22bdcfde7fda8e5fb2fc4e1be",
   "front_matter": [],
   "body_blocks": [
     {
@@ -213,7 +215,7 @@
     },
     {
       "block_id": "b00014",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、计算规则",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -237,7 +239,7 @@
     },
     {
       "block_id": "b00016",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1、分别计算bid均值与offer均值",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -505,7 +507,7 @@
     },
     {
       "block_id": "b00014",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "三、计算规则",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -529,7 +531,7 @@
     },
     {
       "block_id": "b00016",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1、分别计算bid均值与offer均值",
       "style": "Normal",
       "source_kind": "paragraph",

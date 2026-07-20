@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
-import { basename, dirname, resolve } from "node:path";
+import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { basename, dirname, join, resolve } from "node:path";
+import { tmpdir } from "node:os";
 import {
   INDEX_DIR as DEFAULT_INDEX_DIR,
   MODEL_CACHE,
@@ -249,7 +250,7 @@ function createDuplicateAudit(corpus, documents) {
   };
 }
 
-async function buildVectors(corpus) {
+async function buildVectors(corpus, reuseIndexDir = REUSE_INDEX_DIR) {
   const { env, pipeline } = await import("@huggingface/transformers");
   env.cacheDir = MODEL_CACHE;
   env.allowRemoteModels = false;
@@ -268,9 +269,9 @@ async function buildVectors(corpus) {
   let previousChunkCount = 0;
   const previousAuditByChunk = new Map();
   const reusedPreviousVectorHashes = new Map();
-  const reuseCorpusPath = resolve(REUSE_INDEX_DIR, "corpus.jsonl");
-  const reuseVectorPath = resolve(REUSE_INDEX_DIR, "vectors.f32");
-  const reuseMetadataPath = resolve(REUSE_INDEX_DIR, "vector_metadata.json");
+  const reuseCorpusPath = resolve(reuseIndexDir, "corpus.jsonl");
+  const reuseVectorPath = resolve(reuseIndexDir, "vectors.f32");
+  const reuseMetadataPath = resolve(reuseIndexDir, "vector_metadata.json");
 
   if (
     INCREMENTAL_VECTORS
@@ -432,90 +433,110 @@ async function main() {
 
   const lookup = loadMetadataLookup();
   const corpus = buildCorpus(sourceChunks, lookup);
-  writeJsonl(CORPUS_PATH, corpus);
-  const documents = buildDocumentMetadata(corpus);
-  writeJsonl(METADATA_PATH, documents);
-  const duplicateAudit = createDuplicateAudit(corpus, documents);
-
-  const bm25 = buildBm25(corpus);
-  writeFileSync(BM25_PATH, JSON.stringify(bm25), "utf8");
-  let vectorMetadata = null;
-  if (WITH_VECTORS) vectorMetadata = await buildVectors(corpus);
-  else if (existsSync(VECTOR_METADATA_PATH) && existsSync(VECTOR_PATH)) {
-    vectorMetadata = JSON.parse(readFileSync(VECTOR_METADATA_PATH, "utf8"));
-    const currentEmbeddingInput = embeddingInputFingerprint(corpus);
-    if (vectorMetadata.embedding_input_sha256 && vectorMetadata.embedding_input_sha256 !== currentEmbeddingInput) {
-      throw new Error("Embedding输入已变化，请使用--with-vectors重建向量");
+  // When incremental vectors reuse the same index directory, preserve the
+  // previous corpus/vector pair before writing the new corpus.  Otherwise a
+  // changed Chunk count makes the old vector file look corrupt (new row count,
+  // old byte length) and prevents safe reuse.
+  let temporaryReuseDir = "";
+  let reuseIndexDir = REUSE_INDEX_DIR;
+  if (INCREMENTAL_VECTORS && resolve(REUSE_INDEX_DIR) === resolve(INDEX_DIR)
+    && existsSync(resolve(INDEX_DIR, "corpus.jsonl"))
+    && existsSync(resolve(INDEX_DIR, "vectors.f32"))
+    && existsSync(resolve(INDEX_DIR, "vector_metadata.json"))) {
+    temporaryReuseDir = mkdtempSync(join(tmpdir(), "otc-retrieval-reuse-"));
+    for (const file of ["corpus.jsonl", "vectors.f32", "vector_metadata.json"]) {
+      copyFileSync(resolve(INDEX_DIR, file), join(temporaryReuseDir, file));
     }
-    if (vectorMetadata.row_chunk_ids.length !== corpus.length
-      || vectorMetadata.row_chunk_ids.some((chunkId, index) => chunkId !== corpus[index].chunk_id)) {
-      throw new Error("Chunk行号已变化，请使用--with-vectors重建向量");
-    }
-    vectorMetadata.embedding_input_sha256 = currentEmbeddingInput;
-    vectorMetadata.model_revision = MODEL_REVISION;
-    vectorMetadata.corpus_sha256 = sha256File(CORPUS_PATH);
-    vectorMetadata.vectors_sha256 = sha256File(VECTOR_PATH);
-    writeFileSync(VECTOR_METADATA_PATH, JSON.stringify(vectorMetadata, null, 2) + "\n", "utf8");
+    reuseIndexDir = temporaryReuseDir;
   }
+  try {
+    writeJsonl(CORPUS_PATH, corpus);
+    const documents = buildDocumentMetadata(corpus);
+    writeJsonl(METADATA_PATH, documents);
+    const duplicateAudit = createDuplicateAudit(corpus, documents);
 
-  const manifest = {
-    version: 1,
-    generated_at: new Date().toISOString(),
-    source: {
-      path: "data/processed/chunks/jsonl/all_chunks.jsonl",
-      sha256: sha256File(SOURCE_CHUNKS_PATH),
-      unique_body_source: true,
-      legacy_clauses_enabled: false,
-    },
-    corpus: {
-      path: "data/index/corpus.jsonl",
-      sha256: sha256File(CORPUS_PATH),
-      document_count: documents.length,
-      chunk_count: corpus.length,
-      official_url_count: documents.filter((row) => row.official_url).length,
-    },
-    bm25: {
-      path: "data/index/bm25/index.json",
-      sha256: sha256File(BM25_PATH),
-      tokenizer: bm25.tokenizer,
-      field_weighting: "none",
-      k1: bm25.k1,
-      b: bm25.b,
-      vocabulary_size: Object.keys(bm25.postings).length,
-    },
-    vectors: vectorMetadata ? {
-      path: "data/index/vectors.f32",
-      metadata_path: "data/index/vector_metadata.json",
-      sha256: vectorMetadata.vectors_sha256,
-      model_id: vectorMetadata.model_id,
-      model_revision: vectorMetadata.model_revision,
-      model_dtype: vectorMetadata.model_dtype,
-      dimension: vectorMetadata.dimension,
-      chunk_count: vectorMetadata.chunk_count,
-      incremental_build: vectorMetadata.incremental_build ?? null,
-    } : null,
-    fusion: { method: "equal_weight_rrf", rrf_k: 60, bm25_top_k: 30, vector_top_k: 30, fused_top_k: 20 },
-    duplicate_audit: duplicateAudit,
-    build_fingerprint: sha256Buffer(stableJson({
-      source: sha256File(SOURCE_CHUNKS_PATH),
-      corpus: sha256File(CORPUS_PATH),
-      bm25: sha256File(BM25_PATH),
-      vectors: vectorMetadata?.vectors_sha256 ?? "",
-    })),
-  };
-  writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n", "utf8");
-  const evalReadme = resolve(INDEX_DIR, "eval/README.md");
-  if (!existsSync(evalReadme)) {
-    writeFileSync(evalReadme, "# 手动问答核验\n\n启动本地 API 和前端，在聊天页面使用 `queries.jsonl` 中的示例问题进行真实对话测试。\n", "utf8");
+    const bm25 = buildBm25(corpus);
+    writeFileSync(BM25_PATH, JSON.stringify(bm25), "utf8");
+    let vectorMetadata = null;
+    if (WITH_VECTORS) vectorMetadata = await buildVectors(corpus, reuseIndexDir);
+    else if (existsSync(VECTOR_METADATA_PATH) && existsSync(VECTOR_PATH)) {
+      vectorMetadata = JSON.parse(readFileSync(VECTOR_METADATA_PATH, "utf8"));
+      const currentEmbeddingInput = embeddingInputFingerprint(corpus);
+      if (vectorMetadata.embedding_input_sha256 && vectorMetadata.embedding_input_sha256 !== currentEmbeddingInput) {
+        throw new Error("Embedding输入已变化，请使用--with-vectors重建向量");
+      }
+      if (vectorMetadata.row_chunk_ids.length !== corpus.length
+        || vectorMetadata.row_chunk_ids.some((chunkId, index) => chunkId !== corpus[index].chunk_id)) {
+        throw new Error("Chunk行号已变化，请使用--with-vectors重建向量");
+      }
+      vectorMetadata.embedding_input_sha256 = currentEmbeddingInput;
+      vectorMetadata.model_revision = MODEL_REVISION;
+      vectorMetadata.corpus_sha256 = sha256File(CORPUS_PATH);
+      vectorMetadata.vectors_sha256 = sha256File(VECTOR_PATH);
+      writeFileSync(VECTOR_METADATA_PATH, JSON.stringify(vectorMetadata, null, 2) + "\n", "utf8");
+    }
+
+    const manifest = {
+      version: 1,
+      generated_at: new Date().toISOString(),
+      source: {
+        path: "data/processed/chunks/jsonl/all_chunks.jsonl",
+        sha256: sha256File(SOURCE_CHUNKS_PATH),
+        unique_body_source: true,
+        legacy_clauses_enabled: false,
+      },
+      corpus: {
+        path: "data/index/corpus.jsonl",
+        sha256: sha256File(CORPUS_PATH),
+        document_count: documents.length,
+        chunk_count: corpus.length,
+        official_url_count: documents.filter((row) => row.official_url).length,
+      },
+      bm25: {
+        path: "data/index/bm25/index.json",
+        sha256: sha256File(BM25_PATH),
+        tokenizer: bm25.tokenizer,
+        field_weighting: "none",
+        k1: bm25.k1,
+        b: bm25.b,
+        vocabulary_size: Object.keys(bm25.postings).length,
+      },
+      vectors: vectorMetadata ? {
+        path: "data/index/vectors.f32",
+        metadata_path: "data/index/vector_metadata.json",
+        sha256: vectorMetadata.vectors_sha256,
+        model_id: vectorMetadata.model_id,
+        model_revision: vectorMetadata.model_revision,
+        model_dtype: vectorMetadata.model_dtype,
+        dimension: vectorMetadata.dimension,
+        chunk_count: vectorMetadata.chunk_count,
+        incremental_build: vectorMetadata.incremental_build ?? null,
+      } : null,
+      fusion: { method: "equal_weight_rrf", rrf_k: 60, bm25_top_k: 30, vector_top_k: 30, fused_top_k: 20 },
+      duplicate_audit: duplicateAudit,
+      build_fingerprint: sha256Buffer(stableJson({
+        source: sha256File(SOURCE_CHUNKS_PATH),
+        corpus: sha256File(CORPUS_PATH),
+        bm25: sha256File(BM25_PATH),
+        vectors: vectorMetadata?.vectors_sha256 ?? "",
+      })),
+    };
+    writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n", "utf8");
+    const evalReadme = resolve(INDEX_DIR, "eval/README.md");
+    if (!existsSync(evalReadme)) {
+      writeFileSync(evalReadme, "# 手动问答核验\n\n启动本地 API 和前端，在聊天页面使用 `queries.jsonl` 中的示例问题进行真实对话测试。\n", "utf8");
+    }
+    console.log(JSON.stringify({
+      documents: documents.length,
+      chunks: corpus.length,
+      official_urls: manifest.corpus.official_url_count,
+      bm25_terms: manifest.bm25.vocabulary_size,
+      vectors: Boolean(vectorMetadata),
+      duplicate_audit: duplicateAudit,
+    }, null, 2));
+  } finally {
+    if (temporaryReuseDir) rmSync(temporaryReuseDir, { recursive: true, force: true });
   }
-  console.log(JSON.stringify({
-    documents: documents.length,
-    chunks: corpus.length,
-    official_urls: manifest.corpus.official_url_count,
-    bm25_terms: manifest.bm25.vocabulary_size,
-    vectors: Boolean(vectorMetadata),
-    duplicate_audit: duplicateAudit,
-  }, null, 2));
 }
 
 main().catch((error) => {

@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "a655baf91604578b671ce3e9f62809bb063ebba5de28181ae96b3dae3e592e5a",
     "clean_text_sha256": "3d99a9b76f2336916710c87f329649d908e70e56067dde18f7d5a11f1fce3cdc",
@@ -78,6 +78,8 @@
         "character_count": 8
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00003",
       "b00004",
@@ -313,7 +315,7 @@
   "original_text_sha256": "a655baf91604578b671ce3e9f62809bb063ebba5de28181ae96b3dae3e592e5a",
   "clean_text_sha256": "3d99a9b76f2336916710c87f329649d908e70e56067dde18f7d5a11f1fce3cdc",
   "clean_text_hash": "3b13a358c341af8a4301cc482ab4cf8776138f15d49f1544aef874da042dfb6f",
-  "structured_blocks_sha256": "45360b115614a5cc13c18a8bbd101dcdec5366d2f3598b5d84ce1f9dab82044f",
+  "structured_blocks_sha256": "9e9a78b1a02b1beda5fcdfb8dacac1e176ea2f55fab92761332e9c1cf18af6a8",
   "front_matter": [
     {
       "block_id": "b00001",
@@ -493,7 +495,7 @@
     },
     {
       "block_id": "b00016",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.5交易确认书",
       "style": "",
       "source_kind": "paragraph",
@@ -541,7 +543,7 @@
     },
     {
       "block_id": "b00020",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.7计算机构",
       "style": "",
       "source_kind": "paragraph",
@@ -685,7 +687,7 @@
     },
     {
       "block_id": "b00032",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.12计算精度",
       "style": "",
       "source_kind": "paragraph",
@@ -733,7 +735,7 @@
     },
     {
       "block_id": "b00036",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.14 清算安排",
       "style": "",
       "source_kind": "paragraph",
@@ -1081,7 +1083,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.10计算期/单个计算期",
       "style": "",
       "source_kind": "paragraph",
@@ -1429,7 +1431,7 @@
     },
     {
       "block_id": "b00094",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.2 远期买方",
       "style": "",
       "source_kind": "paragraph",
@@ -1453,7 +1455,7 @@
     },
     {
       "block_id": "b00096",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.3 远期卖方",
       "style": "",
       "source_kind": "paragraph",
@@ -1717,7 +1719,7 @@
     },
     {
       "block_id": "b00118",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "6.4互换固定金额支付方",
       "style": "",
       "source_kind": "paragraph",
@@ -1741,7 +1743,7 @@
     },
     {
       "block_id": "b00120",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "6.5互换浮动金额支付方",
       "style": "",
       "source_kind": "paragraph",
@@ -1933,7 +1935,7 @@
     },
     {
       "block_id": "b00136",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.2 期权买方",
       "style": "",
       "source_kind": "paragraph",
@@ -1957,7 +1959,7 @@
     },
     {
       "block_id": "b00138",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.3 期权卖方",
       "style": "",
       "source_kind": "paragraph",
@@ -2077,7 +2079,7 @@
     },
     {
       "block_id": "b00148",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.8 与行权有关的定义",
       "style": "",
       "source_kind": "paragraph",
@@ -2281,7 +2283,7 @@
     },
     {
       "block_id": "b00165",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.9 与期权费有关的定义",
       "style": "",
       "source_kind": "paragraph",
@@ -2317,7 +2319,7 @@
     },
     {
       "block_id": "b00168",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(2)期权费支付日",
       "style": "",
       "source_kind": "paragraph",
@@ -2581,7 +2583,7 @@
     },
     {
       "block_id": "b00190",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "8.7交付保证金",
       "style": "",
       "source_kind": "paragraph",
@@ -2713,7 +2715,7 @@
     },
     {
       "block_id": "b00201",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(3)计算公式、约定内容或构成的重大变化",
       "style": "",
       "source_kind": "paragraph",
@@ -2881,7 +2883,7 @@
     },
     {
       "block_id": "b00215",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(5)计算机构计算",
       "style": "",
       "source_kind": "paragraph",
@@ -3245,7 +3247,7 @@
     },
     {
       "block_id": "b00016",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.5交易确认书",
       "style": "",
       "source_kind": "paragraph",
@@ -3293,7 +3295,7 @@
     },
     {
       "block_id": "b00020",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.7计算机构",
       "style": "",
       "source_kind": "paragraph",
@@ -3437,7 +3439,7 @@
     },
     {
       "block_id": "b00032",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.12计算精度",
       "style": "",
       "source_kind": "paragraph",
@@ -3485,7 +3487,7 @@
     },
     {
       "block_id": "b00036",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1.14 清算安排",
       "style": "",
       "source_kind": "paragraph",
@@ -3833,7 +3835,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.10计算期/单个计算期",
       "style": "",
       "source_kind": "paragraph",
@@ -4181,7 +4183,7 @@
     },
     {
       "block_id": "b00094",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.2 远期买方",
       "style": "",
       "source_kind": "paragraph",
@@ -4205,7 +4207,7 @@
     },
     {
       "block_id": "b00096",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.3 远期卖方",
       "style": "",
       "source_kind": "paragraph",
@@ -4469,7 +4471,7 @@
     },
     {
       "block_id": "b00118",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "6.4互换固定金额支付方",
       "style": "",
       "source_kind": "paragraph",
@@ -4493,7 +4495,7 @@
     },
     {
       "block_id": "b00120",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "6.5互换浮动金额支付方",
       "style": "",
       "source_kind": "paragraph",
@@ -4685,7 +4687,7 @@
     },
     {
       "block_id": "b00136",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.2 期权买方",
       "style": "",
       "source_kind": "paragraph",
@@ -4709,7 +4711,7 @@
     },
     {
       "block_id": "b00138",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.3 期权卖方",
       "style": "",
       "source_kind": "paragraph",
@@ -4829,7 +4831,7 @@
     },
     {
       "block_id": "b00148",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.8 与行权有关的定义",
       "style": "",
       "source_kind": "paragraph",
@@ -5033,7 +5035,7 @@
     },
     {
       "block_id": "b00165",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.9 与期权费有关的定义",
       "style": "",
       "source_kind": "paragraph",
@@ -5069,7 +5071,7 @@
     },
     {
       "block_id": "b00168",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(2)期权费支付日",
       "style": "",
       "source_kind": "paragraph",
@@ -5333,7 +5335,7 @@
     },
     {
       "block_id": "b00190",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "8.7交付保证金",
       "style": "",
       "source_kind": "paragraph",
@@ -5465,7 +5467,7 @@
     },
     {
       "block_id": "b00201",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(3)计算公式、约定内容或构成的重大变化",
       "style": "",
       "source_kind": "paragraph",
@@ -5633,7 +5635,7 @@
     },
     {
       "block_id": "b00215",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(5)计算机构计算",
       "style": "",
       "source_kind": "paragraph",

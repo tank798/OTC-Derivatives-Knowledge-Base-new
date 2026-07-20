@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "d5d095fd5f72afd139a105f8c9376d3ad3918919958858f6fe67f544d2e8731a",
     "clean_text_sha256": "89d4e81e901622f4fadee607c99ff2a1ed5949ca5c2de4bc099c18a31afe77ee",
@@ -135,6 +135,8 @@
         "character_count": 7
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00006",
       "b00007",
@@ -519,7 +521,7 @@
   "original_text_sha256": "d5d095fd5f72afd139a105f8c9376d3ad3918919958858f6fe67f544d2e8731a",
   "clean_text_sha256": "89d4e81e901622f4fadee607c99ff2a1ed5949ca5c2de4bc099c18a31afe77ee",
   "clean_text_hash": "f9b20e7e069e5b98942b43547caa974215cb9ad5a8186d77362374fe0f7c452f",
-  "structured_blocks_sha256": "548689488f8639dbe5e1cdac3834da47329d28ae0b1b7a510c86493ed7d94c8b",
+  "structured_blocks_sha256": "bda413bf5bbffb28b9ca1453613312c1ec809684e394830fc39605a103dc8850",
   "front_matter": [
     {
       "block_id": "b00001",
@@ -870,7 +872,7 @@
     },
     {
       "block_id": "b00031",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(4)观察名单和限制名单的管理",
       "style": "",
       "source_kind": "paragraph",
@@ -1158,7 +1160,7 @@
     },
     {
       "block_id": "b00055",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、申请基本要求",
       "style": "",
       "source_kind": "paragraph",
@@ -1290,7 +1292,7 @@
     },
     {
       "block_id": "b00066",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、申请材料",
       "style": "",
       "source_kind": "paragraph",
@@ -1950,7 +1952,7 @@
     },
     {
       "block_id": "b00121",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、自营账户保证金管理",
       "style": "",
       "source_kind": "paragraph",
@@ -2106,7 +2108,7 @@
     },
     {
       "block_id": "b00134",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1、自营账户维持保证金比例",
       "style": "",
       "source_kind": "paragraph",
@@ -2214,7 +2216,7 @@
     },
     {
       "block_id": "b00143",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)除权除息日的保证金盯市",
       "style": "",
       "source_kind": "paragraph",
@@ -2238,7 +2240,7 @@
     },
     {
       "block_id": "b00145",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、备兑开仓自营账户保证金管理",
       "style": "",
       "source_kind": "paragraph",
@@ -2514,7 +2516,7 @@
     },
     {
       "block_id": "b00168",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、程序交易接入管理要求",
       "style": "",
       "source_kind": "paragraph",
@@ -2538,7 +2540,7 @@
     },
     {
       "block_id": "b00170",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、程序交易报备管理要求",
       "style": "",
       "source_kind": "paragraph",
@@ -2742,7 +2744,7 @@
     },
     {
       "block_id": "b00187",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、报告要求和报告材料",
       "style": "",
       "source_kind": "paragraph",
@@ -2850,7 +2852,7 @@
     },
     {
       "block_id": "b00196",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、报告注意事项",
       "style": "",
       "source_kind": "paragraph",
@@ -2946,7 +2948,7 @@
     },
     {
       "block_id": "b00204",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、建立风险限额体系",
       "style": "",
       "source_kind": "paragraph",
@@ -5411,7 +5413,7 @@
     },
     {
       "block_id": "b00031",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "(4)观察名单和限制名单的管理",
       "style": "",
       "source_kind": "paragraph",
@@ -5699,7 +5701,7 @@
     },
     {
       "block_id": "b00055",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、申请基本要求",
       "style": "",
       "source_kind": "paragraph",
@@ -5831,7 +5833,7 @@
     },
     {
       "block_id": "b00066",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、申请材料",
       "style": "",
       "source_kind": "paragraph",
@@ -6491,7 +6493,7 @@
     },
     {
       "block_id": "b00121",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、自营账户保证金管理",
       "style": "",
       "source_kind": "paragraph",
@@ -6647,7 +6649,7 @@
     },
     {
       "block_id": "b00134",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "1、自营账户维持保证金比例",
       "style": "",
       "source_kind": "paragraph",
@@ -6755,7 +6757,7 @@
     },
     {
       "block_id": "b00143",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(三)除权除息日的保证金盯市",
       "style": "",
       "source_kind": "paragraph",
@@ -6779,7 +6781,7 @@
     },
     {
       "block_id": "b00145",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、备兑开仓自营账户保证金管理",
       "style": "",
       "source_kind": "paragraph",
@@ -7055,7 +7057,7 @@
     },
     {
       "block_id": "b00168",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、程序交易接入管理要求",
       "style": "",
       "source_kind": "paragraph",
@@ -7079,7 +7081,7 @@
     },
     {
       "block_id": "b00170",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、程序交易报备管理要求",
       "style": "",
       "source_kind": "paragraph",
@@ -7283,7 +7285,7 @@
     },
     {
       "block_id": "b00187",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "一、报告要求和报告材料",
       "style": "",
       "source_kind": "paragraph",
@@ -7391,7 +7393,7 @@
     },
     {
       "block_id": "b00196",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、报告注意事项",
       "style": "",
       "source_kind": "paragraph",
@@ -7487,7 +7489,7 @@
     },
     {
       "block_id": "b00204",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "二、建立风险限额体系",
       "style": "",
       "source_kind": "paragraph",

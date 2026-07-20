@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/公开募集证券投资基金投资信用衍生品指引.docx",
   "source_type": "docx",
   "file_sha256": "5d57069bf0fd0021ec3ba356e1012a9742ffb70571cd60f4d9146e71b9508f27",
-  "content_sha256": "222706d99b2fcd90fa4ff6fd6c161605c6f5ac3f0824f95a7d9a35d0feb4d0be",
+  "content_sha256": "602ee8554013a8dae16a86a3fdfb7a3e0cf9d295ceb77e0519f7e6419183ffe6",
   "metadata": {
     "document_title": "公开募集证券投资基金投资信用衍生品指引",
     "issuing_authority": "中国证券监督管理委员会",
@@ -19,26 +19,37 @@
     "catalog_index": 23,
     "local_file_path": "data/raw/监管文件/公开募集证券投资基金投资信用衍生品指引.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_5d57069bf0fd0021ec3b"
+    "legacy_document_id": "doc_source_5d57069bf0fd0021ec3b",
+    "version_note": "现公布《公开募集证券投资基金投资信用衍生品指引》,自公布之日起施行。"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：第页",
-    "前置发布信息清洗：移出2个block，规则publication_wrapper、standalone_front_document_number"
+    "前置发布信息清洗：移出3个block，规则cover_document_title、publication_wrapper、standalone_front_document_number"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "3c8debf372cce6f296da852aa93fc685f7a4dcba1719bb0b6fa37eb1bb5d033d",
-    "clean_text_sha256": "6664c19b377b4baa690b713843edd3dcfe1a49d3221fc6d14b9b9c5c4dcd2574",
+    "clean_text_sha256": "db439371bbf2215122f5b89cfddb70ef51a3567bdf7568a263e039c3ad086a53",
     "chars_before": 982,
-    "chars_after": 934,
-    "removed_character_count": 48,
+    "chars_after": 915,
+    "removed_character_count": 67,
     "rule_hits": [
+      "cover_document_title",
       "publication_wrapper",
       "standalone_front_document_number"
     ],
     "removed_front_matter": [
+      {
+        "block_id": "b00001",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "公开募集证券投资基金投资信用衍生品指引",
+        "character_count": 19
+      },
       {
         "block_id": "b00002",
         "page": 0,
@@ -60,6 +71,15 @@
     ],
     "cleaning_log": [
       {
+        "block_id": "b00001",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "公开募集证券投资基金投资信用衍生品指引",
+        "character_count": 19
+      },
+      {
         "block_id": "b00002",
         "page": 0,
         "source_kind": "paragraph",
@@ -78,8 +98,9 @@
         "character_count": 34
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
-      "b00001",
       "b00004",
       "b00005",
       "b00006",
@@ -106,10 +127,19 @@
     ]
   },
   "original_text_sha256": "3c8debf372cce6f296da852aa93fc685f7a4dcba1719bb0b6fa37eb1bb5d033d",
-  "clean_text_sha256": "6664c19b377b4baa690b713843edd3dcfe1a49d3221fc6d14b9b9c5c4dcd2574",
-  "clean_text_hash": "1f636548d9b7ebcb855fa82041f5881ab77a950dc44faadda35a96620b848a9e",
-  "structured_blocks_sha256": "47437844183070a210c2a8258ffe6096c69c218e59b78092511575f48ca048fa",
+  "clean_text_sha256": "db439371bbf2215122f5b89cfddb70ef51a3567bdf7568a263e039c3ad086a53",
+  "clean_text_hash": "4889365cb83bb68017716a6e299c00b707eea04d08f13aa42376755172dacd7c",
+  "structured_blocks_sha256": "f7e7856c8a1b386a46e263e852d908f7a833b318ae2dded72c5fcf6f4c14c94b",
   "front_matter": [
+    {
+      "block_id": "b00001",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "cover_document_title",
+      "action": "moved_to_front_matter",
+      "text": "公开募集证券投资基金投资信用衍生品指引",
+      "character_count": 19
+    },
     {
       "block_id": "b00002",
       "page": 0,
@@ -131,18 +161,6 @@
   ],
   "body_blocks": [
     {
-      "block_id": "b00001",
-      "block_type": "document_title",
-      "text": "公开募集证券投资基金投资信用衍生品指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 0,
-      "source_page_end": 0,
-      "start_char": 0,
-      "end_char": 19,
-      "region": "body"
-    },
-    {
       "block_id": "b00004",
       "block_type": "article",
       "text": "第一条",
@@ -150,8 +168,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 21,
-      "end_char": 24,
+      "start_char": 0,
+      "end_char": 3,
       "region": "body"
     },
     {
@@ -162,8 +180,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 26,
-      "end_char": 120,
+      "start_char": 5,
+      "end_char": 99,
       "region": "body"
     },
     {
@@ -174,8 +192,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 122,
-      "end_char": 125,
+      "start_char": 101,
+      "end_char": 104,
       "region": "body"
     },
     {
@@ -186,8 +204,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 127,
-      "end_char": 178,
+      "start_char": 106,
+      "end_char": 157,
       "region": "body"
     },
     {
@@ -198,8 +216,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 180,
-      "end_char": 183,
+      "start_char": 159,
+      "end_char": 162,
       "region": "body"
     },
     {
@@ -210,8 +228,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 185,
-      "end_char": 270,
+      "start_char": 164,
+      "end_char": 249,
       "region": "body"
     },
     {
@@ -222,8 +240,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 272,
-      "end_char": 275,
+      "start_char": 251,
+      "end_char": 254,
       "region": "body"
     },
     {
@@ -234,8 +252,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 277,
-      "end_char": 336,
+      "start_char": 256,
+      "end_char": 315,
       "region": "body"
     },
     {
@@ -246,8 +264,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 338,
-      "end_char": 437,
+      "start_char": 317,
+      "end_char": 416,
       "region": "body"
     },
     {
@@ -258,8 +276,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 439,
-      "end_char": 442,
+      "start_char": 418,
+      "end_char": 421,
       "region": "body"
     },
     {
@@ -270,8 +288,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 444,
-      "end_char": 534,
+      "start_char": 423,
+      "end_char": 513,
       "region": "body"
     },
     {
@@ -282,8 +300,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 536,
-      "end_char": 539,
+      "start_char": 515,
+      "end_char": 518,
       "region": "body"
     },
     {
@@ -294,8 +312,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 541,
-      "end_char": 584,
+      "start_char": 520,
+      "end_char": 563,
       "region": "body"
     },
     {
@@ -306,8 +324,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 586,
-      "end_char": 589,
+      "start_char": 565,
+      "end_char": 568,
       "region": "body"
     },
     {
@@ -318,8 +336,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 591,
-      "end_char": 629,
+      "start_char": 570,
+      "end_char": 608,
       "region": "body"
     },
     {
@@ -330,8 +348,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 631,
-      "end_char": 634,
+      "start_char": 610,
+      "end_char": 613,
       "region": "body"
     },
     {
@@ -342,8 +360,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 636,
-      "end_char": 713,
+      "start_char": 615,
+      "end_char": 692,
       "region": "body"
     },
     {
@@ -354,8 +372,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 715,
-      "end_char": 718,
+      "start_char": 694,
+      "end_char": 697,
       "region": "body"
     },
     {
@@ -366,8 +384,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 720,
-      "end_char": 827,
+      "start_char": 699,
+      "end_char": 806,
       "region": "body"
     },
     {
@@ -378,8 +396,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 829,
-      "end_char": 832,
+      "start_char": 808,
+      "end_char": 811,
       "region": "body"
     },
     {
@@ -390,8 +408,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 834,
-      "end_char": 960,
+      "start_char": 813,
+      "end_char": 939,
       "region": "body"
     },
     {
@@ -402,8 +420,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 962,
-      "end_char": 966,
+      "start_char": 941,
+      "end_char": 945,
       "region": "body"
     },
     {
@@ -414,26 +432,14 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 968,
-      "end_char": 980,
+      "start_char": 947,
+      "end_char": 959,
       "region": "body"
     }
   ],
   "appendices": [],
-  "clean_text": "公开募集证券投资基金投资信用衍生品指引\n\n第一条\n\n为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。\n\n第二条\n\n本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n第三条\n\n基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。\n\n第四条\n\n基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。\n\n基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。\n\n第五条\n\n基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。\n\n第六条\n\n基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。\n\n第七条\n\n基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。\n\n第八条\n\n基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。\n\n第九条\n\n基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。\n\n第十条\n\n本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。\n\n第十一条\n\n本指引自公布之日起施行。",
+  "clean_text": "第一条\n\n为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。\n\n第二条\n\n本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n第三条\n\n基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。\n\n第四条\n\n基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。\n\n基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。\n\n第五条\n\n基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。\n\n第六条\n\n基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。\n\n第七条\n\n基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。\n\n第八条\n\n基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。\n\n第九条\n\n基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。\n\n第十条\n\n本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。\n\n第十一条\n\n本指引自公布之日起施行。",
   "structured_blocks": [
-    {
-      "block_id": "b00001",
-      "block_type": "document_title",
-      "text": "公开募集证券投资基金投资信用衍生品指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 0,
-      "source_page_end": 0,
-      "start_char": 0,
-      "end_char": 19,
-      "region": "body"
-    },
     {
       "block_id": "b00004",
       "block_type": "article",
@@ -442,8 +448,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 21,
-      "end_char": 24,
+      "start_char": 0,
+      "end_char": 3,
       "region": "body"
     },
     {
@@ -454,8 +460,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 26,
-      "end_char": 120,
+      "start_char": 5,
+      "end_char": 99,
       "region": "body"
     },
     {
@@ -466,8 +472,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 122,
-      "end_char": 125,
+      "start_char": 101,
+      "end_char": 104,
       "region": "body"
     },
     {
@@ -478,8 +484,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 127,
-      "end_char": 178,
+      "start_char": 106,
+      "end_char": 157,
       "region": "body"
     },
     {
@@ -490,8 +496,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 180,
-      "end_char": 183,
+      "start_char": 159,
+      "end_char": 162,
       "region": "body"
     },
     {
@@ -502,8 +508,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 185,
-      "end_char": 270,
+      "start_char": 164,
+      "end_char": 249,
       "region": "body"
     },
     {
@@ -514,8 +520,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 272,
-      "end_char": 275,
+      "start_char": 251,
+      "end_char": 254,
       "region": "body"
     },
     {
@@ -526,8 +532,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 277,
-      "end_char": 336,
+      "start_char": 256,
+      "end_char": 315,
       "region": "body"
     },
     {
@@ -538,8 +544,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 338,
-      "end_char": 437,
+      "start_char": 317,
+      "end_char": 416,
       "region": "body"
     },
     {
@@ -550,8 +556,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 439,
-      "end_char": 442,
+      "start_char": 418,
+      "end_char": 421,
       "region": "body"
     },
     {
@@ -562,8 +568,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 444,
-      "end_char": 534,
+      "start_char": 423,
+      "end_char": 513,
       "region": "body"
     },
     {
@@ -574,8 +580,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 536,
-      "end_char": 539,
+      "start_char": 515,
+      "end_char": 518,
       "region": "body"
     },
     {
@@ -586,8 +592,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 541,
-      "end_char": 584,
+      "start_char": 520,
+      "end_char": 563,
       "region": "body"
     },
     {
@@ -598,8 +604,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 586,
-      "end_char": 589,
+      "start_char": 565,
+      "end_char": 568,
       "region": "body"
     },
     {
@@ -610,8 +616,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 591,
-      "end_char": 629,
+      "start_char": 570,
+      "end_char": 608,
       "region": "body"
     },
     {
@@ -622,8 +628,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 631,
-      "end_char": 634,
+      "start_char": 610,
+      "end_char": 613,
       "region": "body"
     },
     {
@@ -634,8 +640,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 636,
-      "end_char": 713,
+      "start_char": 615,
+      "end_char": 692,
       "region": "body"
     },
     {
@@ -646,8 +652,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 715,
-      "end_char": 718,
+      "start_char": 694,
+      "end_char": 697,
       "region": "body"
     },
     {
@@ -658,8 +664,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 720,
-      "end_char": 827,
+      "start_char": 699,
+      "end_char": 806,
       "region": "body"
     },
     {
@@ -670,8 +676,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 829,
-      "end_char": 832,
+      "start_char": 808,
+      "end_char": 811,
       "region": "body"
     },
     {
@@ -682,8 +688,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 834,
-      "end_char": 960,
+      "start_char": 813,
+      "end_char": 939,
       "region": "body"
     },
     {
@@ -694,8 +700,8 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 962,
-      "end_char": 966,
+      "start_char": 941,
+      "end_char": 945,
       "region": "body"
     },
     {
@@ -706,28 +712,13 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 968,
-      "end_char": 980,
+      "start_char": 947,
+      "end_char": 959,
       "region": "body"
     }
   ],
-  "normalized_text": "公开募集证券投资基金投资信用衍生品指引\n\n第一条\n\n为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。\n\n第二条\n\n本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n第三条\n\n基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。\n\n第四条\n\n基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。\n\n基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。\n\n第五条\n\n基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。\n\n第六条\n\n基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。\n\n第七条\n\n基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。\n\n第八条\n\n基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。\n\n第九条\n\n基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。\n\n第十条\n\n本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。\n\n第十一条\n\n本指引自公布之日起施行。",
+  "normalized_text": "第一条\n\n为规范公开募集证券投资基金(以下简称基金)投资信用衍生品的行为,防范投资风险,保护投资人合法权益,根据《证券投资基金法》《公开募集证券投资基金运作管理办法》和其他有关法律法规,制定本指引。\n\n第二条\n\n本指引所称信用衍生品,是指符合证券交易所或银行间市场相关业务规则,专门用于管理信用风险的信用衍生工具。\n\n第三条\n\n基金投资信用衍生品的,应当按照风险管理的原则,以风险对冲为目的,并遵守证券交易所或银行间市场的相关规定,中国证监会认定的特殊基金品种除外。货币市场基金不得投资信用衍生品。\n\n第四条\n\n基金管理人应当根据所持标的债券等固定收益品种的投资策略,审慎开展信用衍生品投资,合理确定信用衍生品的投资金额、期限等。\n\n基金管理人应当加强基金投资信用衍生品的交易对手方、创设机构的风险管理,合理分散交易对手方、创设机构的集中度,对交易对手方、创设机构的财务状况、偿付能力及杠杆水平等进行必要的尽职调查与严格的准入管理。\n\n第五条\n\n基金应当在定期报告及招募说明书(更新)等文件中详细披露信用衍生品的投资情况,包括投资策略、持仓情况等,并充分揭示投资信用衍生品对基金总体风险的影响以及是否符合既定的投资目标及策略。\n\n第六条\n\n基金投资信用衍生品的,应当在基金合同等法律文件中充分揭示投资信用衍生品可能存在的风险。\n\n第七条\n\n基金投资信用衍生品的,应当参照行业协会的相关规定进行估值,确保估值的公允性。\n\n第八条\n\n基金投资信用衍生品的,基金管理人应当强化内部控制,完善风险管理,做好人员、制度、业务流程、技术系统等方面的准备工作,并将相关制度及流程等报公司董事会批准。\n\n第九条\n\n基金管理人在投资信用衍生品的过程中,应当根据有关法律法规的要求,规范运作,不得从事内幕交易、操纵价格、利益输送及其他不正当的交易活动。基金托管人应当加强对基金投资信用衍生品的监督,切实保护基金份额持有人的合法权益。\n\n第十条\n\n本指引施行前已经获得中国证监会核准或准予注册的基金,基金管理人可根据法律法规、基金合同和本指引的相关要求,决定是否投资信用衍生品。基金拟投资信用衍生品的,应当依法履行适当程序修改基金合同等法律文件,明确投资安排、信息披露、估值方法、风险揭示等相关内容。\n\n第十一条\n\n本指引自公布之日起施行。",
   "blocks": [
-    {
-      "block_id": "b00001",
-      "text": "公开募集证券投资基金投资信用衍生品指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 0,
-      "region": "body",
-      "source_page_end": 0,
-      "start_char": 0,
-      "end_char": 19,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
     {
       "block_id": "b00004",
       "text": "第一条",
@@ -736,8 +727,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 21,
-      "end_char": 24,
+      "start_char": 0,
+      "end_char": 3,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -751,8 +742,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 26,
-      "end_char": 120,
+      "start_char": 5,
+      "end_char": 99,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -766,8 +757,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 122,
-      "end_char": 125,
+      "start_char": 101,
+      "end_char": 104,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -781,8 +772,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 127,
-      "end_char": 178,
+      "start_char": 106,
+      "end_char": 157,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -796,8 +787,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 180,
-      "end_char": 183,
+      "start_char": 159,
+      "end_char": 162,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -811,8 +802,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 185,
-      "end_char": 270,
+      "start_char": 164,
+      "end_char": 249,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -826,8 +817,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 272,
-      "end_char": 275,
+      "start_char": 251,
+      "end_char": 254,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -841,8 +832,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 277,
-      "end_char": 336,
+      "start_char": 256,
+      "end_char": 315,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -856,8 +847,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 338,
-      "end_char": 437,
+      "start_char": 317,
+      "end_char": 416,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -871,8 +862,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 439,
-      "end_char": 442,
+      "start_char": 418,
+      "end_char": 421,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -886,8 +877,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 444,
-      "end_char": 534,
+      "start_char": 423,
+      "end_char": 513,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -901,8 +892,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 536,
-      "end_char": 539,
+      "start_char": 515,
+      "end_char": 518,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -916,8 +907,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 541,
-      "end_char": 584,
+      "start_char": 520,
+      "end_char": 563,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -931,8 +922,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 586,
-      "end_char": 589,
+      "start_char": 565,
+      "end_char": 568,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -946,8 +937,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 591,
-      "end_char": 629,
+      "start_char": 570,
+      "end_char": 608,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -961,8 +952,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 631,
-      "end_char": 634,
+      "start_char": 610,
+      "end_char": 613,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -976,8 +967,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 636,
-      "end_char": 713,
+      "start_char": 615,
+      "end_char": 692,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -991,8 +982,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 715,
-      "end_char": 718,
+      "start_char": 694,
+      "end_char": 697,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -1006,8 +997,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 720,
-      "end_char": 827,
+      "start_char": 699,
+      "end_char": 806,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -1021,8 +1012,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 829,
-      "end_char": 832,
+      "start_char": 808,
+      "end_char": 811,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -1036,8 +1027,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 834,
-      "end_char": 960,
+      "start_char": 813,
+      "end_char": 939,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -1051,8 +1042,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 962,
-      "end_char": 966,
+      "start_char": 941,
+      "end_char": 945,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -1066,8 +1057,8 @@
       "page": 0,
       "region": "body",
       "source_page_end": 0,
-      "start_char": 968,
-      "end_char": 980,
+      "start_char": 947,
+      "end_char": 959,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],

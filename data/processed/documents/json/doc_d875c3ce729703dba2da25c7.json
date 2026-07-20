@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.4.0-front-matter+typed-structure",
+    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "ff730e2540f0d5f1c61636eab2a699e007ea2b4a1a862e8809ce722f3bfc9f45",
     "clean_text_sha256": "fbcd35320a42f2585687d0eefe9beb11deb86c13573897fac2a6e54ab7b9e92b",
@@ -60,6 +60,8 @@
         "character_count": 16
       }
     ],
+    "content_overrides": [],
+    "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
       "b00002",
       "b00003",
@@ -376,7 +378,7 @@
   "original_text_sha256": "ff730e2540f0d5f1c61636eab2a699e007ea2b4a1a862e8809ce722f3bfc9f45",
   "clean_text_sha256": "fbcd35320a42f2585687d0eefe9beb11deb86c13573897fac2a6e54ab7b9e92b",
   "clean_text_hash": "893753bd130c280d0934b31419e54e6e04c5b41465120d0ac2a366f14dff7cf5",
-  "structured_blocks_sha256": "b0c03f1c0168f46f5c310879260f1c855ca8ddd6e47d8301829e5d1782e673bf",
+  "structured_blocks_sha256": "07fda94af6225f6f90ec98751f6851b97927a381a5bcf9e4e8a372c6d407db67",
   "front_matter": [
     {
       "block_id": "b00001",
@@ -511,7 +513,7 @@
     },
     {
       "block_id": "b00012",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.2 交易一方履行上述支付或交付义务的先决条件为:",
       "style": "",
       "source_kind": "paragraph",
@@ -631,7 +633,7 @@
     },
     {
       "block_id": "b00022",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.1 未能支付或交付",
       "style": "",
       "source_kind": "paragraph",
@@ -1111,7 +1113,7 @@
     },
     {
       "block_id": "b00062",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.2 违约事件下提前终止款项的计算",
       "style": "",
       "source_kind": "paragraph",
@@ -1147,7 +1149,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.3 计算报告",
       "style": "",
       "source_kind": "paragraph",
@@ -1423,7 +1425,7 @@
     },
     {
       "block_id": "b00088",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.3 终止事件下提前终止款项的计算与支付",
       "style": "",
       "source_kind": "paragraph",
@@ -1471,7 +1473,7 @@
     },
     {
       "block_id": "b00092",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.4 迟延支付及交付",
       "style": "",
       "source_kind": "paragraph",
@@ -1627,7 +1629,7 @@
     },
     {
       "block_id": "b00105",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.1 未发生或指定提前终止日",
       "style": "",
       "source_kind": "paragraph",
@@ -1651,7 +1653,7 @@
     },
     {
       "block_id": "b00107",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.1.1 因交易对方违反履约先决条件而暂停支付的计息",
       "style": "",
       "source_kind": "paragraph",
@@ -1675,7 +1677,7 @@
     },
     {
       "block_id": "b00109",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.1.2 未按时支付的计息",
       "style": "",
       "source_kind": "paragraph",
@@ -1735,7 +1737,7 @@
     },
     {
       "block_id": "b00114",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.2 发生或指定提前终止日",
       "style": "",
       "source_kind": "paragraph",
@@ -2311,7 +2313,7 @@
     },
     {
       "block_id": "b00162",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "13.4 协议文本及确认",
       "style": "",
       "source_kind": "paragraph",
@@ -2455,7 +2457,7 @@
     },
     {
       "block_id": "b00174",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "13.8 合同权利义务的转让",
       "style": "",
       "source_kind": "paragraph",
@@ -3667,7 +3669,7 @@
     },
     {
       "block_id": "b00275",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3、“履约保障提供方”",
       "style": "",
       "source_kind": "paragraph",
@@ -3775,7 +3777,7 @@
     },
     {
       "block_id": "b00284",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4、净额支付",
       "style": "",
       "source_kind": "paragraph",
@@ -4235,7 +4237,7 @@
     },
     {
       "block_id": "b00012",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "2.2 交易一方履行上述支付或交付义务的先决条件为:",
       "style": "",
       "source_kind": "paragraph",
@@ -4355,7 +4357,7 @@
     },
     {
       "block_id": "b00022",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4.1 未能支付或交付",
       "style": "",
       "source_kind": "paragraph",
@@ -4835,7 +4837,7 @@
     },
     {
       "block_id": "b00062",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.2 违约事件下提前终止款项的计算",
       "style": "",
       "source_kind": "paragraph",
@@ -4871,7 +4873,7 @@
     },
     {
       "block_id": "b00065",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "5.3 计算报告",
       "style": "",
       "source_kind": "paragraph",
@@ -5147,7 +5149,7 @@
     },
     {
       "block_id": "b00088",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.3 终止事件下提前终止款项的计算与支付",
       "style": "",
       "source_kind": "paragraph",
@@ -5195,7 +5197,7 @@
     },
     {
       "block_id": "b00092",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "7.4 迟延支付及交付",
       "style": "",
       "source_kind": "paragraph",
@@ -5351,7 +5353,7 @@
     },
     {
       "block_id": "b00105",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.1 未发生或指定提前终止日",
       "style": "",
       "source_kind": "paragraph",
@@ -5375,7 +5377,7 @@
     },
     {
       "block_id": "b00107",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.1.1 因交易对方违反履约先决条件而暂停支付的计息",
       "style": "",
       "source_kind": "paragraph",
@@ -5399,7 +5401,7 @@
     },
     {
       "block_id": "b00109",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.1.2 未按时支付的计息",
       "style": "",
       "source_kind": "paragraph",
@@ -5459,7 +5461,7 @@
     },
     {
       "block_id": "b00114",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "9.2 发生或指定提前终止日",
       "style": "",
       "source_kind": "paragraph",
@@ -6035,7 +6037,7 @@
     },
     {
       "block_id": "b00162",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "13.4 协议文本及确认",
       "style": "",
       "source_kind": "paragraph",
@@ -6179,7 +6181,7 @@
     },
     {
       "block_id": "b00174",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "13.8 合同权利义务的转让",
       "style": "",
       "source_kind": "paragraph",
@@ -7391,7 +7393,7 @@
     },
     {
       "block_id": "b00275",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "3、“履约保障提供方”",
       "style": "",
       "source_kind": "paragraph",
@@ -7499,7 +7501,7 @@
     },
     {
       "block_id": "b00284",
-      "block_type": "guide_minor_heading",
+      "block_type": "paragraph",
       "text": "4、净额支付",
       "style": "",
       "source_kind": "paragraph",
