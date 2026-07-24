@@ -1,0 +1,6523 @@
+{
+  "classification_version": "2026-07-24-legacy-seven-dimension-full-evidence-v1",
+  "dimensions": {
+    "发文主体": [
+      "人民银行",
+      "人社部",
+      "全国人大",
+      "国务院",
+      "国务院国资委",
+      "国家金融监督管理总局",
+      "基金业协会",
+      "外汇局",
+      "期货业协会",
+      "期货交易所",
+      "民政部",
+      "证券业协会",
+      "证券交易所",
+      "证监会",
+      "财政部",
+      "银行间市场机构"
+    ],
+    "交易场所": [
+      "场内",
+      "场外"
+    ],
+    "标的及业务品种": [
+      "信用类",
+      "利率及债券类",
+      "可转债",
+      "商品类",
+      "外汇类",
+      "权益类",
+      "综合业务",
+      "融资融券及证券出借"
+    ],
+    "客户主体": [
+      "QFII/RQFII",
+      "上市公司",
+      "中央企业",
+      "事业单位",
+      "保险公司",
+      "保险资产管理公司",
+      "保险集团（控股）公司",
+      "信托公司",
+      "党政机关",
+      "养老金管理机构",
+      "商业银行",
+      "国有控股上市公司",
+      "地方国有企业",
+      "基金会",
+      "基金子公司",
+      "基金管理公司",
+      "境外交易者及境外经纪机构",
+      "境外企业",
+      "境外保险机构",
+      "境外券商",
+      "境外基金",
+      "境外银行",
+      "外资银行",
+      "慈善组织",
+      "政策性银行",
+      "期货公司",
+      "期货风险管理子公司",
+      "港澳机构",
+      "社保基金管理机构",
+      "社保经办机构",
+      "私募基金管理人",
+      "科研院所",
+      "红十字会",
+      "证券公司",
+      "证券公司资管子公司",
+      "银行理财子公司"
+    ],
+    "资金来源": [
+      "保险资金",
+      "国资及财政资金",
+      "慈善捐赠资金",
+      "社保养老资金",
+      "科研事业单位资金",
+      "自有资金",
+      "跨境资金"
+    ],
+    "产品载体": [
+      "信托",
+      "公募基金",
+      "理财",
+      "私募基金",
+      "资管"
+    ],
+    "涉及交易行为监管": [
+      "市场交易行为",
+      "机构交易内控",
+      "风险控制措施"
+    ]
+  },
+  "documents": [
+    {
+      "document_id": "doc_72e6b776ea7455457279045d",
+      "document_title": "上市公司信息披露管理办法（2021年修订）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653948/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：权益类；客户主体：上市公司",
+      "classification_evidence_count": 3
+    },
+    {
+      "document_id": "doc_b54b15f00f0faada76880ae4",
+      "document_title": "上市公司股东减持股份管理暂行办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7483190/7483190/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%82%A1%E4%B8%9C%E5%87%8F%E6%8C%81%E8%82%A1%E4%BB%BD%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_7af6551eb64dff183a92c641",
+      "document_title": "上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7483152/7483152/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E3%80%81%E7%9B%91%E4%BA%8B%E5%92%8C%E9%AB%98%E7%BA%A7%E7%AE%A1%E7%90%86%E4%BA%BA%E5%91%98%E6%89%80%E6%8C%81%E6%9C%AC%E5%85%AC%E5%8F%B8%E8%82%A1%E4%BB%BD%E5%8F%8A%E5%85%B6%E5%8F%98%E5%8A%A8%E7%AE%A1%E7%90%86%E8%A7%84%E5%88%99.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_977778ce2990b4dfd700aedb",
+      "document_title": "公开募集证券投资基金参与转融通证券出借业务指引（试行）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b06356e7ad6d47faa9281f1d1bfa22fe&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "融资融券及证券出借"
+      ],
+      "client_entity_types": [
+        "基金管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_04effa87c6a9639f9be08f54",
+      "document_title": "公开募集证券投资基金投资信用衍生品指引",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.sse.com.cn/lawandrules/regulations/csrcannoun/c/10117335/files/c487e9cda3df45948a0ff866f81aeb8a.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [
+        "基金管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：利率及债券类、信用类；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_aef55e350636fbf802c2a39c",
+      "document_title": "公开募集证券投资基金运作管理办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653978/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "基金管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_ae23714e436ed4179415a685",
+      "document_title": "关于上市公司内幕信息知情人登记管理制度的规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101875/c465cd93ff1254baab931de0cd73a9049/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：权益类；客户主体：上市公司",
+      "classification_evidence_count": 3
+    },
+    {
+      "document_id": "doc_5697962363d8ed1e6bd764c8",
+      "document_title": "关于加强私募投资基金监管的若干规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101939/c1416932/1416932/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%BC%BA%E7%A7%81%E5%8B%9F%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E7%9B%91%E7%AE%A1%E7%9A%84%E8%8B%A5%E5%B9%B2%E8%A7%84%E5%AE%9A%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_7c2afefc1b7d6f033b1af71c",
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者参与股票期权交易的公告",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=2f5f014bf946428f88733f0f0a76eafd&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "QFII/RQFII"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_bd7a276ab8c52fc94397ba65",
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者境内证券交易登记结算业务的规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c5642084/5642084/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E5%85%B3%E4%BA%8E%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%92%8C%E4%BA%BA%E6%B0%91%E5%B8%81%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%A2%83%E5%86%85%E8%AF%81%E5%88%B8%E4%BA%A4%E6%98%93%E7%99%BB%E8%AE%B0%E7%BB%93%E7%AE%97%E4%B8%9A%E5%8A%A1%E7%9A%84%E8%A7%84%E5%AE%9A%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "QFII/RQFII",
+        "证券公司"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：QFII/RQFII、证券公司；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_35cba9734488a53524a7b4d8",
+      "document_title": "关于实施《合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法》有关问题的规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101862/c1022465/1022465/files/%E9%99%84%E4%BB%B6%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%AE%9E%E6%96%BD%E3%80%8A%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%92%8C%E4%BA%BA%E6%B0%91%E5%B8%81%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%A2%83%E5%86%85%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E6%8A%95%E8%B5%84%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B%E6%9C%89%E5%85%B3%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%84%E5%AE%9A.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "QFII/RQFII"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_4122210a1a88d3c86534826e",
+      "document_title": "关于短线交易监管的若干规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=964346c70d3f4ee19ff3c65e1a4b4780&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "可转债"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_f50a0df7503b9a36b508b8d2",
+      "document_title": "关于证券公司证券自营业务投资范围及有关事项的规定(2020年修订)",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=1&secFutrsLawId=324530e6f49e48d784cae7d71288b6e1",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_74c713f19f84ec03fe1760b3",
+      "document_title": "内地与香港股票市场交易互联互通机制若干规定（2022年修订）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b647ec004da94d4ab194063ec74bfcd1&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "港澳机构"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、港澳机构；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_cdcae43495918a860be69e71",
+      "document_title": "可转换公司债券管理办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101950/c1416973/1416973/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E5%8F%AF%E8%BD%AC%E6%8D%A2%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [
+        "上市公司",
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司、证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_62b7913f9cd29e804ad158b2",
+      "document_title": "合格境内机构投资者境外证券投资管理试行办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=2f3d04119e584b4897f0ffa7b7945091&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [
+        "公募基金",
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司；资金来源：跨境资金；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_03a45298dda4e37b3b433a46",
+      "document_title": "合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法",
+      "issuing_authority": "中国证券监督管理委员会、中国人民银行、国家外汇管理局",
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653823/content.shtml",
+      "authority_groups": [
+        "证监会",
+        "人民银行",
+        "外汇局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "QFII/RQFII"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会、人民银行、外汇局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_0ac36c1b85d83ba63d51c732",
+      "document_title": "基金管理公司子公司管理规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/shanghai/c105565/c1270492/1270492/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E5%85%AC%E5%8F%B8%E5%AD%90%E5%85%AC%E5%8F%B8%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "基金管理公司",
+        "基金子公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：基金管理公司、基金子公司；资金来源：自有资金；产品载体：资管；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_cdd905344ae7b9100583103f",
+      "document_title": "基金管理公司特定客户资产管理子公司风险控制指标管理暂行规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.sse.com.cn/lawandrules/regulations/csrcannoun/c/10117465/files/1c84336c333d475e9474eb87e88eb1c4.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "基金管理公司",
+        "基金子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：基金管理公司、基金子公司；产品载体：资管；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_ca497dc9abd6e257bc1efc7d",
+      "document_title": "境外交易者和境外经纪机构从事境内特定品种期货交易管理暂行办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653998/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "境外交易者及境外经纪机构",
+        "期货公司"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：境外交易者及境外经纪机构、期货公司；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_2cde927e4459139e4a90cbe2",
+      "document_title": "期货交易所管理办法（2023年修订）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7399274/7399274/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E6%89%80%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_4b308a168050340a3cb16412",
+      "document_title": "期货公司监督管理办法（2019年修订）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=a1e4821ecf8f48d2b417804fb2a62db0&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：期货公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_45654725b6f6ed64446843d3",
+      "document_title": "期货市场程序化交易管理规定（试行）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7564346/7564346/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E6%9C%9F%E8%B4%A7%E5%B8%82%E5%9C%BA%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "利率及债券类",
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、利率及债券类、商品类；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_04b98a8f21b1d2f7ad960e63",
+      "document_title": "私募投资基金信息披露监督管理办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7616837/7616837/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E7%A7%81%E5%8B%9F%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E4%BF%A1%E6%81%AF%E6%8A%AB%E9%9C%B2%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_7dbac8d41bc526b8fcc38865",
+      "document_title": "私募投资基金监督管理暂行办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101939/c1045352/1045352/files/%E3%80%8A%E7%A7%81%E5%8B%9F%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_93722b33a445cc0d99a9ae9a",
+      "document_title": "股票期权交易试点管理办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101833/c1021893/1021893/files/%E9%99%84%E4%BB%B6%EF%BC%9A%E3%80%8A%E8%82%A1%E7%A5%A8%E6%9C%9F%E6%9D%83%E4%BA%A4%E6%98%93%E8%AF%95%E7%82%B9%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_ac21323dc6a1a7a983758b30",
+      "document_title": "衍生品交易监督管理办法（试行）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7632837/7632837/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E8%A1%8D%E7%94%9F%E5%93%81%E4%BA%A4%E6%98%93%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_d456c4bb1faefac9d3648d47",
+      "document_title": "证券公司业务范围审批暂行规定(2025年修正)",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=7ae9f7af0a934ae39f9240460f489ec4&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_60f946f55f41353a286c1dd2",
+      "document_title": "证券公司内部控制指引",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=1&secFutrsLawId=88c34e0cd1534ef19c2ee239ca0cb4d1",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_dbb298ab7fabe184d3910e75",
+      "document_title": "证券公司分类评价规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=96a6bdfa133b4ef4ae7c793e829f2db9&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_2380b453034116cb9cf16ecc",
+      "document_title": "证券公司参与股指期货、国债期货交易指引（2022年修正）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=528eac30f1c94d9e96f60d27f3e2b289&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "利率及债券类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、利率及债券类；客户主体：证券公司；资金来源：自有资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_b29a0156720c2762fd169c3a",
+      "document_title": "证券公司融资融券业务管理办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101833/c1021892/1021892/files/%E9%99%84%E4%BB%B6%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E5%85%AC%E5%8F%B8%E8%9E%8D%E8%B5%84%E8%9E%8D%E5%88%B8%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "融资融券及证券出借"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_edf9eff3ab66d0f96faa6154",
+      "document_title": "证券公司风险控制指标管理办法(2020年修订)",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653957/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_3d832c68af87b758258734f0",
+      "document_title": "证券公司风险控制指标计算标准规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7507765/7507765/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E8%AF%81%E5%88%B8%E5%85%AC%E5%8F%B8%E9%A3%8E%E9%99%A9%E6%8E%A7%E5%88%B6%E6%8C%87%E6%A0%87%E8%AE%A1%E7%AE%97%E6%A0%87%E5%87%86%E8%A7%84%E5%AE%9A.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_4f5b131ecd2fea445e0d0af9",
+      "document_title": "证券基金经营机构参与内地与香港股票市场交易互联互通指引",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=1465921719309967427&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [
+        "公募基金",
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、基金管理公司；资金来源：跨境资金；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_2edf7416385b49a3ef73883b",
+      "document_title": "证券市场程序化交易管理规定（试行）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7480579/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "私募基金管理人",
+        "保险公司",
+        "保险资产管理公司",
+        "QFII/RQFII"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、保险公司、保险资产管理公司、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_c110119e5c9a3ca83724365e",
+      "document_title": "证券投资基金参与股指期货交易指引（2022年修正）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=acaeacc39f3841e69fececaf1620f9b9&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "基金管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_3e4eb50900b879c50b0545d6",
+      "document_title": "证券期货投资者适当性管理办法(2022年修正)",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b139ee3b6fea460a818840e0a982cb98&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "私募基金管理人",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、期货公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_63d6ff37a0e6499a9ba568c8",
+      "document_title": "证券期货经营机构参与股票期权交易试点指引（2025年修订）",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=87814e9e6eb54acd96b50b00aa7c638b&body=",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金",
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、基金管理公司、期货公司；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_1428029fdd940bf284dc590b",
+      "document_title": "证券期货经营机构私募资产管理业务管理办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c6987995/6987995/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_c48bf38da25f51a613b261b8",
+      "document_title": "证券期货经营机构私募资产管理计划运作管理规定",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c6987994/6987994/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E8%BF%90%E4%BD%9C%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E3%80%8B.pdf",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_08156f8651f6f056a0f729e3",
+      "document_title": "转融通业务监督管理试行办法",
+      "issuing_authority": "中国证券监督管理委员会",
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653885/content.shtml",
+      "authority_groups": [
+        "证监会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "融资融券及证券出借"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_4c9c17c2cbd511c81d89a20f",
+      "document_title": "私募投资基金备案指引第1号——私募证券投资基金",
+      "issuing_authority": "中国证券投资基金业协会",
+      "official_url": "https://www.amac.org.cn/fwdt/wyb/jgdjhcpbeian/smjjglrdjhcpba/fwzn/202206/P020231129532332926589.pdf",
+      "authority_groups": [
+        "基金业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_68adbdaba103dc576240211c",
+      "document_title": "私募投资基金登记备案办法",
+      "issuing_authority": "中国证券投资基金业协会",
+      "official_url": "https://www.ssf.gov.cn/portal/rootfiles/2023/03/08/1679913925413232-1679913925431042.pdf",
+      "authority_groups": [
+        "基金业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_e2c5c313dcec6a22c1d431f7",
+      "document_title": "私募证券投资基金运作指引",
+      "issuing_authority": "中国证券投资基金业协会",
+      "official_url": "https://fg.amac.org.cn/governmentrules_3854/zcgz_zlgz/zlgz_smjj/zlgz_smjj_cpl/202404/P020240430697829777505.pdf",
+      "authority_groups": [
+        "基金业协会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：基金业协会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：私募基金管理人；资金来源：自有资金；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_951c7d3b2fbdc5570069c2a8",
+      "document_title": "证券投资基金投资信用衍生品估值指引(试行)",
+      "issuing_authority": "中国证券投资基金业协会",
+      "official_url": "https://www.amac.org.cn/xwfb/tzgg/201901/P020231126367143196433.pdf",
+      "authority_groups": [
+        "基金业协会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [
+        "基金管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金",
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：基金业协会；交易场所：场外、场内；标的及业务品种：利率及债券类、信用类；客户主体：基金管理公司；产品载体：公募基金、私募基金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_48fcdc30f89e0b38cc0bc821",
+      "document_title": "证券期货经营机构私募资产管理计划备案办法",
+      "issuing_authority": "中国证券投资基金业协会",
+      "official_url": "https://www.amac.org.cn/xwfb/xhyw/202307/P020231126355156253355.pdf",
+      "authority_groups": [
+        "基金业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "证券公司资管子公司",
+        "基金管理公司",
+        "基金子公司",
+        "期货公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司；资金来源：自有资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_01caf159025c8afcb451c514",
+      "document_title": "中国证券期货市场场外衍生品交易商品衍生品定义文件（2015年版）",
+      "issuing_authority": "中国证券业协会、中国期货业协会、中国证券投资基金业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69782.html",
+      "authority_groups": [
+        "证券业协会",
+        "基金业协会",
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：商品类",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_4da41553856c16155149f89d",
+      "document_title": "中国证券期货市场场外衍生品交易权益类衍生品定义文件（2014年版）",
+      "issuing_authority": "中国证券业协会、中国期货业协会、中国证券投资基金业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69748.html",
+      "authority_groups": [
+        "证券业协会",
+        "基金业协会",
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：权益类",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_d875c3ce729703dba2da25c7",
+      "document_title": "中国证券期货市场衍生品交易主协议",
+      "issuing_authority": "中国证券业协会、中国期货业协会、中国证券投资基金业协会",
+      "official_url": "https://www.sac.net.cn/sjb/flfg_949/zlgz/201901/t20190102_14356.html",
+      "authority_groups": [
+        "证券业协会",
+        "基金业协会",
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：综合业务",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_49fa45af6688c0561b4c6292",
+      "document_title": "中国证券期货市场衍生品交易主协议(信用保护合约专用版)备案指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "http://www.fjsfa.org/ar/20200704000550.htm",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "信用类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券业协会；交易场所：场内；标的及业务品种：信用类",
+      "classification_evidence_count": 3
+    },
+    {
+      "document_id": "doc_c690621bbbf5d83d3ea90053",
+      "document_title": "关于加强场外衍生品业务自律管理的通知",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/sjb/flfg_949/zlgz/201705/t20170526_14335.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "基金子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、基金子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_5ee5e9a1b631d3c915cbb899",
+      "document_title": "场外证券业务备案管理办法",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69781.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "期货公司",
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司、私募基金管理人；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_13136520622b62b0df62c703",
+      "document_title": "衍生品估值报告内容与格式指引",
+      "issuing_authority": "中国证券业协会、中国证券投资基金业协会",
+      "official_url": "https://www.sac.net.cn/sjb/zlgl/zlgz/202601/t20260112_80742.html",
+      "authority_groups": [
+        "证券业协会",
+        "基金业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "证券公司资管子公司",
+        "基金管理公司",
+        "基金子公司",
+        "期货公司",
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金",
+        "资管"
+      ],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会、基金业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司、私募基金管理人；产品载体：私募基金、资管；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 13
+    },
+    {
+      "document_id": "doc_78c5de3256453d7c0fbcaa00",
+      "document_title": "证券公司信息隔离墙制度指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69829.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_eed3472cb61f7ba0ab26e865",
+      "document_title": "证券公司信用风险管理指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69827.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_6d42e40dcd32a41ec614f4b7",
+      "document_title": "证券公司全面风险管理规范",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=4c421eff801449b6b0abac230c18c3ed&body=",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_b078cc87d172ec3c74cc4cf9",
+      "document_title": "证券公司压力测试指引(2023年修订)",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=0110ce8a403040e39ea13cdd518dd229&body=",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_0fa9125a6f4154172eb568aa",
+      "document_title": "证券公司合规管理实施指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69812.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_975dce3ddc677fa596ef6165",
+      "document_title": "证券公司场外期权业务二级交易商备案须知",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69845.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_4a4a6316e6bc753138838a6c",
+      "document_title": "证券公司场外期权业务数据报送须知",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69845.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_9a71e08de254cc3eb23edddf",
+      "document_title": "证券公司场外期权业务标的管理须知",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69845.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "商品类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：权益类、商品类；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_f69dc587439be8350ab6d755",
+      "document_title": "证券公司场外期权业务管理办法",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69845.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "商品类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：权益类、商品类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_8ca6804940739b6fa8b8ca2f",
+      "document_title": "证券公司投资者权益保护工作规范",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69855.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_2122b7a4277ff85118abcb3c",
+      "document_title": "证券公司操作风险管理指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69923.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_71c8a7bd5b609890bc4091d7",
+      "document_title": "证券公司收益互换业务管理办法",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=776b7045f3bd453bba9ff810f9bfa01f&body=",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "商品类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：权益类、商品类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_f60b42e2431ae1999420af72",
+      "document_title": "证券公司收益凭证信息披露指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/tzg/202512/t20251231_78190.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_5db4b17db4de67a2557829de",
+      "document_title": "证券公司收益凭证发行备案与信息报送指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/tzg/202512/t20251231_78190.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_fa22ddd421c758426eb71d33",
+      "document_title": "证券公司收益凭证发行管理办法",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/tzg/202512/P020251231528539275430.pdf",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_e7ff46520febe0d0b7284c0c",
+      "document_title": "证券公司柜台交易业务规范",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69727.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_60dcd7e7e6867844c53435de",
+      "document_title": "证券公司柜台市场管理办法(试行)",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=699d7de8d19c4e309ad78e5d46773e0d&body=",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_7e1ec4e268f69b6a9c129a2a",
+      "document_title": "证券公司金融工具估值指引（2025年修订）",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=d4f6677f4f314183bbb6c04dbeec503b&body=",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_892e2bccbae5ed8f55a12e90",
+      "document_title": "证券公司金融衍生品柜台交易风险管理指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/sjb/flfg_949/zlgz/201303/t20130319_14256.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_68d53fcac694cbbddce2fc8a",
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "issuing_authority": "中国证券业协会、中国证券投资基金业协会",
+      "official_url": "https://www.amac.org.cn/xwfb/tzgg/201812/P020231126367135967741.pdf",
+      "authority_groups": [
+        "证券业协会",
+        "基金业协会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "证券公司资管子公司",
+        "基金管理公司",
+        "基金子公司",
+        "保险资产管理公司",
+        "私募基金管理人"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "公募基金",
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会、基金业协会；交易场所：场外、场内；标的及业务品种：利率及债券类；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、保险资产管理公司、私募基金管理人；资金来源：自有资金；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 17
+    },
+    {
+      "document_id": "doc_7432736945daebc9d418106b",
+      "document_title": "证券经营机构投资者适当性管理实施指引(试行)",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/flfg/zlgz/201706/t20170629_14339.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_9fdab235b6fbe935b82ba694",
+      "document_title": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+      "issuing_authority": "上海证券交易所、中国结算",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=7d729fe672474665b89d343c329f2b9e&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_578fbc34454f5fa2d8e74568",
+      "document_title": "上海证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引",
+      "issuing_authority": "上海证券交易所、中国结算",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=3fcdd7d29ea642a9a9eb40c9b9081802&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_e52ac4a6612915d063e678d8",
+      "document_title": "上海证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "issuing_authority": "上海证券交易所、中国结算",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=a6654674a2ad489fb7f7a6ca62ad5eea&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_8868489d04c94765573663e3",
+      "document_title": "上海证券交易所上市公司自律监管指引第12号——可转换公司债券（2025年3月修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779148.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_e75f8f03ef17284cb5b2321d",
+      "document_title": "上海证券交易所上市公司自律监管指引第15号——股东及董事、高级管理人员减持股份（2025年3月修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779152.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_2beabfc0a56dd7399260bba1",
+      "document_title": "上海证券交易所上市公司自律监管指引第5号——交易与关联交易（2025年3月修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779128.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；标的及业务品种：综合业务；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_654541a6709ff5a940f8edc2",
+      "document_title": "上海证券交易所交易规则（2026年修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/c_20260424_10816492.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_72274037b208eb81b6e0eaca",
+      "document_title": "上海证券交易所信用保护工具交易业务指引(2022年修订)",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=96b4823cb5e44012844251ac8bc8a909&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_695b15ccb85203c74991a2b8",
+      "document_title": "上海证券交易所可转换公司债券交易实施细则（2025年3月修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/bond/trading/currency/c/c_20250606_10781040.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_60a7549b0fc0fbbd8285e0c5",
+      "document_title": "上海证券交易所期货公司股票期权经纪业务指南（2026年修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/guide/options/c/c_20260609_10821175.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_a89b1b721e96493779c1aaea",
+      "document_title": "上海证券交易所沪港通业务实施办法（2024年修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=39b7cedb74e44531ac70e8d684331151&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "港澳机构"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、港澳机构；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_956333d66adc6a75837fd437",
+      "document_title": "上海证券交易所程序化交易管理实施细则",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/c_20250612_10781696.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "私募基金管理人",
+        "保险公司",
+        "保险资产管理公司",
+        "QFII/RQFII"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、保险公司、保险资产管理公司、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_2392a7d24473c4d7c1cad449",
+      "document_title": "上海证券交易所股票期权试点交易规则",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/option/c/c_20250610_10781448.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_8f5919c2e50ecae7b0b4b960",
+      "document_title": "上海证券交易所股票期权试点做市商业务指引(2015年修订)",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=57ae9dc41df849ba8ca0771097ddc2e6&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_5ba264600f965c2606eb1d27",
+      "document_title": "上海证券交易所股票期权试点投资者适当性管理指引(2017年修订)",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/option/c/c_20250610_10781453.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_b22b9bc95504257da61030a0",
+      "document_title": "上海证券交易所融资融券交易实施细则（2023年修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20250616_10782015.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "融资融券及证券出借"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_118c809698d6296cd6f80188",
+      "document_title": "上海证券交易所证券交易规则适用指引第1号——合格境外机构投资者和人民币合格境外机构投资者",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/c_20250612_10781704.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司",
+        "QFII/RQFII"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、期货公司、QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_0dfd4bf3228c59db6404e766",
+      "document_title": "上海证券交易所证券公司股票期权经纪业务指南（2026年修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/guide/options/c/c_20260609_10821175.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_bdf69a192a6b54d48ec3ff78",
+      "document_title": "上海证券交易所证券公司股票期权自营业务指南",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/guide/options/",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_5a3c3626dbea37d64427e648",
+      "document_title": "关于可转换公司债券适当性管理相关事项的通知（2025年3月修订）",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/bond/convertible/trading/c/c_20250606_10782994.shtml",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_950c9084bac0433616b34ff9",
+      "document_title": "股票期权风险揭示书必备条款",
+      "issuing_authority": "上海证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=61be078c762449f4b1c855220e640761&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_5efa7f65d33c3f6da249f4fd",
+      "document_title": "关于完善可转换公司债券投资者适当性管理相关事项的通知（2025年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/memberty/W020250327575720498353.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_2a2d2c6d09a73b3d38962ec6",
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+      "issuing_authority": "深圳证券交易所、中国结算",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/bond/bonds/trade/W020190118616575124771.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_6f2ad6aa7e5a168602a7966e",
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引",
+      "issuing_authority": "深圳证券交易所、中国结算",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=129e8be94edc4dff86c0e604d274ab45&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_4f3cae525cbb948e416bc286",
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "issuing_authority": "深圳证券交易所、中国结算",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=6818a8a3063a44618615d80006f1e0bc&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_c730c869fdac9113b40650e8",
+      "document_title": "深圳证券交易所上市公司自律监管指引第15号——可转换公司债券（2025年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/W020250327582792609047.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_1ea2f014f7b11f3f97bea499",
+      "document_title": "深圳证券交易所上市公司自律监管指引第18号——股东及董事、监事、高级管理人员减持股份",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/supervision/W020250327580660638732.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_3a6573b5b9990ec27fe6bfe3",
+      "document_title": "深圳证券交易所上市公司自律监管指引第7号——交易与关联交易（2025年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/supervision/currency/W020250327586942899817.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；标的及业务品种：综合业务；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_89581f1759111e6b9893dad4",
+      "document_title": "深圳证券交易所交易规则（2026年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_680262c6f4d4ce0f2c04ae15",
+      "document_title": "深圳证券交易所信用保护工具业务指引(2022年修订)",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b23f3de8e69644fd9c49229e81c1ffdb&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_2b570c4bfc1b76962b89c73c",
+      "document_title": "深圳证券交易所可转换公司债券交易实施细则（2025年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/bond/bonds/trade/W020250327576698646997.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "可转债"
+      ],
+      "client_entity_types": [
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_863bb56dca37f2ad5b8096aa",
+      "document_title": "深圳证券交易所深港通业务实施办法（2024年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f93393f6d550460d8d09aa7467c09166&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "港澳机构"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、港澳机构；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_26cfe9502e9046f053f58f15",
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/allrules/bussiness/W020250403603802169453.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "基金管理公司",
+        "私募基金管理人",
+        "保险公司",
+        "保险资产管理公司",
+        "QFII/RQFII"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、保险公司、保险资产管理公司、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_ab8389cf77ed6121cd67684d",
+      "document_title": "深圳证券交易所股票期权试点交易规则",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=749640a85c514e76bce20714a59ff39f&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_2dd25ed1c44eae7a4dbd66e8",
+      "document_title": "深圳证券交易所股票期权试点做市商业务指南(2025年修订)",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://www.szse.cn/option/rules/guide/t20250725_615150.html",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_5100520baad8de14717e4783",
+      "document_title": "深圳证券交易所股票期权试点合约条款管理指引",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=94c740a5104e49c583e7915f69fc94b5&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_ae3d0612564aaa75db43c924",
+      "document_title": "深圳证券交易所股票期权试点投资者适当性管理指引",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=97164016945d4c4ab358a16882f5560f&body=",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_882ebb027943f57fe0e8cc87",
+      "document_title": "深圳证券交易所股票期权试点期货公司经纪业务指南（2026年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://www.szse.cn/option/rules/guide/t20260522_620676.html",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_62be687809d4f07a23bb2e96",
+      "document_title": "深圳证券交易所股票期权试点证券公司经纪业务指南（2026年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://www.szse.cn/option/rules/guide/t20260522_620676.html",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_b2564c4b9418360e21a2f1b9",
+      "document_title": "深圳证券交易所股票期权试点证券公司自营业务指南",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/option/rules/guide/W020191207438631022244.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_26f53551188465f73f9eca8c",
+      "document_title": "深圳证券交易所融资融券交易实施细则（2023年修订）",
+      "issuing_authority": "深圳证券交易所",
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/trade/W020230217568325595241.pdf",
+      "authority_groups": [
+        "证券交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "融资融券及证券出借"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_95fc509ebe9d15191d951374",
+      "document_title": "期货公司资产管理业务备案管理规则",
+      "issuing_authority": "中国期货业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=db1c15dfd5114d6ab39309cce3cac3ba&body=",
+      "authority_groups": [
+        "期货业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货业协会；标的及业务品种：综合业务；客户主体：期货公司；产品载体：资管；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_30c904ae88415de15c32a215",
+      "document_title": "期货公司风险管理公司业务试点指引",
+      "issuing_authority": "中国期货业协会",
+      "official_url": "https://www.cfachina.org/governmentrules/selfdisciplinerules/businessspecificationclass/201903/t20190311_1272.html",
+      "authority_groups": [
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类",
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "期货风险管理子公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货业协会；交易场所：场外、场内；标的及业务品种：商品类、综合业务；客户主体：期货风险管理子公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_c80eb846f2b4136a339dae92",
+      "document_title": "期货公司风险管理公司标准仓单充抵场外衍生品交易保证金实施细则（试行）",
+      "issuing_authority": "中国期货业协会",
+      "official_url": "https://www.cfachina.org/governmentrules/selfdisciplinerules/businessspecificationclass/202103/t20210319_18209.html",
+      "authority_groups": [
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货风险管理子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货业协会；交易场所：场外；标的及业务品种：商品类；客户主体：期货风险管理子公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_bf556eee97d65458f97f2d6a",
+      "document_title": "期货风险管理公司大宗商品风险管理业务管理规则",
+      "issuing_authority": "中国期货业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=7f2b77cdc2354ac5a7c68f8fa8a27759&body=",
+      "authority_groups": [
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货风险管理子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货业协会；交易场所：场外、场内；标的及业务品种：商品类；客户主体：期货风险管理子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_4d3c337336638ef7bb8bac35",
+      "document_title": "期货风险管理公司衍生品交易业务管理规则",
+      "issuing_authority": "中国期货业协会",
+      "official_url": "https://www.cfachina.org/governmentrules/selfdisciplinerules/businessspecificationclass/202502/t20250224_79001.html",
+      "authority_groups": [
+        "期货业协会"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "商品类",
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "期货风险管理子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货业协会；交易场所：场外；标的及业务品种：权益类、商品类、综合业务；客户主体：期货风险管理子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_ba359ace9d11555575573d2a",
+      "document_title": "期货风险管理公司风险控制指标管理办法（试行）",
+      "issuing_authority": "中国期货业协会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=72a2f3968b81456aa813cdb66be5e019&body=",
+      "authority_groups": [
+        "期货业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "期货风险管理子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货业协会；标的及业务品种：综合业务；客户主体：期货风险管理子公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_0297598a63f859c5dd28f529",
+      "document_title": "保险资产管理产品管理暂行办法",
+      "issuing_authority": "中国银保监会（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1024945&generaltype=1&itemId=4214",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_79fb0b065c02273eb3ef259f",
+      "document_title": "保险资产管理公司管理规定",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1065347&itemId=928&generaltype=0",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_2f5de73d54346c4bffde8559",
+      "document_title": "保险资金参与金融衍生产品交易办法",
+      "issuing_authority": "中国银保监会办公厅（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=912893&generaltype=0&itemId=928",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [
+        "保险资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_d0f777e6f08eceaab0f9aac7",
+      "document_title": "保险资金境外投资管理暂行办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "http://m.safe.gov.cn/safe/2022/0818/21331.html",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [
+        "保险资金",
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_853e21294b2987cf0b01e70b",
+      "document_title": "保险资金境外投资管理暂行办法实施细则",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=359438&itemId=928&generaltype=0",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [
+        "保险资金",
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_2c2326a1f82869e71e84b120",
+      "document_title": "保险资金运用管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201803/t20180309_146148.html",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [
+        "保险资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_dc97027e4a7b165e30af7374",
+      "document_title": "信托公司参与股指期货交易业务指引",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/chinese/subject/subject/nianbao2011/2011zwzz.pdf",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "信托公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "信托"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场内；标的及业务品种：权益类；客户主体：信托公司；产品载体：信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_fa72dd0a40e58a255b70bc0f",
+      "document_title": "信托公司受托境外理财业务管理暂行办法",
+      "issuing_authority": "中国银行业监督管理委员会、国家外汇管理局",
+      "official_url": "https://m.safe.gov.cn/safe/2007/0314/5570.html",
+      "authority_groups": [
+        "外汇局",
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [
+        "理财",
+        "信托"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：外汇局、国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：信托公司；资金来源：跨境资金；产品载体：理财、信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_40efac9f02f60d69669c6748",
+      "document_title": "信托公司管理办法(2025年9月修订)",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=6541c4cd26a54101bbdd5cb41283d7e7&body=",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "信托"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司；资金来源：自有资金；产品载体：信托；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_b5ec5bdea297b0534d51aeb3",
+      "document_title": "信托公司集合资金信托计划管理办法（2009年修订）",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1025228",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "信托"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司；产品载体：信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_a2d476bde2c02372600625bc",
+      "document_title": "关于保险资金参与证券出借业务有关事项的通知",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1021832&itemId=928&generaltype=0",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "融资融券及证券出借"
+      ],
+      "client_entity_types": [
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [
+        "保险资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：融资融券及证券出借；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_61ebc53ad86df9c06840e536",
+      "document_title": "关于规范信托公司信托业务分类的通知",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/governmentDetail.html?docId=1101453&itemId=861&generaltype=1",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "信托"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司；产品载体：信托；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_d80a0090f706453315f77ce0",
+      "document_title": "关于进一步规范商业银行结构性存款业务的通知",
+      "issuing_authority": "中国银保监会办公厅（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=849785",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：商业银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_79e1332075b1bdab3cf69a93",
+      "document_title": "商业银行大额风险暴露管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=178636",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "外资银行"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_53a579ede6b18bcebd71e750",
+      "document_title": "商业银行市场风险管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=20ecb9a1033b44b5995e5356b0be7751&body=",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "外资银行"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_cbb8fea1d402a7ed711cfa2c",
+      "document_title": "商业银行托管业务监督管理办法(试行)",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=d857c1217fc042458bb39588f3a3b41d&body=",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "外资银行"
+      ],
+      "funding_sources": [
+        "保险资金",
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；资金来源：保险资金、社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_b49f89a86d230228391a766a",
+      "document_title": "商业银行流动性风险管理办法",
+      "issuing_authority": "中国银保监会（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=180252",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "外资银行"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_b44a9d61a3b595c4675ed29b",
+      "document_title": "商业银行理财业务监督管理办法",
+      "issuing_authority": "中国银保监会（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=194055",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "理财"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_bdfb90527f46fe7050440e15",
+      "document_title": "商业银行理财子公司管理办法",
+      "issuing_authority": "中国银保监会（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=200707",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "银行理财子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "理财"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_6cd311d0b37985b0fd973a2e",
+      "document_title": "商业银行资本管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1134197",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "外资银行"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_d41b32c2d10a124874973ca8",
+      "document_title": "理财公司内部控制管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230511_478579.html",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "银行理财子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "理财"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_c800fa4417cfe6118ee9c4eb",
+      "document_title": "理财公司理财产品流动性风险管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1024321&itemId=928&generaltype=0",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "银行理财子公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "理财"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_9b7d2237295b4f25c6c77fbf",
+      "document_title": "组合类保险资产管理产品实施细则",
+      "issuing_authority": "中国银保监会办公厅（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=928237&generaltype=1&itemId=861",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_7892b83235d8ee5695cb306e",
+      "document_title": "金融机构产品适当性管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1217183",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "政策性银行",
+        "商业银行",
+        "外资银行",
+        "银行理财子公司",
+        "信托公司",
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：政策性银行、商业银行、外资银行、银行理财子公司、信托公司、保险集团（控股）公司、保险公司、保险资产管理公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_0be504993eb89c2d2aced80a",
+      "document_title": "金融机构非集中清算衍生品交易保证金管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/governmentDetail.html?docId=1193890&generaltype=1&itemId=861",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "政策性银行",
+        "商业银行",
+        "外资银行",
+        "银行理财子公司",
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：政策性银行、商业银行、外资银行、银行理财子公司、保险集团（控股）公司、保险公司、保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 14
+    },
+    {
+      "document_id": "doc_e6be6eeeb035ed5f6216c241",
+      "document_title": "银行业金融机构衍生产品交易业务管理暂行办法",
+      "issuing_authority": "中国银监会（历史机构）",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=269178",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "政策性银行",
+        "外资银行",
+        "信托公司"
+      ],
+      "funding_sources": [
+        "自有资金"
+      ],
+      "product_vehicles": [
+        "理财"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、外资银行、信托公司；资金来源：自有资金；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 13
+    },
+    {
+      "document_id": "doc_3946a43c2fe617a502ba389b",
+      "document_title": "银行保险机构关联交易管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=928",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "政策性银行",
+        "商业银行",
+        "外资银行",
+        "信托公司",
+        "保险集团（控股）公司",
+        "保险公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：政策性银行、商业银行、外资银行、信托公司、保险集团（控股）公司、保险公司、保险资产管理公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_e5c531c00cf9ec0299e7996f",
+      "document_title": "银行保险机构资产管理产品信息披露管理办法",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1239473&itemId=928",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司",
+        "银行理财子公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "信托",
+        "理财",
+        "资管"
+      ],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司、银行理财子公司、保险资产管理公司；产品载体：信托、理财、资管",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_6a87f96c90352834c9c9ee68",
+      "document_title": "Shibor利率互换定盘(收盘)曲线报价规则",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspscllhh/20120518/2779726.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_73964c16ab4f83d6c3d7f2b3",
+      "document_title": "上市公司国有股权监督管理办法",
+      "issuing_authority": "国资委",
+      "official_url": "http://www.sasac.gov.cn/n2588035/n22302962/n22302967/c22692368/attr/25875810.pdf",
+      "authority_groups": [
+        "国务院国资委"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类"
+      ],
+      "client_entity_types": [
+        "中央企业",
+        "地方国有企业",
+        "国有控股上市公司"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：国务院国资委；交易场所：场外、场内；标的及业务品种：权益类；客户主体：中央企业、地方国有企业、国有控股上市公司；资金来源：国资及财政资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_039bb5266f73f30c563d8dfc",
+      "document_title": "上海国际能源交易中心异常交易行为管理细则",
+      "issuing_authority": "上海国际能源交易中心",
+      "official_url": "https://www.shfe.com.cn/regulation/ineregulation/businessmethods/riskcontrol/202606/t20260622_832196.html",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_e0fa0711cb6a8bc4dc671391",
+      "document_title": "上海国际能源交易中心程序化交易管理细则",
+      "issuing_authority": "上海国际能源交易中心",
+      "official_url": "https://www.shfe.com.cn/regulation/ineregulation/businessmethods/trade/202508/t20250814_828670.html",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_7ff7d2aec755385f853314ac",
+      "document_title": "上海期货交易所套期保值交易管理办法",
+      "issuing_authority": "上海期货交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=69016fa40fba42e5830d0154e5c0b2d8&body=",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_6d7c5b512e21e878228d201f",
+      "document_title": "上海期货交易所异常交易行为管理办法",
+      "issuing_authority": "上海期货交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=5a4a41ba50774190b3e0e212ba67324e&body=",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_03aca9b2e1f6c43d64d55d1a",
+      "document_title": "上海期货交易所程序化交易管理办法",
+      "issuing_authority": "上海期货交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=78405ee34e6c42eea4d75c48c2b80776&body=",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_885cf63a241827843761933b",
+      "document_title": "中华人民共和国企业国有资产法",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b5e05c2d4dc5495fa9997afb8586b24d&body=",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "中央企业",
+        "地方国有企业"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：中央企业、地方国有企业；资金来源：国资及财政资金",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_4c4d0ae60d25a22f526b9e74",
+      "document_title": "中华人民共和国公益事业捐赠法",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "official_url": "https://www.gov.cn/banshi/2005-05/25/content_903.htm",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "基金会",
+        "慈善组织",
+        "红十字会"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：基金会、慈善组织、红十字会；资金来源：慈善捐赠资金",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_3aca14f5029ef7a122529211",
+      "document_title": "中华人民共和国慈善法（2023年修正）",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "official_url": "https://www.mca.gov.cn/n2623/n2687/n2696/n2744/c1662004999979998115/content.html",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "慈善组织"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：慈善组织；资金来源：慈善捐赠资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_9fa2a0c832c7b6505a74d692",
+      "document_title": "中华人民共和国期货和衍生品法",
+      "issuing_authority": "全国人大常委会制定、国家主席公布",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=c9f4df6454d745eeb1d614c0d57bfe60&body=",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：全国人大；交易场所：场外、场内；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_495951c72c76afd8375f59d3",
+      "document_title": "中华人民共和国红十字会法（2017年修订）",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "official_url": "http://www.redcross.org.cn/html/2019-01/56081.html",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "红十字会"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：红十字会；资金来源：慈善捐赠资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_0c2ba098d2a564fe1e7d3c2e",
+      "document_title": "中华人民共和国证券投资基金法",
+      "issuing_authority": "全国人大常委会制定、国家主席公布",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=e5cc920d0af7475ca44f1e69c5378244",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "基金管理公司",
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "公募基金",
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：基金管理公司、私募基金管理人；产品载体：公募基金、私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_c4fca172634cc59106f2bfc6",
+      "document_title": "中华人民共和国证券法",
+      "issuing_authority": "全国人大常委会制定、国家主席公布",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=0fc431a2a10b47909beef058f6ac3335",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司",
+        "上市公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类",
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：全国人大；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_6acf3282f041a6b3ce85d1fb",
+      "document_title": "中国场外信用衍生产品交易基本术语与适用规则（2022年版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/ggtz/gg/202208/P020220831632482555610.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类、信用类",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_1058730c3e69c1db99edd6a8",
+      "document_title": "中国金融期货交易所交易规则",
+      "issuing_authority": "中国金融期货交易所",
+      "official_url": "http://www.cffex.com.cn/cn/gzjygz/20260410/43076.html",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "权益类",
+        "利率及债券类"
+      ],
+      "client_entity_types": [
+        "期货公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：权益类、利率及债券类；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_d6958eb9b47a1e2db646abd2",
+      "document_title": "中国银行间市场利率衍生产品交易定义文件（2022年版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/ggtz/gg/202208/P020220831632482377443.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类",
+      "classification_evidence_count": 3
+    },
+    {
+      "document_id": "doc_63e7a9402494a3983e4c4806",
+      "document_title": "中国银行间市场金融衍生产品交易主协议（2009年版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/zlgl/bzxy/bzxywb/jrys/201202/P020220814397058471740.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_75c1cb9b707848f58b2a91d4",
+      "document_title": "中国银行间市场金融衍生产品交易主协议（凭证特别版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/ggtz/gg/201204/P020220117433327851239.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务",
+      "classification_evidence_count": 3
+    },
+    {
+      "document_id": "doc_e7726e8fe4e3b29976a70af0",
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/ggtz/gg/202208/P020220831632137883732.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "境外银行",
+        "境外券商",
+        "境外基金",
+        "境外保险机构",
+        "境外企业"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；客户主体：境外银行、境外券商、境外基金、境外保险机构、境外企业；资金来源：跨境资金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_b0158a0b05d79db1aedaca73",
+      "document_title": "中国银行间市场金融衍生产品交易转让式履约保障文件（变动保证金-2025年版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/ggtz/gg/202512/P020251231512680512156.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_4da84c1abfcfe2d8fb98cd0a",
+      "document_title": "中央企业境外国有资产监督管理暂行办法",
+      "issuing_authority": "国资委",
+      "official_url": "http://www.sasac.gov.cn/n2588020/n2588072/n2590860/n2590862/c3720199/content.html",
+      "authority_groups": [
+        "国务院国资委"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "中央企业"
+      ],
+      "funding_sources": [
+        "国资及财政资金",
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：国务院国资委；标的及业务品种：综合业务；客户主体：中央企业；资金来源：国资及财政资金、跨境资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_5685fdd1b0505f270fdcba82",
+      "document_title": "中央企业境外投资监督管理办法",
+      "issuing_authority": "国资委",
+      "official_url": "http://www.sasac.gov.cn/n2588035/n2588320/n2588335/c20164457/content.html",
+      "authority_groups": [
+        "国务院国资委"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "中央企业"
+      ],
+      "funding_sources": [
+        "国资及财政资金",
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：国务院国资委；标的及业务品种：综合业务；客户主体：中央企业；资金来源：国资及财政资金、跨境资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_3e28d021894f8d456b7a8ca2",
+      "document_title": "中央企业投资监督管理办法",
+      "issuing_authority": "国资委",
+      "official_url": "http://www.sasac.gov.cn/n2588035/n2588320/n2588335/c20164244/content.html",
+      "authority_groups": [
+        "国务院国资委"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "中央企业"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：国务院国资委；标的及业务品种：综合业务；客户主体：中央企业；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_1d410d981d73eeb700d858c8",
+      "document_title": "中央行政事业单位国有资产使用管理办法",
+      "issuing_authority": "财政部",
+      "official_url": "https://zcgls.mof.gov.cn/zhengcefabu/202409/P020240913382403420418.pdf",
+      "authority_groups": [
+        "财政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "党政机关",
+        "事业单位"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：党政机关、事业单位；资金来源：国资及财政资金",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_1a6b634b3b17682684454fdf",
+      "document_title": "事业单位国有资产管理暂行办法",
+      "issuing_authority": "财政部",
+      "official_url": "https://m.mof.gov.cn/tzgg/201904/t20190404_3215480.htm",
+      "authority_groups": [
+        "财政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "事业单位"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：事业单位；资金来源：国资及财政资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_fbe052443d890bb40ff36f5d",
+      "document_title": "事业单位财务规则",
+      "issuing_authority": "财政部",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230509_478368.html",
+      "authority_groups": [
+        "财政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "事业单位"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：事业单位；资金来源：国资及财政资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_f0502a4b4f1634e58f2cc2b5",
+      "document_title": "人力资源社会保障部关于调整年金基金投资范围的通知",
+      "issuing_authority": "人力资源和社会保障部",
+      "official_url": "https://www.mohrss.gov.cn/shbxjjjds/SHBXJDSzhengcewenjian/202012/t20201230_406915.html",
+      "authority_groups": [
+        "人社部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "养老金管理机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：人社部；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_b286ab7f452211fbb2b04002",
+      "document_title": "人民币利率互换集中清算合约移仓交易业务指引",
+      "issuing_authority": "全国银行间同业拆借中心、上海清算所",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspscllhh/20230715/2779743.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_5bec4d93aa7de73c4c7dffb2",
+      "document_title": "企业年金办法",
+      "issuing_authority": "人力资源和社会保障部、财政部",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201803/t20180328_146156.html",
+      "authority_groups": [
+        "财政部",
+        "人社部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "养老金管理机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：财政部、人社部；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_0b24a41b849631820a003b44",
+      "document_title": "企业年金基金管理办法（2015年修订）",
+      "issuing_authority": "人力资源和社会保障部、中国银行业监督管理委员会、中国证券监督管理委员会、中国保险监督管理委员会",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f488783f23b64ac7ab75747210d5024f&body=",
+      "authority_groups": [
+        "证监会",
+        "人社部",
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "养老金管理机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：证监会、人社部、国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_5f55756c520aba6de66edaa9",
+      "document_title": "债券远期交易保证金集中管理操作细则",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspsczqyq/20050721/2779764.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_713a3efe8637186c9944fff2",
+      "document_title": "全国社会保障基金境外投资管理暂行规定",
+      "issuing_authority": "财政部、劳动和社会保障部、中国人民银行、国家外汇管理局",
+      "official_url": "https://www.ssf.gov.cn/portal/zcfg/nbgzzd/webinfo/2021/12/1640743468327179.htm",
+      "authority_groups": [
+        "人民银行",
+        "外汇局",
+        "财政部",
+        "人社部"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "社保基金管理机构"
+      ],
+      "funding_sources": [
+        "社保养老资金",
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：人民银行、外汇局、财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 13
+    },
+    {
+      "document_id": "doc_f3e129aca0be5146ad6df920",
+      "document_title": "全国社会保障基金投资管理暂行办法",
+      "issuing_authority": "财政部、劳动和社会保障部",
+      "official_url": "https://www.ssf.gov.cn/portal/zcfg/nbgzzd/webinfo/2021/12/1640743447258463.htm",
+      "authority_groups": [
+        "财政部",
+        "人社部"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "社保基金管理机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_0bcfd8c948ad1c615c696e8d",
+      "document_title": "全国社会保障基金条例",
+      "issuing_authority": "国务院",
+      "official_url": "https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394931.html",
+      "authority_groups": [
+        "国务院"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "社保基金管理机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_b856e444bd5981dd572c6592",
+      "document_title": "全国银行间债券市场债券远期交易规则",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspsczqyq/20050614/2779756.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_f379ed43c4cb26f83637c1f9",
+      "document_title": "全国银行间同业拆借中心信用风险缓释工具交易规则",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspschspz/20170427/2779775.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类、信用类；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_2a8c7471635c7d69096012f6",
+      "document_title": "全国银行间同业拆借中心标准利率互换交易规则",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspscllhh/20231124/2779727.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_90f8ff34de4a6577fde8e1bf",
+      "document_title": "关于人民币利率互换交易备案有关事项的通知",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/chinese/rszn2/20260113/1102754.html",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类",
+      "classification_evidence_count": 3
+    },
+    {
+      "document_id": "doc_51b7bf8c8a0bea8fd0e996d8",
+      "document_title": "关于切实加强金融衍生业务管理有关事项的通知",
+      "issuing_authority": "国资委",
+      "official_url": "http://www.sasac.gov.cn/n2588035/c13578144/content.html",
+      "authority_groups": [
+        "国务院国资委"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "中央企业"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：国务院国资委；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：中央企业；资金来源：国资及财政资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
+    },
+    {
+      "document_id": "doc_83e61ea2abbebac9146089d5",
+      "document_title": "关于规范金融机构资产管理业务的指导意见",
+      "issuing_authority": "中国人民银行、中国银保监会、中国证监会、国家外汇管理局",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?body=&navbarId=3&secFutrsLawId=3814a9ee434843ef9539418f6b5e730a",
+      "authority_groups": [
+        "证监会",
+        "人民银行",
+        "国家金融监督管理总局",
+        "外汇局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行",
+        "信托公司",
+        "证券公司",
+        "基金管理公司",
+        "期货公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "理财",
+        "信托",
+        "资管"
+      ],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证监会、人民银行、国家金融监督管理总局、外汇局；标的及业务品种：综合业务；客户主体：商业银行、信托公司、证券公司、基金管理公司、期货公司、保险资产管理公司；产品载体：理财、信托、资管；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 16
+    },
+    {
+      "document_id": "doc_4eac63d1b911cf67e7824c5d",
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "issuing_authority": "中国人民银行办公厅（经人民银行、银保监会、证监会共同研究）",
+      "official_url": "https://www.csrc.gov.cn/beijing/c103561/c1048448/content.shtml",
+      "authority_groups": [
+        "证监会",
+        "人民银行",
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "权益类",
+        "利率及债券类"
+      ],
+      "client_entity_types": [
+        "政策性银行",
+        "商业银行",
+        "证券公司",
+        "基金管理公司",
+        "私募基金管理人",
+        "期货公司",
+        "保险资产管理公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "理财",
+        "信托",
+        "资管"
+      ],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：证监会、人民银行、国家金融监督管理总局；标的及业务品种：权益类、利率及债券类；客户主体：政策性银行、商业银行、证券公司、基金管理公司、私募基金管理人、期货公司、保险资产管理公司；产品载体：理财、信托、资管；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 16
+    },
+    {
+      "document_id": "doc_375c9616a6d51bdc6337187f",
+      "document_title": "内地与香港利率互换市场互联互通合作清算衍生品协议（2024年版）",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/zlgl/bzxy/bzxywb/jrys/202404/P020240408344512746609.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；资金来源：跨境资金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_220c32bfdf75afb9ebcf349e",
+      "document_title": "商业银行开办代客境外理财业务管理暂行办法",
+      "issuing_authority": "中国人民银行、中国银行业监督管理委员会、国家外汇管理局",
+      "official_url": "https://m.safe.gov.cn/safe/2006/0417/22172.html",
+      "authority_groups": [
+        "人民银行",
+        "外汇局",
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "商业银行"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [
+        "理财"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：人民银行、外汇局、国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行；资金来源：跨境资金；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
+    },
+    {
+      "document_id": "doc_29622c6b7c58b2bad901c814",
+      "document_title": "基本养老保险基金投资管理办法",
+      "issuing_authority": "国务院",
+      "official_url": "https://www.ssf.gov.cn/portal/zcfg/nbgzzd/webinfo/2021/12/1640743468474484.htm",
+      "authority_groups": [
+        "国务院"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "社保基金管理机构",
+        "社保经办机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：国务院；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构、社保经办机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_952a7e881ec50df699b59d0b",
+      "document_title": "基金会管理条例",
+      "issuing_authority": "国务院",
+      "official_url": "http://www.moe.gov.cn/s78/A01/zclm/moe_968/moe_1040/tnull_10694.html",
+      "authority_groups": [
+        "国务院"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "基金会"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：基金会；资金来源：慈善捐赠资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_436fbfc83bc92ec85b0d9b09",
+      "document_title": "境外机构投资者境内证券期货投资资金管理规定",
+      "issuing_authority": "中国人民银行、国家外汇管理局",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f2e345e018734a0999207f05364ab38f&body=",
+      "authority_groups": [
+        "人民银行",
+        "外汇局"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务",
+        "外汇类"
+      ],
+      "client_entity_types": [
+        "QFII/RQFII"
+      ],
+      "funding_sources": [
+        "跨境资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：人民银行、外汇局；交易场所：场外、场内；标的及业务品种：综合业务、外汇类；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_1d7fca193500993b44f90061",
+      "document_title": "大连商品交易所异常交易行为管理办法",
+      "issuing_authority": "大连商品交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=ad41089e5672412795a4753e8e6e209d&body=",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_bf03114b812584bb9fef5f89",
+      "document_title": "大连商品交易所程序化交易管理办法",
+      "issuing_authority": "大连商品交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=ed732dac54594167a7bda9bee06625a9&body=",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_2cf5cfc366605c71ed3e81f7",
+      "document_title": "广州期货交易所交易规则",
+      "issuing_authority": "广州期货交易所",
+      "official_url": "http://www.gfex.com.cn:8080/gfex/jygz/202505/23e696795d50408ebeb48cf789d2d035.shtml",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_143efbe1a7ec74bcf174a75f",
+      "document_title": "广州期货交易所程序化交易管理办法",
+      "issuing_authority": "广州期货交易所",
+      "official_url": "http://www.gfex.com.cn/gfex/ywbf/202508/a5a72c47e1a74988b6cc57f57b169f70/files/%E5%B9%BF%E5%B7%9E%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E6%89%80%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_3b7f2d699760e1a01421c700",
+      "document_title": "慈善信托管理办法",
+      "issuing_authority": "民政部、中国银行业监督管理委员会",
+      "official_url": "https://mzt.ln.gov.cn/mzt/hdzl/cssyzl/2024032810280039799/index.shtml",
+      "authority_groups": [
+        "民政部",
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司",
+        "慈善组织"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [
+        "信托"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类",
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：民政部、国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司、慈善组织；资金来源：慈善捐赠资金；产品载体：信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
+    },
+    {
+      "document_id": "doc_26df8e17ec229f048edfea42",
+      "document_title": "慈善组织保值增值投资活动管理暂行办法",
+      "issuing_authority": "民政部",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201903/t20190315_146253.html",
+      "authority_groups": [
+        "民政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "慈善组织"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [
+        "资管"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：民政部；标的及业务品种：综合业务；客户主体：慈善组织；资金来源：慈善捐赠资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_c82aab6879ee4281585c8fcb",
+      "document_title": "社会保险基金财务制度",
+      "issuing_authority": "财政部、人力资源和社会保障部、国家卫生和计划生育委员会",
+      "official_url": "http://sbs.mof.gov.cn/zhengcefabu/201709/t20170921_2706459.htm",
+      "authority_groups": [
+        "财政部",
+        "人社部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "社保经办机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部、人社部；标的及业务品种：综合业务；客户主体：社保经办机构；资金来源：社保养老资金",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_d5e5e05217da1bbf1d708692",
+      "document_title": "私募投资基金监督管理条例",
+      "issuing_authority": "中华人民共和国国务院",
+      "official_url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1673&Query=",
+      "authority_groups": [
+        "国务院"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "私募基金管理人"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "私募基金"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_4e4399d0caed2343ccf21562",
+      "document_title": "科学事业单位财务制度",
+      "issuing_authority": "财政部",
+      "official_url": "https://jkw.mof.gov.cn/zhengcefabu/202208/t20220818_3834563.htm",
+      "authority_groups": [
+        "财政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "科研院所"
+      ],
+      "funding_sources": [
+        "国资及财政资金",
+        "科研事业单位资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：科研院所；资金来源：国资及财政资金、科研事业单位资金",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_eb9d2cc7dad6f0f841f84673",
+      "document_title": "职业年金基金管理暂行办法",
+      "issuing_authority": "人力资源和社会保障部、财政部",
+      "official_url": "https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/201610/t20161013_2434596.htm",
+      "authority_groups": [
+        "财政部",
+        "人社部"
+      ],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "养老金管理机构",
+        "社保经办机构"
+      ],
+      "funding_sources": [
+        "社保养老资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类",
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：养老金管理机构、社保经办机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
+    },
+    {
+      "document_id": "doc_9360e2fa8f5624cb054b4077",
+      "document_title": "行政事业性国有资产管理条例",
+      "issuing_authority": "国务院",
+      "official_url": "https://www.mee.gov.cn/zcwj/gwywj/202103/t20210318_825096.shtml",
+      "authority_groups": [
+        "国务院"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "党政机关",
+        "事业单位"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：党政机关、事业单位；资金来源：国资及财政资金",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_99bd022e87b1482c30bb5e1a",
+      "document_title": "行政单位国有资产管理暂行办法",
+      "issuing_authority": "财政部",
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/200609/t20060928_144218.html",
+      "authority_groups": [
+        "财政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "党政机关"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：党政机关；资金来源：国资及财政资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_129c04eb31a7773a924dfea1",
+      "document_title": "行政单位财务规则",
+      "issuing_authority": "财政部",
+      "official_url": "https://tfs.mof.gov.cn/caizhengbuling/202302/t20230207_3865456.htm",
+      "authority_groups": [
+        "财政部"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "党政机关"
+      ],
+      "funding_sources": [
+        "国资及财政资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：党政机关；资金来源：国资及财政资金",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_4e1772e439d9351f0f4301c1",
+      "document_title": "证券公司监督管理条例(2014修订)",
+      "issuing_authority": "中华人民共和国国务院",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?body=&navbarId=3&secFutrsLawId=de15a6b9b2a74f81a0c4d8d712c47c01",
+      "authority_groups": [
+        "国务院"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
+      "document_id": "doc_14a4e286fdc9890ecdf9426a",
+      "document_title": "郑州商品交易所异常交易行为管理办法",
+      "issuing_authority": "郑州商品交易所",
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=5165c1db07474715b2e115daf1d3f5c8&body=",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_2bdeee90c511b82a5f292857",
+      "document_title": "郑州商品交易所程序化交易管理办法",
+      "issuing_authority": "郑州商品交易所",
+      "official_url": "https://www.czce.com.cn/cn/content_file/flfg/zcjywgz/lsbb/2026/5/d340add2d2a0474a8360ea0ea3e1c338.pdf",
+      "authority_groups": [
+        "期货交易所"
+      ],
+      "trading_venues": [
+        "场内"
+      ],
+      "underlying_business_types": [
+        "商品类"
+      ],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
+    },
+    {
+      "document_id": "doc_0b2bdb7c419f14be50713f93",
+      "document_title": "银行间外汇市场标准化人民币外汇远期掉期业务指南",
+      "issuing_authority": "中国外汇交易中心",
+      "official_url": "https://www.chinamoney.com.cn/dqs/cm-s-notice-query/fileDownLoad.do?mode=open&contentId=3033387&priority=0",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "外汇类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：外汇类；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 4
+    },
+    {
+      "document_id": "doc_d9cd261227aabb763daa486a",
+      "document_title": "银行间市场信用风险缓释工具业务规则(2025年版)",
+      "issuing_authority": "中国银行间市场交易商协会",
+      "official_url": "https://www.nafmii.org.cn/ggtz/gg/202506/P020250627533511517817.pdf",
+      "authority_groups": [
+        "银行间市场机构"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类",
+        "信用类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类、信用类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_72a49ded28ec375d2f9d748b",
+      "document_title": "中国人民银行公告[2007]第20号:远期利率协议业务管理规定",
+      "issuing_authority": "中国人民银行",
+      "official_url": "https://www.chinamoney.com.cn/chinese/bbyspscyqllxy/20260113/2779746.html",
+      "authority_groups": [
+        "人民银行"
+      ],
+      "trading_venues": [
+        "场外"
+      ],
+      "underlying_business_types": [
+        "利率及债券类"
+      ],
+      "client_entity_types": [],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "银行类"
+      ],
+      "classification_summary": "发文主体：人民银行；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
+    }
+  ]
+}

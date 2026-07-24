@@ -1,0 +1,687 @@
+{
+  "classification_version": "2026-07-24-legacy-seven-dimension-full-evidence-v1",
+  "legacy_documents": 214,
+  "current_documents": 216,
+  "full_text_documents": 216,
+  "preserved_legacy_official_urls": 214,
+  "new_document_titles": [
+    "关于上市公司内幕信息知情人登记管理制度的规定",
+    "证券市场程序化交易管理规定（试行）"
+  ],
+  "classification_assignments": 1564,
+  "evidence_rows": 1564,
+  "evidence_level_counts": {
+    "A-官方发布信息": 245,
+    "A-正文直接条款": 1040,
+    "B-官方网页核验要点": 168,
+    "B-正文适用范围综合判断": 111
+  },
+  "fallback_rows": [
+    {
+      "document_title": "关于加强私募投资基金监管的若干规定",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者境内证券交易登记结算业务的规定",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者境内证券交易登记结算业务的规定",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者境内证券交易登记结算业务的规定",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "关于实施《合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法》有关问题的规定",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "关于证券公司证券自营业务投资范围及有关事项的规定(2020年修订)",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "期货市场程序化交易管理规定（试行）",
+      "dimension": "标的及业务品种",
+      "tag": "权益类",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "期货市场程序化交易管理规定（试行）",
+      "dimension": "标的及业务品种",
+      "tag": "利率及债券类",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "私募投资基金监督管理暂行办法",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "衍生品交易监督管理办法（试行）",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "衍生品交易监督管理办法（试行）",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券公司业务范围审批暂行规定(2025年修正)",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "证券市场程序化交易管理规定（试行）",
+      "dimension": "客户主体",
+      "tag": "保险公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券市场程序化交易管理规定（试行）",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券期货经营机构私募资产管理计划运作管理规定",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "私募证券投资基金运作指引",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "证券投资基金投资信用衍生品估值指引(试行)",
+      "dimension": "产品载体",
+      "tag": "私募基金",
+      "location": "paragraph / 第3页 / b00003"
+    },
+    {
+      "document_title": "证券投资基金投资信用衍生品估值指引(试行)",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "paragraph / 第3页 / b00003"
+    },
+    {
+      "document_title": "证券期货经营机构私募资产管理计划备案办法",
+      "dimension": "客户主体",
+      "tag": "证券公司资管子公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券期货经营机构私募资产管理计划备案办法",
+      "dimension": "客户主体",
+      "tag": "基金子公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券期货经营机构私募资产管理计划备案办法",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "关于加强场外衍生品业务自律管理的通知",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "paragraph / 第1页 / b00002"
+    },
+    {
+      "document_title": "关于加强场外衍生品业务自律管理的通知",
+      "dimension": "客户主体",
+      "tag": "基金子公司",
+      "location": "paragraph / 第1页 / b00002"
+    },
+    {
+      "document_title": "衍生品估值报告内容与格式指引",
+      "dimension": "客户主体",
+      "tag": "证券公司",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "衍生品估值报告内容与格式指引",
+      "dimension": "客户主体",
+      "tag": "证券公司资管子公司",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "衍生品估值报告内容与格式指引",
+      "dimension": "客户主体",
+      "tag": "基金子公司",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "衍生品估值报告内容与格式指引",
+      "dimension": "客户主体",
+      "tag": "私募基金管理人",
+      "location": "第一条 / 第2页 / b00002"
+    },
+    {
+      "document_title": "证券公司场外期权业务二级交易商备案须知",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "paragraph / 第1页 / b00005"
+    },
+    {
+      "document_title": "证券公司场外期权业务数据报送须知",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "paragraph / 第1页 / b00005"
+    },
+    {
+      "document_title": "证券公司场外期权业务管理办法",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "证券公司收益凭证信息披露指引",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券公司柜台交易业务规范",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "dimension": "客户主体",
+      "tag": "证券公司资管子公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "dimension": "客户主体",
+      "tag": "基金子公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "dimension": "客户主体",
+      "tag": "私募基金管理人",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "dimension": "资金来源",
+      "tag": "自有资金",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "证券经营机构投资者适当性管理实施指引(试行)",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "paragraph / 第1页 / b00003"
+    },
+    {
+      "document_title": "上海证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "dimension": "客户主体",
+      "tag": "证券公司",
+      "location": "第一条 / 第1页 / b00006"
+    },
+    {
+      "document_title": "上海证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "dimension": "客户主体",
+      "tag": "期货公司",
+      "location": "第一条 / 第1页 / b00006"
+    },
+    {
+      "document_title": "上海证券交易所信用保护工具交易业务指引(2022年修订)",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "上海证券交易所证券交易规则适用指引第1号——合格境外机构投资者和人民币合格境外机构投资者",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第1页 / b00005"
+    },
+    {
+      "document_title": "上海证券交易所证券交易规则适用指引第1号——合格境外机构投资者和人民币合格境外机构投资者",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "第一条 / 第1页 / b00005"
+    },
+    {
+      "document_title": "关于完善可转换公司债券投资者适当性管理相关事项的通知（2025年修订）",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "dimension": "客户主体",
+      "tag": "证券公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所、中国证券登记结算有限责任公司股票期权试点风险控制管理办法",
+      "dimension": "客户主体",
+      "tag": "期货公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所上市公司自律监管指引第15号——可转换公司债券（2025年修订）",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所交易规则（2026年修订）",
+      "dimension": "客户主体",
+      "tag": "证券公司",
+      "location": "paragraph / 第6页 / b00005"
+    },
+    {
+      "document_title": "深圳证券交易所交易规则（2026年修订）",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第6页 / b00005"
+    },
+    {
+      "document_title": "深圳证券交易所信用保护工具业务指引(2022年修订)",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第1页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所可转换公司债券交易实施细则（2025年修订）",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "dimension": "客户主体",
+      "tag": "证券公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "dimension": "客户主体",
+      "tag": "保险公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "dimension": "客户主体",
+      "tag": "QFII/RQFII",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第2页 / b00003"
+    },
+    {
+      "document_title": "深圳证券交易所股票期权试点交易规则",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第2页 / b00003"
+    },
+    {
+      "document_title": "期货公司风险管理公司业务试点指引",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "保险资产管理产品管理暂行办法",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第1页 / b00003"
+    },
+    {
+      "document_title": "保险资金参与金融衍生产品交易办法",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "保险资金参与金融衍生产品交易办法",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "保险资金参与金融衍生产品交易办法",
+      "dimension": "客户主体",
+      "tag": "保险集团（控股）公司",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "保险资金参与金融衍生产品交易办法",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "关于进一步规范商业银行结构性存款业务的通知",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "商业银行托管业务监督管理办法(试行)",
+      "dimension": "资金来源",
+      "tag": "保险资金",
+      "location": "paragraph / 第1页 / b00002"
+    },
+    {
+      "document_title": "商业银行理财子公司管理办法",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "第一条 / 第1页 / b00009"
+    },
+    {
+      "document_title": "组合类保险资产管理产品实施细则",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "组合类保险资产管理产品实施细则",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "客户主体",
+      "tag": "政策性银行",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "客户主体",
+      "tag": "外资银行",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "客户主体",
+      "tag": "银行理财子公司",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "客户主体",
+      "tag": "保险集团（控股）公司",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "客户主体",
+      "tag": "保险公司",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构产品适当性管理办法",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "金融机构非集中清算衍生品交易保证金管理办法",
+      "dimension": "客户主体",
+      "tag": "保险集团（控股）公司",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "金融机构非集中清算衍生品交易保证金管理办法",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "银行业金融机构衍生产品交易业务管理暂行办法",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "银行业金融机构衍生产品交易业务管理暂行办法",
+      "dimension": "交易场所",
+      "tag": "场内",
+      "location": "第一条 / 第1页 / b00004"
+    },
+    {
+      "document_title": "Shibor利率互换定盘(收盘)曲线报价规则",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第1页 / b00004"
+    },
+    {
+      "document_title": "Shibor利率互换定盘(收盘)曲线报价规则",
+      "dimension": "涉及交易行为监管",
+      "tag": "市场交易行为",
+      "location": "paragraph / 第1页 / b00004"
+    },
+    {
+      "document_title": "中华人民共和国证券投资基金法",
+      "dimension": "客户主体",
+      "tag": "私募基金管理人",
+      "location": "paragraph / 第1页 / b00002"
+    },
+    {
+      "document_title": "中华人民共和国证券投资基金法",
+      "dimension": "产品载体",
+      "tag": "公募基金",
+      "location": "paragraph / 第1页 / b00002"
+    },
+    {
+      "document_title": "中华人民共和国证券投资基金法",
+      "dimension": "产品载体",
+      "tag": "私募基金",
+      "location": "paragraph / 第1页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（2009年版）",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（凭证特别版）",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "paragraph / 第2页 / b00001"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "dimension": "客户主体",
+      "tag": "境外银行",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "dimension": "客户主体",
+      "tag": "境外券商",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "dimension": "客户主体",
+      "tag": "境外基金",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "dimension": "客户主体",
+      "tag": "境外保险机构",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "dimension": "客户主体",
+      "tag": "境外企业",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易主协议（跨境文本-2022年版）",
+      "dimension": "资金来源",
+      "tag": "跨境资金",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "中国银行间市场金融衍生产品交易转让式履约保障文件（变动保证金-2025年版）",
+      "dimension": "标的及业务品种",
+      "tag": "综合业务",
+      "location": "paragraph / 第3页 / b00002"
+    },
+    {
+      "document_title": "人民币利率互换集中清算合约移仓交易业务指引",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第1页 / b00005"
+    },
+    {
+      "document_title": "债券远期交易保证金集中管理操作细则",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第1页 / b00005"
+    },
+    {
+      "document_title": "全国银行间债券市场债券远期交易规则",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "第一条 / 第1页 / b00003"
+    },
+    {
+      "document_title": "全国银行间同业拆借中心信用风险缓释工具交易规则",
+      "dimension": "标的及业务品种",
+      "tag": "利率及债券类",
+      "location": "第一条 / 第1页 / b00006"
+    },
+    {
+      "document_title": "全国银行间同业拆借中心标准利率互换交易规则",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于规范金融机构资产管理业务的指导意见",
+      "dimension": "客户主体",
+      "tag": "信托公司",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于规范金融机构资产管理业务的指导意见",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于规范金融机构资产管理业务的指导意见",
+      "dimension": "产品载体",
+      "tag": "信托",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "dimension": "客户主体",
+      "tag": "基金管理公司",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "dimension": "客户主体",
+      "tag": "私募基金管理人",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "dimension": "客户主体",
+      "tag": "保险资产管理公司",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "dimension": "产品载体",
+      "tag": "理财",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "dimension": "产品载体",
+      "tag": "信托",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "关于进一步明确规范金融机构资产管理业务指导意见有关事项的通知",
+      "dimension": "涉及交易行为监管",
+      "tag": "风险控制措施",
+      "location": "paragraph / 第1页 / b00001"
+    },
+    {
+      "document_title": "私募投资基金监督管理条例",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "第一条 / 第1页 / b00010"
+    },
+    {
+      "document_title": "银行间外汇市场标准化人民币外汇远期掉期业务指南",
+      "dimension": "交易场所",
+      "tag": "场外",
+      "location": "paragraph / 第2页 / b00003"
+    },
+    {
+      "document_title": "银行间市场信用风险缓释工具业务规则(2025年版)",
+      "dimension": "涉及交易行为监管",
+      "tag": "机构交易内控",
+      "location": "paragraph / 第2页 / b00001"
+    }
+  ]
+}
