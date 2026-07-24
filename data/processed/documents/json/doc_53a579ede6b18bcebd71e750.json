@@ -19,7 +19,7 @@
     "catalog_index": 39,
     "local_file_path": "data/raw/监管文件/商业银行市场风险管理办法.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_c86ff85025d1c66e0961"
+    "legacy_document_id": "doc_53a579ede6b18bcebd71e750"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：第页",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "2cde3e7852001d3187a638d97d13c0f9ac646d316832b8400d284f9651bb3bcd",
     "clean_text_sha256": "28ef77cea15eff555ecc7e959099d821a7743c680330bc18e8bff055c5e35824",

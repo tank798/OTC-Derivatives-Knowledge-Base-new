@@ -19,12 +19,12 @@
     "catalog_index": 75,
     "local_file_path": "data/raw/监管文件/衍生品估值报告内容与格式指引.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_7756b294848454206c18"
+    "legacy_document_id": "doc_13136520622b62b0df62c703"
   },
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",
     "clean_text_sha256": "734d0f838b3f2380a62c4708a068e0da13cd409b0638a6afdad7a16957f5b3e5",

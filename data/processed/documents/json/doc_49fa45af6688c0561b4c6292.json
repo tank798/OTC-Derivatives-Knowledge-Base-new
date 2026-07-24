@@ -19,14 +19,14 @@
     "catalog_index": 48,
     "local_file_path": "data/raw/监管文件/中国证券期货市场衍生品交易主协议(信用保护合约专用版)备案指引.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_43746e773fd912303138"
+    "legacy_document_id": "doc_49fa45af6688c0561b4c6292"
   },
   "warnings": [
     "前置发布信息清洗：移出1个block，规则front_promulgation_parenthetical"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "ca7cab3ffe9c1ebd81abdf4d66c545fe58af0e45a450e261a4358ed756474ad5",
     "clean_text_sha256": "c4706087ea89f5c13a7977e01b6347fcbeb463cbe6326e27e41cd1d530b6c326",

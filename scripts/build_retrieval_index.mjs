@@ -23,6 +23,7 @@ import {
   sha256File,
   splitEmbeddingText,
   stableJson,
+  validateExistingVectorCompatibility,
 } from "./retrieval/core.mjs";
 
 const WITH_VECTORS = process.argv.includes("--with-vectors");
@@ -433,6 +434,13 @@ async function main() {
 
   const lookup = loadMetadataLookup();
   const corpus = buildCorpus(sourceChunks, lookup);
+  // Fail before writing any corpus/BM25 artifacts when an existing vector
+  // matrix is incompatible. This keeps the prior index atomically usable.
+  let existingVectorMetadata = null;
+  if (!WITH_VECTORS && existsSync(VECTOR_METADATA_PATH) && existsSync(VECTOR_PATH)) {
+    existingVectorMetadata = JSON.parse(readFileSync(VECTOR_METADATA_PATH, "utf8"));
+    validateExistingVectorCompatibility(corpus, existingVectorMetadata);
+  }
   // When incremental vectors reuse the same index directory, preserve the
   // previous corpus/vector pair before writing the new corpus.  Otherwise a
   // changed Chunk count makes the old vector file look corrupt (new row count,
@@ -459,16 +467,9 @@ async function main() {
     writeFileSync(BM25_PATH, JSON.stringify(bm25), "utf8");
     let vectorMetadata = null;
     if (WITH_VECTORS) vectorMetadata = await buildVectors(corpus, reuseIndexDir);
-    else if (existsSync(VECTOR_METADATA_PATH) && existsSync(VECTOR_PATH)) {
-      vectorMetadata = JSON.parse(readFileSync(VECTOR_METADATA_PATH, "utf8"));
-      const currentEmbeddingInput = embeddingInputFingerprint(corpus);
-      if (vectorMetadata.embedding_input_sha256 && vectorMetadata.embedding_input_sha256 !== currentEmbeddingInput) {
-        throw new Error("Embedding输入已变化，请使用--with-vectors重建向量");
-      }
-      if (vectorMetadata.row_chunk_ids.length !== corpus.length
-        || vectorMetadata.row_chunk_ids.some((chunkId, index) => chunkId !== corpus[index].chunk_id)) {
-        throw new Error("Chunk行号已变化，请使用--with-vectors重建向量");
-      }
+    else if (existingVectorMetadata) {
+      vectorMetadata = existingVectorMetadata;
+      const currentEmbeddingInput = validateExistingVectorCompatibility(corpus, vectorMetadata);
       vectorMetadata.embedding_input_sha256 = currentEmbeddingInput;
       vectorMetadata.model_revision = MODEL_REVISION;
       vectorMetadata.corpus_sha256 = sha256File(CORPUS_PATH);

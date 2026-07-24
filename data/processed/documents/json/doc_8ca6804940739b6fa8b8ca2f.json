@@ -19,14 +19,14 @@
     "catalog_index": 60,
     "local_file_path": "data/raw/监管文件/证券公司投资者权益保护工作规范.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_580974a7c77d9334059c"
+    "legacy_document_id": "doc_8ca6804940739b6fa8b8ca2f"
   },
   "warnings": [
     "前置发布信息清洗：移出1个block，规则front_promulgation_parenthetical"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "a26dc0fec56de0f70b606dc15f88dfe3ebda8faf309fd80f3813c90d40dc83ce",
     "clean_text_sha256": "2e46bfa6d9697fc5c6d27e1f20f1ca46051a6b918eff97ac026ffbb1065fa982",

@@ -19,14 +19,14 @@
     "catalog_index": 54,
     "local_file_path": "data/raw/监管文件/证券公司合规管理实施指引.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_e39e37deb208b74b6034"
+    "legacy_document_id": "doc_0fa9125a6f4154172eb568aa"
   },
   "warnings": [
     "前置发布信息清洗：移出1个block，规则front_promulgation_parenthetical"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "8bab311d9938524f7f9125b531ecc26a6d30ee78f8070c8c7fba0232d6201b6f",
     "clean_text_sha256": "ed6cbbcdbb2eaf0b250f6a063ba3eba64671cf8a7411d23ae928d650aafbab2e",

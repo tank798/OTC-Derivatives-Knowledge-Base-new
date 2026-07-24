@@ -19,14 +19,14 @@
     "catalog_index": 82,
     "local_file_path": "data/raw/监管文件/期货公司风险管理公司业务试点指引.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_99186c9e760dca2ca230"
+    "legacy_document_id": "doc_30c904ae88415de15c32a215"
   },
   "warnings": [
     "前置发布信息清洗：移出1个block，规则front_promulgation_parenthetical"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "72233a9830d41c43906fc030532f262fb63fc61e07fd472ad668419961c181c6",
     "clean_text_sha256": "b26f2004784b147096ab321d77cc15b29ebe32d65fd6707f923b32f5afbc78eb",

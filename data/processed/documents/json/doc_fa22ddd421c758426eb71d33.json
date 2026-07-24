@@ -19,14 +19,14 @@
     "catalog_index": 63,
     "local_file_path": "data/raw/监管文件/证券公司收益凭证发行管理办法.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_9044255a0f9e122b6ec6"
+    "legacy_document_id": "doc_fa22ddd421c758426eb71d33"
   },
   "warnings": [
     "已合并5处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "116bc266ffa96342ebf442f45e385528d5f91bf59ef98057fe771e07b842cb78",
     "clean_text_sha256": "116bc266ffa96342ebf442f45e385528d5f91bf59ef98057fe771e07b842cb78",

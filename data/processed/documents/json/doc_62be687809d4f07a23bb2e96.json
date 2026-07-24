@@ -19,7 +19,7 @@
     "catalog_index": 124,
     "local_file_path": "data/raw/监管文件/深交所股票期权试点证券公司经纪业务指南.doc",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_ce4414a9c1b633b9d023"
+    "legacy_document_id": "doc_62be687809d4f07a23bb2e96"
   },
   "warnings": [
     "已过滤84个Word目录段落",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "4d5bd30238b55183580404f0ef86bc75fc62c2aa84f4387c042580929214d687",
     "clean_text_sha256": "e129f666f00317148aa2fb334b736e400ccf99a5beccc6478d9e3f2fa29fa4d2",

@@ -19,7 +19,7 @@
     "catalog_index": 16,
     "local_file_path": "data/raw/监管文件/证券公司分类评价规定.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_0710ae138dcc6a27b3a4",
+    "legacy_document_id": "doc_dbb298ab7fabe184d3910e75",
     "version_note": "现公布《关于修改〈证券公司分类监管规定〉的决定》,自2025年8月22日起施行。"
   },
   "warnings": [
@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "7cbbf2bbe69dca6e8bcc584b523d3a03ce601feec7088f5bf88bc95b0ce3d512",
     "clean_text_sha256": "f87ce8ca5b156796cb80d94c34c79846a1895a43e58fa5961c42236b555471d4",

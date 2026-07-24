@@ -19,7 +19,7 @@
     "catalog_index": 123,
     "local_file_path": "data/raw/监管文件/深圳证券交易所股票期权试点证券公司自营业务指南.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_1e381b11e4b1e11fbc65"
+    "legacy_document_id": "doc_b2564c4b9418360e21a2f1b9"
   },
   "warnings": [
     "第1页过滤22行目录条目",
@@ -43,7 +43,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "48eb537ca5b588ab2de1a3173908e2d1a25a34c985d3cd09e85bb4d31e1afd8f",
     "clean_text_sha256": "95454dae952fd4d4b04b45e930e67a9bfe87522a9a36728223fecb2fa5230a4a",

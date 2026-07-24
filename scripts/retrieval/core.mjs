@@ -330,6 +330,24 @@ export function embeddingInputFingerprint(corpus) {
   return hash.digest("hex");
 }
 
+export function validateExistingVectorCompatibility(corpus, vectorMetadata) {
+  const currentEmbeddingInput = embeddingInputFingerprint(corpus);
+  if (
+    vectorMetadata.embedding_input_sha256
+    && vectorMetadata.embedding_input_sha256 !== currentEmbeddingInput
+  ) {
+    throw new Error("Embedding输入已变化，请使用--with-vectors重建向量");
+  }
+  if (
+    !Array.isArray(vectorMetadata.row_chunk_ids)
+    || vectorMetadata.row_chunk_ids.length !== corpus.length
+    || vectorMetadata.row_chunk_ids.some((chunkId, index) => chunkId !== corpus[index].chunk_id)
+  ) {
+    throw new Error("Chunk行号已变化，请使用--with-vectors重建向量");
+  }
+  return currentEmbeddingInput;
+}
+
 export function normalizeVector(vector) {
   let norm = 0;
   for (const value of vector) norm += value * value;

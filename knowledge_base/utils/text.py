@@ -31,12 +31,22 @@ SYMBOL_PUA_MAP = {
     0xF0FB: "", 0xF0FC: "}", 0xF0FD: "", 0xF0FE: "",
 }
 
+# 经原始 Word/PDF 版式复核确认的非语义排版字符。U+E5E5 是中文
+# 政府网页复制到 Word 时常见的全角占位空格；U+E004 是 WPS 旧 DOC
+# 在页末插入的换页控制标记。二者都不表示公式或正文内容。
+NON_SEMANTIC_PUA_MAP = {
+    0xE004: "",
+    0xE5E5: " ",
+}
+
 
 def normalize_symbol_pua(value: str) -> str:
     result: list[str] = []
     for char in value:
         codepoint = ord(char)
-        if codepoint in SYMBOL_PUA_MAP:
+        if codepoint in NON_SEMANTIC_PUA_MAP:
+            result.append(NON_SEMANTIC_PUA_MAP[codepoint])
+        elif codepoint in SYMBOL_PUA_MAP:
             result.append(SYMBOL_PUA_MAP[codepoint])
         elif 0xE000 <= codepoint <= 0xF8FF:
             result.append(f"[未映射公式符号U+{codepoint:04X}]")

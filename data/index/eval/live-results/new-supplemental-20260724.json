@@ -1,0 +1,156 @@
+{
+  "startedAt": "2026-07-24T05:58:16.232Z",
+  "finishedAt": "2026-07-24T05:59:49.234Z",
+  "verificationScope": "workflow_and_citation_integrity",
+  "qualityJudgement": "not_included",
+  "baseUrl": "http://127.0.0.1:4001/api",
+  "queryFile": "data/index/eval/new_supplemental_queries_20260724.jsonl",
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "id": "NEW-001",
+      "query": "根据《期货市场程序化交易管理规定（试行）》，高频交易者除一般程序化交易报告信息外，还应额外报告哪些信息？",
+      "ok": true,
+      "turns": [
+        {
+          "message": "根据《期货市场程序化交易管理规定（试行）》，高频交易者除一般程序化交易报告信息外，还应额外报告哪些信息？",
+          "stage": "awaiting_confirmation",
+          "latencyMs": 1091,
+          "proposedQuery": "根据《期货市场程序化交易管理规定（试行）》，高频交易者除一般程序化交易报告信息外，还应额外报告哪些信息？"
+        },
+        {
+          "message": "是",
+          "stage": "complete",
+          "latencyMs": 22530,
+          "proposedQuery": "根据《期货市场程序化交易管理规定（试行）》，高频交易者除一般程序化交易报告信息外，还应额外报告哪些信息？"
+        }
+      ],
+      "conclusion": "根据《期货市场程序化交易管理规定（试行）》第十条，高频交易者除一般程序化交易报告信息外，还应额外报告：交易策略类型及主要内容、最高报撤单频率、单日最高报撤单笔数、服务器所在地、技术系统测试报告、应急方案、风险控制措施。",
+      "citedRegulations": [
+        "期货市场程序化交易管理规定（试行）"
+      ],
+      "citedChunkCount": 2,
+      "wikiCount": 0,
+      "invalidEvidenceIds": [],
+      "trace": {
+        "runId": "agent-run-2026-07-24T05-58-16-260Z-d98e9782",
+        "searchCount": 1,
+        "repairCount": 0,
+        "llmCalls": 3,
+        "searchedQueries": [
+          "根据《期货市场程序化交易管理规定（试行）》，高频交易者除一般程序化交易报告信息外，还应额外报告哪些信息？"
+        ],
+        "evidenceIds": [
+          "chunk_bb83ad57b53831a836d70e96",
+          "chunk_36519ee98f1eba425390216f",
+          "chunk_24016cc19296c4bf2fa96031",
+          "chunk_71a71e79aae67e2f7593fd72",
+          "chunk_1a7689202f4c029093cb8efa",
+          "chunk_c7948969c449ad192db5d220",
+          "chunk_7eb24ec4e4e83f004ae70563",
+          "chunk_057bf358f9e531360a895b3b",
+          "chunk_c951777b5033cb30b54aa74c",
+          "chunk_295731bd14835c8b5160f1f1"
+        ]
+      }
+    },
+    {
+      "id": "NEW-002",
+      "query": "根据《证券公司信息隔离墙制度指引》，公开侧工作人员跨墙后，需要满足什么条件才可以回墙？",
+      "ok": true,
+      "turns": [
+        {
+          "message": "根据《证券公司信息隔离墙制度指引》，公开侧工作人员跨墙后，需要满足什么条件才可以回墙？",
+          "stage": "awaiting_confirmation",
+          "latencyMs": 955,
+          "proposedQuery": "根据《证券公司信息隔离墙制度指引》，公开侧工作人员完成跨墙后，需要满足什么条件才能返回原侧（回墙）？"
+        },
+        {
+          "message": "是",
+          "stage": "complete",
+          "latencyMs": 34913,
+          "proposedQuery": "根据《证券公司信息隔离墙制度指引》，公开侧工作人员完成跨墙后，需要满足什么条件才能返回原侧（回墙）？"
+        }
+      ],
+      "conclusion": "根据《证券公司信息隔离墙制度指引》第十条第四款，公开侧工作人员跨墙后回墙需同时满足两个条件：跨墙活动结束，且其获取的内幕信息已公开或者不再具有重大影响。满足该等条件后方可回墙，条文未规定额外的回墙审批程序。",
+      "citedRegulations": [
+        "证券公司信息隔离墙制度指引"
+      ],
+      "citedChunkCount": 3,
+      "wikiCount": 0,
+      "invalidEvidenceIds": [],
+      "trace": {
+        "runId": "agent-run-2026-07-24T05-58-39-856Z-e4b8ab7d",
+        "searchCount": 1,
+        "repairCount": 0,
+        "llmCalls": 3,
+        "searchedQueries": [
+          "根据《证券公司信息隔离墙制度指引》，公开侧工作人员完成跨墙后，需要满足什么条件才能返回原侧（回墙）？"
+        ],
+        "evidenceIds": [
+          "chunk_0d4709113d441aa39265f9f2",
+          "chunk_f4f162eded742fddb9fe8278",
+          "chunk_4d87f19eeb98d549f148da1f",
+          "chunk_609342f71d54bff81c5a1710",
+          "chunk_f69f656984643d0ee8d66f31",
+          "chunk_602c7c859e83375af4f1e8c1",
+          "chunk_809b495613fc07df58ea811b",
+          "chunk_6ecc39bf26f6ba901ab5c2ec",
+          "chunk_a2f90ad5c774066f01e60806",
+          "chunk_ed71af6aa2d4bcbe66fbb394"
+        ]
+      }
+    },
+    {
+      "id": "NEW-003",
+      "query": "根据《关于短线交易监管的若干规定》，可交换公司债券或可转换公司债券的换股、赎回、回售导致证券数量变化，是否构成短线交易？",
+      "ok": true,
+      "turns": [
+        {
+          "message": "根据《关于短线交易监管的若干规定》，可交换公司债券或可转换公司债券的换股、赎回、回售导致证券数量变化，是否构成短线交易？",
+          "stage": "awaiting_confirmation",
+          "latencyMs": 922,
+          "proposedQuery": "根据《关于短线交易监管的若干规定》，可交换公司债券或可转换公司债券的换股、赎回、回售导致证券数量变化，是否构成短线交易？"
+        },
+        {
+          "message": "是",
+          "stage": "complete",
+          "latencyMs": 32590,
+          "proposedQuery": "根据《关于短线交易监管的若干规定》，可交换公司债券或可转换公司债券的换股、赎回、回售导致证券数量变化，是否构成短线交易？"
+        }
+      ],
+      "conclusion": "不构成短线交易。《关于短线交易监管的若干规定》第六条第二项、第三项明确将可交换公司债券换股、赎回及回售，以及可转换公司债券转股、赎回及回售列为不构成短线交易的行为，但利用信息优势等谋取非法利益的除外。",
+      "citedRegulations": [
+        "关于短线交易监管的若干规定",
+        "上海证券交易所上市公司自律监管指引第12号——可转换公司债券（2025年3月修订）",
+        "深圳证券交易所上市公司自律监管指引第15号——可转换公司债券（2025年修订）"
+      ],
+      "citedChunkCount": 4,
+      "wikiCount": 0,
+      "invalidEvidenceIds": [],
+      "trace": {
+        "runId": "agent-run-2026-07-24T05-59-15-723Z-44c48f4b",
+        "searchCount": 1,
+        "repairCount": 0,
+        "llmCalls": 3,
+        "searchedQueries": [
+          "根据《关于短线交易监管的若干规定》，可交换公司债券或可转换公司债券的换股、赎回、回售导致证券数量变化，是否构成短线交易？"
+        ],
+        "evidenceIds": [
+          "chunk_af4c1a266456a4fe6cdee1b3",
+          "chunk_bad4577de835f4f49c6343cf",
+          "chunk_641afa51a6c420030a01ec70",
+          "chunk_d1db03f2da2297908d12f53f",
+          "chunk_893661d3764fc0c60b938c53",
+          "chunk_40d8e3f37034de153e81b3bf",
+          "chunk_5ef6a7f544b8e360d918cabd",
+          "chunk_77c47e12a70786199b742353",
+          "chunk_e6af12adf605c7961935678f",
+          "chunk_469f2328ed84e027e082f9df"
+        ]
+      }
+    }
+  ]
+}

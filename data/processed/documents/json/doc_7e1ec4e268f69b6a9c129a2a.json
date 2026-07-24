@@ -19,7 +19,7 @@
     "catalog_index": 65,
     "local_file_path": "data/raw/监管文件/证券公司金融工具估值指引.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_717fbae683d2b9e492ef"
+    "legacy_document_id": "doc_7e1ec4e268f69b6a9c129a2a"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：第页",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "e116b88430c20c910206bdd6ab31783d4004f73bcc644363a3bfb0c4364cc97e",
     "clean_text_sha256": "e7217b6e3ed61604b2716673c22cb4a06e34decfc20b964a9483a43cd50d2ef0",

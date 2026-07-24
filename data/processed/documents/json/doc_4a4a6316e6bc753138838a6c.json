@@ -19,14 +19,14 @@
     "catalog_index": 56,
     "local_file_path": "data/raw/监管文件/证券公司场外期权业务数据报送须知.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_b695e66a790eac17d2f4"
+    "legacy_document_id": "doc_4a4a6316e6bc753138838a6c"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：2"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",
     "clean_text_sha256": "6ff3586cfee8d80494545217b4f925179f78a2dfa91095b67344d2af9a5ab843",

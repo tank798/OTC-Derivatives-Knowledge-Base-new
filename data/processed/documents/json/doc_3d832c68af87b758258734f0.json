@@ -19,7 +19,7 @@
     "catalog_index": 18,
     "local_file_path": "data/raw/监管文件/证券公司风险控制指标计算标准规定.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_6259b9d61918aaa5491a",
+    "legacy_document_id": "doc_3d832c68af87b758258734f0",
     "version_note": "证券公司风险控制指标计算标准规定根据《证券公司风险控制指标管理办法》(中国证监会令第 166 号)相关规定,为充分反映和有效防范证券公司风险,根据市场发展情况,我会修订了《证券公司风险控制指标计算标准规定》,自 2025 年 1 月 1 日起施行。证监会公告〔2020〕10 号同时废止。"
   },
   "warnings": [
@@ -48,7 +48,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "08b2d489dd862b1ef4f6aec450e3e4a1e8e9858169d9d69756fbe0143af02fba",
     "clean_text_sha256": "6fa3a5cf8faf85cf7b8dd68436e839cae9f02db93dc73f619d47c44a7a79a3da",

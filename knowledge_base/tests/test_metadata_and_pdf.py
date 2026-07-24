@@ -18,13 +18,22 @@ from parsers.pdf_parser import join_pdf_lines, merge_cross_page_paragraphs, norm
 from parsers.pdf_formula_overrides import apply_verified_formula_overrides
 from parsers.pdf_content_overrides import apply_verified_pdf_content_overrides
 from parsers.legacy_doc_formula_overrides import apply_verified_formula_overrides as apply_verified_doc_formula_overrides
+from chunkers.structure import classify_block
 from utils.metadata import infer_metadata
 from utils.front_matter import clean_front_matter
-from utils.structured import structured_blocks
+from utils.structured import block_type, structured_blocks
 from utils.text import clean_text, is_page_number
 
 
 class MetadataAndPdfTests(unittest.TestCase):
+    def test_substantive_numbered_condition_is_not_promoted_to_guide_heading(self):
+        block = SourceBlock(
+            "(二)短时间内报单、撤单的笔数和报撤单成交比达到",
+            block_id="b1",
+        )
+        self.assertEqual(block_type(block), "paragraph")
+        self.assertEqual(classify_block(block)[0], "item")
+
     def test_pdf_wrapped_numbered_items_are_joined_without_promoting_the_lead_to_heading(self):
         lines = [
             "（一）向《私募办法》规定的合格投资者之外的单位、个人",
@@ -52,6 +61,21 @@ class MetadataAndPdfTests(unittest.TestCase):
             [
                 "(三)不符合本规定第六条第一款第(一)项至第(八)项、第六条第一款第(十)项、第七条的,可以依法处理;",
                 "第七条 这是下一条正文。",
+            ],
+        )
+
+    def test_pdf_in_text_article_reference_is_not_promoted_to_new_article(self):
+        joined = join_pdf_lines([
+            "第二条 大股东减持相关股份，仅适用本办法",
+            "第四条至第八条、第十八条、第二十八条至",
+            "第三十条的规定。",
+            "第三条 这是下一条正文。",
+        ])
+        self.assertEqual(
+            joined,
+            [
+                "第二条 大股东减持相关股份,仅适用本办法第四条至第八条、第十八条、第二十八条至第三十条的规定。",
+                "第三条 这是下一条正文。",
             ],
         )
 
@@ -157,6 +181,84 @@ class MetadataAndPdfTests(unittest.TestCase):
         self.assertEqual(
             set(document.cleaning["rule_hits"]),
             {"cover_attachment_label", "cover_authority", "cover_document_title", "cover_month"},
+        )
+
+    def test_plain_attachment_cover_split_title_and_revision_note_are_removed(self):
+        document = ParsedDocument(
+            Path("上海证券交易所股票期权试点投资者适当性管理指引(2017年修订).docx"),
+            "docx",
+            [
+                SourceBlock("附件", block_id="b1"),
+                SourceBlock("上海证券交易所股票期权试点投资者", block_id="b2"),
+                SourceBlock("适当性管理指引", block_id="b3"),
+                SourceBlock("(2015年1月9日实施 2017年6月28日第一次修订)", block_id="b4"),
+                SourceBlock("第一章 总则", block_id="b5"),
+                SourceBlock("第一条 正文。", block_id="b6"),
+            ],
+            {
+                "document_title": "上海证券交易所股票期权试点投资者适当性管理指引(2017年修订)",
+                "issuing_authority": "上海证券交易所",
+            },
+        )
+
+        clean_front_matter(document)
+
+        self.assertEqual(
+            [block.text for block in document.blocks],
+            ["第一章 总则", "第一条 正文。"],
+        )
+        self.assertEqual(
+            set(document.cleaning["rule_hits"]),
+            {
+                "cover_attachment_label",
+                "cover_document_title",
+                "front_promulgation_parenthetical",
+            },
+        )
+
+    def test_inline_attachment_cover_title_ignores_harmless_title_separators(self):
+        document = ParsedDocument(
+            Path("深圳证券交易所股票期权试点投资者适当性管理指引.pdf"),
+            "pdf",
+            [
+                SourceBlock(
+                    "附件:深圳证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+                    block_id="b1",
+                ),
+                SourceBlock("第一章 总则", block_id="b2"),
+                SourceBlock("第一条 正文。", block_id="b3"),
+            ],
+            {
+                "document_title": "深圳证券交易所、中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+                "issuing_authority": "深圳证券交易所、中国证券登记结算有限责任公司",
+            },
+        )
+
+        clean_front_matter(document)
+
+        self.assertEqual(
+            [block.text for block in document.blocks],
+            ["第一章 总则", "第一条 正文。"],
+        )
+        self.assertEqual(document.cleaning["rule_hits"], ["cover_document_title"])
+
+    def test_substantive_attachment_heading_not_matching_document_title_is_preserved(self):
+        document = ParsedDocument(
+            Path("测试办法.docx"),
+            "docx",
+            [
+                SourceBlock("附件一 业务填报表", block_id="b1"),
+                SourceBlock("一、填报范围", block_id="b2"),
+                SourceBlock("填报正文。", block_id="b3"),
+            ],
+            {"document_title": "测试办法", "issuing_authority": "测试机关"},
+        )
+
+        clean_front_matter(document)
+
+        self.assertEqual(
+            [block.text for block in document.blocks],
+            ["附件一 业务填报表", "一、填报范围", "填报正文。"],
         )
 
     def test_multiple_guide_cover_titles_are_removed_in_one_pass_and_cleaning_is_idempotent(self):
@@ -420,6 +522,8 @@ class MetadataAndPdfTests(unittest.TestCase):
     def test_symbol_private_use_characters_are_normalized(self):
         self.assertEqual(clean_text("A\uf03dB\uf02bC\uf0b4D"), "A=B+C×D")
         self.assertNotIn("\uf03d", clean_text("A\uf03dB"))
+        self.assertEqual(clean_text("第二章\ue5e5资金运用形式"), "第二章 资金运用形式")
+        self.assertEqual(clean_text("包括以下类型:\ue004"), "包括以下类型:")
 
     def test_wrapped_decimal_is_repaired_without_joining_list_items(self):
         self.assertEqual(clean_text("1.\n1 权益类衍生品交易"), "1.1 权益类衍生品交易")
@@ -454,6 +558,20 @@ class MetadataAndPdfTests(unittest.TestCase):
             [block.text for block in blocks],
             ["主协议", "为明确交易双方的权利和义务,双方签署本主协议。", "第一条 协议构成", "正文"],
         )
+
+    def test_legacy_doc_lone_toc_marker_before_first_article_is_removed(self):
+        text = """测试定义文件
+声明
+本文件供市场参与者使用。
+目录
+第一条 通用定义
+正文"""
+        blocks, warnings = _blocks_from_plain_text(text)
+        self.assertEqual(
+            [block.text for block in blocks],
+            ["测试定义文件", "声明", "本文件供市场参与者使用。", "第一条 通用定义", "正文"],
+        )
+        self.assertTrue(any("目录" in warning for warning in warnings))
 
     def test_rate_definition_fraction_is_restored_from_verified_pdf_layout(self):
         blocks = [SourceBlock(

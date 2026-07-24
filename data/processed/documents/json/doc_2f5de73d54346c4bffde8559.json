@@ -19,14 +19,14 @@
     "catalog_index": 44,
     "local_file_path": "data/raw/监管文件/保险资金参与金融衍生产品交易办法.doc",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_b536eeef673a2e28c854"
+    "legacy_document_id": "doc_2f5de73d54346c4bffde8559"
   },
   "warnings": [
-    "旧DOC经LibreOffice直接只读导出文本，原文件未修改"
+    "LibreOffice转换失败，旧DOC通过macOS textutil只读抽取并清理域代码，原文件未修改"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "aad29b8adfcb3ebde9e3c8f2f9a60d9d2f05711190dda7da8c4431f79a86f27e",
     "clean_text_sha256": "aad29b8adfcb3ebde9e3c8f2f9a60d9d2f05711190dda7da8c4431f79a86f27e",

@@ -19,7 +19,7 @@
     "catalog_index": 1,
     "local_file_path": "data/raw/监管文件/中华人民共和国期货和衍生品法.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_ffb02ecff9963ca8b912",
+    "legacy_document_id": "doc_9fa2a0c832c7b6505a74d692",
     "version_note": "中华人民共和国期货和衍生品法主席令第一一一号《中华人民共和国期货和衍生品法》已由中华人民共和国第十三届全国人民代表大会常务委员会第三十四次会议于 2022 年4 月 20 日通过,现予公布,自 2022 年 8 月 1 日起施行。中华人民共和国主席 习近平2022 年 4 月 20 日(2022 年 4 月 20 日第十三届全国人民代表大会常务委员会第三十四次会议通过)"
   },
   "warnings": [
@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "81c6c3010267565e0d283eb3dbbbf03cf606b4892e175bd919d4061b69bd176c",
     "clean_text_sha256": "d45e04223cc17a8a4dc6addef390ec8fabc04b7858fec355c8a966047827815c",

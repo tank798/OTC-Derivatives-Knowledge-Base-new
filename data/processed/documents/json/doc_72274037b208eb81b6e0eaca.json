@@ -19,14 +19,14 @@
     "catalog_index": 102,
     "local_file_path": "data/raw/监管文件/上海证券交易所信用保护工具交易业务指引(2022年修订).docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_3b5803d96ec9d658d353"
+    "legacy_document_id": "doc_72274037b208eb81b6e0eaca"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：-13-"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "0a05b7c787851d074a5cdb992be41f438238690bfc5ee077e9a5fa448f356994",
     "clean_text_sha256": "0a05b7c787851d074a5cdb992be41f438238690bfc5ee077e9a5fa448f356994",

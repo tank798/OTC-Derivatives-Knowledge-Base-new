@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/深圳证券交易所股票期权试点投资者适当性管理指引.pdf",
   "source_type": "pdf",
   "file_sha256": "a329487b521dc04455b7a62d75179dabba5c10de010099ad863598fab335f49c",
-  "content_sha256": "354ad7922452c22f78897be7b9a32d284299d1e0b766ff190229f48f09d54d96",
+  "content_sha256": "daf817e58a02aed33afee75b9f890ea3dee2b7cef37a668df5a660e8c596eabc",
   "metadata": {
     "document_title": "深圳证券交易所股票期权试点投资者适当性管理指引",
     "issuing_authority": "深圳证券交易所",
@@ -19,27 +19,49 @@
     "catalog_index": 117,
     "local_file_path": "data/raw/监管文件/深圳证券交易所股票期权试点投资者适当性管理指引.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_a329487b521dc04455b7"
+    "legacy_document_id": "doc_ae3d0612564aaa75db43c924"
   },
   "warnings": [
-    "已合并8处PDF跨页句子或词语断行"
+    "已合并8处PDF跨页句子或词语断行",
+    "前置发布信息清洗：移出1个block，规则cover_document_title"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
-    "status": "unchanged",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
+    "status": "changed",
     "original_text_sha256": "8475d5eaf701d3277e066e5f028b78ea75ddb01945fae0ecebe804aec46921a7",
-    "clean_text_sha256": "8475d5eaf701d3277e066e5f028b78ea75ddb01945fae0ecebe804aec46921a7",
+    "clean_text_sha256": "7665ff86d41eaa312ba3acb81a78b8aefa9bdeaf6ff5fbe6ba073b1d8afe062a",
     "chars_before": 9484,
-    "chars_after": 9484,
-    "removed_character_count": 0,
-    "rule_hits": [],
-    "removed_front_matter": [],
-    "cleaning_log": [],
+    "chars_after": 9458,
+    "removed_character_count": 26,
+    "rule_hits": [
+      "cover_document_title"
+    ],
+    "removed_front_matter": [
+      {
+        "block_id": "b00001",
+        "page": 1,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
+        "character_count": 26
+      }
+    ],
+    "cleaning_log": [
+      {
+        "block_id": "b00001",
+        "page": 1,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
+        "character_count": 26
+      }
+    ],
     "content_overrides": [],
     "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
-      "b00001",
       "b00002",
       "b00003",
       "b00004",
@@ -177,23 +199,21 @@
     ]
   },
   "original_text_sha256": "8475d5eaf701d3277e066e5f028b78ea75ddb01945fae0ecebe804aec46921a7",
-  "clean_text_sha256": "8475d5eaf701d3277e066e5f028b78ea75ddb01945fae0ecebe804aec46921a7",
-  "clean_text_hash": "5464e22977c52d2b6c9e6a4fb7ee516a1ec315365b9c14ba1c4583c4f0f210cd",
-  "structured_blocks_sha256": "298d75ee0f690db339afebc6c3d094a3690f2735c04552e8753f3077205fa9bb",
-  "front_matter": [],
-  "body_blocks": [
+  "clean_text_sha256": "7665ff86d41eaa312ba3acb81a78b8aefa9bdeaf6ff5fbe6ba073b1d8afe062a",
+  "clean_text_hash": "47f8bfce8e31fbe729eb90520f23c012add84e86000aa5ad9bb6afcc63ed218c",
+  "structured_blocks_sha256": "df8e05c4b5ee64881e90e27e0dc4e0a18576ed09a743767e26d47632cde3d660",
+  "front_matter": [
     {
       "block_id": "b00001",
-      "block_type": "document_title",
-      "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
-      "style": "",
+      "page": 1,
       "source_kind": "paragraph",
-      "source_page_start": 1,
-      "source_page_end": 1,
-      "start_char": 0,
-      "end_char": 26,
-      "region": "body"
-    },
+      "rule_id": "cover_document_title",
+      "action": "moved_to_front_matter",
+      "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
+      "character_count": 26
+    }
+  ],
+  "body_blocks": [
     {
       "block_id": "b00002",
       "block_type": "chapter",
@@ -202,8 +222,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 28,
-      "end_char": 34,
+      "start_char": 0,
+      "end_char": 6,
       "region": "body"
     },
     {
@@ -214,8 +234,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 36,
-      "end_char": 159,
+      "start_char": 8,
+      "end_char": 131,
       "region": "body"
     },
     {
@@ -226,8 +246,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 161,
-      "end_char": 327,
+      "start_char": 133,
+      "end_char": 299,
       "region": "body"
     },
     {
@@ -238,8 +258,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 329,
-      "end_char": 455,
+      "start_char": 301,
+      "end_char": 427,
       "region": "body"
     },
     {
@@ -250,8 +270,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 457,
-      "end_char": 569,
+      "start_char": 429,
+      "end_char": 541,
       "region": "body"
     },
     {
@@ -262,8 +282,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 571,
-      "end_char": 646,
+      "start_char": 543,
+      "end_char": 618,
       "region": "body"
     },
     {
@@ -274,8 +294,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 648,
-      "end_char": 722,
+      "start_char": 620,
+      "end_char": 694,
       "region": "body"
     },
     {
@@ -286,8 +306,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 724,
-      "end_char": 736,
+      "start_char": 696,
+      "end_char": 708,
       "region": "body"
     },
     {
@@ -298,8 +318,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 738,
-      "end_char": 750,
+      "start_char": 710,
+      "end_char": 722,
       "region": "body"
     },
     {
@@ -310,8 +330,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 752,
-      "end_char": 777,
+      "start_char": 724,
+      "end_char": 749,
       "region": "body"
     },
     {
@@ -322,8 +342,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 779,
-      "end_char": 846,
+      "start_char": 751,
+      "end_char": 818,
       "region": "body"
     },
     {
@@ -334,8 +354,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 848,
-      "end_char": 917,
+      "start_char": 820,
+      "end_char": 889,
       "region": "body"
     },
     {
@@ -346,8 +366,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 919,
-      "end_char": 943,
+      "start_char": 891,
+      "end_char": 915,
       "region": "body"
     },
     {
@@ -358,8 +378,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 945,
-      "end_char": 964,
+      "start_char": 917,
+      "end_char": 936,
       "region": "body"
     },
     {
@@ -370,8 +390,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 966,
-      "end_char": 981,
+      "start_char": 938,
+      "end_char": 953,
       "region": "body"
     },
     {
@@ -382,8 +402,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 983,
-      "end_char": 1010,
+      "start_char": 955,
+      "end_char": 982,
       "region": "body"
     },
     {
@@ -394,8 +414,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1012,
-      "end_char": 1039,
+      "start_char": 984,
+      "end_char": 1011,
       "region": "body"
     },
     {
@@ -406,8 +426,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1041,
-      "end_char": 1142,
+      "start_char": 1013,
+      "end_char": 1114,
       "region": "body"
     },
     {
@@ -418,8 +438,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1144,
-      "end_char": 1171,
+      "start_char": 1116,
+      "end_char": 1143,
       "region": "body"
     },
     {
@@ -430,8 +450,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1173,
-      "end_char": 1241,
+      "start_char": 1145,
+      "end_char": 1213,
       "region": "body"
     },
     {
@@ -442,8 +462,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1243,
-      "end_char": 1263,
+      "start_char": 1215,
+      "end_char": 1235,
       "region": "body"
     },
     {
@@ -454,8 +474,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1265,
-      "end_char": 1295,
+      "start_char": 1237,
+      "end_char": 1267,
       "region": "body"
     },
     {
@@ -466,8 +486,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1297,
-      "end_char": 1322,
+      "start_char": 1269,
+      "end_char": 1294,
       "region": "body"
     },
     {
@@ -478,8 +498,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1324,
-      "end_char": 1378,
+      "start_char": 1296,
+      "end_char": 1350,
       "region": "body"
     },
     {
@@ -490,8 +510,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1380,
-      "end_char": 1435,
+      "start_char": 1352,
+      "end_char": 1407,
       "region": "body"
     },
     {
@@ -502,8 +522,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1437,
-      "end_char": 1498,
+      "start_char": 1409,
+      "end_char": 1470,
       "region": "body"
     },
     {
@@ -514,8 +534,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1500,
-      "end_char": 1527,
+      "start_char": 1472,
+      "end_char": 1499,
       "region": "body"
     },
     {
@@ -526,8 +546,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1529,
-      "end_char": 1560,
+      "start_char": 1501,
+      "end_char": 1532,
       "region": "body"
     },
     {
@@ -538,8 +558,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1562,
-      "end_char": 1589,
+      "start_char": 1534,
+      "end_char": 1561,
       "region": "body"
     },
     {
@@ -550,8 +570,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1591,
-      "end_char": 1642,
+      "start_char": 1563,
+      "end_char": 1614,
       "region": "body"
     },
     {
@@ -562,8 +582,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1644,
-      "end_char": 1667,
+      "start_char": 1616,
+      "end_char": 1639,
       "region": "body"
     },
     {
@@ -574,8 +594,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1669,
-      "end_char": 1681,
+      "start_char": 1641,
+      "end_char": 1653,
       "region": "body"
     },
     {
@@ -586,8 +606,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1683,
-      "end_char": 1765,
+      "start_char": 1655,
+      "end_char": 1737,
       "region": "body"
     },
     {
@@ -598,8 +618,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1767,
-      "end_char": 1808,
+      "start_char": 1739,
+      "end_char": 1780,
       "region": "body"
     },
     {
@@ -610,8 +630,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1810,
-      "end_char": 1914,
+      "start_char": 1782,
+      "end_char": 1886,
       "region": "body"
     },
     {
@@ -622,8 +642,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1916,
-      "end_char": 2002,
+      "start_char": 1888,
+      "end_char": 1974,
       "region": "body"
     },
     {
@@ -634,8 +654,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2004,
-      "end_char": 2114,
+      "start_char": 1976,
+      "end_char": 2086,
       "region": "body"
     },
     {
@@ -646,8 +666,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2116,
-      "end_char": 2203,
+      "start_char": 2088,
+      "end_char": 2175,
       "region": "body"
     },
     {
@@ -658,8 +678,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2205,
-      "end_char": 2218,
+      "start_char": 2177,
+      "end_char": 2190,
       "region": "body"
     },
     {
@@ -670,8 +690,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2220,
-      "end_char": 2293,
+      "start_char": 2192,
+      "end_char": 2265,
       "region": "body"
     },
     {
@@ -682,8 +702,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2295,
-      "end_char": 2400,
+      "start_char": 2267,
+      "end_char": 2372,
       "region": "body"
     },
     {
@@ -694,8 +714,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2402,
-      "end_char": 2446,
+      "start_char": 2374,
+      "end_char": 2418,
       "region": "body"
     },
     {
@@ -706,8 +726,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2448,
-      "end_char": 2559,
+      "start_char": 2420,
+      "end_char": 2531,
       "region": "body"
     },
     {
@@ -718,8 +738,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2561,
-      "end_char": 2595,
+      "start_char": 2533,
+      "end_char": 2567,
       "region": "body"
     },
     {
@@ -730,8 +750,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2597,
-      "end_char": 2608,
+      "start_char": 2569,
+      "end_char": 2580,
       "region": "body"
     },
     {
@@ -742,8 +762,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2610,
-      "end_char": 2715,
+      "start_char": 2582,
+      "end_char": 2687,
       "region": "body"
     },
     {
@@ -754,8 +774,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2717,
-      "end_char": 2752,
+      "start_char": 2689,
+      "end_char": 2724,
       "region": "body"
     },
     {
@@ -766,8 +786,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2754,
-      "end_char": 2786,
+      "start_char": 2726,
+      "end_char": 2758,
       "region": "body"
     },
     {
@@ -778,8 +798,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2788,
-      "end_char": 2814,
+      "start_char": 2760,
+      "end_char": 2786,
       "region": "body"
     },
     {
@@ -790,8 +810,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2816,
-      "end_char": 2846,
+      "start_char": 2788,
+      "end_char": 2818,
       "region": "body"
     },
     {
@@ -802,8 +822,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2848,
-      "end_char": 2867,
+      "start_char": 2820,
+      "end_char": 2839,
       "region": "body"
     },
     {
@@ -814,8 +834,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2869,
-      "end_char": 2901,
+      "start_char": 2841,
+      "end_char": 2873,
       "region": "body"
     },
     {
@@ -826,8 +846,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2903,
-      "end_char": 2918,
+      "start_char": 2875,
+      "end_char": 2890,
       "region": "body"
     },
     {
@@ -838,8 +858,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2920,
-      "end_char": 2928,
+      "start_char": 2892,
+      "end_char": 2900,
       "region": "body"
     },
     {
@@ -850,8 +870,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2930,
-      "end_char": 2980,
+      "start_char": 2902,
+      "end_char": 2952,
       "region": "body"
     },
     {
@@ -862,8 +882,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2982,
-      "end_char": 2997,
+      "start_char": 2954,
+      "end_char": 2969,
       "region": "body"
     },
     {
@@ -874,8 +894,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2999,
-      "end_char": 3010,
+      "start_char": 2971,
+      "end_char": 2982,
       "region": "body"
     },
     {
@@ -886,8 +906,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 3012,
-      "end_char": 3111,
+      "start_char": 2984,
+      "end_char": 3083,
       "region": "body"
     },
     {
@@ -898,8 +918,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 3113,
-      "end_char": 3190,
+      "start_char": 3085,
+      "end_char": 3162,
       "region": "body"
     },
     {
@@ -910,8 +930,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3192,
-      "end_char": 3263,
+      "start_char": 3164,
+      "end_char": 3235,
       "region": "body"
     },
     {
@@ -922,8 +942,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3265,
-      "end_char": 3315,
+      "start_char": 3237,
+      "end_char": 3287,
       "region": "body"
     },
     {
@@ -934,8 +954,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3317,
-      "end_char": 3477,
+      "start_char": 3289,
+      "end_char": 3449,
       "region": "body"
     },
     {
@@ -946,8 +966,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3479,
-      "end_char": 3592,
+      "start_char": 3451,
+      "end_char": 3564,
       "region": "body"
     },
     {
@@ -958,8 +978,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3594,
-      "end_char": 3672,
+      "start_char": 3566,
+      "end_char": 3644,
       "region": "body"
     },
     {
@@ -970,8 +990,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3674,
-      "end_char": 3748,
+      "start_char": 3646,
+      "end_char": 3720,
       "region": "body"
     },
     {
@@ -982,8 +1002,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3750,
-      "end_char": 3804,
+      "start_char": 3722,
+      "end_char": 3776,
       "region": "body"
     },
     {
@@ -994,8 +1014,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3806,
-      "end_char": 3851,
+      "start_char": 3778,
+      "end_char": 3823,
       "region": "body"
     },
     {
@@ -1006,8 +1026,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3853,
-      "end_char": 3924,
+      "start_char": 3825,
+      "end_char": 3896,
       "region": "body"
     },
     {
@@ -1018,8 +1038,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3926,
-      "end_char": 4020,
+      "start_char": 3898,
+      "end_char": 3992,
       "region": "body"
     },
     {
@@ -1030,8 +1050,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4022,
-      "end_char": 4084,
+      "start_char": 3994,
+      "end_char": 4056,
       "region": "body"
     },
     {
@@ -1042,8 +1062,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4086,
-      "end_char": 4095,
+      "start_char": 4058,
+      "end_char": 4067,
       "region": "body"
     },
     {
@@ -1054,8 +1074,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4097,
-      "end_char": 4190,
+      "start_char": 4069,
+      "end_char": 4162,
       "region": "body"
     },
     {
@@ -1066,8 +1086,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4192,
-      "end_char": 4303,
+      "start_char": 4164,
+      "end_char": 4275,
       "region": "body"
     },
     {
@@ -1078,8 +1098,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4305,
-      "end_char": 4378,
+      "start_char": 4277,
+      "end_char": 4350,
       "region": "body"
     },
     {
@@ -1090,8 +1110,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4380,
-      "end_char": 4452,
+      "start_char": 4352,
+      "end_char": 4424,
       "region": "body"
     },
     {
@@ -1102,8 +1122,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4454,
-      "end_char": 4460,
+      "start_char": 4426,
+      "end_char": 4432,
       "region": "body"
     },
     {
@@ -1114,8 +1134,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4462,
-      "end_char": 4511,
+      "start_char": 4434,
+      "end_char": 4483,
       "region": "body"
     },
     {
@@ -1126,8 +1146,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4513,
-      "end_char": 4530,
+      "start_char": 4485,
+      "end_char": 4502,
       "region": "body"
     },
     {
@@ -1138,8 +1158,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4532,
-      "end_char": 4550,
+      "start_char": 4504,
+      "end_char": 4522,
       "region": "body"
     }
   ],
@@ -1152,8 +1172,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4552,
-      "end_char": 4574,
+      "start_char": 4524,
+      "end_char": 4546,
       "region": "appendix"
     },
     {
@@ -1164,8 +1184,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4576,
-      "end_char": 4855,
+      "start_char": 4548,
+      "end_char": 4827,
       "region": "appendix"
     },
     {
@@ -1176,8 +1196,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4857,
-      "end_char": 4866,
+      "start_char": 4829,
+      "end_char": 4838,
       "region": "appendix"
     },
     {
@@ -1188,8 +1208,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4868,
-      "end_char": 4972,
+      "start_char": 4840,
+      "end_char": 4944,
       "region": "appendix"
     },
     {
@@ -1200,8 +1220,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4974,
-      "end_char": 5092,
+      "start_char": 4946,
+      "end_char": 5064,
       "region": "appendix"
     },
     {
@@ -1212,8 +1232,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5094,
-      "end_char": 5208,
+      "start_char": 5066,
+      "end_char": 5180,
       "region": "appendix"
     },
     {
@@ -1224,8 +1244,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5210,
-      "end_char": 5375,
+      "start_char": 5182,
+      "end_char": 5347,
       "region": "appendix"
     },
     {
@@ -1236,8 +1256,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5377,
-      "end_char": 5496,
+      "start_char": 5349,
+      "end_char": 5468,
       "region": "appendix"
     },
     {
@@ -1248,8 +1268,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5498,
-      "end_char": 5525,
+      "start_char": 5470,
+      "end_char": 5497,
       "region": "appendix"
     },
     {
@@ -1260,8 +1280,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5527,
-      "end_char": 5678,
+      "start_char": 5499,
+      "end_char": 5650,
       "region": "appendix"
     },
     {
@@ -1272,8 +1292,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5680,
-      "end_char": 5689,
+      "start_char": 5652,
+      "end_char": 5661,
       "region": "appendix"
     },
     {
@@ -1284,8 +1304,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5691,
-      "end_char": 5806,
+      "start_char": 5663,
+      "end_char": 5778,
       "region": "appendix"
     },
     {
@@ -1296,8 +1316,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5808,
-      "end_char": 5949,
+      "start_char": 5780,
+      "end_char": 5921,
       "region": "appendix"
     },
     {
@@ -1308,8 +1328,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5951,
-      "end_char": 6033,
+      "start_char": 5923,
+      "end_char": 6005,
       "region": "appendix"
     },
     {
@@ -1320,8 +1340,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 6035,
-      "end_char": 6177,
+      "start_char": 6007,
+      "end_char": 6149,
       "region": "appendix"
     },
     {
@@ -1332,8 +1352,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6179,
-      "end_char": 6244,
+      "start_char": 6151,
+      "end_char": 6216,
       "region": "appendix"
     },
     {
@@ -1344,8 +1364,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6246,
-      "end_char": 6357,
+      "start_char": 6218,
+      "end_char": 6329,
       "region": "appendix"
     },
     {
@@ -1356,8 +1376,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6359,
-      "end_char": 6386,
+      "start_char": 6331,
+      "end_char": 6358,
       "region": "appendix"
     },
     {
@@ -1368,8 +1388,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6388,
-      "end_char": 6439,
+      "start_char": 6360,
+      "end_char": 6411,
       "region": "appendix"
     },
     {
@@ -1380,8 +1400,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6441,
-      "end_char": 6557,
+      "start_char": 6413,
+      "end_char": 6529,
       "region": "appendix"
     },
     {
@@ -1392,8 +1412,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6559,
-      "end_char": 6640,
+      "start_char": 6531,
+      "end_char": 6612,
       "region": "appendix"
     },
     {
@@ -1404,8 +1424,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6642,
-      "end_char": 6669,
+      "start_char": 6614,
+      "end_char": 6641,
       "region": "appendix"
     },
     {
@@ -1416,8 +1436,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6671,
-      "end_char": 6778,
+      "start_char": 6643,
+      "end_char": 6750,
       "region": "appendix"
     },
     {
@@ -1428,8 +1448,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 6780,
-      "end_char": 6919,
+      "start_char": 6752,
+      "end_char": 6891,
       "region": "appendix"
     },
     {
@@ -1440,8 +1460,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 6921,
-      "end_char": 6929,
+      "start_char": 6893,
+      "end_char": 6901,
       "region": "appendix"
     },
     {
@@ -1452,8 +1472,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 6931,
-      "end_char": 7055,
+      "start_char": 6903,
+      "end_char": 7027,
       "region": "appendix"
     },
     {
@@ -1464,8 +1484,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 7057,
-      "end_char": 7119,
+      "start_char": 7029,
+      "end_char": 7091,
       "region": "appendix"
     },
     {
@@ -1476,8 +1496,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 7121,
-      "end_char": 7311,
+      "start_char": 7093,
+      "end_char": 7283,
       "region": "appendix"
     },
     {
@@ -1488,8 +1508,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7313,
-      "end_char": 7496,
+      "start_char": 7285,
+      "end_char": 7468,
       "region": "appendix"
     },
     {
@@ -1500,8 +1520,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7498,
-      "end_char": 7646,
+      "start_char": 7470,
+      "end_char": 7618,
       "region": "appendix"
     },
     {
@@ -1512,8 +1532,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7648,
-      "end_char": 7762,
+      "start_char": 7620,
+      "end_char": 7734,
       "region": "appendix"
     },
     {
@@ -1524,8 +1544,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7764,
-      "end_char": 7791,
+      "start_char": 7736,
+      "end_char": 7763,
       "region": "appendix"
     },
     {
@@ -1536,8 +1556,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7793,
-      "end_char": 7859,
+      "start_char": 7765,
+      "end_char": 7831,
       "region": "appendix"
     },
     {
@@ -1548,8 +1568,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7861,
-      "end_char": 7888,
+      "start_char": 7833,
+      "end_char": 7860,
       "region": "appendix"
     },
     {
@@ -1560,8 +1580,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7890,
-      "end_char": 7947,
+      "start_char": 7862,
+      "end_char": 7919,
       "region": "appendix"
     },
     {
@@ -1572,8 +1592,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7949,
-      "end_char": 7957,
+      "start_char": 7921,
+      "end_char": 7929,
       "region": "appendix"
     },
     {
@@ -1584,8 +1604,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7959,
-      "end_char": 8100,
+      "start_char": 7931,
+      "end_char": 8072,
       "region": "appendix"
     },
     {
@@ -1596,8 +1616,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8102,
-      "end_char": 8173,
+      "start_char": 8074,
+      "end_char": 8145,
       "region": "appendix"
     },
     {
@@ -1608,8 +1628,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8175,
-      "end_char": 8202,
+      "start_char": 8147,
+      "end_char": 8174,
       "region": "appendix"
     },
     {
@@ -1620,8 +1640,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8204,
-      "end_char": 8320,
+      "start_char": 8176,
+      "end_char": 8292,
       "region": "appendix"
     },
     {
@@ -1632,8 +1652,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8322,
-      "end_char": 8429,
+      "start_char": 8294,
+      "end_char": 8401,
       "region": "appendix"
     },
     {
@@ -1644,8 +1664,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8431,
-      "end_char": 8458,
+      "start_char": 8403,
+      "end_char": 8430,
       "region": "appendix"
     },
     {
@@ -1656,8 +1676,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8460,
-      "end_char": 8528,
+      "start_char": 8432,
+      "end_char": 8500,
       "region": "appendix"
     },
     {
@@ -1668,8 +1688,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8530,
-      "end_char": 8577,
+      "start_char": 8502,
+      "end_char": 8549,
       "region": "appendix"
     },
     {
@@ -1680,8 +1700,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8579,
-      "end_char": 8649,
+      "start_char": 8551,
+      "end_char": 8621,
       "region": "appendix"
     },
     {
@@ -1692,8 +1712,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8651,
-      "end_char": 8754,
+      "start_char": 8623,
+      "end_char": 8726,
       "region": "appendix"
     },
     {
@@ -1704,8 +1724,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8756,
-      "end_char": 8764,
+      "start_char": 8728,
+      "end_char": 8736,
       "region": "appendix"
     },
     {
@@ -1716,8 +1736,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8766,
-      "end_char": 8937,
+      "start_char": 8738,
+      "end_char": 8909,
       "region": "appendix"
     },
     {
@@ -1728,8 +1748,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8939,
-      "end_char": 9058,
+      "start_char": 8911,
+      "end_char": 9030,
       "region": "appendix"
     },
     {
@@ -1740,8 +1760,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9060,
-      "end_char": 9191,
+      "start_char": 9032,
+      "end_char": 9163,
       "region": "appendix"
     },
     {
@@ -1752,8 +1772,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9193,
-      "end_char": 9220,
+      "start_char": 9165,
+      "end_char": 9192,
       "region": "appendix"
     },
     {
@@ -1764,8 +1784,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9222,
-      "end_char": 9464,
+      "start_char": 9194,
+      "end_char": 9436,
       "region": "appendix"
     },
     {
@@ -1776,8 +1796,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9466,
-      "end_char": 9562,
+      "start_char": 9438,
+      "end_char": 9534,
       "region": "appendix"
     },
     {
@@ -1788,8 +1808,8 @@
       "source_kind": "paragraph",
       "source_page_start": 20,
       "source_page_end": 20,
-      "start_char": 9564,
-      "end_char": 9791,
+      "start_char": 9536,
+      "end_char": 9763,
       "region": "appendix"
     },
     {
@@ -1800,26 +1820,14 @@
       "source_kind": "paragraph",
       "source_page_start": 20,
       "source_page_end": 20,
-      "start_char": 9793,
-      "end_char": 9828,
+      "start_char": 9765,
+      "end_char": 9800,
       "region": "appendix"
     }
   ],
-  "clean_text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引\n\n第一章 总则\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、行政法规、部门规章、规\n\n范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)净资产不低于人民币 100 万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员拥有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。\n\n第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金\n\n管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托\n\n计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。\n\n第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。\n\n第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。\n\n第四十二条 本指引由本所负责解释。\n\n第四十三条 本指引自发布之日起施行。\n\n附件:股票期权试点风险揭示书必备条款(草案)\n\n附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。\n\n一、 一般风险事项\n\n(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。\n\n(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。\n\n(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。\n\n(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。\n\n(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。\n\n(六)提示客户在与期权经营机构的合同关系存续期间,如提\n\n供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。\n\n二、 交易风险事项\n\n(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。\n\n(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。\n\n(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。\n\n(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。\n\n(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。\n\n(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。\n\n(十三)提示客户关注期权合约存续期间,合约标的停牌的,\n\n对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。\n\n(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。\n\n(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。\n\n(十六)提示客户关注组合策略持仓不参加每日日终的持仓自\n\n动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。\n\n(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。\n\n三、结算风险事项\n\n(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。\n\n(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。\n\n(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。\n\n(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。\n\n(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。\n\n(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。\n\n(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、\n\n被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。\n\n(二十五)提示客户在期权交易时,如果出现行权资金交收违\n\n约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。\n\n四、行权风险事项\n\n(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。\n\n(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。\n\n(二十八)提示客户期权行权原则上进行实物交割,但在出现\n\n结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。\n\n(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。\n\n(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临\n\n时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。\n\n(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。\n\n(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。\n\n(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。\n\n五、其他风险事项\n\n(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。\n\n(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。\n\n(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。\n\n(三十七)提示客户利用互联网进行期权交易时将存在但不限\n\n于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。\n\n(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。\n\n(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。\n\n2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
+  "clean_text": "第一章 总则\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、行政法规、部门规章、规\n\n范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)净资产不低于人民币 100 万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员拥有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。\n\n第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金\n\n管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托\n\n计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。\n\n第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。\n\n第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。\n\n第四十二条 本指引由本所负责解释。\n\n第四十三条 本指引自发布之日起施行。\n\n附件:股票期权试点风险揭示书必备条款(草案)\n\n附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。\n\n一、 一般风险事项\n\n(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。\n\n(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。\n\n(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。\n\n(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。\n\n(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。\n\n(六)提示客户在与期权经营机构的合同关系存续期间,如提\n\n供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。\n\n二、 交易风险事项\n\n(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。\n\n(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。\n\n(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。\n\n(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。\n\n(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。\n\n(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。\n\n(十三)提示客户关注期权合约存续期间,合约标的停牌的,\n\n对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。\n\n(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。\n\n(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。\n\n(十六)提示客户关注组合策略持仓不参加每日日终的持仓自\n\n动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。\n\n(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。\n\n三、结算风险事项\n\n(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。\n\n(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。\n\n(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。\n\n(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。\n\n(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。\n\n(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。\n\n(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、\n\n被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。\n\n(二十五)提示客户在期权交易时,如果出现行权资金交收违\n\n约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。\n\n四、行权风险事项\n\n(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。\n\n(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。\n\n(二十八)提示客户期权行权原则上进行实物交割,但在出现\n\n结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。\n\n(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。\n\n(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临\n\n时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。\n\n(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。\n\n(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。\n\n(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。\n\n五、其他风险事项\n\n(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。\n\n(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。\n\n(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。\n\n(三十七)提示客户利用互联网进行期权交易时将存在但不限\n\n于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。\n\n(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。\n\n(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。\n\n2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
   "structured_blocks": [
     {
-      "block_id": "b00001",
-      "block_type": "document_title",
-      "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 1,
-      "source_page_end": 1,
-      "start_char": 0,
-      "end_char": 26,
-      "region": "body"
-    },
-    {
       "block_id": "b00002",
       "block_type": "chapter",
       "text": "第一章 总则",
@@ -1827,8 +1835,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 28,
-      "end_char": 34,
+      "start_char": 0,
+      "end_char": 6,
       "region": "body"
     },
     {
@@ -1839,8 +1847,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 36,
-      "end_char": 159,
+      "start_char": 8,
+      "end_char": 131,
       "region": "body"
     },
     {
@@ -1851,8 +1859,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 161,
-      "end_char": 327,
+      "start_char": 133,
+      "end_char": 299,
       "region": "body"
     },
     {
@@ -1863,8 +1871,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 329,
-      "end_char": 455,
+      "start_char": 301,
+      "end_char": 427,
       "region": "body"
     },
     {
@@ -1875,8 +1883,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 457,
-      "end_char": 569,
+      "start_char": 429,
+      "end_char": 541,
       "region": "body"
     },
     {
@@ -1887,8 +1895,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 571,
-      "end_char": 646,
+      "start_char": 543,
+      "end_char": 618,
       "region": "body"
     },
     {
@@ -1899,8 +1907,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 648,
-      "end_char": 722,
+      "start_char": 620,
+      "end_char": 694,
       "region": "body"
     },
     {
@@ -1911,8 +1919,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 724,
-      "end_char": 736,
+      "start_char": 696,
+      "end_char": 708,
       "region": "body"
     },
     {
@@ -1923,8 +1931,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 738,
-      "end_char": 750,
+      "start_char": 710,
+      "end_char": 722,
       "region": "body"
     },
     {
@@ -1935,8 +1943,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 752,
-      "end_char": 777,
+      "start_char": 724,
+      "end_char": 749,
       "region": "body"
     },
     {
@@ -1947,8 +1955,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 779,
-      "end_char": 846,
+      "start_char": 751,
+      "end_char": 818,
       "region": "body"
     },
     {
@@ -1959,8 +1967,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 848,
-      "end_char": 917,
+      "start_char": 820,
+      "end_char": 889,
       "region": "body"
     },
     {
@@ -1971,8 +1979,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 919,
-      "end_char": 943,
+      "start_char": 891,
+      "end_char": 915,
       "region": "body"
     },
     {
@@ -1983,8 +1991,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 945,
-      "end_char": 964,
+      "start_char": 917,
+      "end_char": 936,
       "region": "body"
     },
     {
@@ -1995,8 +2003,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 966,
-      "end_char": 981,
+      "start_char": 938,
+      "end_char": 953,
       "region": "body"
     },
     {
@@ -2007,8 +2015,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 983,
-      "end_char": 1010,
+      "start_char": 955,
+      "end_char": 982,
       "region": "body"
     },
     {
@@ -2019,8 +2027,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1012,
-      "end_char": 1039,
+      "start_char": 984,
+      "end_char": 1011,
       "region": "body"
     },
     {
@@ -2031,8 +2039,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1041,
-      "end_char": 1142,
+      "start_char": 1013,
+      "end_char": 1114,
       "region": "body"
     },
     {
@@ -2043,8 +2051,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1144,
-      "end_char": 1171,
+      "start_char": 1116,
+      "end_char": 1143,
       "region": "body"
     },
     {
@@ -2055,8 +2063,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1173,
-      "end_char": 1241,
+      "start_char": 1145,
+      "end_char": 1213,
       "region": "body"
     },
     {
@@ -2067,8 +2075,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1243,
-      "end_char": 1263,
+      "start_char": 1215,
+      "end_char": 1235,
       "region": "body"
     },
     {
@@ -2079,8 +2087,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1265,
-      "end_char": 1295,
+      "start_char": 1237,
+      "end_char": 1267,
       "region": "body"
     },
     {
@@ -2091,8 +2099,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1297,
-      "end_char": 1322,
+      "start_char": 1269,
+      "end_char": 1294,
       "region": "body"
     },
     {
@@ -2103,8 +2111,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1324,
-      "end_char": 1378,
+      "start_char": 1296,
+      "end_char": 1350,
       "region": "body"
     },
     {
@@ -2115,8 +2123,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1380,
-      "end_char": 1435,
+      "start_char": 1352,
+      "end_char": 1407,
       "region": "body"
     },
     {
@@ -2127,8 +2135,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1437,
-      "end_char": 1498,
+      "start_char": 1409,
+      "end_char": 1470,
       "region": "body"
     },
     {
@@ -2139,8 +2147,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1500,
-      "end_char": 1527,
+      "start_char": 1472,
+      "end_char": 1499,
       "region": "body"
     },
     {
@@ -2151,8 +2159,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1529,
-      "end_char": 1560,
+      "start_char": 1501,
+      "end_char": 1532,
       "region": "body"
     },
     {
@@ -2163,8 +2171,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1562,
-      "end_char": 1589,
+      "start_char": 1534,
+      "end_char": 1561,
       "region": "body"
     },
     {
@@ -2175,8 +2183,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1591,
-      "end_char": 1642,
+      "start_char": 1563,
+      "end_char": 1614,
       "region": "body"
     },
     {
@@ -2187,8 +2195,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1644,
-      "end_char": 1667,
+      "start_char": 1616,
+      "end_char": 1639,
       "region": "body"
     },
     {
@@ -2199,8 +2207,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1669,
-      "end_char": 1681,
+      "start_char": 1641,
+      "end_char": 1653,
       "region": "body"
     },
     {
@@ -2211,8 +2219,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1683,
-      "end_char": 1765,
+      "start_char": 1655,
+      "end_char": 1737,
       "region": "body"
     },
     {
@@ -2223,8 +2231,8 @@
       "source_kind": "paragraph",
       "source_page_start": 4,
       "source_page_end": 4,
-      "start_char": 1767,
-      "end_char": 1808,
+      "start_char": 1739,
+      "end_char": 1780,
       "region": "body"
     },
     {
@@ -2235,8 +2243,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1810,
-      "end_char": 1914,
+      "start_char": 1782,
+      "end_char": 1886,
       "region": "body"
     },
     {
@@ -2247,8 +2255,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 1916,
-      "end_char": 2002,
+      "start_char": 1888,
+      "end_char": 1974,
       "region": "body"
     },
     {
@@ -2259,8 +2267,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2004,
-      "end_char": 2114,
+      "start_char": 1976,
+      "end_char": 2086,
       "region": "body"
     },
     {
@@ -2271,8 +2279,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2116,
-      "end_char": 2203,
+      "start_char": 2088,
+      "end_char": 2175,
       "region": "body"
     },
     {
@@ -2283,8 +2291,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2205,
-      "end_char": 2218,
+      "start_char": 2177,
+      "end_char": 2190,
       "region": "body"
     },
     {
@@ -2295,8 +2303,8 @@
       "source_kind": "paragraph",
       "source_page_start": 5,
       "source_page_end": 5,
-      "start_char": 2220,
-      "end_char": 2293,
+      "start_char": 2192,
+      "end_char": 2265,
       "region": "body"
     },
     {
@@ -2307,8 +2315,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2295,
-      "end_char": 2400,
+      "start_char": 2267,
+      "end_char": 2372,
       "region": "body"
     },
     {
@@ -2319,8 +2327,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2402,
-      "end_char": 2446,
+      "start_char": 2374,
+      "end_char": 2418,
       "region": "body"
     },
     {
@@ -2331,8 +2339,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2448,
-      "end_char": 2559,
+      "start_char": 2420,
+      "end_char": 2531,
       "region": "body"
     },
     {
@@ -2343,8 +2351,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2561,
-      "end_char": 2595,
+      "start_char": 2533,
+      "end_char": 2567,
       "region": "body"
     },
     {
@@ -2355,8 +2363,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2597,
-      "end_char": 2608,
+      "start_char": 2569,
+      "end_char": 2580,
       "region": "body"
     },
     {
@@ -2367,8 +2375,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2610,
-      "end_char": 2715,
+      "start_char": 2582,
+      "end_char": 2687,
       "region": "body"
     },
     {
@@ -2379,8 +2387,8 @@
       "source_kind": "paragraph",
       "source_page_start": 6,
       "source_page_end": 6,
-      "start_char": 2717,
-      "end_char": 2752,
+      "start_char": 2689,
+      "end_char": 2724,
       "region": "body"
     },
     {
@@ -2391,8 +2399,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2754,
-      "end_char": 2786,
+      "start_char": 2726,
+      "end_char": 2758,
       "region": "body"
     },
     {
@@ -2403,8 +2411,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2788,
-      "end_char": 2814,
+      "start_char": 2760,
+      "end_char": 2786,
       "region": "body"
     },
     {
@@ -2415,8 +2423,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2816,
-      "end_char": 2846,
+      "start_char": 2788,
+      "end_char": 2818,
       "region": "body"
     },
     {
@@ -2427,8 +2435,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2848,
-      "end_char": 2867,
+      "start_char": 2820,
+      "end_char": 2839,
       "region": "body"
     },
     {
@@ -2439,8 +2447,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2869,
-      "end_char": 2901,
+      "start_char": 2841,
+      "end_char": 2873,
       "region": "body"
     },
     {
@@ -2451,8 +2459,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2903,
-      "end_char": 2918,
+      "start_char": 2875,
+      "end_char": 2890,
       "region": "body"
     },
     {
@@ -2463,8 +2471,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2920,
-      "end_char": 2928,
+      "start_char": 2892,
+      "end_char": 2900,
       "region": "body"
     },
     {
@@ -2475,8 +2483,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2930,
-      "end_char": 2980,
+      "start_char": 2902,
+      "end_char": 2952,
       "region": "body"
     },
     {
@@ -2487,8 +2495,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2982,
-      "end_char": 2997,
+      "start_char": 2954,
+      "end_char": 2969,
       "region": "body"
     },
     {
@@ -2499,8 +2507,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 2999,
-      "end_char": 3010,
+      "start_char": 2971,
+      "end_char": 2982,
       "region": "body"
     },
     {
@@ -2511,8 +2519,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 3012,
-      "end_char": 3111,
+      "start_char": 2984,
+      "end_char": 3083,
       "region": "body"
     },
     {
@@ -2523,8 +2531,8 @@
       "source_kind": "paragraph",
       "source_page_start": 7,
       "source_page_end": 7,
-      "start_char": 3113,
-      "end_char": 3190,
+      "start_char": 3085,
+      "end_char": 3162,
       "region": "body"
     },
     {
@@ -2535,8 +2543,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3192,
-      "end_char": 3263,
+      "start_char": 3164,
+      "end_char": 3235,
       "region": "body"
     },
     {
@@ -2547,8 +2555,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3265,
-      "end_char": 3315,
+      "start_char": 3237,
+      "end_char": 3287,
       "region": "body"
     },
     {
@@ -2559,8 +2567,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3317,
-      "end_char": 3477,
+      "start_char": 3289,
+      "end_char": 3449,
       "region": "body"
     },
     {
@@ -2571,8 +2579,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3479,
-      "end_char": 3592,
+      "start_char": 3451,
+      "end_char": 3564,
       "region": "body"
     },
     {
@@ -2583,8 +2591,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3594,
-      "end_char": 3672,
+      "start_char": 3566,
+      "end_char": 3644,
       "region": "body"
     },
     {
@@ -2595,8 +2603,8 @@
       "source_kind": "paragraph",
       "source_page_start": 8,
       "source_page_end": 8,
-      "start_char": 3674,
-      "end_char": 3748,
+      "start_char": 3646,
+      "end_char": 3720,
       "region": "body"
     },
     {
@@ -2607,8 +2615,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3750,
-      "end_char": 3804,
+      "start_char": 3722,
+      "end_char": 3776,
       "region": "body"
     },
     {
@@ -2619,8 +2627,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3806,
-      "end_char": 3851,
+      "start_char": 3778,
+      "end_char": 3823,
       "region": "body"
     },
     {
@@ -2631,8 +2639,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3853,
-      "end_char": 3924,
+      "start_char": 3825,
+      "end_char": 3896,
       "region": "body"
     },
     {
@@ -2643,8 +2651,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 3926,
-      "end_char": 4020,
+      "start_char": 3898,
+      "end_char": 3992,
       "region": "body"
     },
     {
@@ -2655,8 +2663,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4022,
-      "end_char": 4084,
+      "start_char": 3994,
+      "end_char": 4056,
       "region": "body"
     },
     {
@@ -2667,8 +2675,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4086,
-      "end_char": 4095,
+      "start_char": 4058,
+      "end_char": 4067,
       "region": "body"
     },
     {
@@ -2679,8 +2687,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4097,
-      "end_char": 4190,
+      "start_char": 4069,
+      "end_char": 4162,
       "region": "body"
     },
     {
@@ -2691,8 +2699,8 @@
       "source_kind": "paragraph",
       "source_page_start": 9,
       "source_page_end": 9,
-      "start_char": 4192,
-      "end_char": 4303,
+      "start_char": 4164,
+      "end_char": 4275,
       "region": "body"
     },
     {
@@ -2703,8 +2711,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4305,
-      "end_char": 4378,
+      "start_char": 4277,
+      "end_char": 4350,
       "region": "body"
     },
     {
@@ -2715,8 +2723,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4380,
-      "end_char": 4452,
+      "start_char": 4352,
+      "end_char": 4424,
       "region": "body"
     },
     {
@@ -2727,8 +2735,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4454,
-      "end_char": 4460,
+      "start_char": 4426,
+      "end_char": 4432,
       "region": "body"
     },
     {
@@ -2739,8 +2747,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4462,
-      "end_char": 4511,
+      "start_char": 4434,
+      "end_char": 4483,
       "region": "body"
     },
     {
@@ -2751,8 +2759,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4513,
-      "end_char": 4530,
+      "start_char": 4485,
+      "end_char": 4502,
       "region": "body"
     },
     {
@@ -2763,8 +2771,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4532,
-      "end_char": 4550,
+      "start_char": 4504,
+      "end_char": 4522,
       "region": "body"
     },
     {
@@ -2775,8 +2783,8 @@
       "source_kind": "paragraph",
       "source_page_start": 10,
       "source_page_end": 10,
-      "start_char": 4552,
-      "end_char": 4574,
+      "start_char": 4524,
+      "end_char": 4546,
       "region": "appendix"
     },
     {
@@ -2787,8 +2795,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4576,
-      "end_char": 4855,
+      "start_char": 4548,
+      "end_char": 4827,
       "region": "appendix"
     },
     {
@@ -2799,8 +2807,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4857,
-      "end_char": 4866,
+      "start_char": 4829,
+      "end_char": 4838,
       "region": "appendix"
     },
     {
@@ -2811,8 +2819,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4868,
-      "end_char": 4972,
+      "start_char": 4840,
+      "end_char": 4944,
       "region": "appendix"
     },
     {
@@ -2823,8 +2831,8 @@
       "source_kind": "paragraph",
       "source_page_start": 11,
       "source_page_end": 11,
-      "start_char": 4974,
-      "end_char": 5092,
+      "start_char": 4946,
+      "end_char": 5064,
       "region": "appendix"
     },
     {
@@ -2835,8 +2843,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5094,
-      "end_char": 5208,
+      "start_char": 5066,
+      "end_char": 5180,
       "region": "appendix"
     },
     {
@@ -2847,8 +2855,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5210,
-      "end_char": 5375,
+      "start_char": 5182,
+      "end_char": 5347,
       "region": "appendix"
     },
     {
@@ -2859,8 +2867,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5377,
-      "end_char": 5496,
+      "start_char": 5349,
+      "end_char": 5468,
       "region": "appendix"
     },
     {
@@ -2871,8 +2879,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5498,
-      "end_char": 5525,
+      "start_char": 5470,
+      "end_char": 5497,
       "region": "appendix"
     },
     {
@@ -2883,8 +2891,8 @@
       "source_kind": "paragraph",
       "source_page_start": 12,
       "source_page_end": 12,
-      "start_char": 5527,
-      "end_char": 5678,
+      "start_char": 5499,
+      "end_char": 5650,
       "region": "appendix"
     },
     {
@@ -2895,8 +2903,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5680,
-      "end_char": 5689,
+      "start_char": 5652,
+      "end_char": 5661,
       "region": "appendix"
     },
     {
@@ -2907,8 +2915,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5691,
-      "end_char": 5806,
+      "start_char": 5663,
+      "end_char": 5778,
       "region": "appendix"
     },
     {
@@ -2919,8 +2927,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5808,
-      "end_char": 5949,
+      "start_char": 5780,
+      "end_char": 5921,
       "region": "appendix"
     },
     {
@@ -2931,8 +2939,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 5951,
-      "end_char": 6033,
+      "start_char": 5923,
+      "end_char": 6005,
       "region": "appendix"
     },
     {
@@ -2943,8 +2951,8 @@
       "source_kind": "paragraph",
       "source_page_start": 13,
       "source_page_end": 13,
-      "start_char": 6035,
-      "end_char": 6177,
+      "start_char": 6007,
+      "end_char": 6149,
       "region": "appendix"
     },
     {
@@ -2955,8 +2963,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6179,
-      "end_char": 6244,
+      "start_char": 6151,
+      "end_char": 6216,
       "region": "appendix"
     },
     {
@@ -2967,8 +2975,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6246,
-      "end_char": 6357,
+      "start_char": 6218,
+      "end_char": 6329,
       "region": "appendix"
     },
     {
@@ -2979,8 +2987,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6359,
-      "end_char": 6386,
+      "start_char": 6331,
+      "end_char": 6358,
       "region": "appendix"
     },
     {
@@ -2991,8 +2999,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6388,
-      "end_char": 6439,
+      "start_char": 6360,
+      "end_char": 6411,
       "region": "appendix"
     },
     {
@@ -3003,8 +3011,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6441,
-      "end_char": 6557,
+      "start_char": 6413,
+      "end_char": 6529,
       "region": "appendix"
     },
     {
@@ -3015,8 +3023,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6559,
-      "end_char": 6640,
+      "start_char": 6531,
+      "end_char": 6612,
       "region": "appendix"
     },
     {
@@ -3027,8 +3035,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6642,
-      "end_char": 6669,
+      "start_char": 6614,
+      "end_char": 6641,
       "region": "appendix"
     },
     {
@@ -3039,8 +3047,8 @@
       "source_kind": "paragraph",
       "source_page_start": 14,
       "source_page_end": 14,
-      "start_char": 6671,
-      "end_char": 6778,
+      "start_char": 6643,
+      "end_char": 6750,
       "region": "appendix"
     },
     {
@@ -3051,8 +3059,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 6780,
-      "end_char": 6919,
+      "start_char": 6752,
+      "end_char": 6891,
       "region": "appendix"
     },
     {
@@ -3063,8 +3071,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 6921,
-      "end_char": 6929,
+      "start_char": 6893,
+      "end_char": 6901,
       "region": "appendix"
     },
     {
@@ -3075,8 +3083,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 6931,
-      "end_char": 7055,
+      "start_char": 6903,
+      "end_char": 7027,
       "region": "appendix"
     },
     {
@@ -3087,8 +3095,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 7057,
-      "end_char": 7119,
+      "start_char": 7029,
+      "end_char": 7091,
       "region": "appendix"
     },
     {
@@ -3099,8 +3107,8 @@
       "source_kind": "paragraph",
       "source_page_start": 15,
       "source_page_end": 15,
-      "start_char": 7121,
-      "end_char": 7311,
+      "start_char": 7093,
+      "end_char": 7283,
       "region": "appendix"
     },
     {
@@ -3111,8 +3119,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7313,
-      "end_char": 7496,
+      "start_char": 7285,
+      "end_char": 7468,
       "region": "appendix"
     },
     {
@@ -3123,8 +3131,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7498,
-      "end_char": 7646,
+      "start_char": 7470,
+      "end_char": 7618,
       "region": "appendix"
     },
     {
@@ -3135,8 +3143,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7648,
-      "end_char": 7762,
+      "start_char": 7620,
+      "end_char": 7734,
       "region": "appendix"
     },
     {
@@ -3147,8 +3155,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7764,
-      "end_char": 7791,
+      "start_char": 7736,
+      "end_char": 7763,
       "region": "appendix"
     },
     {
@@ -3159,8 +3167,8 @@
       "source_kind": "paragraph",
       "source_page_start": 16,
       "source_page_end": 16,
-      "start_char": 7793,
-      "end_char": 7859,
+      "start_char": 7765,
+      "end_char": 7831,
       "region": "appendix"
     },
     {
@@ -3171,8 +3179,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7861,
-      "end_char": 7888,
+      "start_char": 7833,
+      "end_char": 7860,
       "region": "appendix"
     },
     {
@@ -3183,8 +3191,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7890,
-      "end_char": 7947,
+      "start_char": 7862,
+      "end_char": 7919,
       "region": "appendix"
     },
     {
@@ -3195,8 +3203,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7949,
-      "end_char": 7957,
+      "start_char": 7921,
+      "end_char": 7929,
       "region": "appendix"
     },
     {
@@ -3207,8 +3215,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 7959,
-      "end_char": 8100,
+      "start_char": 7931,
+      "end_char": 8072,
       "region": "appendix"
     },
     {
@@ -3219,8 +3227,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8102,
-      "end_char": 8173,
+      "start_char": 8074,
+      "end_char": 8145,
       "region": "appendix"
     },
     {
@@ -3231,8 +3239,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8175,
-      "end_char": 8202,
+      "start_char": 8147,
+      "end_char": 8174,
       "region": "appendix"
     },
     {
@@ -3243,8 +3251,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8204,
-      "end_char": 8320,
+      "start_char": 8176,
+      "end_char": 8292,
       "region": "appendix"
     },
     {
@@ -3255,8 +3263,8 @@
       "source_kind": "paragraph",
       "source_page_start": 17,
       "source_page_end": 17,
-      "start_char": 8322,
-      "end_char": 8429,
+      "start_char": 8294,
+      "end_char": 8401,
       "region": "appendix"
     },
     {
@@ -3267,8 +3275,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8431,
-      "end_char": 8458,
+      "start_char": 8403,
+      "end_char": 8430,
       "region": "appendix"
     },
     {
@@ -3279,8 +3287,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8460,
-      "end_char": 8528,
+      "start_char": 8432,
+      "end_char": 8500,
       "region": "appendix"
     },
     {
@@ -3291,8 +3299,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8530,
-      "end_char": 8577,
+      "start_char": 8502,
+      "end_char": 8549,
       "region": "appendix"
     },
     {
@@ -3303,8 +3311,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8579,
-      "end_char": 8649,
+      "start_char": 8551,
+      "end_char": 8621,
       "region": "appendix"
     },
     {
@@ -3315,8 +3323,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8651,
-      "end_char": 8754,
+      "start_char": 8623,
+      "end_char": 8726,
       "region": "appendix"
     },
     {
@@ -3327,8 +3335,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8756,
-      "end_char": 8764,
+      "start_char": 8728,
+      "end_char": 8736,
       "region": "appendix"
     },
     {
@@ -3339,8 +3347,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8766,
-      "end_char": 8937,
+      "start_char": 8738,
+      "end_char": 8909,
       "region": "appendix"
     },
     {
@@ -3351,8 +3359,8 @@
       "source_kind": "paragraph",
       "source_page_start": 18,
       "source_page_end": 18,
-      "start_char": 8939,
-      "end_char": 9058,
+      "start_char": 8911,
+      "end_char": 9030,
       "region": "appendix"
     },
     {
@@ -3363,8 +3371,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9060,
-      "end_char": 9191,
+      "start_char": 9032,
+      "end_char": 9163,
       "region": "appendix"
     },
     {
@@ -3375,8 +3383,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9193,
-      "end_char": 9220,
+      "start_char": 9165,
+      "end_char": 9192,
       "region": "appendix"
     },
     {
@@ -3387,8 +3395,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9222,
-      "end_char": 9464,
+      "start_char": 9194,
+      "end_char": 9436,
       "region": "appendix"
     },
     {
@@ -3399,8 +3407,8 @@
       "source_kind": "paragraph",
       "source_page_start": 19,
       "source_page_end": 19,
-      "start_char": 9466,
-      "end_char": 9562,
+      "start_char": 9438,
+      "end_char": 9534,
       "region": "appendix"
     },
     {
@@ -3411,8 +3419,8 @@
       "source_kind": "paragraph",
       "source_page_start": 20,
       "source_page_end": 20,
-      "start_char": 9564,
-      "end_char": 9791,
+      "start_char": 9536,
+      "end_char": 9763,
       "region": "appendix"
     },
     {
@@ -3423,28 +3431,13 @@
       "source_kind": "paragraph",
       "source_page_start": 20,
       "source_page_end": 20,
-      "start_char": 9793,
-      "end_char": 9828,
+      "start_char": 9765,
+      "end_char": 9800,
       "region": "appendix"
     }
   ],
-  "normalized_text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引\n\n第一章 总则\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、行政法规、部门规章、规\n\n范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)净资产不低于人民币 100 万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员拥有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。\n\n第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金\n\n管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托\n\n计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。\n\n第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。\n\n第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。\n\n第四十二条 本指引由本所负责解释。\n\n第四十三条 本指引自发布之日起施行。\n\n附件:股票期权试点风险揭示书必备条款(草案)\n\n附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。\n\n一、 一般风险事项\n\n(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。\n\n(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。\n\n(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。\n\n(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。\n\n(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。\n\n(六)提示客户在与期权经营机构的合同关系存续期间,如提\n\n供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。\n\n二、 交易风险事项\n\n(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。\n\n(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。\n\n(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。\n\n(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。\n\n(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。\n\n(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。\n\n(十三)提示客户关注期权合约存续期间,合约标的停牌的,\n\n对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。\n\n(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。\n\n(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。\n\n(十六)提示客户关注组合策略持仓不参加每日日终的持仓自\n\n动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。\n\n(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。\n\n三、结算风险事项\n\n(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。\n\n(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。\n\n(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。\n\n(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。\n\n(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。\n\n(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。\n\n(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、\n\n被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。\n\n(二十五)提示客户在期权交易时,如果出现行权资金交收违\n\n约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。\n\n四、行权风险事项\n\n(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。\n\n(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。\n\n(二十八)提示客户期权行权原则上进行实物交割,但在出现\n\n结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。\n\n(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。\n\n(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临\n\n时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。\n\n(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。\n\n(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。\n\n(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。\n\n五、其他风险事项\n\n(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。\n\n(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。\n\n(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。\n\n(三十七)提示客户利用互联网进行期权交易时将存在但不限\n\n于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。\n\n(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。\n\n(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。\n\n2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
+  "normalized_text": "第一章 总则\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)试点的投资者适当性管理,引导投资者理性参与期权交易,促进期权市场规范有序发展,根据《深圳证券交易所股票期权试点交易规则》(以下简称《期权交易规则》)及其他相关规定,制定本指引。\n\n第二条 期权经营机构应当根据《期权交易规则》的有关规定以及本指引的要求,建立期权投资者适当性管理的操作指引和相关工作制度,并通过多种形式和渠道向客户告知期权投资者适当性管理的具体要求。期权经营机构委托从事中间介绍业务的证券期货经营机构协助办理开户手续的,应当与该证券期货经营机构建立业务对接规则,落实投资者适当性管理制度的相关要求。\n\n第三条 期权经营机构应当严格执行期权投资者适当性管理制度,全面介绍期权产品特征,充分揭示期权交易风险,准确评估客户的风险承受能力,不得接受不符合投资者适当性标准的客户从事期权交易。投资者适当性评估及交易权限分级管理等事宜应当由期权经营机构总部进行审核。\n\n第四条 投资者应当根据适当性管理制度的要求及自身的风险承受能力,审慎决定是否参与期权交易。投资者应当遵循风险自负原则,审慎决策,自愿参与期权交易并依法独立承担风险,不得以不符合适当性标准为由,拒绝承担期权交易结果与履约责任。\n\n第五条 本所对期权经营机构落实投资者适当性管理制度的情况进行监督检查,期权经营机构应当配合,如实提供客户开户材料、资金账户情况等资料,不得隐瞒、拒绝。\n\n第六条 期权经营机构、投资者违反本指引规定的,本所可以依据《期权交易规则》及其他业务规则,对其采取相应的自律监管措施或实施纪律处分,并记入诚信记录。\n\n第二章 投资者适当性管理\n\n第一节 投资者适当性标准\n\n第七条 个人投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 50 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)在证券公司开户 6 个月以上并具备融资融券业务参与资格或者金融期货交易经历;或者在期货公司开户 6 个月以上并具有金融期货交易经历;\n\n(三)具备期权基础知识,通过本所认可的相关测试;\n\n(四)具有本所认可的期权模拟交易经历;\n\n(五)具有相应的风险承受能力;\n\n(六)无严重不良诚信记录和法律、行政法规、部门规章、规\n\n范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(七)本所规定的其他条件。个人投资者参与期权交易,应当通过期权经营机构组织的期权投资者适当性综合评估(以下简称综合评估)。已开立沪市衍生品合约账户且满足上述第(六)项条件的个人投资者,视同符合本条要求。\n\n第八条 普通机构投资者参与期权交易,应当符合下列条件:\n\n(一)申请开户前 20 个交易日证券账户及资金账户内的资产日均不低于人民币 100 万元(不包括该投资者通过融资融券融入的资金和证券);\n\n(二)净资产不低于人民币 100 万元;\n\n(三)相关业务人员具备期权基础知识,通过本所认可的相关测试;\n\n(四)相关业务人员拥有本所认可的期权模拟交易经历;\n\n(五)无严重不良诚信记录和法律、行政法规、部门规章、规范性文件及本所业务规则禁止或者限制从事期权交易的情形;\n\n(六)本所规定的其他条件。已开立沪市衍生品合约账户且满足上述第(五)项条件的普通机构投资者,视同符合本条要求。\n\n第九条 除法律、行政法规、部门规章、规范性文件以及监管机构另有规定外,下列专业机构投资者参与期权交易,不对其进行综合评估:\n\n(一)商业银行、期权经营机构、保险机构、信托公司、基金\n\n管理公司、财务公司、合格境外机构投资者等专业机构及其分支机构;\n\n(二)证券投资基金、社保基金、养老基金、企业年金、信托\n\n计划、资产管理计划、银行及保险理财产品,以及由第一项所列专业机构担任管理人的其他基金或者委托投资资产;\n\n(三)监管机构及本所规定的其他专业机构投资者。\n\n第二节 综合评估基本要求\n\n第十条 期权经营机构应当制定期权投资者综合评估的实施办法,选择适当的投资者参与期权交易。期权经营机构应当及时将投资者适当性管理的操作指引和相关工作制度,报本所备案。\n\n第十一条 期权经营机构应当对投资者是否符合本指引规定的参与期权交易的条件进行核查。\n\n第十二条 期权经营机构应当对个人投资者的基本情况、投资经历、金融类资产状况、期权基础知识、风险承受能力和诚信状况等方面进行综合评估。投资者应当如实提供有关综合评估的证明材料,并保证证明材料的真实、准确、完整。\n\n第十三条 期权经营机构应当通过评估问卷等方式,对客户的风险承受能力进行专项评估。期权经营机构应当向客户明确告知评估结果,提示其审慎参与期权交易,并对提示情况进行记录、留存。\n\n第十四条 期权经营机构应当要求客户进行现场开户。已经开立沪市衍生品合约账户的投资者,可在其开立沪市衍生品合约账户的期权经营机构,按照中国证券登记结算有限责任公司有关规定通过见证开户、网上开户等方式开立深市衍生品合约账户。\n\n第十五条 期权经营机构应当将客户提供的证明文件及相关材料的原件或者复印件、投资者的知识测试成绩单和综合评估表、风险承受能力评估材料以及风险揭示书等资料,作为开户资料予以保存。\n\n第三节 期权投资者知识测试\n\n第十六条 期权经营机构应当按照本指引要求开展期权投资者知识测试(以下简称知识测试),测试成绩用于投资者交易权限级别的核定和期权基础知识的得分评估。\n\n第十七条 个人投资者本人参加并通过相应等级的知识测试的,可以按照本指引第三章的规定以及期权经纪合同的约定,向期权经营机构申请相应等级的交易权限。普通机构投资者指定的相关业务人员,应当参加本所认可的相关知识测试。\n\n第十八条 个人投资者应当逐级参加知识测试,未通过前一等级考试的,不得参加后一等级的考试。\n\n第十九条 知识测试应当在期权经营机构营业场所内进行。测试完毕后,期权经营机构应当为投资者打印成绩单并盖章。投资者本人和普通机构投资者指定的相关业务人员,应当在成绩单上签字。期权经营机构客户开发人员不得兼任知识测试组织人员。\n\n第二十条 知识测试成绩长期有效,并可用于在其他期权经营机构申请开户。\n\n第三章 投资者分级管理\n\n第二十一条 期权经营机构应当根据本指引的规定,对个人投资者参与期权交易的权限进行分级管理。期权经营机构应当在期权经纪合同中载明个人投资者分级管理的具体标准、程序和要求,并就分级管理事宜向个人投资者进行充分说明。\n\n第二十二条 个人投资者申请的交易权限级别分为一级、二级、三级交易权限。\n\n第二十三条 具有一级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)在持有期权合约标的时,进行相应数量的备兑开仓;\n\n(二)在持有期权合约标的时,进行相应数量的认沽期权买入开仓;\n\n(三)对所持有的合约进行平仓或者行权。\n\n第二十四条 具有二级交易权限的个人投资者,可以进行下列期权交易:\n\n(一)一级交易权限对应的交易;\n\n(二)买入开仓。\n\n第二十五条 具有三级交易权限的个人投资者、以及普通机构投资者、专业机构投资者,可以进行下列期权交易:\n\n(一)二级交易权限对应的交易;\n\n(二)保证金卖出开仓。\n\n第二十六条 个人投资者申请各级别交易权限,应当在相应的知识测试中达到规定的合格分数,并具备相应的期权模拟交易经历。已开立沪市衍生品合约账户的投资者,可以在深市申请与沪市相同级别的交易权限及持仓限额。\n\n第二十七条 个人投资者的知识测试成绩、期权模拟交易经历以及金融类资产状况发生变化,满足较高交易权限对应的资格要求的,可以向期权经营机构申请调高其交易权限。\n\n出现前款规定情形的,期权经营机构应当严格按照本指引的规定,对申请进行审核;申请符合本指引规定以及期权经纪合同约定的,可以对其交易权限进行调整。\n\n第二十八条 个人投资者可以向期权经营机构申请调低其交易权限,期权经营机构应当根据其要求调至相应级别。\n\n第二十九条 期权经营机构应当通过电话、电子邮件、网络、营业部现场交流等方式,动态跟踪投资者开立衍生品合约账户时提供的基本信息,持续了解投资者的基本情况、财务状况以及期权交易参与情况等信息。投资者提供的基本信息发生变化的,应及时告知期权经营机构。期权经营机构发现客户提供的联络方式等重要信息发生变化的,应当及时了解并更新。\n\n第三十条 期权经营机构应当根据对客户情况的动态跟踪和持续了解,至少每两年对所有已开户的客户的交易情况、诚信记录、风险承受能力等进行一次全面评估,判断其是否符合适当性管理以及交易权限分级管理的相关要求。评估结果应当予以记录留存。\n\n第三十一条 期权经营机构发现客户的实际情况已经不符合其交易权限对应的资格要求的,或者出现期权经纪合同中约定的调低交易权限的情形的,可以自行调低客户交易权限。\n\n第三十二条 期权经营机构调整客户交易权限的,应当就调整后可能增加的投资风险或者可能丧失的交易权限对客户进行提示,并对相关告知和提示材料予以记录留存。\n\n期权经营机构自行调低客户交易权限的,还应当至少提前 3 个交易日通过纸面或者电子形式告知客户并予以记录留存。\n\n第三十三条 期权经营机构调整客户交易权限级别的,客户应当按照调整后的交易权限进行期权交易。\n\n第三十四条 期权经营机构应当根据客户交易权限的分级结果,采取适当方式对客户的期权交易委托指令进行前端控制,对不符合交易权限的交易委托予以拒绝。\n\n第三十五条 期权经营机构应当参考投资者适当性评估结果,对享有不同交易权限的客户制定相应的服务方案和管理流程,在期权投资咨询、资产管理、投资者教育等方面提供有针对性的服务,引导客户理性投资。\n\n第三十六条 期权经营机构为客户核定或者调整交易权限分级结果后,应当按照本所要求的时间和格式,将客户的名单及分级结果提交本所。\n\n第四章 投资者教育\n\n第三十七条 期权经营机构应当建立期权投资者教育工作制度,设置期权投资者教育专岗,加强对客户期权知识的培训和指导,并根据客户的不同需求和特点,对期权投资者教育工作的形式和内容作出具体安排。\n\n第三十八条 期权经营机构应当在公司网站及营业部现场,开设期权投资者教育专栏,并持续利用柜台交易系统、电子邮件、短信等有效方式,全面介绍期权知识,宣传期权法律、行政法规、部门规章、规范性文件与业务规则,充分揭示期权交易风险。\n\n第三十九条 期权经营机构应当在公司网站建立与本所官网期权子网站的链接,并根据需要或本所要求,及时向客户发布本所提供的有关期权投资者教育的相关资料。\n\n第四十条 期权经营机构应当将本所发布的与期权相关的市场通知、风险提示、停复牌公告等重要信息,通过公司网站、柜台交易系统等有效方式及时向客户发布。\n\n第五章 附则\n\n第四十一条 期权经营机构根据本指引的规定对相关记录进行留存的,相关记录保存期限不得少于 20 年。\n\n第四十二条 本指引由本所负责解释。\n\n第四十三条 本指引自发布之日起施行。\n\n附件:股票期权试点风险揭示书必备条款(草案)\n\n附件:股票期权试点风险揭示书必备条款(草案)为了使客户充分了解深圳市场股票期权(以下简称期权)试点业务风险,开展期权经纪业务的证券公司及其他期权经营机构(以下统称期权经营机构)应当制订《股票期权风险揭示书》,向客户充分揭示相关业务存在的风险,由客户仔细阅读并签字确认。《股票期权风险揭示书》应包括下列内容:本风险揭示书的揭示事项仅为列举性质,未能详尽列明期权业务的所有风险。客户在参与期权业务前,应认真阅读相关业务规则及协议条款,对其他可能存在的风险因素也应当有所了解和掌握,并确信自己已做好足够的风险评估与财务安排,避免因参与期权业务而遭受难以承受的损失。\n\n一、 一般风险事项\n\n(一)提示客户在办理期权业务前,应当充分理解期权投资者应当具备的经济能力、专业知识和投资经验,全面评估自身的经济承受能力、投资经历、产品认知能力、风险控制能力、身体及心理承受能力等,审慎决定是否参与期权业务。\n\n(二)提示客户在办理期权业务前,应当了解期权的基础知识、相关法律、法规、规章、深圳证券交易所(以下简称深交所)业务规则和各类公告信息、中国证券登记结算有限责任公司(以下简称中国结算)业务规则和各类公告信息以及期权经营机构的相关法律文件。\n\n(三)提示客户在办理期权业务前,应当充分了解期权业务的风险特点。期权不同于股票交易业务,是具有杠杆性、跨期性、联动性、高风险性等特征的金融衍生工具。期权业务采用保证金交易方式,潜在损失可能成倍放大,损失的总额可能超过全部保证金。\n\n(四)提示客户期权业务实行投资者适当性制度,客户应当满足中国证监会、深交所及期权经营机构关于投资者适当性管理的规定。投资者适当性制度对客户的各项要求以及依据制度规定对客户的综合评价结果,不构成对客户的投资建议,也不构成对客户投资获利的保证。客户应根据自身判断做出投资决定,不得以不符合适当性标准为由拒绝承担期权交易结果和履约责任。\n\n(五)提示客户期权经营机构对个人客户参与期权交易的权限进行分级管理。个人客户开立衍生品合约账户后,其期权交易权限将根据分级结果确定。期权经营机构可以根据相关规定自行调低个人客户的交易权限级别,个人客户只能根据调整后的交易权限参与期权交易。\n\n(六)提示客户在与期权经营机构的合同关系存续期间,如提\n\n供给期权经营机构的身份证明文件过期、身份信息发生变更的,应及时向期权经营机构提供新的相关材料。否则,期权经营机构有权拒绝客户开仓和出金指令,并有权进一步限制客户的交易权限。客户在开户时提供的其他信息发生变更时,也应及时向期权经营机构更新。如因客户未能及时提供更新信息而导致的后果、风险和损失由客户承担。\n\n二、 交易风险事项\n\n(七)提示客户期权合约标的由深交所根据相关规则选择,并非由合约标的发行人自行决定。深交所及合约标的发行人对期权合约的上市、挂牌、合约条款以及期权市场表现不承担任何责任。期权的买方在行权交收前不享有作为合约标的持有人应当享有的权利。\n\n(八)提示客户在进行期权买入交易时,可选择将期权合约平仓、持有至到期行权或者任由期权合约到期但不行权;客户选择持有期权至到期行权的,应当确保其相应账户内有行权所需的足额合约标的或者资金。持有权利仓的客户在合约到期时选择不行权的,客户将损失其支付的所有投资金额,包括权利金及交易费用。\n\n(九)提示客户卖出期权交易的风险一般高于买入期权交易的风险。卖方虽然能获得权利金,但也因承担行权履约义务而面临由于合约标的价格波动,可能承受远高于该笔权利金的损失。\n\n(十)提示客户在进行期权交易时,应关注合约标的价格波动、期权价格波动及其他市场风险及其可能造成的损失,包括但不限于以下情形:由于期权标的价格波动导致期权不具行权价值,期权买方将损失付出的所有权利金;期权卖方由于需承担行权履约义务,因合约标的价格波动导致的损失可能远大于其收取的权利金。\n\n(十一)提示客户关注期权的涨跌幅限制,期权的涨跌幅限制的计算方式与现货涨跌幅计算方式不同,投资者应当关注期权合约的每日涨跌停价格。\n\n(十二)提示客户在进行期权交易时,应关注当合约标的发生分红、份额拆分或者合并等情况时,会对合约标的进行除权除息处理,深交所将对尚未到期的期权合约的合约单位、行权价格进行调整,合约的交易与结算事宜将按照调整后的合约条款进行。\n\n(十三)提示客户关注期权合约存续期间,合约标的停牌的,\n\n对应期权合约交易也停牌;当期权交易出现异常波动或者涉嫌违法违规等情形时,深交所可能对期权合约进行停牌。\n\n(十四)提示客户在进行期权交易时,应当严格遵守深交所相关业务规则及市场公告中有关限仓、限购、限开仓的规定,并在深交所要求时,在规定时间内及时报告。客户的持仓量超过规定限额的,将导致其面临限制卖出开仓、限制买入开仓以及强行平仓的风险。\n\n(十五)提示客户关注期权合约可能难以或无法平仓的风险及其可能造成的损失,当市场交易量不足或者连续出现单边涨跌停价格时,期权合约持有者可能无法在市场上找到平仓机会。\n\n(十六)提示客户关注组合策略持仓不参加每日日终的持仓自\n\n动对冲,组合策略持仓存续期间,如遇 1 个以上成分合约已达到深交所及中国结算规定的自动解除触发日期,该组合策略于当日日终自动解除。除深交所规定的组合策略类型之外,投资者不得对组合策略对应的成分合约持仓进行单边平仓。\n\n(十七)提示客户深交所以结算参与人为单位,对结算参与人负责结算的衍生品合约账户的卖出开仓、买入开仓等申报进行前端控制。无论客户的保证金是否足额,如果结算参与人日间保证金余额小于卖出开仓申报对应的开仓保证金额度或者买入开仓申报对应的权利金额度的,相应卖出开仓或者买入开仓申报无效。\n\n三、结算风险事项\n\n(十八)提示客户资金保证金与证券保证金的出入金方式及限制存在差异。客户向期权经营机构提交的证券保证金,将统一存放在结算参与人在中国结算开立的客户证券保证金账户中,作为结算参与人向中国结算提交的证券保证金,用于结算参与人期权结算和保证期权合约的履行。\n\n(十九)提示客户其交纳的保证金将用以承担相应的交收及违约责任,结算参与人、期权经营机构代其承担相应责任的,将取得相应追偿权。\n\n(二十)提示客户期权交易二级结算中存在以下风险:客户未履行资金、合约标的交收义务,将面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;客户履行资金交收义务而结算参与人未向中国结算履行资金交收义务将导致客户面临被限制开新仓、未平仓合约被强行平仓、无法获得应收合约标的的风险;结算参与人(或期权经营机构)对客户交收违约而导致客户未能取得应收合约标的及应收资金的风险。\n\n(二十一)提示客户期权交易实行当日无负债结算制度。在进行期权卖出开仓交易时,客户应当保证各类保证金符合相关标准;当保证金余额不足时,应在规定时间内存入所需保证金或者自行平仓。否则,客户将面临被限制开新仓以及未平仓合约被强行平仓等风险,由此可能导致的一切费用和损失由客户承担,包括但不限于强行平仓的费用、强行平仓造成的损失以及因市场原因无法强行平仓造成的损失扩大部分。\n\n(二十二)提示客户如果其保证金不足且未能在期权经营机构规定时间内补足或自行平仓,期权经营机构有权根据相关法律、法规、业务规则以及期权经纪合同的约定对其采取强行平仓措施。如果由此导致结算参与人出现保证金不足的,中国结算将根据业务规则的规定对结算参与人实施强行平仓,由此导致的费用和损失将由客户承担。\n\n(二十三)提示客户关注无论其保证金是否足额,如果结算参与人客户保证金账户内结算准备金余额小于零且未能在规定时间内补足或自行平仓的,中国结算将按照业务规则规定对结算参与人采取强行平仓措施,有可能导致该客户持有的合约被实施强行平仓。\n\n(二十四)提示客户在备兑开仓持仓存续期内,因合约调整、\n\n被提前用于行权交割、司法冻结、司法扣划等原因导致备兑证券不足的,客户将面临备兑不足部分在当日日终被转普通仓,并需要追加保证金的风险。\n\n(二十五)提示客户在期权交易时,如果出现行权资金交收违\n\n约、行权证券交割不足的,结算参与人(期权经营机构)有权按照业务规则规定及期权经纪合同约定的标准向客户收取违约金等。\n\n四、行权风险事项\n\n(二十六)提示客户关注期权买方在规定时间未申报行权的,合约权利失效。期权合约的最后交易日为每个合约到期月份的第四个星期三(遇法定节假日顺延)。提示客户期权合约最后交易日出现深交所规定的异常情况的,期权合约的最后交易日、到期日、行权日相应顺延,行权事宜将按深交所及中国结算的规定办理。\n\n(二十七)提示客户应当熟悉期权行权的规则和程序,在期权交易行权时,期权合约数量、行权资金及合约标的不足将可能导致不足部分对应的行权为无效申报。\n\n(二十八)提示客户期权行权原则上进行实物交割,但在出现\n\n结算参与人未能完成向中国结算的合约标的行权交割义务、期权合约行权日或者行权日次一交易日合约标的交易出现异常情形以及深交所、中国结算规定的其他情形时,期权行权交割可能全部或者部分以现金结算的方式进行,客户须承认行权现金结算的交收结果。\n\n(二十九)提示客户以现金结算方式进行行权交割时,合约标的应付方将面临按照深交所或者中国结算公布的价格进行现金结算而不能以实物交割方式进行行权交割的风险;合约标的应收方则存在无法取得合约标的并可能损失一定本金的风险。\n\n(三十)提示客户如果到期日遇合约标的全天停牌或者盘中临\n\n时停牌的,则期权合约的交易同时停牌,但行权申报照常进行。无论合约标的是否在收盘前复牌,期权合约的最后交易日、到期日以及行权日都不作顺延。\n\n(三十一)提示客户在期权合约的最后交易日,有可能因期权合约交易停牌而无法进行正常的开仓与平仓。\n\n(三十二)提示客户当合约标的发生暂停或终止上市,深交所有权将未平仓的期权合约提前至合约标的暂停或终止上市前最后交易日的前一交易日到期并行权。\n\n(三十三)提示客户关注衍生品合约账户内的期权合约通过该账户对应的证券账户完成合约标的交割。客户衍生品合约账户内存在未平仓合约或清算交收责任尚未了结前,客户衍生品合约账户的销户及对应证券账户的销户将受到限制。\n\n五、其他风险事项\n\n(三十四)提示客户关注当发生不可抗力、意外事件、技术故障、重大差错、市场操纵等异常情况影响期权业务正常进行,或者客户违反期权业务规则并且对市场产生或者将产生重大影响的,深交所及中国结算可以按照相关规则决定采取包括但不限于调整保证金、调整涨跌停价格、调整客户持仓限额、限制交易、取消交易、强行平仓等风险控制措施,由此造成的损失,由客户自行承担。\n\n(三十五)提示客户因不可抗力、意外事件、技术故障或者重大差错等原因,导致期权合约条款、结算价格、涨跌停价格、行权现金结算价格、保证金标准以及与期权交易相关的其他重要数据发生错误时,深交所、中国结算可以决定对相关数据进行调整,并向市场公告。\n\n(三十六)提示客户关注期权业务可能面临各种操作风险、技术系统风险、不可抗力及意外事件并承担由此可能造成的损失,包括但不限于:期权经营机构、结算参与人、深交所或者中国结算因电力、通讯失效、技术系统故障或重大差错等原因而不能及时完成相关业务或影响交易正常进行等情形。\n\n(三十七)提示客户利用互联网进行期权交易时将存在但不限\n\n于以下风险并承担由此导致的损失:由于系统故障、设备故障、通讯故障、电力故障、网络故障、受到网络黑客和计算机病毒攻击及其他因素,可能导致网上交易及行情出现延迟、中断、数据错误或不完全;由于客户未充分了解期权交易及行情软件的实际功能、信息来源、固有缺陷和使用风险,导致对软件使用不当,造成决策和操作失误;客户网络终端设备及软件系统与期权经营机构提供的网上交易系统不兼容,可能导致无法下达委托指令或委托失败;客户缺乏网上交易经验,可能因操作不当造成交易失败或交易失误;客户密码失密或被盗用。\n\n(三十八)提示客户关注深交所、中国结算以及期权经营机构发布的公告、通知以及其他形式的提醒,了解包括但不限于期权交易相关业务规则、保证金标准、证券保证金范围及折算率、持仓限额等方面的调整和变化。\n\n(三十九)提示客户关注期权业务中面临的各种政策风险,以及由此可能造成的损失,包括但不限于因法律法规及政策变动须做出重大调整或者终止该业务。以上《股票期权风险揭示书》的各项内容,本人/单位已仔细阅读并完全理解,愿意自行承担股票期权交易的风险和损失。(请客户抄写以上划线部分)客户:委托代理人:(签字或盖章)签署日期: 年 月 日注:1.除上述各项风险提示外,期权经营机构还可以根据具体情况在其制定的《期权业务风险揭示书》中对期权业务存在的风险作进一步列举。\n\n2.本风险揭示书一式二份,一份由期权经营机构留存备查,一份由客户保存。",
   "blocks": [
-    {
-      "block_id": "b00001",
-      "text": "附件:深圳证券交易所股票期权试点投资者适当性管理指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 1,
-      "region": "body",
-      "source_page_end": 1,
-      "start_char": 0,
-      "end_char": 26,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
     {
       "block_id": "b00002",
       "text": "第一章 总则",
@@ -3453,8 +3446,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 28,
-      "end_char": 34,
+      "start_char": 0,
+      "end_char": 6,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3468,8 +3461,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 36,
-      "end_char": 159,
+      "start_char": 8,
+      "end_char": 131,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3483,8 +3476,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 161,
-      "end_char": 327,
+      "start_char": 133,
+      "end_char": 299,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3498,8 +3491,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 329,
-      "end_char": 455,
+      "start_char": 301,
+      "end_char": 427,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3513,8 +3506,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 457,
-      "end_char": 569,
+      "start_char": 429,
+      "end_char": 541,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3528,8 +3521,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 571,
-      "end_char": 646,
+      "start_char": 543,
+      "end_char": 618,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3543,8 +3536,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 648,
-      "end_char": 722,
+      "start_char": 620,
+      "end_char": 694,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3558,8 +3551,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 724,
-      "end_char": 736,
+      "start_char": 696,
+      "end_char": 708,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3573,8 +3566,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 738,
-      "end_char": 750,
+      "start_char": 710,
+      "end_char": 722,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3588,8 +3581,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 752,
-      "end_char": 777,
+      "start_char": 724,
+      "end_char": 749,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3603,8 +3596,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 779,
-      "end_char": 846,
+      "start_char": 751,
+      "end_char": 818,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3618,8 +3611,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 848,
-      "end_char": 917,
+      "start_char": 820,
+      "end_char": 889,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3633,8 +3626,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 919,
-      "end_char": 943,
+      "start_char": 891,
+      "end_char": 915,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3648,8 +3641,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 945,
-      "end_char": 964,
+      "start_char": 917,
+      "end_char": 936,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3663,8 +3656,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 966,
-      "end_char": 981,
+      "start_char": 938,
+      "end_char": 953,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3678,8 +3671,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 983,
-      "end_char": 1010,
+      "start_char": 955,
+      "end_char": 982,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3693,8 +3686,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1012,
-      "end_char": 1039,
+      "start_char": 984,
+      "end_char": 1011,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3708,8 +3701,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1041,
-      "end_char": 1142,
+      "start_char": 1013,
+      "end_char": 1114,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3723,8 +3716,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1144,
-      "end_char": 1171,
+      "start_char": 1116,
+      "end_char": 1143,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3738,8 +3731,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1173,
-      "end_char": 1241,
+      "start_char": 1145,
+      "end_char": 1213,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3753,8 +3746,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1243,
-      "end_char": 1263,
+      "start_char": 1215,
+      "end_char": 1235,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3768,8 +3761,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1265,
-      "end_char": 1295,
+      "start_char": 1237,
+      "end_char": 1267,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3783,8 +3776,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1297,
-      "end_char": 1322,
+      "start_char": 1269,
+      "end_char": 1294,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3798,8 +3791,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1324,
-      "end_char": 1378,
+      "start_char": 1296,
+      "end_char": 1350,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3813,8 +3806,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1380,
-      "end_char": 1435,
+      "start_char": 1352,
+      "end_char": 1407,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3828,8 +3821,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1437,
-      "end_char": 1498,
+      "start_char": 1409,
+      "end_char": 1470,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3843,8 +3836,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1500,
-      "end_char": 1527,
+      "start_char": 1472,
+      "end_char": 1499,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3858,8 +3851,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1529,
-      "end_char": 1560,
+      "start_char": 1501,
+      "end_char": 1532,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3873,8 +3866,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1562,
-      "end_char": 1589,
+      "start_char": 1534,
+      "end_char": 1561,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3888,8 +3881,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1591,
-      "end_char": 1642,
+      "start_char": 1563,
+      "end_char": 1614,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3903,8 +3896,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1644,
-      "end_char": 1667,
+      "start_char": 1616,
+      "end_char": 1639,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3918,8 +3911,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1669,
-      "end_char": 1681,
+      "start_char": 1641,
+      "end_char": 1653,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3933,8 +3926,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1683,
-      "end_char": 1765,
+      "start_char": 1655,
+      "end_char": 1737,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3948,8 +3941,8 @@
       "page": 4,
       "region": "body",
       "source_page_end": 4,
-      "start_char": 1767,
-      "end_char": 1808,
+      "start_char": 1739,
+      "end_char": 1780,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3963,8 +3956,8 @@
       "page": 5,
       "region": "body",
       "source_page_end": 5,
-      "start_char": 1810,
-      "end_char": 1914,
+      "start_char": 1782,
+      "end_char": 1886,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3978,8 +3971,8 @@
       "page": 5,
       "region": "body",
       "source_page_end": 5,
-      "start_char": 1916,
-      "end_char": 2002,
+      "start_char": 1888,
+      "end_char": 1974,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3993,8 +3986,8 @@
       "page": 5,
       "region": "body",
       "source_page_end": 5,
-      "start_char": 2004,
-      "end_char": 2114,
+      "start_char": 1976,
+      "end_char": 2086,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4008,8 +4001,8 @@
       "page": 5,
       "region": "body",
       "source_page_end": 5,
-      "start_char": 2116,
-      "end_char": 2203,
+      "start_char": 2088,
+      "end_char": 2175,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4023,8 +4016,8 @@
       "page": 5,
       "region": "body",
       "source_page_end": 5,
-      "start_char": 2205,
-      "end_char": 2218,
+      "start_char": 2177,
+      "end_char": 2190,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4038,8 +4031,8 @@
       "page": 5,
       "region": "body",
       "source_page_end": 5,
-      "start_char": 2220,
-      "end_char": 2293,
+      "start_char": 2192,
+      "end_char": 2265,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4053,8 +4046,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2295,
-      "end_char": 2400,
+      "start_char": 2267,
+      "end_char": 2372,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4068,8 +4061,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2402,
-      "end_char": 2446,
+      "start_char": 2374,
+      "end_char": 2418,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4083,8 +4076,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2448,
-      "end_char": 2559,
+      "start_char": 2420,
+      "end_char": 2531,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4098,8 +4091,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2561,
-      "end_char": 2595,
+      "start_char": 2533,
+      "end_char": 2567,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4113,8 +4106,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2597,
-      "end_char": 2608,
+      "start_char": 2569,
+      "end_char": 2580,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4128,8 +4121,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2610,
-      "end_char": 2715,
+      "start_char": 2582,
+      "end_char": 2687,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4143,8 +4136,8 @@
       "page": 6,
       "region": "body",
       "source_page_end": 6,
-      "start_char": 2717,
-      "end_char": 2752,
+      "start_char": 2689,
+      "end_char": 2724,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4158,8 +4151,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2754,
-      "end_char": 2786,
+      "start_char": 2726,
+      "end_char": 2758,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4173,8 +4166,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2788,
-      "end_char": 2814,
+      "start_char": 2760,
+      "end_char": 2786,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4188,8 +4181,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2816,
-      "end_char": 2846,
+      "start_char": 2788,
+      "end_char": 2818,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4203,8 +4196,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2848,
-      "end_char": 2867,
+      "start_char": 2820,
+      "end_char": 2839,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4218,8 +4211,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2869,
-      "end_char": 2901,
+      "start_char": 2841,
+      "end_char": 2873,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4233,8 +4226,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2903,
-      "end_char": 2918,
+      "start_char": 2875,
+      "end_char": 2890,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4248,8 +4241,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2920,
-      "end_char": 2928,
+      "start_char": 2892,
+      "end_char": 2900,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4263,8 +4256,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2930,
-      "end_char": 2980,
+      "start_char": 2902,
+      "end_char": 2952,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4278,8 +4271,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2982,
-      "end_char": 2997,
+      "start_char": 2954,
+      "end_char": 2969,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4293,8 +4286,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 2999,
-      "end_char": 3010,
+      "start_char": 2971,
+      "end_char": 2982,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4308,8 +4301,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 3012,
-      "end_char": 3111,
+      "start_char": 2984,
+      "end_char": 3083,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4323,8 +4316,8 @@
       "page": 7,
       "region": "body",
       "source_page_end": 7,
-      "start_char": 3113,
-      "end_char": 3190,
+      "start_char": 3085,
+      "end_char": 3162,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4338,8 +4331,8 @@
       "page": 8,
       "region": "body",
       "source_page_end": 8,
-      "start_char": 3192,
-      "end_char": 3263,
+      "start_char": 3164,
+      "end_char": 3235,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4353,8 +4346,8 @@
       "page": 8,
       "region": "body",
       "source_page_end": 8,
-      "start_char": 3265,
-      "end_char": 3315,
+      "start_char": 3237,
+      "end_char": 3287,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4368,8 +4361,8 @@
       "page": 8,
       "region": "body",
       "source_page_end": 8,
-      "start_char": 3317,
-      "end_char": 3477,
+      "start_char": 3289,
+      "end_char": 3449,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4383,8 +4376,8 @@
       "page": 8,
       "region": "body",
       "source_page_end": 8,
-      "start_char": 3479,
-      "end_char": 3592,
+      "start_char": 3451,
+      "end_char": 3564,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4398,8 +4391,8 @@
       "page": 8,
       "region": "body",
       "source_page_end": 8,
-      "start_char": 3594,
-      "end_char": 3672,
+      "start_char": 3566,
+      "end_char": 3644,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4413,8 +4406,8 @@
       "page": 8,
       "region": "body",
       "source_page_end": 8,
-      "start_char": 3674,
-      "end_char": 3748,
+      "start_char": 3646,
+      "end_char": 3720,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4428,8 +4421,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 3750,
-      "end_char": 3804,
+      "start_char": 3722,
+      "end_char": 3776,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4443,8 +4436,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 3806,
-      "end_char": 3851,
+      "start_char": 3778,
+      "end_char": 3823,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4458,8 +4451,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 3853,
-      "end_char": 3924,
+      "start_char": 3825,
+      "end_char": 3896,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4473,8 +4466,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 3926,
-      "end_char": 4020,
+      "start_char": 3898,
+      "end_char": 3992,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4488,8 +4481,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 4022,
-      "end_char": 4084,
+      "start_char": 3994,
+      "end_char": 4056,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4503,8 +4496,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 4086,
-      "end_char": 4095,
+      "start_char": 4058,
+      "end_char": 4067,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4518,8 +4511,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 4097,
-      "end_char": 4190,
+      "start_char": 4069,
+      "end_char": 4162,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4533,8 +4526,8 @@
       "page": 9,
       "region": "body",
       "source_page_end": 9,
-      "start_char": 4192,
-      "end_char": 4303,
+      "start_char": 4164,
+      "end_char": 4275,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4548,8 +4541,8 @@
       "page": 10,
       "region": "body",
       "source_page_end": 10,
-      "start_char": 4305,
-      "end_char": 4378,
+      "start_char": 4277,
+      "end_char": 4350,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4563,8 +4556,8 @@
       "page": 10,
       "region": "body",
       "source_page_end": 10,
-      "start_char": 4380,
-      "end_char": 4452,
+      "start_char": 4352,
+      "end_char": 4424,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4578,8 +4571,8 @@
       "page": 10,
       "region": "body",
       "source_page_end": 10,
-      "start_char": 4454,
-      "end_char": 4460,
+      "start_char": 4426,
+      "end_char": 4432,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4593,8 +4586,8 @@
       "page": 10,
       "region": "body",
       "source_page_end": 10,
-      "start_char": 4462,
-      "end_char": 4511,
+      "start_char": 4434,
+      "end_char": 4483,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4608,8 +4601,8 @@
       "page": 10,
       "region": "body",
       "source_page_end": 10,
-      "start_char": 4513,
-      "end_char": 4530,
+      "start_char": 4485,
+      "end_char": 4502,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4623,8 +4616,8 @@
       "page": 10,
       "region": "body",
       "source_page_end": 10,
-      "start_char": 4532,
-      "end_char": 4550,
+      "start_char": 4504,
+      "end_char": 4522,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4638,8 +4631,8 @@
       "page": 10,
       "region": "appendix",
       "source_page_end": 10,
-      "start_char": 4552,
-      "end_char": 4574,
+      "start_char": 4524,
+      "end_char": 4546,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4653,8 +4646,8 @@
       "page": 11,
       "region": "appendix",
       "source_page_end": 11,
-      "start_char": 4576,
-      "end_char": 4855,
+      "start_char": 4548,
+      "end_char": 4827,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4668,8 +4661,8 @@
       "page": 11,
       "region": "appendix",
       "source_page_end": 11,
-      "start_char": 4857,
-      "end_char": 4866,
+      "start_char": 4829,
+      "end_char": 4838,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4683,8 +4676,8 @@
       "page": 11,
       "region": "appendix",
       "source_page_end": 11,
-      "start_char": 4868,
-      "end_char": 4972,
+      "start_char": 4840,
+      "end_char": 4944,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4698,8 +4691,8 @@
       "page": 11,
       "region": "appendix",
       "source_page_end": 11,
-      "start_char": 4974,
-      "end_char": 5092,
+      "start_char": 4946,
+      "end_char": 5064,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4713,8 +4706,8 @@
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5094,
-      "end_char": 5208,
+      "start_char": 5066,
+      "end_char": 5180,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4728,8 +4721,8 @@
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5210,
-      "end_char": 5375,
+      "start_char": 5182,
+      "end_char": 5347,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4743,8 +4736,8 @@
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5377,
-      "end_char": 5496,
+      "start_char": 5349,
+      "end_char": 5468,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4758,8 +4751,8 @@
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5498,
-      "end_char": 5525,
+      "start_char": 5470,
+      "end_char": 5497,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4773,8 +4766,8 @@
       "page": 12,
       "region": "appendix",
       "source_page_end": 12,
-      "start_char": 5527,
-      "end_char": 5678,
+      "start_char": 5499,
+      "end_char": 5650,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4788,8 +4781,8 @@
       "page": 13,
       "region": "appendix",
       "source_page_end": 13,
-      "start_char": 5680,
-      "end_char": 5689,
+      "start_char": 5652,
+      "end_char": 5661,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4803,8 +4796,8 @@
       "page": 13,
       "region": "appendix",
       "source_page_end": 13,
-      "start_char": 5691,
-      "end_char": 5806,
+      "start_char": 5663,
+      "end_char": 5778,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4818,8 +4811,8 @@
       "page": 13,
       "region": "appendix",
       "source_page_end": 13,
-      "start_char": 5808,
-      "end_char": 5949,
+      "start_char": 5780,
+      "end_char": 5921,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4833,8 +4826,8 @@
       "page": 13,
       "region": "appendix",
       "source_page_end": 13,
-      "start_char": 5951,
-      "end_char": 6033,
+      "start_char": 5923,
+      "end_char": 6005,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4848,8 +4841,8 @@
       "page": 13,
       "region": "appendix",
       "source_page_end": 13,
-      "start_char": 6035,
-      "end_char": 6177,
+      "start_char": 6007,
+      "end_char": 6149,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4863,8 +4856,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6179,
-      "end_char": 6244,
+      "start_char": 6151,
+      "end_char": 6216,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4878,8 +4871,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6246,
-      "end_char": 6357,
+      "start_char": 6218,
+      "end_char": 6329,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4893,8 +4886,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6359,
-      "end_char": 6386,
+      "start_char": 6331,
+      "end_char": 6358,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4908,8 +4901,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6388,
-      "end_char": 6439,
+      "start_char": 6360,
+      "end_char": 6411,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4923,8 +4916,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6441,
-      "end_char": 6557,
+      "start_char": 6413,
+      "end_char": 6529,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4938,8 +4931,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6559,
-      "end_char": 6640,
+      "start_char": 6531,
+      "end_char": 6612,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4953,8 +4946,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6642,
-      "end_char": 6669,
+      "start_char": 6614,
+      "end_char": 6641,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4968,8 +4961,8 @@
       "page": 14,
       "region": "appendix",
       "source_page_end": 14,
-      "start_char": 6671,
-      "end_char": 6778,
+      "start_char": 6643,
+      "end_char": 6750,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4983,8 +4976,8 @@
       "page": 15,
       "region": "appendix",
       "source_page_end": 15,
-      "start_char": 6780,
-      "end_char": 6919,
+      "start_char": 6752,
+      "end_char": 6891,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4998,8 +4991,8 @@
       "page": 15,
       "region": "appendix",
       "source_page_end": 15,
-      "start_char": 6921,
-      "end_char": 6929,
+      "start_char": 6893,
+      "end_char": 6901,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5013,8 +5006,8 @@
       "page": 15,
       "region": "appendix",
       "source_page_end": 15,
-      "start_char": 6931,
-      "end_char": 7055,
+      "start_char": 6903,
+      "end_char": 7027,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5028,8 +5021,8 @@
       "page": 15,
       "region": "appendix",
       "source_page_end": 15,
-      "start_char": 7057,
-      "end_char": 7119,
+      "start_char": 7029,
+      "end_char": 7091,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5043,8 +5036,8 @@
       "page": 15,
       "region": "appendix",
       "source_page_end": 15,
-      "start_char": 7121,
-      "end_char": 7311,
+      "start_char": 7093,
+      "end_char": 7283,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5058,8 +5051,8 @@
       "page": 16,
       "region": "appendix",
       "source_page_end": 16,
-      "start_char": 7313,
-      "end_char": 7496,
+      "start_char": 7285,
+      "end_char": 7468,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5073,8 +5066,8 @@
       "page": 16,
       "region": "appendix",
       "source_page_end": 16,
-      "start_char": 7498,
-      "end_char": 7646,
+      "start_char": 7470,
+      "end_char": 7618,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5088,8 +5081,8 @@
       "page": 16,
       "region": "appendix",
       "source_page_end": 16,
-      "start_char": 7648,
-      "end_char": 7762,
+      "start_char": 7620,
+      "end_char": 7734,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5103,8 +5096,8 @@
       "page": 16,
       "region": "appendix",
       "source_page_end": 16,
-      "start_char": 7764,
-      "end_char": 7791,
+      "start_char": 7736,
+      "end_char": 7763,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5118,8 +5111,8 @@
       "page": 16,
       "region": "appendix",
       "source_page_end": 16,
-      "start_char": 7793,
-      "end_char": 7859,
+      "start_char": 7765,
+      "end_char": 7831,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5133,8 +5126,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 7861,
-      "end_char": 7888,
+      "start_char": 7833,
+      "end_char": 7860,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5148,8 +5141,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 7890,
-      "end_char": 7947,
+      "start_char": 7862,
+      "end_char": 7919,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5163,8 +5156,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 7949,
-      "end_char": 7957,
+      "start_char": 7921,
+      "end_char": 7929,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5178,8 +5171,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 7959,
-      "end_char": 8100,
+      "start_char": 7931,
+      "end_char": 8072,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5193,8 +5186,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 8102,
-      "end_char": 8173,
+      "start_char": 8074,
+      "end_char": 8145,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5208,8 +5201,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 8175,
-      "end_char": 8202,
+      "start_char": 8147,
+      "end_char": 8174,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5223,8 +5216,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 8204,
-      "end_char": 8320,
+      "start_char": 8176,
+      "end_char": 8292,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5238,8 +5231,8 @@
       "page": 17,
       "region": "appendix",
       "source_page_end": 17,
-      "start_char": 8322,
-      "end_char": 8429,
+      "start_char": 8294,
+      "end_char": 8401,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5253,8 +5246,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8431,
-      "end_char": 8458,
+      "start_char": 8403,
+      "end_char": 8430,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5268,8 +5261,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8460,
-      "end_char": 8528,
+      "start_char": 8432,
+      "end_char": 8500,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5283,8 +5276,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8530,
-      "end_char": 8577,
+      "start_char": 8502,
+      "end_char": 8549,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5298,8 +5291,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8579,
-      "end_char": 8649,
+      "start_char": 8551,
+      "end_char": 8621,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5313,8 +5306,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8651,
-      "end_char": 8754,
+      "start_char": 8623,
+      "end_char": 8726,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5328,8 +5321,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8756,
-      "end_char": 8764,
+      "start_char": 8728,
+      "end_char": 8736,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5343,8 +5336,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8766,
-      "end_char": 8937,
+      "start_char": 8738,
+      "end_char": 8909,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5358,8 +5351,8 @@
       "page": 18,
       "region": "appendix",
       "source_page_end": 18,
-      "start_char": 8939,
-      "end_char": 9058,
+      "start_char": 8911,
+      "end_char": 9030,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5373,8 +5366,8 @@
       "page": 19,
       "region": "appendix",
       "source_page_end": 19,
-      "start_char": 9060,
-      "end_char": 9191,
+      "start_char": 9032,
+      "end_char": 9163,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5388,8 +5381,8 @@
       "page": 19,
       "region": "appendix",
       "source_page_end": 19,
-      "start_char": 9193,
-      "end_char": 9220,
+      "start_char": 9165,
+      "end_char": 9192,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5403,8 +5396,8 @@
       "page": 19,
       "region": "appendix",
       "source_page_end": 19,
-      "start_char": 9222,
-      "end_char": 9464,
+      "start_char": 9194,
+      "end_char": 9436,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5418,8 +5411,8 @@
       "page": 19,
       "region": "appendix",
       "source_page_end": 19,
-      "start_char": 9466,
-      "end_char": 9562,
+      "start_char": 9438,
+      "end_char": 9534,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5433,8 +5426,8 @@
       "page": 20,
       "region": "appendix",
       "source_page_end": 20,
-      "start_char": 9564,
-      "end_char": 9791,
+      "start_char": 9536,
+      "end_char": 9763,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -5448,8 +5441,8 @@
       "page": 20,
       "region": "appendix",
       "source_page_end": 20,
-      "start_char": 9793,
-      "end_char": 9828,
+      "start_char": 9765,
+      "end_char": 9800,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],

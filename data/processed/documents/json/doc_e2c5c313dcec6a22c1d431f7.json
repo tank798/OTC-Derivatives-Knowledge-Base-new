@@ -19,14 +19,14 @@
     "catalog_index": 78,
     "local_file_path": "data/raw/监管文件/私募证券投资基金运作指引.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_5767c87330980da7df58"
+    "legacy_document_id": "doc_e2c5c313dcec6a22c1d431f7"
   },
   "warnings": [
     "已合并15处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "6e6cc9fcd93c5dd8cf6d723578ccce37706e04a2a2978b8e3b4b87236d1033e9",
     "clean_text_sha256": "6e6cc9fcd93c5dd8cf6d723578ccce37706e04a2a2978b8e3b4b87236d1033e9",

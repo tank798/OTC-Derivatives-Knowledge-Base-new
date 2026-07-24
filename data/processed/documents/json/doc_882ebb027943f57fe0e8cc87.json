@@ -19,7 +19,7 @@
     "catalog_index": 125,
     "local_file_path": "data/raw/监管文件/深交所股票期权试点期货公司经纪业务指南（2026年修订）.doc",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_9216ccc9f7723f4e3311"
+    "legacy_document_id": "doc_882ebb027943f57fe0e8cc87"
   },
   "warnings": [
     "已过滤101个Word目录段落",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "cad957b2fdc099bb369bd668fdae0753c738ae27ca674cd8a88490a27e6e9975",
     "clean_text_sha256": "c2421fb00821064296d9418c73c22d1123d5ae132e174e5e9817d9b983064b81",

@@ -15,6 +15,7 @@ DEFAULT_CHUNKS_PATH = ROOT / "data/processed/chunks/jsonl/all_chunks.jsonl"
 DEFAULT_DOCUMENTS_DIR = ROOT / "data/processed/documents/json"
 DEFAULT_CLASSIFICATIONS_PATH = ROOT / "data/metadata/viewer_classifications.json"
 DEFAULT_TEMPLATE_PATH = ROOT / "knowledge_base/templates/regulation_viewer.html"
+DEFAULT_MANIFEST_PATH = ROOT / "data/processed/build_manifest.json"
 DEFAULT_OUTPUT_PATH = ROOT / "docs/场外衍生品法规知识库.html"
 
 HISTORICAL_AUTHORITY_MAP = {
@@ -196,6 +197,7 @@ def main() -> None:
     parser.add_argument("--documents-dir", type=Path, default=DEFAULT_DOCUMENTS_DIR)
     parser.add_argument("--classifications", type=Path, default=DEFAULT_CLASSIFICATIONS_PATH)
     parser.add_argument("--template", type=Path, default=DEFAULT_TEMPLATE_PATH)
+    parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST_PATH)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH)
     args = parser.parse_args()
 
@@ -204,8 +206,19 @@ def main() -> None:
         args.documents_dir.resolve(),
         args.classifications.resolve(),
     )
-    if data["summary"]["documents"] != 114:
-        raise ValueError(f"法规数量必须为114，当前为{data['summary']['documents']}")
+    manifest = json.loads(args.manifest.resolve().read_text(encoding="utf-8"))
+    expected_documents = int(manifest["document_count"])
+    expected_chunks = int(manifest["chunk_count"])
+    if data["summary"]["documents"] != expected_documents:
+        raise ValueError(
+            f"法规数量与构建清单不一致：查看器 {data['summary']['documents']}，"
+            f"构建清单 {expected_documents}"
+        )
+    if data["summary"]["chunks"] != expected_chunks:
+        raise ValueError(
+            f"Chunk 数量与构建清单不一致：查看器 {data['summary']['chunks']}，"
+            f"构建清单 {expected_chunks}"
+        )
     template = args.template.resolve().read_text(encoding="utf-8")
     if template.count("__VIEWER_DATA__") != 1:
         raise ValueError("HTML模板必须且只能包含一个__VIEWER_DATA__占位符")

@@ -19,16 +19,16 @@
     "catalog_index": 26,
     "local_file_path": "data/raw/监管文件/附件2：中国人民银行公告[2007]第20号：远期利率协议业务管理规定.doc",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_62e53c5f89256b983991",
+    "legacy_document_id": "doc_72a49ded28ec375d2f9d748b",
     "version_note": "为规范远期利率协议业务,完善市场避险功能,促进利率市场化进程,中国人民银行制定了《远期利率协议业务管理规定》,现予公布。"
   },
   "warnings": [
-    "旧DOC经LibreOffice直接只读导出文本，原文件未修改",
+    "LibreOffice转换失败，旧DOC通过macOS textutil只读抽取并清理域代码，原文件未修改",
     "前置发布信息清洗：移出6个block，规则cover_document_title、publication_signature_authority、publication_signature_date、publication_wrapper、split_front_document_number"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "95ed377415c59e890ffcf3d40881d5264c61015d9d828c8de3fce1d8c8b3f75f",
     "clean_text_sha256": "bc83689a0af40ffc379d966a77b66f019efbbbd979f8e439b074fae13226d39e",

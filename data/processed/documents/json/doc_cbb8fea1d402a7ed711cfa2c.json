@@ -19,7 +19,7 @@
     "catalog_index": 40,
     "local_file_path": "data/raw/监管文件/商业银行托管业务监督管理办法（试行）.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_00dd1481dc2cf6de56f0"
+    "legacy_document_id": "doc_cbb8fea1d402a7ed711cfa2c"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：第页",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "e15fb6dd8392ca9b56460b03023ed685c1472edbe31c4a372c1c6ec41f37ce45",
     "clean_text_sha256": "fa4316d5b6521fa55e3517959b96cc75f842a4976d02d0e7bcf4ceb092a6013d",

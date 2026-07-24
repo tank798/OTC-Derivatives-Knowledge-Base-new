@@ -19,7 +19,7 @@
     "catalog_index": 3,
     "local_file_path": "data/raw/监管文件/中华人民共和国证券法.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_af9c3f27258ea7a87b3e",
+    "legacy_document_id": "doc_c4fca172634cc59106f2bfc6",
     "version_note": "中华人民共和国证券法(2019修订)《中华人民共和国证券法》已由中华人民共和国第十三届全国人民代表大会常务委员会第十五次会议于2019年12月28日修订通过,现予公布,自2020年3月1日起施行。中华人民共和国主席 习近平2019-12-28"
   },
   "warnings": [
@@ -29,7 +29,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "645fbc851e2580a18967e2cc3cdebae3d2f913b6a435f998c66e3ddbf063e617",
     "clean_text_sha256": "21aa4108a632d9ece12d0b010141783bb0b40757cf0df1db74e5894ec8c4e639",

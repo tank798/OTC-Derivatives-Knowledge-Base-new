@@ -19,12 +19,12 @@
     "catalog_index": 43,
     "local_file_path": "data/raw/监管文件/商业银行流动性风险管理办法.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_b907913892bd4afb1ed0"
+    "legacy_document_id": "doc_b49f89a86d230228391a766a"
   },
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "44056e5db305c4d5476005d74bdcc1874a5ff1324546acbaf48550582c1740cf",
     "clean_text_sha256": "44056e5db305c4d5476005d74bdcc1874a5ff1324546acbaf48550582c1740cf",

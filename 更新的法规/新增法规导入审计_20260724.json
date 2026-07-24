@@ -1,0 +1,772 @@
+{
+  "audit_date": "2026-07-24",
+  "markdown": "更新的法规/1/场外衍生品法规知识库_0722_vf.md",
+  "raw_dir": "data/raw/监管文件",
+  "previous_catalog_records": 218,
+  "supplemental_regulations": 102,
+  "excluded_embedded_attachments": 2,
+  "final_catalog_records": 218,
+  "expected_active_documents": 216,
+  "missing_markdown_rows_recovered": [
+    4,
+    6
+  ],
+  "matches": [
+    {
+      "source_list_number": 1,
+      "document_title": "证券公司信息隔离墙制度指引",
+      "file_name": "证券公司信息隔离墙制度指引.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69829.html"
+    },
+    {
+      "source_list_number": 2,
+      "document_title": "证券基金经营机构债券投资交易业务内控指引",
+      "file_name": "证券基金经营机构债券投资交易业务内控指引.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.amac.org.cn/xwfb/tzgg/201812/P020231126367135967741.pdf"
+    },
+    {
+      "source_list_number": 3,
+      "document_title": "证券公司参与股指期货、国债期货交易指引（2022年修正）",
+      "file_name": "证券公司参与股指期货、国债期货交易指引（2022年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=528eac30f1c94d9e96f60d27f3e2b289&body="
+    },
+    {
+      "source_list_number": 4,
+      "document_title": "证券市场程序化交易管理规定（试行）",
+      "file_name": "证券市场程序化交易管理规定（试行）.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7480579/content.shtml"
+    },
+    {
+      "source_list_number": 5,
+      "document_title": "期货市场程序化交易管理规定（试行）",
+      "file_name": "期货市场程序化交易管理规定（试行）.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7564346/7564346/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E6%9C%9F%E8%B4%A7%E5%B8%82%E5%9C%BA%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%E3%80%8B.pdf"
+    },
+    {
+      "source_list_number": 6,
+      "document_title": "关于上市公司内幕信息知情人登记管理制度的规定",
+      "file_name": "关于上市公司内幕信息知情人登记管理制度的规定.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101875/c465cd93ff1254baab931de0cd73a9049/content.shtml"
+    },
+    {
+      "source_list_number": 7,
+      "document_title": "上市公司股东减持股份管理暂行办法",
+      "file_name": "上市公司股东减持股份管理暂行办法.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7483190/7483190/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%82%A1%E4%B8%9C%E5%87%8F%E6%8C%81%E8%82%A1%E4%BB%BD%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95.pdf"
+    },
+    {
+      "source_list_number": 8,
+      "document_title": "上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则",
+      "file_name": "上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c7483152/7483152/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E3%80%81%E7%9B%91%E4%BA%8B%E5%92%8C%E9%AB%98%E7%BA%A7%E7%AE%A1%E7%90%86%E4%BA%BA%E5%91%98%E6%89%80%E6%8C%81%E6%9C%AC%E5%85%AC%E5%8F%B8%E8%82%A1%E4%BB%BD%E5%8F%8A%E5%85%B6%E5%8F%98%E5%8A%A8%E7%AE%A1%E7%90%86%E8%A7%84%E5%88%99.pdf"
+    },
+    {
+      "source_list_number": 9,
+      "document_title": "上市公司信息披露管理办法（2021年修订）",
+      "file_name": "上市公司信息披露管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653948/content.shtml"
+    },
+    {
+      "source_list_number": 10,
+      "document_title": "关于短线交易监管的若干规定",
+      "file_name": "关于短线交易监管的若干规定.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=964346c70d3f4ee19ff3c65e1a4b4780&body="
+    },
+    {
+      "source_list_number": 11,
+      "document_title": "上海证券交易所交易规则（2026年修订）",
+      "file_name": "上海证券交易所交易规则（2026年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/c_20260424_10816492.shtml"
+    },
+    {
+      "source_list_number": 12,
+      "document_title": "深圳证券交易所交易规则（2026年修订）",
+      "file_name": "深圳证券交易所交易规则（2026 年修订）.pdf",
+      "match_score": 0.7586,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf"
+    },
+    {
+      "source_list_number": 13,
+      "document_title": "上海证券交易所程序化交易管理实施细则",
+      "file_name": "上海证券交易所程序化交易管理实施细则.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/c_20250612_10781696.shtml"
+    },
+    {
+      "source_list_number": 14,
+      "document_title": "深圳证券交易所程序化交易管理实施细则",
+      "file_name": "深圳证券交易所程序化交易管理实施细则.pdf",
+      "match_score": 1.0,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/allrules/bussiness/W020250403603802169453.pdf"
+    },
+    {
+      "source_list_number": 15,
+      "document_title": "证券公司融资融券业务管理办法",
+      "file_name": "证券公司融资融券业务管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101833/c1021892/1021892/files/%E9%99%84%E4%BB%B6%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E5%85%AC%E5%8F%B8%E8%9E%8D%E8%B5%84%E8%9E%8D%E5%88%B8%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf"
+    },
+    {
+      "source_list_number": 16,
+      "document_title": "上海证券交易所融资融券交易实施细则（2023年修订）",
+      "file_name": "上海证券交易所融资融券交易实施细则（2023年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20250616_10782015.shtml"
+    },
+    {
+      "source_list_number": 17,
+      "document_title": "深圳证券交易所融资融券交易实施细则（2023年修订）",
+      "file_name": "深圳证券交易所融资融券交易实施细则 （2023 年修订）.pdf",
+      "match_score": 0.8293,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/trade/W020230217568325595241.pdf"
+    },
+    {
+      "source_list_number": 18,
+      "document_title": "转融通业务监督管理试行办法",
+      "file_name": "转融通业务监督管理试行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653885/content.shtml"
+    },
+    {
+      "source_list_number": 19,
+      "document_title": "上海证券交易所上市公司自律监管指引第15号——股东及董事、高级管理人员减持股份（2025年3月修订）",
+      "file_name": "上海证券交易所上市公司自律监管指引第15号——股东及董事、高级管理人员减持股份（2025年3月修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779152.shtml"
+    },
+    {
+      "source_list_number": 20,
+      "document_title": "深圳证券交易所上市公司自律监管指引第18号——股东及董事、监事、高级管理人员减持股份",
+      "file_name": "深圳证券交易所上市公司自律监管指引第 18 号——股东及董事、高级管理人员减持股份（2025 年修订）.pdf",
+      "match_score": 0.881,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/supervision/W020250327580660638732.pdf"
+    },
+    {
+      "source_list_number": 21,
+      "document_title": "可转换公司债券管理办法",
+      "file_name": "可转换公司债券管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101950/c1416973/1416973/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E5%8F%AF%E8%BD%AC%E6%8D%A2%E5%85%AC%E5%8F%B8%E5%80%BA%E5%88%B8%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf"
+    },
+    {
+      "source_list_number": 22,
+      "document_title": "上海证券交易所可转换公司债券交易实施细则（2025年3月修订）",
+      "file_name": "上海证券交易所可转换公司债券交易实施细则（2025年3月修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/bond/trading/currency/c/c_20250606_10781040.shtml"
+    },
+    {
+      "source_list_number": 23,
+      "document_title": "深圳证券交易所可转换公司债券交易实施细则（2025年修订）",
+      "file_name": "深圳证券交易所可转换公司债券交易实施细则（2025 年修订）.pdf",
+      "match_score": 0.8511,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/bond/bonds/trade/W020250327576698646997.pdf"
+    },
+    {
+      "source_list_number": 24,
+      "document_title": "上海证券交易所上市公司自律监管指引第12号——可转换公司债券（2025年3月修订）",
+      "file_name": "上海证券交易所上市公司自律监管指引第12号——可转换公司债券（2025年3月修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779148.shtml"
+    },
+    {
+      "source_list_number": 25,
+      "document_title": "深圳证券交易所上市公司自律监管指引第15号——可转换公司债券（2025年修订）",
+      "file_name": "深圳证券交易所上市公司自律监管指引第15号——可转换公司债券（2025年修订）.pdf",
+      "match_score": 1.0,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/stock/W020250327582792609047.pdf"
+    },
+    {
+      "source_list_number": 26,
+      "document_title": "关于可转换公司债券适当性管理相关事项的通知（2025年3月修订）",
+      "file_name": "关于可转换公司债券适当性管理相关事项的通知（2025年3月修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/bond/convertible/trading/c/c_20250606_10782994.shtml"
+    },
+    {
+      "source_list_number": 27,
+      "document_title": "关于完善可转换公司债券投资者适当性管理相关事项的通知（2025年修订）",
+      "file_name": "关于完善可转换公司债券投资者适当性管理相关事项的通知（2025 年修订）.pdf",
+      "match_score": 0.8814,
+      "official_url": "https://docs.static.szse.cn/www/lawrules/rule/memberty/W020250327575720498353.pdf"
+    },
+    {
+      "source_list_number": 28,
+      "document_title": "期货交易所管理办法（2023年修订）",
+      "file_name": "期货交易所管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101953/c7399274/7399274/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E6%89%80%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf"
+    },
+    {
+      "source_list_number": 29,
+      "document_title": "期货公司监督管理办法（2019年修订）",
+      "file_name": "期货公司监督管理办法（2019年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=a1e4821ecf8f48d2b417804fb2a62db0&body="
+    },
+    {
+      "source_list_number": 30,
+      "document_title": "期货风险管理公司风险控制指标管理办法（试行）",
+      "file_name": "期货风险管理公司风险控制指标管理办法（试行）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=72a2f3968b81456aa813cdb66be5e019&body="
+    },
+    {
+      "source_list_number": 31,
+      "document_title": "期货风险管理公司大宗商品风险管理业务管理规则",
+      "file_name": "期货风险管理公司大宗商品风险管理业务管理规则.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=7f2b77cdc2354ac5a7c68f8fa8a27759&body="
+    },
+    {
+      "source_list_number": 32,
+      "document_title": "期货公司资产管理业务备案管理规则",
+      "file_name": "期货公司资产管理业务备案管理规则.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=db1c15dfd5114d6ab39309cce3cac3ba&body="
+    },
+    {
+      "source_list_number": 33,
+      "document_title": "上海期货交易所程序化交易管理办法",
+      "file_name": "上海期货交易所程序化交易管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=78405ee34e6c42eea4d75c48c2b80776&body="
+    },
+    {
+      "source_list_number": 34,
+      "document_title": "上海国际能源交易中心程序化交易管理细则",
+      "file_name": "上海国际能源交易中心程序化交易管理细则.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.shfe.com.cn/regulation/ineregulation/businessmethods/trade/202508/t20250814_828670.html"
+    },
+    {
+      "source_list_number": 35,
+      "document_title": "大连商品交易所程序化交易管理办法",
+      "file_name": "大连商品交易所程序化交易管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=ed732dac54594167a7bda9bee06625a9&body="
+    },
+    {
+      "source_list_number": 36,
+      "document_title": "郑州商品交易所程序化交易管理办法",
+      "file_name": "郑州商品交易所程序化交易管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.czce.com.cn/cn/content_file/flfg/zcjywgz/lsbb/2026/5/d340add2d2a0474a8360ea0ea3e1c338.pdf"
+    },
+    {
+      "source_list_number": 37,
+      "document_title": "广州期货交易所程序化交易管理办法",
+      "file_name": "广州期货交易所程序化交易管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "http://www.gfex.com.cn/gfex/ywbf/202508/a5a72c47e1a74988b6cc57f57b169f70/files/%E5%B9%BF%E5%B7%9E%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E6%89%80%E7%A8%8B%E5%BA%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf"
+    },
+    {
+      "source_list_number": 38,
+      "document_title": "上海期货交易所套期保值交易管理办法",
+      "file_name": "上海期货交易所套期保值交易管理办法（2026年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=69016fa40fba42e5830d0154e5c0b2d8&body="
+    },
+    {
+      "source_list_number": 39,
+      "document_title": "上海期货交易所异常交易行为管理办法",
+      "file_name": "上海期货交易所异常交易行为管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=5a4a41ba50774190b3e0e212ba67324e&body="
+    },
+    {
+      "source_list_number": 40,
+      "document_title": "上海国际能源交易中心异常交易行为管理细则",
+      "file_name": "上海国际能源交易中心异常交易行为管理细则.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.shfe.com.cn/regulation/ineregulation/businessmethods/riskcontrol/202606/t20260622_832196.html"
+    },
+    {
+      "source_list_number": 41,
+      "document_title": "大连商品交易所异常交易行为管理办法",
+      "file_name": "大连商品交易所异常交易行为管理办法（2024年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=ad41089e5672412795a4753e8e6e209d&body="
+    },
+    {
+      "source_list_number": 42,
+      "document_title": "郑州商品交易所异常交易行为管理办法",
+      "file_name": "郑州商品交易所异常交易行为管理办法（2024年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=5165c1db07474715b2e115daf1d3f5c8&body="
+    },
+    {
+      "source_list_number": 43,
+      "document_title": "广州期货交易所交易规则",
+      "file_name": "广州期货交易所交易规则.pdf",
+      "match_score": 1.0,
+      "official_url": "http://www.gfex.com.cn:8080/gfex/jygz/202505/23e696795d50408ebeb48cf789d2d035.shtml"
+    },
+    {
+      "source_list_number": 44,
+      "document_title": "中国金融期货交易所交易规则",
+      "file_name": "中国金融期货交易所交易规则.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.cffex.com.cn/cn/gzjygz/20260410/43076.html"
+    },
+    {
+      "source_list_number": 45,
+      "document_title": "公开募集证券投资基金运作管理办法",
+      "file_name": "公开募集证券投资基金运作管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653978/content.shtml"
+    },
+    {
+      "source_list_number": 46,
+      "document_title": "证券投资基金参与股指期货交易指引（2022年修正）",
+      "file_name": "证券投资基金参与股指期货交易指引（2022年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=acaeacc39f3841e69fececaf1620f9b9&body="
+    },
+    {
+      "source_list_number": 47,
+      "document_title": "证券期货经营机构参与股票期权交易试点指引（2025年修订）",
+      "file_name": "证券期货经营机构参与股票期权交易试点指引（2025年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=87814e9e6eb54acd96b50b00aa7c638b&body="
+    },
+    {
+      "source_list_number": 48,
+      "document_title": "公开募集证券投资基金参与转融通证券出借业务指引（试行）",
+      "file_name": "公开募集证券投资基金参与转融通证券出借业务指引(试行).docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b06356e7ad6d47faa9281f1d1bfa22fe&body="
+    },
+    {
+      "source_list_number": 49,
+      "document_title": "证券基金经营机构参与内地与香港股票市场交易互联互通指引",
+      "file_name": "证券基金经营机构参与内地与香港股票市场交易互联互通指引.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=1465921719309967427&body="
+    },
+    {
+      "source_list_number": 50,
+      "document_title": "理财公司内部控制管理办法",
+      "file_name": "理财公司内部控制管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230511_478579.html"
+    },
+    {
+      "source_list_number": 51,
+      "document_title": "理财公司理财产品流动性风险管理办法",
+      "file_name": "理财公司理财产品流动性风险管理办法.doc",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1024321&itemId=928&generaltype=0"
+    },
+    {
+      "source_list_number": 52,
+      "document_title": "银行保险机构关联交易管理办法",
+      "file_name": "银行保险机构关联交易管理办法.doc",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=928"
+    },
+    {
+      "source_list_number": 53,
+      "document_title": "商业银行大额风险暴露管理办法",
+      "file_name": "商业银行大额风险暴露管理办法.doc",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=178636"
+    },
+    {
+      "source_list_number": 54,
+      "document_title": "银行保险机构资产管理产品信息披露管理办法",
+      "file_name": "银行保险机构资产管理产品信息披露管理办法.doc",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1239473&itemId=928"
+    },
+    {
+      "source_list_number": 55,
+      "document_title": "保险资金运用管理办法",
+      "file_name": "保险资金运用管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201803/t20180309_146148.html"
+    },
+    {
+      "source_list_number": 56,
+      "document_title": "保险资产管理公司管理规定",
+      "file_name": "保险资产管理公司管理规定.doc",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1065347&itemId=928&generaltype=0"
+    },
+    {
+      "source_list_number": 57,
+      "document_title": "保险资金境外投资管理暂行办法",
+      "file_name": "保险资金境外投资管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "http://m.safe.gov.cn/safe/2022/0818/21331.html"
+    },
+    {
+      "source_list_number": 58,
+      "document_title": "保险资金境外投资管理暂行办法实施细则",
+      "file_name": "保险资金境外投资管理暂行办法实施细则.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=359438&itemId=928&generaltype=0"
+    },
+    {
+      "source_list_number": 59,
+      "document_title": "关于保险资金参与证券出借业务有关事项的通知",
+      "file_name": "关于保险资金参与证券出借业务有关事项的通知.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1021832&itemId=928&generaltype=0"
+    },
+    {
+      "source_list_number": 60,
+      "document_title": "关于规范信托公司信托业务分类的通知",
+      "file_name": "关于规范信托公司信托业务分类的通知.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/governmentDetail.html?docId=1101453&itemId=861&generaltype=1"
+    },
+    {
+      "source_list_number": 61,
+      "document_title": "信托公司集合资金信托计划管理办法（2009年修订）",
+      "file_name": "信托公司集合资金信托计划管理办法.doc",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1025228"
+    },
+    {
+      "source_list_number": 62,
+      "document_title": "信托公司参与股指期货交易业务指引",
+      "file_name": "信托公司参与股指期货交易业务指引.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.nfra.gov.cn/chinese/subject/subject/nianbao2011/2011zwzz.pdf"
+    },
+    {
+      "source_list_number": 63,
+      "document_title": "中华人民共和国企业国有资产法",
+      "file_name": "中华人民共和国企业国有资产法.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b5e05c2d4dc5495fa9997afb8586b24d&body="
+    },
+    {
+      "source_list_number": 64,
+      "document_title": "关于切实加强金融衍生业务管理有关事项的通知",
+      "file_name": "关于切实加强金融衍生业务管理有关事项的通知.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.sasac.gov.cn/n2588035/c13578144/content.html"
+    },
+    {
+      "source_list_number": 65,
+      "document_title": "中央企业投资监督管理办法",
+      "file_name": "中央企业投资监督管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.sasac.gov.cn/n2588035/n2588320/n2588335/c20164244/content.html"
+    },
+    {
+      "source_list_number": 66,
+      "document_title": "中央企业境外投资监督管理办法",
+      "file_name": "中央企业境外投资监督管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.sasac.gov.cn/n2588035/n2588320/n2588335/c20164457/content.html"
+    },
+    {
+      "source_list_number": 67,
+      "document_title": "上市公司国有股权监督管理办法",
+      "file_name": "上市公司国有股权监督管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "http://www.sasac.gov.cn/n2588035/n22302962/n22302967/c22692368/attr/25875810.pdf"
+    },
+    {
+      "source_list_number": 68,
+      "document_title": "中央企业境外国有资产监督管理暂行办法",
+      "file_name": "中央企业境外国有资产监督管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.sasac.gov.cn/n2588020/n2588072/n2590860/n2590862/c3720199/content.html"
+    },
+    {
+      "source_list_number": 69,
+      "document_title": "行政事业性国有资产管理条例",
+      "file_name": "行政事业性国有资产管理条例.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.mee.gov.cn/zcwj/gwywj/202103/t20210318_825096.shtml"
+    },
+    {
+      "source_list_number": 70,
+      "document_title": "事业单位财务规则",
+      "file_name": "事业单位财务规则.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230509_478368.html"
+    },
+    {
+      "source_list_number": 71,
+      "document_title": "科学事业单位财务制度",
+      "file_name": "科学事业单位财务制度.pdf",
+      "match_score": 1.0,
+      "official_url": "https://jkw.mof.gov.cn/zhengcefabu/202208/t20220818_3834563.htm"
+    },
+    {
+      "source_list_number": 72,
+      "document_title": "中央行政事业单位国有资产使用管理办法",
+      "file_name": "中央行政事业单位国有资产使用管理办法.pdf",
+      "match_score": 1.0,
+      "official_url": "https://zcgls.mof.gov.cn/zhengcefabu/202409/P020240913382403420418.pdf"
+    },
+    {
+      "source_list_number": 73,
+      "document_title": "行政单位财务规则",
+      "file_name": "行政单位财务规则.docx",
+      "match_score": 1.0,
+      "official_url": "https://tfs.mof.gov.cn/caizhengbuling/202302/t20230207_3865456.htm"
+    },
+    {
+      "source_list_number": 74,
+      "document_title": "行政单位国有资产管理暂行办法",
+      "file_name": "行政单位国有资产管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/200609/t20060928_144218.html"
+    },
+    {
+      "source_list_number": 75,
+      "document_title": "事业单位国有资产管理暂行办法",
+      "file_name": "事业单位国有资产管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://m.mof.gov.cn/tzgg/201904/t20190404_3215480.htm"
+    },
+    {
+      "source_list_number": 76,
+      "document_title": "全国社会保障基金条例",
+      "file_name": "全国社会保障基金条例.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394931.html"
+    },
+    {
+      "source_list_number": 77,
+      "document_title": "全国社会保障基金投资管理暂行办法",
+      "file_name": "全国社会保障基金投资管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.ssf.gov.cn/portal/zcfg/nbgzzd/webinfo/2021/12/1640743447258463.htm"
+    },
+    {
+      "source_list_number": 78,
+      "document_title": "全国社会保障基金境外投资管理暂行规定",
+      "file_name": "全国社会保障基金境外投资管理暂行规定.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.ssf.gov.cn/portal/zcfg/nbgzzd/webinfo/2021/12/1640743468327179.htm"
+    },
+    {
+      "source_list_number": 79,
+      "document_title": "基本养老保险基金投资管理办法",
+      "file_name": "基本养老保险基金投资管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.ssf.gov.cn/portal/zcfg/nbgzzd/webinfo/2021/12/1640743468474484.htm"
+    },
+    {
+      "source_list_number": 80,
+      "document_title": "企业年金基金管理办法（2015年修订）",
+      "file_name": "企业年金基金管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f488783f23b64ac7ab75747210d5024f&body="
+    },
+    {
+      "source_list_number": 81,
+      "document_title": "企业年金办法",
+      "file_name": "企业年金办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201803/t20180328_146156.html"
+    },
+    {
+      "source_list_number": 82,
+      "document_title": "职业年金基金管理暂行办法",
+      "file_name": "职业年金基金管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/201610/t20161013_2434596.htm"
+    },
+    {
+      "source_list_number": 83,
+      "document_title": "中华人民共和国慈善法（2023年修正）",
+      "file_name": "中华人民共和国慈善法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.mca.gov.cn/n2623/n2687/n2696/n2744/c1662004999979998115/content.html"
+    },
+    {
+      "source_list_number": 84,
+      "document_title": "慈善组织保值增值投资活动管理暂行办法",
+      "file_name": "慈善组织保值增值投资活动管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201903/t20190315_146253.html"
+    },
+    {
+      "source_list_number": 85,
+      "document_title": "中华人民共和国红十字会法（2017年修订）",
+      "file_name": "中华人民共和国红十字会法（2017年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.redcross.org.cn/html/2019-01/56081.html"
+    },
+    {
+      "source_list_number": 86,
+      "document_title": "基金会管理条例",
+      "file_name": "基金会管理条例.docx",
+      "match_score": 1.0,
+      "official_url": "http://www.moe.gov.cn/s78/A01/zclm/moe_968/moe_1040/tnull_10694.html"
+    },
+    {
+      "source_list_number": 87,
+      "document_title": "慈善信托管理办法",
+      "file_name": "慈善信托管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://mzt.ln.gov.cn/mzt/hdzl/cssyzl/2024032810280039799/index.shtml"
+    },
+    {
+      "source_list_number": 88,
+      "document_title": "社会保险基金财务制度",
+      "file_name": "社会保险基金财务制度.docx",
+      "match_score": 1.0,
+      "official_url": "http://sbs.mof.gov.cn/zhengcefabu/201709/t20170921_2706459.htm"
+    },
+    {
+      "source_list_number": 89,
+      "document_title": "人力资源社会保障部关于调整年金基金投资范围的通知",
+      "file_name": "人力资源社会保障部关于调整年金基金投资范围的通知.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.mohrss.gov.cn/shbxjjjds/SHBXJDSzhengcewenjian/202012/t20201230_406915.html"
+    },
+    {
+      "source_list_number": 90,
+      "document_title": "中华人民共和国公益事业捐赠法",
+      "file_name": "中华人民共和国公益事业捐赠法.docx",
+      "match_score": 1.0,
+      "official_url": "https://flk.npc.gov.cn/detail?fileId=&id=2c909fdd678bf17901678bf608a7022b&title=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%85%AC%E7%9B%8A%E4%BA%8B%E4%B8%9A%E6%8D%90%E8%B5%A0%E6%B3%95&type="
+    },
+    {
+      "source_list_number": 91,
+      "document_title": "合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法",
+      "file_name": "合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653823/content.shtml"
+    },
+    {
+      "source_list_number": 92,
+      "document_title": "关于实施《合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法》有关问题的规定",
+      "file_name": "关于实施《合格境外机构投资者和人民币合格境外机构投资者境内证券期货投资管理办法》有关问题的规定.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101862/c1022465/1022465/files/%E9%99%84%E4%BB%B6%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%AE%9E%E6%96%BD%E3%80%8A%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%92%8C%E4%BA%BA%E6%B0%91%E5%B8%81%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%A2%83%E5%86%85%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E6%8A%95%E8%B5%84%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B%E6%9C%89%E5%85%B3%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%84%E5%AE%9A.pdf"
+    },
+    {
+      "source_list_number": 93,
+      "document_title": "境外机构投资者境内证券期货投资资金管理规定",
+      "file_name": "境外机构投资者境内证券期货投资资金管理规定（2024年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f2e345e018734a0999207f05364ab38f&body="
+    },
+    {
+      "source_list_number": 94,
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者参与股票期权交易的公告",
+      "file_name": "关于合格境外机构投资者和人民币合格境外机构投资者参与股票期权交易的公告.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=2f5f014bf946428f88733f0f0a76eafd&body="
+    },
+    {
+      "source_list_number": 95,
+      "document_title": "内地与香港股票市场交易互联互通机制若干规定（2022年修订）",
+      "file_name": "内地与香港股票市场交易互联互通机制若干规定（2022年修正）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=b647ec004da94d4ab194063ec74bfcd1&body="
+    },
+    {
+      "source_list_number": 96,
+      "document_title": "上海证券交易所沪港通业务实施办法（2024年修订）",
+      "file_name": "上海证券交易所沪港通业务实施办法（2024年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=39b7cedb74e44531ac70e8d684331151&body="
+    },
+    {
+      "source_list_number": 97,
+      "document_title": "深圳证券交易所深港通业务实施办法（2024年修订）",
+      "file_name": "深圳证券交易所深港通业务实施办法（2024年修订）.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f93393f6d550460d8d09aa7467c09166&body="
+    },
+    {
+      "source_list_number": 98,
+      "document_title": "合格境内机构投资者境外证券投资管理试行办法",
+      "file_name": "合格境内机构投资者境外证券投资管理试行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=2f3d04119e584b4897f0ffa7b7945091&body="
+    },
+    {
+      "source_list_number": 99,
+      "document_title": "商业银行开办代客境外理财业务管理暂行办法",
+      "file_name": "商业银行开办代客境外理财业务管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.safe.gov.cn/safe/2006/0417/22172.html"
+    },
+    {
+      "source_list_number": 100,
+      "document_title": "信托公司受托境外理财业务管理暂行办法",
+      "file_name": "信托公司受托境外理财业务管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "http://m.safe.gov.cn/safe/2007/0314/5570.html"
+    },
+    {
+      "source_list_number": 101,
+      "document_title": "关于合格境外机构投资者和人民币合格境外机构投资者境内证券交易登记结算业务的规定",
+      "file_name": "关于合格境外机构投资者和人民币合格境外机构投资者境内证券交易登记结算业务的规定.pdf",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c101954/c5642084/5642084/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E5%85%B3%E4%BA%8E%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%92%8C%E4%BA%BA%E6%B0%91%E5%B8%81%E5%90%88%E6%A0%BC%E5%A2%83%E5%A4%96%E6%9C%BA%E6%9E%84%E6%8A%95%E8%B5%84%E8%80%85%E5%A2%83%E5%86%85%E8%AF%81%E5%88%B8%E4%BA%A4%E6%98%93%E7%99%BB%E8%AE%B0%E7%BB%93%E7%AE%97%E4%B8%9A%E5%8A%A1%E7%9A%84%E8%A7%84%E5%AE%9A%E3%80%8B.pdf"
+    },
+    {
+      "source_list_number": 102,
+      "document_title": "境外交易者和境外经纪机构从事境内特定品种期货交易管理暂行办法",
+      "file_name": "境外交易者和境外经纪机构从事境内特定品种期货交易管理暂行办法.docx",
+      "match_score": 1.0,
+      "official_url": "https://www.csrc.gov.cn/csrc/c106256/c1653998/content.shtml"
+    }
+  ],
+  "excluded": [
+    {
+      "document_id": "doc_source_a7459dc890c8459021e6",
+      "document_title": "可投资国家或者地区",
+      "file_name": "可投资国家或者地区.docx",
+      "source_type": "docx",
+      "official_url": "",
+      "issuing_authority": "",
+      "document_number": "",
+      "publication_date": "",
+      "effective_date": "",
+      "validity_status": "随主文件现行有效",
+      "catalog_group": "补充法规/内嵌附件",
+      "catalog_index": 231,
+      "file_sha256": "a7459dc890c8459021e6b2af5491e4c3eeed308c8380be5d78301b2bbd56e838",
+      "file_size": 14678,
+      "source_status": "excluded_embedded_attachment",
+      "exclusion_reason": "内容已作为该实施细则附件1完整内嵌，排除独立入库以避免重复召回。",
+      "parent_document_title": "保险资金境外投资管理暂行办法实施细则",
+      "local_file_path": "data/raw/监管文件/可投资国家或者地区.docx"
+    },
+    {
+      "document_id": "doc_source_5089b3f0dabd9320f22b",
+      "document_title": "期货期权交易所",
+      "file_name": "期货期权交易所.docx",
+      "source_type": "docx",
+      "official_url": "",
+      "issuing_authority": "",
+      "document_number": "",
+      "publication_date": "",
+      "effective_date": "",
+      "validity_status": "随主文件现行有效",
+      "catalog_group": "补充法规/内嵌附件",
+      "catalog_index": 232,
+      "file_sha256": "5089b3f0dabd9320f22b8359d509d65285ea408ddb23476e78dc1175ee3c79d7",
+      "file_size": 15273,
+      "source_status": "excluded_embedded_attachment",
+      "exclusion_reason": "内容已作为该实施细则附件2完整内嵌，排除独立入库以避免重复召回。",
+      "parent_document_title": "保险资金境外投资管理暂行办法实施细则",
+      "local_file_path": "data/raw/监管文件/期货期权交易所.docx"
+    }
+  ]
+}

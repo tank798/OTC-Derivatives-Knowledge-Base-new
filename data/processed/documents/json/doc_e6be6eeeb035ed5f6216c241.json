@@ -19,21 +19,21 @@
     "catalog_index": 46,
     "local_file_path": "data/raw/监管文件/银行业金融机构衍生产品交易业务管理暂行办法.doc",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_55d353116794ccb0fa25"
+    "legacy_document_id": "doc_e6be6eeeb035ed5f6216c241"
   },
   "warnings": [
-    "旧DOC经LibreOffice直接只读导出文本，原文件未修改",
-    "前置发布信息清洗：移出5个block，规则front_promulgation_parenthetical、trailing_source_reference"
+    "LibreOffice转换失败，旧DOC通过macOS textutil只读抽取并清理域代码，原文件未修改",
+    "前置发布信息清洗：移出7个block，规则front_promulgation_parenthetical、trailing_source_reference"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
-    "original_text_sha256": "e74d46f4c5a34cf662d2ae39e0d3b901fafd88788fdc5c8882aeff1fda427316",
+    "original_text_sha256": "7d85df6ba6315c8dd6245937262c1c3e88a6b292771d4d3f41cf5eb772e5e251",
     "clean_text_sha256": "d71230a4e07b2328459590d76bf30568c8a9522171b4274b3ba69c8e66ea57db",
-    "chars_before": 9388,
+    "chars_before": 9418,
     "chars_after": 9080,
-    "removed_character_count": 308,
+    "removed_character_count": 338,
     "rule_hits": [
       "front_promulgation_parenthetical",
       "trailing_source_reference"
@@ -83,6 +83,24 @@
         "action": "moved_to_front_matter",
         "text": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=3833&itemId=915&generaltype=0",
         "character_count": 88
+      },
+      {
+        "block_id": "b00144",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "trailing_source_reference",
+        "action": "moved_to_front_matter",
+        "text": "中国银行保险监督管理委员会规章",
+        "character_count": 15
+      },
+      {
+        "block_id": "b00145",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "trailing_source_reference",
+        "action": "moved_to_front_matter",
+        "text": "中国银行保险监督管理委员会发布",
+        "character_count": 15
       }
     ],
     "cleaning_log": [
@@ -130,6 +148,24 @@
         "action": "moved_to_front_matter",
         "text": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=3833&itemId=915&generaltype=0",
         "character_count": 88
+      },
+      {
+        "block_id": "b00144",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "trailing_source_reference",
+        "action": "moved_to_front_matter",
+        "text": "中国银行保险监督管理委员会规章",
+        "character_count": 15
+      },
+      {
+        "block_id": "b00145",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "trailing_source_reference",
+        "action": "moved_to_front_matter",
+        "text": "中国银行保险监督管理委员会发布",
+        "character_count": 15
       }
     ],
     "content_overrides": [],
@@ -275,7 +311,7 @@
       "b00139"
     ]
   },
-  "original_text_sha256": "e74d46f4c5a34cf662d2ae39e0d3b901fafd88788fdc5c8882aeff1fda427316",
+  "original_text_sha256": "7d85df6ba6315c8dd6245937262c1c3e88a6b292771d4d3f41cf5eb772e5e251",
   "clean_text_sha256": "d71230a4e07b2328459590d76bf30568c8a9522171b4274b3ba69c8e66ea57db",
   "clean_text_hash": "e09fd5a2057051589e96ddc3abf43cf3156ea083580ba450ec025f8297c6b279",
   "structured_blocks_sha256": "39380532e491092422770fa6409e819ae664418f7b3330f8066fbc4f1b18443b",
@@ -324,6 +360,24 @@
       "action": "moved_to_front_matter",
       "text": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=3833&itemId=915&generaltype=0",
       "character_count": 88
+    },
+    {
+      "block_id": "b00144",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "trailing_source_reference",
+      "action": "moved_to_front_matter",
+      "text": "中国银行保险监督管理委员会规章",
+      "character_count": 15
+    },
+    {
+      "block_id": "b00145",
+      "page": 0,
+      "source_kind": "paragraph",
+      "rule_id": "trailing_source_reference",
+      "action": "moved_to_front_matter",
+      "text": "中国银行保险监督管理委员会发布",
+      "character_count": 15
     }
   ],
   "body_blocks": [

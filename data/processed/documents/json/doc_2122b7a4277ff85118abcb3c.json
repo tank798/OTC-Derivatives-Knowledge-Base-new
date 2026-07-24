@@ -19,14 +19,14 @@
     "catalog_index": 61,
     "local_file_path": "data/raw/监管文件/证券公司操作风险管理指引.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_f049f061b53f7bd09ffc"
+    "legacy_document_id": "doc_2122b7a4277ff85118abcb3c"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：10"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "8844c6e7891df97b498684b16290961cd7a54b59d751f5415693a0baf714a521",
     "clean_text_sha256": "8844c6e7891df97b498684b16290961cd7a54b59d751f5415693a0baf714a521",

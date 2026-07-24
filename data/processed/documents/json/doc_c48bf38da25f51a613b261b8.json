@@ -19,14 +19,14 @@
     "catalog_index": 20,
     "local_file_path": "data/raw/监管文件/证券期货经营机构私募资产管理计划运作管理规定.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_3a31accc0abfb1616c60"
+    "legacy_document_id": "doc_c48bf38da25f51a613b261b8"
   },
   "warnings": [
     "已合并12处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "826d69c8c95537c747d56c428f4e825c2d81fe05b30043b14dcda55edacdb68f",
     "clean_text_sha256": "826d69c8c95537c747d56c428f4e825c2d81fe05b30043b14dcda55edacdb68f",

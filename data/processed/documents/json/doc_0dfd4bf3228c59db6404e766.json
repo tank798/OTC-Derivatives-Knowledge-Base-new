@@ -19,7 +19,7 @@
     "catalog_index": 127,
     "local_file_path": "data/raw/监管文件/上交所证券公司股票期权经纪业务指南（2026年修订）.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_87e58a59f65953b8005f"
+    "legacy_document_id": "doc_0dfd4bf3228c59db6404e766"
   },
   "warnings": [
     "已过滤1个Word目录段落",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "5ba30b7b572fea2aaa46a4d2ef2bde3539c861be566029f056eb7c9fb83aa81a",
     "clean_text_sha256": "9109c0888987a7fa68b106edf45e73c6673a439cfc6753d96afdd210c79f12fc",
@@ -945,7 +945,7 @@
   "original_text_sha256": "5ba30b7b572fea2aaa46a4d2ef2bde3539c861be566029f056eb7c9fb83aa81a",
   "clean_text_sha256": "9109c0888987a7fa68b106edf45e73c6673a439cfc6753d96afdd210c79f12fc",
   "clean_text_hash": "63d9e466b3cc55891141d3e7080897c63485dfe2f2c300d35e01aa5208be2773",
-  "structured_blocks_sha256": "db433150e5ebc89a72fefad1645f4cd937263f3702638ee36b8ebca808d1e7d7",
+  "structured_blocks_sha256": "7306011f1f5fa019f1ac25aaf6d331ad1f6f081624f6bc7d50e84030c9928f91",
   "front_matter": [
     {
       "block_id": "b00003",
@@ -7546,7 +7546,7 @@
     },
     {
       "block_id": "b00587",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "四、强平成交回报PBU管理",
       "style": "Normal",
       "source_kind": "paragraph",
@@ -27124,7 +27124,7 @@
     },
     {
       "block_id": "b00587",
-      "block_type": "guide_heading",
+      "block_type": "paragraph",
       "text": "四、强平成交回报PBU管理",
       "style": "Normal",
       "source_kind": "paragraph",

@@ -19,7 +19,7 @@
     "catalog_index": 49,
     "local_file_path": "data/raw/监管文件/关于加强场外衍生品业务自律管理的通知.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_900084e084b82bdf54b0"
+    "legacy_document_id": "doc_c690621bbbf5d83d3ea90053"
   },
   "warnings": [
     "按原件核对移除明确附件目录/模板7个block（5项）",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "26c2888f6fe67e195f07f4debb0314de3ae57f2d76e2d272f18c8288c8f237ca",
     "clean_text_sha256": "145e9c69f098e8b9b7c860d81fae83906cd04b2e0f9e8e3ccb1a0c23e8b7d289",

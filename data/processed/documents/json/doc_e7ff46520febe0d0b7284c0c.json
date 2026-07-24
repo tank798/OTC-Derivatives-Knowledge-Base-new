@@ -19,7 +19,7 @@
     "catalog_index": 122,
     "local_file_path": "data/raw/监管文件/证券公司柜台交易业务规范.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_ce049be984f3250b8ae3"
+    "legacy_document_id": "doc_e7ff46520febe0d0b7284c0c"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：第页",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "669bad8b1a85867d1468276701ef6296f16d91ea2973ac747c334c412fc3ae26",
     "clean_text_sha256": "c9aefe0452db87f79bc7d3370491e820ed81aeba7f50c8a5a4697f125a58399e",

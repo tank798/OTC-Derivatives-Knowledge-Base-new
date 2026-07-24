@@ -19,14 +19,14 @@
     "catalog_index": 35,
     "local_file_path": "data/raw/监管文件/关于进一步规范商业银行结构性存款业务的通知.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_37c8de7902e9768541ba"
+    "legacy_document_id": "doc_d80a0090f706453315f77ce0"
   },
   "warnings": [
     "前置发布信息清洗：移出1个block，规则standalone_front_document_number"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "16f4cb04ac8a7a061c06b19e4b92b1c8fc2aa0e42648bca61bdf79bcc61c0227",
     "clean_text_sha256": "95636b5dfd4a0e792bbca06ccc5ffdad84e595f5bcc156dc76f90cdfa593296d",

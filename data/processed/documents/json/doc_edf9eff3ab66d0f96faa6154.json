@@ -19,7 +19,7 @@
     "catalog_index": 17,
     "local_file_path": "data/raw/监管文件/证券公司风险控制指标管理办法(2020年修订).pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_ab94cda4e843644c18f1"
+    "legacy_document_id": "doc_edf9eff3ab66d0f96faa6154"
   },
   "warnings": [
     "已去除2类跨页重复页眉或页脚",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "366c4df2765aad3638b4a2de37345dd7eee08b5b9d5592a803a684aaaee3d6d4",
     "clean_text_sha256": "366c4df2765aad3638b4a2de37345dd7eee08b5b9d5592a803a684aaaee3d6d4",

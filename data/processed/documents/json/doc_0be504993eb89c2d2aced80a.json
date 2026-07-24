@@ -19,7 +19,7 @@
     "catalog_index": 42,
     "local_file_path": "data/raw/监管文件/金融机构非集中清算衍生品交易保证金管理办法.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_9a6c1460d381be20fcc6"
+    "legacy_document_id": "doc_0be504993eb89c2d2aced80a"
   },
   "warnings": [
     "第17页第1个多列表格按原行列转为Markdown",
@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "ad612adf88148343a6545ede1ebced8d3839c3bdd9da6a799f417ef6b6f62475",
     "clean_text_sha256": "ad612adf88148343a6545ede1ebced8d3839c3bdd9da6a799f417ef6b6f62475",

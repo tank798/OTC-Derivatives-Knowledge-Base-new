@@ -19,7 +19,7 @@
     "catalog_index": 90,
     "local_file_path": "data/raw/监管文件/中国银行间市场金融衍生产品交易转让式履约保障文件（变动保证金-2025年版）.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_aa8b9de4c27d008305f8"
+    "legacy_document_id": "doc_b0158a0b05d79db1aedaca73"
   },
   "warnings": [
     "第3页过滤13行目录条目",
@@ -34,7 +34,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "1ca66a4f9c53334ab5dc5344c5125102dcbae4c4848913b905b869c3260598ae",
     "clean_text_sha256": "1ca66a4f9c53334ab5dc5344c5125102dcbae4c4848913b905b869c3260598ae",

@@ -33,7 +33,7 @@ REVISION_NOTE_RE = re.compile(
 DATE_LINE_RE = re.compile(r"^(?:19|20)\d{2}年\d{1,2}月\d{1,2}日$")
 CHINESE_DATE_LINE_RE = re.compile(r"^[〇零一二三四五六七八九十]{4}年[〇零一二三四五六七八九十]{1,3}月[〇零一二三四五六七八九十]{1,3}日$")
 MONTH_LINE_RE = re.compile(r"^(?:19|20)\d{2}年\d{1,2}月$")
-ATTACHMENT_LABEL_RE = re.compile(r"^附件\s*[一二三四五六七八九十百\d]+$")
+ATTACHMENT_LABEL_RE = re.compile(r"^附件(?:\s*[一二三四五六七八九十百\d]+)?$")
 VERSION_SUFFIX_RE = re.compile(r"(?:19|20)\d{2}年(?:版|修订|修正版)$")
 PUBLICATION_WRAPPER_RE = re.compile(
     r"(?:"
@@ -76,7 +76,14 @@ def _first_structure_index(blocks: list[SourceBlock]) -> int:
     for index, block in enumerate(blocks[:120]):
         for line in clean_text(block.text).splitlines():
             if STRUCTURE_START_RE.match(line):
-                if index < 3 and ATTACHMENT_LABEL_RE.fullmatch(line):
+                # “附件”常作为下载文件的封面标签，后接本文标题。首三
+                # 个 block 内先把它留给标题匹配规则判断，避免把清洗
+                # 窗口错误截断在第 0 个 block。未匹配本文标题的附件
+                # 标题不会被删除，仍会保留在正文中。
+                if index < 3 and (
+                    ATTACHMENT_LABEL_RE.fullmatch(line)
+                    or re.match(r"^附件\s*[:：]\s*\S", line)
+                ):
                     continue
                 return index
     return min(len(blocks), 60)
@@ -88,10 +95,16 @@ def _authority_values(metadata: dict[str, Any]) -> set[str]:
     return values
 
 
+def _cover_title_key(value: str) -> str:
+    """Normalize harmless separators only for high-confidence cover matching."""
+
+    return re.sub(r"[、，,。:：；;·]", "", compact_title(value))
+
+
 def _title_variants(metadata: dict[str, Any]) -> set[str]:
     """Return conservative compact variants used only for cover-title detection."""
 
-    title = compact_title(str(metadata.get("document_title", "")))
+    title = _cover_title_key(str(metadata.get("document_title", "")))
     if not title:
         return set()
     variants = {title, VERSION_SUFFIX_RE.sub("", title)}
@@ -118,11 +131,11 @@ def _cover_title_positions(
         if blocks[start].source_kind == "table":
             continue
         joined = ""
-        for width in range(1, 4):
+        for width in range(1, 5):
             end = start + width
             if end > limit or blocks[end - 1].source_kind == "table":
                 break
-            joined += compact_title(clean_text(blocks[end - 1].text))
+            joined += _cover_title_key(clean_text(blocks[end - 1].text))
             without_attachment_prefix = re.sub(r"^附件[:：]?", "", joined)
             if joined not in variants and without_attachment_prefix not in variants:
                 continue
@@ -139,8 +152,20 @@ def _cover_title_positions(
                 text in _authority_values(metadata) or MONTH_LINE_RE.fullmatch(text)
                 for text in following
             )
-            if is_split or is_guide_cover or has_cover_tail:
-                positions.update(range(start, end))
+            has_attachment_lead = (
+                (
+                    start > 0
+                    and ATTACHMENT_LABEL_RE.fullmatch(clean_text(blocks[start - 1].text))
+                )
+                or bool(re.match(r"^附件\s*[:：]", clean_text(blocks[start].text)))
+            )
+            if is_split or is_guide_cover or has_cover_tail or has_attachment_lead:
+                title_start = (
+                    start + 1
+                    if ATTACHMENT_LABEL_RE.fullmatch(clean_text(blocks[start].text))
+                    else start
+                )
+                positions.update(range(title_start, end))
                 break
     return positions
 
@@ -237,7 +262,7 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
         first_without_attachment = re.sub(
             r"^附件\s*[:：]?",
             "",
-            compact_title(clean_text(blocks[0].text)),
+            _cover_title_key(clean_text(blocks[0].text)),
         )
         if first_without_attachment in title_variants:
             prefix_end = next(
@@ -247,11 +272,11 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
                 ),
                 min(len(blocks), 12),
             )
-    title = compact_title(str(document.metadata.get("document_title", "")))
+    title = _cover_title_key(str(document.metadata.get("document_title", "")))
     title_positions = [
         index
         for index, block in enumerate(blocks[:prefix_end])
-        if title and compact_title(clean_text(block.text)) == title
+        if title and _cover_title_key(clean_text(block.text)) == title
     ]
     cover_title_positions = _cover_title_positions(
         blocks,
@@ -269,14 +294,14 @@ def clean_front_matter(document: ParsedDocument) -> ParsedDocument:
         )
     }
     wrapper_titles = {
-        compact_title(title)
+        _cover_title_key(title)
         for index in wrapper_positions
         for title in re.findall(r"《([^》]{2,120})》", clean_text(blocks[index].text))
     }
     wrapper_title_positions = {
         index
         for index, block in enumerate(blocks[:prefix_end])
-        if compact_title(clean_text(block.text)) in wrapper_titles
+        if _cover_title_key(clean_text(block.text)) in wrapper_titles
     }
     cover_title_positions.update(wrapper_title_positions)
     cover_attachment_directory_positions = _cover_attachment_directory_positions(blocks)

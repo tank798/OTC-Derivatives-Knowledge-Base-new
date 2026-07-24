@@ -19,7 +19,7 @@
     "catalog_index": 13,
     "local_file_path": "data/raw/监管文件/股票期权交易试点管理办法.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_722f08179697d12696f9"
+    "legacy_document_id": "doc_93722b33a445cc0d99a9ae9a"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：证监会规章 | X证监会发布",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "c01e2158ca26317e0818be1bb17c55c76a787bb8854a71835f66d3cf1812e903",
     "clean_text_sha256": "b8579efc7a20363ff9ef746f670e60d5b6d69b7b1b254c8a5e11c8510c320e53",

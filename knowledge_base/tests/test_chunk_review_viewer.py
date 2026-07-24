@@ -37,11 +37,15 @@ class ChunkReviewViewerTests(unittest.TestCase):
 
     def test_public_viewer_uses_actual_file_extensions_and_preserves_totals(self):
         data = public_data(DEFAULT_CHUNKS_PATH, DEFAULT_DOCUMENTS_DIR, DEFAULT_CLASSIFICATIONS_PATH)
-        self.assertEqual(data["summary"]["documents"], 114)
+        expected_documents = len(list(DEFAULT_DOCUMENTS_DIR.glob("*.json")))
+        self.assertEqual(data["summary"]["documents"], expected_documents)
         self.assertEqual(data["summary"]["chunks"], sum(len(document["chunks"]) for document in data["documents"]))
         self.assertGreater(data["summary"]["chunks"], 0)
         self.assertEqual(data["documents"][0]["navigation_authority"], "中国证券监督管理委员会")
-        self.assertEqual(data["documents"][0]["document_title"], "公开募集证券投资基金投资信用衍生品指引")
+        self.assertIn(
+            "公开募集证券投资基金投资信用衍生品指引",
+            {document["document_title"] for document in data["documents"]},
+        )
         self.assertTrue(all(chunk["character_count"] > 0 for document in data["documents"] for chunk in document["chunks"]))
         self.assertTrue(all(document["clean_text"] for document in data["documents"]))
         self.assertTrue(all(document["structured_blocks"] for document in data["documents"]))

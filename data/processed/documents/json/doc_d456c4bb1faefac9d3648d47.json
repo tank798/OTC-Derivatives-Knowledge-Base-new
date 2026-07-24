@@ -19,7 +19,7 @@
     "catalog_index": 14,
     "local_file_path": "data/raw/监管文件/证券公司业务范围审批暂行规定（2025年修正）.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_1794eee2210464696e31"
+    "legacy_document_id": "doc_d456c4bb1faefac9d3648d47"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：第页",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "61dfa451be40d970cb4ea1498f6beaee0d0dfb3d6fa599a658076473d256f0b8",
     "clean_text_sha256": "2a8ff477ed62b479311c0b921a01c763ccfbdb58156d2668a01185de89dd0394",

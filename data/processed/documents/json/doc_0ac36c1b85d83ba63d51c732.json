@@ -19,14 +19,14 @@
     "catalog_index": 6,
     "local_file_path": "data/raw/监管文件/基金管理公司子公司管理规定.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_b495617e8edd46075148"
+    "legacy_document_id": "doc_0ac36c1b85d83ba63d51c732"
   },
   "warnings": [
     "已合并7处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "7ab242a94fe2e45b84e49c22c0abbbc8295fd21e566f847ed56a50d69632b99d",
     "clean_text_sha256": "7ab242a94fe2e45b84e49c22c0abbbc8295fd21e566f847ed56a50d69632b99d",

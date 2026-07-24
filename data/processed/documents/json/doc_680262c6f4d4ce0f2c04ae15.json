@@ -19,7 +19,7 @@
     "catalog_index": 113,
     "local_file_path": "data/raw/监管文件/深圳证券交易所信用保护工具业务指引（2022年修订）.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_4b9d2817cf2a70f0fa90",
+    "legacy_document_id": "doc_680262c6f4d4ce0f2c04ae15",
     "version_note": "为进一步发展信用保护工具市场,发挥信用保护工具风险管理作用,提高债券市场服务实体经济能力,根据《深圳证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法》(深证上〔2019〕38号)等规定,深圳证券交易所(以下简称本所)在信用保护合约业务试点基础上,开展组合型信用保护合约(以下简称CDX合约)业务试点,并对《深圳证券交易所信用保护工具业务指引》进行修订,现予以发布,自发布之日起施行,有关事项通知如下:"
   },
   "warnings": [
@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "d7e74f4159be7bb62671cd345bcddfa4d8a8e41fc01db4ff410d745636540796",
     "clean_text_sha256": "dd0bdb9c6b517fc492e586ac5577212a6e598a70c84bf9db93d298435ddfc84c",

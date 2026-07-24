@@ -19,14 +19,14 @@
     "catalog_index": 76,
     "local_file_path": "data/raw/监管文件/私募投资基金备案指引第1号——私募证券投资基金.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_a850cd02ab66af9a615b"
+    "legacy_document_id": "doc_4c9c17c2cbd511c81d89a20f"
   },
   "warnings": [
     "已合并4处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "82234d58cf43c5ae73c1c62d45e5d58eccac30dfe7a8e66d0290177c4a941f0b",
     "clean_text_sha256": "82234d58cf43c5ae73c1c62d45e5d58eccac30dfe7a8e66d0290177c4a941f0b",

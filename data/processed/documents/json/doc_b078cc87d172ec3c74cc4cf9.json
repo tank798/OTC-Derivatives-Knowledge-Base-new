@@ -19,14 +19,14 @@
     "catalog_index": 53,
     "local_file_path": "data/raw/监管文件/证券公司压力测试指引(2023年修订).docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_eaf49628c8a2f5e42107"
+    "legacy_document_id": "doc_b078cc87d172ec3c74cc4cf9"
   },
   "warnings": [
     "前置发布信息清洗：移出1个block，规则front_promulgation_parenthetical"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "b9d57157159e1e01e4180a0ecbc586f63073af2fa1117b98524b8977d6b0a5da",
     "clean_text_sha256": "cf0d593ee14bb1b7d02552bf2da470825e357957f009e6058da1f186f3a7b719",

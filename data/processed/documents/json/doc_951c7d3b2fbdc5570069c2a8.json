@@ -19,7 +19,7 @@
     "catalog_index": 79,
     "local_file_path": "data/raw/监管文件/证券投资基金投资信用衍生品估值指引(试行).pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_7b5a8efe57d198998dfe"
+    "legacy_document_id": "doc_951c7d3b2fbdc5570069c2a8"
   },
   "warnings": [
     "按Adobe Symbol编码规范化244个PDF公式字符",
@@ -30,7 +30,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "3e760967a864ff82d3bdb304b1bdfb7fe4a978a6f193d4da9504d19ed8cb4b69",
     "clean_text_sha256": "3e760967a864ff82d3bdb304b1bdfb7fe4a978a6f193d4da9504d19ed8cb4b69",

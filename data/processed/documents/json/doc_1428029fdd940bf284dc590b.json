@@ -19,7 +19,7 @@
     "catalog_index": 21,
     "local_file_path": "data/raw/监管文件/证券期货经营机构私募资产管理业务管理办法.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_0f8f499e6c3e05fbd33c"
+    "legacy_document_id": "doc_1428029fdd940bf284dc590b"
   },
   "warnings": [
     "第1页过滤1行目录条目",
@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "c417ca6cba48bc9d7cddbbfd7d435f05f807933d856647f9d1cea56ce29b971c",
     "clean_text_sha256": "c417ca6cba48bc9d7cddbbfd7d435f05f807933d856647f9d1cea56ce29b971c",
@@ -257,7 +257,7 @@
   "original_text_sha256": "c417ca6cba48bc9d7cddbbfd7d435f05f807933d856647f9d1cea56ce29b971c",
   "clean_text_sha256": "c417ca6cba48bc9d7cddbbfd7d435f05f807933d856647f9d1cea56ce29b971c",
   "clean_text_hash": "de4a9fc9553b6d5fef02bb591ec33ae65d92dc177cb7ea695b479b23abb56e6b",
-  "structured_blocks_sha256": "d6f8f1ad7075b013797d9cd6c72691681da5ea02edde40ae4f2b48b4e17847f9",
+  "structured_blocks_sha256": "ef947a2fb5f62512df944280cd98ce73e16e7640a447ec69ed27d445f176cfa3",
   "front_matter": [],
   "body_blocks": [
     {
@@ -1342,7 +1342,7 @@
     },
     {
       "block_id": "b00107",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)募集金额达到资产管理合同约定的成立规模,且不违反",
       "style": "",
       "source_kind": "paragraph",
@@ -3878,7 +3878,7 @@
     },
     {
       "block_id": "b00107",
-      "block_type": "guide_subheading",
+      "block_type": "paragraph",
       "text": "(二)募集金额达到资产管理合同约定的成立规模,且不违反",
       "style": "",
       "source_kind": "paragraph",

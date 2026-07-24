@@ -19,14 +19,14 @@
     "catalog_index": 89,
     "local_file_path": "data/raw/监管文件/内地与香港利率互换市场互联互通合作清算衍生品协议（2024年版）.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_faa23aad4b0241b5fab3"
+    "legacy_document_id": "doc_375c9616a6d51bdc6337187f"
   },
   "warnings": [
     "已合并4处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "9e0fa6c331ae4cddaae786a9f3d442551a891f522d8fefc5178a08d0329f7004",
     "clean_text_sha256": "9e0fa6c331ae4cddaae786a9f3d442551a891f522d8fefc5178a08d0329f7004",

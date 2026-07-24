@@ -19,7 +19,7 @@
     "catalog_index": 88,
     "local_file_path": "data/raw/监管文件/中国银行间市场金融衍生产品交易主协议（2009年版）.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_becd676b100fee1548ca"
+    "legacy_document_id": "doc_63e7a9402494a3983e4c4806"
   },
   "warnings": [
     "第3页过滤18行目录条目",
@@ -28,7 +28,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "32913a4fca524eff03e32afa9bdb3c11c1f2791a17a4497a6c5c8482f35299f1",
     "clean_text_sha256": "32913a4fca524eff03e32afa9bdb3c11c1f2791a17a4497a6c5c8482f35299f1",

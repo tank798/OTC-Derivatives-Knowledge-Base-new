@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法.docx",
   "source_type": "docx",
   "file_sha256": "7c4e4f6cec6c4f41606196894d54c44d5cdff58de79d088205be852dd8fb0c8f",
-  "content_sha256": "2f9e2af2274f021e42426ff384cedc2fb6e8c8c28562bf0391c3c54bb76c3188",
+  "content_sha256": "689791c4a0c689e05ea5f7e56cd9e1700ca35e21df5f664dc2c0c9368adaf0d2",
   "metadata": {
     "document_title": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
     "issuing_authority": "上海证券交易所、中国结算",
@@ -19,28 +19,68 @@
     "catalog_index": 110,
     "local_file_path": "data/raw/监管文件/上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_7c4e4f6cec6c4f416061"
+    "legacy_document_id": "doc_9fdab235b6fbe935b82ba694"
   },
   "warnings": [
-    "已识别Word页眉页脚，未混入正文：-1-"
+    "已识别Word页眉页脚，未混入正文：-1-",
+    "前置发布信息清洗：移出2个block，规则cover_attachment_label、cover_document_title"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
-    "status": "unchanged",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
+    "status": "changed",
     "original_text_sha256": "5c613e2caf61791dbbcbb7458d10caa5c928fdc6fe2faa0c2ebb061d60417df2",
-    "clean_text_sha256": "5c613e2caf61791dbbcbb7458d10caa5c928fdc6fe2faa0c2ebb061d60417df2",
+    "clean_text_sha256": "7696c767fbc755d76e900663df3510667cbaa634c907485e7f8e234ff234a2d6",
     "chars_before": 6095,
-    "chars_after": 6095,
-    "removed_character_count": 0,
-    "rule_hits": [],
-    "removed_front_matter": [],
-    "cleaning_log": [],
+    "chars_after": 6058,
+    "removed_character_count": 37,
+    "rule_hits": [
+      "cover_attachment_label",
+      "cover_document_title"
+    ],
+    "removed_front_matter": [
+      {
+        "block_id": "b00001",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_attachment_label",
+        "action": "moved_to_front_matter",
+        "text": "附件",
+        "character_count": 2
+      },
+      {
+        "block_id": "b00003",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+        "character_count": 35
+      }
+    ],
+    "cleaning_log": [
+      {
+        "block_id": "b00001",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_attachment_label",
+        "action": "moved_to_front_matter",
+        "text": "附件",
+        "character_count": 2
+      },
+      {
+        "block_id": "b00003",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+        "character_count": 35
+      }
+    ],
     "content_overrides": [],
     "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
-      "b00001",
-      "b00003",
       "b00005",
       "b00006",
       "b00007",
@@ -142,36 +182,30 @@
     ]
   },
   "original_text_sha256": "5c613e2caf61791dbbcbb7458d10caa5c928fdc6fe2faa0c2ebb061d60417df2",
-  "clean_text_sha256": "5c613e2caf61791dbbcbb7458d10caa5c928fdc6fe2faa0c2ebb061d60417df2",
-  "clean_text_hash": "1f71b158d2ca802564c81f483c59116564f828a4ab5a78331cf8b9d149194f06",
-  "structured_blocks_sha256": "e4ff13d3d337be79ea794512669c1b6c7ac8da433d2aabc4a53f611106023c33",
-  "front_matter": [],
-  "body_blocks": [],
-  "appendices": [
+  "clean_text_sha256": "7696c767fbc755d76e900663df3510667cbaa634c907485e7f8e234ff234a2d6",
+  "clean_text_hash": "752787a5971ea2672f33dcc2eb43174cb9262793dccb56666901f0c5665421aa",
+  "structured_blocks_sha256": "05e986431d7e922a8e4b0bec9685591f316345c249586e7d83c00551c39f018e",
+  "front_matter": [
     {
       "block_id": "b00001",
-      "block_type": "attachment",
-      "text": "附件",
-      "style": "Normal",
+      "page": 0,
       "source_kind": "paragraph",
-      "source_page_start": 0,
-      "source_page_end": 0,
-      "start_char": 0,
-      "end_char": 2,
-      "region": "appendix"
+      "rule_id": "cover_attachment_label",
+      "action": "moved_to_front_matter",
+      "text": "附件",
+      "character_count": 2
     },
     {
       "block_id": "b00003",
-      "block_type": "document_title",
-      "text": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
-      "style": "Normal",
+      "page": 0,
       "source_kind": "paragraph",
-      "source_page_start": 0,
-      "source_page_end": 0,
-      "start_char": 4,
-      "end_char": 40,
-      "region": "appendix"
-    },
+      "rule_id": "cover_document_title",
+      "action": "moved_to_front_matter",
+      "text": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
+      "character_count": 35
+    }
+  ],
+  "body_blocks": [
     {
       "block_id": "b00005",
       "block_type": "chapter",
@@ -180,9 +214,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 42,
-      "end_char": 48,
-      "region": "appendix"
+      "start_char": 0,
+      "end_char": 6,
+      "region": "body"
     },
     {
       "block_id": "b00006",
@@ -192,9 +226,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 50,
-      "end_char": 173,
-      "region": "appendix"
+      "start_char": 8,
+      "end_char": 131,
+      "region": "body"
     },
     {
       "block_id": "b00007",
@@ -204,9 +238,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 175,
-      "end_char": 340,
-      "region": "appendix"
+      "start_char": 133,
+      "end_char": 298,
+      "region": "body"
     },
     {
       "block_id": "b00008",
@@ -216,9 +250,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 342,
-      "end_char": 383,
-      "region": "appendix"
+      "start_char": 300,
+      "end_char": 341,
+      "region": "body"
     },
     {
       "block_id": "b00009",
@@ -228,9 +262,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 385,
-      "end_char": 511,
-      "region": "appendix"
+      "start_char": 343,
+      "end_char": 469,
+      "region": "body"
     },
     {
       "block_id": "b00010",
@@ -240,9 +274,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 513,
-      "end_char": 599,
-      "region": "appendix"
+      "start_char": 471,
+      "end_char": 557,
+      "region": "body"
     },
     {
       "block_id": "b00011",
@@ -252,9 +286,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 601,
-      "end_char": 667,
-      "region": "appendix"
+      "start_char": 559,
+      "end_char": 625,
+      "region": "body"
     },
     {
       "block_id": "b00012",
@@ -264,9 +298,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 669,
-      "end_char": 765,
-      "region": "appendix"
+      "start_char": 627,
+      "end_char": 723,
+      "region": "body"
     },
     {
       "block_id": "b00013",
@@ -276,9 +310,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 767,
-      "end_char": 818,
-      "region": "appendix"
+      "start_char": 725,
+      "end_char": 776,
+      "region": "body"
     },
     {
       "block_id": "b00014",
@@ -288,9 +322,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 820,
-      "end_char": 894,
-      "region": "appendix"
+      "start_char": 778,
+      "end_char": 852,
+      "region": "body"
     },
     {
       "block_id": "b00015",
@@ -300,9 +334,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 896,
-      "end_char": 930,
-      "region": "appendix"
+      "start_char": 854,
+      "end_char": 888,
+      "region": "body"
     },
     {
       "block_id": "b00016",
@@ -312,9 +346,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 932,
-      "end_char": 941,
-      "region": "appendix"
+      "start_char": 890,
+      "end_char": 899,
+      "region": "body"
     },
     {
       "block_id": "b00017",
@@ -324,9 +358,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 943,
-      "end_char": 1128,
-      "region": "appendix"
+      "start_char": 901,
+      "end_char": 1086,
+      "region": "body"
     },
     {
       "block_id": "b00018",
@@ -336,9 +370,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1130,
-      "end_char": 1211,
-      "region": "appendix"
+      "start_char": 1088,
+      "end_char": 1169,
+      "region": "body"
     },
     {
       "block_id": "b00019",
@@ -348,9 +382,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1213,
-      "end_char": 1263,
-      "region": "appendix"
+      "start_char": 1171,
+      "end_char": 1221,
+      "region": "body"
     },
     {
       "block_id": "b00020",
@@ -360,9 +394,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1265,
-      "end_char": 1283,
-      "region": "appendix"
+      "start_char": 1223,
+      "end_char": 1241,
+      "region": "body"
     },
     {
       "block_id": "b00021",
@@ -372,9 +406,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1285,
-      "end_char": 1306,
-      "region": "appendix"
+      "start_char": 1243,
+      "end_char": 1264,
+      "region": "body"
     },
     {
       "block_id": "b00022",
@@ -384,9 +418,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1308,
-      "end_char": 1333,
-      "region": "appendix"
+      "start_char": 1266,
+      "end_char": 1291,
+      "region": "body"
     },
     {
       "block_id": "b00023",
@@ -396,9 +430,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1335,
-      "end_char": 1378,
-      "region": "appendix"
+      "start_char": 1293,
+      "end_char": 1336,
+      "region": "body"
     },
     {
       "block_id": "b00024",
@@ -408,9 +442,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1380,
-      "end_char": 1394,
-      "region": "appendix"
+      "start_char": 1338,
+      "end_char": 1352,
+      "region": "body"
     },
     {
       "block_id": "b00025",
@@ -420,9 +454,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1396,
-      "end_char": 1432,
-      "region": "appendix"
+      "start_char": 1354,
+      "end_char": 1390,
+      "region": "body"
     },
     {
       "block_id": "b00026",
@@ -432,9 +466,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1434,
-      "end_char": 1486,
-      "region": "appendix"
+      "start_char": 1392,
+      "end_char": 1444,
+      "region": "body"
     },
     {
       "block_id": "b00027",
@@ -444,9 +478,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1488,
-      "end_char": 1527,
-      "region": "appendix"
+      "start_char": 1446,
+      "end_char": 1485,
+      "region": "body"
     },
     {
       "block_id": "b00028",
@@ -456,9 +490,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1529,
-      "end_char": 1633,
-      "region": "appendix"
+      "start_char": 1487,
+      "end_char": 1591,
+      "region": "body"
     },
     {
       "block_id": "b00029",
@@ -468,9 +502,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1635,
-      "end_char": 1730,
-      "region": "appendix"
+      "start_char": 1593,
+      "end_char": 1688,
+      "region": "body"
     },
     {
       "block_id": "b00030",
@@ -480,9 +514,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1732,
-      "end_char": 1742,
-      "region": "appendix"
+      "start_char": 1690,
+      "end_char": 1700,
+      "region": "body"
     },
     {
       "block_id": "b00031",
@@ -492,9 +526,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1744,
-      "end_char": 1815,
-      "region": "appendix"
+      "start_char": 1702,
+      "end_char": 1773,
+      "region": "body"
     },
     {
       "block_id": "b00032",
@@ -504,9 +538,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1817,
-      "end_char": 1871,
-      "region": "appendix"
+      "start_char": 1775,
+      "end_char": 1829,
+      "region": "body"
     },
     {
       "block_id": "b00033",
@@ -516,9 +550,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1873,
-      "end_char": 1955,
-      "region": "appendix"
+      "start_char": 1831,
+      "end_char": 1913,
+      "region": "body"
     },
     {
       "block_id": "b00034",
@@ -528,9 +562,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1957,
-      "end_char": 2128,
-      "region": "appendix"
+      "start_char": 1915,
+      "end_char": 2086,
+      "region": "body"
     },
     {
       "block_id": "b00035",
@@ -540,9 +574,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2130,
-      "end_char": 2158,
-      "region": "appendix"
+      "start_char": 2088,
+      "end_char": 2116,
+      "region": "body"
     },
     {
       "block_id": "b00036",
@@ -552,9 +586,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2160,
-      "end_char": 2195,
-      "region": "appendix"
+      "start_char": 2118,
+      "end_char": 2153,
+      "region": "body"
     },
     {
       "block_id": "b00037",
@@ -564,9 +598,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2197,
-      "end_char": 2271,
-      "region": "appendix"
+      "start_char": 2155,
+      "end_char": 2229,
+      "region": "body"
     },
     {
       "block_id": "b00038",
@@ -576,9 +610,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2273,
-      "end_char": 2319,
-      "region": "appendix"
+      "start_char": 2231,
+      "end_char": 2277,
+      "region": "body"
     },
     {
       "block_id": "b00039",
@@ -588,9 +622,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2321,
-      "end_char": 2395,
-      "region": "appendix"
+      "start_char": 2279,
+      "end_char": 2353,
+      "region": "body"
     },
     {
       "block_id": "b00040",
@@ -600,9 +634,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2397,
-      "end_char": 2407,
-      "region": "appendix"
+      "start_char": 2355,
+      "end_char": 2365,
+      "region": "body"
     },
     {
       "block_id": "b00041",
@@ -612,9 +646,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2409,
-      "end_char": 2444,
-      "region": "appendix"
+      "start_char": 2367,
+      "end_char": 2402,
+      "region": "body"
     },
     {
       "block_id": "b00042",
@@ -624,9 +658,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2446,
-      "end_char": 2457,
-      "region": "appendix"
+      "start_char": 2404,
+      "end_char": 2415,
+      "region": "body"
     },
     {
       "block_id": "b00043",
@@ -636,9 +670,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2459,
-      "end_char": 2474,
-      "region": "appendix"
+      "start_char": 2417,
+      "end_char": 2432,
+      "region": "body"
     },
     {
       "block_id": "b00044",
@@ -648,9 +682,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2476,
-      "end_char": 2498,
-      "region": "appendix"
+      "start_char": 2434,
+      "end_char": 2456,
+      "region": "body"
     },
     {
       "block_id": "b00045",
@@ -660,9 +694,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2500,
-      "end_char": 2516,
-      "region": "appendix"
+      "start_char": 2458,
+      "end_char": 2474,
+      "region": "body"
     },
     {
       "block_id": "b00046",
@@ -672,9 +706,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2518,
-      "end_char": 2555,
-      "region": "appendix"
+      "start_char": 2476,
+      "end_char": 2513,
+      "region": "body"
     },
     {
       "block_id": "b00047",
@@ -684,9 +718,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2557,
-      "end_char": 2639,
-      "region": "appendix"
+      "start_char": 2515,
+      "end_char": 2597,
+      "region": "body"
     },
     {
       "block_id": "b00048",
@@ -696,9 +730,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2641,
-      "end_char": 2712,
-      "region": "appendix"
+      "start_char": 2599,
+      "end_char": 2670,
+      "region": "body"
     },
     {
       "block_id": "b00049",
@@ -708,9 +742,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2714,
-      "end_char": 2805,
-      "region": "appendix"
+      "start_char": 2672,
+      "end_char": 2763,
+      "region": "body"
     },
     {
       "block_id": "b00050",
@@ -720,9 +754,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2807,
-      "end_char": 2856,
-      "region": "appendix"
+      "start_char": 2765,
+      "end_char": 2814,
+      "region": "body"
     },
     {
       "block_id": "b00051",
@@ -732,9 +766,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2858,
-      "end_char": 2895,
-      "region": "appendix"
+      "start_char": 2816,
+      "end_char": 2853,
+      "region": "body"
     },
     {
       "block_id": "b00052",
@@ -744,9 +778,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2897,
-      "end_char": 2944,
-      "region": "appendix"
+      "start_char": 2855,
+      "end_char": 2902,
+      "region": "body"
     },
     {
       "block_id": "b00053",
@@ -756,9 +790,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2946,
-      "end_char": 2999,
-      "region": "appendix"
+      "start_char": 2904,
+      "end_char": 2957,
+      "region": "body"
     },
     {
       "block_id": "b00054",
@@ -768,9 +802,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3001,
-      "end_char": 3039,
-      "region": "appendix"
+      "start_char": 2959,
+      "end_char": 2997,
+      "region": "body"
     },
     {
       "block_id": "b00055",
@@ -780,9 +814,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3041,
-      "end_char": 3106,
-      "region": "appendix"
+      "start_char": 2999,
+      "end_char": 3064,
+      "region": "body"
     },
     {
       "block_id": "b00056",
@@ -792,9 +826,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3108,
-      "end_char": 3186,
-      "region": "appendix"
+      "start_char": 3066,
+      "end_char": 3144,
+      "region": "body"
     },
     {
       "block_id": "b00057",
@@ -804,9 +838,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3188,
-      "end_char": 3240,
-      "region": "appendix"
+      "start_char": 3146,
+      "end_char": 3198,
+      "region": "body"
     },
     {
       "block_id": "b00058",
@@ -816,9 +850,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3242,
-      "end_char": 3302,
-      "region": "appendix"
+      "start_char": 3200,
+      "end_char": 3260,
+      "region": "body"
     },
     {
       "block_id": "b00059",
@@ -828,9 +862,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3304,
-      "end_char": 3434,
-      "region": "appendix"
+      "start_char": 3262,
+      "end_char": 3392,
+      "region": "body"
     },
     {
       "block_id": "b00060",
@@ -840,9 +874,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3436,
-      "end_char": 3444,
-      "region": "appendix"
+      "start_char": 3394,
+      "end_char": 3402,
+      "region": "body"
     },
     {
       "block_id": "b00061",
@@ -852,9 +886,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3446,
-      "end_char": 3528,
-      "region": "appendix"
+      "start_char": 3404,
+      "end_char": 3486,
+      "region": "body"
     },
     {
       "block_id": "b00062",
@@ -864,9 +898,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3530,
-      "end_char": 3589,
-      "region": "appendix"
+      "start_char": 3488,
+      "end_char": 3547,
+      "region": "body"
     },
     {
       "block_id": "b00063",
@@ -876,9 +910,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3591,
-      "end_char": 3636,
-      "region": "appendix"
+      "start_char": 3549,
+      "end_char": 3594,
+      "region": "body"
     },
     {
       "block_id": "b00064",
@@ -888,9 +922,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3638,
-      "end_char": 3802,
-      "region": "appendix"
+      "start_char": 3596,
+      "end_char": 3760,
+      "region": "body"
     },
     {
       "block_id": "b00065",
@@ -900,9 +934,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3804,
-      "end_char": 3882,
-      "region": "appendix"
+      "start_char": 3762,
+      "end_char": 3840,
+      "region": "body"
     },
     {
       "block_id": "b00066",
@@ -912,9 +946,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3884,
-      "end_char": 3892,
-      "region": "appendix"
+      "start_char": 3842,
+      "end_char": 3850,
+      "region": "body"
     },
     {
       "block_id": "b00067",
@@ -924,9 +958,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3894,
-      "end_char": 3965,
-      "region": "appendix"
+      "start_char": 3852,
+      "end_char": 3923,
+      "region": "body"
     },
     {
       "block_id": "b00068",
@@ -936,9 +970,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3967,
-      "end_char": 4036,
-      "region": "appendix"
+      "start_char": 3925,
+      "end_char": 3994,
+      "region": "body"
     },
     {
       "block_id": "b00069",
@@ -948,9 +982,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4038,
-      "end_char": 4140,
-      "region": "appendix"
+      "start_char": 3996,
+      "end_char": 4098,
+      "region": "body"
     },
     {
       "block_id": "b00070",
@@ -960,9 +994,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4142,
-      "end_char": 4229,
-      "region": "appendix"
+      "start_char": 4100,
+      "end_char": 4187,
+      "region": "body"
     },
     {
       "block_id": "b00071",
@@ -972,9 +1006,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4231,
-      "end_char": 4299,
-      "region": "appendix"
+      "start_char": 4189,
+      "end_char": 4257,
+      "region": "body"
     },
     {
       "block_id": "b00072",
@@ -984,9 +1018,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4301,
-      "end_char": 4369,
-      "region": "appendix"
+      "start_char": 4259,
+      "end_char": 4327,
+      "region": "body"
     },
     {
       "block_id": "b00073",
@@ -996,9 +1030,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4371,
-      "end_char": 4382,
-      "region": "appendix"
+      "start_char": 4329,
+      "end_char": 4340,
+      "region": "body"
     },
     {
       "block_id": "b00074",
@@ -1008,9 +1042,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4384,
-      "end_char": 4481,
-      "region": "appendix"
+      "start_char": 4342,
+      "end_char": 4439,
+      "region": "body"
     },
     {
       "block_id": "b00075",
@@ -1020,9 +1054,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4483,
-      "end_char": 4582,
-      "region": "appendix"
+      "start_char": 4441,
+      "end_char": 4540,
+      "region": "body"
     },
     {
       "block_id": "b00076",
@@ -1032,9 +1066,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4584,
-      "end_char": 4657,
-      "region": "appendix"
+      "start_char": 4542,
+      "end_char": 4615,
+      "region": "body"
     },
     {
       "block_id": "b00077",
@@ -1044,9 +1078,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4659,
-      "end_char": 4773,
-      "region": "appendix"
+      "start_char": 4617,
+      "end_char": 4731,
+      "region": "body"
     },
     {
       "block_id": "b00078",
@@ -1056,9 +1090,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4775,
-      "end_char": 4853,
-      "region": "appendix"
+      "start_char": 4733,
+      "end_char": 4811,
+      "region": "body"
     },
     {
       "block_id": "b00079",
@@ -1068,9 +1102,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4855,
-      "end_char": 4972,
-      "region": "appendix"
+      "start_char": 4813,
+      "end_char": 4930,
+      "region": "body"
     },
     {
       "block_id": "b00080",
@@ -1080,9 +1114,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4974,
-      "end_char": 5039,
-      "region": "appendix"
+      "start_char": 4932,
+      "end_char": 4997,
+      "region": "body"
     },
     {
       "block_id": "b00081",
@@ -1092,9 +1126,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5041,
-      "end_char": 5228,
-      "region": "appendix"
+      "start_char": 4999,
+      "end_char": 5186,
+      "region": "body"
     },
     {
       "block_id": "b00082",
@@ -1104,9 +1138,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5230,
-      "end_char": 5236,
-      "region": "appendix"
+      "start_char": 5188,
+      "end_char": 5194,
+      "region": "body"
     },
     {
       "block_id": "b00083",
@@ -1116,9 +1150,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5238,
-      "end_char": 5378,
-      "region": "appendix"
+      "start_char": 5196,
+      "end_char": 5336,
+      "region": "body"
     },
     {
       "block_id": "b00084",
@@ -1128,9 +1162,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5380,
-      "end_char": 5439,
-      "region": "appendix"
+      "start_char": 5338,
+      "end_char": 5397,
+      "region": "body"
     },
     {
       "block_id": "b00085",
@@ -1140,9 +1174,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5441,
-      "end_char": 5523,
-      "region": "appendix"
+      "start_char": 5399,
+      "end_char": 5481,
+      "region": "body"
     },
     {
       "block_id": "b00086",
@@ -1152,9 +1186,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5525,
-      "end_char": 5542,
-      "region": "appendix"
+      "start_char": 5483,
+      "end_char": 5500,
+      "region": "body"
     },
     {
       "block_id": "b00087",
@@ -1164,9 +1198,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5544,
-      "end_char": 5567,
-      "region": "appendix"
+      "start_char": 5502,
+      "end_char": 5525,
+      "region": "body"
     },
     {
       "block_id": "b00088",
@@ -1176,9 +1210,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5569,
-      "end_char": 5592,
-      "region": "appendix"
+      "start_char": 5527,
+      "end_char": 5550,
+      "region": "body"
     },
     {
       "block_id": "b00089",
@@ -1188,9 +1222,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5594,
-      "end_char": 5639,
-      "region": "appendix"
+      "start_char": 5552,
+      "end_char": 5597,
+      "region": "body"
     },
     {
       "block_id": "b00090",
@@ -1200,9 +1234,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5641,
-      "end_char": 5692,
-      "region": "appendix"
+      "start_char": 5599,
+      "end_char": 5650,
+      "region": "body"
     },
     {
       "block_id": "b00091",
@@ -1212,9 +1246,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5694,
-      "end_char": 5750,
-      "region": "appendix"
+      "start_char": 5652,
+      "end_char": 5708,
+      "region": "body"
     },
     {
       "block_id": "b00092",
@@ -1224,9 +1258,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5752,
-      "end_char": 5775,
-      "region": "appendix"
+      "start_char": 5710,
+      "end_char": 5733,
+      "region": "body"
     },
     {
       "block_id": "b00093",
@@ -1236,9 +1270,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5777,
-      "end_char": 5819,
-      "region": "appendix"
+      "start_char": 5735,
+      "end_char": 5777,
+      "region": "body"
     },
     {
       "block_id": "b00094",
@@ -1248,9 +1282,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5821,
-      "end_char": 5841,
-      "region": "appendix"
+      "start_char": 5779,
+      "end_char": 5799,
+      "region": "body"
     },
     {
       "block_id": "b00095",
@@ -1260,9 +1294,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5843,
-      "end_char": 5926,
-      "region": "appendix"
+      "start_char": 5801,
+      "end_char": 5884,
+      "region": "body"
     },
     {
       "block_id": "b00096",
@@ -1272,9 +1306,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5928,
-      "end_char": 5968,
-      "region": "appendix"
+      "start_char": 5886,
+      "end_char": 5926,
+      "region": "body"
     },
     {
       "block_id": "b00097",
@@ -1284,9 +1318,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5970,
-      "end_char": 6016,
-      "region": "appendix"
+      "start_char": 5928,
+      "end_char": 5974,
+      "region": "body"
     },
     {
       "block_id": "b00098",
@@ -1296,9 +1330,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6018,
-      "end_char": 6082,
-      "region": "appendix"
+      "start_char": 5976,
+      "end_char": 6040,
+      "region": "body"
     },
     {
       "block_id": "b00099",
@@ -1308,9 +1342,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6084,
-      "end_char": 6161,
-      "region": "appendix"
+      "start_char": 6042,
+      "end_char": 6119,
+      "region": "body"
     },
     {
       "block_id": "b00100",
@@ -1320,9 +1354,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6163,
-      "end_char": 6260,
-      "region": "appendix"
+      "start_char": 6121,
+      "end_char": 6218,
+      "region": "body"
     },
     {
       "block_id": "b00101",
@@ -1332,9 +1366,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6262,
-      "end_char": 6284,
-      "region": "appendix"
+      "start_char": 6220,
+      "end_char": 6242,
+      "region": "body"
     },
     {
       "block_id": "b00102",
@@ -1344,38 +1378,15 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6286,
-      "end_char": 6303,
-      "region": "appendix"
+      "start_char": 6244,
+      "end_char": 6261,
+      "region": "body"
     }
   ],
-  "clean_text": "附件\n\n上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法\n\n第一章 总则\n\n第一条为健全信用风险分担机制,促进债券市场健康稳定发展,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及上海证券交易所(以下简称上交所)和中国证券登记结算有限责任公司(以下简称中国结算)的相关业务规则,制定本办法。\n\n第二条本办法所称信用保护工具,是指信用保护卖方和信用保护买方(以下合称交易双方)达成的,约定在未来一定期限内,信用保护买方(以下简称买方)按照约定的标准和方式向信用保护卖方(以下简称卖方)支付信用保护费用,由卖方就约定的一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向买方提供信用风险保护的金融工具。\n\n第三条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。\n\n合约由交易双方签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》(以下简称主协议)、补充协议(如有)以及通过上交所交易系统(以下简称交易系统)生成的交易确认书等一系列合同文本组成。合约项下的相关权利义务由交易双方各自享有和承担,不可转让。\n\n凭证由凭证创设机构(以下简称创设机构)创设,就一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向凭证持有人提供信用保护,并可以通过交易系统转让。\n\n第四条信用保护工具的参与者管理、创设、交易、结算、信息披露等事宜,适用本办法。本办法未尽事宜,参照上交所、中国结算其他业务规则办理。\n\n第五条交易双方在合约交易前应当签署主协议并报送上交所和中国证券业协会。交易双方可以就合约的违约情形、履约保障等相关事宜签署补充协议,但不得违反法律法规、本办法及上交所、中国结算的其他相关规定。\n\n第六条交易双方就信用保护工具达成交易并通过交易系统确认后,应当认可成交结果,并按照规定和约定履行义务。\n\n第七条上交所根据本办法及其他相关规定对市场参与者及相关人员进行自律管理。上交所为信用保护工具提供成交确认平台服务,发布相关行情信息,并进行集中监测。\n\n第八条中国结算根据交易系统发送的数据为信用保护工具提供登记结算服务。\n\n第二章 参与者管理\n\n第九条信用保护工具参与者的投资者适当性应当与《上海证券交易所债券市场投资者适当性管理办法》规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于合格机构投资者参与信用保护工具交易。上交所可以根据市场发展情况,调整信用保护工具投资者适当性标准。\n\n交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本办法规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。\n\n第十条符合以下条件的金融机构、信用增进机构等经上交所备案可成为合约核心交易商(以下简称核心交易商):\n\n(一)具有较强的风险管理及承担能力;\n\n(二)具有相对独立的信用保护工具交易团队;\n\n(三)已建立完善健全的内部管理流程和风险管理制度;\n\n(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;\n\n(五)上交所要求的其他条件。\n\n核心交易商可以与所有投资者签订合约,其他投资者只能与核心交易商签订合约。\n\n第十一条核心交易商中信用资质和风险管理能力突出的,经上交所备案可成为创设机构,具体条件由上交所另行规定。\n\n第十二条证券期货经营机构参与信用保护工具业务的,应当符合中国证监会的相关规定。\n\n第十三条证券公司应当按照《上海证券交易所债券市场投资者适当性管理办法》的规定对经纪客户进行管理,建立健全经纪客户参与信用保护工具业务相关的风险控制制度和业务流程,并建立经纪客户参与信用保护工具业务的诚信档案。\n\n证券公司应当在经纪客户参与信用保护工具业务前,向其全面介绍信用保护工具的相关业务规则及协议,充分揭示可能产生的风险,并要求其签署风险揭示书。风险揭示书应当包含上交所确定的风险揭示书必备条款。\n\n第三章 信用保护合约\n\n第十四条合约交易双方协商一致后,一方通过交易系统进行合约申报,另一方进行确认。交易系统根据交易双方的确认,对符合形式要求的合约生成交易确认书。\n\n第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。\n\n季度标准保护费率根据合约签订时参考实体的主体评级确定,同一参考实体有多个评级的,以其中最低评级为准。交易双方商定的保护费率和标准保护费率之间的差额通过前端费用调整。\n\n第十六条采用季度标准保护费和部分前端费用相结合支付方式的,合约保护费支付日为合约存续期间每年的3月20日、6月20日、9月20日和12月20日,合约到期日为约定年份的3月20日、6月20日、9月20日或者12月20日。每个保护费支付日,买方支付整个季度的全额费用。合约达成后,交易双方根据交易前端费用和期初返还金额轧差进行相应的期初资金交收。\n\n第十七条合约保护费支付日为节假日的,顺延至下一个交易日。\n\n第十八条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。\n\n第十九条合约交易双方应当在交易确认书中明确信用事件发生后采用的结算方式。合约结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第二十条合约交易双方应当在交易确认书中明确实物结算金额是否包括可交付债务尚未支付的应计利息。\n\n第二十一条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。交易双方自行计算相关结算金额并按照约定的支付方式划转资金。\n\n第四章 信用保护凭证\n\n第二十二条创设机构创设凭证,应当在创设前向上交所提交以下凭证创设文件:\n\n(一)凭证创设说明书;\n\n(二)创设机构的信用评级报告;\n\n(三)经审计的创设机构的财务报表和审计报告;\n\n(四)上交所要求提交的其他文件。\n\n上交所对创设机构提交的文件进行完备性核对。文件完备的,上交所出具无异议函。\n\n第二十三条创设机构应当在凭证创设前通过上交所网站或者以上交所认可的其他方式向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。\n\n第二十四条创设机构在无异议函有效期内完成凭证创设工作。凭证创设可以采用簿记建档或者其他方式。凭证保护费由买方在凭证创设时一次性向创设机构支付。\n\n第二十五条凭证创设完成后,创设机构与中国结算签订证券登记及服务协议,中国结算根据创设机构委托办理凭证登记。凭证的登记使用投资者证券账户,并由中国结算按现有业务规则提供持有人名册服务。\n\n创设机构向上交所提交凭证挂牌转让申请书等相关文件,并与上交所签订挂牌转让协议后,凭证在上交所挂牌。\n\n第二十六条凭证转让采取报价、询价和指定对手方等方式,经交易系统确认后成交。\n\n第二十七条中国结算根据交易系统发送的成交数据为凭证转让提供逐笔全额结算或者其他结算方式的服务。\n\n第二十八条创设机构可以买入自身创设的凭证并向交易系统申报注销,并由中国结算根据交易系统确认的数据办理注销。\n\n第二十九条单只凭证创设及转让后的投资者不超过200人,上交所另有规定的除外。\n\n第三十条创设机构应当在凭证创设说明书中明确凭证持有人会议规则,载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。\n\n第三十一条创设机构应当在凭证创设说明书中明确信用事件发生后采用的结算条件和方式。凭证结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第三十二条凭证转让价格出现重大异常波动或者上交所认可的其他情形,上交所可以视情况对相关凭证采取停牌措施。\n\n第三十三条凭证到期且未发生信用事件、创设机构回购注销其全部凭证或者出现上交所认定的其他情形的,上交所终止凭证的挂牌转让。\n\n第三十四条凭证(含被司法冻结)到期且未发生信用事件或创设机构回购并申请注销其凭证的,中国结算根据相关规定办理注销。凭证存续期间发生信用事件且创设机构与投资者完成结算的,凭证在完成结算时注销。凭证终止挂牌转让时未全部注销完毕的,中国结算根据相关规定办理退出登记。\n\n第五章 信用事件\n\n第三十五条信用事件是指合约或者凭证约定的触发结算赔付的事件。信用事件包括破产、支付违约和债务重组等类型。合约或者凭证创设说明书中,应当约定其适用的具体信用事件类型。\n\n第三十六条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书并向上交所报告。\n\n凭证约定的信用事件发生后,创设机构应当通过上交所网站发布关于信用事件和后续结算安排的公告。\n\n第三十七条信用事件发生后,交易双方按照约定的时间和方式进行实物结算、现金结算或者经上交所和中国结算认可的其他方式结算。合约或凭证采用实物结算以及凭证采用现金结算的,交易双方应根据约定的要素向交易系统进行申报,中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。涉及司法冻结等有权利瑕疵的债券和凭证不可用于结算。\n\n第三十八条交易双方就信用事件存在争议的,应当协商解决。协商不成的,可以提请信用事件专家委员会出具专家意见并组织协商。信用事件专家委员会的设立和构成另行规定。\n\n第六章 信息披露\n\n第三十九条市场参与者应当对报告和披露信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导对手方。\n\n第四十条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露跟踪评级报告。\n\n第四十一条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向上交所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。\n\n第四十二条创设机构应当于凭证到期日前30个交易日发布提示性公告,提示凭证即将到期及相关转让风险。证券公司应当于凭证到期日前30个交易日起向申报买入凭证的经纪客户提示到期风险。\n\n第四十三条创设机构应当在上交所网站或者以上交所认可的其他方式披露信息,且披露时间不得晚于在其他交易场所、媒体或者其他场合公开披露的时间。\n\n第四十四条上交所公布已达成合约的核心交易商类型、合约规模等交易信息,公布当日的凭证逐笔成交行情和汇总行情,并定期披露全市场成交统计数据。\n\n第七章 风险控制和管理\n\n第四十五条上交所及时公布取得核心交易商或者创设机构资质的机构名单。市场参与者发生重大变化,或者证券公司发现其经纪客户发生重大变化,不再符合信用保护工具相关参与者资质要求的,应当及时向上交所报告。\n\n第四十六条核心交易商的信用保护工具净卖出总余额不得超过其最近一期末净资产的300%;其他投资者的信用保护工具净卖出总余额不得超过其最近一期末净资产的100%。上交所可以根据市场发展情况调整相关比例。\n\n第四十七条市场参与者不得利用内幕信息从事信用保护工具交易,不得编造、传播、散布虚假信息扰乱市场秩序,不得与参考实体、其他市场参与者等合谋操纵市场。\n\n第四十八条市场参与者、经纪客户所在的证券公司应当根据上交所要求定期向上交所报送相关数据,上交所对市场参与者的交易头寸、基于单个参考实体的交易头寸等相关情况进行动态监测。上交所可以根据监测结果采取必要的风险控制措施者取所与者况书。\n\n第四十九条市场参与者不得开展以自身为参考实体或者以自身债务为标的债务的信用保护工具业务。开展以关联方为参考实体的信用保护工具业务的,市场参与者应当予以披露。\n\n第五十条 上交所可以对市场参与者是否持续符合信用保护工具参与者资质要求、内部控制、业务开展情况等进行现场或者非现场检查。不符合相关要求的,上交所可暂停其信用保护工具交易、撤销核心交易商或者创设机构资质,或者采取其他必要的风险控制措施。\n\n市场参与者被暂停信用保护工具交易、撤销相关参与者资质后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。\n\n第五十一条市场参与者、经纪客户所在的证券公司、资信评级机构、会计师事务所等专业机构及相关人员违反本办法、上交所其他相关规定或者违反相关承诺、约定的,上交所可以视情况实施口头警示、书面警示、监管谈话、限制证券账户交易、通报批评、公开谴责、收取惩罚性违约金等监管措施或者纪律处分,并依照相关规定记入诚信档案。违反法律、行政法规或者部门规章的,上报中国证监会或者相关监管机构处理。\n\n第八章 附则\n\n第五十二条市场参与者根据相关法律法规、部门规章、相关交易业务规则、登记结算业务规则及本办法的规定开展信用保护工具交易。信用保护工具交易达成后,市场参与者之间的纠纷不影响确认结果的有效性,也不影响中国结算按照本办法及其他相关业务规则进行的信用保护工具登记结算等业务办理结果的有效性。\n\n第五十三条由于交易任意一方违约等情形所产生的纠纷和法律责任,由市场参与者自行协商解决,上交所、中国结算不承担法律责任。\n\n第五十四条信用保护工具存续期内,发生不可抗力、意外事件、技术故障等交易异常情况及因上述原因上交所、中国结算采取相应措施所造成的损失,上交所、中国结算不承担法律责任。\n\n第五十五条本办法下列用语含义如下:\n\n(一)信用保护买方:指接受信用风险保护的一方。\n\n(二)信用保护卖方:指提供信用风险保护的一方。\n\n(三)参考实体:指交易双方约定的,以其信用风险作为信用保护工具交易标的的单个或者多个实体。\n\n(四)债务种类:指参考实体所负债务的类别,包括但不限于付款义务、借贷款项、贷款、债券、资产支持证券等。\n\n(五)债务特征:指参考实体所负债务的一项或多项特征,包括但不限于一般债务、次级债务、交易流通、本币或外币等特征。\n\n(六)保护费:指买方向卖方支付的信用保护费用。\n\n(七)标准保护费率:指根据信用保护合约参考实体的主体评级而确定的固定的信用保护费率。\n\n(八)前端费用:指前端一次性支付的费用。\n\n(九)期初返还金额:指在信用保护合约中,由于买方在首个保护费支付日支付整个季度的全额费用,卖方期初交付时需要返还的合约生效日前一保护费支付日至合约生效日的相应保护费。\n\n(十)实物结算:指买方向卖方给付约定的债务,卖方向其支付相应结算金额的结算方式。\n\n(十一)现金结算:指买方无需向卖方给付债务,卖方以现金方式向买方支付相应结算金额的结算方式。\n\n(十二)可交付债务:指交易双方约定的可由买方向卖方交割的参考实体的债务,该债务符合交易双方约定的可交付债务种类和可交付债务特征。\n\n(十三)信用事件通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件的书面通知。该通知应确定有关信用事件并提供合理、详尽的信息。\n\n(十四)公共信息通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件公开信息的书面通知。该通知书应列明买方或卖方从公开信息渠道获得的有关信用事件已经发生的信息或者报道。\n\n第五十六条本办法由上交所、中国结算负责解释。\n\n第五十七条本办法自发布之日起实施。",
+  "appendices": [],
+  "clean_text": "第一章 总则\n\n第一条为健全信用风险分担机制,促进债券市场健康稳定发展,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及上海证券交易所(以下简称上交所)和中国证券登记结算有限责任公司(以下简称中国结算)的相关业务规则,制定本办法。\n\n第二条本办法所称信用保护工具,是指信用保护卖方和信用保护买方(以下合称交易双方)达成的,约定在未来一定期限内,信用保护买方(以下简称买方)按照约定的标准和方式向信用保护卖方(以下简称卖方)支付信用保护费用,由卖方就约定的一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向买方提供信用风险保护的金融工具。\n\n第三条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。\n\n合约由交易双方签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》(以下简称主协议)、补充协议(如有)以及通过上交所交易系统(以下简称交易系统)生成的交易确认书等一系列合同文本组成。合约项下的相关权利义务由交易双方各自享有和承担,不可转让。\n\n凭证由凭证创设机构(以下简称创设机构)创设,就一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向凭证持有人提供信用保护,并可以通过交易系统转让。\n\n第四条信用保护工具的参与者管理、创设、交易、结算、信息披露等事宜,适用本办法。本办法未尽事宜,参照上交所、中国结算其他业务规则办理。\n\n第五条交易双方在合约交易前应当签署主协议并报送上交所和中国证券业协会。交易双方可以就合约的违约情形、履约保障等相关事宜签署补充协议,但不得违反法律法规、本办法及上交所、中国结算的其他相关规定。\n\n第六条交易双方就信用保护工具达成交易并通过交易系统确认后,应当认可成交结果,并按照规定和约定履行义务。\n\n第七条上交所根据本办法及其他相关规定对市场参与者及相关人员进行自律管理。上交所为信用保护工具提供成交确认平台服务,发布相关行情信息,并进行集中监测。\n\n第八条中国结算根据交易系统发送的数据为信用保护工具提供登记结算服务。\n\n第二章 参与者管理\n\n第九条信用保护工具参与者的投资者适当性应当与《上海证券交易所债券市场投资者适当性管理办法》规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于合格机构投资者参与信用保护工具交易。上交所可以根据市场发展情况,调整信用保护工具投资者适当性标准。\n\n交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本办法规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。\n\n第十条符合以下条件的金融机构、信用增进机构等经上交所备案可成为合约核心交易商(以下简称核心交易商):\n\n(一)具有较强的风险管理及承担能力;\n\n(二)具有相对独立的信用保护工具交易团队;\n\n(三)已建立完善健全的内部管理流程和风险管理制度;\n\n(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;\n\n(五)上交所要求的其他条件。\n\n核心交易商可以与所有投资者签订合约,其他投资者只能与核心交易商签订合约。\n\n第十一条核心交易商中信用资质和风险管理能力突出的,经上交所备案可成为创设机构,具体条件由上交所另行规定。\n\n第十二条证券期货经营机构参与信用保护工具业务的,应当符合中国证监会的相关规定。\n\n第十三条证券公司应当按照《上海证券交易所债券市场投资者适当性管理办法》的规定对经纪客户进行管理,建立健全经纪客户参与信用保护工具业务相关的风险控制制度和业务流程,并建立经纪客户参与信用保护工具业务的诚信档案。\n\n证券公司应当在经纪客户参与信用保护工具业务前,向其全面介绍信用保护工具的相关业务规则及协议,充分揭示可能产生的风险,并要求其签署风险揭示书。风险揭示书应当包含上交所确定的风险揭示书必备条款。\n\n第三章 信用保护合约\n\n第十四条合约交易双方协商一致后,一方通过交易系统进行合约申报,另一方进行确认。交易系统根据交易双方的确认,对符合形式要求的合约生成交易确认书。\n\n第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。\n\n季度标准保护费率根据合约签订时参考实体的主体评级确定,同一参考实体有多个评级的,以其中最低评级为准。交易双方商定的保护费率和标准保护费率之间的差额通过前端费用调整。\n\n第十六条采用季度标准保护费和部分前端费用相结合支付方式的,合约保护费支付日为合约存续期间每年的3月20日、6月20日、9月20日和12月20日,合约到期日为约定年份的3月20日、6月20日、9月20日或者12月20日。每个保护费支付日,买方支付整个季度的全额费用。合约达成后,交易双方根据交易前端费用和期初返还金额轧差进行相应的期初资金交收。\n\n第十七条合约保护费支付日为节假日的,顺延至下一个交易日。\n\n第十八条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。\n\n第十九条合约交易双方应当在交易确认书中明确信用事件发生后采用的结算方式。合约结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第二十条合约交易双方应当在交易确认书中明确实物结算金额是否包括可交付债务尚未支付的应计利息。\n\n第二十一条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。交易双方自行计算相关结算金额并按照约定的支付方式划转资金。\n\n第四章 信用保护凭证\n\n第二十二条创设机构创设凭证,应当在创设前向上交所提交以下凭证创设文件:\n\n(一)凭证创设说明书;\n\n(二)创设机构的信用评级报告;\n\n(三)经审计的创设机构的财务报表和审计报告;\n\n(四)上交所要求提交的其他文件。\n\n上交所对创设机构提交的文件进行完备性核对。文件完备的,上交所出具无异议函。\n\n第二十三条创设机构应当在凭证创设前通过上交所网站或者以上交所认可的其他方式向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。\n\n第二十四条创设机构在无异议函有效期内完成凭证创设工作。凭证创设可以采用簿记建档或者其他方式。凭证保护费由买方在凭证创设时一次性向创设机构支付。\n\n第二十五条凭证创设完成后,创设机构与中国结算签订证券登记及服务协议,中国结算根据创设机构委托办理凭证登记。凭证的登记使用投资者证券账户,并由中国结算按现有业务规则提供持有人名册服务。\n\n创设机构向上交所提交凭证挂牌转让申请书等相关文件,并与上交所签订挂牌转让协议后,凭证在上交所挂牌。\n\n第二十六条凭证转让采取报价、询价和指定对手方等方式,经交易系统确认后成交。\n\n第二十七条中国结算根据交易系统发送的成交数据为凭证转让提供逐笔全额结算或者其他结算方式的服务。\n\n第二十八条创设机构可以买入自身创设的凭证并向交易系统申报注销,并由中国结算根据交易系统确认的数据办理注销。\n\n第二十九条单只凭证创设及转让后的投资者不超过200人,上交所另有规定的除外。\n\n第三十条创设机构应当在凭证创设说明书中明确凭证持有人会议规则,载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。\n\n第三十一条创设机构应当在凭证创设说明书中明确信用事件发生后采用的结算条件和方式。凭证结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第三十二条凭证转让价格出现重大异常波动或者上交所认可的其他情形,上交所可以视情况对相关凭证采取停牌措施。\n\n第三十三条凭证到期且未发生信用事件、创设机构回购注销其全部凭证或者出现上交所认定的其他情形的,上交所终止凭证的挂牌转让。\n\n第三十四条凭证(含被司法冻结)到期且未发生信用事件或创设机构回购并申请注销其凭证的,中国结算根据相关规定办理注销。凭证存续期间发生信用事件且创设机构与投资者完成结算的,凭证在完成结算时注销。凭证终止挂牌转让时未全部注销完毕的,中国结算根据相关规定办理退出登记。\n\n第五章 信用事件\n\n第三十五条信用事件是指合约或者凭证约定的触发结算赔付的事件。信用事件包括破产、支付违约和债务重组等类型。合约或者凭证创设说明书中,应当约定其适用的具体信用事件类型。\n\n第三十六条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书并向上交所报告。\n\n凭证约定的信用事件发生后,创设机构应当通过上交所网站发布关于信用事件和后续结算安排的公告。\n\n第三十七条信用事件发生后,交易双方按照约定的时间和方式进行实物结算、现金结算或者经上交所和中国结算认可的其他方式结算。合约或凭证采用实物结算以及凭证采用现金结算的,交易双方应根据约定的要素向交易系统进行申报,中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。涉及司法冻结等有权利瑕疵的债券和凭证不可用于结算。\n\n第三十八条交易双方就信用事件存在争议的,应当协商解决。协商不成的,可以提请信用事件专家委员会出具专家意见并组织协商。信用事件专家委员会的设立和构成另行规定。\n\n第六章 信息披露\n\n第三十九条市场参与者应当对报告和披露信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导对手方。\n\n第四十条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露跟踪评级报告。\n\n第四十一条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向上交所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。\n\n第四十二条创设机构应当于凭证到期日前30个交易日发布提示性公告,提示凭证即将到期及相关转让风险。证券公司应当于凭证到期日前30个交易日起向申报买入凭证的经纪客户提示到期风险。\n\n第四十三条创设机构应当在上交所网站或者以上交所认可的其他方式披露信息,且披露时间不得晚于在其他交易场所、媒体或者其他场合公开披露的时间。\n\n第四十四条上交所公布已达成合约的核心交易商类型、合约规模等交易信息,公布当日的凭证逐笔成交行情和汇总行情,并定期披露全市场成交统计数据。\n\n第七章 风险控制和管理\n\n第四十五条上交所及时公布取得核心交易商或者创设机构资质的机构名单。市场参与者发生重大变化,或者证券公司发现其经纪客户发生重大变化,不再符合信用保护工具相关参与者资质要求的,应当及时向上交所报告。\n\n第四十六条核心交易商的信用保护工具净卖出总余额不得超过其最近一期末净资产的300%;其他投资者的信用保护工具净卖出总余额不得超过其最近一期末净资产的100%。上交所可以根据市场发展情况调整相关比例。\n\n第四十七条市场参与者不得利用内幕信息从事信用保护工具交易,不得编造、传播、散布虚假信息扰乱市场秩序,不得与参考实体、其他市场参与者等合谋操纵市场。\n\n第四十八条市场参与者、经纪客户所在的证券公司应当根据上交所要求定期向上交所报送相关数据,上交所对市场参与者的交易头寸、基于单个参考实体的交易头寸等相关情况进行动态监测。上交所可以根据监测结果采取必要的风险控制措施者取所与者况书。\n\n第四十九条市场参与者不得开展以自身为参考实体或者以自身债务为标的债务的信用保护工具业务。开展以关联方为参考实体的信用保护工具业务的,市场参与者应当予以披露。\n\n第五十条 上交所可以对市场参与者是否持续符合信用保护工具参与者资质要求、内部控制、业务开展情况等进行现场或者非现场检查。不符合相关要求的,上交所可暂停其信用保护工具交易、撤销核心交易商或者创设机构资质,或者采取其他必要的风险控制措施。\n\n市场参与者被暂停信用保护工具交易、撤销相关参与者资质后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。\n\n第五十一条市场参与者、经纪客户所在的证券公司、资信评级机构、会计师事务所等专业机构及相关人员违反本办法、上交所其他相关规定或者违反相关承诺、约定的,上交所可以视情况实施口头警示、书面警示、监管谈话、限制证券账户交易、通报批评、公开谴责、收取惩罚性违约金等监管措施或者纪律处分,并依照相关规定记入诚信档案。违反法律、行政法规或者部门规章的,上报中国证监会或者相关监管机构处理。\n\n第八章 附则\n\n第五十二条市场参与者根据相关法律法规、部门规章、相关交易业务规则、登记结算业务规则及本办法的规定开展信用保护工具交易。信用保护工具交易达成后,市场参与者之间的纠纷不影响确认结果的有效性,也不影响中国结算按照本办法及其他相关业务规则进行的信用保护工具登记结算等业务办理结果的有效性。\n\n第五十三条由于交易任意一方违约等情形所产生的纠纷和法律责任,由市场参与者自行协商解决,上交所、中国结算不承担法律责任。\n\n第五十四条信用保护工具存续期内,发生不可抗力、意外事件、技术故障等交易异常情况及因上述原因上交所、中国结算采取相应措施所造成的损失,上交所、中国结算不承担法律责任。\n\n第五十五条本办法下列用语含义如下:\n\n(一)信用保护买方:指接受信用风险保护的一方。\n\n(二)信用保护卖方:指提供信用风险保护的一方。\n\n(三)参考实体:指交易双方约定的,以其信用风险作为信用保护工具交易标的的单个或者多个实体。\n\n(四)债务种类:指参考实体所负债务的类别,包括但不限于付款义务、借贷款项、贷款、债券、资产支持证券等。\n\n(五)债务特征:指参考实体所负债务的一项或多项特征,包括但不限于一般债务、次级债务、交易流通、本币或外币等特征。\n\n(六)保护费:指买方向卖方支付的信用保护费用。\n\n(七)标准保护费率:指根据信用保护合约参考实体的主体评级而确定的固定的信用保护费率。\n\n(八)前端费用:指前端一次性支付的费用。\n\n(九)期初返还金额:指在信用保护合约中,由于买方在首个保护费支付日支付整个季度的全额费用,卖方期初交付时需要返还的合约生效日前一保护费支付日至合约生效日的相应保护费。\n\n(十)实物结算:指买方向卖方给付约定的债务,卖方向其支付相应结算金额的结算方式。\n\n(十一)现金结算:指买方无需向卖方给付债务,卖方以现金方式向买方支付相应结算金额的结算方式。\n\n(十二)可交付债务:指交易双方约定的可由买方向卖方交割的参考实体的债务,该债务符合交易双方约定的可交付债务种类和可交付债务特征。\n\n(十三)信用事件通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件的书面通知。该通知应确定有关信用事件并提供合理、详尽的信息。\n\n(十四)公共信息通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件公开信息的书面通知。该通知书应列明买方或卖方从公开信息渠道获得的有关信用事件已经发生的信息或者报道。\n\n第五十六条本办法由上交所、中国结算负责解释。\n\n第五十七条本办法自发布之日起实施。",
   "structured_blocks": [
     {
-      "block_id": "b00001",
-      "block_type": "attachment",
-      "text": "附件",
-      "style": "Normal",
-      "source_kind": "paragraph",
-      "source_page_start": 0,
-      "source_page_end": 0,
-      "start_char": 0,
-      "end_char": 2,
-      "region": "appendix"
-    },
-    {
-      "block_id": "b00003",
-      "block_type": "document_title",
-      "text": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
-      "style": "Normal",
-      "source_kind": "paragraph",
-      "source_page_start": 0,
-      "source_page_end": 0,
-      "start_char": 4,
-      "end_char": 40,
-      "region": "appendix"
-    },
-    {
       "block_id": "b00005",
       "block_type": "chapter",
       "text": "第一章 总则",
@@ -1383,9 +1394,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 42,
-      "end_char": 48,
-      "region": "appendix"
+      "start_char": 0,
+      "end_char": 6,
+      "region": "body"
     },
     {
       "block_id": "b00006",
@@ -1395,9 +1406,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 50,
-      "end_char": 173,
-      "region": "appendix"
+      "start_char": 8,
+      "end_char": 131,
+      "region": "body"
     },
     {
       "block_id": "b00007",
@@ -1407,9 +1418,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 175,
-      "end_char": 340,
-      "region": "appendix"
+      "start_char": 133,
+      "end_char": 298,
+      "region": "body"
     },
     {
       "block_id": "b00008",
@@ -1419,9 +1430,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 342,
-      "end_char": 383,
-      "region": "appendix"
+      "start_char": 300,
+      "end_char": 341,
+      "region": "body"
     },
     {
       "block_id": "b00009",
@@ -1431,9 +1442,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 385,
-      "end_char": 511,
-      "region": "appendix"
+      "start_char": 343,
+      "end_char": 469,
+      "region": "body"
     },
     {
       "block_id": "b00010",
@@ -1443,9 +1454,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 513,
-      "end_char": 599,
-      "region": "appendix"
+      "start_char": 471,
+      "end_char": 557,
+      "region": "body"
     },
     {
       "block_id": "b00011",
@@ -1455,9 +1466,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 601,
-      "end_char": 667,
-      "region": "appendix"
+      "start_char": 559,
+      "end_char": 625,
+      "region": "body"
     },
     {
       "block_id": "b00012",
@@ -1467,9 +1478,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 669,
-      "end_char": 765,
-      "region": "appendix"
+      "start_char": 627,
+      "end_char": 723,
+      "region": "body"
     },
     {
       "block_id": "b00013",
@@ -1479,9 +1490,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 767,
-      "end_char": 818,
-      "region": "appendix"
+      "start_char": 725,
+      "end_char": 776,
+      "region": "body"
     },
     {
       "block_id": "b00014",
@@ -1491,9 +1502,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 820,
-      "end_char": 894,
-      "region": "appendix"
+      "start_char": 778,
+      "end_char": 852,
+      "region": "body"
     },
     {
       "block_id": "b00015",
@@ -1503,9 +1514,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 896,
-      "end_char": 930,
-      "region": "appendix"
+      "start_char": 854,
+      "end_char": 888,
+      "region": "body"
     },
     {
       "block_id": "b00016",
@@ -1515,9 +1526,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 932,
-      "end_char": 941,
-      "region": "appendix"
+      "start_char": 890,
+      "end_char": 899,
+      "region": "body"
     },
     {
       "block_id": "b00017",
@@ -1527,9 +1538,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 943,
-      "end_char": 1128,
-      "region": "appendix"
+      "start_char": 901,
+      "end_char": 1086,
+      "region": "body"
     },
     {
       "block_id": "b00018",
@@ -1539,9 +1550,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1130,
-      "end_char": 1211,
-      "region": "appendix"
+      "start_char": 1088,
+      "end_char": 1169,
+      "region": "body"
     },
     {
       "block_id": "b00019",
@@ -1551,9 +1562,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1213,
-      "end_char": 1263,
-      "region": "appendix"
+      "start_char": 1171,
+      "end_char": 1221,
+      "region": "body"
     },
     {
       "block_id": "b00020",
@@ -1563,9 +1574,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1265,
-      "end_char": 1283,
-      "region": "appendix"
+      "start_char": 1223,
+      "end_char": 1241,
+      "region": "body"
     },
     {
       "block_id": "b00021",
@@ -1575,9 +1586,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1285,
-      "end_char": 1306,
-      "region": "appendix"
+      "start_char": 1243,
+      "end_char": 1264,
+      "region": "body"
     },
     {
       "block_id": "b00022",
@@ -1587,9 +1598,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1308,
-      "end_char": 1333,
-      "region": "appendix"
+      "start_char": 1266,
+      "end_char": 1291,
+      "region": "body"
     },
     {
       "block_id": "b00023",
@@ -1599,9 +1610,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1335,
-      "end_char": 1378,
-      "region": "appendix"
+      "start_char": 1293,
+      "end_char": 1336,
+      "region": "body"
     },
     {
       "block_id": "b00024",
@@ -1611,9 +1622,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1380,
-      "end_char": 1394,
-      "region": "appendix"
+      "start_char": 1338,
+      "end_char": 1352,
+      "region": "body"
     },
     {
       "block_id": "b00025",
@@ -1623,9 +1634,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1396,
-      "end_char": 1432,
-      "region": "appendix"
+      "start_char": 1354,
+      "end_char": 1390,
+      "region": "body"
     },
     {
       "block_id": "b00026",
@@ -1635,9 +1646,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1434,
-      "end_char": 1486,
-      "region": "appendix"
+      "start_char": 1392,
+      "end_char": 1444,
+      "region": "body"
     },
     {
       "block_id": "b00027",
@@ -1647,9 +1658,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1488,
-      "end_char": 1527,
-      "region": "appendix"
+      "start_char": 1446,
+      "end_char": 1485,
+      "region": "body"
     },
     {
       "block_id": "b00028",
@@ -1659,9 +1670,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1529,
-      "end_char": 1633,
-      "region": "appendix"
+      "start_char": 1487,
+      "end_char": 1591,
+      "region": "body"
     },
     {
       "block_id": "b00029",
@@ -1671,9 +1682,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1635,
-      "end_char": 1730,
-      "region": "appendix"
+      "start_char": 1593,
+      "end_char": 1688,
+      "region": "body"
     },
     {
       "block_id": "b00030",
@@ -1683,9 +1694,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1732,
-      "end_char": 1742,
-      "region": "appendix"
+      "start_char": 1690,
+      "end_char": 1700,
+      "region": "body"
     },
     {
       "block_id": "b00031",
@@ -1695,9 +1706,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1744,
-      "end_char": 1815,
-      "region": "appendix"
+      "start_char": 1702,
+      "end_char": 1773,
+      "region": "body"
     },
     {
       "block_id": "b00032",
@@ -1707,9 +1718,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1817,
-      "end_char": 1871,
-      "region": "appendix"
+      "start_char": 1775,
+      "end_char": 1829,
+      "region": "body"
     },
     {
       "block_id": "b00033",
@@ -1719,9 +1730,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1873,
-      "end_char": 1955,
-      "region": "appendix"
+      "start_char": 1831,
+      "end_char": 1913,
+      "region": "body"
     },
     {
       "block_id": "b00034",
@@ -1731,9 +1742,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 1957,
-      "end_char": 2128,
-      "region": "appendix"
+      "start_char": 1915,
+      "end_char": 2086,
+      "region": "body"
     },
     {
       "block_id": "b00035",
@@ -1743,9 +1754,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2130,
-      "end_char": 2158,
-      "region": "appendix"
+      "start_char": 2088,
+      "end_char": 2116,
+      "region": "body"
     },
     {
       "block_id": "b00036",
@@ -1755,9 +1766,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2160,
-      "end_char": 2195,
-      "region": "appendix"
+      "start_char": 2118,
+      "end_char": 2153,
+      "region": "body"
     },
     {
       "block_id": "b00037",
@@ -1767,9 +1778,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2197,
-      "end_char": 2271,
-      "region": "appendix"
+      "start_char": 2155,
+      "end_char": 2229,
+      "region": "body"
     },
     {
       "block_id": "b00038",
@@ -1779,9 +1790,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2273,
-      "end_char": 2319,
-      "region": "appendix"
+      "start_char": 2231,
+      "end_char": 2277,
+      "region": "body"
     },
     {
       "block_id": "b00039",
@@ -1791,9 +1802,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2321,
-      "end_char": 2395,
-      "region": "appendix"
+      "start_char": 2279,
+      "end_char": 2353,
+      "region": "body"
     },
     {
       "block_id": "b00040",
@@ -1803,9 +1814,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2397,
-      "end_char": 2407,
-      "region": "appendix"
+      "start_char": 2355,
+      "end_char": 2365,
+      "region": "body"
     },
     {
       "block_id": "b00041",
@@ -1815,9 +1826,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2409,
-      "end_char": 2444,
-      "region": "appendix"
+      "start_char": 2367,
+      "end_char": 2402,
+      "region": "body"
     },
     {
       "block_id": "b00042",
@@ -1827,9 +1838,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2446,
-      "end_char": 2457,
-      "region": "appendix"
+      "start_char": 2404,
+      "end_char": 2415,
+      "region": "body"
     },
     {
       "block_id": "b00043",
@@ -1839,9 +1850,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2459,
-      "end_char": 2474,
-      "region": "appendix"
+      "start_char": 2417,
+      "end_char": 2432,
+      "region": "body"
     },
     {
       "block_id": "b00044",
@@ -1851,9 +1862,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2476,
-      "end_char": 2498,
-      "region": "appendix"
+      "start_char": 2434,
+      "end_char": 2456,
+      "region": "body"
     },
     {
       "block_id": "b00045",
@@ -1863,9 +1874,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2500,
-      "end_char": 2516,
-      "region": "appendix"
+      "start_char": 2458,
+      "end_char": 2474,
+      "region": "body"
     },
     {
       "block_id": "b00046",
@@ -1875,9 +1886,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2518,
-      "end_char": 2555,
-      "region": "appendix"
+      "start_char": 2476,
+      "end_char": 2513,
+      "region": "body"
     },
     {
       "block_id": "b00047",
@@ -1887,9 +1898,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2557,
-      "end_char": 2639,
-      "region": "appendix"
+      "start_char": 2515,
+      "end_char": 2597,
+      "region": "body"
     },
     {
       "block_id": "b00048",
@@ -1899,9 +1910,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2641,
-      "end_char": 2712,
-      "region": "appendix"
+      "start_char": 2599,
+      "end_char": 2670,
+      "region": "body"
     },
     {
       "block_id": "b00049",
@@ -1911,9 +1922,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2714,
-      "end_char": 2805,
-      "region": "appendix"
+      "start_char": 2672,
+      "end_char": 2763,
+      "region": "body"
     },
     {
       "block_id": "b00050",
@@ -1923,9 +1934,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2807,
-      "end_char": 2856,
-      "region": "appendix"
+      "start_char": 2765,
+      "end_char": 2814,
+      "region": "body"
     },
     {
       "block_id": "b00051",
@@ -1935,9 +1946,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2858,
-      "end_char": 2895,
-      "region": "appendix"
+      "start_char": 2816,
+      "end_char": 2853,
+      "region": "body"
     },
     {
       "block_id": "b00052",
@@ -1947,9 +1958,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2897,
-      "end_char": 2944,
-      "region": "appendix"
+      "start_char": 2855,
+      "end_char": 2902,
+      "region": "body"
     },
     {
       "block_id": "b00053",
@@ -1959,9 +1970,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 2946,
-      "end_char": 2999,
-      "region": "appendix"
+      "start_char": 2904,
+      "end_char": 2957,
+      "region": "body"
     },
     {
       "block_id": "b00054",
@@ -1971,9 +1982,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3001,
-      "end_char": 3039,
-      "region": "appendix"
+      "start_char": 2959,
+      "end_char": 2997,
+      "region": "body"
     },
     {
       "block_id": "b00055",
@@ -1983,9 +1994,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3041,
-      "end_char": 3106,
-      "region": "appendix"
+      "start_char": 2999,
+      "end_char": 3064,
+      "region": "body"
     },
     {
       "block_id": "b00056",
@@ -1995,9 +2006,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3108,
-      "end_char": 3186,
-      "region": "appendix"
+      "start_char": 3066,
+      "end_char": 3144,
+      "region": "body"
     },
     {
       "block_id": "b00057",
@@ -2007,9 +2018,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3188,
-      "end_char": 3240,
-      "region": "appendix"
+      "start_char": 3146,
+      "end_char": 3198,
+      "region": "body"
     },
     {
       "block_id": "b00058",
@@ -2019,9 +2030,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3242,
-      "end_char": 3302,
-      "region": "appendix"
+      "start_char": 3200,
+      "end_char": 3260,
+      "region": "body"
     },
     {
       "block_id": "b00059",
@@ -2031,9 +2042,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3304,
-      "end_char": 3434,
-      "region": "appendix"
+      "start_char": 3262,
+      "end_char": 3392,
+      "region": "body"
     },
     {
       "block_id": "b00060",
@@ -2043,9 +2054,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3436,
-      "end_char": 3444,
-      "region": "appendix"
+      "start_char": 3394,
+      "end_char": 3402,
+      "region": "body"
     },
     {
       "block_id": "b00061",
@@ -2055,9 +2066,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3446,
-      "end_char": 3528,
-      "region": "appendix"
+      "start_char": 3404,
+      "end_char": 3486,
+      "region": "body"
     },
     {
       "block_id": "b00062",
@@ -2067,9 +2078,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3530,
-      "end_char": 3589,
-      "region": "appendix"
+      "start_char": 3488,
+      "end_char": 3547,
+      "region": "body"
     },
     {
       "block_id": "b00063",
@@ -2079,9 +2090,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3591,
-      "end_char": 3636,
-      "region": "appendix"
+      "start_char": 3549,
+      "end_char": 3594,
+      "region": "body"
     },
     {
       "block_id": "b00064",
@@ -2091,9 +2102,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3638,
-      "end_char": 3802,
-      "region": "appendix"
+      "start_char": 3596,
+      "end_char": 3760,
+      "region": "body"
     },
     {
       "block_id": "b00065",
@@ -2103,9 +2114,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3804,
-      "end_char": 3882,
-      "region": "appendix"
+      "start_char": 3762,
+      "end_char": 3840,
+      "region": "body"
     },
     {
       "block_id": "b00066",
@@ -2115,9 +2126,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3884,
-      "end_char": 3892,
-      "region": "appendix"
+      "start_char": 3842,
+      "end_char": 3850,
+      "region": "body"
     },
     {
       "block_id": "b00067",
@@ -2127,9 +2138,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3894,
-      "end_char": 3965,
-      "region": "appendix"
+      "start_char": 3852,
+      "end_char": 3923,
+      "region": "body"
     },
     {
       "block_id": "b00068",
@@ -2139,9 +2150,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 3967,
-      "end_char": 4036,
-      "region": "appendix"
+      "start_char": 3925,
+      "end_char": 3994,
+      "region": "body"
     },
     {
       "block_id": "b00069",
@@ -2151,9 +2162,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4038,
-      "end_char": 4140,
-      "region": "appendix"
+      "start_char": 3996,
+      "end_char": 4098,
+      "region": "body"
     },
     {
       "block_id": "b00070",
@@ -2163,9 +2174,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4142,
-      "end_char": 4229,
-      "region": "appendix"
+      "start_char": 4100,
+      "end_char": 4187,
+      "region": "body"
     },
     {
       "block_id": "b00071",
@@ -2175,9 +2186,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4231,
-      "end_char": 4299,
-      "region": "appendix"
+      "start_char": 4189,
+      "end_char": 4257,
+      "region": "body"
     },
     {
       "block_id": "b00072",
@@ -2187,9 +2198,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4301,
-      "end_char": 4369,
-      "region": "appendix"
+      "start_char": 4259,
+      "end_char": 4327,
+      "region": "body"
     },
     {
       "block_id": "b00073",
@@ -2199,9 +2210,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4371,
-      "end_char": 4382,
-      "region": "appendix"
+      "start_char": 4329,
+      "end_char": 4340,
+      "region": "body"
     },
     {
       "block_id": "b00074",
@@ -2211,9 +2222,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4384,
-      "end_char": 4481,
-      "region": "appendix"
+      "start_char": 4342,
+      "end_char": 4439,
+      "region": "body"
     },
     {
       "block_id": "b00075",
@@ -2223,9 +2234,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4483,
-      "end_char": 4582,
-      "region": "appendix"
+      "start_char": 4441,
+      "end_char": 4540,
+      "region": "body"
     },
     {
       "block_id": "b00076",
@@ -2235,9 +2246,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4584,
-      "end_char": 4657,
-      "region": "appendix"
+      "start_char": 4542,
+      "end_char": 4615,
+      "region": "body"
     },
     {
       "block_id": "b00077",
@@ -2247,9 +2258,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4659,
-      "end_char": 4773,
-      "region": "appendix"
+      "start_char": 4617,
+      "end_char": 4731,
+      "region": "body"
     },
     {
       "block_id": "b00078",
@@ -2259,9 +2270,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4775,
-      "end_char": 4853,
-      "region": "appendix"
+      "start_char": 4733,
+      "end_char": 4811,
+      "region": "body"
     },
     {
       "block_id": "b00079",
@@ -2271,9 +2282,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4855,
-      "end_char": 4972,
-      "region": "appendix"
+      "start_char": 4813,
+      "end_char": 4930,
+      "region": "body"
     },
     {
       "block_id": "b00080",
@@ -2283,9 +2294,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 4974,
-      "end_char": 5039,
-      "region": "appendix"
+      "start_char": 4932,
+      "end_char": 4997,
+      "region": "body"
     },
     {
       "block_id": "b00081",
@@ -2295,9 +2306,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5041,
-      "end_char": 5228,
-      "region": "appendix"
+      "start_char": 4999,
+      "end_char": 5186,
+      "region": "body"
     },
     {
       "block_id": "b00082",
@@ -2307,9 +2318,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5230,
-      "end_char": 5236,
-      "region": "appendix"
+      "start_char": 5188,
+      "end_char": 5194,
+      "region": "body"
     },
     {
       "block_id": "b00083",
@@ -2319,9 +2330,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5238,
-      "end_char": 5378,
-      "region": "appendix"
+      "start_char": 5196,
+      "end_char": 5336,
+      "region": "body"
     },
     {
       "block_id": "b00084",
@@ -2331,9 +2342,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5380,
-      "end_char": 5439,
-      "region": "appendix"
+      "start_char": 5338,
+      "end_char": 5397,
+      "region": "body"
     },
     {
       "block_id": "b00085",
@@ -2343,9 +2354,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5441,
-      "end_char": 5523,
-      "region": "appendix"
+      "start_char": 5399,
+      "end_char": 5481,
+      "region": "body"
     },
     {
       "block_id": "b00086",
@@ -2355,9 +2366,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5525,
-      "end_char": 5542,
-      "region": "appendix"
+      "start_char": 5483,
+      "end_char": 5500,
+      "region": "body"
     },
     {
       "block_id": "b00087",
@@ -2367,9 +2378,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5544,
-      "end_char": 5567,
-      "region": "appendix"
+      "start_char": 5502,
+      "end_char": 5525,
+      "region": "body"
     },
     {
       "block_id": "b00088",
@@ -2379,9 +2390,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5569,
-      "end_char": 5592,
-      "region": "appendix"
+      "start_char": 5527,
+      "end_char": 5550,
+      "region": "body"
     },
     {
       "block_id": "b00089",
@@ -2391,9 +2402,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5594,
-      "end_char": 5639,
-      "region": "appendix"
+      "start_char": 5552,
+      "end_char": 5597,
+      "region": "body"
     },
     {
       "block_id": "b00090",
@@ -2403,9 +2414,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5641,
-      "end_char": 5692,
-      "region": "appendix"
+      "start_char": 5599,
+      "end_char": 5650,
+      "region": "body"
     },
     {
       "block_id": "b00091",
@@ -2415,9 +2426,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5694,
-      "end_char": 5750,
-      "region": "appendix"
+      "start_char": 5652,
+      "end_char": 5708,
+      "region": "body"
     },
     {
       "block_id": "b00092",
@@ -2427,9 +2438,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5752,
-      "end_char": 5775,
-      "region": "appendix"
+      "start_char": 5710,
+      "end_char": 5733,
+      "region": "body"
     },
     {
       "block_id": "b00093",
@@ -2439,9 +2450,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5777,
-      "end_char": 5819,
-      "region": "appendix"
+      "start_char": 5735,
+      "end_char": 5777,
+      "region": "body"
     },
     {
       "block_id": "b00094",
@@ -2451,9 +2462,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5821,
-      "end_char": 5841,
-      "region": "appendix"
+      "start_char": 5779,
+      "end_char": 5799,
+      "region": "body"
     },
     {
       "block_id": "b00095",
@@ -2463,9 +2474,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5843,
-      "end_char": 5926,
-      "region": "appendix"
+      "start_char": 5801,
+      "end_char": 5884,
+      "region": "body"
     },
     {
       "block_id": "b00096",
@@ -2475,9 +2486,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5928,
-      "end_char": 5968,
-      "region": "appendix"
+      "start_char": 5886,
+      "end_char": 5926,
+      "region": "body"
     },
     {
       "block_id": "b00097",
@@ -2487,9 +2498,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 5970,
-      "end_char": 6016,
-      "region": "appendix"
+      "start_char": 5928,
+      "end_char": 5974,
+      "region": "body"
     },
     {
       "block_id": "b00098",
@@ -2499,9 +2510,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6018,
-      "end_char": 6082,
-      "region": "appendix"
+      "start_char": 5976,
+      "end_char": 6040,
+      "region": "body"
     },
     {
       "block_id": "b00099",
@@ -2511,9 +2522,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6084,
-      "end_char": 6161,
-      "region": "appendix"
+      "start_char": 6042,
+      "end_char": 6119,
+      "region": "body"
     },
     {
       "block_id": "b00100",
@@ -2523,9 +2534,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6163,
-      "end_char": 6260,
-      "region": "appendix"
+      "start_char": 6121,
+      "end_char": 6218,
+      "region": "body"
     },
     {
       "block_id": "b00101",
@@ -2535,9 +2546,9 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6262,
-      "end_char": 6284,
-      "region": "appendix"
+      "start_char": 6220,
+      "end_char": 6242,
+      "region": "body"
     },
     {
       "block_id": "b00102",
@@ -2547,53 +2558,23 @@
       "source_kind": "paragraph",
       "source_page_start": 0,
       "source_page_end": 0,
-      "start_char": 6286,
-      "end_char": 6303,
-      "region": "appendix"
+      "start_char": 6244,
+      "end_char": 6261,
+      "region": "body"
     }
   ],
-  "normalized_text": "附件\n\n上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法\n\n第一章 总则\n\n第一条为健全信用风险分担机制,促进债券市场健康稳定发展,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及上海证券交易所(以下简称上交所)和中国证券登记结算有限责任公司(以下简称中国结算)的相关业务规则,制定本办法。\n\n第二条本办法所称信用保护工具,是指信用保护卖方和信用保护买方(以下合称交易双方)达成的,约定在未来一定期限内,信用保护买方(以下简称买方)按照约定的标准和方式向信用保护卖方(以下简称卖方)支付信用保护费用,由卖方就约定的一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向买方提供信用风险保护的金融工具。\n\n第三条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。\n\n合约由交易双方签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》(以下简称主协议)、补充协议(如有)以及通过上交所交易系统(以下简称交易系统)生成的交易确认书等一系列合同文本组成。合约项下的相关权利义务由交易双方各自享有和承担,不可转让。\n\n凭证由凭证创设机构(以下简称创设机构)创设,就一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向凭证持有人提供信用保护,并可以通过交易系统转让。\n\n第四条信用保护工具的参与者管理、创设、交易、结算、信息披露等事宜,适用本办法。本办法未尽事宜,参照上交所、中国结算其他业务规则办理。\n\n第五条交易双方在合约交易前应当签署主协议并报送上交所和中国证券业协会。交易双方可以就合约的违约情形、履约保障等相关事宜签署补充协议,但不得违反法律法规、本办法及上交所、中国结算的其他相关规定。\n\n第六条交易双方就信用保护工具达成交易并通过交易系统确认后,应当认可成交结果,并按照规定和约定履行义务。\n\n第七条上交所根据本办法及其他相关规定对市场参与者及相关人员进行自律管理。上交所为信用保护工具提供成交确认平台服务,发布相关行情信息,并进行集中监测。\n\n第八条中国结算根据交易系统发送的数据为信用保护工具提供登记结算服务。\n\n第二章 参与者管理\n\n第九条信用保护工具参与者的投资者适当性应当与《上海证券交易所债券市场投资者适当性管理办法》规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于合格机构投资者参与信用保护工具交易。上交所可以根据市场发展情况,调整信用保护工具投资者适当性标准。\n\n交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本办法规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。\n\n第十条符合以下条件的金融机构、信用增进机构等经上交所备案可成为合约核心交易商(以下简称核心交易商):\n\n(一)具有较强的风险管理及承担能力;\n\n(二)具有相对独立的信用保护工具交易团队;\n\n(三)已建立完善健全的内部管理流程和风险管理制度;\n\n(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;\n\n(五)上交所要求的其他条件。\n\n核心交易商可以与所有投资者签订合约,其他投资者只能与核心交易商签订合约。\n\n第十一条核心交易商中信用资质和风险管理能力突出的,经上交所备案可成为创设机构,具体条件由上交所另行规定。\n\n第十二条证券期货经营机构参与信用保护工具业务的,应当符合中国证监会的相关规定。\n\n第十三条证券公司应当按照《上海证券交易所债券市场投资者适当性管理办法》的规定对经纪客户进行管理,建立健全经纪客户参与信用保护工具业务相关的风险控制制度和业务流程,并建立经纪客户参与信用保护工具业务的诚信档案。\n\n证券公司应当在经纪客户参与信用保护工具业务前,向其全面介绍信用保护工具的相关业务规则及协议,充分揭示可能产生的风险,并要求其签署风险揭示书。风险揭示书应当包含上交所确定的风险揭示书必备条款。\n\n第三章 信用保护合约\n\n第十四条合约交易双方协商一致后,一方通过交易系统进行合约申报,另一方进行确认。交易系统根据交易双方的确认,对符合形式要求的合约生成交易确认书。\n\n第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。\n\n季度标准保护费率根据合约签订时参考实体的主体评级确定,同一参考实体有多个评级的,以其中最低评级为准。交易双方商定的保护费率和标准保护费率之间的差额通过前端费用调整。\n\n第十六条采用季度标准保护费和部分前端费用相结合支付方式的,合约保护费支付日为合约存续期间每年的3月20日、6月20日、9月20日和12月20日,合约到期日为约定年份的3月20日、6月20日、9月20日或者12月20日。每个保护费支付日,买方支付整个季度的全额费用。合约达成后,交易双方根据交易前端费用和期初返还金额轧差进行相应的期初资金交收。\n\n第十七条合约保护费支付日为节假日的,顺延至下一个交易日。\n\n第十八条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。\n\n第十九条合约交易双方应当在交易确认书中明确信用事件发生后采用的结算方式。合约结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第二十条合约交易双方应当在交易确认书中明确实物结算金额是否包括可交付债务尚未支付的应计利息。\n\n第二十一条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。交易双方自行计算相关结算金额并按照约定的支付方式划转资金。\n\n第四章 信用保护凭证\n\n第二十二条创设机构创设凭证,应当在创设前向上交所提交以下凭证创设文件:\n\n(一)凭证创设说明书;\n\n(二)创设机构的信用评级报告;\n\n(三)经审计的创设机构的财务报表和审计报告;\n\n(四)上交所要求提交的其他文件。\n\n上交所对创设机构提交的文件进行完备性核对。文件完备的,上交所出具无异议函。\n\n第二十三条创设机构应当在凭证创设前通过上交所网站或者以上交所认可的其他方式向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。\n\n第二十四条创设机构在无异议函有效期内完成凭证创设工作。凭证创设可以采用簿记建档或者其他方式。凭证保护费由买方在凭证创设时一次性向创设机构支付。\n\n第二十五条凭证创设完成后,创设机构与中国结算签订证券登记及服务协议,中国结算根据创设机构委托办理凭证登记。凭证的登记使用投资者证券账户,并由中国结算按现有业务规则提供持有人名册服务。\n\n创设机构向上交所提交凭证挂牌转让申请书等相关文件,并与上交所签订挂牌转让协议后,凭证在上交所挂牌。\n\n第二十六条凭证转让采取报价、询价和指定对手方等方式,经交易系统确认后成交。\n\n第二十七条中国结算根据交易系统发送的成交数据为凭证转让提供逐笔全额结算或者其他结算方式的服务。\n\n第二十八条创设机构可以买入自身创设的凭证并向交易系统申报注销,并由中国结算根据交易系统确认的数据办理注销。\n\n第二十九条单只凭证创设及转让后的投资者不超过200人,上交所另有规定的除外。\n\n第三十条创设机构应当在凭证创设说明书中明确凭证持有人会议规则,载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。\n\n第三十一条创设机构应当在凭证创设说明书中明确信用事件发生后采用的结算条件和方式。凭证结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第三十二条凭证转让价格出现重大异常波动或者上交所认可的其他情形,上交所可以视情况对相关凭证采取停牌措施。\n\n第三十三条凭证到期且未发生信用事件、创设机构回购注销其全部凭证或者出现上交所认定的其他情形的,上交所终止凭证的挂牌转让。\n\n第三十四条凭证(含被司法冻结)到期且未发生信用事件或创设机构回购并申请注销其凭证的,中国结算根据相关规定办理注销。凭证存续期间发生信用事件且创设机构与投资者完成结算的,凭证在完成结算时注销。凭证终止挂牌转让时未全部注销完毕的,中国结算根据相关规定办理退出登记。\n\n第五章 信用事件\n\n第三十五条信用事件是指合约或者凭证约定的触发结算赔付的事件。信用事件包括破产、支付违约和债务重组等类型。合约或者凭证创设说明书中,应当约定其适用的具体信用事件类型。\n\n第三十六条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书并向上交所报告。\n\n凭证约定的信用事件发生后,创设机构应当通过上交所网站发布关于信用事件和后续结算安排的公告。\n\n第三十七条信用事件发生后,交易双方按照约定的时间和方式进行实物结算、现金结算或者经上交所和中国结算认可的其他方式结算。合约或凭证采用实物结算以及凭证采用现金结算的,交易双方应根据约定的要素向交易系统进行申报,中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。涉及司法冻结等有权利瑕疵的债券和凭证不可用于结算。\n\n第三十八条交易双方就信用事件存在争议的,应当协商解决。协商不成的,可以提请信用事件专家委员会出具专家意见并组织协商。信用事件专家委员会的设立和构成另行规定。\n\n第六章 信息披露\n\n第三十九条市场参与者应当对报告和披露信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导对手方。\n\n第四十条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露跟踪评级报告。\n\n第四十一条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向上交所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。\n\n第四十二条创设机构应当于凭证到期日前30个交易日发布提示性公告,提示凭证即将到期及相关转让风险。证券公司应当于凭证到期日前30个交易日起向申报买入凭证的经纪客户提示到期风险。\n\n第四十三条创设机构应当在上交所网站或者以上交所认可的其他方式披露信息,且披露时间不得晚于在其他交易场所、媒体或者其他场合公开披露的时间。\n\n第四十四条上交所公布已达成合约的核心交易商类型、合约规模等交易信息,公布当日的凭证逐笔成交行情和汇总行情,并定期披露全市场成交统计数据。\n\n第七章 风险控制和管理\n\n第四十五条上交所及时公布取得核心交易商或者创设机构资质的机构名单。市场参与者发生重大变化,或者证券公司发现其经纪客户发生重大变化,不再符合信用保护工具相关参与者资质要求的,应当及时向上交所报告。\n\n第四十六条核心交易商的信用保护工具净卖出总余额不得超过其最近一期末净资产的300%;其他投资者的信用保护工具净卖出总余额不得超过其最近一期末净资产的100%。上交所可以根据市场发展情况调整相关比例。\n\n第四十七条市场参与者不得利用内幕信息从事信用保护工具交易,不得编造、传播、散布虚假信息扰乱市场秩序,不得与参考实体、其他市场参与者等合谋操纵市场。\n\n第四十八条市场参与者、经纪客户所在的证券公司应当根据上交所要求定期向上交所报送相关数据,上交所对市场参与者的交易头寸、基于单个参考实体的交易头寸等相关情况进行动态监测。上交所可以根据监测结果采取必要的风险控制措施者取所与者况书。\n\n第四十九条市场参与者不得开展以自身为参考实体或者以自身债务为标的债务的信用保护工具业务。开展以关联方为参考实体的信用保护工具业务的,市场参与者应当予以披露。\n\n第五十条 上交所可以对市场参与者是否持续符合信用保护工具参与者资质要求、内部控制、业务开展情况等进行现场或者非现场检查。不符合相关要求的,上交所可暂停其信用保护工具交易、撤销核心交易商或者创设机构资质,或者采取其他必要的风险控制措施。\n\n市场参与者被暂停信用保护工具交易、撤销相关参与者资质后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。\n\n第五十一条市场参与者、经纪客户所在的证券公司、资信评级机构、会计师事务所等专业机构及相关人员违反本办法、上交所其他相关规定或者违反相关承诺、约定的,上交所可以视情况实施口头警示、书面警示、监管谈话、限制证券账户交易、通报批评、公开谴责、收取惩罚性违约金等监管措施或者纪律处分,并依照相关规定记入诚信档案。违反法律、行政法规或者部门规章的,上报中国证监会或者相关监管机构处理。\n\n第八章 附则\n\n第五十二条市场参与者根据相关法律法规、部门规章、相关交易业务规则、登记结算业务规则及本办法的规定开展信用保护工具交易。信用保护工具交易达成后,市场参与者之间的纠纷不影响确认结果的有效性,也不影响中国结算按照本办法及其他相关业务规则进行的信用保护工具登记结算等业务办理结果的有效性。\n\n第五十三条由于交易任意一方违约等情形所产生的纠纷和法律责任,由市场参与者自行协商解决,上交所、中国结算不承担法律责任。\n\n第五十四条信用保护工具存续期内,发生不可抗力、意外事件、技术故障等交易异常情况及因上述原因上交所、中国结算采取相应措施所造成的损失,上交所、中国结算不承担法律责任。\n\n第五十五条本办法下列用语含义如下:\n\n(一)信用保护买方:指接受信用风险保护的一方。\n\n(二)信用保护卖方:指提供信用风险保护的一方。\n\n(三)参考实体:指交易双方约定的,以其信用风险作为信用保护工具交易标的的单个或者多个实体。\n\n(四)债务种类:指参考实体所负债务的类别,包括但不限于付款义务、借贷款项、贷款、债券、资产支持证券等。\n\n(五)债务特征:指参考实体所负债务的一项或多项特征,包括但不限于一般债务、次级债务、交易流通、本币或外币等特征。\n\n(六)保护费:指买方向卖方支付的信用保护费用。\n\n(七)标准保护费率:指根据信用保护合约参考实体的主体评级而确定的固定的信用保护费率。\n\n(八)前端费用:指前端一次性支付的费用。\n\n(九)期初返还金额:指在信用保护合约中,由于买方在首个保护费支付日支付整个季度的全额费用,卖方期初交付时需要返还的合约生效日前一保护费支付日至合约生效日的相应保护费。\n\n(十)实物结算:指买方向卖方给付约定的债务,卖方向其支付相应结算金额的结算方式。\n\n(十一)现金结算:指买方无需向卖方给付债务,卖方以现金方式向买方支付相应结算金额的结算方式。\n\n(十二)可交付债务:指交易双方约定的可由买方向卖方交割的参考实体的债务,该债务符合交易双方约定的可交付债务种类和可交付债务特征。\n\n(十三)信用事件通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件的书面通知。该通知应确定有关信用事件并提供合理、详尽的信息。\n\n(十四)公共信息通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件公开信息的书面通知。该通知书应列明买方或卖方从公开信息渠道获得的有关信用事件已经发生的信息或者报道。\n\n第五十六条本办法由上交所、中国结算负责解释。\n\n第五十七条本办法自发布之日起实施。",
+  "normalized_text": "第一章 总则\n\n第一条为健全信用风险分担机制,促进债券市场健康稳定发展,根据《中华人民共和国证券法》《中华人民共和国合同法》等法律、行政法规、部门规章及上海证券交易所(以下简称上交所)和中国证券登记结算有限责任公司(以下简称中国结算)的相关业务规则,制定本办法。\n\n第二条本办法所称信用保护工具,是指信用保护卖方和信用保护买方(以下合称交易双方)达成的,约定在未来一定期限内,信用保护买方(以下简称买方)按照约定的标准和方式向信用保护卖方(以下简称卖方)支付信用保护费用,由卖方就约定的一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向买方提供信用风险保护的金融工具。\n\n第三条信用保护工具包括信用保护合约(以下简称合约)和信用保护凭证(以下简称凭证)。\n\n合约由交易双方签署的《中国证券期货市场衍生品交易主协议(信用保护合约专用版)》(以下简称主协议)、补充协议(如有)以及通过上交所交易系统(以下简称交易系统)生成的交易确认书等一系列合同文本组成。合约项下的相关权利义务由交易双方各自享有和承担,不可转让。\n\n凭证由凭证创设机构(以下简称创设机构)创设,就一个或多个参考实体或其符合特定债务种类和债务特征的一个或多个、一类或多类债务向凭证持有人提供信用保护,并可以通过交易系统转让。\n\n第四条信用保护工具的参与者管理、创设、交易、结算、信息披露等事宜,适用本办法。本办法未尽事宜,参照上交所、中国结算其他业务规则办理。\n\n第五条交易双方在合约交易前应当签署主协议并报送上交所和中国证券业协会。交易双方可以就合约的违约情形、履约保障等相关事宜签署补充协议,但不得违反法律法规、本办法及上交所、中国结算的其他相关规定。\n\n第六条交易双方就信用保护工具达成交易并通过交易系统确认后,应当认可成交结果,并按照规定和约定履行义务。\n\n第七条上交所根据本办法及其他相关规定对市场参与者及相关人员进行自律管理。上交所为信用保护工具提供成交确认平台服务,发布相关行情信息,并进行集中监测。\n\n第八条中国结算根据交易系统发送的数据为信用保护工具提供登记结算服务。\n\n第二章 参与者管理\n\n第九条信用保护工具参与者的投资者适当性应当与《上海证券交易所债券市场投资者适当性管理办法》规定的参考实体受保护债务投资者适当性标准保持一致。参考实体受保护的多个债务投资者适当性标准不一致的,以受保护债务中较高的投资者适当性标准为准;受保护债务投资者适当性标准不明确的,限于合格机构投资者参与信用保护工具交易。上交所可以根据市场发展情况,调整信用保护工具投资者适当性标准。\n\n交易双方应当充分知悉信用保护工具的相关规则,了解信用保护工具的相关风险,根据本办法规定的条件及自身的风险承受能力评估是否适合参与信用保护工具业务,并自行承担风险。\n\n第十条符合以下条件的金融机构、信用增进机构等经上交所备案可成为合约核心交易商(以下简称核心交易商):\n\n(一)具有较强的风险管理及承担能力;\n\n(二)具有相对独立的信用保护工具交易团队;\n\n(三)已建立完善健全的内部管理流程和风险管理制度;\n\n(四)近3年未因重大的证券期货违法行为被采取过重大行政监管措施或者受到行政、刑事处罚;\n\n(五)上交所要求的其他条件。\n\n核心交易商可以与所有投资者签订合约,其他投资者只能与核心交易商签订合约。\n\n第十一条核心交易商中信用资质和风险管理能力突出的,经上交所备案可成为创设机构,具体条件由上交所另行规定。\n\n第十二条证券期货经营机构参与信用保护工具业务的,应当符合中国证监会的相关规定。\n\n第十三条证券公司应当按照《上海证券交易所债券市场投资者适当性管理办法》的规定对经纪客户进行管理,建立健全经纪客户参与信用保护工具业务相关的风险控制制度和业务流程,并建立经纪客户参与信用保护工具业务的诚信档案。\n\n证券公司应当在经纪客户参与信用保护工具业务前,向其全面介绍信用保护工具的相关业务规则及协议,充分揭示可能产生的风险,并要求其签署风险揭示书。风险揭示书应当包含上交所确定的风险揭示书必备条款。\n\n第三章 信用保护合约\n\n第十四条合约交易双方协商一致后,一方通过交易系统进行合约申报,另一方进行确认。交易系统根据交易双方的确认,对符合形式要求的合约生成交易确认书。\n\n第十五条合约的保护费支付方式可选择按季支付约定保护费、季度标准保护费和部分前端费用相结合或者前端一次性支付。\n\n季度标准保护费率根据合约签订时参考实体的主体评级确定,同一参考实体有多个评级的,以其中最低评级为准。交易双方商定的保护费率和标准保护费率之间的差额通过前端费用调整。\n\n第十六条采用季度标准保护费和部分前端费用相结合支付方式的,合约保护费支付日为合约存续期间每年的3月20日、6月20日、9月20日和12月20日,合约到期日为约定年份的3月20日、6月20日、9月20日或者12月20日。每个保护费支付日,买方支付整个季度的全额费用。合约达成后,交易双方根据交易前端费用和期初返还金额轧差进行相应的期初资金交收。\n\n第十七条合约保护费支付日为节假日的,顺延至下一个交易日。\n\n第十八条合约交易双方可以通过中国结算或者自行协商的其他方式支付保护费。\n\n第十九条合约交易双方应当在交易确认书中明确信用事件发生后采用的结算方式。合约结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第二十条合约交易双方应当在交易确认书中明确实物结算金额是否包括可交付债务尚未支付的应计利息。\n\n第二十一条合约交易双方协商一致提前终止合约的,可以由一方通过交易系统申报,另一方进行确认。交易双方自行计算相关结算金额并按照约定的支付方式划转资金。\n\n第四章 信用保护凭证\n\n第二十二条创设机构创设凭证,应当在创设前向上交所提交以下凭证创设文件:\n\n(一)凭证创设说明书;\n\n(二)创设机构的信用评级报告;\n\n(三)经审计的创设机构的财务报表和审计报告;\n\n(四)上交所要求提交的其他文件。\n\n上交所对创设机构提交的文件进行完备性核对。文件完备的,上交所出具无异议函。\n\n第二十三条创设机构应当在凭证创设前通过上交所网站或者以上交所认可的其他方式向投资者披露凭证创设说明书、创设机构的信用评级报告、经审计的财务报表和审计报告等相关文件。\n\n第二十四条创设机构在无异议函有效期内完成凭证创设工作。凭证创设可以采用簿记建档或者其他方式。凭证保护费由买方在凭证创设时一次性向创设机构支付。\n\n第二十五条凭证创设完成后,创设机构与中国结算签订证券登记及服务协议,中国结算根据创设机构委托办理凭证登记。凭证的登记使用投资者证券账户,并由中国结算按现有业务规则提供持有人名册服务。\n\n创设机构向上交所提交凭证挂牌转让申请书等相关文件,并与上交所签订挂牌转让协议后,凭证在上交所挂牌。\n\n第二十六条凭证转让采取报价、询价和指定对手方等方式,经交易系统确认后成交。\n\n第二十七条中国结算根据交易系统发送的成交数据为凭证转让提供逐笔全额结算或者其他结算方式的服务。\n\n第二十八条创设机构可以买入自身创设的凭证并向交易系统申报注销,并由中国结算根据交易系统确认的数据办理注销。\n\n第二十九条单只凭证创设及转让后的投资者不超过200人,上交所另有规定的除外。\n\n第三十条创设机构应当在凭证创设说明书中明确凭证持有人会议规则,载明凭证持有人通过凭证持有人会议行使权利的范围、程序和其他重要事项。\n\n第三十一条创设机构应当在凭证创设说明书中明确信用事件发生后采用的结算条件和方式。凭证结算方式包括实物结算、现金结算或者经上交所和中国结算认可的其他结算方式。\n\n第三十二条凭证转让价格出现重大异常波动或者上交所认可的其他情形,上交所可以视情况对相关凭证采取停牌措施。\n\n第三十三条凭证到期且未发生信用事件、创设机构回购注销其全部凭证或者出现上交所认定的其他情形的,上交所终止凭证的挂牌转让。\n\n第三十四条凭证(含被司法冻结)到期且未发生信用事件或创设机构回购并申请注销其凭证的,中国结算根据相关规定办理注销。凭证存续期间发生信用事件且创设机构与投资者完成结算的,凭证在完成结算时注销。凭证终止挂牌转让时未全部注销完毕的,中国结算根据相关规定办理退出登记。\n\n第五章 信用事件\n\n第三十五条信用事件是指合约或者凭证约定的触发结算赔付的事件。信用事件包括破产、支付违约和债务重组等类型。合约或者凭证创设说明书中,应当约定其适用的具体信用事件类型。\n\n第三十六条信用事件发生后,买方或者卖方可以按照约定的方式向对手方发送信用事件通知书及所附公共信息通知书并向上交所报告。\n\n凭证约定的信用事件发生后,创设机构应当通过上交所网站发布关于信用事件和后续结算安排的公告。\n\n第三十七条信用事件发生后,交易双方按照约定的时间和方式进行实物结算、现金结算或者经上交所和中国结算认可的其他方式结算。合约或凭证采用实物结算以及凭证采用现金结算的,交易双方应根据约定的要素向交易系统进行申报,中国结算根据交易系统发送的数据提供逐笔全额结算或者其他结算方式的服务。涉及司法冻结等有权利瑕疵的债券和凭证不可用于结算。\n\n第三十八条交易双方就信用事件存在争议的,应当协商解决。协商不成的,可以提请信用事件专家委员会出具专家意见并组织协商。信用事件专家委员会的设立和构成另行规定。\n\n第六章 信息披露\n\n第三十九条市场参与者应当对报告和披露信息的真实性、准确性、完整性、及时性负责,不得有虚假记载、误导性陈述或者重大遗漏,不得欺诈或者误导对手方。\n\n第四十条凭证存续期间,创设机构应当在每年4月30日之前披露上一年度的年度报告、财务报表及审计报告,并在每年6月30日之前披露跟踪评级报告。\n\n第四十一条凭证存续期间,发生可能影响创设机构赔付能力的重大事项,或者存在关于创设机构及其创设的凭证的重大市场传闻的,创设机构应当及时向上交所提交并披露临时报告,说明事件的起因、目前的状态和可能产生的后果。\n\n第四十二条创设机构应当于凭证到期日前30个交易日发布提示性公告,提示凭证即将到期及相关转让风险。证券公司应当于凭证到期日前30个交易日起向申报买入凭证的经纪客户提示到期风险。\n\n第四十三条创设机构应当在上交所网站或者以上交所认可的其他方式披露信息,且披露时间不得晚于在其他交易场所、媒体或者其他场合公开披露的时间。\n\n第四十四条上交所公布已达成合约的核心交易商类型、合约规模等交易信息,公布当日的凭证逐笔成交行情和汇总行情,并定期披露全市场成交统计数据。\n\n第七章 风险控制和管理\n\n第四十五条上交所及时公布取得核心交易商或者创设机构资质的机构名单。市场参与者发生重大变化,或者证券公司发现其经纪客户发生重大变化,不再符合信用保护工具相关参与者资质要求的,应当及时向上交所报告。\n\n第四十六条核心交易商的信用保护工具净卖出总余额不得超过其最近一期末净资产的300%;其他投资者的信用保护工具净卖出总余额不得超过其最近一期末净资产的100%。上交所可以根据市场发展情况调整相关比例。\n\n第四十七条市场参与者不得利用内幕信息从事信用保护工具交易,不得编造、传播、散布虚假信息扰乱市场秩序,不得与参考实体、其他市场参与者等合谋操纵市场。\n\n第四十八条市场参与者、经纪客户所在的证券公司应当根据上交所要求定期向上交所报送相关数据,上交所对市场参与者的交易头寸、基于单个参考实体的交易头寸等相关情况进行动态监测。上交所可以根据监测结果采取必要的风险控制措施者取所与者况书。\n\n第四十九条市场参与者不得开展以自身为参考实体或者以自身债务为标的债务的信用保护工具业务。开展以关联方为参考实体的信用保护工具业务的,市场参与者应当予以披露。\n\n第五十条 上交所可以对市场参与者是否持续符合信用保护工具参与者资质要求、内部控制、业务开展情况等进行现场或者非现场检查。不符合相关要求的,上交所可暂停其信用保护工具交易、撤销核心交易商或者创设机构资质,或者采取其他必要的风险控制措施。\n\n市场参与者被暂停信用保护工具交易、撤销相关参与者资质后,不得新增信用保护工具相关业务,但仍应继续履行未到期信用保护工具的相关义务。\n\n第五十一条市场参与者、经纪客户所在的证券公司、资信评级机构、会计师事务所等专业机构及相关人员违反本办法、上交所其他相关规定或者违反相关承诺、约定的,上交所可以视情况实施口头警示、书面警示、监管谈话、限制证券账户交易、通报批评、公开谴责、收取惩罚性违约金等监管措施或者纪律处分,并依照相关规定记入诚信档案。违反法律、行政法规或者部门规章的,上报中国证监会或者相关监管机构处理。\n\n第八章 附则\n\n第五十二条市场参与者根据相关法律法规、部门规章、相关交易业务规则、登记结算业务规则及本办法的规定开展信用保护工具交易。信用保护工具交易达成后,市场参与者之间的纠纷不影响确认结果的有效性,也不影响中国结算按照本办法及其他相关业务规则进行的信用保护工具登记结算等业务办理结果的有效性。\n\n第五十三条由于交易任意一方违约等情形所产生的纠纷和法律责任,由市场参与者自行协商解决,上交所、中国结算不承担法律责任。\n\n第五十四条信用保护工具存续期内,发生不可抗力、意外事件、技术故障等交易异常情况及因上述原因上交所、中国结算采取相应措施所造成的损失,上交所、中国结算不承担法律责任。\n\n第五十五条本办法下列用语含义如下:\n\n(一)信用保护买方:指接受信用风险保护的一方。\n\n(二)信用保护卖方:指提供信用风险保护的一方。\n\n(三)参考实体:指交易双方约定的,以其信用风险作为信用保护工具交易标的的单个或者多个实体。\n\n(四)债务种类:指参考实体所负债务的类别,包括但不限于付款义务、借贷款项、贷款、债券、资产支持证券等。\n\n(五)债务特征:指参考实体所负债务的一项或多项特征,包括但不限于一般债务、次级债务、交易流通、本币或外币等特征。\n\n(六)保护费:指买方向卖方支付的信用保护费用。\n\n(七)标准保护费率:指根据信用保护合约参考实体的主体评级而确定的固定的信用保护费率。\n\n(八)前端费用:指前端一次性支付的费用。\n\n(九)期初返还金额:指在信用保护合约中,由于买方在首个保护费支付日支付整个季度的全额费用,卖方期初交付时需要返还的合约生效日前一保护费支付日至合约生效日的相应保护费。\n\n(十)实物结算:指买方向卖方给付约定的债务,卖方向其支付相应结算金额的结算方式。\n\n(十一)现金结算:指买方无需向卖方给付债务,卖方以现金方式向买方支付相应结算金额的结算方式。\n\n(十二)可交付债务:指交易双方约定的可由买方向卖方交割的参考实体的债务,该债务符合交易双方约定的可交付债务种类和可交付债务特征。\n\n(十三)信用事件通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件的书面通知。该通知应确定有关信用事件并提供合理、详尽的信息。\n\n(十四)公共信息通知书:指在信用事件的发生得到确认后,由买方或卖方向对手方发送的有关该信用事件公开信息的书面通知。该通知书应列明买方或卖方从公开信息渠道获得的有关信用事件已经发生的信息或者报道。\n\n第五十六条本办法由上交所、中国结算负责解释。\n\n第五十七条本办法自发布之日起实施。",
   "blocks": [
-    {
-      "block_id": "b00001",
-      "text": "附件",
-      "style": "Normal",
-      "source_kind": "paragraph",
-      "page": 0,
-      "region": "appendix",
-      "source_page_end": 0,
-      "start_char": 0,
-      "end_char": 2,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
-    {
-      "block_id": "b00003",
-      "text": "上海证券交易所 中国证券登记结算有限责任公司信用保护工具业务管理试点办法",
-      "style": "Normal",
-      "source_kind": "paragraph",
-      "page": 0,
-      "region": "appendix",
-      "source_page_end": 0,
-      "start_char": 4,
-      "end_char": 40,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
     {
       "block_id": "b00005",
       "text": "第一章 总则",
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 42,
-      "end_char": 48,
+      "start_char": 0,
+      "end_char": 6,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2605,10 +2586,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 50,
-      "end_char": 173,
+      "start_char": 8,
+      "end_char": 131,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2620,10 +2601,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 175,
-      "end_char": 340,
+      "start_char": 133,
+      "end_char": 298,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2635,10 +2616,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 342,
-      "end_char": 383,
+      "start_char": 300,
+      "end_char": 341,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2650,10 +2631,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 385,
-      "end_char": 511,
+      "start_char": 343,
+      "end_char": 469,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2665,10 +2646,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 513,
-      "end_char": 599,
+      "start_char": 471,
+      "end_char": 557,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2680,10 +2661,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 601,
-      "end_char": 667,
+      "start_char": 559,
+      "end_char": 625,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2695,10 +2676,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 669,
-      "end_char": 765,
+      "start_char": 627,
+      "end_char": 723,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2710,10 +2691,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 767,
-      "end_char": 818,
+      "start_char": 725,
+      "end_char": 776,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2725,10 +2706,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 820,
-      "end_char": 894,
+      "start_char": 778,
+      "end_char": 852,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2740,10 +2721,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 896,
-      "end_char": 930,
+      "start_char": 854,
+      "end_char": 888,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2755,10 +2736,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 932,
-      "end_char": 941,
+      "start_char": 890,
+      "end_char": 899,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2770,10 +2751,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 943,
-      "end_char": 1128,
+      "start_char": 901,
+      "end_char": 1086,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2785,10 +2766,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1130,
-      "end_char": 1211,
+      "start_char": 1088,
+      "end_char": 1169,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2800,10 +2781,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1213,
-      "end_char": 1263,
+      "start_char": 1171,
+      "end_char": 1221,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2815,10 +2796,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1265,
-      "end_char": 1283,
+      "start_char": 1223,
+      "end_char": 1241,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2830,10 +2811,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1285,
-      "end_char": 1306,
+      "start_char": 1243,
+      "end_char": 1264,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2845,10 +2826,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1308,
-      "end_char": 1333,
+      "start_char": 1266,
+      "end_char": 1291,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2860,10 +2841,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1335,
-      "end_char": 1378,
+      "start_char": 1293,
+      "end_char": 1336,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2875,10 +2856,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1380,
-      "end_char": 1394,
+      "start_char": 1338,
+      "end_char": 1352,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2890,10 +2871,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1396,
-      "end_char": 1432,
+      "start_char": 1354,
+      "end_char": 1390,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2905,10 +2886,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1434,
-      "end_char": 1486,
+      "start_char": 1392,
+      "end_char": 1444,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2920,10 +2901,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1488,
-      "end_char": 1527,
+      "start_char": 1446,
+      "end_char": 1485,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2935,10 +2916,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1529,
-      "end_char": 1633,
+      "start_char": 1487,
+      "end_char": 1591,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2950,10 +2931,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1635,
-      "end_char": 1730,
+      "start_char": 1593,
+      "end_char": 1688,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2965,10 +2946,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1732,
-      "end_char": 1742,
+      "start_char": 1690,
+      "end_char": 1700,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2980,10 +2961,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1744,
-      "end_char": 1815,
+      "start_char": 1702,
+      "end_char": 1773,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -2995,10 +2976,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1817,
-      "end_char": 1871,
+      "start_char": 1775,
+      "end_char": 1829,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3010,10 +2991,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1873,
-      "end_char": 1955,
+      "start_char": 1831,
+      "end_char": 1913,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3025,10 +3006,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 1957,
-      "end_char": 2128,
+      "start_char": 1915,
+      "end_char": 2086,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3040,10 +3021,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2130,
-      "end_char": 2158,
+      "start_char": 2088,
+      "end_char": 2116,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3055,10 +3036,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2160,
-      "end_char": 2195,
+      "start_char": 2118,
+      "end_char": 2153,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3070,10 +3051,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2197,
-      "end_char": 2271,
+      "start_char": 2155,
+      "end_char": 2229,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3085,10 +3066,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2273,
-      "end_char": 2319,
+      "start_char": 2231,
+      "end_char": 2277,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3100,10 +3081,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2321,
-      "end_char": 2395,
+      "start_char": 2279,
+      "end_char": 2353,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3115,10 +3096,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2397,
-      "end_char": 2407,
+      "start_char": 2355,
+      "end_char": 2365,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3130,10 +3111,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2409,
-      "end_char": 2444,
+      "start_char": 2367,
+      "end_char": 2402,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3145,10 +3126,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2446,
-      "end_char": 2457,
+      "start_char": 2404,
+      "end_char": 2415,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3160,10 +3141,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2459,
-      "end_char": 2474,
+      "start_char": 2417,
+      "end_char": 2432,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3175,10 +3156,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2476,
-      "end_char": 2498,
+      "start_char": 2434,
+      "end_char": 2456,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3190,10 +3171,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2500,
-      "end_char": 2516,
+      "start_char": 2458,
+      "end_char": 2474,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3205,10 +3186,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2518,
-      "end_char": 2555,
+      "start_char": 2476,
+      "end_char": 2513,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3220,10 +3201,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2557,
-      "end_char": 2639,
+      "start_char": 2515,
+      "end_char": 2597,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3235,10 +3216,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2641,
-      "end_char": 2712,
+      "start_char": 2599,
+      "end_char": 2670,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3250,10 +3231,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2714,
-      "end_char": 2805,
+      "start_char": 2672,
+      "end_char": 2763,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3265,10 +3246,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2807,
-      "end_char": 2856,
+      "start_char": 2765,
+      "end_char": 2814,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3280,10 +3261,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2858,
-      "end_char": 2895,
+      "start_char": 2816,
+      "end_char": 2853,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3295,10 +3276,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2897,
-      "end_char": 2944,
+      "start_char": 2855,
+      "end_char": 2902,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3310,10 +3291,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 2946,
-      "end_char": 2999,
+      "start_char": 2904,
+      "end_char": 2957,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3325,10 +3306,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3001,
-      "end_char": 3039,
+      "start_char": 2959,
+      "end_char": 2997,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3340,10 +3321,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3041,
-      "end_char": 3106,
+      "start_char": 2999,
+      "end_char": 3064,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3355,10 +3336,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3108,
-      "end_char": 3186,
+      "start_char": 3066,
+      "end_char": 3144,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3370,10 +3351,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3188,
-      "end_char": 3240,
+      "start_char": 3146,
+      "end_char": 3198,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3385,10 +3366,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3242,
-      "end_char": 3302,
+      "start_char": 3200,
+      "end_char": 3260,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3400,10 +3381,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3304,
-      "end_char": 3434,
+      "start_char": 3262,
+      "end_char": 3392,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3415,10 +3396,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3436,
-      "end_char": 3444,
+      "start_char": 3394,
+      "end_char": 3402,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3430,10 +3411,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3446,
-      "end_char": 3528,
+      "start_char": 3404,
+      "end_char": 3486,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3445,10 +3426,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3530,
-      "end_char": 3589,
+      "start_char": 3488,
+      "end_char": 3547,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3460,10 +3441,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3591,
-      "end_char": 3636,
+      "start_char": 3549,
+      "end_char": 3594,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3475,10 +3456,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3638,
-      "end_char": 3802,
+      "start_char": 3596,
+      "end_char": 3760,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3490,10 +3471,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3804,
-      "end_char": 3882,
+      "start_char": 3762,
+      "end_char": 3840,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3505,10 +3486,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3884,
-      "end_char": 3892,
+      "start_char": 3842,
+      "end_char": 3850,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3520,10 +3501,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3894,
-      "end_char": 3965,
+      "start_char": 3852,
+      "end_char": 3923,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3535,10 +3516,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 3967,
-      "end_char": 4036,
+      "start_char": 3925,
+      "end_char": 3994,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3550,10 +3531,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4038,
-      "end_char": 4140,
+      "start_char": 3996,
+      "end_char": 4098,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3565,10 +3546,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4142,
-      "end_char": 4229,
+      "start_char": 4100,
+      "end_char": 4187,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3580,10 +3561,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4231,
-      "end_char": 4299,
+      "start_char": 4189,
+      "end_char": 4257,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3595,10 +3576,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4301,
-      "end_char": 4369,
+      "start_char": 4259,
+      "end_char": 4327,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3610,10 +3591,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4371,
-      "end_char": 4382,
+      "start_char": 4329,
+      "end_char": 4340,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3625,10 +3606,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4384,
-      "end_char": 4481,
+      "start_char": 4342,
+      "end_char": 4439,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3640,10 +3621,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4483,
-      "end_char": 4582,
+      "start_char": 4441,
+      "end_char": 4540,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3655,10 +3636,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4584,
-      "end_char": 4657,
+      "start_char": 4542,
+      "end_char": 4615,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3670,10 +3651,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4659,
-      "end_char": 4773,
+      "start_char": 4617,
+      "end_char": 4731,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3685,10 +3666,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4775,
-      "end_char": 4853,
+      "start_char": 4733,
+      "end_char": 4811,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3700,10 +3681,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4855,
-      "end_char": 4972,
+      "start_char": 4813,
+      "end_char": 4930,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3715,10 +3696,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 4974,
-      "end_char": 5039,
+      "start_char": 4932,
+      "end_char": 4997,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3730,10 +3711,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5041,
-      "end_char": 5228,
+      "start_char": 4999,
+      "end_char": 5186,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3745,10 +3726,10 @@
       "style": "Normal",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5230,
-      "end_char": 5236,
+      "start_char": 5188,
+      "end_char": 5194,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3760,10 +3741,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5238,
-      "end_char": 5378,
+      "start_char": 5196,
+      "end_char": 5336,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3775,10 +3756,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5380,
-      "end_char": 5439,
+      "start_char": 5338,
+      "end_char": 5397,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3790,10 +3771,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5441,
-      "end_char": 5523,
+      "start_char": 5399,
+      "end_char": 5481,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3805,10 +3786,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5525,
-      "end_char": 5542,
+      "start_char": 5483,
+      "end_char": 5500,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3820,10 +3801,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5544,
-      "end_char": 5567,
+      "start_char": 5502,
+      "end_char": 5525,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3835,10 +3816,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5569,
-      "end_char": 5592,
+      "start_char": 5527,
+      "end_char": 5550,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3850,10 +3831,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5594,
-      "end_char": 5639,
+      "start_char": 5552,
+      "end_char": 5597,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3865,10 +3846,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5641,
-      "end_char": 5692,
+      "start_char": 5599,
+      "end_char": 5650,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3880,10 +3861,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5694,
-      "end_char": 5750,
+      "start_char": 5652,
+      "end_char": 5708,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3895,10 +3876,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5752,
-      "end_char": 5775,
+      "start_char": 5710,
+      "end_char": 5733,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3910,10 +3891,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5777,
-      "end_char": 5819,
+      "start_char": 5735,
+      "end_char": 5777,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3925,10 +3906,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5821,
-      "end_char": 5841,
+      "start_char": 5779,
+      "end_char": 5799,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3940,10 +3921,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5843,
-      "end_char": 5926,
+      "start_char": 5801,
+      "end_char": 5884,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3955,10 +3936,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5928,
-      "end_char": 5968,
+      "start_char": 5886,
+      "end_char": 5926,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3970,10 +3951,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 5970,
-      "end_char": 6016,
+      "start_char": 5928,
+      "end_char": 5974,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -3985,10 +3966,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 6018,
-      "end_char": 6082,
+      "start_char": 5976,
+      "end_char": 6040,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4000,10 +3981,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 6084,
-      "end_char": 6161,
+      "start_char": 6042,
+      "end_char": 6119,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4015,10 +3996,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 6163,
-      "end_char": 6260,
+      "start_char": 6121,
+      "end_char": 6218,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4030,10 +4011,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 6262,
-      "end_char": 6284,
+      "start_char": 6220,
+      "end_char": 6242,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -4045,10 +4026,10 @@
       "style": "List Paragraph",
       "source_kind": "paragraph",
       "page": 0,
-      "region": "appendix",
+      "region": "body",
       "source_page_end": 0,
-      "start_char": 6286,
-      "end_char": 6303,
+      "start_char": 6244,
+      "end_char": 6261,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],

@@ -19,12 +19,12 @@
     "catalog_index": 37,
     "local_file_path": "data/raw/监管文件/组合类保险资产管理产品实施细则.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_5190870a07c4f5b44e4a"
+    "legacy_document_id": "doc_9b7d2237295b4f25c6c77fbf"
   },
   "warnings": [],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "800467583c40d161d3a54212cfc4a42f56b674f6e9d86c7266db18d52fe35e36",
     "clean_text_sha256": "800467583c40d161d3a54212cfc4a42f56b674f6e9d86c7266db18d52fe35e36",

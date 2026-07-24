@@ -19,7 +19,7 @@
     "catalog_index": 7,
     "local_file_path": "data/raw/监管文件/基金管理公司特定客户资产管理子公司风险控制指标管理暂行规定.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_ab780d5eab0c1eb1969d"
+    "legacy_document_id": "doc_cdd905344ae7b9100583103f"
   },
   "warnings": [
     "已合并3处PDF跨页句子或词语断行",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "331919a1c1022b4c91777c6599b7d78ac9e095425d42bbc68dea2ece2c14eb86",
     "clean_text_sha256": "331919a1c1022b4c91777c6599b7d78ac9e095425d42bbc68dea2ece2c14eb86",

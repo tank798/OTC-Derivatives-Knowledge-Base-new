@@ -19,7 +19,7 @@
     "catalog_index": 95,
     "local_file_path": "data/raw/监管文件/全国银行间同业拆借中心信用风险缓释工具交易规则.docx",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_a58bf291320dbcdc668f"
+    "legacy_document_id": "doc_f379ed43c4cb26f83637c1f9"
   },
   "warnings": [
     "已识别Word页眉页脚，未混入正文：9",
@@ -27,7 +27,7 @@
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "changed",
     "original_text_sha256": "9997861a4a5c8a5b1d41f393e800e96b1a552cfd606bdaed72430a8e8720c370",
     "clean_text_sha256": "11537ba491379ec26d7e55aee7eb479c89af385b8d260733c3b2fdcc60d506c3",

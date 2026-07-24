@@ -69,6 +69,19 @@ def _blocks_from_plain_text(text: str) -> tuple[list[SourceBlock], list[str]]:
             if toc_end > toc_marker:
                 removed_toc = toc_end - toc_marker + 1
                 paragraphs = paragraphs[:toc_marker] + paragraphs[toc_end + 1:]
+            elif (
+                toc_marker + 1 < len(paragraphs)
+                and re.match(
+                    r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条]|"
+                    r"[一二三四五六七八九十百]+[、.])",
+                    paragraphs[toc_marker + 1],
+                )
+            ):
+                # 有些旧 DOC 的目录域未导出任何条目，只留下一个“目录”
+                # 标记并紧接真实第一条/第一章。只删除该孤立标记，不动
+                # 其前面的声明或其后的正文。
+                removed_toc = 1
+                paragraphs = paragraphs[:toc_marker] + paragraphs[toc_marker + 1:]
     blocks = [SourceBlock(value, block_id=f"b{index:05d}") for index, value in enumerate(paragraphs, start=1)]
     blocks, removed_front_structure = strip_repeated_front_structure(blocks)
     warnings: list[str] = []

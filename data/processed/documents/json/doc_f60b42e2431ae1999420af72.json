@@ -19,14 +19,14 @@
     "catalog_index": 70,
     "local_file_path": "data/raw/监管文件/证券公司收益凭证信息披露指引.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_5c59e9bbd4f7a762f574"
+    "legacy_document_id": "doc_f60b42e2431ae1999420af72"
   },
   "warnings": [
     "已合并3处PDF跨页句子或词语断行"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
     "status": "unchanged",
     "original_text_sha256": "4a434db06d1ec5a763c7758c5f99a6ee850618e6d1801563eb65f7285ddb55f0",
     "clean_text_sha256": "4a434db06d1ec5a763c7758c5f99a6ee850618e6d1801563eb65f7285ddb55f0",

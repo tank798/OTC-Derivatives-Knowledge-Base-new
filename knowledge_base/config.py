@@ -31,15 +31,15 @@ DEEPSEEK_MODEL = "deepseek-chat"
 LLM_BATCH_UNITS = 30
 
 SUPPORTED_SUFFIXES = {".doc", ".docx", ".pdf", ".txt", ".md", ".html", ".htm", ".xlsx"}
-PARSER_VERSION = "2.6.0-pdf-wrapped-lines+verified-attachments+formula-display"
+PARSER_VERSION = "2.6.2-pdf-reference-fragments+verified-layout-pua+attachments"
 DOCX_PARSER_VERSION = "2.3.1-smarttag-text+toc-style-scope+front-metadata"
-LEGACY_DOC_PARSER_VERSION = "2.4.0-direct-text-preserve-preface+verified-ole-formulas"
+LEGACY_DOC_PARSER_VERSION = "2.4.1-direct-text-lone-toc+preserve-preface+verified-ole-formulas"
 OFFICIAL_HTML_PARSER_VERSION = "2.2.0-footnote-structure"
-CLEANING_RULE_VERSION = "1.5.0-front-matter+typed-structure+verified-pdf-content"
+CLEANING_RULE_VERSION = "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content"
 STRUCTURED_SCHEMA_VERSION = "2.1.2-clean-text-blocks-table-grid-formula-latex-source-warnings-article-context"
-CHUNKER_BASE_VERSION = "3.3.1-primary-body-only-overlap+multiline-article-lead"
-CHUNKER_MULTIPART_VERSION = "3.3.1-primary-body-only-overlap+multiline-article-lead+multipart-reset"
-CHUNKER_VERSION = "3.3.1-primary-body-only-overlap+multiline-article-lead+embedded-part+official-footnote"
+CHUNKER_BASE_VERSION = "3.3.2-primary-body-only-overlap+in-text-article-reference"
+CHUNKER_MULTIPART_VERSION = "3.3.2-primary-body-only-overlap+in-text-article-reference+multipart-reset"
+CHUNKER_VERSION = "3.3.2-primary-body-only-overlap+in-text-article-reference+embedded-part+official-footnote"
 
 
 def parser_version_for_suffix(suffix: str, *, uses_official_cache: bool = False) -> str:

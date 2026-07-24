@@ -128,10 +128,18 @@ def join_pdf_lines(lines: list[str]) -> list[str]:
     result: list[str] = []
     current = ""
     structural = re.compile(r"^(?:第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*[编篇部分章节条款]|[（(][一二三四五六七八九十\d]+[）)]|\d+(?:\.\d+){1,4}\s+[一-鿿]|\d+[．.、])")
-    for raw in lines:
-        line = clean_text(raw)
-        if not line or is_page_number(line):
-            continue
+    article_only = re.compile(r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条$")
+    article_reference_fragment = re.compile(
+        r"^第\s*[一二三四五六七八九十百千万零〇两\d ]+\s*条"
+        r"(?:至|、|和|及|的规定|规定)"
+    )
+    cleaned_lines = [
+        clean_text(raw)
+        for raw in lines
+        if clean_text(raw) and not is_page_number(clean_text(raw))
+    ]
+    for line_index, line in enumerate(cleaned_lines):
+        next_line = cleaned_lines[line_index + 1] if line_index + 1 < len(cleaned_lines) else ""
         if is_pdf_guide_heading(line):
             if current:
                 result.append(current)
@@ -153,6 +161,25 @@ def join_pdf_lines(lines: list[str]) -> list[str]:
                     or (len(compact(current)) >= 20 and line.startswith("第"))
                 )
                 and not re.search(r"[。！？!?；;]$", current.rstrip())
+            ):
+                current += line
+                continue
+            # PDF窄行排版会把正文中的条款引用拆成独立视觉行，例如：
+            # “仅适用本办法” / “第四条” / “至第八条……”。只有当前文
+            # 本和下一行同时构成明显的引用语法时，才把独立“第X条”
+            # 接回原句，避免把真实条款标题错误并入上一条。
+            if (
+                current
+                and (
+                    article_only.fullmatch(line)
+                    or article_reference_fragment.match(line)
+                )
+                and not re.search(r"[。！？!?；;]$", current.rstrip())
+                and re.search(r"(?:本办法|本规定|本规则|本指引|第|至|、|和|及)$", current.rstrip())
+                and (
+                    article_reference_fragment.match(line)
+                    or re.match(r"^(?:至第|、第|和第|及第|至|、|和|及|的规定|规定)", next_line)
+                )
             ):
                 current += line
                 continue

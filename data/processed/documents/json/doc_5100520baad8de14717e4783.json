@@ -4,7 +4,7 @@
   "file_path": "data/raw/监管文件/深圳证券交易所股票期权试点合约条款管理指引.pdf",
   "source_type": "pdf",
   "file_sha256": "2485cc73b47d6217861e5e600b176546499d74e85a3334bc8f07764b335f067b",
-  "content_sha256": "699e1f4eeaf3447985bf08a2e83bf6403c973a187ca47c4afb7dec75ef180631",
+  "content_sha256": "13490eb6fb04d99890f2f0c64614b8bd7afa4f38169384a5a68a124ef090ee65",
   "metadata": {
     "document_title": "深圳证券交易所股票期权试点合约条款管理指引",
     "issuing_authority": "深圳证券交易所",
@@ -19,27 +19,49 @@
     "catalog_index": 116,
     "local_file_path": "data/raw/监管文件/深圳证券交易所股票期权试点合约条款管理指引.pdf",
     "source_status": "local_original_verified",
-    "legacy_document_id": "doc_source_2485cc73b47d6217861e"
+    "legacy_document_id": "doc_5100520baad8de14717e4783"
   },
   "warnings": [
-    "已合并2处PDF跨页句子或词语断行"
+    "已合并2处PDF跨页句子或词语断行",
+    "前置发布信息清洗：移出1个block，规则cover_document_title"
   ],
   "extraction_status": "success",
   "cleaning": {
-    "cleaning_rule_version": "1.5.0-front-matter+typed-structure+verified-pdf-content",
-    "status": "unchanged",
+    "cleaning_rule_version": "1.6.1-normative-list-items+attachment-cover+front-matter+typed-structure+verified-pdf-content",
+    "status": "changed",
     "original_text_sha256": "c3e7f8b9c0ff3eb8b453a821a4f0de94535b03f8e813b5123f279d3d65cc3d72",
-    "clean_text_sha256": "c3e7f8b9c0ff3eb8b453a821a4f0de94535b03f8e813b5123f279d3d65cc3d72",
+    "clean_text_sha256": "659f72353134ae2bd4b81a1f2c2e5c658a4c81dd2c530069cf2477fa98f8c7df",
     "chars_before": 1278,
-    "chars_after": 1278,
-    "removed_character_count": 0,
-    "rule_hits": [],
-    "removed_front_matter": [],
-    "cleaning_log": [],
+    "chars_after": 1254,
+    "removed_character_count": 24,
+    "rule_hits": [
+      "cover_document_title"
+    ],
+    "removed_front_matter": [
+      {
+        "block_id": "b00001",
+        "page": 1,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "附件:深圳证券交易所股票期权试点合约条款管理指引",
+        "character_count": 24
+      }
+    ],
+    "cleaning_log": [
+      {
+        "block_id": "b00001",
+        "page": 1,
+        "source_kind": "paragraph",
+        "rule_id": "cover_document_title",
+        "action": "moved_to_front_matter",
+        "text": "附件:深圳证券交易所股票期权试点合约条款管理指引",
+        "character_count": 24
+      }
+    ],
     "content_overrides": [],
     "content_override_rule_hits": [],
     "chunk_eligible_block_ids": [
-      "b00001",
       "b00002",
       "b00003",
       "b00004",
@@ -61,23 +83,21 @@
     ]
   },
   "original_text_sha256": "c3e7f8b9c0ff3eb8b453a821a4f0de94535b03f8e813b5123f279d3d65cc3d72",
-  "clean_text_sha256": "c3e7f8b9c0ff3eb8b453a821a4f0de94535b03f8e813b5123f279d3d65cc3d72",
-  "clean_text_hash": "0150c34fd93d1df198572628b4f5471e1695747e4dae0c3e561430ac6df3128e",
-  "structured_blocks_sha256": "cb15d560c72b803594d68054355ec6043dbbf7ad5adc590cbc330c5c25f3e608",
-  "front_matter": [],
-  "body_blocks": [
+  "clean_text_sha256": "659f72353134ae2bd4b81a1f2c2e5c658a4c81dd2c530069cf2477fa98f8c7df",
+  "clean_text_hash": "b951d43ffea14df85e515f4863dd1be189b6834dc0afcfd864456bfdf3402a21",
+  "structured_blocks_sha256": "54a23d1d027e759f7354b932473d7cc3939448542071643fe6b65acb6f9c791c",
+  "front_matter": [
     {
       "block_id": "b00001",
-      "block_type": "document_title",
-      "text": "附件:深圳证券交易所股票期权试点合约条款管理指引",
-      "style": "",
+      "page": 1,
       "source_kind": "paragraph",
-      "source_page_start": 1,
-      "source_page_end": 1,
-      "start_char": 0,
-      "end_char": 24,
-      "region": "body"
-    },
+      "rule_id": "cover_document_title",
+      "action": "moved_to_front_matter",
+      "text": "附件:深圳证券交易所股票期权试点合约条款管理指引",
+      "character_count": 24
+    }
+  ],
+  "body_blocks": [
     {
       "block_id": "b00002",
       "block_type": "article",
@@ -86,8 +106,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 26,
-      "end_char": 141,
+      "start_char": 0,
+      "end_char": 115,
       "region": "body"
     },
     {
@@ -98,8 +118,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 143,
-      "end_char": 212,
+      "start_char": 117,
+      "end_char": 186,
       "region": "body"
     },
     {
@@ -110,8 +130,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 214,
-      "end_char": 295,
+      "start_char": 188,
+      "end_char": 269,
       "region": "body"
     },
     {
@@ -122,8 +142,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 297,
-      "end_char": 560,
+      "start_char": 271,
+      "end_char": 534,
       "region": "body"
     },
     {
@@ -134,8 +154,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 562,
-      "end_char": 607,
+      "start_char": 536,
+      "end_char": 581,
       "region": "body"
     },
     {
@@ -146,8 +166,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 609,
-      "end_char": 739,
+      "start_char": 583,
+      "end_char": 713,
       "region": "body"
     },
     {
@@ -158,8 +178,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 741,
-      "end_char": 761,
+      "start_char": 715,
+      "end_char": 735,
       "region": "body"
     },
     {
@@ -170,8 +190,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 763,
-      "end_char": 801,
+      "start_char": 737,
+      "end_char": 775,
       "region": "body"
     },
     {
@@ -182,8 +202,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 803,
-      "end_char": 868,
+      "start_char": 777,
+      "end_char": 842,
       "region": "body"
     },
     {
@@ -194,8 +214,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 870,
-      "end_char": 958,
+      "start_char": 844,
+      "end_char": 932,
       "region": "body"
     },
     {
@@ -206,8 +226,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 960,
-      "end_char": 1007,
+      "start_char": 934,
+      "end_char": 981,
       "region": "body"
     },
     {
@@ -218,8 +238,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 1009,
-      "end_char": 1158,
+      "start_char": 983,
+      "end_char": 1132,
       "region": "body"
     },
     {
@@ -230,8 +250,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1160,
-      "end_char": 1301,
+      "start_char": 1134,
+      "end_char": 1275,
       "region": "body"
     },
     {
@@ -242,8 +262,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1303,
-      "end_char": 1322,
+      "start_char": 1277,
+      "end_char": 1296,
       "region": "body"
     },
     {
@@ -254,8 +274,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1324,
-      "end_char": 1352,
+      "start_char": 1298,
+      "end_char": 1326,
       "region": "body"
     },
     {
@@ -266,8 +286,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1354,
-      "end_char": 1402,
+      "start_char": 1328,
+      "end_char": 1376,
       "region": "body"
     },
     {
@@ -278,8 +298,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1404,
-      "end_char": 1420,
+      "start_char": 1378,
+      "end_char": 1394,
       "region": "body"
     },
     {
@@ -290,26 +310,14 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1422,
-      "end_char": 1439,
+      "start_char": 1396,
+      "end_char": 1413,
       "region": "body"
     }
   ],
   "appendices": [],
-  "clean_text": "附件:深圳证券交易所股票期权试点合约条款管理指引\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)合约条款管理,根据《深圳证券交易所股票期权试点交易规则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》及其他有关规定,制定本指引。\n\n第二条 本指引所称合约条款,主要包括合约简称、合约编码、合约代码、合约标的、合约类型、到期月份、合约单位、行权价格、行权方式、交割方式等。\n\n第三条 在本所上市交易的股票、交易型开放式基金以及经中国证券监督管理委员会(以下简称中国证监会)批准的其他证券品种,可以作为期权合约的标的物(以下简称合约标的)。\n\n第四条 合约代码包含合约标的、合约类型、到期月份、行权价格等要素。期权合约的合约代码共有 20 位,具体组成为:第 1至第 6 位为标的证券代码;第 7 位为 C(Call)或者 P(Put),分别表示认购期权或者认沽期权;第 8、9 位表示到期年份的后两位数字,第 10、11 位表示到期月份(分别用 01 至 12 代替);第 12 位为“ M” ,代表月合约序列;第 13 至 18 位表示期权行权价格,保留三位小数。第 19 位为合约版本号,首次调整改为“ A” ,再次调整改为“ B” ,依此类推。预留第 20 位。\n\n第五条 合约简称与合约代码相对应,由合约标的简称、合约类型、到期月份、行权价格等要素组成。\n\n第六条 合约编码用于唯一识别和记录期权合约。期权合约编码由 8 位数字构成,合约标的为交易型开放式基金的,从 90000001至 91999999 按顺序对挂牌合约进行编码;合约标的为股票的,从92000001 至 99999999 按顺序对挂牌合约进行编码。\n\n第七条 合约类型包括认购期权和认沽期权。\n\n第八条 合约到期月份为当月、下月及随后两个季月,共 4 个月份同时挂牌交易。\n\n第九条 合约标的为交易型开放式基金的,每张期权合约对应10000 份基金份额。合约标的为股票的,每张期权合约对应 1000股股票。\n\n第十条 本所以期权合约标的前一交易日收盘价为基准,确立平值期权行权价格,再依照行权价格间距依序加挂新行权价格合约,使得行权价格高于(低于)平值行权价格的期权合约至少达到4 个。\n\n第十一条 行权价格间距根据期权合约标的收盘价格分区间设置,其收盘价与行权价格间距的对应关系为:\n\n(一)合约标的为交易型开放式基金的,3 元或以下为 0.05 元,3 元至 5 元(含)为 0.1 元,5 元至 10 元(含)为 0.25 元,10 元至 20 元(含)为 0.5 元,20 元至 50 元(含)为 1 元,50 元至 100元(含)为 2.5 元,超过 100 元的为 5 元;\n\n(二)合约标的为股票的,2 元或以下为 0.1 元,2 元至 5 元(含)为 0.25 元,5 元至 10 元(含)为 0.5 元,10 元至 20 元(含)为 1 元,20 元至 50 元(含)为 2.5 元,50 元至 100 元(含)为 5元,超过 100 元的为 10 元。\n\n第十二条 期权合约采用到期日行权方式。\n\n第十三条 期权合约采用实物交割方式。本所另有规定的除外。\n\n第十四条 期权合约到期日为到期月份的第四个星期三,遇法定节假日、本所休市日的,顺延至次一交易日。\n\n第十五条 本指引由本所负责解释。\n\n第十六条 本指引自发布之日起施行。",
+  "clean_text": "第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)合约条款管理,根据《深圳证券交易所股票期权试点交易规则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》及其他有关规定,制定本指引。\n\n第二条 本指引所称合约条款,主要包括合约简称、合约编码、合约代码、合约标的、合约类型、到期月份、合约单位、行权价格、行权方式、交割方式等。\n\n第三条 在本所上市交易的股票、交易型开放式基金以及经中国证券监督管理委员会(以下简称中国证监会)批准的其他证券品种,可以作为期权合约的标的物(以下简称合约标的)。\n\n第四条 合约代码包含合约标的、合约类型、到期月份、行权价格等要素。期权合约的合约代码共有 20 位,具体组成为:第 1至第 6 位为标的证券代码;第 7 位为 C(Call)或者 P(Put),分别表示认购期权或者认沽期权;第 8、9 位表示到期年份的后两位数字,第 10、11 位表示到期月份(分别用 01 至 12 代替);第 12 位为“ M” ,代表月合约序列;第 13 至 18 位表示期权行权价格,保留三位小数。第 19 位为合约版本号,首次调整改为“ A” ,再次调整改为“ B” ,依此类推。预留第 20 位。\n\n第五条 合约简称与合约代码相对应,由合约标的简称、合约类型、到期月份、行权价格等要素组成。\n\n第六条 合约编码用于唯一识别和记录期权合约。期权合约编码由 8 位数字构成,合约标的为交易型开放式基金的,从 90000001至 91999999 按顺序对挂牌合约进行编码;合约标的为股票的,从92000001 至 99999999 按顺序对挂牌合约进行编码。\n\n第七条 合约类型包括认购期权和认沽期权。\n\n第八条 合约到期月份为当月、下月及随后两个季月,共 4 个月份同时挂牌交易。\n\n第九条 合约标的为交易型开放式基金的,每张期权合约对应10000 份基金份额。合约标的为股票的,每张期权合约对应 1000股股票。\n\n第十条 本所以期权合约标的前一交易日收盘价为基准,确立平值期权行权价格,再依照行权价格间距依序加挂新行权价格合约,使得行权价格高于(低于)平值行权价格的期权合约至少达到4 个。\n\n第十一条 行权价格间距根据期权合约标的收盘价格分区间设置,其收盘价与行权价格间距的对应关系为:\n\n(一)合约标的为交易型开放式基金的,3 元或以下为 0.05 元,3 元至 5 元(含)为 0.1 元,5 元至 10 元(含)为 0.25 元,10 元至 20 元(含)为 0.5 元,20 元至 50 元(含)为 1 元,50 元至 100元(含)为 2.5 元,超过 100 元的为 5 元;\n\n(二)合约标的为股票的,2 元或以下为 0.1 元,2 元至 5 元(含)为 0.25 元,5 元至 10 元(含)为 0.5 元,10 元至 20 元(含)为 1 元,20 元至 50 元(含)为 2.5 元,50 元至 100 元(含)为 5元,超过 100 元的为 10 元。\n\n第十二条 期权合约采用到期日行权方式。\n\n第十三条 期权合约采用实物交割方式。本所另有规定的除外。\n\n第十四条 期权合约到期日为到期月份的第四个星期三,遇法定节假日、本所休市日的,顺延至次一交易日。\n\n第十五条 本指引由本所负责解释。\n\n第十六条 本指引自发布之日起施行。",
   "structured_blocks": [
-    {
-      "block_id": "b00001",
-      "block_type": "document_title",
-      "text": "附件:深圳证券交易所股票期权试点合约条款管理指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "source_page_start": 1,
-      "source_page_end": 1,
-      "start_char": 0,
-      "end_char": 24,
-      "region": "body"
-    },
     {
       "block_id": "b00002",
       "block_type": "article",
@@ -318,8 +326,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 26,
-      "end_char": 141,
+      "start_char": 0,
+      "end_char": 115,
       "region": "body"
     },
     {
@@ -330,8 +338,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 143,
-      "end_char": 212,
+      "start_char": 117,
+      "end_char": 186,
       "region": "body"
     },
     {
@@ -342,8 +350,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 214,
-      "end_char": 295,
+      "start_char": 188,
+      "end_char": 269,
       "region": "body"
     },
     {
@@ -354,8 +362,8 @@
       "source_kind": "paragraph",
       "source_page_start": 1,
       "source_page_end": 1,
-      "start_char": 297,
-      "end_char": 560,
+      "start_char": 271,
+      "end_char": 534,
       "region": "body"
     },
     {
@@ -366,8 +374,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 562,
-      "end_char": 607,
+      "start_char": 536,
+      "end_char": 581,
       "region": "body"
     },
     {
@@ -378,8 +386,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 609,
-      "end_char": 739,
+      "start_char": 583,
+      "end_char": 713,
       "region": "body"
     },
     {
@@ -390,8 +398,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 741,
-      "end_char": 761,
+      "start_char": 715,
+      "end_char": 735,
       "region": "body"
     },
     {
@@ -402,8 +410,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 763,
-      "end_char": 801,
+      "start_char": 737,
+      "end_char": 775,
       "region": "body"
     },
     {
@@ -414,8 +422,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 803,
-      "end_char": 868,
+      "start_char": 777,
+      "end_char": 842,
       "region": "body"
     },
     {
@@ -426,8 +434,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 870,
-      "end_char": 958,
+      "start_char": 844,
+      "end_char": 932,
       "region": "body"
     },
     {
@@ -438,8 +446,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 960,
-      "end_char": 1007,
+      "start_char": 934,
+      "end_char": 981,
       "region": "body"
     },
     {
@@ -450,8 +458,8 @@
       "source_kind": "paragraph",
       "source_page_start": 2,
       "source_page_end": 2,
-      "start_char": 1009,
-      "end_char": 1158,
+      "start_char": 983,
+      "end_char": 1132,
       "region": "body"
     },
     {
@@ -462,8 +470,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1160,
-      "end_char": 1301,
+      "start_char": 1134,
+      "end_char": 1275,
       "region": "body"
     },
     {
@@ -474,8 +482,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1303,
-      "end_char": 1322,
+      "start_char": 1277,
+      "end_char": 1296,
       "region": "body"
     },
     {
@@ -486,8 +494,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1324,
-      "end_char": 1352,
+      "start_char": 1298,
+      "end_char": 1326,
       "region": "body"
     },
     {
@@ -498,8 +506,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1354,
-      "end_char": 1402,
+      "start_char": 1328,
+      "end_char": 1376,
       "region": "body"
     },
     {
@@ -510,8 +518,8 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1404,
-      "end_char": 1420,
+      "start_char": 1378,
+      "end_char": 1394,
       "region": "body"
     },
     {
@@ -522,28 +530,13 @@
       "source_kind": "paragraph",
       "source_page_start": 3,
       "source_page_end": 3,
-      "start_char": 1422,
-      "end_char": 1439,
+      "start_char": 1396,
+      "end_char": 1413,
       "region": "body"
     }
   ],
-  "normalized_text": "附件:深圳证券交易所股票期权试点合约条款管理指引\n\n第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)合约条款管理,根据《深圳证券交易所股票期权试点交易规则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》及其他有关规定,制定本指引。\n\n第二条 本指引所称合约条款,主要包括合约简称、合约编码、合约代码、合约标的、合约类型、到期月份、合约单位、行权价格、行权方式、交割方式等。\n\n第三条 在本所上市交易的股票、交易型开放式基金以及经中国证券监督管理委员会(以下简称中国证监会)批准的其他证券品种,可以作为期权合约的标的物(以下简称合约标的)。\n\n第四条 合约代码包含合约标的、合约类型、到期月份、行权价格等要素。期权合约的合约代码共有 20 位,具体组成为:第 1至第 6 位为标的证券代码;第 7 位为 C(Call)或者 P(Put),分别表示认购期权或者认沽期权;第 8、9 位表示到期年份的后两位数字,第 10、11 位表示到期月份(分别用 01 至 12 代替);第 12 位为“ M” ,代表月合约序列;第 13 至 18 位表示期权行权价格,保留三位小数。第 19 位为合约版本号,首次调整改为“ A” ,再次调整改为“ B” ,依此类推。预留第 20 位。\n\n第五条 合约简称与合约代码相对应,由合约标的简称、合约类型、到期月份、行权价格等要素组成。\n\n第六条 合约编码用于唯一识别和记录期权合约。期权合约编码由 8 位数字构成,合约标的为交易型开放式基金的,从 90000001至 91999999 按顺序对挂牌合约进行编码;合约标的为股票的,从92000001 至 99999999 按顺序对挂牌合约进行编码。\n\n第七条 合约类型包括认购期权和认沽期权。\n\n第八条 合约到期月份为当月、下月及随后两个季月,共 4 个月份同时挂牌交易。\n\n第九条 合约标的为交易型开放式基金的,每张期权合约对应10000 份基金份额。合约标的为股票的,每张期权合约对应 1000股股票。\n\n第十条 本所以期权合约标的前一交易日收盘价为基准,确立平值期权行权价格,再依照行权价格间距依序加挂新行权价格合约,使得行权价格高于(低于)平值行权价格的期权合约至少达到4 个。\n\n第十一条 行权价格间距根据期权合约标的收盘价格分区间设置,其收盘价与行权价格间距的对应关系为:\n\n(一)合约标的为交易型开放式基金的,3 元或以下为 0.05 元,3 元至 5 元(含)为 0.1 元,5 元至 10 元(含)为 0.25 元,10 元至 20 元(含)为 0.5 元,20 元至 50 元(含)为 1 元,50 元至 100元(含)为 2.5 元,超过 100 元的为 5 元;\n\n(二)合约标的为股票的,2 元或以下为 0.1 元,2 元至 5 元(含)为 0.25 元,5 元至 10 元(含)为 0.5 元,10 元至 20 元(含)为 1 元,20 元至 50 元(含)为 2.5 元,50 元至 100 元(含)为 5元,超过 100 元的为 10 元。\n\n第十二条 期权合约采用到期日行权方式。\n\n第十三条 期权合约采用实物交割方式。本所另有规定的除外。\n\n第十四条 期权合约到期日为到期月份的第四个星期三,遇法定节假日、本所休市日的,顺延至次一交易日。\n\n第十五条 本指引由本所负责解释。\n\n第十六条 本指引自发布之日起施行。",
+  "normalized_text": "第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)合约条款管理,根据《深圳证券交易所股票期权试点交易规则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》及其他有关规定,制定本指引。\n\n第二条 本指引所称合约条款,主要包括合约简称、合约编码、合约代码、合约标的、合约类型、到期月份、合约单位、行权价格、行权方式、交割方式等。\n\n第三条 在本所上市交易的股票、交易型开放式基金以及经中国证券监督管理委员会(以下简称中国证监会)批准的其他证券品种,可以作为期权合约的标的物(以下简称合约标的)。\n\n第四条 合约代码包含合约标的、合约类型、到期月份、行权价格等要素。期权合约的合约代码共有 20 位,具体组成为:第 1至第 6 位为标的证券代码;第 7 位为 C(Call)或者 P(Put),分别表示认购期权或者认沽期权;第 8、9 位表示到期年份的后两位数字,第 10、11 位表示到期月份(分别用 01 至 12 代替);第 12 位为“ M” ,代表月合约序列;第 13 至 18 位表示期权行权价格,保留三位小数。第 19 位为合约版本号,首次调整改为“ A” ,再次调整改为“ B” ,依此类推。预留第 20 位。\n\n第五条 合约简称与合约代码相对应,由合约标的简称、合约类型、到期月份、行权价格等要素组成。\n\n第六条 合约编码用于唯一识别和记录期权合约。期权合约编码由 8 位数字构成,合约标的为交易型开放式基金的,从 90000001至 91999999 按顺序对挂牌合约进行编码;合约标的为股票的,从92000001 至 99999999 按顺序对挂牌合约进行编码。\n\n第七条 合约类型包括认购期权和认沽期权。\n\n第八条 合约到期月份为当月、下月及随后两个季月,共 4 个月份同时挂牌交易。\n\n第九条 合约标的为交易型开放式基金的,每张期权合约对应10000 份基金份额。合约标的为股票的,每张期权合约对应 1000股股票。\n\n第十条 本所以期权合约标的前一交易日收盘价为基准,确立平值期权行权价格,再依照行权价格间距依序加挂新行权价格合约,使得行权价格高于(低于)平值行权价格的期权合约至少达到4 个。\n\n第十一条 行权价格间距根据期权合约标的收盘价格分区间设置,其收盘价与行权价格间距的对应关系为:\n\n(一)合约标的为交易型开放式基金的,3 元或以下为 0.05 元,3 元至 5 元(含)为 0.1 元,5 元至 10 元(含)为 0.25 元,10 元至 20 元(含)为 0.5 元,20 元至 50 元(含)为 1 元,50 元至 100元(含)为 2.5 元,超过 100 元的为 5 元;\n\n(二)合约标的为股票的,2 元或以下为 0.1 元,2 元至 5 元(含)为 0.25 元,5 元至 10 元(含)为 0.5 元,10 元至 20 元(含)为 1 元,20 元至 50 元(含)为 2.5 元,50 元至 100 元(含)为 5元,超过 100 元的为 10 元。\n\n第十二条 期权合约采用到期日行权方式。\n\n第十三条 期权合约采用实物交割方式。本所另有规定的除外。\n\n第十四条 期权合约到期日为到期月份的第四个星期三,遇法定节假日、本所休市日的,顺延至次一交易日。\n\n第十五条 本指引由本所负责解释。\n\n第十六条 本指引自发布之日起施行。",
   "blocks": [
-    {
-      "block_id": "b00001",
-      "text": "附件:深圳证券交易所股票期权试点合约条款管理指引",
-      "style": "",
-      "source_kind": "paragraph",
-      "page": 1,
-      "region": "body",
-      "source_page_end": 1,
-      "start_char": 0,
-      "end_char": 24,
-      "table_data": {},
-      "formula_data": {},
-      "parsing_warnings": [],
-      "layout": {}
-    },
     {
       "block_id": "b00002",
       "text": "第一条 为了规范深圳证券交易所(以下简称本所)股票期权(以下简称期权)合约条款管理,根据《深圳证券交易所股票期权试点交易规则》《深圳证券交易所 中国证券登记结算有限责任公司股票期权试点风险控制管理办法》及其他有关规定,制定本指引。",
@@ -552,8 +545,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 26,
-      "end_char": 141,
+      "start_char": 0,
+      "end_char": 115,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -567,8 +560,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 143,
-      "end_char": 212,
+      "start_char": 117,
+      "end_char": 186,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -582,8 +575,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 214,
-      "end_char": 295,
+      "start_char": 188,
+      "end_char": 269,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -597,8 +590,8 @@
       "page": 1,
       "region": "body",
       "source_page_end": 1,
-      "start_char": 297,
-      "end_char": 560,
+      "start_char": 271,
+      "end_char": 534,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -612,8 +605,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 562,
-      "end_char": 607,
+      "start_char": 536,
+      "end_char": 581,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -627,8 +620,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 609,
-      "end_char": 739,
+      "start_char": 583,
+      "end_char": 713,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -642,8 +635,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 741,
-      "end_char": 761,
+      "start_char": 715,
+      "end_char": 735,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -657,8 +650,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 763,
-      "end_char": 801,
+      "start_char": 737,
+      "end_char": 775,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -672,8 +665,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 803,
-      "end_char": 868,
+      "start_char": 777,
+      "end_char": 842,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -687,8 +680,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 870,
-      "end_char": 958,
+      "start_char": 844,
+      "end_char": 932,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -702,8 +695,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 960,
-      "end_char": 1007,
+      "start_char": 934,
+      "end_char": 981,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -717,8 +710,8 @@
       "page": 2,
       "region": "body",
       "source_page_end": 2,
-      "start_char": 1009,
-      "end_char": 1158,
+      "start_char": 983,
+      "end_char": 1132,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -732,8 +725,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1160,
-      "end_char": 1301,
+      "start_char": 1134,
+      "end_char": 1275,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -747,8 +740,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1303,
-      "end_char": 1322,
+      "start_char": 1277,
+      "end_char": 1296,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -762,8 +755,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1324,
-      "end_char": 1352,
+      "start_char": 1298,
+      "end_char": 1326,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -777,8 +770,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1354,
-      "end_char": 1402,
+      "start_char": 1328,
+      "end_char": 1376,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -792,8 +785,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1404,
-      "end_char": 1420,
+      "start_char": 1378,
+      "end_char": 1394,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
@@ -807,8 +800,8 @@
       "page": 3,
       "region": "body",
       "source_page_end": 3,
-      "start_char": 1422,
-      "end_char": 1439,
+      "start_char": 1396,
+      "end_char": 1413,
       "table_data": {},
       "formula_data": {},
       "parsing_warnings": [],
