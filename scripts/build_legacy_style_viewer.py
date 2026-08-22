@@ -7,6 +7,7 @@ import argparse
 import json
 import re
 import sys
+import tempfile
 from collections import Counter
 from pathlib import Path
 
@@ -22,13 +23,17 @@ from knowledge_base.build_chunk_review_viewer import (  # noqa: E402
 )
 
 
-DEFAULT_TEMPLATE = ROOT / "knowledge_base/templates/regulation_viewer_legacy_7d.html"
+DEFAULT_TEMPLATE = ROOT / "更新的法规/场外衍生品法规知识库_20260727.html"
 DEFAULT_BASELINE = ROOT / "data/metadata/viewer_legacy_7d_baseline.json"
-DEFAULT_OUTPUT = ROOT / "更新的法规/场外衍生品法规知识库_20260723.html"
+DEFAULT_OUTPUT = ROOT / "更新的法规/场外衍生品法规知识库_20260727.html"
 DEFAULT_CLASSIFICATIONS = ROOT / "data/metadata/viewer_legacy_7d_classifications.json"
 DEFAULT_EVIDENCE = ROOT / "data/metadata/viewer_legacy_7d_evidence.jsonl"
 DEFAULT_AUDIT = ROOT / "更新的法规/七维分类与正文合并审计_20260724.json"
 CLASSIFICATION_VERSION = "2026-07-24-legacy-seven-dimension-full-evidence-v1"
+VIEWER_DATA_PATTERN = re.compile(
+    r'(<script\s+type="application/json"\s+id="viewer-data">).*?(</script>)',
+    re.DOTALL,
+)
 
 DIMENSIONS = (
     ("发文主体", "authority_groups"),
@@ -353,14 +358,26 @@ def main() -> None:
     }
     current_payload["documents"] = documents
     template = args.template.read_text(encoding="utf-8")
+    if "{{VIEWER_DATA_JSON}}" not in template:
+        matches = list(VIEWER_DATA_PATTERN.finditer(template))
+        if len(matches) != 1:
+            raise RuntimeError("查看器外壳缺少唯一viewer-data区域")
+        template = VIEWER_DATA_PATTERN.sub(
+            lambda match: f'{match.group(1)}{{{{VIEWER_DATA_JSON}}}}{match.group(2)}',
+            template,
+            count=1,
+        )
     if template.count("{{VIEWER_DATA_JSON}}") != 1:
-        raise RuntimeError("七维模板缺少唯一数据占位符")
+        raise RuntimeError("查看器模板缺少唯一数据占位符")
     html = template.replace(
         "{{VIEWER_DATA_JSON}}",
         json.dumps(current_payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(html, encoding="utf-8")
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=args.output.parent, delete=False) as handle:
+        handle.write(html)
+        temporary_output = Path(handle.name)
+    temporary_output.replace(args.output)
 
     classifications = {
         "classification_version": CLASSIFICATION_VERSION,

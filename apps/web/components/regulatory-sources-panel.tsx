@@ -89,17 +89,10 @@ export function RegulatorySourcesPanel({ open, answer, hits, onClose }: Props) {
             </div>
           ) : (
             <div className="flex min-h-[55vh] flex-col items-center justify-center px-8 text-center">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#deded9] bg-white text-[#898983]">
-                <SourcesIcon />
-              </div>
-              <p className="mt-4 text-[13px] font-medium text-[#5e5e58]">
+              <p className="text-[13px] font-medium text-[#5e5e58]">
                 {activeTab === "regulations" ? "当前没有法规依据" : "当前没有使用专家 Wiki"}
               </p>
-              <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">
-                {activeTab === "regulations"
-                  ? "完成法规问答后，模型实际引用的法规原文会集中显示在这里。"
-                  : "只有回答实际使用的业务 Know-how 才会显示；Wiki 不能替代法规原文。"}
-              </p>
+              {activeTab === "regulations" && <p className="mt-1.5 text-[11px] leading-5 text-[#9b9b95]">完成法规问答后，引用原文会显示在这里。</p>}
             </div>
           )}
         </div>
@@ -212,15 +205,6 @@ function ChevronIcon({ expanded }: { expanded: boolean }) {
   return (
     <svg width="14" height="14" viewBox="0 0 20 20" fill="none" className={`mt-1 shrink-0 text-[#999993] transition-transform ${expanded ? "rotate-180" : ""}`} aria-hidden="true">
       <path d="m5.5 7.5 4.5 4.5 4.5-4.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function SourcesIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-      <path d="M5 3.5h7.5A2.5 2.5 0 0 1 15 6v10.5H7.5A2.5 2.5 0 0 1 5 14V3.5Z" stroke="currentColor" strokeWidth="1.35" />
-      <path d="M5 14a2.5 2.5 0 0 1 2.5-2.5H15M8 6.5h4" stroke="currentColor" strokeWidth="1.35" strokeLinecap="round" />
     </svg>
   );
 }

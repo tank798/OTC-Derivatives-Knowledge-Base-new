@@ -233,6 +233,8 @@ pnpm build
 python3 -m unittest discover -s knowledge_base/tests -v
 ```
 
+Python解析与测试需要Python 3.10或更高版本。
+
 > `docs/reviews/` 中的报告保留了各轮人工复核的历史快照；README 顶部的当前规模以 `data/processed/build_manifest.json` 和 `data/index/manifest.json` 为准。
 
 - [GitHub 项目说明与截图清单](docs/GitHub项目说明与截图清单.md)：README 如何展示、需要截哪些图、截图如何命名和脱敏；
@@ -241,6 +243,7 @@ python3 -m unittest discover -s knowledge_base/tests -v
 - [项目迭代记录](docs/项目迭代记录.md)：每轮为什么改、改了什么、如何验证；
 - [Chunk 复核报告](docs/reviews/Chunk复核报告.md)：切分质量与原文追溯结果；
 - [法规正文与增量构建验证报告](docs/reviews/法规正文与增量构建验证报告.md)：正文、表格、公式和索引更新证据；
+- [个人标注同步](docs/个人标注同步.md)：将Word、PDF批注导入或嵌入本地法规HTML；
 - [法规知识库查看器](docs/场外衍生品法规知识库0720.html)：按发文主体、效力状态、业务分类和格式查看法规及 Chunk。
 
 ## 项目边界
