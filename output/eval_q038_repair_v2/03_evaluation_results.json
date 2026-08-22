@@ -1,0 +1,51 @@
+[
+  {
+    "id": "Q038",
+    "section": "场外期权",
+    "question": "行权价偏离标的市场价格超过多少时，需要合规部门出具书面合规意见？",
+    "groundTruth": "超过20%。",
+    "systemConclusion": "对于证券公司场外期权业务，行权价偏离标的资产市场价格超过20%且合约期限在30天以下的，合规部门应当出具书面合规意见；但在数据报送层面，合约期限30天以下或行权价偏离超过20%满足其一即须报送合规意见。对于期货风险管理公司，规则仅要求对行权价偏离\"较大\"的合约审慎评估并出具书面合规意见，未设定具体百分比阈值。",
+    "runStatus": "complete",
+    "verdict": "正确",
+    "structureStatus": "valid",
+    "detail": "核心要素覆盖1/1",
+    "coverage": 1,
+    "rawCoverage": 1,
+    "polarityMatch": null,
+    "groundPolarity": null,
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 20,
+          "unit": "%",
+          "operator": ">",
+          "raw": "20%"
+        }
+      ],
+      "actual": [
+        {
+          "value": 20,
+          "unit": "%",
+          "operator": ">",
+          "raw": "20%"
+        },
+        {
+          "value": 20,
+          "unit": "%",
+          "operator": ">",
+          "raw": "20%"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "超过20%"
+    ],
+    "matchedCount": 1,
+    "totalPhrases": 1
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Q038",
+    "section": "场外期权",
+    "question": "行权价偏离标的市场价格超过多少时，需要合规部门出具书面合规意见？",
+    "groundTruth": "超过20%。",
+    "verdict": "API失败",
+    "structureStatus": "not_completed",
+    "detail": "API调用失败：fetch failed",
+    "runStatus": "api_error"
+  }
+]

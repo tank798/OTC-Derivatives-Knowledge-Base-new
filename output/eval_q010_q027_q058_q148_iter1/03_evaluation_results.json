@@ -1,0 +1,207 @@
+[
+  {
+    "id": "Q010",
+    "section": "场外期权",
+    "question": "最近一年分类评级达到什么标准的证券公司可以申请备案成为二级交易商？",
+    "groundTruth": "最近一年分类评级在A类A级以上或B类BBB级以上，并满足持续规范经营、人员、系统和风险管理等条件。",
+    "systemConclusion": "最近一年分类评级达到A类A级以上或B类BBB级的证券公司，经中国证券业协会备案，可以成为二级交易商。其中，A类A级以上与B类BBB级对应的具体备案条件有所不同，B类BBB级的条件更为严格。",
+    "runStatus": "complete",
+    "verdict": "错误",
+    "structureStatus": "valid",
+    "detail": "覆盖不足1/4",
+    "coverage": 0.25,
+    "rawCoverage": 0.25,
+    "polarityMatch": null,
+    "groundPolarity": null,
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "1年"
+        }
+      ],
+      "actual": [
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "最近1年分类评级在a类a级以上或b类bbb级以上",
+      "并满足持续规范经营",
+      "人员",
+      "系统和风险管理等条件"
+    ],
+    "matchedCount": 1,
+    "totalPhrases": 4
+  },
+  {
+    "id": "Q027",
+    "section": "场外期权",
+    "question": "因股票停牌等特殊情况无法了结的存量场外期权合约，在什么条件下可以展期，展期期限最长到什么时候？",
+    "groundTruth": "经公司合规部门评估并出具合规意见书，并向中国证券业协会及所属辖区证监局报备后，可以展期；展期期限不超过停牌期满后1个月。",
+    "systemConclusion": "当前知识库中直接规定存量场外期权合约因股票停牌等特殊情况展期的条款为《证券公司场外期权业务管理办法》第十四条，适用于交易商被调出名单后存量合约无法了结的情形。展期条件为：经公司合规部门评估并出具合规意见书，同时向协会及所属辖区证监局报备；展期期限不超过停牌期满后一个月。此外，存在多项不得展期的禁止性情形。",
+    "runStatus": "complete",
+    "verdict": "正确",
+    "structureStatus": "valid",
+    "detail": "核心要素覆盖4/4",
+    "coverage": 1,
+    "rawCoverage": 1,
+    "polarityMatch": null,
+    "groundPolarity": "positive",
+    "conclusionPolarity": null,
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 1,
+          "unit": "month",
+          "operator": "=",
+          "raw": "1个月"
+        }
+      ],
+      "actual": [
+        {
+          "value": 1,
+          "unit": "month",
+          "operator": "=",
+          "raw": "一个月"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "经公司合规部门评估并出具合规意见书",
+      "并向中国证券业协会及所属辖区证监局报备后",
+      "许可展期",
+      "展期期限不超过停牌期满后1个月"
+    ],
+    "matchedCount": 4,
+    "totalPhrases": 4
+  },
+  {
+    "id": "Q058",
+    "section": "场外期权",
+    "question": "开展场外个股期权业务对应的自营权益类证券及衍生品规模一般不得超过净资本的多少？",
+    "groundTruth": "一般不得超过净资本的20%；场外完全抵销的衍生品合约规模不纳入计算口径。",
+    "systemConclusion": "开展场外个股期权业务对应的自营权益类证券及衍生品规模一般不得超过净资本的20%；连续开展业务两年持续合规的可提高至30%，连续三年持续合规的可提高至不超过50%。",
+    "runStatus": "complete",
+    "verdict": "部分正确",
+    "structureStatus": "valid",
+    "detail": "部分覆盖1/2，缺失：场外完全抵销的衍生品合约规模不纳入计算口径",
+    "coverage": 0.5,
+    "rawCoverage": 0.5,
+    "polarityMatch": true,
+    "groundPolarity": "negative",
+    "conclusionPolarity": "negative",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 20,
+          "unit": "%",
+          "operator": "=",
+          "raw": "20%"
+        }
+      ],
+      "actual": [
+        {
+          "value": 20,
+          "unit": "%",
+          "operator": "=",
+          "raw": "20%"
+        },
+        {
+          "value": 2,
+          "unit": "year",
+          "operator": "=",
+          "raw": "两年"
+        },
+        {
+          "value": 30,
+          "unit": "%",
+          "operator": "=",
+          "raw": "30%"
+        },
+        {
+          "value": 3,
+          "unit": "year",
+          "operator": "=",
+          "raw": "三年"
+        },
+        {
+          "value": 50,
+          "unit": "%",
+          "operator": "<=",
+          "raw": "50%"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "一般否定超过净资本的20%",
+      "场外完全抵销的衍生品合约规模不纳入计算口径"
+    ],
+    "matchedCount": 1,
+    "totalPhrases": 2
+  },
+  {
+    "id": "Q148",
+    "section": "私募基金与场外衍生品",
+    "question": "同一实际控制人控制的私募证券基金管理人的自有资金、管理的全部私募证券投资基金及担任投资顾问的资产管理产品，合计持有单一上市公司股票，最高不得超过该公司可流通股票的多少？",
+    "groundTruth": "不得超过该上市公司可流通股票的30%，中国证监会、中国证券投资基金业协会另有规定的除外。",
+    "systemConclusion": "最高不得超过该上市公司可流通股票的30%。",
+    "runStatus": "complete",
+    "verdict": "部分正确",
+    "structureStatus": "valid",
+    "detail": "部分覆盖1/3，缺失：中国证监会、中国证券投资基金业协会另有规定的除外",
+    "coverage": 0.5,
+    "rawCoverage": 0.3333333333333333,
+    "polarityMatch": true,
+    "groundPolarity": "negative",
+    "conclusionPolarity": "negative",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 30,
+          "unit": "%",
+          "operator": "=",
+          "raw": "30%"
+        }
+      ],
+      "actual": [
+        {
+          "value": 30,
+          "unit": "%",
+          "operator": "=",
+          "raw": "30%"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "否定超过该上市公司可流通股票的30%",
+      "中国证监会",
+      "中国证券投资基金业协会另有规定的除外"
+    ],
+    "matchedCount": 1,
+    "totalPhrases": 3
+  }
+]

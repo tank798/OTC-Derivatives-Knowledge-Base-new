@@ -1,0 +1,233 @@
+[
+  {
+    "id": "Q010",
+    "section": "场外期权",
+    "question": "最近一年分类评级达到什么标准的证券公司可以申请备案成为二级交易商？",
+    "groundTruth": "最近一年分类评级在A类A级以上或B类BBB级以上，并满足持续规范经营、人员、系统和风险管理等条件。",
+    "systemConclusion": "最近一年分类评级在A类A级以上或B类BBB级以上的证券公司，持续规范经营且专业人员、技术系统、风险管理等符合对应条件的，经中国证券业协会备案，可以成为二级交易商。其中，A类A级以上需满足7项备案条件（包括具备证券自营业务资格、最近一年内未因场外期权业务重大违法违规行为受到处罚、衍生品产品设计与交易人员各至少2名且专岗等）；B类BBB级需满足更严格的8项条件（包括最近18个月各项风控指标持续达标且风险覆盖率不低于200%、最近24个月未受行政处罚或被立案稽查、衍生品业务负责人具备8年以上经验、各类专岗专职人员均不少于2名且具备3年以上相关经验、信息技术系统和风险管理能力达到一级交易商标准等）。此外，B类BBB级在备案过程中还需接受协会组织的现场检查评估。",
+    "runStatus": "complete",
+    "verdict": "正确",
+    "structureStatus": "valid",
+    "detail": "核心要素覆盖4/4",
+    "coverage": 1,
+    "rawCoverage": 1,
+    "polarityMatch": null,
+    "groundPolarity": null,
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "1年"
+        }
+      ],
+      "actual": [
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        },
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        },
+        {
+          "value": 2,
+          "unit": "person",
+          "operator": ">=",
+          "raw": "2名"
+        },
+        {
+          "value": 18,
+          "unit": "month",
+          "operator": "=",
+          "raw": "18个月"
+        },
+        {
+          "value": 200,
+          "unit": "%",
+          "operator": ">=",
+          "raw": "200%"
+        },
+        {
+          "value": 24,
+          "unit": "month",
+          "operator": "=",
+          "raw": "24个月"
+        },
+        {
+          "value": 8,
+          "unit": "year",
+          "operator": "=",
+          "raw": "8年"
+        },
+        {
+          "value": 2,
+          "unit": "person",
+          "operator": ">=",
+          "raw": "2名"
+        },
+        {
+          "value": 3,
+          "unit": "year",
+          "operator": "=",
+          "raw": "3年"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "最近1年分类评级在a类a级以上或b类bbb级以上",
+      "并满足持续规范经营",
+      "人员",
+      "系统和风险管理等条件"
+    ],
+    "matchedCount": 4,
+    "totalPhrases": 4
+  },
+  {
+    "id": "Q140",
+    "section": "二级交易商",
+    "question": "二级交易商被终止场外期权业务后，满足什么条件可以重新申请备案？",
+    "groundTruth": "终止情形消除后，连续6个月未再出现终止情形的，可以重新申请备案；因备案材料内容不真实而被终止的，需连续1年未再出现终止情形。",
+    "systemConclusion": "二级交易商被终止场外期权业务后，可以重新申请备案，但须同时满足以下条件和等待期：首先，导致被终止的情形必须已经消除；其次，对被终止情形消除后的等待期，分两种路径处理——（1）一般情形：六个月内未再出现被终止场外期权业务情形，可向协会重新申请备案；（2）因备案材料存在内容不真实被终止的：一年内未再出现被终止场外期权业务情形，可向协会重新申请备案。此外，\"重新申请备案\"意味着须再次经过协会备案流程，根据《证券公司场外期权业务管理办法》，申请成为二级交易商需满足最近一年分类评级在A类A级以上或B类BBB级以上，且持续规范经营、专业人员、技术系统、风险管理等符合对应条件。",
+    "runStatus": "complete",
+    "verdict": "正确",
+    "structureStatus": "valid",
+    "detail": "核心要素覆盖5/5",
+    "coverage": 1,
+    "rawCoverage": 1,
+    "polarityMatch": true,
+    "groundPolarity": "positive",
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 2,
+      "total": 2,
+      "expected": [
+        {
+          "value": 6,
+          "unit": "month",
+          "operator": "=",
+          "raw": "6个月"
+        },
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "1年"
+        }
+      ],
+      "actual": [
+        {
+          "value": 6,
+          "unit": "month",
+          "operator": "=",
+          "raw": "六个月"
+        },
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        },
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "终止情形消除后",
+      "连续6个月未再出现终止情形的",
+      "许可重新申请备案",
+      "因备案材料内容不真实而被终止的",
+      "需连续1年未再出现终止情形"
+    ],
+    "matchedCount": 5,
+    "totalPhrases": 5
+  },
+  {
+    "id": "Q157",
+    "section": "私募基金与场外衍生品",
+    "question": "全部投资者均为专业投资者，且单个投资者投资金额不低于1000万元（穿透认定）的封闭式私募基金，是否可不受雪球类合约名义本金不得超过基金净资产25%的限制？",
+    "groundTruth": "可以。全部投资者均为专业投资者、单个投资者投资金额不低于1000万元（穿透认定）以及基金为封闭式私募基金三项条件应同时满足。",
+    "systemConclusion": "可以不受该限制。《私募证券投资基金运作指引》（中基协发〔2024〕5号）第十七条第（三）项明确规定，参与雪球结构衍生品的合约名义本金不得超过基金净资产25%的限制，对\"全部投资者均为符合中国证监会规定的专业投资者且单个投资者投资金额不低于1000万元（穿透认定）的封闭式私募证券投资基金\"予以除外。用户所描述的主体条件（全部投资者均为专业投资者、单个投资者投资金额不低于1000万元且穿透认定、封闭式私募基金）与该除外条款完全匹配。",
+    "runStatus": "complete",
+    "verdict": "正确",
+    "structureStatus": "valid",
+    "detail": "核心要素覆盖1/1",
+    "coverage": 1,
+    "rawCoverage": 1,
+    "polarityMatch": true,
+    "groundPolarity": "positive",
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 0,
+      "total": 0,
+      "expected": [],
+      "actual": []
+    },
+    "questionType": "binary_numeric",
+    "groundKeyPhrases": [
+      "可以"
+    ],
+    "matchedCount": 1,
+    "totalPhrases": 1
+  },
+  {
+    "id": "Q183",
+    "section": "风险控制指标",
+    "question": "证监会认可的做市业务中，在做市账户持有的金融资产及衍生品，其市场风险资本准备按对应类别标准的多少计算？",
+    "groundTruth": "按对应类别标准的90%计算。该优惠口径以相关金融资产及衍生品持有在做市账户中为条件。",
+    "systemConclusion": "证券公司开展中国证监会认可的做市业务，在做市账户中持有的金融资产及衍生品，其市场风险资本准备按照对应类别标准的90%计算。",
+    "runStatus": "complete",
+    "verdict": "正确",
+    "structureStatus": "valid",
+    "detail": "核心要素覆盖1/1",
+    "coverage": 1,
+    "rawCoverage": 1,
+    "polarityMatch": null,
+    "groundPolarity": null,
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 90,
+          "unit": "%",
+          "operator": "=",
+          "raw": "90%"
+        }
+      ],
+      "actual": [
+        {
+          "value": 90,
+          "unit": "%",
+          "operator": "=",
+          "raw": "90%"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "按对应类别标准的90%计算"
+    ],
+    "matchedCount": 1,
+    "totalPhrases": 1
+  }
+]

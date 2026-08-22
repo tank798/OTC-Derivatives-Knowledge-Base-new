@@ -1,0 +1,547 @@
+{
+  "document_id": "doc_e7ff46520febe0d0b7284c0c",
+  "file_name": "证券公司柜台交易业务规范.docx",
+  "file_path": "data/raw/监管文件/证券公司柜台交易业务规范.docx",
+  "source_type": "docx",
+  "file_sha256": "ce049be984f3250b8ae30feb932a83f7090df60622bce52ad3d5680c2c19e590",
+  "content_sha256": "422ec584ece642c584dbbfa0c09d8fb848f4a7e780b4c23b0ff349c8533cffc8",
+  "metadata": {
+    "document_title": "证券公司柜台交易业务规范",
+    "issuing_authority": "中国证券业协会",
+    "document_number": "中证协发〔2012〕244号",
+    "publication_date": "2012-12-21",
+    "effective_date": "2012-12-21",
+    "validity_status": "现行有效",
+    "version": "",
+    "document_title_source": "authoritative_catalog",
+    "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69727.html",
+    "catalog_group": "中国证券业协会",
+    "catalog_index": 122,
+    "local_file_path": "data/raw/监管文件/证券公司柜台交易业务规范.docx",
+    "source_status": "local_original_verified",
+    "legacy_document_id": "doc_source_ce049be984f3250b8ae3"
+  },
+  "warnings": [
+    "已识别Word页眉页脚，未混入正文：第页",
+    "前置发布信息清洗：移出1个block，规则standalone_front_document_number"
+  ],
+  "extraction_status": "success",
+  "cleaning": {
+    "cleaning_rule_version": "1.3.0-structural-publication-pages-and-source-links",
+    "status": "changed",
+    "original_text_sha256": "669bad8b1a85867d1468276701ef6296f16d91ea2973ac747c334c412fc3ae26",
+    "clean_text_sha256": "c9aefe0452db87f79bc7d3370491e820ed81aeba7f50c8a5a4697f125a58399e",
+    "chars_before": 2027,
+    "chars_after": 2013,
+    "removed_character_count": 14,
+    "rule_hits": [
+      "standalone_front_document_number"
+    ],
+    "removed_front_matter": [
+      {
+        "block_id": "b00002",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "standalone_front_document_number",
+        "action": "moved_to_front_matter",
+        "text": "中证协发〔2012〕244号",
+        "character_count": 14
+      }
+    ],
+    "cleaning_log": [
+      {
+        "block_id": "b00002",
+        "page": 0,
+        "source_kind": "paragraph",
+        "rule_id": "standalone_front_document_number",
+        "action": "moved_to_front_matter",
+        "text": "中证协发〔2012〕244号",
+        "character_count": 14
+      }
+    ],
+    "chunk_eligible_block_ids": [
+      "b00001",
+      "b00003",
+      "b00004",
+      "b00005",
+      "b00006",
+      "b00007",
+      "b00008",
+      "b00009",
+      "b00010",
+      "b00011",
+      "b00012",
+      "b00013",
+      "b00014",
+      "b00015",
+      "b00016",
+      "b00017",
+      "b00018",
+      "b00019",
+      "b00020",
+      "b00021",
+      "b00022",
+      "b00023",
+      "b00024",
+      "b00025",
+      "b00026",
+      "b00027",
+      "b00028",
+      "b00029",
+      "b00030",
+      "b00031",
+      "b00032",
+      "b00033",
+      "b00034",
+      "b00035",
+      "b00036",
+      "b00037",
+      "b00038",
+      "b00039",
+      "b00040",
+      "b00041",
+      "b00042",
+      "b00043",
+      "b00044",
+      "b00045",
+      "b00046",
+      "b00047",
+      "b00048",
+      "b00049",
+      "b00050",
+      "b00051",
+      "b00052",
+      "b00053",
+      "b00054"
+    ]
+  },
+  "original_text_sha256": "669bad8b1a85867d1468276701ef6296f16d91ea2973ac747c334c412fc3ae26",
+  "clean_text_sha256": "c9aefe0452db87f79bc7d3370491e820ed81aeba7f50c8a5a4697f125a58399e",
+  "normalized_text": "证券公司柜台交易业务规范\n\n第一条\n\n为规范证券公司柜台交易行为,保护投资者合法权益,防范证券公司风险,根据《证券法》、《证券公司监督管理条例》,制定本规范。\n\n第二条\n\n本规范所称柜台交易,是指证券公司与特定交易对手方在集中交易场所之外进行的交易或为投资者在集中交易场所之外进行交易提供服务的行为。\n\n证券公司进行柜台交易,应当遵守本规范,但按照其他市场规则进行柜台交易的除外。\n\n第三条\n\n证券公司柜台交易的产品包括经国家有关部门或其授权机构批准、备案或认可的在集中交易场所之外发行或销售的基础金融产品和金融衍生产品。\n\n第四条\n\n证券公司进行柜台交易,应当具备中国证券监督管理委员会(以下简称证监会)批准的与所开展业务相适应的资格条件。\n\n证券公司与特定交易对手方进行柜台交易的,应经证监会批准可从事证券自营业务;证券公司为投资者交易提供服务的,应经证监会批准可从事证券经纪业务。\n\n第五条\n\n证券公司进行柜台交易,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得欺诈、误导投资者,不得利用非公开信息谋取不正当利益。\n\n第六条\n\n证券公司进行柜台交易,应当建立柜台交易管理制度,对交易产品和投资者的选择、交易的决策与执行、与交易有关的登记结算、交易的记录与信息披露等事项作出明确规定。\n\n证券公司应当健全合规管理制度,对柜台交易实施有效的合规管理,保障柜台交易依法合规进行,切实防范不当利用非公开信息进行交易的行为以及柜台交易与公司其他业务之间的利益冲突。\n\n证券公司应当健全风险管理制度,持续评估因柜台交易而持有的各类金融产品的市场风险和投资者的信用状况,采取有效的风险管理措施,将持有的风险敞口控制在可承受范围内。\n\n第七条\n\n参与柜台交易的投资者应当是合格投资者。证券公司应当建立投资者适当性管理制度,并符合中国证券业协会(以下简称协会)投资者适当性管理的相关规定。证券公司在进行柜台交易前,应当采取有效措施了解投资者的身份、财产与收入状况、信用状况、金融知识、投资经验、风险承受能力等情况。\n\n第八条\n\n证券公司进行基础金融产品柜台交易,应当遵守销售、交易基础金融产品的有关规定。\n\n证券公司进行金融衍生产品柜台交易,应当向非金融机构投资者客观、全面地介绍该项交易的性质、风险收益特征及相关基础金融资产的状况,充分披露其与基础金融资产发行人等相关当事人之间是否存在关联关系等可能影响投资者决策的信息。\n\n第九条\n\n证券公司进行柜台交易,应当与特定交易对手方或投资者以书面或电子方式签订柜台交易合同,约定双方的权利义务。\n\n金融衍生产品的柜台交易合同应符合协会对金融衍生产品主协议及配套文件的相关规定。\n\n第十条\n\n证券公司与投资者约定抵押、质押等财产担保的,应当依法办理担保设定手续;向投资者收取履约保证金的,应当在双方约定的金融机构开立专门账户存放,不得违约动用。\n\n第十一条\n\n证券公司应当按照柜台交易合同约定的方式,为投资者办理交易结算。按照约定通过证券公司自有资金账户和客户交易结算资金专用存款账户办理柜台交易资金结算的,相关资金划转应当符合客户交易结算资金存管的规定。\n\n第十二条\n\n证券公司进行柜台交易的,应当记录投资者柜台交易产品的持有及变动状况。证券公司应当及时、准确、完整地记载与柜台交易有关的信息,并按照《证券法》的规定予以妥善保存。\n\n证券公司应当采取有效措施,确保投资者可以在营业时间内查询其与证券公司签订的柜台交易合同的内容、持有基础金融产品和金融衍生产品的状况。\n\n第十三条\n\n协会按照本规范对证券公司柜台交易活动进行自律管理和日常监控。\n\n证券公司进行柜台交易,应当将以下材料报协会备案:\n\n(一) 柜台交易业务实施方案;\n\n(二) 公司关于开展柜台交易的决议;\n\n(三) 关于投资者适当性管理制度、内部控制制度和风险防范机制的说明;\n\n(四) 有关柜台交易业务规则;\n\n(五) 协会要求的其他文件。\n\n第十四条\n\n证券公司进行柜台交易,其柜台交易管理制度和实施方案应当通过协会组织的专业评价。\n\n自受理证券公司提交的备案材料之日起1个月内,协会组织专家对证券公司柜台交易业务方案进行评估。专家评估通过的,协会在5个工作日内出具确认备案的书面意见;专家评估未通过的,协会不予备案,并书面通知未通过的原因。\n\n第十五条\n\n证券公司应向协会报备其进行柜台交易的相关业务信息。\n\n证券公司应于每月结束后5个工作日内按要求向协会报送柜台交易月度报表,每年结束后1个月内向协会报送柜台交易年度报告。\n\n发生可能影响柜台交易顺利进行、投资者利益或可能诱发证券公司风险的重大事件时,证券公司应当及时报告协会,并说明重大事件的起因、处理措施和影响等。\n\n第十六条\n\n证券公司进行柜台交易应遵守协会制定的自律规则。协会对证券公司进行柜台交易的情况进行检查,证券公司应当配合。\n\n第十七条\n\n证券公司及其相关业务人员违反本规范规定,协会将视情节轻重采取相关自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,将移交证监会或其他有权机关依法查处。\n\n第十八条\n\n本规范由协会负责解释,自发布之日起施行。",
+  "blocks": [
+    {
+      "block_id": "b00001",
+      "text": "证券公司柜台交易业务规范",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00003",
+      "text": "第一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00004",
+      "text": "为规范证券公司柜台交易行为,保护投资者合法权益,防范证券公司风险,根据《证券法》、《证券公司监督管理条例》,制定本规范。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00005",
+      "text": "第二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00006",
+      "text": "本规范所称柜台交易,是指证券公司与特定交易对手方在集中交易场所之外进行的交易或为投资者在集中交易场所之外进行交易提供服务的行为。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00007",
+      "text": "证券公司进行柜台交易,应当遵守本规范,但按照其他市场规则进行柜台交易的除外。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00008",
+      "text": "第三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00009",
+      "text": "证券公司柜台交易的产品包括经国家有关部门或其授权机构批准、备案或认可的在集中交易场所之外发行或销售的基础金融产品和金融衍生产品。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00010",
+      "text": "第四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00011",
+      "text": "证券公司进行柜台交易,应当具备中国证券监督管理委员会(以下简称证监会)批准的与所开展业务相适应的资格条件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00012",
+      "text": "证券公司与特定交易对手方进行柜台交易的,应经证监会批准可从事证券自营业务;证券公司为投资者交易提供服务的,应经证监会批准可从事证券经纪业务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00013",
+      "text": "第五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00014",
+      "text": "证券公司进行柜台交易,应当遵守有关法律法规,遵循诚实信用、公平自愿的原则,不得欺诈、误导投资者,不得利用非公开信息谋取不正当利益。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00015",
+      "text": "第六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00016",
+      "text": "证券公司进行柜台交易,应当建立柜台交易管理制度,对交易产品和投资者的选择、交易的决策与执行、与交易有关的登记结算、交易的记录与信息披露等事项作出明确规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00017",
+      "text": "证券公司应当健全合规管理制度,对柜台交易实施有效的合规管理,保障柜台交易依法合规进行,切实防范不当利用非公开信息进行交易的行为以及柜台交易与公司其他业务之间的利益冲突。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00018",
+      "text": "证券公司应当健全风险管理制度,持续评估因柜台交易而持有的各类金融产品的市场风险和投资者的信用状况,采取有效的风险管理措施,将持有的风险敞口控制在可承受范围内。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00019",
+      "text": "第七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00020",
+      "text": "参与柜台交易的投资者应当是合格投资者。证券公司应当建立投资者适当性管理制度,并符合中国证券业协会(以下简称协会)投资者适当性管理的相关规定。证券公司在进行柜台交易前,应当采取有效措施了解投资者的身份、财产与收入状况、信用状况、金融知识、投资经验、风险承受能力等情况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00021",
+      "text": "第八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00022",
+      "text": "证券公司进行基础金融产品柜台交易,应当遵守销售、交易基础金融产品的有关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00023",
+      "text": "证券公司进行金融衍生产品柜台交易,应当向非金融机构投资者客观、全面地介绍该项交易的性质、风险收益特征及相关基础金融资产的状况,充分披露其与基础金融资产发行人等相关当事人之间是否存在关联关系等可能影响投资者决策的信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00024",
+      "text": "第九条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00025",
+      "text": "证券公司进行柜台交易,应当与特定交易对手方或投资者以书面或电子方式签订柜台交易合同,约定双方的权利义务。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00026",
+      "text": "金融衍生产品的柜台交易合同应符合协会对金融衍生产品主协议及配套文件的相关规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00027",
+      "text": "第十条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00028",
+      "text": "证券公司与投资者约定抵押、质押等财产担保的,应当依法办理担保设定手续;向投资者收取履约保证金的,应当在双方约定的金融机构开立专门账户存放,不得违约动用。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00029",
+      "text": "第十一条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00030",
+      "text": "证券公司应当按照柜台交易合同约定的方式,为投资者办理交易结算。按照约定通过证券公司自有资金账户和客户交易结算资金专用存款账户办理柜台交易资金结算的,相关资金划转应当符合客户交易结算资金存管的规定。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00031",
+      "text": "第十二条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00032",
+      "text": "证券公司进行柜台交易的,应当记录投资者柜台交易产品的持有及变动状况。证券公司应当及时、准确、完整地记载与柜台交易有关的信息,并按照《证券法》的规定予以妥善保存。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00033",
+      "text": "证券公司应当采取有效措施,确保投资者可以在营业时间内查询其与证券公司签订的柜台交易合同的内容、持有基础金融产品和金融衍生产品的状况。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00034",
+      "text": "第十三条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00035",
+      "text": "协会按照本规范对证券公司柜台交易活动进行自律管理和日常监控。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00036",
+      "text": "证券公司进行柜台交易,应当将以下材料报协会备案:",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00037",
+      "text": "(一) 柜台交易业务实施方案;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00038",
+      "text": "(二) 公司关于开展柜台交易的决议;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00039",
+      "text": "(三) 关于投资者适当性管理制度、内部控制制度和风险防范机制的说明;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00040",
+      "text": "(四) 有关柜台交易业务规则;",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00041",
+      "text": "(五) 协会要求的其他文件。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00042",
+      "text": "第十四条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00043",
+      "text": "证券公司进行柜台交易,其柜台交易管理制度和实施方案应当通过协会组织的专业评价。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00044",
+      "text": "自受理证券公司提交的备案材料之日起1个月内,协会组织专家对证券公司柜台交易业务方案进行评估。专家评估通过的,协会在5个工作日内出具确认备案的书面意见;专家评估未通过的,协会不予备案,并书面通知未通过的原因。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00045",
+      "text": "第十五条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00046",
+      "text": "证券公司应向协会报备其进行柜台交易的相关业务信息。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00047",
+      "text": "证券公司应于每月结束后5个工作日内按要求向协会报送柜台交易月度报表,每年结束后1个月内向协会报送柜台交易年度报告。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00048",
+      "text": "发生可能影响柜台交易顺利进行、投资者利益或可能诱发证券公司风险的重大事件时,证券公司应当及时报告协会,并说明重大事件的起因、处理措施和影响等。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00049",
+      "text": "第十六条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00050",
+      "text": "证券公司进行柜台交易应遵守协会制定的自律规则。协会对证券公司进行柜台交易的情况进行检查,证券公司应当配合。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00051",
+      "text": "第十七条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00052",
+      "text": "证券公司及其相关业务人员违反本规范规定,协会将视情节轻重采取相关自律惩戒措施,并记入诚信信息管理系统;存在违反法律、法规行为的,将移交证监会或其他有权机关依法查处。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00053",
+      "text": "第十八条",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    },
+    {
+      "block_id": "b00054",
+      "text": "本规范由协会负责解释,自发布之日起施行。",
+      "style": "",
+      "source_kind": "paragraph",
+      "page": 0,
+      "region": "body"
+    }
+  ]
+}

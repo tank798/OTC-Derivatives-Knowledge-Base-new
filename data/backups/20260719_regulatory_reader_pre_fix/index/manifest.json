@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generated_at": "2026-07-19T06:33:43.624Z",
+  "source": {
+    "path": "data/processed/chunks/jsonl/all_chunks.jsonl",
+    "sha256": "c463f22290334007ebe5315205a93dfbf422a2e1debc3a8acb3433e741f8c5b6",
+    "unique_body_source": true,
+    "legacy_clauses_enabled": false
+  },
+  "corpus": {
+    "path": "data/index/corpus.jsonl",
+    "sha256": "66b1c19d493c8c911a9db15f841eb36e8b9e5a2e350b2c29e9e378ed52cbbf05",
+    "document_count": 114,
+    "chunk_count": 1700,
+    "official_url_count": 114
+  },
+  "bm25": {
+    "path": "data/index/bm25/index.json",
+    "sha256": "ad05a28c1f39b6e266c262db4bb6ef9acd50c8a1114fd6cf509093d27a1a199b",
+    "tokenizer": "nfkc+cjk_bigram+otc_domain_terms",
+    "field_weighting": "none",
+    "k1": 1.5,
+    "b": 0.75,
+    "vocabulary_size": 54868
+  },
+  "vectors": {
+    "path": "data/index/vectors.f32",
+    "metadata_path": "data/index/vector_metadata.json",
+    "sha256": "b7a1a113a31defab32d0d6cc6531ba282482d3b5beefc90b354198d9e10948fd",
+    "model_id": "Xenova/bge-base-zh-v1.5",
+    "model_revision": "71e50dc531959f9e04ebf190ea25b00261a0a186",
+    "model_dtype": "q8",
+    "dimension": 768,
+    "chunk_count": 1700,
+    "incremental_build": {
+      "enabled": true,
+      "reused_chunk_count": 1183,
+      "embedded_chunk_count": 517,
+      "retired_or_changed_previous_chunk_count": 45
+    }
+  },
+  "fusion": {
+    "method": "equal_weight_rrf",
+    "rrf_k": 60,
+    "bm25_top_k": 30,
+    "vector_top_k": 30,
+    "fused_top_k": 20
+  },
+  "duplicate_audit": {
+    "blocking_duplicate_groups": 0,
+    "review_duplicate_groups": 0,
+    "intentional_overlap_groups": 0
+  },
+  "build_fingerprint": "390bb870d678aa4ecc0b7baf65cdddd03865700031cf495f9c900bcf3bdbed25"
+}

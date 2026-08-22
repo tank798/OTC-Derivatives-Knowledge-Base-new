@@ -1,0 +1,78 @@
+[
+  {
+    "id": "Q010",
+    "section": "场外期权",
+    "question": "最近一年分类评级达到什么标准的证券公司可以申请备案成为二级交易商？",
+    "groundTruth": "最近一年分类评级在A类A级以上或B类BBB级以上，并满足持续规范经营、人员、系统和风险管理等条件。",
+    "systemConclusion": "根据《证券公司场外期权业务管理办法》第七条，最近一年分类评级在A类A级以上或B类BBB级以上的证券公司，经协会备案，可以成为二级交易商。《证券公司场外期权业务二级交易商备案须知》进一步将申请条件分为两档分别列明：最近一年证监会分类评价结果为A类A级以上的，适用第一档条件（需具备证券自营业务资格、专业人员配备、信息技术系统等七项要求）；最近一年分类评价结果为B类BBB级的，适用第二档条件（条件更为严格，包括最近18个月风险覆盖率不低于200%、信息技术系统和风险管理能力达到一级交易商标准、衍生品业务负责人具备8年以上经验、专业人员数量和年限要求更高等八项要求，且备案过程中协会将组织专家进行事前现场检查评估）。对于分类评级为B类A级或B类AA级（高于BBB级）的证券公司，《管理办法》中\"B类BBB级以上\"的表述已将其纳入可申请范围，但《备案须知》未单独列明该等中间档位的具体适用条件，实践中需向协会进一步确认是按B类BBB级条件执行还是参照A类A级以上条件。",
+    "runStatus": "complete",
+    "verdict": "部分正确",
+    "structureStatus": "valid",
+    "detail": "部分覆盖3/4，缺失：并满足持续规范经营",
+    "coverage": 0.75,
+    "rawCoverage": 0.75,
+    "polarityMatch": null,
+    "groundPolarity": null,
+    "conclusionPolarity": "positive",
+    "quantityMatch": {
+      "matched": true,
+      "matchedCount": 1,
+      "total": 1,
+      "expected": [
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "1年"
+        }
+      ],
+      "actual": [
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        },
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        },
+        {
+          "value": 1,
+          "unit": "year",
+          "operator": "=",
+          "raw": "一年"
+        },
+        {
+          "value": 18,
+          "unit": "month",
+          "operator": "=",
+          "raw": "18个月"
+        },
+        {
+          "value": 200,
+          "unit": "%",
+          "operator": ">=",
+          "raw": "200%"
+        },
+        {
+          "value": 8,
+          "unit": "year",
+          "operator": "=",
+          "raw": "8年"
+        }
+      ]
+    },
+    "questionType": "numeric",
+    "groundKeyPhrases": [
+      "最近1年分类评级在a类a级以上或b类bbb级以上",
+      "并满足持续规范经营",
+      "人员",
+      "系统和风险管理等条件"
+    ],
+    "matchedCount": 3,
+    "totalPhrases": 4
+  }
+]

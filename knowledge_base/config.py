@@ -27,7 +27,7 @@ ENABLE_SEMANTIC_CHUNKING = True
 ENABLE_LLM_SEMANTIC_REVIEW = False
 DEEPSEEK_API_KEY_FILE = Path(os.environ.get("DEEPSEEK_API_KEY_FILE", ""))
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
-DEEPSEEK_MODEL = "deepseek-chat"
+DEEPSEEK_MODEL = "deepseek-v4-flash"
 LLM_BATCH_UNITS = 30
 
 SUPPORTED_SUFFIXES = {".doc", ".docx", ".pdf", ".txt", ".md", ".html", ".htm", ".xlsx"}

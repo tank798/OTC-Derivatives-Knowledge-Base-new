@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-20T01:28:37.161Z",
+  "mode": "judge-only",
+  "evaluatorVersion": "2026-07-20-lifecycle-v1",
+  "gitCommit": "b3ebb58b5e135b80e6b187a276e868e409c9f4b1",
+  "projectRoot": "/Users/castle/C盘/常用/以往实习梳理/华泰金创产品/衍生品知识库问答v2",
+  "questionFile": "/Users/castle/C盘/常用/以往实习梳理/华泰金创产品/衍生品知识库问答v2/场外衍生品法规问答题库_200题_20260719.md",
+  "questionFileSha256": "62ca8ec7f160d6b7caf74c4c9ba03d48d94c05f278a3869f28661c64820510e0",
+  "inputAnswersFile": "/Users/castle/C盘/常用/以往实习梳理/华泰金创产品/衍生品知识库问答v2/output/eval_200_questions/02_system_answers.jsonl",
+  "inputAnswersSha256": "0c618ef4459d39d2be014d4c248f9a7546e91184bf07b2ea1d07b7308898894b",
+  "questionCount": 200,
+  "ids": null,
+  "outputDir": "/Users/castle/C盘/常用/以往实习梳理/华泰金创产品/衍生品知识库问答v2/output/eval_200_questions_rejudged_v4",
+  "counts": {
+    "正确": 195,
+    "错误": 2,
+    "部分正确": 2,
+    "无效回答": 1
+  }
+}
