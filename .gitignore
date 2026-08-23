@@ -16,6 +16,8 @@ __pycache__/
 .pytest_cache/
 .cache/
 .playwright-cli/
+data/backups/
+/output/
 .env
 .env.*
 !.env.example

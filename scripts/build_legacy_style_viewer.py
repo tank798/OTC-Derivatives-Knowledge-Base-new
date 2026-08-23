@@ -23,12 +23,12 @@ from knowledge_base.build_chunk_review_viewer import (  # noqa: E402
 )
 
 
-DEFAULT_TEMPLATE = ROOT / "更新的法规/场外衍生品法规知识库_20260727.html"
+DEFAULT_TEMPLATE = ROOT / "deliverables/场外衍生品法规知识库_20260727.html"
 DEFAULT_BASELINE = ROOT / "data/metadata/viewer_legacy_7d_baseline.json"
-DEFAULT_OUTPUT = ROOT / "更新的法规/场外衍生品法规知识库_20260727.html"
+DEFAULT_OUTPUT = ROOT / "deliverables/场外衍生品法规知识库_20260727.html"
 DEFAULT_CLASSIFICATIONS = ROOT / "data/metadata/viewer_legacy_7d_classifications.json"
 DEFAULT_EVIDENCE = ROOT / "data/metadata/viewer_legacy_7d_evidence.jsonl"
-DEFAULT_AUDIT = ROOT / "更新的法规/七维分类与正文合并审计_20260724.json"
+DEFAULT_AUDIT = ROOT / ".cache/viewer_build_audit.json"
 CLASSIFICATION_VERSION = "2026-07-24-legacy-seven-dimension-full-evidence-v1"
 VIEWER_DATA_PATTERN = re.compile(
     r'(<script\s+type="application/json"\s+id="viewer-data">).*?(</script>)',
@@ -441,6 +441,7 @@ def main() -> None:
             if row.get("evidence_level") == "B-正文适用范围综合判断"
         ],
     }
+    args.audit_output.parent.mkdir(parents=True, exist_ok=True)
     args.audit_output.write_text(
         json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

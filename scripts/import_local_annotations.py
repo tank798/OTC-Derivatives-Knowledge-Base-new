@@ -377,7 +377,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="提取Word/PDF批注并生成知识库个人工作区数据")
     parser.add_argument("--input", nargs="+", required=True, type=Path, help="DOC/DOCX/PDF文件或目录")
     parser.add_argument("--html", required=True, type=Path, help="知识库HTML")
-    parser.add_argument("--output", type=Path, default=Path("output/personal_annotations_import.json"), help="导入JSON")
+    parser.add_argument("--output", type=Path, default=Path(".cache/personal_annotations_import.json"), help="导入JSON")
     parser.add_argument("--embed", action="store_true", help="备份后把批注嵌入HTML")
     return parser.parse_args()
 

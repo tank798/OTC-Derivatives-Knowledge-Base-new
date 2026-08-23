@@ -5,11 +5,11 @@
  *
  * 运行模式：
  *   重新调用 API：
- *     node scripts/eval_200_questions.mjs --fresh --output-dir output/eval_200_questions_iter1
+ *     node scripts/eval_200_questions.mjs --fresh --output-dir evaluation/results/eval_200_questions_iter1
  *   只使用已有答案重判：
  *     node scripts/eval_200_questions.mjs --judge-only \
- *       --input output/eval_200_questions/02_system_answers.jsonl \
- *       --fresh --output-dir output/eval_200_questions_rejudged
+ *       --input evaluation/results/eval_200_questions/02_system_answers.jsonl \
+ *       --fresh --output-dir evaluation/results/eval_200_questions_rejudged
  *
  * 评测器把“回答生命周期/结构有效性”和“语义判定”分开记录，避免把未完成回答
  * 当成普通错误，也避免用全局否定词和字面数字匹配污染开放文本评测。
@@ -31,8 +31,8 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const PROJECT_ROOT = join(__dirname, "..");
-const DEFAULT_OUTPUT_DIR = join(PROJECT_ROOT, "output", "eval_200_questions");
-const DEFAULT_QUESTION_FILE = join(PROJECT_ROOT, "场外衍生品法规问答题库_200题_20260719.md");
+const DEFAULT_OUTPUT_DIR = join(PROJECT_ROOT, "evaluation", "results", "eval_200_questions");
+const DEFAULT_QUESTION_FILE = join(PROJECT_ROOT, "evaluation", "questions", "场外衍生品法规问答题库_200题_20260719.md");
 
 const API_BASE = process.env.API_BASE_URL || "http://127.0.0.1:4000/api";
 const QUERY_URL = `${API_BASE}/compliance/query`;

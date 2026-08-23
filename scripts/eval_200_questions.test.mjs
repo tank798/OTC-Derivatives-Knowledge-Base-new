@@ -19,7 +19,7 @@ const validAnswer = (conclusion, overrides = {}) => ({
 });
 
 test("题库完整解析为200题且题号唯一", () => {
-  const questions = parseQuestions("场外衍生品法规问答题库_200题_20260719.md");
+  const questions = parseQuestions("evaluation/questions/场外衍生品法规问答题库_200题_20260719.md");
   assert.equal(questions.length, 200);
   assert.equal(new Set(questions.map((question) => question.id)).size, 200);
 });

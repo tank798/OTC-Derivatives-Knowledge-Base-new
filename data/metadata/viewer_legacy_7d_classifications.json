@@ -1,91 +1,94 @@
 {
-  "classification_version": "2026-07-24-legacy-seven-dimension-full-evidence-v1",
+  "classification_version": "2026-07-26-official-definition-a-only-final",
   "dimensions": {
     "发文主体": [
-      "人民银行",
-      "人社部",
       "全国人大",
       "国务院",
-      "国务院国资委",
+      "证监会",
+      "人民银行",
       "国家金融监督管理总局",
-      "基金业协会",
       "外汇局",
-      "期货业协会",
-      "期货交易所",
+      "国务院国资委",
+      "财政部",
+      "人社部",
       "民政部",
       "证券业协会",
+      "基金业协会",
+      "期货业协会",
       "证券交易所",
-      "证监会",
-      "财政部",
-      "银行间市场机构"
+      "期货交易所",
+      "银行间市场机构",
+      "其他"
     ],
     "交易场所": [
-      "场内",
-      "场外"
+      "场外",
+      "场内"
     ],
     "标的及业务品种": [
-      "信用类",
-      "利率及债券类",
-      "可转债",
-      "商品类",
-      "外汇类",
       "权益类",
-      "综合业务",
-      "融资融券及证券出借"
+      "利率及债券类",
+      "信用类",
+      "外汇类",
+      "商品类",
+      "可转债",
+      "融资融券及证券出借",
+      "综合业务"
     ],
     "客户主体": [
-      "QFII/RQFII",
-      "上市公司",
-      "中央企业",
-      "事业单位",
-      "保险公司",
-      "保险资产管理公司",
-      "保险集团（控股）公司",
-      "信托公司",
-      "党政机关",
-      "养老金管理机构",
-      "商业银行",
-      "国有控股上市公司",
-      "地方国有企业",
-      "基金会",
-      "基金子公司",
-      "基金管理公司",
-      "境外交易者及境外经纪机构",
-      "境外企业",
-      "境外保险机构",
-      "境外券商",
-      "境外基金",
-      "境外银行",
-      "外资银行",
-      "慈善组织",
-      "政策性银行",
-      "期货公司",
-      "期货风险管理子公司",
-      "港澳机构",
-      "社保基金管理机构",
-      "社保经办机构",
-      "私募基金管理人",
-      "科研院所",
-      "红十字会",
       "证券公司",
       "证券公司资管子公司",
-      "银行理财子公司"
+      "基金管理公司",
+      "基金子公司",
+      "私募基金管理人",
+      "期货公司",
+      "期货风险管理子公司",
+      "商业银行",
+      "政策性银行",
+      "外资银行",
+      "银行理财子公司",
+      "保险集团（控股）公司",
+      "保险公司",
+      "保险资产管理公司",
+      "信托公司",
+      "养老金管理机构",
+      "普通非金融企业",
+      "上市公司",
+      "中央企业",
+      "地方国有企业",
+      "国有控股上市公司",
+      "党政机关",
+      "事业单位",
+      "科研院所",
+      "高等院校",
+      "社保基金管理机构",
+      "社保经办机构",
+      "基金会",
+      "慈善组织",
+      "红十字会",
+      "QFII/RQFII",
+      "境外银行",
+      "境外券商",
+      "境外基金",
+      "境外保险机构",
+      "境外企业",
+      "港澳机构",
+      "境外交易者及境外经纪机构"
     ],
     "资金来源": [
+      "自有资金",
       "保险资金",
       "国资及财政资金",
-      "慈善捐赠资金",
       "社保养老资金",
       "科研事业单位资金",
-      "自有资金",
+      "慈善捐赠资金",
       "跨境资金"
     ],
     "产品载体": [
-      "信托",
       "公募基金",
-      "理财",
       "私募基金",
-      "资管"
+      "资管",
+      "理财",
+      "信托"
     ],
     "涉及交易行为监管": [
       "市场交易行为",
@@ -111,12 +114,16 @@
       ],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：权益类；客户主体：上市公司",
-      "classification_evidence_count": 3
+      "classification_summary": "发文主体：证监会；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_b54b15f00f0faada76880ae4",
@@ -215,11 +222,9 @@
         "证监会"
       ],
       "trading_venues": [
-        "场外",
-        "场内"
+        "场外"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [
@@ -237,8 +242,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：利率及债券类、信用类；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 10
+      "classification_summary": "发文主体：证监会；交易场所：场外；标的及业务品种：信用类；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_aef55e350636fbf802c2a39c",
@@ -287,12 +292,15 @@
       ],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：权益类；客户主体：上市公司",
-      "classification_evidence_count": 3
+      "classification_summary": "发文主体：证监会；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_5697962363d8ed1e6bd764c8",
@@ -346,14 +354,13 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "风险控制措施"
+        "市场交易行为"
       ],
       "client_entity_groups": [
         "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 7
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_bd7a276ab8c52fc94397ba65",
@@ -370,8 +377,8 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "QFII/RQFII",
-        "证券公司"
+        "证券公司",
+        "QFII/RQFII"
       ],
       "funding_sources": [
         "跨境资金"
@@ -379,14 +386,14 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "证券基金类",
         "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：QFII/RQFII、证券公司；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_35cba9734488a53524a7b4d8",
@@ -404,6 +411,8 @@
         "综合业务"
       ],
       "client_entity_types": [
+        "证券公司",
+        "期货公司",
         "QFII/RQFII"
       ],
       "funding_sources": [
@@ -416,10 +425,12 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "证券基金类",
+        "期货类",
         "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、期货公司、QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_4122210a1a88d3c86534826e",
@@ -433,11 +444,11 @@
         "场内"
       ],
       "underlying_business_types": [
-        "权益类",
-        "可转债"
+        "权益类"
       ],
       "client_entity_types": [
-        "上市公司"
+        "上市公司",
+        "QFII/RQFII"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -445,9 +456,10 @@
         "市场交易行为"
       ],
       "client_entity_groups": [
-        "企业及国资类"
+        "企业及国资类",
+        "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司、QFII/RQFII；涉及交易行为监管：市场交易行为",
       "classification_evidence_count": 6
     },
     {
@@ -458,7 +470,10 @@
       "authority_groups": [
         "证监会"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
@@ -470,14 +485,13 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_74c713f19f84ec03fe1760b3",
@@ -528,8 +542,8 @@
         "可转债"
       ],
       "client_entity_types": [
-        "上市公司",
-        "证券公司"
+        "证券公司",
+        "上市公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -538,9 +552,10 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "证券基金类",
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司、证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：可转债；客户主体：证券公司、上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 7
     },
     {
@@ -560,14 +575,17 @@
       ],
       "client_entity_types": [
         "证券公司",
-        "基金管理公司"
+        "基金管理公司",
+        "商业银行",
+        "境外银行",
+        "境外券商",
+        "境外基金"
       ],
       "funding_sources": [
         "跨境资金"
       ],
       "product_vehicles": [
-        "公募基金",
-        "资管"
+        "公募基金"
       ],
       "conduct_categories": [
         "市场交易行为",
@@ -575,10 +593,12 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "证券基金类"
+        "证券基金类",
+        "银行类",
+        "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司；资金来源：跨境资金；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、商业银行、境外银行、境外券商、境外基金；资金来源：跨境资金；产品载体：公募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 15
     },
     {
       "document_id": "doc_03a45298dda4e37b3b433a46",
@@ -598,6 +618,8 @@
         "综合业务"
       ],
       "client_entity_types": [
+        "证券公司",
+        "期货公司",
         "QFII/RQFII"
       ],
       "funding_sources": [
@@ -606,14 +628,15 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
-        "风险控制措施"
+        "机构交易内控"
       ],
       "client_entity_groups": [
+        "证券基金类",
+        "期货类",
         "境外主体"
       ],
-      "classification_summary": "发文主体：证监会、人民银行、外汇局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：证监会、人民银行、外汇局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、期货公司、QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控",
+      "classification_evidence_count": 12
     },
     {
       "document_id": "doc_0ac36c1b85d83ba63d51c732",
@@ -631,20 +654,19 @@
         "基金管理公司",
         "基金子公司"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [
         "资管"
       ],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：基金管理公司、基金子公司；资金来源：自有资金；产品载体：资管；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：基金管理公司、基金子公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
     {
@@ -692,12 +714,10 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "境外交易者及境外经纪机构",
-        "期货公司"
+        "期货公司",
+        "境外交易者及境外经纪机构"
       ],
-      "funding_sources": [
-        "跨境资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
@@ -705,10 +725,11 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "期货类",
         "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：境外交易者及境外经纪机构、期货公司；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_2cde927e4459139e4a90cbe2",
@@ -724,7 +745,10 @@
       "underlying_business_types": [
         "综合业务"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
@@ -732,9 +756,12 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_4b308a168050340a3cb16412",
@@ -754,14 +781,15 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "期货类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：期货公司；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_45654725b6f6ed64446843d3",
@@ -775,9 +803,7 @@
         "场内"
       ],
       "underlying_business_types": [
-        "权益类",
-        "利率及债券类",
-        "商品类"
+        "综合业务"
       ],
       "client_entity_types": [
         "期货公司"
@@ -789,9 +815,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、利率及债券类、商品类；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_04b98a8f21b1d2f7ad960e63",
@@ -812,12 +840,16 @@
       "product_vehicles": [
         "私募基金"
       ],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_7dbac8d41bc526b8fcc38865",
@@ -890,15 +922,15 @@
         "证监会"
       ],
       "trading_venues": [
-        "场外",
-        "场内"
+        "场外"
       ],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
         "证券公司",
-        "期货公司"
+        "期货公司",
+        "上市公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -909,9 +941,10 @@
       ],
       "client_entity_groups": [
         "证券基金类",
-        "期货类"
+        "期货类",
+        "企业及国资类"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：证监会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、期货公司、上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 9
     },
     {
@@ -959,14 +992,15 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_dbb298ab7fabe184d3910e75",
@@ -986,14 +1020,15 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_2380b453034116cb9cf16ecc",
@@ -1016,9 +1051,7 @@
       "funding_sources": [
         "自有资金"
       ],
-      "product_vehicles": [
-        "资管"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
@@ -1027,8 +1060,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、利率及债券类；客户主体：证券公司；资金来源：自有资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 10
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类、利率及债券类；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
     },
     {
       "document_id": "doc_b29a0156720c2762fd169c3a",
@@ -1105,13 +1138,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_4f5b131ecd2fea445e0d0af9",
@@ -1134,10 +1168,7 @@
       "funding_sources": [
         "跨境资金"
       ],
-      "product_vehicles": [
-        "公募基金",
-        "资管"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
@@ -1146,8 +1177,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、基金管理公司；资金来源：跨境资金；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、基金管理公司；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
     },
     {
       "document_id": "doc_2edf7416385b49a3ef73883b",
@@ -1167,8 +1198,6 @@
         "证券公司",
         "基金管理公司",
         "私募基金管理人",
-        "保险公司",
-        "保险资产管理公司",
         "QFII/RQFII"
       ],
       "funding_sources": [],
@@ -1178,9 +1207,12 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、保险公司、保险资产管理公司、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "client_entity_groups": [
+        "证券基金类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_c110119e5c9a3ca83724365e",
@@ -1228,21 +1260,36 @@
       ],
       "client_entity_types": [
         "证券公司",
+        "证券公司资管子公司",
         "基金管理公司",
+        "基金子公司",
         "私募基金管理人",
-        "期货公司"
+        "期货公司",
+        "期货风险管理子公司",
+        "商业银行",
+        "保险公司",
+        "信托公司",
+        "养老金管理机构",
+        "社保基金管理机构",
+        "QFII/RQFII"
       ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类",
-        "期货类"
+        "期货类",
+        "银行类",
+        "保险信托类",
+        "公共科研及社会组织",
+        "境外主体"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、期货公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 7
+      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、私募基金管理人、期货公司、期货风险管理子公司、商业银行、保险公司、信托公司、养老金管理机构、社保基金管理机构、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 18
     },
     {
       "document_id": "doc_63d6ff37a0e6499a9ba568c8",
@@ -1261,13 +1308,12 @@
       "client_entity_types": [
         "证券公司",
         "基金管理公司",
-        "期货公司"
+        "基金子公司",
+        "期货公司",
+        "期货风险管理子公司"
       ],
       "funding_sources": [],
-      "product_vehicles": [
-        "公募基金",
-        "资管"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
@@ -1277,7 +1323,7 @@
         "证券基金类",
         "期货类"
       ],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、基金管理公司、期货公司；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、基金管理公司、基金子公司、期货公司、期货风险管理子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 11
     },
     {
@@ -1288,13 +1334,18 @@
       "authority_groups": [
         "证监会"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
         "证券公司",
+        "证券公司资管子公司",
         "基金管理公司",
+        "基金子公司",
         "期货公司"
       ],
       "funding_sources": [],
@@ -1310,8 +1361,8 @@
         "证券基金类",
         "期货类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 13
     },
     {
       "document_id": "doc_c48bf38da25f51a613b261b8",
@@ -1321,13 +1372,18 @@
       "authority_groups": [
         "证监会"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
         "证券公司",
+        "证券公司资管子公司",
         "基金管理公司",
+        "基金子公司",
         "期货公司"
       ],
       "funding_sources": [],
@@ -1343,8 +1399,8 @@
         "证券基金类",
         "期货类"
       ],
-      "classification_summary": "发文主体：证监会；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：证监会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 13
     },
     {
       "document_id": "doc_08156f8651f6f056a0f729e3",
@@ -1363,18 +1419,18 @@
       "client_entity_types": [
         "证券公司"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证监会；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_4c9c17c2cbd511c81d89a20f",
@@ -1424,14 +1480,15 @@
         "私募基金"
       ],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_e2c5c313dcec6a22c1d431f7",
@@ -1441,19 +1498,14 @@
       "authority_groups": [
         "基金业协会"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
         "私募基金管理人"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [
         "私募基金"
       ],
@@ -1465,8 +1517,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：基金业协会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：私募基金管理人；资金来源：自有资金；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 10
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：私募基金管理人；产品载体：私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_951c7d3b2fbdc5570069c2a8",
@@ -1476,12 +1528,8 @@
       "authority_groups": [
         "基金业协会"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [
@@ -1489,15 +1537,16 @@
       ],
       "funding_sources": [],
       "product_vehicles": [
-        "公募基金",
-        "私募基金"
+        "公募基金"
       ],
       "conduct_categories": [
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：基金业协会；交易场所：场外、场内；标的及业务品种：利率及债券类、信用类；客户主体：基金管理公司；产品载体：公募基金、私募基金；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 9
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：信用类；客户主体：基金管理公司；产品载体：公募基金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_48fcdc30f89e0b38cc0bc821",
@@ -1518,9 +1567,7 @@
         "基金子公司",
         "期货公司"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [
         "资管"
       ],
@@ -1533,8 +1580,8 @@
         "证券基金类",
         "期货类"
       ],
-      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司；资金来源：自有资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "classification_summary": "发文主体：基金业协会；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_01caf159025c8afcb451c514",
@@ -1555,10 +1602,13 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
       "client_entity_groups": [],
-      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：商品类",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：商品类；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_4da41553856c16155149f89d",
@@ -1579,10 +1629,12 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "风险控制措施"
+      ],
       "client_entity_groups": [],
-      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：权益类",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：权益类；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_d875c3ce729703dba2da25c7",
@@ -1603,10 +1655,13 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
       "client_entity_groups": [],
-      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：综合业务",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证券业协会、基金业协会、期货业协会；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_49fa45af6688c0561b4c6292",
@@ -1617,7 +1672,7 @@
         "证券业协会"
       ],
       "trading_venues": [
-        "场内"
+        "场外"
       ],
       "underlying_business_types": [
         "信用类"
@@ -1625,10 +1680,13 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [],
-      "classification_summary": "发文主体：证券业协会；交易场所：场内；标的及业务品种：信用类",
-      "classification_evidence_count": 3
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：信用类；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_c690621bbbf5d83d3ea90053",
@@ -1679,8 +1737,8 @@
       "client_entity_types": [
         "证券公司",
         "基金管理公司",
-        "期货公司",
-        "私募基金管理人"
+        "私募基金管理人",
+        "期货公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -1690,9 +1748,10 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "证券基金类"
+        "证券基金类",
+        "期货类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司、私募基金管理人；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 10
     },
     {
@@ -1715,22 +1774,20 @@
         "证券公司资管子公司",
         "基金管理公司",
         "基金子公司",
-        "期货公司",
-        "私募基金管理人"
+        "私募基金管理人",
+        "期货公司"
       ],
       "funding_sources": [],
-      "product_vehicles": [
-        "私募基金",
-        "资管"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "证券基金类"
+        "证券基金类",
+        "期货类"
       ],
-      "classification_summary": "发文主体：证券业协会、基金业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、期货公司、私募基金管理人；产品载体：私募基金、资管；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 13
+      "classification_summary": "发文主体：证券业协会、基金业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、私募基金管理人、期货公司；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_78c5de3256453d7c0fbcaa00",
@@ -1750,13 +1807,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_eed3472cb61f7ba0ab26e865",
@@ -1830,13 +1888,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_0fa9125a6f4154172eb568aa",
@@ -1914,15 +1973,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_9a71e08de254cc3eb23edddf",
@@ -1936,8 +1994,7 @@
         "场外"
       ],
       "underlying_business_types": [
-        "权益类",
-        "商品类"
+        "综合业务"
       ],
       "client_entity_types": [
         "证券公司"
@@ -1945,12 +2002,13 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：权益类、商品类；客户主体：证券公司；涉及交易行为监管：风险控制措施",
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 6
     },
     {
@@ -1965,8 +2023,7 @@
         "场外"
       ],
       "underlying_business_types": [
-        "权益类",
-        "商品类"
+        "综合业务"
       ],
       "client_entity_types": [
         "证券公司"
@@ -1981,14 +2038,41 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：权益类、商品类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_8ca6804940739b6fa8b8ca2f",
       "document_title": "证券公司投资者权益保护工作规范",
       "issuing_authority": "中国证券业协会",
       "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69855.html",
+      "authority_groups": [
+        "证券业协会"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "证券公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
+    },
+    {
+      "document_id": "doc_2122b7a4277ff85118abcb3c",
+      "document_title": "证券公司操作风险管理指引",
+      "issuing_authority": "中国证券业协会",
+      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69923.html",
       "authority_groups": [
         "证券业协会"
       ],
@@ -2013,33 +2097,6 @@
       "classification_evidence_count": 6
     },
     {
-      "document_id": "doc_2122b7a4277ff85118abcb3c",
-      "document_title": "证券公司操作风险管理指引",
-      "issuing_authority": "中国证券业协会",
-      "official_url": "https://www.sac.net.cn/zlgl/zlgz/202512/t20251231_69923.html",
-      "authority_groups": [
-        "证券业协会"
-      ],
-      "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
-      "client_entity_types": [
-        "证券公司"
-      ],
-      "funding_sources": [],
-      "product_vehicles": [],
-      "conduct_categories": [
-        "机构交易内控",
-        "风险控制措施"
-      ],
-      "client_entity_groups": [
-        "证券基金类"
-      ],
-      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 5
-    },
-    {
       "document_id": "doc_71c8a7bd5b609890bc4091d7",
       "document_title": "证券公司收益互换业务管理办法",
       "issuing_authority": "中国证券业协会",
@@ -2051,8 +2108,7 @@
         "场外"
       ],
       "underlying_business_types": [
-        "权益类",
-        "商品类"
+        "综合业务"
       ],
       "client_entity_types": [
         "证券公司"
@@ -2067,8 +2123,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：权益类、商品类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_f60b42e2431ae1999420af72",
@@ -2090,13 +2146,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_5db4b17db4de67a2557829de",
@@ -2117,12 +2174,15 @@
       ],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_fa22ddd421c758426eb71d33",
@@ -2201,9 +2261,7 @@
       "client_entity_types": [
         "证券公司"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
@@ -2213,8 +2271,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "classification_summary": "发文主体：证券业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_7e1ec4e268f69b6a9c129a2a",
@@ -2234,13 +2292,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_892e2bccbae5ed8f55a12e90",
@@ -2291,17 +2350,10 @@
         "证券公司",
         "证券公司资管子公司",
         "基金管理公司",
-        "基金子公司",
-        "保险资产管理公司",
-        "私募基金管理人"
+        "基金子公司"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
-      "product_vehicles": [
-        "公募基金",
-        "资管"
-      ],
+      "funding_sources": [],
+      "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
@@ -2310,8 +2362,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会、基金业协会；交易场所：场外、场内；标的及业务品种：利率及债券类；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司、保险资产管理公司、私募基金管理人；资金来源：自有资金；产品载体：公募基金、资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 17
+      "classification_summary": "发文主体：证券业协会、基金业协会；交易场所：场外、场内；标的及业务品种：利率及债券类；客户主体：证券公司、证券公司资管子公司、基金管理公司、基金子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 12
     },
     {
       "document_id": "doc_7432736945daebc9d418106b",
@@ -2326,18 +2378,21 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "证券公司"
+        "证券公司",
+        "证券公司资管子公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证券业协会；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_9fdab235b6fbe935b82ba694",
@@ -2351,7 +2406,6 @@
         "场内"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [
@@ -2364,9 +2418,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_578fbc34454f5fa2d8e74568",
@@ -2382,16 +2438,22 @@
       "underlying_business_types": [
         "权益类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 5
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_e52ac4a6612915d063e678d8",
@@ -2417,7 +2479,10 @@
         "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
       "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 7
     },
@@ -2441,14 +2506,13 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "风险控制措施"
+        "市场交易行为"
       ],
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_e75f8f03ef17284cb5b2321d",
@@ -2486,9 +2550,11 @@
       "authority_groups": [
         "证券交易所"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场内"
+      ],
       "underlying_business_types": [
-        "综合业务"
+        "权益类"
       ],
       "client_entity_types": [
         "上市公司"
@@ -2503,8 +2569,8 @@
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证券交易所；标的及业务品种：综合业务；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_654541a6709ff5a940f8edc2",
@@ -2527,12 +2593,13 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_72274037b208eb81b6e0eaca",
@@ -2546,7 +2613,6 @@
         "场内"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [
@@ -2559,9 +2625,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_695b15ccb85203c74991a2b8",
@@ -2578,7 +2646,7 @@
         "可转债"
       ],
       "client_entity_types": [
-        "上市公司"
+        "证券公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -2587,9 +2655,9 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "企业及国资类"
+        "证券基金类"
       ],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 6
     },
     {
@@ -2674,8 +2742,6 @@
         "证券公司",
         "基金管理公司",
         "私募基金管理人",
-        "保险公司",
-        "保险资产管理公司",
         "QFII/RQFII"
       ],
       "funding_sources": [],
@@ -2685,9 +2751,12 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、保险公司、保险资产管理公司、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "client_entity_groups": [
+        "证券基金类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_2392a7d24473c4d7c1cad449",
@@ -2714,7 +2783,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
       "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -2732,18 +2804,20 @@
       "underlying_business_types": [
         "权益类"
       ],
-      "client_entity_types": [],
-      "funding_sources": [
-        "自有资金"
+      "client_entity_types": [
+        "证券公司"
       ],
+      "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 7
     },
     {
@@ -2767,11 +2841,16 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 6
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_b22b9bc95504257da61030a0",
@@ -2794,11 +2873,14 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 6
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_118c809698d6296cd6f80188",
@@ -2815,8 +2897,6 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "证券公司",
-        "期货公司",
         "QFII/RQFII"
       ],
       "funding_sources": [
@@ -2824,15 +2904,13 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "机构交易内控",
-        "风险控制措施"
+        "市场交易行为"
       ],
       "client_entity_groups": [
         "境外主体"
       ],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、期货公司、QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 10
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_0dfd4bf3228c59db6404e766",
@@ -2910,15 +2988,20 @@
       "underlying_business_types": [
         "可转债"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "证券公司"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：证券公司；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_950c9084bac0433616b34ff9",
@@ -2934,15 +3017,20 @@
       "underlying_business_types": [
         "权益类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "证券公司"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_5efa7f65d33c3f6da249f4fd",
@@ -2958,15 +3046,21 @@
       "underlying_business_types": [
         "可转债"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "证券公司"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_2a2d2c6d09a73b3d38962ec6",
@@ -2980,7 +3074,6 @@
         "场内"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [
@@ -2993,9 +3086,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_6f2ad6aa7e5a168602a7966e",
@@ -3011,16 +3106,22 @@
       "underlying_business_types": [
         "权益类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "证券公司",
+        "期货公司"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 5
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_4f3cae525cbb948e416bc286",
@@ -3046,7 +3147,10 @@
         "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
       "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 7
     },
@@ -3070,14 +3174,13 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "风险控制措施"
+        "市场交易行为"
       ],
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_1ea2f014f7b11f3f97bea499",
@@ -3115,9 +3218,11 @@
       "authority_groups": [
         "证券交易所"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场内"
+      ],
       "underlying_business_types": [
-        "综合业务"
+        "权益类"
       ],
       "client_entity_types": [
         "上市公司"
@@ -3132,8 +3237,8 @@
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：证券交易所；标的及业务品种：综合业务；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：上市公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_89581f1759111e6b9893dad4",
@@ -3156,12 +3261,13 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_680262c6f4d4ce0f2c04ae15",
@@ -3175,7 +3281,6 @@
         "场内"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [
@@ -3188,9 +3293,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：利率及债券类、信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：信用类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_2b570c4bfc1b76962b89c73c",
@@ -3207,7 +3314,7 @@
         "可转债"
       ],
       "client_entity_types": [
-        "上市公司"
+        "证券公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -3216,9 +3323,9 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "企业及国资类"
+        "证券基金类"
       ],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：上市公司；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：可转债；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 6
     },
     {
@@ -3273,8 +3380,6 @@
         "证券公司",
         "基金管理公司",
         "私募基金管理人",
-        "保险公司",
-        "保险资产管理公司",
         "QFII/RQFII"
       ],
       "funding_sources": [],
@@ -3284,9 +3389,12 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、保险公司、保险资产管理公司、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "client_entity_groups": [
+        "证券基金类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、QFII/RQFII；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_ab8389cf77ed6121cd67684d",
@@ -3313,7 +3421,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
       "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -3331,7 +3442,9 @@
       "underlying_business_types": [
         "权益类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "证券公司"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
@@ -3339,9 +3452,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_5100520baad8de14717e4783",
@@ -3361,11 +3476,12 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
       "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_ae3d0612564aaa75db43c924",
@@ -3388,11 +3504,16 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 6
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：权益类；客户主体：证券公司、期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_882ebb027943f57fe0e8cc87",
@@ -3507,11 +3628,14 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 6
+      "client_entity_groups": [
+        "证券基金类"
+      ],
+      "classification_summary": "发文主体：证券交易所；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_95fc509ebe9d15191d951374",
@@ -3555,15 +3679,12 @@
         "场内"
       ],
       "underlying_business_types": [
-        "商品类",
         "综合业务"
       ],
       "client_entity_types": [
         "期货风险管理子公司"
       ],
-      "funding_sources": [
-        "自有资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
@@ -3573,8 +3694,8 @@
       "client_entity_groups": [
         "期货类"
       ],
-      "classification_summary": "发文主体：期货业协会；交易场所：场外、场内；标的及业务品种：商品类、综合业务；客户主体：期货风险管理子公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 10
+      "classification_summary": "发文主体：期货业协会；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：期货风险管理子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_c80eb846f2b4136a339dae92",
@@ -3648,8 +3769,6 @@
         "场外"
       ],
       "underlying_business_types": [
-        "权益类",
-        "商品类",
         "综合业务"
       ],
       "client_entity_types": [
@@ -3665,8 +3784,8 @@
       "client_entity_groups": [
         "期货类"
       ],
-      "classification_summary": "发文主体：期货业协会；交易场所：场外；标的及业务品种：权益类、商品类、综合业务；客户主体：期货风险管理子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：期货业协会；交易场所：场外；标的及业务品种：综合业务；客户主体：期货风险管理子公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_ba359ace9d11555575573d2a",
@@ -3703,17 +3822,16 @@
       "authority_groups": [
         "国家金融监督管理总局"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
         "保险资产管理公司"
       ],
-      "funding_sources": [],
+      "funding_sources": [
+        "保险资金"
+      ],
       "product_vehicles": [
         "资管"
       ],
@@ -3725,8 +3843,8 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险资产管理公司；资金来源：保险资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_79fb0b065c02273eb3ef259f",
@@ -3743,7 +3861,9 @@
       "client_entity_types": [
         "保险资产管理公司"
       ],
-      "funding_sources": [],
+      "funding_sources": [
+        "保险资金"
+      ],
       "product_vehicles": [
         "资管"
       ],
@@ -3755,8 +3875,8 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险资产管理公司；资金来源：保险资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_2f5de73d54346c4bffde8559",
@@ -3809,6 +3929,8 @@
         "综合业务"
       ],
       "client_entity_types": [
+        "商业银行",
+        "外资银行",
         "保险集团（控股）公司",
         "保险公司",
         "保险资产管理公司"
@@ -3824,10 +3946,11 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "银行类",
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行、外资银行、保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 14
     },
     {
       "document_id": "doc_853e21294b2987cf0b01e70b",
@@ -3845,9 +3968,12 @@
         "综合业务"
       ],
       "client_entity_types": [
+        "商业银行",
+        "外资银行",
         "保险集团（控股）公司",
         "保险公司",
-        "保险资产管理公司"
+        "保险资产管理公司",
+        "境外券商"
       ],
       "funding_sources": [
         "保险资金",
@@ -3860,10 +3986,12 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "保险信托类"
+        "银行类",
+        "保险信托类",
+        "境外主体"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行、外资银行、保险集团（控股）公司、保险公司、保险资产管理公司、境外券商；资金来源：保险资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 15
     },
     {
       "document_id": "doc_2c2326a1f82869e71e84b120",
@@ -3873,7 +4001,10 @@
       "authority_groups": [
         "国家金融监督管理总局"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
@@ -3894,8 +4025,8 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_dc97027e4a7b165e30af7374",
@@ -3935,8 +4066,8 @@
       "issuing_authority": "中国银行业监督管理委员会、国家外汇管理局",
       "official_url": "https://m.safe.gov.cn/safe/2007/0314/5570.html",
       "authority_groups": [
-        "外汇局",
-        "国家金融监督管理总局"
+        "国家金融监督管理总局",
+        "外汇局"
       ],
       "trading_venues": [
         "场外",
@@ -3963,7 +4094,7 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：外汇局、国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：信托公司；资金来源：跨境资金；产品载体：理财、信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：国家金融监督管理总局、外汇局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：信托公司；资金来源：跨境资金；产品载体：理财、信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 12
     },
     {
@@ -3971,37 +4102,6 @@
       "document_title": "信托公司管理办法(2025年9月修订)",
       "issuing_authority": "国家金融监督管理总局",
       "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=6541c4cd26a54101bbdd5cb41283d7e7&body=",
-      "authority_groups": [
-        "国家金融监督管理总局"
-      ],
-      "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
-      "client_entity_types": [
-        "信托公司"
-      ],
-      "funding_sources": [
-        "自有资金"
-      ],
-      "product_vehicles": [
-        "信托"
-      ],
-      "conduct_categories": [
-        "机构交易内控",
-        "风险控制措施"
-      ],
-      "client_entity_groups": [
-        "保险信托类"
-      ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司；资金来源：自有资金；产品载体：信托；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
-    },
-    {
-      "document_id": "doc_b5ec5bdea297b0534d51aeb3",
-      "document_title": "信托公司集合资金信托计划管理办法（2009年修订）",
-      "issuing_authority": "国家金融监督管理总局",
-      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1025228",
       "authority_groups": [
         "国家金融监督管理总局"
       ],
@@ -4028,6 +4128,35 @@
       "classification_evidence_count": 7
     },
     {
+      "document_id": "doc_b5ec5bdea297b0534d51aeb3",
+      "document_title": "信托公司集合资金信托计划管理办法（2009年修订）",
+      "issuing_authority": "国家金融监督管理总局",
+      "official_url": "https://www.nfra.gov.cn/cn/view/pages/rulesDetail.html?docId=1025228",
+      "authority_groups": [
+        "国家金融监督管理总局"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [
+        "综合业务"
+      ],
+      "client_entity_types": [
+        "信托公司"
+      ],
+      "funding_sources": [],
+      "product_vehicles": [
+        "信托"
+      ],
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
+      ],
+      "client_entity_groups": [
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司；产品载体：信托；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
+    },
+    {
       "document_id": "doc_a2d476bde2c02372600625bc",
       "document_title": "关于保险资金参与证券出借业务有关事项的通知",
       "issuing_authority": "国家金融监督管理总局",
@@ -4036,7 +4165,6 @@
         "国家金融监督管理总局"
       ],
       "trading_venues": [
-        "场外",
         "场内"
       ],
       "underlying_business_types": [
@@ -4059,8 +4187,8 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：融资融券及证券出借；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场内；标的及业务品种：融资融券及证券出借；客户主体：保险集团（控股）公司、保险公司、保险资产管理公司；资金来源：保险资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_61ebc53ad86df9c06840e536",
@@ -4106,19 +4234,21 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "商业银行"
+        "商业银行",
+        "外资银行"
       ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：商业银行；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_79e1332075b1bdab3cf69a93",
@@ -4133,19 +4263,19 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "商业银行",
-        "外资银行"
+        "商业银行"
       ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 6
     },
     {
@@ -4162,6 +4292,7 @@
       ],
       "client_entity_types": [
         "商业银行",
+        "政策性银行",
         "外资银行"
       ],
       "funding_sources": [],
@@ -4173,8 +4304,8 @@
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_cbb8fea1d402a7ed711cfa2c",
@@ -4189,23 +4320,20 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "商业银行",
-        "外资银行"
+        "商业银行"
       ],
-      "funding_sources": [
-        "保险资金",
-        "社保养老资金"
-      ],
+      "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；资金来源：保险资金、社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_b49f89a86d230228391a766a",
@@ -4226,14 +4354,15 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_b44a9d61a3b595c4675ed29b",
@@ -4276,14 +4405,12 @@
       "authority_groups": [
         "国家金融监督管理总局"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
+        "商业银行",
         "银行理财子公司"
       ],
       "funding_sources": [],
@@ -4298,8 +4425,8 @@
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、银行理财子公司；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_6cd311d0b37985b0fd973a2e",
@@ -4320,13 +4447,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、外资银行；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_d41b32c2d10a124874973ca8",
@@ -4348,14 +4476,15 @@
         "理财"
       ],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_c800fa4417cfe6118ee9c4eb",
@@ -4377,14 +4506,15 @@
         "理财"
       ],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：银行理财子公司；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_9b7d2237295b4f25c6c77fbf",
@@ -4394,17 +4524,16 @@
       "authority_groups": [
         "国家金融监督管理总局"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
         "保险资产管理公司"
       ],
-      "funding_sources": [],
+      "funding_sources": [
+        "保险资金"
+      ],
       "product_vehicles": [
         "资管"
       ],
@@ -4416,8 +4545,8 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：保险资产管理公司；资金来源：保险资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_7892b83235d8ee5695cb306e",
@@ -4432,23 +4561,29 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "政策性银行",
         "商业银行",
+        "政策性银行",
         "外资银行",
         "银行理财子公司",
-        "信托公司",
         "保险集团（控股）公司",
         "保险公司",
-        "保险资产管理公司"
+        "保险资产管理公司",
+        "信托公司",
+        "养老金管理机构"
       ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：政策性银行、商业银行、外资银行、银行理财子公司、信托公司、保险集团（控股）公司、保险公司、保险资产管理公司；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 11
+      "client_entity_groups": [
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、外资银行、银行理财子公司、保险集团（控股）公司、保险公司、保险资产管理公司、信托公司、养老金管理机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 14
     },
     {
       "document_id": "doc_0be504993eb89c2d2aced80a",
@@ -4465,25 +4600,27 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "政策性银行",
         "商业银行",
+        "政策性银行",
         "外资银行",
         "银行理财子公司",
         "保险集团（控股）公司",
         "保险公司",
-        "保险资产管理公司"
+        "保险资产管理公司",
+        "养老金管理机构"
       ],
       "funding_sources": [],
-      "product_vehicles": [
-        "资管"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：政策性银行、商业银行、外资银行、银行理财子公司、保险集团（控股）公司、保险公司、保险资产管理公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "client_entity_groups": [
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、外资银行、银行理财子公司、保险集团（控股）公司、保险公司、保险资产管理公司、养老金管理机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 14
     },
     {
@@ -4495,8 +4632,7 @@
         "国家金融监督管理总局"
       ],
       "trading_venues": [
-        "场外",
-        "场内"
+        "场外"
       ],
       "underlying_business_types": [
         "综合业务"
@@ -4510,9 +4646,7 @@
       "funding_sources": [
         "自有资金"
       ],
-      "product_vehicles": [
-        "理财"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
         "机构交易内控",
@@ -4522,8 +4656,8 @@
         "银行类",
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、外资银行、信托公司；资金来源：自有资金；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 13
+      "classification_summary": "发文主体：国家金融监督管理总局；交易场所：场外；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、外资银行、信托公司；资金来源：自有资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_3946a43c2fe617a502ba389b",
@@ -4538,13 +4672,12 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "政策性银行",
         "商业银行",
-        "外资银行",
-        "信托公司",
+        "政策性银行",
         "保险集团（控股）公司",
         "保险公司",
-        "保险资产管理公司"
+        "保险资产管理公司",
+        "信托公司"
       ],
       "funding_sources": [],
       "product_vehicles": [],
@@ -4557,8 +4690,8 @@
         "银行类",
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：政策性银行、商业银行、外资银行、信托公司、保险集团（控股）公司、保险公司、保险资产管理公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 12
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、政策性银行、保险集团（控股）公司、保险公司、保险资产管理公司、信托公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_e5c531c00cf9ec0299e7996f",
@@ -4573,23 +4706,27 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "信托公司",
+        "商业银行",
         "银行理财子公司",
-        "保险资产管理公司"
+        "保险资产管理公司",
+        "信托公司"
       ],
       "funding_sources": [],
       "product_vehicles": [
-        "信托",
+        "资管",
         "理财",
-        "资管"
+        "信托"
       ],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [
         "银行类",
         "保险信托类"
       ],
-      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司、银行理财子公司、保险资产管理公司；产品载体：信托、理财、资管",
-      "classification_evidence_count": 8
+      "classification_summary": "发文主体：国家金融监督管理总局；标的及业务品种：综合业务；客户主体：商业银行、银行理财子公司、保险资产管理公司、信托公司；产品载体：资管、理财、信托；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_6a87f96c90352834c9c9ee68",
@@ -4611,9 +4748,7 @@
       "conduct_categories": [
         "市场交易行为"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
+      "client_entity_groups": [],
       "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为",
       "classification_evidence_count": 4
     },
@@ -4625,14 +4760,12 @@
       "authority_groups": [
         "国务院国资委"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
         "权益类"
       ],
       "client_entity_types": [
+        "上市公司",
         "中央企业",
         "地方国有企业",
         "国有控股上市公司"
@@ -4649,8 +4782,8 @@
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：国务院国资委；交易场所：场外、场内；标的及业务品种：权益类；客户主体：中央企业、地方国有企业、国有控股上市公司；资金来源：国资及财政资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：国务院国资委；标的及业务品种：权益类；客户主体：上市公司、中央企业、地方国有企业、国有控股上市公司；资金来源：国资及财政资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_039bb5266f73f30c563d8dfc",
@@ -4674,12 +4807,14 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_e0fa0711cb6a8bc4dc671391",
@@ -4706,7 +4841,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -4734,7 +4872,10 @@
         "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 7
     },
@@ -4760,12 +4901,14 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_03aca9b2e1f6c43d64d55d1a",
@@ -4792,7 +4935,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -4805,9 +4951,7 @@
         "全国人大"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "中央企业",
         "地方国有企业"
@@ -4816,12 +4960,15 @@
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：中央企业、地方国有企业；资金来源：国资及财政资金",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：全国人大；客户主体：中央企业、地方国有企业；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_4c4d0ae60d25a22f526b9e74",
@@ -4832,38 +4979,12 @@
         "全国人大"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
+        "党政机关",
+        "事业单位",
+        "科研院所",
         "基金会",
-        "慈善组织",
-        "红十字会"
-      ],
-      "funding_sources": [
-        "慈善捐赠资金"
-      ],
-      "product_vehicles": [],
-      "conduct_categories": [],
-      "client_entity_groups": [
-        "公共科研及社会组织"
-      ],
-      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：基金会、慈善组织、红十字会；资金来源：慈善捐赠资金",
-      "classification_evidence_count": 6
-    },
-    {
-      "document_id": "doc_3aca14f5029ef7a122529211",
-      "document_title": "中华人民共和国慈善法（2023年修正）",
-      "issuing_authority": "全国人民代表大会常务委员会",
-      "official_url": "https://www.mca.gov.cn/n2623/n2687/n2696/n2744/c1662004999979998115/content.html",
-      "authority_groups": [
-        "全国人大"
-      ],
-      "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
-      "client_entity_types": [
         "慈善组织"
       ],
       "funding_sources": [
@@ -4874,8 +4995,35 @@
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：慈善组织；资金来源：慈善捐赠资金",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：全国人大；客户主体：党政机关、事业单位、科研院所、基金会、慈善组织；资金来源：慈善捐赠资金",
+      "classification_evidence_count": 7
+    },
+    {
+      "document_id": "doc_3aca14f5029ef7a122529211",
+      "document_title": "中华人民共和国慈善法（2023年修正）",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "official_url": "https://www.mca.gov.cn/n2623/n2687/n2696/n2744/c1662004999979998115/content.html",
+      "authority_groups": [
+        "全国人大"
+      ],
+      "trading_venues": [],
+      "underlying_business_types": [],
+      "client_entity_types": [
+        "基金会",
+        "慈善组织"
+      ],
+      "funding_sources": [
+        "慈善捐赠资金"
+      ],
+      "product_vehicles": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
+      "client_entity_groups": [
+        "公共科研及社会组织"
+      ],
+      "classification_summary": "发文主体：全国人大；客户主体：基金会、慈善组织；资金来源：慈善捐赠资金；涉及交易行为监管：机构交易内控",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_9fa2a0c832c7b6505a74d692",
@@ -4892,7 +5040,10 @@
       "underlying_business_types": [
         "综合业务"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "期货公司",
+        "境外交易者及境外经纪机构"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
@@ -4900,9 +5051,12 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：全国人大；交易场所：场外、场内；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：全国人大；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 9
     },
     {
       "document_id": "doc_495951c72c76afd8375f59d3",
@@ -4913,9 +5067,7 @@
         "全国人大"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "红十字会"
       ],
@@ -4927,8 +5079,8 @@
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：红十字会；资金来源：慈善捐赠资金",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：全国人大；客户主体：红十字会；资金来源：慈善捐赠资金",
+      "classification_evidence_count": 3
     },
     {
       "document_id": "doc_0c2ba098d2a564fe1e7d3c2e",
@@ -4944,7 +5096,8 @@
       ],
       "client_entity_types": [
         "基金管理公司",
-        "私募基金管理人"
+        "私募基金管理人",
+        "商业银行"
       ],
       "funding_sources": [],
       "product_vehicles": [
@@ -4957,10 +5110,11 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "证券基金类"
+        "证券基金类",
+        "银行类"
       ],
-      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：基金管理公司、私募基金管理人；产品载体：公募基金、私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 9
+      "classification_summary": "发文主体：全国人大；标的及业务品种：综合业务；客户主体：基金管理公司、私募基金管理人、商业银行；产品载体：公募基金、私募基金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_c4fca172634cc59106f2bfc6",
@@ -5006,16 +5160,19 @@
         "场外"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "市场交易行为",
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类、信用类",
-      "classification_evidence_count": 4
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：信用类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_1058730c3e69c1db99edd6a8",
@@ -5029,8 +5186,7 @@
         "场内"
       ],
       "underlying_business_types": [
-        "权益类",
-        "利率及债券类"
+        "综合业务"
       ],
       "client_entity_types": [
         "期货公司"
@@ -5042,9 +5198,11 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：权益类、利率及债券类；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "期货类"
+      ],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：综合业务；客户主体：期货公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_d6958eb9b47a1e2db646abd2",
@@ -5063,12 +5221,12 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
-      "client_entity_groups": [
-        "银行类"
+      "conduct_categories": [
+        "风险控制措施"
       ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类",
-      "classification_evidence_count": 3
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 4
     },
     {
       "document_id": "doc_63e7a9402494a3983e4c4806",
@@ -5088,13 +5246,12 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_75c1cb9b707848f58b2a91d4",
@@ -5113,12 +5270,13 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
-      "client_entity_groups": [
-        "银行类"
+      "conduct_categories": [
+        "市场交易行为",
+        "风险控制措施"
       ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务",
-      "classification_evidence_count": 3
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_e7726e8fe4e3b29976a70af0",
@@ -5134,26 +5292,18 @@
       "underlying_business_types": [
         "综合业务"
       ],
-      "client_entity_types": [
-        "境外银行",
-        "境外券商",
-        "境外基金",
-        "境外保险机构",
-        "境外企业"
-      ],
+      "client_entity_types": [],
       "funding_sources": [
         "跨境资金"
       ],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类",
-        "境外主体"
-      ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；客户主体：境外银行、境外券商、境外基金、境外保险机构、境外企业；资金来源：跨境资金；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 10
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；资金来源：跨境资金；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_b0158a0b05d79db1aedaca73",
@@ -5173,13 +5323,12 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：综合业务；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_4da84c1abfcfe2d8fb98cd0a",
@@ -5190,9 +5339,7 @@
         "国务院国资委"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "中央企业"
       ],
@@ -5208,8 +5355,8 @@
       "client_entity_groups": [
         "企业及国资类"
       ],
-      "classification_summary": "发文主体：国务院国资委；标的及业务品种：综合业务；客户主体：中央企业；资金来源：国资及财政资金、跨境资金；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 7
+      "classification_summary": "发文主体：国务院国资委；客户主体：中央企业；资金来源：国资及财政资金、跨境资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_5685fdd1b0505f270fdcba82",
@@ -5279,23 +5426,25 @@
         "财政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "党政机关",
-        "事业单位"
+        "事业单位",
+        "科研院所",
+        "高等院校"
       ],
       "funding_sources": [
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：党政机关、事业单位；资金来源：国资及财政资金",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：财政部；客户主体：党政机关、事业单位、科研院所、高等院校；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_1a6b634b3b17682684454fdf",
@@ -5306,9 +5455,7 @@
         "财政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "事业单位"
       ],
@@ -5316,11 +5463,13 @@
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：事业单位；资金来源：国资及财政资金",
+      "classification_summary": "发文主体：财政部；客户主体：事业单位；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控",
       "classification_evidence_count": 4
     },
     {
@@ -5332,9 +5481,7 @@
         "财政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "事业单位"
       ],
@@ -5342,11 +5489,13 @@
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：事业单位；资金来源：国资及财政资金",
+      "classification_summary": "发文主体：财政部；客户主体：事业单位；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控",
       "classification_evidence_count": 4
     },
     {
@@ -5357,7 +5506,10 @@
       "authority_groups": [
         "人社部"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
@@ -5375,8 +5527,8 @@
       "client_entity_groups": [
         "保险信托类"
       ],
-      "classification_summary": "发文主体：人社部；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_b286ab7f452211fbb2b04002",
@@ -5400,9 +5552,7 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
+      "client_entity_groups": [],
       "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 6
     },
@@ -5416,22 +5566,25 @@
         "人社部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
-        "养老金管理机构"
+        "养老金管理机构",
+        "普通非金融企业"
       ],
       "funding_sources": [
         "社保养老资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
-      "client_entity_groups": [
-        "保险信托类"
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
       ],
-      "classification_summary": "发文主体：财政部、人社部；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金",
-      "classification_evidence_count": 5
+      "client_entity_groups": [
+        "保险信托类",
+        "企业及国资类"
+      ],
+      "classification_summary": "发文主体：财政部、人社部；客户主体：养老金管理机构、普通非金融企业；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_0b24a41b849631820a003b44",
@@ -5440,8 +5593,8 @@
       "official_url": "https://neris.csrc.gov.cn/falvfagui/rdqsHeader/mainbody?navbarId=3&secFutrsLawId=f488783f23b64ac7ab75747210d5024f&body=",
       "authority_groups": [
         "证监会",
-        "人社部",
-        "国家金融监督管理总局"
+        "国家金融监督管理总局",
+        "人社部"
       ],
       "trading_venues": [
         "场外",
@@ -5451,7 +5604,14 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "养老金管理机构"
+        "证券公司",
+        "证券公司资管子公司",
+        "基金管理公司",
+        "商业银行",
+        "保险资产管理公司",
+        "信托公司",
+        "养老金管理机构",
+        "普通非金融企业"
       ],
       "funding_sources": [
         "社保养老资金"
@@ -5463,10 +5623,13 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "保险信托类"
+        "证券基金类",
+        "银行类",
+        "保险信托类",
+        "企业及国资类"
       ],
-      "classification_summary": "发文主体：证监会、人社部、国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：养老金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：证监会、国家金融监督管理总局、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、证券公司资管子公司、基金管理公司、商业银行、保险资产管理公司、信托公司、养老金管理机构、普通非金融企业；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 18
     },
     {
       "document_id": "doc_5f55756c520aba6de66edaa9",
@@ -5486,13 +5649,12 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
+        "市场交易行为",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 4
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_713a3efe8637186c9944fff2",
@@ -5513,7 +5675,9 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "社保基金管理机构"
+        "社保基金管理机构",
+        "境外银行",
+        "境外基金"
       ],
       "funding_sources": [
         "社保养老资金",
@@ -5521,15 +5685,15 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "公共科研及社会组织"
+        "公共科研及社会组织",
+        "境外主体"
       ],
-      "classification_summary": "发文主体：人民银行、外汇局、财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金、跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 13
+      "classification_summary": "发文主体：人民银行、外汇局、财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构、境外银行、境外基金；资金来源：社保养老资金、跨境资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 14
     },
     {
       "document_id": "doc_f3e129aca0be5146ad6df920",
@@ -5548,6 +5712,8 @@
         "综合业务"
       ],
       "client_entity_types": [
+        "基金管理公司",
+        "商业银行",
         "社保基金管理机构"
       ],
       "funding_sources": [
@@ -5555,14 +5721,14 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "证券基金类",
+        "银行类",
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：基金管理公司、商业银行、社保基金管理机构；资金来源：社保养老资金；涉及交易行为监管：风险控制措施",
       "classification_evidence_count": 10
     },
     {
@@ -5573,7 +5739,10 @@
       "authority_groups": [
         "国务院"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
@@ -5591,8 +5760,8 @@
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国务院；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_b856e444bd5981dd572c6592",
@@ -5613,13 +5782,12 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
+        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、风险控制措施",
-      "classification_evidence_count": 5
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_f379ed43c4cb26f83637c1f9",
@@ -5633,19 +5801,17 @@
         "场外"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为"
+        "市场交易行为",
+        "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类、信用类；涉及交易行为监管：市场交易行为",
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：信用类；涉及交易行为监管：市场交易行为、风险控制措施",
       "classification_evidence_count": 5
     },
     {
@@ -5670,9 +5836,7 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
+      "client_entity_groups": [],
       "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 6
     },
@@ -5693,12 +5857,13 @@
       "client_entity_types": [],
       "funding_sources": [],
       "product_vehicles": [],
-      "conduct_categories": [],
-      "client_entity_groups": [
-        "银行类"
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
       ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类",
-      "classification_evidence_count": 3
+      "client_entity_groups": [],
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_51b7bf8c8a0bea8fd0e996d8",
@@ -5744,31 +5909,38 @@
         "国家金融监督管理总局",
         "外汇局"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
-        "商业银行",
-        "信托公司",
         "证券公司",
         "基金管理公司",
         "期货公司",
-        "保险资产管理公司"
+        "商业银行",
+        "保险资产管理公司",
+        "信托公司"
       ],
       "funding_sources": [],
       "product_vehicles": [
-        "理财",
-        "信托",
         "资管"
       ],
       "conduct_categories": [
+        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证监会、人民银行、国家金融监督管理总局、外汇局；标的及业务品种：综合业务；客户主体：商业银行、信托公司、证券公司、基金管理公司、期货公司、保险资产管理公司；产品载体：理财、信托、资管；涉及交易行为监管：机构交易内控、风险控制措施",
-      "classification_evidence_count": 16
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类",
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：证监会、人民银行、国家金融监督管理总局、外汇局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、期货公司、商业银行、保险资产管理公司、信托公司；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 17
     },
     {
       "document_id": "doc_4eac63d1b911cf67e7824c5d",
@@ -5776,36 +5948,36 @@
       "issuing_authority": "中国人民银行办公厅（经人民银行、银保监会、证监会共同研究）",
       "official_url": "https://www.csrc.gov.cn/beijing/c103561/c1048448/content.shtml",
       "authority_groups": [
-        "证监会",
-        "人民银行",
-        "国家金融监督管理总局"
+        "人民银行"
       ],
       "trading_venues": [],
       "underlying_business_types": [
-        "权益类",
-        "利率及债券类"
+        "综合业务"
       ],
       "client_entity_types": [
-        "政策性银行",
-        "商业银行",
         "证券公司",
         "基金管理公司",
         "私募基金管理人",
         "期货公司",
+        "商业银行",
+        "政策性银行",
         "保险资产管理公司"
       ],
       "funding_sources": [],
       "product_vehicles": [
-        "理财",
-        "信托",
         "资管"
       ],
       "conduct_categories": [
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：证监会、人民银行、国家金融监督管理总局；标的及业务品种：权益类、利率及债券类；客户主体：政策性银行、商业银行、证券公司、基金管理公司、私募基金管理人、期货公司、保险资产管理公司；产品载体：理财、信托、资管；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 16
+      "client_entity_groups": [
+        "证券基金类",
+        "期货类",
+        "银行类",
+        "保险信托类"
+      ],
+      "classification_summary": "发文主体：人民银行；标的及业务品种：综合业务；客户主体：证券公司、基金管理公司、私募基金管理人、期货公司、商业银行、政策性银行、保险资产管理公司；产品载体：资管；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 11
     },
     {
       "document_id": "doc_375c9616a6d51bdc6337187f",
@@ -5821,7 +5993,10 @@
       "underlying_business_types": [
         "利率及债券类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "境外企业",
+        "港澳机构"
+      ],
       "funding_sources": [
         "跨境资金"
       ],
@@ -5830,11 +6005,10 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "银行类",
         "境外主体"
       ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；资金来源：跨境资金；涉及交易行为监管：风险控制措施",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类；客户主体：境外企业、港澳机构；资金来源：跨境资金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_220c32bfdf75afb9ebcf349e",
@@ -5843,8 +6017,8 @@
       "official_url": "https://m.safe.gov.cn/safe/2006/0417/22172.html",
       "authority_groups": [
         "人民银行",
-        "外汇局",
-        "国家金融监督管理总局"
+        "国家金融监督管理总局",
+        "外汇局"
       ],
       "trading_venues": [
         "场外",
@@ -5870,7 +6044,7 @@
       "client_entity_groups": [
         "银行类"
       ],
-      "classification_summary": "发文主体：人民银行、外汇局、国家金融监督管理总局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行；资金来源：跨境资金；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：人民银行、国家金融监督管理总局、外汇局；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行；资金来源：跨境资金；产品载体：理财；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 12
     },
     {
@@ -5889,7 +6063,8 @@
         "综合业务"
       ],
       "client_entity_types": [
-        "社保基金管理机构",
+        "商业银行",
+        "养老金管理机构",
         "社保经办机构"
       ],
       "funding_sources": [
@@ -5897,14 +6072,15 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "银行类",
+        "保险信托类",
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：国务院；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：社保基金管理机构、社保经办机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：国务院；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：商业银行、养老金管理机构、社保经办机构；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
       "classification_evidence_count": 10
     },
     {
@@ -5916,9 +6092,7 @@
         "国务院"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "基金会"
       ],
@@ -5926,11 +6100,13 @@
         "慈善捐赠资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：基金会；资金来源：慈善捐赠资金",
+      "classification_summary": "发文主体：国务院；客户主体：基金会；资金来源：慈善捐赠资金；涉及交易行为监管：机构交易内控",
       "classification_evidence_count": 4
     },
     {
@@ -5942,13 +6118,9 @@
         "人民银行",
         "外汇局"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
-        "综合业务",
-        "外汇类"
+        "综合业务"
       ],
       "client_entity_types": [
         "QFII/RQFII"
@@ -5958,15 +6130,13 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "境外主体"
       ],
-      "classification_summary": "发文主体：人民银行、外汇局；交易场所：场外、场内；标的及业务品种：综合业务、外汇类；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：人民银行、外汇局；标的及业务品种：综合业务；客户主体：QFII/RQFII；资金来源：跨境资金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_1d7fca193500993b44f90061",
@@ -5990,12 +6160,14 @@
       "product_vehicles": [],
       "conduct_categories": [
         "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、风险控制措施",
+      "classification_evidence_count": 7
     },
     {
       "document_id": "doc_bf03114b812584bb9fef5f89",
@@ -6022,7 +6194,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -6051,7 +6226,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -6080,7 +6258,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -6090,13 +6271,11 @@
       "issuing_authority": "民政部、中国银行业监督管理委员会",
       "official_url": "https://mzt.ln.gov.cn/mzt/hdzl/cssyzl/2024032810280039799/index.shtml",
       "authority_groups": [
-        "民政部",
-        "国家金融监督管理总局"
+        "国家金融监督管理总局",
+        "民政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "信托公司",
         "慈善组织"
@@ -6108,7 +6287,6 @@
         "信托"
       ],
       "conduct_categories": [
-        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
@@ -6116,8 +6294,8 @@
         "保险信托类",
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：民政部、国家金融监督管理总局；标的及业务品种：综合业务；客户主体：信托公司、慈善组织；资金来源：慈善捐赠资金；产品载体：信托；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 10
+      "classification_summary": "发文主体：国家金融监督管理总局、民政部；客户主体：信托公司、慈善组织；资金来源：慈善捐赠资金；产品载体：信托；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_26df8e17ec229f048edfea42",
@@ -6137,19 +6315,15 @@
       "funding_sources": [
         "慈善捐赠资金"
       ],
-      "product_vehicles": [
-        "资管"
-      ],
+      "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：民政部；标的及业务品种：综合业务；客户主体：慈善组织；资金来源：慈善捐赠资金；产品载体：资管；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "classification_summary": "发文主体：民政部；标的及业务品种：综合业务；客户主体：慈善组织；资金来源：慈善捐赠资金；涉及交易行为监管：风险控制措施",
+      "classification_evidence_count": 5
     },
     {
       "document_id": "doc_c82aab6879ee4281585c8fcb",
@@ -6161,9 +6335,7 @@
         "人社部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "社保经办机构"
       ],
@@ -6171,12 +6343,15 @@
         "社保养老资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控",
+        "风险控制措施"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部、人社部；标的及业务品种：综合业务；客户主体：社保经办机构；资金来源：社保养老资金",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：财政部、人社部；客户主体：社保经办机构；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_d5e5e05217da1bbf1d708692",
@@ -6217,10 +6392,9 @@
         "财政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
+        "事业单位",
         "科研院所"
       ],
       "funding_sources": [
@@ -6228,12 +6402,14 @@
         "科研事业单位资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：科研院所；资金来源：国资及财政资金、科研事业单位资金",
-      "classification_evidence_count": 5
+      "classification_summary": "发文主体：财政部；客户主体：事业单位、科研院所；资金来源：国资及财政资金、科研事业单位资金；涉及交易行为监管：机构交易内控",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_eb9d2cc7dad6f0f841f84673",
@@ -6244,15 +6420,14 @@
         "财政部",
         "人社部"
       ],
-      "trading_venues": [
-        "场外",
-        "场内"
-      ],
+      "trading_venues": [],
       "underlying_business_types": [
         "综合业务"
       ],
       "client_entity_types": [
+        "商业银行",
         "养老金管理机构",
+        "事业单位",
         "社保经办机构"
       ],
       "funding_sources": [
@@ -6260,16 +6435,16 @@
       ],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
         "机构交易内控",
         "风险控制措施"
       ],
       "client_entity_groups": [
+        "银行类",
         "保险信托类",
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部、人社部；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：养老金管理机构、社保经办机构；资金来源：社保养老资金；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 11
+      "classification_summary": "发文主体：财政部、人社部；标的及业务品种：综合业务；客户主体：商业银行、养老金管理机构、事业单位、社保经办机构；资金来源：社保养老资金；涉及交易行为监管：机构交易内控、风险控制措施",
+      "classification_evidence_count": 10
     },
     {
       "document_id": "doc_9360e2fa8f5624cb054b4077",
@@ -6280,9 +6455,7 @@
         "国务院"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "党政机关",
         "事业单位"
@@ -6291,11 +6464,13 @@
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：党政机关、事业单位；资金来源：国资及财政资金",
+      "classification_summary": "发文主体：国务院；客户主体：党政机关、事业单位；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控",
       "classification_evidence_count": 5
     },
     {
@@ -6307,9 +6482,7 @@
         "财政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "党政机关"
       ],
@@ -6317,11 +6490,13 @@
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：党政机关；资金来源：国资及财政资金",
+      "classification_summary": "发文主体：财政部；客户主体：党政机关；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控",
       "classification_evidence_count": 4
     },
     {
@@ -6333,9 +6508,7 @@
         "财政部"
       ],
       "trading_venues": [],
-      "underlying_business_types": [
-        "综合业务"
-      ],
+      "underlying_business_types": [],
       "client_entity_types": [
         "党政机关"
       ],
@@ -6343,11 +6516,13 @@
         "国资及财政资金"
       ],
       "product_vehicles": [],
-      "conduct_categories": [],
+      "conduct_categories": [
+        "机构交易内控"
+      ],
       "client_entity_groups": [
         "公共科研及社会组织"
       ],
-      "classification_summary": "发文主体：财政部；标的及业务品种：综合业务；客户主体：党政机关；资金来源：国资及财政资金",
+      "classification_summary": "发文主体：财政部；客户主体：党政机关；资金来源：国资及财政资金；涉及交易行为监管：机构交易内控",
       "classification_evidence_count": 4
     },
     {
@@ -6358,7 +6533,10 @@
       "authority_groups": [
         "国务院"
       ],
-      "trading_venues": [],
+      "trading_venues": [
+        "场外",
+        "场内"
+      ],
       "underlying_business_types": [
         "综合业务"
       ],
@@ -6375,8 +6553,8 @@
       "client_entity_groups": [
         "证券基金类"
       ],
-      "classification_summary": "发文主体：国务院；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：国务院；交易场所：场外、场内；标的及业务品种：综合业务；客户主体：证券公司；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 8
     },
     {
       "document_id": "doc_14a4e286fdc9890ecdf9426a",
@@ -6399,13 +6577,14 @@
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
-        "市场交易行为",
-        "机构交易内控",
-        "风险控制措施"
+        "市场交易行为"
       ],
-      "client_entity_groups": [],
-      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 8
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
+      "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为",
+      "classification_evidence_count": 6
     },
     {
       "document_id": "doc_2bdeee90c511b82a5f292857",
@@ -6432,7 +6611,10 @@
         "机构交易内控",
         "风险控制措施"
       ],
-      "client_entity_groups": [],
+      "client_entity_groups": [
+        "期货类",
+        "境外主体"
+      ],
       "classification_summary": "发文主体：期货交易所；交易场所：场内；标的及业务品种：商品类；客户主体：期货公司、境外交易者及境外经纪机构；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 8
     },
@@ -6456,9 +6638,7 @@
       "conduct_categories": [
         "市场交易行为"
       ],
-      "client_entity_groups": [
-        "银行类"
-      ],
+      "client_entity_groups": [],
       "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：外汇类；涉及交易行为监管：市场交易行为",
       "classification_evidence_count": 4
     },
@@ -6474,10 +6654,11 @@
         "场外"
       ],
       "underlying_business_types": [
-        "利率及债券类",
         "信用类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "普通非金融企业"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
@@ -6486,9 +6667,9 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "银行类"
+        "企业及国资类"
       ],
-      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：利率及债券类、信用类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_summary": "发文主体：银行间市场机构；交易场所：场外；标的及业务品种：信用类；客户主体：普通非金融企业；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
       "classification_evidence_count": 7
     },
     {
@@ -6505,7 +6686,9 @@
       "underlying_business_types": [
         "利率及债券类"
       ],
-      "client_entity_types": [],
+      "client_entity_types": [
+        "普通非金融企业"
+      ],
       "funding_sources": [],
       "product_vehicles": [],
       "conduct_categories": [
@@ -6514,10 +6697,10 @@
         "风险控制措施"
       ],
       "client_entity_groups": [
-        "银行类"
+        "企业及国资类"
       ],
-      "classification_summary": "发文主体：人民银行；交易场所：场外；标的及业务品种：利率及债券类；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
-      "classification_evidence_count": 6
+      "classification_summary": "发文主体：人民银行；交易场所：场外；标的及业务品种：利率及债券类；客户主体：普通非金融企业；涉及交易行为监管：市场交易行为、机构交易内控、风险控制措施",
+      "classification_evidence_count": 7
     }
   ]
 }

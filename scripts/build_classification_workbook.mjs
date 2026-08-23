@@ -6,8 +6,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const root = path.resolve(import.meta.dirname, "..");
-const outputPath = path.join(root, "更新的法规", "场外衍生品法规分类与证据_20260724.xlsx");
-const previewDir = path.join(root, "output", "spreadsheet_previews");
+const outputPath = path.join(root, "deliverables", "场外衍生品法规分类与证据_20260727.xlsx");
+const previewDir = path.join(root, ".cache", "spreadsheet_previews");
 const classificationPath = path.join(root, "data", "metadata", "viewer_legacy_7d_classifications.json");
 const evidencePath = path.join(root, "data", "metadata", "viewer_legacy_7d_evidence.jsonl");
 const catalogPath = path.join(root, "data", "metadata", "regulations.jsonl");
