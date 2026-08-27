@@ -2085,7 +2085,7 @@ const BUSINESS_ORDER=['场外衍生品','场外期权','收益互换','收益凭
 function businessValues(d){return uniq(d.business_categories||[])}
 const TOPIC_ORDER=['业务准入','交易管理','产品运作','投资范围与持仓','估值定价','保证金与清算','信息披露与报送','内控与利益冲突','风险管理','投资者适当性与保护','监督检查与处罚','跨境投资与互联','程序化与异常交易'];
 function topicValues(d){return uniq(d.regulatory_topics||[])}
-const state={activeId:null,leftQuery:'',globalQuery:'',filters:{authority:new Set(),entity:new Set(),business:new Set(),topic:new Set()},readerQuery:'',readerIndex:0,currentPage:1,pageSize:7,sidebarOpen:false};
+const state={activeId:null,leftQuery:'',globalQuery:'',filters:{authority:new Set(),entity:new Set(),business:new Set(),topic:new Set()},readerQuery:'',readerIndex:0,currentPage:1,pageSize:8,sidebarOpen:false};
 const DIMENSIONS=[
  {key:'authority',label:'发文主体',get:d=>[groupedAuthority(d)],order:AUTHORITY_ORDER},
  {key:'entity',label:'适用对象',get:entityValues,order:ENTITY_ORDER},

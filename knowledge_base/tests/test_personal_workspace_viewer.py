@@ -24,6 +24,16 @@ class PersonalWorkspaceViewerTests(unittest.TestCase):
         self.assertNotIn("label:'交易场所'", dimensions)
         self.assertNotIn("label:'客户主体'", dimensions)
 
+    def test_regulation_cards_do_not_render_classification_tags(self):
+        self.assertNotIn('class="classification-tags"', self.html)
+        self.assertNotIn('class="classification-tag"', self.html)
+        self.assertNotIn("function compactTags", self.javascript)
+        self.assertNotIn("function cardTags", self.javascript)
+
+    def test_regulation_list_uses_eight_items_per_page(self):
+        self.assertIn("pageSize:8", self.javascript)
+        self.assertNotIn("pageSize:7", self.javascript)
+
     def test_word_workspace_contract_is_present(self):
         for token in (
             'id="reader-document" contenteditable="true"',

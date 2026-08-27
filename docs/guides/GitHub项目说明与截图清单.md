@@ -47,7 +47,7 @@ docs/assets/github/               建议新增的正式 README 截图
 | 02 | `02-question-confirmation.png` | README“先确认问题” | Agent 如何把口语问题整理后交给用户确认？ |
 | 03 | `03-retrieval-progress.png` | README“混合检索” | 用户能否看到 BM25、向量、RRF 和证据阅读过程？ |
 | 04 | `04-answer-and-sources.png` | README“回答与法规依据” | 回答和右侧完整法规原文如何对应？ |
-| 05 | `05-regulation-viewer.png` | README“知识库” | 216 份法规和 Chunk 如何浏览、筛选和核对？ |
+| 05 | `05-regulation-viewer.png` | README“知识库” | 216 份法规（每页8部）和 Chunk 如何浏览、按发文主体/收藏筛选和核对？ |
 | 06 | `06-badcase-wiki.png` | 详细文档 | 用户反馈如何进入 Badcase，Know-how 如何确认后写入 Wiki？ |
 | 07 | `07-chunk-and-formula.png` | 详细文档 | 条款边界、表格和公式如何保真展示？ |
 

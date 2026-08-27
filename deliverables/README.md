@@ -7,5 +7,5 @@
 - `全部法规list_20260723.xlsx`：法规目录清单；
 - `使用说明.docx`：本地阅读、收藏、编辑和批注说明。
 
-法规原件、结构化正文、Chunk和检索索引分别保存在`data/raw/`、`data/processed/`和`data/index/`，不与交付文件混放。
+法规原件、结构化正文、Chunk和检索索引分别存放在`data/raw/`、`data/processed/`和`data/index/`，交付文件集中在本目录。
 七维分类的机器可读映射和逐条证据保存在`data/metadata/`，与本Excel共同构成可追溯参考。
